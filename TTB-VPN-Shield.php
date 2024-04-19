@@ -313,7 +313,7 @@
                                 </div>
                                 <div class="py-4 border-0 pricing-header">
                                     <div class="price text-center mb-0 monthly-price color-secondary"
-                                        style="display: block; color:#000; !Im">$19<sub>.99</sub></div>
+                                        style="display: block; color:#000; !Important;">$19<sub>.99</sub></div>
                                     <div class="price text-center mb-0 yearly-price color-secondary"
                                         style="display: none;">
                                         $69<span>.99</span></div>
@@ -343,7 +343,7 @@
                                 </div>
                                 <div class="py-4 border-0 pricing-header">
                                     <div class="price text-center mb-0 monthly-price"
-                                        style="display: block; color:#000;">$20<span>.99</span></div>
+                                        style="display: block; color:#000; !Important;">$20<span>.99</span></div>
                                     <div class="price text-center mb-0 yearly-price color-secondary"
                                         style="display: none;">
                                         $159<span>.99</span></div>
@@ -371,7 +371,7 @@
                                 </div>
                                 <div class="py-4 border-0 pricing-header">
                                     <div class="price text-center mb-0 monthly-price color-secondary"
-                                        style="display: block; color:#000;">$21<span>.99</span></div>
+                                        style="display: block;  color:#000; !Important;">$21<span>.99</span></div>
                                     <div class="price text-center mb-0 yearly-price color-secondary"
                                         style="display: none;">
                                         $259<span>.99</span></div>
@@ -405,7 +405,7 @@
                                 </div>
                                 <div class="py-4 border-0 pricing-header">
                                     <div class="price text-center mb-0 monthly-price color-secondary"
-                                        style="display: block; color:#000;">$22<span>.99</span></div>
+                                        style="display: block;  color:#000; !Important;">$22<span>.99</span></div>
                                     <div class="price text-center mb-0 yearly-price color-secondary"
                                         style="display: none;">
                                         $259<span>.99</span></div>
@@ -435,7 +435,7 @@
                                 </div>
                                 <div class="py-4 border-0 pricing-header">
                                     <div class="price text-center mb-0 monthly-price color-secondary"
-                                        style="display: block; color:#000;">$23<span>.99</span></div>
+                                        style="display: block;  color:#000; !Important;">$23<span>.99</span></div>
                                     <div class="price text-center mb-0 yearly-price color-secondary"
                                         style="display: none;">
                                         $259<span>.99</span></div>
