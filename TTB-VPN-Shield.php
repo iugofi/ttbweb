@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TTB VPN Shield</title>
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
@@ -12,6 +12,14 @@
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+        
+    <script>
+        $(document).ready(function(){
+            $("#darkmode").click(function(){
+                $("body").toggleClass("dark-mode");
+            });
+        });
+    </script>
 </head>
 <?php 
  include("include/header.php"); 
@@ -19,6 +27,10 @@
 
 
 <body>
+<button id="darkmode">Toggle Dark Mode</button>
+    <div id="content">
+        <!-- Your content here -->
+    </div>
 
 
     <!--hero section start-->
@@ -301,7 +313,7 @@
                                 </div>
                                 <div class="py-4 border-0 pricing-header">
                                     <div class="price text-center mb-0 monthly-price color-secondary"
-                                        style="display: block; color:#000;">$19<span>.99</span></div>
+                                        style="display: block; color:#000; !Im">$19<sub>.99</sub></div>
                                     <div class="price text-center mb-0 yearly-price color-secondary"
                                         style="display: none;">
                                         $69<span>.99</span></div>
@@ -313,9 +325,9 @@
                                     <ul class="list-unstyled mb-4 pricing-feature-list">
                                         <li><span>Limited</span> access for a month</li>
                                         <li><span>15</span> customize sub page</li>
-                                        <li class="text-deem"><span>105</span> disk space</li>
-                                        <li class="text-deem"><span>3</span> domain access</li>
-                                        <li class="text-deem">24/7 phone support</li>
+                                        <li><span>120</span> disk space</li>
+                                        <li><span>5</span> domain access</li>
+                                        <li>24/7 phone support</li>
                                     </ul>
                                     <a href="#" class="btn btn-outline-brand-02 btn-rounded mb-3"
                                         target="_blank">Purchase
@@ -343,9 +355,9 @@
                                     <ul class="list-unstyled mb-4 pricing-feature-list">
                                         <li><span>Unlimited</span> access for a month</li>
                                         <li><span>25</span> customize sub page</li>
-                                        <li><span>150</span> disk space</li>
-                                        <li class="text-deem"><span>5</span> domain access</li>
-                                        <li class="text-deem">24/7 phone support</li>
+                                        <li><span>120</span> disk space</li>
+                                        <li><span>5</span> domain access</li>
+                                        <li>24/7 phone support</li>
                                     </ul>
                                     <a href="#" class="btn btn-brand-02 btn-rounded mb-3" target="_blank">Purchase
                                         now</a>
