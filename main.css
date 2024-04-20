@@ -22807,8 +22807,8 @@ a.btn.btn-brand-02.btn-rounded.mb-3:hover {
 
 /* line 38, src/assets/scss/components/hero-section/_hero-13.scss */
 .hero-animated-card-3 {
-  right: 12%;
-  top: 17%;
+  right: 18%;
+  top: 23%;
   -webkit-animation: move-up-down 4s ease-in-out 3s infinite;
           animation: move-up-down 4s ease-in-out 3s infinite;
 }

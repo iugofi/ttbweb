@@ -78,7 +78,7 @@
                                     </div>
                                 </div>
                                 <div class="position-absolute hero-animated-card-3">
-                                    <img src="assets/img/Shape-1.png" alt="shape" width="110px" height="90px">
+                                    <img src="assets/img/Shape-1.png" alt="shape" width="40px" height="90px">
                                 </div>
                                 <div
                                     class="position-absolute p-4 w-75 rounded-custom d-flex secondary-bg hero-animated-card-2">
