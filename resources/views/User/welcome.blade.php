@@ -19,7 +19,7 @@
 
         <!-- Start::Home Content -->
         <div class="landing-banner" id="home">
-            <section class="section">
+            <section class="section sect-ban">
                 <div class="container main-banner-container">
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 col-span-12">
