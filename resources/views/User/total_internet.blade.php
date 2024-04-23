@@ -44,13 +44,13 @@
 
          <!-- Start::second Content -->
          <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] third-back internet2-section">
-            <div class="animated-shape-wrap">
+            {{-- <div class="animated-shape-wrap">
                 <div class="animated-shape-item"></div>
                 <div class="animated-shape-item"></div>
                 <div class="animated-shape-item"></div>
                 <div class="animated-shape-item"></div>
                 <div class="animated-shape-item"></div>
-            </div>
+            </div> --}}
             <div class="container main-banner-container">
                 <div class="grid grid-cols-12 gap-6">
                     <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 col-span-12">
