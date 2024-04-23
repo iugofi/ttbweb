@@ -130,7 +130,7 @@
                                                             class="ri-checkbox-circle-line text-[.9375rem] text-[#8c9097] dark:text-white/50 opacity-[0.3]"></i>
                                                     </span>
                                                     <span>
-                                                        Chat Support 
+                                                        Chat Support   
                                                     </span>
                                                 </li>
                                                 <li class="grid">
