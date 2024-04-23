@@ -41131,7 +41131,12 @@ img.img-fluid.service-icon {
     flex: 1;
     padding: 0 0 0 22px;
 }
-
+.box.text-center:hover {
+    background: #13D8AA;
+}
+.box.text-center:hover h6, p {
+    color: #fff;
+}
 
 
 

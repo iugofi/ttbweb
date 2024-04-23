@@ -156,8 +156,7 @@
                                 <div class="mb-2">
                                     <span class="avatar avatar-md">
                                         <img src="assets/img/Green-icon-3.png" alt="img" class="!rounded-md">
-    
-                                    </span>
+                                    </span> 
                                 </div>
                                 <h6 class="box-title font-semibold mb-2">Why do we use it?</h6>
                                 <p class="card-text mb-4">Many desktop publishing packages and <br> web page editors
