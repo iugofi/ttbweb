@@ -41041,7 +41041,7 @@ img.img-fluid.service-icon {
 #totel-internet-security div#internet-security {
     position: relative;
     top: 0px;
-    height: 53rem;
+    height: 43.5rem;
     width: 100%;
     background-image: url(/assets/img/Banner-BG.jpg);
     background-size: cover;
@@ -41055,7 +41055,16 @@ img.img-fluid.service-icon {
 
 
 
+@media (min-width: 320px) and (max-width: 767px) {
 
+    div#internet-security .landing-main-image {
+        display: block;
+    }
+    #totel-internet-security div#internet-security {
+        height: 54rem;
+    }
+
+}
 
 
 /* End totel-internet-security page */
