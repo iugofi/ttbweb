@@ -33740,9 +33740,7 @@ select {
     color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 .avatar img {
-    height: 100%;
-    width: 100%;
-    border-radius: 0.5rem;
+    max-width: 80px;
 }
 .avatar .avatar-rounded {
     border-radius: 9999px !important;
@@ -41060,6 +41058,76 @@ img.img-fluid.service-icon {
 }
 .internet2-section {
     background-image: none;
+}
+.section-two-icon .d-flex.align-items-center {
+    display: flex;
+    align-items: center;
+}
+.section-two-icon .process-icon.mr-4 {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background-color: #fff;
+    height: 6.75rem;
+    width: 6.75rem;
+    line-height: 1;
+    border-radius: 50%;
+    box-shadow: 0 0 2.1875rem 0 rgba(119, 119, 120, 0.13);
+    transition: all 0.5s ease-in-out;
+    margin: 0 2rem;
+}
+.section-two-icon i.fas {
+    font-size: 32px;
+    color: #13D8AA;
+}
+.section-two-icon .process-content {
+    text-align: left;
+    -webkit-box-flex: 1;
+    flex: 1;
+    padding: 0 12px 0 0;
+}
+/* .section-two-icon .right-shape .d-flex.align-items-center .text-left {
+    text-align: end;
+    -webkit-box-flex: 1;
+    flex: 1;
+} */
+.section-two-icon svg {
+    left: 50%;
+    transform: translateX(36%);
+    top: 80%;
+}
+
+.section-two-icon .right-shape .d-flex.align-items-center {
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: reverse !important;
+    flex-direction: row-reverse !important;
+}
+.section-two-icon .right-shape .process-icon.ml-4 {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background-color: #fff;
+    height: 6.75rem;
+    width: 6.75rem;
+    line-height: 1;
+    border-radius: 50%;
+    box-shadow: 0 0 2.1875rem 0 rgba(119, 119, 120, 0.13);
+    transition: all 0.5s ease-in-out;
+    margin: 0 2rem;
+}
+.section-two-icon .right-shape .d-flex.align-items-center .text-right {
+    text-align: end;
+    -webkit-box-flex: 1;
+    flex: 1;
+    padding: 0 0 0 22px;
 }
 
 
