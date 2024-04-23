@@ -1,4 +1,4 @@
-@extends('User.layouts.layout')
+@extends('User.Layouts.layout')
 
 @section('title', 'Download The Best TTB VPN Shield for macOS - TTB Antivirus')
 

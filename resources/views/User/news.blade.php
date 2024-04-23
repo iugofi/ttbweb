@@ -1,4 +1,4 @@
-@extends('User.layouts.layout')
+@extends('User.Layouts.layout')
 
 @section('title', 'News')
 @section('Description', 'klp dgf')
