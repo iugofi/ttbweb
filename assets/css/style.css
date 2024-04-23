@@ -41062,8 +41062,8 @@ img.img-fluid.service-icon {
     div#internet-security .landing-main-image {
         display: block;
     }
-    #totel-internet-security div#internet-security {
-        height: 54rem !important;
+    #internet-security .landing-main-image {
+        display: block;
     }
 
 }
