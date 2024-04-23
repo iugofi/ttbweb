@@ -11606,6 +11606,7 @@ h6 {
     padding-bottom: 3.375rem;
     padding-left: 0px;
     padding-right: 0px;
+    margin-top: 6rem;
 }
 [data-nav-layout="horizontal"] .landing-body .featur-icon {
     margin-top: 0px;
@@ -41021,8 +41022,6 @@ img.img-fluid.service-icon {
   .animated-shape-wrap .animated-shape-item:nth-child(5):after {
     left: -6px;
   }
-
-
   .animated-shape-wrap {
   position: absolute;
   top: 0;
@@ -41031,3 +41030,20 @@ img.img-fluid.service-icon {
   width: 100%;
   overflow: hidden;
 }
+
+
+
+
+/* 23-04-2024 kulvinder verma for totel-internet-security page */
+
+
+
+
+
+
+
+
+
+
+
+/* End totel-internet-security page */
