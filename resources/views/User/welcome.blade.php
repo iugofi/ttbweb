@@ -195,7 +195,7 @@
 
 
         <section
-            class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
+            class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 sect-five"
             id="statistics">
             <div class="container text-center relative">
                 {{-- <p class="text-[0.75rem] font-semibold text-success mb-1"><span
