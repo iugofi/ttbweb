@@ -1,4 +1,4 @@
-@extends('User.Layouts.layout')
+@extends('User.layouts.layout')
 
 @section('title', 'TTB')
 
@@ -24,29 +24,26 @@
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 col-span-12">
                             <div class="lg:py-[3rem]">
-                                <p class="landing-banner-heading mb-4 opacity-[0.9]"><span class="first-color">Lorem ipsum
-                                        dolor sit amet.</span>Your sure stop place for best theme
-                                    ends here with</p>
-                                <div class="text-[1rem] mb-[3rem] text-black opacity-[0.9] dark-text">ynex - Now you can use
-                                    this
-                                    admin template to design stunning dashboards that will wow your target viewers or users
-                                    to no end.</div>
+                                <p class="landing-banner-heading mb-4 opacity-[0.9] pt-5"><span class="first-color">Robust Threat</span> Protection and Security Framework</p>
+                                <div class="text-[1rem] mb-[1.3rem] text-black-light opacity-[0.9] dark-text">Holisticly procrastinate mission-critical convergence with reliable customer service. Assertively underwhelm idea-sharing for impactful solutions.
+                                </div><div class="text-[1rem] mb-[1.3rem] text-black-light opacity-[0.9] dark-text">Assertively underwhelm idea-sharing for impactful solutions.
+                                </div>
                                 <a href="index.html" class="m-1 ti-btn ti-btn-primary-full">
-                                    View Demos
-                                    <i class="ri-eye-line ms-2 align-middle"></i>
+                                    Download Now
+                                    {{-- <i class="ri-download-cloud-2-fill ms-2 align-middle"></i> --}}
+                                    <i class='bx bxs-cloud-download icon-hm'></i>
                                 </a>
+                                <a href="#" class="popup-youtube btn btn-white btn-circle btn-icon"><i class="bx bx-play watch-icon"></i> </a> 
+                                <span class="pl-2 text-black-light wtc-spn"> Watch Now</span>
                             </div>
+                            {{-- <img src="{{ asset('assets/img/icon-img.png') }}" class="img-fluid" width="85%"> --}}
                         </div>
                         <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 col-span-12">
-                            <div class="shap-one"><img src="{{ asset('assets/img/Shape-1.png') }}" alt=""
-                                    class="img-fluid"></div>
-                            <div class="dark-shap-one"><img src="{{ asset('assets/img/Shape-1.png') }}" alt=""
-                                    class="img-fluid"></div>
+                           
                             <div class="text-end landing-main-image landing-heading-img flex justify-end w-full">
-                                <img src="{{ asset('assets/img/section-one-ttb.gif') }}" alt="" class="img-fluid">
+                                <img src="{{ asset('assets/img2/section-one-ttb.gif') }}" alt="" class="img-fluid" width="85%">
                             </div>
-                            <div class="shap-two"><img src="{{ asset('assets/img/Shape-2.png') }}" alt=""
-                                    class="img-fluid"></div>
+                           
                             <div class="dark-shap-two"><img src="{{ asset('assets/img/Shape-2.png') }}" alt=""
                                     class="img-fluid"></div>
                         </div>
@@ -56,13 +53,13 @@
         </div>
         <!-- End::Home Content -->
 
-
+        
         <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]">
-            <div class="container text-center">
+            <div class="container ">
                 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-4">
-                    <div class="col-span-1 mb-4 animat">
+                    <div class="col-span-1 mb-4 ">
                         <div
-                            class="p-10 text-center !rounded-sm bg-white dark:bg-bodybg border box-shadow  dark:border-defaultborder/10">
+                            class="p-7  !rounded-sm bg-white dark:bg-bodybg border box-shadow  dark:border-defaultborder/10">
                             <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
                                 <i class="text-[1.5rem] bx bx-spreadsheet"></i>
                             </span>
@@ -72,9 +69,9 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-span-1 mb-4 animat">
+                    <div class="col-span-1 mb-4 ">
                         <div
-                            class="p-10 text-center !rounded-sm !bg-white dark:!bg-bodybg border box-shadow dark:border-defaultborder/10">
+                            class="p-7  !rounded-sm !bg-white dark:!bg-bodybg border box-shadow dark:border-defaultborder/10">
                             <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
                                 <i class="text-[1.5rem] bx bx-user-plus"></i>
                             </span>
@@ -84,9 +81,9 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-span-1 mb-4 animat">
+                    <div class="col-span-1 mb-4 ">
                         <div
-                            class="p-10 text-center !rounded-sm !bg-white dark:!bg-bodybg border box-shadow dark:border-defaultborder/10">
+                            class="p-7  !rounded-sm !bg-white dark:!bg-bodybg border box-shadow dark:border-defaultborder/10">
                             <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
                                 <i class="text-[1.5rem] bx bx-money"></i>
                             </span>
@@ -96,9 +93,9 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-span-1 mb-4 animat">
+                    <div class="col-span-1 mb-4 ">
                         <div
-                            class="p-10 text-center !rounded-sm !bg-white dark:!bg-bodybg border box-shadow dark:border-defaultborder/10">
+                            class="p-7 !rounded-sm !bg-white dark:!bg-bodybg border box-shadow dark:border-defaultborder/10">
                             <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
                                 <i class="text-[1.5rem] bx bx-money"></i>
                             </span>
@@ -112,32 +109,39 @@
                 </div>
             </div>
         </div>
-
+         
         <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] third-back">
+            <div class="animated-shape-wrap">
+                <div class="animated-shape-item"></div>
+                <div class="animated-shape-item"></div>
+                <div class="animated-shape-item"></div>
+                <div class="animated-shape-item"></div>
+                <div class="animated-shape-item"></div>
+            </div>
             <div class="container main-banner-container">
                 <div class="grid grid-cols-12 gap-6">
                     <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 col-span-12">
                         <div class="lg:py-[3rem]">
-                            <h2 class="landing-banner-heading mb-4 opacity-[0.9]"><span class="mains-color">Smarter
-                                    solutions for threats ever-sophisticated</h2>
-                            <div class="text-[1rem] mb-[3rem] text-black opacity-[0.9] dark-black">Monotonectally impact
+                            <h2 class="landing-banner-heading mb-4 opacity-[0.9]"><span class="dark-black">Smarter
+                                    solutions for threats ever-sophisticated </span></h2>
+                            <div class="text-[1rem] mb-[1.75rem] text-black-ligh opacity-[0.9] ">Monotonectally impact
                                 sustainable e-services with front-end infomediaries. Collaboratively network functional
                                 solutions whereas initiatives. Progressively pontificate collaborative "outside the box"
                                 thinking for.</div>
-                            <div class="text-[1rem] mb-[3rem] text-black opacity-[0.9] dark-black">Monotonectally impact
+                            <div class="text-[1rem] mb-[3rem] text-black-ligh opacity-[0.9] ">Monotonectally impact
                                 sustainable e-services with front-end infomediaries. Collaboratively network functional
                                 solutions whereas initiatives. Progressively pontificate collaborative "outside the box"
                                 thinking for.</div>
                             <a href="index.html" class="m-1 ti-btn ti-btn-primary-full">
                                 Explore More
-                                <i class="ri-eye-line ms-2 align-middle"></i>
+                                {{-- <i class="ri-eye-line ms-2 align-middle"></i> --}}
                             </a>
                         </div>
                     </div>
                     <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 col-span-12">
 
                         <div class="text-end landing-main-image landing-heading-img flex justify-end w-full">
-                            <img src="{{ asset('assets/img/section-two-ttb.gif') }}" alt="" class="img-fluid">
+                            <img src="{{ asset('assets/img/section-two-ttb.gif') }}" alt="" class="img-fluid" width="75%">
                         </div>
 
                     </div>
@@ -149,21 +153,18 @@
         <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] ">
             <div class="container main-banner-container">
                 <div class="grid grid-cols-12 justify-center align-center">
-                    <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5  customize-image text-center">
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6  customize-image text-center">
                         <div class="lg:text-start !flex items-center lg:justify-start justify-center">
-                            <img src="{{ asset('assets/img/section four.png') }}" alt="" class="img-fluid">
+                            <img src="{{ asset('assets/img2/section four.png') }}" alt="" class="img-fluid">
                         </div>
                     </div>
-                    <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 pt-5 pb-0 lg:px-2 !text-start px-12 my-auto">
-                        <h5 class="lg:text-start font-semibold mb-0 text-[1.25rem]">We Strive To Offer Intelligent Business
-                            Solutions</h5>
-                        <p class=" text-[#8c9097] dark:text-white/50 mb-4 font-normal">lorem ipsum, dolor sit var ameto
-                            condesetrat
-                            aiatel varen or damsenlel verman code Lorem ipsum, dolor sit amet consectetur adipisicing elit
+                    <div
+                        class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 pt-5 pb-0 lg:px-2 !text-start px-12 my-auto">
+                        <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">We Strive To Offer Intelligent Business
+                            Solutions</h4>
+                        <p class=" text-[0.9rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional value with diverse web-readiness. Collaboratively transition wireless customer service without goal-oriented catalysts for change. Collaboratively.
                         </p>
-                        <p class=" text-[#8c9097] dark:text-white/50 mb-4 font-normal">lorem ipsum, dolor sit var ameto
-                            condesetrat
-                            aiatel varen or damsenlel verman code Lorem ipsum, dolor sit amet consectetur adipisicing elit
+                        <p class="text-[0.9rem]  text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional value with diverse web-readiness. Collaboratively transition catalysts for change. Collaboratively.
                         </p>
                         <div class="row row-service mt-5" style="display: flex;">
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
@@ -171,7 +172,7 @@
                             </div>
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
                                 <h5 class="dark-text">Best Services</h5>
-                                <p>Lorem ipsum dolor sit amet, eiusmod
+                                <p class="text-black-light">Lorem ipsum dolor sit amet, eiusmod
                                     tempor.</p>
                             </div>
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
@@ -179,7 +180,7 @@
                             </div>
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
                                 <h5 class="dark-text">Support 24/7</h5>
-                                <p>Lorem ipsum dolor sit amet, eiusmod
+                                <p class="text-black-light">Lorem ipsum dolor sit amet, eiusmod
                                     tempor.</p>
                             </div>
 
@@ -207,7 +208,7 @@
                             transform granular value with client-focused content. Energistically redefine market.</p>
                     </div>
                 </div>
-                <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 my-btn-section gap-4">
+                <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 my-btn-section">
 
                     <a href="#" class="ti-btn ti-btn-primary-full !rounded-full ti-btn-wave my-btn-pro">
                         <span class="fab fa-windows icon-size-sm mx-2 mr-3 h2"></span>
@@ -296,7 +297,7 @@
                     </div>
                     <div class="grid-cols-3 col-md-5 d-none d-sm-none d-md-block d-lg-block">
                         <div class="position-relative pb-md-5 py-lg-0 center-imgs">
-                            <img alt="Image placeholder" src="{{ asset('assets/img/section-three-ttb.gif') }}"
+                            <img alt="Image placeholder" src="{{asset('assets/img/section-three-ttb.gif')}}"
                                 class="img-center img-fluid">
                         </div>
                     </div>
@@ -349,8 +350,7 @@
 
 
         <!-- Start:: Section-5 -->
-        <section
-            class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
+        <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
             id="features">
             <div class="container text-center">
                 <p class="text-[0.75rem] font-semibold text-success mb-1"><span
@@ -369,27 +369,27 @@
                                 <div class="sm:ms-[3rem] ms-2 text-center mx-3 my-4">
                                     <h6 class="featur-icon counternum">60</h6>
                                     <h5 class="mt-3 text-dark text-[1.25rem]">Av Test Certified</h5>
-                                    <p>May 2023</p>
+                                   <p>May 2023</p>
 
                                 </div>
                                 <div class="sm:ms-[3rem] ms-2 text-center mx-3 my-4">
                                     <h6 class="featur-icon counternum">60</h6>
                                     <h5 class="mt-3 text-dark text-[1.25rem]">Av Test Certified</h5>
-                                    <p>May 2023</p>
+                                   <p>May 2023</p>
 
                                 </div>
                                 <div class="sm:ms-[3rem] ms-2 text-center mx-3 my-4">
                                     <h6 class="featur-icon counternum">60</h6>
                                     <h5 class="mt-3 text-dark text-[1.25rem]">Av Test Certified</h5>
-                                    <p>May 2023</p>
+                                   <p>May 2023</p>
 
                                 </div>
                                 <div class="sm:ms-[3rem] ms-2 text-center mx-3 my-4">
                                     <h6 class="featur-icon counternum">60</h6>
                                     <h5 class="mt-3 text-dark text-[1.25rem]">Av Test Certified</h5>
-                                    <p>May 2023</p>
+                                   <p>May 2023</p>
                                 </div>
-
+                              
 
                             </div>
                         </div>
@@ -402,7 +402,9 @@
 
 
         <!-- Start:: Section-9 -->
-        <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]" id="faq">
+        <section
+            class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]"
+            id="faq">
             <div class="container text-center">
                 <p class="text-[0.75rem] font-semibold text-success mb-1"><span
                         class="landing-section-heading">F.A.Q</span></p>
@@ -694,74 +696,66 @@
         </section>
         <!-- End:: Section-9 -->
 
-        <!-- Start:: Section-5 -->
-        <section
-            class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
-            id="features">
-            <div class="container main-banner-container">
-                <div class="grid grid-cols-12 gap-6">
-                    <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 col-span-12">
-                        <div class="lg:py-[3rem]">
-                            <h2 class="landing-banner-heading mb-4 opacity-[0.9]"><span>What Our Client Say <br> About
-                                    Apdash</h2>
-                            <div class="text-[1rem] mb-[3rem] !text-dark opacity-[0.9] ">Collaboratively actualize
-                                excellent schemas without effective <br> models. Synergistically engineer functionalized
-                                applications rather br than backend e-commerce.</div>
-
-
-                        </div>
-                    </div>
-                    <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 col-span-12">
-
-                        <div class="box custom-box slider-box">
-                            <div class="box-body">
-                                <div class="swiper  custom-pagination">
-                                    <div class="swiper-wrapper">
-
-                                        <div class="swiper-slide test-slider-img">
-
-
-                                            <div class="item">
-                                                <div class="testimonial-quote-wrap">
-                                                    <div class="media author-info mb-3">
-                                                        <div class="author-img mr-3">
-                                                            <img src="assets/img/client/1.jpg" alt="client"
-                                                                width="10px">
-                                                        </div>
-                                                        <div class="media-body text-white">
-                                                            <h5 class="mb-0 text-white">John Charles</h5>
-                                                            <span>Head Of Admin</span>
-                                                        </div>
-                                                        <i class="fas fa-quote-right text-white"></i>
-                                                    </div>
-                                                    <div class="client-say text-white">
-                                                        <p>Interactively optimize fully researched expertise vis-a-vis
-                                                            plug-and-play relationships. Intrinsicly develop viral core
-                                                            competencies for fully tested customer service. Enthusiastically
-                                                            create next-generation growth strategies and.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-
-                                        </div>
-
-
-
-                                    </div>
-                                    <div class="swiper-pagination"></div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
+      <!-- Start:: Section-5 -->
+      <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
+      id="features">
+      <div class="container main-banner-container">
+        <div class="grid grid-cols-12 gap-6">
+            <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 col-span-12">
+                <div class="lg:py-[3rem]">
+                    <h2 class="landing-banner-heading mb-4 opacity-[0.9]"><span >What Our Client Say <br> About Apdash</h2>
+                    <div class="text-[1rem] mb-[3rem] !text-dark opacity-[0.9] ">Collaboratively actualize excellent schemas without effective <br> models. Synergistically engineer functionalized applications rather br than backend e-commerce.</div>
+                   
+                    
                 </div>
             </div>
-        </section>
-        <!-- End:: Section-5 -->
+            <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 col-span-12">
 
+                <div class="box custom-box slider-box">
+                    <div class="box-body">
+                        <div class="swiper  custom-pagination">
+                            <div class="swiper-wrapper">
 
+                                <div class="swiper-slide test-slider-img"> 
+                                  
+                                   
+                                        <div class="item">
+                                            <div class="testimonial-quote-wrap">
+                                                <div class="media author-info mb-3">
+                                                    <div class="author-img mr-3">
+                                                        <img src="assets/img/client/1.jpg" alt="client" width="10px" >
+                                                    </div>
+                                                    <div class="media-body text-white">
+                                                        <h5 class="mb-0 text-white">John Charles</h5>
+                                                        <span>Head Of Admin</span>
+                                                    </div>
+                                                    <i class="fas fa-quote-right text-white"></i>
+                                                </div>
+                                                <div class="client-say text-white">
+                                                    <p>Interactively optimize fully researched expertise vis-a-vis plug-and-play relationships. Intrinsicly develop viral core competencies for fully tested customer service. Enthusiastically create next-generation growth strategies and.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                   
+                                </div>
 
+                                
+                             
+                            </div>
+                            <div class="swiper-pagination"></div>
+                          </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+  </section>
+  <!-- End:: Section-5 -->
+
+     
+      
 
 
 
