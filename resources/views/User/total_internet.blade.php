@@ -33,8 +33,8 @@
                                 <img src="{{ asset('assets/img/Banner-Phone.png') }}" alt="" class="img-fluid" width="85%">
                             </div>
                            
-                            <div class="dark-shap-two"><img src="{{ asset('assets/img/Shape-2.png') }}" alt=""
-                                    class="img-fluid"></div>
+                            {{-- <div class="dark-shap-two"><img src="{{ asset('assets/img/Shape-2.png') }}" alt=""
+                                    class="img-fluid"></div> --}}
                         </div>
                     </div>
                 </div>
