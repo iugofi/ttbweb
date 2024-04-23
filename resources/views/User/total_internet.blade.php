@@ -50,7 +50,7 @@
             </div>
             <div class="container main-banner-container section-two-icon">
                 <div class="grid grid-cols-12 gap-6">
-                    <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 col-span-12">
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
                         <div class="work-process-wrap">
                             <div class="process-single-item">
                                 <div class="process-icon-item left-shape">
@@ -101,7 +101,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 col-span-12">
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
 
                         <div class="text-end landing-main-image landing-heading-img flex justify-end w-full">
                             <img src="{{ asset('assets/img/Secnd-section-img-2.png') }}" alt="" class="img-fluid" width="100%">
