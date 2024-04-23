@@ -54,21 +54,54 @@
             <div class="container main-banner-container">
                 <div class="grid grid-cols-12 gap-6">
                     <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 col-span-12">
-                        <div class="lg:py-[3rem]">
-                            <h2 class="landing-banner-heading mb-4 opacity-[0.9]"><span class="dark-black">Smarter
-                                    solutions for threats ever-sophisticated </span></h2>
-                            <div class="text-[1rem] mb-[1.75rem] text-black-ligh opacity-[0.9] ">Monotonectally impact
-                                sustainable e-services with front-end infomediaries. Collaboratively network functional
-                                solutions whereas initiatives. Progressively pontificate collaborative "outside the box"
-                                thinking for.</div>
-                            <div class="text-[1rem] mb-[3rem] text-black-ligh opacity-[0.9] ">Monotonectally impact
-                                sustainable e-services with front-end infomediaries. Collaboratively network functional
-                                solutions whereas initiatives. Progressively pontificate collaborative "outside the box"
-                                thinking for.</div>
-                            <a href="index.html" class="m-1 ti-btn ti-btn-primary-full">
-                                Explore More
-                                {{-- <i class="ri-eye-line ms-2 align-middle"></i> --}}
-                            </a>
+                        <div class="work-process-wrap">
+                            <div class="process-single-item">
+                                <div class="process-icon-item left-shape">
+                                    <div class="d-flex align-items-center">
+                                        <div class="process-icon mr-4">
+                                            <i class="fas fa-project-diagram color-primary"></i>
+                                        </div>
+                                        <div class="process-content text-left">
+                                            <h5>Planning Idea</h5>
+                                            <p>Holisticly architect sustainable meta-services for process-centric core competencies. Enthusiastically re-engineer best-of-breed outsourcing.</p>
+                                        </div>
+                                    </div>
+                                    <svg x="0px" y="0px" width="312px" height="130px">
+                                        <path class="dashed1" fill="none" stroke="rgb(95, 93, 93)" stroke-width="1" stroke-dasharray="1300" stroke-dashoffset="0" d="M3.121,2.028 C3.121,2.028 1.003,124.928 99.352,81.226 C99.352,81.226 272.319,21.200 310.000,127.338"></path>
+                                        <path class="dashed2" fill="none" stroke="#ffffff" stroke-width="2" stroke-dasharray="6" stroke-dashoffset="1300" d="M3.121,2.028 C3.121,2.028 1.003,124.928 99.352,81.226 C99.352,81.226 272.319,21.200 310.000,127.338 "></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="process-single-item">
+                                <div class="process-icon-item right-shape">
+                                    <div class="d-flex align-items-center">
+                                        <div class="process-icon ml-4">
+                                            <i class="fas fa-puzzle-piece color-primary"></i>
+                                        </div>
+                                        <div class="process-content text-right">
+                                            <h5>Developed Final Product</h5>
+                                            <p>Monotonectally harness holistic web-readiness after multimedia based catalysts for change. Completely brand front-end systems before visionary.</p>
+                                        </div>
+                                    </div>
+                                    <svg x="0px" y="0px" width="312px" height="130px">
+                                        <path class="dashed1" fill="none" stroke="rgb(95, 93, 93)" stroke-width="1" stroke-dasharray="1300" stroke-dashoffset="0" d="M311.000,0.997 C311.000,0.997 313.123,123.592 214.535,79.996 C214.535,79.996 41.149,20.122 3.377,125.996"></path>
+                                        <path class="dashed2" fill="none" stroke="#ffffff" stroke-width="2" stroke-dasharray="6" stroke-dashoffset="1300" d="M311.000,0.997 C311.000,0.997 313.123,123.592 214.535,79.996 C214.535,79.996 41.149,20.122 3.377,125.996"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="process-single-item">
+                                <div class="process-icon-item left-shape mb-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="process-icon mr-4">
+                                            <i class="fas fa-truck color-primary"></i>
+                                        </div>
+                                        <div class="process-content text-left">
+                                            <h5>Deliver to Customer</h5>
+                                            <p>Monotonectally plagiarize synergistic e-business for stand-alone communities. Professionally enhance visionary manufactured products progressive.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 col-span-12">
@@ -84,7 +117,6 @@
 
 
         <!-- End::second Content -->
-
 
 
 
