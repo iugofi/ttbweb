@@ -40801,6 +40801,7 @@ caption {
 .box-shadow:hover {
     -webkit-transform: translateY(-10px);
     transform: translateY(-12px);
+    transition: 0.5s;
 }
 .third-back{
     background-image: url("/assets/img/about-bg-shape.svg");
