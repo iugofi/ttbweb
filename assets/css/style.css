@@ -4148,6 +4148,9 @@ h6 {
 .\!rounded-sm {
     border-radius: 0.25rem !important;
 }
+.\!rounded-sm2 {
+    border-radius: 10px !important;
+}
 .rounded-\[\.188rem\] {
     border-radius: 0.188rem;
 }
