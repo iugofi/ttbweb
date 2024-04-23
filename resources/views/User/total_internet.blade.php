@@ -43,7 +43,7 @@
         <!-- End::first Content -->
 
          <!-- Start::second Content -->
-         <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] third-back">
+         <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] third-back internet2-section">
             <div class="animated-shape-wrap">
                 <div class="animated-shape-item"></div>
                 <div class="animated-shape-item"></div>
