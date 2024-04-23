@@ -1,5 +1,5 @@
-@include("User.layouts.header")
+@include("User.Layouts.header")
 
 @yield("content")
 
-@include("User.layouts.footer")
+@include("User.Layouts.footer")
