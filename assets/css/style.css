@@ -40888,6 +40888,7 @@ img.img-fluid.service-icon {
 .border-custom-main {
     box-shadow: 5px 0px 11px 3px #00000054;
     border-radius: 5px 0px 0px 5px;
+    border-right: 5px solid #13D8AA;
 }
 
 [data-nav-layout="horizontal"] .landing-body .landing-banner-vpn {
