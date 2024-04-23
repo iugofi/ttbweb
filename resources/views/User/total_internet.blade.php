@@ -116,33 +116,54 @@
         <!-- Start::third Content -->
 
         <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70" id="features">
-            <div class="container">
-                <div class="row justify-content-md-center">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="promo-one-single rounded p-5 my-3 my-md-3 my-lg-0 shadow-lg text-center">
-                            <img src="assets/img/icon/icon-1.svg" alt="promo" class="mb-4" width="65">
-                            <h5>Advertising Agency</h5>
-                            <p class="mb-0">Intrinsicly create 2.0 testing procedures rather than interdependent
-                                schemas. Quickly.</p>
-                            <a href="#" class="icon-link accent-bg"><span class="ti-angle-double-right"></span></a>
+            <div class="container text-center">
+                <div class="grid grid-cols-12 gap-x-6">
+                    <div class="xl:col-span-4 col-span-12">
+                        <div class="box text-center">
+                            <div class="box-body">
+                                <div class="mb-2">
+                                    <span class="avatar avatar-md">
+                                
+                                        <img src="assets/img/Green-icon-1.png" alt="img" class="!rounded-md">
+                                    </span>
+                                </div>
+                                <h6 class="box-title font-semibold mb-2">Why do we use it?</h6>
+                                <p class="card-text mb-4">Many desktop publishing packages and <br> web page editors
+                                    now use Lorem Ipsum as <br> their default model text.</p>
+                                
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="promo-one-single rounded p-5 my-3 my-md-3 my-lg-0 shadow-lg text-center">
-                            <img src="assets/img/icon/icon-8.svg" alt="promo" class="mb-4" width="65">
-                            <h5>Creative Business</h5>
-                            <p class="mb-0">Conveniently myocardinate efficient opportunities rather than
-                                distributed catalysts for change.</p>
-                            <a href="#" class="icon-link accent-bg"><span class="ti-angle-double-right"></span></a>
+                    <div class="xl:col-span-4 col-span-12">
+                        <div class="box text-center">
+                            <div class="box-body">
+                                <div class="mb-2">
+                                    <span class="avatar avatar-md">
+                                        <img src="assets/img/Green-icon-2.png" alt="img" class="!rounded-md">
+    
+                                    </span>
+                                </div>
+                                <h6 class="box-title font-semibold mb-2">Why do we use it?</h6>
+                                <p class="card-text mb-4">Many desktop publishing packages and <br> web page editors
+                                    now use Lorem Ipsum as <br> their default model text.</p>
+                                
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="promo-one-single rounded p-5 my-3 my-md-3 my-lg-0 shadow-lg text-center">
-                            <img src="assets/img/icon/icon-3.svg" alt="promo" class="mb-4" width="65">
-                            <h5>Total SEO Services</h5>
-                            <p class="mb-0">Quickly expedite cross-media information rather than open-source
-                                metrics maintain.</p>
-                            <a href="#" class="icon-link accent-bg"><span class="ti-angle-double-right"></span></a>
+                    <div class="xl:col-span-4 col-span-12">
+                        <div class="box text-center">
+                            <div class="box-body">
+                                <div class="mb-2">
+                                    <span class="avatar avatar-md">
+                                        <img src="assets/img/Green-icon-3.png" alt="img" class="!rounded-md">
+    
+                                    </span>
+                                </div>
+                                <h6 class="box-title font-semibold mb-2">Why do we use it?</h6>
+                                <p class="card-text mb-4">Many desktop publishing packages and <br> web page editors
+                                    now use Lorem Ipsum as <br> their default model text.</p>
+                                
+                            </div>
                         </div>
                     </div>
                 </div>
