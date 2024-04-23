@@ -16,7 +16,7 @@
                         <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 col-span-12">
                             <div class="lg:py-[3rem]">
                                 <p class="landing-banner-heading mb-4 opacity-[0.9] pt-5"><span class="first-color">A single solution to all <br> your security needs.</p>
-                                <div class="text-[1rem] mb-[1.3rem] text-black-light opacity-[0.9] text-dark">Holisticly procrastinate mission-critical convergence with reliable customer service. Assertively underwhelm idea-sharing for impactful solutions.
+                                <div class="text-[1rem] mb-[1.3rem] text-dark opacity-[0.9] text-dark">Holisticly procrastinate mission-critical convergence with reliable customer service. Assertively underwhelm idea-sharing for impactful solutions.
                                 </div>  
                                 <a href="index.html" class="m-1 ti-btn ti-btn-primary-full">
                                     Download Now
