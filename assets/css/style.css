@@ -41086,6 +41086,7 @@ img.img-fluid.service-icon {
     text-align: left;
     -webkit-box-flex: 1;
     flex: 1;
+    padding: 0 12px 0 0;
 }
 /* .section-two-icon .right-shape .d-flex.align-items-center .text-left {
     text-align: end;
@@ -41124,6 +41125,7 @@ img.img-fluid.service-icon {
     text-align: end;
     -webkit-box-flex: 1;
     flex: 1;
+    padding: 0 0 0 22px;
 }
 
 
