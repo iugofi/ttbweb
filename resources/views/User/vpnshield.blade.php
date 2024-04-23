@@ -11,7 +11,7 @@
 
 
         <!-- Start::Home Content -->
-        <div class="landing-banner-vpn" id="home">
+        <div class="landing-banner-vpn" id="vpnshield">
             <section class="vpnsection">
                 <div class="container main-banner-container">
                     <div class="grid grid-cols-12 gap-6">
