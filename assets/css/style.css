@@ -33740,9 +33740,7 @@ select {
     color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 .avatar img {
-    height: 100%;
-    width: 100%;
-    border-radius: 0.5rem;
+    max-width: 80px;
 }
 .avatar .avatar-rounded {
     border-radius: 9999px !important;
