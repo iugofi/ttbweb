@@ -110,7 +110,7 @@
             </div>
         </div>
          
-        <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] third-back">
+        <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] third-back sect-three">
             <div class="animated-shape-wrap">
                 <div class="animated-shape-item"></div>
                 <div class="animated-shape-item"></div>
