@@ -11490,7 +11490,7 @@ h6 {
     top: 0px;
     height: 53rem;
     width: 100%;
-    background-image: url("/assets/img/Banner-Background.png");
+    background-image: url("/assets/img2/Banner-Background.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -11547,7 +11547,7 @@ h6 {
     .landing-body
     .landing-banner
     .main-banner-container {
-    padding-top: 4rem;
+    padding-top: 0rem;
     padding-bottom: 4rem;
     padding-left: 3rem;
     padding-right: 3rem;
@@ -41032,9 +41032,11 @@ img.img-fluid.service-icon {
 }
 
 .sect-ban p{
-    margin-top:2em; 
+    margin-top:1em;  
 }
-
+.sect-ban .container{
+    padding-top: 0rem;
+}
 
 /* 23-04-2024 kulvinder verma for totel-internet-security page */
 

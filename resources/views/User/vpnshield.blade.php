@@ -343,7 +343,7 @@
                                     
                                     <div class="box-body">
                                         <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
-                                            <i class="text-[1.5rem] bx bx-spreadsheet"></i>
+                                            <img src="assets/img/Icon-1.png" alt="img" class="!rounded-md">
                                         </span>
                                         <h6 class="box-title font-semibold">Special title treatment</h6>
                                         <p class="card-text mb-4">With supporting text below as a natural lead-in to
@@ -357,7 +357,7 @@
                                   
                                     <div class="box-body">
                                         <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
-                                            <i class="text-[1.5rem] bx bx-spreadsheet"></i>
+                                            <img src="assets/img/Icon-2.png" alt="img" class="!rounded-md">
                                         </span>
                                         <h6 class="box-title font-semibold">Special title treatment</h6>
                                         <p class="card-text mb-4">With supporting text below as a natural lead-in to
@@ -371,7 +371,7 @@
                                   
                                     <div class="box-body">
                                         <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
-                                            <i class="text-[1.5rem] bx bx-spreadsheet"></i>
+                                            <img src="assets/img/Icon-3.png" alt="img" class="!rounded-md">
                                         </span>
                                         <h6 class="box-title font-semibold">Special title treatment</h6>
                                         <p class="card-text mb-4">With supporting text below as a natural lead-in to
@@ -385,7 +385,7 @@
                                    
                                     <div class="box-body">
                                         <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
-                                            <i class="text-[1.5rem] bx bx-spreadsheet"></i>
+                                            <img src="assets/img/Icon-4.png" alt="img" class="!rounded-md">
                                         </span>
                                         <h6 class="box-title font-semibold">Special title treatment</h6>
                                         <p class="card-text mb-4">With supporting text below as a natural lead-in to
