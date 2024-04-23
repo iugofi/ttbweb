@@ -48,7 +48,7 @@
             <p class="landing-banner-heading mb-4 opacity-[0.9] pt-5"><span class="first-color" style="font-size:40px; font-weight:600;">Our Work Process</p>
                 <div class="text-[1rem] mb-[1.3rem] text-black-light opacity-[0.9] dark-text pb-5">Holisticly procrastinate mission-critical convergence with reliable customer service.<br> Assertively underwhelm idea-sharing for impactful solutions.
             </div>
-            <div class="container main-banner-container">
+            <div class="container main-banner-container section-two-icon">
                 <div class="grid grid-cols-12 gap-6">
                     <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 col-span-12">
                         <div class="work-process-wrap">
