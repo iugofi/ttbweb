@@ -172,7 +172,7 @@
                             </div>
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
                                 <h5 class="dark-text">Best Services</h5>
-                                <p class="text-black-light">Lorem ipsum dolor sit amet, eiusmod
+                                <p class="text-gray-light">Lorem ipsum dolor sit amet, eiusmod
                                     tempor.</p>
                             </div>
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
