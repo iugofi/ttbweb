@@ -41,7 +41,7 @@
                         <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 col-span-12">
                            
                             <div class="text-end landing-main-image landing-heading-img flex justify-end w-full">
-                                <img src="{{ asset('assets/img2/section-one-ttb.gif') }}" alt="" class="img-fluid" width="85%">
+                                <img src="{{ asset('assets/img2/section-one-ttb.gif') }}" alt="" class="img-fluid" width="95%">
                             </div>
                            
                             <div class="dark-shap-two"><img src="{{ asset('assets/img/Shape-2.png') }}" alt=""
