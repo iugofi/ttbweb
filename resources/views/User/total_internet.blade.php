@@ -59,7 +59,7 @@
                                             <i class="fas fa-project-diagram color-primary"></i>
                                         </div>
                                         <div class="process-content text-left">
-                                            <h5>Planning Idea</h5>
+                                            <h5 style="font-weight:600;">Planning Idea</h5>
                                             <p>Holisticly architect sustainable meta-services for process-centric core competencies. Enthusiastically re-engineer best-of-breed outsourcing.</p>
                                         </div>
                                     </div>
@@ -76,7 +76,7 @@
                                             <i class="fas fa-puzzle-piece color-primary"></i>
                                         </div>
                                         <div class="process-content text-right">
-                                            <h5>Developed Final Product</h5>
+                                            <h5 style="font-weight:600;">Developed Final Product</h5>
                                             <p>Monotonectally harness holistic web-readiness after multimedia based catalysts for change. Completely brand front-end systems before visionary.</p>
                                         </div>
                                     </div>
@@ -93,7 +93,7 @@
                                             <i class="fas fa-truck color-primary"></i>
                                         </div>
                                         <div class="process-content text-left">
-                                            <h5>Deliver to Customer</h5>
+                                            <h5 style="font-weight:600;">Deliver to Customer</h5>
                                             <p>Monotonectally plagiarize synergistic e-business for stand-alone communities. Professionally enhance visionary manufactured products progressive.</p>
                                         </div>
                                     </div>
