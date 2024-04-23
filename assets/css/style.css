@@ -41085,6 +41085,11 @@ img.img-fluid.service-icon {
 .section-two-icon .process-content {
     text-align: left;
 }
+.section-two-icon .right-shape .d-flex.align-items-center .text-left {
+    text-align: end;
+    -webkit-box-flex: 1;
+    flex: 1;
+}
 .section-two-icon svg {
     left: 50%;
     transform: translateX(36%);
@@ -41112,6 +41117,12 @@ img.img-fluid.service-icon {
     box-shadow: 0 0 2.1875rem 0 rgba(119, 119, 120, 0.13);
     transition: all 0.5s ease-in-out;
 }
+.section-two-icon .right-shape .d-flex.align-items-center .text-right {
+    text-align: end;
+    -webkit-box-flex: 1;
+    flex: 1;
+}
+
 
 
 
