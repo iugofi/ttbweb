@@ -6,10 +6,10 @@
 
 @section('content')
 
-<div class="main-content !p-0 landing-main dark:text-defaulttextcolor/70">
+<div class="main-content !p-0 landing-main dark:text-defaulttextcolor/70" id="totel-internet-security">
 
         <!-- Start::Home Content -->
-        <div class="landing-banner" id="totel-internet-security">
+        <div class="landing-banner" id="internet-security">
             <section class="section">
                 <div class="container main-banner-container">
                     <div class="grid grid-cols-12 gap-6">
