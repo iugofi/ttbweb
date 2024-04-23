@@ -17,7 +17,6 @@
                             <div class="lg:py-[3rem]">
                                 <p class="landing-banner-heading mb-4 opacity-[0.9] pt-5"><span class="first-color">Robust Threat</span> Protection and Security Framework</p>
                                 <div class="text-[1rem] mb-[1.3rem] text-black-light opacity-[0.9] dark-text">Holisticly procrastinate mission-critical convergence with reliable customer service. Assertively underwhelm idea-sharing for impactful solutions.
-                                </div><div class="text-[1rem] mb-[1.3rem] text-black-light opacity-[0.9] dark-text">Assertively underwhelm idea-sharing for impactful solutions.
                                 </div>
                                 <a href="index.html" class="m-1 ti-btn ti-btn-primary-full">
                                     Download Now
