@@ -103,7 +103,7 @@
                     </div>
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
 
-                        <div class="text-end landing-main-image landing-heading-img flex justify-end w-full">
+                        <div class="text-end flex justify-end w-full">
                             <img src="{{ asset('assets/img/Secnd-section-img-2.png') }}" alt="" class="img-fluid" width="100%">
                         </div>
 
