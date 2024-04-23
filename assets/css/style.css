@@ -10779,12 +10779,14 @@ h6 {
     background-color: gradient-1, gradient-2;
 }
 .landing-body .landing-main-image img {
-    position: relative;
-    z-index: 11;
+    /* position: relative; */
+    /* z-index: 11; */
     /* height: 26.063rem; */
-    width: 18.063rem;
+    /* width: 18.063rem; */
     /* border-radius: 9999px;
     background-color: rgb(0 0 0 / 0.05); */
+    
+
 }
 .landing-body .landing-main-image img::before {
     position: absolute;
