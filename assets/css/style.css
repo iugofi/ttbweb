@@ -41037,7 +41037,14 @@ img.img-fluid.service-icon {
 /* 23-04-2024 kulvinder verma for totel-internet-security page */
 
 #totel-internet-security div#internet-security {
-    background-image: none;
+    position: relative;
+    top: 0px;
+    height: 53rem;
+    width: 100%;
+    background-image: url(/assets/img/Banner-BG.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 
