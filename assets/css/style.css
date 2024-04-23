@@ -41050,7 +41050,9 @@ img.img-fluid.service-icon {
     background-position: center;
     background-repeat: no-repeat;
 }
-
+.internet2-section {
+    background-image: none;
+}
 
 
 
