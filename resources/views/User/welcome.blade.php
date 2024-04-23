@@ -86,7 +86,7 @@
                             class="p-7  !rounded-sm2 !bg-white dark:!bg-bodybg border box-shadow dark:border-defaultborder/10">
                             <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
                                 <i class="text-[1.5rem] bx bx-money"></i>
-                            </span>
+                            </span> 
                             <h3 class="font-semibold mb-0 text-dark">Active Risk Management</h3>
                             <p class="mb-1 text-[0.875rem] opacity-[0.7] text-[#8c9097] dark:text-white/50 ">
                                 Lorem Ipsum is simply dummy industry.
