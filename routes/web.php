@@ -53,7 +53,8 @@ Route::post('/save-contactform', [UserController::class, 'contactform'])->name('
 //ttb vpn-shield
 Route::get('/vpn-shield', [UserController::class, 'vpnshield'])->name('user.vpnshield');
 
-
+//ttb total internet kulvinder 22-04-2024
+Route::get('/totel-internet-security', [UserController::class, 'totalinternet'])->name('user.totalinternet');
 
 
 

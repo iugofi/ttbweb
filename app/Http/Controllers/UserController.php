@@ -131,6 +131,11 @@ class UserController extends Controller
     {
         return view('User.vpnshield');
     }
+    public function totalinternet()
+    {
+        return view('User.total_internet');
+    }
+
 
     public function contactform(Request $request)
     {
