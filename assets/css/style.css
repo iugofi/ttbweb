@@ -40922,6 +40922,16 @@ img.img-fluid.service-icon {
 
 
 /* neeraj-home-page-css-22-04-2024 */
+.text-left{
+    text-align: center;
+}
+.text-right{
+    text-align: center;
+}
+.text-center{
+    text-align: center;
+}
+
 .sect-five h5{
  font-size: 16px;
  text-align: left;
