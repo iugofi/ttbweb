@@ -9,7 +9,7 @@
 <div class="main-content !p-0 landing-main dark:text-defaulttextcolor/70">
 
         <!-- Start::Home Content -->
-        <div class="landing-banner" id="home">
+        <div class="landing-banner" id="totel-internet-security">
             <section class="section">
                 <div class="container main-banner-container">
                     <div class="grid grid-cols-12 gap-6">
@@ -24,8 +24,7 @@
                                     {{-- <i class="ri-download-cloud-2-fill ms-2 align-middle"></i> --}}
                                     <i class='bx bxs-cloud-download icon-hm'></i>
                                 </a>
-                                <a href="#" class="popup-youtube btn btn-white btn-circle btn-icon"><i class="bx bx-play watch-icon"></i> </a> 
-                                <span class="pl-2 text-black-light wtc-spn"> Watch Now</span>
+                              
                             </div>
                             {{-- <img src="{{ asset('assets/img/icon-img.png') }}" class="img-fluid" width="85%"> --}}
                         </div>
