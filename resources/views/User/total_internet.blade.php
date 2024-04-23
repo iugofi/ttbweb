@@ -44,9 +44,9 @@
 
          <!-- Start::second Content -->
          <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] third-back internet2-section">
-         <div class="sectiontwo-heading pb-5 pt-5" style="text-align: center; padding:20px 0;">
-            <p class="landing-banner-heading mb-4 opacity-[0.9] pt-5"><span class="first-color">Our Work Process</p>
-                <div class="text-[1rem] mb-[1.3rem] text-black-light opacity-[0.9] dark-text">Holisticly procrastinate mission-critical convergence with reliable customer service.<br> Assertively underwhelm idea-sharing for impactful solutions.
+         <div class="sectiontwo-heading pb-5 pt-5" style="text-align: center;">
+            <p class="landing-banner-heading mb-4 opacity-[0.9] pt-5"><span class="first-color" style="font-size:40px; font-weight:600;">Our Work Process</p>
+                <div class="text-[1rem] mb-[1.3rem] text-black-light opacity-[0.9] dark-text pb-5">Holisticly procrastinate mission-critical convergence with reliable customer service.<br> Assertively underwhelm idea-sharing for impactful solutions.
             </div>
             <div class="container main-banner-container">
                 <div class="grid grid-cols-12 gap-6">
