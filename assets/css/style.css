@@ -41050,3 +41050,12 @@ img.img-fluid.service-icon {
 
 
 /* End totel-internet-security page */
+
+
+/* kunal-verma 23-04-2024 */
+
+#totel-internet-security div#vpnshield {
+    background-image: none;
+}
+
+/* end kunal */
