@@ -1,0 +1,774 @@
+@extends('User.layouts.layout')
+
+@section('title', 'TTB')
+
+
+
+@section('content')
+
+
+
+    <!-- MAIN-CONTENT -->
+    <style>
+        .main-content {
+            padding: 0px !important;
+        }
+    </style>
+    <div class="main-content !p-0 landing-main dark:text-defaulttextcolor/70">
+
+
+        <!-- Start::Home Content -->
+        <div class="landing-banner" id="home">
+            <section class="section">
+                <div class="container main-banner-container">
+                    <div class="grid grid-cols-12 gap-6">
+                        <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 col-span-12">
+                            <div class="lg:py-[3rem]">
+                                <p class="landing-banner-heading mb-4 opacity-[0.9]"><span class="first-color">Lorem ipsum
+                                        dolor sit amet.</span>Your sure stop place for best theme
+                                    ends here with</p>
+                                <div class="text-[1rem] mb-[3rem] text-black opacity-[0.9] dark-text">ynex - Now you can use
+                                    this
+                                    admin template to design stunning dashboards that will wow your target viewers or users
+                                    to no end.</div>
+                                <a href="index.html" class="m-1 ti-btn ti-btn-primary-full">
+                                    View Demos
+                                    <i class="ri-eye-line ms-2 align-middle"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 col-span-12">
+                            <div class="shap-one"><img src="{{ asset('assets/img/Shape-1.png') }}" alt=""
+                                    class="img-fluid"></div>
+                            <div class="dark-shap-one"><img src="{{ asset('assets/img/Shape-1.png') }}" alt=""
+                                    class="img-fluid"></div>
+                            <div class="text-end landing-main-image landing-heading-img flex justify-end w-full">
+                                <img src="{{ asset('assets/img/section-one-ttb.gif') }}" alt="" class="img-fluid">
+                            </div>
+                            <div class="shap-two"><img src="{{ asset('assets/img/Shape-2.png') }}" alt=""
+                                    class="img-fluid"></div>
+                            <div class="dark-shap-two"><img src="{{ asset('assets/img/Shape-2.png') }}" alt=""
+                                    class="img-fluid"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- End::Home Content -->
+
+
+        <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]">
+            <div class="container text-center">
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-4">
+                    <div class="col-span-1 mb-4 animat">
+                        <div
+                            class="p-10 text-center !rounded-sm bg-white dark:bg-bodybg border box-shadow  dark:border-defaultborder/10">
+                            <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
+                                <i class="text-[1.5rem] bx bx-spreadsheet"></i>
+                            </span>
+                            <h3 class="font-semibold mb-0 text-dark">Complete Online Privacy</h3>
+                            <p class="mb-1 text-[0.875rem] opacity-[0.7] text-[#8c9097] dark:text-white/50 ">
+                                Lorem Ipsum is simply dummy industry.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-span-1 mb-4 animat">
+                        <div
+                            class="p-10 text-center !rounded-sm !bg-white dark:!bg-bodybg border box-shadow dark:border-defaultborder/10">
+                            <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
+                                <i class="text-[1.5rem] bx bx-user-plus"></i>
+                            </span>
+                            <h3 class="font-semibold mb-0 text-dark">All-Around Digital Protection</h3>
+                            <p class="mb-1 text-[0.875rem] opacity-[0.7] text-[#8c9097] dark:text-white/50 ">
+                                Lorem Ipsum is simply dummy industry.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-span-1 mb-4 animat">
+                        <div
+                            class="p-10 text-center !rounded-sm !bg-white dark:!bg-bodybg border box-shadow dark:border-defaultborder/10">
+                            <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
+                                <i class="text-[1.5rem] bx bx-money"></i>
+                            </span>
+                            <h3 class="font-semibold mb-0 text-dark">Active Risk Management</h3>
+                            <p class="mb-1 text-[0.875rem] opacity-[0.7] text-[#8c9097] dark:text-white/50 ">
+                                Lorem Ipsum is simply dummy industry.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-span-1 mb-4 animat">
+                        <div
+                            class="p-10 text-center !rounded-sm !bg-white dark:!bg-bodybg border box-shadow dark:border-defaultborder/10">
+                            <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
+                                <i class="text-[1.5rem] bx bx-money"></i>
+                            </span>
+                            <h3 class="font-semibold mb-0 text-dark">Zero System-Performance Lags</h3>
+                            <p class="mb-1 text-[0.875rem] opacity-[0.7] text-[#8c9097] dark:text-white/50 ">
+                                Lorem Ipsum is simply dummy industry.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] third-back">
+            <div class="container main-banner-container">
+                <div class="grid grid-cols-12 gap-6">
+                    <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 col-span-12">
+                        <div class="lg:py-[3rem]">
+                            <h2 class="landing-banner-heading mb-4 opacity-[0.9]"><span class="mains-color">Smarter
+                                    solutions for threats ever-sophisticated</h2>
+                            <div class="text-[1rem] mb-[3rem] text-black opacity-[0.9] dark-black">Monotonectally impact
+                                sustainable e-services with front-end infomediaries. Collaboratively network functional
+                                solutions whereas initiatives. Progressively pontificate collaborative "outside the box"
+                                thinking for.</div>
+                            <div class="text-[1rem] mb-[3rem] text-black opacity-[0.9] dark-black">Monotonectally impact
+                                sustainable e-services with front-end infomediaries. Collaboratively network functional
+                                solutions whereas initiatives. Progressively pontificate collaborative "outside the box"
+                                thinking for.</div>
+                            <a href="index.html" class="m-1 ti-btn ti-btn-primary-full">
+                                Explore More
+                                <i class="ri-eye-line ms-2 align-middle"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 col-span-12">
+
+                        <div class="text-end landing-main-image landing-heading-img flex justify-end w-full">
+                            <img src="{{ asset('assets/img/section-two-ttb.gif') }}" alt="" class="img-fluid">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] ">
+            <div class="container main-banner-container">
+                <div class="grid grid-cols-12 justify-center align-center">
+                    <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5  customize-image text-center">
+                        <div class="lg:text-start !flex items-center lg:justify-start justify-center">
+                            <img src="{{ asset('assets/img/section four.png') }}" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 pt-5 pb-0 lg:px-2 !text-start px-12 my-auto">
+                        <h5 class="lg:text-start font-semibold mb-0 text-[1.25rem]">We Strive To Offer Intelligent Business
+                            Solutions</h5>
+                        <p class=" text-[#8c9097] dark:text-white/50 mb-4 font-normal">lorem ipsum, dolor sit var ameto
+                            condesetrat
+                            aiatel varen or damsenlel verman code Lorem ipsum, dolor sit amet consectetur adipisicing elit
+                        </p>
+                        <p class=" text-[#8c9097] dark:text-white/50 mb-4 font-normal">lorem ipsum, dolor sit var ameto
+                            condesetrat
+                            aiatel varen or damsenlel verman code Lorem ipsum, dolor sit amet consectetur adipisicing elit
+                        </p>
+                        <div class="row row-service mt-5" style="display: flex;">
+                            <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
+                                <img src="assets/img/Best-Services-Iocn-1.png" class="img-fluid service-icon p-1">
+                            </div>
+                            <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
+                                <h5 class="dark-text">Best Services</h5>
+                                <p>Lorem ipsum dolor sit amet, eiusmod
+                                    tempor.</p>
+                            </div>
+                            <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
+                                <img src="assets/img/Best-Services-Iocn-2.png " class="img-fluid service-icon p-1">
+                            </div>
+                            <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
+                                <h5 class="dark-text">Support 24/7</h5>
+                                <p>Lorem ipsum dolor sit amet, eiusmod
+                                    tempor.</p>
+                            </div>
+
+                        </div>
+                        <div class="action-btns mt-4">
+                            <a href="#" class="ti-btn bg-primary text-white">Explore More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <section
+            class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
+            id="statistics">
+            <div class="container text-center relative">
+                {{-- <p class="text-[0.75rem] font-semibold text-success mb-1"><span
+                    class="landing-section-heading">Download Our Apps</span></p> --}}
+                <h3 class="font-semibold mb-2 text-defaulttextcolor dark:text-defaulttextcolor/70 ">Download Our Apps</h3>
+                <div class="">
+                    <div class="xl:col-span-7 col-span-12">
+                        <p class="text-[#8c9097] dark:text-white/50 text-[0.9375rem] mb-12 font-normal">Start working with
+                            that can provide everything you need to generate awareness, drive traffic, connect. Efficiently
+                            transform granular value with client-focused content. Energistically redefine market.</p>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 my-btn-section gap-4">
+
+                    <a href="#" class="ti-btn ti-btn-primary-full !rounded-full ti-btn-wave my-btn-pro">
+                        <span class="fab fa-windows icon-size-sm mx-2 mr-3 h2"></span>
+                        <div class="download-text text-left">
+                            <small>Download form</small>
+                            <h5 class="mb-0">Windows</h5>
+                        </div>
+                    </a>
+
+
+                    <a href="#" class="ti-btn ti-btn-primary-full !rounded-full ti-btn-wave my-btn-pro">
+                        <span class="fab fa-apple icon-size-sm mx-3 mr-3 h2"></span>
+                        <div class="download-text text-left">
+                            <small>Download form</small>
+                            <h5 class="mb-0">App Store</h5>
+                        </div>
+                    </a>
+
+
+                    <a href="#" class="ti-btn ti-btn-primary-full !rounded-full ti-btn-wave my-btn-pro">
+                        <span class="fab fa-google-play icon-size-sm mx-3 mr-3 h2"></span>
+                        <div class="download-text text-left">
+                            <small>Download form</small>
+                            <h5 class="mb-0">Google Play</h5>
+                        </div>
+                    </a>
+
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]" id="about">
+            <div class="container text-center">
+                {{-- <p class="text-[0.75rem] font-semibold text-success mb-1"><span
+                    class="landing-section-heading">CUSTOMIZATION</span></p> --}}
+                <h3 class="font-semibold mb-2 dark:text-defaulttextcolor dark:text-defaulttextcolor/70710">TTB Features
+                </h3>
+                <div class="grid grid-cols-12 justify-center max-w-xl mx-auto pb-5 pt-5 mb-5">
+                    <div class="col-span-12">
+                        <p class=" dark:text-white/50  mb-4 font-normal">Objectively deliver professional value with
+                            diverse web-readiness. Collaboratively transition wireless customer service without
+                            goal-oriented catalysts for change. Collaboratively.</p>
+                    </div>
+                </div>
+                <div class="grid grid-cols-3 justify-center align-center mobile-section">
+
+                    <div class="row">
+                        <!--feature new style start-->
+                        <div class="grid-cols-3 grid-cols-12">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="d-flex align-items-start mb-sm-0 mb-md-3 mb-lg-3 mobilesideicon">
+                                        <span class="fab fa-windows icon-size-md color-secondary mr-4 icons-center"></span>
+                                        <div class="icon-text">
+                                            <h5 class="mb-2">Responsive web design</h5>
+                                            <p>Modular and monetize an componente between layouts monetize array. Core
+                                                competencies for testing.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="d-flex align-items-start mb-sm-0 mb-md-3 mb-lg-3 mobilesideicon">
+                                        <span class="fab fa-windows icon-size-md color-secondary mr-4 icons-center"></span>
+                                        <div class="icon-text">
+                                            <h5 class="mb-2">Loaded with features</h5>
+                                            <p>Holisticly aggregate client centered the manufactured products transparent.
+                                                Organic sources content.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="d-flex align-items-start mb-sm-0 mb-md-3 mb-lg-3 mobilesideicon">
+                                        <span class="fab fa-windows icon-size-md color-secondary mr-4 icons-center"></span>
+                                        <div class="icon-text">
+                                            <h5 class="mb-2">Friendly online support</h5>
+                                            <p>Monotonectally recaptiualize client the centric customize clicks niche
+                                                markets for this meta-services via. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-cols-3 col-md-5 d-none d-sm-none d-md-block d-lg-block">
+                        <div class="position-relative pb-md-5 py-lg-0 center-imgs">
+                            <img alt="Image placeholder" src="{{ asset('assets/img/section-three-ttb.gif') }}"
+                                class="img-center img-fluid">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="grid-cols-3 grid-cols-12">
+
+                            <div class="col-12">
+                                <div class="d-flex align-items-start mb-sm-0 mb-md-3 mb-lg-3 mobilesideicon">
+                                    <span class="fab fa-windows icon-size-md color-secondary mr-4 icons-center"></span>
+                                    <div class="icon-text">
+                                        <h5 class="mb-2">Free updates forever</h5>
+                                        <p>Compellingly formulate installed base imperatives high standards in benefits for
+                                            highly efficient client.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="d-flex align-items-start mb-sm-0 mb-md-3 mb-lg-3 mobilesideicon">
+                                    <span class="fab fa-windows icon-size-md color-secondary mr-4 icons-center"></span>
+                                    <div class="icon-text">
+                                        <h5 class="mb-2">Built with Sass</h5>
+                                        <p>Energistically initiate client-centric the maximize market positioning synergy
+                                            rather client-based data. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="d-flex align-items-start mb-sm-0 mb-md-3 mb-lg-3 mobilesideicon">
+                                    <span class="fab fa-windows icon-size-md color-secondary mr-4 icons-center"></span>
+                                    <div class="icon-text">
+                                        <h5 class="mb-2">Infinite colors</h5>
+                                        <p>Energistically initiate client-centric e-tailers rather than-based data. Morph
+                                            business technology before.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--feature new style end-->
+
+
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+        <!-- Start:: Section-5 -->
+        <section
+            class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
+            id="features">
+            <div class="container text-center">
+                <p class="text-[0.75rem] font-semibold text-success mb-1"><span
+                        class="landing-section-heading">Features</span></p>
+                <h3 class="font-semibold mb-2 !text-dark">Features Used in YNEX</h3>
+                <div>
+                    <div class="xl:col-span-7 col-span-12">
+                        <p class="text-dark opacity-[0.8] text-[0.9375rem] mb-4 font-normal">Some of the reviews our
+                            clients gave which brings motivation to work for future projects.</p>
+                    </div>
+                </div>
+                <div class="text-start">
+                    <div class="justify-center">
+                        <div class="">
+                            <div class="feature-logos sm:mt-[3rem] flex-wrap">
+                                <div class="sm:ms-[3rem] ms-2 text-center mx-3 my-4">
+                                    <h6 class="featur-icon counternum">60</h6>
+                                    <h5 class="mt-3 text-dark text-[1.25rem]">Av Test Certified</h5>
+                                    <p>May 2023</p>
+
+                                </div>
+                                <div class="sm:ms-[3rem] ms-2 text-center mx-3 my-4">
+                                    <h6 class="featur-icon counternum">60</h6>
+                                    <h5 class="mt-3 text-dark text-[1.25rem]">Av Test Certified</h5>
+                                    <p>May 2023</p>
+
+                                </div>
+                                <div class="sm:ms-[3rem] ms-2 text-center mx-3 my-4">
+                                    <h6 class="featur-icon counternum">60</h6>
+                                    <h5 class="mt-3 text-dark text-[1.25rem]">Av Test Certified</h5>
+                                    <p>May 2023</p>
+
+                                </div>
+                                <div class="sm:ms-[3rem] ms-2 text-center mx-3 my-4">
+                                    <h6 class="featur-icon counternum">60</h6>
+                                    <h5 class="mt-3 text-dark text-[1.25rem]">Av Test Certified</h5>
+                                    <p>May 2023</p>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination mt-4"></div>
+                </div>
+            </div>
+        </section>
+        <!-- End:: Section-5 -->
+
+
+        <!-- Start:: Section-9 -->
+        <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]" id="faq">
+            <div class="container text-center">
+                <p class="text-[0.75rem] font-semibold text-success mb-1"><span
+                        class="landing-section-heading">F.A.Q</span></p>
+                <h3 class="font-semibold mb-2">Frequently asked questions ?</h3>
+                <div class="grid grid-cols-12 justify-center">
+                    <div class="col-span-12">
+                        <p class="text-[#8c9097] dark:text-white/50 text-[0.9375rem] mb-12 font-normal">We have shared some
+                            of the most frequently asked questions to help you out.</p>
+                    </div>
+                </div>
+                <div class="grid grid-cols-12 gap-6 text-start">
+                    <div class="xl:col-span-12 col-span-12">
+                        <div class="grid grid-cols-12 gap-6">
+                            <div class="xl:col-span-6 col-span-12">
+                                <div class="lg:text-start !flex items-center lg:justify-start justify-center">
+                                    <img src="{{ asset('assets/img/Faq-images.png') }}" alt="" width="600"
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="xl:col-span-6 col-span-12">
+                                <div class="accordion accordion-customicon1 accordion-primary accordions-items-seperate"
+                                    id="accordionFAQ2">
+                                    <div class="hs-accordion-group">
+                                        <div class="hs-accordion active bg-white dark:bg-bodybg border dark:border-defaultborder/10 mt-[0.5rem] rounded-sm dark:border dark:border-defaultborder/10-white/10"
+                                            id="faq-five">
+                                            <button type="button"
+                                                class="hs-accordion-toggle hs-accordion-active:!text-primary hs-accordion-active:border dark:border-defaultborder/10-b hs-accordion-active:bg-primary/10   dark:border-defaultborder/10 dark:hs-accordion-active:border dark:border-defaultborder/10-white/10 justify-between inline-flex items-center w-full font-semibold text-start text-[0.85rem] transition py-3 px-4 dark:hs-accordion-active:!text-primary dark:text-gray-200 dark:hover:text-white/80"
+                                                aria-controls="faq-collapse-seven">
+                                                General Terms &amp; Conditions (GTC)
+                                                <svg class="hs-accordion-active:hidden hs-accordion-active:!text-primary hs-accordion-active:group-hover:!text-primary block w-3 h-3 text-gray-600 group-hover:text-defaulttextcolor dark:text-defaulttextcolor/70 "
+                                                    width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1.5 8.85999L14.5 8.85998" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" />
+                                                    <path d="M8 15.36L8 2.35999" stroke="currentColor" stroke-width="2"
+                                                        stroke-linecap="round" />
+                                                </svg>
+                                                <svg class="hs-accordion-active:block hs-accordion-active:!text-primary hs-accordion-active:group-hover:!text-primary hidden w-3 h-3 text-gray-600 group-hover:text-defaulttextcolor dark:text-defaulttextcolor/70 "
+                                                    width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1.5 8.85999L14.5 8.85998" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" />
+                                                </svg>
+                                            </button>
+                                            <div id="faq-collapse-seven"
+                                                class="hs-accordion-content w-full overflow-hidden transition-[height] duration-300"
+                                                aria-labelledby="faq-five">
+                                                <div class="p-5">
+                                                    <p class="text-defaulttextcolor dark:text-defaulttextcolor/70 ">
+                                                        <strong>This is the first item's accordion body.</strong> It is
+                                                        shown by
+                                                        default, until the collapse plugin adds the appropriate classes that
+                                                        we
+                                                        use to style each element. These classes control the overall
+                                                        appearance,
+                                                        as well as the showing and hiding via CSS transitions. You can
+                                                        modify
+                                                        any of this with custom CSS or overriding our default variables.
+                                                        It's
+                                                        also worth noting that just about any HTML can go within the
+                                                        <code>.accordion-body</code>, though the transition does limit
+                                                        overflow.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="hs-accordion bg-white dark:bg-bodybg border dark:border-defaultborder/10 mt-[0.5rem] rounded-sm dark:border dark:border-defaultborder/10-white/10"
+                                            id="faq-six">
+                                            <button type="button"
+                                                class="hs-accordion-toggle hs-accordion-active:!text-primary hs-accordion-active:border dark:border-defaultborder/10-b hs-accordion-active:bg-primary/10   dark:border-defaultborder/10 dark:hs-accordion-active:border dark:border-defaultborder/10-white/10 justify-between inline-flex items-center w-full font-semibold text-start text-[0.85rem] transition py-3 px-4 dark:hs-accordion-active:!text-primary dark:text-gray-200 dark:hover:text-white/80"
+                                                aria-controls="faq-collapse-eight">
+                                                Do I need to create an account to make an order?
+                                                <svg class="hs-accordion-active:hidden hs-accordion-active:!text-primary hs-accordion-active:group-hover:!text-primary block w-3 h-3 text-gray-600 group-hover:text-defaulttextcolor dark:text-defaulttextcolor/70 "
+                                                    width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1.5 8.85999L14.5 8.85998" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" />
+                                                    <path d="M8 15.36L8 2.35999" stroke="currentColor" stroke-width="2"
+                                                        stroke-linecap="round" />
+                                                </svg>
+                                                <svg class="hs-accordion-active:block hs-accordion-active:!text-primary hs-accordion-active:group-hover:!text-primary hidden w-3 h-3 text-gray-600 group-hover:text-defaulttextcolor dark:text-defaulttextcolor/70 "
+                                                    width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1.5 8.85999L14.5 8.85998" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" />
+                                                </svg>
+                                            </button>
+                                            <div id="faq-collapse-eight"
+                                                class="hs-accordion-content w-full overflow-hidden hidden transition-[height] duration-300"
+                                                aria-labelledby="faq-six">
+                                                <div class="p-5">
+                                                    <p class="text-defaulttextcolor dark:text-defaulttextcolor/70 ">
+                                                        <strong>This is the first item's accordion body.</strong> It is
+                                                        shown by
+                                                        default, until the collapse plugin adds the appropriate classes that
+                                                        we
+                                                        use to style each element. These classes control the overall
+                                                        appearance,
+                                                        as well as the showing and hiding via CSS transitions. You can
+                                                        modify
+                                                        any of this with custom CSS or overriding our default variables.
+                                                        It's
+                                                        also worth noting that just about any HTML can go within the
+                                                        <code>.accordion-body</code>, though the transition does limit
+                                                        overflow.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="hs-accordion bg-white dark:bg-bodybg border dark:border-defaultborder/10 mt-[0.5rem] rounded-sm dark:border dark:border-defaultborder/10-white/10"
+                                            id="faq-seven">
+                                            <button type="button"
+                                                class="hs-accordion-toggle hs-accordion-active:!text-primary hs-accordion-active:border dark:border-defaultborder/10-b hs-accordion-active:bg-primary/10   dark:border-defaultborder/10 dark:hs-accordion-active:border dark:border-defaultborder/10-white/10 justify-between inline-flex items-center w-full font-semibold text-start text-[0.85rem] transition py-3 px-4 dark:hs-accordion-active:!text-primary dark:text-gray-200 dark:hover:text-white/80"
+                                                aria-controls="faq-collapse-nine">
+                                                Where can I subscribe to your newsletter?
+                                                <svg class="hs-accordion-active:hidden hs-accordion-active:!text-primary hs-accordion-active:group-hover:!text-primary block w-3 h-3 text-gray-600 group-hover:text-defaulttextcolor dark:text-defaulttextcolor/70 "
+                                                    width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1.5 8.85999L14.5 8.85998" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" />
+                                                    <path d="M8 15.36L8 2.35999" stroke="currentColor" stroke-width="2"
+                                                        stroke-linecap="round" />
+                                                </svg>
+                                                <svg class="hs-accordion-active:block hs-accordion-active:!text-primary hs-accordion-active:group-hover:!text-primary hidden w-3 h-3 text-gray-600 group-hover:text-defaulttextcolor dark:text-defaulttextcolor/70 "
+                                                    width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1.5 8.85999L14.5 8.85998" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" />
+                                                </svg>
+                                            </button>
+                                            <div id="faq-collapse-nine"
+                                                class="hs-accordion-content w-full overflow-hidden hidden transition-[height] duration-300"
+                                                aria-labelledby="faq-seven">
+                                                <div class="p-5">
+                                                    <p class="text-defaulttextcolor dark:text-defaulttextcolor/70 ">
+                                                        <strong>This is the first item's accordion body.</strong> It is
+                                                        shown by
+                                                        default, until the collapse plugin adds the appropriate classes that
+                                                        we
+                                                        use to style each element. These classes control the overall
+                                                        appearance,
+                                                        as well as the showing and hiding via CSS transitions. You can
+                                                        modify
+                                                        any of this with custom CSS or overriding our default variables.
+                                                        It's
+                                                        also worth noting that just about any HTML can go within the
+                                                        <code>.accordion-body</code>, though the transition does limit
+                                                        overflow.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="hs-accordion bg-white dark:bg-bodybg border dark:border-defaultborder/10 mt-[0.5rem] rounded-sm dark:border dark:border-defaultborder/10-white/10"
+                                            id="faq-eight">
+                                            <button type="button"
+                                                class="hs-accordion-toggle hs-accordion-active:!text-primary hs-accordion-active:border dark:border-defaultborder/10-b hs-accordion-active:bg-primary/10   dark:border-defaultborder/10 dark:hs-accordion-active:border dark:border-defaultborder/10-white/10 justify-between inline-flex items-center w-full font-semibold text-start text-[0.85rem] transition py-3 px-4 dark:hs-accordion-active:!text-primary dark:text-gray-200 dark:hover:text-white/80"
+                                                aria-controls="faq-collapse-ten">
+                                                Where can in edit my address?
+                                                <svg class="hs-accordion-active:hidden hs-accordion-active:!text-primary hs-accordion-active:group-hover:!text-primary block w-3 h-3 text-gray-600 group-hover:text-defaulttextcolor dark:text-defaulttextcolor/70 "
+                                                    width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1.5 8.85999L14.5 8.85998" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" />
+                                                    <path d="M8 15.36L8 2.35999" stroke="currentColor" stroke-width="2"
+                                                        stroke-linecap="round" />
+                                                </svg>
+                                                <svg class="hs-accordion-active:block hs-accordion-active:!text-primary hs-accordion-active:group-hover:!text-primary hidden w-3 h-3 text-gray-600 group-hover:text-defaulttextcolor dark:text-defaulttextcolor/70 "
+                                                    width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1.5 8.85999L14.5 8.85998" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" />
+                                                </svg>
+                                            </button>
+                                            <div id="faq-collapse-ten"
+                                                class="hs-accordion-content w-full overflow-hidden hidden transition-[height] duration-300"
+                                                aria-labelledby="faq-eight">
+                                                <div class="p-5">
+                                                    <p class="text-defaulttextcolor dark:text-defaulttextcolor/70 ">
+                                                        <strong>This is the first item's accordion body.</strong> It is
+                                                        shown by
+                                                        default, until the collapse plugin adds the appropriate classes that
+                                                        we
+                                                        use to style each element. These classes control the overall
+                                                        appearance,
+                                                        as well as the showing and hiding via CSS transitions. You can
+                                                        modify
+                                                        any of this with custom CSS or overriding our default variables.
+                                                        It's
+                                                        also worth noting that just about any HTML can go within the
+                                                        <code>.accordion-body</code>, though the transition does limit
+                                                        overflow.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="hs-accordion bg-white dark:bg-bodybg border dark:border-defaultborder/10 mt-[0.5rem] rounded-sm dark:border dark:border-defaultborder/10-white/10"
+                                            id="faq-nine">
+                                            <button type="button"
+                                                class="hs-accordion-toggle hs-accordion-active:!text-primary hs-accordion-active:border dark:border-defaultborder/10-b hs-accordion-active:bg-primary/10   dark:border-defaultborder/10 dark:hs-accordion-active:border dark:border-defaultborder/10-white/10 justify-between inline-flex items-center w-full font-semibold text-start text-[0.85rem] transition py-3 px-4 dark:hs-accordion-active:!text-primary dark:text-gray-200 dark:hover:text-white/80"
+                                                aria-controls="faq-collapse-eleven">
+                                                What are your opening hours?
+                                                <svg class="hs-accordion-active:hidden hs-accordion-active:!text-primary hs-accordion-active:group-hover:!text-primary block w-3 h-3 text-gray-600 group-hover:text-defaulttextcolor dark:text-defaulttextcolor/70 "
+                                                    width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1.5 8.85999L14.5 8.85998" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" />
+                                                    <path d="M8 15.36L8 2.35999" stroke="currentColor" stroke-width="2"
+                                                        stroke-linecap="round" />
+                                                </svg>
+                                                <svg class="hs-accordion-active:block hs-accordion-active:!text-primary hs-accordion-active:group-hover:!text-primary hidden w-3 h-3 text-gray-600 group-hover:text-defaulttextcolor dark:text-defaulttextcolor/70 "
+                                                    width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1.5 8.85999L14.5 8.85998" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" />
+                                                </svg>
+                                            </button>
+                                            <div id="faq-collapse-eleven"
+                                                class="hs-accordion-content w-full overflow-hidden hidden transition-[height] duration-300"
+                                                aria-labelledby="faq-nine">
+                                                <div class="p-5">
+                                                    <p class="text-defaulttextcolor dark:text-defaulttextcolor/70 ">
+                                                        <strong>This is the first item's accordion body.</strong> It is
+                                                        shown by
+                                                        default, until the collapse plugin adds the appropriate classes that
+                                                        we
+                                                        use to style each element. These classes control the overall
+                                                        appearance,
+                                                        as well as the showing and hiding via CSS transitions. You can
+                                                        modify
+                                                        any of this with custom CSS or overriding our default variables.
+                                                        It's
+                                                        also worth noting that just about any HTML can go within the
+                                                        <code>.accordion-body</code>, though the transition does limit
+                                                        overflow.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="hs-accordion bg-white dark:bg-bodybg border dark:border-defaultborder/10 mt-[0.5rem] rounded-sm dark:border dark:border-defaultborder/10-white/10"
+                                            id="faq-ten">
+                                            <button type="button"
+                                                class="hs-accordion-toggle hs-accordion-active:!text-primary hs-accordion-active:border dark:border-defaultborder/10-b hs-accordion-active:bg-primary/10   dark:border-defaultborder/10 dark:hs-accordion-active:border dark:border-defaultborder/10-white/10 justify-between inline-flex items-center w-full font-semibold text-start text-[0.85rem] transition py-3 px-4 dark:hs-accordion-active:!text-primary dark:text-gray-200 dark:hover:text-white/80"
+                                                aria-controls="faq-collapse-twelve">
+                                                Do I have the right to return an item?
+                                                <svg class="hs-accordion-active:hidden hs-accordion-active:!text-primary hs-accordion-active:group-hover:!text-primary block w-3 h-3 text-gray-600 group-hover:text-defaulttextcolor dark:text-defaulttextcolor/70 "
+                                                    width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1.5 8.85999L14.5 8.85998" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" />
+                                                    <path d="M8 15.36L8 2.35999" stroke="currentColor" stroke-width="2"
+                                                        stroke-linecap="round" />
+                                                </svg>
+                                                <svg class="hs-accordion-active:block hs-accordion-active:!text-primary hs-accordion-active:group-hover:!text-primary hidden w-3 h-3 text-gray-600 group-hover:text-defaulttextcolor dark:text-defaulttextcolor/70 "
+                                                    width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1.5 8.85999L14.5 8.85998" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" />
+                                                </svg>
+                                            </button>
+                                            <div id="faq-collapse-twelve"
+                                                class="hs-accordion-content w-full overflow-hidden hidden transition-[height] duration-300"
+                                                aria-labelledby="faq-ten">
+                                                <div class="p-5">
+                                                    <p class="text-defaulttextcolor dark:text-defaulttextcolor/70 ">
+                                                        <strong>This is the first item's accordion body.</strong> It is
+                                                        shown by
+                                                        default, until the collapse plugin adds the appropriate classes that
+                                                        we
+                                                        use to style each element. These classes control the overall
+                                                        appearance,
+                                                        as well as the showing and hiding via CSS transitions. You can
+                                                        modify
+                                                        any of this with custom CSS or overriding our default variables.
+                                                        It's
+                                                        also worth noting that just about any HTML can go within the
+                                                        <code>.accordion-body</code>, though the transition does limit
+                                                        overflow.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End:: Section-9 -->
+
+        <!-- Start:: Section-5 -->
+        <section
+            class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
+            id="features">
+            <div class="container main-banner-container">
+                <div class="grid grid-cols-12 gap-6">
+                    <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 col-span-12">
+                        <div class="lg:py-[3rem]">
+                            <h2 class="landing-banner-heading mb-4 opacity-[0.9]"><span>What Our Client Say <br> About
+                                    Apdash</h2>
+                            <div class="text-[1rem] mb-[3rem] !text-dark opacity-[0.9] ">Collaboratively actualize
+                                excellent schemas without effective <br> models. Synergistically engineer functionalized
+                                applications rather br than backend e-commerce.</div>
+
+
+                        </div>
+                    </div>
+                    <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 col-span-12">
+
+                        <div class="box custom-box slider-box">
+                            <div class="box-body">
+                                <div class="swiper  custom-pagination">
+                                    <div class="swiper-wrapper">
+
+                                        <div class="swiper-slide test-slider-img">
+
+
+                                            <div class="item">
+                                                <div class="testimonial-quote-wrap">
+                                                    <div class="media author-info mb-3">
+                                                        <div class="author-img mr-3">
+                                                            <img src="assets/img/client/1.jpg" alt="client"
+                                                                width="10px">
+                                                        </div>
+                                                        <div class="media-body text-white">
+                                                            <h5 class="mb-0 text-white">John Charles</h5>
+                                                            <span>Head Of Admin</span>
+                                                        </div>
+                                                        <i class="fas fa-quote-right text-white"></i>
+                                                    </div>
+                                                    <div class="client-say text-white">
+                                                        <p>Interactively optimize fully researched expertise vis-a-vis
+                                                            plug-and-play relationships. Intrinsicly develop viral core
+                                                            competencies for fully tested customer service. Enthusiastically
+                                                            create next-generation growth strategies and.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+
+
+
+                                    </div>
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End:: Section-5 -->
+
+
+
+
+
+
+
+
+
+
+
+
+    @endsection
