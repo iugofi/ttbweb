@@ -298,7 +298,7 @@
                     <div class="grid-cols-3 col-md-5 d-none d-sm-none d-md-block d-lg-block">
                         <div class="position-relative pb-md-5 py-lg-0 center-imgs">
                             <img alt="Image placeholder" src="{{asset('assets/img/section-three-ttb.gif')}}"
-                                class="img-center img-fluid">
+                                class="img-fluid">
                         </div>
                     </div>
                     <div class="row">
