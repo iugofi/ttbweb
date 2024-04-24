@@ -277,18 +277,11 @@
                 class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
                 id="features">
                 <div class="container text-center">
-                    <div class="grid lg:grid-col-12 md:grid-col-12 sm:grid-col-1 grid-col-12 gap-6 text-start">
-                        <div class="grid lg:grid-col-5 md:grid-col-5">
-                         
-                        <img src="{{ asset('assets/img/whats-more.png') }}" alt="img" class="img-fluid">
-                            
-                        </div>
-                        <div class="grid lg:grid-col-7 md:grid-col-7">
-                            <p>bgh</p>
-                        </div>
-
-
-                    </div>
+                    <div class="grid grid-rows-3 grid-flow-col gap-4">
+                        <div class="row-span-3 ...">01</div>
+                        <div class="col-span-2 ...">02</div>
+                        <div class="row-span-2 col-span-2 ...">03</div>
+                      </div>
                 </div>
             </section>
 
