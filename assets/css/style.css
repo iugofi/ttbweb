@@ -41158,7 +41158,13 @@ img.img-fluid.service-icon {
 .box.text-center:hover p {
     color: #fff;
 }
-.box.text-center:hover .mb-2 img {
+.box.text-center:hover .img-hover img {
+    content: url('/assets/img/white-1.png');
+}
+.box.text-center:hover .img-hover2 img {
+    content: url('/assets/img/white-1.png');
+}
+.box.text-center:hover .img-hover3 img {
     content: url('/assets/img/white-1.png');
 }
 .box i.bx.bx-chevrons-right {

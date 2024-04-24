@@ -130,7 +130,7 @@
                                         <img src="assets/img/Green-icon-1.png" alt="img" class="!rounded-md">
                                     </span>
                                 </div>
-                                <h6 class="box-title font-semibold mb-2">Why do we use it?</h6>
+                                <h6 class="box-title font-semibold mb-2 img-hover">Why do we use it?</h6>
                                 <p class="card-text mb-4">Many desktop publishing packages and <br> web page editors
                                     now use Lorem Ipsum as <br> their default model text.</p>
                             </div>  
@@ -145,7 +145,7 @@
                                         <img src="assets/img/Green-icon-2.png" alt="img" class="!rounded-md">
                                     </span>
                                 </div>
-                                <h6 class="box-title font-semibold mb-2">Why do we use it?</h6>
+                                <h6 class="box-title font-semibold mb-2 img-hover2">Why do we use it?</h6>
                                 <p class="card-text mb-4">Many desktop publishing packages and <br> web page editors
                                     now use Lorem Ipsum as <br> their default model text.</p> 
                             </div>
@@ -160,7 +160,7 @@
                                         <img src="assets/img/Green-icon-3.png" alt="img" class="!rounded-md">
                                     </span> 
                                 </div>
-                                <h6 class="box-title font-semibold mb-2">Why do we use it?</h6>
+                                <h6 class="box-title font-semibold mb-2 img-hover3">Why do we use it?</h6>
                                 <p class="card-text mb-4">Many desktop publishing packages and <br> web page editors
                                     now use Lorem Ipsum as <br> their default model text.</p>  
                             </div>
