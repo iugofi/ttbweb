@@ -146,7 +146,7 @@
                             <div class="box-body">
                                 <div class="mb-2 img-hover2">
                                     <span class="avatar avatar-md">
-                                        <img src="assets/img/Green-icon-2.png" alt="img" class="!rounded-md">
+                                        <img src="{{ asset('assets/img/Hardware-Requirement.png') }}" alt="img" class="!rounded-md">
                                     </span>
                                 </div>
                                 <h6 class="box-title font-semibold mb-2">Why do we use it?</h6>
@@ -161,7 +161,7 @@
                             <div class="box-body">
                                 <div class="mb-2 img-hover3">
                                     <span class="avatar avatar-md">
-                                        <img src="assets/img/Green-icon-3.png" alt="img" class="!rounded-md">
+                                        <img src="{{ asset('assets/img/OS-Requirement.png') }}" alt="img" class="!rounded-md">
                                     </span> 
                                 </div>
                                 <h6 class="box-title font-semibold mb-2">Why do we use it?</h6>
