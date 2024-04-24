@@ -180,7 +180,7 @@
          <!-- Start::forth Content -->
          <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]" id="features">
             <div class="container main-banner-container">
-                <div class="grid grid-cols-12 gap-6 .forth-s-main">
+                <div class="grid grid-cols-12 gap-6 forth-s-main">
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
                         <div class="xl:col-span-3 col-span-12 border-custom-main">
                                 <div class="box-header forth-s-inner">
