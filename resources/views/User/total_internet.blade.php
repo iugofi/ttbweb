@@ -178,7 +178,7 @@
          <!-- End::third Content -->
 
          <!-- Start::forth Content -->
-         {{-- <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]" id="features">
+         <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]" id="features">
             <div class="container main-banner-container">
                     <p class="card-text mb-4 pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa iusto perspiciatis rerum ex sint? Possimus<br> harum aliquid molestiae voluptates. Laborum totam explicabo maiores qui culpa?<br> Corporis corrupti aperiam cupiditate officia.</p>
                 <div class="grid grid-cols-12 gap-6 forth-s-main">
@@ -226,12 +226,12 @@
                     </div>
                 </div>
             </div>
-        </section> --}}
+        </section>
 
       <!-- End::forth Content -->
 
       <!-- Start::fifth Content -->
-      <section class="fith-section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]" id="fifth">
+      {{-- <section class="fith-section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]" id="fifth">
         <div class="container text-center">
            
             <div class="grid grid-cols-12 gap-6 text-start">
@@ -269,7 +269,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
  <!-- End::fifth Content -->
 
 @endsection
