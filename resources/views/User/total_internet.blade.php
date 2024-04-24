@@ -278,14 +278,22 @@
                 id="features">
                 <div class="container text-center">
                     <div class="grid grid-rows-3 grid-flow-col gap-4">
-                        <div class="row-span-3 ..."><div class="lg:text-start !flex items-center lg:justify-start justify-center">
-                            
-                            <img src="{{ asset('assets/img/whats-more.png') }}" alt="img"
-                                class="img-fluid">
-                        </div></div>
-                        <div class="col-span-2 ...">02</div>
-                        <div class="row-span-2 col-span-2 ...">03</div>
-                      </div>
+                        <div class="row-span-3 ...">
+                            <div class="lg:text-start !flex items-center lg:justify-start justify-center">
+
+                                <img src="{{ asset('assets/img/whats-more.png') }}" alt="img" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="col-span-2 ...">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+                            provident laboriosam corrupti dolor culpa commodi dolorum qui sit! Repellendus, ipsum! Quo
+                            provident autem nam veritatis?</div>
+                        <div class="row-span-2 col-span-2 ...">
+                            <div class="grid grid-cols-2 gap-2">
+                                <div>01</div>
+                                <div>09</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
 
