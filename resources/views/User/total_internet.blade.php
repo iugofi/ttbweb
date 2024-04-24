@@ -193,10 +193,10 @@
                                             <div class="text-[.9375rem] font-semibold">24/7 support</div>
                                           
                                         </div>
-                                         -Lorem ipsum dolor sit amet consectetur
-                                    <br> Lorem ipsum dolor, sit amet consectetur
-                                    <br> Lorem ipsum dolor sit amet consectetur
-                                    <br> Lorem ipsum dolor sit amet, consectetur
+                                         - Lorem ipsum dolor sit amet consectetur
+                                    <br> - Lorem ipsum dolor, sit amet consectetur
+                                    <br> - Lorem ipsum dolor sit amet consectetur
+                                    <br> - Lorem ipsum dolor sit amet, consectetur
                                 </div>
                                
                             </div>
@@ -214,10 +214,10 @@
                                             <div class="text-[.9375rem] font-semibold">24/7 support</div>
                                           
                                         </div>
-                                         -Lorem ipsum dolor sit amet consectetur
-                                    <br> Lorem ipsum dolor, sit amet consectetur
-                                    <br> Lorem ipsum dolor sit amet consectetur
-                                    <br> Lorem ipsum dolor sit amet, consectetur
+                                         - Lorem ipsum dolor sit amet consectetur
+                                    <br> - Lorem ipsum dolor, sit amet consectetur
+                                    <br> - Lorem ipsum dolor sit amet consectetur
+                                    <br> - Lorem ipsum dolor sit amet, consectetur
                                 </div>
                                
                             </div>
