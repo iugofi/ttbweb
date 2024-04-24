@@ -287,8 +287,8 @@
                         <div class="col-span-2 ..."><p class="card-text mb-4 pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa iusto
                             perspiciatis rerum ex sint? Possimus<br> harum aliquid molestiae voluptates. Laborum totam explicabo
                             maiores qui culpa?<br> Corporis corrupti aperiam cupiditate officia.</p></div>
-                        <div class="row-span-2 col-span-2">
-                            <div class="grid grid-cols-2 gap-2">
+                        <div class="row-span-2">
+                            <div class="grid grid-cols-2 gap-8">
                                 <div>
                                     <i class='bx bx-check-double'>Lorem ipsum dolor sit.</i><br>
                                     <i class='bx bx-check-double'>Lorem ipsum dolor sit.</i><br>
