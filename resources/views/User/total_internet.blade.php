@@ -231,6 +231,22 @@
 
       <!-- End::forth Content -->
 
+
+      <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70" id="features">
+        <div class="container text-center">      
+            <div class="grid grid-cols-12 gap-x-6">
+                <div class="grid lg:grid-cols-4 md:grid-cols-4 gap-x-6">
+                    <div>1</div>
+                </div>
+                <div class="grid lg:grid-cols-8 md:grid-cols-8 gap-x-6">
+                    <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</div>
+                </div>
+
+               
+            </div>
+        </div>
+    </section>
+
       <!-- Start::fifth Content -->
       {{-- <section class="fith-section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]" id="fifth">
         <div class="container text-center">
