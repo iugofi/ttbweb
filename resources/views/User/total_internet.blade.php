@@ -280,7 +280,7 @@
                         <div class="grid grid-col-5">
                             <div class="lg:text-start !flex items-center lg:justify-start justify-center">
                                 
-                                <img src="{{ asset('assets/img/We-Provide-Web-Design-with-App-Development.png') }}" alt="" 
+                                <img src="{{ asset('assets/img/whats-more.png') }}" alt="" 
                                     class="img-fluid">
                             </div>
                         </div>
