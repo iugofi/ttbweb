@@ -1,6 +1,6 @@
 @extends('User.Layouts.layout')
 
-@section('title', 'My Profile')
+@section('title', 'Best Antivirus Software for Windows, Mac, and Android - TTB Antivirus')
 
 
 
