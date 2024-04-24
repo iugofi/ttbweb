@@ -124,7 +124,7 @@
                     <div class="xl:col-span-4 col-span-12">
                         <div class="box text-center">
                             <div class="box-body">
-                                <div class="mb-2">
+                                <div class="mb-2 img-hover">
                                     <span class="avatar avatar-md">
                                 
                                         <img src="assets/img/Green-icon-1.png" alt="img" class="!rounded-md">
@@ -140,7 +140,7 @@
                     <div class="xl:col-span-4 col-span-12">
                         <div class="box text-center">
                             <div class="box-body">
-                                <div class="mb-2">
+                                <div class="mb-2 img-hover2">
                                     <span class="avatar avatar-md">
                                         <img src="assets/img/Green-icon-2.png" alt="img" class="!rounded-md">
                                     </span>
@@ -155,7 +155,7 @@
                     <div class="xl:col-span-4 col-span-12">
                         <div class="box text-center">
                             <div class="box-body">
-                                <div class="mb-2">
+                                <div class="mb-2 img-hover3">
                                     <span class="avatar avatar-md">
                                         <img src="assets/img/Green-icon-3.png" alt="img" class="!rounded-md">
                                     </span> 
@@ -170,9 +170,73 @@
                 </div>
             </div>
         </section>
-
+ 
          <!-- End::third Content -->
 
+         <!-- Start::forth Content -->
+         <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]"
+         id="features">
+         <div class="container main-banner-container">
+             <div class="grid grid-cols-12 gap-6">
+                 <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
+                     <div class="xl:col-span-3 col-span-12 border-custom-main">
+                         <div class="box">
+                             <div class="box-header">
+                                 <div class="flex align-center w-full">
+                                     <img src="assets/img/24-7-Support.png" alt="img" class="avatar avatar-rounded me-2 !mb-0">
+                                     <div class="my-auto">
+                                         <div class="text-[.9375rem] font-semibold">24/7 <br>support</span></div>
+                                       
+                                     </div>
+                                    
+                                 </div>
+                             </div>
+                             <div class="box-body">
+                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam possimus distinctio ipsam sed cum tempora!
+                                 <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum qui nobis, impedit nisi fuga quam cupiditate laboriosam nulla.
+                                 <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                 <br> Lorem ipsum dolor sit amet, consectetur adipisicing.
+                             </div>
+                            
+                         </div>
+                     </div>
+                 </div>
+                 <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
+                     <div class="xl:col-span-3 col-span-12 border-custom-main">
+                         <div class="box">
+                             <div class="box-header">
+                                 <div class="flex align-center w-full">
+                                     <img src="assets/img/30-Day-Money-back-Guarantee.png" alt="img" class="avatar avatar-rounded me-2 !mb-0">
+                                     <div class="my-auto">
+                                         <div class="text-[.9375rem] font-semibold">30-Day Mony-back <br>Guarantee</span></div>
+                                         
+                                     </div>
+                                    
+                                 </div>
+                             </div>
+                             <div class="box-body">
+                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam possimus distinctio ipsam sed cum tempora!
+                                 <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum qui nobis, impedit nisi fuga quam cupiditate laboriosam nulla.
+                                 <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                 <br> Lorem ipsum dolor sit amet, consectetur adipisicing.
+                             </div>
+                          
+                         </div>
+                     </div>
+                 </div>
+             </div>
+             <div class="grid-cols-12 mt-5">
+                 <div class="container text-center">
+                     <a href="index.html" class="m-1 ti-btn ti-btn-primary-full">
+                         Download
+                         <i class="ri-eye-line ms-2 align-middle"></i>
+                     </a>
+                 </div>
+             </div>
+         </div>
+     </section>
+
+      <!-- End::forth Content -->
 
 
 @endsection
