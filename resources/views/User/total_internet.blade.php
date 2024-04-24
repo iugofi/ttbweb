@@ -280,7 +280,7 @@
                     <div class="grid grid-rows-3 sm:grid-col-1 grid-flow-col gap-4">
                         <div class="row-span-3">
                             <div class="lg:text-start !flex items-center lg:justify-start justify-center">
-                                <img src="{{ asset('assets/img/whats-more.png') }}" alt="img" class="img-fluid \!w-full">
+                                <img src="{{ asset('assets/img/whats-more.png') }}" alt="img" class="img-fluid w-full">
                             </div>
                         </div>
                         <div class="col-span-2 ..."><p class="card-text mb-4 pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa iusto
