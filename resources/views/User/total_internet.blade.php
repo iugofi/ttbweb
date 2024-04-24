@@ -276,7 +276,7 @@
             <section
                 class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
                 id="features">
-                <div class="container text-center">
+                <div class="container">
                     <div class="grid grid-rows-3 grid-flow-col gap-4">
                         <div class="row-span-3 ...">
                             <div class="lg:text-start !flex items-center lg:justify-start justify-center">
