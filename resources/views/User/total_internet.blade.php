@@ -234,268 +234,91 @@
       <!-- End::forth Content -->
 
       <!-- Start::fifth Content -->
-      <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]">
-        <div class="container text-center">
-            <p class="text-[0.75rem] font-semibold text-success mb-1"><span class="landing-section-heading">F.A.Q</span>
-            </p>
-            <h3 class="font-semibold mb-2">Frequently asked questions ?</h3>
-            <div class="grid grid-cols-12 justify-center">
-                <div class="col-span-12">
-                    <p class="text-[#8c9097] dark:text-white/50 text-[0.9375rem] mb-12 font-normal">We have shared some
-                        of the most frequently asked questions to help you out.</p>
-                </div>
-            </div>
-            <div class="grid grid-cols-12 gap-6 text-start">
-                <div class="xl:col-span-12 col-span-12">
-                    <div class="grid grid-cols-12 gap-6">
-                        <div
-                            class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-1 col-span-12 boxbordercus">
-                            <div class="box overflow-hidden">
-                                <div class="box-body !p-0">
-                                    <div class="px-1 py-2 bg-success/30"></div>
-                                    <div class="!p-6">
-                                        <div class="flex justify-between items-center mb-4">
-                                            <div class="text-[1.125rem] font-semibold">Team</div>
-                                            <div>
-                                                <span class="badge bg-success/10 text-success">
-                                                    For Small Teams
-                                                </span>
-                                            </div>
-                                        </div>
-                                        <div class="text-[1.5625rem] font-bold mb-1">$149<sub
-                                                class="text-[#8c9097] dark:text-white/50 font-semibold text-[.6875rem] ms-1">/
-                                                Per Month</sub></div>
-                                        <div class="mb-1 text-[#8c9097] dark:text-white/50">Lorem ipsum dolor sit amet
-                                            consectetur adipisicing elit. Iure quos debitis aliquam .</div>
-                                        <div class="text-[0.75rem] mb-4"><u>Billed Monthly</u></div>
-                                        <ul class="list-none mb-0">
-                                            <li class="flex items-center mb-4">
-                                                <span class="me-2">
-                                                    <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
-                                                </span>
-                                                <span>
-                                                    <strong class="me-1">5 Free</strong>Websites
-                                                </span>
-                                            </li>
-                                            <li class="flex items-center mb-4">
-                                                <span class="me-2">
-                                                    <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
-                                                </span>
-                                                <span>
-                                                    <strong class="me-1">5 GB</strong>Hard disk storage
-                                                </span>
-                                            </li>
-                                            <li class="flex items-center mb-4">
-                                                <span class="me-2">
-                                                    <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
-                                                </span>
-                                                <span>
-                                                    <strong class="me-1">2 Years</strong>Email support
-                                                </span>
-                                            </li>
-                                            <li class="flex items-center mb-4">
-                                                <span class="me-2">
-                                                    <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
-                                                </span>
-                                                <span>
-                                                    <strong class="me-1">5</strong>Licenses
-                                                </span>
-                                            </li>
-                                            <li class="flex items-center mb-4">
-                                                <span class="me-2">
-                                                    <i
-                                                        class="ri-checkbox-circle-line text-[.9375rem] text-[#8c9097] dark:text-white/50 opacity-[0.3]"></i>
-                                                </span>
-                                                <span>
-                                                    Custom SEO optimizataion
-                                                </span>
-                                            </li>
-                                            <li class="flex items-center mb-4">
-                                                <span class="me-2">
-                                                    <i
-                                                        class="ri-checkbox-circle-line text-[.9375rem] text-[#8c9097] dark:text-white/50 opacity-[0.3]"></i>
-                                                </span>
-                                                <span>
-                                                    Chat Support   
-                                                </span>
-                                            </li>
-                                            <li class="grid">
-                                                <button type="button" class="ti-btn ti-btn-light ">Choose Plan</button>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div
-                            class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-1 col-span-12 boxbordercus">
-                            <div class="box overflow-hidden">
-                                <div class="box-body !p-0">
-                                    <div class="px-1 py-2 bg-success/30"></div>
-                                    <div class="!p-6">
-                                        <div class="flex justify-between items-center mb-4">
-                                            <div class="text-[1.125rem] font-semibold">Team</div>
-                                            <div>
-                                                <span class="badge bg-success/10 text-success">
-                                                    For Small Teams
-                                                </span>
-                                            </div>
-                                        </div>
-                                        <div class="text-[1.5625rem] font-bold mb-1">$149<sub
-                                                class="text-[#8c9097] dark:text-white/50 font-semibold text-[.6875rem] ms-1">/
-                                                Per Month</sub></div>
-                                        <div class="mb-1 text-[#8c9097] dark:text-white/50">Lorem ipsum dolor sit amet
-                                            consectetur adipisicing elit. Iure quos debitis aliquam .</div>
-                                        <div class="text-[0.75rem] mb-4"><u>Billed Monthly</u></div>
-                                        <ul class="list-none mb-0">
-                                            <li class="flex items-center mb-4">
-                                                <span class="me-2">
-                                                    <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
-                                                </span>
-                                                <span>
-                                                    <strong class="me-1">5 Free</strong>Websites
-                                                </span>
-                                            </li>
-                                            <li class="flex items-center mb-4">
-                                                <span class="me-2">
-                                                    <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
-                                                </span>
-                                                <span>
-                                                    <strong class="me-1">5 GB</strong>Hard disk storage
-                                                </span>
-                                            </li>
-                                            <li class="flex items-center mb-4">
-                                                <span class="me-2">
-                                                    <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
-                                                </span>
-                                                <span>
-                                                    <strong class="me-1">2 Years</strong>Email support
-                                                </span>
-                                            </li>
-                                            <li class="flex items-center mb-4">
-                                                <span class="me-2">
-                                                    <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
-                                                </span>
-                                                <span>
-                                                    <strong class="me-1">5</strong>Licenses
-                                                </span>
-                                            </li>
-                                            <li class="flex items-center mb-4">
-                                                <span class="me-2">
-                                                    <i
-                                                        class="ri-checkbox-circle-line text-[.9375rem] text-[#8c9097] dark:text-white/50 opacity-[0.3]"></i>
-                                                </span>
-                                                <span>
-                                                    Custom SEO optimizataion
-                                                </span>
-                                            </li>
-                                            <li class="flex items-center mb-4">
-                                                <span class="me-2">
-                                                    <i
-                                                        class="ri-checkbox-circle-line text-[.9375rem] text-[#8c9097] dark:text-white/50 opacity-[0.3]"></i>
-                                                </span>
-                                                <span>
-                                                    Chat Support
-                                                </span>
-                                            </li>
-                                            <li class="grid">
-                                                <button type="button" class="ti-btn ti-btn-light ">Choose
-                                                    Plan</button>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div
-                            class="xxl:col-span-4 xl:col-span-3 lg:col-span-4 md:col-span-4 sm:col-span-1 col-span-12 boxbordercus">
-                            <div class="box overflow-hidden">
-                                <div class="box-body !p-0">
-                                    <div class="px-1 py-2 bg-success/30"></div>
-                                    <div class="!p-6">
-                                        <div class="flex justify-between items-center mb-4">
-                                            <div class="text-[1.125rem] font-semibold">Team</div>
-                                            <div>
-                                                <span class="badge bg-success/10 text-success">
-                                                    For Small Teams
-                                                </span>
-                                            </div>
-                                        </div>
-                                        <div class="text-[1.5625rem] font-bold mb-1">$149<sub
-                                                class="text-[#8c9097] dark:text-white/50 font-semibold text-[.6875rem] ms-1">/
-                                                Per Month</sub></div>
-                                        <div class="mb-1 text-[#8c9097] dark:text-white/50">Lorem ipsum dolor sit amet
-                                            consectetur adipisicing elit. Iure quos debitis aliquam .</div>
-                                        <div class="text-[0.75rem] mb-4"><u>Billed Monthly</u></div>
-                                        <ul class="list-none mb-0">
-                                            <li class="flex items-center mb-4">
-                                                <span class="me-2">
-                                                    <i
-                                                        class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
-                                                </span>
-                                                <span>
-                                                    <strong class="me-1">5 Free</strong>Websites
-                                                </span>
-                                            </li>
-                                            <li class="flex items-center mb-4">
-                                                <span class="me-2">
-                                                    <i
-                                                        class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
-                                                </span>
-                                                <span>
-                                                    <strong class="me-1">5 GB</strong>Hard disk storage
-                                                </span>
-                                            </li>
-                                            <li class="flex items-center mb-4">
-                                                <span class="me-2">
-                                                    <i
-                                                        class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
-                                                </span>
-                                                <span>
-                                                    <strong class="me-1">2 Years</strong>Email support
-                                                </span>
-                                            </li>
-                                            <li class="flex items-center mb-4">
-                                                <span class="me-2">
-                                                    <i
-                                                        class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
-                                                </span>
-                                                <span>
-                                                    <strong class="me-1">5</strong>Licenses
-                                                </span>
-                                            </li>
-                                            <li class="flex items-center mb-4">
-                                                <span class="me-2">
-                                                    <i
-                                                        class="ri-checkbox-circle-line text-[.9375rem] text-[#8c9097] dark:text-white/50 opacity-[0.3]"></i>
-                                                </span>
-                                                <span>
-                                                    Custom SEO optimizataion
-                                                </span>
-                                            </li>
-                                            <li class="flex items-center mb-4">
-                                                <span class="me-2">
-                                                    <i
-                                                        class="ri-checkbox-circle-line text-[.9375rem] text-[#8c9097] dark:text-white/50 opacity-[0.3]"></i>
-                                                </span>
-                                                <span>
-                                                    Chat Support
-                                                </span>
-                                            </li>
-                                            <li class="grid">
-                                                <button type="button" class="ti-btn ti-btn-light ">Choose
-                                                    Plan</button>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+      <section
+      class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
+      id="features">
+      <div class="container main-banner-container">
+          <div class="grid grid-cols-12 gap-6">
+              <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
+                  <div class="lg:py-[3rem]">
+                      <p class="landing-banner-heading mb-4 opacity-[0.9]">Lorem ipsum dolor sit amet.</p>
+                      <h2 class="landing-banner-heading mb-4 opacity-[0.9]"><span>What Our Client Say About
+                              Apdash</h2>
+                      <div class="text-[1rem] mb-[3rem] !text-dark opacity-[0.9] ">Collaboratively actualize
+                          excellent schemas without effective <br> models. Synergistically engineer functionalized
+                          applications rather <br> than backend e-commerce.</div>
+
+                      <a href="index.html" class="m-1 ti-btn ti-btn-primary-full">
+                          Read More
+                          <i class="ri-eye-line ms-2 align-middle"></i>
+                      </a>
+
+
+                  </div>
+              </div>
+              <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
+                  <div class="grid grid-cols-12 gap-6">
+                      <div class="xl:col-span-6 col-span-12">
+                          <div class="box">
+                              
+                              <div class="box-body">
+                                  <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
+                                      <img src="assets/img/Icon-1.png" alt="img" class="!rounded-md">
+                                  </span>
+                                  <h6 class="box-title font-semibold">Special title treatment</h6>
+                                  <p class="card-text mb-4">With supporting text below as a natural lead-in to
+                                      additional content.</p>
+                                 
+                              </div>
+                          </div>
+                      </div>
+                      <div class="xl:col-span-6 col-span-12">
+                          <div class="box">  
+                            
+                              <div class="box-body">
+                                  <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
+                                      <img src="assets/img/Icon-2.png" alt="img" class="!rounded-md">
+                                  </span>
+                                  <h6 class="box-title font-semibold">Special title treatment</h6>
+                                  <p class="card-text mb-4">With supporting text below as a natural lead-in to
+                                      additional content.</p>
+                                
+                              </div>
+                          </div>
+                      </div>
+                      <div class="xl:col-span-6 col-span-12">
+                          <div class="box">
+                            
+                              <div class="box-body">
+                                  <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
+                                      <img src="assets/img/Icon-3.png" alt="img" class="!rounded-md">
+                                  </span>
+                                  <h6 class="box-title font-semibold">Special title treatment</h6>
+                                  <p class="card-text mb-4">With supporting text below as a natural lead-in to
+                                      additional content.</p>
+                                
+                              </div>
+                          </div>
+                      </div>
+                      <div class="xl:col-span-6 col-span-12">
+                          <div class="box ">
+                             
+                              <div class="box-body">
+                                  <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
+                                      <img src="assets/img/Icon-4.png" alt="img" class="!rounded-md">
+                                  </span>
+                                  <h6 class="box-title font-semibold">Special title treatment</h6>
+                                  <p class="card-text mb-4">With supporting text below as a natural lead-in to
+                                      additional content.</p>
+                                  
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
  <!-- End::fifth Content -->
 
 @endsection
