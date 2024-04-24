@@ -41159,7 +41159,7 @@ img.img-fluid.service-icon {
     color: #fff;
 }
 .box.text-center:hover .mb-2 img {
-    content: url('assets/img/white-1.png');
+    content: url('/assets/img/white-1.png');
 }
 .box i.bx.bx-chevrons-right {
     font-size: 27px;
