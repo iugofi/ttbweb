@@ -41183,6 +41183,7 @@ img.img-fluid.service-icon {
 .forth-s-inner {
     flex-wrap: nowrap;
     padding: 3rem 1rem;
+    align-items: end;
 }
 .forth-s-inner .flex.align-center.w-full {
     width: 25%;
