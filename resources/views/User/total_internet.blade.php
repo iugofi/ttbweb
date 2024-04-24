@@ -284,14 +284,18 @@
                                     class="img-fluid w-full">
                             </div>
                         </div>
+                    </div>
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
                         <div class="inr-sec">
                             <div class="col-span-2 ...">
-                            <p class="card-text mb-4 pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa iusto perspiciatis rerum ex sint? Possimus harum aliquid molestiae voluptates. Laborum totam
-                                explicabo
-                                maiores qui culpa? Corporis corrupti aperiam cupiditate officia.</p>
+                                <p class="text-[1rem] mb-[1.75rem] text-black-ligh opacity-[0.9] ">Lorem ipsum dolor sit
+                                    amet, consectetur adipisicing elit. Culpa iusto perspiciatis rerum ex sint? Possimus
+                                    harum aliquid molestiae voluptates. Laborum totam
+                                    explicabo
+                                    maiores qui culpa? Corporis corrupti aperiam cupiditate officia.</p>
+                            </div>
                         </div>
-                        </div>
-                        
+
                         <div class="row-span-2">
                             <div class="grid grid-cols-2 gap-8">
                                 <div>
