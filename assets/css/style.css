@@ -41184,6 +41184,8 @@ img.img-fluid.service-icon {
     flex-wrap: nowrap;
     padding: 3rem 1rem;
     align-items: end;
+    border: 5px solid #f5f6fa;
+    border-radius: 0;
 }
 .forth-s-inner .flex.align-center.w-full {
     width: 25%;
@@ -41192,7 +41194,12 @@ img.img-fluid.service-icon {
     width: 100%;
     height: 100%;
 }
-
+.forth-s-main .border-custom-main {
+    box-shadow: -12px 12px 1px 4px #f5f6fa;
+    border: none;
+    border-radius: 0;
+    margin: 0 1rem;
+}
 
 
 
