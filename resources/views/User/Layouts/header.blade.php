@@ -97,7 +97,7 @@
                         </div>
                     </div>
                 </div>
-                <div>
+                {{-- <div>
                     <p class="switcher-style-head">Directions:</p>
                     <div class="grid grid-cols-3 gap-6 switcher-style">
                         <div class="flex">
@@ -140,7 +140,7 @@
                             <div class="pickr-container-primary"></div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
         <div class="ti-offcanvas-footer sm:flex justify-between">
