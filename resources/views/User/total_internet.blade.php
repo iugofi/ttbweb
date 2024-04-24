@@ -252,17 +252,17 @@
                                     <p class="landing-banner-heading mb-4 opacity-[0.9]">With supporting text below as a natural lead-in to
                                                 additional content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum provident id accusantium.</p>
 										<div class=" grid grid-cols-12 gap-6">
-											<div class=" xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
-											<i class='bx bx-check-double'>With supporting natural lead</i>
-											<i class='bx bx-check-double'>With supporting natural lead</i>
-											<i class='bx bx-check-double'>With supporting natural lead</i>
-											<i class='bx bx-check-double'>With supporting natural lead</i>
+											<div class=" xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-12">
+											<i class='bx bx-check-double' style="font-size:16px;">With supporting natural lead</i>
+											<i class='bx bx-check-double' style="font-size:16px;">With supporting natural lead</i>
+											<i class='bx bx-check-double' style="font-size:16px;">With supporting natural lead</i>
+											<i class='bx bx-check-double' style="font-size:16px;">With supporting natural lead</i>
 											</div>
 											<div class=" xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
-											<i class='bx bx-check-double'>With supporting natural lead</i>
-											<i class='bx bx-check-double'>With supporting natural lead</i>
-											<i class='bx bx-check-double'>With supporting natural lead</i>
-											<i class='bx bx-check-double'>With supporting natural lead</i>
+											<i class='bx bx-check-double' style="font-size:16px;">With supporting natural lead</i>
+											<i class='bx bx-check-double' style="font-size:16px;">With supporting natural lead</i>
+											<i class='bx bx-check-double' style="font-size:16px;">With supporting natural lead</i>
+											<i class='bx bx-check-double' style="font-size:16px;">With supporting natural lead</i>
 											</div>
                                         </div>
                             </div>
