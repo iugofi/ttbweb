@@ -180,6 +180,10 @@
          <!-- Start::forth Content -->
          <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]" id="features">
             <div class="container main-banner-container">
+                <div class="forth heading" style="text-align: center; padding: 0 10rem; font-size: 16px;">
+                    <h3 class="landing-banner-heading mb-4 pb-5 opacity-[0.9] pt-5"><span class="text-dark" style="font-size:40px; font-weight:600;">System Requirements</h3>
+                    <p class="card-text mb-4 pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa iusto perspiciatis rerum ex sint? Possimus harum aliquid molestiae voluptates. Laborum totam explicabo maiores qui culpa? Corporis corrupti aperiam cupiditate officia.</p>
+                </div>
                 <div class="grid grid-cols-12 gap-6 forth-s-main">
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
                         <div class="xl:col-span-3 col-span-12 border-custom-main">
