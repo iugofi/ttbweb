@@ -243,7 +243,7 @@
         </section>
 
 
-        <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]" id="about">
+        <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] sect-features" id="about">
             <div class="container text-center">
          
                 <h3 class="font-semibold mb-2 dark:text-defaulttextcolor dark:text-defaulttextcolor/70710">TTB Features
@@ -330,91 +330,6 @@
 
 
                 </div>
-                
-                {{-- <div class="grid grid-cols-3 justify-center align-center mobile-section">
-
-                    <div class="row">
-                        <!--feature new style start-->
-                        <div class="grid-cols-3 grid-cols-12">
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="d-flex align-items-start mb-sm-0 mb-md-3 mb-lg-3 mobilesideicon">
-                                        <span class="fab fa-windows icon-size-md color-secondary mr-4 icons-center"></span>
-                                        <div class="icon-text">
-                                            <h5 class="mb-2">Responsive web design</h5>
-                                            <p>Modular and monetize an componente between layouts monetize array. Core
-                                                competencies for testing.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="d-flex align-items-start mb-sm-0 mb-md-3 mb-lg-3 mobilesideicon">
-                                        <span class="fab fa-windows icon-size-md color-secondary mr-4 icons-center"></span>
-                                        <div class="icon-text">
-                                            <h5 class="mb-2">Loaded with features</h5>
-                                            <p>Holisticly aggregate client centered the manufactured products transparent.
-                                                Organic sources content.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="d-flex align-items-start mb-sm-0 mb-md-3 mb-lg-3 mobilesideicon">
-                                        <span class="fab fa-windows icon-size-md color-secondary mr-4 icons-center"></span>
-                                        <div class="icon-text">
-                                            <h5 class="mb-2">Friendly online support</h5>
-                                            <p>Monotonectally recaptiualize client the centric customize clicks niche
-                                                markets for this meta-services via. </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="grid-cols-3 col-md-5 d-none d-sm-none d-md-block d-lg-block">
-                        <div class="position-relative pb-md-5 py-lg-0 center-imgs">
-                            <img alt="Image placeholder" src="{{asset('assets/img/section-three-ttb.gif')}}"
-                                class="img-fluid">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="grid-cols-3 grid-cols-12">
-
-                            <div class="col-12">
-                                <div class="d-flex align-items-start mb-sm-0 mb-md-3 mb-lg-3 mobilesideicon">
-                                    <span class="fab fa-windows icon-size-md color-secondary mr-4 icons-center"></span>
-                                    <div class="icon-text">
-                                        <h5 class="mb-2">Free updates forever</h5>
-                                        <p>Compellingly formulate installed base imperatives high standards in benefits for
-                                            highly efficient client.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="d-flex align-items-start mb-sm-0 mb-md-3 mb-lg-3 mobilesideicon">
-                                    <span class="fab fa-windows icon-size-md color-secondary mr-4 icons-center"></span>
-                                    <div class="icon-text">
-                                        <h5 class="mb-2">Built with Sass</h5>
-                                        <p>Energistically initiate client-centric the maximize market positioning synergy
-                                            rather client-based data. </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="d-flex align-items-start mb-sm-0 mb-md-3 mb-lg-3 mobilesideicon">
-                                    <span class="fab fa-windows icon-size-md color-secondary mr-4 icons-center"></span>
-                                    <div class="icon-text">
-                                        <h5 class="mb-2">Infinite colors</h5>
-                                        <p>Energistically initiate client-centric e-tailers rather than-based data. Morph
-                                            business technology before.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--feature new style end-->
-
-
-                </div> --}}
             </div>
         </section>
 
