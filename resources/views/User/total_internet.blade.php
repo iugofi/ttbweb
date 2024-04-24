@@ -280,7 +280,7 @@
                     <div class="grid grid-rows-3 grid-flow-col gap-4">
                         <div class="row-span-2 ..."><div class="lg:text-start !flex items-center lg:justify-start justify-center">
                             <h3 class="heading pt-5"><span class="text-dark"style="font-size:40px; font-weight:600;">What's More?</h3>
-                            <img src="{{ asset('assets/img/whats-more.png) }}" alt="" width="600"
+                            <img src="{{ asset('assets/img/whats-more.png') }}" alt="" width="600"
                                 class="img-fluid">
                         </div></div>
                         <div class="col-span-3 ...">02</div>
