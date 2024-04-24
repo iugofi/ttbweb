@@ -276,17 +276,16 @@
                 class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
                 id="features">
                 <div class="container text-center">
-                    <div class="grid grid-col-12 gap-6 text-start">
-                        <div class="grid grid-col-5">
-                            <div class="lg:text-start !flex items-center lg:justify-start justify-center">
-                                
-                                <img src="{{ asset('assets/img/whats-more.png') }}" alt="" 
+                    <div class="grid lg:grid-col-12 md:grid-col-12 sm:grid-col-1 grid-col-12 gap-6 text-start">
+                        <div class="grid lg:grid-col-5 md:grid-col-5">
+                            <div class="lg:text-start !flex items-center lg:justify-start justify-center">        
+                                <img src="{{ asset('assets/img/whats-more.png') }}" alt="img" 
                                     class="img-fluid">
                             </div>
                         </div>
-                        <div class="grid grid-col-7">
-                            <h1>2</h1>
-                                                    </div>
+                        <div class="grid lg:grid-col-7 md:grid-col-7">
+                         <p>bgh</p>
+                        </div>
                     
                         
                     </div>
