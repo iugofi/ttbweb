@@ -41200,7 +41200,9 @@ img.img-fluid.service-icon {
     border-radius: 0;
     margin: 0 1rem;
 }
-
+.dark .forth-s-main .border-custom-main {
+    box-shadow: -14px 12px 1px -6px #444444;
+}
 
 
 @media (min-width: 320px) and (max-width: 767px) {
