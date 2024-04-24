@@ -284,11 +284,14 @@
                                     class="img-fluid w-full">
                             </div>
                         </div>
-                        <div class="col-span-2 ...">
+                        <div class="inr-sec">
+                            <div class="col-span-2 ...">
                             <p class="card-text mb-4 pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa iusto perspiciatis rerum ex sint? Possimus harum aliquid molestiae voluptates. Laborum totam
                                 explicabo
                                 maiores qui culpa? Corporis corrupti aperiam cupiditate officia.</p>
                         </div>
+                        </div>
+                        
                         <div class="row-span-2">
                             <div class="grid grid-cols-2 gap-8">
                                 <div>
