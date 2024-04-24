@@ -277,6 +277,7 @@
                 class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
                 id="features">
                 <div class="container">
+                    <div class="grid grid-cols-12 gap-6">
                     <div class="grid grid-rows-3 sm:grid-col-1 grid-flow-col gap-4">
                         <div class="row-span-3">
                             <div class="lg:text-start !flex items-center lg:justify-start justify-center">
@@ -284,18 +285,14 @@
                                     class="img-fluid w-full">
                             </div>
                         </div>
-                    </div>
-                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
                         <div class="inr-sec">
                             <div class="col-span-2 ...">
-                                <p class="text-[1rem] mb-[1.75rem] text-black-ligh opacity-[0.9] ">Lorem ipsum dolor sit
-                                    amet, consectetur adipisicing elit. Culpa iusto perspiciatis rerum ex sint? Possimus
-                                    harum aliquid molestiae voluptates. Laborum totam
-                                    explicabo
-                                    maiores qui culpa? Corporis corrupti aperiam cupiditate officia.</p>
-                            </div>
+                            <p class="text-[1rem] mb-[1.75rem] text-black-ligh opacity-[0.9] ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa iusto perspiciatis rerum ex sint? Possimus harum aliquid molestiae voluptates. Laborum totam
+                                explicabo
+                                maiores qui culpa? Corporis corrupti aperiam cupiditate officia.</p>
                         </div>
-
+                        </div>
+                        
                         <div class="row-span-2">
                             <div class="grid grid-cols-2 gap-8">
                                 <div>
@@ -315,6 +312,7 @@
                             </div>
                         </div>
                     </div>
+                </div>
                 </div>
             </section>
 
