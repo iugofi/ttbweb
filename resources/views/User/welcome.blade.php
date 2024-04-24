@@ -243,7 +243,7 @@
         </section>
 
 
-        <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] sect-features" id="about">
+        <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] " id="about">
             <div class="container text-center">
          
                 <h3 class="font-semibold mb-2 dark:text-defaulttextcolor dark:text-defaulttextcolor/70710">TTB Features

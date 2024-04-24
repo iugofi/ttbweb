@@ -40931,10 +40931,10 @@ img.img-fluid.service-icon {
 }
 
 .text-left{
-    text-align: center;
+    text-align: left;
 }
 .text-right{
-    text-align: center;
+    text-align: right;
 }
 .text-center{
     text-align: center;
