@@ -119,6 +119,11 @@
         <!-- Start::third Content -->
 
         <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70" id="features">
+            <div class="forth heading">
+                <h2 class="landing-banner-heading mb-4 opacity-[0.9] pt-5"><span class="text-dark" style="font-size:40px; font-weight:600;">Privacy that you can rely on...</h2>
+                <p class="card-text mb-4">Many desktop publishing packages and <br> web page editors
+                    now use Lorem Ipsum as <br> their default model text.</p>
+            </div>
             <div class="container text-center">
                 <div class="grid grid-cols-12 gap-x-6">
                     <div class="xl:col-span-4 col-span-12">
