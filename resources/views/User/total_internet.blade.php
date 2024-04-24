@@ -234,7 +234,7 @@
       <!-- End::forth Content -->
 
       <!-- Start::fifth Content -->
-      <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]" id="faq">
+      <section class="fith-section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]" id="fifth">
         <div class="container text-center">
            
             <div class="grid grid-cols-12 gap-6 text-start">
@@ -242,8 +242,7 @@
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xl:col-span-5 col-span-12">
                             <div class="lg:text-start !flex items-center lg:justify-start justify-center">
-                                <h3 class="landing-banner-heading mb-4 pb-5 opacity-[0.9] pt-5"><span class="text-dark"
-                                    style="font-size:40px; font-weight:600;">What's More?</h3>
+                                <h3 class="heading pt-5"><span class="text-dark"style="font-size:40px; font-weight:600;">What's More?</h3>
                                 <img src="{{ asset('assets/img/We-Provide-Web-Design-with-App-Development.png') }}" alt="" width="600"
                                     class="img-fluid">
                             </div>
