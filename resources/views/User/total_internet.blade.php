@@ -121,7 +121,7 @@
         <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70" id="features">
             <div class="forth heading" style="text-align: center;">
                 <h2 class="landing-banner-heading mb-4 pb-5 opacity-[0.9] pt-5"><span class="text-dark" style="font-size:40px; font-weight:600;">Privacy that you can rely on...</h2>
-                <p class="card-text mb-4 pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa iusto perspiciatis rerum ex sint? Possimus harum aliquid molestiae voluptates. Laborum totam explicabo <br>maiores qui culpa? Corporis corrupti aperiam cupiditate officia.</p>
+                <p class="card-text mb-4 pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa iusto perspiciatis rerum ex sint? Possimus harum aliquid molestiae voluptates. Laborum totam explicabo maiores qui culpa? Corporis corrupti aperiam cupiditate officia.</p>
             </div>
             <div class="container text-center">
                 <div class="grid grid-cols-12 gap-x-6">
