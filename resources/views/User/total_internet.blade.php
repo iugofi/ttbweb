@@ -179,7 +179,7 @@
 
          <!-- Start::forth Content -->
          <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]" id="features">
-            <div class="container main-banner-container">
+            <div class="container main-banner-container text-center">
                     <h3 class="landing-banner-heading mb-4 pb-5 opacity-[0.9] pt-5"><span class="text-dark" style="font-size:40px; font-weight:600; text-align:center;">System Requirements</h3>
                     <p class="card-text mb-4 pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa iusto perspiciatis rerum ex sint? Possimus<br> harum aliquid molestiae voluptates. Laborum totam explicabo maiores qui culpa?<br> Corporis corrupti aperiam cupiditate officia.</p>
                 <div class="grid grid-cols-12 gap-6 forth-s-main">
