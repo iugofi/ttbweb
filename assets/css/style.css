@@ -3316,6 +3316,9 @@ h6 {
 .max-w-6xl {
     max-width: 72rem;
 }
+.max-w-66xl{
+    max-width: 48rem;
+}
 .max-w-\[10rem\] {
     max-width: 10rem;
 }
@@ -40922,6 +40925,9 @@ img.img-fluid.service-icon {
 
 /* neeraj-home-page-css-22-04-2024 */
 
+h3.font-semibold.mb-2.text-black.features-one{
+  font-size:2.4em;
+}
 .sect-features i{
  color: #12D1B5;
 }
