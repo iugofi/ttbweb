@@ -277,11 +277,10 @@
                 id="features">
                 <div class="container text-center">
                     <div class="grid grid-col-12 gap-6 text-start">
-
                         <div class="grid grid-col-5">
                             <div class="lg:text-start !flex items-center lg:justify-start justify-center">
-                                <h3 class="heading pt-5"><span class="text-dark"style="font-size:40px; font-weight:600;">What's More?</h3>
-                                <img src="{{ asset('assets/img/We-Provide-Web-Design-with-App-Development.png') }}" alt="" width="600"
+                                
+                                <img src="{{ asset('assets/img/We-Provide-Web-Design-with-App-Development.png') }}" alt="" 
                                     class="img-fluid">
                             </div>
                         </div>
