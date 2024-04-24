@@ -273,46 +273,34 @@
             <!-- End::forth Content -->
 
 
-            <section
-                class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
-                id="features">
-                <div class="container">
+            <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]" id="faq">
+                <div class="container text-center">
                    
-                    <div class="grid grid-rows-3 sm:grid-col-1 grid-flow-col gap-4">
-                        <div class="row-span-3">
-                            <div class="lg:text-start !flex items-center lg:justify-start justify-center">
-                                <img src="{{ asset('assets/img/whats-more.png') }}" alt="img"
-                                    class="img-fluid w-full">
-                            </div>
-                        </div>
-                        <div class="inr-sec">
-                            <div class="col-span-2 ...">
-                            <p class="text-[1rem] mb-[1.75rem] text-black-ligh opacity-[0.9] ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa iusto perspiciatis rerum ex sint? Possimus harum aliquid molestiae voluptates. Laborum totam
-                                explicabo
-                                maiores qui culpa? Corporis corrupti aperiam cupiditate officia.</p>
-                        </div>
-                        </div>
-                        
-                        <div class="row-span-2">
-                            <div class="grid grid-cols-2 gap-8">
-                                <div>
-                                    <i class='bx bx-check-double'>Lorem ipsum dolor sit.</i><br>
-                                    <i class='bx bx-check-double'>Lorem ipsum dolor sit.</i><br>
-                                    <i class='bx bx-check-double'>Lorem ipsum dolor sit.</i><br>
-                                    <i class='bx bx-check-double'>Lorem ipsum dolor sit.</i><br>
-
+                    <div class="grid grid-cols-12 gap-6 text-start">
+                        <div class="xl:col-span-12 col-span-12">
+                            <div class="grid grid-cols-12 gap-6">
+                                <div class="xl:col-span-6 col-span-12">
+                                    <div class="lg:text-start !flex items-center lg:justify-start justify-center">
+                                        <img src="{{ asset('assets/img/whats-more.png') }}" alt="" width="600"
+                                            class="img-fluid">
+                                    </div>
                                 </div>
-                                <div>
-                                    <i class='bx bx-check-double'>Lorem ipsum dolor sit.</i><br>
-                                    <i class='bx bx-check-double'>Lorem ipsum dolor sit.</i><br>
-                                    <i class='bx bx-check-double'>Lorem ipsum dolor sit.</i><br>
-                                    <i class='bx bx-check-double'>Lorem ipsum dolor sit.</i><br>
-
+                                <div class="xl:col-span-6 col-span-12">
+                                    <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 col-span-12">
+                                        <div class="lg:py-[3rem]">
+                                            <h2 class="landing-banner-heading mb-4 opacity-[0.9]"><span>What Our Client Say <br> About
+                                                    Apdash</h2>
+                                                    <p class="card-text mb-4">With supporting text below as a natural lead-in to
+                                                        additional content. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit.  Dolorum provident id accusantium.</p>
+                                                        <p class="card-text mb-4">With supporting text below as a natural lead-in to
+                                                            additional content. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit.  Dolorum provident id accusantium.</p>
+                
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-               
                 </div>
             </section>
 
