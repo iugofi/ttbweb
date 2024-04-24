@@ -275,7 +275,7 @@
 
             <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]" id="faq">
                 <div class="container text-center">
-                   
+
                     <div class="grid grid-cols-12 gap-6 text-start">
                         <div class="xl:col-span-12 col-span-12">
                             <div class="grid grid-cols-12 gap-6">
@@ -288,13 +288,25 @@
                                 <div class="xl:col-span-6 col-span-12">
                                     <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 col-span-12">
                                         <div class="lg:py-[3rem]">
-                                            
-                                                    <p class="card-text mb-4">With supporting text below as a natural lead-in to
-                                                        additional content.  Lorem ipsum dolor sit amet consectetur adipisicing elit.  Lorem ipsum dolor sit amet consectetur adipisicing elit.  Dolorum provident id accusantium.</p>
 
-                                                        
-                                                       
-                
+                                            <p class="card-text mb-4">With supporting text below as a natural lead-in to
+                                                additional content. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum provident
+                                                id accusantium.</p>
+
+                                            <div class="grid grid-cols-12 gap-x-6">
+                                                <div class="row">
+                                                    <div class="xl:col-span-6 col-span-12">
+                                                        <h1>dffhdfgy</h1>
+                                                    </div>
+                                                    <div class="xl:col-span-6 col-span-12">
+                                                        <h1>dffhdfg</h1>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+
                                         </div>
                                     </div>
                                 </div>
