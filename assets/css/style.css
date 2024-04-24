@@ -3316,6 +3316,9 @@ h6 {
 .max-w-6xl {
     max-width: 72rem;
 }
+.max-w-66xl{
+    max-width: 48rem;
+}
 .max-w-\[10rem\] {
     max-width: 10rem;
 }
