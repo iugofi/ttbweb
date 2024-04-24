@@ -185,7 +185,7 @@
                         <div class="xl:col-span-3 col-span-12 border-custom-main">
                                 <div class="box-header forth-s-inner">
                                     <div class="flex align-center w-full">
-                                        <img src="https://nighthawk-routerlogin.com/assets/img/Hardware-Requirement.png" alt="img" class="avatar avatar-rounded me-2 !mb-0">
+                                        <img src="/assets/img/Hardware-Requirement.png" alt="img" class="avatar avatar-rounded me-2 !mb-0">
                                        
                                 </div>
                                 <div class="box-body forth-section">
@@ -206,7 +206,7 @@
                         <div class="xl:col-span-3 col-span-12 border-custom-main">
                                 <div class="box-header forth-s-inner">
                                     <div class="flex align-center w-full">
-                                        <img src="https://nighthawk-routerlogin.com/assets/img/Hardware-Requirement.png" alt="img" class="avatar avatar-rounded me-2 !mb-0">
+                                        <img src="/assets/img/OS-Requirement.png" alt="img" class="avatar avatar-rounded me-2 !mb-0">
                                        
                                 </div>
                                 <div class="box-body forth-section">
