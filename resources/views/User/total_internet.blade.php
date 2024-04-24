@@ -124,28 +124,28 @@
                     <div class="xl:col-span-4 col-span-12">
                         <div class="box text-center">
                             <div class="box-body">
-                                <div class="mb-2">
+                                <div class="mb-2 img-hover">
                                     <span class="avatar avatar-md">
                                 
                                         <img src="assets/img/Green-icon-1.png" alt="img" class="!rounded-md">
                                     </span>
                                 </div>
-                                <h6 class="box-title font-semibold mb-2 img-hover">Why do we use it?</h6>
+                                <h6 class="box-title font-semibold mb-2">Why do we use it?</h6>
                                 <p class="card-text mb-4">Many desktop publishing packages and <br> web page editors
                                     now use Lorem Ipsum as <br> their default model text.</p>
-                            </div>  
+                            </div>
                             <i class='bx bx-chevrons-right'></i>
                         </div>
                     </div>
                     <div class="xl:col-span-4 col-span-12">
                         <div class="box text-center">
                             <div class="box-body">
-                                <div class="mb-2">
+                                <div class="mb-2 img-hover2">
                                     <span class="avatar avatar-md">
                                         <img src="assets/img/Green-icon-2.png" alt="img" class="!rounded-md">
                                     </span>
                                 </div>
-                                <h6 class="box-title font-semibold mb-2 img-hover2">Why do we use it?</h6>
+                                <h6 class="box-title font-semibold mb-2">Why do we use it?</h6>
                                 <p class="card-text mb-4">Many desktop publishing packages and <br> web page editors
                                     now use Lorem Ipsum as <br> their default model text.</p> 
                             </div>
@@ -155,12 +155,12 @@
                     <div class="xl:col-span-4 col-span-12">
                         <div class="box text-center">
                             <div class="box-body">
-                                <div class="mb-2">
+                                <div class="mb-2 img-hover3">
                                     <span class="avatar avatar-md">
                                         <img src="assets/img/Green-icon-3.png" alt="img" class="!rounded-md">
                                     </span> 
                                 </div>
-                                <h6 class="box-title font-semibold mb-2 img-hover3">Why do we use it?</h6>
+                                <h6 class="box-title font-semibold mb-2">Why do we use it?</h6>
                                 <p class="card-text mb-4">Many desktop publishing packages and <br> web page editors
                                     now use Lorem Ipsum as <br> their default model text.</p>  
                             </div>
