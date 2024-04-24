@@ -277,7 +277,7 @@
                 class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
                 id="features">
                 <div class="container">
-                    <div class="grid grid-cols-12 gap-6">
+                   
                     <div class="grid grid-rows-3 sm:grid-col-1 grid-flow-col gap-4">
                         <div class="row-span-3">
                             <div class="lg:text-start !flex items-center lg:justify-start justify-center">
@@ -312,7 +312,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+               
                 </div>
             </section>
 
