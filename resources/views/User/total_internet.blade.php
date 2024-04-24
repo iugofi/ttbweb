@@ -3,7 +3,7 @@
 @section('title', 'Total Internet Protection TTB - TTB Antivirus')
 @section('Description', 'Surfing the internet has become very vulnerable nowadays. Secure your devices and surf worry-free with total internet protection TTB antivirus has to offer you.')
 @section('keywords', 'klp dgf')
-@section('canonical', '/totel-internet-security')
+@section('canonical', '{{url('/totel-internet-security')}}')
 
 
 
