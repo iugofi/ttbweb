@@ -289,8 +289,20 @@
                             maiores qui culpa?<br> Corporis corrupti aperiam cupiditate officia.</p></div>
                         <div class="row-span-2 col-span-2">
                             <div class="grid grid-cols-2 gap-2">
-                                <div>01</div>
-                                <div>09</div>
+                                <div>
+                                    <i class='bx bx-check-double'>Lorem ipsum dolor sit.</i>
+                                    <i class='bx bx-check-double'>Lorem ipsum dolor sit.</i>
+                                    <i class='bx bx-check-double'>Lorem ipsum dolor sit.</i>
+                                    <i class='bx bx-check-double'>Lorem ipsum dolor sit.</i>
+
+                                </div>
+                                <div>
+                                    <i class='bx bx-check-double'>Lorem ipsum dolor sit.</i>
+                                    <i class='bx bx-check-double'>Lorem ipsum dolor sit.</i>
+                                    <i class='bx bx-check-double'>Lorem ipsum dolor sit.</i>
+                                    <i class='bx bx-check-double'>Lorem ipsum dolor sit.</i>
+
+                                </div>
                             </div>
                         </div>
                     </div>
