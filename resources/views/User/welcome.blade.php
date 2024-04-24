@@ -245,8 +245,7 @@
 
         <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]" id="about">
             <div class="container text-center">
-                {{-- <p class="text-[0.75rem] font-semibold text-success mb-1"><span
-                    class="landing-section-heading">CUSTOMIZATION</span></p> --}}
+         
                 <h3 class="font-semibold mb-2 dark:text-defaulttextcolor dark:text-defaulttextcolor/70710">TTB Features
                 </h3>
                 <div class="grid grid-cols-12 justify-center max-w-xl mx-auto pb-5 pt-5 mb-5">
@@ -256,7 +255,83 @@
                             goal-oriented catalysts for change. Collaboratively.</p>
                     </div>
                 </div>
-                <div class="grid grid-cols-3 justify-center align-center mobile-section">
+                <div class="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 justify-center align-center mobile-section sect-features" >
+
+                    <div class="row">
+                        <!--feature new style start-->
+                        <div class="grid-cols-3 grid-cols-12">
+                            <div class="row  flex p-4">
+                              <div class="grid-cols-2 col-md-6 text-left ">
+                                <i class="fa-regular fa-face-smile text-4xl p-2 px-3"></i>
+                              </div>
+                              <div class="grid-cols-2 sm:grid-cols-1 grid-cols-12 text-left ">
+                                <h4 class="text-2xl5 font-medium">Responsive web design</h4>
+                                <p class="leading-6 mt-2">Modular and monetize an componente between layouts monetize array. Core competencies for testing.</p>
+                              </div>
+                            </div>
+                            <div class="row flex p-4">
+                                <div class="grid-cols-2 col-md-6 text-left ">
+                                  <i class='bx bx-vector text-4xl p-2 px-3'></i>
+                                </div>
+                                <div class="grid-cols-2 col-md-6 text-left">
+                                  <h4 class="text-2xl5 font-medium">Responsive web design</h4>
+                                  <p class="leading-6 mt-2">Modular and monetize an componente between layouts monetize array. Core competencies for testing.</p>
+                                </div>
+                              </div>
+                              <div class="row flex p-4">
+                                <div class="grid-cols-2 col-md-6 text-left ">
+                                  <i class='bx bx-support text-4xl p-2 px-3'></i>
+                                </div>
+                                <div class="grid-cols-2 col-md-6 text-left">
+                                  <h4 class="text-2xl5 font-medium">Responsive web design</h4>
+                                  <p class="leading-6 mt-2">Modular and monetize an componente between layouts monetize array. Core competencies for testing.</p>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="grid-cols-3 col-md-5 d-none d-sm-none d-md-block d-lg-block">
+                        <div class="position-relative pb-md-5 py-lg-0 center-imgs">
+                            <img alt="Image placeholder" src="{{asset('assets/img/section-three-ttb.gif')}}"
+                                class="img-fluid mt-5">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="grid-cols-3 grid-cols-12">
+                            <div class="row flex p-4">
+                              <div class="grid-cols-2 col-md-6 text-left ">
+                                <i class='bx bx-category text-4xl p-2 px-3'></i>
+                              </div>
+                              <div class="grid-cols-2 col-md-6 text-left">
+                                <h4 class="text-2xl5 font-medium">Responsive web design</h4>
+                                <p class="leading-6 mt-2">Modular and monetize an componente between layouts monetize array. Core competencies for testing.</p>
+                              </div>
+                            </div>
+                            <div class="row flex p-4">
+                                <div class="grid-cols-2 col-md-6 text-left ">
+                                  <i class='bx bx-window-alt text-4xl p-2 px-3'></i>
+                                </div>
+                                <div class="grid-cols-2 col-md-6 text-left">
+                                  <h4 class="text-2xl5 font-medium">Responsive web design</h4>
+                                  <p class="leading-6 mt-2">Modular and monetize an componente between layouts monetize array. Core competencies for testing.</p>
+                                </div>
+                              </div>
+                              <div class="row flex p-4">
+                                <div class="grid-cols-2 col-md-6 text-left ">
+                                  <i class='bx bx-palette text-4xl p-2 px-3'></i>
+                                </div>
+                                <div class="grid-cols-2 col-md-6 text-left">
+                                  <h4 class="text-2xl5 font-medium">Responsive web design</h4>
+                                  <p class="leading-6 mt-2">Modular and monetize an componente between layouts monetize array. Core competencies for testing.</p>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <!--feature new style end-->
+
+
+                </div>
+                
+                {{-- <div class="grid grid-cols-3 justify-center align-center mobile-section">
 
                     <div class="row">
                         <!--feature new style start-->
@@ -339,11 +414,9 @@
                     <!--feature new style end-->
 
 
-                </div>
+                </div> --}}
             </div>
         </section>
-
-
 
 
 
