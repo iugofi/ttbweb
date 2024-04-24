@@ -510,8 +510,7 @@
 
 
 
-    <section
-    class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]"
+    <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]"
     id="features">
     <div class="container main-banner-container">
         <div class="grid grid-cols-12 gap-6">
