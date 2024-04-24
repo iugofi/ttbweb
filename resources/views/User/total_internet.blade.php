@@ -295,7 +295,7 @@
                                                 id accusantium.</p>
 
                                             <div class="grid grid-cols-12 gap-x-6">
-                                                <div class="row">
+                                                <div class="row flex gap-8">
                                                     <div class="xl:col-span-6 col-span-12">
                                                         <h1>dffhdfgy</h1>
                                                     </div>
