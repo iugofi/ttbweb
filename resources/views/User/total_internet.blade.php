@@ -163,7 +163,7 @@
                             <div class="box text-center">
                                 <div class="box-body">
                                     <div class="mb-2 img-hover">
-                                        <span class="avatar avatar-md">
+                                        <span class="avatar avatar-md"> 
 
                                             <img src="assets/img/Green-icon-1.png" alt="img" class="!rounded-md">
                                         </span>
