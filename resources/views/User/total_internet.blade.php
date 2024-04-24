@@ -240,22 +240,30 @@
             <div class="grid grid-cols-12 gap-6 text-start">
                 <div class="xl:col-span-12 col-span-12">
                     <div class="grid grid-cols-12 gap-6">
-                        <div class="xl:col-span-6 col-span-12">
+                        <div class="xl:col-span-5 col-span-12">
                             <div class="lg:text-start !flex items-center lg:justify-start justify-center">
                                 <img src="{{ asset('assets/img/We-Provide-Web-Design-with-App-Development.png') }}" alt="" width="600"
                                     class="img-fluid">
                             </div>
                         </div>
-                        <div class="xl:col-span-6 col-span-12">
+                        <div class="xl:col-span-7 col-span-12">
                             <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 col-span-12">
                                 <div class="lg:py-[3rem]">
-                                    <h2 class="landing-banner-heading mb-4 opacity-[0.9]"><span>What Our Client Say <br> About
-                                            Apdash</h2>
-                                            <p class="card-text mb-4">With supporting text below as a natural lead-in to
-                                                additional content. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit.  Dolorum provident id accusantium.</p>
-                                                <p class="card-text mb-4">With supporting text below as a natural lead-in to
-                                                    additional content. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit.  Dolorum provident id accusantium.</p>
-        
+                                    <p class="landing-banner-heading mb-4 opacity-[0.9]">With supporting text below as a natural lead-in to
+                                                additional content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum provident id accusantium.</p>
+											<div class=" col-span-12 fifth-inline">
+											<div class=" col-span-6 inner-flex">
+											<i class='bx bx-check-double'>With supporting natural lead</i>
+											<i class='bx bx-check-double'>With supporting natural lead</i>
+											<i class='bx bx-check-double'>With supporting natural lead</i>
+											<i class='bx bx-check-double'>With supporting natural lead</i>
+											</div>
+											<div class=" col-span-6 inner-flex">
+											<i class='bx bx-check-double'>With supporting natural lead</i>
+											<i class='bx bx-check-double'>With supporting natural lead</i>
+											<i class='bx bx-check-double'>With supporting natural lead</i>
+											<i class='bx bx-check-double'>With supporting natural lead</i>
+											</div>
                                 </div>
                             </div>
                         </div>
