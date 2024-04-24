@@ -276,16 +276,16 @@
                 class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
                 id="features">
                 <div class="container text-center">
-                    <div class="grid grid-cols-12 gap-6 text-start">
+                    <div class="grid grid-col-12 gap-6 text-start">
 
-                        <div class="grid grid-cols-3">
+                        <div class="grid grid-col-5">
                             <div class="lg:text-start !flex items-center lg:justify-start justify-center">
                                 <h3 class="heading pt-5"><span class="text-dark"style="font-size:40px; font-weight:600;">What's More?</h3>
                                 <img src="{{ asset('assets/img/We-Provide-Web-Design-with-App-Development.png') }}" alt="" width="600"
                                     class="img-fluid">
                             </div>
                         </div>
-                        <div class="grid grid-cols-8">
+                        <div class="grid grid-col-7">
                             <h1>2</h1>
                                                     </div>
                     
