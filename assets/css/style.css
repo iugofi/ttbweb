@@ -41188,9 +41188,29 @@ img.img-fluid.service-icon {
     background: #fff;
     color: #12D2B3;
 }
-
-
-
+.forth-s-inner {
+    flex-wrap: nowrap;
+    padding: 3rem 1rem;
+    align-items: end;
+    border: 3px solid #f5f6fa;
+    border-radius: 0;
+}
+.forth-s-inner .flex.align-center.w-full {
+    width: 25%;
+}
+.forth-s-inner img {
+    width: 100%;
+    height: 100%;
+}
+.forth-s-main .border-custom-main {
+    box-shadow: -14px 12px 1px -6px #f5f6fa;
+    border: none;
+    border-radius: 0;
+    margin: 0 1rem;
+}
+.dark .forth-s-main .border-custom-main {
+    box-shadow: -14px 12px 1px -6px #444444;
+}
 
 
 @media (min-width: 320px) and (max-width: 767px) {
