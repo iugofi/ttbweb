@@ -187,7 +187,7 @@
                          <div class="box">
                              <div class="box-header">
                                  <div class="flex align-center w-full">
-                                     <img src="assets/img/24-7-Support.png" alt="img" class="avatar avatar-rounded me-2 !mb-0">
+                                     <img src="assets/img/Hardware-Requirement.png" alt="img" class="avatar avatar-rounded me-2 !mb-0">
                                      <div class="my-auto">
                                          <div class="text-[.9375rem] font-semibold">24/7 <br>support</span></div>
                                        
@@ -210,7 +210,7 @@
                          <div class="box">
                              <div class="box-header">
                                  <div class="flex align-center w-full">
-                                     <img src="assets/img/30-Day-Money-back-Guarantee.png" alt="img" class="avatar avatar-rounded me-2 !mb-0">
+                                     <img src="assets/img/OS-Requirement.png" alt="img" class="avatar avatar-rounded me-2 !mb-0">
                                      <div class="my-auto">
                                          <div class="text-[.9375rem] font-semibold">30-Day Mony-back <br>Guarantee</span></div>
                                          
