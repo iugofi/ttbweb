@@ -252,13 +252,13 @@
                                     <p class="landing-banner-heading mb-4 opacity-[0.9]">With supporting text below as a natural lead-in to
                                                 additional content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum provident id accusantium.</p>
 											<div class=" col-span-12 fifth-inline">
-											<div class=" col-span-6 inner-flex">
+											<div class=" col inner-flex">
 											<i class='bx bx-check-double'>With supporting natural lead</i>
 											<i class='bx bx-check-double'>With supporting natural lead</i>
 											<i class='bx bx-check-double'>With supporting natural lead</i>
 											<i class='bx bx-check-double'>With supporting natural lead</i>
 											</div>
-											<div class=" col-span-6 inner-flex">
+											<div class=" col inner-flex">
 											<i class='bx bx-check-double'>With supporting natural lead</i>
 											<i class='bx bx-check-double'>With supporting natural lead</i>
 											<i class='bx bx-check-double'>With supporting natural lead</i>
