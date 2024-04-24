@@ -1,7 +1,8 @@
 @extends('User.Layouts.layout')
 
 @section('title', 'Total Internet Protection TTB - TTB Antivirus')
-@section('Description', 'Surfing the internet has become very vulnerable nowadays. Secure your devices and surf
+@section('Description',
+    'Surfing the internet has become very vulnerable nowadays. Secure your devices and surf
     worry-free with total internet protection TTB antivirus has to offer you.')
 @section('keywords', '')
 @section('canonical', route('user.totalinternet'))
@@ -278,16 +279,15 @@
                 <div class="container text-center">
                     <div class="grid lg:grid-col-12 md:grid-col-12 sm:grid-col-1 grid-col-12 gap-6 text-start">
                         <div class="grid lg:grid-col-5 md:grid-col-5">
-                            <div class="lg:text-start !flex items-center lg:justify-start justify-center">        
-                                <img src="{{ asset('assets/img/whats-more.png') }}" alt="img" 
-                                    class="img-fluid">
-                            </div>
+                         
+                        <img src="{{ asset('assets/img/whats-more.png') }}" alt="img" class="img-fluid">
+                            
                         </div>
                         <div class="grid lg:grid-col-7 md:grid-col-7">
-                         <p>bgh</p>
+                            <p>bgh</p>
                         </div>
-                    
-                        
+
+
                     </div>
                 </div>
             </section>
