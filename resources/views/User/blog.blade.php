@@ -4,7 +4,7 @@
 @section('Description',
     'TTB cyber security blogs are regularly updated to help our readers become aware of the latest
     phishing, breaches, and cyber attacks happening on the internet.')
-@section('keywords', 'klp dgf')
+@section('keywords', '')
 @section('canonical', url('/blog'))
 
 

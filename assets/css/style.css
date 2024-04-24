@@ -41151,7 +41151,35 @@ img.img-fluid.service-icon {
     flex: 1;
     padding: 0 0 0 22px;
 }
-
+.box.text-center:hover {
+    background: #12D2B3;
+}
+.box.text-center:hover h6 {
+    color: #fff;
+}
+.box.text-center:hover p {
+    color: #fff;
+}
+.box.text-center:hover .mb-2 img {
+    content: url('assets/img/white-1.png');
+}
+.box i.bx.bx-chevrons-right {
+    font-size: 27px;
+    position: relative;
+    top: 17px;
+    left: 18rem;
+    background: #12D2B3;
+    width: 11%;
+    color: #fff;
+    border-radius: 30px;
+    min-height: 38px;
+    align-items: center;
+    display: grid;
+}
+.box.text-center:hover i.bx.bx-chevrons-right {
+    background: #fff;
+    color: #12D2B3;
+}
 
 
 

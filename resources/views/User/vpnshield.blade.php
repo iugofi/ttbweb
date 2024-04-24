@@ -2,9 +2,9 @@
 
 @section('title', 'Download The Best TTB VPN Shield for macOS - TTB Antivirus')
 
-@section('Description', 'klp dgf')
-@section('keywords', 'klp dgf')
-@section('canonical', 'klp dgf')
+@section('Description', '')
+@section('keywords', '')
+@section('canonical', '')
 
 
 

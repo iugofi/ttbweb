@@ -3,9 +3,9 @@
 @extends('User.Layouts.layout')
 
 @section('title', 'Test')
-@section('Description', 'klp dgf')
-@section('keywords', 'klp dgf')
-@section('canonical', 'klp dgf')
+@section('Description', '')
+@section('keywords', '')
+@section('canonical', '')
 
 
 
