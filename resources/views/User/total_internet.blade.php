@@ -290,17 +290,17 @@
                         <div class="row-span-2 col-span-2">
                             <div class="grid grid-cols-2 gap-2">
                                 <div>
-                                    <i class='bx bx-check-double'>Lorem ipsum dolor sit.</i>
-                                    <i class='bx bx-check-double'>Lorem ipsum dolor sit.</i>
-                                    <i class='bx bx-check-double'>Lorem ipsum dolor sit.</i>
-                                    <i class='bx bx-check-double'>Lorem ipsum dolor sit.</i>
+                                    <i class='bx bx-check-double'>Lorem ipsum dolor sit.</i><br>
+                                    <i class='bx bx-check-double'>Lorem ipsum dolor sit.</i><br>
+                                    <i class='bx bx-check-double'>Lorem ipsum dolor sit.</i><br>
+                                    <i class='bx bx-check-double'>Lorem ipsum dolor sit.</i><br>
 
                                 </div>
                                 <div>
-                                    <i class='bx bx-check-double'>Lorem ipsum dolor sit.</i>
-                                    <i class='bx bx-check-double'>Lorem ipsum dolor sit.</i>
-                                    <i class='bx bx-check-double'>Lorem ipsum dolor sit.</i>
-                                    <i class='bx bx-check-double'>Lorem ipsum dolor sit.</i>
+                                    <i class='bx bx-check-double'>Lorem ipsum dolor sit.</i><br>
+                                    <i class='bx bx-check-double'>Lorem ipsum dolor sit.</i><br>
+                                    <i class='bx bx-check-double'>Lorem ipsum dolor sit.</i><br>
+                                    <i class='bx bx-check-double'>Lorem ipsum dolor sit.</i><br>
 
                                 </div>
                             </div>
