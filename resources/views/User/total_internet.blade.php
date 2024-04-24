@@ -179,7 +179,7 @@
 
          <!-- Start::forth Content -->
          <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]" id="features">
-            <div class="container main-banner-container">
+            <div class="container main-banner-container text-center">
                     <p class="card-text mb-4 pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa iusto perspiciatis rerum ex sint? Possimus<br> harum aliquid molestiae voluptates. Laborum totam explicabo maiores qui culpa?<br> Corporis corrupti aperiam cupiditate officia.</p>
                 <div class="grid grid-cols-12 gap-6 forth-s-main">
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
