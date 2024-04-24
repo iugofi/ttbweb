@@ -277,14 +277,15 @@
                 id="features">
                 <div class="container text-center">
                     <div class="grid grid-cols-12 gap-6 text-start">
-                        <div class="xl:col-span-12 col-span-12">
-                            <div class="xl:col-span-3 col-span-12">
-                                <div>1</div>
-                            </div>
-                            <div class="xl:col-span-8 col-span-12">
-                                <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</div>
-                            </div>
+
+                        <div class="grid grid-cols-3">
+<h1>1</h1>
                         </div>
+                        <div class="grid grid-cols-8">
+                            <h1>2</h1>
+                                                    </div>
+                    
+                        
                     </div>
                 </div>
             </section>
