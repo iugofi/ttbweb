@@ -281,19 +281,19 @@
                             <div class="grid grid-cols-12 gap-6">
                                 <div class="xl:col-span-6 col-span-12">
                                     <div class="lg:text-start !flex items-center lg:justify-start justify-center">
-                                        <img src="{{ asset('assets/img/whats-more.png') }}" alt="" width="600"
+                                        <img src="{{ asset('assets/img/whats-more.png') }}" alt="" width="450"
                                             class="img-fluid">
                                     </div>
                                 </div>
                                 <div class="xl:col-span-6 col-span-12">
                                     <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 col-span-12">
                                         <div class="lg:py-[3rem]">
-                                            <h2 class="landing-banner-heading mb-4 opacity-[0.9]"><span>What Our Client Say <br> About
-                                                    Apdash</h2>
+                                            
                                                     <p class="card-text mb-4">With supporting text below as a natural lead-in to
-                                                        additional content. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit.  Dolorum provident id accusantium.</p>
-                                                        <p class="card-text mb-4">With supporting text below as a natural lead-in to
-                                                            additional content. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit.  Dolorum provident id accusantium.</p>
+                                                        additional content.  Lorem ipsum dolor sit amet consectetur adipisicing elit.  Lorem ipsum dolor sit amet consectetur adipisicing elit.  Dolorum provident id accusantium.</p>
+
+                                                        
+                                                       
                 
                                         </div>
                                     </div>
