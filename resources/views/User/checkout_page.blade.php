@@ -23,6 +23,7 @@
                     <div class="xl:col-span-8 col-span-12">
                         <div class="team-members" id="team-members">
                             <div class="grid grid-cols-12 gap-x-6">
+                                
                                 <div class="xl:col-span-12 col-span-12">
                                     <div class="box">
                                         <div class="box-body">
