@@ -80,10 +80,7 @@
             <div class="xl:col-span-4 col-span-12">
                 <div class="team-groups">
                     <div class="box">
-                        <div class="box-header  !justify-between">
-                            <h6 class="font-semibold mb-0">All Teams</h6>
-                            
-                        </div>
+                        
                         <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12 col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 pe-0" style="box-shadow: 0px -1px 7px 3px #0000005e;">
                             
                         </div>
