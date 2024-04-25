@@ -11626,6 +11626,7 @@ h6 {
     border: 10px solid #13d8aa;
     font-weight: 700;
     font-size: 30px;
+    background-color: #fff;
 }
 [data-nav-layout="horizontal"] .landing-body .feature-logos {
     display: flex;
