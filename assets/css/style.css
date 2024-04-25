@@ -38628,7 +38628,7 @@ caption {
 }
 .hs-accordion.active
     > .hs-accordion-toggle.hs-accordion-active\:bg-primary\/10 {
-    background-color: rgb(var(--primary) / 0.1);
+    background-color: linear-gradient(75deg, #11CDBD, #13D6AD);
 }
 .hs-accordion.active > .hs-accordion-toggle.hs-accordion-active\:bg-secondary {
     background-color: rgb(var(--secondary));
@@ -38642,7 +38642,7 @@ caption {
 }
 .hs-accordion.active
     > .hs-accordion-toggle.hs-accordion-active\:\!text-primary {
-    color: rgb(var(--primary)) !important;
+    color: #fff !important;
 }
 .hs-accordion.active > .hs-accordion-toggle.hs-accordion-active\:text-gray-600 {
     --tw-text-opacity: 1;
