@@ -66,41 +66,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="xl:col-span-8 col-span-12">
-                    <div class="team-members" id="team-members">
-                        <div class="grid grid-cols-12 gap-x-6">
-                            
-                            <div class="xl:col-span-12 col-span-12">
-                                <div class="box">
-                                    <div class="box-header justify-between">
-                                        <div class="box-title">
-                                            Email Verification
-                                        </div>
-                                    </div>
-                                    <div class="box-body">
-                                        <div class="grid grid-cols-12 sm:gap-x-6 sm:gap-y-4">
-                                            <div class="md:col-span-12 col-span-12 mb-4">
-                                                <label class="form-label">Email</label>
-                                                <input type="text" class="form-control">
-                                            </div>
-                                            <div class="md:col-span-6 col-span-12 mb-4">
-                                                <label class="form-label">First Name</label>
-                                                <input type="text" class="form-control" placeholder="First name" aria-label="First name">
-                                            </div>
-                                            <div class="md:col-span-6 col-span-12 mb-4">
-                                                <label class="form-label">Last Name</label>
-                                                <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
-                                            </div>
-                                            <div class="md:col-span-12 col-span-12 md:flex md:justify-end">
-                                                <button type="submit" class="ti-btn ti-btn-primary-full !mb-0">Sign in</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
                 <div class="xl:col-span-4 col-span-12">
                     <div class="team-groups">
                         <div class="box">
