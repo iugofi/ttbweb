@@ -279,6 +279,7 @@
                         <div class="xl:col-span-12 col-span-12">
                             <div class="grid grid-cols-12 gap-6">
                                 <div class="xl:col-span-6 col-span-12">
+                                    <h4 class="text font-bold .text-4xl">What's More?</h4>
                                     <div class="lg:text-start !flex items-center lg:justify-start justify-center">
                                         <img src="{{ asset('assets/img/whats-more.png') }}" alt="" width="450"
                                             class="img-fluid">
