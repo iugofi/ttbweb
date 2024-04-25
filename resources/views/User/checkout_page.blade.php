@@ -41,37 +41,33 @@
                             <div class="box">
                                 <div class="box-header justify-between">
                                     <div class="box-title">
-                                        Overview
+                                        Form grid
                                     </div>
-                                    
+                                    <div class="prism-toggle">
+                                        <button type="button" class="ti-btn !py-1 !px-2 ti-btn-primary !text-[0.75rem] !font-medium">Show Code<i class="ri-code-line ms-2 inline-block align-middle"></i></button>
+                                    </div>
                                 </div>
                                 <div class="box-body">
-                                    <form>
-                                        <div class="mb-3">
-                                            <label for="exampleInputEmail1" class="form-label">Email
-                                                address</label>
-                                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                                aria-describedby="emailHelp">
-                                            <div id="emailHelp" class="form-text">We'll
-                                                never share your email
-                                                with
-                                                anyone else.</div>
+                                    <div class="grid grid-cols-12 sm:gap-x-6 sm:gap-y-4">
+                                        <div class="md:col-span-12 col-span-12 mb-4">
+                                            <label class="form-label">First Name</label>
+                                            <input type="text" class="form-control" placeholder="First name"
+                                                aria-label="First name">
                                         </div>
-                                        <div class="mb-3">
-                                            <label for="exampleInputPassword1" class="form-label">Password</label>
-                                            <input type="password" class="form-control" id="exampleInputPassword1">
+                                        <div class="md:col-span-6 col-span-12 mb-4">
+                                            <label class="form-label">Last Name</label>
+                                            <input type="text" class="form-control" placeholder="Last name"
+                                                aria-label="Last name">
                                         </div>
-                                        <div class="mb-3 form-check !ps-0">
-                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                            <label class="form-check-label ps-2" for="exampleCheck1">Check
-                                                me out</label>
+                                       
+                                        
+                                       
+                                        <div class="md:col-span-12 col-span-12">
+                                            <button type="submit" class="ti-btn ti-btn-primary-full !mb-0">Sign in</button>
                                         </div>
-                                        <button type="submit" class="ti-btn ti-btn-primary-full">Submit</button>
-                                    </form>
+                                    </div>
                                 </div>
-                                <div class="box-footer hidden !border-t-0">
-
-                                </div>
+                               
                             </div>
                         </div>
 
