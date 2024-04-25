@@ -52,7 +52,7 @@
                                         </div>
                                     </div>
                                     <div class="position-absolute hero-animated-card-3">
-                                        <img src="assets/img/custom-shape.svg" alt="shape">
+                                        <img src="assets/img/shape-1.png" alt="shape">
                                     </div>
                                     <div class="position-absolute p-4 w-75 rounded-custom d-flex secondary-bg hero-animated-card-2">
                                         <div class="small-card-img mr-3 text-white">

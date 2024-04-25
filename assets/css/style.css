@@ -41216,7 +41216,7 @@ h3.font-semibold.mb-2.text-black.features-one {
     margin: 0 8px 0 0;
     font-size: 24px;
 }
-
+/* End totel-internet-security page */
 
 @media (min-width: 320px) and (max-width: 767px) {
     div#internet-security .landing-main-image {
@@ -41258,14 +41258,14 @@ h3.font-semibold.mb-2.text-black.features-one {
     display: flex !important;
 }
 .hero-animated-card-4 {
-    top: 31%;
+    top: 38%;
     left: -22px;
     width: 16%;
     box-shadow: 0 22px 45px rgba(0, 0, 0, 0.2);
     animation: move-up-down 5s ease-in-out 4s infinite;
 }
 .hero-animated-card-1 {
-    top: 59%;
+    top: 65%;
     left: -20px;
     transform: scale(0.9);
     box-shadow: 0 22px 45px rgba(0, 0, 0, 0.09);
@@ -41276,9 +41276,9 @@ h3.font-semibold.mb-2.text-black.features-one {
     border-radius: 15px;
 }
 .hero-animated-card-3 {
-    top: 35%;
+    top: 45%;
     animation: move-up-down 4s ease-in-out 3s infinite;
-    left: 22rem;
+    left: 23rem;
 }
 .hero-animated-card-2 {
     bottom: 0%;
@@ -41289,11 +41289,11 @@ h3.font-semibold.mb-2.text-black.features-one {
     width: 24%;
     left: 32px;
 }
-
+.hero-animated-card-3 img {
+    height: 85px;
+}
 /* End vpn-shild banner css */
 
-
-/* End totel-internet-security page */
 
 /* kunal-verma 23-04-2024 */
 
