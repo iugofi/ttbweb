@@ -41,11 +41,8 @@
                             <div class="box">
                                 <div class="box-header justify-between">
                                     <div class="box-title">
-                                        Form grid
-                                    </div>
-                                    <div class="prism-toggle">
-                                        <button type="button" class="ti-btn !py-1 !px-2 ti-btn-primary !text-[0.75rem] !font-medium">Show Code<i class="ri-code-line ms-2 inline-block align-middle"></i></button>
-                                    </div>
+                                        Email Verification
+                                    </div>                        
                                 </div>
                                 <div class="box-body">
                                     <div class="grid grid-cols-12 sm:gap-x-6 sm:gap-y-4">
