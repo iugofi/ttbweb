@@ -15,7 +15,7 @@
 
     
     <section
-    class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 mt-6"
+    class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 mt-8"
     id="features">
     <div class="container main-banner-container">
        
