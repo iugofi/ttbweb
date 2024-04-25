@@ -86,9 +86,8 @@
                                 <div class="box-body">
                                     <img src="assets/img/ttb antivirus box design.jpg" class="card-img mb-4 !rounded-md"
                                         alt="...">
-                                    <h6 class="box-title font-semibold">Product A</h6>
-                                    <p class="card-text mb-4">With supporting text below as a natural
-                                        lead-in to additional content.</p>
+                                    <h6 class="box-title font-semibold">TTB VPN SHIELD</h6>
+                                    <p class="card-text mb-4">One Device/One Month</p>
                                     <a href="javascript:void(0);" class="ti-btn ti-btn-primary-full">Purchase</a>
                                 </div>
                             </div>
