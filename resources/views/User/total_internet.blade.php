@@ -231,15 +231,13 @@
                                     <div class="box-body forth-section">
                                         <div class="my-auto">
                                             <div class="text-[.9375rem] font-semibold"
-                                                style="font-size: 18px; font-weight: 700; text-align: left;">24/7 support
-                                            </div>
+                                                style="font-size: 18px; font-weight: 700; text-align: left;">24/7 support</div>
 
                                         </div><br>
-                                        <p> - Lorem ipsum dolor sit amet consectetur
-                                            <br> - Lorem ipsum dolor, sit amet consectetur
-                                            <br> - Lorem ipsum dolor sit amet consectetur
-                                            <br> - Lorem ipsum dolor sit amet, consectetur
-                                        </p>
+                                        <p>  - Lorem ipsum dolor sit amet consectetur
+                                        <br> - Lorem ipsum dolor, sit amet consectetur
+                                        <br> - Lorem ipsum dolor sit amet consectetur
+                                        <br> - Lorem ipsum dolor sit amet, consectetur</p>
                                     </div>
 
                                 </div>
@@ -255,15 +253,13 @@
                                     <div class="box-body forth-section">
                                         <div class="my-auto">
                                             <div class="text-[.9375rem] font-semibold"
-                                                style="font-size: 18px; font-weight: 700; text-align: left;">24/7 support
-                                            </div>
+                                                style="font-size: 18px; font-weight: 700; text-align: left;">24/7 support</div>
 
                                         </div><br>
-                                        <p> - Lorem ipsum dolor sit amet consectetur
-                                            <br> - Lorem ipsum dolor, sit amet consectetur
-                                            <br> - Lorem ipsum dolor sit amet consectetur
-                                            <br> - Lorem ipsum dolor sit amet, consectetur
-                                        </p>
+                                         <p> - Lorem ipsum dolor sit amet consectetur
+                                        <br> - Lorem ipsum dolor, sit amet consectetur
+                                        <br> - Lorem ipsum dolor sit amet consectetur
+                                        <br> - Lorem ipsum dolor sit amet, consectetur</p>
                                     </div>
 
                                 </div>
@@ -276,7 +272,7 @@
             <!-- End::forth Content -->
 
 
-            <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]" id="faq">
+            <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]" id="">
                 <div class="container text-center">
 
                     <div class="grid grid-cols-12 gap-6 text-start">
@@ -329,20 +325,17 @@
                                                             natural lead</i>
                                                     </div>
                                                 </div><br><br>
-                                                <a href="index.html" class="m-1 ti-btn ti-btn-primary-full"
-                                                    style="width:26%;">
+                                                <a href="index.html" class="m-1 ti-btn ti-btn-primary-full" style="width:26%;">
                                                     Get Full License!
                                                 </a>
                                             </div>
-
-
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
                     </div>
+                </div>
             </section>
 
 

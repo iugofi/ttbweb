@@ -33745,7 +33745,7 @@ select {
     color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 .avatar img {
-    max-width: 80px;
+    height: 100%;  
 }
 .avatar .avatar-rounded {
     border-radius: 9999px !important;
@@ -40921,7 +40921,7 @@ img.img-fluid.service-icon {
 [data-nav-layout="horizontal"] .landing-body .landing-banner-vpn {
     position: relative;
     top: 0px;
-    height: 53rem;
+    /* height: 53rem; */
     width: 100%;
     background-image: url("/assets/img/banner-bg-vpn.png");
     background-size: cover;
@@ -41251,7 +41251,7 @@ h3.font-semibold.mb-2.text-black.features-one {
     margin: 0 8px 0 0;
     font-size: 24px;
 }
-
+/* End totel-internet-security page */
 
 @media (min-width: 320px) and (max-width: 767px) {
     div#internet-security .landing-main-image {
@@ -41269,7 +41269,73 @@ h3.font-semibold.mb-2.text-black.features-one {
     }
 }
 
-/* End totel-internet-security page */
+/* start vpn-shild banner css */
+
+.dot-shape {
+    top: 60%;
+    left: 58%;
+    z-index: -1;
+    width: 100%;
+    max-width: 111px;
+}
+.position-absolute {
+    position: absolute !important;
+}
+.animation-item {
+    perspective: 950px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+}
+.position-absolute.d-flex {
+    display: flex !important;
+}
+.hero-animated-card-4 {
+    top: 38%;
+    left: -22px;
+    width: 16%;
+    box-shadow: 0 22px 45px rgba(0, 0, 0, 0.2);
+    animation: move-up-down 5s ease-in-out 4s infinite;
+}
+.hero-animated-card-1 {
+    top: 65%;
+    left: -20px;
+    transform: scale(0.9);
+    box-shadow: 0 22px 45px rgba(0, 0, 0, 0.09);
+    animation: move-up-down 4s ease-in-out 1s infinite;
+    width: 24%;
+}
+.rounded-custom {
+    border-radius: 15px;
+}
+.rounded-circle {
+    border-radius: 50%;
+}
+.hero-animated-card-3 {
+    top: 45%;
+    animation: move-up-down 4s ease-in-out 3s infinite;
+    left: 23rem;
+}
+.hero-animated-card-2 {
+    bottom: 0%;
+    transform: scale(0.9);
+    box-shadow: 0 22px 45px rgba(0, 0, 0, 0.2);
+    animation: move-up-down 3s ease-in-out 2s infinite;
+    background: #12D2B3;
+    width: 24%;
+    left: 32px;
+}
+.hero-animated-card-3 img {
+    height: 85px;
+}
+.ttst {
+    align-items: center;
+    display: flex;
+}
+/* End vpn-shild banner css */
+
 
 /* kunal-verma 23-04-2024 */
 
