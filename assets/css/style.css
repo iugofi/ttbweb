@@ -31,6 +31,11 @@ html {
 body {
     margin: 0;
     line-height: inherit;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
 }
 hr {
     height: 0;
@@ -141,8 +146,6 @@ progress {
 summary {
     display: list-item;
 }
-
-
 
 blockquote,
 dl,
@@ -3316,7 +3319,7 @@ h6 {
 .max-w-6xl {
     max-width: 72rem;
 }
-.max-w-66xl{
+.max-w-66xl {
     max-width: 48rem;
 }
 .max-w-\[10rem\] {
@@ -8330,7 +8333,7 @@ h6 {
 }
 :root {
     --body-bg: 240 241 247;
-    --primary: 18 210 179 ;
+    --primary: 18 210 179;
     --primary-rgb: 132, 90, 223;
     --secondary: 35 183 229;
     --warning: 245 184 73;
@@ -10794,8 +10797,6 @@ h6 {
     /* width: 18.063rem; */
     /* border-radius: 9999px;
     background-color: rgb(0 0 0 / 0.05); */
-
-
 }
 .landing-body .landing-main-image img::before {
     position: absolute;
@@ -10883,7 +10884,7 @@ h6 {
         background-color: rgb(var(--primary) / 0.1);
         padding: 1rem;
     }
-    
+
     :is(.dark [data-nav-layout="horizontal"] .landing-body .app-sidebar) {
         background-color: rgb(var(--primary) / 0.1);
     }
@@ -11505,7 +11506,7 @@ h6 {
     background-repeat: no-repeat;
 }
 .dark div#home {
-    background: #13D8AA;
+    background: #13d8aa;
 }
 .dark a.m-1.ti-btn.ti-btn-primary-full {
     background: #000;
@@ -11571,7 +11572,7 @@ h6 {
     font-weight: 500;
     line-height: 1.25;
     --tw-text-opacity: 1;
-    color: #000;   
+    color: #000;
 }
 :is(
         .dark
@@ -11585,10 +11586,8 @@ h6 {
 .dark p.landing-banner-heading {
     color: #fff !important;
 }
-.mains-color
-{
+.mains-color {
     color: #12d2b3;
-
 }
 .first-color {
     color: #12d2b3;
@@ -11599,8 +11598,7 @@ h6 {
 .dark .dark-text {
     color: #fff;
 }
-.dark-black
-{
+.dark-black {
     color: #000;
 }
 [data-nav-layout="horizontal"] .landing-body .main-menu-container .main-menu {
@@ -11615,7 +11613,7 @@ h6 {
     padding-top: 3.375rem;
     padding-bottom: 3.375rem;
     padding-left: 0px;
-    padding-right: 0px;  
+    padding-right: 0px;
 }
 [data-nav-layout="horizontal"] .landing-body .featur-icon {
     margin-top: 0px;
@@ -11626,7 +11624,7 @@ h6 {
     width: 100px;
     border-radius: 9999px;
     padding: 20px;
-    border: 10px solid #13D8AA;
+    border: 10px solid #13d8aa;
     font-weight: 700;
     font-size: 30px;
 }
@@ -40807,7 +40805,7 @@ caption {
     transform: translateY(-12px);
     transition: 0.5s;
 }
-.third-back{
+.third-back {
     background-image: url("/assets/img/about-bg-shape.svg");
 }
 img.img-fluid.service-icon {
@@ -40826,13 +40824,10 @@ img.img-fluid.service-icon {
     display: contents;
 }
 .color-secondary {
-    color: #11CDBD !important;
-  }
+    color: #11cdbd !important;
+}
 
-
-
-
-  .icons-center:before {
+.icons-center:before {
     content: "\f17a";
     font-size: 65px;
 }
@@ -40855,7 +40850,6 @@ img.img-fluid.service-icon {
     margin: 0 20px auto;
 }
 
-
 .test-slider-img img {
     max-width: 100px;
 }
@@ -40867,34 +40861,31 @@ img.img-fluid.service-icon {
     border-radius: 4px;
 }
 .slider-box .box-body::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 55px;
     left: 15px;
     width: 99%;
     height: 86%;
-    background: #11CDBE;
+    background: #11cdbe;
     -webkit-transform: rotate(-6deg);
     transform: rotate(-6deg);
     z-index: -1;
     border-radius: 4px;
 }
 
-
-
 /* 22-04-2024 kunal verma for vpn shield page */
 .boxbordercus {
     box-shadow: 0px 0px 13px 0px #00000038;
     border-radius: 5px;
 }
-.imgttbcen
-{
+.imgttbcen {
     display: inline-block;
 }
 .border-custom-main {
     box-shadow: 5px 0px 11px 3px #00000054;
     border-radius: 5px 0px 0px 5px;
-    border-right: 5px solid #13D8AA; 
+    border-right: 5px solid #13d8aa;
 }
 
 [data-nav-layout="horizontal"] .landing-body .landing-banner-vpn {
@@ -40908,7 +40899,6 @@ img.img-fluid.service-icon {
     background-repeat: no-repeat;
 }
 
-
 [data-nav-layout="horizontal"] .landing-body .vpnsection {
     position: relative;
     background-size: cover;
@@ -40918,69 +40908,66 @@ img.img-fluid.service-icon {
     padding-right: 0px;
 }
 
-
 /* end kunal */
-
-
 
 /* neeraj-home-page-css-22-04-2024 */
 
-h3.font-semibold.mb-2.text-black.features-one{
-  font-size:2.4em;
+h3.font-semibold.mb-2.text-black.features-one {
+    font-size: 2.4em;
 }
-.sect-features i{
- color: #12D1B5;
+.sect-features i {
+    color: #12d1b5;
 }
 
-.sect-features leading-6{ 
+.sect-features leading-6 {
     line-height: 1.4rem;
 }
 
-.text-left{
-    text-align: left;  
+.text-left {
+    text-align: left;
 }
-.text-right{
-    text-align: right;  
+.text-right {
+    text-align: right;
 }
-.text-center{
-    text-align: center;  
-}
-
-.sect-five h5{
- font-size: 16px;
- text-align: left;
- margin-top: -4px;
-}
-.text-gray-light{
-  color:#8d8585;
-}
-.sect-three h2{
-  margin-top: 2em;
+.text-center {
+    text-align: center;
 }
 
-.icon-hm{
-    font-size:20px;
+.sect-five h5 {
+    font-size: 16px;
+    text-align: left;
+    margin-top: -4px;
 }
-.watch-icon{
- background-color: #FFFFFF;
- padding: 13px;
- font-size: 16px;
- border-radius: 25px;
- border:1px solid #e1e1e1;
- margin-top: 20px;
+.text-gray-light {
+    color: #8d8585;
+}
+.sect-three h2 {
+    margin-top: 2em;
 }
 
-.wtc-spn{
- font-size:18px;
+.icon-hm {
+    font-size: 20px;
+}
+.watch-icon {
+    background-color: #ffffff;
+    padding: 13px;
+    font-size: 16px;
+    border-radius: 25px;
+    border: 1px solid #e1e1e1;
+    margin-top: 20px;
+}
+
+.wtc-spn {
+    font-size: 18px;
 }
 
 /* line 176, src/assets/scss/components/_components.animation.scss */
 .animated-shape-wrap .animated-shape-item {
     position: absolute;
-  }
-  
-  /* line 178, src/assets/scss/components/_components.animation.scss */
-  .animated-shape-wrap .animated-shape-item:nth-child(1) {
+}
+
+/* line 178, src/assets/scss/components/_components.animation.scss */
+.animated-shape-wrap .animated-shape-item:nth-child(1) {
     background: rgba(0, 201, 157, 0.6);
     width: 10px;
     height: 10px;
@@ -40988,11 +40975,11 @@ h3.font-semibold.mb-2.text-black.features-one{
     top: 12%;
     left: 15%;
     -webkit-animation: animTwo 13s infinite linear;
-            animation: animTwo 13s infinite linear;
-  }
-  
-  /* line 187, src/assets/scss/components/_components.animation.scss */
-  .animated-shape-wrap .animated-shape-item:nth-child(2) {
+    animation: animTwo 13s infinite linear;
+}
+
+/* line 187, src/assets/scss/components/_components.animation.scss */
+.animated-shape-wrap .animated-shape-item:nth-child(2) {
     border: 5px solid rgba(0, 153, 229, 0.3);
     width: 25px;
     height: 25px;
@@ -41001,10 +40988,10 @@ h3.font-semibold.mb-2.text-black.features-one{
     left: 45%;
     -webkit-animation: animOne 15s infinite linear;
     animation: animOne 15s infinite linear;
-  }
-  
-  /* line 197, src/assets/scss/components/_components.animation.scss */
-  .animated-shape-wrap .animated-shape-item:nth-child(3) {
+}
+
+/* line 197, src/assets/scss/components/_components.animation.scss */
+.animated-shape-wrap .animated-shape-item:nth-child(3) {
     border: 5px solid rgba(244, 34, 104, 0.3);
     width: 25px;
     height: 25px;
@@ -41012,10 +40999,10 @@ h3.font-semibold.mb-2.text-black.features-one{
     left: 30%;
     -webkit-animation: animFour 15s infinite linear alternate;
     animation: animFour 15s infinite linear alternate;
-  }
-  
-  /* line 206, src/assets/scss/components/_components.animation.scss */
-  .animated-shape-wrap .animated-shape-item:nth-child(4) {
+}
+
+/* line 206, src/assets/scss/components/_components.animation.scss */
+.animated-shape-wrap .animated-shape-item:nth-child(4) {
     background: rgba(252, 162, 73, 0.8);
     width: 10px;
     height: 10px;
@@ -41024,10 +41011,10 @@ h3.font-semibold.mb-2.text-black.features-one{
     right: 25%;
     -webkit-animation: animFive 15s infinite linear alternate;
     animation: animFive 15s infinite linear alternate;
-  }
-  
-  /* line 216, src/assets/scss/components/_components.animation.scss */
-  .animated-shape-wrap .animated-shape-item:nth-child(5) {
+}
+
+/* line 216, src/assets/scss/components/_components.animation.scss */
+.animated-shape-wrap .animated-shape-item:nth-child(5) {
     background: rgba(100, 45, 250, 0.4);
     width: 3px;
     height: 20px;
@@ -41035,10 +41022,11 @@ h3.font-semibold.mb-2.text-black.features-one{
     right: 25%;
     -webkit-animation: animFour 15s infinite linear alternate;
     animation: animFour 15s infinite linear alternate;
-  }
-  
-  /* line 224, src/assets/scss/components/_components.animation.scss */
-  .animated-shape-wrap .animated-shape-item:nth-child(5):before, .animated-shape-wrap .animated-shape-item:nth-child(5):after {
+}
+
+/* line 224, src/assets/scss/components/_components.animation.scss */
+.animated-shape-wrap .animated-shape-item:nth-child(5):before,
+.animated-shape-wrap .animated-shape-item:nth-child(5):after {
     content: "";
     display: block;
     width: 100%;
@@ -41048,30 +41036,30 @@ h3.font-semibold.mb-2.text-black.features-one{
     position: absolute;
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
-  }
-  
-  /* line 238, src/assets/scss/components/_components.animation.scss */
-  .animated-shape-wrap .animated-shape-item:nth-child(5):before {
-    right: -6px;
-  }
-  
-  /* line 241, src/assets/scss/components/_components.animation.scss */
-  .animated-shape-wrap .animated-shape-item:nth-child(5):after {
-    left: -6px;
-  }
-  .animated-shape-wrap {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
 }
 
-.sect-ban p{
-    margin-top:1em;  
+/* line 238, src/assets/scss/components/_components.animation.scss */
+.animated-shape-wrap .animated-shape-item:nth-child(5):before {
+    right: -6px;
 }
-.sect-ban .container{
+
+/* line 241, src/assets/scss/components/_components.animation.scss */
+.animated-shape-wrap .animated-shape-item:nth-child(5):after {
+    left: -6px;
+}
+.animated-shape-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.sect-ban p {
+    margin-top: 1em;
+}
+.sect-ban .container {
     padding-top: 0rem;
 }
 
@@ -41113,7 +41101,7 @@ h3.font-semibold.mb-2.text-black.features-one{
 }
 .section-two-icon i.fas {
     font-size: 32px;
-    color: #13D8AA;
+    color: #13d8aa;
 }
 .section-two-icon .process-content {
     text-align: left;
@@ -41161,7 +41149,7 @@ h3.font-semibold.mb-2.text-black.features-one{
     padding: 0 0 0 22px;
 }
 .box.text-center:hover {
-    background: #12D2B3;
+    background: #12d2b3;
 }
 .box.text-center:hover h6 {
     color: #fff;
@@ -41170,20 +41158,20 @@ h3.font-semibold.mb-2.text-black.features-one{
     color: #fff;
 }
 .box.text-center:hover .img-hover img {
-    content: url('/assets/img/white-1.png');
+    content: url("/assets/img/white-1.png");
 }
 .box.text-center:hover .img-hover2 img {
-    content: url('/assets/img/white-2.png');
+    content: url("/assets/img/white-2.png");
 }
 .box.text-center:hover .img-hover3 img {
-    content: url('/assets/img/white-3.png');
+    content: url("/assets/img/white-3.png");
 }
 .box i.bx.bx-chevrons-right {
     font-size: 27px;
     position: relative;
     top: 17px;
     left: 18rem;
-    background: #12D2B3;
+    background: #12d2b3;
     width: 11%;
     color: #fff;
     border-radius: 30px;
@@ -41193,7 +41181,7 @@ h3.font-semibold.mb-2.text-black.features-one{
 }
 .box.text-center:hover i.bx.bx-chevrons-right {
     background: #fff;
-    color: #12D2B3;
+    color: #12d2b3;
 }
 .forth-s-inner {
     flex-wrap: nowrap;
@@ -41219,9 +41207,7 @@ h3.font-semibold.mb-2.text-black.features-one{
     box-shadow: -14px 12px 1px -6px #444444;
 }
 
-
 @media (min-width: 320px) and (max-width: 767px) {
-
     div#internet-security .landing-main-image {
         display: block;
     }
@@ -41231,12 +41217,9 @@ h3.font-semibold.mb-2.text-black.features-one{
     #internet-security section.section {
         padding: 0px !important;
     }
-
 }
 
-
 /* End totel-internet-security page */
-
 
 /* kunal-verma 23-04-2024 */
 
@@ -41244,10 +41227,10 @@ h3.font-semibold.mb-2.text-black.features-one{
     background-image: none;
 }
 
-.prevent-select{
+.prevent-select {
     -webkit-user-select: none; /* Safari */
     -ms-user-select: none; /* IE 10 and IE 11 */
     user-select: none; /* Standard syntax */
-  }
+}
 
 /* end kunal */
