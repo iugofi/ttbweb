@@ -38554,7 +38554,7 @@ caption {
 .hs-accordion.active
     > .hs-accordion-toggle
     .hs-accordion-active\:\!text-primary {
-    color: rgb(var(--primary)) !important;
+    color: #fff !important;
 }
 .hs-accordion.active
     > .hs-accordion-toggle
