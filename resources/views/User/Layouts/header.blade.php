@@ -234,12 +234,11 @@
         <!-- SIDEBAR -->
 
 
-        <script>
+        {{-- <script>
              $(document).ready(function() {
-alert("kulvinder lavda ");
-
+            alert("kulvinder ");
              });
-        </script>
+        </script> --}}
 
         @extends('User.Layouts.nav')
 
