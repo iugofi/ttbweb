@@ -58,7 +58,7 @@
                                         <div class="small-card-img mr-3 text-white">
                                             <img src="assets/img/client/1.jpg" alt="" width="80px" class="rounded-circle img-fluid">
                                         </div>
-                                        <p class="gr-text-11 mb-0 text-white">“Ensuring the best return on investment for business”</p>
+                                        <p class="gr-text-11 mb-0 text-white" style="padding:0 10px;">“Ensuring the best return on investment for business”</p>
                                     </div>
                                 </div>
                             </div>
