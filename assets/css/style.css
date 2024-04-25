@@ -8333,6 +8333,7 @@ h6 {
 :root {
     --body-bg: 240 241 247;
     --primary: 18 210 179;
+    --primary-ttb-rgb:19,211,179;
     --primary-rgb: 132, 90, 223;
     --secondary: 35 183 229;
     --warning: 245 184 73;
@@ -38626,9 +38627,10 @@ caption {
 .hs-accordion.active > .hs-accordion-toggle.hs-accordion-active\:bg-primary {
     background-color: rgb(var(--primary));
 }
+/* new-nj */
 .hs-accordion.active
     > .hs-accordion-toggle.hs-accordion-active\:bg-primary\/10 {
-    background: linear-gradient(75deg, #11CDBD, #13D6AD);
+    background-color: rgb(var(--primary-ttb-rgb) / 0.1);
 }
 .hs-accordion.active > .hs-accordion-toggle.hs-accordion-active\:bg-secondary {
     background-color: rgb(var(--secondary));
