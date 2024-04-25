@@ -43,11 +43,9 @@
                             <div class="box">
                                 <div class="box-header justify-between">
                                     <div class="box-title">
-                                        Overview
+                                        Email
                                     </div>
-                                    <div class="prism-toggle">
-                                        <button type="button" class="ti-btn !py-1 !px-2 ti-btn-primary !text-[0.75rem] !font-medium">Show Code<i class="ri-code-line ms-2 inline-block align-middle"></i></button>
-                                    </div>
+                                   
                                 </div>
                                 <div class="box-body">
                                     <form>
@@ -56,10 +54,7 @@
                                                 address</label>
                                             <input type="email" class="form-control" id="exampleInputEmail1"
                                                 aria-describedby="emailHelp">
-                                            <div id="emailHelp" class="form-text">We'll
-                                                never share your email
-                                                with
-                                                anyone else.</div>
+                                            
                                         </div>
                                         <div class="mb-3">
                                             <label for="exampleInputPassword1" class="form-label">Password</label>
