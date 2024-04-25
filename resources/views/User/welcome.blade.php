@@ -406,7 +406,7 @@
                         <div class="grid grid-cols-12 gap-6">
                             <div class="xl:col-span-6 col-span-12">
                                 <div class="lg:text-start !flex items-center lg:justify-start justify-center">
-                                    <img src="{{ asset('assets/img/Faq-images.png') }}" alt="" width="90%"
+                                    <img src="{{ asset('assets/img/Faq-images.png') }}" alt="" width="95%"
                                         class="img-fluid">
                                 </div>
                             </div>
