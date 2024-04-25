@@ -323,11 +323,9 @@
                                                             style="font-size:16px; line-height:1.2rem">With supporting
                                                             natural lead</i>
                                                     </div>
-                                                </div>
-                                                <a href="index.html" class="m-1 ti-btn ti-btn-primary-full">
+                                                </div><br><br>
+                                                <a href="index.html" class="m-1 ti-btn ti-btn-primary-full my-btns ">
                                                     Get Full License!
-                                                    {{-- <i class="ri-download-cloud-2-fill ms-2 align-middle"></i> --}}
-                                                    <i class='bx bxs-cloud-download icon-hm'></i>
                                                 </a>
                                             </div>
 
