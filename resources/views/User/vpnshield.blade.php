@@ -40,7 +40,7 @@
                                 <img src="{{ asset('assets/img/Banner-Img-4.png') }}" alt="" class="img-fluid">
                             </div>
 
-                        </div>
+                        </div> 
                     </div>
                 </div>
             </section>
