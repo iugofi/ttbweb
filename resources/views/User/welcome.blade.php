@@ -629,29 +629,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="hs-accordion bg-white dark:bg-bodybg border dark:border-defaultborder/10 mt-[0.5rem] rounded-sm dark:border dark:border-defaultborder/10-white/10"
-                                            id="faq-ten">
-                                            <button type="button"
-                                                class="hs-accordion-toggle hs-accordion-active:!text-primary hs-accordion-active:border dark:border-defaultborder/10-b hs-accordion-active:bg-primary/10   dark:border-defaultborder/10 dark:hs-accordion-active:border dark:border-defaultborder/10-white/10 justify-between inline-flex items-center w-full font-semibold text-start text-[0.85rem] transition py-3 px-4 dark:hs-accordion-active:!text-primary dark:text-gray-200 dark:hover:text-white/80"
-                                                aria-controls="faq-collapse-twelve">
-                                                Do I have the right to return an item?
-                                                <svg class="hs-accordion-active:hidden hs-accordion-active:!text-primary hs-accordion-active:group-hover:!text-primary block w-3 h-3 text-gray-600 group-hover:text-defaulttextcolor dark:text-defaulttextcolor/70 "
-                                                    width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M1.5 8.85999L14.5 8.85998" stroke="currentColor"
-                                                        stroke-width="2" stroke-linecap="round" />
-                                                    <path d="M8 15.36L8 2.35999" stroke="currentColor" stroke-width="2"
-                                                        stroke-linecap="round" />
-                                                </svg>
-                                                <svg class="hs-accordion-active:block hs-accordion-active:!text-primary hs-accordion-active:group-hover:!text-primary hidden w-3 h-3 text-gray-600 group-hover:text-defaulttextcolor dark:text-defaulttextcolor/70 "
-                                                    width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M1.5 8.85999L14.5 8.85998" stroke="currentColor"
-                                                        stroke-width="2" stroke-linecap="round" />
-                                                </svg>
-                                            </button>
-                                           
-                                        </div>
+                                    
                                     </div>
                                 </div>
                             </div>
