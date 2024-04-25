@@ -49,6 +49,9 @@ Route::get('/about_as', [UserController::class, 'about_aspage'])->name('user.abo
 Route::get('/contact_as', [UserController::class, 'contact_aspage'])->name('user.contact_as');
 Route::post('/save-contactform', [UserController::class, 'contactform'])->name('save.contactform');
 
+//checkcart
+Route::get('/checkout_page', [UserController::class, 'checkout_page'])->name('user.checkout_page');
+
 
 //ttb vpn-shield
 Route::get('/vpn-shield', [UserController::class, 'vpnshield'])->name('user.vpnshield');
