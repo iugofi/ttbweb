@@ -236,7 +236,7 @@
 
         <script>
              $(document).ready(function() {
-alert("kulvinder lavda");
+alert("kulNAL AND NEERAJ lavda");
 
              });
         </script>
