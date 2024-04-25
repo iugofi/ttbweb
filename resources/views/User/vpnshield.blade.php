@@ -21,7 +21,7 @@
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 col-span-12 ps-6">
                             <div class="lg:py-[3rem]">
-                                <h2 class="landing-banner-heading mb-4 opacity-[0.9] scroll-ps-6">Lorem ipsum
+                                <h2 class="landing-banner-heading mb-4 opacity-[0.9]">Lorem ipsum
                                     dolor sit amet. Lorem ipsum dolor sit amet consectetur.</h2>
                                 <div class="text-[1rem] mb-[1rem] text-black opacity-[0.9] dark-text" style="padding-right:40px;">ynex - Now you can use
                                     this
