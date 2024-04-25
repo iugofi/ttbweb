@@ -52,11 +52,11 @@
                                         </div>
                                     </div>
                                     <div class="position-absolute hero-animated-card-3">
-                                        <img src="assets/img/custom-shape.svg" alt="shape">
+                                        <img src="assets/img/shape-1.png" alt="shape"> 
                                     </div>
                                     <div class="position-absolute p-4 w-75 rounded-custom d-flex secondary-bg hero-animated-card-2">
                                         <div class="small-card-img mr-3 text-white">
-                                            <img src="assets/img/client/1.jpg" alt="" width="80px" class="rounded-circle img-fluid">
+                                            <img src="assets/img/shape-1-1.jpg" alt="" width="80px" class="rounded-circle img-fluid">
                                         </div>
                                         <p class="gr-text-11 mb-0 text-white">“Ensuring the best return on investment for business”</p>
                                     </div>
