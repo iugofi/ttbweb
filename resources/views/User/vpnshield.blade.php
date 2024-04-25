@@ -46,7 +46,7 @@
                                         <img src="assets/img/widget-img.jpg" alt="widget" class="rounded-custom img-fluid">
                                     </div>
                                     <div class="position-absolute p-4 w-75 rounded-custom d-flex bg-white hero-animated-card-1">
-                                        <p class="gr-text-11 mb-0 text-mirage-2">“A better way to manage your sales, team, clients.”</p>
+                                        <p class="gr-text-11 mb-0 text-mirage-2 ttst">“A better way to manage your sales, team, clients.”</p>
                                         <div class="small-card-img ml-3">
                                             <img src="assets/img/client/3.jpg" alt="" width="80px" class="rounded-circle img-fluid">
                                         </div>
@@ -58,7 +58,7 @@
                                         <div class="small-card-img mr-3 text-white">
                                             <img src="assets/img/client/1.jpg" alt="" width="80px" class="rounded-circle img-fluid">
                                         </div>
-                                        <p class="gr-text-11 mb-0 text-white" style="padding:0 10px;">“Ensuring the best return on investment for business”</p>
+                                        <p class="gr-text-11 mb-0 text-white ttst" style="padding:0 10px;">“Ensuring the best return on investment for business”</p>
                                     </div>
                                 </div>
                             </div>
