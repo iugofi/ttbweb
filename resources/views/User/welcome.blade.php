@@ -63,7 +63,7 @@
                             <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
                                 <i class="text-[1.5rem] bx bx-spreadsheet"></i>
                             </span>
-                            <h3 class="font-semibold mb-0 text-dark">Complete Online Privacy</h3>
+                            <h3 class="font-medium mb-0 text-xl text-dark">Complete Online Privacy</h3>
                             <p class="mb-1 text-[0.875rem] opacity-[0.7] text-[#8c9097] dark:text-white/50 ">
                                 Lorem Ipsum is simply dummy industry.
                             </p>
@@ -75,7 +75,7 @@
                             <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
                                 <i class="text-[1.5rem] bx bx-user-plus"></i>
                             </span>
-                            <h3 class="font-semibold mb-0 text-dark">All-Around Digital Protection</h3>
+                            <h3 class="font-medium mb-0 text-xl text-dark">All-Around Digital Protection</h3>
                             <p class="mb-1 text-[0.875rem] opacity-[0.7] text-[#8c9097] dark:text-white/50 ">
                                 Lorem Ipsum is simply dummy industry.
                             </p>
@@ -87,7 +87,7 @@
                             <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
                                 <i class="text-[1.5rem] bx bx-money"></i>
                             </span> 
-                            <h3 class="font-semibold mb-0 text-dark">Active Risk Management</h3>
+                            <h3 class="font-medium mb-0 text-xl text-dark">Active Risk Management</h3>
                             <p class="mb-1 text-[0.875rem] opacity-[0.7] text-[#8c9097] dark:text-white/50 ">
                                 Lorem Ipsum is simply dummy industry.
                             </p>
@@ -99,7 +99,7 @@
                             <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
                                 <i class="text-[1.5rem] bx bx-money"></i>
                             </span>
-                            <h3 class="font-semibold mb-0 text-dark">Zero System-Performance Lags</h3>
+                            <h3 class="font-medium mb-0 text-xl text-dark">Zero System-Performance Lags</h3>
                             <p class="mb-1 text-[0.875rem] opacity-[0.7] text-[#8c9097] dark:text-white/50 ">
                                 Lorem Ipsum is simply dummy industry.
                             </p>
