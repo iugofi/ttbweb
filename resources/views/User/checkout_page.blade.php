@@ -11,9 +11,18 @@
 
 @section('content')
 
+<div class="main-content !p-0 landing-main dark:text-defaulttextcolor/70">
 
-
+    
+    <section
+    class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
+    id="features">
+    <div class="container main-banner-container">
+       
     <h1>checkout page</h1>
+    </div>
+</section>
+
 
          
 
