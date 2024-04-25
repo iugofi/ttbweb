@@ -36,9 +36,36 @@
                         </div>
                         <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 col-span-12">
 
-                            <div class="text-end landing-main-image landing-heading-img flex justify-end w-full">
-                                <img src="{{ asset('assets/img/Banner-Img-4.png') }}" alt="" class="img-fluid">
+                            <div class="content-img-wrap">
+                                <img class="fancy-radius-1 hero-img-width img-custom-width img-fluid gray-light-bg z--1" src="{{ asset('assets/img/Banner-Img-4.png') }}" alt="modern desk">
+                                <div class="position-absolute dot-shape">
+                                    <img src="assets/img/dot-shape.png" alt="appdash">
+                                </div>
+                                <div class="animation-item d-none d-md-block d-lg-block">
+                                    <div class="position-absolute rounded-custom d-flex bg-white hero-animated-card-4">
+                                        <img src="assets/img/widget-img.jpg" alt="widget" class="rounded-custom img-fluid">
+                                    </div>
+                                    <div class="position-absolute p-4 w-75 rounded-custom d-flex bg-white hero-animated-card-1">
+                                        <p class="gr-text-11 mb-0 text-mirage-2">“A better way to manage your sales, team, clients.”</p>
+                                        <div class="small-card-img ml-3">
+                                            <img src="assets/img/client/3.jpg" alt="" width="80px" class="rounded-circle img-fluid">
+                                        </div>
+                                    </div>
+                                    <div class="position-absolute hero-animated-card-3">
+                                        <img src="assets/img/custom-shape.svg" alt="shape">
+                                    </div>
+                                    <div class="position-absolute p-4 w-75 rounded-custom d-flex secondary-bg hero-animated-card-2">
+                                        <div class="small-card-img mr-3 text-white">
+                                            <img src="assets/img/client/1.jpg" alt="" width="80px" class="rounded-circle img-fluid">
+                                        </div>
+                                        <p class="gr-text-11 mb-0 text-white">“Ensuring the best return on investment for business”</p>
+                                    </div>
+                                </div>
                             </div>
+
+                            {{-- <div class="text-end landing-main-image landing-heading-img flex justify-end w-full">
+                                <img src="{{ asset('assets/img/Banner-Img-4.png') }}" alt="" class="img-fluid">
+                            </div> --}}
 
                         </div> 
                     </div>
