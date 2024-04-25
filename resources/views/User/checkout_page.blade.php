@@ -20,7 +20,7 @@
 
          
         <div class="grid grid-cols-12 gap-6 mt-6">
-            <div class="xl:col-span-9 col-span-12">
+            <div class="xl:col-span-8 col-span-12">
                 <div class="team-members" id="team-members">
                     <div class="grid grid-cols-12 gap-x-6">
                         <div class="xl:col-span-12 col-span-12">
@@ -80,7 +80,7 @@
                     
                 </div>
             </div>
-            <div class="xl:col-span-3 col-span-12">
+            <div class="xl:col-span-4 col-span-12">
                 <div class="team-groups">
                     <div class="box">
                         <div class="box-header  !justify-between">
