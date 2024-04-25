@@ -248,12 +248,12 @@
                                                         Plan</button>
                                                 </li>
                                             </ul>
-                                        </div>
+                                        </div> 
                                     </div>
                                 </div>
                             </div>
                             <div
-                                class="xxl:col-span-4 xl:col-span-3 lg:col-span-4 md:col-span-4 sm:col-span-1 col-span-12 boxbordercus">
+                                class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-1 col-span-12 boxbordercus">
                                 <div class="box overflow-hidden">
                                     <div class="box-body !p-0">
                                         <div class="px-1 py-2 bg-success/30"></div>
