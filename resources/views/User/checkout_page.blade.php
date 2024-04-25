@@ -76,7 +76,7 @@
                                     <div class="box-body">
                                         <div class="grid grid-cols-12 sm:gap-x-6 sm:gap-y-4">
                                             
-                                            <div class="md:col-span-12 col-span-12 md:flex md:justify-end">
+                                            <div class="md:col-span-12 col-span-12 text-center">
                                                 <button type="submit" class="ti-btn ti-btn-primary-full !mb-0">Pay With Stripe</button>
                                             </div>
                                         </div>
