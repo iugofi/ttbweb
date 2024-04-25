@@ -300,27 +300,27 @@
                                                         <i class='bx bx-check-double space-x-4'
                                                             style="font-size:16px; line-height:1.2rem">With supporting
                                                             natural lead</i>
-                                                        <i class='bx bx-check-double'
+                                                        <i class='bx bx-check-double space-x-4'
                                                             style="font-size:16px; line-height:1.2rem">With supporting
                                                             natural lead</i>
-                                                        <i class='bx bx-check-double'
+                                                        <i class='bx bx-check-double space-x-4'
                                                             style="font-size:16px; line-height:1.2rem">With supporting
                                                             natural lead</i>
-                                                        <i class='bx bx-check-double'
+                                                        <i class='bx bx-check-double space-x-4'
                                                             style="font-size:16px; line-height:1.2rem">With supporting
                                                             natural lead</i>
                                                     </div>
                                                     <div class="xl:grid-col-6 col-grid-6">
-                                                        <i class='bx bx-check-double'
+                                                        <i class='bx bx-check-double space-x-4'
                                                             style="font-size:16px; line-height:1.2rem">With supporting
                                                             natural lead</i>
-                                                        <i class='bx bx-check-double'
+                                                        <i class='bx bx-check-double space-x-4'
                                                             style="font-size:16px; line-height:1.2rem">With supporting
                                                             natural lead</i>
-                                                        <i class='bx bx-check-double'
+                                                        <i class='bx bx-check-double space-x-4'
                                                             style="font-size:16px; line-height:1.2rem">With supporting
                                                             natural lead</i>
-                                                        <i class='bx bx-check-double'
+                                                        <i class='bx bx-check-double space-x-4'
                                                             style="font-size:16px; line-height:1.2rem">With supporting
                                                             natural lead</i>
                                                     </div>
