@@ -39,232 +39,66 @@
             <div class="grid grid-cols-12 gap-x-6">
                 <div class="xl:col-span-9 col-span-12">
                     <div class="box overflow-hidden">
-                        <div class="grid grid-cols-12 gap-6">
-                            <div class="xl:col-span-6 col-span-12">
-                                <div class="box">
-                                    <div class="box-header justify-between">
-                                        <div class="box-title">
-                                            Overview
-                                        </div>
-                                        <div class="prism-toggle">
-                                            <button type="button" class="ti-btn !py-1 !px-2 ti-btn-primary !text-[0.75rem] !font-medium">Show Code<i class="ri-code-line ms-2 inline-block align-middle"></i></button>
-                                        </div>
+                        <div class="xl:col-span-6 col-span-12">
+                            <div class="box">
+                                <div class="box-header justify-between">
+                                    <div class="box-title">
+                                        Overview
                                     </div>
-                                    <div class="box-body">
-                                        <form>
-                                            <div class="mb-3">
-                                                <label for="exampleInputEmail1" class="form-label">Email
-                                                    address</label>
-                                                <input type="email" class="form-control" id="exampleInputEmail1"
-                                                    aria-describedby="emailHelp">
-                                                <div id="emailHelp" class="form-text">We'll
-                                                    never share your email
-                                                    with
-                                                    anyone else.</div>
-                                            </div>
-                                            <div class="mb-3">
-                                                <label for="exampleInputPassword1" class="form-label">Password</label>
-                                                <input type="password" class="form-control" id="exampleInputPassword1">
-                                            </div>
-                                            <div class="mb-3 form-check !ps-0">
-                                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                                <label class="form-check-label ps-2" for="exampleCheck1">Check
-                                                    me out</label>
-                                            </div>
-                                            <button type="submit" class="ti-btn ti-btn-primary-full">Submit</button>
-                                        </form>
-                                    </div>
-                                    <div class="box-footer hidden !border-t-0">
-    <!-- Prism Code -->
-    <pre class="language-html"><code class="language-html">
-        &lt;form&gt;
-            &lt;div class="mb-3"&gt;
-                &lt;label for="exampleInputEmail1" class="form-label"&gt;Email
-                    address&lt;/label&gt;
-                &lt;input type="email" class="form-control" id="exampleInputEmail1"
-                    aria-describedby="emailHelp"&gt;
-                &lt;div id="emailHelp" class="form-text"&gt;We'll
-                    never share your email
-                    with
-                    anyone else.&lt;/div&gt;
-            &lt;/div&gt;
-            &lt;div class="mb-3"&gt;
-                &lt;label for="exampleInputPassword1" class="form-label"&gt;Password&lt;/label&gt;
-                &lt;input type="password" class="form-control" id="exampleInputPassword1"&gt;
-            &lt;/div&gt;
-            &lt;div class="mb-3 form-check !ps-0"&gt;
-                &lt;input type="checkbox" class="form-check-input" id="exampleCheck1"&gt;
-                &lt;label class="form-check-label ps-2" for="exampleCheck1"&gt;Check
-                    me out&lt;/label&gt;
-            &lt;/div&gt;
-            &lt;button type="submit" class="ti-btn ti-btn-primary-full"&gt;Submit&lt;/button&gt;
-        &lt;/form&gt;</code></pre>
-    <!-- Prism Code -->
+                                    <div class="prism-toggle">
+                                        <button type="button" class="ti-btn !py-1 !px-2 ti-btn-primary !text-[0.75rem] !font-medium">Show Code<i class="ri-code-line ms-2 inline-block align-middle"></i></button>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="xl:col-span-6 col-span-12">
-                                <div class="grid grid-cols-12">
-                                    <div class="xl:col-span-12 col-span-12">
-                                        <div class="box">
-                                            <div class="box-header justify-between">
-                                                <div class="box-title">
-                                                    Form text
-                                                </div>
-                                                <div class="prism-toggle">
-                                                    <button type="button" class="ti-btn !py-1 !px-2 ti-btn-primary !text-[0.75rem] !font-medium">Show Code<i class="ri-code-line ms-2 inline-block align-middle"></i></button>
-                                                </div>
-                                            </div>
-                                            <div class="box-body">
-                                                <label for="inputPassword5" class="form-label">Password</label>
-                                                <input type="password" id="inputPassword5" class="form-control"
-                                                    aria-describedby="passwordHelpBlock">
-                                                <div id="passwordHelpBlock" class="form-text">
-                                                    Your password must be 8-20 characters long, contain letters and
-                                                    numbers,
-                                                    and
-                                                    must not contain spaces, special characters, or emoji.
-                                                </div>
-                                            </div>
-                                            <div class="box-footer hidden !border-t-0">
-    <!-- Prism Code -->
-    <pre class="language-html"><code class="language-html">&lt;label for="inputPassword5" class="form-label"&gt;Password&lt;/label&gt;
-        &lt;input type="password" id="inputPassword5" class="form-control"
-            aria-describedby="passwordHelpBlock"&gt;
-        &lt;div id="passwordHelpBlock" class="form-text"&gt;
-            Your password must be 8-20 characters long, contain letters and
-            numbers,
-            and
-            must not contain spaces, special characters, or emoji.
-        &lt;/div&gt;</code></pre>
-    <!-- Prism Code -->
-                                            </div>
+                                <div class="box-body">
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Email
+                                                address</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                                aria-describedby="emailHelp">
+                                            <div id="emailHelp" class="form-text">We'll
+                                                never share your email
+                                                with
+                                                anyone else.</div>
                                         </div>
-                                    </div>
-                                    <div class="xl:col-span-12 col-span-12">
-                                        <div class="box">
-                                            <div class="box-header justify-between">
-                                                <div class="box-title">
-                                                    Inline text can use any typical inline HTML element with nothing more
-                                                    than
-                                                    the <span class="text-danger">.form-text</span> class.
-                                                </div>
-                                                <div class="prism-toggle">
-                                                    <button type="button" class="ti-btn !py-1 !px-2 ti-btn-primary !text-[0.75rem] !font-medium whitespace-nowrap !mb-0">Show Code<i class="ri-code-line ms-2 inline-block align-middle"></i></button>
-                                                </div>
-                                            </div>
-                                            <div class="box-body">
-                                                <div class="sm:grid grid-cols-12 gap-4 items-center">
-                                                    <div class="xxxl:col-span-1 col-span-2">
-                                                        <label for="inputPassword6" class="col-form-label">Password</label>
-                                                    </div>
-                                                    <div class="col-span-3">
-                                                        <input type="password" id="inputPassword6" class="form-control"
-                                                            aria-describedby="passwordHelpInline">
-                                                    </div>
-                                                    <div class="col-span-7">
-                                                        <span id="passwordHelpInline" class="form-text">
-                                                            Must be 8-20 characters long.
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="box-footer hidden !border-t-0">
-    <!-- Prism Code -->
-    <pre class="language-html"><code class="language-html">
-        &lt;div class="sm:grid grid-cols-12 gap-4 items-center"&gt;
-            &lt;div class="xxl:col-span-1 col-span-2"&gt;
-                &lt;label for="inputPassword6" class="col-form-label"&gt;Password&lt;/label&gt;
-            &lt;/div&gt;
-            &lt;div class="col-span-3"&gt;
-                &lt;input type="password" id="inputPassword6" class="form-control"
-                    aria-describedby="passwordHelpInline"&gt;
-            &lt;/div&gt;
-            &lt;div class="col-span-7"&gt;
-                &lt;span id="passwordHelpInline" class="form-text"&gt;
-                    Must be 8-20 characters long.
-                &lt;/span&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;</code></pre>
-    <!-- Prism Code -->
-                                            </div>
+                                        <div class="mb-3">
+                                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                                            <input type="password" class="form-control" id="exampleInputPassword1">
                                         </div>
-                                    </div>
+                                        <div class="mb-3 form-check !ps-0">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                            <label class="form-check-label ps-2" for="exampleCheck1">Check
+                                                me out</label>
+                                        </div>
+                                        <button type="submit" class="ti-btn ti-btn-primary-full">Submit</button>
+                                    </form>
                                 </div>
-                            </div>
-                            <div class="xl:col-span-6 col-span-12">
-                                <div class="box">
-                                    <div class="box-header justify-between">
-                                        <div class="box-title">
-                                            Disabled forms
-                                        </div>
-                                        <div class="prism-toggle">
-                                            <button type="button" class="ti-btn !py-1 !px-2 ti-btn-primary !text-[0.75rem] !font-medium">Show Code<i class="ri-code-line ms-2 inline-block align-middle"></i></button>
-                                        </div>
-                                    </div>
-                                    <div class="box-body">
-                                        <form>
-                                            <fieldset disabled>
-                                                <legend class="text-2xl">Disabled fieldset example</legend>
-                                                <div class="mb-3">
-                                                    <label for="disabledTextInput" class="form-label">Disabled
-                                                        input</label>
-                                                    <input type="text" id="disabledTextInput" class="form-control"
-                                                        placeholder="Disabled input">
-                                                </div>
-                                                <div class="mb-3">
-                                                    <label for="disabledSelect" class="form-label">Disabled select
-                                                        menu</label>
-                                                    <select id="disabledSelect" class="form-select">
-                                                        <option>Disabled select</option>
-                                                    </select>
-                                                </div>
-                                                <div class="mb-3">
-                                                    <div class="form-check !ps-0">
-                                                        <input class="form-check-input" type="checkbox"
-                                                            id="disabledFieldsetCheck" disabled>
-                                                        <label class="form-check-label ps-2" for="disabledFieldsetCheck">
-                                                            Can't check this
-                                                        </label>
-                                                    </div>
-                                                </div>
-                                                <button type="submit" class="ti-btn ti-btn-primary-full opacity-[0.6]">Submit</button>
-                                            </fieldset>
-                                        </form>
-                                    </div>
-                                    <div class="box-footer hidden !border-t-0">
-    <!-- Prism Code -->
-    <pre class="language-html"><code class="language-html">
-        &lt;form&gt;
-            &lt;fieldset disabled&gt;
-                &lt;legend class="text-2xl"&gt;Disabled fieldset example&lt;/legend&gt;
-                &lt;div class="mb-3"&gt;
-                    &lt;label for="disabledTextInput" class="form-label"&gt;Disabled
-                        input&lt;/label&gt;
-                    &lt;input type="text" id="disabledTextInput" class="form-control"
-                        placeholder="Disabled input"&gt;
-                &lt;/div&gt;
-                &lt;div class="mb-3"&gt;
-                    &lt;label for="disabledSelect" class="form-label"&gt;Disabled select
-                        menu&lt;/label&gt;
-                    &lt;select id="disabledSelect" class="form-select"&gt;
-                        &lt;option&gt;Disabled select&lt;/option&gt;
-                    &lt;/select&gt;
-                &lt;/div&gt;
-                &lt;div class="mb-3"&gt;
-                    &lt;div class="form-check !ps-0"&gt;
-                        &lt;input class="form-check-input" type="checkbox"
-                            id="disabledFieldsetCheck" disabled&gt;
-                        &lt;label class="form-check-label ps-2" for="disabledFieldsetCheck"&gt;
-                            Can't check this
-                        &lt;/label&gt;
-                    &lt;/div&gt;
-                &lt;/div&gt;
-                &lt;button type="submit" class="ti-btn ti-btn-primary-full opacity-[0.6]"&gt;Submit&lt;/button&gt;
-            &lt;/fieldset&gt;
-        &lt;/form&gt;</code></pre>
-    <!-- Prism Code -->
-                                    </div>
+                                <div class="box-footer hidden !border-t-0">
+<!-- Prism Code -->
+<pre class="language-html"><code class="language-html">
+    &lt;form&gt;
+        &lt;div class="mb-3"&gt;
+            &lt;label for="exampleInputEmail1" class="form-label"&gt;Email
+                address&lt;/label&gt;
+            &lt;input type="email" class="form-control" id="exampleInputEmail1"
+                aria-describedby="emailHelp"&gt;
+            &lt;div id="emailHelp" class="form-text"&gt;We'll
+                never share your email
+                with
+                anyone else.&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="mb-3"&gt;
+            &lt;label for="exampleInputPassword1" class="form-label"&gt;Password&lt;/label&gt;
+            &lt;input type="password" class="form-control" id="exampleInputPassword1"&gt;
+        &lt;/div&gt;
+        &lt;div class="mb-3 form-check !ps-0"&gt;
+            &lt;input type="checkbox" class="form-check-input" id="exampleCheck1"&gt;
+            &lt;label class="form-check-label ps-2" for="exampleCheck1"&gt;Check
+                me out&lt;/label&gt;
+        &lt;/div&gt;
+        &lt;button type="submit" class="ti-btn ti-btn-primary-full"&gt;Submit&lt;/button&gt;
+    &lt;/form&gt;</code></pre>
+<!-- Prism Code -->
                                 </div>
                             </div>
                         </div>
