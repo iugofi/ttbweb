@@ -650,27 +650,7 @@
                                                         stroke-width="2" stroke-linecap="round" />
                                                 </svg>
                                             </button>
-                                            <div id="faq-collapse-twelve"
-                                                class="hs-accordion-content w-full overflow-hidden hidden transition-[height] duration-300"
-                                                aria-labelledby="faq-ten">
-                                                <div class="p-5">
-                                                    <p class="text-defaulttextcolor dark:text-defaulttextcolor/70 ">
-                                                        <strong>This is the first item's accordion body.</strong> It is
-                                                        shown by
-                                                        default, until the collapse plugin adds the appropriate classes that
-                                                        we
-                                                        use to style each element. These classes control the overall
-                                                        appearance,
-                                                        as well as the showing and hiding via CSS transitions. You can
-                                                        modify
-                                                        any of this with custom CSS or overriding our default variables.
-                                                        It's
-                                                        also worth noting that just about any HTML can go within the
-                                                        <code>.accordion-body</code>, though the transition does limit
-                                                        overflow.
-                                                    </p>
-                                                </div>
-                                            </div>
+                                           
                                         </div>
                                     </div>
                                 </div>
