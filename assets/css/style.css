@@ -31,10 +31,6 @@ html {
 body {
     margin: 0;
     line-height: inherit;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -o-user-select: none;
     user-select: none;
 }
 hr {
@@ -41206,6 +41202,12 @@ h3.font-semibold.mb-2.text-black.features-one {
 .dark .forth-s-main .border-custom-main {
     box-shadow: -14px 12px 1px -6px #444444;
 }
+.space-x-4::before {
+    content: "\ea47";
+    margin: 0 8px 0 0;
+    font-size: 24px;
+}
+
 
 @media (min-width: 320px) and (max-width: 767px) {
     div#internet-security .landing-main-image {

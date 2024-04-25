@@ -231,13 +231,13 @@
                                     <div class="box-body forth-section">
                                         <div class="my-auto">
                                             <div class="text-[.9375rem] font-semibold"
-                                                style="font-size: 18px; font-weight: 700;">24/7 support</div>
+                                                style="font-size: 18px; font-weight: 700; text-align: left;">24/7 support</div>
 
                                         </div><br>
-                                        - Lorem ipsum dolor sit amet consectetur
+                                        <p>  - Lorem ipsum dolor sit amet consectetur
                                         <br> - Lorem ipsum dolor, sit amet consectetur
                                         <br> - Lorem ipsum dolor sit amet consectetur
-                                        <br> - Lorem ipsum dolor sit amet, consectetur
+                                        <br> - Lorem ipsum dolor sit amet, consectetur</p>
                                     </div>
 
                                 </div>
@@ -249,18 +249,17 @@
                                     <div class="flex align-center w-full">
                                         <img src="/assets/img/OS-Requirement.png" alt="img"
                                             class="avatar avatar-rounded me-2 !mb-0">
-
                                     </div>
                                     <div class="box-body forth-section">
                                         <div class="my-auto">
                                             <div class="text-[.9375rem] font-semibold"
-                                                style="font-size: 18px; font-weight: 700;">24/7 support</div>
+                                                style="font-size: 18px; font-weight: 700; text-align: left;">24/7 support</div>
 
                                         </div><br>
-                                        - Lorem ipsum dolor sit amet consectetur
+                                         <p> - Lorem ipsum dolor sit amet consectetur
                                         <br> - Lorem ipsum dolor, sit amet consectetur
                                         <br> - Lorem ipsum dolor sit amet consectetur
-                                        <br> - Lorem ipsum dolor sit amet, consectetur
+                                        <br> - Lorem ipsum dolor sit amet, consectetur</p>
                                     </div>
 
                                 </div>
@@ -280,6 +279,7 @@
                         <div class="xl:col-span-12 col-span-12">
                             <div class="grid grid-cols-12 gap-6">
                                 <div class="xl:col-span-6 col-span-12">
+                                    <h4 class="text font-bold .text-4xl" style="margin: 0 7rem auto;">What's More?</h4>
                                     <div class="lg:text-start !flex items-center lg:justify-start justify-center">
                                         <img src="{{ asset('assets/img/whats-more.png') }}" alt="" width="450"
                                             class="img-fluid">
@@ -297,35 +297,37 @@
                                             <div class="grid grid-col-12 gap-x-6">
                                                 <div class="row flex gap-8">
                                                     <div class="xl:col-grid-6 col-grid-6">
-                                                        <i class='bx bx-check-double'
+                                                        <i class='bx bx-check-double space-x-4'
                                                             style="font-size:16px; line-height:1.2rem">With supporting
                                                             natural lead</i>
-                                                        <i class='bx bx-check-double'
+                                                        <i class='bx bx-check-double space-x-4'
                                                             style="font-size:16px; line-height:1.2rem">With supporting
                                                             natural lead</i>
-                                                        <i class='bx bx-check-double'
+                                                        <i class='bx bx-check-double space-x-4'
                                                             style="font-size:16px; line-height:1.2rem">With supporting
                                                             natural lead</i>
-                                                        <i class='bx bx-check-double'
+                                                        <i class='bx bx-check-double space-x-4'
                                                             style="font-size:16px; line-height:1.2rem">With supporting
                                                             natural lead</i>
                                                     </div>
                                                     <div class="xl:grid-col-6 col-grid-6">
-                                                        <i class='bx bx-check-double'
+                                                        <i class='bx bx-check-double space-x-4'
                                                             style="font-size:16px; line-height:1.2rem">With supporting
                                                             natural lead</i>
-                                                        <i class='bx bx-check-double'
+                                                        <i class='bx bx-check-double space-x-4'
                                                             style="font-size:16px; line-height:1.2rem">With supporting
                                                             natural lead</i>
-                                                        <i class='bx bx-check-double'
+                                                        <i class='bx bx-check-double space-x-4'
                                                             style="font-size:16px; line-height:1.2rem">With supporting
                                                             natural lead</i>
-                                                        <i class='bx bx-check-double'
+                                                        <i class='bx bx-check-double space-x-4'
                                                             style="font-size:16px; line-height:1.2rem">With supporting
                                                             natural lead</i>
                                                     </div>
-                                                </div>
-
+                                                </div><br><br>
+                                                <a href="index.html" class="m-1 ti-btn ti-btn-primary-full" style="width:26%;">
+                                                    Get Full License!
+                                                </a>
                                             </div>
 
 
@@ -338,46 +340,6 @@
                 </div>
             </section>
 
-            <!-- Start::fifth Content -->
-            {{-- <section class="fith-section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]" id="fifth">
-        <div class="container text-center">
-           
-            <div class="grid grid-cols-12 gap-6 text-start">
-                <div class="xl:col-span-12 col-span-12">
-                    <div class="grid grid-cols-12 gap-6">
-                        <div class="xl:col-span-5 col-span-12">
-                            <div class="lg:text-start !flex items-center lg:justify-start justify-center">
-                                <h3 class="heading pt-5"><span class="text-dark"style="font-size:40px; font-weight:600;">What's More?</h3>
-                                <img src="{{ asset('assets/img/We-Provide-Web-Design-with-App-Development.png') }}" alt="" width="600"
-                                    class="img-fluid">
-                            </div>
-                        </div>
-                        <div class="xl:col-span-7 col-span-12">
-                            <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 col-span-12">
-                                <div class="lg:py-[3rem]">
-                                    <p class="landing-banner-heading mb-4 opacity-[0.9]" style="font-size:16px;">With supporting text below as a natural lead-in to
-                                                additional content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum provident id accusantium.</p>
-										<div class=" grid grid-cols-12 gap-6">
-											<div class=" xxl:col-span-5 xl:col-span-5 lg:col-span-5 col-span-12">
-											<i class='bx bx-check-double' style="font-size:16px; line-height:1.2rem">With supporting natural lead</i>
-											<i class='bx bx-check-double' style="font-size:16px; line-height:1.2rem">With supporting natural lead</i>
-											<i class='bx bx-check-double' style="font-size:16px; line-height:1.2rem">With supporting natural lead</i>
-											<i class='bx bx-check-double' style="font-size:16px; line-height:1.2rem">With supporting natural lead</i>
-											</div>
-											<div class=" xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
-											<i class='bx bx-check-double' style="font-size:16px; line-height:1.2rem">With supporting natural lead</i>
-											<i class='bx bx-check-double' style="font-size:16px; line-height:1.2rem">With supporting natural lead</i>
-											<i class='bx bx-check-double' style="font-size:16px; line-height:1.2rem">With supporting natural lead</i>
-											<i class='bx bx-check-double' style="font-size:16px; line-height:1.2rem">With supporting natural lead</i>
-											</div>
-                                        </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> --}}
-            <!-- End::fifth Content -->
+
 
         @endsection
