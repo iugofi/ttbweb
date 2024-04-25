@@ -297,7 +297,7 @@
                                             <div class="grid grid-col-12 gap-x-6">
                                                 <div class="row flex gap-8">
                                                     <div class="xl:col-grid-6 col-grid-6">
-                                                        <i class='bx bx-check-double'
+                                                        <i class='bx bx-check-double space-x-4'
                                                             style="font-size:16px; line-height:1.2rem">With supporting
                                                             natural lead</i>
                                                         <i class='bx bx-check-double'
