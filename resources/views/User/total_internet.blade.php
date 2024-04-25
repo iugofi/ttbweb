@@ -231,7 +231,7 @@
                                     <div class="box-body forth-section">
                                         <div class="my-auto">
                                             <div class="text-[.9375rem] font-semibold"
-                                                style="font-size: 18px; font-weight: 700;">24/7 support</div>
+                                                style="font-size: 18px; font-weight: 700; text-align: left;">24/7 support</div>
 
                                         </div><br>
                                         - Lorem ipsum dolor sit amet consectetur
@@ -249,12 +249,11 @@
                                     <div class="flex align-center w-full">
                                         <img src="/assets/img/OS-Requirement.png" alt="img"
                                             class="avatar avatar-rounded me-2 !mb-0">
-
                                     </div>
                                     <div class="box-body forth-section">
                                         <div class="my-auto">
                                             <div class="text-[.9375rem] font-semibold"
-                                                style="font-size: 18px; font-weight: 700;">24/7 support</div>
+                                                style="font-size: 18px; font-weight: 700; text-align: left;">24/7 support</div>
 
                                         </div><br>
                                         - Lorem ipsum dolor sit amet consectetur
