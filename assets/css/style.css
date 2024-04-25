@@ -41295,6 +41295,10 @@ h3.font-semibold.mb-2.text-black.features-one {
 .hero-animated-card-3 img {
     height: 85px;
 }
+.ttst {
+    align-items: center;
+    display: flex;
+}
 /* End vpn-shild banner css */
 
 
