@@ -30,7 +30,7 @@
 
                                 <a href="index.html" class="m-1 ti-btn ti-btn-primary-full"> 
                                     View Demos
-                                    <i class="ri-eye-line ms-2 align-middle"></i>
+                                    <i class="ri-eye-line ms-2 align-middle"></i> 
                                 </a>
                             </div>
                         </div>
