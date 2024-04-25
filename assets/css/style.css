@@ -40893,7 +40893,7 @@ img.img-fluid.service-icon {
 [data-nav-layout="horizontal"] .landing-body .landing-banner-vpn {
     position: relative;
     top: 0px;
-    height: 53rem;
+    /* height: 53rem; */
     width: 100%;
     background-image: url("/assets/img/banner-bg-vpn.png");
     background-size: cover;
