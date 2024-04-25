@@ -50,6 +50,10 @@
                                 <div class="box-body">
                                     <div class="grid grid-cols-12 sm:gap-x-6 sm:gap-y-4">
                                         <div class="md:col-span-12 col-span-12 mb-4">
+                                            <label class="form-label">Email</label>
+                                            <input type="text" class="form-control" >
+                                        </div>
+                                        <div class="md:col-span-6 col-span-12 mb-4">
                                             <label class="form-label">First Name</label>
                                             <input type="text" class="form-control" placeholder="First name"
                                                 aria-label="First name">
