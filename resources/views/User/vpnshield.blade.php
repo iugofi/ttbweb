@@ -19,11 +19,11 @@
             <section class="vpnsection">
                 <div class="container main-banner-container">
                     <div class="grid grid-cols-12 gap-6">
-                        <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 col-span-12">
+                        <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 col-span-12 ps-6">
                             <div class="lg:py-[3rem]">
-                                <h2 class="landing-banner-heading mb-4 opacity-[0.9]">Lorem ipsum
+                                <h2 class="landing-banner-heading mb-4 opacity-[0.9] scroll-ps-6">Lorem ipsum
                                     dolor sit amet. Lorem ipsum dolor sit amet consectetur.</h2>
-                                <div class="text-[1rem] mb-[1rem] text-black opacity-[0.9] dark-text">ynex - Now you can use
+                                <div class="text-[1rem] mb-[1rem] text-black opacity-[0.9] dark-text scroll-ps-6">ynex - Now you can use
                                     this
                                     admin template to design stunning dashboards that will wow your target viewers or users
                                     to no end. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet.</div>
@@ -46,7 +46,7 @@
                                         <img src="assets/img/widget-img.jpg" alt="widget" class="rounded-custom img-fluid">
                                     </div>
                                     <div class="position-absolute p-4 w-75 rounded-custom d-flex bg-white hero-animated-card-1">
-                                        <p class="gr-text-11 mb-0 text-mirage-2 ttst">“A better way to manage your sales, team, clients.”</p>
+                                        <p class="gr-text-11 mb-0 text-mirage-2 dark-text ttst">“A better way to manage your sales, team, clients.”</p>
                                         <div class="small-card-img ml-3">
                                             <img src="assets/img/client/3.jpg" alt="" width="80px" class="rounded-circle img-fluid">
                                         </div>
