@@ -249,7 +249,6 @@
                                     <div class="flex align-center w-full">
                                         <img src="/assets/img/OS-Requirement.png" alt="img"
                                             class="avatar avatar-rounded me-2 !mb-0">
-
                                     </div>
                                     <div class="box-body forth-section">
                                         <div class="my-auto">
