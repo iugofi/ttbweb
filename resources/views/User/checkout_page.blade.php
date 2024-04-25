@@ -37,7 +37,7 @@
                         </div>
                         
 
-                        <div class="xl:col-span-6 col-span-12">
+                        <div class="xl:col-span-12 col-span-12">
                             <div class="box">
                                 <div class="box-header justify-between">
                                     <div class="box-title">
