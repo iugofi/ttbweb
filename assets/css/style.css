@@ -41226,6 +41226,10 @@ h3.font-semibold.mb-2.text-black.features-one {
     #internet-security section.section {
         padding: 0px !important;
     }
+    .internet2-section {
+        background-image: none;
+        overflow: hidden;
+    }
 }
 
 /* End totel-internet-security page */
