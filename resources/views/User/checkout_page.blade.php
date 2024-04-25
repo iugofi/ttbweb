@@ -59,7 +59,7 @@
 
 
 
-                                            <div class="md:col-span-12 col-span-12">
+                                            <div class="md:col-span-12 col-span-12 md:flex md:justify-end">
                                                 <button type="submit" class="ti-btn ti-btn-primary-full !mb-0">Sign
                                                     in</button>
                                             </div>
