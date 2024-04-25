@@ -40893,7 +40893,7 @@ img.img-fluid.service-icon {
 [data-nav-layout="horizontal"] .landing-body .landing-banner-vpn {
     position: relative;
     top: 0px;
-    height: 53rem;
+    /* height: 53rem; */
     width: 100%;
     background-image: url("/assets/img/banner-bg-vpn.png");
     background-size: cover;
@@ -41275,6 +41275,9 @@ h3.font-semibold.mb-2.text-black.features-one {
 .rounded-custom {
     border-radius: 15px;
 }
+.rounded-circle {
+    border-radius: 50%;
+}
 .hero-animated-card-3 {
     top: 45%;
     animation: move-up-down 4s ease-in-out 3s infinite;
@@ -41291,6 +41294,10 @@ h3.font-semibold.mb-2.text-black.features-one {
 }
 .hero-animated-card-3 img {
     height: 85px;
+}
+.ttst {
+    align-items: center;
+    display: flex;
 }
 /* End vpn-shild banner css */
 
