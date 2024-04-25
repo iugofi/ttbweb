@@ -38627,10 +38627,10 @@ caption {
 .hs-accordion.active > .hs-accordion-toggle.hs-accordion-active\:bg-primary {
     background-color: rgb(var(--primary));
 }
-/* new-nj */
+
 .hs-accordion.active
     > .hs-accordion-toggle.hs-accordion-active\:bg-primary\/10 {
-    background-color: rgb(var(--primary-ttb-rgb) / 0.1);
+    background-color: rgb(var(--primary-ttb-rgb));
 }
 .hs-accordion.active > .hs-accordion-toggle.hs-accordion-active\:bg-secondary {
     background-color: rgb(var(--secondary));
