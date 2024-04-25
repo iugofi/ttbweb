@@ -11618,8 +11618,8 @@ h6 {
     margin-right: auto;
     /* height: 100px; */
     /* width: 100px; */
-    border-radius: 9999px;
-    padding: 20px;
+    border-radius: 50%;
+    padding: 28px 20px;
     border: 10px solid #13d8aa;
     font-weight: 700;
     font-size: 30px;
