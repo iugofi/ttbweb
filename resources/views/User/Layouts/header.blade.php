@@ -233,6 +233,14 @@
 
         <!-- SIDEBAR -->
 
+
+        <script>
+             $(document).ready(function() {
+alert("kulvinder lavda");
+
+             });
+        </script>
+
         @extends('User.Layouts.nav')
 
         <!-- END SIDEBAR -->
