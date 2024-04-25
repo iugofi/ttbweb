@@ -28,7 +28,7 @@
                                     admin template to design stunning dashboards that will wow your target viewers or users
                                     to no end. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet.</div>
 
-                                <a href="index.html" class="m-1 ti-btn ti-btn-primary-full"> 
+                                <a href="index.html" class="m-1 ti-btn ti-btn-primary-full mt-6"> 
                                     View Demos
                                     <i class="ri-eye-line ms-2 align-middle"></i> 
                                 </a>
