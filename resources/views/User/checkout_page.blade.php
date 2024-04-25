@@ -96,13 +96,13 @@
                                         <img src="assets/img/ttb antivirus box design.jpg" class="card-img mb-4 !rounded-md" alt="...">
                                         <h6 class="box-title font-semibold">TTB VPN SHIELD</h6>
                                         <p class="card-text mb-4">One Device/One Month</p>
-                                        
-                                            <h6 class="box-title font-semibold !text-[1rem]">Card title</h6>
+                                        <hr>
+                                            <h6 class="box-title font-semibold !text-[1rem] mt-2">Card title</h6>
                                             <p class="card-text text-[#8c9097] dark:text-white/50 mb-4">when an unknown printer took a galley of type
                                                 and scrambled it to make a type specimen book. It has survived not only five
                                                 centuries, but also the leap into electronic typesetting, remaining essentially
                                                 unchanged.</p>
-                                            <a href="javascript:void(0);" class="ti-btn ti-btn-primary-full">Read More</a>
+                                            <hr>
                                         
                                     </div>
                                 </div>
