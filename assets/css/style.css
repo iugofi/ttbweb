@@ -11691,9 +11691,9 @@ h6 {
     width: 30.5rem;
     padding: 15px;
 }
-[data-nav-layout="horizontal"] .landing-body h3 {
+/* [data-nav-layout="horizontal"] .landing-body h3 {
     font-size: 21px;
-}
+} */
 [data-nav-layout="horizontal"] .landing-body .team-card .team-avatar {
     --tw-shadow: 0 0 0 0.5rem rgba(0, 0, 0, 0.05) !important;
     --tw-shadow-colored: 0 0 0 0.5rem var(--tw-shadow-color) !important;
