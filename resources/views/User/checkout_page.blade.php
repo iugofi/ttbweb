@@ -64,6 +64,26 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="grid grid-cols-12 gap-x-6">
+                            
+                            <div class="xl:col-span-12 col-span-12">
+                                <div class="box">
+                                    <div class="box-header justify-between">
+                                        <div class="box-title">
+                                            Payment
+                                        </div>
+                                    </div>
+                                    <div class="box-body">
+                                        <div class="grid grid-cols-12 sm:gap-x-6 sm:gap-y-4">
+                                            
+                                            <div class="md:col-span-12 col-span-12 md:flex md:justify-end">
+                                                <button type="submit" class="ti-btn ti-btn-primary-full !mb-0">Pay With Stripe</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 
