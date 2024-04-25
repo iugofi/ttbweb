@@ -23,7 +23,7 @@
                     <div class="xl:col-span-8 col-span-12">
                         <div class="team-members" id="team-members">
                             <div class="grid grid-cols-12 gap-x-6">
-                                <div class="xl:col-span-12 col-span-12 order-1 xl:order-1">
+                                <div class="xl:col-span-12 col-span-12">
                                     <div class="box">
                                         <div class="box-body">
                                             <div class="team-header">
@@ -37,7 +37,7 @@
                                 </div>
 
 
-                                <div class="xl:col-span-12 col-span-12 order-3 xl:order-3">
+                                <div class="xl:col-span-12 col-span-12">
                                     <div class="box">
                                         <div class="box-header justify-between">
                                             <div class="box-title">
@@ -78,7 +78,7 @@
 
                         </div>
                     </div>
-                    <div class="xl:col-span-4 col-span-12 order-2 xl:order-2">
+                    <div class="xl:col-span-4 col-span-12">
                         <div class="team-groups">
                             <div class="box">
 
