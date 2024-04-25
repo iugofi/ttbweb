@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-full" data-nav-layout="horizontal" data-nav-style="menu-click"
     data-menu-position="fixed">
+    
 
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 
@@ -14,6 +15,8 @@
     <meta name="keywords"
         content="@yield('keywords')">
     <link rel="canonical" href="@yield('canonical')" />
+
+    <style>.container{width:100%;height:100%;background-color:#f0f0f0;}</style>
 
     <!-- TITLE -->
     <title>@yield('title')</title>
@@ -57,12 +60,51 @@
  
 
 
+<script>
+    // Original JavaScript code
+function calculate(x, y) {
+  return x + y;
+}
 
+// Obfuscated JavaScript code
+eval(function(p, a, c, k, e, r) {
+  e = function(c) {
+    return c.toString(a);
+  };
+  if (!''.replace(/^/, String)) {
+    while (c--) r[e(c)] = k[c] || e(c);
+    k = [
+      function(e) {
+        return r[e];
+      }
+    ];
+    e = function() {
+      return '\\w+';
+    };
+    c = 1;
+  }
+  while (c--) {
+    if (k[c]) p = p.replace(new RegExp('\\b' + e(c) + '\\b', 'g'), k[c]);
+  }
+  return p;
+})(
+  '0(1,2){3 1+2}4(\'5(6,7)\',8(9,\'a\',b,c,d,e,f){g 0(h,i){j h+i}k})',
+  18,
+  18,
+  '|function|return|function|x|eval|calculate|y|new|RegExp|g|String|while|replace|if|for|RegExp|RegExp|split'.split(
+    '|'
+  ),
+  0,
+  {}
+);
+
+</script>
 
 
 </head>
 
-<body class="landing-body">
+<body class="landing-body container">
+    
 
     <!-- SWITCHER -->
 
