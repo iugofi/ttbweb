@@ -84,7 +84,7 @@
                         <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12 col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 pe-0" style="box-shadow: 0px -1px 7px 3px #0000005e;">
                             <div class="box">
                                 <div class="box-body">
-                                    <img src="assets/images/media/media-25.jpg" class="card-img mb-4 !rounded-md"
+                                    <img src="assets/img/" class="card-img mb-4 !rounded-md"
                                         alt="...">
                                     <h6 class="box-title font-semibold">Product A</h6>
                                     <p class="card-text mb-4">With supporting text below as a natural
