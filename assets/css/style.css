@@ -40856,8 +40856,8 @@ img.img-fluid.service-icon {
     max-width: 100px;
 }
 .slider-box .box-body {
-    background: #000000;
-    padding: 30px 40px;
+    /* background: #000000; */
+    /* padding: 30px 40px; */
     z-index: 4;
     margin-top: 30px;
     border-radius: 4px;
