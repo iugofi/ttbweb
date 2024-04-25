@@ -78,8 +78,7 @@
                     <div class="team-groups">
                         <div class="box">
 
-                            <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12 col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 pe-0"
-                                style="box-shadow: 0px -1px 7px 3px #0000005e;">
+                            <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12 col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 pe-0">
                                 <div class="box">
                                     <div class="box-body">
                                         <img src="assets/img/ttb antivirus box design.jpg" class="card-img mb-4 !rounded-md"
