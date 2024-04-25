@@ -136,6 +136,10 @@ class UserController extends Controller
         return view('User.total_internet');
     }
 
+    public function checkout_page()
+    {
+        return view('User.checkout_page');
+    }
 
     public function contactform(Request $request)
     {
