@@ -339,53 +339,52 @@
 
         <!-- Start:: Section-5 -->
         <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
-            id="features">
-            <div class="container text-center">
-                <p class="text-[0.75rem] font-semibold text-success mb-1"><span
-                        class="landing-section-heading">Features</span></p>
-                <h3 class="font-semibold mb-2 !text-dark">Features Used in YNEX</h3>
-                <div>
-                    <div class="xl:col-span-7 col-span-12">
-                        <p class="text-dark opacity-[0.8] text-[0.9375rem] mb-4 font-normal">Some of the reviews our
-                            clients gave which brings motivation to work for future projects.</p>
-                    </div>
-                </div>
-                <div class="text-start">
-                    <div class="justify-center">
-                        <div class="">
-                            <div class="feature-logos sm:mt-[3rem] flex-wrap">
-                                <div class="sm:ms-[3rem] ms-2 text-center mx-3 my-4">
-                                    <h6 class="featur-icon counternum">60</h6>
-                                    <h5 class="mt-3 text-dark text-[1.25rem]">Av Test Certified</h5>
-                                   <p>May 2023</p>
-
-                                </div>
-                                <div class="sm:ms-[3rem] ms-2 text-center mx-3 my-4">
-                                    <h6 class="featur-icon counternum">60</h6>
-                                    <h5 class="mt-3 text-dark text-[1.25rem]">Av Test Certified</h5>
-                                   <p>May 2023</p>
-
-                                </div>
-                                <div class="sm:ms-[3rem] ms-2 text-center mx-3 my-4">
-                                    <h6 class="featur-icon counternum">60</h6>
-                                    <h5 class="mt-3 text-dark text-[1.25rem]">Av Test Certified</h5>
-                                   <p>May 2023</p>
-
-                                </div>
-                                <div class="sm:ms-[3rem] ms-2 text-center mx-3 my-4">
-                                    <h6 class="featur-icon counternum">60</h6>
-                                    <h5 class="mt-3 text-dark text-[1.25rem]">Av Test Certified</h5>
-                                   <p>May 2023</p>
-                                </div>
-                              
+        id="features">
+        <div class="container text-center">
+            {{-- <h3 class="font-semibold mb-2 !text-dark">Features Used in YNEX</h3> --}}
+            <h2 class="text-center text-black font-semibold	text-4xl">TTB #1 <span class="text-color-ttb">Antivirus </span><br>Four Times In A Row.</h2>
+            <div>
+                {{-- <div class="xl:col-span-7 col-span-12">
+                    <p class="text-dark opacity-[0.8] text-[0.9375rem] mb-4 font-normal">Some of the reviews our
+                        clients gave which brings motivation to work for future projects.</p>
+                </div> --}}
+            </div>
+            <div class="text-start">
+                <div class="justify-center">
+                    
+                        <div class="feature-logos sm:mt-[3rem] flex-wrap">
+                            <div class="sm:ms-[3rem] ms-2 text-center mx-3 my-4">
+                                <span class="featur-icon counternum">100</span>
+                                <h5 class="mt-8-5 text-dark text-[1.25rem] font-medium">Av Test Certified</h5>
+                               <p>May 2023</p>
 
                             </div>
+                            <div class="sm:ms-[3rem] ms-2 text-center mx-3 my-4">
+                                <span class="featur-icon counternum">100</span>
+                                <h5 class="mt-8-5 text-dark text-[1.25rem] font-medium">Av Test Certified</h5>
+                               <p>May 2023</p>
+
+                            </div>
+                            <div class="sm:ms-[3rem] ms-2 text-center mx-3 my-4">
+                                <span class="featur-icon counternum">100</span>
+                                <h5 class="mt-8-5 text-dark text-[1.25rem] font-medium">Av Test Certified</h5>
+                               <p>May 2023</p>
+
+                            </div>
+                            <div class="sm:ms-[3rem] ms-2 text-center mx-3 my-4">
+                                <span class="featur-icon counternum">100</span>
+                                <h5 class="mt-8-5 text-dark text-[1.25rem] font-medium">Av Test Certified</h5>
+                               <p>May 2023</p>
+                            </div>
+                          
+
                         </div>
-                    </div>
-                    <div class="swiper-pagination mt-4"></div>
+                    
                 </div>
+                <div class="swiper-pagination mt-4"></div>
             </div>
-        </section>
+        </div>
+    </section>
         <!-- End:: Section-5 -->
 
 
