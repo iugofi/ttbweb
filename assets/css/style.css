@@ -41303,6 +41303,9 @@ h3.font-semibold.mb-2.text-black.features-one {
         position: relative;
         top: 0px !important;
     }
+    .commericial-banner{
+        background-image: none;
+    }
 
 }
 
