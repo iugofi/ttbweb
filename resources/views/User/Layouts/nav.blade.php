@@ -52,7 +52,7 @@
                         </a>
                         <ul class="slide-menu child1">
                             <li class="slide">
-                                <a href="#statistics" class="side-menu__item">Commercial</a>
+                                <a href="{{route('user.commercial')}}" class="side-menu__item">Commercial</a>
                             </li>
                            
                             <li class="slide has-sub">

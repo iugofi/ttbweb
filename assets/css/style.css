@@ -41251,7 +41251,50 @@ h3.font-semibold.mb-2.text-black.features-one {
     margin: 0 8px 0 0;
     font-size: 24px;
 }
+
 /* End totel-internet-security page */
+
+    /* start:: commericial page css */
+
+    .commericial-banner {
+        top: 0px;
+        position: relative;
+        height: 36rem;
+        width: 100%;
+        background-image: url("/assets/img/Commercial-banner.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+    } 
+    .backimage {
+        background-color: #12d2b31f;
+        width: 75px;
+        margin: 16px 0 auto;
+    }
+    .animate-bounce{
+        animation: bounce 3s infinite;
+    }
+    h6.uppercase {
+        background-color: #12D2B3;
+        padding: 12px 12px;
+        rotate: 269deg;
+        position: relative;
+        right: 85px;
+        bottom: 110px;
+        font-weight: 600;
+        color: #fff;
+    }
+    @keyframes bounce {
+        0%, 100% {
+          transform: translateY(-25%);
+          animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+        }
+        50% {
+          transform: translateY(0);
+          animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+        }
+      }
+
+    /* End:: commericial page css */
 
 @media (min-width: 320px) and (max-width: 767px) {
     div#internet-security .landing-main-image {
@@ -41267,6 +41310,32 @@ h3.font-semibold.mb-2.text-black.features-one {
         background-image: none;
         overflow: hidden;
     }
+
+    /* Start checkout page order css */
+    .order-mobile2 {
+        order: -1;
+    }
+    .order-mobile1 {
+        order: -1;
+    }
+    .content.checkout-pd {
+    margin: 0px !important;
+    }
+    .check-btn {
+        justify-content: center !important;
+        display: grid;
+    }
+     /* End checkout page order css */
+     .text-vartical {
+        position: relative;
+        top: 0px !important;
+    }
+    .commericial-banner{
+        /* background-image: none; */
+        height: 27rem;
+        background-position: unset;
+    }
+
 }
 
 /* start vpn-shild banner css */

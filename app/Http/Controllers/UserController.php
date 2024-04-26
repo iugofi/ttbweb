@@ -140,6 +140,10 @@ class UserController extends Controller
     {
         return view('User.checkout_page');
     }
+    public function commercial_page()
+    {
+        return view('User.commercial');
+    }
 
     public function contactform(Request $request)
     {

@@ -233,6 +233,13 @@
 
         <!-- SIDEBAR -->
 
+
+        {{-- <script>
+             $(document).ready(function() {
+            alert("kulvinder ");
+             });
+        </script> --}}
+
         @extends('User.Layouts.nav')
 
         <!-- END SIDEBAR -->
