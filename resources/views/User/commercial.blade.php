@@ -111,7 +111,7 @@
                     <div class="xl:col-span-3 col-span-12">
                         <div class="box text-center">
                             <div class="box-body">
-                                <div class="mb-2 img-hover">
+                                <div class="mb-2 commericial-img">
                                     <span class="avatar avatar-md">
 
                                         <img src="assets/img/Green-icon-1.png" alt="img" class="!rounded-md">
@@ -127,7 +127,7 @@
                     <div class="xl:col-span-3 col-span-12">
                         <div class="box text-center">
                             <div class="box-body">
-                                <div class="mb-2 img-hover2">
+                                <div class="mb-2 commericial-img">
                                     <span class="avatar avatar-md">
                                         <img src="assets/img/Green-icon-2.png" alt="img" class="!rounded-md">
 
@@ -143,7 +143,7 @@
                     <div class="xl:col-span-3 col-span-12">
                         <div class="box text-center">
                             <div class="box-body">
-                                <div class="mb-2 img-hover3">
+                                <div class="mb-2 commericial-img">
                                     <span class="avatar avatar-md">
                                         <img src="assets/img/Green-icon-3.png" alt="img" class="!rounded-md">
 
@@ -159,7 +159,7 @@
                     <div class="xl:col-span-3 col-span-12">
                         <div class="box text-center">
                             <div class="box-body">
-                                <div class="mb-2 img-hover3">
+                                <div class="mb-2 commericial-img">
                                     <span class="avatar avatar-md">
                                         <img src="assets/img/Green-icon-3.png" alt="img" class="!rounded-md">
 
