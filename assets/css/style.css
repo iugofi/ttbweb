@@ -41299,6 +41299,11 @@ h3.font-semibold.mb-2.text-black.features-one {
         display: grid;
     }
      /* End checkout page order css */
+     .text-vartical {
+        position: relative;
+        top: 0px !important;
+    }
+
 }
 
 /* start vpn-shild banner css */
