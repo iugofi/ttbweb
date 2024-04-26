@@ -65,6 +65,22 @@
                         </p>
 
 
+                        <div class="grid grid-rows-3 grid-flow-col gap-4">
+                            <div class="row-span-3 ...">
+                                <img src="assets/img/Best-Services-Iocn-1.png" class="img-fluid service-icon p-1">
+                            </div>
+                            <div class="col-span-2 ..."><h5 class="dark-text">Best Services</h5></div>
+                            <div class="row-span-2 col-span-2 ..."><p class="text-gray-light">Lorem ipsum dolor sit amet, eiusmod
+                                tempor.</p></div>
+                          </div>
+                          <div class="grid grid-rows-3 grid-flow-col gap-4">
+                            <div class="row-span-3 ..."><img src="assets/img/Best-Services-Iocn-2.png " class="img-fluid service-icon p-1"></div>
+                            <div class="col-span-2 ..."><h5 class="dark-text">Support 24/7</h5></div>
+                            <div class="row-span-2 col-span-2 ..."><p class="text-gray-light">Lorem ipsum dolor sit amet, eiusmod
+                                tempor.</p></div>
+                          </div>
+{{-- 
+
                         
                         <div class="row row-service mt-5" style="display: flex;">
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
@@ -84,7 +100,7 @@
                                     tempor.</p>
                             </div>
 
-                        </div>
+                        </div> --}}
 
 
 
