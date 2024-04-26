@@ -121,7 +121,7 @@
                                 <p class="card-text mb-4">Many desktop publishing packages and web page editors
                                     now use Lorem Ipsum as their default model text.</p>
                                     <hr><br>
-                                    <a href="#" class=" bg-primary text-white">Explore More Us</a>
+                                    <a href="#" class=" text-dark font-bold text-sm">Explore More Us</a>
 
                             </div>
                         </div>
@@ -138,7 +138,8 @@
                                 <h6 class="box-title font-semibold mb-2">Why do we use it?</h6>
                                 <p class="card-text mb-4">Many desktop publishing packages and web page editors
                                     now use Lorem Ipsum as their default model text.</p>
-
+                                <hr><br>
+                                <a href="#" class="text-dark font-bold text-sm">Explore More Us</a>
                             </div>
                         </div>
                     </div>
@@ -154,7 +155,8 @@
                                 <h6 class="box-title font-semibold mb-2">Why do we use it?</h6>
                                 <p class="card-text mb-4">Many desktop publishing packages and web page editors
                                     now use Lorem Ipsum as their default model text.</p>
-
+                                <hr><br>
+                                <a href="#" class="text-dark font-bold text-sm">Explore More Us</a>
                             </div>
                         </div>
                     </div>
@@ -170,7 +172,8 @@
                                 <h6 class="box-title font-semibold mb-2">Why do we use it?</h6>
                                 <p class="card-text mb-4">Many desktop publishing packages and web page editors
                                     now use Lorem Ipsum as their default model text.</p>
-
+                                <hr><br>
+                                <a href="#" class="text-dark font-bold text-sm">Explore More Us</a>
                             </div>
                         </div>
                     </div>
