@@ -41271,7 +41271,7 @@ h3.font-semibold.mb-2.text-black.features-one {
         margin: 16px 0 auto;
     }
     .animate-bounce{
-        animation: bounce 1s infinite;
+        animation: bounce 3s infinite;
     }
     h6.uppercase {
         background-color: #12D2B3;
