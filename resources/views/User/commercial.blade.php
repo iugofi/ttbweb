@@ -107,6 +107,9 @@
             class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
             id="features">
             <div class="container text-center">
+                <h6 class="lg:text-center font-semibold mb-2 text-[2rem]">What We Do</h6>
+                <h1 class="lg:text-center font-semibold mb-2 text-[2rem]">Solutions Coustomers Have
+                    Boilt With Instabase</h1>
                 <div class="grid grid-cols-12 gap-x-6">
                     <div class="xl:col-span-3 col-span-12">
                         <div class="box text-left">
