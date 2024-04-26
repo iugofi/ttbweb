@@ -41273,7 +41273,7 @@ h3.font-semibold.mb-2.text-black.features-one {
     .animate-bounce{
         animation: bounce 1s infinite;
     }
-    .animate-bounce h6.uppercase {
+    .uppercase h6.uppercase {
         background-color: #12D2B3;
         padding: 12px 12px;
         rotate: 269deg;

@@ -54,7 +54,7 @@
                         <div class="lg:text-start !flex items-center lg:justify-start justify-center">
                             <img src="{{ asset('assets/img2/section four.png') }}" alt="" class="img-fluid">
                         </div>
-                        <div class="lg:text-start !flex items-center lg:justify-start justify-center">
+                        <div class="lg:text-start !flex items-center lg:justify-start justify-center animate-bounce">
                            <h6 class="uppercase">25 year of exprience</h6>
                         </div>
                     </div>
