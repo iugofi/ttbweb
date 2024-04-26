@@ -41277,7 +41277,11 @@ h3.font-semibold.mb-2.text-black.features-one {
     }
     .content.checkout-pd {
     margin: 0px !important;
-}
+    }
+    .check-btn {
+        justify-content: center !important;
+        display: grid;
+    }
      /* End checkout page order css */
 }
 
