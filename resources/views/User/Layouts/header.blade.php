@@ -234,11 +234,8 @@
         <!-- SIDEBAR -->
 
         <style>
-             <style>
-        body {
-            overflow: auto;
-            /* Revert back to default */
-        }
+           
+       
 
         .modal {
             display: none;
@@ -312,7 +309,7 @@
             height: 500px;
             width: 500px;
         }
-    </style>
+   
         </style>
 
         <div id="myModal" class="modal">
