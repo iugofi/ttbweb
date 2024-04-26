@@ -56,7 +56,7 @@
                                                 <label class="form-label">Last Name</label>
                                                 <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
                                             </div>
-                                            <div class="md:col-span-12 col-span-12 md:flex md:justify-end">
+                                            <div class="md:col-span-12 col-span-12 md:flex md:justify-end check-btn">
                                                 <button type="submit" class="ti-btn ti-btn-primary-full !mb-0">Sign in</button>
                                             </div>
                                         </div>
