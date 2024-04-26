@@ -20,7 +20,7 @@
                 <div class="container main-banner-container">
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 col-span-12">
-                            <div class="lg:py-[3rem]">
+                            <div class="lg:py-[3rem] text-vartical">
                                 <h1 class="lg:text-start font-semibold mb-2 text-[2rem]">Robust Threat Protection and Security Framework</h1>
                                 <div class="text-[1rem] mb-[1.3rem] text-black-light opacity-[0.9] dark-text">Holisticly procrastinate mission-critical convergence with reliable customer service. Assertively underwhelm idea-sharing for impactful solutions.
                                     Assertively underwhelm idea-sharing for impactful solutions.
