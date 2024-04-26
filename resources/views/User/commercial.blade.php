@@ -110,7 +110,7 @@
             <div class="container text-center">
                 <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">What We Do</span>
                 <h1 class="lg:text-center font-semibold mb-2 text-[2rem]">Solutions Coustomers Have<br>
-                    Boilt With Instabase</h1>
+                    Boilt With Instabase</h1><br>
                 <div class="grid grid-cols-12 gap-x-6"> 
                     <div class="xl:col-span-3 col-span-12">
                         <div class="box text-left">
