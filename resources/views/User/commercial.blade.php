@@ -47,44 +47,48 @@
 
         {{-- Start:: commericial section two --}}
 
-        <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] third-back sect-three">
-            <div class="animated-shape-wrap">
-                <div class="animated-shape-item"></div>
-                <div class="animated-shape-item"></div>
-                <div class="animated-shape-item"></div>
-                <div class="animated-shape-item"></div>
-                <div class="animated-shape-item"></div>
-            </div>
+        <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] ">
             <div class="container main-banner-container">
-                <div class="grid grid-cols-12 gap-6">
-                    <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 col-span-12">
-                        <div class="lg:py-[3rem]">
-                            <h2 class="landing-banner-heading mb-4 opacity-[0.9]"><span class="dark-black">Smarter
-                                    solutions for threats ever-sophisticated </span></h2>
-                            <div class="text-[1rem] mb-[1.75rem] text-black-ligh opacity-[0.9] ">Monotonectally impact
-                                sustainable e-services with front-end infomediaries. Collaboratively network functional
-                                solutions whereas initiatives. Progressively pontificate collaborative "outside the box"
-                                thinking for.</div>
-                            <div class="text-[1rem] mb-[3rem] text-black-ligh opacity-[0.9] ">Monotonectally impact
-                                sustainable e-services with front-end infomediaries. Collaboratively network functional
-                                solutions whereas initiatives. Progressively pontificate collaborative "outside the box"
-                                thinking for.</div>
-                            <a href="index.html" class="m-1 ti-btn ti-btn-primary-full">
-                                Explore More
-                                {{-- <i class="ri-eye-line ms-2 align-middle"></i> --}}
-                            </a>
+                <div class="grid grid-cols-12 justify-center align-center">
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6  customize-image text-center">
+                        <div class="lg:text-start !flex items-center lg:justify-start justify-center">
+                            <img src="{{ asset('assets/img2/section four.png') }}" alt="" class="img-fluid">
                         </div>
                     </div>
-                    <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 col-span-12">
+                    <div
+                        class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 pt-5 pb-0 lg:px-2 !text-start px-12 my-auto">
+                        <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">We Strive To Offer Intelligent Business
+                            Solutions</h4>
+                        <p class=" text-[0.9rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional value with diverse web-readiness. Collaboratively transition wireless customer service without goal-oriented catalysts for change. Collaboratively.
+                        </p>
+                        <p class="text-[0.9rem]  text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional value with diverse web-readiness. Collaboratively transition catalysts for change. Collaboratively.
+                        </p>
+                        <div class="row row-service mt-5" style="display: flex;">
+                            <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
+                                <img src="assets/img/Best-Services-Iocn-1.png" class="img-fluid service-icon p-1">
+                            </div>
+                            <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
+                                <h5 class="dark-text">Best Services</h5>
+                                <p class="text-gray-light">Lorem ipsum dolor sit amet, eiusmod
+                                    tempor.</p>
+                            </div>
+                            <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
+                                <img src="assets/img/Best-Services-Iocn-2.png " class="img-fluid service-icon p-1">
+                            </div>
+                            <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
+                                <h5 class="dark-text">Support 24/7</h5>
+                                <p class="text-gray-light">Lorem ipsum dolor sit amet, eiusmod
+                                    tempor.</p>
+                            </div>
 
-                        <div class="text-end landing-main-image landing-heading-img flex justify-end w-full">
-                            <img src="{{ asset('assets/img/section-two-ttb.gif') }}" alt="" class="img-fluid" width="75%">
                         </div>
-
+                        <div class="action-btns mt-4">
+                            <a href="#" class="ti-btn bg-primary text-white">Explore More</a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div> 
+        </div>
 
         {{-- End:: commericial section two --}}
 
