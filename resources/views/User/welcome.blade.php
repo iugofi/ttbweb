@@ -122,7 +122,7 @@
                 <div class="grid grid-cols-12 gap-6">
                     <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 col-span-12">
                         <div class="lg:py-[3rem]">
-                            <h2 class="landing-banner-heading mb-4 opacity-[0.9]"><span class="dark-black">Smarter
+                            <h2 class="landing-banner-heading mb-4 opacity-[0.9]"><span class="dark-black  font-medium text-3xl">Smarter
                                     solutions for threats ever-sophisticated </span></h2>
                             <div class="text-[1rem] mb-[1.75rem] text-black-ligh opacity-[0.9] ">Monotonectally impact
                                 sustainable e-services with front-end infomediaries. Collaboratively network functional
