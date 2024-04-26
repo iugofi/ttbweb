@@ -11,8 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Author" content="Spruko Technologies Private Limited">
     <meta name="Description" content="@yield('Description')">
-    <meta name="keywords"
-        content="@yield('keywords')">
+    <meta name="keywords" content="@yield('keywords')">
     <link rel="canonical" href="@yield('canonical')" />
 
     <!-- TITLE -->
@@ -49,12 +48,12 @@
 
     {{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> --}}
-  
+
     <script src="{{ asset('assets/js/message.js') }}"></script>
 
 
     {{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"> --}}
- 
+
 
 
 
@@ -124,12 +123,12 @@
                                 id="switcher-primary1">
                         </div>
                         <div class="ti-form-radio switch-select">
-                            <input class="ti-form-radio color-input color-primary-3" type="radio" name="theme-primary"
-                                id="switcher-primary2">
+                            <input class="ti-form-radio color-input color-primary-3" type="radio"
+                                name="theme-primary" id="switcher-primary2">
                         </div>
                         <div class="ti-form-radio switch-select">
-                            <input class="ti-form-radio color-input color-primary-4" type="radio" name="theme-primary"
-                                id="switcher-primary3">
+                            <input class="ti-form-radio color-input color-primary-4" type="radio"
+                                name="theme-primary" id="switcher-primary3">
                         </div>
                         <div class="ti-form-radio switch-select">
                             <input class="ti-form-radio color-input color-primary-5" type="radio"
@@ -167,9 +166,11 @@
                     <!-- Start::header-element -->
                     <div class="header-element">
                         <div class="horizontal-logo">
-                            <a href="{{route('user.index')}}" class="header-logo">
-                                <img src="{{asset('assets/images/brand-logos/favicon.png')}}" alt="logo" class="toggle-logo">
-                                <img src="{{asset('assets/images/brand-logos/favicon.png')}}" alt="logo" class="toggle-dark">
+                            <a href="{{ route('user.index') }}" class="header-logo">
+                                <img src="{{ asset('assets/images/brand-logos/favicon.png') }}" alt="logo"
+                                    class="toggle-logo">
+                                <img src="{{ asset('assets/images/brand-logos/favicon.png') }}" alt="logo"
+                                    class="toggle-dark">
                             </a>
                         </div>
                     </div>
@@ -234,90 +235,85 @@
         <!-- SIDEBAR -->
 
         <style>
-           
-       
+            .modal {
+                display: none;
+                position: fixed;
+                z-index: 1;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                overflow: auto;
+                background-color: rgba(0, 0, 0, 0.5);
+            }
 
-        .modal {
-            display: none;
-            position: fixed;
-            z-index: 1;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            overflow: auto;
-            background-color: rgba(0, 0, 0, 0.5);
-        }
+            .modal-content {
+                background-color: #fefefe;
+                margin: 7% auto;
+                padding: 21px;
+                border: 1px solid #888;
+                width: 92%;
+                max-width: 576px;
+                text-align: center;
+            }
 
-        .modal-content {
-            background-color: #fefefe;
-            margin: 15% auto;
-            padding: 20px;
-            border: 1px solid #888;
-            width: 80%;
-            max-width: 600px;
-            text-align: center;
-        }
+            .close {
+                color: #aaa;
+                float: right;
+                font-size: 28px;
+                font-weight: bold;
+            }
 
-        .close {
-            color: #aaa;
-            float: right;
-            font-size: 28px;
-            font-weight: bold;
-        }
+            .close:hover,
+            .close:focus {
+                color: black;
+                text-decoration: none;
+                cursor: pointer;
+            }
 
-        .close:hover,
-        .close:focus {
-            color: black;
-            text-decoration: none;
-            cursor: pointer;
-        }
+            /* Adjusted image size */
+            .modal-content img {
+                max-width: 100%;
+                height: auto;
+            }
 
-        /* Adjusted image size */
-        .modal-content img {
-            max-width: 100%;
-            height: auto;
-        }
+            /* Text at the bottom */
+            .modal-text {
+                margin-top: 20px;
+                font-size: 16px;
+                color: #555;
+            }
 
-        /* Text at the bottom */
-        .modal-text {
-            margin-top: 20px;
-            font-size: 16px;
-            color: #555;
-        }
+            /* Button style */
+            #openModalBtn {
+                background-color: #4CAF50;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 16px;
+            }
 
-        /* Button style */
-        #openModalBtn {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
-        }
+            #openModalBtn:hover {
+                background-color: #45a049;
+            }
 
-        #openModalBtn:hover {
-            background-color: #45a049;
-        }
+            #openModalBtn:focus {
+                outline: none;
+            }
 
-        #openModalBtn:focus {
-            outline: none;
-        }
-
-        /* img {
+            /* img {
             height: 500px;
             width: 500px;
         } */
-   
         </style>
 
         <div id="myModal" class="modal">
             <!-- Modal content -->
             <div class="modal-content">
                 <span class="close">&times;</span>
-                <img src="assets/images/Untitled design.png"
-                    alt="Image">
+                <img src="assets/images/Untitled design.png" alt="Image">
                 <div class="modal-text">
                     kulvinder ke muh me Lavda.....
                 </div>
@@ -325,17 +321,17 @@
         </div>
 
         <script>
-            $(document).ready(function(){
+            $(document).ready(function() {
                 let modal = document.getElementById("myModal");
                 let span = document.querySelector(".close");
-    
+
                 modal.style.display = "block"; // Display the modal on page load
-    
-                span.addEventListener('click', function () {
+
+                span.addEventListener('click', function() {
                     modal.style.display = "none";
                 });
-    
-                window.addEventListener('click', function (event) {
+
+                window.addEventListener('click', function(event) {
                     if (event.target == modal) {
                         modal.style.display = "none";
                     }
