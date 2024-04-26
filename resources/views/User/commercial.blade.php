@@ -21,7 +21,7 @@
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 col-span-12">
                             <div class="lg:py-[3rem]">
-                                <p class="landing-banner-heading mb-4 opacity-[0.9] pt-5 prevent-select"><span class="first-color">Robust Threat</span> Protection and Security Framework</p>
+                                <h1 class="lg:text-start font-semibold mb-2 text-[2rem]">Robust Threat Protection and Security Framework</h1>
                                 <div class="text-[1rem] mb-[1.3rem] text-black-light opacity-[0.9] dark-text">Holisticly procrastinate mission-critical convergence with reliable customer service. Assertively underwhelm idea-sharing for impactful solutions.
                                     Assertively underwhelm idea-sharing for impactful solutions.
                                 </div>
