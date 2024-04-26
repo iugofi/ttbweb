@@ -41265,8 +41265,10 @@ h3.font-semibold.mb-2.text-black.features-one {
         background-position: center;
         background-repeat: no-repeat;
     } 
-    .backimage{
-        background: #12d2b32e;
+    .backimage {
+        background-color: #12d2b31f;
+        width: 75px;
+        margin: 16px 0 auto;
     }
 
 
