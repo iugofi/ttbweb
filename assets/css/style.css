@@ -41275,6 +41275,9 @@ h3.font-semibold.mb-2.text-black.features-one {
     .order-mobile1 {
         order: -1;
     }
+    .content.checkout-pd {
+    margin: 0px !important;
+}
      /* End checkout page order css */
 }
 
