@@ -120,7 +120,7 @@
                                 <h6 class="box-title font-semibold mb-2">Why do we use it?</h6>
                                 <p class="card-text mb-4">Many desktop publishing packages and web page editors
                                     now use Lorem Ipsum as their default model text.</p>
-                                    <hr>
+                                    <hr><br>
                                     <a href="#" class=" bg-primary text-white">Explore More Us</a>
 
                             </div>
