@@ -41265,6 +41265,9 @@ h3.font-semibold.mb-2.text-black.features-one {
         background-position: center;
         background-repeat: no-repeat;
     } 
+    .backimage{
+        background: #12d2b32e;
+    }
 
 
     /* End:: commericial page css */
