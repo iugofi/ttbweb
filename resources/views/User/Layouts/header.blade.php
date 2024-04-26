@@ -305,10 +305,10 @@
             outline: none;
         }
 
-        img {
+        /* img {
             height: 500px;
             width: 500px;
-        }
+        } */
    
         </style>
 
