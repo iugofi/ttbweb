@@ -41251,22 +41251,8 @@ h3.font-semibold.mb-2.text-black.features-one {
     margin: 0 8px 0 0;
     font-size: 24px;
 }
-/* End totel-internet-security page */
 
-@media (min-width: 320px) and (max-width: 767px) {
-    div#internet-security .landing-main-image {
-        display: block;
-    }
-    #totel-internet-security div#internet-security {
-        height: 54.1rem !important;
-    }
-    #internet-security section.section {
-        padding: 0px !important;
-    }
-    .internet2-section {
-        background-image: none;
-        overflow: hidden;
-    }
+/* End totel-internet-security page */
 
     /* start:: commericial page css */
 
@@ -41283,7 +41269,21 @@ h3.font-semibold.mb-2.text-black.features-one {
 
     /* End:: commericial page css */
 
-    
+@media (min-width: 320px) and (max-width: 767px) {
+    div#internet-security .landing-main-image {
+        display: block;
+    }
+    #totel-internet-security div#internet-security {
+        height: 54.1rem !important;
+    }
+    #internet-security section.section {
+        padding: 0px !important;
+    }
+    .internet2-section {
+        background-image: none;
+        overflow: hidden;
+    }
+
     /* Start checkout page order css */
     .order-mobile2 {
         order: -1;
