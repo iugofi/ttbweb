@@ -79,33 +79,9 @@
                             <div class="row-span-2 col-span-2"><p class="text-gray-light px-6">Lorem ipsum dolor sit amet, eiusmod
                                 tempor. Lorem ipsum dolor sit amet, eiusmod tempor.</p></div>
                           </div>
-{{-- 
-
-                        
-                        <div class="row row-service mt-5" style="display: flex;">
-                            <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
-                                <img src="assets/img/Best-Services-Iocn-1.png" class="img-fluid service-icon p-1">
-                            </div>
-                            <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
-                                <h5 class="dark-text">Best Services</h5>
-                                <p class="text-gray-light">Lorem ipsum dolor sit amet, eiusmod
-                                    tempor.</p>
-                            </div>
-                            <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
-                                <img src="assets/img/Best-Services-Iocn-2.png " class="img-fluid service-icon p-1">
-                            </div>
-                            <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
-                                <h5 class="dark-text">Support 24/7</h5>
-                                <p class="text-gray-light">Lorem ipsum dolor sit amet, eiusmod
-                                    tempor.</p>
-                            </div>
-
-                        </div> --}}
-
-
 
                         <div class="action-btns mt-4">
-                            <a href="#" class="ti-btn bg-primary text-white">Explore More</a>
+                            <a href="#" class="ti-btn bg-primary text-white">Explore More  Us</a>
                         </div>
                     </div>
                 </div>
