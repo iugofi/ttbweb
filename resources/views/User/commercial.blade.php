@@ -54,6 +54,9 @@
                         <div class="lg:text-start !flex items-center lg:justify-start justify-center">
                             <img src="{{ asset('assets/img2/section four.png') }}" alt="" class="img-fluid">
                         </div>
+                        <div class="lg:text-start !flex items-center lg:justify-start justify-center">
+                           <h6 class="uppercase">25 year of exprience</h6>
+                        </div>
                     </div>
                     <div
                         class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 pt-5 pb-0 lg:px-2 !text-start  my-auto">
