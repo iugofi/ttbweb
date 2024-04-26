@@ -5097,29 +5097,6 @@ h6 {
     --tw-bg-opacity: 1;
     background-color: rgb(17 28 67 / var(--tw-bg-opacity));
 }
-.animate-bounce{
-    animation: bounce 1s infinite;
-}
-.animate-bounce h6.uppercase {
-    background-color: #12D2B3;
-    padding: 12px 12px;
-    rotate: 269deg;
-    position: relative;
-    right: 85px;
-    bottom: 110px;
-    font-weight: 600;
-    color: #fff;
-}
-@keyframes bounce {
-    0%, 100% {
-      transform: translateY(-25%);
-      animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
-    }
-    50% {
-      transform: translateY(0);
-      animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
-    }
-  }
 .bg-\[\#12c2c2\] {
     --tw-bg-opacity: 1;
     background-color: rgb(18 194 194 / var(--tw-bg-opacity));
@@ -41293,7 +41270,29 @@ h3.font-semibold.mb-2.text-black.features-one {
         width: 75px;
         margin: 16px 0 auto;
     }
-
+    .animate-bounce{
+        animation: bounce 1s infinite;
+    }
+    .animate-bounce h6.uppercase {
+        background-color: #12D2B3;
+        padding: 12px 12px;
+        rotate: 269deg;
+        position: relative;
+        right: 85px;
+        bottom: 110px;
+        font-weight: 600;
+        color: #fff;
+    }
+    @keyframes bounce {
+        0%, 100% {
+          transform: translateY(-25%);
+          animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+        }
+        50% {
+          transform: translateY(0);
+          animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+        }
+      }
 
     /* End:: commericial page css */
 
