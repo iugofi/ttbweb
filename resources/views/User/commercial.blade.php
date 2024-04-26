@@ -61,7 +61,7 @@
                         </div>
                     </div>
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 pt-5 pb-0 lg:px-2 !text-start  my-auto">
-                        <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">What We Are</span>
+                        <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">What We Do</span>
                         <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">We Provide Web Design
                             With App Development</h4>
                         <p class=" text-[0.9rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
@@ -108,10 +108,10 @@
             class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
             id="features">
             <div class="container text-center">
-                <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">What We Do</span><br>
+                <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">What We Do</span>
                 <h1 class="lg:text-center font-semibold mb-2 text-[2rem]">Solutions Coustomers Have<br>
                     Boilt With Instabase</h1>
-                <div class="grid grid-cols-12 gap-x-6">  
+                <div class="grid grid-cols-12 gap-x-6"> 
                     <div class="xl:col-span-3 col-span-12">
                         <div class="box text-left">
                             <div class="box-body">
@@ -139,8 +139,8 @@
 
                                     </span>
                                 </div>
-                                <h6 class="box-title font-semibold mb-2">Content Touchpoint</h6>
-                                <p class="font-bold mb-2 text-xl">Many desktop publishing packages and web page editors
+                                <h6 class="font-bold mb-2 text-xl">Content Touchpoint</h6>
+                                <p class="card-text mb-4">Many desktop publishing packages and web page editors
                                     now use Lorem Ipsum as their default model text.</p>
                                 <hr><br>
                                 <a href="#" class="text-dark font-bold text-sm">Explore More Us</a>
@@ -156,8 +156,8 @@
 
                                     </span>
                                 </div>
-                                <h6 class="box-title font-semibold mb-2">Faster Resolution</h6>
-                                <p class="font-bold mb-2 text-xl">Many desktop publishing packages and web page editors
+                                <h6 class="font-bold mb-2 text-xl">Faster Resolution</h6>
+                                <p class="card-text mb-4">Many desktop publishing packages and web page editors
                                     now use Lorem Ipsum as their default model text.</p>
                                 <hr><br>
                                 <a href="#" class="text-dark font-bold text-sm">Explore More Us</a>
@@ -173,8 +173,8 @@
 
                                     </span>
                                 </div>
-                                <h6 class="box-title font-semibold mb-2">Support Channels</h6>
-                                <p class="font-bold mb-2 text-xl">Many desktop publishing packages and web page editors
+                                <h6 class="font-bold mb-2 text-xl">Support Channels</h6>
+                                <p class="card-text mb-4">Many desktop publishing packages and web page editors
                                     now use Lorem Ipsum as their default model text.</p>
                                 <hr><br>
                                 <a href="#" class="text-dark font-bold text-sm">Explore More Us</a>
