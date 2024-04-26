@@ -41267,6 +41267,15 @@ h3.font-semibold.mb-2.text-black.features-one {
         background-image: none;
         overflow: hidden;
     }
+
+    /* Start checkout page order css */
+    .order-mobile2 {
+        order: -1;
+    }
+    .order-mobile1 {
+        order: -1;
+    }
+     /* End checkout page order css */
 }
 
 /* start vpn-shild banner css */
