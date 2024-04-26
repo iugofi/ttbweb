@@ -41268,6 +41268,22 @@ h3.font-semibold.mb-2.text-black.features-one {
         overflow: hidden;
     }
 
+    /* start:: commericial page css */
+
+    .commericial-banner {
+        top: 0px;
+        height: 49rem;
+        width: 100%;
+        background-image: url("assets/img/Commercial-banner.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+
+    /* End:: commericial page css */
+
+    
     /* Start checkout page order css */
     .order-mobile2 {
         order: -1;
