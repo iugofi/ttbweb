@@ -5100,6 +5100,16 @@ h6 {
 .animate-bounce{
     animation: bounce 1s infinite;
 }
+.animate-bounce h6.uppercase {
+    background-color: #12D2B3;
+    padding: 12px 12px;
+    rotate: 269deg;
+    position: relative;
+    right: 85px;
+    bottom: 110px;
+    font-weight: 600;
+    color: #fff;
+}
 @keyframes bounce {
     0%, 100% {
       transform: translateY(-25%);
