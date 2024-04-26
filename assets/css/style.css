@@ -41260,11 +41260,9 @@ h3.font-semibold.mb-2.text-black.features-one {
         top: 0px;
         height: 49rem;
         width: 100%;
-        background-image: url("assets/img/Commercial-banner.jpg");
-        background-position: center;
-        background-repeat: no-repeat;
+        background-image: url("/assets/img/Commercial-banner.jpg");
         position: relative;
-    }
+    } 
 
 
     /* End:: commericial page css */
