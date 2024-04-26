@@ -65,9 +65,8 @@
                         </p>
 
 
-
+                        
                         <div class="row row-service mt-5" style="display: flex;">
-                            <div class="bestservice">
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
                                 <img src="assets/img/Best-Services-Iocn-1.png" class="img-fluid service-icon p-1">
                             </div>
@@ -76,8 +75,6 @@
                                 <p class="text-gray-light">Lorem ipsum dolor sit amet, eiusmod
                                     tempor.</p>
                             </div>
-                        </div>
-                        <div class="support24">
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
                                 <img src="assets/img/Best-Services-Iocn-2.png " class="img-fluid service-icon p-1">
                             </div>
@@ -86,7 +83,6 @@
                                 <p class="text-gray-light">Lorem ipsum dolor sit amet, eiusmod
                                     tempor.</p>
                             </div>
-                        </div>
 
                         </div>
 
