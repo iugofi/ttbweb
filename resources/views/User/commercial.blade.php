@@ -114,7 +114,7 @@
                                 <div class="mb-2 commericial-img">
                                     <span class="avatar avatar-md">
 
-                                        <img src="assets/img/Omniroutes-Lifting.png" alt="img" class="!rounded-md">
+                                        <img src="assets/img/Omniroutes-Lifting.png" alt="img" class="!rounded-md" style="max-width: 60px;height: 60px;">
                                     </span>
                                 </div>
                                 <h6 class="box-title font-semibold mb-2">Why do we use it?</h6>
@@ -129,23 +129,7 @@
                             <div class="box-body">
                                 <div class="mb-2 commericial-img">
                                     <span class="avatar avatar-md">
-                                        <img src="assets/img/Content-Touchpoint.png" alt="img" class="!rounded-md">
-
-                                    </span>
-                                </div>
-                                <h6 class="box-title font-semibold mb-2">Why do we use it?</h6>
-                                <p class="card-text mb-4">Many desktop publishing packages and web page editors
-                                    now use Lorem Ipsum as their default model text.</p>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="xl:col-span-3 col-span-12">
-                        <div class="box text-left">
-                            <div class="box-body">
-                                <div class="mb-2 commericial-img">
-                                    <span class="avatar avatar-md">
-                                        <img src="assets/img/Faster-Resolution.png" alt="img" class="!rounded-md">
+                                        <img src="assets/img/Content-Touchpoint.png" alt="img" class="!rounded-md" style="max-width: 60px;height: 60px;">
 
                                     </span>
                                 </div>
@@ -161,7 +145,23 @@
                             <div class="box-body">
                                 <div class="mb-2 commericial-img">
                                     <span class="avatar avatar-md">
-                                        <img src="assets/img/Support-Channels.png" alt="img" class="!rounded-md">
+                                        <img src="assets/img/Faster-Resolution.png" alt="img" class="!rounded-md" style="max-width: 60px;height: 60px;">
+
+                                    </span>
+                                </div>
+                                <h6 class="box-title font-semibold mb-2">Why do we use it?</h6>
+                                <p class="card-text mb-4">Many desktop publishing packages and web page editors
+                                    now use Lorem Ipsum as their default model text.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="xl:col-span-3 col-span-12">
+                        <div class="box text-left">
+                            <div class="box-body">
+                                <div class="mb-2 commericial-img">
+                                    <span class="avatar avatar-md">
+                                        <img src="assets/img/Support-Channels.png" alt="img" class="!rounded-md" style="max-width: 60px;height: 60px;">
 
                                     </span>
                                 </div>
