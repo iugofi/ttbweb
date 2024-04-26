@@ -23,42 +23,51 @@
                             <div class="lg:py-[3rem]">
                                 <h2 class="landing-banner-heading mb-4 opacity-[0.9]">Lorem ipsum
                                     dolor sit amet. Lorem ipsum dolor sit amet consectetur.</h2>
-                                <div class="text-[1rem] mb-[1rem] text-black opacity-[0.9] dark-text" style="padding-right:40px;">ynex - Now you can use
+                                <div class="text-[1rem] mb-[1rem] text-black opacity-[0.9] dark-text"
+                                    style="padding-right:40px;">ynex - Now you can use
                                     this
                                     admin template to design stunning dashboards that will wow your target viewers or users
                                     to no end. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet.</div>
 
-                                <a href="index.html" class="m-1 ti-btn ti-btn-primary-full mt-6"> 
+                                <a href="index.html" class="m-1 ti-btn ti-btn-primary-full mt-6">
                                     View Demos
-                                    <i class="ri-eye-line ms-2 align-middle"></i> 
+                                    <i class="ri-eye-line ms-2 align-middle"></i>
                                 </a>
                             </div>
                         </div>
                         <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 col-span-12">
 
                             <div class="content-img-wrap">
-                                <img class="fancy-radius-1 hero-img-width img-custom-width img-fluid gray-light-bg z--1" src="{{ asset('assets/img/Banner-Img-4.png') }}" alt="modern desk">
+                                <img class="fancy-radius-1 hero-img-width img-custom-width img-fluid gray-light-bg z--1"
+                                    src="{{ asset('assets/img/Banner-Img-4.png') }}" alt="modern desk">
                                 <div class="position-absolute dot-shape">
                                     <img src="assets/img/dot-shape.png" alt="appdash">
                                 </div>
                                 <div class="animation-item d-none d-md-block d-lg-block">
                                     <div class="position-absolute rounded-custom d-flex bg-white hero-animated-card-4">
-                                        <img src="assets/img/widget-img.jpg" alt="widget" class="rounded-custom img-fluid">
+                                        <img src="assets/img/widget-img.jpg" alt="widget"
+                                            class="rounded-custom img-fluid">
                                     </div>
-                                    <div class="position-absolute p-4 w-75 rounded-custom d-flex bg-white hero-animated-card-1">
-                                        <p class="gr-text-11 mb-0 text-mirage-2 dark-text ttst">“A better way to manage your sales, team, clients.”</p>
+                                    <div
+                                        class="position-absolute p-4 w-75 rounded-custom d-flex bg-white hero-animated-card-1">
+                                        <p class="gr-text-11 mb-0 text-mirage-2 dark-text ttst">“A better way to manage your
+                                            sales, team, clients.”</p>
                                         <div class="small-card-img ml-3">
-                                            <img src="assets/img/client/3.jpg" alt="" width="80px" class="rounded-circle img-fluid">
+                                            <img src="assets/img/client/3.jpg" alt="" width="80px"
+                                                class="rounded-circle img-fluid">
                                         </div>
                                     </div>
                                     <div class="position-absolute hero-animated-card-3">
-                                        <img src="assets/img/shape-1-1.png" alt="shape"> 
+                                        <img src="assets/img/shape-1-1.png" alt="shape">
                                     </div>
-                                    <div class="position-absolute p-4 w-75 rounded-custom d-flex secondary-bg hero-animated-card-2">
+                                    <div
+                                        class="position-absolute p-4 w-75 rounded-custom d-flex secondary-bg hero-animated-card-2">
                                         <div class="small-card-img mr-3 text-white">
-                                            <img src="assets/img/client/1.jpg" alt="" width="80px" class="rounded-circle img-fluid">
+                                            <img src="assets/img/client/1.jpg" alt="" width="80px"
+                                                class="rounded-circle img-fluid">
                                         </div>
-                                        <p class="gr-text-11 mb-0 text-white ttst" style="padding:0 10px;">“Ensuring the best return on investment for business”</p>
+                                        <p class="gr-text-11 mb-0 text-white ttst" style="padding:0 10px;">“Ensuring the
+                                            best return on investment for business”</p>
                                     </div>
                                 </div>
                             </div>
@@ -67,7 +76,7 @@
                                 <img src="{{ asset('assets/img/Banner-Img-4.png') }}" alt="" class="img-fluid">
                             </div> --}}
 
-                        </div> 
+                        </div>
                     </div>
                 </div>
             </section>
@@ -195,7 +204,8 @@
                                             <ul class="list-none mb-0">
                                                 <li class="flex items-center mb-4">
                                                     <span class="me-2">
-                                                        <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                                                        <i
+                                                            class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
                                                     </span>
                                                     <span>
                                                         <strong class="me-1">5 Free</strong>Websites
@@ -203,7 +213,8 @@
                                                 </li>
                                                 <li class="flex items-center mb-4">
                                                     <span class="me-2">
-                                                        <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                                                        <i
+                                                            class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
                                                     </span>
                                                     <span>
                                                         <strong class="me-1">5 GB</strong>Hard disk storage
@@ -211,7 +222,8 @@
                                                 </li>
                                                 <li class="flex items-center mb-4">
                                                     <span class="me-2">
-                                                        <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                                                        <i
+                                                            class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
                                                     </span>
                                                     <span>
                                                         <strong class="me-1">2 Years</strong>Email support
@@ -219,7 +231,8 @@
                                                 </li>
                                                 <li class="flex items-center mb-4">
                                                     <span class="me-2">
-                                                        <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                                                        <i
+                                                            class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
                                                     </span>
                                                     <span>
                                                         <strong class="me-1">5</strong>Licenses
@@ -248,7 +261,7 @@
                                                         Plan</button>
                                                 </li>
                                             </ul>
-                                        </div> 
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -574,7 +587,8 @@
                                             class="avatar avatar-rounded me-2 !mb-0">
                                         <div class="my-auto">
                                             <div class="text-[.9375rem] font-semibold">30-Day Mony-back
-                                                <br>Guarantee</span></div>
+                                                <br>Guarantee</span>
+                                            </div>
 
                                         </div>
 
