@@ -121,7 +121,7 @@
                                         <img src="assets/img/Omniroutes-Lifting.png" alt="img" class="!rounded-md" style="max-width: 60px;height: 60px;">
                                     </span>
                                 </div>
-                                <h6 class="box-title font-semibold mb-2">Why do we use it?</h6>
+                                <h6 class="font-bold mb-2 text-xl">Omniroutes Lifting</h6>
                                 <p class="card-text mb-4">Many desktop publishing packages and web page editors
                                     now use Lorem Ipsum as their default model text.</p>
                                     <hr><br>
@@ -139,8 +139,8 @@
 
                                     </span>
                                 </div>
-                                <h6 class="box-title font-semibold mb-2">Why do we use it?</h6>
-                                <p class="card-text mb-4">Many desktop publishing packages and web page editors
+                                <h6 class="box-title font-semibold mb-2">Content Touchpoint</h6>
+                                <p class="font-bold mb-2 text-xl">Many desktop publishing packages and web page editors
                                     now use Lorem Ipsum as their default model text.</p>
                                 <hr><br>
                                 <a href="#" class="text-dark font-bold text-sm">Explore More Us</a>
@@ -156,8 +156,8 @@
 
                                     </span>
                                 </div>
-                                <h6 class="box-title font-semibold mb-2">Why do we use it?</h6>
-                                <p class="card-text mb-4">Many desktop publishing packages and web page editors
+                                <h6 class="box-title font-semibold mb-2">Faster Resolution</h6>
+                                <p class="font-bold mb-2 text-xl">Many desktop publishing packages and web page editors
                                     now use Lorem Ipsum as their default model text.</p>
                                 <hr><br>
                                 <a href="#" class="text-dark font-bold text-sm">Explore More Us</a>
@@ -173,8 +173,8 @@
 
                                     </span>
                                 </div>
-                                <h6 class="box-title font-semibold mb-2">Why do we use it?</h6>
-                                <p class="card-text mb-4">Many desktop publishing packages and web page editors
+                                <h6 class="box-title font-semibold mb-2">Support Channels</h6>
+                                <p class="font-bold mb-2 text-xl">Many desktop publishing packages and web page editors
                                     now use Lorem Ipsum as their default model text.</p>
                                 <hr><br>
                                 <a href="#" class="text-dark font-bold text-sm">Explore More Us</a>
