@@ -61,6 +61,7 @@
                         </div>
                     </div>
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 pt-5 pb-0 lg:px-2 !text-start  my-auto">
+                        <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">What We Are</span>
                         <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">We Provide Web Design
                             With App Development</h4>
                         <p class=" text-[0.9rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
@@ -107,10 +108,10 @@
             class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
             id="features">
             <div class="container text-center">
-                <h6 class="lg:text-center font-semibold mb-2 text-[2rem]">What We Do</h6>
-                <h1 class="lg:text-center font-semibold mb-2 text-[2rem]">Solutions Coustomers Have
+                <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">What We Do</span><br>
+                <h1 class="lg:text-center font-semibold mb-2 text-[2rem]">Solutions Coustomers Have<br>
                     Boilt With Instabase</h1>
-                <div class="grid grid-cols-12 gap-x-6">
+                <div class="grid grid-cols-12 gap-x-6">  
                     <div class="xl:col-span-3 col-span-12">
                         <div class="box text-left">
                             <div class="box-body">
