@@ -56,10 +56,14 @@ Route::get('/checkout_page', [UserController::class, 'checkout_page'])->name('us
 //ttb vpn-shield
 Route::get('/vpn-shield', [UserController::class, 'vpnshield'])->name('user.vpnshield');
 
+
+
 //ttb total internet kulvinder 22-04-2024
 Route::get('/totel-internet-security', [UserController::class, 'totalinternet'])->name('user.totalinternet');
 
 
+//ttb commercial
+Route::get('/commercial', [UserController::class, 'commercial_page'])->name('user.commercial');
 
 
 
