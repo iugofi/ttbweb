@@ -17,7 +17,7 @@
 
 
 <div class="content">
-    <div class="main-content">
+    <div class="main-content checkout-pd">
         <div class="container my-[3rem]">
             <div class="grid grid-cols-12 gap-6 mt-6">
                 <div class="xl:col-span-12 col-span-12 order-mobile1">
