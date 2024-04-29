@@ -219,6 +219,7 @@
                                         <p class="card-text mb-4">Engineering</p>
                                     </div>
                             </div>
+                        </div>
                     </div>
                     <div class="xl:col-span-4 col-span-12">
                         <div class="box">
