@@ -41354,7 +41354,9 @@ img.img-fluid.service-icon {
     background-color: #12D2B3;
     color: #fff;
 }
-
+.box-bm:hover {
+    border-bottom: 3px solid #12D2B3;
+}
 
 
     /* End:: commericial page css */
