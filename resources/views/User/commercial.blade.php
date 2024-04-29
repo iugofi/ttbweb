@@ -240,18 +240,13 @@
             <div class="container main-banner-container">
                 <div class="grid grid-cols-12 gap-6">
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
-                        <div class="lg:py-[3rem]">
+                        <div class="txt">
                             <p class="landing-banner-heading mb-4 opacity-[0.9]">Lorem ipsum dolor sit amet.</p>
                             <h2 class="landing-banner-heading mb-4 opacity-[0.9]"><span>What Our Client Say About
                                     Apdash</h2>
                             <div class="text-[1rem] mb-[3rem] !text-dark opacity-[0.9] ">Collaboratively actualize
                                 excellent schemas without effective <br> models. Synergistically engineer functionalized
                                 applications rather <br> than backend e-commerce.</div>
-
-                            <a href="index.html" class="m-1 ti-btn ti-btn-primary-full">
-                                Read More
-                                <i class="ri-eye-line ms-2 align-middle"></i>
-                            </a>
                         </div>
                     </div>
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
@@ -284,9 +279,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
+                    <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 col-span-12">
                         <div class="grid grid-cols-12 gap-6">
-                            <div class="xl:col-span-6 col-span-12">
+                            <div class="xl:col-span-3 col-span-12">
                                 <div class="box">
 
                                     <div class="box-body">
@@ -299,7 +294,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="xl:col-span-6 col-span-12">
+                            <div class="xl:col-span-3 col-span-12">
                                 <div class="box">
 
                                     <div class="box-body">
@@ -312,7 +307,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="xl:col-span-6 col-span-12">
+                            <div class="xl:col-span-3 col-span-12">
                                 <div class="box">
                                     <div class="box-body">
                                         <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
@@ -324,7 +319,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="xl:col-span-6 col-span-12">
+                            <div class="xl:col-span-3 col-span-12">
                                 <div class="box ">
                                     <div class="box-body">
                                         <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
