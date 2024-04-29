@@ -37,9 +37,9 @@
 
                             <div class="text-end landing-main-image landing-heading-img flex justify-end w-full">
                             </div>
-
+{{-- 
                             <div class="dark-shap-two"><img src="{{ asset('assets/img/Shape-2.png') }}" alt=""
-                                    class="img-fluid"></div>
+                                    class="img-fluid"></div> --}}
                         </div>
                     </div>
                 </div>
