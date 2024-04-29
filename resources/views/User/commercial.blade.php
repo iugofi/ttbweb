@@ -198,7 +198,7 @@
                     Boilt With Instabase</h1><br>
                 <div class="grid grid-cols-12 gap-x-6">
                     <div class="xl:col-span-4 col-span-12">
-                        <div class="box">
+                        <div class="boxs">
                             <div class="box-body bg-img1">
                             </div>
                             <div class="box-bottom">
@@ -208,7 +208,7 @@
                         </div>
                     </div>
                     <div class="xl:col-span-4 col-span-12">
-                        <div class="box">
+                        <div class="boxs">
                             <div class="box-body bg-img2">
                             </div>
                             <div class="box-bottom">
@@ -218,7 +218,7 @@
                         </div>
                     </div>
                     <div class="xl:col-span-4 col-span-12">
-                        <div class="box">
+                        <div class="boxs">
                             <div class="box-body bg-img3">
                             </div>
                             <div class="box-bottom">
