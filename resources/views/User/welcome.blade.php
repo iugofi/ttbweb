@@ -160,7 +160,7 @@
                     </div>
                     <div
                         class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 pt-5 pb-0 lg:px-2 !text-start px-12 my-auto">
-                        <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">We Strive To Offer Intelligent Business
+                        <h4 class="lg:text-start font-semibold mb-2 text-[2rem] ttb-heading">We Strive To Offer Intelligent Business
                             Solutions</h4>
                         <p class=" text-[0.9rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional value with diverse web-readiness. Collaboratively transition wireless customer service without goal-oriented catalysts for change. Collaboratively.
                         </p>
@@ -200,7 +200,7 @@
             <div class="container text-center relative">
                 {{-- <p class="text-[0.75rem] font-semibold text-success mb-1"><span
                     class="landing-section-heading">Download Our Apps</span></p> --}}
-                <h3 class="font-semibold mb-2 text-defaulttextcolor dark:text-defaulttextcolor/70  text-3xl">Download Our Apps</h3>
+                <h3 class="font-semibold mb-2 text-defaulttextcolor dark:text-defaulttextcolor/70  text-3xl ttb-heading">Download Our Apps</h3>
                 <div class="">
                     <div class="xl:col-span-7 col-span-12">
                         <p class="text-[#8c9097] dark:text-white/50 text-[0.9375rem] mb-12 font-normal">Start working with
@@ -246,7 +246,7 @@
         <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] " id="about">
             <div class="container text-center">
          
-                <h3 class="font-semibold mb-2 text-black features-one">TTB Features
+                <h3 class="font-semibold mb-2 text-black features-one ttb-heading">TTB Features
                 </h3>
                 <div class="grid grid-cols-12 justify-center max-w-66xl mx-auto  pt-5 ">
                     <div class="col-span-12">
@@ -342,7 +342,7 @@
         id="features">
         <div class="container text-center">
             {{-- <h3 class="font-semibold mb-2 !text-dark">Features Used in YNEX</h3> --}}
-            <h2 class="text-center text-black font-semibold	text-4xl">TTB #1 <span class="text-color-ttb">Antivirus </span><br>Four Times In A Row.</h2>
+            <h2 class="text-center text-black font-semibold	text-4xl ttb-heading">TTB #1 <span class="text-color-ttb">Antivirus </span><br>Four Times In A Row.</h2>
             <div>
                 {{-- <div class="xl:col-span-7 col-span-12">
                     <p class="text-dark opacity-[0.8] text-[0.9375rem] mb-4 font-normal">Some of the reviews our
@@ -395,7 +395,7 @@
             <div class="container text-center">
                 {{-- <p class="text-[0.75rem] font-semibold text-success mb-1"><span
                         class="landing-section-heading">F.A.Q</span></p> --}}
-                <h3 class="font-medium text-4xl mb-2">Frequently Asked Queries</h3>
+                <h3 class="font-medium text-4xl mb-2 ttb-heading">Frequently Asked Queries</h3>
                 <div class="grid grid-cols-12 justify-center">
                     <div class="col-span-12">
                         <p class="text-[#8c9097] dark:text-white/50 text-[0.9375rem] mb-12 font-normal">Efficiently productivate reliable paradigms before ubiquitous models. Continually utilize frictionless expertise whereas tactical relationships. Still have questions? Contact us</p>
