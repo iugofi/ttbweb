@@ -30,7 +30,7 @@
                 <div class="grid grid-cols-12 gap-x-6">
                     <div class="xl:col-span-12 col-span-12">
                         <div class="grid grid-cols-12 gap-x-6">
-                            <div class="xl:col-span-6 xxl:col-span-6 col-span-12">
+                            <div class="xl:col-span-6 xxl:col-span-8 col-span-12">
                                 <div class="grid grid-cols-12 gap-x-6">
                                     @foreach ($blogPost as $bloglist)
                                         <div
