@@ -193,9 +193,9 @@
             <h1 class="lg:text-center font-semibold mb-2 text-[2rem]">Solutions Coustomers Have<br>
                 Boilt With Instabase</h1><br>
             <div class="grid grid-cols-12 gap-x-6"> 
-                <div class="xl:col-span-4 col-span-12 bg-[url('assets/img/Omniroutes-Lifting.png')]">
-                    <div class="box text-center">
-                        <div class="box-body">
+                <div class="xl:col-span-4 col-span-12">
+                    <div class="box">
+                        <div class="box-body bg-img">
                             <div class="mb-2">
                             </div>
                             <h6 class="font-bold mb-2 text-xl">Omniroutes Lifting</h6>
@@ -208,8 +208,8 @@
                     </div>
                 </div>
                 <div class="xl:col-span-4 col-span-12">
-                    <div class="box text-center">
-                        <div class="box-body">
+                    <div class="box">
+                        <div class="box-body bg-img">
                             <div class="mb-2">
                                 <span class="avatar avatar-md">
                                     <img src="assets/img/Content-Touchpoint.png" alt="img" class="!rounded-md" style="max-width: 60px;height: 60px;">
@@ -225,8 +225,8 @@
                     </div>
                 </div>
                 <div class="xl:col-span-4 col-span-12">
-                    <div class="box text-center">
-                        <div class="box-body">
+                    <div class="box">
+                        <div class="box-body bg-img">
                             <div class="mb-2">
                                 <span class="avatar avatar-md">
                                     <img src="assets/img/Faster-Resolution.png" alt="img" class="!rounded-md" style="max-width: 60px;height: 60px;">
