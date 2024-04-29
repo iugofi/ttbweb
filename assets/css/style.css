@@ -41322,6 +41322,7 @@ img.img-fluid.service-icon {
     background-repeat: no-repeat;
     background-size: cover;
     height: 385px;
+    border-radius: 12px;
 }
 .box-body.bg-img2 {
     background-image: url("/assets/img/Web-Development.png");
@@ -41329,6 +41330,7 @@ img.img-fluid.service-icon {
     background-repeat: no-repeat;
     background-size: cover;
     height: 385px;
+    border-radius: 12px;
 }
 .box-body.bg-img3 {
     background-image: url("/assets/img/IT-Solutions-Consultations.png");
@@ -41336,6 +41338,7 @@ img.img-fluid.service-icon {
     background-repeat: no-repeat;
     background-size: cover;
     height: 385px;
+    border-radius: 12px;
 }
 .box-bottom {
     width: 70%;

@@ -198,45 +198,39 @@
                     Boilt With Instabase</h1><br>
                 <div class="grid grid-cols-12 gap-x-6">
                     <div class="xl:col-span-4 col-span-12">
-                        <div class="box">
-                            <div class="box">
-                                <div class="box-body bg-img1">
-                                </div>
-                                    <div class="box-bottom">
-                                        <h6 class="font-bold mb-2 pt-2 text-xl">Omniroutes Lifting</h6>
-                                        <p class="card-text mb-4">Engineering</p>
-                                    </div>
+                        <div class="boxs">
+                            <div class="box-body bg-img1">
+                            </div>
+                            <div class="box-bottom">
+                                <h6 class="font-bold mb-2 pt-2 text-xl">Omniroutes Lifting</h6>
+                                <p class="card-text mb-4">Engineering</p>
                             </div>
                         </div>
                     </div>
                     <div class="xl:col-span-4 col-span-12">
-                        <div class="box">
-                            <div class="box">
-                                <div class="box-body bg-img2">
-                                </div>
-                                    <div class="box-bottom">
-                                        <h6 class="font-bold mb-2 pt-2 text-xl">Omniroutes Lifting</h6>
-                                        <p class="card-text mb-4">Engineering</p>
-                                    </div>
+                        <div class="boxs">
+                            <div class="box-body bg-img2">
+                            </div>
+                            <div class="box-bottom">
+                                <h6 class="font-bold mb-2 pt-2 text-xl">Omniroutes Lifting</h6>
+                                <p class="card-text mb-4">Engineering</p>
                             </div>
                         </div>
                     </div>
                     <div class="xl:col-span-4 col-span-12">
-                        <div class="box">
-                            <div class="box">
-                                <div class="box-body bg-img3">
-                                </div>
-                                    <div class="box-bottom">
-                                        <h6 class="font-bold mb-2 pt-2 text-xl">Omniroutes Lifting</h6>
-                                        <p class="card-text mb-4">Engineering</p>
-                                    </div>
+                        <div class="boxs">
+                            <div class="box-body bg-img3">
+                            </div>
+                            <div class="box-bottom">
+                                <h6 class="font-bold mb-2 pt-2 text-xl">Omniroutes Lifting</h6>
+                                <p class="card-text mb-4">Engineering</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section> 
-         
+        </section>
+ 
         {{-- End:: commericial section forth --}}
 
 
