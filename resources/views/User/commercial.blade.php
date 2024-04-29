@@ -212,7 +212,7 @@
                             </div>
                             <div class="box-bottom">
                                 <h6 class="font-bold mb-2 pt-2 text-xl" style="color: #000;">Omniroutes Lifting</h6>
-                                <p class="card-text mb-4" style="color: #000;" font-size:16px;>Engineering</p>
+                                <p class="card-text mb-4" style="color: #000; font-size:16px;">Engineering</p>
                             </div>
                         </div>
                     </div>
