@@ -54,7 +54,7 @@
                     class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6  customize-image text-center">
                         <div class="lg:text-start !flex items-center lg:justify-start justify-center">
-                            <img src="{{ asset('assets/img2/Second-Section-img.png') }}" alt="" class="img-fluid">
+                            <img src="{{ asset('assets/img/Second-Section-img.png') }}" alt="" class="img-fluid">
                         </div>
                         <div class="lg:text-start !flex items-center lg:justify-start justify-center animate-bounce">
                             <h6 class="uppercase">25 year of exprience</h6>
