@@ -655,7 +655,7 @@
             </div>
             <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
 
-                <div class="box custom-box slider-box">
+                <div class="box custom-box slider-box box-review">
                     <div class="box-body">
                         <div class="swiper  custom-pagination">
                             <div class="swiper-wrapper">
