@@ -11,7 +11,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Author" content="Spruko Technologies Private Limited">
     <meta name="Description" content="@yield('Description')">
-    <meta name="keywords" content="@yield('keywords')">
+    <meta name="keywords"
+        content="@yield('keywords')">
     <link rel="canonical" href="@yield('canonical')" />
 
     <!-- TITLE -->
@@ -48,12 +49,12 @@
 
     {{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> --}}
-
+  
     <script src="{{ asset('assets/js/message.js') }}"></script>
 
 
     {{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"> --}}
-
+ 
 
 
 
@@ -123,12 +124,12 @@
                                 id="switcher-primary1">
                         </div>
                         <div class="ti-form-radio switch-select">
-                            <input class="ti-form-radio color-input color-primary-3" type="radio"
-                                name="theme-primary" id="switcher-primary2">
+                            <input class="ti-form-radio color-input color-primary-3" type="radio" name="theme-primary"
+                                id="switcher-primary2">
                         </div>
                         <div class="ti-form-radio switch-select">
-                            <input class="ti-form-radio color-input color-primary-4" type="radio"
-                                name="theme-primary" id="switcher-primary3">
+                            <input class="ti-form-radio color-input color-primary-4" type="radio" name="theme-primary"
+                                id="switcher-primary3">
                         </div>
                         <div class="ti-form-radio switch-select">
                             <input class="ti-form-radio color-input color-primary-5" type="radio"
@@ -166,11 +167,9 @@
                     <!-- Start::header-element -->
                     <div class="header-element">
                         <div class="horizontal-logo">
-                            <a href="{{ route('user.index') }}" class="header-logo">
-                                <img src="{{ asset('assets/images/brand-logos/favicon.png') }}" alt="logo"
-                                    class="toggle-logo">
-                                <img src="{{ asset('assets/images/brand-logos/favicon.png') }}" alt="logo"
-                                    class="toggle-dark">
+                            <a href="{{route('user.index')}}" class="header-logo">
+                                <img src="{{asset('assets/images/brand-logos/favicon.png')}}" alt="logo" class="toggle-logo">
+                                <img src="{{asset('assets/images/brand-logos/favicon.png')}}" alt="logo" class="toggle-dark">
                             </a>
                         </div>
                     </div>
@@ -233,9 +232,9 @@
         <!-- END HEADER -->
 
         <!-- SIDEBAR -->
+{{-- 
 
-
-        {{-- <script>
+        <script>
              $(document).ready(function() {
             alert("Neeraj and Kunal ");
              });
@@ -243,20 +242,6 @@
         </script> --}}
 
 
-        {{-- <a href="#" class='click_1'><img src="assets/img/wedding-night.jpg" /></a> --}}
-        <h4><a href="#" class='click_1'>title link 2</a></h4>
-        </li>
-
-        <script>
-            $('.click_1').click(function() {
-                        var fullPath = $(this).children("img:first").attr('src');
-                        if (typeof fullPath === "undefined") {
-                            // this one does not work...
-                            var fullPath = $(this).prev("img").children("img:first").attr('src');
-                            console.log(fullPath);
-                        }
-                    }
-        </script>
         @extends('User.Layouts.nav')
 
         <!-- END SIDEBAR -->
