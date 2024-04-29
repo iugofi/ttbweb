@@ -41333,6 +41333,21 @@ h3.font-semibold.mb-2.text-black.features-one {
     background-size: cover;
     height: 385px;
 }
+.box-bottom {
+    width: 70%;
+    margin: auto;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 11%) !important;
+    position: relative;
+    bottom: 42px;
+    background: #fff;
+    border-radius: 4px;
+    border-bottom: 3px solid #12D2B4;
+}
+.box-bottom:hover {
+    background-color: #12D2B3;
+    color: #fff;
+}
+
 
 
     /* End:: commericial page css */
