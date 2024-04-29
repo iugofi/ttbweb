@@ -232,7 +232,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> 
  
         {{-- End:: commericial section forth --}}
 
