@@ -282,6 +282,36 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
+                        <div class="grid grid-cols-12 gap-6">
+                            <div class="xl:col-span-6 col-span-12">
+                                <div class="box">
+
+                                    <div class="box-body">
+                                        <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
+                                            <img src="assets/img/Icon-1.png" alt="img" class="!rounded-md">
+                                        </span>
+                                        <h6 class="box-title font-semibold">Special title treatment</h6>
+                                        <p class="card-text mb-4">With supporting text below as a natural lead-in to
+                                            additional content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="xl:col-span-6 col-span-12">
+                                <div class="box">
+
+                                    <div class="box-body">
+                                        <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
+                                            <img src="assets/img/Icon-2.png" alt="img" class="!rounded-md">
+                                        </span>
+                                        <h6 class="box-title font-semibold">Special title treatment</h6>
+                                        <p class="card-text mb-4">With supporting text below as a natural lead-in to
+                                            additional content.</p>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="xl:col-span-6 col-span-12">
                                 <div class="box">
                                     <div class="box-body">
