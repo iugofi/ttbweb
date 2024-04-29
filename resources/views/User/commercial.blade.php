@@ -21,7 +21,7 @@
                             <div class="lg:py-[3rem] text-vartical"
                                 style="position: relative; top: 7rem; padding-right: 2rem;">
                                 <h1 class="lg:text-start font-semibold mb-2 text-[2rem]" style="color: #000;">Robust Threat Protection and
-                                    Security Framework</h1>
+                                    Security Framework</h1> 
                                 <div class="text-[1rem] mb-[1.3rem] text-black-light opacity-[0.9] dark-text" style="color: #000;">Holisticly
                                     procrastinate mission-critical convergence with reliable customer service. Assertively
                                     underwhelm idea-sharing for impactful solutions.
