@@ -41293,6 +41293,13 @@ h3.font-semibold.mb-2.text-black.features-one {
           animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
         }
       }
+      .text-hover .box-body:hover h6, a {
+        color: #12D2B3;
+    }
+    .text-hover .box-body:hover a {
+        color: #12D2B3;
+    }
+    
 
     /* End:: commericial page css */
 
