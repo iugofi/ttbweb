@@ -110,21 +110,22 @@
                 <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">What We Do</span>
                 <h1 class="lg:text-center font-semibold mb-2 text-[2rem]">Solutions Coustomers Have<br>
                     Boilt With Instabase</h1><br>
-                <div class="grid grid-cols-12 gap-x-6"> 
+                <div class="grid grid-cols-12 gap-x-6">
                     <div class="xl:col-span-3 col-span-12">
                         <div class="box text-left text-hover">
                             <div class="box-body">
                                 <div class="mb-2 commericial-img">
                                     <span class="avatar avatar-md">
 
-                                        <img src="assets/img/Omniroutes-Lifting.png" alt="img" class="!rounded-md" style="max-width: 60px;height: 60px;">
+                                        <img src="assets/img/Omniroutes-Lifting.png" alt="img" class="!rounded-md"
+                                            style="max-width: 60px;height: 60px;">
                                     </span>
                                 </div>
                                 <h6 class="font-bold mb-2 text-xl">Omniroutes Lifting</h6>
                                 <p class="card-text mb-4">Many desktop publishing packages and web page editors
                                     now use Lorem Ipsum as their default model text.</p>
-                                    <hr><br>
-                                    <a href="#" class=" text-dark font-bold text-sm">Explore More Us</a>
+                                <hr><br>
+                                <a href="#" class=" text-dark font-bold text-sm">Explore More Us</a>
 
                             </div>
                         </div>
@@ -134,7 +135,8 @@
                             <div class="box-body">
                                 <div class="mb-2 commericial-img">
                                     <span class="avatar avatar-md">
-                                        <img src="assets/img/Content-Touchpoint.png" alt="img" class="!rounded-md" style="max-width: 60px;height: 60px;">
+                                        <img src="assets/img/Content-Touchpoint.png" alt="img" class="!rounded-md"
+                                            style="max-width: 60px;height: 60px;">
 
                                     </span>
                                 </div>
@@ -151,7 +153,8 @@
                             <div class="box-body">
                                 <div class="mb-2 commericial-img">
                                     <span class="avatar avatar-md">
-                                        <img src="assets/img/Faster-Resolution.png" alt="img" class="!rounded-md" style="max-width: 60px;height: 60px;">
+                                        <img src="assets/img/Faster-Resolution.png" alt="img" class="!rounded-md"
+                                            style="max-width: 60px;height: 60px;">
 
                                     </span>
                                 </div>
@@ -168,7 +171,8 @@
                             <div class="box-body">
                                 <div class="mb-2 commericial-img">
                                     <span class="avatar avatar-md">
-                                        <img src="assets/img/Support-Channels.png" alt="img" class="!rounded-md" style="max-width: 60px;height: 60px;">
+                                        <img src="assets/img/Support-Channels.png" alt="img" class="!rounded-md"
+                                            style="max-width: 60px;height: 60px;">
 
                                     </span>
                                 </div>
@@ -188,63 +192,66 @@
         {{-- Start:: commericial section forth --}}
 
         <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70" id="features">
-        <div class="container text-center">
-            <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">What We Do</span>
-            <h1 class="lg:text-center font-semibold mb-2 text-[2rem]">Solutions Coustomers Have<br>
-                Boilt With Instabase</h1><br>
-            <div class="grid grid-cols-12 gap-x-6"> 
-                <div class="xl:col-span-4 col-span-12">
-                    <div class="box">
-                        <div class="box-body bg-img">
-                            <div class="mb-2">
-                            </div>
-                            <h6 class="font-bold mb-2 text-xl">Omniroutes Lifting</h6>
-                            <p class="card-text mb-4">Many desktop publishing packages and web page editors
-                                now use Lorem Ipsum as their default model text.</p>
-                                <hr><br>
-                                <a href="#" class=" text-dark font-bold text-sm">Explore More Us</a>
+            <div class="container text-center">
+                <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">What We Do</span>
+                <h1 class="lg:text-center font-semibold mb-2 text-[2rem]">Solutions Coustomers Have<br>
+                    Boilt With Instabase</h1><br>
+                <div class="grid grid-cols-12 gap-x-6">
+                    <div class="xl:col-span-4 col-span-12">
+                        <div class="box">
+                            <div class="box-body bg-img">
+                                <div class="mb-2">
+                                    <span class="avatar avatar-md">
+                                        <img src="assets/img/Content-Touchpoint.png" alt="img" class="!rounded-md"
+                                            style="max-width: 60px;height: 60px;">
+                                    </span>
+                                </div>
+                                <div class="box-bottom">
+                                    <h6 class="font-bold mb-2 text-xl">Omniroutes Lifting</h6>
+                                    <p class="card-text mb-4">Engineering</p>
+                                </div>
 
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="xl:col-span-4 col-span-12">
-                    <div class="box">
-                        <div class="box-body bg-img">
-                            <div class="mb-2">
-                                <span class="avatar avatar-md">
-                                    <img src="assets/img/Content-Touchpoint.png" alt="img" class="!rounded-md" style="max-width: 60px;height: 60px;">
+                    <div class="xl:col-span-4 col-span-12">
+                        <div class="box">
+                            <div class="box-body bg-img">
+                                <div class="mb-2">
+                                    <span class="avatar avatar-md">
+                                        <img src="assets/img/Content-Touchpoint.png" alt="img" class="!rounded-md"
+                                            style="max-width: 60px;height: 60px;">
 
-                                </span>
+                                    </span>
+                                </div>
+                                <div class="box-bottom">
+                                    <h6 class="font-bold mb-2 text-xl">Omniroutes Lifting</h6>
+                                    <p class="card-text mb-4">Engineering</p>
+                                </div>
                             </div>
-                            <h6 class="font-bold mb-2 text-xl">Content Touchpoint</h6>
-                            <p class="card-text mb-4">Many desktop publishing packages and web page editors
-                                now use Lorem Ipsum as their default model text.</p>
-                            <hr><br>
-                            <a href="#" class="text-dark font-bold text-sm">Explore More Us</a>
                         </div>
                     </div>
-                </div>
-                <div class="xl:col-span-4 col-span-12">
-                    <div class="box">
-                        <div class="box-body bg-img">
-                            <div class="mb-2">
-                                <span class="avatar avatar-md">
-                                    <img src="assets/img/Faster-Resolution.png" alt="img" class="!rounded-md" style="max-width: 60px;height: 60px;">
+                    <div class="xl:col-span-4 col-span-12">
+                        <div class="box">
+                            <div class="box-body bg-img">
+                                <div class="mb-2">
+                                    <span class="avatar avatar-md">
+                                        <img src="assets/img/Faster-Resolution.png" alt="img" class="!rounded-md"
+                                            style="max-width: 60px;height: 60px;">
 
-                                </span>
+                                    </span>
+                                </div>
+                                <div class="box-bottom">
+                                    <h6 class="font-bold mb-2 text-xl">Omniroutes Lifting</h6>
+                                    <p class="card-text mb-4">Engineering</p>
+                                </div>
                             </div>
-                            <h6 class="font-bold mb-2 text-xl">Faster Resolution</h6>
-                            <p class="card-text mb-4">Many desktop publishing packages and web page editors
-                                now use Lorem Ipsum as their default model text.</p>
-                            <hr><br>
-                            <a href="#" class="text-dark font-bold text-sm">Explore More Us</a>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-
+        </section>
+ 
         {{-- End:: commericial section forth --}}
 
 
