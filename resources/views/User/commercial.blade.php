@@ -199,53 +199,35 @@
                 <div class="grid grid-cols-12 gap-x-6">
                     <div class="xl:col-span-4 col-span-12">
                         <div class="box">
-                            <div class="box-body bg-img">
-                                <div class="mb-2">
-                                    <span class="avatar avatar-md">
-                                        <img src="assets/img/Cyber-Security-Services.png" alt="img" class="!rounded-md"
-                                            style="max-width: 60px;height: 60px;">
-                                    </span>
+                            <div class="box">
+                                <div class="box-body bg-img1">
                                 </div>
-                                <div class="box-bottom">
-                                    <h6 class="font-bold mb-2 text-xl">Omniroutes Lifting</h6>
-                                    <p class="card-text mb-4">Engineering</p>
-                                </div>
-
+                                    <div class="box-bottom">
+                                        <h6 class="font-bold mb-2 text-xl">Omniroutes Lifting</h6>
+                                        <p class="card-text mb-4">Engineering</p>
+                                    </div>
                             </div>
                         </div>
                     </div>
                     <div class="xl:col-span-4 col-span-12">
                         <div class="box">
-                            <div class="box-body bg-img">
-                                <div class="mb-2">
-                                    <span class="avatar avatar-md">
-                                        <img src="assets/img/Web-Development.png" alt="img" class="!rounded-md"
-                                            style="max-width: 60px;height: 60px;">
-
-                                    </span>
+                            <div class="box">
+                                <div class="box-body bg-img2">
                                 </div>
-                                <div class="box-bottom">
-                                    <h6 class="font-bold mb-2 text-xl">Omniroutes Lifting</h6>
-                                    <p class="card-text mb-4">Engineering</p>
-                                </div>
+                                    <div class="box-bottom">
+                                        <h6 class="font-bold mb-2 text-xl">Omniroutes Lifting</h6>
+                                        <p class="card-text mb-4">Engineering</p>
+                                    </div>
                             </div>
-                        </div>
                     </div>
                     <div class="xl:col-span-4 col-span-12">
                         <div class="box">
-                            <div class="box-body bg-img">
-                                <div class="mb-2">
-                                    <span class="avatar avatar-md">
-                                        <img src="assets/img/IT-Solutions-Consultations.png" alt="img" class="!rounded-md"
-                                            style="max-width: 60px;height: 60px;">
-
-                                    </span>
-                                </div>
+                            <div class="box-body bg-img3">
+                            </div>
                                 <div class="box-bottom">
                                     <h6 class="font-bold mb-2 text-xl">Omniroutes Lifting</h6>
                                     <p class="card-text mb-4">Engineering</p>
                                 </div>
-                            </div>
                         </div>
                     </div>
                 </div>
