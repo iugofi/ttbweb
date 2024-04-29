@@ -39614,7 +39614,7 @@ caption {
             .hs-accordion.active
             > .hs-accordion-toggle.dark\:hs-accordion-active\:\!text-primary
     ) {
-    color: rgb(var(--primary)) !important;
+    color: #fff !important;
 }
 :is(
         .dark
