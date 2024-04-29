@@ -41284,8 +41284,8 @@ img.img-fluid.service-icon {
     } 
     .backimage {
         background-color: #12d2b31f;
-        width: 75px;
-        margin: 16px 0 auto;
+        width: 55px;
+        margin: 6px 0 auto;
     }
     .animate-bounce{
         animation: bounce 3s infinite;

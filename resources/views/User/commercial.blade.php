@@ -69,7 +69,7 @@
                             goal-oriented catalysts for change. Collaboratively.
                         </p>
 
-                        <div class="grid grid-rows-2 grid-flow-col gap-4">
+                        <div class="grid grid-rows-2 grid-flow-col gap-1">
                             <div class="row-span-3">
                                 <img src="assets/img/Best-Services-Iocn-1.png" class="img-fluid !inline-flex backimage">
                             </div>
@@ -81,7 +81,7 @@
                                     tempor. Lorem ipsum dolor sit amet, eiusmod tempor.</p>
                             </div>
                         </div>
-                        <div class="grid grid-rows-2 grid-flow-col gap-4">
+                        <div class="grid grid-rows-2 grid-flow-col pt-4 gap-1">
                             <div class="row-span-3"><img src="assets/img/Best-Services-Iocn-2.png "
                                     class="img-fluid !inline-flex backimage"></div>
                             <div class="col-span-2">
