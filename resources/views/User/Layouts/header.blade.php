@@ -238,7 +238,7 @@
              $(document).ready(function() {
             alert("Neeraj and Kunal ");
              });
-             <img src="images/img/wedding-night.jpg" alt="Description of the image">
+            //  <img src="images/img/wedding-night.jpg" alt="Description of the image">
         </script>
 
 
