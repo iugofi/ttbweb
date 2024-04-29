@@ -222,12 +222,14 @@
                     </div>
                     <div class="xl:col-span-4 col-span-12">
                         <div class="box">
-                            <div class="box-body bg-img3">
-                            </div>
-                                <div class="box-bottom">
-                                    <h6 class="font-bold mb-2 text-xl">Omniroutes Lifting</h6>
-                                    <p class="card-text mb-4">Engineering</p>
+                            <div class="box">
+                                <div class="box-body bg-img3">
                                 </div>
+                                    <div class="box-bottom">
+                                        <h6 class="font-bold mb-2 text-xl">Omniroutes Lifting</h6>
+                                        <p class="card-text mb-4">Engineering</p>
+                                    </div>
+                            </div>
                         </div>
                     </div>
                 </div>
