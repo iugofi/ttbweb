@@ -203,7 +203,7 @@
                                 <div class="box-body bg-img1">
                                 </div>
                                     <div class="box-bottom">
-                                        <h6 class="font-bold mb-2 text-xl">Omniroutes Lifting</h6>
+                                        <h6 class="font-bold mb-2 pt-2 text-xl">Omniroutes Lifting</h6>
                                         <p class="card-text mb-4">Engineering</p>
                                     </div>
                             </div>
@@ -215,7 +215,7 @@
                                 <div class="box-body bg-img2">
                                 </div>
                                     <div class="box-bottom">
-                                        <h6 class="font-bold mb-2 text-xl">Omniroutes Lifting</h6>
+                                        <h6 class="font-bold mb-2 pt-2 text-xl">Omniroutes Lifting</h6>
                                         <p class="card-text mb-4">Engineering</p>
                                     </div>
                             </div>
@@ -227,7 +227,7 @@
                                 <div class="box-body bg-img3">
                                 </div>
                                     <div class="box-bottom">
-                                        <h6 class="font-bold mb-2 text-xl">Omniroutes Lifting</h6>
+                                        <h6 class="font-bold mb-2 pt-2 text-xl">Omniroutes Lifting</h6>
                                         <p class="card-text mb-4">Engineering</p>
                                     </div>
                             </div>
@@ -236,7 +236,7 @@
                 </div>
             </div>
         </section> 
-  
+         
         {{-- End:: commericial section forth --}}
 
 
