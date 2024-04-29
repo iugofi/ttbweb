@@ -41013,7 +41013,9 @@ img.img-fluid.service-icon {
     border: 1px solid #e1e1e1;
     margin-top: 20px;
 }
-
+.dark .watch-icon {
+    color: #000;
+}
 .wtc-spn {
     font-size: 18px;
 }
