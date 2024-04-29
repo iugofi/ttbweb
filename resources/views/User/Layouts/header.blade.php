@@ -243,7 +243,7 @@
         </script> --}}
 
 
-        <a href="#" class='click_1'><img src="assets/img/wedding-night.jpg" /></a>
+        {{-- <a href="#" class='click_1'><img src="assets/img/wedding-night.jpg" /></a> --}}
         <h4><a href="#" class='click_1'>title link 2</a></h4>
         </li>
 
