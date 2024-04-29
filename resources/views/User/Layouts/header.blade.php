@@ -234,11 +234,11 @@
         <!-- SIDEBAR -->
 
 
-        {{-- <script>
+        <script>
              $(document).ready(function() {
-            alert("kulvinder ");
+            alert("Neeraj and Kunal ");
              });
-        </script> --}}
+        </script>
 
         @extends('User.Layouts.nav')
 
