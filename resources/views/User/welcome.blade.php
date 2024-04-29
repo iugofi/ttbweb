@@ -246,7 +246,7 @@
         <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] " id="about">
             <div class="container text-center">
          
-                <h3 class="font-semibold  mb-2 text-black features-one ttb-heading">TTB Features
+                <h3 class="font-semibold  mb-2 text-black features-one ttb-heading text-35xl ">TTB Features
                 </h3>
                 <div class="grid grid-cols-12 justify-center max-w-66xl mx-auto  pt-5 ">
                     <div class="col-span-12">
