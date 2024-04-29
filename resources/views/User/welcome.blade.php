@@ -647,7 +647,7 @@
         <div class="grid grid-cols-12 gap-6">
             <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
                 <div class="lg:py-[3rem]">
-                    <h2 class="landing-banner-heading mb-4 opacity-[0.9] mt-10 font-semibold text-4xl"><span >What Our Client Say <br> About Apdash</h2>
+                    <h2 class="landing-banner-heading mb-4 opacity-[0.9] mt-10 font-medium text-4xl"><span >What Our Client Say <br> About Apdash</h2>
                     <div class="text-[1rem] mb-[3rem] !text-dark opacity-[0.9] ">Collaboratively actualize excellent schemas without effective <br> models. Synergistically engineer functionalized applications rather<br> than backend e-commerce.</div>
                    
 
