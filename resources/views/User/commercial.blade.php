@@ -113,7 +113,7 @@
                     Boilt With Instabase</h1><br>
                 <div class="grid grid-cols-12 gap-x-6"> 
                     <div class="xl:col-span-3 col-span-12">
-                        <div class="box text-left">
+                        <div class="box text-left text-hover">
                             <div class="box-body">
                                 <div class="mb-2 commericial-img">
                                     <span class="avatar avatar-md">
@@ -131,7 +131,7 @@
                         </div>
                     </div>
                     <div class="xl:col-span-3 col-span-12">
-                        <div class="box text-left">
+                        <div class="box text-left text-hover">
                             <div class="box-body">
                                 <div class="mb-2 commericial-img">
                                     <span class="avatar avatar-md">
@@ -148,7 +148,7 @@
                         </div>
                     </div>
                     <div class="xl:col-span-3 col-span-12">
-                        <div class="box text-left">
+                        <div class="box text-left text-hover">
                             <div class="box-body">
                                 <div class="mb-2 commericial-img">
                                     <span class="avatar avatar-md">
@@ -165,7 +165,7 @@
                         </div>
                     </div>
                     <div class="xl:col-span-3 col-span-12">
-                        <div class="box text-left">
+                        <div class="box text-left text-hover">
                             <div class="box-body">
                                 <div class="mb-2 commericial-img">
                                     <span class="avatar avatar-md">
