@@ -33859,8 +33859,8 @@ select {
     width: 0.5rem;
 }
 .avatar.avatar-md {
-    height: 2.5rem;
-    width: 2.5rem;
+    height: 3.5rem;
+    width: 5.5rem;
     font-size: 0.8rem;
     line-height: 2.5rem;
 }
@@ -39614,7 +39614,7 @@ caption {
             .hs-accordion.active
             > .hs-accordion-toggle.dark\:hs-accordion-active\:\!text-primary
     ) {
-    color: rgb(var(--primary)) !important;
+    color: #fff !important;
 }
 :is(
         .dark
@@ -41013,7 +41013,9 @@ img.img-fluid.service-icon {
     border: 1px solid #e1e1e1;
     margin-top: 20px;
 }
-
+.dark .watch-icon {
+    color: #000;
+}
 .wtc-spn {
     font-size: 18px;
 }
@@ -41284,8 +41286,8 @@ img.img-fluid.service-icon {
     } 
     .backimage {
         background-color: #12d2b31f;
-        width: 75px;
-        margin: 16px 0 auto;
+        width: 55px;
+        margin: 6px 0 auto;
     }
     .animate-bounce{
         animation: bounce 3s infinite;
@@ -41296,7 +41298,7 @@ img.img-fluid.service-icon {
         rotate: 269deg;
         position: relative;
         right: 85px;
-        bottom: 110px;
+        bottom: 155px;
         font-weight: 600;
         color: #fff;
     }
@@ -41354,8 +41356,21 @@ img.img-fluid.service-icon {
     background-color: #12D2B3;
     color: #fff;
 }
-
-
+.box-bm:hover {
+    border-bottom: 3px solid #12D2B3;
+}
+.box-bottom:hover h6 {
+    color: #fff !important;
+}
+.box-bottom:hover p {
+    color: #fff !important;
+}
+.dark .box-bottom:hover h6 {
+    color: #fff !important;
+}
+.dark .box-bottom:hover p {
+    color: #fff !important;
+}
 
     /* End:: commericial page css */
 
@@ -41398,7 +41413,9 @@ img.img-fluid.service-icon {
         height: 27rem;
         background-position: unset;
     }
-
+    .animate-bounce {
+        justify-content: left;
+    }
 }
 
 /* start vpn-shild banner css */
