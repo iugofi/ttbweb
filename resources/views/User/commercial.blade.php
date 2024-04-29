@@ -202,7 +202,7 @@
                             <div class="box-body bg-img">
                                 <div class="mb-2">
                                     <span class="avatar avatar-md">
-                                        <img src="assets/img/Content-Touchpoint.png" alt="img" class="!rounded-md"
+                                        <img src="assets/img/Cyber-Security-Services.png" alt="img" class="!rounded-md"
                                             style="max-width: 60px;height: 60px;">
                                     </span>
                                 </div>
@@ -219,7 +219,7 @@
                             <div class="box-body bg-img">
                                 <div class="mb-2">
                                     <span class="avatar avatar-md">
-                                        <img src="assets/img/Content-Touchpoint.png" alt="img" class="!rounded-md"
+                                        <img src="assets/img/Web-Development.png" alt="img" class="!rounded-md"
                                             style="max-width: 60px;height: 60px;">
 
                                     </span>
@@ -236,7 +236,7 @@
                             <div class="box-body bg-img">
                                 <div class="mb-2">
                                     <span class="avatar avatar-md">
-                                        <img src="assets/img/Faster-Resolution.png" alt="img" class="!rounded-md"
+                                        <img src="assets/img/IT-Solutions-Consultations" alt="img" class="!rounded-md"
                                             style="max-width: 60px;height: 60px;">
 
                                     </span>
