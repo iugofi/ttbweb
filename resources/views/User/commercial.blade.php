@@ -193,7 +193,8 @@
 
         <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70" id="features">
             <div class="container text-center">
-                <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">Last Case Studies</span>
+                <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">Last Case
+                    Studies</span>
                 <h1 class="lg:text-center font-semibold mb-2 text-[2rem]">Over 15 Years, Costomers Have<br>
                     Come To it Solutions.</h1><br>
                 <div class="grid grid-cols-12 gap-x-6">
@@ -235,14 +236,17 @@
 
         {{-- Start:: commericial section fifth --}}
 
-        <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
+        <section
+            class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
             id="features">
             <div class="container main-banner-container">
                 <div class="grid grid-cols-12 gap-6">
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
                         <div class="txt">
-                            <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">Last Case Studies</span>
-                            <h2 class="landing-banner-heading font-semibold mb-2 text-[2rem]"><span>What Our Client Say About
+                            <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">Last Case
+                                Studies</span>
+                            <h2 class="landing-banner-heading font-semibold mb-2 text-[2rem]"><span>What Our Client Say
+                                    About
                                     Apdash</h2>
                             <div class="text-[1rem] mb-[3rem] !text-dark opacity-[0.9] ">Collaboratively actualize
                                 excellent schemas without effective <br> models. Synergistically engineer functionalized
@@ -341,16 +345,16 @@
 
         {{-- Start:: commericial section six --}}
 
-        <section
-            class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]"
-            id="faq">
+        <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]" id="faq">
             <div class="container text-center">
                 {{-- <p class="text-[0.75rem] font-semibold text-success mb-1"><span
                         class="landing-section-heading">F.A.Q</span></p> --}}
                 <h3 class="font-semibold text-4xl mb-2 ttb-heading">Frequently Asked Question</h3>
                 <div class="grid grid-cols-12 justify-center">
                     <div class="col-span-12">
-                        <p class="text-[#8c9097] dark:text-white/50 text-[0.9375rem] mb-12 font-normal">Efficiently productivate reliable paradigms before ubiquitous models. Continually utilize frictionless <br>expertise whereas tactical relationships. Still have questions? Contact us</p>
+                        <p class="text-[#8c9097] dark:text-white/50 text-[0.9375rem] mb-12 font-normal">Efficiently
+                            productivate reliable paradigms before ubiquitous models. Continually utilize frictionless
+                            <br>expertise whereas tactical relationships. Still have questions? Contact us</p>
                     </div>
                 </div>
                 <div class="grid grid-cols-12 gap-6 text-start">
@@ -547,13 +551,63 @@
             </div>
         </section>
 
-        {{-- Start:: commericial section six --}}
+        {{-- End:: commericial section six --}}
 
+        {{-- Start:: commericial section saven --}}
 
+        <section
+            class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
+            id="features">
+            <div class="container main-banner-container">
+                <div class="grid grid-cols-12 gap-6">
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
+                        <div class="lg:py-[3rem]">
+                            <h2 class="landing-banner-heading mb-4 opacity-[0.9] mt-10 font-semibold text-4xl ttb-heading">
+                                <span>What Our Client Say <br> About Apdash</h2>
+                            <div class="text-[1rem] mb-[3rem] !text-dark opacity-[0.9] ">Collaboratively actualize
+                                excellent schemas without effective <br> models. Synergistically engineer functionalized
+                                applications rather<br> than backend e-commerce.</div>
+                        </div>
+                    </div>
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
+                        <div class="box custom-box slider-box box-review">
+                            <div class="box-body">
+                                <div class="swiper  custom-pagination">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide test-slider-img">
+                                            <div class="item">
+                                                <div class="testimonial-quote-wrap ttb-bg">
+                                                    <div class="media author-info mb-3 flex ">
+                                                        <div class="author-img mr-3">
+                                                            <img src="assets/img/client/1.jpg" alt="client"
+                                                                width="10px">
+                                                        </div>
+                                                        <div class="media-body text-white p-5">
+                                                            <h5 class="mb-0 text-white">John Charles</h5>
+                                                            <span>Head Of Admin</span>
+                                                        </div>
+                                                        <i class="fas fa-quote-right text-white"></i>
+                                                    </div>
+                                                    <div class="client-say text-white">
+                                                        <p>Interactively optimize fully researched expertise vis-a-vis
+                                                            plug-and-play relationships. Intrinsicly develop viral core
+                                                            competencies for fully tested customer service. Enthusiastically
+                                                            create next-generation growth strategies and.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-
-
-
+        {{-- End:: commericial section saven --}}
 
 
 
