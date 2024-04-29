@@ -40888,7 +40888,7 @@ img.img-fluid.service-icon {
     position: absolute;
     top: 86px;
     left: 46px;
-    width: 91%;
+    width: 89%;
     height: 69%;
     background: #000000;
     -webkit-transform: rotate(-6deg);
@@ -40943,7 +40943,7 @@ img.img-fluid.service-icon {
 /* neeraj-home-page-css-22-04-2024 */
 .ttb-bg{
     background-color: #13D4B1;
-    /* margin:10px; */
+    margin:10px;
     padding: 20px;
     border-radius: 4px;
 }

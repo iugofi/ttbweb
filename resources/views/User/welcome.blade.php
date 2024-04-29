@@ -200,7 +200,7 @@
             <div class="container text-center relative">
                 {{-- <p class="text-[0.75rem] font-semibold text-success mb-1"><span
                     class="landing-section-heading">Download Our Apps</span></p> --}}
-                <h3 class="font-semibold mb-2 text-defaulttextcolor dark:text-defaulttextcolor/70 ">Download Our Apps</h3>
+                <h3 class="font-semibold mb-2 text-defaulttextcolor dark:text-defaulttextcolor/70  text-3xl">Download Our Apps</h3>
                 <div class="">
                     <div class="xl:col-span-7 col-span-12">
                         <p class="text-[#8c9097] dark:text-white/50 text-[0.9375rem] mb-12 font-normal">Start working with
