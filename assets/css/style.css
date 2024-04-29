@@ -41400,7 +41400,9 @@ img.img-fluid.service-icon {
         height: 27rem;
         background-position: unset;
     }
-
+    .animate-bounce {
+        justify-content: left;
+    }
 }
 
 /* start vpn-shild banner css */
