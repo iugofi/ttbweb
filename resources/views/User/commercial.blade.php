@@ -241,8 +241,8 @@
                 <div class="grid grid-cols-12 gap-6">
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
                         <div class="txt">
-                            <p class="landing-banner-heading mb-4 opacity-[0.9]">Lorem ipsum dolor sit amet.</p>
-                            <h2 class="landing-banner-heading mb-4 opacity-[0.9]"><span>What Our Client Say About
+                            <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">Last Case Studies</span>
+                            <h2 class="landing-banner-heading font-semibold mb-2 text-[2rem]"><span>What Our Client Say About
                                     Apdash</h2>
                             <div class="text-[1rem] mb-[3rem] !text-dark opacity-[0.9] ">Collaboratively actualize
                                 excellent schemas without effective <br> models. Synergistically engineer functionalized
