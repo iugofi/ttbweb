@@ -1,4 +1,4 @@
-@extends('Admin.layouts.layout')
+@extends('Admin.Layouts.layout')
 
 @section('title', 'TTB')
 
