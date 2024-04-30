@@ -123,7 +123,7 @@
                                     color: blue;font-family: auto;text-decoration:underline;
                                 ">Go
                                         to Home Page</a>
-                                </p>
+                                </p>  
                             </div>
                         </div>
                     </div>
