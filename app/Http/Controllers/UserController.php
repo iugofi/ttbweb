@@ -118,6 +118,10 @@ class UserController extends Controller
     {
         return view('User.ttbantivirus');
     }
+    public function ttbantivirusnew()
+    {
+        return view('User.ttbantivirusnew');
+    }
     public function passreset()
     {
         return view('User.resetpassword-basic');
