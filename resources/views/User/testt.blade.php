@@ -182,7 +182,7 @@ section {
 particlesJS("particles-js", {
   	"particles":{
 		"number": {
-			"value": 100
+			"value": 200
 		}, 
 		"color": {
 			"value": "#fff"
@@ -221,7 +221,7 @@ particlesJS("particles-js", {
 		},
 		"modes": {
 			"repulse": {
-				"distance": 150, 
+				"distance": 250, 
 				"duration": 0.5
 			}
 		}
