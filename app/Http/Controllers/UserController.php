@@ -528,6 +528,11 @@ public function signdata(Request $request)
         }
     }
 
+    public function testpageview()
+    {
+        return view('User.testt');
+    }
+
 
 
     }

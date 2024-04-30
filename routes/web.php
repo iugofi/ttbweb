@@ -30,6 +30,11 @@ Route::get('/resetpass/{reset_id}', [UserController::class, 'resetpass'])->name(
 Route::post('/resetpassform', [UserController::class, 'resetpassform'])->name('user.resetpassform');
 
 
+//testing
+Route::get('/test', [UserController::class, 'testpageview'])->name('testpageview');
+
+
+
 //blog page
 Route::get('/blog', [UserController::class, 'blogpage'])->name('user.blogpage');
 Route::get('/blog/{id}', [UserController::class, 'blogDetails'])->name('blog.details');
