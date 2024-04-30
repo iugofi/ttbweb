@@ -20,6 +20,10 @@ class LoginCheck
         {
             return $next($request);
         }
+        else
+        {
+            return redirect('/signin');
+        }
         
         
     }
