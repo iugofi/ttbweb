@@ -395,8 +395,6 @@
             class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]"
             id="faq">
             <div class="container text-center">
-                {{-- <p class="text-[0.75rem] font-semibold text-success mb-1"><span
-                        class="landing-section-heading">F.A.Q</span></p> --}}
                 <h3 class="font-semibold text-4xl mb-2 ttb-heading">Frequently Asked Queries</h3>
                 <div class="grid grid-cols-12 justify-center">
                     <div class="col-span-12">
