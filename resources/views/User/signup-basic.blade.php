@@ -33,6 +33,13 @@
     <script src="{{ asset('assets/js/message.js') }}"></script>
 
 
+    <style>
+         body {
+        background-color: rgb(var(--body-bg));
+    }
+    </style>
+
+
 
 </head>
 
@@ -195,6 +202,7 @@
                         else if(response.status == 200) {
                             $("#show_success_alert").html(showMessage('success',response.messages));
                             $('#register_form')[0].reset();
+                            $('.invalid-feedback').empty();
                             removeValidationClass("#register_form");
                             $('#register_btn').val('Create Account');
                         }
