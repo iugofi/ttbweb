@@ -16,7 +16,7 @@ class LoginCheck
      */
     public function handle(Request $request, Closure $next)
     {
-        if(session()->has('loggedInUser'))
+        if(!session()->has('loggedInUser'))
         {
             return $next($request);
         }
