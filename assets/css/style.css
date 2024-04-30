@@ -41508,15 +41508,15 @@ img.img-fluid.service-icon {
 	padding: 0;
   overflow-y:hidden;
 } */
-   
-.section-animantion {
+/*    
+section {
 	background: beige;
 	height: 300px;
 	margin: 0 auto;
 	z-index: 1;
 	position: relative;
 	top: 50%;
-}
+} */
    
 #particles-js {
 		background-position: center;
