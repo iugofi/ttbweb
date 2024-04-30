@@ -1,8 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Space+Mono:400,700);
 
 body, html {
-  background-color: #00D9C0; 
-  background-image: linear-gradient(to right, hsla(0,0%,0%,0.05) 50%, transparent 0);
+  /* background-color: #00D9C0; 
+  background-image: linear-gradient(to right, hsla(0,0%,0%,0.05) 50%, transparent 0); */
   background-size: 120px 100%;
   background-position: center center;
   font-family: "Space Mono";
