@@ -405,7 +405,7 @@ public function storecomment(Request $request)
             //     $message->to('john@johndoe.com', 'John Doe');
             // });
 
-            Mail::send('User.activationkey', ['activation_key' => $activation_key], function ($message) use ($request) {
+            Mail::send('Mail.activationkey', ['activation_key' => $activation_key], function ($message) use ($request) {
                 $message->to($request->email)->subject('Activate Your Account');
             });
 
