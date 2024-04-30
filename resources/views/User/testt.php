@@ -157,7 +157,7 @@ section {
 	position: relative;
 	top: 50%;
 }
-  
+   
 #particles-js {
 		/* background-image: url(https://i.pinimg.com/originals/70/7c/3a/707c3a6a176d6d7c32de951467ae946b.jpg);  */
 		background-position: center;
