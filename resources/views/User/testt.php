@@ -8,6 +8,7 @@
 	<!-- <link rel="stylesheet" type="text/css" href="style.css" />  -->
     <script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 
 </head>
 <body>
@@ -141,7 +142,7 @@
 
 
 
-<style>
+<!-- <style>
 
 body {
 	height: 100vh;
@@ -160,7 +161,7 @@ section {
 }
    
 #particles-js {
-		/* background-image: url(https://i.pinimg.com/originals/70/7c/3a/707c3a6a176d6d7c32de951467ae946b.jpg);  */
+		background-image: url(https://i.pinimg.com/originals/70/7c/3a/707c3a6a176d6d7c32de951467ae946b.jpg); 
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover; 
@@ -171,7 +172,7 @@ section {
 		padding-bottom: 200px; 
         background-color: #000;
 }
-</style>
+</style> -->
 
 
 <script>
