@@ -4,6 +4,7 @@ namespace App\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
+use App\Models\Admin; 
 
 class Adminauth
 {
@@ -16,6 +17,7 @@ class Adminauth
      */
     public function handle(Request $request, Closure $next)
     {
+        
         return $next($request);
     }
 }
