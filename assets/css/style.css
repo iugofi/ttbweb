@@ -41508,8 +41508,8 @@ img.img-fluid.service-icon {
 	padding: 0;
   overflow-y:hidden;
 } */
-
-/* section {
+   
+.section-animantion {
 	background: beige;
 	height: 300px;
 	margin: 0 auto;
@@ -41528,4 +41528,4 @@ img.img-fluid.service-icon {
 		box-shadow: 0 12px 6px -6px grey;
 		padding-bottom: 200px; 
         background-color: #000;
-} */
+}
