@@ -3,8 +3,6 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\AdminController;
-use App\Http\Controllers\UserauthController;
-
 
 
 
@@ -123,7 +121,7 @@ Route::get('/passreset', [UserController::class, 'passreset'])->name('user.passr
 
 Route::get('/logout', [UserController::class, 'logout'])->name('user.logout');
 
-Route::get('/myprofile', [UserauthController::class, 'myprofile'])->name('user.myprofile');
+Route::get('/myprofile', [UserController::class, 'myprofile'])->name('user.myprofile');
 Route::post('/update/name', [UserController::class, 'updateName'])->name('update.name');
 
 
