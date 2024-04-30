@@ -14,16 +14,7 @@
 	<!--Container for Particles --> 
 	<div id="particles-js"></div>  
 	<!-- Section --> 
-	<section></section>
-	<!--Particles CDN Down Below: --> 
-	<!-- <script src="https://cdn.jsdeliver.net/particles.js/2.0.0/particles.min.js"></script> -->
-	<script>
-		particlesJS.load('particles-js', 'particles.json', function(){
-			console.log('particles.json loaded');
-		});
-	</script>
-
-<div class="container">
+    <div class="container">
         <div
             class="flex justify-center authentication authentication-basic items-center h-full text-defaultsize text-defaulttextcolor">
             <div class="grid grid-cols-12">
@@ -135,10 +126,20 @@
                         </div>
                     </div>
                 </div>
-                <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-3 sm:col-span-2"></div>
+                <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-3 sm:col-span-2">
+
+                </div>
             </div>
-        </div>
-    </div>
+	<section></section>
+	<!--Particles CDN Down Below: --> 
+	<!-- <script src="https://cdn.jsdeliver.net/particles.js/2.0.0/particles.min.js"></script> -->
+	<script>
+		particlesJS.load('particles-js', 'particles.json', function(){
+			console.log('particles.json loaded');
+		});
+	</script>
+
+
 
 <style>
 
