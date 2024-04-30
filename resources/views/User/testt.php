@@ -159,7 +159,7 @@ section {
 }
 
 #particles-js {
-		background-image: url(https://i.pinimg.com/originals/70/7c/3a/707c3a6a176d6d7c32de951467ae946b.jpg); 
+		/* background-image: url(https://i.pinimg.com/originals/70/7c/3a/707c3a6a176d6d7c32de951467ae946b.jpg);  */
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover; 
@@ -168,6 +168,7 @@ section {
 		border-bottom: 2px solid grey;
 		box-shadow: 0 12px 6px -6px grey;
 		padding-bottom: 200px; 
+        background-color: #000;
 }
 </style>
 
