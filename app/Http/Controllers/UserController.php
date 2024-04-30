@@ -485,21 +485,7 @@ public function signdata(Request $request)
     }
 
 
-    public function myprofile(){
-
-        // $sessionData = session()->all();
-        $loggedInUser = session('loggedInUser');
-        $user_data = Users::where('id',$loggedInUser)->first();
-
-        if($loggedInUser==true)
-        {
-            return view('User.myprofile', ['loggedInUser' => $loggedInUser],['user_data' => $user_data]);
-        }
-
-
-        return redirect('/signin');
-        
-    }
+   
 
     public function updateName(Request $request)
     {
