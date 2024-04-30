@@ -15,6 +15,7 @@
 	<!--Container for Particles --> 
 	<div id="particles-js"></div>  
 	<!-- Section --> 
+	<section> 
     <div class="container">
         <div
             class="flex justify-center authentication authentication-basic items-center h-full text-defaultsize text-defaulttextcolor">
@@ -131,7 +132,8 @@
 
                 </div>
             </div>
-	<section-animantion></section-animantion>
+    
+    </section>
 	<!--Particles CDN Down Below: --> 
 	<!-- <script src="https://cdn.jsdeliver.net/particles.js/2.0.0/particles.min.js"></script> -->
 	<script>
