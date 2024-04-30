@@ -5,7 +5,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
 	<title>Particles JS</title>
-	<link rel="stylesheet" type="text/css" href="style.css" /> 
+	<!-- <link rel="stylesheet" type="text/css" href="style.css" />  -->
+    <script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
 </head>
 <body>
 	<!--Container for Particles --> 
@@ -13,7 +16,7 @@
 	<!-- Section --> 
 	<section></section>
 	<!--Particles CDN Down Below: --> 
-	<script src="https://cdn.jsdeliver.net/particles.js/2.0.0/particles.min.js"></script>
+	<!-- <script src="https://cdn.jsdeliver.net/particles.js/2.0.0/particles.min.js"></script> -->
 	<script>
 		particlesJS.load('particles-js', 'particles.json', function(){
 			console.log('particles.json loaded');
