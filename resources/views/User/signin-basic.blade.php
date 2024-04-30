@@ -181,6 +181,7 @@
                         } else if (response.status === 401) {
                             $("#login_save_alert").html(showMessage('danger', response
                                 .messages));
+                            $('.invalid-feedback').empty();
                             $('#login_btn').val('Sign In');
                         } else {
                             if (response.status === 200 && response.messages === 'success') {
