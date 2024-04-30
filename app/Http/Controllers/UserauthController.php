@@ -8,7 +8,7 @@ class UserauthController extends Controller
 {
     public function __construct()
     {
-        $this->middleware(['auth','LoginCheck']);
+        $this->middleware(['LoginCheck']);
     }
 
     public function myprofile(){
