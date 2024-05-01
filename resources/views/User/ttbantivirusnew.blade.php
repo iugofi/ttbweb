@@ -23,9 +23,8 @@
                                     Security Framework</h1>
                                 <div class="text-[1rem] mb-[1.3rem] text-black-light opacity-[0.9] text-center dark-text"
                                     style="color: #000;">Holisticly
-                                    procrastinate mission-critical convergence with reliable customer service. Assertively
+                                    procrastinate mission-critical convergence with reliable customer service. <br>Assertively
                                     underwhelm idea-sharing for impactful solutions.
-                                    Assertively underwhelm idea-sharing for impactful solutions.
                                 </div>
                                 <div class="bnr-btn text-center">
                                 <a href="index.html" class="m-1 ti-btn ti-btn-primary-full" style="padding: 8px 34px;">
