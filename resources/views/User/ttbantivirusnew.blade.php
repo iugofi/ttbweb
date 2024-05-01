@@ -27,12 +27,14 @@
                                     underwhelm idea-sharing for impactful solutions.
                                     Assertively underwhelm idea-sharing for impactful solutions.
                                 </div>
+                                <div class="bnr-btn text-center">
                                 <a href="index.html" class="m-1 ti-btn ti-btn-primary-full">
                                     Buy Now
                                 </a>
                                 <a href="index.html" class="m-1 ti-btn bg-white">
                                     Download Now
                                 </a>
+                            </div>
                             </div>
                         </div>
                         {{-- <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 col-span-12">
