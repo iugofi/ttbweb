@@ -28,10 +28,10 @@
                                     Assertively underwhelm idea-sharing for impactful solutions.
                                 </div>
                                 <div class="bnr-btn text-center">
-                                <a href="index.html" class="m-1 ti-btn ti-btn-primary-full">
+                                <a href="index.html" class="m-1 ti-btn ti-btn-primary-full" style="padding: 8px 34px;">
                                     Buy Now
                                 </a>
-                                <a href="index.html" class="m-1 ti-btn bg-white">
+                                <a href="index.html" class="m-1 ti-btn bg-white" style="color:#11CDBE;">
                                     Download Now
                                 </a>
                             </div>
