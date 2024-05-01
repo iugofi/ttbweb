@@ -15,10 +15,10 @@
             <section class="section sect-ban">
                 <div class="container main-banner-container">
                     <div class="grid grid-cols-12 gap-6">
-                        <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 col-span-12">
+                        <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 col-span-12">
                             <div class="lg:py-[3rem] text-vartical"
                                 style="position: relative; top: 7rem; padding-right: 2rem;">
-                                <h1 class="lg:text-start font-semibold mb-2 text-[2rem]" style="color: #000;">Robust Threat
+                                <h1 class="lg:text-center font-semibold mb-2 text-[2rem]" style="color: #000;">Robust Threat
                                     Protection and
                                     Security Framework</h1>
                                 <div class="text-[1rem] mb-[1.3rem] text-black-light opacity-[0.9] dark-text"
@@ -28,16 +28,19 @@
                                     Assertively underwhelm idea-sharing for impactful solutions.
                                 </div>
                                 <a href="index.html" class="m-1 ti-btn ti-btn-primary-full">
+                                    Buy Now
+                                </a>
+                                <a href="index.html" class="m-1 ti-btn bg-white">
                                     Download Now
                                 </a>
                             </div>
                         </div>
-                        <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 col-span-12">
+                        {{-- <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 col-span-12">
 
                             <div class="text-end landing-main-image landing-heading-img flex justify-end w-full">
                             </div>
 
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </section>
