@@ -41491,10 +41491,12 @@ img.img-fluid.service-icon {
 .bnr-btn-2:hover {
     background-color: transparent;
     border: 1px solid #11CDBE;
-    color: #000 !important;
+    color: #fff !important;
 }
 .bnr-btn-1:hover {
-    background-color: #000;
+    background-color: transparent;
+    border: 1px solid #11CDBE;
+    color: #fff !important;
 }
 .antivirus-banner {
     background-image: url('/assets/img/Banner.jpg');
