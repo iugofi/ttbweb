@@ -41486,6 +41486,17 @@ img.img-fluid.service-icon {
 /* End vpn-shild banner css */
 
 
+/* start antivirus page css */
+
+.bnr-btn-2:hover {
+    background-color: transparent;
+    border: 1px solid #11CDBE;
+    color: #000 !important;
+}
+
+
+/* End antivirus page css */
+
 /* kunal-verma 23-04-2024 */
 
 #totel-internet-security div#vpnshield {
