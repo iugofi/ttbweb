@@ -111,10 +111,7 @@
 
                                     </div>
                                     <div class="xl:col-span-12 col-span-12 mb-2">
-                                        <label for="signin-password" class="form-label text-default block">Password<a
-                                                href="{{ route('user.passreset') }}"
-                                                class="ltr:float-right rtl:float-left text-danger">Forget password
-                                                ?</a></label>
+                                        <label for="signin-password" class="form-label text-default block">Password</label>
                                         <div class="input-group">
                                             <input type="password" class="form-control form-control-lg !rounded-s-md"
                                                 id="signin_password" name="signin_password" placeholder="password">
@@ -125,17 +122,7 @@
                                             <div class="invalid-feedback" style="width:100%"></div>
 
                                         </div>
-                                        <div class="mt-2">
-                                            <div class="form-check !ps-0">
-                                                <input class="form-check-input" type="checkbox" value=""
-                                                    id="defaultCheck1">
-                                                <label
-                                                    class="form-check-label text-[#8c9097] dark:text-white/50 font-normal"
-                                                    for="defaultCheck1">
-                                                    Remember password ?
-                                                </label>
-                                            </div>
-                                        </div>
+                                       
                                     </div>
                                     <div class="xl:col-span-12 col-span-12 grid mt-2">
 
@@ -144,28 +131,8 @@
                                     </div>
                                 </div>
                             </form>
-                            <div class="text-center">
-                                <p class="text-[0.75rem] text-[#8c9097] dark:text-white/50 mt-4">Dont have an
-                                    account?
-                                    <a href="{{ route('user.signup') }}" class="text-primary">Sign Up</a>
-                                </p>
-                            </div>
-                            <div class="text-center my-4 authentication-barrier">
-                                <span>OR</span>
-                            </div>
-                            <div class="btn-list text-center">
-                                <button aria-label="button" type="button"
-                                    class="ti-btn ti-btn-icon ti-btn-light me-[0.365rem]">
-                                    <i class="ri-facebook-line font-bold text-dark opacity-[0.7]"></i>
-                                </button>
-                                <button aria-label="button" type="button"
-                                    class="ti-btn ti-btn-icon ti-btn-light me-[0.365rem]">
-                                    <i class="ri-google-line font-bold text-dark opacity-[0.7]"></i>
-                                </button>
-                                <button aria-label="button" type="button" class="ti-btn ti-btn-icon ti-btn-light">
-                                    <i class="ri-twitter-line font-bold text-dark opacity-[0.7]"></i>
-                                </button>
-                            </div>
+                           
+                            
                             <div class="text-center">
                                 <p class="text-[0.75rem] text-[#8c9097] dark:text-blue/50 mt-4">
                                     <a href="{{ route('user.index') }}" class="text-primary"
