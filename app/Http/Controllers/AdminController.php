@@ -17,6 +17,7 @@ class AdminController extends Controller
 
     public function index()
     {
+        dd(session()->all());
         return view('Admin.welcome');
     }
     public function logoutadmin()
@@ -73,6 +74,7 @@ class AdminController extends Controller
     }
 
     public function indexpage(){
+        dd(session()->all());
         return view('Admin.index');
     }
 
