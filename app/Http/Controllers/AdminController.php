@@ -25,7 +25,7 @@ class AdminController extends Controller
     }
 
     public function indexpage(){
-             dd($this->admintype);
+            //  dd($this->admintype);
 
         if ($this->loggedInAdmin) {
         return view('Admin.index');
