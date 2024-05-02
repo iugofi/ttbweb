@@ -41496,7 +41496,13 @@ img.img-fluid.service-icon {
 .bnr-btn-1:hover {
     background-color: #000;
 }
-
+.antivirus-banner {
+    background-image: url('/assets/img/Banner.jpg');
+    height: 34rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 /* End antivirus page css */
 
 /* kunal-verma 23-04-2024 */
