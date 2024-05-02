@@ -130,13 +130,13 @@ Route::post('/update/name', [UserController::class, 'updateName'])->name('update
 
 
 //admin
-Route::get('/setup', [AdminController::class, 'index'])->name('admin.index');
-Route::post('/signdataadmin', [AdminController::class, 'signdataadmin'])->name('admin.signdata');
+Route::get('/setup', [UserController::class, 'index'])->name('admin.index');
+Route::post('/signdataadmin', [UserController::class, 'signdataadmin'])->name('admin.signdata');
 
 
 //auth Admin Login Page
-Route::get('/pageadmin', [AdminController::class, 'indexpage'])->name('admin.indexp');
-Route::get('/logoutadmin', [AdminController::class, 'logoutadmin'])->name('admin.logout');
+Route::get('/pageadmin', [UserController::class, 'indexpage'])->name('admin.indexp');
+Route::get('/logoutadmin', [UserController::class, 'logoutadmin'])->name('admin.logout');
 
 
 //mail testing
