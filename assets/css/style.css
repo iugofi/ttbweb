@@ -41493,7 +41493,9 @@ img.img-fluid.service-icon {
     border: 1px solid #11CDBE;
     color: #000 !important;
 }
-
+.bnr-btn-1:hover {
+    background-color: #000;
+}
 
 /* End antivirus page css */
 
