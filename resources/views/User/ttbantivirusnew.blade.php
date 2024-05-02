@@ -11,7 +11,7 @@
     <div class="main-content !p-0 landing-main dark:text-defaulttextcolor/70">
 
         <!-- Start::ttbantivirus section one -->
-        <div class="commericial-banner" id="commericial">
+        <div class="antivirus-banner" id="commericial">
             <section class="section sect-ban">
                 <div class="container main-banner-container">
                     <div class="grid grid-cols-12 gap-6">
