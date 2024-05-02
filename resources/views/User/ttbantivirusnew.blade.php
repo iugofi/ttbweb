@@ -34,7 +34,7 @@
                                     <a href="index.html" class="m-1 ti-btn bg-white bnr-btn-2" style="color:#11CDBE;">
                                         Download Now
                                     </a>
-                                </div>
+                                </div> 
                             </div> 
                         </div>
                         {{-- <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 col-span-12">
