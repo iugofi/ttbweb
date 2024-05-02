@@ -51,7 +51,7 @@
 
         {{-- Start:: ttbantivirus section two --}}
         <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] ">
-            <div class="container main-banner-container">
+            <div class="container ttbantivirus-container">
                 <div
                     class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6  customize-image text-center">
