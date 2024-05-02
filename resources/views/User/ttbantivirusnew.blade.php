@@ -61,9 +61,12 @@
                         {{-- <div class="lg:text-start !flex items-center lg:justify-start justify-center animate-bounce">
                             <h6 class="uppercase">25 year of exprience</h6>
                         </div> --}}
+                        <div class="lg:text-start !flex items-center lg:justify-start justify-center">
+                            <img src="{{ asset('assets/img/Second-Section-img.png') }}" alt="" class="img-fluid">
+                        </div>
                     </div>
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 pt-5 pb-0 lg:px-2 !text-start  my-auto">
-                        <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">What We Do</span>
+                        <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">About Us</span>
                         <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">We Provide Web Design
                             With App Development</h4>
                         <p class=" text-[0.9rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
@@ -71,7 +74,7 @@
                             goal-oriented catalysts for change. Collaboratively.
                         </p>
                         <p class=" text-[0.9rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
-                            value with diverse web-readiness.
+                            value with diverse web-readiness.Collaboratively transition wireless customer service.
                         </p>
 
                         <div class="action-btns mt-4">
