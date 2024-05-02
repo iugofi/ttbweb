@@ -12,6 +12,7 @@ use App\Models\News;
 use App\Models\Comment; 
 use App\Models\Newscomment; 
 use App\Models\Contact; 
+use App\Models\Admin; 
 use Mail;
 use Illuminate\Support\Str;
 
