@@ -16,7 +16,7 @@ class AdminController extends Controller
             $this->loggedInAdmin = session('loggedInAdmin');
 
             if ($this->loggedInAdmin) {
-                $this->adminData = Users::find($this->loggedInAdmin);
+                $this->adminData = Admin::find($this->loggedInAdmin);
             }
             return $next($request);
         });
