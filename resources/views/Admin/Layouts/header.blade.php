@@ -17,29 +17,27 @@
         content="admin template, admin dashboard, php admin panel, admin, tailwind css dashboard, php admin dashboard, tailwind admin template, tailwind template, php dashboard, dashboard, tailwind, tailwind dashboard, tailwind css, tailwind css template">
 
     <!-- TITLE -->
-    <title> @yield('title') </title>
+    <title> Ynex - PHP Tailwind CSS Admin & Dashboard Template </title>
 
     <!-- FAVICON -->
     <link rel="icon" href="https://php.spruko.com/tailwind/ynex/ynex/assets/images/brand-logos/favicon.ico"
-        type="image/x-icon">   
+        type="image/x-icon">
 
     <!-- ICONS CSS -->
-    <link href="{{asset('assets/css/icons.css') }}" rel="stylesheet">
+    <link href="assets/css/icons.css" rel="stylesheet">
 
     <!-- STYLE CSS -->
-    <link rel="stylesheet" href="{{asset('assets/css/style.css') }}">
+    <link rel="stylesheet" href="assets/css/style.css">
 
-    <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <!-- SIMPLEBAR CSS -->
-    <link rel="stylesheet" href="{{asset('assets/libs/simplebar/simplebar.min.css') }}">
+    <link rel="stylesheet" href="assets/libs/simplebar/simplebar.min.css">
 
     <!-- COLOR PICKER CSS -->
-    <link rel="stylesheet" href="{{asset('assets/libs/%40simonwep/pickr/themes/nano.min.css') }}">
+    <link rel="stylesheet" href="assets/libs/%40simonwep/pickr/themes/nano.min.css">
 
     <!-- MAIN JS -->
-    <script src="{{asset('assets/js/main.js') }}"></script>
-    
+    <script src="assets/js/main.js"></script>
 
 
 
