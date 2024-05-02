@@ -15,10 +15,7 @@ class AdminController extends Controller
     //     $this->middleware(['Adminauth']);
     // }
 
-    public function index()
-    {
-        return view('Admin.welcome');
-    }
+    
     public function logoutadmin()
     {
         if(session()->has('loggedInAdmin')){
