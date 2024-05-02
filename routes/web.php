@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\UserauthController;
+
 
 
 
@@ -123,18 +125,18 @@ Route::get('/passreset', [UserController::class, 'passreset'])->name('user.passr
 
 Route::get('/logout', [UserController::class, 'logout'])->name('user.logout');
 
-Route::get('/myprofile', [UserController::class, 'myprofile'])->name('user.myprofile');
+Route::get('/myprofile', [UserauthController::class, 'myprofile'])->name('user.myprofile');
 Route::post('/update/name', [UserController::class, 'updateName'])->name('update.name');
 
 
 //admin
-Route::get('/setup', [AdminController::class, 'index'])->name('admin.index');
-Route::post('/signdataadmin', [AdminController::class, 'signdataadmin'])->name('admin.signdata');
+Route::get('/setup', [UserController::class, 'indexadmin'])->name('admin.index');
+Route::post('/signdataadmin', [UserController::class, 'signdataadmin'])->name('admin.signdata');
 
 
 //auth Admin Login Page
 Route::get('/pageadmin', [AdminController::class, 'indexpage'])->name('admin.indexp');
-Route::get('/logoutadmin', [AdminController::class, 'logoutadmin'])->name('admin.logout');
+Route::get('/logoutadmin', [UserController::class, 'logoutadmin'])->name('admin.logout');
 
 
 //mail testing

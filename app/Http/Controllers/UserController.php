@@ -12,6 +12,7 @@ use App\Models\News;
 use App\Models\Comment; 
 use App\Models\Newscomment; 
 use App\Models\Contact; 
+use App\Models\Admin; 
 use Mail;
 use Illuminate\Support\Str;
 
@@ -489,21 +490,21 @@ public function signdata(Request $request)
     }
 
 
-    public function myprofile(){
+    // public function myprofile(){
 
-        // $sessionData = session()->all();
-        $loggedInUser = session('loggedInUser');
-        $user_data = Users::where('id',$loggedInUser)->first();
+    //     // $sessionData = session()->all();
+    //     $loggedInUser = session('loggedInUser');
+    //     $user_data = Users::where('id',$loggedInUser)->first();
 
-        if($loggedInUser==true)
-        {
-            return view('User.myprofile', ['loggedInUser' => $loggedInUser],['user_data' => $user_data]);
-        }
+    //     if($loggedInUser==true)
+    //     {
+    //         return view('User.myprofile', ['loggedInUser' => $loggedInUser],['user_data' => $user_data]);
+    //     }
 
 
-        return redirect('/signin');
+    //     return redirect('/signin');
         
-    }
+    // }
 
     public function updateName(Request $request)
     {
@@ -538,5 +539,64 @@ public function signdata(Request $request)
     }
 
 
+    public function logoutadmin()
+    {
+        if(session()->has('loggedInAdmin')){
+            session()->pull('loggedInAdmin');
+            return redirect('/setup');
+        }
+    }
+
+    public function signdataadmin(Request $request)
+    {
+       $validator=Validator::make($request->all(),[
+        'signin_email' =>'required|max:50',
+        'signin_password' =>'required|min:6|max:20'
+
+
+       ]);
+       if($validator->fails())
+       {
+         return response()->json([
+            'status' =>400,
+            'messages'=>$validator->getMessageBag()->toArray()
+        ]);
+       }
+       else
+       {
+        $user = Admin::where('email',$request->signin_email)->first();
+        if($user)
+        {
+            if(Hash::check($request->signin_password, $user->password))
+            {
+                $request->session()->put('loggedInAdmin',$user->id);
+                $request->session()->put('admintype',$user->admintype);
+                 return response()->json([
+                    'status'=>200,
+                    'messages'=>'success'
+                 ]);
+            }
+            else{
+                return response()->json([
+                    'status'=>401,
+                    'messages'=>'E-mail or Password Incarrect!'
+                 ]);
+            }
+
+        }else{
+            return response()->json([
+                'status'=>401,
+                'messages'=>'User Not Found!'
+             ]);
+        }
+        
+       }
+    }
+
+    
+    public function indexadmin()
+    {
+        return view('Admin.welcome');
+    }
 
     }
