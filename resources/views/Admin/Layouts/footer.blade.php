@@ -1,7 +1,6 @@
 <div id="search-modal" class="hs-overlay ti-modal hidden mt-[1.75rem]">
     <div class="ti-modal-box">
-        <div
-            class="ti-modal-content !border !border-defaultborder dark:!border-defaultborder/10 !rounded-[0.5rem]">
+        <div class="ti-modal-content !border !border-defaultborder dark:!border-defaultborder/10 !rounded-[0.5rem]">
             <div class="ti-modal-body">
 
                 <div class="input-group border-[2px] border-primary rounded-[0.25rem] w-full flex">
@@ -40,27 +39,22 @@
                     </div>
                 </div>
                 <div class="mt-5">
-                    <p
-                        class="font-normal  text-[#8c9097] dark:text-white/50 text-[0.813rem] dark:text-gray-200 mb-2">
+                    <p class="font-normal  text-[#8c9097] dark:text-white/50 text-[0.813rem] dark:text-gray-200 mb-2">
                         Are You Looking For...</p>
 
-                    <span
-                        class="search-tags text-[0.75rem] !py-[0rem] !px-[0.55rem] dark:border-defaultborder/10"><i
+                    <span class="search-tags text-[0.75rem] !py-[0rem] !px-[0.55rem] dark:border-defaultborder/10"><i
                             class="fe fe-user me-2"></i>People<a href="javascript:void(0)"
                             class="tag-addon header-remove-btn"><span class="sr-only">Remove badge</span><i
                                 class="fe fe-x"></i></a></span>
-                    <span
-                        class="search-tags text-[0.75rem] !py-[0rem] !px-[0.55rem] dark:border-defaultborder/10"><i
+                    <span class="search-tags text-[0.75rem] !py-[0rem] !px-[0.55rem] dark:border-defaultborder/10"><i
                             class="fe fe-file-text me-2"></i>Pages<a href="javascript:void(0)"
                             class="tag-addon header-remove-btn"><span class="sr-only">Remove badge</span><i
                                 class="fe fe-x"></i></a></span>
-                    <span
-                        class="search-tags text-[0.75rem] !py-[0rem] !px-[0.55rem] dark:border-defaultborder/10"><i
+                    <span class="search-tags text-[0.75rem] !py-[0rem] !px-[0.55rem] dark:border-defaultborder/10"><i
                             class="fe fe-align-left me-2"></i>Articles<a href="javascript:void(0)"
                             class="tag-addon header-remove-btn"><span class="sr-only">Remove badge</span><i
                                 class="fe fe-x"></i></a></span>
-                    <span
-                        class="search-tags text-[0.75rem] !py-[0rem] !px-[0.55rem] dark:border-defaultborder/10"><i
+                    <span class="search-tags text-[0.75rem] !py-[0rem] !px-[0.55rem] dark:border-defaultborder/10"><i
                             class="fe fe-server me-2"></i>Tags<a href="javascript:void(0)"
                             class="tag-addon header-remove-btn"><span class="sr-only">Remove badge</span><i
                                 class="fe fe-x"></i></a></span>
@@ -141,52 +135,52 @@
 
 <!-- SCROLL-TO-TOP -->
 <div class="scrollToTop">
-<span class="arrow"><i class="ri-arrow-up-s-fill text-xl"></i></span>
+    <span class="arrow"><i class="ri-arrow-up-s-fill text-xl"></i></span>
 </div>
 <div id="responsive-overlay"></div>
 
 <!-- PRELINE JS -->
-<script src="assets/libs/preline/preline.js"></script>
+<script src="{{('asset/assets/libs/preline/preline.js')}}"></script>
 
 <!-- POPPER JS -->
-<script src="assets/libs/%40popperjs/core/umd/popper.min.js"></script>
+<script src="{{('asset/assets/libs/%40popperjs/core/umd/popper.min.js')}}"></script>
 
 <!-- COLOR PICKER JS -->
-<script src="assets/libs/%40simonwep/pickr/pickr.es5.min.js"></script>
+<script src="{{('asset/assets/libs/%40simonwep/pickr/pickr.es5.min.js')}}"></script>
 
 <!-- SWITCH JS -->
-<script src="assets/js/switch.js"></script>
+<script src="{{('asset/assets/js/switch.js')}}"></script>
 
 <!-- SIMPLEBAR JS -->
-<script src="assets/libs/simplebar/simplebar.min.js"></script>
+<script src="{{('asset/assets/libs/simplebar/simplebar.min.js')}}"></script>
 
 <!-- JSVector Maps JS -->
-<script src="assets/libs/jsvectormap/js/jsvectormap.min.js"></script>
+<script src="{{('asset/assets/libs/jsvectormap/js/jsvectormap.min.js')}}"></script>
 
 <!-- JSVector Maps MapsJS -->
-<script src="assets/libs/jsvectormap/maps/world-merc.js"></script>
+<script src="{{('asset/assets/libs/jsvectormap/maps/world-merc.js')}}"></script>
 
 <!-- Apex Charts JS -->
-<script src="assets/libs/apexcharts/apexcharts.min.js"></script>
+<script src="{{('asset/assets/libs/apexcharts/apexcharts.min.js')}}"></script>
 
 <!-- Chartjs Chart JS -->
-<script src="assets/libs/chart.js/chart.min.js"></script>
+<script src="/libs/chart.js/chart.min.js"></script>
 
 <!-- CRM-Dashboard -->
-<script src="assets/js/crm-dashboard.js"></script>
+<script src="{{('asset/assets/js/crm-dashboard.js')}}"></script>
 
 
 <!-- DEFAULTMENU JS -->
-<script src="assets/js/defaultmenu.js"></script>
+<script src="{{('asset/assets/js/defaultmenu.js')}}"></script>
 
 <!-- STICKY JS -->
-<script src="assets/js/sticky.js"></script>
+<script src="{{('asset/assets/js/sticky.js')}}"></script>
 
 <!-- CUSTOM JS -->
-<script src="assets/js/custom.js"></script>
+<script src="{{('asset/assets/js/custom.js')}}"></script>
 
 <!-- CUSTOM-SWITCHER JS -->
-<script src="assets/js/custom-switcher.js"></script>
+<script src="{{('asset/assets/js/custom-switcher.js')}}"></script>
 
 <!-- END SCRIPTS -->
 
