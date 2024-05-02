@@ -35,7 +35,7 @@
                                         Download Now
                                     </a>
                                 </div>
-                            </div>
+                            </div> 
                         </div>
                         {{-- <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 col-span-12">
 
