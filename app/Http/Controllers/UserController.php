@@ -570,6 +570,7 @@ public function signdata(Request $request)
             if(Hash::check($request->signin_password, $user->password))
             {
                 $request->session()->put('loggedInAdmin',$user->id);
+                $request->session()->put('admintype',$user->admintype);
                  return response()->json([
                     'status'=>200,
                     'messages'=>'success'
