@@ -16,7 +16,7 @@ class AdminController extends Controller
             $this->loggedInAdmin = session('loggedInAdmin');
             $this->admintype = session('admintype');
 
-            dd($this->admintype);
+            // dd($this->admintype);
             if ($this->loggedInAdmin) {
                 $this->adminData = Admin::find($this->loggedInAdmin);
             }
@@ -25,6 +25,8 @@ class AdminController extends Controller
     }
 
     public function indexpage(){
+             dd($this->admintype);
+
         if ($this->loggedInAdmin) {
         return view('Admin.index');
         } else {
