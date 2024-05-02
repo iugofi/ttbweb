@@ -58,10 +58,7 @@
                         <div class="lg:text-start !flex items-center lg:justify-start justify-center">
                             <img src="{{ asset('assets/img/ttb-second-section-img-2.png') }}" alt="" class="img-fluid">
                         </div>
-                        <div class="lg:text-start !flex items-center lg:justify-start justify-center animate-bounce">
-                            <h6 class="uppercase">25 year of exprience</h6>
-                        </div>
-                        <div class="lg:text-start !flex items-center lg:justify-start justify-center animate-bounce">
+                        <div class="lg:text-start !flex items-center lg:justify-start justify-center box-animantion">
                             <img src="{{ asset('assets/img/Box.png') }}" alt="" class="img-fluid">
                         </div>
                     </div>
