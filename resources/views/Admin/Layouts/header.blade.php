@@ -17,7 +17,7 @@
         content="admin template, admin dashboard, php admin panel, admin, tailwind css dashboard, php admin dashboard, tailwind admin template, tailwind template, php dashboard, dashboard, tailwind, tailwind dashboard, tailwind css, tailwind css template">
 
     <!-- TITLE -->
-    <title> Ynex - PHP Tailwind CSS Admin & Dashboard Template </title>
+    <title> @yield('title') </title>
 
     <!-- FAVICON -->
     <link rel="icon" href="https://php.spruko.com/tailwind/ynex/ynex/assets/images/brand-logos/favicon.ico"
@@ -29,6 +29,7 @@
     <!-- STYLE CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <!-- SIMPLEBAR CSS -->
     <link rel="stylesheet" href="assets/libs/simplebar/simplebar.min.css">
@@ -38,6 +39,8 @@
 
     <!-- MAIN JS -->
     <script src="assets/js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 
 

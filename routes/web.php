@@ -85,6 +85,8 @@ Route::get('/commercial', [UserController::class, 'commercial_page'])->name('use
 
 
 
+
+
 Route::get('/', [UserController::class, 'index'])->name('user.index');
 
 
@@ -144,6 +146,10 @@ Route::get('/mailtest', [UserController::class, 'mailtest'])->name('admin.mailte
 
 
 
+
+
+//==================== kulvinder add dashboardpages==============//
+Route::get('/', [AdminController::class, 'indexpage'])->name('admin.indexp');
 
 
 

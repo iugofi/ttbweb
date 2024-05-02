@@ -35,7 +35,7 @@
                                 class="badge !bg-warning/10 !text-warning !py-[0.25rem] !px-[0.45rem] !text-[0.75em] ms-2">12</span></span>
                         <i class="fe fe-chevron-right side-menu__angle"></i>
                     </a>
-                    <ul class="slide-menu child1">
+                    {{-- <ul class="slide-menu child1">
                         <li class="slide side-menu__label1">
                             <a href="javascript:void(0)">Dashboards</a>
                         </li>
@@ -76,7 +76,7 @@
                         <li class="slide">
                             <a href="index12.html" class="side-menu__item">Personal</a>
                         </li>
-                    </ul>
+                    </ul> --}}
                 </li>
                 <!-- End::slide -->
                 <!-- Start::slide__category -->
