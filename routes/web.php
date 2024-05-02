@@ -135,7 +135,7 @@ Route::post('/signdataadmin', [UserController::class, 'signdataadmin'])->name('a
 
 
 //auth Admin Login Page
-Route::get('/pageadmin', [UserController::class, 'indexpage'])->name('admin.indexp');
+Route::get('/pageadmin', [UserController::class, 'AdminController'])->name('admin.indexp');
 Route::get('/logoutadmin', [UserController::class, 'logoutadmin'])->name('admin.logout');
 
 
