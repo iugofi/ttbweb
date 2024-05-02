@@ -28,7 +28,7 @@
                                     underwhelm idea-sharing for impactful solutions.
                                 </div>
                                 <div class="bnr-btn text-center">
-                                    <a href="index.html" class="m-1 ti-btn ti-btn-primary-full" style="padding: 8px 34px;">
+                                    <a href="index.html" class="m-1 ti-btn ti-btn-primary-full bnr-btn-1" style="padding: 8px 34px;">
                                         Buy Now
                                     </a>
                                     <a href="index.html" class="m-1 ti-btn bg-white bnr-btn-2" style="color:#11CDBE;">
