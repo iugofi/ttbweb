@@ -594,7 +594,9 @@ public function signdata(Request $request)
     public function indexpage(){
         return view('Admin.index');
     }
-
-
+    public function indexadmin()
+    {
+        return view('Admin.welcome');
+    }
 
     }

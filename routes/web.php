@@ -130,7 +130,7 @@ Route::post('/update/name', [UserController::class, 'updateName'])->name('update
 
 
 //admin
-Route::get('/setup', [UserController::class, 'index'])->name('admin.index');
+Route::get('/setup', [UserController::class, 'indexadmin'])->name('admin.index');
 Route::post('/signdataadmin', [UserController::class, 'signdataadmin'])->name('admin.signdata');
 
 
