@@ -41505,7 +41505,7 @@ img.img-fluid.service-icon {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.box-animantion {
+/* .box-animantion {
     animation: move-up-down 5s ease-in-out 4s infinite;
 }
 .box-animantion img {
@@ -41513,8 +41513,14 @@ img.img-fluid.service-icon {
     max-width: 38%;
     left: 14rem;
     bottom: 22rem;
+} */
+.box-animantion {
+    animation: move-up-down 5s ease-in-out 4s infinite;
+    max-width: 38%;
+    left: 20rem;
+    bottom: 8rem;
+    position: absolute;
 }
-
 
 
 /* End antivirus page css */
