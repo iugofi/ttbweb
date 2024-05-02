@@ -10,23 +10,15 @@ use App\Models\Admin;
 
 class AdminController extends Controller
 {
-    public function __construct()
-    {
-        $this->middleware(function ($request, $next) {
-            $this->loggedInAdmin = session('loggedInAdmin');
-
-            if ($this->loggedInAdmin) {
-                $this->userData = Admin::find($this->loggedInAdmin);
-            }
-            return $next($request);
-        });
-
-    }
-
-    // public function index()
+    // public function __construct()
     // {
-    //     return view('Admin.welcome');
+    //     $this->middleware(['Adminauth']);
     // }
+
+    public function index()
+    {
+        return view('Admin.welcome');
+    }
     public function logoutadmin()
     {
         if(session()->has('loggedInAdmin')){
@@ -81,11 +73,7 @@ class AdminController extends Controller
     }
 
     public function indexpage(){
-        if ($this->loggedInAdmin) {
         return view('Admin.index');
-    } else {
-        return redirect('/signin');
-    }
     }
 
 }
