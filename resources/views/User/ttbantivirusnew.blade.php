@@ -64,8 +64,8 @@
                     </div>
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 pt-5 pb-0 lg:px-2 !text-start">
                         <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">About Us</span>
-                        <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">We Provide Web Design
-                            With App Development</h4>
+                        <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">Good Qualification Services <br>
+                            And Better Skills</h4>
                         <p class=" text-[0.9rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
                             value with diverse web-readiness. Collaboratively transition wireless customer service without
                             goal-oriented catalysts for change. Collaboratively.
@@ -75,7 +75,7 @@
                         </p>
 
                         <div class="action-btns mt-4">
-                            <a href="#" class="ti-btn bg-primary text-white">Explore More Us</a>
+                            <a href="#" class="ti-btn bg-primary text-white">Learn More</a>
                         </div>
                     </div>
                 </div>
