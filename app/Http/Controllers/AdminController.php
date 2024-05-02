@@ -14,7 +14,9 @@ class AdminController extends Controller
     {
         $this->middleware(function ($request, $next) {
             $this->loggedInAdmin = session('loggedInAdmin');
-            // dd($this->loggedInAdmin);
+            $this->admintype = session('admintype');
+
+            dd($this->admintype);
             if ($this->loggedInAdmin) {
                 $this->adminData = Admin::find($this->loggedInAdmin);
             }
