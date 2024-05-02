@@ -27,18 +27,18 @@
     <link href="{{asset('assets/css/icons.css') }}" rel="stylesheet">
 
     <!-- STYLE CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="{{asset('assets/css/style.css') }}">
 
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <!-- SIMPLEBAR CSS -->
-    <link rel="stylesheet" href="assets/libs/simplebar/simplebar.min.css">
+    <link rel="stylesheet" href="{{asset('assets/libs/simplebar/simplebar.min.css') }}">
 
     <!-- COLOR PICKER CSS -->
-    <link rel="stylesheet" href="assets/libs/%40simonwep/pickr/themes/nano.min.css">
+    <link rel="stylesheet" href="{{asset('assets/libs/%40simonwep/pickr/themes/nano.min.css') }}">
 
     <!-- MAIN JS -->
-    <script src="assets/js/main.js"></script>
+    <script src="{{asset('assets/js/main.js') }}"></script>
     
 
 
