@@ -21,7 +21,7 @@
 
     <!-- FAVICON -->
     <link rel="icon" href="https://php.spruko.com/tailwind/ynex/ynex/assets/images/brand-logos/favicon.ico"
-        type="image/x-icon">
+        type="image/x-icon">   
 
     <!-- ICONS CSS -->
     <link href="{{asset('assets/css/icons.css') }}" rel="stylesheet">
