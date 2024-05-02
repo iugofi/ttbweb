@@ -24,7 +24,7 @@
         type="image/x-icon">
 
     <!-- ICONS CSS -->
-    <link href="assets/css/icons.css" rel="stylesheet">
+    <link href="{{asset('assets/css/icons.css') }}" rel="stylesheet">
 
     <!-- STYLE CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
