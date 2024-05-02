@@ -41505,7 +41505,42 @@ img.img-fluid.service-icon {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.box-animantion {
+    animation: move-up-down 5s ease-in-out 4s infinite;
+}
+.box-animantion img {
+    position: relative;
+    max-width: 50%;
+    left: 18rem;
+    bottom: 28rem;
+}
+
+
+
 /* End antivirus page css */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* kunal-verma 23-04-2024 */
 
