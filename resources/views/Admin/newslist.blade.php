@@ -9,7 +9,7 @@
 
 
   <!-- Gridjs CSS -->
-  <link rel="stylesheet" href="assets/libs/gridjs/theme/mermaid.min.css">
+  <link rel="stylesheet" href="{{asset('assets/libs/gridjs/theme/mermaid.min.css')}}">
 
 <div class="content">
     <div class="main-content">
@@ -102,10 +102,10 @@
 
 
      <!-- Grid JS -->
-     <script src="assets/libs/gridjs/gridjs.umd.js"></script>
+     <script src="{{asset('assets/libs/gridjs/gridjs.umd.js')}}"></script>
         
      <!-- Internal Grid JS -->
-     <script src="assets/js/grid.js"></script>
+     <script src="{{asset('assets/js/grid.js')}}"></script>
 
 
 @endsection
