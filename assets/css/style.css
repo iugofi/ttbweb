@@ -41516,7 +41516,22 @@ img.img-fluid.service-icon {
     border: 1px solid #00000008 !important;
     background-color: transparent !important;
 }
-
+.boxs1 .box-body:hover .anti-img1 {
+    content: url('/assets/img/TTB-Antivirus-secure-Icon-1-green.png');
+    margin: auto;
+}
+.boxs1 .box-body:hover .anti-img2 {
+    content: url('/assets/img/TTB-Antivirus-secure-Icon-2-green.png');
+    margin: auto;
+}
+.boxs1 .box-body:hover .anti-img3 {
+    content: url('/assets/img/TTB-Antivirus-secure-Icon-3-green.png');
+    margin: auto;
+}
+.boxs1 .box-body:hover .anti-img4 {
+    content: url('/assets/img/TTB-Antivirus-secure-Icon-4-green.png');
+    margin: auto;
+}
 /* End antivirus page css */
 
 
