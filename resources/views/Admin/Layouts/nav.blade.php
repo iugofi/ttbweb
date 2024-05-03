@@ -32,28 +32,35 @@
                     </a>
                 </li>
 
-                <!-- Start::slide__category -->
-                <li class="slide__category"><span class="category-name">Blog</span></li>
-                <!-- End::slide__category -->
-                <li class="slide">
-                    <a href="" class="side-menu__item">
-                        <i class="bx bx-layer side-menu__icon"></i>
-                        <span class="side-menu__label">News Category</span>
-                    </a>
-                </li>
-                <li class="slide">
-                    <a href="" class="side-menu__item">
-                        <i class="bx bx-file  side-menu__icon"></i>
-                        <span class="side-menu__label">News
-                            Create</span>
-                    </a>
-                </li>
-                <li class="slide">
-                    <a href="" class="side-menu__item">
-                        <i class="bx bx-box side-menu__icon"></i>
-                        <span class="side-menu__label">StorePick</span>
-                    </a>
-                </li>
+                @php
+                if (session('admintype')=='admin') {
+                 @endphp
+                   
+                    <li class="slide__category"><span class="category-name">Blog</span></li>
+                
+                    <li class="slide">
+                        <a href="" class="side-menu__item">
+                            <i class="bx bx-layer side-menu__icon"></i>
+                            <span class="side-menu__label">News Category</span>
+                        </a>
+                    </li>
+                    <li class="slide">
+                        <a href="" class="side-menu__item">
+                            <i class="bx bx-file  side-menu__icon"></i>
+                            <span class="side-menu__label">News Create</span>
+                        </a>
+                    </li>
+                    <li class="slide">
+                        <a href="" class="side-menu__item">
+                            <i class="bx bx-box side-menu__icon"></i>
+                            <span class="side-menu__label">StorePick</span>
+                        </a>
+                    </li>
+            @php
+                }
+            @endphp
+            
+               
 
 
             </ul>
