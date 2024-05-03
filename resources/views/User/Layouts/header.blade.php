@@ -233,11 +233,15 @@
 
         <!-- SIDEBAR -->
 
+            <div class="img" id="imgon">
+                <img src="{{asset('assets/images/imhdg.png')}}" alt="">
+            </div>
 
         <script>
             $(document).ready(function(){
-                setInterval(ajaxCall(), 300000);
-                alert("kulli ki chhoti lulli");
+
+                $('#imgon').show();
+
 
             });
         </script>
