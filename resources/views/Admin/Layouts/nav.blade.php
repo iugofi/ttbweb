@@ -33,9 +33,8 @@
                 </li>
 
                 @php
-                if (session('admintype')=='admin') {
-                 @endphp
-                   
+                if (session('admintype')=='admin'||session('admintype')=='superadmin') {
+                 @endphp                
                     <li class="slide__category"><span class="category-name">Blog</span></li>
                 
                     <li class="slide">
