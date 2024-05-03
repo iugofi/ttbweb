@@ -89,8 +89,8 @@
             id="features">
             <div class="container text-center">
                 <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">What We Do</span>
-                <h1 class="lg:text-center font-semibold mb-2 text-[2rem]">Solutions Coustomers Have<br>
-                    Boilt With Instabase</h1><br>
+                <h1 class="lg:text-center font-semibold mb-2 text-[2rem]">How does TTB Antivirus secure<br>
+                    your devices?</h1><br>
                 <div class="grid grid-cols-12 gap-x-6">
                     <div class="xl:col-span-3 col-span-12">
                         <div class="box boxs1">
@@ -102,7 +102,7 @@
                                             style="max-width: 85px;height: 85px;">
                                     </span>
                                 </div>
-                                <h6 class="font-bold mb-2 text-xl">Omniroutes Lifting</h6>
+                                <h6 class="font-bold mb-2 text-xl">Threat Protection</h6>
                                 <p class="card-text mb-4">Many desktop publishing packages and web page editors
                                     now use Lorem Ipsum as their default model text.</p>
 
@@ -118,7 +118,7 @@
                                             style="max-width: 85px;height: 85px;">
                                     </span>
                                 </div>
-                                <h6 class="font-bold mb-2 text-xl">Content Touchpoint</h6>
+                                <h6 class="font-bold mb-2 text-xl">Easy to Use</h6>
                                 <p class="card-text mb-4">Many desktop publishing packages and web page editors
                                     now use Lorem Ipsum as their default model text.</p>
                             </div>
@@ -134,7 +134,7 @@
 
                                     </span>
                                 </div>
-                                <h6 class="font-bold mb-2 text-xl">Faster Resolution</h6>
+                                <h6 class="font-bold mb-2 text-xl">Consumer Security</h6>
                                 <p class="card-text mb-4">Many desktop publishing packages and web page editors
                                     now use Lorem Ipsum as their default model text.</p>
                             </div>
@@ -150,7 +150,7 @@
 
                                     </span>
                                 </div>
-                                <h6 class="font-bold mb-2 text-xl">Support Channels</h6>
+                                <h6 class="font-bold mb-2 text-xl">Virus Protection</h6>
                                 <p class="card-text mb-4">Many desktop publishing packages and web page editors
                                     now use Lorem Ipsum as their default model text.</p>
                             </div>
