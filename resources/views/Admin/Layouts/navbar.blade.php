@@ -50,35 +50,34 @@
     <div id="responsive-overlay"></div>
 
     <!-- POPPER JS -->
-    <script src="assets/libs/%40popperjs/core/umd/popper.min.js"></script>
+    <script src="{{asset('assets/libs/%40popperjs/core/umd/popper.min.js')}}"></script>
 
     <!-- COLOR PICKER JS -->
-    <script src="assets/libs/%40simonwep/pickr/pickr.es5.min.js"></script>
+    <script src="{{asset('assets/libs/%40simonwep/pickr/pickr.es5.min.js')}}"></script>
 
     <!-- SWIPER JS -->
-    <script src="assets/libs/swiper/swiper-bundle.min.js"></script>
+    <script src="{{asset('assets/libs/swiper/swiper-bundle.min.js')}}"></script>
 
     <!-- DEFAULTMENU JS -->
-    <script src="assets/js/defaultmenu.js"></script>
+    <script src="{{asset('assets/js/defaultmenu.js')}}"></script>
 
     <!-- SIMPLEBAR JS -->
-    <script src="assets/libs/simplebar/simplebar.min.js"></script>
+    <script src="{{asset('assets/libs/simplebar/simplebar.min.js')}}"></script>
 
     <!-- INTERNAL LANDING JS -->
-    <script src="assets/js/landing.js"></script>
+    <script src="{{asset('assets/js/landing.js')}}"></script>
 
     <!-- PRELINE JS -->
-    <script src="assets/libs/preline/preline.js"></script>
+    <script src="{{asset('assets/libs/preline/preline.js')}}"></script>
 
 
     <!-- STICKY JS -->
-    <script src="assets/js/sticky.js"></script>
+    <script src="{{asset('assets/js/sticky.js')}}"></script>
 
     <!-- END SCRIPTS -->
 
 </body>
 
-<!-- Mirrored from php.spruko.com/tailwind/ynex/ynex/pages/landing-jobs.php by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 13 Mar 2024 10:03:39 GMT -->
 
 </html>
 <!-- This code use for render base file -->

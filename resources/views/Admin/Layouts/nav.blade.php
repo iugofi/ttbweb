@@ -3,12 +3,12 @@
     <!-- Start::main-sidebar-header -->
     <div class="main-sidebar-header">
         <a href="index.html" class="header-logo">
-            <img src="assets/images/brand-logos/favicon.png" alt="logo" class="desktop-logo">
-            <img src="assets/images/brand-logos/favicon.png" alt="logo" class="toggle-logo">
-            <img src="assets/images/brand-logos/favicon.png" alt="logo" class="desktop-dark">
-            <img src="assets/images/brand-logos/favicon.png" alt="logo" class="toggle-dark">
-            <img src="assets/images/brand-logos/favicon.png" alt="logo" class="desktop-white">
-            <img src="assets/images/brand-logos/favicon.png" alt="logo" class="toggle-white">
+            <img src="{{asset('assets/images/brand-logos/favicon.png')}}" alt="logo" class="toggle-logo">
+            <img src="{{asset('assets/images/brand-logos/favicon.png')}}" alt="logo" class="desktop-dark">
+            <img src="{{asset('assets/images/brand-logos/favicon.png')}}" alt="logo" class="desktop-logo">
+            <img src="{{asset('assets/images/brand-logos/favicon.png')}}" alt="logo" class="toggle-dark">
+            <img src="{{asset('assets/images/brand-logos/favicon.png')}}" alt="logo" class="desktop-white">
+            <img src="{{asset('assets/images/brand-logos/favicon.png')}}" alt="logo" class="toggle-white">
         </a>
     </div>
     <!-- End::main-sidebar-header -->
