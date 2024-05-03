@@ -233,37 +233,7 @@
 
         <!-- SIDEBAR -->
 
-        <img id="myImg" src="{{asset('assets/images/imhdg.png')}}" alt="Snow" style="width:100%;max-width:300px">
-
-
-         
-            <div id="myModal" class="modal">
-                <span class="close">&times;</span>
-                <img class="modal-content" id="img01">
-                <div id="caption"></div>
-              </div>
-
-              <script>
-               $(document).ready(function(){
-                var modal = document.getElementById("myModal");
-                var img = document.getElementById("myImg");
-                var modalImg = document.getElementById("img01");
-                var captionText = document.getElementById("caption");
-                img.onclick = function(){
-                  modal.style.display = "block";
-                  modalImg.src = this.src;
-                  captionText.innerHTML = this.alt;
-                }
-                
-                // Get the <span> element that closes the modal
-                var span = document.getElementsByClassName("close")[0];
-                
-                // When the user clicks on <span> (x), close the modal
-                span.onclick = function() { 
-                  modal.style.display = "none";
-                }
-            });
-                </script>
+      
 
 
 
