@@ -546,7 +546,7 @@
                                             <span class="text-[#8c9097] dark:text-white/50">Visitors Monitoring<span
                                                     class="badge bg-light text-defaulttextcolor ms-1">24/7</span></span>
                                         </li>
-                                        <li class="mb-4">
+                                        <li class="mb-4">  
                                             <span class="text-[#8c9097] dark:text-white/50">30 Free Domains</span>
                                         </li>
                                         <li class="mb-4">
