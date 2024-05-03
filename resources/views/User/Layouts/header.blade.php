@@ -232,15 +232,12 @@
         <!-- END HEADER -->
 
         <!-- SIDEBAR -->
-{{-- 
 
-        <script>
-             $(document).ready(function() {
-            alert("Neeraj and Kunal ");
-             });
-             <img src="/assets/images/img/wedding-night.jpg" alt="Description of the image">
-        </script> --}}
-
+<script>
+    $(document).ready(function(){
+        alert("mere pass paise nahi hai kl mene saving account me daal diya to meri le lo mai apka kullu");
+    });
+</script>
 
         @extends('User.Layouts.nav')
 
