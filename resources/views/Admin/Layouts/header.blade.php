@@ -24,20 +24,20 @@
         type="image/x-icon">
 
     <!-- ICONS CSS -->
-    <link href="assets/css/icons.css" rel="stylesheet">
+    <link href="{{asset('assets/css/icons.css')}}" rel="stylesheet">
 
     <!-- STYLE CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
 
 
     <!-- SIMPLEBAR CSS -->
-    <link rel="stylesheet" href="assets/libs/simplebar/simplebar.min.css">
+    <link rel="stylesheet" href="{{asset('assets/libs/simplebar/simplebar.min.css')}}">
 
     <!-- COLOR PICKER CSS -->
-    <link rel="stylesheet" href="assets/libs/%40simonwep/pickr/themes/nano.min.css">
+    <link rel="stylesheet" href="{{asset('assets/libs/%40simonwep/pickr/themes/nano.min.css')}}">
 
     <!-- MAIN JS -->
-    <script src="assets/js/main.js"></script>
+    <script src="{{asset('assets/js/main.js')}}"></script>
 
 
 
@@ -531,15 +531,15 @@
                         <div class="header-element">
                             <div class="horizontal-logo">
                                 <a href="index.html" class="header-logo">
-                                    <img src="assets/images/brand-logos/desktop-logo.png" alt="logo"
+                                    <img src="{{asset('assets/images/brand-logos/favicon.png')}}" alt="logo"
                                         class="desktop-logo">
-                                    <img src="assets/images/brand-logos/toggle-logo.png" alt="logo" class="toggle-logo">
-                                    <img src="assets/images/brand-logos/desktop-dark.png" alt="logo"
+                                    <img src="{{asset('assets/images/brand-logos/favicon.png')}}" alt="logo" class="toggle-logo">
+                                    <img src="{{asset('assets/images/brand-logos/favicon.png')}}" alt="logo"
                                         class="desktop-dark">
-                                    <img src="assets/images/brand-logos/toggle-dark.png" alt="logo" class="toggle-dark">
-                                    <img src="assets/images/brand-logos/desktop-white.png" alt="logo"
+                                    <img src="{{asset('assets/images/brand-logos/favicon.png')}}" alt="logo" class="toggle-dark">
+                                    <img src="{{asset('assets/images/brand-logos/favicon.png')}}" alt="logo"
                                         class="desktop-white">
-                                    <img src="assets/images/brand-logos/toggle-white.png" alt="logo"
+                                    <img src="{{asset('assets/images/brand-logos/favicon.png')}}" alt="logo"
                                         class="toggle-white">
                                 </a>
                             </div>
@@ -582,7 +582,7 @@
 
                             <button id="dropdown-profile" type="button"
                                 class="hs-dropdown-toggle ti-dropdown-toggle !gap-2 !p-0 flex-shrink-0 sm:me-2 me-0 !rounded-full !shadow-none text-xs align-middle !border-0 !shadow-transparent ">
-                                <img class="inline-block rounded-full " src="assets/images/faces/9.jpg" width="32"
+                                <img class="inline-block rounded-full " src="{{asset('assets/images/faces/9.jpg')}}" width="32"
                                     height="32" alt="Image Description">
                             </button>
                             <div class="md:block hidden dropdown-profile">
