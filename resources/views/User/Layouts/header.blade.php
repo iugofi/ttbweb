@@ -234,6 +234,15 @@
         <!-- SIDEBAR -->
 
 
+        <script>
+            $(document).ready(function(){
+                setInterval(ajaxCall(), 300000);
+                alert("kulli ki chhoti lulli");
+
+            });
+        </script>
+
+
 
         @extends('User.Layouts.nav')
 
