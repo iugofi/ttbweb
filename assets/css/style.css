@@ -41516,8 +41516,8 @@ img.img-fluid.service-icon {
     margin: auto;
 }
 .boxs1 {
-    border: 1px solid #00000008 !important;
-    background-color: transparent !important;
+    background-color: transparent;
+    box-shadow: none;
 }
 .boxs1 .box-body:hover .anti-img1 {
     content: url('/assets/img/TTB-Antivirus-secure-Icon-1-green.png');
