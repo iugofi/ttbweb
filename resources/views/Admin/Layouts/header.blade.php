@@ -558,15 +558,7 @@
                     </div>
 
                     <div class="header-content-right">
-
-                        <div class="header-element py-[1rem] md:px-[0.65rem] px-2 header-search">
-                            <button aria-label="button" type="button" data-hs-overlay="#search-modal"
-                                class="inline-flex flex-shrink-0 justify-center items-center gap-2  rounded-full font-medium focus:ring-offset-0 focus:ring-offset-white transition-all text-xs dark:bg-bgdark dark:hover:bg-black/20 dark:text-[#8c9097] dark:text-white/50 dark:hover:text-white dark:focus:ring-white/10 dark:focus:ring-offset-white/10">
-                                <i class="bx bx-search-alt-2 header-link-icon"></i>
-                            </button>
-                        </div>
-
-                       
+                     
 
                         <!-- light and dark theme -->
                         <div
