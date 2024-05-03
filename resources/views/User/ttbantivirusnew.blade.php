@@ -143,7 +143,7 @@
                     <div class="xl:col-span-3 col-span-12">
                         <div class="box boxs1">
                             <div class="box-body">
-                                <div class="mb-2 anti-img4 pt-5">
+                                <div class="mb-2 anti-img4 pt-3">
                                     <span class="avatar avatar-md">
                                         <img src="assets/img/TTB-Antivirus-secure-Icon-4.png" alt="img" class="!rounded-md"
                                             style="max-width: 85px;height: 85px;">
