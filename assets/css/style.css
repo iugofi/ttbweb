@@ -41539,9 +41539,9 @@ img.img-fluid.service-icon {
     content: url('/assets/img/TTB-Antivirus-secure-Icon-4-green.png');
     width: 100%;
 }
-.overflow-hidden.container.text-center:hover {
+/* .overflow-hidden.container.text-center:hover {
     background-color: transparent;
-}
+} */
 
 /* End antivirus page css */
 
