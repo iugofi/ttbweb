@@ -41512,7 +41512,10 @@ img.img-fluid.service-icon {
     bottom: 8rem;
     position: absolute;
 }
-
+.boxs1 {
+    border: 1px solid #00000008;
+    background-color: transparent !important;
+}
 
 /* End antivirus page css */
 
