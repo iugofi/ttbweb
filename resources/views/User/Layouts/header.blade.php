@@ -233,11 +233,7 @@
 
         <!-- SIDEBAR -->
 
-<script>
-    $(document).ready(function(){
-        alert("mere pass paise nahi hai kl mene saving account me daal diya to meri le lo mai apka kunal verma and neeraj");
-    });
-</script>
+
 
         @extends('User.Layouts.nav')
 
