@@ -6,8 +6,9 @@
 @section('canonical', '')
 
 
-
 @section('content')
+
+
 
 
     <div class="main-content !p-0 landing-main dark:text-defaulttextcolor/70">
@@ -43,7 +44,7 @@
                 </div>
             </section>
         </div>
-        <!-- End::Home Content -->
+        <!-- End::commericial section one -->
 
         {{-- Start:: commericial section two --}}
         <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] ">
@@ -605,64 +606,10 @@
             </div>
         </section>
 
-        {{-- End:: commericial section saven --}}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        {{-- End:: commericial section saven --}
 
 
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @endsection

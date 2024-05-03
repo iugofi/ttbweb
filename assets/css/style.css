@@ -30205,7 +30205,7 @@ input.gridjs-input {
     border-radius: 0.25rem;
     border-width: 1px;
     border-style: solid;
-    border-color: rgb(var(--input-border));
+    border-color: rgb(187 187 187);
     --tw-bg-opacity: 1;
     background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
@@ -41490,6 +41490,105 @@ img.img-fluid.service-icon {
 /* End vpn-shild banner css */
 
 
+/* start antivirus page css */
+
+.bnr-btn-2:hover {
+    background-color: transparent;
+    border: 1px solid #11CDBE;
+    color: #fff !important;
+}
+.bnr-btn-1:hover {
+    background-color: transparent;
+    border: 1px solid #11CDBE;
+    color: #fff !important;
+}
+.antivirus-banner {
+    background-image: url('/assets/img/Banner.jpg');
+    height: 34rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box-animantion {
+    animation: move-up-down 5s ease-in-out 4s infinite;
+    position: absolute;
+}
+.box-animantion img {
+    left: 12rem;
+    bottom: 21.5rem;
+    position: relative;
+    margin: auto;
+}
+.boxs1 {
+    background-color: transparent;
+    box-shadow: none;
+}
+/* .boxs1 .box-body:hover .anti-img1 {
+    content: url('/assets/img/TTB-Antivirus-secure-Icon-1-green.png');
+    margin: auto;
+    width: 85px;
+    height: 95px;
+}
+.boxs1 .box-body:hover .anti-img2 {
+    content: url('/assets/img/TTB-Antivirus-secure-Icon-2-green.png');
+    margin: auto;
+    width: 85px;
+    height: 95px;
+}
+.boxs1 .box-body:hover .anti-img3 {
+    content: url('/assets/img/TTB-Antivirus-secure-Icon-3-green.png');
+    margin: auto;
+    width: 85px;
+    height: 95px;
+}
+.boxs1 .box-body:hover .anti-img4 {
+    content: url('/assets/img/TTB-Antivirus-secure-Icon-4-green.png');
+    margin: auto;
+    width: 80px;
+    height: 95px;
+} */
+.boxs1 .box-body:hover .anti-img1 img {
+    content: url('/assets/img/TTB-Antivirus-secure-Icon-1-green.png');
+    width: 100%;
+}
+.boxs1 .box-body:hover .anti-img2 img {
+    content: url('/assets/img/TTB-Antivirus-secure-Icon-2-green.png');
+    width: 100%;
+}
+.boxs1 .box-body:hover .anti-img3 img {
+    content: url('/assets/img/TTB-Antivirus-secure-Icon-3-green.png');
+    width: 100%;
+}
+.boxs1 .box-body:hover .anti-img4 img {
+    content: url('/assets/img/TTB-Antivirus-secure-Icon-4-green.png');
+    width: 100%;
+}
+
+/* End antivirus page css */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* kunal-verma 23-04-2024 */
 
 #totel-internet-security div#vpnshield {
@@ -41503,3 +41602,5 @@ img.img-fluid.service-icon {
 }
 
 /* end kunal */
+
+

@@ -1,5 +1,5 @@
-@include("Admin.layouts.header")
+@include("Admin.Layouts.header")
 
 @yield("content")
 
-@include("Admin.layouts.footer")
+@include("Admin.Layouts.footer")
