@@ -98,7 +98,7 @@
                                 <div class="mb-2 anti-img1">
                                     <span class="avatar avatar-md">
 
-                                        <img src="assets/img/Omniroutes-Lifting.png" alt="img" class="!rounded-md"
+                                        <img src="assets/img/TTB-Antivirus-secure-Icon-1.png" alt="img" class="!rounded-md"
                                             style="max-width: 60px;height: 60px;">
                                     </span>
                                 </div>
@@ -114,7 +114,7 @@
                             <div class="box-body">
                                 <div class="mb-2 anti-img2">
                                     <span class="avatar avatar-md">
-                                        <img src="assets/img/Content-Touchpoint.png" alt="img" class="!rounded-md"
+                                        <img src="assets/img/TTB-Antivirus-secure-Icon-2.png" alt="img" class="!rounded-md"
                                             style="max-width: 60px;height: 60px;">
                                     </span>
                                 </div>
@@ -129,7 +129,7 @@
                             <div class="box-body">
                                 <div class="mb-2 anti-img3">
                                     <span class="avatar avatar-md">
-                                        <img src="assets/img/Faster-Resolution.png" alt="img" class="!rounded-md"
+                                        <img src="assets/img/TTB-Antivirus-secure-Icon-3.png" alt="img" class="!rounded-md"
                                             style="max-width: 60px;height: 60px;">
 
                                     </span>
@@ -145,7 +145,7 @@
                             <div class="box-body">
                                 <div class="mb-2 anti-img4">
                                     <span class="avatar avatar-md">
-                                        <img src="assets/img/Support-Channels.png" alt="img" class="!rounded-md"
+                                        <img src="assets/img/TTB-Antivirus-secure-Icon-4.png" alt="img" class="!rounded-md"
                                             style="max-width: 60px;height: 60px;">
 
                                     </span>
