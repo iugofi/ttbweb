@@ -56,8 +56,8 @@
         
 
                 @php
-                $admintype = session('admintype');
-               if ($admintype == 'superadmin') {
+               
+               if (session('admintype')== 'superadmin') {
                 @endphp                
                     <li class="slide__category"><span class="category-name">Payment Details</span></li>
 
