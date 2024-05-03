@@ -143,6 +143,10 @@ Route::get('/logoutadmin', [UserController::class, 'logoutadmin'])->name('admin.
 Route::get('/mailtest', [UserController::class, 'mailtest'])->name('admin.mailtest');
 
 
+//Admin Controller
+Route::get('/newslist', [AdminController::class, 'newslist'])->name('admin.newslist');
+
+
 
 
 
