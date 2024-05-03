@@ -241,19 +241,8 @@
              <img src="/assets/images/img/wedding-night.jpg" alt="Description of the image">
         </script> --}}
 
-        
-
 
         @extends('User.Layouts.nav')
 
-        
-
         <!-- END SIDEBAR -->
         {{-- <div class="main-content !p-0 landing-main dark:text-defaulttextcolor/70"> --}}
-
-            <script>
-                $(document).ready(function() {
-               alert(" mere pass paise nahi hai kl mene saving account me daal diya to meri le lo mai apka kullu");
-                });
-                <img src="/assets/images/IMG_7104.jpg" alt="Description of the image">
-           </script>
