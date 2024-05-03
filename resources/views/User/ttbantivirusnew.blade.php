@@ -374,7 +374,7 @@
                                 </div>
                                 <div
                                     class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12 col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 px-0">
-                                    <div class="p-6 active">
+                                    <div class="p-6 active">  
                                         <h6 class="font-semibold text-center text-[1rem]">ADVANCED</h6>
                                         <div class="py-4 flex items-center justify-center">
                                             <div class="pricing-svg1">
