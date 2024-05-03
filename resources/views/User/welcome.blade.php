@@ -59,7 +59,7 @@
                 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-4">
                     <div class="col-span-1 mb-4 ">
                         <div
-                            class="p-7  !rounded-sm2 bg-white dark:bg-bodybg border box-shadow  dark:border-defaultborder/10">
+                            class="p-7  !rounded-sm2 bg-white dark:bg-bodybg border box-shadow  dark:border-defaultborder/10 box-icon-cont">
                             <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
                                 <i class="text-[1.5rem] bx bx-spreadsheet"></i>
                             </span>
@@ -71,7 +71,7 @@
                     </div>
                     <div class="col-span-1 mb-4 ">
                         <div
-                            class="p-7  !rounded-sm2 !bg-white dark:!bg-bodybg border box-shadow dark:border-defaultborder/10">
+                            class="p-7  !rounded-sm2 !bg-white dark:!bg-bodybg border box-shadow dark:border-defaultborder/10 box-icon-cont">
                             <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
                                 <i class="text-[1.5rem] bx bx-user-plus"></i>
                             </span>
@@ -83,7 +83,7 @@
                     </div>
                     <div class="col-span-1 mb-4 ">
                         <div
-                            class="p-7  !rounded-sm2 !bg-white dark:!bg-bodybg border box-shadow dark:border-defaultborder/10">
+                            class="p-7  !rounded-sm2 !bg-white dark:!bg-bodybg border box-shadow dark:border-defaultborder/10 box-icon-cont">
                             <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
                                 <i class="text-[1.5rem] bx bx-money"></i>
                             </span> 
@@ -95,7 +95,7 @@
                     </div>
                     <div class="col-span-1 mb-4 ">
                         <div
-                            class="p-7 !rounded-sm2 !bg-white dark:!bg-bodybg border box-shadow dark:border-defaultborder/10">
+                            class="p-7 !rounded-sm2 !bg-white dark:!bg-bodybg border box-shadow dark:border-defaultborder/10 box-icon-cont">
                             <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
                                 <i class="text-[1.5rem] bx bx-money"></i>
                             </span>
