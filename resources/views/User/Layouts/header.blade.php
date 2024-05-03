@@ -296,7 +296,7 @@ var modalImg = document.getElementById("img01");
 modal.style.display = "block";
 modalImg.src = "{{asset('assets/images/imhdg.png')}}";
 
-// Get the <span> element that closes the modal
+// Get the <span> e lement that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks on <span> (x), close the modal
