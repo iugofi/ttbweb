@@ -543,6 +543,7 @@ public function signdata(Request $request)
     {
         if(session()->has('loggedInAdmin')){
             session()->pull('loggedInAdmin');
+            session()->pull('admintype');
             return redirect('/setup');
         }
     }
