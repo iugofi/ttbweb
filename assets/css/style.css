@@ -41523,30 +41523,6 @@ img.img-fluid.service-icon {
     background-color: transparent;
     box-shadow: none;
 }
-/* .boxs1 .box-body:hover .anti-img1 {
-    content: url('/assets/img/TTB-Antivirus-secure-Icon-1-green.png');
-    margin: auto;
-    width: 85px;
-    height: 95px;
-}
-.boxs1 .box-body:hover .anti-img2 {
-    content: url('/assets/img/TTB-Antivirus-secure-Icon-2-green.png');
-    margin: auto;
-    width: 85px;
-    height: 95px;
-}
-.boxs1 .box-body:hover .anti-img3 {
-    content: url('/assets/img/TTB-Antivirus-secure-Icon-3-green.png');
-    margin: auto;
-    width: 85px;
-    height: 95px;
-}
-.boxs1 .box-body:hover .anti-img4 {
-    content: url('/assets/img/TTB-Antivirus-secure-Icon-4-green.png');
-    margin: auto;
-    width: 80px;
-    height: 95px;
-} */
 .boxs1 .box-body:hover .anti-img1 img {
     content: url('/assets/img/TTB-Antivirus-secure-Icon-1-green.png');
     width: 100%;
@@ -41563,12 +41539,20 @@ img.img-fluid.service-icon {
     content: url('/assets/img/TTB-Antivirus-secure-Icon-4-green.png');
     width: 100%;
 }
-
+.overflow-hidden.container.text-center:hover {
+    background-color: transparent;
+}
+.active:active {
+    background-color: #000;
+    border-radius: 9px;
+    box-shadow: 0px 0px 6px 0px #bababa;
+    margin: 0 25px auto;
+}
 /* End antivirus page css */
 
 
 
-
+  
 
 
 

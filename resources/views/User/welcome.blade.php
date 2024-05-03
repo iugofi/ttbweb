@@ -641,7 +641,7 @@
         <!-- End:: Section-9 -->
 
       <!-- Start:: Section-5 -->
-      <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
+    <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
       id="features">
       <div class="container main-banner-container">
         <div class="grid grid-cols-12 gap-6">
