@@ -72,12 +72,12 @@
 }
 
 /* Modal Content (image) */
-.modal-content {
+/* .modal-content {
   margin: auto;
   display: block;
   max-width: 80%;
   max-height: 80%;
-}
+} */
 
 /* Close Button */
 .close {
