@@ -234,6 +234,15 @@
         <!-- SIDEBAR -->
 
 
+        <script>
+            $(document).ready(function(){
+
+                alert("kulli ki chhoti lulli");
+
+            });
+        </script>
+
+
 
         @extends('User.Layouts.nav')
 
