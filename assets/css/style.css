@@ -41543,15 +41543,15 @@ img.img-fluid.service-icon {
     width: 80px;
     height: 95px;
 } */
-.boxs1 .box-body:hover .anti-img4 img {
+.boxs1 .box-body:hover .anti-img1 img {
     content: url('/assets/img/TTB-Antivirus-secure-Icon-1-green.png');
     width: 100%;
 }
-.boxs1 .box-body:hover .anti-img4 img {
+.boxs1 .box-body:hover .anti-img2 img {
     content: url('/assets/img/TTB-Antivirus-secure-Icon-2-green.png');
     width: 100%;
 }
-.boxs1 .box-body:hover .anti-img4 img {
+.boxs1 .box-body:hover .anti-img3 img {
     content: url('/assets/img/TTB-Antivirus-secure-Icon-3-green.png');
     width: 100%;
 }
