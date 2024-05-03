@@ -41507,10 +41507,13 @@ img.img-fluid.service-icon {
 }
 .box-animantion {
     animation: move-up-down 5s ease-in-out 4s infinite;
-    max-width: 38%;
-    left: 20rem;
-    bottom: 8rem;
     position: absolute;
+}
+.box-animantion img {
+    left: 12rem;
+    bottom: 21.5rem;
+    position: relative;
+    margin: auto;
 }
 .boxs1 {
     border: 1px solid #00000008 !important;
