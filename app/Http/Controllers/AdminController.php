@@ -34,5 +34,20 @@ class AdminController extends Controller
         }
     }
 
+    public function newslist(){
+    if ($this->loggedInAdmin) {
+    return view('Admin.newslist');
+    } else {
+        return redirect('/setup');
+    }
+}
+
+public function newscreate(){
+    if ($this->loggedInAdmin) {
+    return view('Admin.newscreate');
+    } else {
+        return redirect('/setup');
+    }
+}
 
 }

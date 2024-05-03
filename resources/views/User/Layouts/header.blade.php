@@ -232,14 +232,7 @@
         <!-- END HEADER -->
 
         <!-- SIDEBAR -->
-{{-- 
 
-        <script>
-             $(document).ready(function() {
-            alert("Neeraj and Kunal ");
-             });
-             <img src="/assets/images/img/wedding-night.jpg" alt="Description of the image">
-        </script> --}}
 
 
         @extends('User.Layouts.nav')
