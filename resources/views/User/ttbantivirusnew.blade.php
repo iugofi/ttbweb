@@ -141,7 +141,7 @@
                         </div>
                     </div>
                     <div class="xl:col-span-3 col-span-12">
-                        <div class="box box1">
+                        <div class="box boxs1">
                             <div class="box-body">
                                 <div class="mb-2 anti-img4">
                                     <span class="avatar avatar-md">
