@@ -41513,7 +41513,7 @@ img.img-fluid.service-icon {
     position: absolute;
 }
 .boxs1 {
-    border: 1px solid #00000008;
+    border: 1px solid #00000008 !important;
     background-color: transparent !important;
 }
 
