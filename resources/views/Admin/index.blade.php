@@ -5,9 +5,6 @@
     '')
 @section('keywords', '')
 @section('canonical', 'vbhdvbh')
-
-
-
 @section('content')
 
 <div class="content">
@@ -1018,3 +1015,4 @@
 </div>
 
 @endsection
+
