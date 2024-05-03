@@ -33,24 +33,45 @@
                 </li>
 
                               
-                    <li class="slide__category"><span class="category-name">Blog</span></li>
-                
-                    <li class="slide">
-                        <a href="" class="side-menu__item">
-                            <i class="bx bx-layer side-menu__icon"></i>
-                            <span class="side-menu__label">News Category</span>
-                        </a>
-                    </li>
+                <li class="slide__category"><span class="category-name">News</span></li>               
+                <li class="slide">
+                    <a href="" class="side-menu__item">
+                        <i class="bx bx-file  side-menu__icon"></i>
+                        <span class="side-menu__label">News List</span>
+                    </a>
+                </li>
                     <li class="slide">
                         <a href="" class="side-menu__item">
                             <i class="bx bx-file  side-menu__icon"></i>
                             <span class="side-menu__label">News Create</span>
                         </a>
                     </li>
+
+                    <li class="slide__category"><span class="category-name">Blog</span></li>               
+                <li class="slide">
+                    <a href="" class="side-menu__item">
+                        <i class="bx bx-file  side-menu__icon"></i>
+                        <span class="side-menu__label">Blog List</span>
+                    </a>
+                </li>
+                    <li class="slide">
+                        <a href="" class="side-menu__item">
+                            <i class="bx bx-file  side-menu__icon"></i>
+                            <span class="side-menu__label">Blog Create</span>
+                        </a>
+                    </li>
+
+                <li class="slide__category"><span class="category-name">Storepick</span></li>   
                     <li class="slide">
                         <a href="" class="side-menu__item">
                             <i class="bx bx-box side-menu__icon"></i>
-                            <span class="side-menu__label">StorePick</span>
+                            <span class="side-menu__label">StorePick List</span>
+                        </a>
+                    </li>
+                    <li class="slide">
+                        <a href="" class="side-menu__item">
+                            <i class="bx bx-box side-menu__icon"></i>
+                            <span class="side-menu__label">StorePick Add</span>
                         </a>
                     </li>
         
