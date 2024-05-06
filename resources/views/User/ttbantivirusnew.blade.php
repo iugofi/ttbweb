@@ -219,7 +219,7 @@
                                         <h6 class="font-semibold text-center text-[1rem]">PREMIUM</h6>
                                         <div class="py-4 flex items-center justify-center">
                                             <div class="text-end ms-5">
-                                                <p class="text-[1.5625rem] font-semibold mb-0 text-primary">$1,299</p>
+                                                <p class="text-[1.5625rem] font-semibold mb-0 text-primary">$499</p>
                                                 <p
                                                     class="text-[#8c9097] dark:text-white/50 opacity-50 text-[.6875rem] font-semibold mb-0">
                                                     per month</p>
@@ -259,7 +259,7 @@
                                         <h6 class="font-semibold text-center text-[1rem]">ADVANCED</h6>
                                         <div class="py-4 flex items-center justify-center">
                                             <div class="text-end ms-5">
-                                                <p class="text-[1.5625rem] font-semibold mb-0">$499</p>
+                                                <p class="text-[1.5625rem] font-semibold mb-0">$1,299</p>
                                                 <p
                                                     class="text-[#8c9097] dark:text-white/50 opacity-50 text-[.6875rem] font-semibold mb-0">
                                                     per month</p>
