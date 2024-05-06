@@ -67,7 +67,7 @@
                                 item.description = truncateWords(item.description, 3);
                                 item.meta_title = truncateWords(item.meta_title, 3);
                                 item.canonical_url = truncateWords(item.canonical_url, 3);
-                                item.image = truncateWords(item.image, 3);
+                                item.image = truncateWords(item.image, 1);
 
 
                             });
@@ -79,7 +79,7 @@
                                     { name: "title", width: "150px" },
                                     { name: "slug", width: "150px" },
                                     { name: "news_category_id", width: "150px" },
-                                    { name: "image", width: "150px" },
+                                    { name: "image", width: "200px" },
                                     { name: "description", width: "150px" },
                                     { name: "meta_title", width: "150px" },
                                     { name: "canonical_url", width: "150px" }
