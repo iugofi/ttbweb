@@ -10,6 +10,7 @@
 
   <!-- Gridjs CSS -->
   <link rel="stylesheet" href="{{asset('assets/libs/gridjs/theme/mermaid.min.css')}}">
+  <link rel="stylesheet" href="https://cdn.datatables.net/2.0.6/css/dataTables.tailwindcss.css">
 
 <div class="content">
     <div class="main-content">
@@ -97,6 +98,8 @@
         
      <!-- Internal Grid JS -->
      <script src="{{asset('assets/js/grid.js')}}"></script>
+     <script src="https://cdn.datatables.net/2.0.6/js/dataTables.js"></script>
+     <script src="https://cdn.datatables.net/2.0.6/js/dataTables.tailwindcss.js"></script>
 
 
 @endsection
