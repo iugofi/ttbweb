@@ -84,7 +84,7 @@
                                             </div></td>
                                             <td class="border px-4 py-2">{!! nl2br(e(Str::limit(strip_tags($item->title), 20))) !!}</td>                              
                                             <td class="border px-4 py-2">{!! nl2br(e(Str::limit(strip_tags($item->description), 20))) !!}</td>
-                                            <td class="border px-4 py-2">
+                                            <td class="border">
                                                 @php
                                                 $storepick = DB::table('storepick')
                                                             ->where('STORE_ID', '=', 'Status')
