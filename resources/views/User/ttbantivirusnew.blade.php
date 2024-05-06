@@ -91,8 +91,8 @@
             id="features">
             <div class="container text-center">
                 <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">What We Do</span>
-                <h1 class="lg:text-center font-semibold mb-2 text-[2rem]">How does TTB Antivirus secure<br>
-                    your devices?</h1><br>
+                <h2 class="lg:text-center font-semibold mb-2 text-[2rem]">How does TTB Antivirus secure<br>
+                    your devices?</h2><br>
                 <div class="grid grid-cols-12 gap-x-6">
                     <div class="xl:col-span-3 col-span-12">
                         <div class="box boxs1">
@@ -165,6 +165,7 @@
 
         {{-- Start:: ttbantivirus section forth --}}
         <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] ">
+            <h2 class="text-center font-semibold mb-5 text-[2rem]">Pricing Plan</h2>
             <div class="box overflow-hidden container pricing-section">
                 <div class="box-body !p-0">
                     <div class="tab-content" id="myTabContent">
