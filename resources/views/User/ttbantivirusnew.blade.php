@@ -393,9 +393,17 @@
                 <div class="box-body">
                     <div class="swiper swiper-basic pagination-fraction">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide"><img src="assets/images/media/media-16.jpg" class="!rounded-md" alt=""></div>
-                            <div class="swiper-slide"><img src="assets/images/media/media-30.jpg" class="!rounded-md" alt=""></div>
-                            <div class="swiper-slide"><img src="assets/images/media/media-31.jpg" class="!rounded-md" alt=""></div>
+                            <div class="swiper-slide xl:col-span-12 lg:col-span-12 md:col-span-12 sm:col-span-12 col-span-12"><img src="assets/images/media/media-16.jpg" class="!rounded-md" alt="">
+                            <div> <img src="{{ asset('assets/img/We-team-of-experience-It-Specialties.png') }}" alt="" srcset="">
+                                <h6>testimonial one</h6>
+                            </div>
+                            <div> 
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus vitae voluptatem sint totam harum quam eveniet incidunt minima neque facilis!</p>
+                            </div>
+                            </div>
+
+                            <div class="swiper-slide xl:col-span-12 lg:col-span-12 md:col-span-12 sm:col-span-12 col-span-12"><img src="assets/images/media/media-30.jpg" class="!rounded-md" alt=""></div>
+                            <div class="swiper-slide xl:col-span-12 lg:col-span-12 md:col-span-12 sm:col-span-12 col-span-12"><img src="assets/images/media/media-31.jpg" class="!rounded-md" alt=""></div>
                         </div>
                         <div class="swiper-button-next"></div>
                         <div class="swiper-button-prev"></div>
