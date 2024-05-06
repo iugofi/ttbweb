@@ -41572,12 +41572,11 @@ img.img-fluid.service-icon {
     position: relative;
     margin: 0 6px auto;
 }
-
-
-
-
       /* End */
 
+.text-vertical {
+    margin: auto;
+}
 /* End antivirus page css */
 
 
