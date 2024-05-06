@@ -10,6 +10,7 @@
 
   <!-- Gridjs CSS -->
   <link rel="stylesheet" href="{{asset('assets/libs/gridjs/theme/mermaid.min.css')}}">
+  <link rel="stylesheet" href="https://cdn.datatables.net/2.0.6/css/dataTables.tailwindcss.css">
 
 <div class="content">
     <div class="main-content">
@@ -40,14 +41,39 @@
             <div class="grid grid-cols-12 gap-6">
                 <div class="xl:col-span-12 col-span-12">
                     <div class="box custom-box">
-                        <div class="box-header">
-                            <div class="box-title">
-                                News List
-                            </div>
-                        </div>
-                        <div class="box-body">    
-                            <div id="grid-container"></div>
-                        </div>
+                        <table id="example" class="display" style="width:100%">
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Position</th>
+                                    <th>Office</th>
+                                    <th>Age</th>
+                                    <th>Start date</th>
+                                    <th>Salary</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Tiger Nixon</td>
+                                    <td>System Architect</td>
+                                    <td>Edinburgh</td>
+                                    <td>61</td>
+                                    <td>2011-04-25</td>
+                                    <td>$320,800</td>
+                                </tr>
+                               
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Position</th>
+                                    <th>Office</th>
+                                    <th>Age</th>
+                                    <th>Start date</th>
+                                    <th>Salary</th>
+                                </tr>
+                            </tfoot>
+                        </table>
                     </div>
                 </div>
             </div>
@@ -60,6 +86,9 @@
     </div>
 </div>
 
+<script>
+    new DataTable('#example');
+</script>
 
 
 
@@ -69,6 +98,8 @@
         
      <!-- Internal Grid JS -->
      <script src="{{asset('assets/js/grid.js')}}"></script>
+     <script src="https://cdn.datatables.net/2.0.6/js/dataTables.js"></script>
+     <script src="https://cdn.datatables.net/2.0.6/js/dataTables.tailwindcss.js"></script>
 
 
 @endsection
