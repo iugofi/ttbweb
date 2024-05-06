@@ -108,7 +108,7 @@
                                 item.title = truncateWords(item.title, 3);
                                 item.description = truncateWords(item.description, 3);
                                 item.meta_title = truncateWords(item.meta_title, 3);
-                                item.canonical_url = truncateWords(item.canonical_url, 3);
+                                item.canonical_url = truncateWords(item.canonical_url, 2);
                          
 
 
@@ -123,7 +123,7 @@
                                     { name: "news_category_id", width: "150px" },
                                     { name: "description", width: "150px" },
                                     { name: "meta_title", width: "150px" },
-                                    { name: "canonical_url", width: "150px" },
+                                    { name: "canonical_url", width: "250px" },
                                     { name: "Action", width: "150px" }
                                     
                                 ],
