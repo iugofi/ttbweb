@@ -397,7 +397,8 @@
                                 <div class="relative">
                                     <div class="relative rounded-sm overflow-auto">
                                       <div class="sm:grid space-y-6 sm:space-y-0 grid-cols-2 gap-4 font-mono text-defaulttextcolor text-sm text-center font-bold rounded-sm">
-                                        <div class="p-4 rounded-sm  bg-light">01</div>
+                                        <div class="p-4 rounded-sm  bg-light"> <img src="{{ asset('assets/img/Bg-Circle.png') }}" alt=""
+                                            class="img-fluid" width="65px"></div>
                                         <div class="p-4 rounded-sm  bg-light">02</div>
                                         <div class="p-4 rounded-sm  bg-light">03</div>
                                         <div class="p-4 rounded-sm  bg-light">04</div>
@@ -409,7 +410,8 @@
                                 <div class="relative">
                                     <div class="relative rounded-sm overflow-auto">
                                       <div class="sm:grid space-y-6 sm:space-y-0 grid-cols-2 gap-4 font-mono text-defaulttextcolor text-sm text-center font-bold rounded-sm">
-                                        <div class="p-4 rounded-sm  bg-light">01</div>
+                                        <div class="p-4 rounded-sm  bg-light"><img src="{{ asset('assets/img/Bg-Circle.png') }}" alt=""
+                                            class="img-fluid" width="65px"></div>
                                         <div class="p-4 rounded-sm  bg-light">02</div>
                                         <div class="p-4 rounded-sm  bg-light">03</div>
                                         <div class="p-4 rounded-sm  bg-light">04</div>
@@ -421,7 +423,8 @@
                                 <div class="relative">
                                     <div class="relative rounded-sm overflow-auto">
                                       <div class="sm:grid space-y-6 sm:space-y-0 grid-cols-2 gap-4 font-mono text-defaulttextcolor text-sm text-center font-bold rounded-sm">
-                                        <div class="p-4 rounded-sm  bg-light">01</div>
+                                        <div class="p-4 rounded-sm  bg-light"><img src="{{ asset('assets/img/Bg-Circle.png') }}" alt=""
+                                            class="img-fluid" width="65px"></div>
                                         <div class="p-4 rounded-sm  bg-light">02</div>
                                         <div class="p-4 rounded-sm  bg-light">03</div>
                                         <div class="p-4 rounded-sm  bg-light">04</div>
