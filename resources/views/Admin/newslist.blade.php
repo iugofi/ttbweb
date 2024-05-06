@@ -85,7 +85,21 @@
                                             <td class="border px-4 py-2">{!! nl2br(e(Str::limit(strip_tags($item->title), 20))) !!}</td>                              
                                             <td class="border px-4 py-2">{!! nl2br(e(Str::limit(strip_tags($item->description), 20))) !!}</td>
                                             <td class="border px-4 py-2">{{ $item->status }}</td>
-                                            <td class="border px-4 py-2"></td>
+                                            <td class="border px-4 py-2">
+                                                <div
+                                                    class="flex flex-row items-center !gap-2 text-[0.9375rem]">
+                                                    <a aria-label="anchor" href="{{ route('edit.news', $item->id) }}" class="ti-btn ti-btn-icon ti-btn-wave !gap-0 !m-0 !h-[1.75rem] !w-[1.75rem] text-[0.8rem] bg-primary/10 text-primary hover:bg-primary hover:text-white hover:border-primary">
+                                                        <i class="ri-edit-line"></i>
+                                                    </a>
+                                                    
+    
+                                                            <button aria-label="button" type="button"
+                                                            class="ti-btn !py-1 !px-2 !text-[0.75rem] ti-btn-danger-full btn-wave delete-news"
+                                                            data-url="{{ route('news.delete', $item->id) }}">
+                                                            <i class="ri-delete-bin-line align-middle me-2 inline-block"></i>Delete
+                                                        </button>
+                                                </div>
+                                            </td>
                                         </tr>
                                     @endforeach
 
