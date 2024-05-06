@@ -96,7 +96,7 @@
                                                     $statusText = '';
                                                     $statusColor = '';
     
-                                                    switch ($news->Status) {
+                                                    switch ($item->status) {
                                                         case 101:
                                                             $statusText = $storepick->PICK_TEXT;
                                                             $statusColor = 'primary';
