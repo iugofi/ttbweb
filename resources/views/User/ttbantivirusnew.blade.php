@@ -382,212 +382,64 @@
 
         {{-- Start:: ttbantivirus faq section saven --}}
 
-        <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]" id="faq">
-            <div class="container text-center">
-                {{-- <p class="text-[0.75rem] font-semibold text-success mb-1"><span
-                        class="landing-section-heading">F.A.Q</span></p> --}}
-                <h3 class="lg:text-center font-semibold mb-2 text-[2rem]" style="color:#fff !important;">Frequently Asked Question</h3>
-                <div class="grid grid-cols-12 justify-center">
-                    <div class="col-span-12">
-                        <p class="text-[#8c9097] dark:text-white/50 text-[0.9375rem] mb-12 font-normal">Efficiently
-                            productivate reliable paradigms before ubiquitous models. Continually utilize frictionless
-                            <br>expertise whereas tactical relationships. Still have questions? Contact us</p>
+        <div class="lead-testimonial-cont">
+            <h2 class="tstmnl-hndg">What people say about us</h2>
+            <div class="lead-tstmnl-slider">
+                <div class="lead-tstmnl-slide">
+                    <div class="lead-tstmnl-img">
+                        <img src="http://demosoft.indicsoft.com/SalmanDemo/onspon-html/other-pages/images/salman.jpg">
+                    </div>
+                    <div class="lead-tstmnl-text-cont">
+                        <span class="lead-tstmnl-comment">
+                            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </span>
+                        <ul class="lead-tstmnl-nm-dsg">
+                            <li>Salman Khan</li>
+                            <li>Bollywood Actor</li>
+                        </ul>
                     </div>
                 </div>
-                <div class="grid grid-cols-12 gap-6 text-start">
-                    <div class="xl:col-span-12 col-span-12">
-                        <div class="grid grid-cols-12 gap-6">
-                            <div class="xl:col-span-6 col-span-12">
-                                <div class="lg:text-start !flex items-center lg:justify-start justify-center">
-                                    <img src="{{ asset('assets/img/Faq-images.png') }}" alt="" width="95%"
-                                        class="img-fluid">
-                                </div>
-                            </div>
-                            <div class="xl:col-span-6 col-span-12">
-                                <div class="accordion accordion-customicon1 accordion-primary accordions-items-seperate"
-                                    id="accordionFAQ2">
-                                    <div class="hs-accordion-group">
-                                        <div class="hs-accordion active bg-white dark:bg-bodybg border-solid  border dark:border-defaultborder/10 mt-[0.5rem] rounded-sm dark:border dark:border-defaultborder/10-white/10"
-                                            id="faq-five">
-                                            <button type="button"
-                                                class="hs-accordion-toggle hs-accordion-active:!text-primary hs-accordion-active:border dark:border-defaultborder/10-b hs-accordion-active:bg-primary/10   dark:border-defaultborder/10 dark:hs-accordion-active:border dark:border-defaultborder/10-white/10 justify-between inline-flex items-center w-full font-semibold text-start text-[0.85rem] transition py-5 px-4 dark:hs-accordion-active:!text-primary dark:text-gray-200 dark:hover:text-white/80"
-                                                aria-controls="faq-collapse-seven">
-                                                General Terms &amp; Conditions (GTC)
-                                                <svg class="hs-accordion-active:hidden hs-accordion-active:!text-primary hs-accordion-active:group-hover:!text-primary block w-3 h-3 text-gray-600 group-hover:text-defaulttextcolor dark:text-defaulttextcolor/70 "
-                                                    width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M1.5 8.85999L14.5 8.85998" stroke="currentColor"
-                                                        stroke-width="2" stroke-linecap="round" />
-                                                    <path d="M8 15.36L8 2.35999" stroke="currentColor" stroke-width="2"
-                                                        stroke-linecap="round" />
-                                                </svg>
-                                                <svg class="hs-accordion-active:block hs-accordion-active:!text-primary hs-accordion-active:group-hover:!text-primary hidden w-3 h-3 text-gray-600 group-hover:text-defaulttextcolor dark:text-defaulttextcolor/70 "
-                                                    width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M1.5 8.85999L14.5 8.85998" stroke="currentColor"
-                                                        stroke-width="2" stroke-linecap="round" />
-                                                </svg>
-                                            </button>
-                                            <div id="faq-collapse-seven"
-                                                class="hs-accordion-content w-full overflow-hidden transition-[height] duration-300"
-                                                aria-labelledby="faq-five">
-                                                <div class="p-5">
-                                                    <p class="text-defaulttextcolor dark:text-defaulttextcolor/70 ">
-                                                        <strong>This is the first item's accordion body.</strong> It is
-                                                        shown by
-                                                        default, until the collapse plugin adds the appropriate classes that
-                                                        we
-                                                        use to style each element. These classes control the overall
-                                                        appearance,
-                                                        as well as the showing and hiding via CSS transitions. You can
-                                                        modify
-                                                        any of this with custom CSS or overriding our default variables.
-                                                        It's
-                                                        also worth noting that just about any HTML can go within the
-                                                        <code>.accordion-body</code>, though the transition does limit
-                                                        overflow.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="hs-accordion bg-white dark:bg-bodybg border dark:border-defaultborder/10 mt-[0.5rem] rounded-sm dark:border dark:border-defaultborder/10-white/10"
-                                            id="faq-six">
-                                            <button type="button"
-                                                class="hs-accordion-toggle hs-accordion-active:!text-primary hs-accordion-active:border dark:border-defaultborder/10-b hs-accordion-active:bg-primary/10   dark:border-defaultborder/10 dark:hs-accordion-active:border dark:border-defaultborder/10-white/10 justify-between inline-flex items-center w-full font-semibold text-start text-[0.85rem] transition py-5 px-4 dark:hs-accordion-active:!text-primary dark:text-gray-200 dark:hover:text-white/80"
-                                                aria-controls="faq-collapse-eight">
-                                                Do I need to create an account to make an order?
-                                                <svg class="hs-accordion-active:hidden hs-accordion-active:!text-primary hs-accordion-active:group-hover:!text-primary block w-3 h-3 text-gray-600 group-hover:text-defaulttextcolor dark:text-defaulttextcolor/70 "
-                                                    width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M1.5 8.85999L14.5 8.85998" stroke="currentColor"
-                                                        stroke-width="2" stroke-linecap="round" />
-                                                    <path d="M8 15.36L8 2.35999" stroke="currentColor" stroke-width="2"
-                                                        stroke-linecap="round" />
-                                                </svg>
-                                                <svg class="hs-accordion-active:block hs-accordion-active:!text-primary hs-accordion-active:group-hover:!text-primary hidden w-3 h-3 text-gray-600 group-hover:text-defaulttextcolor dark:text-defaulttextcolor/70 "
-                                                    width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M1.5 8.85999L14.5 8.85998" stroke="currentColor"
-                                                        stroke-width="2" stroke-linecap="round" />
-                                                </svg>
-                                            </button>
-                                            <div id="faq-collapse-eight"
-                                                class="hs-accordion-content w-full overflow-hidden hidden transition-[height] duration-300"
-                                                aria-labelledby="faq-six">
-                                                <div class="p-5">
-                                                    <p class="text-defaulttextcolor dark:text-defaulttextcolor/70 ">
-                                                        <strong>This is the first item's accordion body.</strong> It is
-                                                        shown by
-                                                        default, until the collapse plugin adds the appropriate classes that
-                                                        we
-                                                        use to style each element. These classes control the overall
-                                                        appearance,
-                                                        as well as the showing and hiding via CSS transitions. You can
-                                                        modify
-                                                        any of this with custom CSS or overriding our default variables.
-                                                        It's
-                                                        also worth noting that just about any HTML can go within the
-                                                        <code>.accordion-body</code>, though the transition does limit
-                                                        overflow.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="hs-accordion bg-white dark:bg-bodybg border dark:border-defaultborder/10 mt-[0.5rem] rounded-sm dark:border dark:border-defaultborder/10-white/10"
-                                            id="faq-seven">
-                                            <button type="button"
-                                                class="hs-accordion-toggle hs-accordion-active:!text-primary hs-accordion-active:border dark:border-defaultborder/10-b hs-accordion-active:bg-primary/10   dark:border-defaultborder/10 dark:hs-accordion-active:border dark:border-defaultborder/10-white/10 justify-between inline-flex items-center w-full font-semibold text-start text-[0.85rem] transition py-5 px-4 dark:hs-accordion-active:!text-primary dark:text-gray-200 dark:hover:text-white/80"
-                                                aria-controls="faq-collapse-nine">
-                                                Where can I subscribe to your newsletter?
-                                                <svg class="hs-accordion-active:hidden hs-accordion-active:!text-primary hs-accordion-active:group-hover:!text-primary block w-3 h-3 text-gray-600 group-hover:text-defaulttextcolor dark:text-defaulttextcolor/70 "
-                                                    width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M1.5 8.85999L14.5 8.85998" stroke="currentColor"
-                                                        stroke-width="2" stroke-linecap="round" />
-                                                    <path d="M8 15.36L8 2.35999" stroke="currentColor" stroke-width="2"
-                                                        stroke-linecap="round" />
-                                                </svg>
-                                                <svg class="hs-accordion-active:block hs-accordion-active:!text-primary hs-accordion-active:group-hover:!text-primary hidden w-3 h-3 text-gray-600 group-hover:text-defaulttextcolor dark:text-defaulttextcolor/70 "
-                                                    width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M1.5 8.85999L14.5 8.85998" stroke="currentColor"
-                                                        stroke-width="2" stroke-linecap="round" />
-                                                </svg>
-                                            </button>
-                                            <div id="faq-collapse-nine"
-                                                class="hs-accordion-content w-full overflow-hidden hidden transition-[height] duration-300"
-                                                aria-labelledby="faq-seven">
-                                                <div class="p-5">
-                                                    <p class="text-defaulttextcolor dark:text-defaulttextcolor/70 ">
-                                                        <strong>This is the first item's accordion body.</strong> It is
-                                                        shown by
-                                                        default, until the collapse plugin adds the appropriate classes that
-                                                        we
-                                                        use to style each element. These classes control the overall
-                                                        appearance,
-                                                        as well as the showing and hiding via CSS transitions. You can
-                                                        modify
-                                                        any of this with custom CSS or overriding our default variables.
-                                                        It's
-                                                        also worth noting that just about any HTML can go within the
-                                                        <code>.accordion-body</code>, though the transition does limit
-                                                        overflow.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="hs-accordion bg-white dark:bg-bodybg border dark:border-defaultborder/10 mt-[0.5rem] rounded-sm dark:border dark:border-defaultborder/10-white/10"
-                                            id="faq-eight">
-                                            <button type="button"
-                                                class="hs-accordion-toggle hs-accordion-active:!text-primary hs-accordion-active:border dark:border-defaultborder/10-b hs-accordion-active:bg-primary/10   dark:border-defaultborder/10 dark:hs-accordion-active:border dark:border-defaultborder/10-white/10 justify-between inline-flex items-center w-full font-semibold text-start text-[0.85rem] transition py-5 px-4 dark:hs-accordion-active:!text-primary dark:text-gray-200 dark:hover:text-white/80"
-                                                aria-controls="faq-collapse-ten">
-                                                Where can in edit my address?
-                                                <svg class="hs-accordion-active:hidden hs-accordion-active:!text-primary hs-accordion-active:group-hover:!text-primary block w-3 h-3 text-gray-600 group-hover:text-defaulttextcolor dark:text-defaulttextcolor/70 "
-                                                    width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M1.5 8.85999L14.5 8.85998" stroke="currentColor"
-                                                        stroke-width="2" stroke-linecap="round" />
-                                                    <path d="M8 15.36L8 2.35999" stroke="currentColor" stroke-width="2"
-                                                        stroke-linecap="round" />
-                                                </svg>
-                                                <svg class="hs-accordion-active:block hs-accordion-active:!text-primary hs-accordion-active:group-hover:!text-primary hidden w-3 h-3 text-gray-600 group-hover:text-defaulttextcolor dark:text-defaulttextcolor/70 "
-                                                    width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M1.5 8.85999L14.5 8.85998" stroke="currentColor"
-                                                        stroke-width="2" stroke-linecap="round" />
-                                                </svg>
-                                            </button>
-                                            <div id="faq-collapse-ten"
-                                                class="hs-accordion-content w-full overflow-hidden hidden transition-[height] duration-300"
-                                                aria-labelledby="faq-eight">
-                                                <div class="p-5">
-                                                    <p class="text-defaulttextcolor dark:text-defaulttextcolor/70 ">
-                                                        <strong>This is the first item's accordion body.</strong> It is
-                                                        shown by
-                                                        default, until the collapse plugin adds the appropriate classes that
-                                                        we
-                                                        use to style each element. These classes control the overall
-                                                        appearance,
-                                                        as well as the showing and hiding via CSS transitions. You can
-                                                        modify
-                                                        any of this with custom CSS or overriding our default variables.
-                                                        It's
-                                                        also worth noting that just about any HTML can go within the
-                                                        <code>.accordion-body</code>, though the transition does limit
-                                                        overflow.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                <div class="lead-tstmnl-slide">
+                    <div class="lead-tstmnl-img">
+                        <img src="http://pakword.com/wp-content/uploads/2013/06/Bollywood-actresses-hot-pictures-13-160x160.jpg">
+                    </div>
+                    <div class="lead-tstmnl-text-cont">
+                        <span class="lead-tstmnl-comment">
+                            Sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </span>
+                        <ul class="lead-tstmnl-nm-dsg">
+                            <li>Sonakshi Sinha</li>
+                            <li>Bollywood Actress</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="lead-tstmnl-slide">
+                    <div class="lead-tstmnl-img">
+                        <img src="https://scontent.ffjr1-4.fna.fbcdn.net/v/t1.0-9/41521024_1106151129549575_801375296103120896_n.jpg?_nc_cat=110&_nc_ht=scontent.ffjr1-4.fna&oh=721f050cd1b1fc94bbc44e964df3606f&oe=5C75A338">
+                    </div>
+                    <div class="lead-tstmnl-text-cont">
+                        <span class="lead-tstmnl-comment">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate.
+                        </span>
+                        <ul class="lead-tstmnl-nm-dsg">
+                            <li>Salman Raza</li>
+                            <li>Ux/Ui, Graphic &amp; Frond-end Designer</li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
 
+<<<<<<< Updated upstream
 
 
         <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]" id="faq">
@@ -988,6 +840,149 @@
 
         
 
+=======
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+	* { margin: 0; padding: 0; box-sizing: border-box; }
+	body {
+	    width: 100%;
+	    height: 100%;
+	    padding: 10%;
+	    position: relative;
+	    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+	    font-family: 'Roboto', sans-serif;
+	}
+	.lead-testimonial-cont {
+	    width: 100%;
+	    max-width: 1170px;
+	    min-width: 1170px;
+	    height: 230px;
+	    margin: 0 auto;
+	    background-color: #fff;
+	    padding: 30px;
+	    position: relative;
+	}
+	.lead-testimonial-cont:after {
+		position: absolute;
+	    content: '';
+	    bottom: -31px;
+	    left: 50%;
+	    transform: translateX(-50%);
+	    background-image: url(http://demosoft.indicsoft.com/SalmanDemo/onspon-html/other-pages/image/tstmnl-box-shadow.png);
+	    width: 840px;
+	    height: 31px;
+	}
+	.lead-testimonial-cont:before {
+	    content: 'By: Salman Raza';
+	    font-family: 'Roboto', cursive;
+	    position: absolute;
+	    bottom: -25px;
+	    left: 50%;
+	    transform: translateX(-50%);
+	    color: rgba(0, 0, 0, 0.9);
+	    font-size: 10px;
+	    letter-spacing: 5px;
+	    font-weight: 500;
+	    white-space: nowrap;
+	    color: #545454;
+	    text-transform: uppercase;
+	}
+	.lead-testimonial-cont > h2 {
+		position: absolute;
+		text-align: center;
+		margin: -55px 0 0 0;
+		font-size: 14px;
+		left: 10px;
+		font-weight: 400;
+		text-transform: uppercase;
+		letter-spacing: 3px;
+		color: #444;
+	}
+	.lead-tstmnl-slider {
+	    width: 100%;
+	    height: 230px;
+	    float: left;
+	    overflow: hidden;
+	}
+	.lead-tstmnl-slide {
+		width: 100%;
+		max-width: 1140px;
+		height: 100%;
+		float: left;
+	}
+	.lead-tstmnl-slide:focus {outline: none;}
+	.lead-tstmnl-slide .lead-tstmnl-img {
+		float: left;
+		width: 160px;
+		height: 160px;
+		border-radius: 100%;
+		border:5px solid rgba(0,0,0,0.08);
+		overflow: hidden;
+		margin:8px 30px 0 0;
+	}
+	.lead-tstmnl-slide .lead-tstmnl-img img {width: 100%;}
+	.lead-tstmnl-text-cont {
+		float: left;
+		width: 82.8%;
+		height: 168px;
+		position: relative;
+	}
+	.lead-tstmnl-comment {
+		float: left;
+		display: block;
+		width: 97.5%;
+		position: relative;
+		padding: 20px 25px;
+		max-height: 120px;
+		overflow: hidden;
+		font-size: 15px;
+		line-height: 24px;
+	}
+	.lead-tstmnl-comment:before,
+	.lead-tstmnl-comment:after {
+		position: absolute;
+		content: '';
+		width: 20px;
+		height: 20px;
+		background-image: url(http://demosoft.indicsoft.com/SalmanDemo/onspon-html/other-pages/image/tstmnl-quate.png);
+	}
+	.lead-tstmnl-comment:before{top: 0; left: 0;}
+	.lead-tstmnl-comment:after {bottom: 0;right: 0;background-position: 20px 0;}
+	.lead-tstmnl-nm-dsg {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+	}
+	.lead-tstmnl-nm-dsg li {display: inline-block;float: left;padding: 0 15px;border-left: 1px solid #6b6b6b;font-size: 15px; line-height: 14px;letter-spacing: 0.5px;color: #6b6b6b;}
+	.lead-tstmnl-nm-dsg li:first-child{border-left: 3px solid #e73022;padding-left: 10px;font-weight: 700;color: #e73022;}
+	.slick-dots button {display: none;}
+	.lead-tstmnl-slider .slick-dots {position: absolute; bottom: 5px; right: 5px;}
+	.lead-tstmnl-slider .slick-dots li {
+		list-style: outside none none;
+		display: inline-block;
+		cursor: pointer;
+		width: 8px;
+		height: 8px;
+		border-radius: 100%;
+		margin: 0px 3px 0px 0px;
+		background-color: #eee;
+		position: relative;
+	}
+	.lead-tstmnl-slider .slick-dots li.slick-active {background-color: #e73022;}
+        </style>
+<script>
+    $('.lead-tstmnl-slider').slick({
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      variableWidth: true,
+      autoplay: true,
+      autoplaySpeed: 4000,
+      dots: true,
+      arrows: false
+    });
+</script>
+>>>>>>> Stashed changes
         {{-- End:: ttbantivirus section faq saven --}}
 
 
