@@ -9,7 +9,6 @@
     <!-- Meta Data -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Author" content="Spruko Technologies Private Limited">
     <meta name="Description" content="@yield('Description')">
     <meta name="keywords"
         content="@yield('keywords')">
