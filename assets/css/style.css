@@ -41588,20 +41588,12 @@ img.img-fluid.service-icon {
     position: absolute;
     bottom: 0rem;
     left: 2rem;
-    animation: circle 6s linear infinite;
+    animation: rotate 10s linear infinite;
 }
 
-@keyframes circle{
-    0%{
-      transform:rotate(0deg)
-                translate(-165px)
-                rotate(0deg);
-    
-    }
-    100%{
-      transform:rotate(360deg)
-                translate(-165px)
-                rotate(-360deg);
+@keyframes rotate {
+    to {
+      transform: rotate(-360deg);
     }
   }
   
