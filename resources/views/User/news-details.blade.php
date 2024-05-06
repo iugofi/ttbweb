@@ -6,7 +6,11 @@
 @section('canonical', $newsPost->slug)
 
 
-
+<style>
+    body {
+   background-color: rgb(var(--body-bg));
+}
+</style>
 @section('content')
 
 
