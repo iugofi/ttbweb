@@ -83,7 +83,7 @@
                                                 </span>
                                             </div></td>
                                             <td class="border px-4 py-2">{!! nl2br(e(Str::limit(strip_tags($item->title), 10))) !!}</td>                              
-                                            <td class="border px-4 py-2">{!! nl2br(e(Str::limit(strip_tags($item->description), 50))) !!}</td>
+                                            <td class="border px-4 py-2">{!! nl2br(e(Str::limit(strip_tags($item->description), 10))) !!}</td>
                                             <td class="border px-4 py-2">{{ $item->status }}</td>
                                             <td class="border px-4 py-2"></td>
                                         </tr>
