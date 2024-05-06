@@ -63,6 +63,10 @@ Route::get('/checkout_page', [UserController::class, 'checkout_page'])->name('us
 //ttb vpn-shield
 Route::get('/vpn-shield', [UserController::class, 'vpnshield'])->name('user.vpnshield');
 
+//ttb-vpn shild2
+Route::get('/vpnshieldnew', [UserController::class, 'vpnshieldnew'])->name('user.vpnshieldnew');
+
+
 
 
 //ttb total internet kulvinder 22-04-2024

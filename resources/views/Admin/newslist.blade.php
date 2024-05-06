@@ -18,7 +18,7 @@
             <!-- Page Header -->
             <div class="block justify-between page-header md:flex">
                 <div>
-                    <h3 class="!text-defaulttextcolor dark:!text-defaulttextcolor/70 dark:text-white dark:hover:text-white text-[1.125rem] font-semibold">Grid Js Tables</h3>
+                    <h3 class="!text-defaulttextcolor dark:!text-defaulttextcolor/70 dark:text-white dark:hover:text-white text-[1.125rem] font-semibold">News</h3>
                 </div>
                 <ol class="flex items-center whitespace-nowrap min-w-0">
                     <li class="text-[0.813rem] ps-[0.5rem]">
@@ -28,7 +28,7 @@
                       </a>
                     </li>
                     <li class="text-[0.813rem] text-defaulttextcolor font-semibold hover:text-primary dark:text-[#8c9097] dark:text-white/50 " aria-current="page">
-                      Grid Js Tables
+                        News
                     </li>
                 </ol>
             </div>
@@ -42,15 +42,48 @@
                     <div class="box custom-box">
                         <div class="box-header">
                             <div class="box-title">
-                                Table Sorting
+                                News List
                             </div>
                         </div>
                         <div class="box-body">
-                            <div id="grid-sorting"></div>
+                            <!-- Container for Grid.js -->
+                            <div id="grid-container"></div>
                         </div>
                     </div>
                 </div>
             </div>
+        
+            <!-- JavaScript code to initialize Grid.js -->
+            <script>
+                // Wait for the DOM to be fully loaded
+                document.addEventListener('DOMContentLoaded', function () {
+                    // Initialize Grid.js
+                    new gridjs.Grid({
+                        // Configuration options
+                        columns: [
+                            { name: "Date", width: "150px" },
+                            { name: "Name", width: "150px" },
+                            { name: "Email", width: "200px" },
+                            { name: "ID", width: "150px" },
+                            { name: "Price", width: "100px" },
+                            { name: "Quantity", width: "100px" },
+                            { name: "Total", width: "100px" }
+                        ],
+                        // Data array
+                        data: [
+                            ["24-10-2022 12:47", "john", "john123@gmail.com", "#12012", "$1799", "1", "$1799"],
+                            ["12-09-2022 04:24", "mark", "markzenner23@gmail.com", "#12013", "$2479", "2", "$4958"],
+                            ["18-11-2022 18:43", "eoin", "eoin1992@gmail.com", "#12014", "$769", "1", "$769"],
+                            ["10-09-2022 10:35", "sarahcdd", "sarahcdd129@gmail.com", "#12015", "$1299", "3", "$3997"],
+                            ["27-10-2022 09:55", "afshin", "afshin@example.com", "#12016", "$1449", "1", "$1449"]
+                        ],
+                        // Target element to render the grid
+                        // Ensure that the ID matches the container element's ID
+                        // In this case, it's 'grid-container'
+                        // Change this if your container ID is different
+                    }).render(document.getElementById("grid-container"));
+                });
+            </script>
             <!-- End:: row-4 -->
 
 
@@ -63,42 +96,7 @@
 </div>
 
 
-<script>
-    new gridjs.Grid({
-        pagination: true,
-        search: true,
-        sort: true,
-        columns: [{
-            name: "Date",
-            width: "150px",
-        }, {
-            name: "Name",
-            width: "150px",
-        }, {
-            name: "Email",
-            width: "200px",
-        }, {
-            name: "ID",
-            width: "150px",
-        }, {
-            name: "Price",
-            width: "100px",
-        }, {
-            name: "Quantity",
-            width: "100px",
-        }, {
-            name: "Total",
-            width: "100px",
-        }],
-        data: [
-            ["24-10-2022 12:47", "john", "john123@gmail.com", "#12012", "$1799", "1", "$1799"],
-            ["12-09-2022 04:24", "mark", "markzenner23@gmail.com", "#12013", "$2479", "2", "$4958"],
-            ["18-11-2022 18:43", "eoin", "eoin1992@gmail.com", "#12014", "$769", "1", "$769"],
-            ["10-09-2022 10:35", "sarahcdd", "sarahcdd129@gmail.com", "#12015", "$1299", "3", "$3997"],
-            ["27-10-2022 09:55", "afshin", "afshin@example.com", "#12016", "$1449", "1", "$1449"]
-        ],
-    }).render(document.getElementById("grid-sorting"));;
-</script>
+
 
 
      <!-- Grid JS -->

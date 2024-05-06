@@ -136,6 +136,10 @@ class UserController extends Controller
     {
         return view('User.vpnshield');
     }
+    public function vpnshieldnew()
+    {
+        return view('User.vpnshieldnew');
+    }
     public function totalinternet()
     {
         return view('User.total_internet');
