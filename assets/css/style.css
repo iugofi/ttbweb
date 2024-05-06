@@ -41568,8 +41568,9 @@ img.img-fluid.service-icon {
     font-size: 14px;
     padding: 2px;
     border-radius: 14px;
-    left: -6px;
+    right: 6px;
     position: relative;
+    margin: 0 6px auto;
 }
 
 
