@@ -271,6 +271,11 @@
 </div>
 
 <script src="{{asset('assets/js/blog-create.js')}}"></script>
+  <!-- Quill Editor JS -->
+  <script src="{{asset('assets/libs/quill/quill.min.js')}}"></script>
+        
+  <!-- Internal Quill JS -->
+  <script src="{{asset('assets/js/quill-editor.js')}}"></script>
 
 
 @endsection
