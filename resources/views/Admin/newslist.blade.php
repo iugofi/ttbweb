@@ -78,11 +78,11 @@
                                 columns: [
                                     { name: "title", width: "150px" },
                                     { name: "slug", width: "150px" },
-                                    { name: "news_category_id", width: "200px" },
+                                    { name: "news_category_id", width: "150px" },
                                     { name: "image", width: "150px" },
-                                    { name: "description", width: "100px" },
-                                    { name: "meta_title", width: "100px" },
-                                    { name: "canonical_url", width: "100px" }
+                                    { name: "description", width: "150px" },
+                                    { name: "meta_title", width: "150px" },
+                                    { name: "canonical_url", width: "150px" }
                                 ],
                                 data: data.map(item => [item.title, item.slug, item.news_category_id, item.image, item.description, item.meta_title, item.canonical_url])
                             }).render(document.getElementById("grid-container"));
