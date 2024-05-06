@@ -1,9 +1,9 @@
 @extends('User.Layouts.layout')
 
 @section('title', 'News Details')
-@section('Description', '{{ $newsPost->meta_desc }}')
-@section('keywords', '{{ $newsPost->meta_keyword }}')
-@section('canonical', '{{ $newsPost->slug }}')
+@section('Description', {{ $newsPost->meta_desc }})
+@section('keywords', {{ $newsPost->meta_keyword }})
+@section('canonical', {{ $newsPost->slug }})
 
 
 
