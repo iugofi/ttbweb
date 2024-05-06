@@ -21,6 +21,9 @@
         .like-btn.liked {
             color: blue; /* Change color to blue */
         }
+        body {
+            background-color: rgb(var(--body-bg));
+            }
     </style>
 
 

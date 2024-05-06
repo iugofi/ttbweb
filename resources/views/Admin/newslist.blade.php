@@ -15,8 +15,8 @@
             display: none;
         }
         body {
-   background-color: rgb(var(--body-bg));
-}
+            background-color: rgb(var(--body-bg));
+            }
     </style>
 
     <div class="content">
