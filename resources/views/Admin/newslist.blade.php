@@ -68,12 +68,12 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    @foreach ($news as $item)
+                                    @foreach ($news as $key => $item)
                                         <tr>
                                             @php
                                                 $id = 1;
                                             @endphp
-                                            <td class="border px-4 py-2">{{ $id++ }}</td>
+                                            <td class="border px-4 py-2">{{ $key + 1 }}</td>
                                             <td class="border px-4 py-2"><div class="me-2">
                                                 <span class="avatar avatar-md avatar-rounded">
                                                     <img src="https://www.ttbinternetsecurity.com/admin/uploads/news/{{ $item->image }}" alt="">
