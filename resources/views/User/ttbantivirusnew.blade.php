@@ -225,24 +225,24 @@
                                         </div>
                                         <ul class="list-none text-left text-[0.75rem] px-4 pt-4 mb-0">
                                             <li class="mb-4">
-                                                <span class="text-white dark:text-white/50 font-semibold text-sm">Storage Capacity</span>
+                                                <span class="text-white dark:text-white/50 font-semibold text-sm">Lorem dolor sit consectetur</span>
                                             </li>
                                             <li class="mb-4">
-                                                <span class="text-white dark:text-white/50 font-semibold text-sm">Daily Updates</span>
+                                                <span class="text-white dark:text-white/50 font-semibold text-sm bx bx-check-double space-icon">Daily Updates</span>
                                             </li>
                                             <li class="mb-4">
-                                                <span class="text-white dark:text-white/50 font-semibold text-sm">Online Support</span>
+                                                <span class="text-white dark:text-white/50 font-semibold text-sm bx bx-check-double space-icon">Online Support</span>
                                             </li>
                                             <li class="mb-4">
-                                                <span class="text-white dark:text-white/50 font-semibold text-sm">Visitors Monitoring</span>
+                                                <span class="text-white dark:text-white/50 font-semibold text-sm bx bx-check-double space-icon">Visitors Monitoring</span>
                                             </li>
                                             <li class="mb-4">
-                                                <span class="text-white dark:text-white/50 font-semibold text-sm">30 Free Domains</span>
+                                                <span class="text-white dark:text-white/50 font-semibold text-sm bx bx-check-double space-icon">30 Free Domains</span>
                                             </li>
                                             <li class="mb-4">
-                                                <span class="text-white dark:text-white/50 font-semibold text-sm">Money Back Guarentee</span>
+                                                <span class="text-white dark:text-white/50 font-semibold text-sm bx bx-check-double space-icon">Money Back Guarentee</span>
                                             </li>
-                                        </ul>
+                                        </ul>  
                                         <div class="grid">
                                             <button type="button" class="ti-btn bg-primary text-white">Get
                                                 Started</button>
