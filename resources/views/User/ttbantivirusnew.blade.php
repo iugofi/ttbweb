@@ -203,7 +203,7 @@
                                             </li>
                                         </ul>
                                         <div class="grid">
-                                            <button type="button" class="ti-btn ti-btn-primary" style="border: 1.8px solid #12D2B3;background: #fff;">Get Started</button>
+                                            <button type="button" class="ti-btn ti-btn-primary" style="border: 1.8px solid #12D2B3;background: #fff; color: #12D2B3;">Get Started</button>
                                         </div>
                                     </div>
                                 </div>
@@ -280,7 +280,7 @@
                                             </li>
                                         </ul>
                                         <div class="grid">
-                                            <button type="button" class="ti-btn ti-btn-primary" style="border: 1.8px solid #12D2B3;background: #fff;">Get Started</button>
+                                            <button type="button" class="ti-btn ti-btn-primary" style="border: 1.8px solid #12D2B3;background: #fff; color: #12D2B3;">Get Started</button>
                                         </div>
                                     </div>
                                 </div>
