@@ -593,266 +593,398 @@
         <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]" id="faq">
             <div class="container text-center">
                 
-                <div class="swiper swiper-related-jobs rtl:dir-ltr">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide rtl:dir-rtl">
-                            <div class="box custom-box">
-                                <div class="box-body">
-                                    <div class="btn-list ltr:float-right rtl:float-left space-x-2 rtl:space-x-reverse">
-                                        <div class="hs-tooltip ti-main-tooltip">
-                                            <button type="button" class="hs-tooltip-toggle avatar !rounded-full avatar-sm bg-primary text-white">
-                                                <span><i class="ri-download-2-line text-[.8125rem] align-middle"></i></span>
-                                                <span
-                                                    class="hs-tooltip-content  ti-main-tooltip-content py-1 px-2 !bg-black !text-xs !font-medium !text-white shadow-sm "
-                                                    role="tooltip">
-                                                Download Resume
-                                                </span>
-                                            </button>
-                                        </div>
-                                        <div class="hs-tooltip ti-main-tooltip">
-                                            <button type="button" class="hs-tooltip-toggle avatar !rounded-full avatar-sm bg-light !text-defaulttextcolor">
-                                                <span><i class="ri-heart-line text-[.8125rem] align-middle"></i></span>
-                                                <span
-                                                    class="hs-tooltip-content  ti-main-tooltip-content py-1 px-2 !bg-black !text-xs !font-medium !text-white shadow-sm "
-                                                    role="tooltip">
-                                                Whislist
-                                                </span>
-                                            </button>
-                                        </div>
-                                        <div class="hs-tooltip ti-main-tooltip">
-                                            <button type="button" class="hs-tooltip-toggle avatar !rounded-full avatar-sm bg-light !text-defaulttextcolor">
-                                                <span><i class="ri-eye-line text-[.8125rem] align-middle"></i></span>
-                                                <span
-                                                    class="hs-tooltip-content  ti-main-tooltip-content py-1 px-2 !bg-black !text-xs !font-medium !text-white shadow-sm "
-                                                    role="tooltip">
-                                                View Profile
-                                                </span>
-                                            </button>
-                                        </div>
-                                    </div>
-                                    <div class="sm:flex mb-3 items-center">
-                                        <span class="avatar avatar-lg !rounded-full">
-                                            <img src="assets/images/faces/1.jpg" alt="">
-                                        </span>
-                                        <div class="ms-2">
-                                            <h5 class="font-semibold mb-0 sm:flex items-center"><a href="javascript:void(0);"> Brenda Simpson <i class="bi bi-check-circle-fill text-success text-[1rem]"  title="Verified candidate"></i></a></h5>
-                                            <div class="sm:flex gap-2">
-                                                <a href="javascript:void(0);">Software Developer</a>
-                                                <p class="mb-0 text-[0.75rem] text-[#8c9097] dark:text-white/50"><i class="bi bi-geo-alt text-[.6875rem]"></i> Kondapur, Hyderabad</p>
+                <div>
+                    <h4 class="font-semibold mb-0 !text-defaulttextcolor">Related Profiles</h4>
+                    <p class="!text-defaultsize !text-defaulttextcolor mb-6">Sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua</p>
+                    <div class="swiper swiper-related-jobs rtl:dir-ltr">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide rtl:dir-rtl">
+                                <div class="box custom-box">
+                                    <div class="box-body">
+                                        <div
+                                            class="btn-list ltr:float-right rtl:float-left space-x-2 rtl:space-x-reverse">
+                                            <div class="hs-tooltip ti-main-tooltip">
+                                                <button type="button"
+                                                    class="hs-tooltip-toggle avatar !rounded-full avatar-sm bg-primary text-white">
+                                                    <span><i
+                                                            class="ri-download-2-line text-[.8125rem] align-middle"></i></span>
+                                                    <span
+                                                        class="hs-tooltip-content  ti-main-tooltip-content py-1 px-2 !bg-black !text-xs !font-medium !text-white shadow-sm "
+                                                        role="tooltip">
+                                                        Download Resume
+                                                    </span>
+                                                </button>
                                             </div>
-                                            <div class="sm:flex items-center text-[0.75rem] text-[#8c9097] dark:text-white/50">
-                                                <p class="text-[0.75rem] mb-0">Ratings : </p>
-                                                <div class="min-w-fit ms-2">
-                                                    <span class="text-warning"><i class="bi bi-star-fill"></i></span>
-                                                    <span class="text-warning"><i class="bi bi-star-fill"></i></span>
-                                                    <span class="text-warning"><i class="bi bi-star-fill"></i></span>
-                                                    <span class="text-warning"><i class="bi bi-star-fill"></i></span>
-                                                    <span class="text-warning"><i class="bi bi-star-half"></i></span>
+                                            <div class="hs-tooltip ti-main-tooltip">
+                                                <button type="button"
+                                                    class="hs-tooltip-toggle avatar !rounded-full avatar-sm bg-light !text-defaulttextcolor">
+                                                    <span><i
+                                                            class="ri-heart-line text-[.8125rem] align-middle"></i></span>
+                                                    <span
+                                                        class="hs-tooltip-content  ti-main-tooltip-content py-1 px-2 !bg-black !text-xs !font-medium !text-white shadow-sm "
+                                                        role="tooltip">
+                                                        Whislist
+                                                    </span>
+                                                </button>
+                                            </div>
+                                            <div class="hs-tooltip ti-main-tooltip">
+                                                <button type="button"
+                                                    class="hs-tooltip-toggle avatar !rounded-full avatar-sm bg-light !text-defaulttextcolor">
+                                                    <span><i
+                                                            class="ri-eye-line text-[.8125rem] align-middle"></i></span>
+                                                    <span
+                                                        class="hs-tooltip-content  ti-main-tooltip-content py-1 px-2 !bg-black !text-xs !font-medium !text-white shadow-sm "
+                                                        role="tooltip">
+                                                        View Profile
+                                                    </span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="sm:flex mb-3 items-center">
+                                            <span class="avatar avatar-lg !rounded-full">
+                                                <img src="assets/images/faces/1.jpg" alt="">
+                                            </span>
+                                            <div class="ms-2">
+                                                <h5 class="font-semibold mb-0 sm:flex items-center"><a
+                                                        href="javascript:void(0);"> Brenda Simpson <i
+                                                            class="bi bi-check-circle-fill text-success text-[1rem]"
+                                                            title="Verified candidate"></i></a></h5>
+                                                <div class="sm:flex gap-2">
+                                                    <a href="javascript:void(0);">Software Developer</a>
+                                                    <p
+                                                        class="mb-0 text-[0.75rem] text-[#8c9097] dark:text-white/50">
+                                                        <i class="bi bi-geo-alt text-[.6875rem]"></i>
+                                                        Kondapur, Hyderabad</p>
                                                 </div>
-                                                <a href="javascript:void(0);" class="ms-1 min-w-fit text-[#8c9097] dark:text-white/50">
-                                                    <span>(142)</span>
-                                                    <span>Ratings</span>
-                                                </a>
+                                                <div
+                                                    class="sm:flex items-center text-[0.75rem] text-[#8c9097] dark:text-white/50">
+                                                    <p class="text-[0.75rem] mb-0">Ratings : </p>
+                                                    <div class="min-w-fit ms-2">
+                                                        <span class="text-warning"><i
+                                                                class="bi bi-star-fill"></i></span>
+                                                        <span class="text-warning"><i
+                                                                class="bi bi-star-fill"></i></span>
+                                                        <span class="text-warning"><i
+                                                                class="bi bi-star-fill"></i></span>
+                                                        <span class="text-warning"><i
+                                                                class="bi bi-star-fill"></i></span>
+                                                        <span class="text-warning"><i
+                                                                class="bi bi-star-half"></i></span>
+                                                    </div>
+                                                    <a href="javascript:void(0);"
+                                                        class="ms-1 min-w-fit text-[#8c9097] dark:text-white/50">
+                                                        <span>(142)</span>
+                                                        <span>Ratings</span>
+                                                    </a>
+                                                </div>
                                             </div>
                                         </div>
+                                        <div class="popular-tags">
+                                            <a href="javascript:void(0);"
+                                                class="badge !rounded-full bg-light !text-defaulttextcolor"><i
+                                                    class="bi bi-mortarboard text-[#8c9097] dark:text-white/50 me-1"></i>
+                                                Graduate</a>
+                                            <a href="javascript:void(0);"
+                                                class="badge !rounded-full bg-light !text-defaulttextcolor"><i
+                                                    class="bi bi-moon-stars text-[#8c9097] dark:text-white/50 me-1"></i>
+                                                sm:flexible-shift</a>
+                                            <a href="javascript:void(0);"
+                                                class="badge !rounded-full bg-light !text-defaulttextcolor"><i
+                                                    class="bi bi-clock text-[#8c9097] dark:text-white/50 me-1"></i>
+                                                Immediate Joinee</a>
+                                            <a href="javascript:void(0);"
+                                                class="badge !rounded-full bg-light !text-defaulttextcolor"><i
+                                                    class="bi bi-broadcast text-[#8c9097] dark:text-white/50 me-1"></i>
+                                                Good at English</a>
+                                        </div>
                                     </div>
-                                    <div class="popular-tags">
-                                        <a href="javascript:void(0);" class="badge !rounded-full bg-light !text-defaulttextcolor"><i class="bi bi-mortarboard text-[#8c9097] dark:text-white/50 me-1"></i> Graduate</a>
-                                        <a href="javascript:void(0);" class="badge !rounded-full bg-light !text-defaulttextcolor"><i class="bi bi-moon-stars text-[#8c9097] dark:text-white/50 me-1"></i> sm:flexible-shift</a>
-                                        <a href="javascript:void(0);" class="badge !rounded-full bg-light !text-defaulttextcolor"><i class="bi bi-clock text-[#8c9097] dark:text-white/50 me-1"></i> Immediate Joinee</a>
-                                        <a href="javascript:void(0);" class="badge !rounded-full bg-light !text-defaulttextcolor"><i class="bi bi-broadcast text-[#8c9097] dark:text-white/50 me-1"></i> Good at English</a>
+                                    <div class="box-footer">
+                                        <div class="sm:flex items-center gap-3">
+                                            <h6 class="mb-0 font-semibold">Skills :</h6>
+                                            <div class="popular-tags sm:flex-grow">
+                                                <a href="javascript:void(0);"
+                                                    class="badge !rounded-full bg-light !text-defaulttextcolor">HTML</a>
+                                                <a href="javascript:void(0);"
+                                                    class="badge !rounded-full bg-light !text-defaulttextcolor">CSS</a>
+                                                <a href="javascript:void(0);"
+                                                    class="badge !rounded-full bg-light !text-defaulttextcolor">Javascript</a>
+                                                <a href="javascript:void(0);"
+                                                    class="badge !rounded-full bg-light !text-defaulttextcolor">Angular</a>
+                                                <a href="javascript:void(0);"
+                                                    class="badge !rounded-full bg-primary/10 text-primary"><i
+                                                        class="bi bi-plus"></i> More</a>
+                                            </div>
+                                            <div>
+                                                <a href="javascript:void(0);"
+                                                    class="badge badge-md !rounded-full bg-info/10 text-info"
+                                                    title="1 year bond accepted"><i
+                                                        class="bi bi-hand-thumbs-up me-1"></i>1 year bond
+                                                    accepted</a>
+                                                <a href="javascript:void(0);"
+                                                    class="badge badge-md !rounded-full bg-primary/10 text-primary"><i
+                                                        class="bi bi-briefcase me-1"></i>Exp : 2 Years</a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="box-footer">
-                                    <div class="sm:flex items-center gap-3">
-                                        <h6 class="mb-0 font-semibold">Skills :</h6>
-                                        <div class="popular-tags sm:flex-grow">
-                                            <a href="javascript:void(0);" class="badge !rounded-full bg-light !text-defaulttextcolor">HTML</a>
-                                            <a href="javascript:void(0);" class="badge !rounded-full bg-light !text-defaulttextcolor">CSS</a>
-                                            <a href="javascript:void(0);" class="badge !rounded-full bg-light !text-defaulttextcolor">Javascript</a>
-                                            <a href="javascript:void(0);" class="badge !rounded-full bg-light !text-defaulttextcolor">Angular</a>
-                                            <a href="javascript:void(0);" class="badge !rounded-full bg-primary/10 text-primary"><i class="bi bi-plus"></i> More</a>
+                            </div>
+                            <div class="swiper-slide rtl:dir-rtl">
+                                <div class="box custom-box">
+                                    <div class="box-body">
+                                        <div
+                                            class="btn-list ltr:float-right rtl:float-left space-x-2 rtl:space-x-reverse">
+                                            <div class="hs-tooltip ti-main-tooltip">
+                                                <button type="button"
+                                                    class="hs-tooltip-toggle avatar !rounded-full avatar-sm bg-primary text-white">
+                                                    <span><i
+                                                            class="ri-download-2-line text-[.8125rem] align-middle"></i></span>
+                                                    <span
+                                                        class="hs-tooltip-content  ti-main-tooltip-content py-1 px-2 !bg-black !text-xs !font-medium !text-white shadow-sm "
+                                                        role="tooltip">
+                                                        Download Resume
+                                                    </span>
+                                                </button>
+                                            </div>
+                                            <div class="hs-tooltip ti-main-tooltip">
+                                                <button type="button"
+                                                    class="hs-tooltip-toggle avatar !rounded-full avatar-sm bg-light !text-defaulttextcolor">
+                                                    <span><i
+                                                            class="ri-heart-line text-[.8125rem] align-middle"></i></span>
+                                                    <span
+                                                        class="hs-tooltip-content  ti-main-tooltip-content py-1 px-2 !bg-black !text-xs !font-medium !text-white shadow-sm "
+                                                        role="tooltip">
+                                                        Whislist
+                                                    </span>
+                                                </button>
+                                            </div>
+                                            <div class="hs-tooltip ti-main-tooltip">
+                                                <button type="button"
+                                                    class="hs-tooltip-toggle avatar !rounded-full avatar-sm bg-light !text-defaulttextcolor">
+                                                    <span><i
+                                                            class="ri-eye-line text-[.8125rem] align-middle"></i></span>
+                                                    <span
+                                                        class="hs-tooltip-content  ti-main-tooltip-content py-1 px-2 !bg-black !text-xs !font-medium !text-white shadow-sm "
+                                                        role="tooltip">
+                                                        View Profile
+                                                    </span>
+                                                </button>
+                                            </div>
                                         </div>
-                                        <div>
-                                            <a href="javascript:void(0);" class="badge badge-md !rounded-full bg-info/10 text-info"  title="1 year bond accepted"><i class="bi bi-hand-thumbs-up me-1"></i>1 year bond accepted</a>
-                                            <a href="javascript:void(0);" class="badge badge-md !rounded-full bg-primary/10 text-primary"><i class="bi bi-briefcase me-1"></i>Exp : 2 Years</a>
+                                        <div class="sm:flex mb-3 items-center">
+                                            <span class="avatar avatar-lg !rounded-full">
+                                                <img src="assets/images/faces/3.jpg" alt="">
+                                            </span>
+                                            <div class="ms-2">
+                                                <h5 class="font-semibold mb-0 sm:flex items-center"><a
+                                                        href="javascript:void(0);"> Dwayne Stort <i
+                                                            class="bi bi-check-circle-fill text-success text-[1rem]"
+                                                            title="Verified candidate"></i></a></h5>
+                                                <div class="sm:flex gap-2">
+                                                    <a href="javascript:void(0);">Web Developer</a>
+                                                    <p
+                                                        class="mb-0 text-[0.75rem] text-[#8c9097] dark:text-white/50">
+                                                        <i class="bi bi-geo-alt text-[.6875rem]"></i>
+                                                        Gachibowli, Hyderabad</p>
+                                                </div>
+                                                <div
+                                                    class="sm:flex items-center text-[0.75rem] text-[#8c9097] dark:text-white/50">
+                                                    <p class="text-[0.75rem] mb-0">Ratings : </p>
+                                                    <div class="min-w-fit ms-2">
+                                                        <span class="text-warning"><i
+                                                                class="bi bi-star-fill"></i></span>
+                                                        <span class="text-warning"><i
+                                                                class="bi bi-star-fill"></i></span>
+                                                        <span class="text-warning"><i
+                                                                class="bi bi-star-fill"></i></span>
+                                                        <span class="text-warning"><i
+                                                                class="bi bi-star"></i></span>
+                                                        <span class="text-warning"><i
+                                                                class="bi bi-star"></i></span>
+                                                    </div>
+                                                    <a href="javascript:void(0);"
+                                                        class="mb-0 ms-1 min-w-fit text-[#8c9097] dark:text-white/50">
+                                                        <span>(35)</span>
+                                                        <span>Ratings</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="popular-tags">
+                                            <a href="javascript:void(0);"
+                                                class="badge !rounded-full bg-light !text-defaulttextcolor"><i
+                                                    class="bi bi-mortarboard text-[#8c9097] dark:text-white/50 me-1"></i>
+                                                Post Graduate</a>
+                                            <a href="javascript:void(0);"
+                                                class="badge !rounded-full bg-light !text-defaulttextcolor"><i
+                                                    class="bi bi-moon-stars text-[#8c9097] dark:text-white/50 me-1"></i>
+                                                sm:flexible-shift</a>
+                                            <a href="javascript:void(0);"
+                                                class="badge !rounded-full bg-light !text-defaulttextcolor"><i
+                                                    class="bi bi-clock text-[#8c9097] dark:text-white/50 me-1"></i>
+                                                Within 10 Days</a>
+                                            <a href="javascript:void(0);"
+                                                class="badge !rounded-full bg-light !text-defaulttextcolor"><i
+                                                    class="bi bi-broadcast text-[#8c9097] dark:text-white/50 me-1"></i>
+                                                Good at English</a>
+                                        </div>
+                                    </div>
+                                    <div class="box-footer">
+                                        <div class="sm:flex items-center gap-3">
+                                            <h6 class="mb-0 font-semibold">Skills :</h6>
+                                            <div class="popular-tags sm:flex-grow">
+                                                <a href="javascript:void(0);"
+                                                    class="badge !rounded-full bg-light !text-defaulttextcolor">React</a>
+                                                <a href="javascript:void(0);"
+                                                    class="badge !rounded-full bg-light !text-defaulttextcolor">Javascript</a>
+                                                <a href="javascript:void(0);"
+                                                    class="badge !rounded-full bg-light !text-defaulttextcolor">React
+                                                    Navtive</a>
+                                                <a href="javascript:void(0);"
+                                                    class="badge !rounded-full bg-primary/10 text-primary"><i
+                                                        class="bi bi-plus"></i> More</a>
+                                            </div>
+                                            <div>
+                                                <a href="javascript:void(0);"
+                                                    class="badge badge-md !rounded-full bg-info/10 text-info"
+                                                    title="1 year bond accepted"><i
+                                                        class="bi bi-hand-thumbs-up me-1"></i>2 years bond
+                                                    accepted</a>
+                                                <a href="javascript:void(0);"
+                                                    class="badge badge-md !rounded-full bg-primary/10 text-primary"><i
+                                                        class="bi bi-briefcase me-1"></i>Exp : 4 Years</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide rtl:dir-rtl">
+                                <div class="box custom-box">
+                                    <div class="box-body">
+                                        <div
+                                            class="btn-list ltr:float-right rtl:float-left space-x-2 rtl:space-x-reverse">
+                                            <div class="hs-tooltip ti-main-tooltip">
+                                                <button type="button"
+                                                    class="hs-tooltip-toggle avatar !rounded-full avatar-sm bg-primary text-white">
+                                                    <span><i
+                                                            class="ri-download-2-line text-[.8125rem] align-middle"></i></span>
+                                                    <span
+                                                        class="hs-tooltip-content  ti-main-tooltip-content py-1 px-2 !bg-black !text-xs !font-medium !text-white shadow-sm "
+                                                        role="tooltip">
+                                                        Download Resume
+                                                    </span>
+                                                </button>
+                                            </div>
+                                            <div class="hs-tooltip ti-main-tooltip">
+                                                <button type="button"
+                                                    class="hs-tooltip-toggle avatar !rounded-full avatar-sm bg-light !text-defaulttextcolor">
+                                                    <span><i
+                                                            class="ri-heart-line text-[.8125rem] align-middle"></i></span>
+                                                    <span
+                                                        class="hs-tooltip-content  ti-main-tooltip-content py-1 px-2 !bg-black !text-xs !font-medium !text-white shadow-sm "
+                                                        role="tooltip">
+                                                        Whislist
+                                                    </span>
+                                                </button>
+                                            </div>
+                                            <div class="hs-tooltip ti-main-tooltip">
+                                                <button type="button"
+                                                    class="hs-tooltip-toggle avatar !rounded-full avatar-sm bg-light !text-defaulttextcolor">
+                                                    <span><i
+                                                            class="ri-eye-line text-[.8125rem] align-middle"></i></span>
+                                                    <span
+                                                        class="hs-tooltip-content  ti-main-tooltip-content py-1 px-2 !bg-black !text-xs !font-medium !text-white shadow-sm "
+                                                        role="tooltip">
+                                                        View Profile
+                                                    </span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="sm:flex mb-3 items-center">
+                                            <span class="avatar avatar-lg !rounded-full">
+                                                <img src="assets/images/faces/21.jpg" alt="">
+                                            </span>
+                                            <div class="ms-2">
+                                                <h5 class="font-semibold mb-0 sm:flex items-center"><a
+                                                        href="javascript:void(0);"> Jasmine Kova <i
+                                                            class="bi bi-check-circle-fill text-success text-[1rem]"
+                                                            title="Verified candidate"></i></a></h5>
+                                                <div class="sm:flex gap-2">
+                                                    <a href="javascript:void(0);">Python Developer</a>
+                                                    <p
+                                                        class="mb-0 text-[0.75rem] text-[#8c9097] dark:text-white/50">
+                                                        <i class="bi bi-geo-alt text-[.6875rem]"></i>
+                                                        Gachibowli, Chennai</p>
+                                                </div>
+                                                <div
+                                                    class="sm:flex items-center text-[0.75rem] text-[#8c9097] dark:text-white/50">
+                                                    <p class="text-[0.75rem] mb-0">Ratings : </p>
+                                                    <div class="min-w-fit ms-2">
+                                                        <span class="text-warning"><i
+                                                                class="bi bi-star-fill"></i></span>
+                                                        <span class="text-warning"><i
+                                                                class="bi bi-star-fill"></i></span>
+                                                        <span class="text-warning"><i
+                                                                class="bi bi-star-fill"></i></span>
+                                                        <span class="text-warning"><i
+                                                                class="bi bi-star"></i></span>
+                                                        <span class="text-warning"><i
+                                                                class="bi bi-star"></i></span>
+                                                    </div>
+                                                    <a href="javascript:void(0);"
+                                                        class="mb-0 ms-1 min-w-fit text-[#8c9097] dark:text-white/50">
+                                                        <span>(56)</span>
+                                                        <span>Ratings</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="popular-tags">
+                                            <a href="javascript:void(0);"
+                                                class="badge !rounded-full bg-light !text-defaulttextcolor"><i
+                                                    class="bi bi-mortarboard text-[#8c9097] dark:text-white/50 me-1"></i>
+                                                MBA</a>
+                                            <a href="javascript:void(0);"
+                                                class="badge !rounded-full bg-light !text-defaulttextcolor"><i
+                                                    class="bi bi-moon-stars text-[#8c9097] dark:text-white/50 me-1"></i>
+                                                Day-shift</a>
+                                            <a href="javascript:void(0);"
+                                                class="badge !rounded-full bg-light !text-defaulttextcolor"><i
+                                                    class="bi bi-clock text-[#8c9097] dark:text-white/50 me-1"></i>
+                                                Within 30 Days</a>
+                                            <a href="javascript:void(0);"
+                                                class="badge !rounded-full bg-light !text-defaulttextcolor"><i
+                                                    class="bi bi-broadcast text-[#8c9097] dark:text-white/50 me-1"></i>
+                                                Avg at English</a>
+                                        </div>
+                                    </div>
+                                    <div class="box-footer">
+                                        <div class="sm:flex items-center gap-3">
+                                            <h6 class="mb-0 font-semibold">Skills :</h6>
+                                            <div class="popular-tags sm:flex-grow">
+                                                <a href="javascript:void(0);"
+                                                    class="badge !rounded-full bg-light !text-defaulttextcolor">Python</a>
+                                                <a href="javascript:void(0);"
+                                                    class="badge !rounded-full bg-light !text-defaulttextcolor">Java</a>
+                                                <a href="javascript:void(0);"
+                                                    class="badge !rounded-full bg-light !text-defaulttextcolor">React</a>
+                                                <a href="javascript:void(0);"
+                                                    class="badge !rounded-full bg-primary/10 text-primary"><i
+                                                        class="bi bi-plus"></i> More</a>
+                                            </div>
+                                            <div>
+                                                <a href="javascript:void(0);"
+                                                    class="badge badge-md !rounded-full bg-primary/10 text-primary"><i
+                                                        class="bi bi-briefcase me-1"></i>Exp : 5 Years</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide rtl:dir-rtl">
-                            <div class="box custom-box">
-                                <div class="box-body">
-                                    <div class="btn-list ltr:float-right rtl:float-left space-x-2 rtl:space-x-reverse">
-                                        <div class="hs-tooltip ti-main-tooltip">
-                                            <button type="button" class="hs-tooltip-toggle avatar !rounded-full avatar-sm bg-primary text-white">
-                                                <span><i class="ri-download-2-line text-[.8125rem] align-middle"></i></span>
-                                                <span
-                                                    class="hs-tooltip-content  ti-main-tooltip-content py-1 px-2 !bg-black !text-xs !font-medium !text-white shadow-sm "
-                                                    role="tooltip">
-                                                Download Resume
-                                                </span>
-                                            </button>
-                                        </div>
-                                        <div class="hs-tooltip ti-main-tooltip">
-                                            <button type="button" class="hs-tooltip-toggle avatar !rounded-full avatar-sm bg-light !text-defaulttextcolor">
-                                                <span><i class="ri-heart-line text-[.8125rem] align-middle"></i></span>
-                                                <span
-                                                    class="hs-tooltip-content  ti-main-tooltip-content py-1 px-2 !bg-black !text-xs !font-medium !text-white shadow-sm "
-                                                    role="tooltip">
-                                                Whislist
-                                                </span>
-                                            </button>
-                                        </div>
-                                        <div class="hs-tooltip ti-main-tooltip">
-                                            <button type="button" class="hs-tooltip-toggle avatar !rounded-full avatar-sm bg-light !text-defaulttextcolor">
-                                                <span><i class="ri-eye-line text-[.8125rem] align-middle"></i></span>
-                                                <span
-                                                    class="hs-tooltip-content  ti-main-tooltip-content py-1 px-2 !bg-black !text-xs !font-medium !text-white shadow-sm "
-                                                    role="tooltip">
-                                                View Profile
-                                                </span>
-                                            </button>
-                                        </div>
-                                    </div>
-                                    <div class="sm:flex mb-3 items-center">
-                                        <span class="avatar avatar-lg !rounded-full">
-                                            <img src="assets/images/faces/3.jpg" alt="">
-                                        </span>
-                                        <div class="ms-2">
-                                            <h5 class="font-semibold mb-0 sm:flex items-center"><a href="javascript:void(0);"> Dwayne Stort <i class="bi bi-check-circle-fill text-success text-[1rem]"  title="Verified candidate"></i></a></h5>
-                                            <div class="sm:flex gap-2">
-                                                <a href="javascript:void(0);">Web Developer</a>
-                                                <p class="mb-0 text-[0.75rem] text-[#8c9097] dark:text-white/50"><i class="bi bi-geo-alt text-[.6875rem]"></i> Gachibowli, Hyderabad</p>
-                                            </div>
-                                            <div class="sm:flex items-center text-[0.75rem] text-[#8c9097] dark:text-white/50">
-                                                <p class="text-[0.75rem] mb-0">Ratings : </p>
-                                                <div class="min-w-fit ms-2">
-                                                    <span class="text-warning"><i class="bi bi-star-fill"></i></span>
-                                                    <span class="text-warning"><i class="bi bi-star-fill"></i></span>
-                                                    <span class="text-warning"><i class="bi bi-star-fill"></i></span>
-                                                    <span class="text-warning"><i class="bi bi-star"></i></span>
-                                                    <span class="text-warning"><i class="bi bi-star"></i></span>
-                                                </div>
-                                                <a href="javascript:void(0);" class="mb-0 ms-1 min-w-fit text-[#8c9097] dark:text-white/50">
-                                                    <span>(35)</span>
-                                                    <span>Ratings</span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="popular-tags">
-                                        <a href="javascript:void(0);" class="badge !rounded-full bg-light !text-defaulttextcolor"><i class="bi bi-mortarboard text-[#8c9097] dark:text-white/50 me-1"></i> Post Graduate</a>
-                                        <a href="javascript:void(0);" class="badge !rounded-full bg-light !text-defaulttextcolor"><i class="bi bi-moon-stars text-[#8c9097] dark:text-white/50 me-1"></i> sm:flexible-shift</a>
-                                        <a href="javascript:void(0);" class="badge !rounded-full bg-light !text-defaulttextcolor"><i class="bi bi-clock text-[#8c9097] dark:text-white/50 me-1"></i> Within 10 Days</a>
-                                        <a href="javascript:void(0);" class="badge !rounded-full bg-light !text-defaulttextcolor"><i class="bi bi-broadcast text-[#8c9097] dark:text-white/50 me-1"></i> Good at English</a>
-                                    </div>
-                                </div>
-                                <div class="box-footer">
-                                    <div class="sm:flex items-center gap-3">
-                                        <h6 class="mb-0 font-semibold">Skills :</h6>
-                                        <div class="popular-tags sm:flex-grow">
-                                            <a href="javascript:void(0);" class="badge !rounded-full bg-light !text-defaulttextcolor">React</a>
-                                            <a href="javascript:void(0);" class="badge !rounded-full bg-light !text-defaulttextcolor">Javascript</a>
-                                            <a href="javascript:void(0);" class="badge !rounded-full bg-light !text-defaulttextcolor">React Navtive</a>
-                                            <a href="javascript:void(0);" class="badge !rounded-full bg-primary/10 text-primary"><i class="bi bi-plus"></i> More</a>
-                                        </div>
-                                        <div>
-                                            <a href="javascript:void(0);" class="badge badge-md !rounded-full bg-info/10 text-info"  title="1 year bond accepted"><i class="bi bi-hand-thumbs-up me-1"></i>2 years bond accepted</a>
-                                            <a href="javascript:void(0);" class="badge badge-md !rounded-full bg-primary/10 text-primary"><i class="bi bi-briefcase me-1"></i>Exp : 4 Years</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide rtl:dir-rtl">
-                            <div class="box custom-box">
-                                <div class="box-body">
-                                    <div class="btn-list ltr:float-right rtl:float-left space-x-2 rtl:space-x-reverse">
-                                        <div class="hs-tooltip ti-main-tooltip">
-                                            <button type="button" class="hs-tooltip-toggle avatar !rounded-full avatar-sm bg-primary text-white">
-                                                <span><i class="ri-download-2-line text-[.8125rem] align-middle"></i></span>
-                                                <span
-                                                    class="hs-tooltip-content  ti-main-tooltip-content py-1 px-2 !bg-black !text-xs !font-medium !text-white shadow-sm "
-                                                    role="tooltip">
-                                                Download Resume
-                                                </span>
-                                            </button>
-                                        </div>
-                                        <div class="hs-tooltip ti-main-tooltip">
-                                            <button type="button" class="hs-tooltip-toggle avatar !rounded-full avatar-sm bg-light !text-defaulttextcolor">
-                                                <span><i class="ri-heart-line text-[.8125rem] align-middle"></i></span>
-                                                <span
-                                                    class="hs-tooltip-content  ti-main-tooltip-content py-1 px-2 !bg-black !text-xs !font-medium !text-white shadow-sm "
-                                                    role="tooltip">
-                                                Whislist
-                                                </span>
-                                            </button>
-                                        </div>
-                                        <div class="hs-tooltip ti-main-tooltip">
-                                            <button type="button" class="hs-tooltip-toggle avatar !rounded-full avatar-sm bg-light !text-defaulttextcolor">
-                                                <span><i class="ri-eye-line text-[.8125rem] align-middle"></i></span>
-                                                <span
-                                                    class="hs-tooltip-content  ti-main-tooltip-content py-1 px-2 !bg-black !text-xs !font-medium !text-white shadow-sm "
-                                                    role="tooltip">
-                                                View Profile
-                                                </span>
-                                            </button>
-                                        </div>
-                                    </div>
-                                    <div class="sm:flex mb-3 items-center">
-                                        <span class="avatar avatar-lg !rounded-full">
-                                            <img src="assets/images/faces/21.jpg" alt="">
-                                        </span>
-                                        <div class="ms-2">
-                                            <h5 class="font-semibold mb-0 sm:flex items-center"><a href="javascript:void(0);"> Jasmine Kova <i class="bi bi-check-circle-fill text-success text-[1rem]"  title="Verified candidate"></i></a></h5>
-                                            <div class="sm:flex gap-2">
-                                                <a href="javascript:void(0);">Python Developer</a>
-                                                <p class="mb-0 text-[0.75rem] text-[#8c9097] dark:text-white/50"><i class="bi bi-geo-alt text-[.6875rem]"></i> Gachibowli, Chennai</p>
-                                            </div>
-                                            <div class="sm:flex items-center text-[0.75rem] text-[#8c9097] dark:text-white/50">
-                                                <p class="text-[0.75rem] mb-0">Ratings : </p>
-                                                <div class="min-w-fit ms-2">
-                                                    <span class="text-warning"><i class="bi bi-star-fill"></i></span>
-                                                    <span class="text-warning"><i class="bi bi-star-fill"></i></span>
-                                                    <span class="text-warning"><i class="bi bi-star-fill"></i></span>
-                                                    <span class="text-warning"><i class="bi bi-star"></i></span>
-                                                    <span class="text-warning"><i class="bi bi-star"></i></span>
-                                                </div>
-                                                <a href="javascript:void(0);" class="mb-0 ms-1 min-w-fit text-[#8c9097] dark:text-white/50">
-                                                    <span>(56)</span>
-                                                    <span>Ratings</span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="popular-tags">
-                                        <a href="javascript:void(0);" class="badge !rounded-full bg-light !text-defaulttextcolor"><i class="bi bi-mortarboard text-[#8c9097] dark:text-white/50 me-1"></i> MBA</a>
-                                        <a href="javascript:void(0);" class="badge !rounded-full bg-light !text-defaulttextcolor"><i class="bi bi-moon-stars text-[#8c9097] dark:text-white/50 me-1"></i> Day-shift</a>
-                                        <a href="javascript:void(0);" class="badge !rounded-full bg-light !text-defaulttextcolor"><i class="bi bi-clock text-[#8c9097] dark:text-white/50 me-1"></i> Within 30 Days</a>
-                                        <a href="javascript:void(0);" class="badge !rounded-full bg-light !text-defaulttextcolor"><i class="bi bi-broadcast text-[#8c9097] dark:text-white/50 me-1"></i> Avg at English</a>
-                                    </div>
-                                </div>
-                                <div class="box-footer">
-                                    <div class="sm:flex items-center gap-3">
-                                        <h6 class="mb-0 font-semibold">Skills :</h6>
-                                        <div class="popular-tags sm:flex-grow">
-                                            <a href="javascript:void(0);" class="badge !rounded-full bg-light !text-defaulttextcolor">Python</a>
-                                            <a href="javascript:void(0);" class="badge !rounded-full bg-light !text-defaulttextcolor">Java</a>
-                                            <a href="javascript:void(0);" class="badge !rounded-full bg-light !text-defaulttextcolor">React</a>
-                                            <a href="javascript:void(0);" class="badge !rounded-full bg-primary/10 text-primary"><i class="bi bi-plus"></i> More</a>
-                                        </div>
-                                        <div>
-                                            <a href="javascript:void(0);" class="badge badge-md !rounded-full bg-primary/10 text-primary"><i class="bi bi-briefcase me-1"></i>Exp : 5 Years</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
                     </div>
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
                 </div>
                
             </div>
