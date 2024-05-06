@@ -41589,6 +41589,7 @@ img.img-fluid.service-icon {
     bottom: 0rem;
     left: 2rem;
     animation: rotate 30s linear infinite;
+    width: 90%;
 }
 
 
