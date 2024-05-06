@@ -393,17 +393,42 @@
                 <div class="box-body">
                     <div class="swiper swiper-basic pagination-fraction">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide xl:col-span-12 lg:col-span-12 md:col-span-12 sm:col-span-12 col-span-12"><img src="assets/images/media/media-16.jpg" class="!rounded-md" alt="">
-                            <div> <img src="{{ asset('assets/img/We-team-of-experience-It-Specialties.png') }}" alt="" srcset="">
-                                <h6>testimonial one</h6>
-                            </div>
-                            <div> 
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus vitae voluptatem sint totam harum quam eveniet incidunt minima neque facilis!</p>
-                            </div>
-                            </div>
-
-                            <div class="swiper-slide xl:col-span-12 lg:col-span-12 md:col-span-12 sm:col-span-12 col-span-12"><img src="assets/images/media/media-30.jpg" class="!rounded-md" alt=""></div>
-                            <div class="swiper-slide xl:col-span-12 lg:col-span-12 md:col-span-12 sm:col-span-12 col-span-12"><img src="assets/images/media/media-31.jpg" class="!rounded-md" alt=""></div>
+                            <div class="swiper-slide"><div class="box-body">
+                                <div class="relative">
+                                    <div class="relative rounded-sm overflow-auto">
+                                      <div class="sm:grid space-y-6 sm:space-y-0 grid-cols-2 gap-4 font-mono text-defaulttextcolor text-sm text-center font-bold rounded-sm">
+                                        <div class="p-4 rounded-sm  bg-light">01</div>
+                                        <div class="p-4 rounded-sm  bg-light">02</div>
+                                        <div class="p-4 rounded-sm  bg-light">03</div>
+                                        <div class="p-4 rounded-sm  bg-light">04</div>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div></div>
+                            <div class="swiper-slide"><div class="box-body">
+                                <div class="relative">
+                                    <div class="relative rounded-sm overflow-auto">
+                                      <div class="sm:grid space-y-6 sm:space-y-0 grid-cols-2 gap-4 font-mono text-defaulttextcolor text-sm text-center font-bold rounded-sm">
+                                        <div class="p-4 rounded-sm  bg-light">01</div>
+                                        <div class="p-4 rounded-sm  bg-light">02</div>
+                                        <div class="p-4 rounded-sm  bg-light">03</div>
+                                        <div class="p-4 rounded-sm  bg-light">04</div>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div></div>
+                            <div class="swiper-slide"><div class="box-body">
+                                <div class="relative">
+                                    <div class="relative rounded-sm overflow-auto">
+                                      <div class="sm:grid space-y-6 sm:space-y-0 grid-cols-2 gap-4 font-mono text-defaulttextcolor text-sm text-center font-bold rounded-sm">
+                                        <div class="p-4 rounded-sm  bg-light">01</div>
+                                        <div class="p-4 rounded-sm  bg-light">02</div>
+                                        <div class="p-4 rounded-sm  bg-light">03</div>
+                                        <div class="p-4 rounded-sm  bg-light">04</div>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div></div>
                         </div>
                         <div class="swiper-button-next"></div>
                         <div class="swiper-button-prev"></div>
@@ -411,7 +436,7 @@
                       </div>
                 </div>
             </div>
-        </div>  
+        </div>
     </div>
 </div>
 
