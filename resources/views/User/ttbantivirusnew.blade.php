@@ -165,7 +165,7 @@
 
         {{-- Start:: ttbantivirus section forth --}}
         <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] ">
-            <div class="box overflow-hidden container text-center">
+            <div class="box overflow-hidden container pricing-section">
                 <div class="box-body !p-0">
                     <div class="tab-content" id="myTabContent">
                         <div class="tab-pane show active !p-0 border-b-0 dark:border-defaultborder/10"
