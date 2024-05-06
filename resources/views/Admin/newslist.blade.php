@@ -49,13 +49,11 @@
                             <!-- Container for Grid.js -->
                             {{-- <div id="loading" style="display: none;">Loading...</div> --}}
                             <div class="box" id="loading" style="display: none;">
-                                <div class="box-header justify-between">
+                                <div class="box-header justify-center">
                                     <div class="box-title">
-                                        Growing spinner
+                                        Please Wait
                                     </div>
-                                    <div class="prism-toggle">
-                                        <button type="button" class="ti-btn !py-1 !px-2 !text-[0.75rem] ti-btn-primary">Show Code<i class="ri-code-line ms-2 inline-block align-middle"></i></button>
-                                    </div>
+                                    
                                 </div>
                                 <div class="box-body">
                                     <div class="space-x-6 space-y-4 rtl:space-x-reverse">
