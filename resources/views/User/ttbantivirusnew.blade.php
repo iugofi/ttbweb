@@ -184,22 +184,22 @@
                                         </div>
                                         <ul class="list-none text-left text-[0.75rem] px-4 pt-4 mb-0">
                                             <li class="mb-4">
-                                                <span class="text-[#000] dark:text-white/50 font-semibold text-base">Storage Capacity</span>
+                                                <span class="text-[#000] dark:text-white/50 font-semibold text-sm">Storage Capacity</span>
                                             </li>
                                             <li class="mb-4">
-                                                <span class="text-[#000] dark:text-white/50 font-semibold text-base">Daily Updates</span>
+                                                <span class="text-[#000] dark:text-white/50 font-semibold text-sm">Daily Updates</span>
                                             </li>
                                             <li class="mb-4">
-                                                <span class="text-[#000] dark:text-white/50 font-semibold text-base">Online Support</span>
+                                                <span class="text-[#000] dark:text-white/50 font-semibold text-sm">Online Support</span>
                                             </li>
                                             <li class="mb-4">
-                                                <span class="text-[#000] dark:text-white/50 font-semibold text-base">Visitors Monitoring</span>
+                                                <span class="text-[#000] dark:text-white/50 font-semibold text-sm">Visitors Monitoring</span>
                                             </li>
                                             <li class="mb-4">
-                                                <span class="text-[#000] dark:text-white/50 font-semibold text-base">2 Free Domains</span>
+                                                <span class="text-[#000] dark:text-white/50 font-semibold text-sm">2 Free Domains</span>
                                             </li>
                                             <li class="mb-4">
-                                                <span class="text-[#000] dark:text-white/50 font-semibold text-base">Money Back Guarentee</span>
+                                                <span class="text-[#000] dark:text-white/50 font-semibold text-sm">Money Back Guarentee</span>
                                             </li>
                                         </ul>
                                         <div class="grid">
@@ -224,22 +224,22 @@
                                         </div>
                                         <ul class="list-none text-left text-[0.75rem] px-4 pt-4 mb-0">
                                             <li class="mb-4">
-                                                <span class="text-white dark:text-white/50 font-semibold text-base">Storage Capacity</span>
+                                                <span class="text-white dark:text-white/50 font-semibold text-sm">Storage Capacity</span>
                                             </li>
                                             <li class="mb-4">
-                                                <span class="text-white dark:text-white/50 font-semibold text-base">Daily Updates</span>
+                                                <span class="text-white dark:text-white/50 font-semibold text-sm">Daily Updates</span>
                                             </li>
                                             <li class="mb-4">
-                                                <span class="text-white dark:text-white/50 font-semibold text-base">Online Support</span>
+                                                <span class="text-white dark:text-white/50 font-semibold text-sm">Online Support</span>
                                             </li>
                                             <li class="mb-4">
-                                                <span class="text-white dark:text-white/50 font-semibold text-base">Visitors Monitoring</span>
+                                                <span class="text-white dark:text-white/50 font-semibold text-sm">Visitors Monitoring</span>
                                             </li>
                                             <li class="mb-4">
-                                                <span class="text-white dark:text-white/50 font-semibold text-base">30 Free Domains</span>
+                                                <span class="text-white dark:text-white/50 font-semibold text-sm">30 Free Domains</span>
                                             </li>
                                             <li class="mb-4">
-                                                <span class="text-white dark:text-white/50 font-semibold text-base">Money Back Guarentee</span>
+                                                <span class="text-white dark:text-white/50 font-semibold text-sm">Money Back Guarentee</span>
                                             </li>
                                         </ul>
                                         <div class="grid">
@@ -261,22 +261,22 @@
                                         </div>
                                         <ul class="list-none text-left text-[0.75rem] px-4 pt-4 mb-0">
                                             <li class="mb-4">
-                                                <span class="text-[#000] dark:text-white/50 font-semibold text-base">Storage Capacity</span>
+                                                <span class="text-[#000] dark:text-white/50 font-semibold text-sm">Storage Capacity</span>
                                             </li>
                                             <li class="mb-4">
-                                                <span class="text-[#000] dark:text-white/50 font-semibold text-base">Daily Updates</span>
+                                                <span class="text-[#000] dark:text-white/50 font-semibold text-sm">Daily Updates</span>
                                             </li>
                                             <li class="mb-4">
-                                                <span class="text-[#000] dark:text-white/50 font-semibold text-base">Online Support</span>
+                                                <span class="text-[#000] dark:text-white/50 font-semibold text-sm">Online Support</span>
                                             </li>
                                             <li class="mb-4">
-                                                <span class="text-[#000] dark:text-white/50 font-semibold text-base">Visitors Monitoring</span>
+                                                <span class="text-[#000] dark:text-white/50 font-semibold text-sm">Visitors Monitoring</span>
                                             </li>
                                             <li class="mb-4">
-                                                <span class="text-[#000] dark:text-white/50 font-semibold text-base">10 Free Domains</span>
+                                                <span class="text-[#000] dark:text-white/50 font-semibold text-sm">10 Free Domains</span>
                                             </li>
                                             <li class="mb-4">
-                                                <span class="text-[#000] dark:text-white/50 font-semibold text-base">Money Back Guarentee</span>
+                                                <span class="text-[#000] dark:text-white/50 font-semibold text-sm">Money Back Guarentee</span>
                                             </li>
                                         </ul>
                                         <div class="grid">
