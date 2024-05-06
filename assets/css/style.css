@@ -41592,7 +41592,6 @@ img.img-fluid.service-icon {
     width: 90%;
 }
 
-
 @keyframes rotate {
     to {
       transform: rotate(360deg);
