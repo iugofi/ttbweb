@@ -150,6 +150,8 @@ Route::get('/mailtest', [UserController::class, 'mailtest'])->name('admin.mailte
 //Admin Controller
 Route::get('/newslist', [AdminController::class, 'newslist'])->name('admin.newslist');
 Route::get('/newscreate', [AdminController::class, 'newscreate'])->name('admin.newscreate');
+Route::get('/newslistshow', [AdminController::class, 'newslistshow'])->name('admin.newslistshow');
+
 
 
 

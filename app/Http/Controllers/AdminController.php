@@ -7,6 +7,8 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 use App\Models\Admin; 
+use App\Models\News; 
+
 
 class AdminController extends Controller
 {
@@ -49,5 +51,18 @@ public function newscreate(){
         return redirect('/setup');
     }
 }
+
+public function newslistshow(){
+    if ($this->loggedInAdmin) {
+   
+        $news = News::all(); // Fetch all news data
+        return response()->json($news);
+
+    } else {
+        return redirect('/setup');
+    }
+}
+
+
 
 }
