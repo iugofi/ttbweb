@@ -44,10 +44,9 @@
             <!-- Start:: row-4 -->
             <div class="grid grid-cols-12 gap-6">
                 <div class="xl:col-span-12 col-span-12">
-                 
+                    <div class="box custom-box">
                       
-                            
-                            <table id="example" class="table-auto w-full">
+                            <table id="example" class="w-full">
                                 <thead>
                                     <tr>
                                         <th class="px-4 py-2">Name</th>
@@ -172,7 +171,7 @@
                                 });
                             });
                         </script>
-                   
+                    </div>
                 </div>
             </div>
 
