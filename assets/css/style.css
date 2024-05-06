@@ -41549,7 +41549,9 @@ img.img-fluid.service-icon {
     border-radius: 6px;
     padding: 42px 12px;
 }
-
+.pricing-section {
+    box-shadow: none;
+}
 
 
       /* End */
