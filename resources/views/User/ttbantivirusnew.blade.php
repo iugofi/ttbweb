@@ -168,7 +168,7 @@
             <div class="box overflow-hidden container pricing-section">
                 <div class="box-body !p-0">
                     <div class="tab-content" id="myTabContent">
-                        <div class="tab-pane show active !p-0 border-b-0 dark:border-defaultborder/10"
+                        <div class="tabs-pane show active !p-0 border-b-0 dark:border-defaultborder/10"
                             id="pricing-monthly-pane" role="tabpanel">
                             <div class="grid grid-cols-12">
                                 <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12 col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 pe-0">
@@ -213,7 +213,7 @@
                                             <span class="font-semibold">10%</span> <span
                                                 class="text-[0.625rem] op-8 ms-1">Off</span>
                                         </span> --}}
-                                        <h6 class="font-semibold text-left text-[1rem] text-white">PREMIUM</h6>
+                                        <h6 class="font-semibold text-left text-[1rem] text-white px-5">PREMIUM</h6>
                                         <div class="py-4 flex items-center justify-left">
                                             <div class="text-end ms-5">
                                                 <p class="text-[1.5625rem] font-semibold mb-0 text-primary">$499</p>
@@ -250,7 +250,7 @@
                                 </div>
                                 <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12 col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 px-0">
                                     <div class="p-6 pricing">
-                                        <h6 class="font-semibold text-center text-[1rem] text-black">ADVANCED</h6>
+                                        <h6 class="font-semibold text-left text-[1rem] text-black px-5">ADVANCED</h6>
                                         <div class="py-4 flex items-center justify-left">
                                             <div class="text-end ms-5">
                                                 <p class="text-[1.5625rem] font-semibold mb-0">$1,299</p>
