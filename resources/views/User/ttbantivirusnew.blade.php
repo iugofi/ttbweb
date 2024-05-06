@@ -178,7 +178,7 @@
                                             <div class="text-end ms-5">
                                                 <p class="text-[1.5625rem] font-semibold mb-0">$199</p>
                                                 <p
-                                                    class="text-[#8c9097] dark:text-white/50 opacity-0 text-[.6875rem] font-semibold mb-0">
+                                                    class="text-[#000] dark:text-white/1 opacity-0 text-[.6875rem] font-semibold mb-0">
                                                     per month</p>
                                             </div>
                                         </div>
@@ -219,7 +219,7 @@
                                                 <p class="text-[1.5625rem] font-semibold mb-0 text-primary">$499</p>
                                                 <p
                                                     class="text-white dark:text-white/1 opacity-1 text-[.6875rem] font-semibold mb-0">
-                                                    per month</p>fff
+                                                    per month</p>
                                             </div>
                                         </div>
                                         <ul class="list-none text-left text-[0.75rem] px-4 pt-4 mb-0">
@@ -255,7 +255,7 @@
                                             <div class="text-end ms-5">
                                                 <p class="text-[1.5625rem] font-semibold mb-0">$1,299</p>
                                                 <p
-                                                    class="text-[#000] dark:text-white/50 opacity-50 text-[.6875rem] font-semibold mb-0">
+                                                    class="text-[#000] dark:text-white/1 opacity-50 text-[.6875rem] font-semibold mb-0">
                                                     per month</p>
                                             </div>
                                         </div>
