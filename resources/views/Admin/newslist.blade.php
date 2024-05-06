@@ -59,6 +59,13 @@
                     fetch('/newslistshow')
                         .then(response => response.json())
                         .then(data => {
+                            data.forEach(item => {
+                                item.title = truncateWords(item.title, 3);
+                                item.description = truncateWords(item.description, 3);
+                                item.meta_title = truncateWords(item.meta_title, 3);
+                                item.canonical_url = truncateWords(item.canonical_url, 3);
+
+                            });
                             new gridjs.Grid({
                                 pagination: true,
                                 search: true,
@@ -79,6 +86,13 @@
                             console.error('Error fetching news data:', error);
                         });
                 });
+                function truncateWords(str, numWords) {
+                    const words = str.split(' ');
+                    if (words.length <= numWords) {
+                        return str;
+                    }
+                    return words.slice(0, numWords).join(' ') + '...';
+                }
             </script>
             
          
