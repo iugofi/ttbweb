@@ -41561,6 +41561,16 @@ img.img-fluid.service-icon {
     background-color: #12D2B3 !important;
     color: #fff !important;
 }
+.space-icon::before {
+    content: "\ea47";
+    color: #ffffff;
+    background-color: #12D2B3;
+    font-size: 14px;
+    padding: 2px;
+    border-radius: 14px;
+    left: -6px;
+    position: relative;
+}
 
       /* End */
 
