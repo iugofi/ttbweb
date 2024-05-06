@@ -50,10 +50,7 @@
                             {{-- <div id="loading" style="display: none;">Loading...</div> --}}
                             <div class="box" id="loading" style="display: none;">
                                 <div class="box-header justify-center">
-                                    <div class="box-title">
-                                        Please Wait
-                                    </div>
-                                    
+                                        Please Wait                           
                                 </div>
                                 <div class="box-body">
                                     <div class="space-x-6 space-y-4 rtl:space-x-reverse">
