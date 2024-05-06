@@ -11,6 +11,12 @@
   <!-- Gridjs CSS -->
   <link rel="stylesheet" href="{{asset('assets/libs/gridjs/theme/mermaid.min.css')}}">
 
+  <style>
+    div#example_length {
+    display: none;
+}
+  </style>
+
 <div class="content">
     <div class="main-content">
 
@@ -117,6 +123,7 @@
                  // Add any customization options here
              });
          });
+         
      </script>
 
 @endsection
