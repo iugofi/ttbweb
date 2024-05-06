@@ -467,21 +467,6 @@
 	    width: 840px;
 	    height: 31px;
 	}
-	.lead-testimonial-cont:before {
-	    content: 'By: Salman Raza';
-	    font-family: 'Roboto', cursive;
-	    position: absolute;
-	    bottom: -25px;
-	    left: 50%;
-	    transform: translateX(-50%);
-	    color: rgba(0, 0, 0, 0.9);
-	    font-size: 10px;
-	    letter-spacing: 5px;
-	    font-weight: 500;
-	    white-space: nowrap;
-	    color: #545454;
-	    text-transform: uppercase;
-	}
 	.lead-testimonial-cont > h2 {
 		position: absolute;
 		text-align: center;
@@ -581,8 +566,8 @@
 
 
          <!-- Candidate Details JS -->
-         <script src="{{asset('assets/js/job-candidate-details.js')}}"></script>
-		<script src="{{asset('assets/js/custom.js')}}"></script>
+         {{-- <script src="{{asset('assets/js/job-candidate-details.js')}}"></script>
+		<script src="{{asset('assets/js/custom.js')}}"></script> --}}
 
 
     @endsection
