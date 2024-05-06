@@ -41547,10 +41547,15 @@ img.img-fluid.service-icon {
     box-shadow: 0 2px 4px #000;
     margin: 14px 30px;
     border-radius: 6px;
-    padding: 42px 12px;
+    padding: 32px 12px;
 }
 .pricing-section {
     box-shadow: none;
+}
+.pricing-section .pricing {
+    margin: 14px 30px;
+    border-radius: 6px;
+    padding: 42px 12px;
 }
 
 
