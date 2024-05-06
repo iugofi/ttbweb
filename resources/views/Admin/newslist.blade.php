@@ -124,6 +124,16 @@
                                     { name: "description", width: "150px" },
                                     { name: "meta_title", width: "150px" },
                                     { name: "canonical_url", width: "150px" }
+                                    {
+                                        name: "Actions",
+                                        width: "150px",
+                                        formatter: (cell, row) => {
+                                            return gridjs.html(`
+                                                <button onclick="editItem(${row.cells[0].data})">Edit</button>
+                                                <button onclick="deleteItem(${row.cells[0].data})">Delete</button>
+                                            `);
+                                        }
+                                    }
                                 ],
                                 data: data.map(item => [item.title, item.slug, item.news_category_id, item.description, item.meta_title, item.canonical_url])
                             }).render(document.getElementById("grid-container"));
@@ -138,6 +148,15 @@
                         return str;
                     }
                     return words.slice(0, numWords).join(' ') + '...';
+                }
+                function editItem(itemId) {
+       
+                 console.log("Edit item with ID:", itemId);
+                }
+
+                function deleteItem(itemId) {
+
+                    console.log("Delete item with ID:", itemId);
                 }
             </script>
             
