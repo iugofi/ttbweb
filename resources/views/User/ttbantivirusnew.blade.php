@@ -304,13 +304,12 @@
                             <img src="{{ asset('assets/img/ttb-second-section-img-2.png') }}" alt=""
                                 class="img-fluid">
                         </div>
-                        <div class="lg:text-start !flex items-center lg:justify-start justify-center box-animantion">
+                        <div class="lg:text-start !flex items-center lg:justify-start justify-center">
                             <img src="{{ asset('assets/img/Box.png') }}" alt="" class="img-fluid">
                         </div>
                     </div>
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 pt-5 pb-0 lg:px-2 !text-start">
-                        <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">About Us</span>
-                        <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">Good Qualification Services <br>
+                        <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">Mobile Friendly <br>
                             And Better Skills</h4>
                         <p class=" text-[0.9rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
                             value with diverse web-readiness. Collaboratively transition wireless customer service without
@@ -321,13 +320,14 @@
                         </p>
 
                         <div class="action-btns mt-4">
+                            <a href="#" class="ti-btn bg-primary text-white">Get in Touch</a>
                             <a href="#" class="ti-btn bg-primary text-white">Learn More</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        
+
         {{-- End:: ttbantivirus section fifth --}}
 
 
