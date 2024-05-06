@@ -41557,7 +41557,10 @@ img.img-fluid.service-icon {
     border-radius: 6px;
     padding: 32px 12px;
 }
-
+.btnn button:hover {
+    background-color: #12D2B3 !important;
+    color: #fff !important;
+}
 
       /* End */
 
