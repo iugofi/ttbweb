@@ -202,7 +202,7 @@
                                                 <span class="text-[#000] dark:text-white/50 font-semibold text-sm">Money Back Guarentee</span>
                                             </li>
                                         </ul>
-                                        <div class="grid">
+                                        <div class="grid btnn">
                                             <button type="button" class="ti-btn ti-btn-primary" style="border: 1.8px solid #12D2B3;background: #fff; color: #12D2B3;">Get Started</button>
                                         </div>
                                     </div>
@@ -279,7 +279,7 @@
                                                 <span class="text-[#000] dark:text-white/50 font-semibold text-sm">Money Back Guarentee</span>
                                             </li>
                                         </ul>
-                                        <div class="grid">
+                                        <div class="grid btnn">
                                             <button type="button" class="ti-btn ti-btn-primary" style="border: 1.8px solid #12D2B3;background: #fff; color: #12D2B3;">Get Started</button>
                                         </div>
                                     </div>
