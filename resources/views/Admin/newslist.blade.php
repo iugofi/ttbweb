@@ -47,6 +47,7 @@
                         </div>
                         <div class="box-body">
                             <!-- Container for Grid.js -->
+                            <div id="loading" style="display: none;">Loading...</div>
                             <div id="grid-container"></div>
                         </div>
                     </div>
@@ -56,9 +57,11 @@
         
             <script>
                 document.addEventListener('DOMContentLoaded', function () {
+                    document.getElementById('loading').style.display = 'block';
                     fetch('/newslistshow')
                         .then(response => response.json())
                         .then(data => {
+                            document.getElementById('loading').style.display = 'none';
                             data.forEach(item => {
                                 item.title = truncateWords(item.title, 3);
                                 item.description = truncateWords(item.description, 3);
