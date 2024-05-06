@@ -77,11 +77,15 @@
                                                 $id = 1;
                                             @endphp
                                             <td class="border px-4 py-2">{{ $key + 1 }}</td>
-                                            <td class="border px-4 py-2"><div class="me-2">
-                                                <span class="avatar avatar-md avatar-rounded">
-                                                    <img src="https://www.ttbinternetsecurity.com/admin/uploads/news/{{ $item->image }}" alt="">
-                                                </span>
-                                            </div></td>
+                                            <td class="border px-4 py-2">
+                                                <div class="flex items-center font-semibold">
+                                                    <span
+                                                        class="!me-2 inline-flex justify-center items-center">
+                                                        <img src="https://www.ttbinternetsecurity.com/admin/uploads/news/{{ $item->image }}" alt="img"
+                                                            class="w-[1.75rem] h-[1.75rem] leading-[1.75rem] text-[0.65rem]  rounded-full">
+                                                    </span>
+                                                </div>
+                                            </td>
                                             <td class="border px-4 py-2">{!! nl2br(e(Str::limit(strip_tags($item->title), 20))) !!}</td>                              
                                             <td class="border px-4 py-2">{!! nl2br(e(Str::limit(strip_tags($item->description), 20))) !!}</td>
                                             <td class="border">
