@@ -78,15 +78,7 @@
                                         <option value="Scheduled">Hold</option>
                                     </select>
                                 </div>
-                                <div class="xl:col-span-6 col-span-12">
-                                    <label for="blog-tags" class="form-label">Blog Tags</label>
-                                    <select class="form-control block w-full text-[0.875rem] !rounded-md" name="blog-tags" id="blog-tags" multiple>
-                                        <option value="Top Blog" selected>Top Blog</option>
-                                        <option value="Blogger">Blogger</option>
-                                        <option value="Adventure">Adventure</option>
-                                        <option value="Landscape" selected>Landscape</option>
-                                    </select>
-                                </div>
+                              
                                 <div class="xl:col-span-12 col-span-12">
                                     <label class="form-label">Blog Content</label>
                                     <div id="blog-content"></div>

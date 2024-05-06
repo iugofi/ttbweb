@@ -74,6 +74,9 @@
 <!-- CUSTOM-SWITCHER JS -->
 <script src="{{asset('assets/js/custom-switcher.js')}}"></script>
 
+<!-- Quill Editor JS -->
+<script src="{{asset('assets/libs/quill/quill.min.js')}}"></script>
+
 <!-- END SCRIPTS -->
 
 </body>

@@ -31,6 +31,11 @@
     <!-- STYLE CSS -->
     <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
 
+    
+  <!-- editor CSS -->
+    <link rel="stylesheet" href="{{asset('assets/libs/quill/quill.snow.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/libs/quill/quill.bubble.css')}}">
+
 
     <!-- SIMPLEBAR CSS -->
     <link rel="stylesheet" href="{{asset('assets/libs/simplebar/simplebar.min.css')}}">
