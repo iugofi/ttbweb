@@ -32,12 +32,12 @@
                 <ol class="flex items-center whitespace-nowrap min-w-0">
                     <li class="text-[0.813rem] ps-[0.5rem]">
                       <a class="flex items-center text-primary hover:text-primary dark:text-primary truncate" href="javascript:void(0);">
-                      Blog
+                      News
                         <i class="ti ti-chevrons-right flex-shrink-0 text-[#8c9097] dark:text-white/50 px-[0.5rem] overflow-visible rtl:rotate-180"></i>
                       </a>
                     </li>
                     <li class="text-[0.813rem] text-defaulttextcolor font-semibold hover:text-primary dark:text-[#8c9097] dark:text-white/50 " aria-current="page">
-                        Blog Create 
+                        News Create 
                     </li>
                 </ol>
             </div>
@@ -48,7 +48,7 @@
                 <div class="xxl:col-span-9 xl:col-span-12 lg:col-span-12 md:col-span-12 sm:col-span-12 col-span-12">
                     <div class="box">
                         <div class="box-header">
-                            <div class="box-title">New Blog</div>
+                            <div class="box-title">News Blog</div>
                         </div>
                         <div class="box-body">
                             <div class="grid grid-cols-12 gap-4">
