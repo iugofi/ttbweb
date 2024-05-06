@@ -392,7 +392,7 @@
                 </div>
                 <div class="box-body">
                     <div class="swiper swiper-basic pagination-fraction">
-                        <div class="swiper-wrapper">
+                        <div class="swiper-wrapper xl:grid-col-3">
                             <div class="swiper-slide"><div class="box-body">
                                 <div class="relative">
                                     <div class="relative rounded-sm overflow-auto">
@@ -405,8 +405,9 @@
                                       </div>
                                     </div>
                                 </div>
-                            </div></div>
-                            <div class="swiper-slide"><div class="box-body">
+                            </div>
+                        </div>
+                        <div class="swiper-slide xl:grid-col-9"><div class="box-body">
                                 <div class="relative">
                                     <div class="relative rounded-sm overflow-auto">
                                       <div class="sm:grid space-y-6 sm:space-y-0 grid-cols-2 gap-4 font-mono text-defaulttextcolor text-sm text-center font-bold rounded-sm">
@@ -417,7 +418,8 @@
                                       </div>
                                     </div>
                                 </div>
-                            </div></div>
+                            </div>
+                        </div>
                             <div class="swiper-slide"><div class="box-body">
                                 <div class="relative">
                                     <div class="relative rounded-sm overflow-auto">
