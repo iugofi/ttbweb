@@ -1,12 +1,16 @@
 @extends('User.Layouts.layout')
 
 @section('title', 'News Details')
-@section('Description', '')
-@section('keywords', '')
-@section('canonical', '')
+@section('description', $newsPost->meta_desc)
+@section('keywords', $newsPost->meta_keyword)
+@section('canonical', $newsPost->slug)
 
 
-
+<style>
+    body {
+   background-color: rgb(var(--body-bg));
+}
+</style>
 @section('content')
 
 

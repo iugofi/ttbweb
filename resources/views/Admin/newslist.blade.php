@@ -1,33 +1,46 @@
 @extends('Admin.Layouts.layout')
 
 @section('title', 'TTB Admin')
-@section('Description',
-    '')
+@section('Description', '')
 @section('keywords', '')
 @section('canonical', 'vbhdvbh')
 @section('content')
 
 
-  <!-- Gridjs CSS -->
-  <link rel="stylesheet" href="{{asset('assets/libs/gridjs/theme/mermaid.min.css')}}">
+    <!-- Gridjs CSS -->
+    <link rel="stylesheet" href="{{ asset('assets/libs/gridjs/theme/mermaid.min.css') }}">
 
-<div class="content">
-    <div class="main-content">
+    <style>
+        div#example_length {
+            display: none;
+        }
+        body {
+            background-color: rgb(var(--body-bg));
+            }
+    </style>
 
-         
+    <div class="content">
+        <div class="main-content">
+
+
             <!-- Page Header -->
             <div class="block justify-between page-header md:flex">
                 <div>
-                    <h3 class="!text-defaulttextcolor dark:!text-defaulttextcolor/70 dark:text-white dark:hover:text-white text-[1.125rem] font-semibold">News</h3>
+                    <h3
+                        class="!text-defaulttextcolor dark:!text-defaulttextcolor/70 dark:text-white dark:hover:text-white text-[1.125rem] font-semibold">
+                        News</h3>
                 </div>
                 <ol class="flex items-center whitespace-nowrap min-w-0">
                     <li class="text-[0.813rem] ps-[0.5rem]">
-                      <a class="flex items-center text-primary hover:text-primary dark:text-primary truncate" href="javascript:void(0);">
-                        Tables
-                        <i class="ti ti-chevrons-right flex-shrink-0 text-[#8c9097] dark:text-white/50 px-[0.5rem] overflow-visible rtl:rotate-180"></i>
-                      </a>
+                        <a class="flex items-center text-primary hover:text-primary dark:text-primary truncate"
+                            href="javascript:void(0);">
+                            Tables
+                            <i
+                                class="ti ti-chevrons-right flex-shrink-0 text-[#8c9097] dark:text-white/50 px-[0.5rem] overflow-visible rtl:rotate-180"></i>
+                        </a>
                     </li>
-                    <li class="text-[0.813rem] text-defaulttextcolor font-semibold hover:text-primary dark:text-[#8c9097] dark:text-white/50 " aria-current="page">
+                    <li class="text-[0.813rem] text-defaulttextcolor font-semibold hover:text-primary dark:text-[#8c9097] dark:text-white/50 "
+                        aria-current="page">
                         News
                     </li>
                 </ol>
@@ -46,147 +59,126 @@
                             </div>
                         </div>
                         <div class="box-body">
-                            <!-- Container for Grid.js -->
-                            {{-- <div id="loading" style="display: none;">Loading...</div> --}}
-                            <div class="box" id="loading" style="display: none;">
-                                <div class="box-header justify-center">
-                                        Please Wait                           
-                                </div>
-                                <div class="box-body">
-                                    <div class="space-x-6 space-y-4 rtl:space-x-reverse">
-                                        <div class="ti-spinner !animate-ping !border-transparent  bg-primary ping-animation" role="status"
-                                            aria-label="loading">
-                                            <span class="sr-only">Loading...</span>
-                                        </div>
-                                        <div class="ti-spinner !animate-ping !border-transparent  bg-secondary ping-animation" role="status"
-                                            aria-label="loading">
-                                            <span class="sr-only">Loading...</span>
-                                        </div>
-                                        <div class="ti-spinner !animate-ping !border-transparent  bg-warning ping-animation" role="status"
-                                            aria-label="loading">
-                                            <span class="sr-only">Loading...</span>
-                                        </div>
-                                        <div class="ti-spinner !animate-ping !border-transparent  bg-danger ping-animation" role="status"
-                                            aria-label="loading">
-                                            <span class="sr-only">Loading...</span>
-                                        </div>
-                                        <div class="ti-spinner !animate-ping !border-transparent  bg-success ping-animation" role="status"
-                                            aria-label="loading">
-                                            <span class="sr-only">Loading...</span>
-                                        </div>
-                                        <div class="ti-spinner !animate-ping !border-transparent  bg-info ping-animation" role="status"
-                                            aria-label="loading">
-                                            <span class="sr-only">Loading...</span>
-                                        </div>
-                                        <div class="ti-spinner !animate-ping !border-transparent  bg-black/20 dark:!bg-light dark:animate-ping ping-animation"
-                                            role="status" aria-label="loading">
-                                            <span class="sr-only">Loading...</span>
-                                        </div>
-                                        <div class="ti-spinner !animate-ping !border-transparent  bg-gray-400 ping-animation" role="status"
-                                            aria-label="loading">
-                                            <span class="sr-only">Loading...</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                            </div>
-                            <div id="grid-container"></div>
+                            <table id="example" class="table-auto w-full">
+                                <thead>
+                                    <tr>
+                                        <th class="px-4 py-2">Id</th>
+                                        <th class="px-4 py-2">Image</th>
+                                        <th class="px-4 py-2">Title</th>
+                                        <th class="px-4 py-2">Description</th>
+                                        <th class="px-4 py-2">Status</th>
+                                        <th class="px-4 py-2">Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach ($news as $key => $item)
+                                        <tr>
+                                            @php
+                                                $id = 1;
+                                            @endphp
+                                            <td class="border px-4 py-2">{{ $key + 1 }}</td>
+                                            <td class="border px-4 py-2">
+                                                <div class="flex items-center font-semibold">
+                                                    <span
+                                                        class="!me-2 inline-flex justify-center items-center">
+                                                        <img src="https://www.ttbinternetsecurity.com/admin/uploads/news/{{ $item->image }}" alt="img"
+                                                            class="w-[1.75rem] h-[1.75rem] leading-[1.75rem] text-[0.65rem]  rounded-full">
+                                                    </span>
+                                                </div>
+                                            </td>
+                                            <td class="border px-4 py-2">{!! nl2br(e(Str::limit(strip_tags($item->title), 20))) !!}</td>                              
+                                            <td class="border px-4 py-2">{!! nl2br(e(Str::limit(strip_tags($item->description), 20))) !!}</td>
+                                            <td class="border">
+                                                @php
+                                                $storepick = DB::table('storepick')
+                                                            ->where('STORE_ID', '=', 'Status')
+                                                            ->where('PICK_ID', '=', $item->status)
+                                                            ->first();
+                                                @endphp
+                                                @if($storepick)
+                                                    @php
+                                                    $statusText = '';
+                                                    $statusColor = '';
+    
+                                                    switch ($item->status) {
+                                                        case 101:
+                                                            $statusText = $storepick->PICK_TEXT;
+                                                            $statusColor = 'primary';
+                                                            break;
+                                                        case 102:
+                                                            $statusText = $storepick->PICK_TEXT;
+                                                            $statusColor = 'info';
+                                                            break;
+                                                        case 103:
+                                                            $statusText = $storepick->PICK_TEXT;
+                                                            $statusColor = 'danger';
+                                                            break;
+                                                        default:
+                                                            // Default case if none of the above conditions are met
+                                                            $statusText = $storepick->PICK_TEXT;
+                                                            $statusColor = 'info'; // You can set a default color here if needed
+                                                            break;
+                                                    }
+                                                    @endphp
+                                                    <span class="inline-flex text-{{ $statusColor }} !py-[0.15rem] !px-[0.45rem] rounded-sm !font-semibold !text-[0.75em] bg-{{ $statusColor }}/10">{{ $statusText }}</span>
+                                                @else
+                                                <span class="inline-flex text-danger !py-[0.15rem] !px-[0.45rem] rounded-sm !font-semibold !text-[0.75em] bg-danger/10">No Value</span>
+                                                @endif
+                                            </td>
+                                            <td class="border px-4 py-2">
+                                                <div
+                                                    class="flex flex-row items-center !gap-2 text-[0.9375rem]">
+                                                    <a aria-label="anchor" href="{{ route('edit.newsedit', $item->id) }}" class="ti-btn ti-btn-icon ti-btn-wave !gap-0 !m-0 !h-[1.75rem] !w-[1.75rem] text-[0.8rem] bg-primary/10 text-primary hover:bg-primary hover:text-white hover:border-primary">
+                                                        <i class="ri-edit-line"></i>
+                                                    </a>
+                                                    
+    
+                                                            <button aria-label="button" type="button"
+                                                            class="ti-btn !py-1 !px-2 !text-[0.75rem] ti-btn-danger-full btn-wave delete-news"
+                                                            data-url="{{ route('delete.newsdelete', $item->id) }}">
+                                                            <i class="ri-delete-bin-line align-middle me-2 inline-block"></i>Delete
+                                                        </button>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    @endforeach
+
+                                    <!-- Add more rows as needed -->
+                                </tbody>
+                            </table>
+
                         </div>
                     </div>
                 </div>
             </div>
-        
-        
-            <script>
-                document.addEventListener('DOMContentLoaded', function () {
-                    document.getElementById('loading').style.display = 'block';
-                    fetch('/newslistshow')
-                        .then(response => response.json())
-                        .then(data => {
-                            document.getElementById('loading').style.display = 'none';
-                            data.forEach(item => {
-                                item.title = truncateWords(item.title, 3);
-                                item.description = truncateWords(item.description, 3);
-                                item.meta_title = truncateWords(item.meta_title, 3);
-                                item.canonical_url = truncateWords(item.canonical_url, 2);
-                         
-
-
-                            });
-                            new gridjs.Grid({
-                                pagination: true,
-                                search: true,
-                                sort: true,
-                                columns: [
-                                    { name: "title", width: "150px" },
-                                    { name: "slug", width: "150px" },
-                                    { name: "news_category_id", width: "150px" },
-                                    { name: "description", width: "150px" },
-                                    { name: "meta_title", width: "150px" },
-                                    { name: "canonical_url", width: "250px" },
-                                    {
-                                        name: "Action",
-                                        width: "150px",
-                                        formatter: (cell, row) => {
-                                            const editButton = document.createElement('button');
-                                            editButton.textContent = 'Edit';
-                                            editButton.addEventListener('click', () => {
-                                               
-                                                console.log('Edit clicked for ID:', row.cells[1].data);
-                                            });
-
-                                            const deleteButton = document.createElement('button');
-                                            deleteButton.textContent = 'Delete';
-                                            deleteButton.addEventListener('click', () => {
-                                            
-                                                console.log('Delete clicked for ID:', row.cells[1].data);
-                                            });
-
-                                            const container = document.createElement('div');
-                                            container.appendChild(editButton);
-                                            container.appendChild(deleteButton);
-
-                                            return container;
-                                        }
-                                    }
-                                    
-                                ],
-                                data: data.map(item => [item.title, item.slug, item.news_category_id, item.description, item.meta_title, item.canonical_url])
-                            }).render(document.getElementById("grid-container"));
-                        })
-                        .catch(error => {
-                            console.error('Error fetching news data:', error);
-                        });
-                });
-                function truncateWords(str, numWords) {
-                    const words = str.split(' ');
-                    if (words.length <= numWords) {
-                        return str;
-                    }
-                    return words.slice(0, numWords).join(' ') + '...';
-                }
-            </script>
-            
-         
-
-
-  
 
 
 
 
+
+
+        </div>
     </div>
-</div>
 
 
 
 
 
-     <!-- Grid JS -->
-     <script src="{{asset('assets/libs/gridjs/gridjs.umd.js')}}"></script>
-        
-     <!-- Internal Grid JS -->
-     <script src="{{asset('assets/js/grid.js')}}"></script>
+    <!-- Grid JS -->
+    <script src="{{ asset('assets/libs/gridjs/gridjs.umd.js') }}"></script>
 
+    <!-- Internal Grid JS -->
+    <script src="{{ asset('assets/js/grid.js') }}"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('#example').DataTable({
+                // Add any customization options here
+            });
+        });
+    </script>
 
 @endsection
