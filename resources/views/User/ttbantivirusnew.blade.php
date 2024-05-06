@@ -228,19 +228,19 @@
                                                 <span class="text-white dark:text-white/50 font-semibold text-sm">Lorem dolor sit consectetur</span>
                                             </li>
                                             <li class="mb-4">
-                                                <span class="text-white dark:text-white/50 font-semibold text-sm bx bx-check-double space-x-4">Daily Updates</span>
+                                                <span class="text-white dark:text-white/50 font-semibold text-sm bx bx-check-double space-icon">Daily Updates</span>
                                             </li>
                                             <li class="mb-4">
-                                                <span class="text-white dark:text-white/50 font-semibold text-sm bx bx-check-double space-x-4">Online Support</span>
+                                                <span class="text-white dark:text-white/50 font-semibold text-sm bx bx-check-double space-icon">Online Support</span>
                                             </li>
                                             <li class="mb-4">
-                                                <span class="text-white dark:text-white/50 font-semibold text-sm bx bx-check-double space-x-4">Visitors Monitoring</span>
+                                                <span class="text-white dark:text-white/50 font-semibold text-sm bx bx-check-double space-icon">Visitors Monitoring</span>
                                             </li>
                                             <li class="mb-4">
-                                                <span class="text-white dark:text-white/50 font-semibold text-sm bx bx-check-double space-x-4">30 Free Domains</span>
+                                                <span class="text-white dark:text-white/50 font-semibold text-sm bx bx-check-double space-icon">30 Free Domains</span>
                                             </li>
                                             <li class="mb-4">
-                                                <span class="text-white dark:text-white/50 font-semibold text-sm bx bx-check-double space-x-4">Money Back Guarentee</span>
+                                                <span class="text-white dark:text-white/50 font-semibold text-sm bx bx-check-double space-icon">Money Back Guarentee</span>
                                             </li>
                                         </ul>  
                                         <div class="grid">
