@@ -41577,6 +41577,27 @@ img.img-fluid.service-icon {
 .text-vertical {
     margin: auto;
 }
+.animantion-round {
+    position: relative;
+}
+.img-fst img {
+    z-index: 1;
+    width: 82%;
+}
+.img-round img {
+    position: absolute;
+    bottom: 0rem;
+    left: 2rem;
+    animation: rotateciccle 1s linear infinite;
+}
+
+@keyframes rotateCircles {
+  from {
+    transform: rotate(0);
+  } to {
+    transform: rotate(360deg);
+  }
+}
 /* End antivirus page css */
 
 
