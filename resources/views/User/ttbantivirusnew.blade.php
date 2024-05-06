@@ -382,7 +382,27 @@
 
         {{-- Start:: ttbantivirus faq section saven --}}
 
-
+        <div class="xl:col-span-4 lg:col-span-6 md:col-span-6 sm:col-span-12 col-span-12">
+            <div class="box custom-box">
+                <div class="box-header">
+                    <div class="box-title">
+                        Pagination Fraction
+                    </div>
+                </div>
+                <div class="box-body">
+                    <div class="swiper swiper-basic pagination-fraction">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="assets/images/media/media-16.jpg" class="!rounded-md" alt=""></div>
+                            <div class="swiper-slide"><img src="assets/images/media/media-30.jpg" class="!rounded-md" alt=""></div>
+                            <div class="swiper-slide"><img src="assets/images/media/media-31.jpg" class="!rounded-md" alt=""></div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                      </div>
+                </div>
+            </div>
+        </div>
 
         {{-- End:: ttbantivirus faq section saven --}}
 
