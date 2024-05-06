@@ -173,7 +173,7 @@
                             <div class="grid grid-cols-12">
                                 <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12 col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 pe-0">
                                     <div class="p-6 pricing">
-                                        <h6 class="font-semibold text-left text-[1rem] text-black">BASIC</h6>
+                                        <h6 class="font-semibold text-left text-[1rem] text-black px-5">BASIC</h6>
                                         <div class="py-4 flex items-center justify-left">
                                             <div class="text-end ms-5">
                                                 <p class="text-[1.5625rem] font-semibold mb-0">$199</p>
@@ -184,22 +184,22 @@
                                         </div>
                                         <ul class="list-none text-left text-[0.75rem] px-4 pt-4 mb-0">
                                             <li class="mb-4">
-                                                <span class="text-[#000] dark:text-white/50">Storage Capacity</span>
+                                                <span class="text-[#000] dark:text-white/50 font-semibold text-base">Storage Capacity</span>
                                             </li>
                                             <li class="mb-4">
-                                                <span class="text-[#000] dark:text-white/50">Daily Updates</span>
+                                                <span class="text-[#000] dark:text-white/50 font-semibold text-base">Daily Updates</span>
                                             </li>
                                             <li class="mb-4">
-                                                <span class="text-[#000] dark:text-white/50">Online Support</span>
+                                                <span class="text-[#000] dark:text-white/50 font-semibold text-base">Online Support</span>
                                             </li>
                                             <li class="mb-4">
-                                                <span class="text-[#000] dark:text-white/50">Visitors Monitoring</span>
+                                                <span class="text-[#000] dark:text-white/50 font-semibold text-base">Visitors Monitoring</span>
                                             </li>
                                             <li class="mb-4">
-                                                <span class="text-[#000] dark:text-white/50">2 Free Domains</span>
+                                                <span class="text-[#000] dark:text-white/50 font-semibold text-base">2 Free Domains</span>
                                             </li>
                                             <li class="mb-4">
-                                                <span class="text-[#000] dark:text-white/50">Money Back Guarentee</span>
+                                                <span class="text-[#000] dark:text-white/50 font-semibold text-base">Money Back Guarentee</span>
                                             </li>
                                         </ul>
                                         <div class="grid">
@@ -224,22 +224,22 @@
                                         </div>
                                         <ul class="list-none text-left text-[0.75rem] px-4 pt-4 mb-0">
                                             <li class="mb-4">
-                                                <span class="text-white dark:text-white/50">Storage Capacity</span>
+                                                <span class="text-white dark:text-white/50 font-semibold text-base">Storage Capacity</span>
                                             </li>
                                             <li class="mb-4">
-                                                <span class="text-white dark:text-white/50">Daily Updates</span>
+                                                <span class="text-white dark:text-white/50 font-semibold text-base">Daily Updates</span>
                                             </li>
                                             <li class="mb-4">
-                                                <span class="text-white dark:text-white/50">Online Support</span>
+                                                <span class="text-white dark:text-white/50 font-semibold text-base">Online Support</span>
                                             </li>
                                             <li class="mb-4">
-                                                <span class="text-white dark:text-white/50">Visitors Monitoring</span>
+                                                <span class="text-white dark:text-white/50 font-semibold text-base">Visitors Monitoring</span>
                                             </li>
                                             <li class="mb-4">
-                                                <span class="text-white dark:text-white/50">30 Free Domains</span>
+                                                <span class="text-white dark:text-white/50 font-semibold text-base">30 Free Domains</span>
                                             </li>
                                             <li class="mb-4">
-                                                <span class="text-white dark:text-white/50">Money Back Guarentee</span>
+                                                <span class="text-white dark:text-white/50 font-semibold text-base">Money Back Guarentee</span>
                                             </li>
                                         </ul>
                                         <div class="grid">
@@ -261,22 +261,22 @@
                                         </div>
                                         <ul class="list-none text-left text-[0.75rem] px-4 pt-4 mb-0">
                                             <li class="mb-4">
-                                                <span class="text-[#000] dark:text-white/50">Storage Capacity</span>
+                                                <span class="text-[#000] dark:text-white/50 font-semibold text-base">Storage Capacity</span>
                                             </li>
                                             <li class="mb-4">
-                                                <span class="text-[#000] dark:text-white/50">Daily Updates</span>
+                                                <span class="text-[#000] dark:text-white/50 font-semibold text-base">Daily Updates</span>
                                             </li>
                                             <li class="mb-4">
-                                                <span class="text-[#000] dark:text-white/50">Online Support</span>
+                                                <span class="text-[#000] dark:text-white/50 font-semibold text-base">Online Support</span>
                                             </li>
                                             <li class="mb-4">
-                                                <span class="text-[#000] dark:text-white/50">Visitors Monitoring</span>
+                                                <span class="text-[#000] dark:text-white/50 font-semibold text-base">Visitors Monitoring</span>
                                             </li>
                                             <li class="mb-4">
-                                                <span class="text-[#000] dark:text-white/50">10 Free Domains</span>
+                                                <span class="text-[#000] dark:text-white/50 font-semibold text-base">10 Free Domains</span>
                                             </li>
                                             <li class="mb-4">
-                                                <span class="text-[#000] dark:text-white/50">Money Back Guarentee</span>
+                                                <span class="text-[#000] dark:text-white/50 font-semibold text-base">Money Back Guarentee</span>
                                             </li>
                                         </ul>
                                         <div class="grid">
