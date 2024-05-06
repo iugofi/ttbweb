@@ -41588,16 +41588,22 @@ img.img-fluid.service-icon {
     position: absolute;
     bottom: 0rem;
     left: 2rem;
-    animation: rotateciccle 1s linear infinite;
+    animation: circle 6s linear infinite;
 }
 
-@keyframes rotateCircles {
-  from {
-    transform: rotate(0);
-  } to {
-    transform: rotate(360deg);
+@keyframes circle{
+    0%{
+      transform:rotate(0deg)
+                translate(-165px)
+                rotate(0deg);
+    
+    }
+    100%{
+      transform:rotate(360deg)
+                translate(-165px)
+                rotate(-360deg);
+    }
   }
-}
 /* End antivirus page css */
 
 
