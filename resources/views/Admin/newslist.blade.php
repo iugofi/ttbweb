@@ -82,8 +82,8 @@
                                                     <img src="https://www.ttbinternetsecurity.com/admin/uploads/news/{{ $item->image }}" alt="">
                                                 </span>
                                             </div></td>
-                                            <td class="border px-4 py-2">{!! nl2br(e(Str::limit(strip_tags($item->title), 10))) !!}</td>                              
-                                            <td class="border px-4 py-2">{!! nl2br(e(Str::limit(strip_tags($item->description), 10))) !!}</td>
+                                            <td class="border px-4 py-2">{!! nl2br(e(Str::limit(strip_tags($item->title), 20))) !!}</td>                              
+                                            <td class="border px-4 py-2">{!! nl2br(e(Str::limit(strip_tags($item->description), 20))) !!}</td>
                                             <td class="border px-4 py-2">{{ $item->status }}</td>
                                             <td class="border px-4 py-2"></td>
                                         </tr>
