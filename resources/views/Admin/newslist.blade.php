@@ -48,6 +48,24 @@
                         <div class="box-body">
                             <!-- Container for Grid.js -->
                             <div id="loading" style="display: none;">Loading...</div>
+                            <div class="box">
+                                <div class="box-header justify-between">
+                                    <div class="box-title">
+                                        Growing spinner
+                                    </div>
+                                    <div class="prism-toggle">
+                                        <button type="button" class="ti-btn !py-1 !px-2 !text-[0.75rem] ti-btn-primary">Show Code<i class="ri-code-line ms-2 inline-block align-middle"></i></button>
+                                    </div>
+                                </div>
+                                <div class="box-body">
+                                    <div class="ti-spinner !bg-black dark:!bg-light !animate-ping !border-transparent ping-animation" role="status"
+                                        aria-label="loading">
+                                        <span class="sr-only">Loading...</span>
+                                    </div>
+                                </div>
+                                <div class="box-footer hidden !border-t-0">
+                                </div>
+                            </div>
                             <div id="grid-container"></div>
                         </div>
                     </div>
