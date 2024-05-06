@@ -124,7 +124,31 @@
                                     { name: "description", width: "150px" },
                                     { name: "meta_title", width: "150px" },
                                     { name: "canonical_url", width: "250px" },
-                                    { name: "Action", width: "150px" }
+                                    {
+                                        name: "Action",
+                                        width: "150px",
+                                        formatter: (cell, row) => {
+                                            const editButton = document.createElement('button');
+                                            editButton.textContent = 'Edit';
+                                            editButton.addEventListener('click', () => {
+                                               
+                                                console.log('Edit clicked for ID:', row.cells[1].data);
+                                            });
+
+                                            const deleteButton = document.createElement('button');
+                                            deleteButton.textContent = 'Delete';
+                                            deleteButton.addEventListener('click', () => {
+                                            
+                                                console.log('Delete clicked for ID:', row.cells[1].data);
+                                            });
+
+                                            const container = document.createElement('div');
+                                            container.appendChild(editButton);
+                                            container.appendChild(deleteButton);
+
+                                            return container;
+                                        }
+                                    }
                                     
                                 ],
                                 data: data.map(item => [item.title, item.slug, item.news_category_id, item.description, item.meta_title, item.canonical_url])
