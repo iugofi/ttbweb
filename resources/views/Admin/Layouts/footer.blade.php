@@ -69,7 +69,7 @@
 <script src="{{asset('assets/js/sticky.js')}}"></script>
 
 <!-- CUSTOM JS -->
-<script src="assets/js/custom.js')}}"></script>
+<script src="{{asset('assets/js/custom.js')}}"></script>
 
 <!-- CUSTOM-SWITCHER JS -->
 <script src="{{asset('assets/js/custom-switcher.js')}}"></script>

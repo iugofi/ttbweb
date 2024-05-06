@@ -47,6 +47,49 @@
                         </div>
                         <div class="box-body">
                             <!-- Container for Grid.js -->
+                            {{-- <div id="loading" style="display: none;">Loading...</div> --}}
+                            <div class="box" id="loading" style="display: none;">
+                                <div class="box-header justify-center">
+                                        Please Wait                           
+                                </div>
+                                <div class="box-body">
+                                    <div class="space-x-6 space-y-4 rtl:space-x-reverse">
+                                        <div class="ti-spinner !animate-ping !border-transparent  bg-primary ping-animation" role="status"
+                                            aria-label="loading">
+                                            <span class="sr-only">Loading...</span>
+                                        </div>
+                                        <div class="ti-spinner !animate-ping !border-transparent  bg-secondary ping-animation" role="status"
+                                            aria-label="loading">
+                                            <span class="sr-only">Loading...</span>
+                                        </div>
+                                        <div class="ti-spinner !animate-ping !border-transparent  bg-warning ping-animation" role="status"
+                                            aria-label="loading">
+                                            <span class="sr-only">Loading...</span>
+                                        </div>
+                                        <div class="ti-spinner !animate-ping !border-transparent  bg-danger ping-animation" role="status"
+                                            aria-label="loading">
+                                            <span class="sr-only">Loading...</span>
+                                        </div>
+                                        <div class="ti-spinner !animate-ping !border-transparent  bg-success ping-animation" role="status"
+                                            aria-label="loading">
+                                            <span class="sr-only">Loading...</span>
+                                        </div>
+                                        <div class="ti-spinner !animate-ping !border-transparent  bg-info ping-animation" role="status"
+                                            aria-label="loading">
+                                            <span class="sr-only">Loading...</span>
+                                        </div>
+                                        <div class="ti-spinner !animate-ping !border-transparent  bg-black/20 dark:!bg-light dark:animate-ping ping-animation"
+                                            role="status" aria-label="loading">
+                                            <span class="sr-only">Loading...</span>
+                                        </div>
+                                        <div class="ti-spinner !animate-ping !border-transparent  bg-gray-400 ping-animation" role="status"
+                                            aria-label="loading">
+                                            <span class="sr-only">Loading...</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
                             <div id="grid-container"></div>
                         </div>
                     </div>
@@ -56,15 +99,17 @@
         
             <script>
                 document.addEventListener('DOMContentLoaded', function () {
+                    document.getElementById('loading').style.display = 'block';
                     fetch('/newslistshow')
                         .then(response => response.json())
                         .then(data => {
+                            document.getElementById('loading').style.display = 'none';
                             data.forEach(item => {
                                 item.title = truncateWords(item.title, 3);
                                 item.description = truncateWords(item.description, 3);
                                 item.meta_title = truncateWords(item.meta_title, 3);
-                                item.canonical_url = truncateWords(item.canonical_url, 3);
-                                item.image = truncateWords(item.image, 3);
+                                item.canonical_url = truncateWords(item.canonical_url, 2);
+                         
 
 
                             });
@@ -75,13 +120,14 @@
                                 columns: [
                                     { name: "title", width: "150px" },
                                     { name: "slug", width: "150px" },
-                                    { name: "news_category_id", width: "200px" },
-                                    { name: "image", width: "150px" },
-                                    { name: "description", width: "100px" },
-                                    { name: "meta_title", width: "100px" },
-                                    { name: "canonical_url", width: "100px" }
+                                    { name: "news_category_id", width: "150px" },
+                                    { name: "description", width: "150px" },
+                                    { name: "meta_title", width: "150px" },
+                                    { name: "canonical_url", width: "250px" },
+                                    { name: "Action", width: "150px" }
+                                    
                                 ],
-                                data: data.map(item => [item.title, item.slug, item.news_category_id, item.image, item.description, item.meta_title, item.canonical_url])
+                                data: data.map(item => [item.title, item.slug, item.news_category_id, item.description, item.meta_title, item.canonical_url])
                             }).render(document.getElementById("grid-container"));
                         })
                         .catch(error => {
