@@ -248,7 +248,7 @@ class UserController extends Controller
     $newsPost = News::where('slug', $id)->first();
     $totalnews = News::count();
     $recentblog = News::orderBy('id', 'desc')->get()->random(4);
-    $newscomment=Newscomment::where('news_id',$newsPost->id)->where('status', 1)->get();
+    $newscomment=Newscomment::where('news_id',$newsPost->id)->where('status', 101)->get();
 
 
     return view('User.news-details', ['newsPost' => $newsPost,'recentblog'=>$recentblog,'totalnews' => $totalnews,'newscomment'=>$newscomment]);

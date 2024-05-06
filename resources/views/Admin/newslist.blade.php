@@ -84,7 +84,43 @@
                                             </div></td>
                                             <td class="border px-4 py-2">{!! nl2br(e(Str::limit(strip_tags($item->title), 20))) !!}</td>                              
                                             <td class="border px-4 py-2">{!! nl2br(e(Str::limit(strip_tags($item->description), 20))) !!}</td>
-                                            <td class="border px-4 py-2">{{ $item->status }}</td>
+                                            <td class="border px-4 py-2">
+                                                @php
+                                                $storepick = DB::table('Storepick')
+                                                            ->where('STORE_ID', '=', 'Status')
+                                                            ->where('PICK_ID', '=', $item->status)
+                                                            ->first();
+                                                @endphp
+                                                @if($storepick)
+                                                    @php
+                                                    $statusText = '';
+                                                    $statusColor = '';
+    
+                                                    switch ($news->Status) {
+                                                        case 101:
+                                                            $statusText = $storepick->PICK_TEXT;
+                                                            $statusColor = 'primary';
+                                                            break;
+                                                        case 102:
+                                                            $statusText = $storepick->PICK_TEXT;
+                                                            $statusColor = 'info';
+                                                            break;
+                                                        case 103:
+                                                            $statusText = $storepick->PICK_TEXT;
+                                                            $statusColor = 'danger';
+                                                            break;
+                                                        default:
+                                                            // Default case if none of the above conditions are met
+                                                            $statusText = $storepick->PICK_TEXT;
+                                                            $statusColor = 'info'; // You can set a default color here if needed
+                                                            break;
+                                                    }
+                                                    @endphp
+                                                    <span class="inline-flex text-{{ $statusColor }} !py-[0.15rem] !px-[0.45rem] rounded-sm !font-semibold !text-[0.75em] bg-{{ $statusColor }}/10">{{ $statusText }}</span>
+                                                @else
+                                                <span class="inline-flex text-danger !py-[0.15rem] !px-[0.45rem] rounded-sm !font-semibold !text-[0.75em] bg-danger/10">No Value</span>
+                                                @endif
+                                            </td>
                                             <td class="border px-4 py-2">
                                                 <div
                                                     class="flex flex-row items-center !gap-2 text-[0.9375rem]">
