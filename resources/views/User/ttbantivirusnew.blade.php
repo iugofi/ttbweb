@@ -381,7 +381,8 @@
         {{-- End:: ttbantivirus section six --}}
 
         {{-- Start:: ttbantivirus faq section saven --}}
-
+        <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]">
+            <div class="container ttbantivirus-container">
         <div class="xl:col-span-4 lg:col-span-6 md:col-span-6 sm:col-span-12 col-span-12">
             <div class="box custom-box">
                 <div class="box-header">
@@ -403,6 +404,8 @@
                 </div>
             </div>
         </div>
+    </div>
+</div>
 
         {{-- End:: ttbantivirus faq section saven --}}
 
