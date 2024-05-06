@@ -123,11 +123,11 @@
                                     { name: "news_category_id", width: "150px" },
                                     { name: "description", width: "150px" },
                                     { name: "meta_title", width: "150px" },
-                                    { name: "canonical_url", width: "150px" }
+                                    { name: "canonical_url", width: "150px" },
                                     { name: "Action", width: "150px" }
                                     
                                 ],
-                                data: data.map(item => [item.title, item.slug, item.news_category_id, item.description, item.meta_title, item.canonical_url, item.canonical_url])
+                                data: data.map(item => [item.title, item.slug, item.news_category_id, item.description, item.meta_title, item.canonical_url])
                             }).render(document.getElementById("grid-container"));
                         })
                         .catch(error => {
