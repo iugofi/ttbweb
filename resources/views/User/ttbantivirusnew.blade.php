@@ -305,7 +305,7 @@
                                 class="img-fluid">
                         </div>
                     </div>
-                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 pt-5 pb-0 lg:px-2 !text-start text-vertical" style="padding-top:0px">
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 pt-5 pb-0 lg:px-2 !text-start text-vertical" style="padding-top:0px !important;">
                         <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">Mobile Friendly <br>
                             And Better Skills</h4>
                         <p class=" text-[0.9rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
