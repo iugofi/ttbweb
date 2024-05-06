@@ -304,9 +304,9 @@
                             <img src="{{ asset('assets/img/ttb-second-section-img-2.png') }}" alt=""
                                 class="img-fluid">
                         </div>
-                        <div class="lg:text-start !flex items-center lg:justify-start justify-center">
+                        {{-- <div class="lg:text-start !flex items-center lg:justify-start justify-center">
                             <img src="{{ asset('assets/img/Box.png') }}" alt="" class="img-fluid">
-                        </div>
+                        </div> --}}
                     </div>
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 pt-5 pb-0 lg:px-2 !text-start">
                         <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">Mobile Friendly <br>
