@@ -38,7 +38,7 @@ class AdminController extends Controller
 
     public function newslist(){
     if ($this->loggedInAdmin) {
-        $news = News::all();
+        $news = News::orderBy('id', 'desc')->get();
 
     return view('Admin.newslist',['news'=>$news]);
     } else {
