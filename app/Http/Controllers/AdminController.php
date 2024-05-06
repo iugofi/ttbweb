@@ -38,7 +38,9 @@ class AdminController extends Controller
 
     public function newslist(){
     if ($this->loggedInAdmin) {
-    return view('Admin.newslist');
+        $news = News::all();
+
+    return view('Admin.newslist',['news'=>$news]);
     } else {
         return redirect('/setup');
     }

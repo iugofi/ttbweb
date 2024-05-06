@@ -55,33 +55,27 @@
                                 <table id="example" class="table-auto w-full">
                                     <thead>
                                         <tr>
-                                            <th class="px-4 py-2">Name</th>
-                                            <th class="px-4 py-2">Position</th>
-                                            <th class="px-4 py-2">Office</th>
-                                            <th class="px-4 py-2">Age</th>
-                                            <th class="px-4 py-2">Start date</th>
-                                            <th class="px-4 py-2">Salary</th>
+                                            <th class="px-4 py-2">Title</th>
+                                            <th class="px-4 py-2">Image</th>
+                                            <th class="px-4 py-2">Description</th>
+                                            <th class="px-4 py-2">Status</th>
+                                            <th class="px-4 py-2">Action</th>
                                         </tr>
                                     </thead>
                                     <tbody>
+                                        @foreach ($news as $item)
+                                            
+                                        
                                         <tr>
-                                            <td class="border px-4 py-2">Tiger Nixon</td>
-                                            <td class="border px-4 py-2">System Architect</td>
-                                            <td class="border px-4 py-2">Edinburgh</td>
-                                            <td class="border px-4 py-2">61</td>
-                                            <td class="border px-4 py-2">2011/04/25</td>
-                                            <td class="border px-4 py-2">$320,800</td>
+                                            <td class="border px-4 py-2">{{$item->title}}</td>
+                                            <td class="border px-4 py-2">{{$item->image}}</td>
+                                            <td class="border px-4 py-2">{{$item->description}}</td>
+                                            <td class="border px-4 py-2">{{$item->status}}</td>
+                                            <td class="border px-4 py-2"></td>
                                         </tr>
+                                        @endforeach
                                      
-                                        <tr>
-                                            <td class="border px-4 py-2">Brielle Williamson</td>
-                                            <td class="border px-4 py-2">Integration Specialist</td>
-                                            <td class="border px-4 py-2">New York</td>
-                                            <td class="border px-4 py-2">61</td>
-                                            <td class="border px-4 py-2">2012/12/02</td>
-                                            <td class="border px-4 py-2">$372,000</td>
-                                        </tr>
-                                     
+                                      
                             
                             
                                         <!-- Add more rows as needed -->
