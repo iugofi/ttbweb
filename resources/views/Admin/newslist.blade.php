@@ -44,7 +44,7 @@
             <!-- Start:: row-4 -->
             <div class="grid grid-cols-12 gap-6">
                 <div class="xl:col-span-12 col-span-12">
-                    <div class="box custom-box">
+                 
                       
                             
                             <table id="example" class="table-auto w-full">
@@ -172,7 +172,7 @@
                                 });
                             });
                         </script>
-                    </div>
+                   
                 </div>
             </div>
 
