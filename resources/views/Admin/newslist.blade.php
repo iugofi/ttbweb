@@ -56,7 +56,7 @@
         
             <script>
                 document.addEventListener('DOMContentLoaded', function () {
-                    fetch('/news')
+                    fetch('/newslistshow')
                         .then(response => response.json())
                         .then(data => {
                             new gridjs.Grid({
