@@ -363,7 +363,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6  antivirus-image text-center  animantion-round">
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6  antivirus-image text-center  animantion-round">  
                         <div class="lg:text-start !flex items-center lg:justify-start justify-center img-fst">
                             <img src="{{ asset('assets/img/We-team-of-experience-It-Specialties.png') }}" alt=""
                                 class="img-fluid">
