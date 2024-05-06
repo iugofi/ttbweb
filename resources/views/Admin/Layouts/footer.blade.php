@@ -77,6 +77,9 @@
 <!-- Quill Editor JS -->
 <script src="{{asset('assets/libs/quill/quill.min.js')}}"></script>
 
+  <!-- Choices JS -->
+  <script src="{{asset('assets/libs/choices.js/public/assets/scripts/choices.min.js')}}"></script>
+
 <!-- END SCRIPTS -->
 
 </body>

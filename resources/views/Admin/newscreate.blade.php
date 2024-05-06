@@ -17,6 +17,9 @@
        <!-- Choices Css -->
 <link rel="stylesheet" href="{{asset('assets/libs/choices.js/public/assets/styles/choices.min.css')}}">
 
+  <!-- Date & Time Picker CSS -->
+  <link rel="stylesheet" href="{{asset('assets/libs/flatpickr/flatpickr.min.css')}}">
+
 <div class="content">
     <div class="main-content">
 
