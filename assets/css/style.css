@@ -41591,6 +41591,7 @@ img.img-fluid.service-icon {
     animation: rotate 30s linear infinite;
 }
 
+
 @keyframes rotate {
     to {
       transform: rotate(360deg);
