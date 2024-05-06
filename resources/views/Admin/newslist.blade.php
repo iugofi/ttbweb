@@ -73,7 +73,7 @@
                                             <td class="border px-4 py-2"></td>
                                             <td class="border px-4 py-2">{{ $item->title }}</td>
                                             <td class="border px-4 py-2">{{ $item->image }}</td>
-                                            <td class="border px-4 py-2">{{ implode(' ', array_slice(explode(' ', $item->description), 0, 10)) }}</td>
+                                            <td class="border px-4 py-2">{!! nl2br(e(Str::limit(strip_tags($item->description), 50))) !!}</td>
                                             <td class="border px-4 py-2">{{ $item->status }}</td>
                                             <td class="border px-4 py-2"></td>
                                         </tr>
