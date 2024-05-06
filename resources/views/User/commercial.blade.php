@@ -38,7 +38,7 @@
 
                             <div class="text-end landing-main-image landing-heading-img flex justify-end w-full">
                             </div>
-
+ 
                         </div>
                     </div>
                 </div>
@@ -606,7 +606,7 @@
             </div>
         </section>
 
-        {{-- End:: commericial section saven --}
+        {{-- End:: commericial section saven --}}
 
 
     </div>
