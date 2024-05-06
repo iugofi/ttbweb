@@ -294,8 +294,7 @@
         {{-- End:: ttbantivirus section forth --}}
 
         {{-- Start:: ttbantivirus section fifth --}}
-
-        <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] ">
+        <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]"  style="padding-top:0px !important;">
             <div class="container ttbantivirus-container">
                 <div
                     class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
@@ -305,7 +304,7 @@
                                 class="img-fluid">
                         </div>
                     </div>
-                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 pt-5 pb-0 lg:px-2 !text-start text-vertical" style="padding-top:0px !important;">
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 pt-5 pb-0 lg:px-2 !text-start text-vertical">
                         <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">Mobile Friendly <br>
                             And Better Skills</h4>
                         <p class=" text-[0.9rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
@@ -324,13 +323,62 @@
                 </div>
             </div>
         </div> 
-
         {{-- End:: ttbantivirus section fifth --}}
 
+        {{-- Start:: ttbantivirus section six --}}
 
+        <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] ">
+            <div class="container main-banner-container">
+                <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 pt-5 pb-0 lg:px-2 !text-start  my-auto">
+                    <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">We Team of Experience<br>
+                        It Specialties</h4>
+                    <p class=" text-[0.9rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
+                        value with diverse web-readiness. Collaboratively transition wireless customer service without
+                        goal-oriented catalysts for change. Collaboratively.
+                    </p>
 
+                    <div class="grid grid-rows-2 grid-flow-col gap-1">
+                        <div class="row-span-3">
+                            <img src="assets/img/Best-Services-Iocn-1.png" class="img-fluid !inline-flex backimage">
+                        </div>
+                        <div class="col-span-2">
+                            <h5 class="dark-text px-6">Best Services</h5>
+                        </div>
+                        <div class="row-span-2 col-span-2">
+                            <p class="text-gray-light px-6">Lorem ipsum dolor sit amet, eiusmod
+                                tempor. Lorem ipsum dolor sit amet, eiusmod tempor.</p>
+                        </div>
+                    </div>
+                    <div class="grid grid-rows-2 grid-flow-col pt-4 gap-1">
+                        <div class="row-span-3"><img src="assets/img/Best-Services-Iocn-2.png "
+                                class="img-fluid !inline-flex backimage"></div>
+                        <div class="col-span-2">
+                            <h5 class="dark-text px-6">Support 24/7</h5>
+                        </div>
+                        <div class="row-span-2 col-span-2">
+                            <p class="text-gray-light px-6">Lorem ipsum dolor sit amet, eiusmod
+                                tempor. Lorem ipsum dolor sit amet, eiusmod tempor.</p>
+                        </div>
+                    </div>
 
+                    <div class="action-btns mt-4">
+                        <a href="#" class="ti-btn bg-primary text-white">Explore More Us</a>
+                    </div>
+                </div>
+                <div class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6  customize-image text-center">
+                        <div class="lg:text-start !flex items-center lg:justify-start justify-center">
+                            <img src="{{ asset('assets/img/We-team-of-experience-It-Specialties.png') }}" alt="" class="img-fluid">
+                        </div>
+                        <div class="lg:text-start !flex items-center lg:justify-start justify-center animate-round">
+                            <img src="{{ asset('assets/img/We-team-of-experience-It-Specialties.png') }}" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        {{-- End:: ttbantivirus section six --}}
 
 
 
