@@ -210,45 +210,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12 col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 px-0">
-                                    <div class="p-6">
-                                        <h6 class="font-semibold text-center text-[1rem]">ADVANCED</h6>
-                                        <div class="py-4 flex items-center justify-center">
-                                            <div class="text-end ms-5">
-                                                <p class="text-[1.5625rem] font-semibold mb-0">$499</p>
-                                                <p
-                                                    class="text-[#8c9097] dark:text-white/50 opacity-50 text-[.6875rem] font-semibold mb-0">
-                                                    per month</p>
-                                            </div>
-                                        </div>
-                                        <ul class="list-none text-center text-[0.75rem] px-4 pt-4 mb-0">
-                                            <li class="mb-4">
-                                                <span class="text-[#8c9097] dark:text-white/50">Storage Capacity<span
-                                                        class="badge bg-light text-defaulttextcolor ms-1">5Tb</span></span>
-                                            </li>
-                                            <li class="mb-4">
-                                                <span class="text-[#8c9097] dark:text-white/50">Daily Updates<span
-                                                        class="badge bg-light text-defaulttextcolor ms-1">Unlimited</span></span>
-                                            </li>
-                                            <li class="mb-4">
-                                                <span class="text-[#8c9097] dark:text-white/50">Online Support</span>
-                                            </li>
-                                            <li class="mb-4">
-                                                <span class="text-[#8c9097] dark:text-white/50">Visitors Monitoring<span
-                                                        class="badge bg-light text-defaulttextcolor ms-1">24/7</span></span>
-                                            </li>
-                                            <li class="mb-4">
-                                                <span class="text-[#8c9097] dark:text-white/50">10 Free Domains</span>
-                                            </li>
-                                            <li class="mb-4">
-                                                <span class="text-[#8c9097] dark:text-white/50">Money Back Guarentee</span>
-                                            </li>
-                                        </ul>
-                                        <div class="grid">
-                                            <button type="button" class="ti-btn ti-btn-primary">Get Started</button>
-                                        </div>
-                                    </div>
-                                </div>
                                 <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12 col-span-12 ps-0">
                                     <div class="p-6 pricing-offer overflow-hidden">
                                         <span class="pricing-offer-details shadow">
@@ -290,6 +251,45 @@
                                         <div class="grid">
                                             <button type="button" class="ti-btn bg-primary text-white">Get
                                                 Started</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12 col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 px-0">
+                                    <div class="p-6">
+                                        <h6 class="font-semibold text-center text-[1rem]">ADVANCED</h6>
+                                        <div class="py-4 flex items-center justify-center">
+                                            <div class="text-end ms-5">
+                                                <p class="text-[1.5625rem] font-semibold mb-0">$499</p>
+                                                <p
+                                                    class="text-[#8c9097] dark:text-white/50 opacity-50 text-[.6875rem] font-semibold mb-0">
+                                                    per month</p>
+                                            </div>
+                                        </div>
+                                        <ul class="list-none text-center text-[0.75rem] px-4 pt-4 mb-0">
+                                            <li class="mb-4">
+                                                <span class="text-[#8c9097] dark:text-white/50">Storage Capacity<span
+                                                        class="badge bg-light text-defaulttextcolor ms-1">5Tb</span></span>
+                                            </li>
+                                            <li class="mb-4">
+                                                <span class="text-[#8c9097] dark:text-white/50">Daily Updates<span
+                                                        class="badge bg-light text-defaulttextcolor ms-1">Unlimited</span></span>
+                                            </li>
+                                            <li class="mb-4">
+                                                <span class="text-[#8c9097] dark:text-white/50">Online Support</span>
+                                            </li>
+                                            <li class="mb-4">
+                                                <span class="text-[#8c9097] dark:text-white/50">Visitors Monitoring<span
+                                                        class="badge bg-light text-defaulttextcolor ms-1">24/7</span></span>
+                                            </li>
+                                            <li class="mb-4">
+                                                <span class="text-[#8c9097] dark:text-white/50">10 Free Domains</span>
+                                            </li>
+                                            <li class="mb-4">
+                                                <span class="text-[#8c9097] dark:text-white/50">Money Back Guarentee</span>
+                                            </li>
+                                        </ul>
+                                        <div class="grid">
+                                            <button type="button" class="ti-btn ti-btn-primary">Get Started</button>
                                         </div>
                                     </div>
                                 </div>
