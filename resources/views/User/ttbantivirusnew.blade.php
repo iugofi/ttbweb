@@ -8,6 +8,9 @@
 
 @section('content')
 
+<script src="{{ asset('assets/js/main.js')}}"></script>
+
+
     <div class="main-content !p-0 landing-main dark:text-defaulttextcolor/70">
 
         <!-- Start::ttbantivirus section one -->
@@ -863,5 +866,7 @@
 
          <!-- Candidate Details JS -->
          <script src="{{asset('assets/js/job-candidate-details.js')}}"></script>
+		<script src="{{asset('assets/js/custom.js')}}"></script>
+
 
     @endsection
