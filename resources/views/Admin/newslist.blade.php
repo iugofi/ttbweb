@@ -53,13 +53,15 @@
                 </div>
             </div>
         
-            <!-- JavaScript code to initialize Grid.js -->
+        
             <script>
-                // Wait for the DOM to be fully loaded
+           
                 document.addEventListener('DOMContentLoaded', function () {
                     // Initialize Grid.js
                     new gridjs.Grid({
-                        // Configuration options
+                        pagination: true,
+                        search: true,
+                        sort: true,
                         columns: [
                             { name: "Date", width: "150px" },
                             { name: "Name", width: "150px" },
@@ -77,10 +79,6 @@
                             ["10-09-2022 10:35", "sarahcdd", "sarahcdd129@gmail.com", "#12015", "$1299", "3", "$3997"],
                             ["27-10-2022 09:55", "afshin", "afshin@example.com", "#12016", "$1449", "1", "$1449"]
                         ],
-                        // Target element to render the grid
-                        // Ensure that the ID matches the container element's ID
-                        // In this case, it's 'grid-container'
-                        // Change this if your container ID is different
                     }).render(document.getElementById("grid-container"));
                 });
             </script>
