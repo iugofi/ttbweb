@@ -59,6 +59,7 @@
                             <table id="example" class="table-auto w-full">
                                 <thead>
                                     <tr>
+                                        <th class="px-4 py-2">Id</th>
                                         <th class="px-4 py-2">Title</th>
                                         <th class="px-4 py-2">Image</th>
                                         <th class="px-4 py-2">Description</th>
@@ -69,27 +70,18 @@
                                 <tbody>
                                     @foreach ($news as $item)
                                         <tr>
+                                            <td class="border px-4 py-2"></td>
                                             <td class="border px-4 py-2">{{ $item->title }}</td>
                                             <td class="border px-4 py-2">{{ $item->image }}</td>
-                                            <td class="border px-4 py-2"> @php
-                                                $words = explode(' ', $item->description);
-                                                $limitedDescription = implode(' ', array_slice($words, 0, 10));
-                                                echo $limitedDescription;
-                                            @endphp</td>
+                                            <td class="border px-4 py-2">{{ implode(' ', array_slice(explode(' ', $item->description), 0, 10)) }}</td>
                                             <td class="border px-4 py-2">{{ $item->status }}</td>
                                             <td class="border px-4 py-2"></td>
                                         </tr>
                                     @endforeach
 
-
-
-
                                     <!-- Add more rows as needed -->
                                 </tbody>
                             </table>
-
-
-
 
                         </div>
                     </div>
