@@ -295,7 +295,7 @@
 
         {{-- Start:: ttbantivirus section fifth --}}
 
-        <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] ">
+        <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]"  style="padding-top:0px !important;">
             <div class="container ttbantivirus-container">
                 <div
                     class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
@@ -305,7 +305,7 @@
                                 class="img-fluid">
                         </div>
                     </div>
-                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 pt-5 pb-0 lg:px-2 !text-start text-vertical" style="padding-top:0px !important;">
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 pt-5 pb-0 lg:px-2 !text-start text-vertical">
                         <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">Mobile Friendly <br>
                             And Better Skills</h4>
                         <p class=" text-[0.9rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
