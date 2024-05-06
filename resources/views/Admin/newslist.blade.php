@@ -47,8 +47,8 @@
                         </div>
                         <div class="box-body">
                             <!-- Container for Grid.js -->
-                            <div id="loading" style="display: none;">Loading...</div>
-                            <div class="box">
+                            {{-- <div id="loading" style="display: none;">Loading...</div> --}}
+                            <div class="box" id="loading" style="display: none;">
                                 <div class="box-header justify-between">
                                     <div class="box-title">
                                         Growing spinner
@@ -58,13 +58,42 @@
                                     </div>
                                 </div>
                                 <div class="box-body">
-                                    <div class="ti-spinner !bg-black dark:!bg-light !animate-ping !border-transparent ping-animation" role="status"
-                                        aria-label="loading">
-                                        <span class="sr-only">Loading...</span>
+                                    <div class="space-x-6 space-y-4 rtl:space-x-reverse">
+                                        <div class="ti-spinner !animate-ping !border-transparent  bg-primary ping-animation" role="status"
+                                            aria-label="loading">
+                                            <span class="sr-only">Loading...</span>
+                                        </div>
+                                        <div class="ti-spinner !animate-ping !border-transparent  bg-secondary ping-animation" role="status"
+                                            aria-label="loading">
+                                            <span class="sr-only">Loading...</span>
+                                        </div>
+                                        <div class="ti-spinner !animate-ping !border-transparent  bg-warning ping-animation" role="status"
+                                            aria-label="loading">
+                                            <span class="sr-only">Loading...</span>
+                                        </div>
+                                        <div class="ti-spinner !animate-ping !border-transparent  bg-danger ping-animation" role="status"
+                                            aria-label="loading">
+                                            <span class="sr-only">Loading...</span>
+                                        </div>
+                                        <div class="ti-spinner !animate-ping !border-transparent  bg-success ping-animation" role="status"
+                                            aria-label="loading">
+                                            <span class="sr-only">Loading...</span>
+                                        </div>
+                                        <div class="ti-spinner !animate-ping !border-transparent  bg-info ping-animation" role="status"
+                                            aria-label="loading">
+                                            <span class="sr-only">Loading...</span>
+                                        </div>
+                                        <div class="ti-spinner !animate-ping !border-transparent  bg-black/20 dark:!bg-light dark:animate-ping ping-animation"
+                                            role="status" aria-label="loading">
+                                            <span class="sr-only">Loading...</span>
+                                        </div>
+                                        <div class="ti-spinner !animate-ping !border-transparent  bg-gray-400 ping-animation" role="status"
+                                            aria-label="loading">
+                                            <span class="sr-only">Loading...</span>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="box-footer hidden !border-t-0">
-                                </div>
+                                
                             </div>
                             <div id="grid-container"></div>
                         </div>
