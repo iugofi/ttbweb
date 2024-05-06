@@ -296,7 +296,7 @@
         {{-- Start:: ttbantivirus section fifth --}}
 
         <div class="antivirus-banner" id="antivirus">
-            <section class="section sect-ban">
+            <section class="section sect-ban"> 
                 <div class="container main-banner-container">
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 col-span-12">
