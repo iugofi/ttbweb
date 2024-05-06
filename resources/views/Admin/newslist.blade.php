@@ -71,7 +71,11 @@
                                         <tr>
                                             <td class="border px-4 py-2">{{ $item->title }}</td>
                                             <td class="border px-4 py-2">{{ $item->image }}</td>
-                                            <td class="border px-4 py-2">{{ str_limit($item->description, 10) }}</td>
+                                            <td class="border px-4 py-2"> @php
+                                                $words = explode(' ', $item->description);
+                                                $limitedDescription = implode(' ', array_slice($words, 0, 10));
+                                                echo $limitedDescription;
+                                            @endphp</td>
                                             <td class="border px-4 py-2">{{ $item->status }}</td>
                                             <td class="border px-4 py-2"></td>
                                         </tr>
