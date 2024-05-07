@@ -152,11 +152,32 @@
                             </div>
                         </div>
                         <div class="box-body" id="recentpost">
-                            <ul class="list-group" id="news-list">
-                                
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <div class="flex gap-2 flex-wrap items-center">
+                                        <span class="avatar avatar-xl me-1">
+                                            <img src="assets/images/media/media-39.jpg" class="img-fluid !rounded-md"
+                                                alt="...">
+                                        </span>
+                                        <div class="flex-grow">
+                                            <a href="javascript:void(0);"
+                                                class="text-[0.875rem] font-semibold mb-0">Animals</a>
+                                            <p class="mb-1 popular-blog-content text-truncate">
+                                                There are many variations of passages of Lorem Ipsum available
+                                            </p>
+                                            <span class="text-[#8c9097] dark:text-white/50 text-[0.6875rem]">24,Nov 2022 -
+                                                18:27</span>
+                                        </div>
+                                        <div>
+                                            <button aria-label="button" type="button"
+                                                class="ti-btn ti-btn-light ti-btn-sm rtl:rotate-180"><i
+                                                    class="ri-arrow-right-s-line"></i></button>
+                                        </div>
+                                    </div>
+                                </li>
                                
                                 <li class="list-group-item text-center">
-                                    <button id="load-more-btn" type="button" class="ti-btn ti-btn-primary !font-medium">Load more</button>
+                                    <button type="button" class="ti-btn ti-btn-primary !font-medium">Load more</button>
                                 </li>
                             </ul>
                         </div>
@@ -223,50 +244,6 @@
                 });
             });
         });
-    </script>
-
-    <script>
-        $(document).ready(function() {
-     $('#load-more-btn').click(function() {
-        $.ajax({
-            url: '{{route('fatch.news')}}',
-            type: 'GET',
-            dataType: 'json',
-            success: function(response) {
-                console.log(response);
-                if(response.length > 0) {
-                 
-                    response.forEach(function(newsItem) {
-                        $('#news-list').append(`
-                            <li class="list-group-item">
-                                <div class="flex gap-2 flex-wrap items-center">
-                                    <span class="avatar avatar-xl me-1">
-                                        <img src="https://www.ttbinternetsecurity.com/admin/uploads/news/${newsItem.image}" class="img-fluid !rounded-md" alt="...">
-                                    </span>
-                                    <div class="flex-grow">
-                                        
-                                        <p class="mb-1 popular-blog-content text-truncate">${newsItem.description}</p>
-                                        <span class="text-[#8c9097] dark:text-white/50 text-[0.6875rem]">${newsItem.created_at}</span>
-                                    </div>
-                                    <div>
-                                        <button aria-label="button" type="button" class="ti-btn ti-btn-light ti-btn-sm rtl:rotate-180"><i class="ri-arrow-right-s-line"></i></button>
-                                    </div>
-                                </div>
-                            </li>
-                        `);
-                    });
-                } else {
-                    $('#news-list').append('<li class="list-group-item">No more news available</li>');
-                    $('#load-more-btn').hide(); // Hide the button if no more news available
-                }
-            },
-            error: function(xhr, status, error) {
-                console.error(error);
-            }
-        });
-    });
-});
-
     </script>
 
 
