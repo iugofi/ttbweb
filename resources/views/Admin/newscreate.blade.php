@@ -87,6 +87,26 @@
                                     <textarea id="news_description" name="news_description" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500" rows="6" required></textarea>
                                     <div class="invalid-feedback"></div>
                                 </div>
+
+                                <div class="xl:col-span-12 col-span-12">
+                                    <label for="blog-Language" class="form-label">Status</label>
+                                    <select class="form-control block w-full text-[0.875rem] !rounded-md" data-trigger
+                                    name="news_status" id="news_status">
+                                    <option value="">Select</option>
+                                    @php
+                                        $status = DB::table('storepick')
+                                            ->where('STORE_ID', 'Status')
+                                            ->orderBy('STORE_INDEX_SEQUENCE', 'asc')
+                                            ->get();
+                                    @endphp
+                                    @foreach ($status as $statuss)
+                                        <option value="{{ $statuss->PICK_ID }}">{{ $statuss->PICK_TEXT }}</option>
+                                    @endforeach
+
+                                </select>
+                                    <div class="invalid-feedback"></div>
+
+                                </div>
                                
                                 <div class="xl:col-span-12 col-span-12 blog-images-container">
                                     <label for="blog-author-email" class="form-label">News Images</label>
@@ -260,9 +280,7 @@
 
 <script>
     $(document).ready(function() {
-        alert("dfg");
         $('#news_form').submit(function(e) {
-            alert("sdf");
             e.preventDefault();
             $('#news_save_btn').val('please wait..');
             var token = $('meta[name="csrf-token"]').attr('content');
@@ -284,8 +302,10 @@
                         showError('canonical_url', response.messages.canonical_url);
                         showError('meta_keyword', response.messages.meta_keyword);
                         showError('meta_desc', response.messages.Status);
-                        showError('content', response.messages.news_discription);
+                        showError('news_description', response.messages.news_description);
                         showError('news_images', response.messages.news_images);
+                        showError('news_status', response.messages.news_status);
+
                         $('#news_save_btn').val('Post News');
                     } else if (response.status == 200) {
                         $('.invalid-feedback').empty();

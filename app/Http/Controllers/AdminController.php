@@ -68,7 +68,50 @@ public function newslistshow(){
 public function savenews(Request $request){
     if ($this->loggedInAdmin) {
    
-        dd($request->all());
+        $validator = Validator::make($request->all(), [
+            'news_title' => 'required|string|max:255',
+            'news_slug' => 'required|string|max:255',
+            'meta_title' => 'required|email|max:255',
+            'canonical_url' => 'required',
+            'meta_keyword' => 'required',
+            'meta_desc' => 'required',
+            'news_description' => 'required',
+            'news_images' => 'required'
+
+        ]);
+        
+
+       
+
+        if ($validator->fails()) {
+            return response()->json([
+                'status' => 400,
+                'messages' => $validator->getMessageBag()->toArray() // Convert messages to array
+            ]);
+        }
+        else
+        {
+
+        // Create a new comment instance
+        $news = new News();
+        $news->title = $request->news_title;
+        $news->slug = $request->news_slug;
+        $news->meta_title = $request->meta_title;
+        $news->canonical_url = $request->canonical_url;
+        $news->meta_keyword =$request->meta_keyword;
+        $news->meta_desc =$request->meta_desc;
+        $news->meta_keyword =$request->meta_keyword;
+        $news->description =$request->news_description;
+        $news->status =$request->news_status;
+
+        $news->save();
+
+        return response()->json([
+            'status' => 200,
+            'messages' => 'Comment Send successfully'
+        ]);
+
+        }
         
 
     } else {
