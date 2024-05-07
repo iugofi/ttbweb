@@ -176,9 +176,9 @@
                                     </div>
                                 </li>
                                
-                                <li class="list-group-item text-center">
+                                {{-- <li class="list-group-item text-center">
                                     <button type="button" class="ti-btn ti-btn-primary !font-medium">Load more</button>
-                                </li>
+                                </li> --}}
                             </ul>
                         </div>
                     </div>
@@ -239,11 +239,51 @@
                         }
                     },
                     error: function(xhr, status, error) {
-
                     }
                 });
             });
         });
+    </script>
+
+    <script>
+        $(document).ready(function() {
+    $.ajax({
+        url: "{{ route('fatch.news') }}",
+        type: 'GET',
+        dataType: 'json',
+        success: function(response) {
+            if(response.length > 0) {
+                var recentPostHtml = '';
+                var truncatedDescription = post.description.split(' ').slice(0, 10).join(' ');
+                var imageUrl = "https://www.ttbinternetsecurity.com/admin/uploads/news/" + post.image;
+                $.each(response, function(index, post) {
+                    recentPostHtml += '<li class="list-group-item">';
+                    recentPostHtml += '<div class="flex gap-2 flex-wrap items-center">';
+                    recentPostHtml += '<span class="avatar avatar-xl me-1">';
+                    recentPostHtml += '<img src="' + imageUrl + '" class="img-fluid !rounded-md" alt="...">';
+                    recentPostHtml += '</span>';
+                    recentPostHtml += '<div class="flex-grow">';
+                    recentPostHtml += '<a href="" class="text-[0.875rem] font-semibold mb-0">' + post.title + '</a>';
+                    recentPostHtml += '<p class="mb-1 popular-blog-content text-truncate">' + truncatedDescription + '</p>';
+                    recentPostHtml += '<span class="text-[#8c9097] dark:text-white/50 text-[0.6875rem]">' + post.created_at + '</span>';
+                    recentPostHtml += '</div>';
+                    recentPostHtml += '<div>';
+                    recentPostHtml += '<button aria-label="button" type="button" class="ti-btn ti-btn-light ti-btn-sm rtl:rotate-180"><i class="ri-arrow-right-s-line"></i></button>';
+                    recentPostHtml += '</div>';
+                    recentPostHtml += '</div>';
+                    recentPostHtml += '</li>';
+                });
+                $('#recentpost .list-group').html(recentPostHtml);
+            } else {
+                // Handle case where no posts are returned
+            }
+        },
+        error: function(xhr, status, error) {
+            // Handle error
+        }
+    });
+});
+
     </script>
 
 
