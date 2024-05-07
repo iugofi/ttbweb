@@ -56,7 +56,7 @@
                                     <div class="xl:col-span-12 col-span-12">
                                         <label for="blog-title" class="form-label">News Title</label>
                                         <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
-                                            id="news_title" name="news_title" placeholder="News Title">
+                                            id="news_title" name="news_title" value="{{$editnews->title}}" placeholder="News Title">
                                         <div class="invalid-feedback"></div>
                                     </div>
                                     <div class="xl:col-span-12 col-span-12">
