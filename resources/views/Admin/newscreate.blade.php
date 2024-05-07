@@ -74,8 +74,9 @@
                               
                                 <div class="xl:col-span-12 col-span-12">
                                     <label class="form-label">News Discription</label>
-                                    <div id="blog-content" name="discription"></div>
+                                    <textarea id="content" name="content" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500" rows="6" required></textarea>
                                 </div>
+                               
                                 <div class="xl:col-span-12 col-span-12 blog-images-container">
                                     <label for="blog-author-email" class="form-label">News Images</label>
                                     <input type="file" class="news_images" name="filepond" multiple data-allow-reorder="true" data-max-file-size="3MB" data-max-files="6">
@@ -232,6 +233,15 @@
 
     </div>
 </div>
+
+<script src="https://cdn.ckeditor.com/ckeditor5/34.1.0/classic/ckeditor.js"></script>
+<script>
+    ClassicEditor
+    .create(document.querySelector('#content'))
+    .catch(error => {
+      console.error(error);
+    });
+</script>
 
 
 
