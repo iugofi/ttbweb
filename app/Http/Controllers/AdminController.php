@@ -95,8 +95,8 @@ public function savenews(Request $request){
             if ($request->hasFile('news_images')) {
                 $image = $request->file('news_images');
                 $imageName = time().'.'.$image->getClientOriginalExtension(); 
-                $image->move(public_path('assets/images/dailynews'), $imageName);
-                dd($image);
+                $image->move('assets/images/dailynews', $imageName);
+               
 
                 $news = new News();
                 $news->title = $request->news_title;
