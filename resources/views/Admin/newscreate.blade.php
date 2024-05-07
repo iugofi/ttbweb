@@ -84,7 +84,7 @@
                               
                                 <div class="xl:col-span-12 col-span-12">
                                     <label class="form-label">News Discription</label>
-                                    <textarea id="news_description" name="news_description" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500" rows="6" required></textarea>
+                                    <textarea id="news_description" name="news_description" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500" rows="6"></textarea>
                                     <div class="invalid-feedback"></div>
                                 </div>
 
@@ -301,7 +301,7 @@
                         showError('meta_title', response.messages.meta_title);
                         showError('canonical_url', response.messages.canonical_url);
                         showError('meta_keyword', response.messages.meta_keyword);
-                        showError('meta_desc', response.messages.Status);
+                        showError('meta_desc', response.messages.meta_desc);
                         showError('news_description', response.messages.news_description);
                         showError('news_images', response.messages.news_images);
                         showError('news_status', response.messages.news_status);
