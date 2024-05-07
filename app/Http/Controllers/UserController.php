@@ -203,9 +203,9 @@ class UserController extends Controller
 
     public function newspage()
     {
-        $newsscroll=News::orderBy('id', 'desc')->where('status', 101)->get()->random(8);
+       $newsscroll=News::orderBy('id', 'desc')->where('status', 101)->get()->random(8);
        $newsscroll2=News::orderBy('id', 'desc')->where('status', 101)->take(2)->get();
-        $newsscroll3 = News::where('id', '<=', function ($query) {
+       $newsscroll3 = News::where('id', '<=', function ($query) {
             $query->select('id')
                 ->from('news')
                 ->orderByDesc('id')
@@ -214,11 +214,11 @@ class UserController extends Controller
                 ->take(1);
         })
         ->orderByDesc('id')
-        ->paginate(12);
-
-
+        ->paginate(12); 
         
-
+        if ($newsscroll->isEmpty() || $newsscroll2->isEmpty() || $newsscroll3->isEmpty()) {
+            return view('User.no_data_found');
+        }
         return view('User.news',[
             'newsscroll'=>$newsscroll,
             'newsscroll2'=>$newsscroll2,
