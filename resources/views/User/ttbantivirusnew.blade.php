@@ -19,8 +19,7 @@
                 <div class="container main-banner-container">
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 col-span-12">
-                            <div class="lg:py-[3rem] text-vartical"
-                                style="position: relative; top: 7rem; padding-right: 2rem;">
+                            <div class="lg:py-[3rem] text-vartical" style="position: relative; top: 7rem;">
                                 <h1 class="text-center font-semibold mb-2 text-[2rem]" style="color: #fff;">Limited Time
                                     Offer Flat 50% off - No<br>
                                     Hidden Chnages Hurry Up!!!</h1>
@@ -337,16 +336,14 @@
                         <p class=" text-[0.9rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
                             value with diverse web-readiness.Collaboratively transition wireless customer service.
                         </p>
-                        <div class="grid grid-rows-2 grid-flow-col gap-1">
-                            <div class="row-span-3">
-                                <img src="assets/img/Best-Services-Iocn-1.png" class="img-fluid !inline-flex backimage">
-                            </div>
+                       <div class="grid grid-rows-2 grid-flow-col pt-4 gap-1">
+                            <div class="row-span-3"><img src="assets/img/Best-Services-Iocn-1.png " class="img-fluid !inline-flex backimage"></div>
                             <div class="col-span-2">
-                                <h5 class="dark-text px-6">Best Services</h5>
+                                <h5 class="dark-text px-6">Support 24/7</h5>
                             </div>
                             <div class="row-span-2 col-span-2">
                                 <p class="text-gray-light px-6">Lorem ipsum dolor sit amet, eiusmod
-                                    tempor. Lorem ipsum</p>
+                                    tempor. Lorem ipsum dolor</p>
                             </div>
                         </div>
                         <div class="grid grid-rows-2 grid-flow-col pt-4 gap-1">
@@ -640,7 +637,7 @@
 
 
 
-        
+
     @endsection
 
     
