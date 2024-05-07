@@ -40968,8 +40968,9 @@ img.img-fluid.service-icon {
 }
 .vpn-banner-top h2 {
     color: #fff;
-    font-size: 3em;
+    font-size: 3.3em;
     font-weight: 600;
+    margin-top: 1em;
 }
 
 .vpn-banner-top p {
