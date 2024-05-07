@@ -7,18 +7,7 @@
 @section('content')
 
 
- <!-- editor CSS -->
- <link rel="stylesheet" href="{{asset('assets/libs/quill/quill.snow.css')}}">
- <link rel="stylesheet" href="{{asset('assets/libs/quill/quill.bubble.css')}}">
 
-  <!-- Tom Select Css -->
-  <link rel="stylesheet" href="{{asset('assets/libs/tom-select/css/tom-select.default.min.css')}}">
-
-       <!-- Choices Css -->
-<link rel="stylesheet" href="{{asset('assets/libs/choices.js/public/assets/styles/choices.min.css')}}">
-
-  <!-- Date & Time Picker CSS -->
-  <link rel="stylesheet" href="{{asset('assets/libs/flatpickr/flatpickr.min.css')}}">
 
 <div class="content">
     <div class="main-content">

@@ -45,6 +45,24 @@
     <!-- MAIN JS -->
     <script src="{{asset('assets/js/main.js')}}"></script>
 
+     <!-- Filepond CSS -->
+     <link rel="stylesheet" href="{{asset('assets/libs/filepond/filepond.min.css')}}">
+     <link rel="stylesheet" href="{{asset('assets/libs/filepond-plugin-image-preview/filepond-plugin-image-preview.min.css')}}">
+     <link rel="stylesheet" href="{{asset('assets/libs/filepond-plugin-image-edit/filepond-plugin-image-edit.min.css')}}">
+
+        <!-- editor CSS -->
+    <link rel="stylesheet" href="{{asset('assets/libs/quill/quill.snow.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/libs/quill/quill.bubble.css')}}">
+
+    <!-- Tom Select Css -->
+    <link rel="stylesheet" href="{{asset('assets/libs/tom-select/css/tom-select.default.min.css')}}">
+
+        <!-- Choices Css -->
+    <link rel="stylesheet" href="{{asset('assets/libs/choices.js/public/assets/styles/choices.min.css')}}">
+
+    <!-- Date & Time Picker CSS -->
+    <link rel="stylesheet" href="{{asset('assets/libs/flatpickr/flatpickr.min.css')}}">
+
 
 
     <style>
