@@ -153,6 +153,8 @@ Route::get('/newscreate', [AdminController::class, 'newscreate'])->name('admin.n
 Route::get('/newslistshow', [AdminController::class, 'newslistshow'])->name('admin.newslistshow');
 Route::get('/newsedit', [AdminController::class, 'newsedit'])->name('edit.newsedit');
 Route::get('/newsdelete', [AdminController::class, 'newsdelete'])->name('delete.newsdelete');
+Route::post('/savenews', [AdminController::class, 'savenews'])->name('save.news');
+
 
 
 
