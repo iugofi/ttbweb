@@ -1,11 +1,11 @@
 
 
-@extends('User.Layouts.layout')
+{{-- @extends('User.Layouts.layout') --}}
 
-@section('title', 'Test')
-@section('Description', '')
-@section('keywords', '')
-@section('canonical', '')
+{{-- @section('title', 'Test') --}}
+{{-- @section('Description', '') --}}
+{{-- @section('keywords', '') --}}
+{{-- @section('canonical', '') --}}
 
 <section class="vpn-banner-top">
 
@@ -62,7 +62,7 @@
 
 
 
-@section('content')
+{{-- @section('content') --}}
 
 
 
@@ -80,4 +80,4 @@
 
 
 
-@endsection
+{{-- @endsection --}}
