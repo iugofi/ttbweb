@@ -140,7 +140,7 @@ public function savenews(Request $request){
             public function newsedit($id){
                 if ($this->loggedInAdmin) {
 
-                    return view();
+                    return view('Admin.newsedit');
                 
                 } else {
                     return redirect('/setup');
