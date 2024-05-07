@@ -56,38 +56,38 @@
                                     <div class="xl:col-span-12 col-span-12">
                                         <label for="blog-title" class="form-label">News Title</label>
                                         <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
-                                            id="news_title" name="news_title" value="{{$editnews->title}}" placeholder="News Title">
+                                            id="news_title" name="news_title" value="{{ isset($editnews->title) ? $editnews->title : '' }}" placeholder="News Title">
                                         <div class="invalid-feedback"></div>
                                     </div>
                                     <div class="xl:col-span-12 col-span-12">
                                         <label for="News Slug" class="form-label">News Slug</label>
                                         <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
-                                            id="news_slug" name="news_slug" placeholder="News Title">
+                                            id="news_slug" name="news_slug" value="{{ isset($editnews->slug) ? $editnews->slug : '' }}" placeholder="News Title">
                                         <div class="invalid-feedback"></div>
                                     </div>
 
                                     <div class="xl:col-span-6 col-span-12">
                                         <label for="Meta Title" class="form-label">Meta Title</label>
                                         <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
-                                            id="meta_title" name="meta_title" placeholder="Meta Title">
+                                            id="meta_title" name="meta_title" value="{{ isset($editnews->meta_title) ? $editnews->meta_title : '' }}" placeholder="Meta Title">
                                         <div class="invalid-feedback"></div>
                                     </div>
                                     <div class="xl:col-span-6 col-span-12">
                                         <label for="canonical-url" class="form-label">Canonical_url</label>
                                         <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
-                                            id="canonical_url" name="canonical_url" placeholder="Enter Canonical Url">
+                                            id="canonical_url" name="canonical_url" value="{{ isset($editnews->canonical_url) ? $editnews->canonical_url : '' }}" placeholder="Enter Canonical Url">
                                         <div class="invalid-feedback"></div>
                                     </div>
                                     <div class="xl:col-span-6 col-span-12">
                                         <label for="Meta Keyword" class="form-label">Meta Keyword</label>
                                         <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
-                                            id="meta_keyword" name="meta_keyword" placeholder="Enter Canonical Url">
+                                            id="meta_keyword" name="meta_keyword" value="{{ isset($editnews->meta_keyword) ? $editnews->meta_keyword : '' }}" placeholder="Enter Canonical Url">
                                         <div class="invalid-feedback"></div>
                                     </div>
                                     <div class="xl:col-span-6 col-span-12">
                                         <label for="Meta Desc" class="form-label">Meta Desc</label>
                                         <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
-                                            id="meta_desc" name="meta_desc" placeholder="Enter Canonical Url">
+                                            id="meta_desc" name="meta_desc" value="{{ isset($editnews->meta_desc) ? $editnews->meta_desc : '' }}" placeholder="Enter Canonical Url">
                                         <div class="invalid-feedback"></div>
                                     </div>
                                     {{-- <div class="xl:col-span-6 col-span-12">
@@ -100,7 +100,7 @@
                                         <label class="form-label">News Discription</label>
                                         <textarea id="news_description" name="news_description"
                                             class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500"
-                                            rows="6"></textarea>
+                                            rows="6">{{ isset($editnews->news_description) ? $editnews->news_description : '' }}</textarea>
                                         <div class="invalid-feedback"></div>
                                     </div>
 
