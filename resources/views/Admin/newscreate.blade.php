@@ -7,11 +7,6 @@
 @section('content')
 
 
-<style>
-    .ck-blurred.ck.ck-content.ck-editor__editable.ck-rounded-corners.ck-editor__editable_inline {
-    padding: 100px;
-}
-</style>
 
 
 
@@ -46,7 +41,8 @@
                         <div class="box-header">
                             <div class="box-title">News Create</div>
                         </div>
-                    <form id="news_form" method="post" enctype="multipart/form-data">
+                    <form  method="post" id="news_form" enctype="multipart/form-data">
+                        @csrf
                         <div class="box-body">
                             <div class="grid grid-cols-12 gap-4">
                                 <div class="xl:col-span-12 col-span-12">
@@ -88,7 +84,7 @@
                               
                                 <div class="xl:col-span-12 col-span-12">
                                     <label class="form-label">News Discription</label>
-                                    <textarea id="content" name="news_discription" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500" rows="6" required></textarea>
+                                    <textarea id="news_description" name="news_description" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500" rows="6" required></textarea>
                                     <div class="invalid-feedback"></div>
                                 </div>
                                
@@ -265,6 +261,7 @@
 <script>
     $(document).ready(function() {
         $('#news_form').submit(function(e) {
+            alert("dfg");
             e.preventDefault();
             $('#news_save_btn').val('please wait..');
             var token = $('meta[name="csrf-token"]').attr('content');
