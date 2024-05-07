@@ -40952,7 +40952,8 @@ img.img-fluid.service-icon {
 
 /* neeraj-home-page-css-22-04-2024 */
 .vpn-banner-top{
-    margin-top: 10em;
+   /* background-image:; */
+   background-color: #444;
 }
 .box-icon-cont{
   height: 16em;
