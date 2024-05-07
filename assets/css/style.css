@@ -40960,10 +40960,22 @@ img.img-fluid.service-icon {
 /* end kunal */
 
 /* neeraj-home-page-css-22-04-2024 */
+
 .vpn-banner-top{
     padding: 170px 0px;
    /* background-image:; */
    background-color: #040404;
+}
+.vpn-banner-top h2 {
+    color: #fff;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.vpn-banner-top p {
+    font-size: 16px;
+    color: #fff;
+    margin-top: 12px;
 }
 .box-icon-cont{
   height: 16em;
