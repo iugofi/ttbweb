@@ -175,7 +175,7 @@
                         <div class="tabs-pane show active !p-0 border-b-0 dark:border-defaultborder/10"
                             id="pricing-monthly-pane" role="tabpanel">  
                             <div class="grid grid-cols-12">
-                                <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12 col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 pe-0">
+                                <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12 col-span-12 pe-0">
                                     <div class="p-6 pricing">
                                         <h6 class="font-semibold text-left text-[1rem] text-black px-5 dark:text-white/50 opacity-1">BASIC</h6>
                                         <div class="py-4 flex items-center justify-left">
@@ -248,7 +248,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12 col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 px-0">
+                                <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12 col-span-12 px-0">
                                     <div class="p-6 pricing">
                                         <h6 class="font-semibold text-left text-[1rem] text-black px-5 dark:text-white/50 opacity-1">ADVANCED</h6>
                                         <div class="py-4 flex items-center justify-left">
