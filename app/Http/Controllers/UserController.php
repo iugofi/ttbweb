@@ -211,8 +211,7 @@ class UserController extends Controller
                     ->from('news')
                     ->orderByDesc('id')
                     ->where('status', 101)
-                    ->skip(2)
-                    ->take(1);
+                    ->get();
             })
                 ->orderByDesc('id')
                 ->paginate(12);
