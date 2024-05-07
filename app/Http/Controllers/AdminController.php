@@ -95,7 +95,7 @@ public function savenews(Request $request){
             if ($request->hasFile('news_images')) {
                 $image = $request->file('news_images');
                 $imageName = time().'.'.$image->getClientOriginalExtension(); 
-                $image->move(public_path('assets/images/dailynews'), $imageName);
+                $image->move('assets/images/dailynews', $imageName);
 
                 $news = new News();
                 $news->title = $request->news_title;
@@ -109,7 +109,7 @@ public function savenews(Request $request){
                 $news->status =$request->news_status;
                 $news->image=$imageName;
                 $news->save();
-                
+
                 } else {
                     return response()->json([
                         'status' => 400,
