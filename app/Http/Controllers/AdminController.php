@@ -129,12 +129,22 @@ public function savenews(Request $request){
             } else {
                 return redirect('/setup');
             }
-}
+            }
 
             public function facthnews()
             {
                 $posts = News::orderBy('created_at', 'asc')->where('status',101)->limit(8)->get();
                 return response()->json($posts);
+            }
+
+            public function newsedit($id){
+                if ($this->loggedInAdmin) {
+
+                    dd($id);
+                
+                } else {
+                    return redirect('/setup');
+                }
             }
 
 
