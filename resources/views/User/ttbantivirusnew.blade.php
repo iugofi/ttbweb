@@ -173,7 +173,7 @@
                 <div class="box-body !p-0">
                     <div class="tab-content" id="myTabContent">
                         <div class="tabs-pane show active !p-0 border-b-0 dark:border-defaultborder/10"
-                            id="pricing-monthly-pane" role="tabpanel">
+                            id="pricing-monthly-pane" role="tabpanel">  
                             <div class="grid grid-cols-12">
                                 <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12 col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 pe-0">
                                     <div class="p-6 pricing">
