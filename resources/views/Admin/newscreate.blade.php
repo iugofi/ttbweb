@@ -41,7 +41,8 @@
                         <div class="box-header">
                             <div class="box-title">News Create</div>
                         </div>
-                    <form id="news_form" method="post" enctype="multipart/form-data">
+                    <form  method="post" id="news_form" enctype="multipart/form-data">
+                        @csrf
                         <div class="box-body">
                             <div class="grid grid-cols-12 gap-4">
                                 <div class="xl:col-span-12 col-span-12">
