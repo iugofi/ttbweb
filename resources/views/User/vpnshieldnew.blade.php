@@ -25,7 +25,7 @@
                 <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 col-span-12">
                    
                     <div class="text-end landing-main-image landing-heading-img flex justify-end w-full">
-                        <img src="{{ asset('assets/img2/section-one-ttb.gif') }}" alt="" class="img-fluid" width="88%">
+                        <img src="{{ asset('assets/img/ttb vpn shield.png') }}" alt="" class="img-fluid" width="88%">
                     </div>
                    
                 </div>
