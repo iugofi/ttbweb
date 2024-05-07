@@ -233,18 +233,19 @@
             type: 'GET',
             dataType: 'json',
             success: function(response) {
+                console.log(response);
                 if(response.length > 0) {
-                    // Assuming you have a div with id="news-list" to append the news items
+                 
                     response.forEach(function(newsItem) {
                         $('#news-list').append(`
                             <li class="list-group-item">
                                 <div class="flex gap-2 flex-wrap items-center">
                                     <span class="avatar avatar-xl me-1">
-                                        <img src="${newsItem.image}" class="img-fluid !rounded-md" alt="...">
+                                        <img src="https://www.ttbinternetsecurity.com/admin/uploads/news/${newsItem.image}" class="img-fluid !rounded-md" alt="...">
                                     </span>
                                     <div class="flex-grow">
-                                        <a href="#" class="text-[0.875rem] font-semibold mb-0">${newsItem.category}</a>
-                                        <p class="mb-1 popular-blog-content text-truncate">${newsItem.content}</p>
+                                        
+                                        <p class="mb-1 popular-blog-content text-truncate">${newsItem.description}</p>
                                         <span class="text-[#8c9097] dark:text-white/50 text-[0.6875rem]">${newsItem.created_at}</span>
                                     </div>
                                     <div>
