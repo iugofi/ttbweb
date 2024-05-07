@@ -41,7 +41,7 @@
                         <div class="box-header">
                             <div class="box-title">News Create</div>
                         </div>
-                    <form method="POST" id="news_form" enctype="multipart/form-data">
+                    <form method="post" id="news_form" enctype="multipart/form-data">
                         @csrf
                         <div class="box-body">
                             <div class="grid grid-cols-12 gap-4">
@@ -260,8 +260,9 @@
 
 <script>
     $(document).ready(function() {
+        alert("dfg");
         $('#news_form').submit(function(e) {
-            alert("dfg");
+            alert("sdf");
             e.preventDefault();
             $('#news_save_btn').val('please wait..');
             var token = $('meta[name="csrf-token"]').attr('content');
