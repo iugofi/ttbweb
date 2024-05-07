@@ -203,28 +203,30 @@ class UserController extends Controller
 
     public function newspage()
     {
-        $newsscroll=News::orderBy('id', 'desc')->get()->random(8);
-       $newsscroll2=News::orderBy('id', 'desc')->take(2)->get();
-        $newsscroll3 = News::where('id', '<=', function ($query) {
-            $query->select('id')
-                ->from('news')
+        try {
+            $newsscroll = News::orderBy('id', 'desc')->random(8)->where('status', 101)->get();
+            $newsscroll2 = News::orderBy('id', 'desc')->where('status', 101)->take(2)->get();
+            $newsscroll3 = News::where('id', '<=', function ($query) {
+                $query->select('id')
+                    ->from('news')
+                    ->orderByDesc('id')
+                    ->where('status', 101)
+                    ->skip(2)
+                    ->take(1);
+            })
                 ->orderByDesc('id')
-                ->skip(2)
-                ->take(1);
-        })
-        ->orderByDesc('id')
-        ->paginate(12);
-
-
-        
-
-        return view('User.news',[
-            'newsscroll'=>$newsscroll,
-            'newsscroll2'=>$newsscroll2,
-            'newsscroll3'=>$newsscroll3
-
-
-        ]);
+                ->paginate(12);
+    
+            return view('User.news', [
+                'newsscroll' => $newsscroll,
+                'newsscroll2' => $newsscroll2,
+                'newsscroll3' => $newsscroll3
+            ]);
+        } catch (\Exception $e) {
+          
+            \Log::error('Error in newspage method: ' . $e->getMessage());
+            return response()->view('Errors.500', [], 500);
+        }
     }
 
     public function newslike(Request $request, $id)
@@ -245,9 +247,9 @@ class UserController extends Controller
     public function newsDetails($id)
 {
 
-    $newsPost = News::where('slug', $id)->first();
+    $newsPost = News::where('slug', $id)->where('status', 101)->first();
     $totalnews = News::count();
-    $recentblog = News::orderBy('id', 'desc')->get()->random(4);
+    $recentblog = News::orderBy('id', 'desc')->where('status', 101)->get()->random(4);
     $newscomment=Newscomment::where('news_id',$newsPost->id)->where('status', 101)->get();
 
 
@@ -297,8 +299,8 @@ public function storenewscomment(Request $request)
 
     public function blogpage()
 {
-    $blogs = Blog::orderBy('created_at', 'desc')->paginate(8);
-    $recentblog = Blog::orderBy('created_at', 'desc')->take(16)->get();
+    $blogs = Blog::orderBy('created_at', 'desc')->where('status', 101)->paginate(8);
+    $recentblog = Blog::orderBy('created_at', 'desc')->where('status', 101)->take(16)->get();
     $totalblog = Blog::count();
     
     return view('User.blog', [
@@ -310,12 +312,12 @@ public function storenewscomment(Request $request)
 public function blogDetails($id)
 {
 
-    $blogPost = Blog::where('slug', $id)->first();
+    $blogPost = Blog::where('slug', $id)->where('status', 101)->first();
     // dd($blogPost->id);
     $totalblog = Blog::count();
-    $recentblog = Blog::orderBy('created_at', 'desc')->take(16)->get();
+    $recentblog = Blog::orderBy('created_at', 'desc')->where('status', 101)->take(16)->get();
     // $Blocomment = Comment::count();
-    $blogcomment=Comment::where('blog_id',$blogPost->id)->where('status', 1)->get();
+    $blogcomment=Comment::where('blog_id',$blogPost->id)->where('status', 101)->get();
     // dd($blogcomment);
 
 

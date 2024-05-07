@@ -195,7 +195,7 @@
                                 ' ');
 
                                 var imageUrl =
-                                    "https://www.ttbinternetsecurity.com/admin/uploads/news/" +
+                                    "assets/images/dailynews/" +
                                     post.image;
 
                                 recentPostHtml += '<li class="list-group-item">';

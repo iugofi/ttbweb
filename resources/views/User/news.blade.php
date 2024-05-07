@@ -43,9 +43,10 @@
                             <div class="box-body">
                                 <div class="swiper pagination">
                                     <div class="swiper-wrapper">
+                                        @if ($newsscroll->isNotEmpty())
                                         @foreach ($newsscroll as $newsscrolllist)
                                             <div class="swiper-slide">
-                                                <img src="https://www.ttbinternetsecurity.com/admin/uploads/news/{{ $newsscrolllist->image }}"
+                                                <img src="{{ asset('assets/images/dailynews/' . $newsscrolllist->image) }}"
                                                     class="!rounded-md" alt="">
                                                 <div class="box-footer">
                                                     <div class="flex items-center justify-between">
@@ -74,6 +75,9 @@
                                                 </div>
                                             </div>
                                         @endforeach
+                                        @else
+                                            <p>No news available.</p>
+                                        @endif
                                     </div>
                                     <div class="swiper-pagination"></div>
                                 </div>
@@ -148,11 +152,12 @@
 
                     <div class="xxl:col-span-6 xl:col-span-12 col-span-12 news-box">
                         <div class="grid grid-cols-12 gap-x-6">
+                            @if ($newsscroll2->isNotEmpty())
                             @foreach ($newsscroll2 as $newsscrolllist2)
                                 <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 col-span-12">
                                     <div class="box">
                                         <a href="javascript:void(0);">
-                                            <img src="https://www.ttbinternetsecurity.com/admin/uploads/news/{{ $newsscrolllist2->image }}"
+                                            <img src="{{ asset('assets/images/dailynews/' . $newsscrolllist2->image) }}"
                                                 class="card-img-top rounded-t-sm" alt="...">
                                         </a>
                                         <div class="box-body">
@@ -189,6 +194,9 @@
                                     </div>
                                 </div>
                             @endforeach
+                            @else
+                            <p>No news available.</p>
+                        @endif
 
                         </div>
                     </div>
@@ -205,11 +213,12 @@
 
                     <div class="xl:col-span-12 col-span-12 news-box">
                         <div class="grid grid-cols-12 gap-x-6">
+                            @if ($newsscroll3->isNotEmpty())
                             @foreach ($newsscroll3 as $newsscrolllist3)
                                 <div class="xxl:col-span-3 xl:col-span-6 lg:col-span-6 md:col-span-6 col-span-12">
                                     <div class="box">
                                         <a href="javascript:void(0);">
-                                            <img src="https://www.ttbinternetsecurity.com/admin/uploads/news/{{ $newsscrolllist3->image }}"
+                                            <img src="{{ asset('assets/images/dailynews/' . $newsscrolllist3->image) }}"
                                                 class="card-img-top rounded-t-sm" alt="...">
                                         </a>
                                         <div class="box-body">
@@ -244,6 +253,9 @@
                                     </div>
                                 </div>
                             @endforeach
+                            @else
+                                <p>No news available.</p>
+                            @endif
 
                         </div>
                     </div>

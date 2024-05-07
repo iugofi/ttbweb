@@ -95,7 +95,8 @@ public function savenews(Request $request){
             if ($request->hasFile('news_images')) {
                 $image = $request->file('news_images');
                 $imageName = time().'.'.$image->getClientOriginalExtension(); 
-                $image->move(public_path('assets/images/dailynews'), $imageName);
+                $image->move('assets/images/dailynews', $imageName);
+               
 
                 $news = new News();
                 $news->title = $request->news_title;
@@ -107,8 +108,9 @@ public function savenews(Request $request){
                 $news->meta_keyword =$request->meta_keyword;
                 $news->description =$request->news_description;
                 $news->status =$request->news_status;
-                $news->image =$imageName;
+                $news->image=$imageName;
                 $news->save();
+                
                 } else {
                     return response()->json([
                         'status' => 400,
@@ -131,7 +133,7 @@ public function savenews(Request $request){
 
             public function facthnews()
             {
-                $posts = News::orderBy('created_at', 'DESC')->limit(8)->get();
+                $posts = News::orderBy('created_at', 'asc')->where('status',101)->limit(8)->get();
                 return response()->json($posts);
             }
 
