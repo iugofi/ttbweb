@@ -204,7 +204,7 @@ class UserController extends Controller
     public function newspage()
     {
         try {
-            $newsscroll = News::orderBy('id', 'desc')->where('status', 101)->get()->random(8);
+            $newsscroll = News::orderBy('id', 'desc')->random(8)->where('status', 101)->get();
             $newsscroll2 = News::orderBy('id', 'desc')->where('status', 101)->take(2)->get();
             $newsscroll3 = News::where('id', '<=', function ($query) {
                 $query->select('id')
