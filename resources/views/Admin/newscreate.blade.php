@@ -268,6 +268,7 @@
                             $('#news_form')[0].reset();
                             removeValidationClass("#news_form");
                             $('#news_save_btn').val('Post News');
+                            fetchNews();
                         }
                     },
                     error: function(xhr, status, error) {}
