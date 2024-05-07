@@ -34,7 +34,7 @@
         </div>
 </section>
 
-<section class="section-two-iconbox">
+<section class="section-two-iconbox pt-8">
   <div class="container main-banner-container">
      <h3 class="text-center">About VPN</h3>
      <h4 class="text-center">Why Should Use Netric VPN?</h4>
