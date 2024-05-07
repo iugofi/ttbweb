@@ -110,7 +110,7 @@
                                
                                 <div class="xl:col-span-12 col-span-12 blog-images-container">
                                     <label for="blog-author-email" class="form-label">News Images</label>
-                                    <input type="file" class="news_images"  name="news_images" multiple data-allow-reorder="true" data-max-file-size="3MB" data-max-files="6">
+                                    <input type="file" class="news_images" id="news_images"  name="news_images" multiple data-allow-reorder="true" data-max-file-size="3MB" data-max-files="6">
                                     <div class="invalid-feedback"></div>
                                 </div>
                                

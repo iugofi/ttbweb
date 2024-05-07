@@ -69,15 +69,15 @@ public function savenews(Request $request){
     if ($this->loggedInAdmin) {
    
         $validator = Validator::make($request->all(), [
-            'news_title' => 'required|string|max:255',
-            'news_slug' => 'required|string|max:255',
-            'meta_title' => 'required|email|max:255',
+            'news_title' => 'required',
+            'news_slug' => 'required',
+            'meta_title' => 'required',
             'canonical_url' => 'required',
             'meta_keyword' => 'required',
             'meta_desc' => 'required',
             'news_description' => 'required',
+            'news_status' => 'required',
             'news_images' => 'required'
-
         ]);
         
 
