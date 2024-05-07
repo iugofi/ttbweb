@@ -89,8 +89,7 @@
         {{-- End:: ttbantivirus section two --}}
 
         {{-- Start:: ttbantivirus section third --}}
-        <section
-            class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
+        <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
             id="features">
             <div class="container text-center">
                 <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">What We Do</span>
@@ -361,7 +360,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6  antivirus-image text-center  animantion-round">  
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6  antivirus-image text-center pt-5 mt-5 animantion-round">  
                         <div class="lg:text-start !flex items-center lg:justify-start justify-center img-fst">
                             <img src="{{ asset('assets/img/We-team-of-experience-It-Specialties.png') }}" alt=""
                                 class="img-fluid">
@@ -582,7 +581,6 @@
                 </div>
             </div>
         </section>
-
         {{-- End:: ttbantivirus faq section saven --}}
 
         {{-- Start:: ttbantivirus faq section eight --}}
