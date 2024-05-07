@@ -67,11 +67,11 @@
                                 </div>
                                 <div class="xl:col-span-6 col-span-12">
                                     <label for="publish-date" class="form-label">Publish Date</label>
-                                    <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md" id="publish-date" placeholder="Choose date">
+                                    <input type="date" class="form-control block w-full text-[0.875rem] !rounded-md" id="publish-date" placeholder="Choose date">
                                 </div>
                                 <div class="xl:col-span-6 col-span-12">
                                     <label for="publish-time" class="form-label">Publish Time</label>
-                                    <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md" id="publish-time" placeholder="Choose time">
+                                    <input type="date" class="form-control block w-full text-[0.875rem] !rounded-md" id="publish-time" placeholder="Choose time">
                                 </div>
                                 <div class="xl:col-span-6 col-span-12">
                                     <label for="product-status-add" class="form-label">Published Status</label>
