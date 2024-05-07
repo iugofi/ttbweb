@@ -81,7 +81,7 @@
                                                 <div class="flex items-center font-semibold">
                                                     <span
                                                         class="!me-2 inline-flex justify-center items-center">
-                                                        <img src="https://www.ttbinternetsecurity.com/admin/uploads/news/{{ $item->image }}" alt="img"
+                                                        <img src="{{asset('assets/images/dailynews/'.$item->image)}}" alt="img"
                                                             class="w-[1.75rem] h-[1.75rem] leading-[1.75rem] text-[0.65rem]  rounded-full">
                                                     </span>
                                                 </div>

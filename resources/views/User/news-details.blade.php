@@ -46,7 +46,7 @@
                                     </div>
                                 </div>
                                 <a href="javascript:void(0);">
-                                    <img src="https://www.ttbinternetsecurity.com/admin/uploads/news/{{ $newsPost->image }}"
+                                    <img src="{{ asset('assets/images/dailynews/' . $newsPost->image) }}"
                                         class="card-img rounded-0 blog-details-img" alt="...">
                                 </a>
                                 <div class="box-body border-b dark:border-defaultborder/10 border-dashed">
@@ -261,7 +261,7 @@
                             <div class="xxl:col-span-3 xl:col-span-6 lg:col-span-6 md:col-span-6 col-span-12 news-box">
                                 <div class="box">
                                     <a href="javascript:void(0);">
-                                        <img src="https://www.ttbinternetsecurity.com/admin/uploads/news/{{ $recentbloglist->image }}"
+                                        <img src="{{ asset('assets/images/dailynews/' . $recentbloglist->image) }}"
                                             class="card-img-top rounded-t-sm" alt="...">
                                     </a>
                                     <div class="box-body">

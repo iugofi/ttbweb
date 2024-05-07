@@ -204,17 +204,17 @@ class UserController extends Controller
     public function newspage()
     {
         try {
-            $newsscroll = News::orderBy('id', 'desc')->where('status', 101)->get()->random(8);
+            $newsscroll = News::orderBy('id', 'desc')->where('status', 101)->get()->random(2);
             $newsscroll2 = News::orderBy('id', 'desc')->where('status', 101)->take(2)->get();
             $newsscroll3 = News::where('id', '<=', function ($query) {
                 $query->select('id')
                     ->from('news')
                     ->orderByDesc('id')
-                    ->where('status', 101)
                     ->skip(2)
                     ->take(1);
             })
                 ->orderByDesc('id')
+                ->where('status', 101)
                 ->paginate(12);
     
             return view('User.news', [
