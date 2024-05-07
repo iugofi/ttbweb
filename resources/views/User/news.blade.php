@@ -43,6 +43,7 @@
                             <div class="box-body">
                                 <div class="swiper pagination">
                                     <div class="swiper-wrapper">
+                                        @if ($newsscroll->isNotEmpty())
                                         @foreach ($newsscroll as $newsscrolllist)
                                             <div class="swiper-slide">
                                                 <img src="https://www.ttbinternetsecurity.com/admin/uploads/news/{{ $newsscrolllist->image }}"
@@ -74,6 +75,9 @@
                                                 </div>
                                             </div>
                                         @endforeach
+                                        @else
+                                            <p>No news available.</p>
+                                        @endif
                                     </div>
                                     <div class="swiper-pagination"></div>
                                 </div>
@@ -148,6 +152,7 @@
 
                     <div class="xxl:col-span-6 xl:col-span-12 col-span-12 news-box">
                         <div class="grid grid-cols-12 gap-x-6">
+                            @if ($newsscroll2->isNotEmpty())
                             @foreach ($newsscroll2 as $newsscrolllist2)
                                 <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 col-span-12">
                                     <div class="box">
@@ -189,6 +194,9 @@
                                     </div>
                                 </div>
                             @endforeach
+                            @else
+                            <p>No news available.</p>
+                        @endif
 
                         </div>
                     </div>

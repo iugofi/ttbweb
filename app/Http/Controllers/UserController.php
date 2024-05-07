@@ -215,10 +215,8 @@ class UserController extends Controller
         })
         ->orderByDesc('id')
         ->paginate(12); 
-        
-        if ($newsscroll->isEmpty() || $newsscroll2->isEmpty() || $newsscroll3->isEmpty()) {
-            return view('User.no_data_found');
-        }
+
+       
         return view('User.news',[
             'newsscroll'=>$newsscroll,
             'newsscroll2'=>$newsscroll2,
