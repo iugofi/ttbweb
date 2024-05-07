@@ -210,10 +210,11 @@ class UserController extends Controller
                 $query->select('id')
                     ->from('news')
                     ->orderByDesc('id')
-                    ->where('status', 101)
-                    ->get();
+                    ->skip(2)
+                    ->take(1);
             })
                 ->orderByDesc('id')
+                ->where('status', 101)
                 ->paginate(12);
     
             return view('User.news', [
