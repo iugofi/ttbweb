@@ -381,51 +381,57 @@
         {{-- End:: ttbantivirus section six --}}
 
         {{-- Start:: ttbantivirus faq section saven --}}
-<div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]">
-            <div class="container ttbantivirus-container">
-        <div class="xl:col-span-4 lg:col-span-6 md:col-span-6 sm:col-span-12 col-span-12">
-            <div class="box custom-box">
-                <div class="box-header">
-                    <div class="box-title">
-                        Pagination Fraction
+        <section
+            class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
+            id="features">
+            <div class="container main-banner-container">
+                <div class="grid grid-cols-12 gap-6">
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
+                        <div class="lg:py-[3rem]">
+                            <h2 class="lg:text-center font-semibold mb-2 text-[2rem]">
+                                <span>What Our Client Say <br> About Apdash</h2>
+                            <div class="text-[1rem] mb-[3rem] !text-dark opacity-[0.9] ">Collaboratively actualize
+                                excellent schemas without effective <br> models. Synergistically engineer functionalized
+                                applications rather<br> than backend e-commerce.</div>
+                        </div>
+                    </div>
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
+                        <div class="box custom-box slider-box box-review">
+                            <div class="box-body">
+                                <div class="swiper  custom-pagination">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide test-slider-img">
+                                            <div class="item">
+                                                <div class="testimonial-quote-wrap ttb-bg">
+                                                    <div class="media author-info mb-3 flex ">
+                                                        <div class="author-img mr-3">
+                                                            <img src="assets/img/client/1.jpg" alt="client"
+                                                                width="10px">
+                                                        </div>
+                                                        <div class="media-body text-white p-5">
+                                                            <h5 class="mb-0 text-white">John Charles</h5>
+                                                            <span>Head Of Admin</span>
+                                                        </div>
+                                                        <i class="fas fa-quote-right text-white"></i>
+                                                    </div>
+                                                    <div class="client-say text-white">
+                                                        <p>Interactively optimize fully researched expertise vis-a-vis
+                                                            plug-and-play relationships. Intrinsicly develop viral core
+                                                            competencies for fully tested customer service. Enthusiastically
+                                                            create next-generation growth strategies and.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="box-body">
-                    <div class="swiper swiper-basic pagination-fraction">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide"><div>
-                                <p class="text-[#8c9097] dark:text-white/50">Total Assets</p>
-                                <h5 class="mb-1 font-semibold text-[1.25rem]">596</h5>
-                                <p class="text-[0.6875rem] text-[#8c9097] dark:text-white/50 mb-0"><span
-                                        class="text-success font-semibold">0.25%<i
-                                            class="ri-arrow-up-s-line align-middle mx-1"></i></span>
-                                    This month
-                                </p>
-                            </div></div>
-                            <div class="swiper-slide"><div>
-                                <p class="text-[#8c9097] dark:text-white/50">Total Sales</p>
-                                <h5 class="font-semibold mb-1 text-[1.25rem]">821</h5>
-                                <p class="text-[0.6875rem] text-[#8c9097] dark:text-white/50 mb-0"><span
-                                        class="text-success font-semibold">1.52%<i
-                                            class="ri-arrow-up-s-line  align-middle mx-1"></i></span>
-                                    This month</p>
-                            </div></div>
-                            <div class="swiper-slide"><div>
-                                <p class="text-[#8c9097] dark:text-white/50">Total Value</p>
-                                <h5 class="font-semibold mb-1 text-[1.25rem]">$1,298</h5>
-                                <p class="text-[0.6875rem] text-[#8c9097] dark:text-white/50 mb-0"><span
-                                        class="text-success font-semibold">0.74%<i
-                                            class="ri-arrow-up-s-line  align-middle mx-1"></i></span>
-                                    This month</p>
-                            </div></div>
-                        </div>
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-pagination"></div>
-                      </div>
-                </div>
             </div>
-        </div>
+        </section>
 
         {{-- End:: ttbantivirus faq section saven --}}
 
