@@ -39382,7 +39382,7 @@ caption {
     color: rgb(255 255 255 / 0.1);
 }
 :is(.dark .dark\:text-white\/50) {
-    color: rgb(255 255 255 / 0.5);
+    color: rgb(255 255 255 / 0.9);
 }
 :is(.dark .dark\:text-white\/70) {
     color: rgb(255 255 255 / 0.7);
