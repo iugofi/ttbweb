@@ -382,7 +382,7 @@
             <div class="container text-center">
                 {{-- <p class="text-[0.75rem] font-semibold text-success mb-1"><span
                         class="landing-section-heading">F.A.Q</span></p> --}}
-                <h3 class="lg:text-center font-semibold mb-2 text-[2rem]" style="color:#fff !important;">Frequently Asked Question</h3>
+                <h3 class="lg:text-center font-semibold mb-2 text-[2rem]">Frequently Asked Question</h3>
                 <div class="grid grid-cols-12 justify-center">
                     <div class="col-span-12">
                         <p class="text-[#8c9097] dark:text-white/50 text-[0.9375rem] mb-12 font-normal">Efficiently
