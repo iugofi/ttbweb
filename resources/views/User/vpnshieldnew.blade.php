@@ -45,7 +45,7 @@
        <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor.</p>
     </div>
     <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12">  
-      <i class="fa-solid fa-server"></i>
+      <i class="fa-solid fa-user"></i>
       <h5>No Usage Logs</h5>
       <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor.</p>
     </div>
