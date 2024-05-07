@@ -56,6 +56,8 @@ h6 {
 a {
     color: inherit;
     text-decoration: inherit;
+    font-family: "Roboto", sans-serif;
+
 }
 b,
 strong {
@@ -65,8 +67,9 @@ code,
 kbd,
 samp,
 pre {
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
-        "Liberation Mono", "Courier New", monospace;
+    /* font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+        "Liberation Mono", "Courier New", monospace; */
+    font-family: "Roboto", sans-serif;
     font-size: 1em;
 }
 small {
@@ -95,7 +98,7 @@ input,
 optgroup,
 select,
 textarea {
-    font-family: inherit;
+    font-family: "Roboto", sans-serif;
     font-feature-settings: inherit;
     font-variation-settings: inherit;
     font-size: 100%;
@@ -159,6 +162,7 @@ figure,
 p,
 pre {
     margin: 0;
+    font-family: "Roboto", sans-serif;
 }
 fieldset {
     margin: 0;
