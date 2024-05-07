@@ -247,7 +247,7 @@
                                                 Started</button>
                                         </div>
                                     </div>
-                                </div>
+                                </div>  
                                 <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12 col-span-12 px-0">
                                     <div class="p-6 pricing">
                                         <h6 class="font-semibold text-left text-[1rem] text-black px-5 dark:text-white/50 opacity-1">ADVANCED</h6>
