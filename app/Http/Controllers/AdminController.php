@@ -129,6 +129,12 @@ public function savenews(Request $request){
             }
 }
 
+            public function facthnews()
+            {
+                $news = News::orderBy('created_at', 'DESC')->get();
+                return response()->json($news);
+            }
+
 
 
 }
