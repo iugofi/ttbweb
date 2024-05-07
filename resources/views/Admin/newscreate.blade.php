@@ -44,6 +44,9 @@
                     <form method="post" id="news_form" enctype="multipart/form-data">
                         @csrf
                         <div class="box-body">
+                            <div class="box text-center">
+                                <div class="" id="show_success_alert"></div>
+                            </div>
                             <div class="grid grid-cols-12 gap-4">
                                 <div class="xl:col-span-12 col-span-12">
                                     <label for="blog-title" class="form-label">News Title</label>

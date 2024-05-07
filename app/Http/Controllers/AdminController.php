@@ -81,7 +81,7 @@ public function savenews(Request $request){
         ]);
         
 
-       
+        
 
         if ($validator->fails()) {
             return response()->json([
@@ -92,31 +92,41 @@ public function savenews(Request $request){
         else
         {
 
-        // Create a new comment instance
-        $news = new News();
-        $news->title = $request->news_title;
-        $news->slug = $request->news_slug;
-        $news->meta_title = $request->meta_title;
-        $news->canonical_url = $request->canonical_url;
-        $news->meta_keyword =$request->meta_keyword;
-        $news->meta_desc =$request->meta_desc;
-        $news->meta_keyword =$request->meta_keyword;
-        $news->description =$request->news_description;
-        $news->status =$request->news_status;
+            if ($request->hasFile('news_images')) {
+                $image = $request->file('news_images');
+                $imageName = time().'.'.$image->getClientOriginalExtension(); 
+                $image->move(public_path('assets/images/dailynews'), $imageName);
 
-        $news->save();
+                $news = new News();
+                $news->title = $request->news_title;
+                $news->slug = $request->news_slug;
+                $news->meta_title = $request->meta_title;
+                $news->canonical_url = $request->canonical_url;
+                $news->meta_keyword =$request->meta_keyword;
+                $news->meta_desc =$request->meta_desc;
+                $news->meta_keyword =$request->meta_keyword;
+                $news->description =$request->news_description;
+                $news->status =$request->news_status;
+                $news->image =$imageName;
+                $news->save();
+                } else {
+                    return response()->json([
+                        'status' => 400,
+                        'messages' => 'No image uploaded'
+                    ]);
+                }
 
-        return response()->json([
-            'status' => 200,
-            'messages' => 'Comment Send successfully'
-        ]);
+                return response()->json([
+                    'status' => 200,
+                    'messages' => 'News Post successfully'
+                ]);
 
-        }
-        
+                }
+                
 
-    } else {
-        return redirect('/setup');
-    }
+            } else {
+                return redirect('/setup');
+            }
 }
 
 
