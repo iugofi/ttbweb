@@ -153,32 +153,7 @@
                         </div>
                         <div class="box-body" id="recentpost">
                             <ul class="list-group">
-                                <li class="list-group-item">
-                                    <div class="flex gap-2 flex-wrap items-center">
-                                        <span class="avatar avatar-xl me-1">
-                                            <img src="assets/images/media/media-39.jpg" class="img-fluid !rounded-md"
-                                                alt="...">
-                                        </span>
-                                        <div class="flex-grow">
-                                            <a href="javascript:void(0);"
-                                                class="text-[0.875rem] font-semibold mb-0">Animals</a>
-                                            <p class="mb-1 popular-blog-content text-truncate">
-                                                There are many variations of passages of Lorem Ipsum available
-                                            </p>
-                                            <span class="text-[#8c9097] dark:text-white/50 text-[0.6875rem]">24,Nov 2022 -
-                                                18:27</span>
-                                        </div>
-                                        <div>
-                                            <button aria-label="button" type="button"
-                                                class="ti-btn ti-btn-light ti-btn-sm rtl:rotate-180"><i
-                                                    class="ri-arrow-right-s-line"></i></button>
-                                        </div>
-                                    </div>
-                                </li>
-                               
-                                <li class="list-group-item text-center">
-                                    <button type="button" class="ti-btn ti-btn-primary !font-medium">Load more</button>
-                                </li>
+                                <!-- Recent posts will be dynamically added here -->
                             </ul>
                         </div>
                     </div>
@@ -239,12 +214,53 @@
                         }
                     },
                     error: function(xhr, status, error) {
-
                     }
                 });
             });
         });
     </script>
+
+<script>
+    $(document).ready(function() {
+        $.ajax({
+            url: "{{ route('fatch.news') }}",
+            type: 'GET',
+            dataType: 'json',
+            success: function(response) {
+                console.log(response);
+                if(response.length > 0) {
+                    var recentPostHtml = '';
+                    $.each(response, function(index, post) {
+                        var truncatedDescription = post.description.split(' ').slice(0, 10).join(' ');
+                        var imageUrl = "https://www.ttbinternetsecurity.com/admin/uploads/news/" + post.image;
+
+                        recentPostHtml += '<li class="list-group-item">';
+                        recentPostHtml += '<div class="flex gap-2 flex-wrap items-center">';
+                        recentPostHtml += '<span class="avatar avatar-xl me-1">';
+                        recentPostHtml += '<img src="' + imageUrl + '" class="img-fluid !rounded-md" alt="...">';
+                        recentPostHtml += '</span>';
+                        recentPostHtml += '<div class="flex-grow">';
+                        recentPostHtml += '<a href="" class="text-[0.875rem] font-semibold mb-0">' + post.title + '</a>';
+                        recentPostHtml += '<p class="mb-1 popular-blog-content text-truncate">' + truncatedDescription + '</p>';
+                        recentPostHtml += '<span class="text-[#8c9097] dark:text-white/50 text-[0.6875rem]">' + post.created_at + '</span>';
+                        recentPostHtml += '</div>';
+                        recentPostHtml += '<div>';
+                        recentPostHtml += '<button aria-label="button" type="button" class="ti-btn ti-btn-light ti-btn-sm rtl:rotate-180"><i class="ri-arrow-right-s-line"></i></button>';
+                        recentPostHtml += '</div>';
+                        recentPostHtml += '</div>';
+                        recentPostHtml += '</li>';
+                    });
+                    $('#recentpost .list-group').html(recentPostHtml);
+                } else {
+                    // Handle case where no posts are returned
+                }
+            },
+            error: function(xhr, status, error) {
+                // Handle error
+            }
+        });
+    });
+</script>
 
 
 
