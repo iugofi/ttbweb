@@ -7,11 +7,6 @@
 @section('content')
 
 
-<style>
-    .ck-blurred.ck.ck-content.ck-editor__editable.ck-rounded-corners.ck-editor__editable_inline {
-    padding: 100px;
-}
-</style>
 
 
 
