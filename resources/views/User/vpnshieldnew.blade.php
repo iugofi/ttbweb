@@ -13,7 +13,8 @@
             <div class="grid grid-cols-12 gap-6">
                 <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 col-span-12">
                     <div class="lg:py-[3rem]">
-                        
+                        <h2>Explore The World Wide Easy With Netric VPN</h2>
+                        <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
                         <a href="index.html" class="m-1 ti-btn ti-btn-primary-full">
                             Download Now
                             <i class='bx bxs-cloud-download icon-hm'></i>
