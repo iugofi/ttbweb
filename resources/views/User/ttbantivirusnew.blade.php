@@ -89,8 +89,7 @@
         {{-- End:: ttbantivirus section two --}}
 
         {{-- Start:: ttbantivirus section third --}}
-        <section
-            class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
+        <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
             id="features">
             <div class="container text-center">
                 <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">What We Do</span>
@@ -338,16 +337,14 @@
                         <p class=" text-[0.9rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
                             value with diverse web-readiness.Collaboratively transition wireless customer service.
                         </p>
-                        <div class="grid grid-rows-2 grid-flow-col gap-1">
-                            <div class="row-span-3">
-                                <img src="assets/img/Best-Services-Iocn-1.png" class="img-fluid !inline-flex backimage">
-                            </div>
+                        <div class="grid grid-rows-2 grid-flow-col pt-4 gap-1">
+                            <div class="row-span-3"><img src="assets/img/Best-Services-Iocn-2.png " class="img-fluid !inline-flex backimage"></div>
                             <div class="col-span-2">
-                                <h5 class="dark-text px-6">Best Services</h5>
+                                <h5 class="dark-text px-6">Best Services/h5>
                             </div>
                             <div class="row-span-2 col-span-2">
                                 <p class="text-gray-light px-6">Lorem ipsum dolor sit amet, eiusmod
-                                    tempor. Lorem ipsum</p>
+                                    tempor. Lorem ipsum dolor</p>
                             </div>
                         </div>
                         <div class="grid grid-rows-2 grid-flow-col pt-4 gap-1">
@@ -361,7 +358,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6  antivirus-image text-center  animantion-round">  
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6  antivirus-image text-center pt-5 mt-5 animantion-round">  
                         <div class="lg:text-start !flex items-center lg:justify-start justify-center img-fst">
                             <img src="{{ asset('assets/img/We-team-of-experience-It-Specialties.png') }}" alt=""
                                 class="img-fluid">
@@ -582,7 +579,6 @@
                 </div>
             </div>
         </section>
-
         {{-- End:: ttbantivirus faq section saven --}}
 
         {{-- Start:: ttbantivirus faq section eight --}}
@@ -639,4 +635,10 @@
         </section>
         {{-- End:: ttbantivirus faq section eight --}}
 
+
+
+
+
     @endsection
+
+    
