@@ -337,10 +337,10 @@
                         <p class=" text-[0.9rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
                             value with diverse web-readiness.Collaboratively transition wireless customer service.
                         </p>
-                        <div class="grid grid-rows-2 grid-flow-col pt-4 gap-1">
-                            <div class="row-span-3"><img src="assets/img/Best-Services-Iocn-2.png " class="img-fluid !inline-flex backimage"></div>
+                       <div class="grid grid-rows-2 grid-flow-col pt-4 gap-1">
+                            <div class="row-span-3"><img src="assets/img/Best-Services-Iocn-1.png " class="img-fluid !inline-flex backimage"></div>
                             <div class="col-span-2">
-                                <h5 class="dark-text px-6">Best Services/h5>
+                                <h5 class="dark-text px-6">Support 24/7</h5>
                             </div>
                             <div class="row-span-2 col-span-2">
                                 <p class="text-gray-light px-6">Lorem ipsum dolor sit amet, eiusmod
