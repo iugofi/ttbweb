@@ -31,7 +31,8 @@
     <!-- STYLE CSS -->
     <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
 
-    
+          <!-- Date & Time Picker CSS -->
+    <link rel="stylesheet" href="{{asset('assets/libs/flatpickr/flatpickr.min.css')}}">
  
 
 
