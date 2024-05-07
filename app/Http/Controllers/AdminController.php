@@ -107,7 +107,7 @@ public function savenews(Request $request){
                 $news->meta_keyword =$request->meta_keyword;
                 $news->description =$request->news_description;
                 $news->status =$request->news_status;
-                $news->news_images =$imageName;
+                $news->image =$imageName;
                 $news->save();
                 } else {
                     return response()->json([
