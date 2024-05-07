@@ -231,8 +231,8 @@
                 if(response.length > 0) {
                     var recentPostHtml = '';
                     $.each(response, function(index, post) {
-                        var truncatedDescription = post.description.split(' ').slice(0, 4).join(' ');
-                        var truncatedTitle = post.title.split(' ').slice(0, 4).join(' ');
+                        var truncatedDescription = post.description.split(' ').slice(0, 2).join(' ');
+                        var truncatedTitle = post.title.split(' ').slice(0, 2).join(' ');
 
                         var imageUrl = "https://www.ttbinternetsecurity.com/admin/uploads/news/" + post.image;
 
