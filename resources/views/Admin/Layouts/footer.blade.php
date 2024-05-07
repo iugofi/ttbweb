@@ -62,6 +62,10 @@
 <script src="{{asset('assets/js/crm-dashboard.js')}}"></script>
 
 
+<!-- Date & Time Picker JS -->
+<script src="{{asset('assets/libs/flatpickr/flatpickr.min.js')}}"></script>
+
+
 <!-- DEFAULTMENU JS -->
 <script src="{{asset('assets/js/defaultmenu.js')}}"></script>
 
