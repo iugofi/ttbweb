@@ -131,4 +131,5 @@ public function savenews(Request $request){
 
 
 
+
 }
