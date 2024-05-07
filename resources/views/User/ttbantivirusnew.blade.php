@@ -377,7 +377,6 @@
         {{-- End:: ttbantivirus section six --}}
 
         {{-- Start:: ttbantivirus faq section saven --}}
-
         <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]" id="faq">
             <div class="container text-center">
                 {{-- <p class="text-[0.75rem] font-semibold text-success mb-1"><span
