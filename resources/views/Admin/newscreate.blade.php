@@ -88,7 +88,7 @@
                               
                                 <div class="xl:col-span-12 col-span-12">
                                     <label class="form-label">News Discription</label>
-                                    <textarea id="content" name="content" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500" rows="6" required></textarea>
+                                    <textarea id="content" name="news_discription" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500" rows="6" required></textarea>
                                     <div class="invalid-feedback"></div>
                                 </div>
                                
@@ -286,7 +286,7 @@
                         showError('canonical_url', response.messages.canonical_url);
                         showError('meta_keyword', response.messages.meta_keyword);
                         showError('meta_desc', response.messages.Status);
-                        showError('content', response.messages.content);
+                        showError('content', response.messages.news_discription);
                         showError('news_images', response.messages.news_images);
                         $('#news_save_btn').val('Post News');
                     } else if (response.status == 200) {
