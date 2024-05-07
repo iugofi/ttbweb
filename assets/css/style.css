@@ -41564,6 +41564,13 @@ img.img-fluid.service-icon {
     background-color: #12D2B3 !important;
     color: #fff !important;
 }
+.dark .box.overflow-hidden.container.pricing-section {
+    background-color: #252729;
+}
+.dark .p-6.pricing {
+    background: #000;
+}
+
 .space-icon::before {
     content: "\ea47";
     color: #ffffff;
