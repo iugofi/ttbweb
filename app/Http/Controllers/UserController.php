@@ -225,8 +225,6 @@ class UserController extends Controller
         } catch (\Exception $e) {
           
             \Log::error('Error in newspage method: ' . $e->getMessage());
-    
-            // Redirect to an error page or return a custom error response
             return response()->view('Errors.500', [], 500);
         }
     }
