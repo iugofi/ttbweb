@@ -1,6 +1,6 @@
 @extends('Admin.Layouts.layout')
 
-@section('title', 'TTB Admin')
+@section('title', 'TTB News Create')
 @section('Description','')
 @section('keywords', '')
 @section('canonical', 'vbhdvbh')
@@ -73,7 +73,7 @@
                                 
                               
                                 <div class="xl:col-span-12 col-span-12">
-                                    <label class="form-label">Blog Discription</label>
+                                    <label class="form-label">News Discription</label>
                                     <div id="blog-content" name="discription"></div>
                                 </div>
                                 <div class="xl:col-span-12 col-span-12 blog-images-container">
@@ -233,12 +233,6 @@
     </div>
 </div>
 
-<script src="{{asset('assets/js/blog-create.js')}}"></script>
-  <!-- Quill Editor JS -->
-  <script src="{{asset('assets/libs/quill/quill.min.js')}}"></script>
-        
-  <!-- Internal Quill JS -->
-  <script src="{{asset('assets/js/quill-editor.js')}}"></script>
 
 
 @endsection
