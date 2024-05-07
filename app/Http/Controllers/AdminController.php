@@ -133,7 +133,7 @@ public function savenews(Request $request){
 
             public function facthnews()
             {
-                $posts = News::orderBy('created_at', 'DESC')->limit(8)->get();
+                $posts = News::orderBy('created_at', 'asc')->where('status',101)->limit(8)->get();
                 return response()->json($posts);
             }
 
