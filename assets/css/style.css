@@ -40960,6 +40960,24 @@ img.img-fluid.service-icon {
 /* end kunal */
 
 /* neeraj-home-page-css-22-04-2024 */
+.section-two-iconbox h5 {
+    font-size: 20px;
+    margin: 10px 0px;
+    font-weight: 600;
+}
+
+.section-two-iconbox i{
+    font-size: 25px;
+    background-color: #12d2b326;
+    color: #12d2b3;
+    padding: 14px 10px;
+    border-radius: 31px;
+}
+.section-two-iconbox .con-box{
+    padding: 30px 19px;
+    border: 1px solid #12d2b345;
+    box-shadow: 2px 4px 1px -2px #12d2b3;
+}
 
 .section-two-iconbox {
   padding: 6em;
