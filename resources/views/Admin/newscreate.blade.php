@@ -260,6 +260,7 @@
 <script>
     $(document).ready(function() {
         $('#news_form').submit(function(e) {
+            alert("dfg");
             e.preventDefault();
             $('#news_save_btn').val('please wait..');
             var token = $('meta[name="csrf-token"]').attr('content');
