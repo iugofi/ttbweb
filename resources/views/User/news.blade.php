@@ -213,6 +213,7 @@
 
                     <div class="xl:col-span-12 col-span-12 news-box">
                         <div class="grid grid-cols-12 gap-x-6">
+                            @if ($newsscroll3->isNotEmpty())
                             @foreach ($newsscroll3 as $newsscrolllist3)
                                 <div class="xxl:col-span-3 xl:col-span-6 lg:col-span-6 md:col-span-6 col-span-12">
                                     <div class="box">
@@ -252,6 +253,9 @@
                                     </div>
                                 </div>
                             @endforeach
+                            @else
+                                <p>No news available.</p>
+                            @endif
 
                         </div>
                     </div>
