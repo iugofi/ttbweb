@@ -37,76 +37,50 @@
                 <div class="xxl:col-span-9 xl:col-span-12 lg:col-span-12 md:col-span-12 sm:col-span-12 col-span-12">
                     <div class="box">
                         <div class="box-header">
-                            <div class="box-title">News Blog</div>
+                            <div class="box-title">News Create</div>
                         </div>
                         <div class="box-body">
                             <div class="grid grid-cols-12 gap-4">
                                 <div class="xl:col-span-12 col-span-12">
-                                    <label for="blog-title" class="form-label">Blog Title</label>
-                                    <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md" id="blog-title" placeholder="Blog Title">
+                                    <label for="blog-title" class="form-label">News Title</label>
+                                    <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md" id="news_title" name="news_title" placeholder="News Title">
                                 </div>
                                 <div class="xl:col-span-12 col-span-12">
-                                    <label for="blog-category" class="form-label">Blog Category</label>
-                                    <select class="form-control block w-full text-[0.875rem] !rounded-md" data-trigger name="blog-category" id="blog-category">
-                                        <option value="">Select Category</option>
-                                        <option value="Choice 1">Nature</option>
-                                        <option value="Choice 2">Sports</option>
-                                        <option value="Choice 3">Food</option>
-                                        <option value="Choice 3">Travel</option>
-                                        <option value="Choice 3">Fashion</option>
-                                        <option value="Choice 3">Beauty</option>
-                                    </select>
+                                    <label for="News Slug" class="form-label">News Slug</label>
+                                    <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md" id="news_slug" name="news_slug" placeholder="News Title">
+                                </div>
+                               
+                                <div class="xl:col-span-6 col-span-12">
+                                    <label for="Meta Title" class="form-label">Meta Title</label>
+                                    <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md" id="meta_title" name="meta_title" placeholder="Meta Title">
                                 </div>
                                 <div class="xl:col-span-6 col-span-12">
-                                    <label for="blog-author" class="form-label">Blog Author</label>
-                                    <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md" id="blog-author" placeholder="Enter Name">
+                                    <label for="canonical-url" class="form-label">Canonical_url</label>
+                                    <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md" id="canonical_url" name="canonical_url" placeholder="Enter Canonical Url">
                                 </div>
                                 <div class="xl:col-span-6 col-span-12">
-                                    <label for="blog-author-email" class="form-label">Email</label>
-                                    <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md" id="blog-author-email" placeholder="Enter Email">
+                                    <label for="Meta Keyword" class="form-label">Meta Keyword</label>
+                                    <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md" id="meta_keyword" name="meta_keyword" placeholder="Enter Canonical Url">
                                 </div>
                                 <div class="xl:col-span-6 col-span-12">
+                                    <label for="Meta Desc" class="form-label">Meta Desc</label>
+                                    <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md" id="meta_desc" name="meta_desc" placeholder="Enter Canonical Url">
+                                </div>
+                                {{-- <div class="xl:col-span-6 col-span-12">
                                     <label for="publish-date" class="form-label">Publish Date</label>
                                     <input type="date" class="form-control block w-full text-[0.875rem] !rounded-md" id="publish-date" placeholder="Choose date">
-                                </div>
-                                <div class="xl:col-span-6 col-span-12">
-                                    <label for="publish-time" class="form-label">Publish Time</label>
-                                    <input type="date" class="form-control block w-full text-[0.875rem] !rounded-md" id="publish-time" placeholder="Choose time">
-                                </div>
-                                <div class="xl:col-span-6 col-span-12">
-                                    <label for="product-status-add" class="form-label">Published Status</label>
-                                    <select class="form-control block w-full text-[0.875rem] !rounded-md" data-trigger name="product-status-add" id="product-status-add">
-                                        <option value="">Select</option>
-                                        <option value="Published">Published</option>
-                                        <option value="Scheduled">Hold</option>
-                                    </select>
-                                </div>
+                                </div> --}}
+                                
                               
                                 <div class="xl:col-span-12 col-span-12">
-                                    <label class="form-label">Blog Content</label>
-                                    <div id="blog-content"></div>
+                                    <label class="form-label">Blog Discription</label>
+                                    <div id="blog-content" name="discription"></div>
                                 </div>
                                 <div class="xl:col-span-12 col-span-12 blog-images-container">
-                                    <label for="blog-author-email" class="form-label">Blog Images</label>
-                                    <input type="file" class="blog-images" name="filepond" multiple data-allow-reorder="true" data-max-file-size="3MB" data-max-files="6">
+                                    <label for="blog-author-email" class="form-label">News Images</label>
+                                    <input type="file" class="news_images" name="filepond" multiple data-allow-reorder="true" data-max-file-size="3MB" data-max-files="6">
                                 </div>
-                                <div class="xl:col-span-12 col-span-12">
-                                    <label class="form-label">Blog Type</label>
-                                    <div class="flex items-center">
-                                        <div class="form-check !ps-0 me-4">
-                                            <input class="form-check-input" type="radio" name="blog-type" id="blog-free1" checked>
-                                            <label class="form-check-label" for="blog-free1">
-                                                Free
-                                            </label>
-                                        </div>
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="blog-type" id="blog-paid1">
-                                            <label class="form-check-label" for="blog-paid1">
-                                                Paid
-                                            </label>
-                                        </div>
-                                    </div>
-                                </div>
+                               
                             </div>
                         </div>
                         <div class="box-footer">
