@@ -195,7 +195,7 @@
                                 ' ');
 
                                 var imageUrl =
-                                    "assets/images/dailynews/" +
+                                    "{{asset('assets/images/dailynews/'" +
                                     post.image;
 
                                 recentPostHtml += '<li class="list-group-item">';
