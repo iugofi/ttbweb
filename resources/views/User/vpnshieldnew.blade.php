@@ -19,8 +19,8 @@
                             Download Now
                             <i class='bx bxs-cloud-download icon-hm'></i>
                         </a>
-                        <a href="#" class="popup-youtube btn btn-white btn-circle btn-icon"><i class="bx bx-play watch-icon"></i> </a> 
-                        <span class="pl-2 text-white wtc-spn"> Watch Now</span>
+                        <a href="#" class="popup-youtube btn btn-white btn-circle btn-icon"><i class="bx bx-play watch-icon mx-2"></i> </a> 
+                        <span class="pl-2 text-white wtc-spn mx-2"> Watch Now</span>
                     </div>
                 </div>
                 <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
