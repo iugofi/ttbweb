@@ -203,27 +203,32 @@ class UserController extends Controller
 
     public function newspage()
     {
-       $newsscroll=News::orderBy('id', 'desc')->where('status', 101)->get()->random(8);
-       $newsscroll2=News::orderBy('id', 'desc')->where('status', 101)->take(2)->get();
-       $newsscroll3 = News::where('id', '<=', function ($query) {
-            $query->select('id')
-                ->from('news')
+        try {
+            $newsscroll = News::orderBy('id', 'desc')->where('status', 101)->get()->random(8);
+            $newsscroll2 = News::orderBy('id', 'desc')->where('status', 101)->take(2)->get();
+            $newsscroll3 = News::where('id', '<=', function ($query) {
+                $query->select('id')
+                    ->from('news')
+                    ->orderByDesc('id')
+                    ->where('status', 101)
+                    ->skip(2)
+                    ->take(1);
+            })
                 ->orderByDesc('id')
-                ->where('status', 101)
-                ->skip(2)
-                ->take(1);
-        })
-        ->orderByDesc('id')
-        ->paginate(12); 
-
-       
-        return view('User.news',[
-            'newsscroll'=>$newsscroll,
-            'newsscroll2'=>$newsscroll2,
-            'newsscroll3'=>$newsscroll3
-
-
-        ]);
+                ->paginate(12);
+    
+            return view('User.news', [
+                'newsscroll' => $newsscroll,
+                'newsscroll2' => $newsscroll2,
+                'newsscroll3' => $newsscroll3
+            ]);
+        } catch (\Exception $e) {
+          
+            \Log::error('Error in newspage method: ' . $e->getMessage());
+    
+            // Redirect to an error page or return a custom error response
+            return response()->view('Errors.500', [], 500);
+        }
     }
 
     public function newslike(Request $request, $id)
