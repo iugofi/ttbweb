@@ -7,18 +7,7 @@
 @section('content')
 
 
- <!-- editor CSS -->
- <link rel="stylesheet" href="{{asset('assets/libs/quill/quill.snow.css')}}">
- <link rel="stylesheet" href="{{asset('assets/libs/quill/quill.bubble.css')}}">
 
-  <!-- Tom Select Css -->
-  <link rel="stylesheet" href="{{asset('assets/libs/tom-select/css/tom-select.default.min.css')}}">
-
-       <!-- Choices Css -->
-<link rel="stylesheet" href="{{asset('assets/libs/choices.js/public/assets/styles/choices.min.css')}}">
-
-  <!-- Date & Time Picker CSS -->
-  <link rel="stylesheet" href="{{asset('assets/libs/flatpickr/flatpickr.min.css')}}">
 
 <div class="content">
     <div class="main-content">
@@ -78,11 +67,11 @@
                                 </div>
                                 <div class="xl:col-span-6 col-span-12">
                                     <label for="publish-date" class="form-label">Publish Date</label>
-                                    <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md" id="publish-date" placeholder="Choose date">
+                                    <input type="date" class="form-control block w-full text-[0.875rem] !rounded-md" id="publish-date" placeholder="Choose date">
                                 </div>
                                 <div class="xl:col-span-6 col-span-12">
                                     <label for="publish-time" class="form-label">Publish Time</label>
-                                    <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md" id="publish-time" placeholder="Choose time">
+                                    <input type="date" class="form-control block w-full text-[0.875rem] !rounded-md" id="publish-time" placeholder="Choose time">
                                 </div>
                                 <div class="xl:col-span-6 col-span-12">
                                     <label for="product-status-add" class="form-label">Published Status</label>

@@ -173,11 +173,11 @@
                 <div class="box-body !p-0">
                     <div class="tab-content" id="myTabContent">
                         <div class="tabs-pane show active !p-0 border-b-0 dark:border-defaultborder/10"
-                            id="pricing-monthly-pane" role="tabpanel">
+                            id="pricing-monthly-pane" role="tabpanel">  
                             <div class="grid grid-cols-12">
                                 <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12 col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 pe-0">
                                     <div class="p-6 pricing">
-                                        <h6 class="font-semibold text-left text-[1rem] text-black px-5">BASIC</h6>
+                                        <h6 class="font-semibold text-left text-[1rem] text-black px-5 dark:text-white/50 opacity-1">BASIC</h6>
                                         <div class="py-4 flex items-center justify-left">
                                             <div class="text-end ms-5">
                                                 <p class="text-[1.5625rem] font-semibold mb-0">$199</p>
@@ -213,10 +213,6 @@
                                 </div>
                                 <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12 col-span-12 ps-0">
                                     <div class="p-6 pricing-offer overflow-hidden">
-                                        {{-- <span class="pricing-offer-details shadow">
-                                            <span class="font-semibold">10%</span> <span
-                                                class="text-[0.625rem] op-8 ms-1">Off</span>
-                                        </span> --}}
                                         <h6 class="font-semibold text-left text-[1rem] text-white px-5">PREMIUM</h6>
                                         <div class="py-4 flex items-center justify-left">
                                             <div class="text-end ms-5">
@@ -254,7 +250,7 @@
                                 </div>
                                 <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12 col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 px-0">
                                     <div class="p-6 pricing">
-                                        <h6 class="font-semibold text-left text-[1rem] text-black px-5">ADVANCED</h6>
+                                        <h6 class="font-semibold text-left text-[1rem] text-black px-5 dark:text-white/50 opacity-1">ADVANCED</h6>
                                         <div class="py-4 flex items-center justify-left">
                                             <div class="text-end ms-5">
                                                 <p class="text-[1.5625rem] font-semibold mb-0">$1,299</p>
@@ -381,65 +377,57 @@
         {{-- End:: ttbantivirus section six --}}
 
         {{-- Start:: ttbantivirus faq section saven --}}
-        <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]">
-            <div class="container ttbantivirus-container">
-        <div class="xl:col-span-4 lg:col-span-6 md:col-span-6 sm:col-span-12 col-span-12">
-            <div class="box custom-box">
-                <div class="box-header">
-                    <div class="box-title">
-                        Pagination Fraction
+        <section
+            class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
+            id="features">
+            <div class="container main-banner-container">
+                <div class="grid grid-cols-12 gap-6">
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
+                        <div class="lg:py-[3rem]">
+                            <h2 class="lg:text-center font-semibold mb-2 text-[2rem]">
+                                <span>What Our Client Say <br> About Apdash</h2>
+                            <div class="text-[1rem] mb-[3rem] !text-dark opacity-[0.9] ">Collaboratively actualize
+                                excellent schemas without effective <br> models. Synergistically engineer functionalized
+                                applications rather<br> than backend e-commerce.</div>
+                        </div>
+                    </div>
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
+                        <div class="box custom-box slider-box box-review">
+                            <div class="box-body">
+                                <div class="swiper  custom-pagination">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide test-slider-img">
+                                            <div class="item">
+                                                <div class="testimonial-quote-wrap ttb-bg">
+                                                    <div class="media author-info mb-3 flex ">
+                                                        <div class="author-img mr-3">
+                                                            <img src="assets/img/client/1.jpg" alt="client"
+                                                                width="10px">
+                                                        </div>
+                                                        <div class="media-body text-white p-5">
+                                                            <h5 class="mb-0 text-white">John Charles</h5>
+                                                            <span>Head Of Admin</span>
+                                                        </div>
+                                                        <i class="fas fa-quote-right text-white"></i>
+                                                    </div>
+                                                    <div class="client-say text-white">
+                                                        <p>Interactively optimize fully researched expertise vis-a-vis
+                                                            plug-and-play relationships. Intrinsicly develop viral core
+                                                            competencies for fully tested customer service. Enthusiastically
+                                                            create next-generation growth strategies and.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="box-body">
-                    <div class="swiper swiper-basic pagination-fraction">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide"><div class="box-body">
-                                <div class="relative">
-                                    <div class="relative rounded-sm overflow-auto">
-                                      <div class="sm:grid space-y-6 sm:space-y-0 grid-cols-2 gap-4 font-mono text-defaulttextcolor text-sm text-center font-bold rounded-sm">
-                                        <div><img src="{{ asset('assets/img/Bg-Circle.png') }}" alt=""
-                                            class="img-fluid" width="25px"></div>
-                                        <div class="p-4 rounded-sm  bg-light">02</div>
-                                        <div class="p-4 rounded-sm  bg-light">03</div>
-                                        <div class="p-4 rounded-sm  bg-light">04</div>
-                                      </div>
-                                    </div>
-                                </div>
-                            </div></div>
-                            <div class="swiper-slide"><div class="box-body">
-                                <div class="relative">
-                                    <div class="relative rounded-sm overflow-auto">
-                                      <div class="sm:grid space-y-6 sm:space-y-0 grid-cols-2 gap-4 font-mono text-defaulttextcolor text-sm text-center font-bold rounded-sm">
-                                        <div class="p-4 rounded-sm  bg-light">01</div>
-                                        <div class="p-4 rounded-sm  bg-light">02</div>
-                                        <div class="p-4 rounded-sm  bg-light">03</div>
-                                        <div class="p-4 rounded-sm  bg-light">04</div>
-                                      </div>
-                                    </div>
-                                </div>
-                            </div></div>
-                            <div class="swiper-slide"><div class="box-body">
-                                <div class="relative">
-                                    <div class="relative rounded-sm overflow-auto">
-                                      <div class="sm:grid space-y-6 sm:space-y-0 grid-cols-2 gap-4 font-mono text-defaulttextcolor text-sm text-center font-bold rounded-sm">
-                                        <div class="p-4 rounded-sm  bg-light">01</div>
-                                        <div class="p-4 rounded-sm  bg-light">02</div>
-                                        <div class="p-4 rounded-sm  bg-light">03</div>
-                                        <div class="p-4 rounded-sm  bg-light">04</div>
-                                      </div>
-                                    </div>
-                                </div>
-                            </div></div>
-                        </div>
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-pagination"></div>
-                      </div>
-                </div>
             </div>
-        </div>
-    </div>
-</div>
+        </section>
 
         {{-- End:: ttbantivirus faq section saven --}}
 
