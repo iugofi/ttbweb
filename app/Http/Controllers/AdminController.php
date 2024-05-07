@@ -65,6 +65,17 @@ public function newslistshow(){
     }
 }
 
+public function savenews(Request $request){
+    if ($this->loggedInAdmin) {
+   
+        dd($request->all());
+        
+
+    } else {
+        return redirect('/setup');
+    }
+}
+
 
 
 }
