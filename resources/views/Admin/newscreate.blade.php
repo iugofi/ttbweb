@@ -164,7 +164,7 @@
     </div>
 
   
-    
+   
     <script>
         ClassicEditor
             .create( document.querySelector( '#editoronebest' ) )
@@ -172,7 +172,7 @@
                 console.error( error );
             } );
     </script>
-
+ <script src="https://cdn.ckeditor.com/ckeditor5/41.3.1/classic/ckeditor.js"></script>
 
 
     <script>
