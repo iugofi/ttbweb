@@ -241,6 +241,7 @@
                 var formData = new FormData($(this)[0]);
                 var editorContent = CKEDITOR.instances.editor.getData();
                 formData.append('news_description', editorContent);
+                console.log(formData);
                 $.ajax({
                     url: '{{ route('save.news') }}',
                     method: 'post',
