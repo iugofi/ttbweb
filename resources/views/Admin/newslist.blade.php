@@ -189,24 +189,26 @@
             var url = "{{ route('delete.newsdelete', ':id') }}";
             url = url.replace(':id', itemId);
     
-            $.ajax({
-                url: url,
-                type: 'DELETE',
-                headers: {
-                'X-CSRF-TOKEN': csrfToken // Include CSRF token in headers
-                },
-                success: function(response) {
-                    console.log(response.message);
-                    $("#show_success_alert").html(showMessage('success', response
-                                .message));
-                                location.reload();
-                },
-                error: function(xhr, status, error) {
-                    console.error(error);
-                }
-            });
+            // Show confirmation dialog before deleting
+            if (confirm("Are you sure you want to delete this item?")) {
+                $.ajax({
+                    url: url,
+                    type: 'DELETE',
+                    headers: {
+                        'X-CSRF-TOKEN': csrfToken // Include CSRF token in headers
+                    },
+                    success: function(response) {
+                        console.log(response.message);
+                        location.reload();
+                    },
+                    error: function(xhr, status, error) {
+                        console.error(error);
+                    }
+                });
+            }
         });
     });
-    </script>
+</script>
+
 
 @endsection
