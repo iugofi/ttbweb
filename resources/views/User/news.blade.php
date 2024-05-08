@@ -251,7 +251,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> 
                             @endforeach
                             @else
                                 <p>No news available.</p>
