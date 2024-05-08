@@ -202,7 +202,7 @@
                 success: function(response) {
                     console.log(response.message);
                     $("#show_success_alert").html(showMessage('success', response
-                                .messages));
+                                .message));
                 },
                 error: function(xhr, status, error) {
                     console.error(error);
