@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 use App\Models\Admin; 
 use App\Models\News; 
+use Illuminate\Support\Facades\File;
 
 
 class AdminController extends Controller
@@ -149,21 +150,21 @@ public function savenews(Request $request){
                 }
             }
 
-            public function newsdelete($id){
-                if ($this->loggedInAdmin) {
-
-                    $item = News::findOrFail($id);
-                    if (!empty($item->image) && File::exists(public_path($item->image))) {
-                        File::delete(public_path($item->image));
+            public function newsdelete($id)
+                {
+                    if ($this->loggedInAdmin) {
+                        $item = News::findOrFail($id);
+                        $imagePath = 'assets/images/dailynews/' . $item->image;
+                        
+                        if (File::exists($imagePath)) {
+                            File::delete($imagePath);
+                        }
+                        $item->delete();
+                        return response()->json(['message' => 'Item deleted successfully']);
+                    } else {
+                        return redirect('/setup'); 
                     }
-                    $item->delete();
-
-                    return response()->json(['message' => 'Item deleted successfully']);
-                
-                } else {
-                    return redirect('/setup');
                 }
-            }
 
 
 
