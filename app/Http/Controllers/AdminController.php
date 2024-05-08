@@ -166,6 +166,16 @@ public function savenews(Request $request){
                     }
                 }
 
+                public function getNewsData()
+                {
+                    if ($this->loggedInAdmin) {
+                    $news = News::all(); // Fetch all news items, adjust the query as per your requirement
+                    return view('tatchdata.news_table', compact('news')); // Assuming 'partials.news_table' is your table partial
+                } else {
+                    return redirect('/setup'); 
+                }
+                }
+
 
 
 }
