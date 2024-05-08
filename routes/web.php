@@ -151,8 +151,8 @@ Route::get('/mailtest', [UserController::class, 'mailtest'])->name('admin.mailte
 Route::get('/newslist', [AdminController::class, 'newslist'])->name('admin.newslist');
 Route::get('/newscreate', [AdminController::class, 'newscreate'])->name('admin.newscreate');
 Route::get('/newslistshow', [AdminController::class, 'newslistshow'])->name('admin.newslistshow');
-Route::get('/newsedit', [AdminController::class, 'newsedit'])->name('edit.newsedit');
-Route::get('/newsdelete', [AdminController::class, 'newsdelete'])->name('delete.newsdelete');
+Route::get('/newsedit/{id}', [AdminController::class, 'newsedit'])->name('edit.newsedit');
+Route::get('/newsdelete/{id}', [AdminController::class, 'newsdelete'])->name('delete.newsdelete');
 Route::post('/savenews', [AdminController::class, 'savenews'])->name('save.news');
 Route::get('/facthnews', [AdminController::class, 'facthnews'])->name('fatch.news');
 
