@@ -46,7 +46,7 @@
                         <div class="box-header">
                             <div class="box-title">News Create</div>
                         </div>
-                        <form method="post" id="news_form" enctype="multipart/form-data">
+                        <form method="post" id="edit_news_form" enctype="multipart/form-data">
                             @csrf
                             <div class="box-body">
                                 <div class="box text-center">
@@ -140,7 +140,7 @@
                             <div class="box-footer">
                                 <div class="text-end">
                                     {{-- <button type="button" class="ti-btn !py-1 !px-2 ti-btn-light !text-[0.75rem] !font-medium me-2">Save As Draft</button> --}}
-                                    <input type="submit" value="Post News" id="news_save_btn"
+                                    <input type="submit" value="Edit News" id="news_edit_btn"
                                         class="ti-btn bg-primary text-white !py-1 !px-2 !text-[0.75rem] !font-medium">
                                 </div>
                             </div>
@@ -228,13 +228,13 @@
                 });
             }
 
-            $('#news_form').submit(function(e) {
+            $('#edit_news_form').submit(function(e) {
                 e.preventDefault();
-                $('#news_save_btn').val('please wait..');
+                $('#news_edit_btn').val('please wait..');
                 var token = $('meta[name="csrf-token"]').attr('content');
                 var formData = new FormData($(this)[0]);
                 $.ajax({
-                    url: '{{ route('save.news') }}',
+                    url: '{{ route('edit.news') }}',
                     method: 'post',
                     data: formData,
                     headers: {
@@ -254,14 +254,14 @@
                             showError('news_images', response.messages.news_images);
                             showError('news_status', response.messages.news_status);
 
-                            $('#news_save_btn').val('Post News');
+                            $('#news_edit_btn').val('Edit News');
                         } else if (response.status == 200) {
                             $('.invalid-feedback').empty();
                             $("#show_success_alert").html(showMessage('success', response
                                 .messages));
-                            $('#news_form')[0].reset();
-                            removeValidationClass("#news_form");
-                            $('#news_save_btn').val('Post News');
+                            $('#edit_news_form')[0].reset();
+                            removeValidationClass("#edit_news_form");
+                            $('#news_edit_btn').val('Edit News');
                             fetchNews();
                         }
                     },
