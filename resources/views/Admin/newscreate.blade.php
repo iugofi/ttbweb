@@ -238,7 +238,7 @@
                 var token = $('meta[name="csrf-token"]').attr('content');
                 var formData = new FormData($(this)[0]);
 
-                var editorContent = CKEDITOR.instances.editor.getData();
+                var editorContent = document.getElementById('editor').innerHTML;
              console.log(editorContent);
                 $.ajax({
                     url: '{{ route('save.news') }}',
