@@ -98,7 +98,7 @@
 
                                     <div class="xl:col-span-12 col-span-12">
                                         <label class="form-label">News Discription</label>
-                                        <textarea name="news_description" id="editor"></textarea>
+                                        <textarea name="news_description" id="editoronebest"></textarea>
                                         <div class="invalid-feedback"></div>
                                     </div>
 
@@ -167,7 +167,7 @@
     
     <script>
         ClassicEditor
-            .create( document.querySelector( '#editor' ) )
+            .create( document.querySelector( '#editoronebest' ) )
             .catch( error => {
                 console.error( error );
             } );
