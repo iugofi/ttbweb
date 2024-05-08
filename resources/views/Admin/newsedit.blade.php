@@ -234,12 +234,9 @@
                 $('#news_edit_btn').val('please wait..');
                 var token = $('meta[name="csrf-token"]').attr('content');
                 var formData = new FormData($(this)[0]);
-                var id_main = $('#id_main').val();
-                console.log(id_main);
-                var editNewsRoute = '{{ route('edit.news', ':id') }}';
-                editNewsRoute = editNewsRoute.replace(':id', id_main);
+                
                 $.ajax({
-                    url:  editNewsRoute,
+                    url:  "{{ route('edit.news') }}",
                     method: 'post',
                     data: formData,
                     headers: {
