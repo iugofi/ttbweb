@@ -138,7 +138,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 col-span-12">
+                    <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 col-span-12" style="z-index: 0;">
 
                         <div class="text-end landing-main-image landing-heading-img flex justify-end w-full">
                             <img src="{{ asset('assets/img/section-two-ttb.gif') }}" alt="" class="img-fluid" width="75%">
