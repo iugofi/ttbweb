@@ -41572,6 +41572,19 @@ img.img-fluid.service-icon {
     .animate-bounce {
         justify-content: left;
     }
+
+    /* start home page mobile banner css */
+    .main-content {
+        padding: 0px !important;
+    }
+    .sect-ban {
+        padding: 0px !important;
+    }
+    .prevent-select {
+        margin-top: 0px !important;
+    }
+    /* start home page mobile banner css */
+
 }
 
 /* start vpn-shild banner css */
