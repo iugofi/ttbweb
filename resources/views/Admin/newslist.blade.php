@@ -59,6 +59,9 @@
                             </div>
                         </div>
                         <div class="box-body">
+                            <div class="box text-center">
+                                <div class="" id="show_success_alert"></div>
+                            </div>
                             <table id="example" class="table-auto w-full">
                                 <thead>
                                     <tr>
@@ -198,6 +201,8 @@
                 },
                 success: function(response) {
                     console.log(response.message);
+                    $("#show_success_alert").html(showMessage('success', response
+                                .messages));
                 },
                 error: function(xhr, status, error) {
                     console.error(error);
