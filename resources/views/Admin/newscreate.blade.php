@@ -98,9 +98,7 @@
 
                                     <div class="xl:col-span-12 col-span-12">
                                         <label class="form-label">News Discription</label>
-                                        <textarea id="news_description" name="news_description"
-                                            class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500"
-                                            rows="6"></textarea>
+                                        <textarea name="news_description" id="editoronebest"></textarea>
                                         <div class="invalid-feedback"></div>
                                     </div>
 
@@ -165,15 +163,8 @@
         </div>
     </div>
 
-    <script src="https://cdn.ckeditor.com/ckeditor5/34.1.0/classic/ckeditor.js"></script>
-    <script>
-        ClassicEditor
-            .create(document.querySelector('#content'))
-            .catch(error => {
-                console.error(error);
-            });
-    </script>
-
+  
+    
 
 
 
@@ -239,6 +230,7 @@
                 $('#news_save_btn').val('please wait..');
                 var token = $('meta[name="csrf-token"]').attr('content');
                 var formData = new FormData($(this)[0]);
+
                 $.ajax({
                     url: '{{ route('save.news') }}',
                     method: 'post',
@@ -256,7 +248,7 @@
                             showError('canonical_url', response.messages.canonical_url);
                             showError('meta_keyword', response.messages.meta_keyword);
                             showError('meta_desc', response.messages.meta_desc);
-                            showError('news_description', response.messages.news_description);
+                            showError('editoronebest', response.messages.news_description);
                             showError('news_images', response.messages.news_images);
                             showError('news_status', response.messages.news_status);
 

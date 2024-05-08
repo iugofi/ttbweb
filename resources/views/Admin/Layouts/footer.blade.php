@@ -24,6 +24,16 @@
 
 <!-- SCRIPTS -->
 
+<script src="https://cdn.ckeditor.com/ckeditor5/41.3.1/classic/ckeditor.js"></script>
+    <script>
+        ClassicEditor
+            .create( document.querySelector( '#editoronebest' ) )
+            .catch( error => {
+                console.error( error );
+            } );
+    </script>
+
+
 
 <!-- SCROLL-TO-TOP -->
 <div class="scrollToTop">
@@ -78,8 +88,7 @@
 <!-- CUSTOM-SWITCHER JS -->
 <script src="{{asset('assets/js/custom-switcher.js')}}"></script>
 
-<!-- Quill Editor JS -->
-<script src="{{asset('assets/libs/quill/quill.min.js')}}"></script>
+
 
   <!-- Choices JS -->
 <script src="{{asset('assets/libs/choices.js/public/assets/scripts/choices.min.js')}}"></script>

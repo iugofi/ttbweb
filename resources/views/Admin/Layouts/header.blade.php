@@ -52,10 +52,6 @@
      <link rel="stylesheet" href="{{asset('assets/libs/filepond-plugin-image-preview/filepond-plugin-image-preview.min.css')}}">
      <link rel="stylesheet" href="{{asset('assets/libs/filepond-plugin-image-edit/filepond-plugin-image-edit.min.css')}}">
 
-        <!-- editor CSS -->
-    <link rel="stylesheet" href="{{asset('assets/libs/quill/quill.snow.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/libs/quill/quill.bubble.css')}}">
-
     <!-- Tom Select Css -->
     <link rel="stylesheet" href="{{asset('assets/libs/tom-select/css/tom-select.default.min.css')}}">
 

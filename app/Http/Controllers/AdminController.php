@@ -67,7 +67,7 @@ public function newslistshow(){
 
 public function savenews(Request $request){
     if ($this->loggedInAdmin) {
-   
+
         $validator = Validator::make($request->all(), [
             'news_title' => 'required',
             'news_slug' => 'required',
@@ -143,6 +143,22 @@ public function savenews(Request $request){
                     $editnews=News::find($id);
 
                     return view('Admin.newsedit',['editnews'=>$editnews]);
+                
+                } else {
+                    return redirect('/setup');
+                }
+            }
+
+            public function newsdelete($id){
+                if ($this->loggedInAdmin) {
+
+                    $item = News::findOrFail($id);
+                    if (!empty($item->image) && File::exists(public_path($item->image))) {
+                        File::delete(public_path($item->image));
+                    }
+                    $item->delete();
+
+                    return response()->json(['message' => 'Item deleted successfully']);
                 
                 } else {
                     return redirect('/setup');

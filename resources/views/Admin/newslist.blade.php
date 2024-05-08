@@ -133,11 +133,12 @@
                                                     </a>
                                                     
     
-                                                            <button aria-label="button" type="button"
-                                                            class="ti-btn !py-1 !px-2 !text-[0.75rem] ti-btn-danger-full btn-wave delete-news"
-                                                            data-url="{{ route('delete.newsdelete', $item->id) }}">
-                                                            <i class="ri-delete-bin-line align-middle me-2 inline-block"></i>Delete
-                                                        </button>
+                                                    <button aria-label="button" type="button"
+                                                    class="ti-btn !py-1 !px-2 !text-[0.75rem] ti-btn-danger-full btn-wave delete-news"
+                                                    data-item-id="{{ $item->id }}">
+                                                    <i class="ri-delete-bin-line align-middle me-2 inline-block"></i>Delete
+                                                   </button>
+                                            
                                                 </div>
                                             </td>
                                         </tr>
@@ -176,9 +177,34 @@
     <script>
         $(document).ready(function() {
             $('#example').DataTable({
-                // Add any customization options here
+               
             });
         });
+    </script>
+
+<script>
+    $(document).ready(function() {
+        var csrfToken = $('meta[name="csrf-token"]').attr('content');
+        $('.delete-news').click(function() {
+            var itemId = $(this).data('item-id');
+            var url = "{{ route('delete.newsdelete', ':id') }}";
+            url = url.replace(':id', itemId);
+    
+            $.ajax({
+                url: url,
+                type: 'DELETE',
+                headers: {
+                'X-CSRF-TOKEN': csrfToken // Include CSRF token in headers
+                },
+                success: function(response) {
+                    console.log(response.message);
+                },
+                error: function(xhr, status, error) {
+                    console.error(error);
+                }
+            });
+        });
+    });
     </script>
 
 @endsection

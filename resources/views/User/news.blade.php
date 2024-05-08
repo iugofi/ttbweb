@@ -37,7 +37,7 @@
 
 
                     {{-- scroll --}}
-                    <div class="xxl:col-span-6 xl:col-span-12 col-span-12">
+                    <div class="xxl:col-span-6 xl:col-span-6 md:col-span-6 sm:col-span-6 col-span-12">
 
                         <div class="box custom-box">
                             <div class="box-body">
@@ -150,7 +150,7 @@
                         });
                     </script>
 
-                    <div class="xxl:col-span-6 xl:col-span-12 col-span-12 news-box">
+                    <div class="xxl:col-span-6 xl:col-span-6 md:col-span-6 sm:col-span-6 col-span-12 news-box">
                         <div class="grid grid-cols-12 gap-x-6">
                             @if ($newsscroll2->isNotEmpty())
                             @foreach ($newsscroll2 as $newsscrolllist2)
