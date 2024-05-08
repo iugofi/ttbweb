@@ -18,12 +18,15 @@
             margin-top: 3rem;
             margin-bottom: 6rem;
         }
+
         .like-btn.liked {
-            color: blue; /* Change color to blue */
+            color: blue;
+            /* Change color to blue */
         }
+
         body {
             background-color: rgb(var(--body-bg));
-            }
+        }
     </style>
 
 
@@ -44,37 +47,42 @@
                                 <div class="swiper pagination">
                                     <div class="swiper-wrapper">
                                         @if ($newsscroll->isNotEmpty())
-                                        @foreach ($newsscroll as $newsscrolllist)
-                                            <div class="swiper-slide">
-                                                <img src="{{ asset('assets/images/dailynews/' . $newsscrolllist->image) }}"
-                                                    class="!rounded-md" alt="">
-                                                <div class="box-footer">
-                                                    <div class="flex items-center justify-between">
-                                                        <div class="flex items-center">
-                                                            <div class="avatar avatar-sm avatar-rounded me-2">
-                                                                <img src="assets/images/faces/10.jpg" alt="">
+                                            @foreach ($newsscroll as $newsscrolllist)
+                                                <div class="swiper-slide">
+                                                    <img src="{{ asset('assets/images/dailynews/' . $newsscrolllist->image) }}"
+                                                        class="!rounded-md" alt="">
+                                                    <div class="box-footer">
+                                                        <div class="flex items-center justify-between">
+                                                            <div class="flex items-center">
+                                                                <div class="avatar avatar-sm avatar-rounded me-2">
+                                                                    <img src="assets/images/faces/10.jpg" alt="">
+                                                                </div>
+                                                                <div>
+                                                                    <p class="mb-0 font-semibold">
+                                                                        {{ $newsscrolllist->title }}
+                                                                    </p>
+                                                                    <p
+                                                                        class="text-[#8c9097] dark:text-white/50 text-[.625rem] mb-0">
+                                                                        {{ $newsscrolllist->created_at->format('F j, Y') }}
+                                                                    </p>
+                                                                </div>
                                                             </div>
                                                             <div>
-                                                                <p class="mb-0 font-semibold">{{ $newsscrolllist->title }}
-                                                                </p>
-                                                                <p
-                                                                    class="text-[#8c9097] dark:text-white/50 text-[.625rem] mb-0">
-                                                                    {{ $newsscrolllist->created_at->format('F j, Y') }}</p>
+                                                                <button aria-label="button" type="button"
+                                                                    class="like-btn ti-btn ti-btn-light ti-btn-sm !me-[0.375rem]"
+                                                                    data-post-id="{{ $newsscrolllist->id }}">
+                                                                    <i class="ri-thumb-up-line"></i>
+                                                                </button>
+
+                                                                <a href="{{ route('news.details', ['id' => $newsscrolllist->slug]) }}"
+                                                                    aria-label="button"
+                                                                    class="ti-btn ti-btn-light ti-btn-sm"><i
+                                                                        class="ri-chat-2-line"></i></a>
                                                             </div>
-                                                        </div>
-                                                        <div>
-                                                            <button aria-label="button" type="button" class="like-btn ti-btn ti-btn-light ti-btn-sm !me-[0.375rem]" data-post-id="{{ $newsscrolllist->id }}">
-                                                                <i class="ri-thumb-up-line"></i>
-                                                            </button>
-                                                         
-                                                            <a href="{{ route('news.details', ['id' => $newsscrolllist->slug]) }}" aria-label="button" 
-                                                                class="ti-btn ti-btn-light ti-btn-sm"><i
-                                                                    class="ri-chat-2-line"></i></a>
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                        @endforeach
+                                            @endforeach
                                         @else
                                             <p>No news available.</p>
                                         @endif
@@ -97,13 +105,13 @@
                                     $(this).addClass('disliked');
                                 }
                             });
-                    
+
                             // Handle like/dislike button click
                             $('.like-btn').click(function(e) {
                                 e.preventDefault();
                                 var postId = $(this).data('post-id');
                                 var action = '';
-                    
+
                                 // Check if already liked/disliked in browser cache
                                 var cachedAction = localStorage.getItem('actionnews_' + postId);
                                 if ($(this).hasClass('liked')) {
@@ -121,7 +129,7 @@
                                 } else {
                                     action = 'like'; // Default action
                                 }
-                    
+
                                 // Make AJAX request to update database
                                 $.ajax({
                                     type: 'POST',
@@ -129,18 +137,22 @@
                                     headers: {
                                         'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
                                     },
-                                    data: { action: action },
+                                    data: {
+                                        action: action
+                                    },
                                     success: function(response) {
-                                        if (response.success) {  
+                                        if (response.success) {
                                             // Update UI                           
                                             if (action === 'like') {
                                                 $('.like-btn[data-post-id="' + postId + '"]').addClass('liked');
                                                 localStorage.setItem('actionnews_' + postId, 'like');
                                             } else if (action === 'remove-like') {
-                                                $('.like-btn[data-post-id="' + postId + '"]').removeClass('liked');
+                                                $('.like-btn[data-post-id="' + postId + '"]').removeClass(
+                                                    'liked');
                                                 localStorage.removeItem('actionnews_' + postId);
                                             } else if (action === 'remove-dislike') {
-                                                $('.like-btn[data-post-id="' + postId + '"]').removeClass('disliked');
+                                                $('.like-btn[data-post-id="' + postId + '"]').removeClass(
+                                                    'disliked');
                                                 localStorage.removeItem('actionnews_' + postId);
                                             }
                                         }
@@ -153,50 +165,53 @@
                     <div class="xxl:col-span-6 xl:col-span-6 md:col-span-6 sm:col-span-6 col-span-12 news-box">
                         <div class="grid grid-cols-12 gap-x-6">
                             @if ($newsscroll2->isNotEmpty())
-                            @foreach ($newsscroll2 as $newsscrolllist2)
-                                <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 col-span-12">
-                                    <div class="box">
-                                        <a href="javascript:void(0);">
-                                            <img src="{{ asset('assets/images/dailynews/' . $newsscrolllist2->image) }}"
-                                                class="card-img-top rounded-t-sm" alt="...">
-                                        </a>
-                                        <div class="box-body">
-                                            <a href="{{ route('news.details', ['id' => $newsscrolllist2->slug]) }}"
-                                                class="font-semibold text-[0.875rem] text-dark mb-1">{{ $newsscrolllist2->title }}</a>
-                                            <p class="card-text text-[#8c9097] dark:text-white/50 mb-3">
-                                                {!! nl2br(e(Str::limit(strip_tags($newsscrolllist2->description), 150))) !!}</p>
-                                            <a href="javascript:void(0);"
-                                                class="ti-btn ti-btn-primary !font-medium !mb-0">Read
-                                                More</a>
-                                        </div>
-                                        <div class="box-footer">
-                                            <div class="flex items-center justify-between">
-                                                <div class="flex items-center">
-                                                    <div class="avatar avatar-sm avatar-rounded me-2">
-                                                        <img src="assets/images/faces/10.jpg" alt="">
+                                @foreach ($newsscroll2 as $newsscrolllist2)
+                                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 col-span-12">
+                                        <div class="box">
+                                            <a href="javascript:void(0);">
+                                                <img src="{{ asset('assets/images/dailynews/' . $newsscrolllist2->image) }}"
+                                                    class="card-img-top rounded-t-sm" alt="...">
+                                            </a>
+                                            <div class="box-body">
+                                                <a href="{{ route('news.details', ['id' => $newsscrolllist2->slug]) }}"
+                                                    class="font-semibold text-[0.875rem] text-dark mb-1">{{ $newsscrolllist2->title }}</a>
+                                                <p class="card-text text-[#8c9097] dark:text-white/50 mb-3">
+                                                    {!! nl2br(e(Str::limit(strip_tags($newsscrolllist2->description), 150))) !!}</p>
+                                                <a href="javascript:void(0);"
+                                                    class="ti-btn ti-btn-primary !font-medium !mb-0">Read
+                                                    More</a>
+                                            </div>
+                                            <div class="box-footer">
+                                                <div class="flex items-center justify-between">
+                                                    <div class="flex items-center">
+                                                        <div class="avatar avatar-sm avatar-rounded me-2">
+                                                            <img src="assets/images/faces/10.jpg" alt="">
+                                                        </div>
+                                                        <div>
+                                                            <p class="mb-0 font-semibold">Posted Date</p>
+                                                            <p
+                                                                class="text-[#8c9097] dark:text-white/50 text-[.625rem] mb-0">
+                                                                {{ $newsscrolllist2->created_at->format('F j, Y') }}</p>
+                                                        </div>
                                                     </div>
                                                     <div>
-                                                        <p class="mb-0 font-semibold">Posted Date</p>
-                                                        <p class="text-[#8c9097] dark:text-white/50 text-[.625rem] mb-0">
-                                                            {{ $newsscrolllist2->created_at->format('F j, Y') }}</p>
+                                                        <button aria-label="button" type="button"
+                                                            class="like-btn ti-btn ti-btn-light ti-btn-sm !me-[0.375rem]"
+                                                            data-post-id="{{ $newsscrolllist2->id }}">
+                                                            <i class="ri-thumb-up-line"></i>
+                                                        </button>
+                                                        <a href="{{ route('news.details', ['id' => $newsscrolllist2->slug]) }}"
+                                                            aria-label="button" class="ti-btn ti-btn-light ti-btn-sm"><i
+                                                                class="ri-chat-2-line"></i></a>
                                                     </div>
-                                                </div>
-                                                <div>
-                                                    <button aria-label="button" type="button" class="like-btn ti-btn ti-btn-light ti-btn-sm !me-[0.375rem]" data-post-id="{{ $newsscrolllist2->id }}">
-                                                        <i class="ri-thumb-up-line"></i>
-                                                    </button>
-                                                    <a href="{{ route('news.details', ['id' => $newsscrolllist2->slug]) }}" aria-label="button" 
-                                                        class="ti-btn ti-btn-light ti-btn-sm"><i
-                                                            class="ri-chat-2-line"></i></a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            @endforeach
+                                @endforeach
                             @else
-                            <p>No news available.</p>
-                        @endif
+                                <p>No news available.</p>
+                            @endif
 
                         </div>
                     </div>
@@ -214,45 +229,49 @@
                     <div class="xl:col-span-12 col-span-12 news-box">
                         <div class="grid grid-cols-12 gap-x-6">
                             @if ($newsscroll3->isNotEmpty())
-                            @foreach ($newsscroll3 as $newsscrolllist3)
-                                <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-6 md:col-span-6 col-span-12">
-                                    <div class="box">
-                                        <a href="javascript:void(0);">
-                                            <img src="{{ asset('assets/images/dailynews/' . $newsscrolllist3->image) }}"
-                                                class="card-img-top rounded-t-sm" alt="...">
-                                        </a>
-                                        <div class="box-body">
-                                            <a href="{{ route('news.details', ['id' => $newsscrolllist3->slug]) }}"
-                                                class="font-semibold text-[0.875rem] text-dark mb-1">{{ $newsscrolllist3->title }}</a>
-                                            <p class="card-text text-[#8c9097] dark:text-white/50 mb-4"> {!! nl2br(e(Str::limit(strip_tags($newsscrolllist3->description), 150))) !!}</p>
-                                            <a href="{{ route('news.details', ['id' => $newsscrolllist3->slug]) }}"
-                                                class="ti-btn ti-btn-primary !font-medium !mb-0">Read More</a>
-                                        </div>
-                                        <div class="box-footer">
-                                            <div class="flex items-center justify-between">
-                                                <div class="flex items-center">
-                                                    <div class="avatar avatar-sm avatar-rounded me-2">
-                                                        <img src="assets/images/faces/7.jpg" alt="">
+                                @foreach ($newsscroll3 as $newsscrolllist3)
+                                    <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-6 md:col-span-6 col-span-12">
+                                        <div class="box">
+                                            <a href="javascript:void(0);">
+                                                <img src="{{ asset('assets/images/dailynews/' . $newsscrolllist3->image) }}"
+                                                    class="card-img-top rounded-t-sm" alt="...">
+                                            </a>
+                                            <div class="box-body">
+                                                <a href="{{ route('news.details', ['id' => $newsscrolllist3->slug]) }}"
+                                                    class="font-semibold text-[0.875rem] text-dark mb-1">{{ $newsscrolllist3->title }}</a>
+                                                <p class="card-text text-[#8c9097] dark:text-white/50 mb-4">
+                                                    {!! nl2br(e(Str::limit(strip_tags($newsscrolllist3->description), 150))) !!}</p>
+                                                <a href="{{ route('news.details', ['id' => $newsscrolllist3->slug]) }}"
+                                                    class="ti-btn ti-btn-primary !font-medium !mb-0">Read More</a>
+                                            </div>
+                                            <div class="box-footer">
+                                                <div class="flex items-center justify-between">
+                                                    <div class="flex items-center">
+                                                        <div class="avatar avatar-sm avatar-rounded me-2">
+                                                            <img src="assets/images/faces/7.jpg" alt="">
+                                                        </div>
+                                                        <div>
+                                                            <p class="mb-0 font-semibold">Post Date</p>
+                                                            <p
+                                                                class="text-[#8c9097] dark:text-white/50 text-[.625rem] mb-0">
+                                                                {{ $newsscrolllist3->created_at->format('F j, Y') }}</p>
+                                                        </div>
                                                     </div>
-                                                    <div>
-                                                        <p class="mb-0 font-semibold">Post Date</p>
-                                                        <p class="text-[#8c9097] dark:text-white/50 text-[.625rem] mb-0">
-                                                            {{ $newsscrolllist3->created_at->format('F j, Y') }}</p>
+                                                    <div class="btn-list">
+                                                        <button aria-label="button" type="button"
+                                                            class="like-btn ti-btn ti-btn-light ti-btn-sm !me-[0.375rem]"
+                                                            data-post-id="{{ $newsscrolllist3->id }}">
+                                                            <i class="ri-thumb-up-line"></i>
+                                                        </button>
+                                                        <a href="{{ route('news.details', ['id' => $newsscrolllist3->slug]) }}"
+                                                            aria-label="button" class="ti-btn ti-btn-light ti-btn-sm"><i
+                                                                class="ri-chat-2-line"></i></a>
                                                     </div>
-                                                </div>
-                                                <div class="btn-list">
-                                                    <button aria-label="button" type="button" class="like-btn ti-btn ti-btn-light ti-btn-sm !me-[0.375rem]" data-post-id="{{ $newsscrolllist3->id }}">
-                                                        <i class="ri-thumb-up-line"></i>
-                                                    </button>
-                                                    <a href="{{ route('news.details', ['id' => $newsscrolllist3->slug]) }}" aria-label="button" 
-                                                        class="ti-btn ti-btn-light ti-btn-sm"><i
-                                                            class="ri-chat-2-line"></i></a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div> 
-                            @endforeach
+                                @endforeach
                             @else
                                 <p>No news available.</p>
                             @endif
