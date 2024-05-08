@@ -168,6 +168,7 @@ public function savenews(Request $request){
 
                 public function editnews($id)
                 {
+                    dd($id);
                     if ($this->loggedInAdmin) {
                         $validator = Validator::make($request->all(), [
                             'news_title' => 'required',
