@@ -169,8 +169,8 @@ public function savenews(Request $request){
                 public function getNewsData()
                 {
                     if ($this->loggedInAdmin) {
-                    $news = News::all(); // Fetch all news items, adjust the query as per your requirement
-                    return view('User.fatchdata.news_table', compact('news')); // Assuming 'partials.news_table' is your table partial
+                    $news = News::paginate(10); 
+                    return view('User.fatchdata.news_table', compact('news')); 
                 } else {
                     return redirect('/setup'); 
                 }

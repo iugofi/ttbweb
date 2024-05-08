@@ -74,3 +74,4 @@
         @endforeach
     </tbody>
 </table>
+{{ $news->links() }}
