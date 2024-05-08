@@ -100,7 +100,7 @@
                                         <label class="form-label">News Discription</label>
                                         <textarea  id="editoronebest" name="news_description"
                                             class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500"
-                                            rows="6">{{ isset($editnews->news_description) ? $editnews->news_description : '' }}</textarea>
+                                            rows="6">{{ isset($editnews->description) ? $editnews->description : '' }}</textarea>
                                         <div class="invalid-feedback"></div>
                                     </div>
 
@@ -165,14 +165,7 @@
         </div>
     </div>
 
-    <script src="https://cdn.ckeditor.com/ckeditor5/34.1.0/classic/ckeditor.js"></script>
-    <script>
-        ClassicEditor
-            .create(document.querySelector('#content'))
-            .catch(error => {
-                console.error(error);
-            });
-    </script>
+ 
 
 
 
