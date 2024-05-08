@@ -104,7 +104,7 @@
     $(document).ready(function(){
         function loadNewsData() {
             $.ajax({
-                url: '{{ route('admin.getNewsData'}}', 
+                url: "{{ route('admin.getNewsData') }}", 
                 type: 'GET',
                 success: function(data) {
               
