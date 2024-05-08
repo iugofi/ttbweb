@@ -127,7 +127,7 @@
                                     <div class="xl:col-span-12 col-span-12 blog-images-container">
                                         <label for="blog-author-email" class="form-label">News Images</label>
                                         <div class="text-center">
-                                            <img src="{{asset('assets/images/dailynews/'.$editnews->image)}}" class="img-fluid !rounded-md !inline-flex" alt="...">
+                                            <img src="{{asset('assets/images/dailynews/'.$editnews->image)}}" class="img-fluid !rounded-md !inline-flex" alt="..." style="width:100px">
                                         </div>
                                         <input type="file" class="news_images" id="news_images" name="news_images"
                                             multiple data-allow-reorder="true" data-max-file-size="3MB"
