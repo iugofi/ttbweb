@@ -41581,7 +41581,7 @@ img.img-fluid.service-icon {
         padding: 0px !important;
     }
     .prevent-select {
-        padding: 0px !important;
+        margin-top: 0px !important;
     }
     /* start home page mobile banner css */
 
