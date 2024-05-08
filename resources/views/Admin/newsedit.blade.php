@@ -235,8 +235,10 @@
                 var token = $('meta[name="csrf-token"]').attr('content');
                 var formData = new FormData($(this)[0]);
                 var id_main = $('#id_main').val();
+                var editNewsRoute = '{{ route('edit.news', ':id') }}';
+                editNewsRoute = editNewsRoute.replace(':id', id_main);
                 $.ajax({
-                    url:  '{{ route('edit.news') }}?id=' + id_main,
+                    url:  editNewsRoute,
                     method: 'post',
                     data: formData,
                     headers: {
