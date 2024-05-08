@@ -100,11 +100,8 @@
         });
     </script>
 
-
-
 <script>
-    $(document).ready(function() {
-
+    $(document).ready(function(){
         function loadNewsData() {
             $.ajax({
                 url: "{{ route('admin.getNewsData') }}", 
@@ -120,6 +117,14 @@
             });
         }
 
+
+        loadNewsData();
+
+    });
+</script>
+
+<script>
+    $(document).ready(function() {
         var csrfToken = $('meta[name="csrf-token"]').attr('content');
         $('.delete-news').click(function() {
             var itemId = $(this).data('item-id');
@@ -136,14 +141,12 @@
                     console.log(response.message);
                     $("#show_success_alert").html(showMessage('success', response
                                 .message));
-                                loadNewsData();
                 },
                 error: function(xhr, status, error) {
                     console.error(error);
                 }
             });
         });
-        loadNewsData();
     });
     </script>
 
