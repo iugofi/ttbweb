@@ -237,8 +237,9 @@
                 $('#news_save_btn').val('please wait..');
                 var token = $('meta[name="csrf-token"]').attr('content');
                 var formData = new FormData($(this)[0]);
-               
-                console.log(formData);
+
+                var editorId = $('#editor').attr('id');
+             console.log(editorId);
                 $.ajax({
                     url: '{{ route('save.news') }}',
                     method: 'post',
