@@ -163,8 +163,6 @@
         </div>
     </div>
     <script src="https://cdn.ckeditor.com/ckeditor5/41.3.1/classic/ckeditor.js"></script>
-
-    <script src="https://cdn.ckeditor.com/ckeditor5/34.1.0/classic/ckeditor.js"></script>
     <script>
         ClassicEditor
             .create( document.querySelector( '#editor' ) )
@@ -239,8 +237,7 @@
                 $('#news_save_btn').val('please wait..');
                 var token = $('meta[name="csrf-token"]').attr('content');
                 var formData = new FormData($(this)[0]);
-                var editorContent = CKEDITOR.instances.editor.getData();
-                formData.append('news_description', editorContent);
+               
                 console.log(formData);
                 $.ajax({
                     url: '{{ route('save.news') }}',
