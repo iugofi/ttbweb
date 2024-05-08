@@ -41177,6 +41177,29 @@ img.img-fluid.service-icon {
     width: 100%;
     overflow: hidden;
 }
+@keyframes animOne {
+    to
+0% {
+    -webkit-transform: translate(0px, 0px) rotate(0deg);
+    transform: translate(0px, 0px) rotate(0deg);
+}
+20% {
+    -webkit-transform: translate(73px, -1px) rotate(35deg);
+    transform: translate(73px, -1px) rotate(35deg);
+}
+40% {
+    -webkit-transform: translate(141px, 72px) rotate(75deg);
+    transform: translate(141px, 72px) rotate(75deg);
+}
+80% {
+    -webkit-transform: translate(-40px, 72px) rotate(145deg);
+    transform: translate(-40px, 72px) rotate(145deg);
+}
+100% {
+    -webkit-transform: translate(0px, 0px) rotate(0deg);
+    transform: translate(0px, 0px) rotate(0deg);
+}
+}
 
 .sect-ban p {
     margin-top: 1em;
