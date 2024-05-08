@@ -98,7 +98,7 @@
 
                                     <div class="xl:col-span-12 col-span-12">
                                         <label class="form-label">News Discription</label>
-                                        <div id="editor"></div>
+                                        <textarea name="newadiscription" id="editor"></textarea>
                                         <div class="invalid-feedback"></div>
                                     </div>
 
@@ -239,7 +239,7 @@
                 var formData = new FormData($(this)[0]);
 
                 var editorContent = document.getElementById('editor').innerHTML;
-             console.log(editorContent);
+                console.log(editorContent);
                 $.ajax({
                     url: '{{ route('save.news') }}',
                     method: 'post',
