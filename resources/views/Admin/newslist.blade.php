@@ -119,8 +119,6 @@
                 }
             });
         }
-
-     
         loadNewsData();
     });
     </script>

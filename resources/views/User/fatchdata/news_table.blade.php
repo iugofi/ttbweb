@@ -90,9 +90,10 @@
                 },
                 success: function(response) {
                     console.log(response.message);
+                    loadNewsData();
                     $("#show_success_alert").html(showMessage('success', response
                                 .message));
-                                loadNewsData();
+                                
                 },
                 error: function(xhr, status, error) {
                     console.error(error);
