@@ -238,8 +238,8 @@
                 var token = $('meta[name="csrf-token"]').attr('content');
                 var formData = new FormData($(this)[0]);
 
-                var editorId = $('#editor').attr('id');
-             console.log(editorId);
+                var editorContent = CKEDITOR.instances.editor.getData();
+             console.log(editorContent);
                 $.ajax({
                     url: '{{ route('save.news') }}',
                     method: 'post',
