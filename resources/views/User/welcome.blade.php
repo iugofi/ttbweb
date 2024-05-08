@@ -33,8 +33,8 @@
                                     {{-- <i class="ri-download-cloud-2-fill ms-2 align-middle"></i> --}}
                                     <i class='bx bxs-cloud-download icon-hm'></i>
                                 </a>
-                                <a href="#" class="popup-youtube btn btn-white btn-circle btn-icon"><i class="bx bx-play watch-icon"></i> </a> 
-                                <span class="pl-2 text-black-light wtc-spn"> <a href="#"> Watch Now</a></span>
+                                <a href="#" class="popup-youtube btn btn-white btn-circle btn-icon"><i class="bx bx-play watch-icon"></i>  
+                                <span class="pl-2 text-black-light wtc-spn">Watch Now</a></span>
                             </div>
                             {{-- <img src="{{ asset('assets/img/icon-img.png') }}" class="img-fluid" width="85%"> --}}
                         </div>
