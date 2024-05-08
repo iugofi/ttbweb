@@ -67,6 +67,8 @@ public function newslistshow(){
 
 public function savenews(Request $request){
     if ($this->loggedInAdmin) {
+
+        dd($request->all());
    
         $validator = Validator::make($request->all(), [
             'news_title' => 'required',
