@@ -55,6 +55,7 @@
                                 <div class="grid grid-cols-12 gap-4">
                                     <div class="xl:col-span-12 col-span-12">
                                         <label for="blog-title" class="form-label">News Title</label>
+                                        <input type="text" name="id_main" value="{{ isset($editnews->id) ? $editnews->id : '' }}" hidden>
                                         <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
                                             id="news_title" name="news_title" value="{{ isset($editnews->title) ? $editnews->title : '' }}" placeholder="News Title">
                                         <div class="invalid-feedback"></div>
@@ -233,8 +234,9 @@
                 $('#news_edit_btn').val('please wait..');
                 var token = $('meta[name="csrf-token"]').attr('content');
                 var formData = new FormData($(this)[0]);
+                var id_main = $('#id_main').val();
                 $.ajax({
-                    url: '{{ route('edit.news') }}',
+                    url:  '{{ route('edit.news') }}?id=' + id_main,
                     method: 'post',
                     data: formData,
                     headers: {
