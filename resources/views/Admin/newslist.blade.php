@@ -199,6 +199,7 @@
                     console.log(response.message);
                     $("#show_success_alert").html(showMessage('success', response
                                 .message));
+                                location.reload();
                 },
                 error: function(xhr, status, error) {
                     console.error(error);
