@@ -155,7 +155,7 @@ Route::get('/newslistshow', [AdminController::class, 'newslistshow'])->name('adm
 Route::get('/newsedit/{id}', [AdminController::class, 'newsedit'])->name('edit.newsedit');
 Route::delete('/newsdelete/{id}', [AdminController::class, 'newsdelete'])->name('delete.newsdelete');
 Route::post('/savenews', [AdminController::class, 'savenews'])->name('save.news');
-Route::post('/editnews/{id}', [AdminController::class, 'editnews'])->name('edit.news');
+Route::post('/editnews', [AdminController::class, 'editnews'])->name('edit.news');
 Route::get('/facthnews', [AdminController::class, 'facthnews'])->name('fatch.news');
 
 
