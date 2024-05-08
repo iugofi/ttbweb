@@ -149,6 +149,19 @@ public function savenews(Request $request){
                 }
             }
 
+            public function newsdelete($id){
+                if ($this->loggedInAdmin) {
+
+                    $item = News::findOrFail($id);
+                    $item->delete();
+
+                    return response()->json(['message' => 'Item deleted successfully']);
+                
+                } else {
+                    return redirect('/setup');
+                }
+            }
+
 
 
 }
