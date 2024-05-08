@@ -166,15 +166,7 @@ public function savenews(Request $request){
                     }
                 }
 
-                public function getNewsData()
-                {
-                    if ($this->loggedInAdmin) {
-                    $news = News::orderBy('created_at', 'asc')->get();
-                    return view('User.fatchdata.news_table', compact('news')); 
-                } else {
-                    return redirect('/setup'); 
-                }
-                }
+                
 
 
 
