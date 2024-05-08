@@ -25,6 +25,15 @@
 <!-- SCRIPTS -->
 
 
+<script>
+    ClassicEditor
+        .create( document.querySelector( '#editor' ) )
+        .catch( error => {
+            console.error( error );
+        } );
+</script>
+
+
 <!-- SCROLL-TO-TOP -->
 <div class="scrollToTop">
 <span class="arrow"><i class="ri-arrow-up-s-fill text-xl"></i></span>
@@ -96,7 +105,7 @@
 <script src="{{asset('assets/libs/filepond-plugin-image-crop/filepond-plugin-image-crop.min.js')}}"></script>
 <script src="{{asset('assets/libs/filepond-plugin-image-resize/filepond-plugin-image-resize.min.js')}}"></script>
 <script src="{{asset('assets/libs/filepond-plugin-image-transform/filepond-plugin-image-transform.min.js')}}"></script>
-
+<script src="https://cdn.ckeditor.com/ckeditor5/41.3.1/classic/ckeditor.js"></script>
 <!-- END SCRIPTS -->
 
 </body>
