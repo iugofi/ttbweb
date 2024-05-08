@@ -40973,6 +40973,9 @@ img.img-fluid.service-icon {
     padding: 11px 12px;
     border-radius: 31px;
 }
+.section-two-iconbox p {
+    font-size:16px;
+}
 .section-two-iconbox .con-box{
     padding: 30px 19px;
     border: 1px solid #12d2b345;
