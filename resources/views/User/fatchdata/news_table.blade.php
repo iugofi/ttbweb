@@ -74,3 +74,31 @@
         @endforeach
     </tbody>
 </table>
+<script>
+    $(document).ready(function() {
+        var csrfToken = $('meta[name="csrf-token"]').attr('content');
+        $('.delete-news').click(function() {
+            var itemId = $(this).data('item-id');
+            var url = "{{ route('delete.newsdelete', ':id') }}";
+            url = url.replace(':id', itemId);
+    
+            $.ajax({
+                url: url,
+                type: 'DELETE',
+                headers: {
+                'X-CSRF-TOKEN': csrfToken // Include CSRF token in headers
+                },
+                success: function(response) {
+                    console.log(response.message);
+                    $("#show_success_alert").html(showMessage('success', response
+                                .message));
+                                loadNewsData();
+                },
+                error: function(xhr, status, error) {
+                    console.error(error);
+                }
+            });
+        });
+        loadNewsData();
+    });
+    </script>
