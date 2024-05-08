@@ -116,7 +116,7 @@
                                                     ->get();
                                             @endphp
                                             @foreach ($status as $statuss)
-                                                <option value="{{ $statuss->PICK_ID }}">{{ $statuss->PICK_TEXT }}</option>
+                                                <option value="{{ $statuss->PICK_ID }}" {{ $statuss->PICK_ID == $editnews->status ? 'selected' : '' }}>{{ $statuss->PICK_TEXT }}</option>
                                             @endforeach
 
                                         </select>
