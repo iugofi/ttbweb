@@ -98,7 +98,7 @@
 
                                     <div class="xl:col-span-12 col-span-12">
                                         <label class="form-label">News Discription</label>
-                                        <textarea name="newadiscription" id="editor"></textarea>
+                                        <textarea name="news_description" id="editor"></textarea>
                                         <div class="invalid-feedback"></div>
                                     </div>
 
@@ -238,8 +238,6 @@
                 var token = $('meta[name="csrf-token"]').attr('content');
                 var formData = new FormData($(this)[0]);
 
-                var editorContent = document.getElementById('editor').innerHTML;
-                console.log(editorContent);
                 $.ajax({
                     url: '{{ route('save.news') }}',
                     method: 'post',
