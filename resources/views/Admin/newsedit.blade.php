@@ -133,6 +133,7 @@
                                         <input type="file" class="news_images" id="news_images" name="news_images"
                                             multiple data-allow-reorder="true" data-max-file-size="3MB"
                                             data-max-files="6">
+                                            <input type="text" name="image_new" value="{{ $editnews->image }}" hidden>
                                         <div class="invalid-feedback"></div>
                                     </div>
 

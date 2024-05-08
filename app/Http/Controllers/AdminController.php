@@ -166,9 +166,11 @@ public function savenews(Request $request){
                     }
                 }
 
-                public function editnews($id)
+                public function editnews(Request $request)
                 {
-                    dd($id);
+
+                    $id=$request->main_id;
+                    
                     if ($this->loggedInAdmin) {
                         $validator = Validator::make($request->all(), [
                             'news_title' => 'required',
@@ -182,8 +184,7 @@ public function savenews(Request $request){
                             'news_images' => 'required'
                         ]);
                         
-                
-                        
+  
                 
                         if ($validator->fails()) {
                             return response()->json([
@@ -193,32 +194,41 @@ public function savenews(Request $request){
                         }
                         else
                         {
-                
-                            if ($request->hasFile('news_images')) {
-                                $image = $request->file('news_images');
-                                $imageName = time().'.'.$image->getClientOriginalExtension(); 
-                                $image->move('assets/images/dailynews', $imageName);
-                               
-                
-                                $news = new News();
-                                $news->title = $request->news_title;
-                                $news->slug = $request->news_slug;
-                                $news->meta_title = $request->meta_title;
-                                $news->canonical_url = $request->canonical_url;
-                                $news->meta_keyword =$request->meta_keyword;
-                                $news->meta_desc =$request->meta_desc;
-                                $news->meta_keyword =$request->meta_keyword;
-                                $news->description =$request->news_description;
-                                $news->status =$request->news_status;
-                                $news->image=$imageName;
-                                $news->save();
-                                
+
+
+                                if ($request->hasFile('news_images')) {
+                                    $image = $request->file('news_images');
+                                    $imageName = time().'.'.$image->getClientOriginalExtension(); 
+                                    $image->move('assets/images/dailynews', $imageName);
                                 } else {
+                                 
+                                    $imageName = $request->image_new;
+                                }
+
+                                $news = News::where('id', $id)->first();
+
+                                if (!$news) {
                                     return response()->json([
-                                        'status' => 400,
-                                        'messages' => 'No image uploaded'
+                                        'status' => 404,
+                                        'messages' => 'News not found'
                                     ]);
                                 }
+                               
+                                $news->update([
+                                    'title' => $request->news_title,
+                                    'slug' => $request->news_slug,
+                                    'meta_title' => $request->meta_title,
+                                    'canonical_url' => $request->canonical_url,
+                                    'meta_keyword' => $request->meta_keyword,
+                                    'meta_desc' => $request->meta_desc,
+                                    'description' => $request->news_description,
+                                    'status' => $request->news_status,
+                                    'image' => $imageName
+                                ]);
+                
+                               
+                                
+                                
                 
                                 return response()->json([
                                     'status' => 200,
