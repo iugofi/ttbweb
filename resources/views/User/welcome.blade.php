@@ -34,7 +34,7 @@
                                     <i class='bx bxs-cloud-download icon-hm'></i>
                                 </a>
                                 <a href="#" class="popup-youtube btn btn-white btn-circle btn-icon"><i class="bx bx-play watch-icon"></i> </a> 
-                                <span class="pl-2 text-black-light wtc-spn"> Watch Now</span>
+                                <span class="pl-2 text-black-light wtc-spn"> <a href="#"> Watch Now</a></span>
                             </div>
                             {{-- <img src="{{ asset('assets/img/icon-img.png') }}" class="img-fluid" width="85%"> --}}
                         </div>
@@ -138,7 +138,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 col-span-12">
+                    <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 col-span-12" style="z-index: 0;">
 
                         <div class="text-end landing-main-image landing-heading-img flex justify-end w-full">
                             <img src="{{ asset('assets/img/section-two-ttb.gif') }}" alt="" class="img-fluid" width="75%">
