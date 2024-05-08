@@ -153,6 +153,9 @@ public function savenews(Request $request){
                 if ($this->loggedInAdmin) {
 
                     $item = News::findOrFail($id);
+                    if (!empty($item->image) && File::exists(public_path($item->image))) {
+                        File::delete(public_path($item->image));
+                    }
                     $item->delete();
 
                     return response()->json(['message' => 'Item deleted successfully']);
