@@ -63,14 +63,14 @@
 
 
                         <div class="box-body">
-                            <div class="grid lg:grid-cols-6 md:grid-cols-6 sm:grid-cols-1 ">
+                
                                 <select id="STORE_ID" class="form-control">
                                     <option value=" ">-Select Store Id-</option>
                                     @foreach ($data as $storeId)
                                         <option value="{{ $storeId }}">{{ $storeId }}</option>
                                     @endforeach
                                 </select>
-                            </div>
+                       
                             <div class="box text-center">
                                 <div class="" id="show_success_alert"></div>
                             </div>
