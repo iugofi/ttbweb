@@ -63,8 +63,8 @@
 
 
                         <div class="box-body">
-                            <div class="grid grid-cols-12 gap-4">
-                                <div class="xl:col-span-12 col-span-12">
+                            <div class="grid grid-cols-3 gap-4">
+                                <div class="xl:col-span-1 col-span-1">
                                 <select id="STORE_ID" class="form-control">
                                     <option value=" ">-Select Store Id-</option>
                                     @foreach ($data as $storeId)
