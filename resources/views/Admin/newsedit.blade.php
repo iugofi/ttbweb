@@ -55,7 +55,7 @@
                                 <div class="grid grid-cols-12 gap-4">
                                     <div class="xl:col-span-12 col-span-12">
                                         <label for="blog-title" class="form-label">News Title</label>
-                                        <input type="text" name="id_main" value="{{ isset($editnews->id) ? $editnews->id : '' }}" hidden>
+                                        <input type="text" name="main_id" value="{{ isset($editnews->id) ? $editnews->id : '' }}" hidden>
                                         <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
                                             id="news_title" name="news_title" value="{{ isset($editnews->title) ? $editnews->title : '' }}" placeholder="News Title">
                                         <div class="invalid-feedback"></div>
