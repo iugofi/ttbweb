@@ -68,6 +68,19 @@
 
 
 
+<section class="vpn-section-two">
+    <div class="container main-banner-container">
+        <div class="grid grid-cols-12 gap-6">
+            <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
+                <h3>Supported By World's Renowned Venture Capital's</h3>
+            </div>
+            <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
+                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 
 
