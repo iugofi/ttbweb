@@ -36,7 +36,7 @@
                 <li class="slide__category"><span class="category-name">News</span></li>               
                 <li class="slide">
                     <a href="{{route('admin.newslist')}}" class="side-menu__item">
-                        <i class="bx bx-file  side-menu__icon"></i>
+                        <i class="bi bi-newspaper  side-menu__icon"></i>
                         <span class="side-menu__label">News List</span>
                     </a>
                 </li>
