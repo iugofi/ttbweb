@@ -7,9 +7,8 @@
 
 <div class="content">
     <div class="main-content">
-
+<div class="landing-banner" id="home">
 <section class="vpn-banner-top">
-
     <div class="container main-banner-container">
         <div class="grid grid-cols-12 gap-6">
             <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
@@ -38,6 +37,7 @@
         </div>
     </div>
 </section>
+</div>
 
 <section class="section-two-iconbox pt-8">
     <div class="container main-banner-container">
