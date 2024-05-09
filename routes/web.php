@@ -169,6 +169,10 @@ Route::post('/saveblog', [AdminController::class, 'saveblog'])->name('save.blog'
 Route::get('/blogedit/{id}', [AdminController::class, 'blogedit'])->name('edit.blogedit');
 Route::post('/editblog', [AdminController::class, 'editblog'])->name('edit.blog');
 
+//storepick
+Route::get('/storepickpage', [AdminController::class, 'storepickpage'])->name('admin.storepickpage');
+
+
 
 
 
