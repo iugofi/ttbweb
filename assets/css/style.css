@@ -41525,10 +41525,12 @@ h6.uppercase {
 /* End:: commericial page css */
 
 @media (min-width: 320px) and (max-width: 767px) {
+    div#home {
+        height: 36rem;
+    }
     .dark .dark-shap-two img {
         display: none;
     }
-
     div#internet-security .landing-main-image {
         display: block;
     }
