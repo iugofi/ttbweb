@@ -40972,6 +40972,15 @@ img.img-fluid.service-icon {
 /* end kunal */
 
 /* neeraj-home-page-css-22-04-2024 */
+
+.vpn-section-three span {
+    text-align: center;
+    font-size: 3.2em;
+    padding: 33px 20px;
+    border: 4px solid;
+    border-radius: 50%;
+}
+
 .vpn-section-three {
     padding: 108px 0px;
 }

@@ -140,12 +140,12 @@
                 <div class="grid grid-cols-12 gap-6 mt-9">
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
                         <span>87%</span>
-                        <h4 class="mt-2">VPN For All Devices</h4>
+                        <h4 class="mt-10">VPN For All Devices</h4>
                         <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
                         <span>95%</span>
-                        <h4 class="mt-2">VPN For All Devices</h4>
+                        <h4 class="mt-10">VPN For All Devices</h4>
                         <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                 </div>
