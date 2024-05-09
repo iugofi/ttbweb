@@ -134,19 +134,19 @@
             <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
                 <h2>What We Offer For You</h2>
                 <h3>Your Roadmap To Freedom Information On The Internet</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud xercitation ullamco.</p>
 
                 <div class="grid grid-cols-12 gap-6 mt-9">
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
                         <span>87%</span>
                         <h4 class="mt-2">VPN For All Devices</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
                         <span>95%</span>
                         <h4 class="mt-2">VPN For All Devices</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                 </div>
                 <a href="index.html" class="m-1 ti-btn ti-btn-primary-full mt-9">
