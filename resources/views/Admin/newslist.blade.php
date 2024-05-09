@@ -2,6 +2,9 @@
 
 @section('title', 'TTB News List')
 @section('Description', '')
+@section('keywords', '')
+@section('canonical', 'vbhdvbh')
+@section('content')
 
 
 

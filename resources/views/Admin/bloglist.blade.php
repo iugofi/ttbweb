@@ -2,6 +2,9 @@
 
 @section('title', 'TTB Blog List')
 @section('Description', '')
+@section('keywords', '')
+@section('canonical', 'vbhdvbh')
+@section('content')
 
 
 
@@ -149,12 +152,6 @@
                     </div>
                 </div>
             </div>
-
-
-
-
-
-
         </div>
     </div>
 
