@@ -276,6 +276,14 @@ public function savenews(Request $request){
                     }
                 }
 
+                public function blogscreate(){
+                    if ($this->loggedInAdmin) {
+                    return view('Admin.blogscreate');
+                    } else {
+                        return redirect('/setup');
+                    }
+                }
+
 
 
 }
