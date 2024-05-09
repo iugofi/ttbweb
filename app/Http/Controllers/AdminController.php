@@ -251,8 +251,8 @@ public function savenews(Request $request){
                 {
                     if($this->loggedInAdmin)
                     {
-
-                        return view('Admin.bloglist');
+                        $blog = Blog::orderBy('id', 'desc')->get();
+                        return view('Admin.bloglist',['blog',$blog]);
                     }
                     else{
                         return redirect('/setup');
