@@ -253,7 +253,7 @@ public function savenews(Request $request){
                     if($this->loggedInAdmin)
                     {
                         $blog = Blog::orderBy('id', 'desc')->get();
-                        return view('Admin.bloglist',['blog',$blog]);
+                        return view('Admin.bloglist',['blog'=>$blog]);
                     }
                     else{
                         return redirect('/setup');
