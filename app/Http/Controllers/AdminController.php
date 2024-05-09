@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 use App\Models\Admin; 
 use App\Models\News; 
+use App\Models\Blog; 
 use Illuminate\Support\Facades\File;
 
 
