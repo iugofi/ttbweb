@@ -59,7 +59,21 @@
                                 Storepick List
                             </div>
                         </div>
+                        <div class="row">
+                            <div class="col-sm-2">	
+        
+                                <select id="STORE_ID" class="form-control" >
+                                    <option value="">-Select Store Id-</option>
+                                    <?php foreach ($data as $key => $value): ?>
+                                        <option value="<?php echo $value->STORE_ID; ?>"><?php echo $value->STORE_ID; ?></option>
+                                    <?php endforeach; ?>
+                                </select>
+
+                            </div>  
+                        </div>
+                        
                         <div class="box-body">
+
                             <div class="box text-center">
                                 <div class="" id="show_success_alert"></div>
                             </div>

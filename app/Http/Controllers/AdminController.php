@@ -454,8 +454,9 @@ public function savenews(Request $request){
                     if ($this->loggedInAdmin) {
 
                         $storepick = Storepick::orderBy('id', 'desc')->get();
+                        $data=Storepick::orderBy('STORE_ID','ASC')->get();
 
-                        return view('Admin.storepicklist',['storepick'=>$storepick]);
+                        return view('Admin.storepicklist',['storepick'=>$storepick],['data'=>$data]);
 
                     }else
                     {
