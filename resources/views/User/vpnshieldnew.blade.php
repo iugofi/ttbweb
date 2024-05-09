@@ -92,7 +92,7 @@
                         tempor incididunt ut
                         labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                     <p class="text-[0.75rem] font-semibold mb-3 text-[#8C9097] dark:text-white/50">Fast VPN<span
-                            class="ltr:float-right rtl:float-left text-[0.625rem] font-normal">95%</span>
+                            class="ltr:float-right rtl:float-left text-[0.625rem] font-normal ">95%</span>
                     </p>
                     <div class="progress progress-xs mb-4 progress-animate">
                         <div class="progress-bar bg-primary w-96">
