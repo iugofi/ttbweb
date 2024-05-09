@@ -51,7 +51,8 @@ h5,
 h6 {
     font-size: inherit;
     font-weight: inherit;
-    font-family: "Montserrat", sans-serif;
+    /* font-family: "Montserrat", sans-serif; */
+    font-family: "DM Sans", sans-serif;
 }
 a {
     color: inherit;
