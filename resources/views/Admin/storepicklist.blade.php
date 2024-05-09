@@ -66,7 +66,7 @@
                                 <select id="STORE_ID" class="form-control" >
                                     <option value="">-Select Store Id-</option>
                                     @foreach ($data as $value)
-                                    <option value="<?php echo $value->STORE_ID; ?>"><?php echo $value->STORE_ID; ?></option> 
+                                    <option value="{{$value->STORE_ID}}">{{$value->STORE_ID}}</option> 
                                     @endforeach                               
                                 </select>
                             </div>  
