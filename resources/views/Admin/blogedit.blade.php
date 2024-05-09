@@ -192,7 +192,7 @@
                                 var truncatedTitle = post.title.split(' ').slice(0, 2).join(
                                 ' ');
 
-                                var imageUrl = "{{asset('assets/images/dailyblog/')}}"+ '/' + post.image;
+                                var imageUrl = "{{asset('assets/images/dailyblogs/')}}"+ '/' + post.image;
 
                                 recentPostHtml += '<li class="list-group-item">';
                                 recentPostHtml +=
