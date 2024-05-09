@@ -55,7 +55,7 @@
                     </a>
                 </li>
                     <li class="slide">
-                        <a href="" class="side-menu__item">
+                        <a href="{{route('admin.blogscreate')}}" class="side-menu__item">
                             <i class="bx bx-file  side-menu__icon"></i>
                             <span class="side-menu__label">Blog Create</span>
                         </a>
