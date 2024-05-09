@@ -15,9 +15,10 @@
         div#example_length {
             display: none;
         }
+
         body {
             background-color: rgb(var(--body-bg));
-            }
+        }
     </style>
 
     <div class="content">
@@ -59,20 +60,21 @@
                                 Storepick List
                             </div>
                         </div>
-                       
-                        
+
+
                         <div class="box-body">
-                            <div class="grid grid-cols-6 gap-4">	
+                            <div class="grid grid-cols-6 gap-4">
                                 <select id="STORE_ID" class="form-control">
                                     <option value=" ">-Select Store Id-</option>
                                     @foreach ($data as $storeId)
-                                        <option value="{{ $storeId }}">{{ $storeId }}</option> 
+                                        <option value="{{ $storeId }}">{{ $storeId }}</option>
                                     @endforeach
                                 </select>
-                            </div>  
+                            </div>
                             <div class="box text-center">
                                 <div class="" id="show_success_alert"></div>
                             </div>
+                            <div class="table-responsive">
                             <table id="example" class="table-auto w-full">
                                 <thead>
                                     <tr>
@@ -93,31 +95,32 @@
                                                 $id = 1;
                                             @endphp
                                             <td class="border px-4 py-2">{{ $key + 1 }}</td>
-                                            <td class="border px-4 py-2">{{$item->STORE_ID}}</td>
-                                            <td class="border px-4 py-2">{{$item->STORE_TYPE}}</td>
-                                            <td class="border px-4 py-2">{{$item->PICK_TEXT}}</td>
-                                            <td class="border px-4 py-2">{{$item->PICK_ID}}</td>
-                                            <td class="border">{{$item->STORE_INDEX_SEQUENCE}}</td>
-                                            <td class="border">{{$item->PICK_TEXT_EXTEND}}</td>
+                                            <td class="border px-4 py-2">{{ $item->STORE_ID }}</td>
+                                            <td class="border px-4 py-2">{{ $item->STORE_TYPE }}</td>
+                                            <td class="border px-4 py-2">{{ $item->PICK_TEXT }}</td>
+                                            <td class="border px-4 py-2">{{ $item->PICK_ID }}</td>
+                                            <td class="border">{{ $item->STORE_INDEX_SEQUENCE }}</td>
+                                            <td class="border">{{ $item->PICK_TEXT_EXTEND }}</td>
                                             <td class="border px-4 py-2">
-                                                <div
-                                                    class="flex flex-row items-center !gap-2 text-[0.9375rem]">
-                                                    <a aria-label="anchor" href="{{ route('edit.newsedit', $item->id) }}" class="ti-btn ti-btn-icon ti-btn-wave !gap-0 !m-0 !h-[1.75rem] !w-[1.75rem] text-[0.8rem] bg-primary/10 text-primary hover:bg-primary hover:text-white hover:border-primary">
+                                                <div class="flex flex-row items-center !gap-2 text-[0.9375rem]">
+                                                    <a aria-label="anchor" href="{{ route('edit.newsedit', $item->id) }}"
+                                                        class="ti-btn ti-btn-icon ti-btn-wave !gap-0 !m-0 !h-[1.75rem] !w-[1.75rem] text-[0.8rem] bg-primary/10 text-primary hover:bg-primary hover:text-white hover:border-primary">
                                                         <i class="ri-edit-line"></i>
                                                     </a>
                                                     <button aria-label="button" type="button"
-                                                    class="ti-btn !py-1 !px-2 !text-[0.75rem] ti-btn-danger-full btn-wave delete-storepick"
-                                                    data-item-id="{{ $item->id }}">
-                                                    <i class="ri-delete-bin-line align-middle me-2 inline-block"></i>Delete
-                                                   </button>
-                                            
+                                                        class="ti-btn !py-1 !px-2 !text-[0.75rem] ti-btn-danger-full btn-wave delete-storepick"
+                                                        data-item-id="{{ $item->id }}">
+                                                        <i
+                                                            class="ri-delete-bin-line align-middle me-2 inline-block"></i>Delete
+                                                    </button>
+
                                                 </div>
                                             </td>
                                         </tr>
                                     @endforeach
                                 </tbody>
                             </table>
-
+                        </div>
                         </div>
                     </div>
                 </div>
@@ -147,85 +150,95 @@
     <script>
         $(document).ready(function() {
             $('#example').DataTable({
-               
+
             });
         });
     </script>
 
-<script>
-    $(document).ready(function() {
-        var csrfToken = $('meta[name="csrf-token"]').attr('content');
-        $('.delete-storepick').click(function() {
-            var itemId = $(this).data('item-id');
-            var url = "{{ route('delete.newsdelete', ':id') }}";
-            url = url.replace(':id', itemId);
-    
-            // Show confirmation dialog before deleting
-            if (confirm("Are you sure you want to delete this item?")) {
-                $.ajax({
-                    url: url,
-                    type: 'DELETE',
-                    headers: {
-                        'X-CSRF-TOKEN': csrfToken // Include CSRF token in headers
-                    },
-                    success: function(response) {
-                        console.log(response.message);
-                        location.reload();
-                    },
-                    error: function(xhr, status, error) {
-                        console.error(error);
-                    }
-                });
-            }
+    <script>
+        $(document).ready(function() {
+            var csrfToken = $('meta[name="csrf-token"]').attr('content');
+            $('.delete-storepick').click(function() {
+                var itemId = $(this).data('item-id');
+                var url = "{{ route('delete.newsdelete', ':id') }}";
+                url = url.replace(':id', itemId);
+
+                // Show confirmation dialog before deleting
+                if (confirm("Are you sure you want to delete this item?")) {
+                    $.ajax({
+                        url: url,
+                        type: 'DELETE',
+                        headers: {
+                            'X-CSRF-TOKEN': csrfToken // Include CSRF token in headers
+                        },
+                        success: function(response) {
+                            console.log(response.message);
+                            location.reload();
+                        },
+                        error: function(xhr, status, error) {
+                            console.error(error);
+                        }
+                    });
+                }
+            });
         });
-    });
-</script>
+    </script>
 
 
-<script>
-    $(document).ready(function() {
-        $('#STORE_ID').on('change', function() {
-            var storeId = $(this).val();
-            console.log(storeId);
-            if(storeId) {
-                $.ajax({
-                    url: '{{ route("fetch.storepick") }}',
-                    type: 'GET',
-                    data: {storeId: storeId},
-                    dataType: 'json',
-                    success: function(response) {
-                        var tbody = $('#example tbody');
-                        tbody.empty();
-                        $.each(response.storepick, function(key, item) {
-                            var row = '<tr>' +
-                                      '<td class="border px-4 py-2">' + (key + 1) + '</td>' +
-                                      '<td class="border px-4 py-2">' + item.STORE_ID + '</td>' +
-                                      '<td class="border px-4 py-2">' + item.STORE_TYPE + '</td>' +
-                                      '<td class="border px-4 py-2">' + item.PICK_TEXT + '</td>' +
-                                      '<td class="border px-4 py-2">' + item.PICK_ID + '</td>' +
-                                      '<td class="border">' + item.STORE_INDEX_SEQUENCE + '</td>' +
-                                      '<td class="border">' + item.PICK_TEXT_EXTEND + '</td>' +
-                                      '<td class="border px-4 py-2">' +
-                                      '<div class="flex flex-row items-center !gap-2 text-[0.9375rem]">' +
-                                      '<a aria-label="anchor" href="{{ route("edit.newsedit", ["id" => ' + item.id + ']) }}" class="ti-btn ti-btn-icon ti-btn-wave !gap-0 !m-0 !h-[1.75rem] !w-[1.75rem] text-[0.8rem] bg-primary/10 text-primary hover:bg-primary hover:text-white hover:border-primary">' +
-                                      '<i class="ri-edit-line"></i>' +
-                                      '</a>' +
-                                      '<button aria-label="button" type="button" class="ti-btn !py-1 !px-2 !text-[0.75rem] ti-btn-danger-full btn-wave delete-storepick" data-item-id="' + item.id + '">' +
-                                      '<i class="ri-delete-bin-line align-middle me-2 inline-block"></i>Delete' +
-                                      '</button>' +
-                                      '</div>' +
-                                      '</td>' +
-                                      '</tr>';
-                            tbody.append(row);
-                        });
-                    }
-                });
-            } else {
-                $('#example tbody').empty();
-            }
+    <script>
+        $(document).ready(function() {
+            $('#STORE_ID').on('change', function() {
+                var storeId = $(this).val();
+                console.log(storeId);
+                if (storeId) {
+                    $.ajax({
+                        url: '{{ route('fetch.storepick') }}',
+                        type: 'GET',
+                        data: {
+                            storeId: storeId
+                        },
+                        dataType: 'json',
+                        success: function(response) {
+                            var tbody = $('#example tbody');
+                            tbody.empty();
+                            $.each(response.storepick, function(key, item) {
+                                var row = '<tr>' +
+                                    '<td class="border px-4 py-2">' + (key + 1) +
+                                    '</td>' +
+                                    '<td class="border px-4 py-2">' + item.STORE_ID +
+                                    '</td>' +
+                                    '<td class="border px-4 py-2">' + item.STORE_TYPE +
+                                    '</td>' +
+                                    '<td class="border px-4 py-2">' + item.PICK_TEXT +
+                                    '</td>' +
+                                    '<td class="border px-4 py-2">' + item.PICK_ID +
+                                    '</td>' +
+                                    '<td class="border">' + item.STORE_INDEX_SEQUENCE +
+                                    '</td>' +
+                                    '<td class="border">' + item.PICK_TEXT_EXTEND +
+                                    '</td>' +
+                                    '<td class="border px-4 py-2">' +
+                                    '<div class="flex flex-row items-center !gap-2 text-[0.9375rem]">' +
+                                    '<a aria-label="anchor" href="{{ route('edit.newsedit', ['id' => ' + item.id + ']) }}" class="ti-btn ti-btn-icon ti-btn-wave !gap-0 !m-0 !h-[1.75rem] !w-[1.75rem] text-[0.8rem] bg-primary/10 text-primary hover:bg-primary hover:text-white hover:border-primary">' +
+                                    '<i class="ri-edit-line"></i>' +
+                                    '</a>' +
+                                    '<button aria-label="button" type="button" class="ti-btn !py-1 !px-2 !text-[0.75rem] ti-btn-danger-full btn-wave delete-storepick" data-item-id="' +
+                                    item.id + '">' +
+                                    '<i class="ri-delete-bin-line align-middle me-2 inline-block"></i>Delete' +
+                                    '</button>' +
+                                    '</div>' +
+                                    '</td>' +
+                                    '</tr>';
+                                tbody.append(row);
+                            });
+                        }
+                    });
+                } else {
+                    $('#example tbody').empty();
+                }
+            });
         });
-    });
-</script>
+    </script>
 
 
 
