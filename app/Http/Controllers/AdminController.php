@@ -284,6 +284,78 @@ public function savenews(Request $request){
                     }
                 }
 
+                public function facthblog()
+            {
+                $posts = Blog::orderBy('created_at', 'asc')->where('status',101)->limit(8)->get();
+                return response()->json($posts);
+            }
+
+            public function saveblog(Request $request){
+                if ($this->loggedInAdmin) {
+            
+                    $validator = Validator::make($request->all(), [
+                        'blog_title' => 'required',
+                        'blog_slug' => 'required',
+                        'meta_title' => 'required',
+                        'canonical_url' => 'required',
+                        'meta_keyword' => 'required',
+                        'meta_desc' => 'required',
+                        'blog_description' => 'required',
+                        'blog_status' => 'required',
+                        'blog_images' => 'required'
+                    ]);
+                    
+            
+                    
+            
+                    if ($validator->fails()) {
+                        return response()->json([
+                            'status' => 400,
+                            'messages' => $validator->getMessageBag()->toArray()
+                        ]);
+                    }
+                    else
+                    {
+            
+                        if ($request->hasFile('blog_images')) {
+                            $image = $request->file('blog_images');
+                            $imageName = time().'.'.$image->getClientOriginalExtension(); 
+                            $image->move('assets/images/dailyblogs', $imageName);
+                           
+            
+                            $news = new Blog();
+                            $news->title = $request->blog_title;
+                            $news->slug = $request->blog_slug;
+                            $news->meta_title = $request->meta_title;
+                            $news->canonical_url = $request->canonical_url;
+                            $news->meta_keyword =$request->meta_keyword;
+                            $news->meta_desc =$request->meta_desc;
+                            $news->meta_keyword =$request->meta_keyword;
+                            $news->description =$request->blog_description;
+                            $news->status =$request->blog_status;
+                            $news->image=$imageName;
+                            $news->save();
+                            
+                            } else {
+                                return response()->json([
+                                    'status' => 400,
+                                    'messages' => 'No image uploaded'
+                                ]);
+                            }
+            
+                            return response()->json([
+                                'status' => 200,
+                                'messages' => 'Blog Post successfully'
+                            ]);
+            
+                            }
+                            
+            
+                        } else {
+                            return redirect('/setup');
+                        }
+                        }
+
 
 
 }
