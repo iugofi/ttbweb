@@ -86,7 +86,7 @@
                 <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
 
                 </div>
-                <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
+                <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12 prog-section">
                     <h3>World's Best VPN Services That Provide Own DNS System</h3>
                     <p class="mt-3 mb-6">I Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                         tempor incididunt ut
