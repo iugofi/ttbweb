@@ -5,8 +5,9 @@
 @section('keywords', '')
 @section('canonical', '')
 
-<section class="vpn-banner-top">
+<div class="main-content !p-0 landing-main dark:text-defaulttextcolor/70">
 
+<section class="vpn-banner-top">
     <div class="container main-banner-container">
         <div class="grid grid-cols-12 gap-6">
             <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
@@ -35,6 +36,7 @@
         </div>
     </div>
 </section>
+
 
 <section class="section-two-iconbox pt-8">
     <div class="container main-banner-container">
@@ -84,7 +86,8 @@
         <div class="vpn-innersection-two">
             <div class="grid grid-cols-12 gap-6">
                 <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
-
+                    <img src="{{ asset('assets/img/vpn shiel image.png') }}" alt="" class="img-fluid"
+                        width="100%">
                 </div>
                 <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12 prog-section">
                     <h3>World's Best VPN Services That Provide Own DNS System</h3>
@@ -133,7 +136,8 @@
 
 
 
-
+{{-- </div> --}}
+</div>
 
 
 
