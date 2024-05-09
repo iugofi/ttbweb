@@ -220,10 +220,12 @@
                                             <div class="flex-grow ms-4">
                                                 <div class="flex items-center justify-between flex-wrap">
                                                     <div>
-                                                        <p
-                                                            class="text-[#8c9097] dark:text-white/50 text-[0.813rem] mb-0">
-                                                            Total Customers</p>
-                                                        <h4 class="font-semibold  text-[1.5rem] !mb-2 ">1,02,890
+                                                        <p class="text-[#8c9097] dark:text-white/50 text-[0.813rem] mb-0">
+                                                            Total News</p>
+                                                        <h4 class="font-semibold  text-[1.5rem] !mb-2 "><?php
+                                                            $totalNews = DB::select("SELECT COUNT(*) AS total FROM News");
+                                                            echo $totalNews[0]->total; 
+                                                        ?>
                                                         </h4>
                                                     </div>
                                                     <div id="crm-total-customers"></div>
