@@ -1,6 +1,6 @@
 @extends('Admin.Layouts.layout')
 
-@section('title', 'TTB blog Create')
+@section('title', 'TTB blog Edit')
 @section('Description', '')
 @section('keywords', '')
 @section('canonical', 'vbhdvbh')
@@ -46,7 +46,7 @@
                         <div class="box-header">
                             <div class="box-title">Blog Create</div>
                         </div>
-                        <form method="post" id="blog_form" enctype="multipart/form-data">
+                        <form method="post" id="edit_blog_form" enctype="multipart/form-data">
                             @csrf
                             <div class="box-body">
                                 <div class="box text-center">
@@ -54,40 +54,41 @@
                                 </div>
                                 <div class="grid grid-cols-12 gap-4">
                                     <div class="xl:col-span-12 col-span-12">
-                                        <label for="blog-title" class="form-label">Blog Title</label>
+                                        <label for="blog-title" class="form-label">blog Title</label>
+                                        <input type="text" name="main_id" value="{{ isset($editblog->id) ? $editblog->id : '' }}" hidden>
                                         <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
-                                            id="blog_title" name="blog_title" placeholder="Blog Title">
+                                            id="blog_title" name="blog_title" value="{{ isset($editblog->title) ? $editblog->title : '' }}" placeholder="blog Title">
                                         <div class="invalid-feedback"></div>
                                     </div>
                                     <div class="xl:col-span-12 col-span-12">
-                                        <label for="blog Slug" class="form-label">Blog Slug</label>
+                                        <label for="blog Slug" class="form-label">blog Slug</label>
                                         <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
-                                            id="blog_slug" name="blog_slug" placeholder="blog Title">
+                                            id="blog_slug" name="blog_slug" value="{{ isset($editblog->slug) ? $editblog->slug : '' }}" placeholder="blog Title">
                                         <div class="invalid-feedback"></div>
                                     </div>
 
                                     <div class="xl:col-span-6 col-span-12">
                                         <label for="Meta Title" class="form-label">Meta Title</label>
                                         <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
-                                            id="meta_title" name="meta_title" placeholder="Meta Title">
+                                            id="meta_title" name="meta_title" value="{{ isset($editblog->meta_title) ? $editblog->meta_title : '' }}" placeholder="Meta Title">
                                         <div class="invalid-feedback"></div>
                                     </div>
                                     <div class="xl:col-span-6 col-span-12">
                                         <label for="canonical-url" class="form-label">Canonical_url</label>
                                         <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
-                                            id="canonical_url" name="canonical_url" placeholder="Enter Canonical Url">
+                                            id="canonical_url" name="canonical_url" value="{{ isset($editblog->canonical_url) ? $editblog->canonical_url : '' }}" placeholder="Enter Canonical Url">
                                         <div class="invalid-feedback"></div>
                                     </div>
                                     <div class="xl:col-span-6 col-span-12">
                                         <label for="Meta Keyword" class="form-label">Meta Keyword</label>
                                         <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
-                                            id="meta_keyword" name="meta_keyword" placeholder="Enter Canonical Url">
+                                            id="meta_keyword" name="meta_keyword" value="{{ isset($editblog->meta_keyword) ? $editblog->meta_keyword : '' }}" placeholder="Enter Canonical Url">
                                         <div class="invalid-feedback"></div>
                                     </div>
                                     <div class="xl:col-span-6 col-span-12">
                                         <label for="Meta Desc" class="form-label">Meta Desc</label>
                                         <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
-                                            id="meta_desc" name="meta_desc" placeholder="Enter Canonical Url">
+                                            id="meta_desc" name="meta_desc" value="{{ isset($editblog->meta_desc) ? $editblog->meta_desc : '' }}" placeholder="Enter Canonical Url">
                                         <div class="invalid-feedback"></div>
                                     </div>
                                     {{-- <div class="xl:col-span-6 col-span-12">
@@ -98,7 +99,9 @@
 
                                     <div class="xl:col-span-12 col-span-12">
                                         <label class="form-label">blog Discription</label>
-                                        <textarea name="blog_description" id="editoronebest"></textarea>
+                                        <textarea  id="editoronebest" name="blog_description"
+                                            class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500"
+                                            rows="6">{{ isset($editblog->description) ? $editblog->description : '' }}</textarea>
                                         <div class="invalid-feedback"></div>
                                     </div>
 
@@ -114,7 +117,7 @@
                                                     ->get();
                                             @endphp
                                             @foreach ($status as $statuss)
-                                                <option value="{{ $statuss->PICK_ID }}">{{ $statuss->PICK_TEXT }}</option>
+                                                <option value="{{ $statuss->PICK_ID }}" {{ $statuss->PICK_ID == $editblog->status ? 'selected' : '' }}>{{ $statuss->PICK_TEXT }}</option>
                                             @endforeach
 
                                         </select>
@@ -124,9 +127,13 @@
 
                                     <div class="xl:col-span-12 col-span-12 blog-images-container">
                                         <label for="blog-author-email" class="form-label">blog Images</label>
+                                        <div class="text-center">
+                                            <img src="{{ asset('assets/images/dailyblogs/' . (!empty($editblog->image) ? $editblog->image : 'No Image ')) }}" class="img-fluid !rounded-md !inline-flex" alt="..." style="width:100px">
+                                        </div>
                                         <input type="file" class="blog_images" id="blog_images" name="blog_images"
                                             multiple data-allow-reorder="true" data-max-file-size="3MB"
                                             data-max-files="6">
+                                        <input type="text" name="image_new" value="{{ $editblog->image }}" hidden>
                                         <div class="invalid-feedback"></div>
                                     </div>
 
@@ -135,7 +142,7 @@
                             <div class="box-footer">
                                 <div class="text-end">
                                     {{-- <button type="button" class="ti-btn !py-1 !px-2 ti-btn-light !text-[0.75rem] !font-medium me-2">Save As Draft</button> --}}
-                                    <input type="submit" value="Post blog" id="blog_save_btn"
+                                    <input type="submit" value="Edit blog" id="blog_edit_btn"
                                         class="ti-btn bg-primary text-white !py-1 !px-2 !text-[0.75rem] !font-medium">
                                 </div>
                             </div>
@@ -146,7 +153,7 @@
                     <div class="box">
                         <div class="box-header">
                             <div class="box-title">
-                                Recent blog
+                                Recent Blog
                             </div>
                         </div>
                         <div class="box-body" id="recentpost">
@@ -163,8 +170,8 @@
         </div>
     </div>
 
-  
-    
+ 
+
 
 
 
@@ -185,9 +192,7 @@
                                 var truncatedTitle = post.title.split(' ').slice(0, 2).join(
                                 ' ');
 
-                                var imageUrl =
-                                    "assets/images/dailyblogs/" +
-                                    post.image;
+                                var imageUrl = "{{asset('assets/images/dailyblog/')}}"+ '/' + post.image;
 
                                 recentPostHtml += '<li class="list-group-item">';
                                 recentPostHtml +=
@@ -225,14 +230,14 @@
                 });
             }
 
-            $('#blog_form').submit(function(e) {
+            $('#edit_blog_form').submit(function(e) {
                 e.preventDefault();
-                $('#blog_save_btn').val('please wait..');
+                $('#blog_edit_btn').val('please wait..');
                 var token = $('meta[name="csrf-token"]').attr('content');
                 var formData = new FormData($(this)[0]);
-
+                
                 $.ajax({
-                    url: '{{ route('save.blog') }}',
+                    url:  "{{ route('edit.blog') }}",
                     method: 'post',
                     data: formData,
                     headers: {
@@ -249,17 +254,18 @@
                             showError('meta_keyword', response.messages.meta_keyword);
                             showError('meta_desc', response.messages.meta_desc);
                             showError('editoronebest', response.messages.blog_description);
-                            showError('blog_images', response.messages.blog_images);
                             showError('blog_status', response.messages.blog_status);
 
-                            $('#blog_save_btn').val('Post blog');
+                            $('#blog_edit_btn').val('Edit blog');
                         } else if (response.status == 200) {
                             $('.invalid-feedback').empty();
-                            $("#show_success_alert").html(showMessage('success', response
-                                .messages));
-                            $('#blog_form')[0].reset();
-                            removeValidationClass("#blog_form");
-                            $('#blog_save_btn').val('Post blog');
+                            // $("#show_success_alert").html(showMessage('success', response
+                            //     .messages));
+                            $('#edit_blog_form')[0].reset();
+                            removeValidationClass("#edit_blog_form");
+                            $('#blog_edit_btn').val('Edit blog');
+                            alert(response.messages);
+                            window.location.href = "{{ route('admin.bloglistshow') }}";
                             fetchblog();
                         }
                     },

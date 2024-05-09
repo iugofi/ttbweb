@@ -164,6 +164,14 @@ Route::get('/facthnews', [AdminController::class, 'facthnews'])->name('fatch.new
 Route::get('/bloglistshow', [AdminController::class, 'bloglistshow'])->name('admin.bloglistshow');
 Route::delete('/blogsdelete/{id}', [AdminController::class, 'blogsdelete'])->name('delete.blogsdelete');
 Route::get('/blogscreate', [AdminController::class, 'blogscreate'])->name('admin.blogscreate');
+Route::get('/facthblog', [AdminController::class, 'facthblog'])->name('fatch.blog');
+Route::post('/saveblog', [AdminController::class, 'saveblog'])->name('save.blog');
+Route::get('/blogedit/{id}', [AdminController::class, 'blogedit'])->name('edit.blogedit');
+Route::post('/editblog', [AdminController::class, 'editblog'])->name('edit.blog');
+
+
+
+
 
 
 
