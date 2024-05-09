@@ -64,7 +64,7 @@
                         <div class="box-body">
                             <div class="grid grid-cols-6 gap-4">	
                                 <select id="STORE_ID" class="form-control">
-                                    <option value="null">-Select Store Id-</option>
+                                    <option value=" ">-Select Store Id-</option>
                                     @foreach ($data as $storeId)
                                         <option value="{{ $storeId }}">{{ $storeId }}</option> 
                                     @endforeach
@@ -186,6 +186,7 @@
     $(document).ready(function() {
         $('#STORE_ID').on('change', function() {
             var storeId = $(this).val();
+            console.log(storeId);
             if(storeId) {
                 $.ajax({
                     url: '{{ route("fetch.storepick") }}',
