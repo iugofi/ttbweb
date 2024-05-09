@@ -265,8 +265,11 @@
                                                     <div>
                                                         <p
                                                             class="text-[#8c9097] dark:text-white/50 text-[0.813rem] mb-0">
-                                                            Total Revenue</p>
-                                                        <h4 class="font-semibold text-[1.5rem] !mb-2 ">$56,562
+                                                            Total Blog</p>
+                                                        <h4 class="font-semibold text-[1.5rem] !mb-2 "><?php
+                                                            $totalblog = DB::select("SELECT COUNT(*) AS total FROM blog");
+                                                            echo $totalblog[0]->total; 
+                                                        ?>
                                                         </h4>
                                                     </div>
                                                     <div id="crm-total-revenue"></div>
@@ -306,8 +309,11 @@
                                                     <div>
                                                         <p
                                                             class="text-[#8c9097] dark:text-white/50 text-[0.813rem] mb-0">
-                                                            Conversion Ratio</p>
-                                                        <h4 class="font-semibold text-[1.5rem] !mb-2 ">12.08%
+                                                            Total News Likes</p>
+                                                        <h4 class="font-semibold text-[1.5rem] !mb-2 "><?php
+                                                            $totalnewslike = DB::select("SELECT SUM(likes) AS totallike FROM news");
+                                                            echo $totalnewslike[0]->totallike; 
+                                                        ?>
                                                         </h4>
                                                     </div>
                                                     <div id="crm-conversion-ratio"></div>
@@ -347,8 +353,11 @@
                                                     <div>
                                                         <p
                                                             class="text-[#8c9097] dark:text-white/50 text-[0.813rem] mb-0">
-                                                            Total Deals</p>
-                                                        <h4 class="font-semibold text-[1.5rem] !mb-2 ">2,543
+                                                            Total Blog Likes</p>
+                                                        <h4 class="font-semibold text-[1.5rem] !mb-2 "><?php
+                                                            $totalbloglike = DB::select("SELECT SUM(likes) AS totallike FROM blog");
+                                                            echo $totalbloglike[0]->totallike; 
+                                                        ?>
                                                         </h4>
                                                     </div>
                                                     <div id="crm-total-deals"></div>
