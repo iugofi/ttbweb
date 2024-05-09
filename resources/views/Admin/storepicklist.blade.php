@@ -68,11 +68,11 @@
                                     <tr>
                                         <th class="px-4 py-2">Id</th>
                                         <th class="px-4 py-2">STORE_ID</th>
-                                        <th class="px-4 py-2">STORE_TYPE</th>
-                                        <th class="px-4 py-2">PICK_TEXT</th>
-                                        <th class="px-4 py-2">PICK_ID</th>
-                                        <th class="px-4 py-2">STORE_INDEX_SEQUENCE</th>
-                                        <th class="px-4 py-2">PICK_TEXT_EXTEND</th>
+                                        <th class="px-4 py-2">STORE TYPE</th>
+                                        <th class="px-4 py-2">PICK TEXT</th>
+                                        <th class="px-4 py-2">PICK ID</th>
+                                        <th class="px-4 py-2">STORE INDEX SEQUENCE</th>
+                                        <th class="px-4 py-2">EXTEND TEXT</th>
                                         <th class="px-4 py-2">Action</th>
                                     </tr>
                                 </thead>
@@ -87,8 +87,8 @@
                                             <td class="border px-4 py-2">{{$item->STORE_TYPE}}</td>
                                             <td class="border px-4 py-2">{{$item->PICK_TEXT}}</td>
                                             <td class="border px-4 py-2">{{$item->PICK_ID}}</td>
-                                            <td class="border px-4 py-2">{{$item->STORE_INDEX_SEQUENCE}}</td>
-                                            <td class="border px-4 py-2">{{$item->PICK_TEXT_EXTEND}}</td>
+                                            <td class="border">{{$item->STORE_INDEX_SEQUENCE}}</td>
+                                            <td class="border">{{$item->PICK_TEXT_EXTEND}}</td>
                                             <td class="border px-4 py-2">
                                                 <div
                                                     class="flex flex-row items-center !gap-2 text-[0.9375rem]">
