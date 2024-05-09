@@ -63,6 +63,7 @@
                             <div class="box text-center">
                                 <div class="" id="show_success_alert"></div>
                             </div>
+                            
                             <table id="example" class="table-auto w-full">
                                 <thead>
                                     <tr>
