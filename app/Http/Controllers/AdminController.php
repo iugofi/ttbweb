@@ -247,6 +247,17 @@ public function savenews(Request $request){
                 }
 
                 
+                public function bloglistshow()
+                {
+                    if($this->loggedInAdmin)
+                    {
+
+                        return view('Admin.bloglist');
+                    }
+                    else{
+                        return redirect('/setup');
+                    }
+                }
 
 
 
