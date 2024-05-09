@@ -171,6 +171,8 @@ Route::post('/editblog', [AdminController::class, 'editblog'])->name('edit.blog'
 
 //storepick
 Route::get('/storepickpage', [AdminController::class, 'storepickpage'])->name('admin.storepickpage');
+Route::get('/fatchstorepick', [AdminController::class, 'fatchstorepick'])->name('fetch.storepick');
+
 
 
 
