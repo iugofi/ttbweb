@@ -84,7 +84,8 @@
         <div class="vpn-innersection-two">
             <div class="grid grid-cols-12 gap-6">
                 <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
-
+                    <img src="{{ asset('assets/img/vpn shiel image.png') }}" alt="" class="img-fluid"
+                    width="100%">
                 </div>
                 <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12 prog-section">
                     <h3>World's Best VPN Services That Provide Own DNS System</h3>
