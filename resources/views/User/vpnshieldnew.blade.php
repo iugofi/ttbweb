@@ -88,7 +88,7 @@
                 </div>
                 <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
                     <h3>World's Best VPN Services That Provide Own DNS System</h3>
-                    <p class="mt-3 mb-4">I Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    <p class="mt-3 mb-5">I Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                         tempor incididunt ut
                         labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                     <p class="text-[0.75rem] font-semibold mb-0 text-[#8C9097] dark:text-white/50">Fast VPN<span
@@ -108,14 +108,14 @@
                     <p class="text-[0.75rem] font-semibold mb-0 text-[#8C9097] dark:text-white/50">Total Security
                         <span class="ltr:float-right rtl:float-left text-[0.625rem] font-normal">92%</span>
                     </p>
-                    <div class="progress progress-xs mb-0 progress-animate ">
+                    <div class="progress progress-xs mb-4 progress-animate ">
                         <div class="progress-bar !rounded-e-full !bg-danger w-2/5">
                         </div>
                     </div>
                     <p class="text-[0.75rem] font-semibold mb-0 text-[#8C9097] dark:text-white/50">Absolute Privacy
                         <span class="ltr:float-right rtl:float-left text-[0.625rem] font-normal">81%</span>
                     </p>
-                    <div class="progress progress-xs mb-0 progress-animate ">
+                    <div class="progress progress-xs mb-5 progress-animate ">
                         <div class="progress-bar !rounded-e-full !bg-danger w-2/5">
                         </div>
                     </div>
