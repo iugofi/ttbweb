@@ -65,9 +65,9 @@
                             <div class="grid grid-cols-6 gap-4">	
                                 <select id="STORE_ID" class="form-control" >
                                     <option value="">-Select Store Id-</option>
-                                    <?php foreach ($data as $key => $value): ?>
-                                        <option value="<?php echo $value->STORE_ID; ?>"><?php echo $value->STORE_ID; ?></option>
-                                    <?php endforeach; ?>
+                                    @foreach ($data as $key => $value)
+                                    <option value="<?php echo $value->STORE_ID; ?>"><?php echo $value->STORE_ID; ?></option> 
+                                    @endforeach                               
                                 </select>
                             </div>  
                             <div class="box text-center">
