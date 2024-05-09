@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\Validator;
 use App\Models\Admin; 
 use App\Models\News; 
 use App\Models\Blog; 
+use App\Models\Storepick; 
 use Illuminate\Support\Facades\File;
 
 
@@ -445,6 +446,23 @@ public function savenews(Request $request){
                     } else {
                         return redirect('/setup'); 
                     }
+                }
+
+
+                public function storepickpage()
+                {
+                    if ($this->loggedInAdmin) {
+
+                        $storepick = Storepick::orderBy('id', 'desc')->get();
+
+                        return view('Admin.storepicklist',['storepick'=>$storepick]);
+
+                    }else
+                    {
+                        return redirect('/setup'); 
+
+                    }
+
                 }
 
 
