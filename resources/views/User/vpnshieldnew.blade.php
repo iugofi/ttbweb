@@ -6,8 +6,8 @@
 @section('canonical', '')
 
 <div class="content">
-    <div class="main-content">
-<div class="landing-banner" id="home">
+    {{-- <div class="main-content"> --}}
+
 <section class="vpn-banner-top">
     <div class="container main-banner-container">
         <div class="grid grid-cols-12 gap-6">
@@ -37,7 +37,7 @@
         </div>
     </div>
 </section>
-</div>
+
 
 <section class="section-two-iconbox pt-8">
     <div class="container main-banner-container">
@@ -137,7 +137,7 @@
 
 
 
-</div>
+{{-- </div> --}}
 </div>
 
 
