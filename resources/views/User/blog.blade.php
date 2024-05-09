@@ -38,7 +38,7 @@
                                             <div class="box">
                                                 <a href="javascript:void(0);">
                                                     <img src="{{ asset('assets/images/dailyblogs/' . $bloglist->image) }}"
-                                                        class="card-img-top rounded-t-sm" style="width: 362px; height:335px"
+                                                        class="card-img-top rounded-t-sm" style="width: 100%;"
                                                         alt="...">
                                                 </a>
                                                 <div class="box-body">
