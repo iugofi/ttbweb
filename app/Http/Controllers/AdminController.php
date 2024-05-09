@@ -369,5 +369,84 @@ public function savenews(Request $request){
                         }
 
 
+                        public function editblog(Request $request)
+                {
+
+                    $id=$request->main_id;  
+                    if ($this->loggedInAdmin) {
+                        $validator = Validator::make($request->all(), [
+                            'blog_title' => 'required',
+                            'blog_slug' => 'required',
+                            'meta_title' => 'required',
+                            'canonical_url' => 'required',
+                            'meta_keyword' => 'required',
+                            'meta_desc' => 'required',
+                            'blog_description' => 'required',
+                            'blog_status' => 'required'
+                          
+                        ]);
+                        
+  
+                
+                        if ($validator->fails()) {
+                            return response()->json([
+                                'status' => 400,
+                                'messages' => $validator->getMessageBag()->toArray() // Convert messages to array
+                            ]);
+                        }
+                        else
+                        {
+
+
+                                if ($request->hasFile('blog_images')) {
+                                    $image = $request->file('blog_images');
+                                    $imageName = time().'.'.$image->getClientOriginalExtension(); 
+                                    $image->move('assets/images/dailyblogs', $imageName);
+                                } else {
+                                 
+                                    $imageName = $request->image_new;
+                                }
+
+                                $news = News::where('id', $id)->first();
+
+                                if (!$news) {
+                                    return response()->json([
+                                        'status' => 404,
+                                        'messages' => 'Blog not found'
+                                    ]);
+                                }
+                               
+                                $news->update([
+                                    'title' => $request->blog_title,
+                                    'slug' => $request->blog_slug,
+                                    'meta_title' => $request->meta_title,
+                                    'canonical_url' => $request->canonical_url,
+                                    'meta_keyword' => $request->meta_keyword,
+                                    'meta_desc' => $request->meta_desc,
+                                    'description' => $request->blog_description,
+                                    'status' => $request->blog_status,
+                                    'image' => $imageName
+                                ]);
+                
+                               
+                                
+                                
+                
+                                return response()->json([
+                                    'status' => 200,
+                                    'messages' => 'blog Edit successfully'
+                                ]);
+                
+                                }
+
+
+                       
+                    } else {
+                        return redirect('/setup'); 
+                    }
+                }
+
+
+
 
 }

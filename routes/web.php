@@ -167,6 +167,8 @@ Route::get('/blogscreate', [AdminController::class, 'blogscreate'])->name('admin
 Route::get('/facthblog', [AdminController::class, 'facthblog'])->name('fatch.blog');
 Route::post('/saveblog', [AdminController::class, 'saveblog'])->name('save.blog');
 Route::get('/blogedit/{id}', [AdminController::class, 'blogedit'])->name('edit.blogedit');
+Route::post('/editblog', [AdminController::class, 'editblog'])->name('edit.blog');
+
 
 
 

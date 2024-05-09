@@ -1,6 +1,6 @@
 @extends('Admin.Layouts.layout')
 
-@section('title', 'TTB News Edit')
+@section('title', 'TTB blog Edit')
 @section('Description', '')
 @section('keywords', '')
 @section('canonical', 'vbhdvbh')
@@ -26,14 +26,14 @@
                     <li class="text-[0.813rem] ps-[0.5rem]">
                         <a class="flex items-center text-primary hover:text-primary dark:text-primary truncate"
                             href="javascript:void(0);">
-                            News
+                            Blog
                             <i
                                 class="ti ti-chevrons-right flex-shrink-0 text-[#8c9097] dark:text-white/50 px-[0.5rem] overflow-visible rtl:rotate-180"></i>
                         </a>
                     </li>
                     <li class="text-[0.813rem] text-defaulttextcolor font-semibold hover:text-primary dark:text-[#8c9097] dark:text-white/50 "
                         aria-current="page">
-                        News Create
+                        Blog Create
                     </li>
                 </ol>
             </div>
@@ -44,9 +44,9 @@
                 <div class="xxl:col-span-9 xl:col-span-12 lg:col-span-12 md:col-span-12 sm:col-span-12 col-span-12">
                     <div class="box">
                         <div class="box-header">
-                            <div class="box-title">News Create</div>
+                            <div class="box-title">Blog Create</div>
                         </div>
-                        <form method="post" id="edit_news_form" enctype="multipart/form-data">
+                        <form method="post" id="edit_blog_form" enctype="multipart/form-data">
                             @csrf
                             <div class="box-body">
                                 <div class="box text-center">
@@ -54,16 +54,16 @@
                                 </div>
                                 <div class="grid grid-cols-12 gap-4">
                                     <div class="xl:col-span-12 col-span-12">
-                                        <label for="blog-title" class="form-label">News Title</label>
+                                        <label for="blog-title" class="form-label">blog Title</label>
                                         <input type="text" name="main_id" value="{{ isset($editblog->id) ? $editblog->id : '' }}" hidden>
                                         <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
-                                            id="news_title" name="news_title" value="{{ isset($editblog->title) ? $editblog->title : '' }}" placeholder="News Title">
+                                            id="blog_title" name="blog_title" value="{{ isset($editblog->title) ? $editblog->title : '' }}" placeholder="blog Title">
                                         <div class="invalid-feedback"></div>
                                     </div>
                                     <div class="xl:col-span-12 col-span-12">
-                                        <label for="News Slug" class="form-label">News Slug</label>
+                                        <label for="blog Slug" class="form-label">blog Slug</label>
                                         <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
-                                            id="news_slug" name="news_slug" value="{{ isset($editblog->slug) ? $editblog->slug : '' }}" placeholder="News Title">
+                                            id="blog_slug" name="blog_slug" value="{{ isset($editblog->slug) ? $editblog->slug : '' }}" placeholder="blog Title">
                                         <div class="invalid-feedback"></div>
                                     </div>
 
@@ -98,8 +98,8 @@
 
 
                                     <div class="xl:col-span-12 col-span-12">
-                                        <label class="form-label">News Discription</label>
-                                        <textarea  id="editoronebest" name="news_description"
+                                        <label class="form-label">blog Discription</label>
+                                        <textarea  id="editoronebest" name="blog_description"
                                             class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500"
                                             rows="6">{{ isset($editblog->description) ? $editblog->description : '' }}</textarea>
                                         <div class="invalid-feedback"></div>
@@ -108,7 +108,7 @@
                                     <div class="xl:col-span-12 col-span-12">
                                         <label for="blog-Language" class="form-label">Status</label>
                                         <select class="form-control block w-full text-[0.875rem] !rounded-md" data-trigger
-                                            name="news_status" id="news_status">
+                                            name="blog_status" id="blog_status">
                                             <option value="">Select</option>
                                             @php
                                                 $status = DB::table('storepick')
@@ -126,11 +126,11 @@
                                     </div>
 
                                     <div class="xl:col-span-12 col-span-12 blog-images-container">
-                                        <label for="blog-author-email" class="form-label">News Images</label>
+                                        <label for="blog-author-email" class="form-label">blog Images</label>
                                         <div class="text-center">
                                             <img src="{{ asset('assets/images/dailyblogs/' . (!empty($editblog->image) ? $editblog->image : 'No Image ')) }}" class="img-fluid !rounded-md !inline-flex" alt="..." style="width:100px">
                                         </div>
-                                        <input type="file" class="news_images" id="news_images" name="news_images"
+                                        <input type="file" class="blog_images" id="blog_images" name="blog_images"
                                             multiple data-allow-reorder="true" data-max-file-size="3MB"
                                             data-max-files="6">
                                         <input type="text" name="image_new" value="{{ $editblog->image }}" hidden>
@@ -142,7 +142,7 @@
                             <div class="box-footer">
                                 <div class="text-end">
                                     {{-- <button type="button" class="ti-btn !py-1 !px-2 ti-btn-light !text-[0.75rem] !font-medium me-2">Save As Draft</button> --}}
-                                    <input type="submit" value="Edit News" id="news_edit_btn"
+                                    <input type="submit" value="Edit blog" id="blog_edit_btn"
                                         class="ti-btn bg-primary text-white !py-1 !px-2 !text-[0.75rem] !font-medium">
                                 </div>
                             </div>
@@ -153,7 +153,7 @@
                     <div class="box">
                         <div class="box-header">
                             <div class="box-title">
-                                Recent News
+                                Recent Blog
                             </div>
                         </div>
                         <div class="box-body" id="recentpost">
@@ -177,9 +177,9 @@
 
     <script>
         $(document).ready(function() {
-            function fetchNews() {
+            function fetchblog() {
                 $.ajax({
-                    url: "{{ route('fatch.news') }}",
+                    url: "{{ route('fatch.blog') }}",
                     type: 'GET',
                     dataType: 'json',
                     success: function(response) {
@@ -192,7 +192,7 @@
                                 var truncatedTitle = post.title.split(' ').slice(0, 2).join(
                                 ' ');
 
-                                var imageUrl = "{{asset('assets/images/dailynews/')}}"+ '/' + post.image;
+                                var imageUrl = "{{asset('assets/images/dailyblog/')}}"+ '/' + post.image;
 
                                 recentPostHtml += '<li class="list-group-item">';
                                 recentPostHtml +=
@@ -230,14 +230,14 @@
                 });
             }
 
-            $('#edit_news_form').submit(function(e) {
+            $('#edit_blog_form').submit(function(e) {
                 e.preventDefault();
-                $('#news_edit_btn').val('please wait..');
+                $('#blog_edit_btn').val('please wait..');
                 var token = $('meta[name="csrf-token"]').attr('content');
                 var formData = new FormData($(this)[0]);
                 
                 $.ajax({
-                    url:  "{{ route('edit.news') }}",
+                    url:  "{{ route('edit.blog') }}",
                     method: 'post',
                     data: formData,
                     headers: {
@@ -247,32 +247,32 @@
                     processData: false,
                     success: function(response) {
                         if (response.status == 400) {
-                            showError('news_title', response.messages.news_title);
-                            showError('news_slug', response.messages.news_slug);
+                            showError('blog_title', response.messages.blog_title);
+                            showError('blog_slug', response.messages.blog_slug);
                             showError('meta_title', response.messages.meta_title);
                             showError('canonical_url', response.messages.canonical_url);
                             showError('meta_keyword', response.messages.meta_keyword);
                             showError('meta_desc', response.messages.meta_desc);
-                            showError('editoronebest', response.messages.news_description);
-                            showError('news_status', response.messages.news_status);
+                            showError('editoronebest', response.messages.blog_description);
+                            showError('blog_status', response.messages.blog_status);
 
-                            $('#news_edit_btn').val('Edit News');
+                            $('#blog_edit_btn').val('Edit blog');
                         } else if (response.status == 200) {
                             $('.invalid-feedback').empty();
                             // $("#show_success_alert").html(showMessage('success', response
                             //     .messages));
-                            $('#edit_news_form')[0].reset();
-                            removeValidationClass("#edit_news_form");
-                            $('#news_edit_btn').val('Edit News');
+                            $('#edit_blog_form')[0].reset();
+                            removeValidationClass("#edit_blog_form");
+                            $('#blog_edit_btn').val('Edit blog');
                             alert(response.messages);
-                            window.location.href = "{{ route('admin.newslist') }}";
-                            fetchNews();
+                            window.location.href = "{{ route('admin.bloglist') }}";
+                            fetchblog();
                         }
                     },
                     error: function(xhr, status, error) {}
                 });
             });
-            fetchNews();
+            fetchblog();
         });
     </script>
 
