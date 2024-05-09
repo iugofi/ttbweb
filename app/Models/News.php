@@ -8,6 +8,20 @@ use Illuminate\Database\Eloquent\Model;
 class News extends Model
 {
     protected $table = 'news';
+    protected $fillable = [
+        'title',
+        'slug',
+        'image',
+        'description',
+        'meta_title',
+        'canonical_url',
+        'meta_keyword',
+        'meta_desc',
+        'status',
+       
+
+       
+    ];
 
     use HasFactory;
 }
