@@ -182,8 +182,8 @@ public function savenews(Request $request){
                             'meta_keyword' => 'required',
                             'meta_desc' => 'required',
                             'news_description' => 'required',
-                            'news_status' => 'required',
-                            'news_images' => 'required'
+                            'news_status' => 'required'
+                          
                         ]);
                         
   

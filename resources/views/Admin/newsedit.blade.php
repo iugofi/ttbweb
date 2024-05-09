@@ -254,7 +254,6 @@
                             showError('meta_keyword', response.messages.meta_keyword);
                             showError('meta_desc', response.messages.meta_desc);
                             showError('editoronebest', response.messages.news_description);
-                            showError('news_images', response.messages.news_images);
                             showError('news_status', response.messages.news_status);
 
                             $('#news_edit_btn').val('Edit News');
