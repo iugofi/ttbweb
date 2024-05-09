@@ -2729,6 +2729,19 @@ h6 {
 .\!w-full {
     width: 100% !important;
 }
+.w-96{
+    width: 30rem;
+ }   
+.w-80{
+    width: 21rem;
+}   
+.w-72{
+    width: 28rem;
+}    
+.w-64{
+    width: 25rem;
+} 
+
 .w-0 {
     width: 0px;
 }
