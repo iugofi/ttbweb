@@ -84,13 +84,13 @@
 
                     <li class="slide">
                         <a href="" class="side-menu__item">
-                            <i class="bx bx-layer side-menu__icon"></i>
+                            <i class="fa-solid fa-location-dot side-menu__icon"></i>
                             <span class="side-menu__label">Vpn shield Payment</span>
                         </a>
                     </li>
                     <li class="slide">
                         <a href="" class="side-menu__item">
-                            <i class="bx bx-file  side-menu__icon"></i>
+                            <i class="fa-solid fa-file-shield  side-menu__icon"></i>
                             <span class="side-menu__label">Antivirus Payment</span>
                         </a>
                     </li>
