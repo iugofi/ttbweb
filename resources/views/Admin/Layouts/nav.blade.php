@@ -42,7 +42,7 @@
                 </li>
                     <li class="slide">
                         <a href="{{route('admin.newscreate')}}" class="side-menu__item">
-                            <i class="bx bx-file  side-menu__icon"></i>
+                            <i class="bi bi-file-earmark-plus  side-menu__icon"></i>
                             <span class="side-menu__label">News Create</span>
                         </a>
                     </li>
