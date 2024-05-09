@@ -5,6 +5,9 @@
 @section('keywords', '')
 @section('canonical', '')
 
+<div class="content">
+    <div class="main-content">
+
 <section class="vpn-banner-top">
 
     <div class="container main-banner-container">
@@ -134,7 +137,8 @@
 
 
 
-
+</div>
+</div>
 
 
 
