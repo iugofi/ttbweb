@@ -91,9 +91,7 @@
                         labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                     <h6 class="font-semibold mb-2">Project Dependencies</h6>
 
-                    <div class="grid grid-cols-12 justify-center">
-                        <div class="xl:col-span-5 col-span-12">
-                            <div class="border p-4">
+
                                 <p class="text-[0.75rem] font-semibold mb-0 text-[#8C9097] dark:text-white/50">Html<span
                                         class="ltr:float-right rtl:float-left text-[0.625rem] font-normal">25%</span>
                                 </p>
@@ -114,9 +112,6 @@
                                 <div class="progress progress-xs mb-0 progress-animate ">
                                     <div class="progress-bar !rounded-e-full !bg-danger w-2/5">
                                     </div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
