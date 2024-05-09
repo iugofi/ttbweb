@@ -265,7 +265,7 @@
                             removeValidationClass("#edit_blog_form");
                             $('#blog_edit_btn').val('Edit blog');
                             alert(response.messages);
-                            window.location.href = "{{ route('admin.bloglist') }}";
+                            window.location.href = "{{ route('admin.bloglistshow') }}";
                             fetchblog();
                         }
                     },
