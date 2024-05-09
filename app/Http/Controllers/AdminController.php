@@ -260,6 +260,22 @@ public function savenews(Request $request){
                     }
                 }
 
+                public function blogsdelete($id)
+                {
+                    if ($this->loggedInAdmin) {
+                        $item = Blog::findOrFail($id);
+                        $imagePath = 'assets/images/dailyblogs/' . $item->image;
+                        
+                        if (File::exists($imagePath)) {
+                            File::delete($imagePath);
+                        }
+                        $item->delete();
+                        return response()->json(['message' => 'Blogs deleted successfully']);
+                    } else {
+                        return redirect('/setup'); 
+                    }
+                }
+
 
 
 }
