@@ -1,6 +1,6 @@
 @extends('Admin.Layouts.layout')
 
-@section('title', 'TTB News Edit')
+@section('title', 'News Edit')
 @section('Description', '')
 @section('keywords', '')
 @section('canonical', 'vbhdvbh')
