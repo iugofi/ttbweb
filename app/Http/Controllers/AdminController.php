@@ -356,6 +356,18 @@ public function savenews(Request $request){
                         }
                         }
 
+                        public function blogedit($id){
+                            if ($this->loggedInAdmin) {
+            
+                                $editblog=Blog::find($id);
+            
+                                return view('Admin.blogedit',['editblog'=>$editblog]);
+                            
+                            } else {
+                                return redirect('/setup');
+                            }
+                        }
+
 
 
 }
