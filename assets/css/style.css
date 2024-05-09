@@ -40957,11 +40957,7 @@ img.img-fluid.service-icon {
 
 /* end kunal */
 
-/* neeraj-home-page-css-22-04-2024 */.
-
-.vpn-section-two hr {
-    margin-top: 4em;
-}
+/* neeraj-home-page-css-22-04-2024 */
 
 .vpn-section-two p {
     font-size: 16px;
@@ -40973,7 +40969,9 @@ img.img-fluid.service-icon {
     padding: 50px 0px;
 }
 
-
+.vpn-section-two hr {
+    margin-top: 4em;
+}
 .section-two-iconbox h5 {
     font-size: 20px;
     margin: 10px 0px;
