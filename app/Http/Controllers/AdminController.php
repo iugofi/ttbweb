@@ -466,6 +466,22 @@ public function savenews(Request $request){
 
                 }
 
+                public function fatchstorepick(Request $request)
+                {
+                    if ($this->loggedInAdmin) {
+
+                        $storeId = $request->input('storeId');
+                        $storepick = StorePick::where('STORE_ID', $storeId)->get();
+                        return response()->json(['storepick' => $storepick]);
+
+                    }else
+                    {
+                        return redirect('/setup'); 
+
+                    }
+
+                }
+
 
 
 
