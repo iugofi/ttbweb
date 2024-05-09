@@ -259,11 +259,13 @@
                             $('#news_edit_btn').val('Edit News');
                         } else if (response.status == 200) {
                             $('.invalid-feedback').empty();
-                            $("#show_success_alert").html(showMessage('success', response
-                                .messages));
+                            // $("#show_success_alert").html(showMessage('success', response
+                            //     .messages));
                             $('#edit_news_form')[0].reset();
                             removeValidationClass("#edit_news_form");
                             $('#news_edit_btn').val('Edit News');
+                            alert(response.messages);
+                            window.location.href = "{{ route('admin.newslist') }}";
                             fetchNews();
                         }
                     },
