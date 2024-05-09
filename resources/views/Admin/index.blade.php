@@ -223,7 +223,7 @@
                                                         <p class="text-[#8c9097] dark:text-white/50 text-[0.813rem] mb-0">
                                                             Total News</p>
                                                         <h4 class="font-semibold  text-[1.5rem] !mb-2 "><?php
-                                                            $totalNews = DB::select("SELECT COUNT(*) AS total FROM News");
+                                                            $totalNews = DB::select("SELECT COUNT(*) AS total FROM news");
                                                             echo $totalNews[0]->total; 
                                                         ?>
                                                         </h4>
