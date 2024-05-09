@@ -64,7 +64,7 @@
                 <li class="slide__category"><span class="category-name">Storepick</span></li>   
                     <li class="slide">
                         <a href="{{route('admin.storepickpage')}}" class="side-menu__item">
-                            <i class="a-solid fa-store side-menu__icon"></i>
+                            <i class="fa-store side-menu__icon"></i>
                             <span class="side-menu__label">StorePick List</span>
                         </a>
                     </li>
