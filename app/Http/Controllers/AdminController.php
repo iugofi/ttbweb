@@ -473,9 +473,9 @@ public function savenews(Request $request){
 
 
                         $storeId = $request->input('storeId');
-                        if(empty($storeId))
+                        if($storeId==null)
                         {
-                            $storepick = StorePick::query();
+                            $storepick = StorePick::get();
 
                         }
                         else{

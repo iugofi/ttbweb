@@ -64,7 +64,7 @@
                         <div class="box-body">
                             <div class="grid grid-cols-6 gap-4">	
                                 <select id="STORE_ID" class="form-control">
-                                    <option value="">-Select Store Id-</option>
+                                    <option value="null">-Select Store Id-</option>
                                     @foreach ($data as $storeId)
                                         <option value="{{ $storeId }}">{{ $storeId }}</option> 
                                     @endforeach
