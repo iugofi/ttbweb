@@ -49,7 +49,7 @@
 
                     <li class="slide__category"><span class="category-name">Blog</span></li>               
                 <li class="slide">
-                    <a href="" class="side-menu__item">
+                    <a href="{{route('admin.bloglistshow')}}" class="side-menu__item">
                         <i class="bx bx-file  side-menu__icon"></i>
                         <span class="side-menu__label">Blog List</span>
                     </a>
