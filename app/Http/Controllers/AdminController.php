@@ -454,7 +454,7 @@ public function savenews(Request $request){
                     if ($this->loggedInAdmin) {
 
                         $storepick = Storepick::orderBy('id', 'desc')->get();
-                        $data=Storepick::orderBy('STORE_ID','ASC')->pluck('STORE_ID','STORE_ID')->toArray();
+                        $data=Storepick::orderBy('STORE_ID','ASC')->pluck('STORE_ID','STORE_ID');
 
                         return view('Admin.storepicklist',['storepick'=>$storepick],['data'=>$data]);
 
@@ -470,8 +470,18 @@ public function savenews(Request $request){
                 {
                     if ($this->loggedInAdmin) {
 
+
+
                         $storeId = $request->input('storeId');
-                        $storepick = StorePick::where('STORE_ID', $storeId)->get();
+                        if($storeId==null)
+                        {
+                            $storepick = StorePick::get();
+
+                        }
+                        else{
+                            $storepick = StorePick::where('STORE_ID', $storeId)->get();
+
+                        }
                         return response()->json(['storepick' => $storepick]);
 
                     }else
