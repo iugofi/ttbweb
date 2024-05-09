@@ -88,7 +88,7 @@
                 </div>
                 <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
                     <h3>World's Best VPN Services That Provide Own DNS System</h3>
-                    <p>ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    <p class="mt-3">I Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                     <h6 class="font-semibold mb-2">Project Dependencies</h6>
                     <p class="text-[0.75rem] font-semibold mb-0 text-[#8C9097] dark:text-white/50">Html<span
