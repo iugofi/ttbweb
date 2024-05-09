@@ -64,13 +64,13 @@
                 <li class="slide__category"><span class="category-name">Storepick</span></li>   
                     <li class="slide">
                         <a href="{{route('admin.storepickpage')}}" class="side-menu__item">
-                            <i class="bx bx-box side-menu__icon"></i>
+                            <i class="a-solid fa-store side-menu__icon"></i>
                             <span class="side-menu__label">StorePick List</span>
                         </a>
                     </li>
                     <li class="slide">
                         <a href="" class="side-menu__item">
-                            <i class="bx bx-box side-menu__icon"></i>
+                            <i class="fa-solid fa-puzzle-piece"></i>
                             <span class="side-menu__label">StorePick Add</span>
                         </a>
                     </li>
