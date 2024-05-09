@@ -1,6 +1,6 @@
 @extends('Admin.Layouts.layout')
 
-@section('title', 'TTB Storepick List')
+@section('title', 'Storepick List')
 @section('Description', '')
 @section('keywords', '')
 @section('canonical', 'vbhdvbh')

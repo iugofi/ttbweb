@@ -1,6 +1,6 @@
 @extends('Admin.Layouts.layout')
 
-@section('title', 'TTB blog Create')
+@section('title', 'blog Create')
 @section('Description', '')
 @section('keywords', '')
 @section('canonical', 'vbhdvbh')
