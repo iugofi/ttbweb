@@ -150,7 +150,7 @@
                     </div>
                 </div>
                 <a href="index.html" class="m-1 ti-btn ti-btn-primary-full">
-                    Download Now
+                    Get Free Trial
                 </a>
             </div>
             <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
