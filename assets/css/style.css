@@ -40981,8 +40981,12 @@ img.img-fluid.service-icon {
     color: #12d0b8;
 }
 .vpn-section-three h3 {
-    font-size: 30px;
+    font-size: 36px;
     font-weight: 600;
+}
+.vpn-section-three p {
+    font-size: 16px;
+
 }
 
 .prog-section span{
