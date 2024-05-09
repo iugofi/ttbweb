@@ -149,12 +149,12 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                 </div>
-
-            </div>
-            <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
                 <a href="index.html" class="m-1 ti-btn ti-btn-primary-full">
                     Download Now
                 </a>
+            </div>
+            <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
+
             </div>
         </div>
     </div>
