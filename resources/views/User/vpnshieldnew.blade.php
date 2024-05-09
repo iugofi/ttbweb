@@ -134,7 +134,8 @@
             <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
                 <h2>What We Offer For You</h2>
                 <h3>Your Roadmap To Freedom Information On The Internet</h3>
-                <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore
                     et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud xercitation ullamco.</p>
 
                 <div class="grid grid-cols-12 gap-6 mt-9">
@@ -154,7 +155,8 @@
                 </a>
             </div>
             <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
-
+                <img src="{{ asset('assets/img/mobile vpn one.jpg') }}" alt="" class="img-fluid"
+                    width="100%">
             </div>
         </div>
     </div>
