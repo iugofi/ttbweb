@@ -95,7 +95,7 @@
                             class="ltr:float-right rtl:float-left text-[0.625rem] font-normal">95%</span>
                     </p>
                     <div class="progress progress-xs mb-4 progress-animate">
-                        <div class="progress-bar bg-primary w-1/2">
+                        <div class="progress-bar bg-primary w-96">
                         </div>
                     </div>
                     <p class="text-[0.75rem] font-semibold mb-0 text-[#8C9097] dark:text-white/50">Malware Detection
