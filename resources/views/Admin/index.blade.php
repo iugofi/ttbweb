@@ -66,7 +66,7 @@
                             <div class="box">
                                 <div class="box-header flex justify-between">
                                     <div class="box-title">
-                                        Top Deals
+                                        Top Post
                                     </div>
                                     <div class="hs-dropdown ti-dropdown">
                                         <a aria-label="anchor" href="javascript:void(0);"
@@ -86,6 +86,7 @@
                                 </div>
                                 <div class="box-body">
                                     <ul class="list-none crm-top-deals mb-0">
+                                    
                                         <li class="mb-[0.9rem]">
                                             <div class="flex items-start flex-wrap">
                                                 <div class="me-2">
@@ -104,76 +105,8 @@
                                                 <div class="font-semibold text-[0.9375rem] ">$2,893</div>
                                             </div>
                                         </li>
-                                        <li class="mb-[0.9rem]">
-                                            <div class="flex items-start flex-wrap">
-                                                <div class="me-2">
-                                                    <span
-                                                        class="inline-flex items-center justify-center !w-[1.75rem] !h-[1.75rem] leading-[1.75rem] text-[0.65rem]  rounded-full text-warning  bg-warning/10 font-semibold">
-                                                        EK
-                                                    </span>
-                                                </div>
-                                                <div class="flex-grow">
-                                                    <p class="font-semibold mb-[1.4px]  text-[0.813rem]">Emigo
-                                                        Kiaren</p>
-                                                    <p class="text-[#8c9097] dark:text-white/50 text-[0.75rem]">
-                                                        emigo.kiaren@gmail.com</p>
-                                                </div>
-                                                <div class="font-semibold text-[0.9375rem] ">$4,289</div>
-                                            </div>
-                                        </li>
-                                        <li class="mb-[0.9rem]">
-                                            <div class="flex items-top flex-wrap">
-                                                <div class="me-2">
-                                                    <span class="inline-flex items-center justify-center">
-                                                        <img src="assets/images/faces/12.jpg" alt=""
-                                                            class="!w-[1.75rem] !h-[1.75rem] leading-[1.75rem] text-[0.65rem]  rounded-full">
-                                                    </span>
-                                                </div>
-                                                <div class="flex-grow">
-                                                    <p class="font-semibold mb-[1.4px]  text-[0.813rem]">Randy
-                                                        Origoan
-                                                    </p>
-                                                    <p class="text-[#8c9097] dark:text-white/50 text-[0.75rem]">
-                                                        randy.origoan@gmail.com</p>
-                                                </div>
-                                                <div class="font-semibold text-[0.9375rem] ">$6,347</div>
-                                            </div>
-                                        </li>
-                                        <li class="mb-[0.9rem]">
-                                            <div class="flex items-top flex-wrap">
-                                                <div class="me-2">
-                                                    <span
-                                                        class="inline-flex items-center justify-center !w-[1.75rem] !h-[1.75rem] leading-[1.75rem] text-[0.65rem]  rounded-full text-success bg-success/10 font-semibold">
-                                                        GP
-                                                    </span>
-                                                </div>
-                                                <div class="flex-grow">
-                                                    <p class="font-semibold mb-[1.4px]  text-[0.813rem]">George
-                                                        Pieterson
-                                                    </p>
-                                                    <p class="text-[#8c9097] dark:text-white/50 text-[0.75rem]">
-                                                        george.pieterson@gmail.com</p>
-                                                </div>
-                                                <div class="font-semibold text-[0.9375rem] ">$3,894</div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="flex items-top flex-wrap">
-                                                <div class="me-2">
-                                                    <span
-                                                        class="inline-flex items-center justify-center !w-[1.75rem] !h-[1.75rem] leading-[1.75rem] text-[0.65rem]  rounded-full text-primary bg-primary/10 font-semibold">
-                                                        KA
-                                                    </span>
-                                                </div>
-                                                <div class="flex-grow">
-                                                    <p class="font-semibold mb-[1.4px]  text-[0.813rem]">Kiara
-                                                        Advain</p>
-                                                    <p class="text-[#8c9097] dark:text-white/50 text-[0.75rem]">
-                                                        kiaraadvain214@gmail.com</p>
-                                                </div>
-                                                <div class="font-semibold text-[0.9375rem] ">$2,679</div>
-                                            </div>
-                                        </li>
+                                      
+                                       
                                     </ul>
                                 </div>
                             </div>
