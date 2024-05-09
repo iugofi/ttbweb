@@ -162,6 +162,10 @@ Route::get('/facthnews', [AdminController::class, 'facthnews'])->name('fatch.new
 
 //admin blog
 Route::get('/bloglistshow', [AdminController::class, 'bloglistshow'])->name('admin.bloglistshow');
+Route::delete('/blogsdelete/{id}', [AdminController::class, 'blogsdelete'])->name('delete.blogsdelete');
+Route::get('/blogscreate', [AdminController::class, 'blogscreate'])->name('admin.blogscreate');
+
+
 
 
 
