@@ -89,36 +89,35 @@
                 <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
                     <p>ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                        <h6 class="font-semibold mb-2">Project Dependencies</h6>
-    <div class="progress-stacked progress-xl mb-[3rem] flex">
-        <div class="progress-bar w-1/2"
-            >25%</div>
-        <div class="progress-bar !bg-secondary !rounded-none w-[35%]"
-            >35%</div>
-        <div class="progress-bar !bg-danger !rounded-s-none !rounded-e-full w-2/5"
-            >40%</div>
-    </div>
-    <div class="grid grid-cols-12 justify-center">
-        <div class="xl:col-span-5 col-span-12">
-            <div class="border p-4">
-                <p class="text-[0.75rem] font-semibold mb-0 text-[#8C9097] dark:text-white/50">Html<span class="ltr:float-right rtl:float-left text-[0.625rem] font-normal">25%</span></p>
-                <div class="progress progress-xs mb-4 progress-animate" >
-                    <div class="progress-bar bg-primary w-1/2">
+                    <h6 class="font-semibold mb-2">Project Dependencies</h6>
+
+                    <div class="grid grid-cols-12 justify-center">
+                        <div class="xl:col-span-5 col-span-12">
+                            <div class="border p-4">
+                                <p class="text-[0.75rem] font-semibold mb-0 text-[#8C9097] dark:text-white/50">Html<span
+                                        class="ltr:float-right rtl:float-left text-[0.625rem] font-normal">25%</span>
+                                </p>
+                                <div class="progress progress-xs mb-4 progress-animate">
+                                    <div class="progress-bar bg-primary w-1/2">
+                                    </div>
+                                </div>
+                                <p class="text-[0.75rem] font-semibold mb-0 text-[#8C9097] dark:text-white/50">Css<span
+                                        class="ltr:float-right rtl:float-left text-[0.625rem] font-normal">35%</span>
+                                </p>
+                                <div class="progress progress-xs mb-4 progress-animate ">
+                                    <div class="progress-bar !rounded-none !bg-secondary w-[35%]">
+                                    </div>
+                                </div>
+                                <p class="text-[0.75rem] font-semibold mb-0 text-[#8C9097] dark:text-white/50">Js<span
+                                        class="ltr:float-right rtl:float-left text-[0.625rem] font-normal">40%</span>
+                                </p>
+                                <div class="progress progress-xs mb-0 progress-animate ">
+                                    <div class="progress-bar !rounded-e-full !bg-danger w-2/5">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <p class="text-[0.75rem] font-semibold mb-0 text-[#8C9097] dark:text-white/50">Css<span class="ltr:float-right rtl:float-left text-[0.625rem] font-normal">35%</span></p>
-                <div class="progress progress-xs mb-4 progress-animate " >
-                    <div class="progress-bar !rounded-none !bg-secondary w-[35%]">
-                    </div>
-                </div>
-                <p class="text-[0.75rem] font-semibold mb-0 text-[#8C9097] dark:text-white/50">Js<span class="ltr:float-right rtl:float-left text-[0.625rem] font-normal">40%</span></p>
-                <div class="progress progress-xs mb-0 progress-animate " >
-                    <div class="progress-bar !rounded-e-full !bg-danger w-2/5">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
                 </div>
             </div>
         </div>
