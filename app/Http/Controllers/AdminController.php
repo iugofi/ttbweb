@@ -470,8 +470,18 @@ public function savenews(Request $request){
                 {
                     if ($this->loggedInAdmin) {
 
+
+
                         $storeId = $request->input('storeId');
-                        $storepick = StorePick::where('STORE_ID', $storeId)->get();
+                        if(empty($storeId))
+                        {
+                            $storepick = StorePick::all();
+
+                        }
+                        else{
+                            $storepick = StorePick::where('STORE_ID', $storeId)->get();
+
+                        }
                         return response()->json(['storepick' => $storepick]);
 
                     }else
