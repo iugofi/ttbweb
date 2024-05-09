@@ -373,7 +373,7 @@ public function savenews(Request $request){
                 {
 
                     $id=$request->main_id;  
-                    dd($id);
+                   
                     if ($this->loggedInAdmin) {
                         $validator = Validator::make($request->all(), [
                             'blog_title' => 'required',
@@ -408,7 +408,7 @@ public function savenews(Request $request){
                                     $imageName = $request->image_new;
                                 }
 
-                                $news = News::where('id', $id)->first();
+                                $news = Blog::where('id', $id)->first();
 
                                 if (!$news) {
                                     return response()->json([
