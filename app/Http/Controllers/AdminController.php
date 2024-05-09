@@ -373,6 +373,7 @@ public function savenews(Request $request){
                 {
 
                     $id=$request->main_id;  
+                    dd($id);
                     if ($this->loggedInAdmin) {
                         $validator = Validator::make($request->all(), [
                             'blog_title' => 'required',
