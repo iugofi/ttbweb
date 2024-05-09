@@ -37,7 +37,7 @@
                                             class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 col-span-12 blog-box">
                                             <div class="box">
                                                 <a href="javascript:void(0);">
-                                                    <img src="https://www.ttbinternetsecurity.com/admin/uploads/posts/{{ $bloglist->image }}"
+                                                    <img src="{{asset('assets/images/dailyblogs/'.$recentbloglist->image )}}"
                                                         class="card-img-top rounded-t-sm" style="width: 416px; height:208px"
                                                         alt="...">
                                                 </a>
@@ -188,7 +188,7 @@
                                             <li class="list-group-item recent-avtar">
                                                 <div class="flex flex-nowrap items-center">
                                                     <span class="avatar avatar-xl me-4">
-                                                        <img src="https://www.ttbinternetsecurity.com/admin/uploads/posts/{{ $recentbloglist->image }}"
+                                                        <img src="{{asset('assets/images/dailyblogs/'.$recentbloglist->image )}}"
                                                             class="img-fluid !rounded-md" alt="...">
                                                     </span>
                                                     <div class="flex-grow">
