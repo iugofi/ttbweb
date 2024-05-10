@@ -208,7 +208,7 @@
                     },
                     dataType: 'json',
                     success: function(response) {
-                        var tbody = $('#example tbody');
+                        var tbody = $('#showdata tbody');
                         tbody.empty();
                         $.each(response.storepick, function(key, item) {
                             var row = '<tr>' +
@@ -242,7 +242,7 @@
                     }
                 });
             } else {
-                $('#example tbody').empty();
+                $('#showdata tbody').empty();
             }
         });
     });
