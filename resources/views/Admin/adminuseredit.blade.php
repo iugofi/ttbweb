@@ -158,7 +158,7 @@
                     <div class="box">
                         <div class="box-header">
                             <div class="box-title">
-                                Recent Blog
+                                Recent Admin
                             </div>
                         </div>
                         <div class="box-body" id="recentpost">
@@ -182,9 +182,9 @@
 
     <script>
         $(document).ready(function() {
-            function fetchblog() {
+            function fetchNews() {
                 $.ajax({
-                    url: "{{ route('fatch.blog') }}",
+                    url: "{{ route('fatch.facthadmin') }}",
                     type: 'GET',
                     dataType: 'json',
                     success: function(response) {
@@ -192,13 +192,14 @@
                         if (response.length > 0) {
                             var recentPostHtml = '';
                             $.each(response, function(index, post) {
-                                var truncatedDescription = post.description.split(' ').slice(0,
+                                var truncatedname = post.name.split(' ').slice(0,
                                     2).join(' ');
-                                var truncatedTitle = post.title.split(' ').slice(0, 2).join(
-                                    ' ');
+                                var truncatedUsername = post.username.split(' ').slice(0, 2).join(
+                                ' ');
 
-                                var imageUrl = "{{ asset('assets/images/dailyblogs/') }}" +
-                                    '/' + post.image;
+                                var imageUrl =
+                                    "assets/images/Adminimages/" +
+                                    post.image;
 
                                 recentPostHtml += '<li class="list-group-item">';
                                 recentPostHtml +=
@@ -210,10 +211,10 @@
                                 recentPostHtml += '<div class="flex-grow">';
                                 recentPostHtml +=
                                     '<a href="" class="text-[0.875rem] font-semibold mb-0">' +
-                                    truncatedTitle + '</a>';
+                                        truncatedUsername + '</a>';
                                 recentPostHtml +=
                                     '<p class="mb-1 popular-blog-content text-truncate">' +
-                                    truncatedDescription + '</p>';
+                                        truncatedname + '</p>';
                                 recentPostHtml +=
                                     '<span class="text-[#8c9097] dark:text-white/50 text-[0.6875rem]">' +
                                     post.created_at + '</span>';
