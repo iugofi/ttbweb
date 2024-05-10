@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr" data-nav-layout="vertical" class="light" data-header-styles="light" data-menu-styles="dark">
+<html lang="en" dir="ltr" data-nav-layout="vertical" class="light" data-header-styles="light"
+    data-menu-styles="dark">
 
 
 <!-- Mirrored from php.spruko.com/tailwind/ynex/ynex/pages/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 13 Mar 2024 10:00:08 GMT -->
@@ -13,8 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Author" content="Spruko Technologies Private Limited">
     <meta name="Description" content="@yield('Description')">
-    <meta name="keywords"
-        content="@yield('keywords')">
+    <meta name="keywords" content="@yield('keywords')">
     <link rel="canonical" href="@yield('canonical')" />
 
 
@@ -26,47 +26,49 @@
         type="image/x-icon">
 
     <!-- ICONS CSS -->
-    <link href="{{asset('assets/css/icons.css')}}" rel="stylesheet">
+    <link href="{{ asset('assets/css/icons.css') }}" rel="stylesheet">
 
     <!-- STYLE CSS -->
-    <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-          <!-- Date & Time Picker CSS -->
-    <link rel="stylesheet" href="{{asset('assets/libs/flatpickr/flatpickr.min.css')}}">
- 
+    <!-- Date & Time Picker CSS -->
+    <link rel="stylesheet" href="{{ asset('assets/libs/flatpickr/flatpickr.min.css') }}">
+
 
 
     <!-- SIMPLEBAR CSS -->
-    <link rel="stylesheet" href="{{asset('assets/libs/simplebar/simplebar.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/libs/simplebar/simplebar.min.css') }}">
 
     <!-- COLOR PICKER CSS -->
-    <link rel="stylesheet" href="{{asset('assets/libs/%40simonwep/pickr/themes/nano.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/libs/%40simonwep/pickr/themes/nano.min.css') }}">
 
     <!-- MAIN JS -->
-    <script src="{{asset('assets/js/main.js')}}"></script>
+    <script src="{{ asset('assets/js/main.js') }}"></script>
 
-     <!-- Filepond CSS -->
-     <link rel="stylesheet" href="{{asset('assets/libs/filepond/filepond.min.css')}}">
-     <link rel="stylesheet" href="{{asset('assets/libs/filepond-plugin-image-preview/filepond-plugin-image-preview.min.css')}}">
-     <link rel="stylesheet" href="{{asset('assets/libs/filepond-plugin-image-edit/filepond-plugin-image-edit.min.css')}}">
+    <!-- Filepond CSS -->
+    <link rel="stylesheet" href="{{ asset('assets/libs/filepond/filepond.min.css') }}">
+    <link rel="stylesheet"
+        href="{{ asset('assets/libs/filepond-plugin-image-preview/filepond-plugin-image-preview.min.css') }}">
+    <link rel="stylesheet"
+        href="{{ asset('assets/libs/filepond-plugin-image-edit/filepond-plugin-image-edit.min.css') }}">
 
     <!-- Tom Select Css -->
-    <link rel="stylesheet" href="{{asset('assets/libs/tom-select/css/tom-select.default.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/libs/tom-select/css/tom-select.default.min.css') }}">
 
-        <!-- Choices Css -->
-    <link rel="stylesheet" href="{{asset('assets/libs/choices.js/public/assets/styles/choices.min.css')}}">
+    <!-- Choices Css -->
+    <link rel="stylesheet" href="{{ asset('assets/libs/choices.js/public/assets/styles/choices.min.css') }}">
 
     <!-- Date & Time Picker CSS -->
-    <link rel="stylesheet" href="{{asset('assets/libs/flatpickr/flatpickr.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/libs/flatpickr/flatpickr.min.css') }}">
 
     <script src="{{ asset('assets/js/message.js') }}"></script>
 
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
@@ -74,9 +76,9 @@
 
     <style>
         body {
-       background-color: rgb(var(--body-bg));
-   }
-   </style>
+            background-color: rgb(var(--body-bg));
+        }
+    </style>
 
 
 </head>
@@ -149,13 +151,14 @@
                     <p class="switcher-style-head">Navigation Styles:</p>
                     <div class="grid grid-cols-3  switcher-style">
                         <div class="flex items-center">
-                            <input type="radio" name="navigation-style" class="ti-form-radio" id="switcher-vertical"
-                                checked>
+                            <input type="radio" name="navigation-style" class="ti-form-radio"
+                                id="switcher-vertical" checked>
                             <label for="switcher-vertical"
                                 class="text-defaultsize text-defaulttextcolor dark:text-defaulttextcolor/70 ms-2  font-semibold">Vertical</label>
                         </div>
                         <div class="flex items-center">
-                            <input type="radio" name="navigation-style" class="ti-form-radio" id="switcher-horizontal">
+                            <input type="radio" name="navigation-style" class="ti-form-radio"
+                                id="switcher-horizontal">
                             <label for="switcher-horizontal"
                                 class="text-defaultsize text-defaulttextcolor dark:text-defaulttextcolor/70 ms-2  font-semibold">Horizontal</label>
                         </div>
@@ -193,7 +196,8 @@
                                 Hover</label>
                         </div>
                     </div>
-                    <div class="px-4 text-secondary text-xs"><b class="me-2">Note:</b>Works same for both Vertical and
+                    <div class="px-4 text-secondary text-xs"><b class="me-2">Note:</b>Works same for both Vertical
+                        and
                         Horizontal
                     </div>
                 </div>
@@ -243,25 +247,28 @@
                                 Menu</label>
                         </div>
                     </div>
-                    <div class="px-4 text-secondary text-xs"><b class="me-2">Note:</b>Navigation menu styles won't work
+                    <div class="px-4 text-secondary text-xs"><b class="me-2">Note:</b>Navigation menu styles won't
+                        work
                         here.</div>
                 </div>
                 <div>
                     <p class="switcher-style-head">Page Styles:</p>
                     <div class="grid grid-cols-3  switcher-style">
                         <div class="flex">
-                            <input type="radio" name="data-page-styles" class="ti-form-radio" id="switcher-regular"
-                                checked>
+                            <input type="radio" name="data-page-styles" class="ti-form-radio"
+                                id="switcher-regular" checked>
                             <label for="switcher-regular"
                                 class="text-defaultsize text-defaulttextcolor dark:text-defaulttextcolor/70 ms-2  font-semibold">Regular</label>
                         </div>
                         <div class="flex">
-                            <input type="radio" name="data-page-styles" class="ti-form-radio" id="switcher-classic">
+                            <input type="radio" name="data-page-styles" class="ti-form-radio"
+                                id="switcher-classic">
                             <label for="switcher-classic"
                                 class="text-defaultsize text-defaulttextcolor dark:text-defaulttextcolor/70 ms-2  font-semibold">Classic</label>
                         </div>
                         <div class="flex">
-                            <input type="radio" name="data-page-styles" class="ti-form-radio" id="switcher-modern">
+                            <input type="radio" name="data-page-styles" class="ti-form-radio"
+                                id="switcher-modern">
                             <label for="switcher-modern"
                                 class="text-defaultsize text-defaulttextcolor dark:text-defaulttextcolor/70 ms-2  font-semibold">
                                 Modern</label>
@@ -325,14 +332,15 @@
                     <p class="switcher-style-head">Loader:</p>
                     <div class="grid grid-cols-3 switcher-style">
                         <div class="flex">
-                            <input type="radio" name="page-loader" class="ti-form-radio" id="switcher-loader-enable"
-                                checked>
+                            <input type="radio" name="page-loader" class="ti-form-radio"
+                                id="switcher-loader-enable" checked>
                             <label for="switcher-loader-enable"
                                 class="text-defaultsize text-defaulttextcolor dark:text-defaulttextcolor/70 ms-2  font-semibold">
                                 Enable</label>
                         </div>
                         <div class="flex">
-                            <input type="radio" name="page-loader" class="ti-form-radio" id="switcher-loader-disable">
+                            <input type="radio" name="page-loader" class="ti-form-radio"
+                                id="switcher-loader-disable">
                             <label for="switcher-loader-disable"
                                 class="text-defaultsize text-defaulttextcolor dark:text-defaulttextcolor/70 ms-2  font-semibold">Disable
                             </label>
@@ -381,8 +389,8 @@
                             </span>
                         </div>
                         <div class="hs-tooltip ti-main-tooltip ti-form-radio switch-select ">
-                            <input class="hs-tooltip-toggle ti-form-radio color-input color-transparent" type="radio"
-                                name="menu-colors" id="switcher-menu-transparent">
+                            <input class="hs-tooltip-toggle ti-form-radio color-input color-transparent"
+                                type="radio" name="menu-colors" id="switcher-menu-transparent">
                             <span
                                 class="hs-tooltip-content ti-main-tooltip-content !py-1 !px-2 !bg-black text-xs font-medium !text-white shadow-sm dark:!bg-black"
                                 role="tooltip">
@@ -390,7 +398,8 @@
                             </span>
                         </div>
                     </div>
-                    <div class="px-4 text-[#8c9097] dark:text-white/50 text-[.6875rem]"><b class="me-2">Note:</b>If you
+                    <div class="px-4 text-[#8c9097] dark:text-white/50 text-[.6875rem]"><b class="me-2">Note:</b>If
+                        you
                         want to change color Menu
                         dynamically
                         change from below Theme Primary color picker.</div>
@@ -399,8 +408,8 @@
                     <p class="switcher-style-head">Header Colors:</p>
                     <div class="flex switcher-style space-x-3 rtl:space-x-reverse">
                         <div class="hs-tooltip ti-main-tooltip ti-form-radio switch-select ">
-                            <input class="hs-tooltip-toggle ti-form-radio color-input color-white !border" type="radio"
-                                name="header-colors" id="switcher-header-light" checked>
+                            <input class="hs-tooltip-toggle ti-form-radio color-input color-white !border"
+                                type="radio" name="header-colors" id="switcher-header-light" checked>
                             <span
                                 class="hs-tooltip-content ti-main-tooltip-content !py-1 !px-2 !bg-black text-xs font-medium !text-white shadow-sm dark:!bg-black"
                                 role="tooltip">
@@ -435,8 +444,8 @@
                             </span>
                         </div>
                         <div class="hs-tooltip ti-main-tooltip ti-form-radio switch-select ">
-                            <input class="hs-tooltip-toggle ti-form-radio color-input color-transparent" type="radio"
-                                name="header-colors" id="switcher-header-transparent">
+                            <input class="hs-tooltip-toggle ti-form-radio color-input color-transparent"
+                                type="radio" name="header-colors" id="switcher-header-transparent">
                             <span
                                 class="hs-tooltip-content ti-main-tooltip-content !py-1 !px-2 !bg-black text-xs font-medium !text-white shadow-sm dark:!bg-black"
                                 role="tooltip">
@@ -444,7 +453,8 @@
                             </span>
                         </div>
                     </div>
-                    <div class="px-4 text-[#8c9097] dark:text-white/50 text-[.6875rem]"><b class="me-2">Note:</b>If you
+                    <div class="px-4 text-[#8c9097] dark:text-white/50 text-[.6875rem]"><b class="me-2">Note:</b>If
+                        you
                         want to change color
                         Header dynamically
                         change from below Theme Primary color picker.</div>
@@ -453,24 +463,24 @@
                     <p class="switcher-style-head">Theme Primary:</p>
                     <div class="flex switcher-style space-x-3 rtl:space-x-reverse">
                         <div class="ti-form-radio switch-select">
-                            <input class="ti-form-radio color-input color-primary-1" type="radio" name="theme-primary"
-                                id="switcher-primary">
+                            <input class="ti-form-radio color-input color-primary-1" type="radio"
+                                name="theme-primary" id="switcher-primary">
                         </div>
                         <div class="ti-form-radio switch-select">
-                            <input class="ti-form-radio color-input color-primary-2" type="radio" name="theme-primary"
-                                id="switcher-primary1">
+                            <input class="ti-form-radio color-input color-primary-2" type="radio"
+                                name="theme-primary" id="switcher-primary1">
                         </div>
                         <div class="ti-form-radio switch-select">
-                            <input class="ti-form-radio color-input color-primary-3" type="radio" name="theme-primary"
-                                id="switcher-primary2">
+                            <input class="ti-form-radio color-input color-primary-3" type="radio"
+                                name="theme-primary" id="switcher-primary2">
                         </div>
                         <div class="ti-form-radio switch-select">
-                            <input class="ti-form-radio color-input color-primary-4" type="radio" name="theme-primary"
-                                id="switcher-primary3">
+                            <input class="ti-form-radio color-input color-primary-4" type="radio"
+                                name="theme-primary" id="switcher-primary3">
                         </div>
                         <div class="ti-form-radio switch-select">
-                            <input class="ti-form-radio color-input color-primary-5" type="radio" name="theme-primary"
-                                id="switcher-primary4">
+                            <input class="ti-form-radio color-input color-primary-5" type="radio"
+                                name="theme-primary" id="switcher-primary4">
                         </div>
                         <div class="ti-form-radio switch-select ps-0 mt-1 color-primary-light">
                             <div class="theme-container-primary"></div>
@@ -482,24 +492,24 @@
                     <p class="switcher-style-head">Theme Background:</p>
                     <div class="flex switcher-style space-x-3 rtl:space-x-reverse">
                         <div class="ti-form-radio switch-select">
-                            <input class="ti-form-radio color-input color-bg-1" type="radio" name="theme-background"
-                                id="switcher-background">
+                            <input class="ti-form-radio color-input color-bg-1" type="radio"
+                                name="theme-background" id="switcher-background">
                         </div>
                         <div class="ti-form-radio switch-select">
-                            <input class="ti-form-radio color-input color-bg-2" type="radio" name="theme-background"
-                                id="switcher-background1">
+                            <input class="ti-form-radio color-input color-bg-2" type="radio"
+                                name="theme-background" id="switcher-background1">
                         </div>
                         <div class="ti-form-radio switch-select">
-                            <input class="ti-form-radio color-input color-bg-3" type="radio" name="theme-background"
-                                id="switcher-background2">
+                            <input class="ti-form-radio color-input color-bg-3" type="radio"
+                                name="theme-background" id="switcher-background2">
                         </div>
                         <div class="ti-form-radio switch-select">
-                            <input class="ti-form-radio color-input color-bg-4" type="radio" name="theme-background"
-                                id="switcher-background3">
+                            <input class="ti-form-radio color-input color-bg-4" type="radio"
+                                name="theme-background" id="switcher-background3">
                         </div>
                         <div class="ti-form-radio switch-select">
-                            <input class="ti-form-radio color-input color-bg-5" type="radio" name="theme-background"
-                                id="switcher-background4">
+                            <input class="ti-form-radio color-input color-bg-5" type="radio"
+                                name="theme-background" id="switcher-background4">
                         </div>
                         <div class="ti-form-radio switch-select ps-0 mt-1 color-bg-transparent">
                             <div class="theme-container-background hidden"></div>
@@ -562,15 +572,17 @@
                         <div class="header-element">
                             <div class="horizontal-logo">
                                 <a href="index.html" class="header-logo">
-                                    <img src="{{asset('assets/images/brand-logos/favicon.png')}}" alt="logo"
+                                    <img src="{{ asset('assets/images/brand-logos/favicon.png') }}" alt="logo"
                                         class="desktop-logo">
-                                    <img src="{{asset('assets/images/brand-logos/favicon.png')}}" alt="logo" class="toggle-logo">
-                                    <img src="{{asset('assets/images/brand-logos/favicon.png')}}" alt="logo"
+                                    <img src="{{ asset('assets/images/brand-logos/favicon.png') }}" alt="logo"
+                                        class="toggle-logo">
+                                    <img src="{{ asset('assets/images/brand-logos/favicon.png') }}" alt="logo"
                                         class="desktop-dark">
-                                    <img src="{{asset('assets/images/brand-logos/favicon.png')}}" alt="logo" class="toggle-dark">
-                                    <img src="{{asset('assets/images/brand-logos/favicon.png')}}" alt="logo"
+                                    <img src="{{ asset('assets/images/brand-logos/favicon.png') }}" alt="logo"
+                                        class="toggle-dark">
+                                    <img src="{{ asset('assets/images/brand-logos/favicon.png') }}" alt="logo"
                                         class="desktop-white">
-                                    <img src="{{asset('assets/images/brand-logos/favicon.png')}}" alt="logo"
+                                    <img src="{{ asset('assets/images/brand-logos/favicon.png') }}" alt="logo"
                                         class="toggle-white">
                                 </a>
                             </div>
@@ -589,7 +601,7 @@
                     </div>
 
                     <div class="header-content-right">
-                     
+
 
                         <!-- light and dark theme -->
                         <div
@@ -608,13 +620,12 @@
                         <!-- End light and dark theme -->
 
                         <!-- Header Profile -->
-                        <div
-                            class="header-element md:!px-[0.65rem] px-2 hs-dropdown !items-center ti-dropdown [--placement:bottom-left]">
-
+                        <div class="header-element md:!px-[0.65rem] px-2 hs-dropdown !items-center ti-dropdown [--placement:bottom-left]">
                             <button id="dropdown-profile" type="button"
                                 class="hs-dropdown-toggle ti-dropdown-toggle !gap-2 !p-0 flex-shrink-0 sm:me-2 me-0 !rounded-full !shadow-none text-xs align-middle !border-0 !shadow-transparent ">
-                                <img class="inline-block rounded-full " src="{{asset('assets/images/faces/9.jpg')}}" width="32"
-                                    height="32" alt="Image Description">
+                                <img class="inline-block rounded-full "
+                                    src="{{ asset('assets/images/faces/9.jpg') }}" width="32" height="32"
+                                    alt="Image Description">
                             </button>
                             <div class="md:block hidden dropdown-profile">
                                 <p class="font-semibold mb-0 leading-none text-[#536485] text-[0.813rem] ">Json Taylor
@@ -622,6 +633,13 @@
                                 <span class="opacity-[0.7] font-normal text-[#536485] block text-[0.6875rem] ">Web
                                     Designer</span>
                             </div>
+                            @php
+                                if(session('loggedInAdmin')){
+                                    $sessionid=session('loggedInAdmin');
+                                    $user=DB::select('select * from admins where id= '$sessionid'');
+                                    dd($user);
+                                }
+                            @endphp
                             <div class="hs-dropdown-menu ti-dropdown-menu !-mt-3 border-0 w-[11rem] !p-0 border-defaultborder hidden main-header-dropdown  pt-0 overflow-hidden header-profile-dropdown dropdown-menu-end"
                                 aria-labelledby="dropdown-profile">
 
@@ -631,36 +649,22 @@
                                             href="profile.html">
                                             <i class="ti ti-user-circle text-[1.125rem] me-2 opacity-[0.7]"></i>Profile
                                         </a>
-                                    </li>
-                                    <li>
-                                        <a class="w-full ti-dropdown-item !text-[0.8125rem] !gap-x-0  !p-[0.65rem] !inline-flex"
-                                            href="mail.html"><i
-                                                class="ti ti-inbox text-[1.125rem] me-2 opacity-[0.7]"></i>Inbox <span
-                                                class="!py-1 !px-[0.45rem] !font-semibold !rounded-sm text-success text-[0.75em] bg-success/10 ms-auto">25</span>
-                                        </a>
-                                    </li>
-                                    <li><a class="w-full ti-dropdown-item !text-[0.8125rem] !gap-x-0 !p-[0.65rem] !inline-flex"
-                                            href="todo.html"><i
-                                                class="ti ti-clipboard-check text-[1.125rem] me-2 opacity-[0.7]"></i>Task
-                                            Manager</a></li>
+                                    </li>  
                                     <li><a class="w-full ti-dropdown-item !text-[0.8125rem] !gap-x-0 !p-[0.65rem] !inline-flex"
                                             href="mail-settings.html"><i
                                                 class="ti ti-adjustments-horizontal text-[1.125rem] me-2 opacity-[0.7]"></i>Settings</a>
                                     </li>
-                                    <li><a class="w-full ti-dropdown-item !text-[0.8125rem] !gap-x-0 !p-[0.65rem] !inline-flex "
+                                    {{-- <li><a class="w-full ti-dropdown-item !text-[0.8125rem] !gap-x-0 !p-[0.65rem] !inline-flex "
                                             href="javascript:void(0);"><i
                                                 class="ti ti-wallet text-[1.125rem] me-2 opacity-[0.7]"></i>Bal:
-                                            $7,12,950</a></li>
+                                            $7,12,950</a></li> --}}                          
                                     <li><a class="w-full ti-dropdown-item !text-[0.8125rem] !p-[0.65rem] !gap-x-0 !inline-flex"
-                                            href="chat.html"><i
-                                                class="ti ti-headset text-[1.125rem] me-2 opacity-[0.7]"></i>Support</a>
-                                    </li>
-                                    <li><a class="w-full ti-dropdown-item !text-[0.8125rem] !p-[0.65rem] !gap-x-0 !inline-flex"
-                                            href="{{route('admin.logout')}}"><i
+                                            href="{{ route('admin.logout') }}"><i
                                                 class="ti ti-logout text-[1.125rem] me-2 opacity-[0.7]"></i>Log Out</a>
                                     </li>
                                 </ul>
                             </div>
+
                         </div>
                         <!-- End Header Profile -->
 
@@ -680,6 +684,4 @@
             </nav>
         </header>
 
-    @extends('Admin.Layouts.nav')
-       
-  
+        @extends('Admin.Layouts.nav')
