@@ -173,6 +173,13 @@ Route::post('/editblog', [AdminController::class, 'editblog'])->name('edit.blog'
 Route::get('/storepickpage', [AdminController::class, 'storepickpage'])->name('admin.storepickpage');
 Route::get('/fatchstorepick', [AdminController::class, 'fatchstorepick'])->name('fetch.storepick');
 
+//user admin section
+Route::get('/useradminpage', [AdminController::class, 'useradminpage'])->name('admin.useradminpage');
+
+Route::get('/useradmincreate', [AdminController::class, 'useradmincreate'])->name('admin.useradmincreate');
+
+
+
 
 
 
