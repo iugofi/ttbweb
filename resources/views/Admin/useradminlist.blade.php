@@ -92,7 +92,10 @@
                                             <td class="border px-4 py-2">
                                                 <?php
                                                     try {
-                                                        echo \Crypt::decrypt($item->password);
+                                                        $passworddecrypt= \Crypt::decrypt($item->password);
+                                                        ?>
+                                                        <input type="checkbox" value="{{$passworddecrypt}}" onclick="myFunction()">Show Password
+                                                        <?php
                                                     } catch (\Illuminate\Contracts\Encryption\DecryptException $e) {
                                                         echo "Decryption failed: " . $e->getMessage();
                                                     }
@@ -195,6 +198,24 @@
                 }
             });
         });
+    </script>
+
+    <script>
+    function myFunction() {
+  var x = document.getElementById("myInput");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}function myFunction() {
+  var x = document.getElementById("myInput");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
     </script>
 
 
