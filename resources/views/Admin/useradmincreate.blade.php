@@ -98,7 +98,7 @@
                                         <div class="invalid-feedback"></div>
                                     </div>
 
-                                    <div class="xl:col-span-6 col-span-6">
+                                    <div class="xl:col-span-6 col-span-6 flex">
                                         <label for="blog-title" class="form-label">Password</label>
                                         <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
                                             id="password" name="password" placeholder="Enter Your Username">
