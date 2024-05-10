@@ -92,11 +92,16 @@
                                             <td class="border px-4 py-2">
                                                 <?php
                                                     try {
-                                                        $passworddecrypt= \Crypt::decrypt($item->password);
+                                                        $passworddyc=\Crypt::decrypt($item->password);
                                                         ?>
-                                                        <input type="password" value="{{$passworddecrypt}}" id="myInput">
-                                                        <input type="checkbox" onclick="myFunction()"><i
-                                                        class="ri-eye-off-line align-middle"></i>
+                                                        <input type="password" class="form-control block w-full text-[0.875rem] !rounded-md"
+                                                        id="password" name="password" value="$passworddyc">
+                                                        <button aria-label="button" type="button"
+                                                        class="ti-btn ti-btn-light !rounded-s-none !mb-0"
+                                                        onclick="togglePasswordVisibility('password')"><i
+                                                            class="ri-eye-off-line align-middle"></i></button>
+                                                            <br><br>
+                                                         
                                                         <?php
                                                     } catch (\Illuminate\Contracts\Encryption\DecryptException $e) {
                                                         echo "Decryption failed: " . $e->getMessage();
@@ -200,24 +205,6 @@
                 }
             });
         });
-    </script>
-
-    <script>
-    function myFunction() {
-  var x = document.getElementById("myInput");
-  if (x.type === "password") {
-    x.type = "text";
-  } else {
-    x.type = "password";
-  }
-}function myFunction() {
-  var x = document.getElementById("myInput");
-  if (x.type === "password") {
-    x.type = "text";
-  } else {
-    x.type = "password";
-  }
-}
     </script>
 
 
