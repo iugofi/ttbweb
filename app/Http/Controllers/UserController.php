@@ -574,7 +574,7 @@ public function signdata(Request $request)
         $user = Admin::where('email',$request->signin_email)->first();
         if($user)
         {
-            if(Hash::check($request->signin_password, $user->password))
+            if(check(\Crypt::decrypt($request->signin_password), $user->password))
             {
                 $request->session()->put('loggedInAdmin',$user->id);
                 $request->session()->put('admintype',$user->admintype);
