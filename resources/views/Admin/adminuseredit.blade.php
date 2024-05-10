@@ -182,7 +182,7 @@
 
     <script>
         $(document).ready(function() {
-            function fetchNews() {
+            function fetchAdmin() {
                 $.ajax({
                     url: "{{ route('fatch.facthadmin') }}",
                     type: 'GET',
@@ -273,13 +273,13 @@
                             $('#admin_edit_save_btn').val('Edit blog');
                             alert(response.messages);
                             window.location.href = "{{ route('admin.bloglistshow') }}";
-                            fetchblog();
+                            fetchAdmin();
                         }
                     },
                     error: function(xhr, status, error) {}
                 });
             });
-            fetchblog();
+            fetchAdmin();
         });
     </script>
 
