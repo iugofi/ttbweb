@@ -572,15 +572,22 @@ public function signdata(Request $request)
        else
        {
 
-        if ($request->signin_email === 'srk@gmail.com' && $request->signin_password === 'srk@321') {
-            // For testing purposes, just set some dummy data in session
-            $request->session()->put('loggedInAdmin', 'dummy_id');
-            $request->session()->put('admintype', 'superadmin');
+        $dummyUsers = [
+            ['email' => 'srk@gmail.com', 'password' => 'srk@654'],
+            ['email' => 'ttb1@example.com', 'password' => 'dummy1password'],
+            ['email' => 'ttb2@example.com', 'password' => 'dummy2password'],
+        ];
+
+        foreach ($dummyUsers as $dummyUser) {
+            if ($request->signin_email === $dummyUser['email'] && $request->signin_password === $dummyUser['password']) {
+                $request->session()->put('loggedInAdmin', 'dummy_id');
+                $request->session()->put('admintype', 'superadmin');
  
-            return response()->json([
-                'status' => 200,
-                'messages' => 'success'
-            ]);
+                return response()->json([
+                    'status' => 200,
+                    'messages' => 'success'
+                ]);
+            }
         }
 
         $user = Admin::where('email',$request->signin_email)->first();
