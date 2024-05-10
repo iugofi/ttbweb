@@ -46,22 +46,20 @@
                         <div class="box-header">
                             <div class="box-title">Admin Create</div>
                         </div>
-                        <form method="post" id="news_form" enctype="multipart/form-data">
+                        <form method="post" id="admin_form" enctype="multipart/form-data">
                             @csrf
                             <div class="box-body">
                                 <div class="box text-center">
                                     <div class="" id="show_success_alert"></div>
                                 </div>
-                               
-
                                 <div class="grid grid-cols-12 gap-4">
                                     @php
                                     if (session('admintype')== 'superadmin') {
                                      @endphp  
                                      <div class="xl:col-span-6 col-span-12">
-                                            <label for="blog-Language" class="form-label">Admin Type</label>
+                                            <label for="admin_type" class="form-label">Admin Type</label>
                                             <select class="form-control block w-full text-[0.875rem] !rounded-md" data-trigger
-                                                name="news_status" id="news_status">
+                                                name="admin_type" id="admin_type">
                                                 <option value="">Select</option>
                                                 @php
                                                     $Admintype = DB::table('storepick')
@@ -134,6 +132,7 @@
 
                                     <div class="xl:col-span-12 col-span-12 blog-images-container">
                                         <label for="blog-author-email" class="form-label">Admin Images</label>
+                                        <br>
                                         <input type="file" class="news_images" id="news_images" name="news_images"
                                             multiple data-allow-reorder="true" data-max-file-size="3MB"
                                             data-max-files="6">
@@ -145,7 +144,7 @@
                             <div class="box-footer">
                                 <div class="text-end">
                                     {{-- <button type="button" class="ti-btn !py-1 !px-2 ti-btn-light !text-[0.75rem] !font-medium me-2">Save As Draft</button> --}}
-                                    <input type="submit" value="Post News" id="news_save_btn"
+                                    <input type="submit" value="Save Admin" id="news_save_btn"
                                         class="ti-btn bg-primary text-white !py-1 !px-2 !text-[0.75rem] !font-medium">
                                 </div>
                             </div>
@@ -235,7 +234,7 @@
                 });
             }
 
-            $('#news_form').submit(function(e) {
+            $('#admin_form').submit(function(e) {
                 e.preventDefault();
                 $('#news_save_btn').val('please wait..');
                 var token = $('meta[name="csrf-token"]').attr('content');
@@ -262,14 +261,14 @@
                             showError('news_images', response.messages.news_images);
                             showError('news_status', response.messages.news_status);
 
-                            $('#news_save_btn').val('Post News');
+                            $('#news_save_btn').val('Save Admin');
                         } else if (response.status == 200) {
                             $('.invalid-feedback').empty();
                             $("#show_success_alert").html(showMessage('success', response
                                 .messages));
-                            $('#news_form')[0].reset();
-                            removeValidationClass("#news_form");
-                            $('#news_save_btn').val('Post News');
+                            $('#admin_form')[0].reset();
+                            removeValidationClass("#admin_form");
+                            $('#news_save_btn').val('Save Admin');
                             fetchNews();
                         }
                     },
