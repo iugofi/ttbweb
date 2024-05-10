@@ -144,7 +144,7 @@
                             <div class="box-footer">
                                 <div class="text-end">
                                     {{-- <button type="button" class="ti-btn !py-1 !px-2 ti-btn-light !text-[0.75rem] !font-medium me-2">Save As Draft</button> --}}
-                                    <input type="submit" value="Save Admin" id="news_save_btn"
+                                    <input type="submit" value="Save Admin" id="admin_save_btn"
                                         class="ti-btn bg-primary text-white !py-1 !px-2 !text-[0.75rem] !font-medium">
                                 </div>
                             </div>
@@ -236,7 +236,7 @@
 
             $('#admin_form').submit(function(e) {
                 e.preventDefault();
-                $('#news_save_btn').val('please wait..');
+                $('#admin_save_btn').val('please wait..');
                 var token = $('meta[name="csrf-token"]').attr('content');
                 var formData = new FormData($(this)[0]);
 
@@ -251,24 +251,19 @@
                     processData: false,
                     success: function(response) {
                         if (response.status == 400) {
-                            showError('news_title', response.messages.news_title);
-                            showError('news_slug', response.messages.news_slug);
-                            showError('meta_title', response.messages.meta_title);
-                            showError('canonical_url', response.messages.canonical_url);
-                            showError('meta_keyword', response.messages.meta_keyword);
-                            showError('meta_desc', response.messages.meta_desc);
-                            showError('editoronebest', response.messages.news_description);
-                            showError('news_images', response.messages.news_images);
-                            showError('news_status', response.messages.news_status);
-
-                            $('#news_save_btn').val('Save Admin');
+                            showError('email', response.messages.email);
+                            showError('name', response.messages.name);
+                            showError('username', response.messages.username);
+                            showError('password', response.messages.password);
+                            showError('admin_status', response.messages.admin_status);
+                            $('#admin_save_btn').val('Save Admin');
                         } else if (response.status == 200) {
                             $('.invalid-feedback').empty();
                             $("#show_success_alert").html(showMessage('success', response
                                 .messages));
                             $('#admin_form')[0].reset();
                             removeValidationClass("#admin_form");
-                            $('#news_save_btn').val('Save Admin');
+                            $('#admin_save_btn').val('Save Admin');
                             fetchNews();
                         }
                     },
