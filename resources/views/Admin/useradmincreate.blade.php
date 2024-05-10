@@ -57,7 +57,7 @@
                                 if (session('admintype')== 'superadmin') {
                                  @endphp  
                                  <div class="xl:col-span-12 col-span-12">
-                                        <label for="blog-Language" class="form-label">Status</label>
+                                        <label for="blog-Language" class="form-label">Admin Type</label>
                                         <select class="form-control block w-full text-[0.875rem] !rounded-md" data-trigger
                                             name="news_status" id="news_status">
                                             <option value="">Select</option>
