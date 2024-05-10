@@ -68,7 +68,7 @@
                                                         ->get();
                                                 @endphp
                                                 @foreach ($Admintype as $Admintypes)
-                                                    <option value="{{ $Admintypes->PICK_ID }}">{{ $Admintypes->PICK_TEXT }}</option>
+                                                    <option value="{{ $Admintypes->PICK_ID }}" {{ $Admintypes->PICK_ID == $editadmin->admintype ? 'selected' : '' }}>{{ $Admintypes->PICK_TEXT }}</option>
                                                 @endforeach
     
                                             </select>
