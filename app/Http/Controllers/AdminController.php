@@ -671,7 +671,7 @@ public function newslistshow(){
                                     'name' => $request->name,
                                     'username' => $request->username,
                                     'password' => \Crypt::encrypt($request->password),
-                                    'status' => $request->status,
+                                    'status' => $request->admin_status,
                                     'image' => $imageName
                                 ]);
                 
