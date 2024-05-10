@@ -561,6 +561,7 @@ public function newslistshow(){
                             $Admin->admintype = $useradmintype;
                             $Admin->email = $request->email;
                             $Admin->name = $request->name;
+                            $Admin->username = $request->username;
                             $Admin->password = $request->password;
                             $Admin->status =$request->admin_status;
                             $Admin->image=$imageName;
