@@ -496,14 +496,16 @@ public function newslistshow(){
                 {
                     if ($this->loggedInAdmin) {
                         $useradminlist = null;
-                
+                        $data=Storepick::where('STORE_ID','Admintype')->pluck('PICK_TEXT','PICK_TEXT');
                         if ($this->admintype == 'admin') {
                             $useradminlist = Admin::where('admintype', 'admin')->get();
+                           
+
                         } elseif ($this->admintype == 'superadmin') {
                             $useradminlist = Admin::all();
                         }
                 
-                        return view('Admin.useradminlist', ['useradminlist' => $useradminlist]);
+                        return view('Admin.useradminlist', ['useradminlist' => $useradminlist],['data' => $data]);
                     } else {
                         return redirect('/setup');
                     }
