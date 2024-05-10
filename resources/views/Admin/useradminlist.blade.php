@@ -90,10 +90,16 @@
                                             <td class="border px-4 py-2">{{ $item->name }}</td>                               
                                             <td class="border px-4 py-2">{{ $item->username }}</td>  
                                             <td class="border px-4 py-2">
-                                                
-                                                 {{ \Crypt::decrypt($item->password) }}
-                                         
+                                                <?php
+                                                    try {
+                                                        echo \Crypt::decrypt($item->password);
+                                                    } catch (\Illuminate\Contracts\Encryption\DecryptException $e) {
+                                                        echo "Decryption failed: " . $e->getMessage();
+                                                    }
+                                                ?>
                                             </td>
+                                            
+                                            
                                                                       
                                             <td class="border px-4 py-2">
                                                 <div class="flex items-center font-semibold">
