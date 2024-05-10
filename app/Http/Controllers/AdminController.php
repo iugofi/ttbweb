@@ -604,8 +604,8 @@ public function newslistshow(){
 
                 public function adminuseredit($id){
                     if ($this->loggedInAdmin) {
-    
-                        $editadmin=Admin::find($id);
+                     $decryptid=\Crypt::decrypt($id);
+                        $editadmin=Admin::find($decryptid);
     
                         return view('Admin.adminuseredit',['editadmin'=>$editadmin]);
                     
