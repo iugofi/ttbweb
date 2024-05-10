@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="{{ asset('assets/libs/gridjs/theme/mermaid.min.css') }}">
 
     <style>
-        div#example_length {
+        div#showdata_length {
             display: none;
         }
 
