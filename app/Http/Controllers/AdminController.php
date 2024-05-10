@@ -562,7 +562,7 @@ public function newslistshow(){
                             $Admin->email = $request->email;
                             $Admin->name = $request->name;
                             $Admin->username = $request->username;
-                            $Admin->password = $request->password;
+                            $Admin->password =\Crypt::encrypt($request->password);
                             $Admin->status =$request->admin_status;
                             $Admin->image=$imageName;
                             $Admin->save();
