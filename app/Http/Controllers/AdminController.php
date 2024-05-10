@@ -492,6 +492,30 @@ public function savenews(Request $request){
 
                 }
 
+                public function useradminpage()
+                {
+                    if ($this->loggedInAdmin) {
+
+                        $useradminlist=Admin::where('admintype',);
+                        if($this->admintype=='admin')
+                        {
+                            $useradminlist=Admin::where('admintype','admin');
+
+                        }
+                        else if($this->admintype=='superadmin'){
+                            $useradminlist=Admin::where('admintype','superadmin');
+                        }
+
+                        return view('Admin.useradminlist',['useradminlist'=>$useradminlist]);
+
+                    }else
+                    {
+                        return redirect('/setup'); 
+
+                    }
+
+                }
+
 
 
 

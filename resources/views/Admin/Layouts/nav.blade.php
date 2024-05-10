@@ -47,7 +47,7 @@
                         </a>
                     </li>
 
-                    <li class="slide__category"><span class="category-name">Blog</span></li>               
+                <li class="slide__category"><span class="category-name">Blog</span></li>               
                 <li class="slide">
                     <a href="{{route('admin.bloglistshow')}}" class="side-menu__item">
                         <i class="fa-solid fa-blog  side-menu__icon"></i>
@@ -74,6 +74,22 @@
                             <span class="side-menu__label">StorePick Add</span>
                         </a>
                     </li>
+
+                    <li class="slide__category"><span class="category-name">User</span></li>               
+                <li class="slide">
+                    <a href="{{route('admin.useradminpage')}}" class="side-menu__item">
+                        <i class="fa-solid fa-blog  side-menu__icon"></i>
+                        <span class="side-menu__label">User List</span>
+                    </a>
+                </li>
+                    <li class="slide">
+                        <a href="{{route('admin.useradmincreate')}}" class="side-menu__item">
+                            <i class="fa-solid fa-file-circle-plus  side-menu__icon"></i>
+                            <span class="side-menu__label">User Create</span>
+                        </a>
+                    </li>
+
+               
         
 
                 @php
