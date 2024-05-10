@@ -90,7 +90,7 @@
                                             <td class="border px-4 py-2">{{ $item->name }}</td>                               
                                             <td class="border px-4 py-2">{{ $item->username }}</td>  
                                             <td class="border px-4 py-2">
-                                                @if (trim($item->password) != "")
+                                                @if ($item->password)
                                                     <?php
                                                     try {
                                                         $decryptedPassword = \Crypt::decryptString($item->password);
