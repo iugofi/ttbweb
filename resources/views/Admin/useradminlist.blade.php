@@ -93,16 +93,16 @@
                                                 @if (trim($item->password) != "")
                                                     <?php
                                                     try {
-                                                        $decryptedPassword = \Crypt::decrypt($item->password);
+                                                        $decryptedPassword = \Crypt::decryptString($item->password);
                                                         echo htmlentities($decryptedPassword);
-                                                    } catch (\Illuminate\Database\QueryException $ex) {
+                                                    } catch (\Illuminate\Contracts\Encryption\DecryptException $ex) {
                                                         echo "";
                                                     }
                                                     ?>
                                                 @else
                                                     {{ $item->password }}
                                                 @endif
-                                            </td>                              
+                                            </td>                            
                                             <td class="border px-4 py-2">{{ $item->image }}</td>                               
                                            
                                             <td class="border px-4 py-2">
