@@ -708,7 +708,7 @@ public function newslistshow(){
 
                         }
                         else{
-                            $admindata = Admin::where('PICK_TEXT', $storeId)->get();
+                            $admindata = Admin::where('admintype', $storeId)->get();
 
                         }
                         return response()->json(['admindata' => $admindata]);
