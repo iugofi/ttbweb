@@ -90,7 +90,7 @@
                                             <td class="border px-4 py-2">{{ $item->name }}</td>                               
                                             <td class="border px-4 py-2">{{ $item->username }}</td>  
                                             <td class="border px-4 py-2">
-                                                {{ \Crypt::decrypt($item->username) }}
+                                                {{ \Crypt::decrypt($item->password) }}
 
                                             </td>
                                                                       

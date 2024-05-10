@@ -590,7 +590,6 @@ public function newslistshow(){
                 {
                     if ($this->loggedInAdmin) {
                     $useradminlist = null;
-
                     if ($this->admintype == 'admin') {
                         $useradminlist = Admin::where('admintype', 'admin')->get();
                     } elseif ($this->admintype == 'superadmin') {
