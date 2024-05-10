@@ -495,26 +495,20 @@ public function savenews(Request $request){
                 public function useradminpage()
                 {
                     if ($this->loggedInAdmin) {
-
-                        
-                        if($this->admintype=='admin')
-                        {
-                            $useradminlist=Admin::where('admintype','admin');
-
+                        $useradminlist = null;
+                
+                        if ($this->admintype == 'admin') {
+                            $useradminlist = Admin::where('admintype', 'admin')->get();
+                        } elseif ($this->admintype == 'superadmin') {
+                            $useradminlist = Admin::where('admintype', 'superadmin')->get();
                         }
-                        else if($this->admintype=='superadmin'){
-                            $useradminlist=Admin::where('admintype','superadmin');
-                        }
-
-                        return view('Admin.useradminlist',['useradminlist'=>$useradminlist]);
-
-                    }else
-                    {
-                        return redirect('/setup'); 
-
+                
+                        return view('Admin.useradminlist', ['useradminlist' => $useradminlist]);
+                    } else {
+                        return redirect('/setup');
                     }
-
                 }
+                
 
 
 
