@@ -142,8 +142,8 @@ public function newslistshow(){
 
             public function newsedit($id){
                 if ($this->loggedInAdmin) {
-
-                    $editnews=News::find($id);
+                    $decryptid=\Crypt::decrypt($id);
+                    $editnews=News::find($decryptid);
 
                     return view('Admin.newsedit',['editnews'=>$editnews]);
                 
