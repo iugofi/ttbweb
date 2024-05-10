@@ -634,12 +634,13 @@
                                     Designer</span>
                             </div>
                             @php
-                                if(session('loggedInAdmin')){
-                                    $sessionid=session('loggedInAdmin');
-                                    $user=DB::select('select * from admins where id= '$sessionid'');
-                                    dd($user);
-                                }
-                            @endphp
+                            if(session('loggedInAdmin')){
+                                $sessionId = session('loggedInAdmin');
+                                $user = \App\Models\Admin::find($sessionId);
+                                dd($user);
+                            }
+                        @endphp
+
                             <div class="hs-dropdown-menu ti-dropdown-menu !-mt-3 border-0 w-[11rem] !p-0 border-defaultborder hidden main-header-dropdown  pt-0 overflow-hidden header-profile-dropdown dropdown-menu-end"
                                 aria-labelledby="dropdown-profile">
 
