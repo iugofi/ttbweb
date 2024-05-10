@@ -694,6 +694,32 @@ public function newslistshow(){
                         return redirect('/setup'); 
                     }
                 }
+
+                public function fatchadmindataajax(Request $request)
+                {
+                    if ($this->loggedInAdmin) {
+
+
+
+                        $storeId = $request->input('storeId');
+                        if($storeId==null)
+                        {
+                            $admindata = Admin::get();
+
+                        }
+                        else{
+                            $admindata = Admin::where('STORE_ID', $storeId)->get();
+
+                        }
+                        return response()->json(['admindata' => $admindata]);
+
+                    }else
+                    {
+                        return redirect('/setup'); 
+
+                    }
+
+                }
                 
 
 

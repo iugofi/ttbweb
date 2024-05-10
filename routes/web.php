@@ -183,6 +183,8 @@ Route::post('/editadminusersave', [AdminController::class, 'editadminusersave'])
 Route::get('/useradmincreate', [AdminController::class, 'useradmincreate'])->name('admin.useradmincreate');
 Route::post('/saveuseradmin', [AdminController::class, 'saveuseradmin'])->name('save.saveuseradmin');
 Route::get('/facthadmin', [AdminController::class, 'facthadmin'])->name('fatch.facthadmin');
+Route::get('/fatchadmindataajax', [AdminController::class, 'fatchadmindataajax'])->name('fetch.fatchadmindataajax');
+
 
 
 

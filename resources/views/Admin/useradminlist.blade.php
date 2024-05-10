@@ -193,6 +193,61 @@
         });
     </script>
 
+
+<script>
+    $(document).ready(function() {
+        $('#STORE_ID').on('change', function() {
+            var storeId = $(this).val();
+            console.log(storeId);
+            if (storeId) {
+                $.ajax({
+                    url: '{{ route('fetch.fatchadmindataajax') }}',
+                    type: 'GET',
+                    data: {
+                        storeId: storeId
+                    },
+                    dataType: 'json',
+                    success: function(response) {
+                        var tbody = $('#example tbody');
+                        tbody.empty();
+                        $.each(response.storepick, function(key, item) {
+                            var row = '<tr>' +
+                                '<td class="border px-4 py-2">' + (key + 1) +
+                                '</td>' +
+                                '<td class="border px-4 py-2">' + item.admintype +
+                                '</td>' +
+                                '<td class="border px-4 py-2">' + item.email +
+                                '</td>' +
+                                '<td class="border px-4 py-2">' + item.name +
+                                '</td>' +
+                                '<td class="border px-4 py-2">' + item.password +
+                                '</td>' +
+                                '<td class="border">' + item.image +
+                                '</td>' +
+                                
+                                '<td class="border px-4 py-2">' +
+                                '<div class="flex flex-row items-center !gap-2 text-[0.9375rem]">' +
+                                '<a aria-label="anchor" href="{{ route('edit.newsedit', ['id' => ' + item.id + ']) }}" class="ti-btn ti-btn-icon ti-btn-wave !gap-0 !m-0 !h-[1.75rem] !w-[1.75rem] text-[0.8rem] bg-primary/10 text-primary hover:bg-primary hover:text-white hover:border-primary">' +
+                                '<i class="ri-edit-line"></i>' +
+                                '</a>' +
+                                '<button aria-label="button" type="button" class="ti-btn !py-1 !px-2 !text-[0.75rem] ti-btn-danger-full btn-wave delete-storepick" data-item-id="' +
+                                item.id + '">' +
+                                '<i class="ri-delete-bin-line align-middle me-2 inline-block"></i>Delete' +
+                                '</button>' +
+                                '</div>' +
+                                '</td>' +
+                                '</tr>';
+                            tbody.append(row);
+                        });
+                    }
+                });
+            } else {
+                $('#example tbody').empty();
+            }
+        });
+    });
+</script>
+
     <script>
         $(document).ready(function() {
             var csrfToken = $('meta[name="csrf-token"]').attr('content');
