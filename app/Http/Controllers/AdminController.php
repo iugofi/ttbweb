@@ -68,8 +68,8 @@ public function newslistshow(){
     }
 }
 
-public function savenews(Request $request){
-    if ($this->loggedInAdmin) {
+        public function savenews(Request $request){
+        if ($this->loggedInAdmin) {
 
         $validator = Validator::make($request->all(), [
             'news_title' => 'required',
@@ -519,6 +519,87 @@ public function savenews(Request $request){
                         return redirect('/setup');
 
                     }
+                }
+
+                public function saveuseradmin(Request $request){
+                    if ($this->loggedInAdmin) {
+            
+                    $validator = Validator::make($request->all(), [
+                        'email' => 'required',
+                        'name' => 'required',
+                        'username' => 'required',
+                        'password' => 'required',
+                        'admin_status'=>'required' 
+                    ]);
+                    
+            
+                    
+            
+                    if ($validator->fails()) {
+                        return response()->json([
+                            'status' => 400,
+                            'messages' => $validator->getMessageBag()->toArray() // Convert messages to array
+                        ]);
+                    }
+                    else
+                    {
+            
+                        if ($request->hasFile('admin_images')) {
+                            $image = $request->file('admin_images');
+                            $imageName = time().'.'.$image->getClientOriginalExtension(); 
+                            $image->move('assets/images/Adminimages', $imageName);
+                           
+                            $useradmintype=null;
+                            if ($this->admintype == 'admin') {
+                                $useradmintype = 'admin';
+                            } elseif ($this->admintype == 'superadmin') {
+                                $useradmintype = $request->admin_type;
+
+                            }
+
+                            $Admin = new Admin();
+                            $Admin->admintype = $useradmintype;
+                            $Admin->email = $request->email;
+                            $Admin->name = $request->name;
+                            $Admin->password = $request->password;
+                            $Admin->status =$request->admin_status;
+                            $Admin->image=$imageName;
+                            $Admin->save();
+                            
+                            } else {
+                                return response()->json([
+                                    'status' => 400,
+                                    'messages' => 'No image uploaded'
+                                ]);
+                            }
+                            return response()->json([
+                                'status' => 200,
+                                'messages' => 'Admin Add successfully'
+                            ]);
+            
+                            }
+                            
+            
+                        } else {
+                            return redirect('/setup');
+                        }
+                        }
+
+                public function facthadmin()
+                {
+                    if ($this->loggedInAdmin) {
+                    $useradminlist = null;
+
+                    if ($this->admintype == 'admin') {
+                        $useradminlist = Admin::where('admintype', 'admin')->get();
+                    } elseif ($this->admintype == 'superadmin') {
+                        $useradminlist = Admin::all();
+                    }
+                    return response()->json($useradminlist);
+
+                } else {
+                    return redirect('/setup');
+                }
                 }
                 
 

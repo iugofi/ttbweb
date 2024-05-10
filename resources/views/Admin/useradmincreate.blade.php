@@ -99,7 +99,7 @@
                                     <div class="xl:col-span-6 col-span-6">
                                         <label for="blog-title" class="form-label">Password</label>
                                         <div class="flex">
-                                        <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
+                                        <input type="password" class="form-control block w-full text-[0.875rem] !rounded-md"
                                             id="password" name="password" placeholder="Enter Your Username">
                                             <button aria-label="button" type="button"
                                             class="ti-btn ti-btn-light !rounded-s-none !mb-0"
@@ -114,7 +114,7 @@
                                     <div class="xl:col-span-6 col-span-6">
                                         <label for="blog-Language" class="form-label">Status</label>
                                         <select class="form-control block w-full text-[0.875rem] !rounded-md" data-trigger
-                                            name="news_status" id="news_status">
+                                            name="admin_status" id="admin_status">
                                             <option value="">Select</option>
                                             @php
                                                 $status = DB::table('storepick')
@@ -133,7 +133,7 @@
                                     <div class="xl:col-span-12 col-span-12 blog-images-container">
                                         <label for="blog-author-email" class="form-label">Admin Images</label>
                                         <br>
-                                        <input type="file" class="news_images" id="news_images" name="news_images"
+                                        <input type="file" class="admin_images" id="admin_images" name="admin_images"
                                             multiple data-allow-reorder="true" data-max-file-size="3MB"
                                             data-max-files="6">
                                         <div class="invalid-feedback"></div>
@@ -181,7 +181,7 @@
         $(document).ready(function() {
             function fetchNews() {
                 $.ajax({
-                    url: "{{ route('fatch.news') }}",
+                    url: "{{ route('fatch.facthadmin') }}",
                     type: 'GET',
                     dataType: 'json',
                     success: function(response) {
@@ -189,13 +189,13 @@
                         if (response.length > 0) {
                             var recentPostHtml = '';
                             $.each(response, function(index, post) {
-                                var truncatedDescription = post.description.split(' ').slice(0,
+                                var truncatedname = post.name.split(' ').slice(0,
                                     2).join(' ');
-                                var truncatedTitle = post.title.split(' ').slice(0, 2).join(
+                                var truncatedUsername = post.username.split(' ').slice(0, 2).join(
                                 ' ');
 
                                 var imageUrl =
-                                    "assets/images/dailynews/" +
+                                    "assets/images/Adminimages/" +
                                     post.image;
 
                                 recentPostHtml += '<li class="list-group-item">';
@@ -208,10 +208,10 @@
                                 recentPostHtml += '<div class="flex-grow">';
                                 recentPostHtml +=
                                     '<a href="" class="text-[0.875rem] font-semibold mb-0">' +
-                                    truncatedTitle + '</a>';
+                                        truncatedUsername + '</a>';
                                 recentPostHtml +=
                                     '<p class="mb-1 popular-blog-content text-truncate">' +
-                                    truncatedDescription + '</p>';
+                                        truncatedname + '</p>';
                                 recentPostHtml +=
                                     '<span class="text-[#8c9097] dark:text-white/50 text-[0.6875rem]">' +
                                     post.created_at + '</span>';
@@ -241,7 +241,7 @@
                 var formData = new FormData($(this)[0]);
 
                 $.ajax({
-                    url: '{{ route('save.news') }}',
+                    url: '{{ route('save.saveuseradmin') }}',
                     method: 'post',
                     data: formData,
                     headers: {
