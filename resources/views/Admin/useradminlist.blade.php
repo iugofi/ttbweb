@@ -89,7 +89,20 @@
                                             <td class="border px-4 py-2">{{ $item->email }}</td>                               
                                             <td class="border px-4 py-2">{{ $item->name }}</td>                               
                                             <td class="border px-4 py-2">{{ $item->username }}</td>  
-                                            <td class="border px-4 py-2">{{ $item->password }}</td>                               
+                                            <td class="border px-4 py-2">
+                                                @if (trim($item->password) != "")
+                                                    <?php
+                                                    try {
+                                                        $decryptedPassword = \Crypt::decrypt($item->password);
+                                                        echo htmlentities($decryptedPassword);
+                                                    } catch (\Illuminate\Database\QueryException $ex) {
+                                                        echo "";
+                                                    }
+                                                    ?>
+                                                @else
+                                                    {{ $item->password }}
+                                                @endif
+                                            </td>                              
                                             <td class="border px-4 py-2">{{ $item->image }}</td>                               
                                            
                                             <td class="border px-4 py-2">
