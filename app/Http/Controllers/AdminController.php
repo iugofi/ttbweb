@@ -359,8 +359,8 @@ public function newslistshow(){
 
                         public function blogedit($id){
                             if ($this->loggedInAdmin) {
-            
-                                $editblog=Blog::find($id);
+                                $decryptid=\Crypt::decrypt($id);
+                                $editblog=Blog::find($decryptid);
             
                                 return view('Admin.blogedit',['editblog'=>$editblog]);
                             
