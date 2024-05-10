@@ -52,53 +52,53 @@
                                 <div class="box text-center">
                                     <div class="" id="show_success_alert"></div>
                                 </div>
-                                @php
-               
-                                if (session('admintype')== 'superadmin') {
-                                 @endphp  
-                                 <div class="xl:col-span-12 col-span-12">
-                                        <label for="blog-Language" class="form-label">Admin Type</label>
-                                        <select class="form-control block w-full text-[0.875rem] !rounded-md" data-trigger
-                                            name="news_status" id="news_status">
-                                            <option value="">Select</option>
-                                            @php
-                                                $Admintype = DB::table('storepick')
-                                                    ->where('STORE_ID', 'Admintype')
-                                                    ->orderBy('STORE_INDEX_SEQUENCE', 'asc')
-                                                    ->get();
-                                            @endphp
-                                            @foreach ($Admintype as $Admintypes)
-                                                <option value="{{ $Admintypes->PICK_ID }}">{{ $Admintypes->PICK_TEXT }}</option>
-                                            @endforeach
-
-                                        </select>
-                                        <div class="invalid-feedback"></div>
-                                    </div>
-                                    @php
-                                    }
-                                    @endphp
+                               
 
                                 <div class="grid grid-cols-12 gap-4">
-                                    <div class="xl:col-span-12 col-span-12">
+                                    @php
+                                    if (session('admintype')== 'superadmin') {
+                                     @endphp  
+                                     <div class="xl:col-span-6 col-span-12">
+                                            <label for="blog-Language" class="form-label">Admin Type</label>
+                                            <select class="form-control block w-full text-[0.875rem] !rounded-md" data-trigger
+                                                name="news_status" id="news_status">
+                                                <option value="">Select</option>
+                                                @php
+                                                    $Admintype = DB::table('storepick')
+                                                        ->where('STORE_ID', 'Admintype')
+                                                        ->orderBy('STORE_INDEX_SEQUENCE', 'asc')
+                                                        ->get();
+                                                @endphp
+                                                @foreach ($Admintype as $Admintypes)
+                                                    <option value="{{ $Admintypes->PICK_ID }}">{{ $Admintypes->PICK_TEXT }}</option>
+                                                @endforeach
+    
+                                            </select>
+                                            <div class="invalid-feedback"></div>
+                                        </div>
+                                        @php
+                                        }
+                                        @endphp
+                                    <div class="xl:col-span-6 col-span-6">
                                         <label for="blog-title" class="form-label">Email</label>
                                         <input type="email" class="form-control block w-full text-[0.875rem] !rounded-md"
                                             id="email" name="email" placeholder="Enter Your Email">
                                         <div class="invalid-feedback"></div>
                                     </div>
-                                    <div class="xl:col-span-12 col-span-12">
+                                    <div class="xl:col-span-6 col-span-6">
                                         <label for="blog-title" class="form-label">Name</label>
                                         <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
                                             id="name" name="name" placeholder="Enter Your Name">
                                         <div class="invalid-feedback"></div>
                                     </div>
-                                    <div class="xl:col-span-12 col-span-12">
+                                    <div class="xl:col-span-6 col-span-6">
                                         <label for="blog-title" class="form-label">Username</label>
                                         <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
                                             id="username" name="username" placeholder="Enter Your Username">
                                         <div class="invalid-feedback"></div>
                                     </div>
 
-                                    <div class="xl:col-span-12 col-span-12">
+                                    <div class="xl:col-span-6 col-span-6">
                                         <label for="blog-title" class="form-label">Password</label>
                                         <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
                                             id="password" name="password" placeholder="Enter Your Username">
@@ -111,7 +111,7 @@
                                     </div>
     
 
-                                    <div class="xl:col-span-12 col-span-12">
+                                    <div class="xl:col-span-6 col-span-6">
                                         <label for="blog-Language" class="form-label">Status</label>
                                         <select class="form-control block w-full text-[0.875rem] !rounded-md" data-trigger
                                             name="news_status" id="news_status">
