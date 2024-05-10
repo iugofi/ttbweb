@@ -94,7 +94,7 @@
                                                     try {
                                                         $passworddyc=\Crypt::decrypt($item->password);
                                                         ?>
-                                                        <div class="flex">
+                                                        <div class="flex hide-bdr">
                                                         <input type="password" class="form-control block w-full text-[0.875rem] !rounded-md"
                                                         id="password_{{$item->id}}" name="password" value="$passworddyc">
                                                         <button aria-label="button" type="button"
