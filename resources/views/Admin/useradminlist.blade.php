@@ -94,7 +94,9 @@
                                                     try {
                                                         $passworddecrypt= \Crypt::decrypt($item->password);
                                                         ?>
-                                                        <input type="checkbox" value="{{$passworddecrypt}}" onclick="myFunction()">Show Password
+                                                        <input type="password" value="{{$passworddecrypt}}" id="myInput">
+                                                        <input type="checkbox" onclick="myFunction()"><i
+                                                        class="ri-eye-off-line align-middle"></i>
                                                         <?php
                                                     } catch (\Illuminate\Contracts\Encryption\DecryptException $e) {
                                                         echo "Decryption failed: " . $e->getMessage();
