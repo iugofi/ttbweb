@@ -175,6 +175,8 @@ Route::get('/fatchstorepick', [AdminController::class, 'fatchstorepick'])->name(
 
 //user admin section
 Route::get('/useradminpage', [AdminController::class, 'useradminpage'])->name('admin.useradminpage');
+Route::get('/adminuseredit/{id}', [AdminController::class, 'adminuseredit'])->name('edit.adminuseredit');
+
 
 Route::get('/useradmincreate', [AdminController::class, 'useradmincreate'])->name('admin.useradmincreate');
 Route::post('/saveuseradmin', [AdminController::class, 'saveuseradmin'])->name('save.saveuseradmin');

@@ -601,6 +601,18 @@ public function newslistshow(){
                     return redirect('/setup');
                 }
                 }
+
+                public function adminuseredit($id){
+                    if ($this->loggedInAdmin) {
+    
+                        $editadmin=Admin::find($id);
+    
+                        return view('Admin.adminuseredit',['editadmin'=>$editadmin]);
+                    
+                    } else {
+                        return redirect('/setup');
+                    }
+                }
                 
 
 
