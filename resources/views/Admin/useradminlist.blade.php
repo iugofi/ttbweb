@@ -96,7 +96,7 @@
                                                         ?>
                                                         <div class="flex">
                                                         <input type="password" class="form-control block w-full text-[0.875rem] !rounded-md"
-                                                        id="password_{{$item->id}}" name="password" value="{{$passworddyc}}a" disabled>
+                                                        id="password_{{$item->id}}" name="password" value="{{$passworddyc}}q" disabled>
                                                         <button aria-label="button" type="button"
                                                         class="ti-btn ti-btn-light !rounded-s-none !mb-0"
                                                         onclick="togglePasswordVisibility('password_{{$item->id}}')"><i
