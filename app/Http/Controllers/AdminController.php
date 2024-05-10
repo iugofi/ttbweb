@@ -508,6 +508,18 @@ public function savenews(Request $request){
                         return redirect('/setup');
                     }
                 }
+
+                public function useradmincreate()
+                {
+                    if ($this->loggedInAdmin) {
+
+                        return view('Admin.useradmincreate');
+                    }
+                    else{
+                        return redirect('/setup');
+
+                    }
+                }
                 
 
 
