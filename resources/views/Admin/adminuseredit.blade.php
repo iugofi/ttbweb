@@ -101,7 +101,7 @@
                                         <label for="blog-title" class="form-label">Password</label>
                                         <div class="flex">
                                         <input type="password" class="form-control block w-full text-[0.875rem] !rounded-md"
-                                            id="password" name="password"value="{{ \Crypt::decrypt({{ isset($editadmin->password) ? $editadmin->password : '' }}); }}" placeholder="Enter Your Username">
+                                            id="password" name="password"value="{{ isset($editadmin->password) ? \Crypt::decrypt($editadmin->password) : '' }}" placeholder="Enter Your Username">
                                             <button aria-label="button" type="button"
                                             class="ti-btn ti-btn-light !rounded-s-none !mb-0"
                                             onclick="togglePasswordVisibility('password')"><i
