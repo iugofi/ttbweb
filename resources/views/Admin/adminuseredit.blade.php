@@ -266,7 +266,7 @@
                             removeValidationClass("#admin_edit_form");
                             $('#admin_edit_save_btn').val('Save Admin');
                             alert(response.messages);
-                            window.location.href = "{{ route('admin.bloglistshow') }}";
+                            window.location.href = "{{ route('admin.useradminpage') }}";
                             fetchAdmin();
                         }
                     },
