@@ -75,6 +75,8 @@
                                         <th class="px-4 py-2">username</th>
                                         <th class="px-4 py-2">password</th>
                                         <th class="px-4 py-2">image</th>
+                                        <th class="px-4 py-2">Action</th>
+
 
                                     </tr>
                                 </thead>
