@@ -60,6 +60,9 @@
                                 User List
                             </div>
                         </div>
+                        @php
+                        if (session('admintype')== 'superadmin') {
+                         @endphp  
                         <div class="box-body">
                             <div class="grid md:grid-cols-4 sm:grid-cols-2">
                                 <div class="xl:col-span-1 md:col-span-1 sm:col-span-1 col-span-2">
@@ -71,6 +74,10 @@
                                 </select>
                             </div>
                         </div>
+                        @php
+                        }
+                        @endphp
+                        
                         <div class="box-body">
                             <div class="box text-center">
                                 <div class="" id="show_success_alert"></div>
