@@ -197,9 +197,7 @@
                                 var truncatedUsername = post.username.split(' ').slice(0, 2).join(
                                 ' ');
 
-                                var imageUrl =
-                                    "assets/images/Adminimages/" +
-                                    post.image;
+                                var imageUrl = "{{asset('assets/images/Adminimages/')}}"+ '/' + post.image;
 
                                 recentPostHtml += '<li class="list-group-item">';
                                 recentPostHtml +=
