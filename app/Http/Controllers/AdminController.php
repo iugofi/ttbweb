@@ -496,7 +496,7 @@ public function savenews(Request $request){
                 {
                     if ($this->loggedInAdmin) {
 
-                        $useradminlist=Admin::where('admintype',);
+                        
                         if($this->admintype=='admin')
                         {
                             $useradminlist=Admin::where('admintype','admin');
