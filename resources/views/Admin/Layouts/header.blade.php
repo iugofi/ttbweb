@@ -630,7 +630,7 @@
                             <button id="dropdown-profile" type="button"
                                 class="hs-dropdown-toggle ti-dropdown-toggle !gap-2 !p-0 flex-shrink-0 sm:me-2 me-0 !rounded-full !shadow-none text-xs align-middle !border-0 !shadow-transparent ">
                                 <img class="inline-block rounded-full"
-                                    src="{{ asset('assets/images/Adminimages/' . (isset($user->admintype) ? $user->admintype : '')) }}"
+                                    src="{{ asset('assets/images/Adminimages/' . (isset($user->image) ? $user->image : '')) }}"
                                     width="32" height="32" alt="Image Description">
 
                             </button>
