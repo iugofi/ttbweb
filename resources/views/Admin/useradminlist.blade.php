@@ -90,15 +90,8 @@
                                             <td class="border px-4 py-2">{{ $item->name }}</td>                               
                                             <td class="border px-4 py-2">{{ $item->username }}</td>  
                                             <td class="border px-4 py-2">
-                                                @php
-                                                    try {
-                                                        $passworddrypt = \Crypt::decrypt($item->username);
-                                                        echo $passworddrypt;
-                                                    } catch (\Illuminate\Contracts\Encryption\DecryptException $e) {
-                                                        // Handle decryption errors
-                                                        echo "Error: Unable to decrypt data.";
-                                                    }
-                                                @endphp
+                                                {{ \Crypt::decrypt($item->username) }}
+
                                             </td>
                                                                       
                                             <td class="border px-4 py-2">{{ $item->image }}</td>                               
