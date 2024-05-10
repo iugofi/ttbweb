@@ -217,7 +217,7 @@
                     success: function(response) {
                         var tbody = $('#showdata tbody');
                         tbody.empty();
-                        $.each(response.storepick, function(key, item) {
+                        $.each(response.admindata, function(key, item) {
                             var row = '<tr>' +
                                 '<td class="border px-4 py-2">' + (key + 1) +
                                 '</td>' +
