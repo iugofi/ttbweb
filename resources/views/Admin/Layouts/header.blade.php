@@ -629,14 +629,13 @@
                             <button id="dropdown-profile" type="button"
                                 class="hs-dropdown-toggle ti-dropdown-toggle !gap-2 !p-0 flex-shrink-0 sm:me-2 me-0 !rounded-full !shadow-none text-xs align-middle !border-0 !shadow-transparent ">
                                 <img class="inline-block rounded-full "
-                                    src="{{ asset('assets/images/faces/9.jpg') }}" width="32" height="32"
+                                    src="{{ asset('assets/images/Adminimages/'.{{ isset($user->admintype) ? $user->admintype : '' }}) }}" width="32" height="32"
                                     alt="Image Description">
                             </button>
                             <div class="md:block hidden dropdown-profile">
-                                <p class="font-semibold mb-0 leading-none text-[#536485] text-[0.813rem] ">{{$user->name}}
+                                <p class="font-semibold mb-0 leading-none text-[#536485] text-[0.813rem] ">{{ isset($user->name) ? $user->name : '' }}
                                 </p>
-                                <span class="opacity-[0.7] font-normal text-[#536485] block text-[0.6875rem] ">Web
-                                    Designer</span>
+                                <span class="opacity-[0.7] font-normal text-[#536485] block text-[0.6875rem] ">{{ isset($user->admintype) ? $user->admintype : '' }}</span>
                             </div>
                            
 
