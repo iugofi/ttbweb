@@ -187,8 +187,8 @@
                             </div>
 
                         </div>
-                        <div class="action-btns mt-4">
-                            <a href="#" class="ti-btn bg-primary text-white">Explore More</a>
+                        <div class="action-btns mt-5">
+                            <a href="#" class="ti-btn bg-primary text-white mt-5">Explore More</a>
                         </div>
                     </div>
                 </div>
