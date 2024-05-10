@@ -28,9 +28,9 @@
             <!-- Page Header -->
             <div class="block justify-between page-header md:flex">
                 <div>
-                    <h3
+                    {{-- <h3
                         class="!text-defaulttextcolor dark:!text-defaulttextcolor/70 dark:text-white dark:hover:text-white text-[1.125rem] font-semibold">
-                        News</h3>
+                        News</h3> --}}
                 </div>
                 <ol class="flex items-center whitespace-nowrap min-w-0">
                     <li class="text-[0.813rem] ps-[0.5rem]">
@@ -43,7 +43,7 @@
                     </li>
                     <li class="text-[0.813rem] text-defaulttextcolor font-semibold hover:text-primary dark:text-[#8c9097] dark:text-white/50 "
                         aria-current="page">
-                        News
+                        User List
                     </li>
                 </ol>
             </div>
