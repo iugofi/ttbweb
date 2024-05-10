@@ -155,8 +155,36 @@
                 </a>
             </div>
             <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
-                <img src="{{ asset('assets/img/mobile vpn one.jpg') }}" alt="" class="img-fluid"
-                    width="100%">
+                <img src="{{ asset('assets/img/mobile vpn one.jpg') }}" alt="" class="img-fluid" width="100%">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="vpn-section-three">
+    <div class="container main-banner-container">
+        <div class="grid grid-cols-12 gap-6">
+            <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12">
+                <i class=""></i>
+                <h3>278 <sup>+</sup></h3>
+                <p>Servers Active</p>
+            </div>
+            <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12">
+                <i></i>
+                <h3>11,458<sup>+</sup></h3>
+                <p>User Request</p>
+            </div>
+            <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12">
+                <i></i>
+                <h3>100  <sup>%</sup></h3>
+                <p>Money Back</p>
+            </div>
+            <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12">
+                <i></i>
+                <h3>85 <sup>+</sup></h3>
+                <p>Expert Support Team</p>
             </div>
         </div>
     </div>
