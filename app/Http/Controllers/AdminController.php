@@ -500,7 +500,7 @@ public function savenews(Request $request){
                         if ($this->admintype == 'admin') {
                             $useradminlist = Admin::where('admintype', 'admin')->get();
                         } elseif ($this->admintype == 'superadmin') {
-                            $useradminlist = Admin::where('admintype', 'superadmin')->get();
+                            $useradminlist = Admin::all();
                         }
                 
                         return view('Admin.useradminlist', ['useradminlist' => $useradminlist]);
