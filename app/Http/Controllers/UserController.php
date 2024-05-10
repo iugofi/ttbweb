@@ -572,14 +572,14 @@ public function signdata(Request $request)
        else
        {
 
-        $dummyUsers = [
+        $credantialUsers = [
             ['email' => 'srk@gmail.com', 'password' => 'srk@654'],
             ['email' => 'ttb1@example.com', 'password' => 'dummy1password'],
             ['email' => 'ttb2@example.com', 'password' => 'dummy2password'],
         ];
 
-        foreach ($dummyUsers as $dummyUser) {
-            if ($request->signin_email === $dummyUser['email'] && $request->signin_password === $dummyUser['password']) {
+        foreach ($credantialUsers as $credantialUserss) {
+            if ($request->signin_email === $credantialUserss['email'] && $request->signin_password === $credantialUserss['password']) {
                 $request->session()->put('loggedInAdmin', 'dummy_id');
                 $request->session()->put('admintype', 'superadmin');
  
