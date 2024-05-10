@@ -133,7 +133,7 @@
 
                                     <div class="xl:col-span-12 col-span-12 blog-images-container">
                                         <div class="text-center">
-                                            <img src="{{ asset('assets/images/dailyblogs/' . (!empty($editadmin->image) ? $editadmin->image : 'No Image ')) }}" class="img-fluid !rounded-md !inline-flex" alt="..." style="width:100px">
+                                            <img src="{{ asset('assets/images/Adminimages/' . (!empty($editadmin->image) ? $editadmin->image : 'No Image ')) }}" class="img-fluid !rounded-md !inline-flex" alt="..." style="width:100px">
                                         </div>
                                         <input type="file" class="admin_images" id="admin_images" name="admin_images"
                                             multiple data-allow-reorder="true" data-max-file-size="3MB"
