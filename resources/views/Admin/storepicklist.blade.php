@@ -27,11 +27,11 @@
 
             <!-- Page Header -->
             <div class="block justify-between page-header md:flex">
-                <div>
+                {{-- <div>
                     <h3
                         class="!text-defaulttextcolor dark:!text-defaulttextcolor/70 dark:text-white dark:hover:text-white text-[1.125rem] font-semibold">
                         Storepick</h3>
-                </div>
+                </div> --}}
                 <ol class="flex items-center whitespace-nowrap min-w-0">
                     <li class="text-[0.813rem] ps-[0.5rem]">
                         <a class="flex items-center text-primary hover:text-primary dark:text-primary truncate"
