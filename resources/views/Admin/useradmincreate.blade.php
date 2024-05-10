@@ -98,8 +98,9 @@
                                         <div class="invalid-feedback"></div>
                                     </div>
 
-                                    <div class="xl:col-span-6 col-span-6 flex">
+                                    <div class="xl:col-span-6 col-span-6">
                                         <label for="blog-title" class="form-label">Password</label>
+                                        <div class="flex">
                                         <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
                                             id="password" name="password" placeholder="Enter Your Username">
                                             <button aria-label="button" type="button"
@@ -107,6 +108,7 @@
                                             onclick="togglePasswordVisibility('password')"><i
                                                 class="ri-eye-off-line align-middle"></i></button>
                                                 <br><br>
+                                            </div>
                                         <div class="invalid-feedback"></div>
                                     </div>
     
