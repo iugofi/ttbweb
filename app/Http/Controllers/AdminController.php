@@ -613,6 +613,85 @@ public function newslistshow(){
                         return redirect('/setup');
                     }
                 }
+
+
+                public function editadminusersave(Request $request)
+                {
+                    $id=$request->main_id;  
+                   
+                    if ($this->loggedInAdmin) {
+                        $validator = Validator::make($request->all(), [
+                            'email' => 'required',
+                            'name' => 'required',
+                            'username' => 'required',
+                            'password' => 'required',
+                            'admin_status'=>'required' 
+                          
+                        ]);
+                        
+  
+                
+                        if ($validator->fails()) {
+                            return response()->json([
+                                'status' => 400,
+                                'messages' => $validator->getMessageBag()->toArray() // Convert messages to array
+                            ]);
+                        }
+                        else
+                        {
+                                if ($request->hasFile('admin_images')) {
+                                    $image = $request->file('admin_images');
+                                    $imageName = time().'.'.$image->getClientOriginalExtension(); 
+                                    $image->move('assets/images/Adminimages', $imageName);
+                                } else {
+                                 
+                                    $imageName = $request->image_new;
+                                }
+
+                                $news = Admin::where('id', $id)->first();
+
+                                if (!$news) {
+                                    return response()->json([
+                                        'status' => 404,
+                                        'messages' => 'Admin not found'
+                                    ]);
+                                }
+
+                                $useradmintype=null;
+                                if ($this->admintype == 'admin') {
+                                    $useradmintype = 'admin';
+                                } elseif ($this->admintype == 'superadmin') {
+                                    $useradmintype = $request->admin_type;
+    
+                                }
+                               
+                                $news->update([
+                                    'admintype' => $useradmintype,
+                                    'email' => $request->email,
+                                    'name' => $request->name,
+                                    'username' => $request->username,
+                                    'password' => \Crypt::encrypt($request->password),
+                                    'status' => $request->status,
+                                    'image' => $imageName
+                                ]);
+                
+                               
+                                
+                                
+                
+                                return response()->json([
+                                    'status' => 200,
+                                    'messages' => 'Admin Edit successfully'
+                                ]);
+                
+                                }
+
+
+                       
+                    } else {
+                        return redirect('/setup'); 
+                    }
+                }
                 
 
 

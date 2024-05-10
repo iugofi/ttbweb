@@ -242,7 +242,7 @@
                 var formData = new FormData($(this)[0]);
 
                 $.ajax({
-                    url: "{{ route('edit.blog') }}",
+                    url: "{{ route('edit.editadminusersave') }}",
                     method: 'post',
                     data: formData,
                     headers: {
@@ -252,23 +252,19 @@
                     processData: false,
                     success: function(response) {
                         if (response.status == 400) {
-                            showError('blog_title', response.messages.blog_title);
-                            showError('blog_slug', response.messages.blog_slug);
-                            showError('meta_title', response.messages.meta_title);
-                            showError('canonical_url', response.messages.canonical_url);
-                            showError('meta_keyword', response.messages.meta_keyword);
-                            showError('meta_desc', response.messages.meta_desc);
-                            showError('editoronebest', response.messages.blog_description);
-                            showError('blog_status', response.messages.blog_status);
-
-                            $('#admin_edit_save_btn').val('Edit blog');
+                            showError('email', response.messages.email);
+                            showError('name', response.messages.name);
+                            showError('username', response.messages.username);
+                            showError('password', response.messages.password);
+                            showError('admin_status', response.messages.admin_status);
+                            $('#admin_edit_save_btn').val('Save Admin');
                         } else if (response.status == 200) {
                             $('.invalid-feedback').empty();
                             // $("#show_success_alert").html(showMessage('success', response
                             //     .messages));
                             $('#admin_edit_form')[0].reset();
                             removeValidationClass("#admin_edit_form");
-                            $('#admin_edit_save_btn').val('Edit blog');
+                            $('#admin_edit_save_btn').val('Save Admin');
                             alert(response.messages);
                             window.location.href = "{{ route('admin.bloglistshow') }}";
                             fetchAdmin();
