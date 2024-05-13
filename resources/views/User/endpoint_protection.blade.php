@@ -62,16 +62,16 @@
                                 <div class="icon-txt ms-4 mr-[1.0rem]">
                                     <h5 class="dark-text" style="color: #fff;">Best Services</h5>
                                     <p class="text-gray-light" style="color: #fff;">Lorem ipsum dolor sit amet, eiusmod
-                                        tempor.</p>
+                                        <br>tempor.</p>
                                 </div>
                             </div>
                             <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-12 inline-flex" style="border-right: 1px solid #fff; border-left: 1px solid #fff;">
-                                <img src="assets/img/Best-Support.png" class="img-fluid endpoint-icon p-1">
+                                <img src="assets/img/Best-Support.png" class="img-fluid endpoint-icon p-1 ms-3">
 
                                 <div class="icon-txt ms-4 mr-[1.0rem]">
                                     <h5 class="dark-text" style="color: #fff;">Best Services</h5>
                                     <p class="text-gray-light" style="color: #fff;">Lorem ipsum dolor sit amet, eiusmod
-                                        tempor.</p>
+                                       <br> tempor.</p>
                                 </div>
                             </div>
                             <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-12 inline-flex">
@@ -80,7 +80,7 @@
                                 <div class="icon-txt ms-4 mr-[1.0rem]">
                                     <h5 class="dark-text" style="color: #fff;">Best Services</h5>
                                     <p class="text-gray-light" style="color: #fff;">Lorem ipsum dolor sit amet, eiusmod
-                                        tempor.</p>
+                                       <br> tempor.</p>
                                 </div>
                             </div>
 
