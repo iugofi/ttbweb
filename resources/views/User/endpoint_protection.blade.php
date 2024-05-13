@@ -59,7 +59,7 @@
                             <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-12 inline-flex">
                                 <img src="assets/img/Best-Services-Iocn-1.png" class="img-fluid endpoint-icon p-1">
 
-                                <div class="icon-txt ms-4 mr-[3.75rem]">
+                                <div class="icon-txt ms-4 mr-[1.0rem]">
                                     <h5 class="dark-text" style="color: #fff;">Best Services</h5>
                                     <p class="text-gray-light" style="color: #fff;">Lorem ipsum dolor sit amet, eiusmod
                                         tempor.</p>
@@ -68,7 +68,7 @@
                             <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-12 inline-flex">
                                 <img src="assets/img/Best-Services-Iocn-1.png" class="img-fluid endpoint-icon p-1">
 
-                                <div class="icon-txt ms-4 mr-[3.75rem]">
+                                <div class="icon-txt ms-4 mr-[1.0rem]">
                                     <h5 class="dark-text" style="color: #fff;">Best Services</h5>
                                     <p class="text-gray-light" style="color: #fff;">Lorem ipsum dolor sit amet, eiusmod
                                         tempor.</p>
@@ -77,7 +77,7 @@
                             <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-12 inline-flex">
                                 <img src="assets/img/Best-Services-Iocn-1.png" class="img-fluid endpoint-icon p-1">
 
-                                <div class="icon-txt ms-4 mr-[3.75rem]">
+                                <div class="icon-txt ms-4 mr-[1.0rem]">
                                     <h5 class="dark-text" style="color: #fff;">Best Services</h5>
                                     <p class="text-gray-light" style="color: #fff;">Lorem ipsum dolor sit amet, eiusmod
                                         tempor.</p>
