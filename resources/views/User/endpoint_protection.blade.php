@@ -65,7 +65,7 @@
                                         tempor.</p>
                                 </div>
                             </div>
-                            <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-12 inline-flex">
+                            <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-12 inline-flex" style="border-right: 1px solid #fff; border-left: 1px solid #fff;">
                                 <img src="assets/img/Best-Services-Iocn-1.png" class="img-fluid endpoint-icon p-1">
 
                                 <div class="icon-txt ms-4 mr-[1.0rem]">
