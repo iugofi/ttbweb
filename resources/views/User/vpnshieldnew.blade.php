@@ -188,7 +188,7 @@
                 </div>
             </div>
             <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12 text-center">
-                <div class="img-center">
+                <div class="img-center"> 
                 <img src="{{ asset('assets/img/vpn icon one.png') }}" alt="" class="img-fluid" width="20%">
                 <h3>85 <sup>+</sup></h3>
                 <p>Expert Support Team</p>
