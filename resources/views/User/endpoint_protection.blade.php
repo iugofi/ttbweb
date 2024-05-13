@@ -250,7 +250,7 @@
                     </div>
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 pt-5 pb-0 lg:px-2 !text-start  my-auto">
                         <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">Take the Next Step</h4>
-                        <p class=" text-[0.9rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
+                        <p class=" text-[1rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
                             value with diverse web-readiness. customer service without goal-oriented catalysts for change<br><br>
                              wireless customer service without goal-oriented catalysts for change.orem ipsum dolor sit amet, eiusmod
                              tempor. Lorem ipsum dolor 
@@ -260,9 +260,9 @@
                             <div class="row-span-3">
                                 <img src="assets/img/Best-Services-Iocn-1.png" class="img-fluid !inline-flex backimg">
                             </div>
-                            <div class="col-span-2">
+                            <div class="text-[1rem] col-span-2 ">
                                 <p class="text-gray-light px-6">Lorem ipsum dolor sit amet, eiusmod
-                                    tempor. Lorem ipsum dolor<br> sit amet, eiusmod tempor.</p>
+                                    tempor. Lorem ipsum <br>dolor sit amet, eiusmod tempor.</p>
                             </div>
                             <div class="action-btns mt-2 ms-6">
                                 <a href="#" class="ti-btn bg-primary text-white">Explore More Us</a>
