@@ -40975,7 +40975,7 @@ img.img-fluid.service-icon {
 
 
 .vpn-section-four .img-center img{
-
+  display: inline;
 }
 .vpn-section-four{
     padding: 50px 0px; 
