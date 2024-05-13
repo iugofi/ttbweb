@@ -216,7 +216,7 @@
                     </div>
                 </div> --}}
                             <img src="{{ asset('assets/img/map-world.png') }}" alt="" class="img-fluid"
-                            width="100%">
+                            width="70%">
             </div>
 
         </div>
