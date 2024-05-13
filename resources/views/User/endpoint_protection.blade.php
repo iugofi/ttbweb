@@ -258,7 +258,7 @@
 
                         <div class="grid grid-rows-2 grid-flow-col gap-1">
                             <div class="row-span-3">
-                                <img src="assets/img/Best-Services-Iocn-1.png" class="img-fluid !inline-flex backimage">
+                                <img src="assets/img/Best-Services-Iocn-1.png" class="img-fluid !inline-flex backimg">
                             </div>
                             <div class="col-span-2">
                                 <p class="text-gray-light px-6">Lorem ipsum dolor sit amet, eiusmod
