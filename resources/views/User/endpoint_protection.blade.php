@@ -56,8 +56,8 @@
 
                         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-4"
                             style="display: flex;">
-                            <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-12">
-                                <img src="assets/img/Best-Services-Iocn-1.png" class="img-fluid service-icon p-1">
+                            <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-12 inline-flex">
+                                <img src="assets/img/Best-Services-Iocn-1.png" class="img-fluid endpoint-icon p-1">
 
                                 <div class="icon-txt ms-4 mr-[3.75rem]">
                                     <h5 class="dark-text">Best Services</h5>
@@ -65,8 +65,8 @@
                                         tempor.</p>
                                 </div>
                             </div>
-                            <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-12">
-                                <img src="assets/img/Best-Services-Iocn-1.png" class="img-fluid service-icon p-1">
+                            <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-12 inline-flex">
+                                <img src="assets/img/Best-Services-Iocn-1.png" class="img-fluid endpoint-icon p-1">
 
                                 <div class="icon-txt ms-4 mr-[3.75rem]">
                                     <h5 class="dark-text">Best Services</h5>
@@ -74,8 +74,8 @@
                                         tempor.</p>
                                 </div>
                             </div>
-                            <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-12">
-                                <img src="assets/img/Best-Services-Iocn-1.png" class="img-fluid service-icon p-1">
+                            <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-12 inline-flex">
+                                <img src="assets/img/Best-Services-Iocn-1.png" class="img-fluid endpoint-icon p-1">
 
                                 <div class="icon-txt ms-4 mr-[3.75rem]">
                                     <h5 class="dark-text">Best Services</h5>
