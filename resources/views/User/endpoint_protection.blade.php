@@ -97,7 +97,6 @@
         <!-- End::End Point section two -->
 
         <!-- Start::End Point section three -->
-
         <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] ">
             <div class="container endpoint-container">
                 <div
@@ -127,14 +126,116 @@
                 </div>
             </div>
         </div>
-
         <!-- End::End Point section three -->
 
+        <!-- Start::End Point section four -->
 
+        <section
+            class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
+            id="features">
+            <div class="container main-banner-container">
+                <div class="grid grid-cols-12 gap-6">
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
+                        <div class="txt">
+                            <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">Last Case
+                                Studies</span>
+                            <h2 class="landing-banner-heading font-semibold mb-2 text-[2rem]"><span>What Our Client Say
+                                    About
+                                    Apdash</h2>
+                            <div class="text-[1rem] mb-[3rem] !text-dark opacity-[0.9] ">Collaboratively actualize
+                                excellent schemas without effective <br> models. Synergistically engineer functionalized
+                                applications rather <br> than backend e-commerce.</div>
+                        </div>
+                    </div>
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
+                        <div class="grid grid-cols-12 gap-6">
+                            <div class="xl:col-span-6 col-span-12">
+                                <div class="box">
 
+                                    <div class="box-body box-bm">
+                                        <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
+                                            <img src="assets/img/Icon-1.png" alt="img" class="!rounded-md">
+                                        </span>
+                                        <h6 class="box-title font-semibold">Special title treatment</h6>
+                                        <p class="card-text mb-4">With supporting text below as a natural lead-in to
+                                            additional content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="xl:col-span-6 col-span-12">
+                                <div class="box">
 
+                                    <div class="box-body box-bm">
+                                        <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
+                                            <img src="assets/img/Icon-2.png" alt="img" class="!rounded-md">
+                                        </span>
+                                        <h6 class="box-title font-semibold">Special title treatment</h6>
+                                        <p class="card-text mb-4">With supporting text below as a natural lead-in to
+                                            additional content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 col-span-12">
+                        <div class="grid grid-cols-12 gap-6">
+                            <div class="xl:col-span-3 col-span-12">
+                                <div class="box">
 
+                                    <div class="box-body box-bm">
+                                        <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
+                                            <img src="assets/img/Icon-1.png" alt="img" class="!rounded-md">
+                                        </span>
+                                        <h6 class="box-title font-semibold">Special title treatment</h6>
+                                        <p class="card-text mb-4">With supporting text below as a natural lead-in to
+                                            additional content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="xl:col-span-3 col-span-12">
+                                <div class="box">
 
+                                    <div class="box-body box-bm">
+                                        <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
+                                            <img src="assets/img/Icon-2.png" alt="img" class="!rounded-md">
+                                        </span>
+                                        <h6 class="box-title font-semibold">Special title treatment</h6>
+                                        <p class="card-text mb-4">With supporting text below as a natural lead-in to
+                                            additional content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="xl:col-span-3 col-span-12">
+                                <div class="box">
+                                    <div class="box-body box-bm">
+                                        <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
+                                            <img src="assets/img/Icon-3.png" alt="img" class="!rounded-md">
+                                        </span>
+                                        <h6 class="box-title font-semibold">Special title treatment</h6>
+                                        <p class="card-text mb-4">With supporting text below as a natural lead-in to
+                                            additional content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="xl:col-span-3 col-span-12">
+                                <div class="box ">
+                                    <div class="box-body box-bm">
+                                        <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
+                                            <img src="assets/img/Icon-4.png" alt="img" class="!rounded-md">
+                                        </span>
+                                        <h6 class="box-title font-semibold">Special title treatment</h6>
+                                        <p class="card-text mb-4">With supporting text below as a natural lead-in to
+                                            additional content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- End::End Point section four -->
 
 
 
