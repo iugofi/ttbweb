@@ -264,7 +264,7 @@
                                 <p class="text-gray-light px-6">Lorem ipsum dolor sit amet, eiusmod
                                     tempor. Lorem ipsum dolor<br> sit amet, eiusmod tempor.</p>
                             </div>
-                            <div class="action-btns mt-4">
+                            <div class="action-btns mt-2 ms-6">
                                 <a href="#" class="ti-btn bg-primary text-white">Explore More Us</a>
                             </div>
                         </div>
