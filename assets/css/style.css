@@ -43291,6 +43291,9 @@ h6.uppercase {
     .sectntwo-endpoint {
         border: none !important;
     }
+    .sectntwo-endpoint {
+    padding: 0;
+}
 
     /* End end point Mobile css */
 
