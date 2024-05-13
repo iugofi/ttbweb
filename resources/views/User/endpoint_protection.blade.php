@@ -59,7 +59,7 @@
                             <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-12">
                                 <img src="assets/img/Best-Services-Iocn-1.png" class="img-fluid service-icon p-1">
 
-                                <div class="tt">
+                                <div class="icon-txt ms-4 mr-[3.75rem]">
                                     <h5 class="dark-text">Best Services</h5>
                                     <p class="text-gray-light">Lorem ipsum dolor sit amet, eiusmod
                                         tempor.</p>
@@ -68,7 +68,7 @@
                             <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-12">
                                 <img src="assets/img/Best-Services-Iocn-1.png" class="img-fluid service-icon p-1">
 
-                                <div class="tt mx-5 my-5">
+                                <div class="icon-txt ms-4 mr-[3.75rem]">
                                     <h5 class="dark-text">Best Services</h5>
                                     <p class="text-gray-light">Lorem ipsum dolor sit amet, eiusmod
                                         tempor.</p>
@@ -77,7 +77,7 @@
                             <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-12">
                                 <img src="assets/img/Best-Services-Iocn-1.png" class="img-fluid service-icon p-1">
 
-                                <div class="tt">
+                                <div class="icon-txt ms-4 mr-[3.75rem]">
                                     <h5 class="dark-text">Best Services</h5>
                                     <p class="text-gray-light">Lorem ipsum dolor sit amet, eiusmod
                                         tempor.</p>
