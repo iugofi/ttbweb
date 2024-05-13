@@ -44,7 +44,8 @@
         <!-- End::End Point section one -->
 
         <!-- Start::End Point section two -->
-        <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] " style="padding-top: 0px; padding-bottom: 0px; background-color:#12D2B3;">
+        <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] "
+            style="padding-top: 0px; padding-bottom: 0px; background-color:#12D2B3;">
             <div class="container main-banner-container">
 
                 <div class="grid lg:grid-cols-12 md:grid-cols-12 sm:grid-cols-12 justify-center align-center">
@@ -62,16 +63,19 @@
                                 <div class="icon-txt ms-4 mr-[1.0rem]">
                                     <h5 class="dark-text" style="color: #fff;">Best Services</h5>
                                     <p class="text-gray-light" style="color: #fff;">Lorem ipsum dolor sit amet, eiusmod
-                                        <br>tempor.</p>
+                                        <br>tempor.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-12 inline-flex ps-3 sectntwo-endpoint" style="border-right: 1px solid #fff; border-left: 1px solid #fff;">
+                            <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-12 inline-flex ps-3 sectntwo-endpoint"
+                                style="border-right: 1px solid #fff; border-left: 1px solid #fff;">
                                 <img src="assets/img/Best-Support.png" class="img-fluid endpoint-icon p-1">
 
                                 <div class="icon-txt ms-4 mr-[1.0rem]">
                                     <h5 class="dark-text" style="color: #fff;">Best Services</h5>
                                     <p class="text-gray-light" style="color: #fff;">Lorem ipsum dolor sit amet, eiusmod
-                                       <br> tempor.</p>
+                                        <br> tempor.
+                                    </p>
                                 </div>
                             </div>
                             <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-12 inline-flex">
@@ -80,7 +84,8 @@
                                 <div class="icon-txt ms-4 mr-[1.0rem]">
                                     <h5 class="dark-text" style="color: #fff;">Best Services</h5>
                                     <p class="text-gray-light" style="color: #fff;">Lorem ipsum dolor sit amet, eiusmod
-                                       <br> tempor.</p>
+                                        <br> tempor.
+                                    </p>
                                 </div>
                             </div>
 
@@ -89,14 +94,44 @@
                 </div>
             </div>
         </div>
+        <!-- End::End Point section two -->
 
+        <!-- Start::End Point section three -->
 
-        <!-- End::End Point section one -->
+        <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] ">
+            <div class="container ttbantivirus-container">
+                <div
+                    class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6  antivirus-image text-center">
+                        <div class="lg:text-start !flex items-center lg:justify-start justify-center">
+                            <img src="{{ asset('assets/img/ttb-second-section-img-2.png') }}" alt=""
+                                class="img-fluid">
+                        </div>
+                        <div class="lg:text-start !flex items-center lg:justify-start justify-center">
+                            <img src="{{ asset('assets/img/Box.png') }}" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 pt-5 pb-0 lg:px-2 !text-start">
+                        <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">About Us</span>
+                        <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">Good Qualification Services <br>
+                            And Better Skills</h4>
+                        <p class=" text-[0.9rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
+                            value with diverse web-readiness. Collaboratively transition wireless customer service without
+                            goal-oriented catalysts for change. bjectively deliver professional value with diverse web-readiness.
+                        </p>
+                        <p class=" text-[0.9rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
+                            value with diverse web-readiness.Collaboratively transition wireless customer service.
+                        </p>
 
+                        <div class="action-btns mt-4">
+                            <a href="#" class="ti-btn bg-primary text-white">Discover More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-
-
-
+        <!-- End::End Point section three -->
 
 
 
