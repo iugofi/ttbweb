@@ -103,17 +103,18 @@
                     class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 text-center">
                         <div class="lg:text-start !flex items-center lg:justify-start justify-center">
-                            <img src="{{ asset('assets/img/scnd-section-img.jpg') }}" alt=""
-                                class="img-fluid">
+                            <img src="{{ asset('assets/img/scnd-section-img.jpg') }}" alt="" class="img-fluid">
                         </div>
                     </div>
-                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 pt-5 pb-0 lg:px-2 !text-start" style="margin: 0 50px auto;">
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 pt-5 pb-0 lg:px-2 !text-start"
+                        style="margin: 0 50px auto;">
                         <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">WHP WE ARE</span>
-                        <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">WhO Does Endpoint  <br>
+                        <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">WhO Does Endpoint <br>
                             Security <span style="color:#12D2B3;">Matter?</span></h4>
                         <p class=" text-[0.9rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
                             value with diverse web-readiness. Collaboratively transition wireless customer service without
-                            goal-oriented catalysts for change. bjectively deliver professional value with diverse web-readiness.
+                            goal-oriented catalysts for change. bjectively deliver professional value with diverse
+                            web-readiness.
                         </p>
                         <p class=" text-[0.9rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
                             value with diverse web-readiness.Collaboratively transition wireless customer service.
@@ -137,14 +138,19 @@
                 <div class="grid grid-cols-12 gap-6">
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
                         <div class="txt">
-                            <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">Last Case
-                                Studies</span>
-                            <h2 class="landing-banner-heading font-semibold mb-2 text-[2rem]"><span>What Our Client Say
-                                    About
-                                    Apdash</h2>
+                            <h2 class="landing-banner-heading font-semibold mb-2 text-[2rem]">How Can TTB
+                                <span style="color:#12D2B3;">Help?
+                            </h2>
                             <div class="text-[1rem] mb-[3rem] !text-dark opacity-[0.9] ">Collaboratively actualize
-                                excellent schemas without effective <br> models. Synergistically engineer functionalized
-                                applications rather <br> than backend e-commerce.</div>
+                                excellent schemas without effective models. Synergistically engineer functionalized
+                                applications rather than backend e-commerce. Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Aliquam, sapiente in nisi adipisci natus provident numquam maiores
+                                expedita velit nulla.<br>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas laborum labore fugiat
+                                voluptate obcaecati tempore? nisi adipisci natus provident numquam maiores expedita
+                                velit nulla.
+                            </div>
+
                         </div>
                     </div>
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
@@ -156,7 +162,7 @@
                                         <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
                                             <img src="assets/img/Icon-1.png" alt="img" class="!rounded-md">
                                         </span>
-                                        <h6 class="box-title font-semibold">Special title treatment</h6>
+                                        <h6 class="box-title font-semibold">Apps Development</h6>
                                         <p class="card-text mb-4">With supporting text below as a natural lead-in to
                                             additional content.</p>
                                     </div>
@@ -169,7 +175,7 @@
                                         <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
                                             <img src="assets/img/Icon-2.png" alt="img" class="!rounded-md">
                                         </span>
-                                        <h6 class="box-title font-semibold">Special title treatment</h6>
+                                        <h6 class="box-title font-semibold">It Engineering</h6>
                                         <p class="card-text mb-4">With supporting text below as a natural lead-in to
                                             additional content.</p>
                                     </div>
@@ -186,7 +192,7 @@
                                         <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
                                             <img src="assets/img/Icon-1.png" alt="img" class="!rounded-md">
                                         </span>
-                                        <h6 class="box-title font-semibold">Special title treatment</h6>
+                                        <h6 class="box-title font-semibold">Digital Soluations</h6>
                                         <p class="card-text mb-4">With supporting text below as a natural lead-in to
                                             additional content.</p>
                                     </div>
@@ -199,7 +205,7 @@
                                         <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
                                             <img src="assets/img/Icon-2.png" alt="img" class="!rounded-md">
                                         </span>
-                                        <h6 class="box-title font-semibold">Special title treatment</h6>
+                                        <h6 class="box-title font-semibold">Market Research</h6>
                                         <p class="card-text mb-4">With supporting text below as a natural lead-in to
                                             additional content.</p>
                                     </div>
@@ -211,7 +217,7 @@
                                         <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
                                             <img src="assets/img/Icon-3.png" alt="img" class="!rounded-md">
                                         </span>
-                                        <h6 class="box-title font-semibold">Special title treatment</h6>
+                                        <h6 class="box-title font-semibold">Market Cyber Security</h6>
                                         <p class="card-text mb-4">With supporting text below as a natural lead-in to
                                             additional content.</p>
                                     </div>
@@ -223,7 +229,7 @@
                                         <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
                                             <img src="assets/img/Icon-4.png" alt="img" class="!rounded-md">
                                         </span>
-                                        <h6 class="box-title font-semibold">Special title treatment</h6>
+                                        <h6 class="box-title font-semibold">Market Cyber Security</h6>
                                         <p class="card-text mb-4">With supporting text below as a natural lead-in to
                                             additional content.</p>
                                     </div>
