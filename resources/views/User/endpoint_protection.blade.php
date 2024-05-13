@@ -111,12 +111,12 @@
                         <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">WHP WE ARE</span>
                         <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">WhO Does Endpoint <br>
                             Security <span style="color:#12D2B3;">Matter?</span></h4>
-                        <p class=" text-[0.9rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
+                        <p class=" text-[1rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
                             value with diverse web-readiness. Collaboratively transition wireless customer service without
                             goal-oriented catalysts for change. bjectively deliver professional value with diverse
                             web-readiness.
                         </p>
-                        <p class=" text-[0.9rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
+                        <p class=" text-[1rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
                             value with diverse web-readiness.Collaboratively transition wireless customer service.
                         </p>
 
@@ -131,8 +131,7 @@
 
         <!-- Start::End Point section four -->
 
-        <section
-            class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
+        <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
             id="features">
             <div class="container main-banner-container">
                 <div class="grid grid-cols-12 gap-6">
@@ -145,7 +144,9 @@
                                 excellent schemas without effective models. Synergistically engineer functionalized
                                 applications rather than backend e-commerce. Lorem ipsum dolor sit amet consectetur
                                 adipisicing elit. Aliquam, sapiente in nisi adipisci natus provident numquam maiores
-                                expedita velit nulla.<br><br>
+                                expedita velit nulla.
+                            </div>
+                            <div class="text-[1rem] mb-[3rem] !text-dark opacity-[0.9] ">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas laborum labore fugiat
                                 voluptate obcaecati tempore? nisi adipisci natus provident numquam maiores expedita
                                 velit nulla.
