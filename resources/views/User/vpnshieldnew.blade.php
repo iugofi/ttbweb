@@ -166,25 +166,33 @@
 <section class="vpn-section-four">
     <div class="container main-banner-container">
         <div class="grid grid-cols-12 gap-6">
+            <div class="img-center">
             <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12 text-center">
                 <img src="{{ asset('assets/img/vpn icon four.png') }}" alt="" class="img-fluid" width="20%">
                 <h3>278 <sup>+</sup></h3>
                 <p>Servers Active</p>
             </div>
+            </div>
             <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12 text-center">
+               <div class="img-center">
                 <img src="{{ asset('assets/img/vpn icon three.png') }}" alt="" class="img-fluid" width="20%">
                 <h3>11,458<sup>+</sup></h3>
                 <p>User Request</p>
             </div>
+            </div>
             <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12 text-center">
+                <div class="img-center">
                 <img src="{{ asset('assets/img/vpn icon two.png') }}" alt="" class="img-fluid" width="20%">
                 <h3>100  <sup>%</sup></h3>
                 <p>Money Back</p>
+                </div>
             </div>
             <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12 text-center">
+                <div class="img-center">
                 <img src="{{ asset('assets/img/vpn icon one.png') }}" alt="" class="img-fluid" width="20%">
                 <h3>85 <sup>+</sup></h3>
                 <p>Expert Support Team</p>
+            </div>
             </div>
         </div>
     </div>
