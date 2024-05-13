@@ -49525,11 +49525,11 @@ h6.uppercase {
 }
 
 
-@media (min-width: 320px) and (max-width: 767px) {
+/* @media (min-width: 320px) and (max-width: 767px) {} */
 
     
 
-}
+
 /* start vpn-shild banner css */
 
 .dot-shape {
@@ -49754,7 +49754,16 @@ h6.uppercase {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.endpoint-box-bm {
+    padding: 2rem;
+}
+.endpoint-container .box {
+    margin-bottom: 0;
+    border-radius: 0px !important;
+}
+.endpoint-rowtwo {
+    margin: -2rem 0 auto;
+}
 /* End endpoint protection page css */
 
 /* kunal-verma 23-04-2024 */
