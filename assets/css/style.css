@@ -43288,7 +43288,9 @@ h6.uppercase {
     .endpoint-content {
         display: inline-grid !important;
     }
-
+    .sectntwo-endpoint {
+        border: none !important;
+    }
 
     /* End end point Mobile css */
 
