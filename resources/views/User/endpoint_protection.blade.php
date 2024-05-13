@@ -55,7 +55,7 @@
 
 
                         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-4"
-                            style="display: flex;">
+                            style="display: flex; justify-content: center;">
                             <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-12 inline-flex">
                                 <img src="assets/img/Award-Winning.png" class="img-fluid endpoint-icon p-1">
 
