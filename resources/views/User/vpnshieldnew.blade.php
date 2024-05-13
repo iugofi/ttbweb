@@ -211,9 +211,6 @@
         <div class="grid grid-cols-12 gap-6">
             <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 col-span-12">
                 <div class="box custom-box">
-                    <div class="box-header">
-                        <div class="box-title">Map With Markers</div>
-                    </div>
                     <div class="box-body">
                         <div id="marker-map"></div>
                     </div>
