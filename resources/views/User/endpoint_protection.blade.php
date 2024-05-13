@@ -145,7 +145,7 @@
                                 excellent schemas without effective models. Synergistically engineer functionalized
                                 applications rather than backend e-commerce. Lorem ipsum dolor sit amet consectetur
                                 adipisicing elit. Aliquam, sapiente in nisi adipisci natus provident numquam maiores
-                                expedita velit nulla.<br>
+                                expedita velit nulla.<br><br>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas laborum labore fugiat
                                 voluptate obcaecati tempore? nisi adipisci natus provident numquam maiores expedita
                                 velit nulla.
