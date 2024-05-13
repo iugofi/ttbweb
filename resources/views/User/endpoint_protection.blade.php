@@ -133,7 +133,7 @@
 
         <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
             id="features">
-            <div class="container main-banner-container">
+            <div class="container endpoint-container">
                 <div class="grid grid-cols-12 gap-6">
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
                         <div class="txt">
