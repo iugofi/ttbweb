@@ -108,7 +108,7 @@
                                 class="img-fluid">
                         </div>
                     </div>
-                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 pt-5 pb-0 lg:px-2 !text-start">
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 pt-5 pb-0 lg:px-2 !text-start" style="margin: 0 50px auto;">
                         <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">WHP WE ARE</span>
                         <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">WhO Does Endpoint  <br>
                             Security <span style="color:#12D2B3;">Matter?</span></h4>
