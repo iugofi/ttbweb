@@ -580,7 +580,7 @@
         </section>
         {{-- End:: ttbantivirus faq section saven --}}
 
-        {{-- Start:: ttbantivirus faq section eight --}}
+        {{-- Start:: ttbantivirus review section eight --}}
         <section
             class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
             id="features">
@@ -632,7 +632,7 @@
                 </div>
             </div>
         </section>
-        {{-- End:: ttbantivirus faq section eight --}}
+        {{-- End:: ttbantivirus review section eight --}}
 
 
 
