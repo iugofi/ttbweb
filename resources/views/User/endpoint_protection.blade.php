@@ -264,7 +264,7 @@
                                     tempor. Lorem ipsum <br>dolor sit amet, eiusmod tempor.</p>
                             </div>
                             <div class="action-btns mt-2 ms-6">
-                                <a href="#" class="ti-btn bg-primary text-white">Call Us</a>
+                                <a href="#" class="ti-btn bg-primary text-white" style="padding: 8px 28px;">Call Us</a>
                             </div>
                         </div>
 
