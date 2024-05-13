@@ -179,7 +179,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 col-span-12">
+                    <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 col-span-12 endpoint-rowtwo">
                         <div class="grid grid-cols-12 gap-6">
                             <div class="xl:col-span-3 col-span-12">
                                 <div class="box">
