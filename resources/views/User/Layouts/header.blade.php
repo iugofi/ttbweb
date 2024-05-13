@@ -233,13 +233,7 @@
         <!-- SIDEBAR -->
 
       
-<script>
 
-    alert("kya hua mere bete ko");
-    setTimeout(function() {
-    location.reload();
-}, 5000); 
-</script>
 
 
 
