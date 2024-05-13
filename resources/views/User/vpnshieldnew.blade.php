@@ -166,8 +166,8 @@
 <section class="vpn-section-four">
     <div class="container main-banner-container">
         <div class="grid grid-cols-12 gap-6">
-            <div class="img-center">
             <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12 text-center">
+                <div class="img-center">
                 <img src="{{ asset('assets/img/vpn icon four.png') }}" alt="" class="img-fluid" width="20%">
                 <h3>278 <sup>+</sup></h3>
                 <p>Servers Active</p>
