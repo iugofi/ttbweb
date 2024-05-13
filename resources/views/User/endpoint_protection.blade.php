@@ -166,7 +166,7 @@
                             <div class="xl:col-span-6 col-span-12">
                                 <div class="box">
 
-                                    <div class="box-body text-[0.9rem] text-center endpoint-box-bm">
+                                    <div class="box-body text-[0.9rem] text-center endpoint-box-bm bg-color">
                                         <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
                                             <img src="assets/img/Icon-2.png" alt="img" class="!rounded-md">
                                         </span>
@@ -196,7 +196,7 @@
                             <div class="xl:col-span-3 col-span-12">
                                 <div class="box">
 
-                                    <div class="box-body text-[0.9rem] text-center endpoint-box-bm">
+                                    <div class="box-body text-[0.9rem] text-center endpoint-box-bm bg-color">
                                         <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
                                             <img src="assets/img/Icon-2.png" alt="img" class="!rounded-md">
                                         </span>
@@ -220,7 +220,7 @@
                             </div>
                             <div class="xl:col-span-3 col-span-12">
                                 <div class="box ">
-                                    <div class="box-body text-[0.9rem] text-center endpoint-box-bm">
+                                    <div class="box-body text-[0.9rem] text-center endpoint-box-bm bg-color">
                                         <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
                                             <img src="assets/img/Icon-4.png" alt="img" class="!rounded-md">
                                         </span>
