@@ -325,7 +325,7 @@
                                                 class="hs-accordion-content w-full overflow-hidden transition-[height] duration-300"
                                                 aria-labelledby="faq-five">
                                                 <div class="p-5">
-                                                    <p class="text-defaulttextcolor dark:text-defaulttextcolor/70 ">
+                                                    <p class="text-defaulttextcolor text-[0.9rem] dark:text-defaulttextcolor/70 ">
                                                         <strong>This is the first item's accordion body.</strong> It is
                                                         shown by
                                                         default, until the collapse plugin adds the appropriate classes that
@@ -368,7 +368,7 @@
                                                 class="hs-accordion-content w-full overflow-hidden hidden transition-[height] duration-300"
                                                 aria-labelledby="faq-six">
                                                 <div class="p-5">
-                                                    <p class="text-defaulttextcolor dark:text-defaulttextcolor/70 ">
+                                                    <p class="text-defaulttextcolor text-[0.9rem] dark:text-defaulttextcolor/70 ">
                                                         <strong>This is the first item's accordion body.</strong> It is
                                                         shown by
                                                         default, until the collapse plugin adds the appropriate classes that
@@ -411,7 +411,7 @@
                                                 class="hs-accordion-content w-full overflow-hidden hidden transition-[height] duration-300"
                                                 aria-labelledby="faq-seven">
                                                 <div class="p-5">
-                                                    <p class="text-defaulttextcolor dark:text-defaulttextcolor/70 ">
+                                                    <p class="text-defaulttextcolor text-[0.9rem] dark:text-defaulttextcolor/70 ">
                                                         <strong>This is the first item's accordion body.</strong> It is
                                                         shown by
                                                         default, until the collapse plugin adds the appropriate classes that
@@ -454,7 +454,7 @@
                                                 class="hs-accordion-content w-full overflow-hidden hidden transition-[height] duration-300"
                                                 aria-labelledby="faq-eight">
                                                 <div class="p-5">
-                                                    <p class="text-defaulttextcolor dark:text-defaulttextcolor/70 ">
+                                                    <p class="text-defaulttextcolor text-[0.9rem] dark:text-defaulttextcolor/70 ">
                                                         <strong>This is the first item's accordion body.</strong> It is
                                                         shown by
                                                         default, until the collapse plugin adds the appropriate classes that
