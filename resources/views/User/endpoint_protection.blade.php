@@ -140,14 +140,11 @@
                             <h2 class="landing-banner-heading font-semibold mb-2 text-[2rem]">How Can TTB
                                 <span style="color:#12D2B3;">Help?
                             </h2>
-                            <div class="text-[1rem] mb-[3rem] !text-dark opacity-[0.9] ">Collaboratively actualize
+                            <div class="text-[1rem] mb-[0rem] !text-dark opacity-[0.9] ">Collaboratively actualize
                                 excellent schemas without effective models. Synergistically engineer functionalized
-                                applications rather than backend e-commerce. Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Aliquam, sapiente in nisi adipisci natus provident numquam maiores
-                                expedita velit nulla.<br><br>
+                                applications rather than backend e-commerce<br><br>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas laborum labore fugiat
-                                voluptate obcaecati tempore? nisi adipisci natus provident numquam maiores expedita
-                                velit nulla.
+                                voluptate obcaecati tempore? nisi adipisci.
                             </div>
 
                         </div>
