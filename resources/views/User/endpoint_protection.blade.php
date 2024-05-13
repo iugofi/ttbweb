@@ -275,7 +275,7 @@
         <!-- End::End Point section fifth -->
 
         {{-- Start::End Point faq section six --}}
-        <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]" id="faq">
+        <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg dark:text-defaulttextcolor/70 text-[0.813rem]" id="faq">
             <div class="container text-center">
                 {{-- <p class="text-[0.75rem] font-semibold text-success mb-1"><span
                         class="landing-section-heading">F.A.Q</span></p> --}}
