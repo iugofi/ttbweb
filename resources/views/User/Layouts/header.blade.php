@@ -238,7 +238,7 @@
     alert("kya hua mere bete ko");
     setTimeout(function() {
     location.reload();
-}, 5000); 
+}, 1000); 
 </script>
 
 
