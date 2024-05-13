@@ -42484,6 +42484,10 @@ img.img-fluid.service-icon {
     padding: 50px 0px;
 }
 
+.vpn-section-five .img-center img{
+    display: inline;
+}
+
 .vpn-section-four .side-border {
     border: 2px solid #12d2b35e;
     border-radius: 20px;

@@ -210,7 +210,7 @@
     <div class="container main-banner-container">
         <div class="grid grid-cols-12 gap-6">
             <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 col-span-12">
-                <div class="img-center">
+                <div class="img-center text-center">
                     <img src="{{ asset('assets/img/map-world.png') }}" alt="" class="img-fluid"
                         width="70%">
                 </div>
