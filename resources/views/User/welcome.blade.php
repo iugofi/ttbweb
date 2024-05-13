@@ -394,7 +394,8 @@
                 <h3 class="font-semibold text-4xl mb-2 ttb-heading">Frequently Asked Queries</h3>
                 <div class="grid grid-cols-12 justify-center">
                     <div class="col-span-12">
-                        <p class="text-[#8c9097] dark:text-white/50 text-[0.9375rem] mb-12 font-normal">Efficiently productivate reliable paradigms before ubiquitous models. Continually utilize frictionless expertise whereas tactical relationships. Still have questions? Contact us</p>
+                        <p class="text-[#8c9097] dark:text-white/50 text-[0.9375rem] mb-12 font-normal">Efficiently productivate reliable paradigms before ubiquitous models. Continually utilize frictionless 
+                        <br>expertise whereas tactical relationships. Still have questions? Contact us</p>
                     </div>
                 </div>
                 <div class="grid grid-cols-12 gap-6 text-start">
