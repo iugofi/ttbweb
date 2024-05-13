@@ -252,8 +252,9 @@
                         <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">What We Do</span>
                         <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">Take the Next Step</h4>
                         <p class=" text-[0.9rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
-                            value with diverse web-readiness.<br><br>
-                             wireless customer service without goal-oriented catalysts for change.
+                            value with diverse web-readiness. customer service without goal-oriented catalysts for change<br><br>
+                             wireless customer service without goal-oriented catalysts for change.orem ipsum dolor sit amet, eiusmod
+                             tempor. Lorem ipsum dolor 
                         </p>
 
                         <div class="grid grid-rows-2 grid-flow-col gap-1">
@@ -262,7 +263,7 @@
                             </div>
                             <div class="col-span-2">
                                 <p class="text-gray-light px-6">Lorem ipsum dolor sit amet, eiusmod
-                                    tempor. Lorem ipsum dolor sit amet, eiusmod tempor.</p>
+                                    tempor. Lorem ipsum dolor<br> sit amet, eiusmod tempor.</p>
                             </div>
                             <div class="action-btns mt-4">
                                 <a href="#" class="ti-btn bg-primary text-white">Explore More Us</a>
