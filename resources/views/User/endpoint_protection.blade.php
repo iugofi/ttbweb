@@ -44,7 +44,7 @@
         <!-- End::End Point section one -->
 
         <!-- Start::End Point section two -->
-        <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] " style="padding-top: 0px; padding-bottom: 0px">
+        <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] " style="padding-top: 0px; padding-bottom: 0px; background-color:#12D2B3;">
             <div class="container main-banner-container">
 
                 <div class="grid lg:grid-cols-12 md:grid-cols-12 sm:grid-cols-12 justify-center align-center">
