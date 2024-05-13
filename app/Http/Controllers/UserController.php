@@ -153,6 +153,10 @@ class UserController extends Controller
     {
         return view('User.commercial');
     }
+    public function endpoint_protection()
+    {
+        return view('User.endpoint_protection');
+    }
 
     public function contactform(Request $request)
     {

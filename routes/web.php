@@ -66,6 +66,10 @@ Route::get('/vpn-shield', [UserController::class, 'vpnshield'])->name('user.vpns
 //ttb-vpn shild2
 Route::get('/vpnshieldnew', [UserController::class, 'vpnshieldnew'])->name('user.vpnshieldnew');
 
+//Endpoint Protection
+Route::get('/Endpoint_protection', [UserController::class, 'endpoint_protection'])->name('user.endpoint_protection');
+
+
 
 
 
