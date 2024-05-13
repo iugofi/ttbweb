@@ -41854,6 +41854,19 @@ h6.uppercase {
 
 /* End antivirus page css */
 
+/* start endpoint protection page css */
+
+.endpoint-protection {
+    background-image: url("/assets/img/Banner-1.jpg");
+    height: 34rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* End endpoint protection page css */
+
+
 /* kunal-verma 23-04-2024 */
 
 #totel-internet-security div#vpnshield {
