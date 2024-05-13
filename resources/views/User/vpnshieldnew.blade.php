@@ -5,6 +5,11 @@
 @section('keywords', '')
 @section('canonical', '')
 
+<!-- Jsvector Maps -->
+<link rel="stylesheet" href="assets/libs/jsvectormap/css/jsvectormap.min.css">
+
+
+
 <div class="main-content !p-0 landing-main dark:text-defaulttextcolor/70">
     <section class="vpn-banner-top">
         <div class="container main-banner-container">
@@ -68,7 +73,6 @@
 </div>
 </section>
 
-
 <section class="vpn-section-two">
     <div class="container main-banner-container">
         <div class="grid grid-cols-12 gap-6">
@@ -127,7 +131,6 @@
     </div>
 </section>
 
-
 <section class="vpn-section-three">
     <div class="container main-banner-container">
         <div class="grid grid-cols-12 gap-6">
@@ -160,8 +163,6 @@
         </div>
     </div>
 </section>
-
-
 
 <section class="vpn-section-four">
     <div class="container main-banner-container">
@@ -205,10 +206,22 @@
 </section>
 
 
-
-
-
-
+<section class="vpn-section-five">
+    <div class="container main-banner-container">
+        <div class="grid grid-cols-12 gap-6">
+            <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 col-span-12">
+                <div class="box custom-box">
+                    <div class="box-header">
+                        <div class="box-title">Map With Markers</div>
+                    </div>
+                    <div class="box-body">
+                        <div id="marker-map"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 
@@ -237,6 +250,18 @@
 
 
 </div>
+
+
+<script src="assets/libs/jsvectormap/js/jsvectormap.min.js"></script>
+
+<!-- JSVector Maps MapsJS -->
+<script src="assets/libs/jsvectormap/maps/world-merc.js"></script>
+<script src="assets/js/us-merc-en.js"></script>
+<script src="assets/js/russia.js"></script>
+<script src="assets/js/spain.js"></script>
+<script src="assets/js/canada.js"></script>
+<script src="assets/js/jsvectormap.js"></script>
+
 @section('content')
 
 @endsection
