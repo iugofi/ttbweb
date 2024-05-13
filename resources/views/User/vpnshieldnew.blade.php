@@ -171,7 +171,7 @@
                     <img src="{{ asset('assets/img/vpn icon four.png') }}" alt="" class="img-fluid"
                         width="20%">
                 </div>
-                <h3>278 <sup>+</sup></h3>
+                <h3 class="mt-2">278 <sup>+</sup></h3>
                 <p>Servers Active</p>
             </div>
             <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12 text-center">
@@ -179,7 +179,7 @@
                     <img src="{{ asset('assets/img/vpn icon three.png') }}" alt="" class="img-fluid"
                         width="20%">
                 </div>
-                <h3>11,458<sup>+</sup></h3>
+                <h3 class="mt-2">11,458<sup>+</sup></h3>
                 <p>User Request</p>
             </div>
             <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12 text-center">
@@ -187,7 +187,7 @@
                     <img src="{{ asset('assets/img/vpn icon two.png') }}" alt="" class="img-fluid"
                         width="20%">
                 </div>
-                <h3>100 <sup>%</sup></h3>
+                <h3 class="mt-2">100 <sup>%</sup></h3>
                 <p>Money Back</p>
             </div>
             <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12 text-center">
@@ -195,7 +195,7 @@
                     <img src="{{ asset('assets/img/vpn icon one.png') }}" alt="" class="img-fluid"
                         width="20%">
                 </div>
-                <h3>85 <sup>+</sup></h3>
+                <h3 class="mt-2">85 <sup>+</sup></h3>
                 <p>Expert Support Team</p>
             </div>
         </div>
