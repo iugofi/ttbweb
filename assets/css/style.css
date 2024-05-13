@@ -43283,6 +43283,15 @@ h6.uppercase {
     }
 
     /* start home page mobile banner css */
+
+    /* Start end point Mobile css */
+    .endpoint-content {
+        display: inline-grid !important;
+    }
+
+
+    /* End end point Mobile css */
+
 }
 
 /* start vpn-shild banner css */
