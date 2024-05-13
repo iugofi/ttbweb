@@ -99,10 +99,10 @@
         <!-- Start::End Point section three -->
 
         <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] ">
-            <div class="container ttbantivirus-container">
+            <div class="container endpoint-container">
                 <div
                     class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
-                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6  antivirus-image text-center">
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 text-center">
                         <div class="lg:text-start !flex items-center lg:justify-start justify-center">
                             <img src="{{ asset('assets/img/scnd-section-img.jpg') }}" alt=""
                                 class="img-fluid">
