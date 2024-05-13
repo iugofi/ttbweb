@@ -50,7 +50,7 @@
                 <div class="grid lg:grid-cols-12 md:grid-cols-12 sm:grid-cols-12 justify-center align-center">
 
 
-                    <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 pt-5 pb-0 lg:px-2 !text-start px-12 my-auto">
+                    <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 pt-5 pb-3 lg:px-2 !text-start px-12 my-auto">
 
 
 
