@@ -201,13 +201,13 @@
             id="statistics">
             <div class="container text-center relative">
                 {{-- <p class="text-[0.75rem] font-semibold text-success mb-1"><span
-                    class="landing-section-heading">Download Our Apps</span></p> --}}
+                    class="landing-section-heading">Download Our Apps</span></p> --}} 
                 <h3 class="font-semibold mb-2 text-defaulttextcolor dark:text-defaulttextcolor/70  text-35xl ttb-heading">Download Our Apps</h3>
                 <div class="">
                     <div class="xl:col-span-7 col-span-12">
                         <p class="text-[#8c9097] dark:text-white/50 text-[0.9375rem] mb-12 font-normal">Start working with
                             that can provide everything you need to generate awareness, drive traffic, connect. Efficiently
-                            transform granular value with client-focused content. Energistically redefine market.</p>
+                            <br>transform granular value with client-focused content. Energistically redefine market.</p>
                     </div>
                 </div>
                 <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 my-btn-section">
