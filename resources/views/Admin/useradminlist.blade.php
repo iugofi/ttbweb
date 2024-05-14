@@ -227,6 +227,8 @@
                                 '</td>' +
                                 '<td class="border px-4 py-2">' + item.name +
                                 '</td>' +
+                                '<td class="border px-4 py-2">' + item.username +
+                                '</td>' +
                                 '<td class="border px-4 py-2">' + item.password +
                                 '</td>' +
                                 '<td class="border">' + item.image +
