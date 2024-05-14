@@ -24,26 +24,33 @@
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 col-span-12">
                             <div class="lg:py-[3rem]">
-                                <p class="landing-banner-heading mb-4 opacity-[0.9] pt-5 prevent-select"><span class="first-color">Robust Threat</span> Protection and Security Framework</p>
-                                <div class="text-[1rem] mb-[1.3rem] text-black-light opacity-[0.9] dark-text">Holisticly procrastinate mission-critical convergence with reliable customer service. Assertively underwhelm idea-sharing for impactful solutions.
-                                </div><div class="text-[1rem] mb-[1.3rem] text-black-light opacity-[0.9] dark-text">Assertively underwhelm idea-sharing for impactful solutions.
+                                <p class="landing-banner-heading mb-4 opacity-[0.9] pt-5 prevent-select"><span
+                                        class="first-color">Robust Threat</span> Protection and Security Framework</p>
+                                <div class="text-[1rem] mb-[1.3rem] text-black-light opacity-[0.9] dark-text">Holisticly
+                                    procrastinate mission-critical convergence with reliable customer service. Assertively
+                                    underwhelm idea-sharing for impactful solutions.
+                                </div>
+                                <div class="text-[1rem] mb-[1.3rem] text-black-light opacity-[0.9] dark-text">Assertively
+                                    underwhelm idea-sharing for impactful solutions.
                                 </div>
                                 <a href="index.html" class="m-1 ti-btn ti-btn-primary-full">
                                     Download Now
                                     {{-- <i class="ri-download-cloud-2-fill ms-2 align-middle"></i> --}}
                                     <i class='bx bxs-cloud-download icon-hm'></i>
                                 </a>
-                                <a href="#" class="popup-youtube btn btn-white btn-circle btn-icon"><i class="bx bx-play watch-icon"></i>  
-                                <span class="pl-2 text-black-light wtc-spn">Watch Now</a></span> 
+                                <a href="#" class="popup-youtube btn btn-white btn-circle btn-icon"><i
+                                        class="bx bx-play watch-icon"></i>
+                                    <span class="pl-2 text-black-light wtc-spn">Watch Now</a></span>
                             </div>
                             {{-- <img src="{{ asset('assets/img/icon-img.png') }}" class="img-fluid" width="85%"> --}}
                         </div>
                         <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 col-span-12">
-                           
+
                             <div class="text-end landing-main-image landing-heading-img flex justify-end w-full">
-                                <img src="{{ asset('assets/img2/section-one-ttb.gif') }}" alt="" class="img-fluid" width="88%">
+                                <img src="{{ asset('assets/img2/section-one-ttb.gif') }}" alt="" class="img-fluid"
+                                    width="88%">
                             </div>
-                           
+
                             <div class="dark-shap-two"><img src="{{ asset('assets/img/Shape-2.png') }}" alt=""
                                     class="img-fluid"></div>
                         </div>
@@ -53,7 +60,7 @@
         </div>
         <!-- End::Home Content -->
 
-        
+
         <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]">
             <div class="container ">
                 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-4">
@@ -86,7 +93,7 @@
                             class="p-7  !rounded-sm2 !bg-white dark:!bg-bodybg border box-shadow dark:border-defaultborder/10 box-icon-cont">
                             <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
                                 <i class="text-[1.5rem] bx bx-money"></i>
-                            </span> 
+                            </span>
                             <h3 class="font-medium mb-0 text-xl text-dark">Active Risk Management</h3>
                             <p class="mb-1 text-[0.875rem] opacity-[0.7] text-[#8c9097] dark:text-white/50 ">
                                 Lorem Ipsum is simply dummy industry.
@@ -109,7 +116,7 @@
                 </div>
             </div>
         </div>
-         
+
         <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] third-back sect-three">
             <div class="animated-shape-wrap">
                 <div class="animated-shape-item"></div>
@@ -122,7 +129,8 @@
                 <div class="grid grid-cols-12 gap-6">
                     <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 col-span-12">
                         <div class="lg:py-[3rem]">
-                            <h2 class="landing-banner-heading mb-4 opacity-[0.9] text-35xl"><span class="dark-black  font-semibold text-35xl ttb-heading">Smarter
+                            <h2 class="landing-banner-heading mb-4 opacity-[0.9] text-35xl"><span
+                                    class="dark-black  font-semibold text-35xl ttb-heading">Smarter
                                     solutions for threats ever-sophisticated </span></h2>
                             <div class="text-[1rem] mb-[1.75rem] text-black-ligh opacity-[0.9] ">Monotonectally impact
                                 sustainable e-services with front-end infomediaries. Collaboratively network functional
@@ -141,7 +149,8 @@
                     <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 col-span-12" style="z-index: 0;">
 
                         <div class="text-end landing-main-image landing-heading-img flex justify-end w-full">
-                            <img src="{{ asset('assets/img/section-two-ttb.gif') }}" alt="" class="img-fluid" width="75%">
+                            <img src="{{ asset('assets/img/section-two-ttb.gif') }}" alt="" class="img-fluid"
+                                width="75%">
                         </div>
 
                     </div>
@@ -160,13 +169,17 @@
                             <img src="{{ asset('assets/img2/section four.png') }}" alt="" class="img-fluid">
                         </div>
                     </div>
-                    <div
-                        class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 pt-5 pb-0 lg:px-2 !text-start px-12 my-auto">
-                        <h4 class="lg:text-start font-semibold mb-2 text-[2rem] ttb-heading">We Strive To Offer Intelligent Business
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 pt-5 pb-0 lg:px-2 !text-start px-12 my-auto">
+                        <h4 class="lg:text-start font-semibold mb-2 text-[2rem] ttb-heading">We Strive To Offer Intelligent
+                            Business
                             Solutions</h4>
-                        <p class=" text-[0.9rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional value with diverse web-readiness. Collaboratively transition wireless customer service without goal-oriented catalysts for change. Collaboratively.
+                        <p class=" text-[0.9rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
+                            value with diverse web-readiness. Collaboratively transition wireless customer service without
+                            goal-oriented catalysts for change. Collaboratively.
                         </p>
-                        <p class="text-[0.9rem]  text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional value with diverse web-readiness. Collaboratively transition catalysts for change. Collaboratively.
+                        <p class="text-[0.9rem]  text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
+                            value with diverse web-readiness. Collaboratively transition catalysts for change.
+                            Collaboratively.
                         </p>
                         <div class="row row-service mt-5" style="display: flex;">
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
@@ -201,13 +214,15 @@
             id="statistics">
             <div class="container text-center relative">
                 {{-- <p class="text-[0.75rem] font-semibold text-success mb-1"><span
-                    class="landing-section-heading">Download Our Apps</span></p> --}} 
-                <h3 class="font-semibold mb-2 text-defaulttextcolor dark:text-defaulttextcolor/70  text-35xl ttb-heading">Download Our Apps</h3>
+                    class="landing-section-heading">Download Our Apps</span></p> --}}
+                <h3 class="font-semibold mb-2 text-defaulttextcolor dark:text-defaulttextcolor/70  text-35xl ttb-heading">
+                    Download Our Apps</h3>
                 <div class="">
                     <div class="xl:col-span-7 col-span-12">
                         <p class="text-[#8c9097] dark:text-white/50 text-[0.9375rem] mb-12 font-normal">Start working with
                             that can provide everything you need to generate awareness, drive traffic, connect. Efficiently
-                            <br>transform granular value with client-focused content. Energistically redefine market.</p>
+                            <br>transform granular value with client-focused content. Energistically redefine market.
+                        </p>
                     </div>
                 </div>
                 <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 my-btn-section">
@@ -247,7 +262,7 @@
 
         <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] " id="about">
             <div class="container text-center">
-         
+
                 <h3 class="font-semibold  mb-2 text-black features-one ttb-heading text-35xl ">TTB Features
                 </h3>
                 <div class="grid grid-cols-12 justify-center max-w-66xl mx-auto  pt-5 ">
@@ -257,75 +272,82 @@
                             goal-oriented catalysts for change. Collaboratively.</p>
                     </div>
                 </div>
-                <div class="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 justify-center align-center mobile-section sect-features" >
+                <div
+                    class="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 justify-center align-center mobile-section sect-features">
 
                     <div class="row">
                         <!--feature new style start-->
                         <div class="grid-cols-3 grid-cols-12">
                             <div class="row  flex p-4">
-                              <div class="grid-cols-2 col-md-6 text-left ">
-                                <i class="fa-regular fa-face-smile text-4xl p-2 px-3"></i>
-                              </div>
-                              <div class="grid-cols-2 sm:grid-cols-1 grid-cols-12 text-left ">
-                                <h4 class="text-2xl5 font-medium">Responsive web design</h4>
-                                <p class="leading-6 mt-2">Modular and monetize an componente between layouts monetize array. Core competencies for testing.</p>
-                              </div>
+                                <div class="grid-cols-2 col-md-6 text-left ">
+                                    <i class="fa-regular fa-face-smile text-4xl p-2 px-3"></i>
+                                </div>
+                                <div class="grid-cols-2 sm:grid-cols-1 grid-cols-12 text-left ">
+                                    <h4 class="text-2xl5 font-medium">Responsive web design</h4>
+                                    <p class="leading-6 mt-2">Modular and monetize an componente between layouts monetize
+                                        array. Core competencies for testing.</p>
+                                </div>
                             </div>
                             <div class="row flex p-4">
                                 <div class="grid-cols-2 col-md-6 text-left ">
-                                  <i class='bx bx-vector text-4xl p-2 px-3'></i>
+                                    <i class='bx bx-vector text-4xl p-2 px-3'></i>
                                 </div>
                                 <div class="grid-cols-2 col-md-6 text-left">
-                                  <h4 class="text-2xl5 font-medium">Responsive web design</h4>
-                                  <p class="leading-6 mt-2">Modular and monetize an componente between layouts monetize array. Core competencies for testing.</p>
+                                    <h4 class="text-2xl5 font-medium">Responsive web design</h4>
+                                    <p class="leading-6 mt-2">Modular and monetize an componente between layouts monetize
+                                        array. Core competencies for testing.</p>
                                 </div>
-                              </div>
-                              <div class="row flex p-4">
+                            </div>
+                            <div class="row flex p-4">
                                 <div class="grid-cols-2 col-md-6 text-left ">
-                                  <i class='bx bx-support text-4xl p-2 px-3'></i>
+                                    <i class='bx bx-support text-4xl p-2 px-3'></i>
                                 </div>
                                 <div class="grid-cols-2 col-md-6 text-left">
-                                  <h4 class="text-2xl5 font-medium">Responsive web design</h4>
-                                  <p class="leading-6 mt-2">Modular and monetize an componente between layouts monetize array. Core competencies for testing.</p>
+                                    <h4 class="text-2xl5 font-medium">Responsive web design</h4>
+                                    <p class="leading-6 mt-2">Modular and monetize an componente between layouts monetize
+                                        array. Core competencies for testing.</p>
                                 </div>
-                              </div>
+                            </div>
                         </div>
                     </div>
                     <div class="grid-cols-3 col-md-5 d-none d-sm-none d-md-block d-lg-block">
                         <div class="position-relative pb-md-5 py-lg-0 center-imgs">
-                            <img alt="Image placeholder" src="{{asset('assets/img/section-three-ttb.gif')}}"
+                            <img alt="Image placeholder" src="{{ asset('assets/img/section-three-ttb.gif') }}"
                                 class="img-fluid mt-5">
-                        </div> 
+                        </div>
                     </div>
                     <div class="row">
                         <div class="grid-cols-3 grid-cols-12">
                             <div class="row flex p-4">
-                              <div class="grid-cols-2 col-md-6 text-left ">
-                                <i class='bx bx-category text-4xl p-2 px-3'></i>
-                              </div>
-                              <div class="grid-cols-2 col-md-6 text-left">
-                                <h4 class="text-2xl5 font-medium">Responsive web design</h4>
-                                <p class="leading-6 mt-2">Modular and monetize an componente between layouts monetize array. Core competencies for testing.</p>
-                              </div>
+                                <div class="grid-cols-2 col-md-6 text-left ">
+                                    <i class='bx bx-category text-4xl p-2 px-3'></i>
+                                </div>
+                                <div class="grid-cols-2 col-md-6 text-left">
+                                    <h4 class="text-2xl5 font-medium">Responsive web design</h4>
+                                    <p class="leading-6 mt-2">Modular and monetize an componente between layouts monetize
+                                        array. Core competencies for testing.</p>
+                                </div>
                             </div>
                             <div class="row flex p-4">
                                 <div class="grid-cols-2 col-md-6 text-left ">
-                                  <i class='bx bx-window-alt text-4xl p-2 px-3'></i>
+                                    <i class='bx bx-window-alt text-4xl p-2 px-3'></i>
                                 </div>
                                 <div class="grid-cols-2 col-md-6 text-left">
-                                  <h4 class="text-2xl5 font-medium">Responsive web design</h4>
-                                  <p class="leading-6 mt-2">Modular and monetize an componente between layouts monetize array. Core competencies for testing.</p>
+                                    <h4 class="text-2xl5 font-medium">Responsive web design</h4>
+                                    <p class="leading-6 mt-2">Modular and monetize an componente between layouts monetize
+                                        array. Core competencies for testing.</p>
                                 </div>
-                              </div>
-                              <div class="row flex p-4">
+                            </div>
+                            <div class="row flex p-4">
                                 <div class="grid-cols-2 col-md-6 text-left ">
-                                  <i class='bx bx-palette text-4xl p-2 px-3'></i>
+                                    <i class='bx bx-palette text-4xl p-2 px-3'></i>
                                 </div>
                                 <div class="grid-cols-2 col-md-6 text-left">
-                                  <h4 class="text-2xl5 font-medium">Responsive web design</h4>
-                                  <p class="leading-6 mt-2">Modular and monetize an componente between layouts monetize array. Core competencies for testing.</p>
+                                    <h4 class="text-2xl5 font-medium">Responsive web design</h4>
+                                    <p class="leading-6 mt-2">Modular and monetize an componente between layouts monetize
+                                        array. Core competencies for testing.</p>
                                 </div>
-                              </div>
+                            </div>
                         </div>
                     </div>
                     <!--feature new style end-->
@@ -336,66 +358,68 @@
         </section>
 
         <!-- Start:: Section-5 -->
-        <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
-        id="features">
-        <div class="container text-center">
-            {{-- <h3 class="font-semibold mb-2 !text-dark">Features Used in YNEX</h3> --}}
-            <h2 class="text-center text-black font-semibold text-4xl ttb-heading">TTB #1 <span class="text-color-ttb">Antivirus </span><br>Four Times In A Row.</h2>
-            <div>
-                {{-- <div class="xl:col-span-7 col-span-12">
+        <section
+            class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
+            id="features">
+            <div class="container text-center">
+                {{-- <h3 class="font-semibold mb-2 !text-dark">Features Used in YNEX</h3> --}}
+                <h2 class="text-center text-black font-semibold text-4xl ttb-heading">TTB #1 <span
+                        class="text-color-ttb">Antivirus </span><br>Four Times In A Row.</h2>
+                <div>
+                    {{-- <div class="xl:col-span-7 col-span-12">
                     <p class="text-dark opacity-[0.8] text-[0.9375rem] mb-4 font-normal">Some of the reviews our
                         clients gave which brings motivation to work for future projects.</p>
                 </div> --}}
-            </div>
-            <div class="text-start">
-                <div class="justify-center">
-                    
+                </div>
+                <div class="text-start">
+                    <div class="justify-center">
+
                         <div class="feature-logos sm:mt-[3rem] flex-wrap">
                             <div class="sm:ms-[3rem] ms-2 text-center mx-3 my-4">
                                 <span class="featur-icon counternum">100</span>
                                 <h5 class="mt-8-5 text-dark text-[1.25rem] font-medium">Av Test Certified</h5>
-                               <p>May 2023</p>
+                                <p>May 2023</p>
 
                             </div>
                             <div class="sm:ms-[3rem] ms-2 text-center mx-3 my-4">
                                 <span class="featur-icon counternum">100</span>
                                 <h5 class="mt-8-5 text-dark text-[1.25rem] font-medium">Av Test Certified</h5>
-                               <p>May 2023</p>
+                                <p>May 2023</p>
 
                             </div>
                             <div class="sm:ms-[3rem] ms-2 text-center mx-3 my-4">
                                 <span class="featur-icon counternum">100</span>
                                 <h5 class="mt-8-5 text-dark text-[1.25rem] font-medium">Av Test Certified</h5>
-                               <p>May 2023</p>
+                                <p>May 2023</p>
 
                             </div>
                             <div class="sm:ms-[3rem] ms-2 text-center mx-3 my-4">
                                 <span class="featur-icon counternum">100</span>
                                 <h5 class="mt-8-5 text-dark text-[1.25rem] font-medium">Av Test Certified</h5>
-                               <p>May 2023</p>
+                                <p>May 2023</p>
                             </div>
-                          
+
 
                         </div>
-                    
+
+                    </div>
+                    <div class="swiper-pagination mt-4"></div>
                 </div>
-                <div class="swiper-pagination mt-4"></div>
             </div>
-        </div>
-    </section>
+        </section>
         <!-- End:: Section-5 -->
 
 
         <!-- Start:: Section-9 -->
-        <section
-            class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]"
-            id="faq">
+        <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]" id="faq">
             <div class="container text-center">
                 <h3 class="font-semibold text-4xl mb-2 ttb-heading">Frequently Asked Queries</h3>
                 <div class="grid grid-cols-12 justify-center">
                     <div class="col-span-12">
-                        <p class="text-[#8c9097] dark:text-white/50 text-[0.9375rem] mb-12 font-normal">Efficiently productivate reliable paradigms before ubiquitous models. Continually utilize frictionless 
-                        <br>expertise whereas tactical relationships. Still have questions? Contact us</p>
+                        <p class="text-[#8c9097] dark:text-white/50 text-[0.9375rem] mb-12 font-normal">Efficiently
+                            productivate reliable paradigms before ubiquitous models. Continually utilize frictionless
+                            <br>expertise whereas tactical relationships. Still have questions? Contact us
+                        </p>
                     </div>
                 </div>
                 <div class="grid grid-cols-12 gap-6 text-start">
@@ -626,7 +650,7 @@
                                                 </div>
                                             </div>
                                         </div> --}}
-                                    
+
                                     </div>
                                 </div>
                             </div>
@@ -637,66 +661,74 @@
         </section>
         <!-- End:: Section-9 -->
 
-      <!-- Start:: Section-5 -->
-    <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
-      id="features">
-      <div class="container main-banner-container">
-        <div class="grid grid-cols-12 gap-6">
-            <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
-                <div class="lg:py-[3rem]">
-                    <h2 class="landing-banner-heading mb-4 opacity-[0.9] mt-10 font-semibold text-4xl ttb-heading"><span >What Our Client Say <br> About Apdash</h2>
-                    <div class="text-[1rem] mb-[3rem] !text-dark opacity-[0.9] ">Collaboratively actualize excellent schemas without effective <br> models. Synergistically engineer functionalized applications rather<br> than backend e-commerce.</div>
-                   
+        <!-- Start:: Section-5 -->
+        <section
+            class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
+            id="features">
+            <div class="container main-banner-container">
+                <div class="grid grid-cols-12 gap-6">
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
+                        <div class="lg:py-[3rem]">
+                            <h2 class="landing-banner-heading mb-4 opacity-[0.9] mt-10 font-semibold text-4xl ttb-heading">
+                                <span>What Our Client Say <br> About Apdash</h2>
+                            <div class="text-[1rem] mb-[3rem] !text-dark opacity-[0.9] ">Collaboratively actualize
+                                excellent schemas without effective <br> models. Synergistically engineer functionalized
+                                applications rather<br> than backend e-commerce.</div>
 
-                </div>
-            </div>
-            <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
 
-                <div class="box custom-box slider-box box-review">
-                    <div class="box-body">
-                        <div class="swiper  custom-pagination">
-                            <div class="swiper-wrapper">
+                        </div>
+                    </div>
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
 
-                                <div class="swiper-slide test-slider-img"> 
-                                  
-                                   
-                                        <div class="item">
-                                            <div class="testimonial-quote-wrap ttb-bg">
-                                                <div class="media author-info mb-3 flex ">
-                                                    <div class="author-img mr-3">
-                                                        <img src="assets/img/client/1.jpg" alt="client" width="10px" >
+                        <div class="box custom-box slider-box box-review">
+                            <div class="box-body">
+                                <div class="swiper  custom-pagination">
+                                    <div class="swiper-wrapper">
+
+                                        <div class="swiper-slide test-slider-img">
+
+
+                                            <div class="item">
+                                                <div class="testimonial-quote-wrap ttb-bg">
+                                                    <div class="media author-info mb-3 flex ">
+                                                        <div class="author-img mr-3">
+                                                            <img src="assets/img/client/1.jpg" alt="client"
+                                                                width="10px">
+                                                        </div>
+                                                        <div class="media-body text-white p-5">
+                                                            <h5 class="mb-0 text-white">John Charles</h5>
+                                                            <span>Head Of Admin</span>
+                                                        </div>
+                                                        <i class="fas fa-quote-right text-white"></i>
                                                     </div>
-                                                    <div class="media-body text-white p-5">
-                                                        <h5 class="mb-0 text-white">John Charles</h5>
-                                                        <span>Head Of Admin</span>
+                                                    <div class="client-say text-white">
+                                                        <p>Interactively optimize fully researched expertise vis-a-vis
+                                                            plug-and-play relationships. Intrinsicly develop viral core
+                                                            competencies for fully tested customer service. Enthusiastically
+                                                            create next-generation growth strategies and.</p>
                                                     </div>
-                                                    <i class="fas fa-quote-right text-white"></i>
-                                                </div>
-                                                <div class="client-say text-white">
-                                                    <p>Interactively optimize fully researched expertise vis-a-vis plug-and-play relationships. Intrinsicly develop viral core competencies for fully tested customer service. Enthusiastically create next-generation growth strategies and.</p>
                                                 </div>
                                             </div>
-                                        </div>
-                                        
-                                   
-                                </div>
 
-                                
-                             
+
+                                        </div>
+
+
+
+                                    </div>
+                                    <div class="swiper-pagination"></div>
+                                </div>
                             </div>
-                            <div class="swiper-pagination"></div>
-                          </div>
+                        </div>
+
                     </div>
                 </div>
-
             </div>
-        </div>
-    </div>
-  </section>
-  <!-- End:: Section-5 -->
+        </section>
+        <!-- End:: Section-5 -->
 
-     
-      
+
+
 
 
 
