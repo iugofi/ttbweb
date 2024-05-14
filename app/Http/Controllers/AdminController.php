@@ -712,7 +712,7 @@ public function newslistshow(){
 
                         }
                         foreach ($adminData as $admin) {
-                            $admin->password = decrypt($admin->password);
+                            $admin->password =\Crypt::decrypt($admin->password);
                         }
                         return response()->json(['admindata' => $admindata]);
 
