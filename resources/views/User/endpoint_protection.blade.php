@@ -156,7 +156,7 @@
                                     <div class="box-body text-[0.9rem] text-center endpoint-box-bm">
                                         <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
                                             {{-- <img src="assets/img/Icon-1.png" alt="img" class="!rounded-md"> --}}
-                                            <i class="fa-solid fa-mobile-screen-button"></i>
+                                            <i class="fa-solid fa-mobile-screen-button text-4xl icon-hover"></i>
                                         </span>
                                         <h6 class="box-title font-semibold">Apps Development</h6>
                                         <p class="card-text mb-4">With supporting text below as a natural lead-in to
@@ -169,7 +169,8 @@
 
                                     <div class="box-body text-[0.9rem] text-center endpoint-box-bm">
                                         <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
-                                            <img src="assets/img/Icon-2.png" alt="img" class="!rounded-md">
+                                            {{-- <img src="assets/img/Icon-2.png" alt="img" class="!rounded-md"> --}}
+                                            <i class="fa-solid fa-mobile-screen-button text-4xl icon-hover"></i>
                                         </span>
                                         <h6 class="box-title font-semibold">It Engineering</h6>
                                         <p class="card-text mb-4">With supporting text below as a natural lead-in to
@@ -186,7 +187,8 @@
 
                                     <div class="box-body text-[0.9rem] text-center endpoint-box-bm">
                                         <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
-                                            <img src="assets/img/Icon-1.png" alt="img" class="!rounded-md">
+                                            {{-- <img src="assets/img/Icon-1.png" alt="img" class="!rounded-md"> --}}
+                                            <i class="fa-solid fa-mobile-screen-button text-4xl icon-hover"></i>
                                         </span>
                                         <h6 class="box-title font-semibold">Digital Soluations</h6>
                                         <p class="card-text mb-4">With supporting text below as a natural lead-in to
@@ -199,7 +201,8 @@
 
                                     <div class="box-body text-[0.9rem] text-center endpoint-box-bm">
                                         <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
-                                            <img src="assets/img/Icon-2.png" alt="img" class="!rounded-md">
+                                            {{-- <img src="assets/img/Icon-2.png" alt="img" class="!rounded-md"> --}}
+                                            <i class="fa-solid fa-mobile-screen-button text-4xl icon-hover"></i>
                                         </span>
                                         <h6 class="box-title font-semibold">Market Research</h6>
                                         <p class="card-text mb-4">With supporting text below as a natural lead-in to
@@ -211,7 +214,8 @@
                                 <div class="box">
                                     <div class="box-body text-[0.9rem] text-center endpoint-box-bm">
                                         <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
-                                            <img src="assets/img/Icon-3.png" alt="img" class="!rounded-md">
+                                            {{-- <img src="assets/img/Icon-3.png" alt="img" class="!rounded-md"> --}}
+                                            <i class="fa-solid fa-mobile-screen-button text-4xl icon-hover"></i>
                                         </span>
                                         <h6 class="box-title font-semibold">Market Cyber Security</h6>
                                         <p class="card-text mb-4">With supporting text below as a natural lead-in to
@@ -223,7 +227,8 @@
                                 <div class="box ">
                                     <div class="box-body text-[0.9rem] text-center endpoint-box-bm">
                                         <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
-                                            <img src="assets/img/Icon-4.png" alt="img" class="!rounded-md">
+                                            {{-- <img src="assets/img/Icon-4.png" alt="img" class="!rounded-md"> --}}
+                                            <i class="fa-solid fa-mobile-screen-button text-4xl icon-hover"></i>
                                         </span>
                                         <h6 class="box-title font-semibold">Market Cyber Security</h6>
                                         <p class="card-text mb-4">With supporting text below as a natural lead-in to
