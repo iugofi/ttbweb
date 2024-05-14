@@ -85,7 +85,7 @@
                                         <a href="javascript:void(0);" class="side-menu__item">Malware Detection</a>
                                     </li>
                                     <li class="slide">
-                                        <a href="javascript:void(0);" class="side-menu__item">Real Time Anti-phishing</a>
+                                        <a href="{{route('user.Phishing')}}" class="side-menu__item">Real Time Anti-phishing</a>
                                     </li>
                                     
                                     
