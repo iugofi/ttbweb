@@ -48714,6 +48714,7 @@ img.img-fluid.service-icon {
 
 .vpn-section-five {
     padding: 50px 0px;
+    background-color: #000000;
 }
 
 .vpn-section-five .img-center img {
@@ -48721,10 +48722,10 @@ img.img-fluid.service-icon {
 }
 
 .vpn-section-four .side-border {
-    border: 3px solid #12d2b3a3;
+    border: 3px solid #12d2b3;
     border-radius: 20px;
     padding: 30px 0px;
-    background-color: #12d2b30d;
+    background-color: #12d2b317;
     box-shadow: 0px 3px 7px 0px #12d2b321;
 }
 
@@ -48734,7 +48735,7 @@ img.img-fluid.service-icon {
 
 .vpn-section-four {
     padding: 100px 0px;
-    background-color: #e8f3f0;
+    background-color: #000000;
 }
 
 .vpn-section-three span {
