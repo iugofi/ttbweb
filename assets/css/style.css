@@ -49757,6 +49757,19 @@ h6.uppercase {
 .endpoint-box-bm {
     padding: 2rem;
 }
+.endpoint-box-bm:hover {
+    background-color: #12D2B3;
+    color: #fff;
+    border-radius: 4px;
+}
+.endpoint-box-bm:hover 
+ .icon-hover {
+    color: #fff;
+}
+.endpoint-box-bm:hover h6 {
+    color: #fff;
+}
+
 .endpoint-container .box {
     border-radius: 0px !important;
 }

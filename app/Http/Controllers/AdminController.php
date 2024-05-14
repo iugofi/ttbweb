@@ -711,8 +711,8 @@ public function newslistshow(){
                             $admindata = Admin::where('admintype', $storeId)->get();
 
                         }
-                        foreach ($adminData as $admin) {
-                            $admin->password = decrypt($admin->password);
+                        foreach ($admindata as $admin) {
+                            $admin->password =\Crypt::decrypt($admin->password);
                         }
                         return response()->json(['admindata' => $admindata]);
 
