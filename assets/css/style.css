@@ -42505,6 +42505,11 @@ img.img-fluid.service-icon {
 .box-icon-full {
     box-shadow: -1px 3px 11px 3px #b9b5b573;
     padding: 20px;
+    border: 1px solid #fff;
+}
+.box-icon-full:hover {
+    box-shadow: none;
+    border: 1px solid #12d2b3;
 }
 .phishing-section-two{
     padding: 50px 0px;
