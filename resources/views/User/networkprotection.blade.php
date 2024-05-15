@@ -14,13 +14,13 @@
 
 <div class="main-content !p-0 landing-main dark:text-defaulttextcolor/70">
 
-        <!-- Start::End Point section one -->
+        <!-- Start:: network protection section one -->
         <div class="network-protection" id="endpoint">
             <section class="section sect-ban">
                 <div class="container network-container">
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 col-span-12">
-                            <div class="lg:py-[3rem] text-vartical" style="position: relative; top: 7rem;">
+                            <div class="lg:py-[3rem] text-vartical" style="position: relative; top: 10rem;"> 
                                 <h1 class="text-left font-semibold mb-2 text-[2rem]" style="color: #fff;">Smarter Network Protection<br>
                                     for business</h1>
                                 <div class="text-[1rem] mb-[1.3rem] text-black-light opacity-[0.9] text-left dark-text"
@@ -41,13 +41,68 @@
                 </div>
             </section>
         </div>
-        <!-- End::End Point section one -->
+        <!-- End:: network protection section one -->
 
+        <!-- Start:: network protection section two -->
 
+        <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70" id="features">
+            <div class="container network-container">
+                <div class="grid grid-cols-12 gap-6">
+                    
+                    
+                    <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 col-span-12 network-row">
+                        <div class="grid grid-cols-12 gap-6">
+                            
+                            <div class="xl:col-span-4 col-span-12">
+                                <div class="box">
 
+                                    <div class="box-body text-[0.9rem] text-center network-box-bm">
+                                        <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
+                                            
+                                            <i class="fa-regular fa-bookmark text-4xl icon-hover"></i>
+                                        </span>
+                                        <h6 class="box-title font-semibold">Market Research</h6>
+                                        <p class="card-text mb-4">With supporting text below as a natural lead-in to
+                                            additional content.</p><br>
+                                            <a href="#">Read More<i class="fe fe-chevron-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="xl:col-span-4 col-span-12">
+                                <div class="box">
+                                    <div class="box-body text-[0.9rem] text-center network-box-bm">
+                                        <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
+                                            
+                                            <i class="fa-solid fa-shield-halved text-4xl icon-hover"></i>
+                                        </span>
+                                        <h6 class="box-title font-semibold">Market Cyber Security</h6>
+                                        <p class="card-text mb-4">With supporting text below as a natural lead-in to
+                                            additional content.</p><br>
+                                            <a href="#">Read More<i class="fe fe-chevron-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="xl:col-span-4 col-span-12">
+                                <div class="box ">
+                                    <div class="box-body text-[0.9rem] text-center network-box-bm">
+                                        <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
+                                            
+                                            <i class="fa-solid fa-mobile-screen-button text-4xl icon-hover"></i>
+                                        </span>
+                                        <h6 class="box-title font-semibold">Market Cyber Security</h6>
+                                        <p class="card-text mb-4">With supporting text below as a natural lead-in to
+                                            additional content.</p><br>
+                                            <a href="#">Read More<i class="fe fe-chevron-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-
-
+        <!-- End:: network protection section two -->
 
 
 

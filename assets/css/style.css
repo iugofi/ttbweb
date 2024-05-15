@@ -43226,7 +43226,7 @@ h6.uppercase {
 }
 /* End:: commericial page css */
 
-/* start:: network protection page css */
+/* start:: network protection desktop page css */
 
 .network-protection {
     background-image: url("/assets/img/Banner-career.png");
@@ -43236,8 +43236,21 @@ h6.uppercase {
     background-size: cover;
     background-position-y: 3rem;
 }
-
-/* End:: network protection page css */
+.network-row {
+    position: relative;
+    bottom: 10rem;
+}
+.network-box-bm {
+    padding: 3rem;
+}
+.network-box-bm:hover {
+    background-image: url("/assets/img/circle.png");
+}
+.network-row .box {
+    border-radius: 0;
+    border-top: 4px solid #12D2B3;
+}
+/* End:: network protection desktop page css */
 
 
 
