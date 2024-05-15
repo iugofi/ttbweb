@@ -43265,7 +43265,7 @@ h6.uppercase {
 .network-box-bm {
     padding: 3rem;
 }
-.network-box-bm i {
+.network-box-bm .text-4xl.icon-hover {
     color: #000;
 }
 .network-box-bm:hover {
