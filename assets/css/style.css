@@ -43223,10 +43223,11 @@ h6.uppercase {
 
 .network-protection {
     background-image: url("/assets/img/Banner-career.png");
-    height: 34rem;
+    height: 62rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position-y: 3rem;
 }
 
 /* End:: network protection page css */
