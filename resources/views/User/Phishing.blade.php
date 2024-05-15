@@ -35,7 +35,7 @@
                         <div class="phishing-icon-box">
                             <i class="fa fa-box"></i>
                         </div>
-                        <h4 class="mt3">Simply dummy text </h4>
+                        <h4 class="mt5">Simply dummy text </h4>
                         <p class="mt-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
                             Aenean massa. </p>
                     </div>
@@ -43,7 +43,7 @@
                         <div class="phishing-icon-box">
                             <i class="fa fa-box"></i>
                         </div>
-                        <h4 class="mt3">Simply dummy text</h4>
+                        <h4 class="mt5">Simply dummy text</h4>
                         <p class="mt-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
                             Aenean massa. </p>
                     </div>
@@ -51,7 +51,7 @@
                         <div class="phishing-icon-box">
                             <i class="fa fa-box"></i>
                         </div>
-                        <h4 class="mt3">Simply dummy text</h4>
+                        <h4 class="mt5">Simply dummy text</h4>
                         <p class="mt-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
                             Aenean massa. </p>
                     </div>
@@ -59,7 +59,7 @@
                         <div class="phishing-icon-box">
                             <i class="fa fa-box"></i>
                         </div>
-                        <h4 class="mt3">Simply dummy text</h4>
+                        <h4 class="mt5">Simply dummy text</h4>
                         <p class="mt-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
                             Aenean massa. </p>
                     </div>
