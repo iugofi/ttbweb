@@ -43270,9 +43270,13 @@ h6.uppercase {
 .network-box-bm {
     padding: 3rem;
 }
+.network-box-bm .text-4xl.icon-hover {
+    color: #000;
+}
 .network-box-bm:hover {
     background-image: url("/assets/img/circle.png");
 }
+
 .network-row .box {
     border-radius: 0;
     border-top: 4px solid #12D2B3;
