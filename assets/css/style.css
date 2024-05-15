@@ -43273,6 +43273,12 @@ h6.uppercase {
 .network-box-bm .text-4xl.icon-hover {
     color: #000;
 }
+.network-box-bm:hover .text-4xl.icon-hover {
+    color: #12D2B3;
+}
+.network-box-bm:hover a.read-btn {
+    color: #12D2B3;
+}
 .network-box-bm:hover {
     background-image: url("/assets/img/circle.png");
 }
