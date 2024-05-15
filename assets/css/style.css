@@ -42487,8 +42487,22 @@ img.img-fluid.service-icon {
 
 /* phishing page css */
 
-.box-icon-full{
-    
+.phishing-icon-box {
+    background-color: #12d2b326;
+    padding: 10px;
+    display: inline;
+    border-radius: 10px;
+}
+
+
+.phishing-icon-box i {
+    color: #12d2b3;
+    font-size: 18px;
+}
+
+.box-icon-full {
+    box-shadow: -1px 3px 11px 3px #b9b5b573;
+    padding: 20px;
 }
 .phishing-section-two{
     padding: 50px 0px;
