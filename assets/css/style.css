@@ -42491,10 +42491,12 @@ img.img-fluid.service-icon {
     padding: 140px 0px;
 }
 .Phishing-banner-top h2{
-    font-size: 42px;
+    font-size: 40px;
 }
-.Phishing-banner-top p{
+.Phishing-banner-top p {
     font-size: 16px;
+    line-height: 1.5;
+    padding-top: 11px;
 }
 
 /* vpn new page css */
