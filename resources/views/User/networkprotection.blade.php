@@ -64,7 +64,7 @@
                                         <h6 class="box-title pt-2 font-semibold">Market Research</h6>
                                         <p class="card-text pt-3 mb-2">With supporting text below as a natural lead-in to
                                             additional content.</p><br>
-                                            <a href="#">Read More<i class="fe fe-chevron-right"></i></a>
+                                            <a href="#" class="read-btn">Read More<i class="fe fe-chevron-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -78,7 +78,7 @@
                                         <h6 class="box-title pt-2 font-semibold">Market Cyber Security</h6>
                                         <p class="card-text pt-3 mb-2">With supporting text below as a natural lead-in to
                                             additional content.</p><br>
-                                            <a href="#">Read More<i class="fe fe-chevron-right"></i></a>
+                                            <a href="#" class="read-btn">Read More<i class="fe fe-chevron-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -92,7 +92,7 @@
                                         <h6 class="box-title pt-2 font-semibold">Market Cyber Security</h6>
                                         <p class="card-text pt-3 mb-2">With supporting text below as a natural lead-in to
                                             additional content.</p><br>
-                                            <a href="#">Read More<i class="fe fe-chevron-right"></i></a>
+                                            <a href="#" class="read-btn">Read More<i class="fe fe-chevron-right"></i></a>
                                     </div>
                                 </div>
                             </div>
