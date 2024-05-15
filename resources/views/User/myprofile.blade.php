@@ -9,6 +9,13 @@
 @section('content')
 
 
+<style>
+    body {
+   background-color: rgb(var(--body-bg));
+}
+</style>
+
+
 
 
 
