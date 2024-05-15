@@ -57,7 +57,7 @@
                                 <div class="box">
 
                                     <div class="box-body text-[0.9rem] text-center network-box-bm">
-                                        <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
+                                        <span class="mb-4 avatar avatar-lg avatar-rounded !text-primary">
                                             
                                             <i class="fa-solid fa-user-tie text-4xl icon-hover"></i>
                                         </span>
@@ -71,7 +71,7 @@
                             <div class="xl:col-span-4 col-span-12">
                                 <div class="box">
                                     <div class="box-body text-[0.9rem] text-center network-box-bm">
-                                        <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
+                                        <span class="mb-4 avatar avatar-lg avatar-rounded !text-primary">
                                             
                                             <i class="fa-solid fa-hand-holding-heart text-4xl icon-hover"></i>
                                         </span>
@@ -85,7 +85,7 @@
                             <div class="xl:col-span-4 col-span-12">
                                 <div class="box ">
                                     <div class="box-body text-[0.9rem] text-center network-box-bm">
-                                        <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
+                                        <span class="mb-4 avatar avatar-lg avatar-rounded !text-primary">
                                             
                                             <i class="fa-solid fa-users-viewfinder text-4xl icon-hover"></i>
                                         </span>
