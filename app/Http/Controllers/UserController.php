@@ -478,7 +478,7 @@ public function signdata(Request $request)
                 } else {
                     return response()->json([
                         'status' => 401,
-                        'messages' => 'E-mail or Password Incorrect!'
+                        'messages' => 'Password Incorrect!'
                     ]);
                 }
             } else {
