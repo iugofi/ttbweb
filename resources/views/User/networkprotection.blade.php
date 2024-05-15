@@ -59,7 +59,7 @@
                                     <div class="box-body text-[0.9rem] text-center network-box-bm">
                                         <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
                                             
-                                            <i class="fa-regular fa-bookmark text-4xl icon-hover"></i>
+                                            <i class="fa-solid fa-user-tie text-4xl icon-hover"></i>
                                         </span>
                                         <h6 class="box-title font-semibold">Market Research</h6>
                                         <p class="card-text mb-4">With supporting text below as a natural lead-in to
@@ -73,7 +73,7 @@
                                     <div class="box-body text-[0.9rem] text-center network-box-bm">
                                         <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
                                             
-                                            <i class="fa-solid fa-shield-halved text-4xl icon-hover"></i>
+                                            <i class="fa-solid fa-hand-holding-heart text-4xl icon-hover"></i>
                                         </span>
                                         <h6 class="box-title font-semibold">Market Cyber Security</h6>
                                         <p class="card-text mb-4">With supporting text below as a natural lead-in to
@@ -87,7 +87,7 @@
                                     <div class="box-body text-[0.9rem] text-center network-box-bm">
                                         <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
                                             
-                                            <i class="fa-solid fa-mobile-screen-button text-4xl icon-hover"></i>
+                                            <i class="fa-solid fa-users-viewfinder text-4xl icon-hover"></i>
                                         </span>
                                         <h6 class="box-title font-semibold">Market Cyber Security</h6>
                                         <p class="card-text mb-4">With supporting text below as a natural lead-in to
