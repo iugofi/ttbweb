@@ -43282,7 +43282,10 @@ h6.uppercase {
 .network-box-bm:hover {
     background-image: url("/assets/img/circle.png");
 }
-
+.rte-icon {
+    top: 3px;
+    position: relative;
+}
 .network-row .box {
     border-radius: 0;
     border-top: 4px solid #12D2B3;
