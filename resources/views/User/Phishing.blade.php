@@ -15,6 +15,7 @@
 <div class="content">
     <div class="main-content">
 
+        <div class="main-content !p-0 landing-main dark:text-defaulttextcolor/70">
 
             <section class="vpn-banner-top">
                 <div class="container main-banner-container">
@@ -50,7 +51,7 @@
 
 
 
-
+        </div>
 
 
 
