@@ -42490,7 +42490,12 @@ img.img-fluid.service-icon {
 .Phishing-banner-top {
     padding: 140px 0px;
 }
-
+.Phishing-banner-top h2{
+    font-size: 48px;
+}
+.Phishing-banner-top p{
+    font-size: 16px;
+}
 
 /* vpn new page css */
 
