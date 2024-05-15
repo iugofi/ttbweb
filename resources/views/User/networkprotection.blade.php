@@ -17,7 +17,7 @@
         <!-- Start::End Point section one -->
         <div class="network-protection" id="endpoint">
             <section class="section sect-ban">
-                <div class="container main-banner-container">
+                <div class="container network-container">
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 col-span-12">
                             <div class="lg:py-[3rem] text-vartical" style="position: relative; top: 7rem;">
