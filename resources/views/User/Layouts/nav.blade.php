@@ -63,7 +63,7 @@
                                         <a href="{{route('user.endpoint_protection')}}" class="side-menu__item">Endpoint Protection</a>
                                     </li>
                                     <li class="slide">
-                                        <a href="javascript:void(0);" class="side-menu__item">Network Protection</a>
+                                        <a href="{{route('user.networkprotection')}}" class="side-menu__item">Network Protection</a>
                                     </li>
                                     
                                 </ul>

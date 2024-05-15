@@ -43217,8 +43217,43 @@ h6.uppercase {
 .dark .box-bottom:hover p {
     color: #fff !important;
 }
-
 /* End:: commericial page css */
+
+/* start:: network protection page css */
+
+.network-protection {
+    background-image: url("/assets/img/Banner-career.png");
+    height: 62rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 3rem;
+}
+
+/* End:: network protection page css */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (min-width: 320px) and (max-width: 767px) {
     div#home {
@@ -43306,13 +43341,8 @@ h6.uppercase {
     .sectntwo-endpoint {
         padding: 0;
     }
-
-
     /* End end point Mobile css */
 }
-
-
-/* @media (min-width: 320px) and (max-width: 767px) {} */
 
 
 
