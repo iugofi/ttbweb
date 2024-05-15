@@ -458,6 +458,7 @@ public function signdata(Request $request)
         'signin_email' => 'required|max:50',
         'signin_password' => 'required|min:6|max:20'
     ]);
+    dd($request->all());
 
     if ($validator->fails()) {
         return response()->json([
