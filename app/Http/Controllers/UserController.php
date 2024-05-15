@@ -458,7 +458,6 @@ public function signdata(Request $request)
         'signin_email' => 'required|max:50',
         'signin_password' => 'required|min:6|max:20'
     ]);
-    
 
     if ($validator->fails()) {
         return response()->json([
@@ -468,11 +467,9 @@ public function signdata(Request $request)
     } else {
         $user = Users::where('email', $request->signin_email)->first();
 
-        $lullu=\Crypt::decrypt($user->password);
-        dd($lullu);
         if ($user) {
             if ($user->status == 1) {
-                if (\Crypt::decrypt($user->password) == $request->signin_password) {
+                if (Hash::check($request->signin_password, $user->password)) {
                     $request->session()->put('loggedInUser', $user->id);
                     return response()->json([
                         'status' => 200,
