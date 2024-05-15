@@ -79,7 +79,7 @@ Route::get('/totel-internet-security', [UserController::class, 'totalinternet'])
 
 //ttb commercial
 Route::get('/commercial', [UserController::class, 'commercial_page'])->name('user.commercial');
-Route::get('/networkprotection', [UserController::class, 'network_protection'])->name('user.networkprotection');
+Route::get('/network-protection', [UserController::class, 'network_protection'])->name('user.networkprotection');
 
 
 
