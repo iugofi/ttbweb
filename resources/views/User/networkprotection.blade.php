@@ -25,9 +25,9 @@
                                     for business</h1>
                                 <div class="text-[1rem] mb-[1.3rem] text-black-light opacity-[0.9] text-left dark-text"
                                     style="color: #fff;">Holisticly
-                                    procrastinate mission-critical convergence with reliable customer service.
-                                    <br>Assertively
-                                    underwhelm idea-sharing for impactful solutions.
+                                    procrastinate mission-critical convergence with reliable 
+                                    customer service. Assertively underwhelm idea-sharing for
+                                    <br> convergence with reliable solutions.
                                 </div>
                                 <div class="bnr-btn text-left">
                                     <a href="index.html" class="m-1 ti-btn ti-btn-primary-full bnr-btn-1"
