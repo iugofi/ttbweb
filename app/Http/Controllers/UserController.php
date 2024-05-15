@@ -466,11 +466,10 @@ public function signdata(Request $request)
         ]);
     } else {
         $user = Users::where('email', $request->signin_email)->first();
-        dd(\Crypt::decrypt($user->password));
 
         if ($user) {
             if ($user->status == 1) {
-                if (\Crypt::decrypt($user->password) == $request->signin_password) {
+                if (Hash::check($request->signin_password, $user->password)) {
                     $request->session()->put('loggedInUser', $user->id);
                     return response()->json([
                         'status' => 200,
@@ -479,7 +478,7 @@ public function signdata(Request $request)
                 } else {
                     return response()->json([
                         'status' => 401,
-                        'messages' => 'Password Incorrect!'
+                        'messages' => 'E-mail or Password Incorrect!'
                     ]);
                 }
             } else {
