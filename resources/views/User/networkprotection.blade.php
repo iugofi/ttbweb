@@ -43,11 +43,63 @@
         </div>
         <!-- End:: network protection section one -->
 
+        <!-- Start:: network protection section two -->
 
+        <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70" id="features">
+            <div class="container endpoint-container">
+                <div class="grid grid-cols-12 gap-6">
+                    
+                    
+                    <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 col-span-12 endpoint-rowtwo">
+                        <div class="grid grid-cols-12 gap-6">
+                            
+                            <div class="xl:col-span-4 col-span-12">
+                                <div class="box">
 
+                                    <div class="box-body text-[0.9rem] text-center endpoint-box-bm">
+                                        <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
+                                            
+                                            <i class="fa-regular fa-bookmark text-4xl icon-hover"></i>
+                                        </span>
+                                        <h6 class="box-title font-semibold">Market Research</h6>
+                                        <p class="card-text mb-4">With supporting text below as a natural lead-in to
+                                            additional content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="xl:col-span-4 col-span-12">
+                                <div class="box">
+                                    <div class="box-body text-[0.9rem] text-center endpoint-box-bm">
+                                        <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
+                                            
+                                            <i class="fa-solid fa-shield-halved text-4xl icon-hover"></i>
+                                        </span>
+                                        <h6 class="box-title font-semibold">Market Cyber Security</h6>
+                                        <p class="card-text mb-4">With supporting text below as a natural lead-in to
+                                            additional content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="xl:col-span-4 col-span-12">
+                                <div class="box ">
+                                    <div class="box-body text-[0.9rem] text-center endpoint-box-bm">
+                                        <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
+                                            
+                                            <i class="fa-solid fa-mobile-screen-button text-4xl icon-hover"></i>
+                                        </span>
+                                        <h6 class="box-title font-semibold">Market Cyber Security</h6>
+                                        <p class="card-text mb-4">With supporting text below as a natural lead-in to
+                                            additional content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-
-
+        <!-- End:: network protection section two -->
 
 
 
