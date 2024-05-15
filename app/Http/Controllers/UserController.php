@@ -466,6 +466,7 @@ public function signdata(Request $request)
         ]);
     } else {
         $user = Users::where('email', $request->signin_email)->first();
+        dd(\Crypt::decrypt($user->password));
 
         if ($user) {
             if ($user->status == 1) {
