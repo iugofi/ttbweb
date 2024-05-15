@@ -12,8 +12,8 @@
 @section('content')
 
 
-<div class="content">
-    <div class="main-content">
+{{-- <div class="content">
+    <div class="main-content"> --}}
 
         <div class="main-content !p-0 landing-main dark:text-defaulttextcolor/70">
 
@@ -63,9 +63,9 @@
 
         
 
-    </div>
+    {{-- </div>
 </div>
-    
+     --}}
 
          
 
