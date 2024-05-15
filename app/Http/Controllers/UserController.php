@@ -468,6 +468,8 @@ public function signdata(Request $request)
     } else {
         $user = Users::where('email', $request->signin_email)->first();
 
+        $lullu=\Crypt::decrypt($user->password);
+        dd($lullu);
         if ($user) {
             if ($user->status == 1) {
                 if (\Crypt::decrypt($user->password) == $request->signin_password) {
