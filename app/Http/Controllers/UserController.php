@@ -161,6 +161,10 @@ class UserController extends Controller
     {
         return view('User.Phishing');
     }
+    public function network_protection()
+    {
+        return view('User.networkprotection');
+    }
     public function contactform(Request $request)
     {
 
