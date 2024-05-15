@@ -42491,9 +42491,9 @@ img.img-fluid.service-icon {
 }
 .phishing-icon-box {
     background-color: #12d2b326;
-    padding: 10px;
+    padding: 15px;
     display: inline;
-    border-radius: 10px;
+    border-radius: 25px;
 }
 
 
@@ -42504,13 +42504,18 @@ img.img-fluid.service-icon {
 
 .box-icon-full {
     box-shadow: -1px 3px 11px 3px #b9b5b573;
-    padding: 20px;
+    padding: 33px 20px;
+    border: 1px solid #fff;
+}
+.box-icon-full:hover {
+    box-shadow: none;
+    border: 1px solid #12d2b3;
 }
 .phishing-section-two{
     padding: 50px 0px;
 }
 .Phishing-banner-top {
-    padding: 140px 0px;
+    padding: 124px 0px 23px 0px;
 }
 .Phishing-banner-top h2{
     font-size: 40px;
@@ -43268,10 +43273,19 @@ h6.uppercase {
 .network-box-bm .text-4xl.icon-hover {
     color: #000;
 }
+.network-box-bm:hover .text-4xl.icon-hover {
+    color: #12D2B3;
+}
+.network-box-bm:hover a.read-btn {
+    color: #12D2B3;
+}
 .network-box-bm:hover {
     background-image: url("/assets/img/circle.png");
 }
-
+.rte-icon {
+    top: 3px;
+    position: relative;
+}
 .network-row .box {
     border-radius: 0;
     border-top: 4px solid #12D2B3;
