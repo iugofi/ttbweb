@@ -14,7 +14,7 @@
 
 <div class="main-content !p-0 landing-main dark:text-defaulttextcolor/70">
 
-        <!-- Start::End Point section one -->
+        <!-- Start:: network protection section one -->
         <div class="network-protection" id="endpoint">
             <section class="section sect-ban">
                 <div class="container network-container">
@@ -41,7 +41,7 @@
                 </div>
             </section>
         </div>
-        <!-- End::End Point section one -->
+        <!-- End:: network protection section one -->
 
 
 
