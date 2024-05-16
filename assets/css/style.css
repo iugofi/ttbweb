@@ -43686,7 +43686,7 @@ h6.uppercase {
     line-height: 1.9rem;
 }
 .icon-size {
-    display: inline-flex;
+    display: inline-flex !important;
     align-items: center;
 }
 /* End network protection page css */
