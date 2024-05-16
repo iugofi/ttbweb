@@ -738,7 +738,7 @@
                                                                                         25,Nov 2022
                                                                                     </td>
                                                                                     <td>
-                                                                                        $212.45
+                                                                                        {{$productdetails_list->amount_total}}
                                                                                     </td>
                                                                                     <td>
                                                                                         <span
