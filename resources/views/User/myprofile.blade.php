@@ -260,6 +260,7 @@
                                                                     </div>
                                                                     <div class="ti-modal-body">
                                                                         <form method="post" id="myprofilechangeother">
+                                                                            @csrf
                                                                             <div class="mb-3">
                                                                                 <label for="exampleInputPassword1"
                                                                                     class="form-label">First Name</label>
