@@ -108,20 +108,26 @@
                         took a galley of type and scrambled it to make a type specimen book.</p><br>
                     <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
                         classical Latin literature from 45 BC, making it over 2000 years old.</p>
-                    <div class="grid grid-cols-12 gap-6">
-                        <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12 ">
+                    <div class="grid grid-cols-12 gap-2 mt-7">
+                        <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-12 ">
                             <div class="icon-box-left">
                                 <i class="fas fa-user-shield"></i>
                             </div>
+                        </div>
+                        <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-12 ">
                             <h5>Exclusive Design </h5>
                             <p>Lorem Ipsum is not simply random text.Making it over 2000 years old.</p>
                         </div>
-                        <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
+                        <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-12">
                             <div class="icon-box-left">
                                 <i class="fas fa-user-shield"></i>
                             </div>
+                        </div>
+                        <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-12 ">
                             <h5>Exclusive Design </h5>
                             <p>Lorem Ipsum is not simply random text.Making it over 2000 years old.</p>
+                        </div>
+                    </div>
                         </div>
                     </div>
                 </div>

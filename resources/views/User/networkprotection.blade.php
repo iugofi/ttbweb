@@ -166,7 +166,7 @@
 
         <!-- Start:: network protection section four -->
 
-        {{-- <section class="section landing-testimonials text-defaulttextcolor text-defaultsize">
+        <section class="section landing-testimonials text-defaulttextcolor text-defaultsize">
             <div class="container text-center">
                 <div class=" mb-[3rem] justify-center text-center">
                     <p class="text-[0.75rem] font-semibold mb-1"><span class="landing-section-heading">TESTIMONIALS</span>
@@ -328,109 +328,8 @@
                     <div class="swiper-pagination"></div>
                 </div>
             </div>
-        </section> --}}
-      
-        <section class="section landing-testimonials text-defaulttextcolor text-defaultsize">
-            <div class="container text-center">
-                <div class="mb-[3rem] justify-center text-center">
-                    <p class="text-[0.75rem] font-semibold mb-1"><span class="landing-section-heading">TESTIMONIALS</span></p>
-                    <h3 class="font-semibold mb-2">We never failed to reach expectations</h3>
-                    <div class="xl:col-span-9 col-span-12">
-                        <span class="block font-normal text-[0.9375rem] text-[#8c9097] dark:text-white/50">Some of the reviews our clients gave which brings motivation to work for future projects.</span>
-                    </div>
-                </div>
-                <div class="swiper pagination-dynamic text-start rtl:dirrtl">
-                    <div class="swiper-wrapper slide-grid">
-                        <div class="swiper-slide rtl:dir-rtl">
-                            <div class="box featured-card-1 border dark:border-defaultborder/10">
-                                <div class="box-body p-6">
-                                    <span class="review-quote">
-                                        <i class="bi bi-quote"></i>
-                                    </span>
-                                    <div class="flex mb-2 items-center">
-                                        <span class="avatar avatar-lg avatar-rounded me-2">
-                                            <img src="assets/images/faces/11.jpg" alt="">
-                                        </span>
-                                        <div>
-                                            <p class="mb-0 font-semibold text-[1rem] text-primary">Json Taylor</p>
-                                            <p class="text-[0.625rem] mb-0 font-semibold text-[#8c9097] dark:text-white/50">CEO OF NORJA</p>
-                                        </div>
-                                    </div>
-                                    <span>- Est amet sit vero sanctus labore no sed ipsum ipsum nonumy. Sit ipsum sanctus ea
-                                        magna est. Aliquyam sed amet. Kasd diam rebum sit ipsum ipsum erat et kasd.Est amet
-                                        sit vero sanctus labor</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide rtl:dir-rtl">
-                            <div class="box featured-card-1 border dark:border-defaultborder/10">
-                                <div class="box-body p-6">
-                                    <span class="review-quote">
-                                        <i class="bi bi-quote"></i>
-                                    </span>
-                                    <div class="flex mb-2 items-center">
-                                        <span class="avatar avatar-lg avatar-rounded me-2">
-                                            <img src="assets/images/faces/11.jpg" alt="">
-                                        </span>
-                                        <div>
-                                            <p class="mb-0 font-semibold text-[1rem] text-primary">Json Taylor</p>
-                                            <p class="text-[0.625rem] mb-0 font-semibold text-[#8c9097] dark:text-white/50">CEO OF NORJA</p>
-                                        </div>
-                                    </div>
-                                    <span>- Est amet sit vero sanctus labore no sed ipsum ipsum nonumy. Sit ipsum sanctus ea
-                                        magna est. Aliquyam sed amet. Kasd diam rebum sit ipsum ipsum erat et kasd.Est amet
-                                        sit vero sanctus labor</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide rtl:dir-rtl">
-                            <div class="box featured-card-1 border dark:border-defaultborder/10">
-                                <div class="box-body p-6">
-                                    <span class="review-quote">
-                                        <i class="bi bi-quote"></i>
-                                    </span>
-                                    <div class="flex mb-2 items-center">
-                                        <span class="avatar avatar-lg avatar-rounded me-2">
-                                            <img src="assets/images/faces/11.jpg" alt="">
-                                        </span>
-                                        <div>
-                                            <p class="mb-0 font-semibold text-[1rem] text-primary">Json Taylor</p>
-                                            <p class="text-[0.625rem] mb-0 font-semibold text-[#8c9097] dark:text-white/50">CEO OF NORJA</p>
-                                        </div>
-                                    </div>
-                                    <span>- Est amet sit vero sanctus labore no sed ipsum ipsum nonumy. Sit ipsum sanctus ea
-                                        magna est. Aliquyam sed amet. Kasd diam rebum sit ipsum ipsum erat et kasd.Est amet
-                                        sit vero sanctus labor</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide rtl:dir-rtl">
-                            <div class="box featured-card-1 border dark:border-defaultborder/10">
-                                <div class="box-body p-6">
-                                    <span class="review-quote">
-                                        <i class="bi bi-quote"></i>
-                                    </span>
-                                    <div class="flex mb-2 items-center">
-                                        <span class="avatar avatar-lg avatar-rounded me-2">
-                                            <img src="assets/images/faces/11.jpg" alt="">
-                                        </span>
-                                        <div>
-                                            <p class="mb-0 font-semibold text-[1rem] text-primary">Json Taylor</p>
-                                            <p class="text-[0.625rem] mb-0 font-semibold text-[#8c9097] dark:text-white/50">CEO OF NORJA</p>
-                                        </div>
-                                    </div>
-                                    <span>- Est amet sit vero sanctus labore no sed ipsum ipsum nonumy. Sit ipsum sanctus ea
-                                        magna est. Aliquyam sed amet. Kasd diam rebum sit ipsum ipsum erat et kasd.Est amet
-                                        sit vero sanctus labor</span>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Add more swiper-slide divs for additional testimonials -->
-                    </div>
-                    <div class="swiper-pagination"></div>
-                </div>
-            </div>
         </section>
+      
         
         <!-- Link Swiper JS -->
         <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
