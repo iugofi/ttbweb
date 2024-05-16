@@ -42486,8 +42486,8 @@ img.img-fluid.service-icon {
 /* neeraj-home-page-css-22-04-2024 */
 
 /* phishing page css */
-.Phishing-section-two{
-    padding: 60px;
+.Phishing-section-two p{
+    font-size: 16px;
 }
 .phishing-icon-box {
     background-color: #12d2b326;
