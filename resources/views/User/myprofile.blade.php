@@ -674,7 +674,7 @@
                                                                                             <div class="me-2 leading-none">
                                                                                                 <span
                                                                                                     class="avatar avatar-sm avatar-rounded">
-                                                                                                    <img src="assets/images/faces/11.jpg"
+                                                                                                    <img src="assets/images/ecommerce/png/ttb-box.png"
                                                                                                         alt="">
                                                                                                 </span>
                                                                                             </div>
