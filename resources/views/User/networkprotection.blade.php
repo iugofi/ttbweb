@@ -128,17 +128,17 @@
                         <div class="grid grid-col-12 gap-x-6"> 
                             <div class="row flex gap-8">
                                 <div class="xl:col-grid-6 col-grid-6">
-                                    <i class="fa-solid fa-angles-right space-x-4 icon-size" style="font-size:12px; line-height:1.2rem">With supporting
-                                        natural lead</i>
-                                    <i class="fa-solid fa-angles-right space-x-4 icon-size" style="font-size:12px; line-height:1.2rem">With supporting
-                                        natural lead</i>
+                                    <i class="fa-solid fa-angles-right space-x-4 icon-size" style="font-size:12px; line-height:1.2rem"> <p>With supporting
+                                        natural lead</p></i>
+                                    <i class="fa-solid fa-angles-right space-x-4 icon-size" style="font-size:12px; line-height:1.2rem"><p>With supporting
+                                        natural lead</p></i>
                                 </div>
                                 <div class="xl:grid-col-6 col-grid-6">
-                                    <i class="fa-solid fa-angles-right space-x-4 icon-size" style="font-size:12px; line-height:1.2rem">With supporting
-                                        natural lead</i>
-                                    <i class="fa-solid fa-angles-right space-x-4 icon-size" style="font-size:14px; line-height:1.2rem">With supporting
-                                        natural lead</i>
-                                </div>
+                                    <i class="fa-solid fa-angles-right space-x-4 icon-size" style="font-size:12px; line-height:1.2rem"><p>With supporting
+                                        natural lead</p></i>
+                                    <i class="fa-solid fa-angles-right space-x-4 icon-size" style="font-size:14px; line-height:1.2rem"><p>With supporting
+                                        natural lead</p></i>
+                                </div> 
                             </div><br><br>
                             <a href="index.html" class="m-1 ti-btn ti-btn-primary-full" style="width:26%;">
                                 Get Full License!
