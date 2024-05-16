@@ -166,7 +166,7 @@
 
         <!-- Start:: network protection section four -->
 
-        {{-- <section class="section landing-testimonials text-defaulttextcolor text-defaultsize">
+        <section class="section landing-testimonials text-defaulttextcolor text-defaultsize">
             <div class="container text-center">
                 <div class=" mb-[3rem] justify-center text-center">
                     <p class="text-[0.75rem] font-semibold mb-1"><span class="landing-section-heading">TESTIMONIALS</span>
@@ -328,105 +328,9 @@
                     <div class="swiper-pagination"></div>
                 </div>
             </div>
-        </section> --}}
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
-          <meta charset="UTF-8">
-          <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <title>Bootstrap Carousel with Cards</title>
-          <!-- Bootstrap CSS -->
-          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-          <!-- Bootstrap JS Bundle with Popper.js -->
-          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-          <style>
-            /* Additional CSS for full responsiveness */
-            .card {
-              width: 100%;
-            }
-          </style>
-        </head>
-        <body>
-        
-        <section class="container">
-          <h2 class="text-center mb-4">Bootstrap Carousel with Cards</h2>
-          <div id="cardCarousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
-                  <!-- First Slide -->
-                  <div class="col">
-                    <div class="card h-100">
-                      <div class="card-body">
-                        <h5 class="card-title">Card 1</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="card h-100">
-                      <div class="card-body">
-                        <h5 class="card-title">Card 2</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="card h-100">
-                      <div class="card-body">
-                        <h5 class="card-title">Card 3</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Add more cards for the first slide -->
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
-                  <!-- Second Slide -->
-                  <div class="col">
-                    <div class="card h-100">
-                      <div class="card-body">
-                        <h5 class="card-title">Card 4</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="card h-100">
-                      <div class="card-body">
-                        <h5 class="card-title">Card 5</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="card h-100">
-                      <div class="card-body">
-                        <h5 class="card-title">Card 6</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Add more cards for the second slide -->
-                </div>
-              </div>
-              <!-- Add more carousel items as needed -->
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#cardCarousel" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#cardCarousel" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
         </section>
+      
         
-        </body>
-        </html>
         
         
 
