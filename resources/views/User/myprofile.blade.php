@@ -245,7 +245,7 @@
                                                                             Edit Profile
                                                                         </h6>
                                                                         <button type="button"
-                                                                            class="hs-dropdown-toggle ti-modal-close-btn" 
+                                                                            class="hs-dropdown-toggle ti-modal-close-btn"
                                                                             data-hs-overlay="#hs-vertically-centered-scrollable-modal">
                                                                             <span class="sr-only">Close</span>
                                                                             <svg class="w-3.5 h-3.5" width="8"
@@ -259,11 +259,11 @@
                                                                         </button>
                                                                     </div>
                                                                     <div class="ti-modal-body">
-                                                                        <form>
+                                                                        <form method="post" id="myprofilechangeother">
                                                                             <div class="mb-3">
                                                                                 <label for="exampleInputPassword1"
                                                                                     class="form-label">First Name</label>
-                                                                                <input type="text" class="form-control"
+                                                                                <input type="text" class="form-control" name="first_name"
                                                                                     value="{{ isset($user_data->firstname) ? $user_data->firstname : '' }}"
                                                                                     id="name">
                                                                             </div>
@@ -271,7 +271,7 @@
                                                                             <div class="mb-3">
                                                                                 <label for="exampleInputPassword1"
                                                                                     class="form-label">Last Name</label>
-                                                                                <input type="text" class="form-control"
+                                                                                <input type="text" class="form-control" name="last_name"
                                                                                     value="{{ isset($user_data->lastname) ? $user_data->lastname : '' }}"
                                                                                     id="name">
                                                                             </div>
@@ -283,26 +283,26 @@
                                                                                 </label>
                                                                                 <input type="email" class="form-control"
                                                                                     value="{{ isset($user_data->email) ? $user_data->email : '' }}"
-                                                                                    id="exampleInputEmail1"
+                                                                                    id="exampleInputEmail1" name=""
                                                                                     aria-describedby="emailHelp">
 
                                                                             </div>
                                                                             <div class="mb-3">
                                                                                 <label for="exampleInputPassword1"
                                                                                     class="form-label">Phone</label>
-                                                                                <input type="text" class="form-control"
+                                                                                <input type="text" class="form-control" name=""
                                                                                     value="{{ isset($user_data->phone) ? $user_data->phone : '' }}"
                                                                                     id="phone">
                                                                             </div>
                                                                             <div class="mb-3">
                                                                                 <label for="exampleInputPassword1"
                                                                                     class="form-label">Address</label>
-                                                                                <textarea type="text" class="form-control" id="address">{{ isset($user_data->address) ? $user_data->address : '' }}
+                                                                                <textarea type="text" class="form-control" name="" id="address">{{ isset($user_data->address) ? $user_data->address : '' }}
                                                                         </textarea>
                                                                             </div>
 
 
-                                                                        </form>
+                                                                        
                                                                     </div>
                                                                     <div class="ti-modal-footer">
                                                                         <button type="button"
@@ -310,11 +310,13 @@
                                                                             data-hs-overlay="#hs-vertically-centered-scrollable-modal">
                                                                             Close
                                                                         </button>
-                                                                        <a class="ti-btn ti-btn-primary-full"
-                                                                            href="javascript:void(0);">
-                                                                            profile change
-                                                                        </a>
+                                                                        <input type="submit"
+                                                                        id="profilechangeotherbtn"
+                                                                        class="ti-btn ti-btn-primary-full"
+                                                                        value="profile change">
+                                                                      
                                                                     </div>
+                                                                </form>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -335,7 +337,8 @@
                                                                             Change Password
                                                                         </h6>
                                                                         <button type="button"
-                                                                            class="hs-dropdown-toggle ti-modal-close-btn" id="modalCloseButton"
+                                                                            class="hs-dropdown-toggle ti-modal-close-btn"
+                                                                            id="modalCloseButton"
                                                                             data-hs-overlay="#hs-vertically-centered-scrollable-modal-password">
                                                                             <span class="sr-only">Close</span>
                                                                             <svg class="w-3.5 h-3.5" width="8"
