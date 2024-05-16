@@ -420,7 +420,7 @@ public function storecomment(Request $request)
             $user->email = $request->email;
             $activation_key = md5($request->email . time()); // Generate activation key
             $user->activation_key = $activation_key;
-            $user->password = \Crypt::decrypt($request->signup_password);
+            $user->password = \Crypt::encrypt($request->signup_password);
             $user->save();
 
             // Mail::send('Html.view', $data, function ($message) {
