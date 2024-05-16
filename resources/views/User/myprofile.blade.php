@@ -415,12 +415,10 @@
                                                                                             onclick="createpassword('new_password',this)"
                                                                                             id="button-addon21"><i
                                                                                                 class="ri-eye-off-line align-middle"></i></button>
-                                                                                    <div class="invalid-feedback"></div>
-
                                                                                     </div>
-
-
                                                                                 </div>
+                                                                                <div class="invalid-feedback"></div>
+
                                                                                 <div
                                                                                     class="xl:col-span-12 col-span-12 mb-2">
                                                                                     <label for="confirm_password"
@@ -437,13 +435,10 @@
                                                                                             type="button"
                                                                                             onclick="createpassword('confirm_password',this)"
                                                                                             id="button-addon22"><i
-                                                                                                class="ri-eye-off-line align-middle"></i></button>
-                                                                                    <div class="invalid-feedback"></div>
-
+                                                                                                class="ri-eye-off-line align-middle"></i></button>                           
                                                                                     </div>
-
-
                                                                                 </div>
+                                                                                <div class="invalid-feedback"></div>
 
                                                                             </div>
 
