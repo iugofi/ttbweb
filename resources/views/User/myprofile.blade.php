@@ -903,7 +903,17 @@
                                                                             </p>
                                                                             <p
                                                                                 class="text-[0.75rem] opacity-[0.7] mb-1 text-[#8c9097] dark:text-white/50">
-                                                                                samanthamay2912@gmail.com</p>
+                                                                                @php
+                                                                                $plan_name = DB::table('planname')
+                                                                                    ->select('*')
+                                                                                    ->where('plan_id', $productdetails_list->plan_id)
+                                                                                    ->first();
+                                                                                @endphp
+                                                                                @if ($plan_name)
+                                                                                    {{ $plan_name->name }}
+                                                                                @else
+                                                                                    No product found.
+                                                                                @endif</p>
                                                                             <span
                                                                                 class="badge bg-info/10 rounded-full text-info">Team
                                                                                 Member</span>
