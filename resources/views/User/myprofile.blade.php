@@ -348,9 +348,13 @@
                                                                             </svg>
                                                                         </button>
                                                                     </div>
+
                                                                     <form method="post" id="passwordchangeprofile">
                                                                         @csrf
                                                                         <div class="ti-modal-body">
+                                                                            <div class="" id="show_success_alert">
+                                                                            </div>
+
                                                                             <div class="grid grid-cols-12 gap-y-4">
                                                                                 <div class="xl:col-span-12 col-span-12">
                                                                                     <label for="reset-password"
@@ -364,7 +368,10 @@
                                                                                             name="cuurent_password"
                                                                                             placeholder="current password"
                                                                                             disabled>
-                                                                                            <input type="text" name="id_user" value="{{ isset($user_data->id) ? \Crypt::encrypt($user_data->id) : '' }}" hidden>
+                                                                                        <input type="text"
+                                                                                            name="id_user"
+                                                                                            value="{{ isset($user_data->id) ? \Crypt::encrypt($user_data->id) : '' }}"
+                                                                                            hidden>
                                                                                         <button aria-label="button"
                                                                                             class="ti-btn ti-btn-light !mb-0 !rounded-s-none"
                                                                                             type="button"
@@ -1210,6 +1217,7 @@
                             $('.invalid-feedback').empty();
                             removeValidationClass("#passwordchangeprofile");
                             $('#passprofilechangebtn').val('Change Password');
+                            $('#modalCloseButton').click();
                         }
                     }
                 });

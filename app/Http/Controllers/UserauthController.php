@@ -54,7 +54,7 @@ class UserauthController extends Controller
                     if (!$profilepasschange) {
                         return response()->json([
                             'status' => 404,
-                            'messages' => 'Admin not found'
+                            'messages' => 'User Password not found'
                         ]);
                     }      
                     $profilepasschange->update([
@@ -68,7 +68,7 @@ class UserauthController extends Controller
     
                     return response()->json([
                         'status' => 200,
-                        'messages' => 'Admin Edit successfully'
+                        'messages' => 'Password Edit successfully'
                     ]);
     
                     }
