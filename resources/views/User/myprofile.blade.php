@@ -885,7 +885,7 @@
                                                                             alt="">
                                                                     </span>
                                                                     <div class="mt-2">
-                                                                        <p class="mb-0 font-semibold">{{$productdetails_list->product_id}}
+                                                                        <p class="mb-0 font-semibold">{{$productdetails_list->PICK_TEXT}}
                                                                         </p>
                                                                         <p
                                                                             class="text-[0.75rem] opacity-[0.7] mb-1 text-[#8c9097] dark:text-white/50">
