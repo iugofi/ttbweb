@@ -876,40 +876,45 @@
 
                                                 <div class="grid grid-cols-12 sm:gap-x-6">
                                                     @foreach ($productdetails as $productdetails_list)
-                                                    @foreach ( $productdetails_list->product_id as $item)
-                                                    @php
-                                                        dd($item);
-                                                    @endphp
-                                                        
-                                                    @endforeach
+                                                        <div
+                                                            class="xxl:col-span-4 xl:col-span-4 lg:col-span-6 md:col-span-6 col-span-12">
+                                                            <div
+                                                                class="box !shadow-none border dark:border-defaultborder/10">
+                                                                <div class="box-body p-6">
+                                                                    <div class="text-center">
+                                                                        <span class="avatar avatar-xl avatar-rounded">
+                                                                            <img src="assets/images/ecommerce/png/ttb-box.png"
+                                                                                alt="">
+                                                                        </span>
+                                                                        <div class="mt-2">
+                                                                            <p class="mb-0 font-semibold">@php
+                                                                                $product_name = DB::table('storepick')
+                                                                                    ->select('*')
+                                                                                    ->where('PICK_ID', 501)
+                                                                                    ->where('STORE_ID', 'key_type')
+                                                                                    ->first();
+                                                                            @endphp
+                                                                                @if ($product)
+                                                                                    {{ $product->PICK_TEXT }}
+                                                                                @else
+                                                                                    No product found.
+                                                                                @endif
 
-                                              
-                                                    
-                                                    <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-6 md:col-span-6 col-span-12">
-                                                        <div class="box !shadow-none border dark:border-defaultborder/10">
-                                                            <div class="box-body p-6">
-                                                                <div class="text-center">
-                                                                    <span class="avatar avatar-xl avatar-rounded">
-                                                                        <img src="assets/images/ecommerce/png/ttb-box.png"
-                                                                            alt="">
-                                                                    </span>
-                                                                    <div class="mt-2">
-                                                                        <p class="mb-0 font-semibold">
-                                                                        </p>
-                                                                        <p
-                                                                            class="text-[0.75rem] opacity-[0.7] mb-1 text-[#8c9097] dark:text-white/50">
-                                                                            samanthamay2912@gmail.com</p>
-                                                                        <span
-                                                                            class="badge bg-info/10 rounded-full text-info">Team
-                                                                            Member</span>
+                                                                            </p>
+                                                                            <p
+                                                                                class="text-[0.75rem] opacity-[0.7] mb-1 text-[#8c9097] dark:text-white/50">
+                                                                                samanthamay2912@gmail.com</p>
+                                                                            <span
+                                                                                class="badge bg-info/10 rounded-full text-info">Team
+                                                                                Member</span>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
-                                                            </div>
 
+                                                            </div>
                                                         </div>
-                                                    </div>
                                                     @endforeach
-                                                  
+
 
                                                     <div class="col-span-12">
                                                         <div class="text-center !mt-4">
