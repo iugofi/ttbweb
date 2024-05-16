@@ -335,8 +335,7 @@
                     <p class="text-[0.75rem] font-semibold mb-1"><span class="landing-section-heading">TESTIMONIALS</span></p>
                     <h3 class="font-semibold mb-2">We never failed to reach expectations</h3>
                     <div class="xl:col-span-9 col-span-12">
-                        <span class="block font-normal text-[0.9375rem] text-[#8c9097] dark:text-white/50">Some of the
-                            reviews our clients gave which brings motivation to work for future projects.</span>
+                        <span class="block font-normal text-[0.9375rem] text-[#8c9097] dark:text-white/50">Some of the reviews our clients gave which brings motivation to work for future projects.</span>
                     </div>
                 </div>
                 <div class="swiper pagination-dynamic text-start rtl:dirrtl">
@@ -344,40 +343,28 @@
                         <div class="swiper-slide rtl:dir-rtl">
                             <div class="box featured-card-1 border dark:border-defaultborder/10">
                                 <div class="box-body p-6">
-                                    <p>1 Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                                        Dicta similique accusamus voluptatibus fugit, atque cum
-                                         ea accusantium. Placeat, magni ad. Modi possimus aperiam
-                                          harum facere molestiae similique! Consequatur, rem fugiat?</p> 
+                                    <p>1 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta similique accusamus voluptatibus fugit, atque cum ea accusantium. Placeat, magni ad. Modi possimus aperiam harum facere molestiae similique! Consequatur, rem fugiat?</p> 
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide rtl:dir-rtl">
                             <div class="box featured-card-1 border dark:border-defaultborder/10">
                                 <div class="box-body p-6">
-                                    <p>2 Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                                        Dicta similique accusamus voluptatibus fugit, atque cum
-                                         ea accusantium. Placeat, magni ad. Modi possimus aperiam
-                                          harum facere molestiae similique! Consequatur, rem fugiat?</p> 
+                                    <p>2 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta similique accusamus voluptatibus fugit, atque cum ea accusantium. Placeat, magni ad. Modi possimus aperiam harum facere molestiae similique! Consequatur, rem fugiat?</p> 
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide rtl:dir-rtl">
                             <div class="box featured-card-1 border dark:border-defaultborder/10">
                                 <div class="box-body p-6">
-                                    <p>3 Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                                        Dicta similique accusamus voluptatibus fugit, atque cum
-                                         ea accusantium. Placeat, magni ad. Modi possimus aperiam
-                                          harum facere molestiae similique! Consequatur, rem fugiat?</p> 
+                                    <p>3 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta similique accusamus voluptatibus fugit, atque cum ea accusantium. Placeat, magni ad. Modi possimus aperiam harum facere molestiae similique! Consequatur, rem fugiat?</p> 
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide rtl:dir-rtl">
                             <div class="box featured-card-1 border dark:border-defaultborder/10">
                                 <div class="box-body p-6">
-                                    <p>4 Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                                        Dicta similique accusamus voluptatibus fugit, atque cum
-                                         ea accusantium. Placeat, magni ad. Modi possimus aperiam
-                                          harum facere molestiae similique! Consequatur, rem fugiat?</p> 
+                                    <p>4 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta similique accusamus voluptatibus fugit, atque cum ea accusantium. Placeat, magni ad. Modi possimus aperiam harum facere molestiae similique! Consequatur, rem fugiat?</p> 
                                 </div>
                             </div>
                         </div>
@@ -387,6 +374,7 @@
                 </div>
             </div>
         </section>
+        
         
 
         <!-- End:: network protection section four -->
