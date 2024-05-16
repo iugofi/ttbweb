@@ -42487,9 +42487,14 @@ img.img-fluid.service-icon {
 
 /* phishing page css */
 
-.Phishing-section-three{
-padding: 60px 0px;
+
+.Phishing-section-three p{
+  font-size: 16px;    
 }
+.Phishing-section-three h3{
+    font-size: 28px;    
+  }
+
 .Phishing-section-two p{
     font-size: 15px;
 }
