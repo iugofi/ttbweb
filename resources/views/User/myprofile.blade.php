@@ -876,6 +876,7 @@
 
                                                 <div class="grid grid-cols-12 sm:gap-x-6">
                                                     @foreach ($productdetails as $productdetails_list)
+                                                    
                                                     <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-6 md:col-span-6 col-span-12">
                                                         <div class="box !shadow-none border dark:border-defaultborder/10">
                                                             <div class="box-body p-6">
@@ -885,7 +886,7 @@
                                                                             alt="">
                                                                     </span>
                                                                     <div class="mt-2">
-                                                                        <p class="mb-0 font-semibold">{{$productdetails_list->PICK_TEXT}}
+                                                                        <p class="mb-0 font-semibold">
                                                                         </p>
                                                                         <p
                                                                             class="text-[0.75rem] opacity-[0.7] mb-1 text-[#8c9097] dark:text-white/50">

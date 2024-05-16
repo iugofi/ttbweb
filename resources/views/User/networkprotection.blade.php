@@ -166,7 +166,7 @@
 
         <!-- Start:: network protection section four -->
 
-        {{-- <section class="section landing-testimonials text-defaulttextcolor text-defaultsize">
+        <section class="section landing-testimonials text-defaulttextcolor text-defaultsize">
             <div class="container text-center">
                 <div class=" mb-[3rem] justify-center text-center">
                     <p class="text-[0.75rem] font-semibold mb-1"><span class="landing-section-heading">TESTIMONIALS</span>
@@ -328,52 +328,26 @@
                     <div class="swiper-pagination"></div>
                 </div>
             </div>
-        </section> --}}
-        <section class="section landing-testimonials text-defaulttextcolor text-defaultsize">
-            <div class="container text-center">
-                <div class="mb-[3rem] justify-center text-center">
-                    <p class="text-[0.75rem] font-semibold mb-1"><span class="landing-section-heading">TESTIMONIALS</span></p>
-                    <h3 class="font-semibold mb-2">We never failed to reach expectations</h3>
-                    <div class="xl:col-span-9 col-span-12">
-                        <span class="block font-normal text-[0.9375rem] text-[#8c9097] dark:text-white/50">Some of the reviews our clients gave which brings motivation to work for future projects.</span>
-                    </div>
-                </div>
-                <div class="swiper pagination-dynamic text-start rtl:dirrtl">
-                    <div class="swiper-wrapper slide-grid grid grid-cols-1 md:grid-cols-3 gap-4">
-                        <div class="swiper-slide rtl:dir-rtl">
-                            <div class="box featured-card-1 border dark:border-defaultborder/10">
-                                <div class="box-body p-6">
-                                    <p>1 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta similique accusamus voluptatibus fugit, atque cum ea accusantium. Placeat, magni ad. Modi possimus aperiam harum facere molestiae similique! Consequatur, rem fugiat?</p> 
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide rtl:dir-rtl">
-                            <div class="box featured-card-1 border dark:border-defaultborder/10">
-                                <div class="box-body p-6">
-                                    <p>2 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta similique accusamus voluptatibus fugit, atque cum ea accusantium. Placeat, magni ad. Modi possimus aperiam harum facere molestiae similique! Consequatur, rem fugiat?</p> 
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide rtl:dir-rtl">
-                            <div class="box featured-card-1 border dark:border-defaultborder/10">
-                                <div class="box-body p-6">
-                                    <p>3 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta similique accusamus voluptatibus fugit, atque cum ea accusantium. Placeat, magni ad. Modi possimus aperiam harum facere molestiae similique! Consequatur, rem fugiat?</p> 
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide rtl:dir-rtl">
-                            <div class="box featured-card-1 border dark:border-defaultborder/10">
-                                <div class="box-body p-6">
-                                    <p>4 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta similique accusamus voluptatibus fugit, atque cum ea accusantium. Placeat, magni ad. Modi possimus aperiam harum facere molestiae similique! Consequatur, rem fugiat?</p> 
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Add more swiper-slide divs for additional testimonials -->
-                    </div>
-                    <div class="swiper-pagination"></div>
-                </div>
-            </div>
         </section>
+      
+        
+        <!-- Link Swiper JS -->
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <!-- Initialize Swiper -->
+        <script>
+          var swiper = new Swiper('.swiper', {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            autoplay: {
+              delay: 5000, // Autoplay delay in milliseconds
+            },
+            pagination: {
+              el: '.swiper-pagination',
+              clickable: true,
+            },
+          });
+        </script>
         
         
 
