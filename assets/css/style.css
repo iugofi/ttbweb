@@ -42493,12 +42493,18 @@ img.img-fluid.service-icon {
 }
 
 .Phishing-section-three p{
-  font-size: 16px;    
+    font-size: 16px;    
+}
+.Phishing-section-three h2{
+    font-size: 32px;
 }
 .Phishing-section-three h3{
     font-size: 28px;    
-  }
-
+}
+.Phishing-section-three h4{
+    font-size: 16px;
+    color: #12D2B3;
+}
 .Phishing-section-two p{
     font-size: 15px;
 }
