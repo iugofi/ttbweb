@@ -43690,7 +43690,9 @@ h6.uppercase {
 /* End endpoint protection page css */
 
 /* Start network protection page css */
-
+.dark .icon-hover {
+    color: #12D2B3 !important;
+}
 .icon-size::before {
     content: "\f101";
     font-size: 18px;
