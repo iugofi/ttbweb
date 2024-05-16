@@ -915,8 +915,7 @@
                                                                                     No product found.
                                                                                 @endif</p>
                                                                             <span
-                                                                                class="badge bg-info/10 rounded-full text-info">Team
-                                                                                Member</span>
+                                                                                class="badge bg-info/10 rounded-full text-info">{{$productdetails_list->product_key}}</span>
                                                                         </div>
                                                                     </div>
                                                                 </div>
