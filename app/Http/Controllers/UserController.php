@@ -469,7 +469,7 @@ public function signdata(Request $request)
 
         if ($user) {
             if ($user->status == 1) {
-                if (Hash::check($request->signin_password, $user->password)) {
+                if (\Crypt::decrypt($user->password) == $request->signin_password) {
                     $request->session()->put('loggedInUser', $user->id);
                     return response()->json([
                         'status' => 200,
