@@ -117,40 +117,32 @@
                         </div>
                     </div>
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 pt-5 pb-0 lg:px-2 !text-start  my-auto">
-                        <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">What We Do</span>
-                        <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">We Provide Web Design
-                            With App Development</h4>
+                        <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">About Our Company</span>
+                        <h2 class="lg:text-start font-semibold mb-2 text-[2rem]">Lorem ipsum dolor sit amet consectetur
+                             Eveniet, explicabo?</h2>
                         <p class=" text-[0.9rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
                             value with diverse web-readiness. Collaboratively transition wireless customer service without
                             goal-oriented catalysts for change. Collaboratively.
                         </p>
 
-                        <div class="grid grid-rows-2 grid-flow-col gap-1">
-                            <div class="row-span-3">
-                                <img src="assets/img/Best-Services-Iocn-1.png" class="img-fluid !inline-flex backimage">
-                            </div>
-                            <div class="col-span-2">
-                                <h5 class="dark-text px-6">Best Services</h5>
-                            </div>
-                            <div class="row-span-2 col-span-2">
-                                <p class="text-gray-light px-6">Lorem ipsum dolor sit amet, eiusmod
-                                    tempor. Lorem ipsum dolor sit amet, eiusmod tempor.</p>
-                            </div>
-                        </div>
-                        <div class="grid grid-rows-2 grid-flow-col pt-4 gap-1">
-                            <div class="row-span-3"><img src="assets/img/Best-Services-Iocn-2.png "
-                                    class="img-fluid !inline-flex backimage"></div>
-                            <div class="col-span-2">
-                                <h5 class="dark-text px-6">Support 24/7</h5>
-                            </div>
-                            <div class="row-span-2 col-span-2">
-                                <p class="text-gray-light px-6">Lorem ipsum dolor sit amet, eiusmod
-                                    tempor. Lorem ipsum dolor sit amet, eiusmod tempor.</p>
-                            </div>
-                        </div>
-
-                        <div class="action-btns mt-4">
-                            <a href="#" class="ti-btn bg-primary text-white">Explore More Us</a>
+                        <div class="grid grid-col-12 gap-x-6"> 
+                            <div class="row flex gap-8">
+                                <div class="xl:col-grid-6 col-grid-6">
+                                    <i class="fa-solid fa-angles-right space-x-4" style="font-size:12px; line-height:1.2rem">With supporting
+                                        natural lead</i>
+                                    <i class="fa-solid fa-angles-right space-x-4" style="font-size:12px; line-height:1.2rem">With supporting
+                                        natural lead</i>
+                                </div>
+                                <div class="xl:grid-col-6 col-grid-6">
+                                    <i class="fa-solid fa-angles-right space-x-4" style="font-size:12px; line-height:1.2rem">With supporting
+                                        natural lead</i>
+                                    <i class="fa-solid fa-angles-right space-x-4" style="font-size:14px; line-height:1.2rem">With supporting
+                                        natural lead</i>
+                                </div>
+                            </div><br><br>
+                            <a href="index.html" class="m-1 ti-btn ti-btn-primary-full" style="width:26%;">
+                                Get Full License!
+                            </a>
                         </div>
                     </div>
                 </div>
