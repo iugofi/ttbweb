@@ -110,10 +110,7 @@
                     class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6  customize-image text-center">
                         <div class="lg:text-start !flex items-center lg:justify-start justify-center">
-                            <img src="{{ asset('assets/img/Second-Section-img.png') }}" alt="" class="img-fluid">
-                        </div>
-                        <div class="lg:text-start !flex items-center lg:justify-start justify-center animate-bounce">
-                            <h6 class="uppercase">25 year of exprience</h6>
+                            <img src="{{ asset('assets/img/The-Largest-Business-Expert-Company.png') }}" alt="" class="img-fluid">
                         </div>
                     </div>
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 pt-5 pb-0 lg:px-2 !text-start  my-auto">
@@ -128,20 +125,24 @@
                         <div class="grid grid-col-12 gap-x-6"> 
                             <div class="row flex gap-8">
                                 <div class="xl:col-grid-6 col-grid-6">
-                                    <i class="fa-solid fa-angles-right space-x-4 icon-size" style="font-size:12px; line-height:1.2rem">With supporting
-                                        natural lead</i>
-                                    <i class="fa-solid fa-angles-right space-x-4 icon-size" style="font-size:12px; line-height:1.2rem">With supporting
-                                        natural lead</i>
+                                    <i class="fa-solid fa-angles-right space-x-4 icon-size"> <h6 style="font-weight: 700; font-size: 14px;">With supporting
+                                        natural lead</h6></i>
+                                        <p>customer service without goal-oriented catalysts for change</p><br>
+                                    <i class="fa-solid fa-angles-right space-x-4 icon-size"><h6 style="font-weight: 700; font-size: 14px;">With supporting
+                                        natural lead</h6></i><br>
+                                        <p>customer service without goal-oriented catalysts for change</p>
                                 </div>
                                 <div class="xl:grid-col-6 col-grid-6">
-                                    <i class="fa-solid fa-angles-right space-x-4 icon-size" style="font-size:12px; line-height:1.2rem">With supporting
-                                        natural lead</i>
-                                    <i class="fa-solid fa-angles-right space-x-4 icon-size" style="font-size:14px; line-height:1.2rem">With supporting
-                                        natural lead</i>
-                                </div>
+                                    <i class="fa-solid fa-angles-right space-x-4 icon-size"><h6 style="font-weight: 700; font-size: 14px;">With supporting
+                                        natural lead</h6></i>
+                                        <p>customer service without goal-oriented catalysts for change</p><br>
+                                    <i class="fa-solid fa-angles-right space-x-4 icon-size"><h6 style="font-weight: 700; font-size: 14px;">With supporting
+                                        natural lead</h6></i><br>
+                                        <p>customer service without goal-oriented catalysts for change</p>
+                                </div> 
                             </div><br><br>
                             <a href="index.html" class="m-1 ti-btn ti-btn-primary-full" style="width:26%;">
-                                Get Full License!
+                                About More
                             </a>
                         </div>
                     </div>

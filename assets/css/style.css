@@ -43688,7 +43688,10 @@ h6.uppercase {
     color: #12D2B3;
     line-height: 1.9rem;
 }
-
+.icon-size {
+    display: inline-flex !important;
+    align-items: center;
+}
 /* End network protection page css */
 
 

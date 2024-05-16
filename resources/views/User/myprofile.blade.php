@@ -246,6 +246,7 @@
                                                                         </h6>
                                                                         <button type="button"
                                                                             class="hs-dropdown-toggle ti-modal-close-btn"
+                                                                            id="modalCloseButtonotprofile"
                                                                             data-hs-overlay="#hs-vertically-centered-scrollable-modal">
                                                                             <span class="sr-only">Close</span>
                                                                             <svg class="w-3.5 h-3.5" width="8"
@@ -264,24 +265,25 @@
                                                                             <div class="mb-3">
                                                                                 <label for="exampleInputPassword1"
                                                                                     class="form-label">First Name</label>
-                                                                                <input type="text" class="form-control" name="first_name"
+                                                                                <input type="text" class="form-control"
+                                                                                    name="first_name"
                                                                                     value="{{ isset($user_data->firstname) ? $user_data->firstname : '' }}"
                                                                                     id="first_name">
-                                                                                    <div class="invalid-feedback"></div>
-                                                                                    <input type="text"
-                                                                                            name="id_user"
-                                                                                            value="{{ isset($user_data->id) ? \Crypt::encrypt($user_data->id) : '' }}"
-                                                                                            hidden>
+                                                                                <div class="invalid-feedback"></div>
+                                                                                <input type="text" name="id_user"
+                                                                                    value="{{ isset($user_data->id) ? \Crypt::encrypt($user_data->id) : '' }}"
+                                                                                    hidden>
 
                                                                             </div>
 
                                                                             <div class="mb-3">
                                                                                 <label for="exampleInputPassword1"
                                                                                     class="form-label">Last Name</label>
-                                                                                <input type="text" class="form-control" name="last_name"
+                                                                                <input type="text" class="form-control"
+                                                                                    name="last_name"
                                                                                     value="{{ isset($user_data->lastname) ? $user_data->lastname : '' }}"
                                                                                     id="last_name">
-                                                                                    <div class="invalid-feedback"></div>
+                                                                                <div class="invalid-feedback"></div>
 
                                                                             </div>
 
@@ -290,21 +292,23 @@
                                                                                 <label for="exampleInputEmail1"
                                                                                     class="form-label">Email
                                                                                 </label>
-                                                                                <input type="email" class="form-control" name="user_email"
+                                                                                <input type="email" class="form-control"
+                                                                                    name="user_email"
                                                                                     value="{{ isset($user_data->email) ? $user_data->email : '' }}"
                                                                                     id="user_email" name=""
                                                                                     aria-describedby="emailHelp">
-                                                                                    <div class="invalid-feedback"></div>
+                                                                                <div class="invalid-feedback"></div>
 
 
                                                                             </div>
                                                                             <div class="mb-3">
                                                                                 <label for="exampleInputPassword1"
                                                                                     class="form-label">Phone</label>
-                                                                                <input type="text" class="form-control" name="user_phone"
+                                                                                <input type="text" class="form-control"
+                                                                                    name="user_phone"
                                                                                     value="{{ isset($user_data->phone) ? $user_data->phone : '' }}"
                                                                                     id="user_phone">
-                                                                                    <div class="invalid-feedback"></div>
+                                                                                <div class="invalid-feedback"></div>
 
                                                                             </div>
                                                                             <div class="mb-3">
@@ -317,7 +321,7 @@
                                                                             </div>
 
 
-                                                                        
+
                                                                     </div>
                                                                     <div class="ti-modal-footer">
                                                                         <button type="button"
@@ -325,13 +329,12 @@
                                                                             data-hs-overlay="#hs-vertically-centered-scrollable-modal">
                                                                             Close
                                                                         </button>
-                                                                        <input type="submit"
-                                                                        id="profilechangeotherbtn"
-                                                                        class="ti-btn ti-btn-primary-full"
-                                                                        value="profile change">
-                                                                      
+                                                                        <input type="submit" id="profilechangeotherbtn"
+                                                                            class="ti-btn ti-btn-primary-full"
+                                                                            value="profile change">
+
                                                                     </div>
-                                                                </form>
+                                                                    </form>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -415,11 +418,13 @@
                                                                                             onclick="createpassword('new_password',this)"
                                                                                             id="button-addon21"><i
                                                                                                 class="ri-eye-off-line align-middle"></i></button>
+                                                                                        <br>
+                                                                                        <p class="invalid-feedback"
+                                                                                            style="width:100%"></p>
                                                                                     </div>
-                                                                                    <div class="invalid-feedback"></div>
-
-
                                                                                 </div>
+
+
                                                                                 <div
                                                                                     class="xl:col-span-12 col-span-12 mb-2">
                                                                                     <label for="confirm_password"
@@ -437,11 +442,12 @@
                                                                                             onclick="createpassword('confirm_password',this)"
                                                                                             id="button-addon22"><i
                                                                                                 class="ri-eye-off-line align-middle"></i></button>
+                                                                                        <br>
+                                                                                        <p class="invalid-feedback"
+                                                                                            style="width:100%"></p>
                                                                                     </div>
-                                                                                    <div class="invalid-feedback"></div>
-
-
                                                                                 </div>
+
 
                                                                             </div>
 
@@ -867,6 +873,7 @@
 
                                             <div class="tab-pane fade !p-0 !border-0 hidden" id="gallery-tab-pane"
                                                 role="tabpanel" aria-labelledby="gallery-tab" tabindex="0">
+                                               
                                                 <div class="grid grid-cols-12 sm:gap-x-6">
                                                     <div
                                                         class="xxl:col-span-4 xl:col-span-4 lg:col-span-6 md:col-span-6 col-span-12">
@@ -954,254 +961,7 @@
                                 </div>
                             </div>
                         </div>
-                        {{-- <div class="xl:col-span-4 col-span-12">
-                        <div class="box">
-                            <div class="box-header">
-                                <div class="box-title">
-                                    Personal Info
-                                </div>
-                            </div>
-                            <div class="box-body">
-                                <ul class="list-group">
-                                    <li class="list-group-item">
-                                        <div class="flex flex-wrap items-center">
-                                            <div class="me-2 font-semibold">
-                                                Name :
-                                            </div>
-                                            <span class="text-[0.75rem] text-[#8c9097] dark:text-white/50">Sonya
-                                                Taylor</span>
-                                        </div>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <div class="flex flex-wrap items-center">
-                                            <div class="me-2 font-semibold">
-                                                Email :
-                                            </div>
-                                            <span
-                                                class="text-[0.75rem] text-[#8c9097] dark:text-white/50">sonyataylor231@gmail.com</span>
-                                        </div>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <div class="flex flex-wrap items-center">
-                                            <div class="me-2 font-semibold">
-                                                Phone :
-                                            </div>
-                                            <span
-                                                class="text-[0.75rem] text-[#8c9097] dark:text-white/50">+(555)
-                                                555-1234</span>
-                                        </div>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <div class="flex flex-wrap items-center">
-                                            <div class="me-2 font-semibold">
-                                                Designation :
-                                            </div>
-                                            <span
-                                                class="text-[0.75rem] text-[#8c9097] dark:text-white/50">C.E.O</span>
-                                        </div>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <div class="flex flex-wrap items-center">
-                                            <div class="me-2 font-semibold">
-                                                Age :
-                                            </div>
-                                            <span
-                                                class="text-[0.75rem] text-[#8c9097] dark:text-white/50">28</span>
-                                        </div>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <div class="flex flex-wrap items-center">
-                                            <div class="me-2 font-semibold">
-                                                Experience :
-                                            </div>
-                                            <span class="text-[0.75rem] text-[#8c9097] dark:text-white/50">10
-                                                Years</span>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="xl:col-span-4 col-span-12">
-                        <div class="box">
-                            <div class="box-header flex justify-between">
-                                <div class="box-title">
-                                    Recent Posts
-                                </div>
-                                <div>
-                                    <span class="badge bg-primary/10 text-primary">Today</span>
-                                </div>
-                            </div>
-                            <div class="box-body">
-                                <ul class="list-group">
-                                    <li class="list-group-item">
-                                        <a href="javascript:void(0);">
-                                            <div class="flex flex-wrap items-center">
-                                                <span class="avatar avatar-md me-4 !mb-0">
-                                                    <img src="assets/images/media/media-39.jpg"
-                                                        class="img-fluid !rounded-md" alt="...">
-                                                </span>
-                                                <div class="flex-grow">
-                                                    <p class="font-semibold mb-0">Animals</p>
-                                                    <p
-                                                        class="mb-0 text-[0.75rem] profile-recent-posts text-truncate text-[#8c9097] dark:text-white/50">
-                                                        There are many variations of passages of Lorem Ipsum
-                                                        available
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <a href="javascript:void(0);">
-                                            <div class="flex flex-wrap items-center">
-                                                <span class="avatar avatar-md me-4 !mb-0">
-                                                    <img src="assets/images/media/media-56.jpg"
-                                                        class="img-fluid !rounded-md" alt="...">
-                                                </span>
-                                                <div class="flex-grow">
-                                                    <p class="font-semibold mb-0">Travel</p>
-                                                    <p
-                                                        class="mb-0 text-[0.75rem] profile-recent-posts text-truncate text-[#8c9097] dark:text-white/50">
-                                                        Latin words, combined with a handful of model sentence
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <a href="javascript:void(0);">
-                                            <div class="flex flex-wrap items-center">
-                                                <span class="avatar avatar-md me-4 !mb-0">
-                                                    <img src="assets/images/media/media-54.jpg"
-                                                        class="img-fluid !rounded-md" alt="...">
-                                                </span>
-                                                <div class="flex-grow">
-                                                    <p class="font-semibold mb-0">Interior</p>
-                                                    <p
-                                                        class="mb-0 text-[0.75rem] profile-recent-posts text-truncate text-[#8c9097] dark:text-white/50">
-                                                        Contrary to popular belief, Lorem Ipsum is not simply
-                                                        random
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <a href="javascript:void(0);">
-                                            <div class="flex flex-wrap items-center">
-                                                <span class="avatar avatar-md me-4 !mb-0">
-                                                    <img src="assets/images/media/media-64.jpg"
-                                                        class="img-fluid !rounded-md" alt="...">
-                                                </span>
-                                                <div class="flex-grow">
-                                                    <p class="font-semibold mb-0">Nature</p>
-                                                    <p
-                                                        class="mb-0 text-[0.75rem] profile-recent-posts text-truncate text-[#8c9097] dark:text-white/50">
-                                                        It is a long established fact that a reader will be
-                                                        distracted by the readable content
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="xl:col-span-4 col-span-12">
-                        <div class="box">
-                            <div class="box-header flex justify-between">
-                                <div class="box-title">
-                                    Suggestions
-                                </div>
-                                <div>
-                                    <button type="button"
-                                        class="ti-btn !py-1 !px-2 !text-[0.75rem] !font-medium ti-btn-success">View
-                                        All</button>
-                                </div>
-                            </div>
-                            <div class="box-body">
-                                <ul class="list-group">
-                                    <li class="list-group-item">
-                                        <div class="flex items-center justify-between">
-                                            <div class="font-semibold flex items-center">
-                                                <span class="avatar avatar-xs me-2">
-                                                    <img src="assets/images/faces/15.jpg" alt="">
-                                                </span>Alister
-                                            </div>
-                                            <div>
-                                                <button aria-label="button" type="button"
-                                                    class="ti-btn ti-btn-sm ti-btn-primary !mb-0">
-                                                    <i class="ri-add-line"></i>
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <div class="flex items-center justify-between">
-                                            <div class="font-semibold flex items-center">
-                                                <span class="avatar avatar-xs me-2">
-                                                    <img src="assets/images/faces/4.jpg" alt="">
-                                                </span>Samantha Sams
-                                            </div>
-                                            <div>
-                                                <button aria-label="button" type="button"
-                                                    class="ti-btn ti-btn-sm ti-btn-primary !mb-0">
-                                                    <i class="ri-add-line"></i>
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <div class="flex items-center justify-between">
-                                            <div class="font-semibold flex items-center">
-                                                <span class="avatar avatar-xs me-2">
-                                                    <img src="assets/images/faces/11.jpg" alt="">
-                                                </span>Jason Mama
-                                            </div>
-                                            <div>
-                                                <button aria-label="button" type="button"
-                                                    class="ti-btn ti-btn-sm ti-btn-primary !mb-0">
-                                                    <i class="ri-add-line"></i>
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <div class="flex items-center justify-between">
-                                            <div class="font-semibold flex items-center">
-                                                <span class="avatar avatar-xs me-2">
-                                                    <img src="assets/images/faces/5.jpg" alt="">
-                                                </span>Alicia Sierra
-                                            </div>
-                                            <div>
-                                                <button aria-label="button" type="button"
-                                                    class="ti-btn ti-btn-sm ti-btn-primary !mb-0">
-                                                    <i class="ri-add-line"></i>
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <div class="flex items-center justify-between">
-                                            <div class="font-semibold flex items-center">
-                                                <span class="avatar avatar-xs me-2">
-                                                    <img src="assets/images/faces/7.jpg" alt="">
-                                                </span>Kiara Advain
-                                            </div>
-                                            <div>
-                                                <button aria-label="button" type="button"
-                                                    class="ti-btn ti-btn-sm ti-btn-primary !mb-0">
-                                                    <i class="ri-add-line"></i>
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div> --}}
+
                     </div>
                 </div>
             </div>
@@ -1264,7 +1024,7 @@
                             $('.invalid-feedback').empty();
                             removeValidationClass("#myprofilechangeother");
                             $('#profilechangeotherbtn').val('Change Password');
-                            $('#modalCloseButton').click();
+                            $('#modalCloseButtonotprofile').click();
                         }
                     }
                 });
