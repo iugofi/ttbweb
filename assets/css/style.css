@@ -42506,14 +42506,18 @@ img.img-fluid.service-icon {
     box-shadow: -1px 3px 11px 3px #b9b5b573;
     padding: 33px 20px;
     border: 1px solid #fff;
+    background-color: #fff;
 }
 .box-icon-full:hover {
     box-shadow: none;
     border: 1px solid #12d2b3;
     transition:0.5s;
 }
-.phishing-section-two{
-    padding: 50px 0px;
+.Phishing-section-two {
+    padding: 0px 0px 60px 0px;
+    position: relative;
+    bottom: 40px;
+    /* z-index: 0; */
 }
 .Phishing-banner-top {
     padding: 124px 0px 23px 0px;
