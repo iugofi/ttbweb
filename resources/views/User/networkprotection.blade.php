@@ -115,7 +115,7 @@
                     </div>
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 pt-5 pb-0 lg:px-2 !text-start  my-auto">
                         <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">About Our Company</span>
-                        <h2 class="lg:text-start font-semibold mb-2 text-[2rem]">Lorem ipsum dolor sit amet consectetur
+                        <h2 class="lg:text-start font-semibold mb-2 pt-5 text-[2rem]">Lorem ipsum dolor sit amet consectetur
                              Eveniet, explicabo?</h2>
                         <p class=" text-[0.9rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
                             value with diverse web-readiness. Collaboratively transition wireless customer service without
@@ -141,7 +141,7 @@
                                         <p>customer service without goal-oriented catalysts for change</p>
                                 </div> 
                             </div><br><br>
-                            <a href="index.html" class="ti-btn bg-primary text-white bnr-btn-1" style="width:26%;">
+                            <a href="index.html" class="ti-btn bg-primary text-white" style="width:26%;">
                                 About More
                             </a>
                         </div>

@@ -42488,7 +42488,7 @@ img.img-fluid.service-icon {
 /* phishing page css */
 
 .Phishing-section-three {
-    padding: 10px 0px 80px 0px;
+    padding: 55px 0px 80px 0px;
     background-color: #c9cfca2e;
 }
 
@@ -43691,6 +43691,9 @@ h6.uppercase {
 
 /* Start network protection page css */
 .dark .icon-hover {
+    color: #fff !important;
+}
+.dark .network-box-bm:hover .icon-hover {
     color: #12D2B3 !important;
 }
 .icon-size::before {
