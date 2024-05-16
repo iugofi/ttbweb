@@ -27,7 +27,7 @@ class UserauthController extends Controller
         if ($this->loggedInUser) {
 
             $productdetails=Payments::find($this->loggedInUser);
-            dd($productdetails);
+            dd($this->loggedInUser);
             return view('User.myprofile', ['loggedInUser' => $this->loggedInUser, 'user_data' => $this->userData]);
         } else {
             return redirect('/signin');
