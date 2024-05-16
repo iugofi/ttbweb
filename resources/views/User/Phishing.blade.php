@@ -93,6 +93,21 @@
         </div>
     </section>
 
+<section class="Phishing-section-four">
+    <div class="container main-banner-container">
+        <div class="grid grid-cols-12 gap-6">
+            <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
+                
+            </div>
+            <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
+                <h4>printing and typesetting</h4>
+                <h2>Lorem Ipsum is simply dummy text of the printing.</h2>
+                <p class="mt-2">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                    took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 
