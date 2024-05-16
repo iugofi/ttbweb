@@ -42522,7 +42522,9 @@ img.img-fluid.service-icon {
     object-fit: cover;
 }
 .Phishing-banner-top h2{
-    font-size: 40px;
+    font-size: 46px;
+    font-weight:500;
+    padding-top:2.5em;
 }
 .Phishing-banner-top p {
     font-size: 16px;
