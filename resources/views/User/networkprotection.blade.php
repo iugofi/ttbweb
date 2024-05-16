@@ -128,15 +128,15 @@
                         <div class="grid grid-col-12 gap-x-6"> 
                             <div class="row flex gap-8">
                                 <div class="xl:col-grid-6 col-grid-6">
-                                    <i class="bx bx-check-double space-x-4" style="font-size:16px; line-height:1.2rem">With supporting
+                                    <i class="fa-solid fa-angles-right space-x-4" style="font-size:12px; line-height:1.2rem">With supporting
                                         natural lead</i>
-                                    <i class="bx bx-check-double space-x-4" style="font-size:16px; line-height:1.2rem">With supporting
+                                    <i class="fa-solid fa-angles-right space-x-4" style="font-size:12px; line-height:1.2rem">With supporting
                                         natural lead</i>
                                 </div>
                                 <div class="xl:grid-col-6 col-grid-6">
-                                    <i class="bx bx-check-double space-x-4" style="font-size:16px; line-height:1.2rem">With supporting
+                                    <i class="fa-solid fa-angles-right space-x-4" style="font-size:12px; line-height:1.2rem">With supporting
                                         natural lead</i>
-                                    <i class="bx bx-check-double space-x-4" style="font-size:16px; line-height:1.2rem">With supporting
+                                    <i class="fa-solid fa-angles-right space-x-4" style="font-size:14px; line-height:1.2rem">With supporting
                                         natural lead</i>
                                 </div>
                             </div><br><br>
