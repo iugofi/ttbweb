@@ -24,6 +24,7 @@ class UserauthController extends Controller
     public function myprofile(){
      
         if ($this->loggedInUser) {
+            
             return view('User.myprofile', ['loggedInUser' => $this->loggedInUser, 'user_data' => $this->userData]);
         } else {
             return redirect('/signin');
