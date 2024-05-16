@@ -98,7 +98,7 @@
         <div class="container main-banner-container">
             <div class="grid grid-cols-12 gap-6">
                 <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
-
+                    <img src="{{ asset('assets/img/phishing image two.png') }}" alt="" class="img-fluid" width="100%">
                 </div>
                 <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
                     <h4>Printing and Typesetting</h4>
@@ -128,10 +128,10 @@
                             <p>Lorem Ipsum is not simply random text.</p>
                         </div>
                     </div>
-                        </div>
-                    </div>
                 </div>
             </div>
+        </div>
+        </div>
         </div>
     </section>
 
