@@ -877,14 +877,9 @@
                                                 <div class="grid grid-cols-12 sm:gap-x-6">
                                                     @foreach ($productdetails as $productdetails_list)
                                                     @php
-                                                    $productdetails_list = DB::table('product_details')
-                                                        ->join('storepick', 'storepick.pick_id', '=', 'product_details.key_type')
-                                                        ->join('planname', 'planname.plan_id', '=', 'product_details.plan_id')
-                                                        ->select('product_details.id', 'storepick.PICK_TEXT', 'planname.name', 'product_details.price')
-                                                        ->whereIn('product_details.id', $productdetails_list->product_id)
-                                                        ->get();
-                                                        dd($productdetails_list);
-                                                @endphp
+                                                    dd($productdetails_list->product_id);
+                                                    
+                                                     @endphp
                                                     <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-6 md:col-span-6 col-span-12">
                                                         <div class="box !shadow-none border dark:border-defaultborder/10">
                                                             <div class="box-body p-6">
