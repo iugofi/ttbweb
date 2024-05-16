@@ -264,24 +264,25 @@
                                                                             <div class="mb-3">
                                                                                 <label for="exampleInputPassword1"
                                                                                     class="form-label">First Name</label>
-                                                                                <input type="text" class="form-control" name="first_name"
+                                                                                <input type="text" class="form-control"
+                                                                                    name="first_name"
                                                                                     value="{{ isset($user_data->firstname) ? $user_data->firstname : '' }}"
                                                                                     id="first_name">
-                                                                                    <div class="invalid-feedback"></div>
-                                                                                    <input type="text"
-                                                                                            name="id_user"
-                                                                                            value="{{ isset($user_data->id) ? \Crypt::encrypt($user_data->id) : '' }}"
-                                                                                            hidden>
+                                                                                <div class="invalid-feedback"></div>
+                                                                                <input type="text" name="id_user"
+                                                                                    value="{{ isset($user_data->id) ? \Crypt::encrypt($user_data->id) : '' }}"
+                                                                                    hidden>
 
                                                                             </div>
 
                                                                             <div class="mb-3">
                                                                                 <label for="exampleInputPassword1"
                                                                                     class="form-label">Last Name</label>
-                                                                                <input type="text" class="form-control" name="last_name"
+                                                                                <input type="text" class="form-control"
+                                                                                    name="last_name"
                                                                                     value="{{ isset($user_data->lastname) ? $user_data->lastname : '' }}"
                                                                                     id="last_name">
-                                                                                    <div class="invalid-feedback"></div>
+                                                                                <div class="invalid-feedback"></div>
 
                                                                             </div>
 
@@ -290,21 +291,23 @@
                                                                                 <label for="exampleInputEmail1"
                                                                                     class="form-label">Email
                                                                                 </label>
-                                                                                <input type="email" class="form-control" name="user_email"
+                                                                                <input type="email" class="form-control"
+                                                                                    name="user_email"
                                                                                     value="{{ isset($user_data->email) ? $user_data->email : '' }}"
                                                                                     id="user_email" name=""
                                                                                     aria-describedby="emailHelp">
-                                                                                    <div class="invalid-feedback"></div>
+                                                                                <div class="invalid-feedback"></div>
 
 
                                                                             </div>
                                                                             <div class="mb-3">
                                                                                 <label for="exampleInputPassword1"
                                                                                     class="form-label">Phone</label>
-                                                                                <input type="text" class="form-control" name="user_phone"
+                                                                                <input type="text" class="form-control"
+                                                                                    name="user_phone"
                                                                                     value="{{ isset($user_data->phone) ? $user_data->phone : '' }}"
                                                                                     id="user_phone">
-                                                                                    <div class="invalid-feedback"></div>
+                                                                                <div class="invalid-feedback"></div>
 
                                                                             </div>
                                                                             <div class="mb-3">
@@ -317,7 +320,7 @@
                                                                             </div>
 
 
-                                                                        
+
                                                                     </div>
                                                                     <div class="ti-modal-footer">
                                                                         <button type="button"
@@ -325,13 +328,12 @@
                                                                             data-hs-overlay="#hs-vertically-centered-scrollable-modal">
                                                                             Close
                                                                         </button>
-                                                                        <input type="submit"
-                                                                        id="profilechangeotherbtn"
-                                                                        class="ti-btn ti-btn-primary-full"
-                                                                        value="profile change">
-                                                                      
+                                                                        <input type="submit" id="profilechangeotherbtn"
+                                                                            class="ti-btn ti-btn-primary-full"
+                                                                            value="profile change">
+
                                                                     </div>
-                                                                </form>
+                                                                    </form>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -400,7 +402,7 @@
 
                                                                                 </div>
                                                                                 <div class="xl:col-span-12 col-span-12">
-                                                                                    <label for="reset-newpassword"
+                                                                                    <label for="new_password"
                                                                                         class="form-label text-default">New
                                                                                         Password</label>
                                                                                     <div class="input-group">
@@ -412,17 +414,19 @@
                                                                                         <button aria-label="button"
                                                                                             class="ti-btn ti-btn-light !mb-0 !rounded-s-none"
                                                                                             type="button"
-                                                                                            onclick="createpassword('reset-newpassword',this)"
+                                                                                            onclick="createpassword('new_password',this)"
                                                                                             id="button-addon21"><i
                                                                                                 class="ri-eye-off-line align-middle"></i></button>
+                                                                                        <br>
+                                                                                        <p class="invalid-feedback"
+                                                                                            style="width:100%"></p>
                                                                                     </div>
-                                                                                    <div class="invalid-feedback"></div>
-
-
                                                                                 </div>
+
+
                                                                                 <div
                                                                                     class="xl:col-span-12 col-span-12 mb-2">
-                                                                                    <label for="reset-confirmpassword"
+                                                                                    <label for="confirm_password"
                                                                                         class="form-label text-default ">Confirm
                                                                                         Password</label>
                                                                                     <div class="input-group">
@@ -434,14 +438,15 @@
                                                                                         <button aria-label="button"
                                                                                             class="ti-btn ti-btn-light !mb-0 !rounded-s-none"
                                                                                             type="button"
-                                                                                            onclick="createpassword('reset-confirmpassword',this)"
+                                                                                            onclick="createpassword('confirm_password',this)"
                                                                                             id="button-addon22"><i
                                                                                                 class="ri-eye-off-line align-middle"></i></button>
+                                                                                        <br>
+                                                                                        <p class="invalid-feedback"
+                                                                                            style="width:100%"></p>
                                                                                     </div>
-                                                                                    <div class="invalid-feedback"></div>
-
-
                                                                                 </div>
+
 
                                                                             </div>
 
