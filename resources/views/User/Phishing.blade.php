@@ -92,7 +92,7 @@
                 </div>
             </div>
         </div>
-    </section><hr class="phishing-hr">
+    </section>
 
     <section class="Phishing-section-four">
         <div class="container main-banner-container">
