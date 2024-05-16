@@ -116,7 +116,7 @@
                         </div>
                         <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-12 ">
                             <h5>Exclusive Design </h5>
-                            <p>Lorem Ipsum is not simply random text.Making it over 2000 years old.</p>
+                            <p>Lorem Ipsum is not simply random text.</p>
                         </div>
                         <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-12">
                             <div class="icon-box-left">
@@ -125,7 +125,7 @@
                         </div>
                         <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-12 ">
                             <h5>Exclusive Design </h5>
-                            <p>Lorem Ipsum is not simply random text.Making it over 2000 years old.</p>
+                            <p>Lorem Ipsum is not simply random text.</p>
                         </div>
                     </div>
                         </div>
