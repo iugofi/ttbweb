@@ -42517,6 +42517,9 @@ img.img-fluid.service-icon {
 }
 .Phishing-banner-top {
     padding: 124px 0px 23px 0px;
+    background-image: url(/assets/img/phishing-banner.jpg);
+    background-size: cover;
+    object-fit: cover;
 }
 .Phishing-banner-top h2{
     font-size: 40px;

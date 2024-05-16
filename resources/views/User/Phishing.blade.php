@@ -29,7 +29,7 @@
                         <span class="pl-2 text-black-light wtc-spn">Watch Now</a></span>
                 </div>
                 <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
-                    <img src="{{ asset('assets/img/ttb vpn shield.png') }}" alt="" class="img-fluid" width="100%">
+                    <img src="{{ asset('assets/img/phishing-banner-image.png') }}" alt="" class="img-fluid" width="100%">
                 </div>
             </div>
         </div>
