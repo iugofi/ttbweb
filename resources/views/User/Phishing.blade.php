@@ -110,14 +110,14 @@
                         classical Latin literature from 45 BC, making it over 2000 years old.</p>
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12 ">
-                            <div>
+                            <div class="icon-box-left">
                                 <i class="fas fa-user-shield"></i>
                             </div>
                             <h5>Exclusive Design </h5>
                             <p>Lorem Ipsum is not simply random text.Making it over 2000 years old.</p>
                         </div>
                         <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
-                            <div>
+                            <div class="icon-box-left">
                                 <i class="fas fa-user-shield"></i>
                             </div>
                             <h5>Exclusive Design </h5>
