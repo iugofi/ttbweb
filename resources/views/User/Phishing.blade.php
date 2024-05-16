@@ -118,7 +118,7 @@
                             <h5>Exclusive Design </h5>
                             <p>Lorem Ipsum is not simply random text.Making it over 2000 years old.</p>
                         </div>
-                        <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
+                        <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-12">
                             <div class="icon-box-left">
                                 <i class="fas fa-user-shield"></i>
                             </div>
