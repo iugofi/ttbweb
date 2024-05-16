@@ -32,7 +32,7 @@ class UserauthController extends Controller
             ->join('planname', 'planname.plan_id', '=', 'product_details.plan_id')
             ->select('product_details.id', 'storepick.PICK_TEXT', 'planname.name', 'product_details.price')
             ->where('product_details.id', $productId)
-            ->first();
+            ->get();
            
             
             return view('User.myprofile', ['loggedInUser' => $this->loggedInUser, 'user_data' => $this->userData,'productdetails' => $productdetails]);
