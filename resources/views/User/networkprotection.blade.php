@@ -427,21 +427,7 @@
                     </div>
                 </div>
             </div>
-            <ul class="slick-dots" style="" role="tablist">
-                <li class="" role="presentation"><button type="button" role="tab" id="slick-slide-control00"
-                        aria-controls="slick-slide00" aria-label="1 of 2" tabindex="-1">1</button></li>
-                <li role="presentation" class="slick-active"><button type="button" role="tab"
-                        id="slick-slide-control01" aria-controls="slick-slide01" aria-label="2 of 2" tabindex="0"
-                        aria-selected="true">2</button></li>
-                <li role="presentation" class=""><button type="button" role="tab" id="slick-slide-control02"
-                        aria-controls="slick-slide02" aria-label="3 of 2" tabindex="-1">3</button></li>
-                <li role="presentation" class=""><button type="button" role="tab" id="slick-slide-control03"
-                        aria-controls="slick-slide03" aria-label="4 of 3" tabindex="-1">4</button></li>
-                <li role="presentation" class=""><button type="button" role="tab" id="slick-slide-control03"
-                        aria-controls="slick-slide04" aria-label="5 of 4" tabindex="-1">5</button></li>
-                <li role="presentation" class=""><button type="button" role="tab" id="slick-slide-control03"
-                        aria-controls="slick-slide05" aria-label="6 of 5" tabindex="-1">6</button></li>
-            </ul>
+            
         </div>
         <script>
             $(".slider").owlCarousel({
