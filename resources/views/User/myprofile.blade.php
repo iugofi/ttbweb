@@ -260,12 +260,19 @@
                                                                     </div>
                                                                     <div class="ti-modal-body">
                                                                         <form method="post" id="myprofilechangeother">
+                                                                            @csrf
                                                                             <div class="mb-3">
                                                                                 <label for="exampleInputPassword1"
                                                                                     class="form-label">First Name</label>
                                                                                 <input type="text" class="form-control" name="first_name"
                                                                                     value="{{ isset($user_data->firstname) ? $user_data->firstname : '' }}"
-                                                                                    id="name">
+                                                                                    id="first_name">
+                                                                                    <div class="invalid-feedback"></div>
+                                                                                    <input type="text"
+                                                                                            name="id_user"
+                                                                                            value="{{ isset($user_data->id) ? \Crypt::encrypt($user_data->id) : '' }}"
+                                                                                            hidden>
+
                                                                             </div>
 
                                                                             <div class="mb-3">
@@ -273,7 +280,9 @@
                                                                                     class="form-label">Last Name</label>
                                                                                 <input type="text" class="form-control" name="last_name"
                                                                                     value="{{ isset($user_data->lastname) ? $user_data->lastname : '' }}"
-                                                                                    id="name">
+                                                                                    id="last_name">
+                                                                                    <div class="invalid-feedback"></div>
+
                                                                             </div>
 
 
@@ -283,8 +292,10 @@
                                                                                 </label>
                                                                                 <input type="email" class="form-control" name="user_email"
                                                                                     value="{{ isset($user_data->email) ? $user_data->email : '' }}"
-                                                                                    id="exampleInputEmail1" name=""
+                                                                                    id="user_email" name=""
                                                                                     aria-describedby="emailHelp">
+                                                                                    <div class="invalid-feedback"></div>
+
 
                                                                             </div>
                                                                             <div class="mb-3">
@@ -292,13 +303,17 @@
                                                                                     class="form-label">Phone</label>
                                                                                 <input type="text" class="form-control" name="user_phone"
                                                                                     value="{{ isset($user_data->phone) ? $user_data->phone : '' }}"
-                                                                                    id="phone">
+                                                                                    id="user_phone">
+                                                                                    <div class="invalid-feedback"></div>
+
                                                                             </div>
                                                                             <div class="mb-3">
                                                                                 <label for="exampleInputPassword1"
                                                                                     class="form-label">Address</label>
-                                                                                <textarea type="text" class="form-control" name="user_address" id="address">{{ isset($user_data->address) ? $user_data->address : '' }}
-                                                                        </textarea>
+                                                                                <textarea type="text" class="form-control" name="user_address" id="user_address">{{ isset($user_data->address) ? $user_data->address : '' }}
+                                                                                </textarea>
+                                                                                <div class="invalid-feedback"></div>
+
                                                                             </div>
 
 
@@ -1226,17 +1241,20 @@
                 });
             });
             $('#myprofilechangeother').submit(function(e) {
-                alert("hd");
                 e.preventDefault();
                 $('#profilechangeotherbtn').val('please wait..');
                 $.ajax({
-                    url: '{{ route('user.passchangeprifile') }}',
+                    url: '{{ route('user.myprofileother') }}',
                     method: 'post',
                     data: $(this).serialize(),
                     success: function(response) {
                         if (response.status == 400) {
-                            showError('confirm_password', response.messages.confirm_password);
-                            showError('new_password', response.messages.new_password);
+                            showError('first_name', response.messages.first_name);
+                            showError('last_name', response.messages.last_name);
+                            showError('user_phone', response.messages.user_phone);
+                            showError('user_address', response.messages.user_address);
+                            showError('user_email', response.messages.user_email);
+
                             $('#profilechangeotherbtn').val('Change Password');
                         } else if (response.status == 200) {
                             $("#show_success_alert").html(showMessage('success', response
