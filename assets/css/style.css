@@ -43801,7 +43801,13 @@ h6.uppercase {
   .card .content .btn button:hover{
     transform: scale(0.9);
   }
-  
+  .content.colum-slide:active {
+    margin-top: 0rem !important;
+}
+.content.colum-slide {
+    margin-top: 0rem !important;
+}
+
 
 /* End network protection slider desktop css */
 

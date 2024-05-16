@@ -333,13 +333,44 @@
         <div class="slider owl-carousel">
             <div class="card">
                 <div class="img">
-                    <img src="#" alt="">
+                    <img src="{{ asset('assets/img/The-Best-Business-And-It---Service-Company-4.png') }}" alt=""
+                        class="img-fluid">
                 </div>
                 <div class="content colum-slide">
                     <div class="title">
-                        Briana Tozour</div>
-                    <div class="sub-title">
-                        Graphic Designer</div>
+                        Business Offering</div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil
+                        minus.</p>
+                    <div class="btn">
+                        <button>Read more</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="{{ asset('assets/img/The-Best-Business-And-It---Service-Company-2.png') }}" alt=""
+                        class="img-fluid">
+                </div>
+                <div class="content colum-slide">
+                    <div class="title">
+                        Business Offering</div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil
+                        minus.</p>
+                    <div class="btn">
+                        <button>Read more</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="{{ asset('assets/img/The-Best-Business-And-It---Service-Company-3.png') }}" alt=""
+                        class="img-fluid">
+                </div>
+                <div class="content colum-slide">
+                    <div class="title">
+                        Business Offering</div>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil
                         minus sed unde voluptas cumque.</p>
@@ -350,13 +381,12 @@
             </div>
             <div class="card">
                 <div class="img">
-                    <img src="#" alt="">
+                    <img src="{{ asset('assets/img/The-Best-Business-And-It---Service-Company-3.png') }}" alt=""
+                        class="img-fluid">
                 </div>
                 <div class="content colum-slide">
                     <div class="title">
-                        Pricilla Preez</div>
-                    <div class="sub-title">
-                        Web Developer</div>
+                        Business Offering</div>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil
                         minus sed unde voluptas cumque.</p>
@@ -367,13 +397,12 @@
             </div>
             <div class="card">
                 <div class="img">
-                    <img src="#" alt="">
+                    <img src="{{ asset('assets/img/The-Best-Business-And-It---Service-Company-3.png') }}" alt=""
+                        class="img-fluid">
                 </div>
                 <div class="content colum-slide">
                     <div class="title">
-                        Eliana Maia</div>
-                    <div class="sub-title">
-                        App Developer</div>
+                        Business Offering</div>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil
                         minus sed unde voluptas cumque.</p>
@@ -384,13 +413,12 @@
             </div>
             <div class="card">
                 <div class="img">
-                    <img src="#" alt="">
+                    <img src="{{ asset('assets/img/The-Best-Business-And-It---Service-Company-3.png') }}" alt=""
+                        class="img-fluid">
                 </div>
                 <div class="content colum-slide">
                     <div class="title">
-                        Eliana Maia</div>
-                    <div class="sub-title">
-                        App Developer</div>
+                        Business Offering</div>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil
                         minus sed unde voluptas cumque.</p>
@@ -399,40 +427,21 @@
                     </div>
                 </div>
             </div>
-            <div class="card">
-                <div class="img">
-                    <img src="#" alt="">
-                </div>
-                <div class="content colum-slide">
-                    <div class="title">
-                        Eliana Maia</div>
-                    <div class="sub-title">
-                        App Developer</div>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil
-                        minus sed unde voluptas cumque.</p>
-                    <div class="btn">
-                        <button>Read more</button>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="img">
-                    <img src="#" alt="">
-                </div>
-                <div class="content colum-slide">
-                    <div class="title">
-                        Eliana Maia</div>
-                    <div class="sub-title">
-                        App Developer</div>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil
-                        minus sed unde voluptas cumque.</p>
-                    <div class="btn">
-                        <button>Read more</button>
-                    </div>
-                </div>
-            </div>
+            <ul class="slick-dots" style="" role="tablist">
+                <li class="" role="presentation"><button type="button" role="tab" id="slick-slide-control00"
+                        aria-controls="slick-slide00" aria-label="1 of 2" tabindex="-1">1</button></li>
+                <li role="presentation" class="slick-active"><button type="button" role="tab"
+                        id="slick-slide-control01" aria-controls="slick-slide01" aria-label="2 of 2" tabindex="0"
+                        aria-selected="true">2</button></li>
+                <li role="presentation" class=""><button type="button" role="tab" id="slick-slide-control02"
+                        aria-controls="slick-slide02" aria-label="3 of 2" tabindex="-1">3</button></li>
+                <li role="presentation" class=""><button type="button" role="tab" id="slick-slide-control03"
+                        aria-controls="slick-slide03" aria-label="4 of 2" tabindex="-1">4</button></li>
+                <li role="presentation" class=""><button type="button" role="tab" id="slick-slide-control03"
+                        aria-controls="slick-slide03" aria-label="4 of 2" tabindex="-1">5</button></li>
+                <li role="presentation" class=""><button type="button" role="tab" id="slick-slide-control03"
+                        aria-controls="slick-slide03" aria-label="4 of 2" tabindex="-1">6</button></li>
+            </ul>
         </div>
         <script>
             $(".slider").owlCarousel({
