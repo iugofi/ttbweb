@@ -890,7 +890,7 @@
                                                                             <p class="mb-0 font-semibold">@php
                                                                                 $product_name = DB::table('storepick')
                                                                                     ->select('*')
-                                                                                    ->wherein('PICK_ID', $productdetails_list->key_type)
+                                                                                    ->where('PICK_ID', $productdetails_list->key_type)
                                                                                     ->where('STORE_ID', 'key_type')
                                                                                     ->first();
                                                                             @endphp
