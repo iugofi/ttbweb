@@ -364,6 +364,7 @@
                                                                                             name="cuurent_password"
                                                                                             placeholder="current password"
                                                                                             disabled>
+                                                                                            <input type="text" name="id_user" value="{{ isset($user_data->id) ? \Crypt::encrypt($user_data->id) : '' }}" hidden>
                                                                                         <button aria-label="button"
                                                                                             class="ti-btn ti-btn-light !mb-0 !rounded-s-none"
                                                                                             type="button"
