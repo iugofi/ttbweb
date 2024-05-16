@@ -890,12 +890,12 @@
                                                                             <p class="mb-0 font-semibold">@php
                                                                                 $product_name = DB::table('storepick')
                                                                                     ->select('*')
-                                                                                    ->where('PICK_ID', 501)
+                                                                                    ->where('PICK_ID', $productdetails_list->key_type)
                                                                                     ->where('STORE_ID', 'key_type')
                                                                                     ->first();
                                                                             @endphp
-                                                                                @if ($product)
-                                                                                    {{ $product->PICK_TEXT }}
+                                                                                @if ($product_name)
+                                                                                    {{ $product_name->PICK_TEXT }}
                                                                                 @else
                                                                                     No product found.
                                                                                 @endif
