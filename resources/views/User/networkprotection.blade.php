@@ -337,9 +337,37 @@
                 </div>
                 <div class="content colum-slide">
                     <div class="title">
-                        Briana Tozour</div>
-                    <div class="sub-title">
-                        Graphic Designer</div>
+                        Business Offering</div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil
+                        minus.</p>
+                    <div class="btn">
+                        <button>Read more</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="#" alt="">
+                </div>
+                <div class="content colum-slide">
+                    <div class="title">
+                        Business Offering</div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil
+                        minus.</p>
+                    <div class="btn">
+                        <button>Read more</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="#" alt="">
+                </div>
+                <div class="content colum-slide">
+                    <div class="title">
+                        Business Offering</div>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil
                         minus sed unde voluptas cumque.</p>
@@ -354,9 +382,7 @@
                 </div>
                 <div class="content colum-slide">
                     <div class="title">
-                        Pricilla Preez</div>
-                    <div class="sub-title">
-                        Web Developer</div>
+                        Business Offering</div>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil
                         minus sed unde voluptas cumque.</p>
@@ -371,9 +397,7 @@
                 </div>
                 <div class="content colum-slide">
                     <div class="title">
-                        Eliana Maia</div>
-                    <div class="sub-title">
-                        App Developer</div>
+                        Business Offering</div>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil
                         minus sed unde voluptas cumque.</p>
@@ -388,43 +412,7 @@
                 </div>
                 <div class="content colum-slide">
                     <div class="title">
-                        Eliana Maia</div>
-                    <div class="sub-title">
-                        App Developer</div>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil
-                        minus sed unde voluptas cumque.</p>
-                    <div class="btn">
-                        <button>Read more</button>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="img">
-                    <img src="#" alt="">
-                </div>
-                <div class="content colum-slide">
-                    <div class="title">
-                        Eliana Maia</div>
-                    <div class="sub-title">
-                        App Developer</div>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil
-                        minus sed unde voluptas cumque.</p>
-                    <div class="btn">
-                        <button>Read more</button>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="img">
-                    <img src="#" alt="">
-                </div>
-                <div class="content colum-slide">
-                    <div class="title">
-                        Eliana Maia</div>
-                    <div class="sub-title">
-                        App Developer</div>
+                        Business Offering</div>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil
                         minus sed unde voluptas cumque.</p>
