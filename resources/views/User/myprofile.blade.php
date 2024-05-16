@@ -312,7 +312,7 @@
                                                               </button>
                                                             </div>
                                                             <div class="ti-modal-body">
-                                                                <form>
+                                                                <form method="post" id="passwordchangeprofile">
                                                                     <div class="grid grid-cols-12 gap-y-4">
                                                                         <div class="xl:col-span-12 col-span-12">
                                                                             <label for="reset-password" class="form-label text-default">Current Password</label>
@@ -1025,7 +1025,17 @@
 
 
 
-                
+     <script>
+        $(document).ready(function(){
+
+            $('#passwordchangeprofile').submit(function(){
+
+                alert("kullu lullu");
+            });
+           
+
+        });
+        </script>           
 
 
             
