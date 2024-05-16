@@ -18,8 +18,6 @@
             <div class="grid grid-cols-12 gap-6">
                 <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
                     <h2>Security Analytics For Big Data.</h2>
-                </div>
-                <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                         Aenean commodo ligula eget dolor. Aenean massa.
                         Cum sociis natoque penatibus et magnis .</p>
@@ -29,6 +27,9 @@
                     <a href="#" class="popup-youtube btn btn-white btn-circle btn-icon"><i
                             class="bx bx-play watch-icon"></i>
                         <span class="pl-2 text-black-light wtc-spn">Watch Now</a></span>
+                </div>
+                <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
+                    <img src="{{ asset('assets/img/ttb vpn shield.png') }}" alt="" class="img-fluid" width="100%">
                 </div>
             </div>
         </div>
