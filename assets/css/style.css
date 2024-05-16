@@ -42502,6 +42502,10 @@ img.img-fluid.service-icon {
     padding: 55px 0px 80px 0px;
     background-color: #c9cfca2e;
 }
+.Phishing-section-three{
+  height: 2px;
+  background-color: #444;
+}
 
 .Phishing-section-three p{
     font-size: 16px;    
@@ -42523,6 +42527,8 @@ img.img-fluid.service-icon {
     color: #12D2B3;
     padding-top: 54px;
 }
+
+
 .Phishing-section-four p{
     font-size: 16px;
 }
