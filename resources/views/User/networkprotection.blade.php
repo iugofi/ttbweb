@@ -436,11 +436,11 @@
                 <li role="presentation" class=""><button type="button" role="tab" id="slick-slide-control02"
                         aria-controls="slick-slide02" aria-label="3 of 2" tabindex="-1">3</button></li>
                 <li role="presentation" class=""><button type="button" role="tab" id="slick-slide-control03"
-                        aria-controls="slick-slide03" aria-label="4 of 2" tabindex="-1">4</button></li>
+                        aria-controls="slick-slide03" aria-label="4 of 3" tabindex="-1">4</button></li>
                 <li role="presentation" class=""><button type="button" role="tab" id="slick-slide-control03"
-                        aria-controls="slick-slide03" aria-label="4 of 2" tabindex="-1">5</button></li>
+                        aria-controls="slick-slide04" aria-label="5 of 4" tabindex="-1">5</button></li>
                 <li role="presentation" class=""><button type="button" role="tab" id="slick-slide-control03"
-                        aria-controls="slick-slide03" aria-label="4 of 2" tabindex="-1">6</button></li>
+                        aria-controls="slick-slide05" aria-label="6 of 5" tabindex="-1">6</button></li>
             </ul>
         </div>
         <script>
