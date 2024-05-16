@@ -26,14 +26,20 @@ class UserauthController extends Controller
      
         if ($this->loggedInUser) {
 
-            $productId=Payments::where('user_id',$this->loggedInUser)->select('product_id')->get();
-            dd($productId);
-            $productdetails = DB::table('product_details')
-            ->join('storepick', 'storepick.pick_id', '=', 'product_details.key_type')
-            ->join('planname', 'planname.plan_id', '=', 'product_details.plan_id')
-            ->select('product_details.id', 'storepick.PICK_TEXT', 'planname.name', 'product_details.price')
-            ->where('product_details.id', $productId)
-            ->get();
+            $productIds = Payments::where('user_id', $this->loggedInUser)
+            ->pluck('product_id') 
+            ->toArray();
+        
+            if (!empty($productIds)) {
+                $productdetails = DB::table('product_details')
+                    ->join('storepick', 'storepick.pick_id', '=', 'product_details.key_type')
+                    ->join('planname', 'planname.plan_id', '=', 'product_details.plan_id')
+                    ->select('product_details.id', 'storepick.PICK_TEXT', 'planname.name', 'product_details.price')
+                    ->whereIn('product_details.id', $productIds)  // Use whereIn for an array of IDs
+                    ->get();
+            } else {
+                $productdetails = collect();  // If no products, return an empty collection
+            }
            
             
             return view('User.myprofile', ['loggedInUser' => $this->loggedInUser, 'user_data' => $this->userData,'productdetails' => $productdetails]);
