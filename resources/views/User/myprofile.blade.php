@@ -1200,8 +1200,8 @@
                     data: $(this).serialize(),
                     success: function(response) {
                         if (response.status == 400) {
-                            showError('signup_firstname', response.messages.signup_firstname);
-                            showError('signup_lastname', response.messages.signup_lastname);
+                            showError('confirm_password', response.messages.confirm_password);
+                            showError('new_password', response.messages.new_password);
                             $('#passprofilechangebtn').val('Change Password');
                         } else if (response.status == 200) {
                             $("#show_success_alert").html(showMessage('success', response

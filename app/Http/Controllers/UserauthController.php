@@ -31,7 +31,46 @@ class UserauthController extends Controller
     public function passchangeprifile(Request $request){
      
         if ($this->loggedInUser) {
-           dd($request->all());
+            $id=\Crypt::decrypt($request->id_user);
+            $validator = Validator::make($request->all(), [
+                'new_password' => 'required|min:6|max:50',
+                'confirm_password' => 'required|min:6|same:new_password'
+            ],[
+                'confirm_password.same' => 'Password did not match!',
+                'confirm_password.required' => 'Confirm Password is Required!'
+            ]);
+    
+            if ($validator->fails()) {
+                return response()->json([
+                    'status' => 400,
+                    'messages' => $validator->getMessageBag()->toArray() // Convert messages to array
+                ]);
+            }
+            else
+            { 
+                    $profilepasschange = Users::where('id', $id)->first();
+                    if (!$profilepasschange) {
+                        return response()->json([
+                            'status' => 404,
+                            'messages' => 'Admin not found'
+                        ]);
+                    }      
+                    $profilepasschange->update([
+                        'password' => \Crypt::decrypt($request->confirm_password)
+                       
+                    ]);
+    
+                   
+                    
+                    
+    
+                    return response()->json([
+                        'status' => 200,
+                        'messages' => 'Admin Edit successfully'
+                    ]);
+    
+                    }
+
         } else {
             return redirect('/signin');
         }
