@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Users; 
+use Illuminate\Support\Facades\Validator;
+use Illuminate\Support\Facades\DB;
 
 class UserauthController extends Controller
 {
