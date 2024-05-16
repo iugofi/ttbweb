@@ -329,62 +329,119 @@
                 </div>
             </div>
         </section> --}}
-      
+
         <div class="slider owl-carousel">
             <div class="card">
-              <div class="img">
-      <img src="#" alt=""></div>
-      <div class="content">
-                <div class="title">
-      Briana Tozour</div>
-      <div class="sub-title">
-      Graphic Designer</div>
-      <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil minus sed unde voluptas cumque.</p>
-      <div class="btn">
-                  <button>Read more</button>
+                <div class="img">
+                    <img src="#" alt="">
                 </div>
-      </div>
-      </div>
-      <div class="card">
-              <div class="img">
-      <img src="#" alt=""></div>
-      <div class="content">
-                <div class="title">
-      Pricilla Preez</div>
-      <div class="sub-title">
-      Web Developer</div>
-      <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil minus sed unde voluptas cumque.</p>
-      <div class="btn">
-                  <button>Read more</button>
+                <div class="content colum-slide">
+                    <div class="title">
+                        Briana Tozour</div>
+                    <div class="sub-title">
+                        Graphic Designer</div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil
+                        minus sed unde voluptas cumque.</p>
+                    <div class="btn">
+                        <button>Read more</button>
+                    </div>
                 </div>
-      </div>
-      </div>
-      <div class="card">
-              <div class="img">
-      <img src="#" alt=""></div>
-      <div class="content">
-                <div class="title">
-      Eliana Maia</div>
-      <div class="sub-title">
-      App Developer</div>
-      <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil minus sed unde voluptas cumque.</p>
-      <div class="btn">
-                  <button>Read more</button>
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="#" alt="">
                 </div>
-      </div>
-      </div>
-      </div>
-      <script>
+                <div class="content colum-slide">
+                    <div class="title">
+                        Pricilla Preez</div>
+                    <div class="sub-title">
+                        Web Developer</div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil
+                        minus sed unde voluptas cumque.</p>
+                    <div class="btn">
+                        <button>Read more</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="#" alt="">
+                </div>
+                <div class="content colum-slide">
+                    <div class="title">
+                        Eliana Maia</div>
+                    <div class="sub-title">
+                        App Developer</div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil
+                        minus sed unde voluptas cumque.</p>
+                    <div class="btn">
+                        <button>Read more</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="#" alt="">
+                </div>
+                <div class="content colum-slide">
+                    <div class="title">
+                        Eliana Maia</div>
+                    <div class="sub-title">
+                        App Developer</div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil
+                        minus sed unde voluptas cumque.</p>
+                    <div class="btn">
+                        <button>Read more</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="#" alt="">
+                </div>
+                <div class="content colum-slide">
+                    <div class="title">
+                        Eliana Maia</div>
+                    <div class="sub-title">
+                        App Developer</div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil
+                        minus sed unde voluptas cumque.</p>
+                    <div class="btn">
+                        <button>Read more</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="#" alt="">
+                </div>
+                <div class="content colum-slide">
+                    <div class="title">
+                        Eliana Maia</div>
+                    <div class="sub-title">
+                        App Developer</div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil
+                        minus sed unde voluptas cumque.</p>
+                    <div class="btn">
+                        <button>Read more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
             $(".slider").owlCarousel({
-              loop: true,
-              autoplay: true,
-              autoplayTimeout: 2000, //2000ms = 2s;
-              autoplayHoverPause: true,
+                loop: true,
+                autoplay: true,
+                autoplayTimeout: 2000, //2000ms = 2s;
+                autoplayHoverPause: true,
             });
-          </script>
+        </script>
 
 
 
@@ -392,21 +449,21 @@
         <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
         <!-- Initialize Swiper -->
         <script>
-          var swiper = new Swiper('.swiper', {
-            slidesPerView: 1,
-            spaceBetween: 30,
-            loop: true,
-            autoplay: {
-              delay: 5000, // Autoplay delay in milliseconds
-            },
-            pagination: {
-              el: '.swiper-pagination',
-              clickable: true,
-            },
-          });
+            var swiper = new Swiper('.swiper', {
+                slidesPerView: 1,
+                spaceBetween: 30,
+                loop: true,
+                autoplay: {
+                    delay: 5000, // Autoplay delay in milliseconds
+                },
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+            });
         </script>
-        
-        
+
+
 
         <!-- End:: network protection section four -->
 
@@ -417,5 +474,5 @@
 
     </div>
     {{-- <script src="{{ asset('assets/js/landing.js') }}"></script> --}}
-    <script src="{{asset('https://code.jquery.com/jquery-3.5.1.js')}}"></script>
+    <script src="{{ asset('https://code.jquery.com/jquery-3.5.1.js') }}"></script>
 @endsection

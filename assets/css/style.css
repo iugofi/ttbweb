@@ -43741,6 +43741,12 @@ h6.uppercase {
     align-items: center;
 }
 
+/* Start network protection slider desktop css */
+
+.slider.owl-carousel.owl-loaded.owl-drag {
+    margin: auto;
+}
+
 .slider{
     max-width: 1100px;
     display: flex;
@@ -43795,6 +43801,10 @@ h6.uppercase {
   .card .content .btn button:hover{
     transform: scale(0.9);
   }
+  
+
+/* End network protection slider desktop css */
+
 /* End network protection page css */
 
 
