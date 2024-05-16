@@ -430,7 +430,7 @@
                                                                         <div class="ti-modal-footer">
                                                                             <button type="button"
                                                                                 class="hs-dropdown-toggle ti-btn ti-btn-secondary-full"
-                                                                                data-hs-overlay="#hs-vertically-centered-scrollable-modal">
+                                                                                data-hs-overlay="#hs-vertically-centered-scrollable-modal-password">
                                                                                 Close
                                                                             </button>
                                                                             <input type="submit"
