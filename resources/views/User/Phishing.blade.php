@@ -105,7 +105,7 @@
                     <h2>There are many variations of passages of Lorem Ipsum.</h2>
                     <p class="mt-2">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
                         unknown printer
-                        took a galley of type and scrambled it to make a type specimen book.</p>
+                        took a galley of type and scrambled it to make a type specimen book.</p><br>
                     <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
                         classical Latin literature from 45 BC, making it over 2000 years old.</p>
                 </div>
