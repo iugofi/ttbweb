@@ -42487,6 +42487,17 @@ img.img-fluid.service-icon {
 
 /* phishing page css */
 
+.Phishing-section-fou .icon-box-left {
+    padding: 16px;
+    background-color: #12d2b347;
+    display: inline;
+}
+
+.Phishing-section-four i{
+    color: #12d2b3;
+    font-size: 20px;
+}
+
 .Phishing-section-three {
     padding: 55px 0px 80px 0px;
     background-color: #c9cfca2e;
