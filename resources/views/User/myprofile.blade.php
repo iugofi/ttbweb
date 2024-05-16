@@ -415,8 +415,9 @@
                                                                                             onclick="createpassword('new_password',this)"
                                                                                             id="button-addon21"><i
                                                                                                 class="ri-eye-off-line align-middle"></i></button>
-                                                                                    </div>
                                                                                     <div class="invalid-feedback"></div>
+
+                                                                                    </div>
 
 
                                                                                 </div>
@@ -437,8 +438,9 @@
                                                                                             onclick="createpassword('confirm_password',this)"
                                                                                             id="button-addon22"><i
                                                                                                 class="ri-eye-off-line align-middle"></i></button>
-                                                                                    </div>
                                                                                     <div class="invalid-feedback"></div>
+
+                                                                                    </div>
 
 
                                                                                 </div>
