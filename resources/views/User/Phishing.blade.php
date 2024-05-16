@@ -44,36 +44,36 @@
                         <i class="fa fa-box"></i>
                     </div>
                     <h4 class="mt-5">Simply dummy text </h4>
-                    <p class="mt-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                    <p class="mt-3">Lorem ipsum dolor sit amet, consectetuer hrey loubk adipiscing elit
                         dolor.
-                        Aenean massa. </p>
+                        </p>
                 </div>
                 <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12 box-icon-full">
                     <div class="phishing-icon-box">
                         <i class="fa fa-box"></i>
                     </div>
                     <h4 class="mt-5">Simply dummy text</h4>
-                    <p class="mt-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                    <p class="mt-3">Lorem ipsum dolor sit amet, consectetuer hrey loubk adipiscing elit
                         dolor.
-                        Aenean massa. </p>
+                        </p>
                 </div>
                 <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12 box-icon-full">
                     <div class="phishing-icon-box">
                         <i class="fa fa-box"></i>
                     </div>
                     <h4 class="mt-5">Simply dummy text</h4>
-                    <p class="mt-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                    <p class="mt-3">Lorem ipsum dolor sit amet, consectetuer hrey loubk adipiscing elit
                         dolor.
-                        Aenean massa. </p>
+                        </p>
                 </div>
                 <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12 box-icon-full">
                     <div class="phishing-icon-box">
                         <i class="fa fa-box"></i>
                     </div>
                     <h4 class="mt-5">Simply dummy text</h4>
-                    <p class="mt-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                    <p class="mt-3">Lorem ipsum dolor sit amet, consectetuer hrey loubk adipiscing elit
                         dolor.
-                        Aenean massa. </p>
+                        </p>
                 </div>
             </div>
         </div>
