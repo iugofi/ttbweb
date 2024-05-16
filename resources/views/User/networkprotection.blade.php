@@ -142,7 +142,7 @@
                                 </div> 
                             </div><br><br>
                             <a href="index.html" class="m-1 ti-btn ti-btn-primary-full" style="width:26%;">
-                                Get Full License!
+                                About More
                             </a>
                         </div>
                     </div>
