@@ -26,9 +26,12 @@ class UserauthController extends Controller
      
         if ($this->loggedInUser) {
 
-            $productdetails=Payments::where('user_id',$this->loggedInUser)->get();
+            $productdetails= Payments::join('product_details', 'payments.product_id', '=', 'product_details.id')
+            ->where('payments.user_id', $this->loggedInUser)
+            ->select('payments.*', 'product_details.*')
+            ->get();
             
-           dd($productdetails);
+          
             
             return view('User.myprofile', ['loggedInUser' => $this->loggedInUser, 'user_data' => $this->userData,'productdetails' => $productdetails]);
         } else {
