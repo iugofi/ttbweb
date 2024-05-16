@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Users; 
+use App\Models\Payments; 
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\DB;
 
@@ -24,7 +25,9 @@ class UserauthController extends Controller
     public function myprofile(){
      
         if ($this->loggedInUser) {
-            
+
+            $productdetails=Payments::find($this->loggedInUser);
+            dd($this->loggedInUser);
             return view('User.myprofile', ['loggedInUser' => $this->loggedInUser, 'user_data' => $this->userData]);
         } else {
             return redirect('/signin');
