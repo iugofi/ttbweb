@@ -876,10 +876,7 @@
 
                                                 <div class="grid grid-cols-12 sm:gap-x-6">
                                                     @foreach ($productdetails as $productdetails_list)
-                                                    @php
-                                                    dd($productdetails_list);
                                                     
-                                                     @endphp
                                                     <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-6 md:col-span-6 col-span-12">
                                                         <div class="box !shadow-none border dark:border-defaultborder/10">
                                                             <div class="box-body p-6">

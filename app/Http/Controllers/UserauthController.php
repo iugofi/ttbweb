@@ -28,7 +28,7 @@ class UserauthController extends Controller
 
             $productdetails=Payments::where('user_id',$this->loggedInUser)->get();
             
-           
+           dd($productdetails);
             
             return view('User.myprofile', ['loggedInUser' => $this->loggedInUser, 'user_data' => $this->userData,'productdetails' => $productdetails]);
         } else {
