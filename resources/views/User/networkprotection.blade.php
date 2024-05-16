@@ -166,7 +166,7 @@
 
         <!-- Start:: network protection section four -->
 
-        <section class="section landing-testimonials text-defaulttextcolor text-defaultsize">
+        {{-- <section class="section landing-testimonials text-defaulttextcolor text-defaultsize">
             <div class="container text-center">
                 <div class=" mb-[3rem] justify-center text-center">
                     <p class="text-[0.75rem] font-semibold mb-1"><span class="landing-section-heading">TESTIMONIALS</span>
@@ -328,9 +328,66 @@
                     <div class="swiper-pagination"></div>
                 </div>
             </div>
-        </section>
+        </section> --}}
       
-        
+        <div class="slider owl-carousel">
+            <div class="card">
+              <div class="img">
+      <img src="#" alt=""></div>
+      <div class="content">
+                <div class="title">
+      Briana Tozour</div>
+      <div class="sub-title">
+      Graphic Designer</div>
+      <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil minus sed unde voluptas cumque.</p>
+      <div class="btn">
+                  <button>Read more</button>
+                </div>
+      </div>
+      </div>
+      <div class="card">
+              <div class="img">
+      <img src="#" alt=""></div>
+      <div class="content">
+                <div class="title">
+      Pricilla Preez</div>
+      <div class="sub-title">
+      Web Developer</div>
+      <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil minus sed unde voluptas cumque.</p>
+      <div class="btn">
+                  <button>Read more</button>
+                </div>
+      </div>
+      </div>
+      <div class="card">
+              <div class="img">
+      <img src="#" alt=""></div>
+      <div class="content">
+                <div class="title">
+      Eliana Maia</div>
+      <div class="sub-title">
+      App Developer</div>
+      <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil minus sed unde voluptas cumque.</p>
+      <div class="btn">
+                  <button>Read more</button>
+                </div>
+      </div>
+      </div>
+      </div>
+      <script>
+            $(".slider").owlCarousel({
+              loop: true,
+              autoplay: true,
+              autoplayTimeout: 2000, //2000ms = 2s;
+              autoplayHoverPause: true,
+            });
+          </script>
+
+
+
         <!-- Link Swiper JS -->
         <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
         <!-- Initialize Swiper -->
@@ -359,5 +416,6 @@
 
 
     </div>
-    <script src="{{ asset('assets/js/landing.js') }}"></script>
+    {{-- <script src="{{ asset('assets/js/landing.js') }}"></script> --}}
+    <script src="{{asset('https://code.jquery.com/jquery-3.5.1.js')}}"></script>
 @endsection
