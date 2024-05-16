@@ -731,7 +731,7 @@
                                                                                     <td>
                                                                                         <a href="javascript:void(0);"
                                                                                             class="font-semibold text-primary">
-                                                                                            #SPK12032901
+                                                                                            {{$productdetails_list->pay_id}}
                                                                                         </a>
                                                                                     </td>
                                                                                     <td>
