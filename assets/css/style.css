@@ -42495,13 +42495,19 @@ img.img-fluid.service-icon {
 .Phishing-section-three p{
     font-size: 16px;    
 }
-.Phishing-section-three h2{
-    font-size: 32px;
-}
 .Phishing-section-three h3{
     font-size: 28px;    
 }
-.Phishing-section-three h4{
+.Phishing-section-four {
+    padding: 30px 0px 20px 0px;
+    background-color: #c9cfca2e;
+}
+
+.Phishing-section-four h2{
+    font-size: 32px;
+}
+
+.Phishing-section-four h4{
     font-size: 16px;
     color: #12D2B3;
 }
