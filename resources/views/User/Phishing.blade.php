@@ -102,8 +102,8 @@
                 </div>
                 <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
                     <h4>Printing and Typesetting</h4>
-                    <h2>There are Many Variations of Passages of Lorem Ipsum.</h2>
-                    <p class="mt-2">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                    <h2 class="mt-2">There are Many Variations of Passages of Lorem Ipsum.</h2>
+                    <p class="mt-3">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
                         unknown printer
                         took a galley of type and scrambled it to make a type specimen book.</p><br>
                     <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
