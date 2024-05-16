@@ -876,6 +876,14 @@
 
                                                 <div class="grid grid-cols-12 sm:gap-x-6">
                                                     @foreach ($productdetails as $productdetails_list)
+                                                    @php
+                                                    $productdetails_list = DB::table('product_details')
+                                                        ->join('storepick', 'storepick.pick_id', '=', 'product_details.key_type')
+                                                        ->join('planname', 'planname.plan_id', '=', 'product_details.plan_id')
+                                                        ->select('product_details.id', 'storepick.PICK_TEXT', 'planname.name', 'product_details.price')
+                                                        ->where('product_details.id', $productdetails_list->product_id)
+                                                        ->first();
+                                                @endphp
                                                     <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-6 md:col-span-6 col-span-12">
                                                         <div class="box !shadow-none border dark:border-defaultborder/10">
                                                             <div class="box-body p-6">
@@ -885,7 +893,7 @@
                                                                             alt="">
                                                                     </span>
                                                                     <div class="mt-2">
-                                                                        <p class="mb-0 font-semibold">{{$productdetails_list->product_id}}
+                                                                        <p class="mb-0 font-semibold">{{ $productdetails_list->PICK_TEXT }}
                                                                         </p>
                                                                         <p
                                                                             class="text-[0.75rem] opacity-[0.7] mb-1 text-[#8c9097] dark:text-white/50">
