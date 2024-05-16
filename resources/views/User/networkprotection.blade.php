@@ -333,7 +333,8 @@
         <div class="slider owl-carousel">
             <div class="card">
                 <div class="img">
-                    <img src="#" alt="">
+                    <img src="{{ asset('assets/img/The-Best-Business-And-It---Service-Company-4.png') }}" alt=""
+                                class="img-fluid">
                 </div>
                 <div class="content colum-slide">
                     <div class="title">
@@ -348,7 +349,8 @@
             </div>
             <div class="card">
                 <div class="img">
-                    <img src="#" alt="">
+                    <img src="{{ asset('assets/img/The-Best-Business-And-It---Service-Company-2.png') }}" alt=""
+                                class="img-fluid">
                 </div>
                 <div class="content colum-slide">
                     <div class="title">
@@ -363,7 +365,8 @@
             </div>
             <div class="card">
                 <div class="img">
-                    <img src="#" alt="">
+                    <img src="{{ asset('assets/img/The-Best-Business-And-It---Service-Company-3.png') }}" alt=""
+                                class="img-fluid">
                 </div>
                 <div class="content colum-slide">
                     <div class="title">
@@ -378,7 +381,8 @@
             </div>
             <div class="card">
                 <div class="img">
-                    <img src="#" alt="">
+                    <img src="{{ asset('assets/img/The-Best-Business-And-It---Service-Company-3.png') }}" alt=""
+                                class="img-fluid">
                 </div>
                 <div class="content colum-slide">
                     <div class="title">
@@ -393,7 +397,8 @@
             </div>
             <div class="card">
                 <div class="img">
-                    <img src="#" alt="">
+                    <img src="{{ asset('assets/img/The-Best-Business-And-It---Service-Company-3.png') }}" alt=""
+                                class="img-fluid">
                 </div>
                 <div class="content colum-slide">
                     <div class="title">
@@ -408,7 +413,8 @@
             </div>
             <div class="card">
                 <div class="img">
-                    <img src="#" alt="">
+                    <img src="{{ asset('assets/img/The-Best-Business-And-It---Service-Company-3.png') }}" alt=""
+                                class="img-fluid">
                 </div>
                 <div class="content colum-slide">
                     <div class="title">
