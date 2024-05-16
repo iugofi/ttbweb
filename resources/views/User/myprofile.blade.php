@@ -735,7 +735,7 @@
                                                                                         </a>
                                                                                     </td>
                                                                                     <td>
-                                                                                        25,Nov 2022
+                                                                                        {{ $productdetails_list->created_at->format('F j, Y') }}
                                                                                     </td>
                                                                                     <td>
                                                                                         {{$productdetails_list->amount_total}}
