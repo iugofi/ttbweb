@@ -642,25 +642,7 @@
                                                 <div class="grid grid-cols-6 gap-x-6">
                                                     <div class="xl:col-span-9 col-span-12">
                                                         <div class="box">
-                                                            {{-- <div class="box-header justify-between">
-                                                            <div class="box-title">
-                                                                Manage Invoices
-                                                            </div>
-                                                            <div class="flex">
-                                                                <button type="button" class="ti-btn !py-1 !px-2 !text-[0.75rem] !text-white !font-medium bg-primary"><i class="ri-add-line font-semibold align-middle me-1"></i> Create Invoice</button>
-                                                                <div class="hs-dropdown ti-dropdown ms-2">
-                                                                    <button aria-label="button" type="button" class="ti-btn ti-btn-secondary ti-btn-sm" aria-expanded="false">
-                                                                        <i class="ti ti-dots-vertical"></i>
-                                                                    </button>
-                                                                    <ul class="hs-dropdown-menu ti-dropdown-menu hidden">
-                                                                        <li><a class="ti-dropdown-item !py-2 !px-[0.9375rem] !text-[0.8125rem] !font-medium block" href="javascript:void(0);">All Invoices</a></li>
-                                                                        <li><a class="ti-dropdown-item !py-2 !px-[0.9375rem] !text-[0.8125rem] !font-medium block" href="javascript:void(0);">Paid Invoices</a></li>
-                                                                        <li><a class="ti-dropdown-item !py-2 !px-[0.9375rem] !text-[0.8125rem] !font-medium block" href="javascript:void(0);">Pending Invoices</a></li>
-                                                                        <li><a class="ti-dropdown-item !py-2 !px-[0.9375rem] !text-[0.8125rem] !font-medium block" href="javascript:void(0);">Overdue Invoices</a></li>
-                                                                    </ul>
-                                                                </div>
-                                                            </div>
-                                                        </div> --}}
+
                                                             <div class="box-body">
                                                                 <div class="table-responsive">
                                                                     <table
@@ -684,157 +666,100 @@
                                                                             </tr>
                                                                         </thead>
                                                                         <tbody>
-                                                                            <tr
-                                                                                class="invoice-list border border-defaultborder dark:border-defaultborder/10">
-                                                                                <td>
-                                                                                    <div class="flex items-center">
-                                                                                        <div class="me-2 leading-none">
-                                                                                            <span
-                                                                                                class="avatar avatar-sm avatar-rounded">
-                                                                                                <img src="assets/images/faces/11.jpg"
-                                                                                                    alt="">
-                                                                                            </span>
+                                                                            @foreach ($productdetails as $productdetails_list)
+                                                                                <tr
+                                                                                    class="invoice-list border border-defaultborder dark:border-defaultborder/10">
+                                                                                    <td>
+                                                                                        <div class="flex items-center">
+                                                                                            <div class="me-2 leading-none">
+                                                                                                <span
+                                                                                                    class="avatar avatar-sm avatar-rounded">
+                                                                                                    <img src="assets/images/faces/11.jpg"
+                                                                                                        alt="">
+                                                                                                </span>
+                                                                                            </div>
+                                                                                            <div>
+                                                                                                <p
+                                                                                                    class="mb-0 font-semibold">
+                                                                                                    @php
+                                                                                                        $product_name = DB::table(
+                                                                                                            'storepick',
+                                                                                                        )
+                                                                                                            ->select(
+                                                                                                                '*',
+                                                                                                            )
+                                                                                                            ->where(
+                                                                                                                'PICK_ID',
+                                                                                                                $productdetails_list->key_type,
+                                                                                                            )
+                                                                                                            ->where(
+                                                                                                                'STORE_ID',
+                                                                                                                'key_type',
+                                                                                                            )
+                                                                                                            ->first();
+                                                                                                    @endphp
+                                                                                                    @if ($product_name)
+                                                                                                        {{ $product_name->PICK_TEXT }}
+                                                                                                    @else
+                                                                                                        No product found.
+                                                                                                    @endif
+                                                                                                </p>
+                                                                                                <p
+                                                                                                    class="mb-0 text-[.6875rem] text-[#8c9097] dark:text-white/50">
+                                                                                                    @php
+                                                                                                        $plan_name = DB::table(
+                                                                                                            'planname',
+                                                                                                        )
+                                                                                                            ->select(
+                                                                                                                '*',
+                                                                                                            )
+                                                                                                            ->where(
+                                                                                                                'plan_id',
+                                                                                                                $productdetails_list->plan_id,
+                                                                                                            )
+                                                                                                            ->first();
+                                                                                                    @endphp
+                                                                                                    @if ($plan_name)
+                                                                                                        {{ $plan_name->name }}
+                                                                                                    @else
+                                                                                                        No product found.
+                                                                                                    @endif
+                                                                                                </p>
+                                                                                            </div>
                                                                                         </div>
-                                                                                        <div>
-                                                                                            <p class="mb-0 font-semibold">
-                                                                                                Json Taylor</p>
-                                                                                            <p
-                                                                                                class="mb-0 text-[.6875rem] text-[#8c9097] dark:text-white/50">
-                                                                                                jsontaylor2416@gmail.com</p>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </td>
-                                                                                <td>
-                                                                                    <a href="javascript:void(0);"
-                                                                                        class="font-semibold text-primary">
-                                                                                        #SPK12032901
-                                                                                    </a>
-                                                                                </td>
-                                                                                <td>
-                                                                                    25,Nov 2022
-                                                                                </td>
-                                                                                <td>
-                                                                                    $212.45
-                                                                                </td>
-                                                                                <td>
-                                                                                    <span
-                                                                                        class="badge bg-success/10 text-success">Paid</span>
-                                                                                </td>
-                                                                                <td>
-                                                                                    25,Dec 2022
-                                                                                </td>
-                                                                                <td>
-                                                                                    <button aria-label="button"
-                                                                                        type="button"
-                                                                                        class="ti-btn ti-btn-primary ti-btn-icon ti-btn-sm"><i
-                                                                                            class="ri-printer-line"></i></button>
-                                                                                    <button aria-label="button"
-                                                                                        type="button"
-                                                                                        class="ti-btn ti-btn-danger ti-btn-icon ms-1 ti-btn-sm invoice-btn"><i
-                                                                                            class="ri-delete-bin-5-line"></i></button>
-                                                                                </td>
-                                                                            </tr>
-                                                                            <tr
-                                                                                class="invoice-list border border-defaultborder dark:border-defaultborder/10">
-                                                                                <td>
-                                                                                    <div class="flex items-center">
-                                                                                        <div class="me-2 leading-none">
-                                                                                            <span
-                                                                                                class="avatar avatar-sm avatar-rounded">
-                                                                                                <img src="assets/images/faces/7.jpg"
-                                                                                                    alt="">
-                                                                                            </span>
-                                                                                        </div>
-                                                                                        <div>
-                                                                                            <p class="mb-0 font-semibold">
-                                                                                                Suzika Stallone</p>
-                                                                                            <p
-                                                                                                class="mb-0 text-[.6875rem] text-[#8c9097] dark:text-white/50">
-                                                                                                suzikastallone3214@gmail.com
-                                                                                            </p>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </td>
-                                                                                <td>
-                                                                                    <a href="javascript:void(0);"
-                                                                                        class="font-semibold text-primary">
-                                                                                        #SPK12032912
-                                                                                    </a>
-                                                                                </td>
-                                                                                <td>
-                                                                                    13,Nov 2022
-                                                                                </td>
-                                                                                <td>
-                                                                                    $512.99
-                                                                                </td>
-                                                                                <td>
-                                                                                    <span
-                                                                                        class="badge bg-warning/10 text-warning">Pending</span>
-                                                                                </td>
-                                                                                <td>
-                                                                                    13,Dec 2022
-                                                                                </td>
-                                                                                <td>
-                                                                                    <button aria-label="button"
-                                                                                        type="button"
-                                                                                        class="ti-btn ti-btn-primary ti-btn-icon ti-btn-sm"><i
-                                                                                            class="ri-printer-line"></i></button>
-                                                                                    <button aria-label="button"
-                                                                                        type="button"
-                                                                                        class="ti-btn ti-btn-danger ti-btn-icon ms-1 ti-btn-sm invoice-btn"><i
-                                                                                            class="ri-delete-bin-5-line"></i></button>
-                                                                                </td>
-                                                                            </tr>
-                                                                            <tr
-                                                                                class="invoice-list border border-defaultborder dark:border-defaultborder/10">
-                                                                                <td>
-                                                                                    <div class="flex items-center">
-                                                                                        <div class="me-2 leading-none">
-                                                                                            <span
-                                                                                                class="avatar avatar-sm avatar-rounded">
-                                                                                                <img src="assets/images/faces/15.jpg"
-                                                                                                    alt="">
-                                                                                            </span>
-                                                                                        </div>
-                                                                                        <div>
-                                                                                            <p class="mb-0 font-semibold">
-                                                                                                Roman Killon</p>
-                                                                                            <p
-                                                                                                class="mb-0 text-[.6875rem] text-[#8c9097] dark:text-white/50">
-                                                                                                romankillon143@gmail.com</p>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </td>
-                                                                                <td>
-                                                                                    <a href="javascript:void(0);"
-                                                                                        class="font-semibold text-primary">
-                                                                                        #SPK12032945
-                                                                                    </a>
-                                                                                </td>
-                                                                                <td>
-                                                                                    30,Nov 2022
-                                                                                </td>
-                                                                                <td>
-                                                                                    $2199.49
-                                                                                </td>
-                                                                                <td>
-                                                                                    <span
-                                                                                        class="badge bg-danger/10 text-danger">Overdue</span>
-                                                                                </td>
-                                                                                <td>
-                                                                                    30,Dec 2022
-                                                                                </td>
-                                                                                <td>
-                                                                                    <button aria-label="button"
-                                                                                        type="button"
-                                                                                        class="ti-btn ti-btn-primary ti-btn-icon ti-btn-sm"><i
-                                                                                            class="ri-printer-line"></i></button>
-                                                                                    <button aria-label="button"
-                                                                                        type="button"
-                                                                                        class="ti-btn ti-btn-danger ti-btn-icon ms-1 ti-btn-sm invoice-btn"><i
-                                                                                            class="ri-delete-bin-5-line"></i></button>
-                                                                                </td>
-                                                                            </tr>
+                                                                                    </td>
+                                                                                    <td>
+                                                                                        <a href="javascript:void(0);"
+                                                                                            class="font-semibold text-primary">
+                                                                                            {{$productdetails_list->pay_id}}
+                                                                                        </a>
+                                                                                    </td>
+                                                                                    <td>
+                                                                                        25,Nov 2022
+                                                                                    </td>
+                                                                                    <td>
+                                                                                        $212.45
+                                                                                    </td>
+                                                                                    <td>
+                                                                                        <span
+                                                                                            class="badge bg-success/10 text-success">Paid</span>
+                                                                                    </td>
+                                                                                    <td>
+                                                                                        25,Dec 2022
+                                                                                    </td>
+                                                                                    <td>
+                                                                                        <button aria-label="button"
+                                                                                            type="button"
+                                                                                            class="ti-btn ti-btn-primary ti-btn-icon ti-btn-sm"><i
+                                                                                                class="ri-printer-line"></i></button>
+                                                                                        <button aria-label="button"
+                                                                                            type="button"
+                                                                                            class="ti-btn ti-btn-danger ti-btn-icon ms-1 ti-btn-sm invoice-btn"><i
+                                                                                                class="ri-delete-bin-5-line"></i></button>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            @endforeach
+
 
                                                                         </tbody>
                                                                     </table>
@@ -890,7 +815,10 @@
                                                                             <p class="mb-0 font-semibold">@php
                                                                                 $product_name = DB::table('storepick')
                                                                                     ->select('*')
-                                                                                    ->where('PICK_ID', $productdetails_list->key_type)
+                                                                                    ->where(
+                                                                                        'PICK_ID',
+                                                                                        $productdetails_list->key_type,
+                                                                                    )
                                                                                     ->where('STORE_ID', 'key_type')
                                                                                     ->first();
                                                                             @endphp
@@ -904,18 +832,22 @@
                                                                             <p
                                                                                 class="text-[0.75rem] opacity-[0.7] mb-1 text-[#8c9097] dark:text-white/50">
                                                                                 @php
-                                                                                $plan_name = DB::table('planname')
-                                                                                    ->select('*')
-                                                                                    ->where('plan_id', $productdetails_list->plan_id)
-                                                                                    ->first();
+                                                                                    $plan_name = DB::table('planname')
+                                                                                        ->select('*')
+                                                                                        ->where(
+                                                                                            'plan_id',
+                                                                                            $productdetails_list->plan_id,
+                                                                                        )
+                                                                                        ->first();
                                                                                 @endphp
                                                                                 @if ($plan_name)
                                                                                     {{ $plan_name->name }}
                                                                                 @else
                                                                                     No product found.
-                                                                                @endif</p>
+                                                                                @endif
+                                                                            </p>
                                                                             <span
-                                                                                class="badge bg-info/10 rounded-full text-info">{{$productdetails_list->product_key}}</span>
+                                                                                class="badge bg-info/10 rounded-full text-info">{{ $productdetails_list->product_key }}</span>
                                                                         </div>
                                                                     </div>
                                                                 </div>
