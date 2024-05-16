@@ -311,8 +311,8 @@
                                                                 </svg>
                                                               </button>
                                                             </div>
-                                                            <div class="ti-modal-body">
-                                                                <form method="post" id="passwordchangeprofile">
+                                                            <form method="post" id="passwordchangeprofile">
+                                                            <div class="ti-modal-body">                                                          
                                                                     <div class="grid grid-cols-12 gap-y-4">
                                                                         <div class="xl:col-span-12 col-span-12">
                                                                             <label for="reset-password" class="form-label text-default">Current Password</label>
@@ -338,16 +338,15 @@
                                                                         </div>
                                                                        
                                                                     </div>
-                                                                </form>
+                                                                
                                                             </div>
                                                             <div class="ti-modal-footer">
                                                               <button type="button" class="hs-dropdown-toggle ti-btn ti-btn-secondary-full" data-hs-overlay="#hs-vertically-centered-scrollable-modal">
                                                                 Close
-                                                              </button>
-                                                              <a class="ti-btn ti-btn-primary-full" href="javascript:void(0);">
-                                                                Change Password
-                                                              </a>
+                                                              </button>   
+                                                              <input type="submit" class="ti-btn ti-btn-primary-full"  value="Change Password">
                                                             </div>
+                                                        </form>
                                                           </div>
                                                         </div>
                                                       </div>
