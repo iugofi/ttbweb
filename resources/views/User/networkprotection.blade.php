@@ -144,34 +144,6 @@
                                 Get Full License!
                             </a>
                         </div>
-
-                        <div class="grid grid-rows-2 grid-flow-col gap-1">
-                            <div class="row-span-3">
-                                <img src="assets/img/Best-Services-Iocn-1.png" class="img-fluid !inline-flex backimage">
-                            </div>
-                            <div class="col-span-2">
-                                <h5 class="dark-text px-6">Best Services</h5>
-                            </div>
-                            <div class="row-span-2 col-span-2">
-                                <p class="text-gray-light px-6">Lorem ipsum dolor sit amet, eiusmod
-                                    tempor. Lorem ipsum dolor sit amet, eiusmod tempor.</p>
-                            </div>
-                        </div>
-                        <div class="grid grid-rows-2 grid-flow-col pt-4 gap-1">
-                            <div class="row-span-3"><img src="assets/img/Best-Services-Iocn-2.png "
-                                    class="img-fluid !inline-flex backimage"></div>
-                            <div class="col-span-2">
-                                <h5 class="dark-text px-6">Support 24/7</h5>
-                            </div>
-                            <div class="row-span-2 col-span-2">
-                                <p class="text-gray-light px-6">Lorem ipsum dolor sit amet, eiusmod
-                                    tempor. Lorem ipsum dolor sit amet, eiusmod tempor.</p>
-                            </div>
-                        </div>
-
-                        <div class="action-btns mt-4">
-                            <a href="#" class="ti-btn bg-primary text-white">Explore More Us</a>
-                        </div>
                     </div>
                 </div>
             </div>
