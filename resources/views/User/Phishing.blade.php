@@ -110,10 +110,13 @@
                         classical Latin literature from 45 BC, making it over 2000 years old.</p>
                         <div class="grid grid-cols-12 gap-6">
                             <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
-                                <p>helleo hegfgdgdguguf</p>
+                                <div>
+                                    <i class="fas fa-user-shield"></i>
+                                </div>
+                                <p></p>
                             </div>
                             <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
-                                <p>helleo hegfgdgdguguf</p>
+                                <p></p>
                             </div>
                         </div>
                 </div>
