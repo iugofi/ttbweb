@@ -91,7 +91,7 @@
                         took a galley of type and scrambled it to make a type specimen book.</p>
                 </div>
             </div>
-        </div><hr>
+        </div>
     </section>
 
     <section class="Phishing-section-four">

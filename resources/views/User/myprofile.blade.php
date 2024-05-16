@@ -887,13 +887,14 @@
                                                                                 alt="">
                                                                         </span>
                                                                         <div class="mt-2">
-                                                                            <p class="mb-0 font-semibold">@php
+                                                                            <p class="mb-0 font-semibold">
+                                                                                @php
                                                                                 $product_name = DB::table('storepick')
                                                                                     ->select('*')
-                                                                                    ->where('PICK_ID', $productdetails_list->key_type)
+                                                                                    ->wherein('PICK_ID', $productdetails_list->key_type)
                                                                                     ->where('STORE_ID', 'key_type')
                                                                                     ->first();
-                                                                            @endphp
+                                                                                @endphp
                                                                                 @if ($product_name)
                                                                                     {{ $product_name->PICK_TEXT }}
                                                                                 @else
@@ -903,7 +904,8 @@
                                                                             </p>
                                                                             <p
                                                                                 class="text-[0.75rem] opacity-[0.7] mb-1 text-[#8c9097] dark:text-white/50">
-                                                                                samanthamay2912@gmail.com</p>
+                                                                               
+                                                                            </p>
                                                                             <span
                                                                                 class="badge bg-info/10 rounded-full text-info">Team
                                                                                 Member</span>
