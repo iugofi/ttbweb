@@ -317,7 +317,7 @@
                                                                         <div class="xl:col-span-12 col-span-12">
                                                                             <label for="reset-password" class="form-label text-default">Current Password</label>
                                                                             <div class="input-group">
-                                                                                <input type="password" class="form-control form-control-lg !rounded-e-none" value="{{ isset($user_data->password) ? $user_data->password : '' }}" id="reset-password" placeholder="current password">
+                                                                                <input type="password" class="form-control form-control-lg !rounded-e-none" value="{{ isset($user_data->password) ? \Crypt::decrypt($user_data->password)  : '' }}" id="reset-password" placeholder="current password">
                                                                                 <button aria-label="button" class="ti-btn ti-btn-light !mb-0 !rounded-s-none" type="button" onclick="createpassword('reset-password',this)" id="button-addon2"><i class="ri-eye-off-line align-middle"></i></button>
                                                                             </div>
                                                                         </div>
