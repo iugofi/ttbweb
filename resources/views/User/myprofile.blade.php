@@ -1269,7 +1269,7 @@
                             $('.invalid-feedback').empty();
                             removeValidationClass("#myprofilechangeother");
                             $('#profilechangeotherbtn').val('Change Password');
-                            $('#modalCloseButtonotprofile').click();
+                            $('#modalCloseButtonotprofile').click();  
                         }
                     }
                 });
