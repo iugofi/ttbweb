@@ -26,7 +26,7 @@ class UserauthController extends Controller
      
         if ($this->loggedInUser) {
 
-            $productId=Payments::where('user_id',$this->loggedInUser)->select('id')->get();
+            $productId=Payments::where('user_id',$this->loggedInUser)->select('product_id')->get();
             $productdetails = DB::table('product_details')
             ->join('storepick', 'storepick.pick_id', '=', 'product_details.key_type')
             ->join('planname', 'planname.plan_id', '=', 'product_details.plan_id')
