@@ -58,7 +58,7 @@ class UserauthController extends Controller
                         ]);
                     }      
                     $profilepasschange->update([
-                        'password' => \Crypt::encrypt($request->confirm_password)
+                        'password' => \Crypt::encrypt($request->new_password)
                        
                     ]);
     
