@@ -137,6 +137,7 @@ Route::get('/passreset', [UserController::class, 'passreset'])->name('user.passr
 Route::get('/logout', [UserController::class, 'logout'])->name('user.logout');
 
 Route::get('/myprofile', [UserauthController::class, 'myprofile'])->name('user.myprofile');
+Route::post('passchangeprifile', [UserauthController::class, 'passchangeprifile'])->name('user.passchangeprifile');
 Route::post('/update/name', [UserController::class, 'updateName'])->name('update.name');
 
 

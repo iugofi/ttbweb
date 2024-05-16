@@ -1195,7 +1195,7 @@
                 e.preventDefault();
                 $('#passprofilechangebtn').val('please wait..');
                 $.ajax({
-                    url: '{{ route('user.saveregister') }}',
+                    url: '{{ route('user.passchangeprifile') }}',
                     method: 'post',
                     data: $(this).serialize(),
                     success: function(response) {

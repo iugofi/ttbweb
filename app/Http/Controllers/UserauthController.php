@@ -28,4 +28,13 @@ class UserauthController extends Controller
         }
         
     }
+    public function passchangeprifile(Request $request){
+     
+        if ($this->loggedInUser) {
+           dd($request->all());
+        } else {
+            return redirect('/signin');
+        }
+        
+    }
 }
