@@ -86,13 +86,40 @@
                     <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
                 </div>
                 <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
-                    <p class="mt-2">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                    <p class="mt-2">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                        unknown printer
                         took a galley of type and scrambled it to make a type specimen book.</p>
                 </div>
             </div>
         </div>
     </section>
 
+    <section class="Phishing-section-four">
+        <div class="container main-banner-container">
+            <div class="grid grid-cols-12 gap-6">
+                <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
+
+                </div>
+                <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
+                    <h4>Printing and Typesetting</h4>
+                    <h2 class="mt-2">There are Many Variations of Passages of Lorem Ipsum.</h2>
+                    <p class="mt-3">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                        unknown printer
+                        took a galley of type and scrambled it to make a type specimen book.</p><br>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                        classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                        <div class="grid grid-cols-12 gap-6">
+                            <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
+                                <p>helleo hegfgdgdguguf</p>
+                            </div>
+                            <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
+                                <p>helleo hegfgdgdguguf</p>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
