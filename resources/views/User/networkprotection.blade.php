@@ -141,7 +141,7 @@
                                         <p>customer service without goal-oriented catalysts for change</p>
                                 </div> 
                             </div><br><br>
-                            <a href="index.html" class="ti-btn bg-primary text-white" style="width:26%;">
+                            <a href="index.html" class="ti-btn bg-primary text-white bnr-btn-1" style="width:26%;">
                                 About More
                             </a>
                         </div>
