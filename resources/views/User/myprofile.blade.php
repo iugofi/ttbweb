@@ -281,7 +281,7 @@
                                                                                 <label for="exampleInputEmail1"
                                                                                     class="form-label">Email
                                                                                 </label>
-                                                                                <input type="email" class="form-control"
+                                                                                <input type="email" class="form-control" name="user_email"
                                                                                     value="{{ isset($user_data->email) ? $user_data->email : '' }}"
                                                                                     id="exampleInputEmail1" name=""
                                                                                     aria-describedby="emailHelp">
@@ -290,14 +290,14 @@
                                                                             <div class="mb-3">
                                                                                 <label for="exampleInputPassword1"
                                                                                     class="form-label">Phone</label>
-                                                                                <input type="text" class="form-control" name=""
+                                                                                <input type="text" class="form-control" name="user_phone"
                                                                                     value="{{ isset($user_data->phone) ? $user_data->phone : '' }}"
                                                                                     id="phone">
                                                                             </div>
                                                                             <div class="mb-3">
                                                                                 <label for="exampleInputPassword1"
                                                                                     class="form-label">Address</label>
-                                                                                <textarea type="text" class="form-control" name="" id="address">{{ isset($user_data->address) ? $user_data->address : '' }}
+                                                                                <textarea type="text" class="form-control" name="user_address" id="address">{{ isset($user_data->address) ? $user_data->address : '' }}
                                                                         </textarea>
                                                                             </div>
 
@@ -1225,8 +1225,34 @@
                     }
                 });
             });
+            $('#myprofilechangeother').submit(function(e) {
+                alert("hd");
+                e.preventDefault();
+                $('#profilechangeotherbtn').val('please wait..');
+                $.ajax({
+                    url: '{{ route('user.passchangeprifile') }}',
+                    method: 'post',
+                    data: $(this).serialize(),
+                    success: function(response) {
+                        if (response.status == 400) {
+                            showError('confirm_password', response.messages.confirm_password);
+                            showError('new_password', response.messages.new_password);
+                            $('#profilechangeotherbtn').val('Change Password');
+                        } else if (response.status == 200) {
+                            $("#show_success_alert").html(showMessage('success', response
+                                .messages));
+                            $('#myprofilechangeother')[0].reset();
+                            $('.invalid-feedback').empty();
+                            removeValidationClass("#myprofilechangeother");
+                            $('#profilechangeotherbtn').val('Change Password');
+                            $('#modalCloseButton').click();
+                        }
+                    }
+                });
+            });
         });
     </script>
+
 
 
 
