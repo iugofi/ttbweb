@@ -130,14 +130,18 @@
                                 <div class="xl:col-grid-6 col-grid-6">
                                     <i class="fa-solid fa-angles-right space-x-4 icon-size"> <h6 style="font-weight: 700; font-size: 14px;">With supporting
                                         natural lead</h6></i>
+                                        <p>customer service without goal-oriented catalysts for change</p><br>
                                     <i class="fa-solid fa-angles-right space-x-4 icon-size"><h6 style="font-weight: 700; font-size: 14px;">With supporting
-                                        natural lead</h6></i>
+                                        natural lead</h6></i><br>
+                                        <p>customer service without goal-oriented catalysts for change</p>
                                 </div>
                                 <div class="xl:grid-col-6 col-grid-6">
                                     <i class="fa-solid fa-angles-right space-x-4 icon-size"><h6 style="font-weight: 700; font-size: 14px;">With supporting
                                         natural lead</h6></i>
+                                        <p>customer service without goal-oriented catalysts for change</p><br>
                                     <i class="fa-solid fa-angles-right space-x-4 icon-size"><h6 style="font-weight: 700; font-size: 14px;">With supporting
-                                        natural lead</h6></i>
+                                        natural lead</h6></i><br>
+                                        <p>customer service without goal-oriented catalysts for change</p>
                                 </div> 
                             </div><br><br>
                             <a href="index.html" class="m-1 ti-btn ti-btn-primary-full" style="width:26%;">
