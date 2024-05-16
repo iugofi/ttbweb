@@ -178,7 +178,7 @@
                     </div>
                 </div>
                 <div class="swiper pagination-dynamic text-start rtl:dirrtl">
-                    <div class="swiper-wrapper">
+                    <div class="swiper-wrapper slide-grid">
                         <div class="swiper-slide rtl:dir-rtl">
                             <div class="box featured-card-1 border dark:border-defaultborder/10">
                                 <div class="box-body p-6">
@@ -323,75 +323,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide rtl:dir-rtl">
-                            <div class="box featured-card-1 border dark:border-defaultborder/10">
-                                <div class="box-body p-6">
-                                    <span class="review-quote">
-                                        <i class="bi bi-quote"></i>
-                                    </span>
-                                    <div class="flex mb-2 items-center">
-                                        <span class="avatar avatar-lg avatar-rounded me-2">
-                                            <img src="assets/images/faces/10.jpg" alt="">
-                                        </span>
-                                        <div>
-                                            <p class="mb-0 font-semibold text-[1rem] text-primary">Dolph MR</p>
-                                            <p
-                                                class="text-[0.625rem] mb-0 font-semibold text-[#8c9097] dark:text-white/50">
-                                                CEO MR BRAND</p>
-                                        </div>
-                                    </div>
-                                    <span>- Est amet sit vero sanctus labore no sed ipsum ipsum nonumy. Sit ipsum sanctus ea
-                                        magna est. Aliquyam sed amet. Kasd diam rebum sit ipsum ipsum erat et kasd.Est amet
-                                        sit vero sanctus labor</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide rtl:dir-rtl">
-                            <div class="box featured-card-1 border dark:border-defaultborder/10">
-                                <div class="box-body p-6">
-                                    <span class="review-quote">
-                                        <i class="bi bi-quote"></i>
-                                    </span>
-                                    <div class="flex mb-2 items-center">
-                                        <span class="avatar avatar-lg avatar-rounded me-2">
-                                            <img src="assets/images/faces/13.jpg" alt="">
-                                        </span>
-                                        <div>
-                                            <p class="mb-0 font-semibold text-[1rem] text-primary">Brenda Simpson</p>
-                                            <p
-                                                class="text-[0.625rem] mb-0 font-semibold text-[#8c9097] dark:text-white/50">
-                                                CEO AIBMO</p>
-                                        </div>
-                                    </div>
-                                    <span>- Est amet sit vero sanctus labore no sed ipsum ipsum nonumy. Sit ipsum sanctus ea
-                                        magna est. Aliquyam sed amet. Kasd diam rebum sit ipsum ipsum erat et kasd.Est amet
-                                        sit vero sanctus labor</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide rtl:dir-rtl">
-                            <div class="box featured-card-1 border dark:border-defaultborder/10">
-                                <div class="box-body p-6">
-                                    <span class="review-quote">
-                                        <i class="bi bi-quote"></i>
-                                    </span>
-                                    <div class="flex mb-2 items-center">
-                                        <span class="avatar avatar-lg avatar-rounded me-2">
-                                            <img src="assets/images/faces/6.jpg" alt="">
-                                        </span>
-                                        <div>
-                                            <p class="mb-0 font-semibold text-[1rem] text-primary">Melissa Blue</p>
-                                            <p
-                                                class="text-[0.625rem] mb-0 font-semibold text-[#8c9097] dark:text-white/50">
-                                                MANAGER CHO</p>
-                                        </div>
-                                    </div>
-                                    <span>- Est amet sit vero sanctus labore no sed ipsum ipsum nonumy. Sit ipsum sanctus ea
-                                        magna est. Aliquyam sed amet. Kasd diam rebum sit ipsum ipsum erat et kasd.Est amet
-                                        sit vero sanctus labor</span>
-                                </div>
-                            </div>
-                        </div>
+                      
                     </div>
                     <div class="swiper-pagination"></div>
                 </div>
