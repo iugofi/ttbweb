@@ -245,7 +245,7 @@
                                                                             Edit Profile
                                                                         </h6>
                                                                         <button type="button"
-                                                                            class="hs-dropdown-toggle ti-modal-close-btn"
+                                                                            class="hs-dropdown-toggle ti-modal-close-btn" id="modalCloseButton"
                                                                             data-hs-overlay="#hs-vertically-centered-scrollable-modal">
                                                                             <span class="sr-only">Close</span>
                                                                             <svg class="w-3.5 h-3.5" width="8"
