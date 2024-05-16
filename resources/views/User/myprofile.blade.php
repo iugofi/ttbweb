@@ -873,10 +873,10 @@
 
                                             <div class="tab-pane fade !p-0 !border-0 hidden" id="gallery-tab-pane"
                                                 role="tabpanel" aria-labelledby="gallery-tab" tabindex="0">
-                                               
+
                                                 <div class="grid grid-cols-12 sm:gap-x-6">
-                                                    <div
-                                                        class="xxl:col-span-4 xl:col-span-4 lg:col-span-6 md:col-span-6 col-span-12">
+                                                    @foreach ($productdetails as $productdetails_list)
+                                                    <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-6 md:col-span-6 col-span-12">
                                                         <div class="box !shadow-none border dark:border-defaultborder/10">
                                                             <div class="box-body p-6">
                                                                 <div class="text-center">
@@ -899,53 +899,8 @@
 
                                                         </div>
                                                     </div>
-                                                    <div
-                                                        class="xxl:col-span-4 xl:col-span-4 lg:col-span-6 md:col-span-6 col-span-12">
-                                                        <div class="box !shadow-none border dark:border-defaultborder/10">
-                                                            <div class="box-body p-6">
-                                                                <div class="text-center">
-                                                                    <span class="avatar avatar-xl avatar-rounded">
-                                                                        <img src="assets/images/ecommerce/png/ttb-box.png"
-                                                                            alt="">
-                                                                    </span>
-                                                                    <div class="mt-2">
-                                                                        <p class="mb-0 font-semibold">TTB VPN Shield</p>
-                                                                        <p
-                                                                            class="text-[0.75rem] opacity-[0.7] mb-1 text-[#8c9097] dark:text-white/50">
-                                                                            andrewgarfield98@gmail.com</p>
-                                                                        <span
-                                                                            class="badge bg-success/10 text-success rounded-full">Team
-                                                                            Lead</span>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-
-                                                        </div>
-                                                    </div>
-
-                                                    <div
-                                                        class="xxl:col-span-4 xl:col-span-4 lg:col-span-6 md:col-span-6 col-span-12">
-                                                        <div class="box !shadow-none border dark:border-defaultborder/10">
-                                                            <div class="box-body p-6">
-                                                                <div class="text-center">
-                                                                    <span class="avatar avatar-xl avatar-rounded">
-                                                                        <img src="assets/images/ecommerce/png/ttb-box.png"
-                                                                            alt="">
-                                                                    </span>
-                                                                    <div class="mt-2">
-                                                                        <p class="mb-0 font-semibold">TTB Antivirus</p>
-                                                                        <p
-                                                                            class="text-[0.75rem] opacity-[0.7] mb-1 text-[#8c9097] dark:text-white/50">
-                                                                            andrewgarfield98@gmail.com</p>
-                                                                        <span
-                                                                            class="badge bg-success/10 text-success rounded-full">Team
-                                                                            Lead</span>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-
-                                                        </div>
-                                                    </div>
+                                                    @endforeach
+                                                  
 
                                                     <div class="col-span-12">
                                                         <div class="text-center !mt-4">
