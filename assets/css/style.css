@@ -43675,10 +43675,22 @@ h6.uppercase {
     margin: 6px 0 auto;
     border-top: 1px solid #12D2B3;
 }
-
-
-
 /* End endpoint protection page css */
+
+/* Start network protection page css */
+
+.icon-size::before {
+    content: "\f101";
+    font-size: 18px;
+    color: #12D2B3;
+    line-height: 1.9rem;
+}
+
+/* End network protection page css */
+
+
+
+
 
 /* kunal-verma 23-04-2024 */
 
