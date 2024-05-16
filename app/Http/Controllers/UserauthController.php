@@ -33,24 +33,32 @@ class UserauthController extends Controller
     public function passchangeprifile(Request $request){
      
         if ($this->loggedInUser) {
-            $id=\Crypt::decrypt($request->id_user);
+            try {
+                $id = \Crypt::decrypt($request->id_user);
+            } catch (\Exception $e) {
+                return response()->json([
+                    'status' => 400,
+                    'messages' => 'Invalid user ID.'
+                ]);
+            }
+    
             $validator = Validator::make($request->all(), [
                 'new_password' => 'required|min:6|max:50',
                 'confirm_password' => 'required|min:6|same:new_password'
-            ],[
+            ], [
                 'confirm_password.same' => 'Password did not match!',
-                'confirm_password.required' => 'Confirm Password is Required!'
+                'confirm_password.required' => 'Confirm Password is required!'
             ]);
     
             if ($validator->fails()) {
                 return response()->json([
                     'status' => 400,
-                    'messages' => $validator->getMessageBag()->toArray() // Convert messages to array
+                    'messages' => $validator->getMessageBag()->toArray()
                 ]);
             }
             else
             { 
-                    $profilepasschange = Users::where('id', $id)->first();
+                    $profilepasschange = Users::find($id);
                     if (!$profilepasschange) {
                         return response()->json([
                             'status' => 404,
