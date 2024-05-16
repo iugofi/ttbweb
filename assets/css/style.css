@@ -43697,6 +43697,9 @@ h6.uppercase {
 
 /* Start network protection page css */
 .dark .icon-hover {
+    color: #fff !important;
+}
+.dark .network-box-bm:hover .icon-hover {
     color: #12D2B3 !important;
 }
 .icon-size::before {
