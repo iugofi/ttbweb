@@ -525,7 +525,7 @@
                     </div>
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6  customize-image text-center">
                         <div class="lg:text-start !flex items-center lg:justify-start justify-center">
-                            <img src="{{ asset('assets/img/The-Largest-Business-Expert-Company.png') }}" alt=""
+                            <img src="{{ asset('assets/img/The-Largest-Business-Expert-Company-4th-sec.png') }}" alt=""
                                 class="img-fluid">
                         </div>
                     </div>
