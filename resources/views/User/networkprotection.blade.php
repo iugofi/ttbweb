@@ -401,7 +401,7 @@
                         minus sed unde voluptas cumque.</p>
 
                 </div>
-                <i class="bx bx-chevrons-right network-icon"></i>
+                <i class="bx bx-chevrons-right network-icon"></i> 
             </div>
             <div class="card">
                 <div class="img">
