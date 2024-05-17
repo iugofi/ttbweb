@@ -330,7 +330,7 @@
             </div>
         </section> --}}
 
-        <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] ">
+        <div class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 ">
             <div class="container text-center">
                 <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">What We Do</span>
                 <h1 class="lg:text-center font-semibold mb-2 text-[2rem]">Solutions Coustomers Have<br>
@@ -473,7 +473,7 @@
 
 
         <!-- Start:: network protection section five -->
-        <div class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70" style="padding-top: 0px !important">
+        <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]" style="padding-top: 0px !important">
             <div class="container main-banner-container">
                 <div
                     class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
@@ -535,7 +535,7 @@
         <!-- End:: network protection section five -->
 
         <!-- Start:: network protection section six -->
-        <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] ">
+        <div class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 ">
             <div class="container main-banner-container">
                 <div
                     class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
