@@ -644,137 +644,76 @@
                                                         <div class="box">
 
                                                             <div class="box-body">
+                                                                <div class="box text-center">
+                                                                    <div class="" id="show_success_alert"></div>
+                                                                </div>
                                                                 <div class="table-responsive">
-                                                                    <table
-                                                                        class="table whitespace-nowrap table-bordered min-w-full">
+                                                                    <table id="example" class="table-auto w-full">
                                                                         <thead>
                                                                             <tr>
-                                                                                <th scope="col" class="text-start">
-                                                                                    Product</th>
-                                                                                <th scope="col" class="text-start">
-                                                                                    Invoice ID</th>
-                                                                                <th scope="col" class="text-start">
-                                                                                    Issued Date</th>
-                                                                                <th scope="col" class="text-start">
-                                                                                    Amount</th>
-                                                                                <th scope="col" class="text-start">
-                                                                                    Status</th>
-                                                                                <th scope="col" class="text-start">Due
-                                                                                    Date</th>
-                                                                                <th scope="col" class="text-start">
-                                                                                    Action</th>
+                                                                                <th class="px-4 py-2">Product</th>
+                                                                                <th class="px-4 py-2">Invoice ID</th>
+                                                                                <th class="px-4 py-2">Issued Date</th>
+                                                                                <th class="px-4 py-2">Amount</th>
+                                                                                <th class="px-4 py-2">Status</th>
+                                                                                <th class="px-4 py-2">Action</th>
                                                                             </tr>
                                                                         </thead>
                                                                         <tbody>
-                                                                        @if($productdetails->isEmpty())
-                                                                            <tr>
-                                                                                <td colspan="7" class="text-center">No product details found.</td>
-                                                                            </tr>
-                                                                        @else
-                                                                            @foreach ($productdetails as $productdetails_list)
-                                                                                <tr
-                                                                                    class="invoice-list border border-defaultborder dark:border-defaultborder/10">
-                                                                                    <td>
-                                                                                        <div class="flex items-center">
-                                                                                            <div class="me-2 leading-none">
-                                                                                                <span
-                                                                                                    class="avatar avatar-sm avatar-rounded">
-                                                                                                    <img src="assets/images/ecommerce/png/ttb-box.png"
-                                                                                                        alt="">
-                                                                                                </span>
-                                                                                            </div>
-                                                                                            <div>
-                                                                                                <p
-                                                                                                    class="mb-0 font-semibold">
-                                                                                                    @php
-                                                                                                        $product_name = DB::table(
-                                                                                                            'storepick',
-                                                                                                        )
-                                                                                                            ->select(
-                                                                                                                '*',
-                                                                                                            )
-                                                                                                            ->where(
-                                                                                                                'PICK_ID',
-                                                                                                                $productdetails_list->key_type,
-                                                                                                            )
-                                                                                                            ->where(
-                                                                                                                'STORE_ID',
-                                                                                                                'key_type',
-                                                                                                            )
-                                                                                                            ->first();
-                                                                                                    @endphp
-                                                                                                    @if ($product_name)
-                                                                                                        {{ $product_name->PICK_TEXT }}
-                                                                                                    @else
-                                                                                                        No product found.
-                                                                                                    @endif
-                                                                                                </p>
-                                                                                                <p
-                                                                                                    class="mb-0 text-[.6875rem] text-[#8c9097] dark:text-white/50">
-                                                                                                    @php
-                                                                                                        $plan_name = DB::table(
-                                                                                                            'planname',
-                                                                                                        )
-                                                                                                            ->select(
-                                                                                                                '*',
-                                                                                                            )
-                                                                                                            ->where(
-                                                                                                                'plan_id',
-                                                                                                                $productdetails_list->plan_id,
-                                                                                                            )
-                                                                                                            ->first();
-                                                                                                    @endphp
-                                                                                                    @if ($plan_name)
-                                                                                                        {{ $plan_name->name }}
-                                                                                                    @else
-                                                                                                        No product found.
-                                                                                                    @endif
-                                                                                                </p>
-                                                                                            </div>
+                                                                            @foreach ($productdetails as $key => $item)
+                                                                                <tr>
+                                                                                    @php
+                                                                                        $id = 1;
+                                                                                    @endphp
+                                                                                    <td class="border px-4 py-2">{{ $key + 1 }}</td>
+                                                                                    <td class="border px-4 py-2">
+                                                                                        <div class="flex items-center font-semibold">
+                                                                                            <span class="!me-2 inline-flex justify-center items-center">
+                                                                                                <img src="{{ asset('assets/images/ecommerce/png/ttb-box.png') }}"
+                                                                                                    alt="img"
+                                                                                                    class="w-[1.75rem] h-[1.75rem] leading-[1.75rem] text-[0.65rem]  rounded-full">
+                                                                                            </span>
                                                                                         </div>
                                                                                     </td>
-                                                                                    <td>
-                                                                                        <a href="javascript:void(0);"
-                                                                                            class="font-semibold text-primary">
-                                                                                            {{$productdetails_list->pay_id}}
-                                                                                        </a>
-                                                                                    </td>
-                                                                                    <td>
-                                                                                        {{ $productdetails_list->created_at->format('F j, Y') }}
-                                                                                    </td>
-                                                                                    <td>
-                                                                                        {{$productdetails_list->amount_total}}
-                                                                                    </td>
-                                                                                    <td>
-                                                                                        <span
-                                                                                            class="badge bg-success/10 text-success">Paid</span>
-                                                                                    </td>
-                                                                                    <td>
-                                                                                        25,Dec 2022
-                                                                                    </td>
-                                                                                    <td>
-                                                                                        <button aria-label="button"
-                                                                                            type="button"
-                                                                                            class="ti-btn ti-btn-primary ti-btn-icon ti-btn-sm"><i
-                                                                                                class="ri-printer-line"></i></button>
-                                                                                        <button aria-label="button"
-                                                                                            type="button"
-                                                                                            class="ti-btn ti-btn-danger ti-btn-icon ms-1 ti-btn-sm invoice-btn"><i
-                                                                                                class="ri-delete-bin-5-line"></i></button>
-                                                                                    </td>
-                                                                                </tr>   
-                                                                            @endforeach
-                                                                            @endif
+                                                                                    <td class="border px-4 py-2">{{$item->pay_id}}</td>
+                                                                                    <td class="border px-4 py-2">{{$item->pay_id}}</td>
+                                                                                    <td class="border px-4 py-2">{{$item->amount_total}}</td>
 
+                                                                                    <td class="border">
+                                                                                       
+                                                                                        @if ($item->payment_status=='paid')
+                                                                                            
+                                                                                            <span
+                                                                                                class="inline-flex text-primary !py-[0.15rem] !px-[0.45rem] rounded-sm !font-semibold !text-[0.75em] bg-primary/10">{{ $item->payment_status }}</span>
+                                                                                        @else
+                                                                                            <span
+                                                                                                class="inline-flex text-danger !py-[0.15rem] !px-[0.45rem] rounded-sm !font-semibold !text-[0.75em] bg-danger/10">Unpaid</span>
+                                                                                        @endif
+                                                                                    </td>
+                                                                                    <td class="border px-4 py-2">
+                                                                                        <div class="flex flex-row items-center !gap-2 text-[0.9375rem]">
+                                                                                            <a aria-label="anchor"
+                                                                                                href="{{ route('edit.blogedit', \Crypt::encrypt($item->id)) }}"
+                                                                                                class="ti-btn ti-btn-icon ti-btn-wave !gap-0 !m-0 !h-[1.75rem] !w-[1.75rem] text-[0.8rem] bg-primary/10 text-primary hover:bg-primary hover:text-white hover:border-primary">
+                                                                                                <i class="ri-edit-line"></i>
+                                                                                            </a>
+                                                                                            <button aria-label="button" type="button"
+                                                                                                class="ti-btn !py-1 !px-2 !text-[0.75rem] ti-btn-danger-full btn-wave delete-blogs"
+                                                                                                data-item-id="{{ $item->id }}">
+                                                                                                <i
+                                                                                                    class="ri-delete-bin-line align-middle me-2 inline-block"></i>Delete
+                                                                                            </button>
+                                    
+                                                                                        </div>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            @endforeach
                                                                         </tbody>
                                                                     </table>
                                                                 </div>
+                                    
                                                             </div>
-                                                            <div class="box-footer">
-                                                                <nav aria-label="Page navigation">
-                                                                    {{ $productdetails->links('pagination::bootstrap-4') }}
-                                                                </nav>
-                                                            </div>
+                                                            
                                                         </div>
                                                     </div>
 
