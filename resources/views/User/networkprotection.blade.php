@@ -332,7 +332,7 @@
 
         <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] ">
         <div class="slider owl-carousel">
-            <div class="owl-item">
+            <div class="slide-owl">
             <div class="card">
                 <div class="img">
                     <img src="{{ asset('assets/img/The-Best-Business-And-It---Service-Company-4.png') }}" alt=""
@@ -348,7 +348,7 @@
             </div>
             <i class="bx bx-chevrons-right network-icon"></i>
             </div>
-            <div class="owl-item">
+            <div class="slide-owl">
             <div class="card">
                 <div class="img">
                     <img src="{{ asset('assets/img/The-Best-Business-And-It---Service-Company-2.png') }}" alt=""
@@ -364,7 +364,7 @@
             </div>
             <i class="bx bx-chevrons-right network-icon"></i>
             </div>
-            <div class="owl-item">
+            <div class="slide-owl">
             <div class="card">
                 <div class="img">
                     <img src="{{ asset('assets/img/The-Best-Business-And-It---Service-Company-3.png') }}" alt=""
@@ -380,7 +380,7 @@
             </div>
             <i class="bx bx-chevrons-right network-icon"></i>
             </div>
-            <div class="owl-item">
+            <div class="slide-owl">
             <div class="card">
                 <div class="img">
                     <img src="{{ asset('assets/img/The-Best-Business-And-It---Service-Company-3.png') }}" alt=""
@@ -396,7 +396,7 @@
             </div>
             <i class="bx bx-chevrons-right network-icon"></i>
             </div>
-            <div class="owl-item">
+            <div class="slide-owl">
             <div class="card">
                 <div class="img">
                     <img src="{{ asset('assets/img/The-Best-Business-And-It---Service-Company-3.png') }}" alt=""
@@ -413,7 +413,7 @@
             </div>
             <i class="bx bx-chevrons-right network-icon"></i>
             </div>
-            <div class="owl-item">
+            <div class="slide-owl">
             <div class="card">
                 <div class="img">
                     <img src="{{ asset('assets/img/The-Best-Business-And-It---Service-Company-3.png') }}" alt=""
