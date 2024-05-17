@@ -762,8 +762,7 @@
                                                                                             class="ti-btn ti-btn-danger ti-btn-icon ms-1 ti-btn-sm invoice-btn"><i
                                                                                                 class="ri-delete-bin-5-line"></i></button>
                                                                                     </td>
-                                                                                </tr>
-                                                                               
+                                                                                </tr>   
                                                                             @endforeach
                                                                             @endif
 
@@ -773,25 +772,7 @@
                                                             </div>
                                                             <div class="box-footer">
                                                                 <nav aria-label="Page navigation">
-                                                                    <ul
-                                                                        class="ti-pagination ltr:float-right rtl:float-left mb-0">
-                                                                        <li class="page-item disabled"><a
-                                                                                class="page-link px-3 py-[0.375rem]"
-                                                                                href="javascript:void(0);">Previous</a>
-                                                                        </li>
-                                                                        <li class="page-item"><a
-                                                                                class="page-link active px-3 py-[0.375rem]"
-                                                                                href="javascript:void(0);">1</a></li>
-                                                                        <li class="page-item"><a
-                                                                                class="page-link px-3 py-[0.375rem]"
-                                                                                href="javascript:void(0);">2</a></li>
-                                                                        <li class="page-item hidden sm:block"><a
-                                                                                class="page-link px-3 py-[0.375rem]"
-                                                                                href="javascript:void(0);">3</a></li>
-                                                                        <li class="page-item"><a
-                                                                                class="page-link px-3 py-[0.375rem]"
-                                                                                href="javascript:void(0);">Next</a></li>
-                                                                    </ul>
+                                                                    {{ $productdetails->links('pagination::bootstrap-4') }}
                                                                 </nav>
                                                             </div>
                                                         </div>
