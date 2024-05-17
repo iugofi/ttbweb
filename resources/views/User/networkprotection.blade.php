@@ -330,6 +330,7 @@
             </div>
         </section> --}}
 
+        <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] ">
         <div class="slider owl-carousel">
             <div class="card">
                 <div class="img">
@@ -428,6 +429,7 @@
                 </div>
             </div>
             
+        </div>
         </div>
         <script>
             $(".slider").owlCarousel({
