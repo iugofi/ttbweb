@@ -489,14 +489,14 @@
 
                         <div class="row row-service mt-5" style="display: flex;">
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
-                                <img src="{{asset('assets/img/The-Largest-Business-Expert-Company-icon-1.png')}}" class="img-fluid service-icon p-1">
+                                <img src="{{asset('assets/img/The-Largest-Business-Expert-Company-icon-1.png')}}" class="img-fluid p-1">
                             </div>
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2 pe-3">
                                 <h5 class="dark-text">32+ Year Of</h5>
                                 <p class="text-gray-light">Business Experience</p>
                             </div>
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
-                                <img src="{{asset('assets/img/The-Largest-Business-Expert-Company-icon-2.png')}}" class="img-fluid service-icon p-1">
+                                <img src="{{asset('assets/img/The-Largest-Business-Expert-Company-icon-2.png')}}" class="img-fluid p-1">
                             </div>
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
                                 <h5 class="dark-text">Company Data</h5>
@@ -506,14 +506,14 @@
                         </div>
 						<div class="row row-service mt-5" style="display: flex;">
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
-                                <img src="{{asset('assets/img/The-Largest-Business-Expert-Company-icon-3.png')}}" class="img-fluid service-icon p-1">
+                                <img src="{{asset('assets/img/The-Largest-Business-Expert-Company-icon-3.png')}}" class="img-fluid p-1">
                             </div>
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2 pe-3">
                                 <h5 class="dark-text">Live-Support</h5>
                                 <p class="text-gray-light">Business Experience</p>
                             </div>
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
-                                <img src="{{asset('assets/img/The-Largest-Business-Expert-Company-icon-4.png')}} " class="img-fluid service-icon p-1">
+                                <img src="{{asset('assets/img/The-Largest-Business-Expert-Company-icon-4.png')}} " class="img-fluid p-1">
                             </div>
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
                                 <h5 class="dark-text">Business History</h5>
