@@ -490,21 +490,21 @@
                         <div class="grid grid-col-12 gap-x-6">
                             <div class="row flex gap-8">
                                 <div class="xl:col-grid-6 col-grid-6">
-                                    <i class="fa-solid fa-calendar-days space-x-4 icon-size">
+                                    <i class="fa-solid fa-calendar-days space-x-4 icon-sizes">
                                         <h6 style="font-weight: 700; font-size: 14px;">32+ Year Of</h6>
                                     </i>
                                     <p style="position: relative; left: 26px;">Business Experience</p><br>
-                                    <i class="fa-solid fa-database space-x-4 icon-size">
+                                    <i class="fa-solid fa-database space-x-4 icon-sizes">
                                         <h6 style="font-weight: 700; font-size: 14px;">Company Data</h6>
                                     </i><br>
                                     <p style="position: relative; left: 26px;">Business Experience</p>
                                 </div>
                                 <div class="xl:grid-col-6 col-grid-6">
-                                    <i class="fa-solid fa-headset space-x-4 icon-size">
+                                    <i class="fa-solid fa-headset space-x-4 icon-sizes">
                                         <h6 style="font-weight: 700; font-size: 14px;">Live-Support</h6>
                                     </i>
                                     <p style="position: relative; left: 26px;">Business Experience</p><br>
-                                    <i class="fa-solid fa-business-time space-x-4 icon-size">
+                                    <i class="fa-solid fa-business-time space-x-4 icon-sizes">
                                         <h6 style="font-weight: 700; font-size: 14px;">Business History</h6>
                                     </i><br>
                                     <p style="position: relative; left: 26px;">Business Experience</p>
