@@ -17,7 +17,7 @@
     <meta name="keywords" content="@yield('keywords')">
     <link rel="canonical" href="@yield('canonical')" />
 
-
+    
     <!-- TITLE -->
     <title>@yield('title') </title>
 
