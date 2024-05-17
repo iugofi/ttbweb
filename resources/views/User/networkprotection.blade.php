@@ -334,109 +334,115 @@
             <div class="container text-center">
                 <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">What We Do</span>
                 <h1 class="lg:text-center font-semibold mb-2 text-[2rem]">Solutions Coustomers Have<br>
-                    Boilt With Instabase</h1><br> 
-            
-        <div class="slider owl-carousel">
-            <div class="slide-owl">
-            <div class="card">
-                <div class="img">
-                    <img src="{{ asset('assets/img/The-Best-Business-And-It---Service-Company-4.png') }}" alt=""
-                        class="img-fluid">
-                </div>
-                <div class="content colum-slide">
-                    <div class="title">
-                        Business Offering</div>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil
-                        minus.</p>
-                </div>
-            </div>
-            <i class="bx bx-chevrons-right network-icon"></i>
-            </div>
-            <div class="slide-owl">
-            <div class="card">
-                <div class="img">
-                    <img src="{{ asset('assets/img/The-Best-Business-And-It---Service-Company-2.png') }}" alt=""
-                        class="img-fluid">
-                </div>
-                <div class="content colum-slide">
-                    <div class="title">
-                        Business Offering</div>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil
-                        minus.</p>
-                </div>
-            </div>
-            <i class="bx bx-chevrons-right network-icon"></i>
-            </div>
-            <div class="slide-owl">
-            <div class="card">
-                <div class="img">
-                    <img src="{{ asset('assets/img/The-Best-Business-And-It---Service-Company-3.png') }}" alt=""
-                        class="img-fluid">
-                </div>
-                <div class="content colum-slide">
-                    <div class="title">
-                        Business Offering</div>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil
-                        minus sed unde voluptas cumque.</p>
-                </div>
-            </div>
-            <i class="bx bx-chevrons-right network-icon"></i>
-            </div>
-            <div class="slide-owl">
-            <div class="card">
-                <div class="img">
-                    <img src="{{ asset('assets/img/The-Best-Business-And-It---Service-Company-3.png') }}" alt=""
-                        class="img-fluid">
-                </div>
-                <div class="content colum-slide">
-                    <div class="title">
-                        Business Offering</div>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil
-                        minus sed unde voluptas cumque.</p>
-                </div>
-            </div>
-            <i class="bx bx-chevrons-right network-icon"></i>
-            </div>
-            <div class="slide-owl">
-            <div class="card">
-                <div class="img">
-                    <img src="{{ asset('assets/img/The-Best-Business-And-It---Service-Company-3.png') }}" alt=""
-                        class="img-fluid">
-                </div>
-                <div class="content colum-slide">
-                    <div class="title">
-                        Business Offering</div>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil
-                        minus sed unde voluptas cumque.</p>
+                    Boilt With Instabase</h1><br>
 
+                <div class="slider owl-carousel">
+                    <div class="slide-owl">
+                        <div class="card">
+                            <div class="img">
+                                <img src="{{ asset('assets/img/The-Best-Business-And-It---Service-Company-4.png') }}"
+                                    alt="" class="img-fluid">
+                            </div>
+                            <div class="content colum-slide">
+                                <div class="title">
+                                    Business Offering</div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae
+                                    animi nihil
+                                    minus.</p>
+                            </div>
+                        </div>
+                        <i class="bx bx-chevrons-right network-icon"></i>
+                    </div>
+                    <div class="slide-owl">
+                        <div class="card">
+                            <div class="img">
+                                <img src="{{ asset('assets/img/The-Best-Business-And-It---Service-Company-2.png') }}"
+                                    alt="" class="img-fluid">
+                            </div>
+                            <div class="content colum-slide">
+                                <div class="title">
+                                    Business Offering</div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae
+                                    animi nihil
+                                    minus.</p>
+                            </div>
+                        </div>
+                        <i class="bx bx-chevrons-right network-icon"></i>
+                    </div>
+                    <div class="slide-owl">
+                        <div class="card">
+                            <div class="img">
+                                <img src="{{ asset('assets/img/The-Best-Business-And-It---Service-Company-3.png') }}"
+                                    alt="" class="img-fluid">
+                            </div>
+                            <div class="content colum-slide">
+                                <div class="title">
+                                    Business Offering</div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae
+                                    animi nihil
+                                    minus sed unde voluptas cumque.</p>
+                            </div>
+                        </div>
+                        <i class="bx bx-chevrons-right network-icon"></i>
+                    </div>
+                    <div class="slide-owl">
+                        <div class="card">
+                            <div class="img">
+                                <img src="{{ asset('assets/img/The-Best-Business-And-It---Service-Company-3.png') }}"
+                                    alt="" class="img-fluid">
+                            </div>
+                            <div class="content colum-slide">
+                                <div class="title">
+                                    Business Offering</div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae
+                                    animi nihil
+                                    minus sed unde voluptas cumque.</p>
+                            </div>
+                        </div>
+                        <i class="bx bx-chevrons-right network-icon"></i>
+                    </div>
+                    <div class="slide-owl">
+                        <div class="card">
+                            <div class="img">
+                                <img src="{{ asset('assets/img/The-Best-Business-And-It---Service-Company-3.png') }}"
+                                    alt="" class="img-fluid">
+                            </div>
+                            <div class="content colum-slide">
+                                <div class="title">
+                                    Business Offering</div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae
+                                    animi nihil
+                                    minus sed unde voluptas cumque.</p>
+
+                            </div>
+                        </div>
+                        <i class="bx bx-chevrons-right network-icon"></i>
+                    </div>
+                    <div class="slide-owl">
+                        <div class="card">
+                            <div class="img">
+                                <img src="{{ asset('assets/img/The-Best-Business-And-It---Service-Company-3.png') }}"
+                                    alt="" class="img-fluid">
+                            </div>
+                            <div class="content colum-slide">
+                                <div class="title">
+                                    Business Offering</div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae
+                                    animi nihil
+                                    minus sed unde voluptas cumque.</p>
+                            </div>
+                        </div>
+                        <i class="bx bx-chevrons-right network-icon"></i>
+                    </div>
                 </div>
+
             </div>
-            <i class="bx bx-chevrons-right network-icon"></i>
-            </div>
-            <div class="slide-owl">
-            <div class="card">
-                <div class="img">
-                    <img src="{{ asset('assets/img/The-Best-Business-And-It---Service-Company-3.png') }}" alt=""
-                        class="img-fluid">
-                </div> 
-                <div class="content colum-slide">
-                    <div class="title">
-                        Business Offering</div>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil
-                        minus sed unde voluptas cumque.</p>
-                </div>
-            </div>
-            <i class="bx bx-chevrons-right network-icon"></i>
-            </div>
-        </div>
-            
-        </div>
         </div>
         <script>
             $(".slider").owlCarousel({
@@ -469,7 +475,8 @@
         <!-- Start:: network protection section five -->
         <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] ">
             <div class="container main-banner-container">
-                <div class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
+                <div
+                    class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 pt-5 pb-0 lg:px-2 !text-start  my-auto">
                         <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">About Our
                             Company</span>
@@ -483,21 +490,21 @@
                         <div class="grid grid-col-12 gap-x-6">
                             <div class="row flex gap-8">
                                 <div class="xl:col-grid-6 col-grid-6">
-                                    <i class="fa-solid fa-angles-right space-x-4 icon-size">
+                                    <i class="fa-solid fa-calendar-days space-x-4 icon-size">
                                         <h6 style="font-weight: 700; font-size: 14px;">32+ Year Of</h6>
                                     </i>
                                     <p style="position: relative; left: 26px;">Business Experience</p><br>
-                                    <i class="fa-solid fa-angles-right space-x-4 icon-size">
+                                    <i class="fa-solid fa-headset space-x-4 icon-size">
                                         <h6 style="font-weight: 700; font-size: 14px;">Company Data</h6>
                                     </i><br>
                                     <p style="position: relative; left: 26px;">Business Experience</p>
                                 </div>
                                 <div class="xl:grid-col-6 col-grid-6">
-                                    <i class="fa-solid fa-angles-right space-x-4 icon-size">
+                                    <i class="fa-solid fa-database space-x-4 icon-size">
                                         <h6 style="font-weight: 700; font-size: 14px;">Live-Support</h6>
                                     </i>
                                     <p style="position: relative; left: 26px;">Business Experience</p><br>
-                                    <i class="fa-solid fa-angles-right space-x-4 icon-size">
+                                    <i class="fa-solid fa-business-time space-x-4 icon-size">
                                         <h6 style="font-weight: 700; font-size: 14px;">Business History</h6>
                                     </i><br>
                                     <p style="position: relative; left: 26px;">Business Experience</p>
