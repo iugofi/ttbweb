@@ -492,17 +492,15 @@
                                 <img src="assets/img/Best-Services-Iocn-1.png" class="img-fluid service-icon p-1">
                             </div>
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
-                                <h5 class="dark-text">Best Services</h5>
-                                <p class="text-gray-light">Lorem ipsum dolor sit amet, eiusmod
-                                    tempor.</p>
+                                <h5 class="dark-text">32+ Year Of</h5>
+                                <p class="text-gray-light">Business Experience</p>
                             </div>
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
                                 <img src="assets/img/Best-Services-Iocn-2.png " class="img-fluid service-icon p-1">
                             </div>
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
-                                <h5 class="dark-text">Support 24/7</h5>
-                                <p class="text-gray-light">Lorem ipsum dolor sit amet, eiusmod
-                                    tempor.</p>
+                                <h5 class="dark-text">Company Data</h5>
+                                <p class="text-gray-light">Business Experience</p>
                             </div>
 
                         </div>
@@ -511,20 +509,19 @@
                                 <img src="assets/img/Best-Services-Iocn-1.png" class="img-fluid service-icon p-1">
                             </div>
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
-                                <h5 class="dark-text">Best Services</h5>
-                                <p class="text-gray-light">Lorem ipsum dolor sit amet, eiusmod
-                                    tempor.</p>
+                                <h5 class="dark-text">Live-Support</h5>
+                                <p class="text-gray-light">Business Experience</p>
                             </div>
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
                                 <img src="assets/img/Best-Services-Iocn-2.png " class="img-fluid service-icon p-1">
                             </div>
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
-                                <h5 class="dark-text">Support 24/7</h5>
-                                <p class="text-gray-light">Lorem ipsum dolor sit amet, eiusmod
-                                    tempor.</p>
+                                <h5 class="dark-text">Business History</h5>
+                                <p class="text-gray-light">Business Experience</p>
                             </div>
 
                         </div>
+						
                     </div>
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6  customize-image text-center">
                         <div class="lg:text-start !flex items-center lg:justify-start justify-center">
