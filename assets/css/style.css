@@ -43807,7 +43807,25 @@ h6.uppercase {
 .content.colum-slide {
     margin-top: 0rem !important;
 }
-
+.content.colum-slide:hover::before {
+    content: "";
+    width: 95%;
+    height: 100%;
+    border-radius: 0px;
+    z-index: 1;
+    background: #12D2B3;
+}
+.content.colum-slide:before {
+    background: #12D2B3;
+    position: absolute;
+    left: 10px;
+    top: 12.5rem;
+    width: 2px;
+    height: 100%;
+    content: "";
+    z-index: -1;
+    transition: .5s;
+}
 
 /* End network protection slider desktop css */
 
