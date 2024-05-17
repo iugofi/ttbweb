@@ -344,8 +344,8 @@
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil
                         minus.</p>
                 </div>
-                <i class="bx bx-chevrons-right network-icon"></i>
             </div>
+            <i class="bx bx-chevrons-right network-icon"></i>
             <div class="card">
                 <div class="img">
                     <img src="{{ asset('assets/img/The-Best-Business-And-It---Service-Company-2.png') }}" alt=""
@@ -358,8 +358,8 @@
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil
                         minus.</p>
                 </div>
-                <i class="bx bx-chevrons-right network-icon"></i>
             </div>
+            <i class="bx bx-chevrons-right network-icon"></i>
             <div class="card">
                 <div class="img">
                     <img src="{{ asset('assets/img/The-Best-Business-And-It---Service-Company-3.png') }}" alt=""
@@ -372,8 +372,8 @@
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil
                         minus sed unde voluptas cumque.</p>
                 </div>
-                <i class="bx bx-chevrons-right network-icon"></i>
             </div>
+            <i class="bx bx-chevrons-right network-icon"></i>
             <div class="card">
                 <div class="img">
                     <img src="{{ asset('assets/img/The-Best-Business-And-It---Service-Company-3.png') }}" alt=""
@@ -386,8 +386,8 @@
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil
                         minus sed unde voluptas cumque.</p>
                 </div>
-                <i class="bx bx-chevrons-right network-icon"></i>
             </div>
+            <i class="bx bx-chevrons-right network-icon"></i>
             <div class="card">
                 <div class="img">
                     <img src="{{ asset('assets/img/The-Best-Business-And-It---Service-Company-3.png') }}" alt=""
@@ -401,8 +401,8 @@
                         minus sed unde voluptas cumque.</p>
 
                 </div>
-                <i class="bx bx-chevrons-right network-icon"></i> 
             </div>
+            <i class="bx bx-chevrons-right network-icon"></i>
             <div class="card">
                 <div class="img">
                     <img src="{{ asset('assets/img/The-Best-Business-And-It---Service-Company-3.png') }}" alt=""
@@ -415,8 +415,8 @@
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil
                         minus sed unde voluptas cumque.</p>
                 </div>
-                <i class="bx bx-chevrons-right network-icon"></i>
             </div>
+            <i class="bx bx-chevrons-right network-icon"></i>
             
         </div>
         </div>
