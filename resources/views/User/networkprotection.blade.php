@@ -343,9 +343,6 @@
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil
                         minus.</p>
-                    <div class="btn">
-                        <button>Read more</button>
-                    </div>
                 </div>
             </div>
             <div class="card">
@@ -359,9 +356,6 @@
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil
                         minus.</p>
-                    <div class="btn">
-                        <button>Read more</button>
-                    </div>
                 </div>
             </div>
             <div class="card">
@@ -375,9 +369,6 @@
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil
                         minus sed unde voluptas cumque.</p>
-                    <div class="btn">
-                        <button>Read more</button>
-                    </div>
                 </div>
             </div>
             <div class="card">
@@ -391,9 +382,6 @@
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil
                         minus sed unde voluptas cumque.</p>
-                    <div class="btn">
-                        <button>Read more</button>
-                    </div>
                 </div>
             </div>
             <div class="card">
@@ -407,9 +395,7 @@
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil
                         minus sed unde voluptas cumque.</p>
-                    <div class="btn">
-                        <button>Read more</button>
-                    </div>
+
                 </div>
             </div>
             <div class="card">
@@ -423,9 +409,6 @@
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil
                         minus sed unde voluptas cumque.</p>
-                    <div class="btn">
-                        <button>Read more</button>
-                    </div>
                 </div>
             </div>
             
