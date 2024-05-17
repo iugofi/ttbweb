@@ -568,6 +568,7 @@
                                     tempor. Lorem ipsum dolor sit amet, eiusmod tempor.</p>
                             </div>
                         </div>
+                        <hr>
                         <div class="grid grid-rows-2 grid-flow-col pt-4 gap-1">
                             <div class="row-span-3"><img src="assets/img/Best-Services-Iocn-2.png "
                                     class="img-fluid !inline-flex backimage"></div>
@@ -580,9 +581,9 @@
                             </div>
                         </div>
 
-                        <div class="action-btns mt-4">
+                        {{-- <div class="action-btns mt-4">
                             <a href="#" class="ti-btn bg-primary text-white">Explore More Us</a>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>
