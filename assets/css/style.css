@@ -43812,7 +43812,7 @@ h6.uppercase {
 .content.colum-slide:hover::before {
     content: "";
     width: 95%;
-    height: 100%;
+    height: 43%;
     border-radius: 0px;
     z-index: 2;
     background: #12D2B3;
