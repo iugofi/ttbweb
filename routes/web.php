@@ -154,7 +154,7 @@ Route::get('/logoutadmin', [UserController::class, 'logoutadmin'])->name('admin.
 //mail testing
 Route::get('/mailtest', [UserController::class, 'mailtest'])->name('admin.mailtest');
 
-
+Route::prefix('admin')->group(function () {
 //Admin Controller
 Route::get('/pageadmin', [AdminController::class, 'indexpage'])->name('admin.indexp');
 Route::get('/newslist', [AdminController::class, 'newslist'])->name('admin.newslist');
@@ -194,7 +194,7 @@ Route::get('/fatchadmindataajax', [AdminController::class, 'fatchadmindataajax']
 
 
 
-
+});
 
 
 
