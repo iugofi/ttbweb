@@ -763,9 +763,9 @@
                                                                                                 class="ri-delete-bin-5-line"></i></button>
                                                                                     </td>
                                                                                 </tr>
-                                                                               @endif
+                                                                               
                                                                             @endforeach
-
+                                                                            @endif
 
                                                                         </tbody>
                                                                     </table>
