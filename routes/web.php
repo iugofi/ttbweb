@@ -148,7 +148,6 @@ Route::post('/signdataadmin', [UserController::class, 'signdataadmin'])->name('a
 
 
 //auth Admin Login Page
-Route::get('/pageadmin', [AdminController::class, 'indexpage'])->name('admin.indexp');
 Route::get('/logoutadmin', [UserController::class, 'logoutadmin'])->name('admin.logout');
 
 
@@ -157,9 +156,8 @@ Route::get('/mailtest', [UserController::class, 'mailtest'])->name('admin.mailte
 
 
 //Admin Controller
+Route::get('/pageadmin', [AdminController::class, 'indexpage'])->name('admin.indexp');
 Route::get('/newslist', [AdminController::class, 'newslist'])->name('admin.newslist');
-
-
 //admin news
 Route::get('/newscreate', [AdminController::class, 'newscreate'])->name('admin.newscreate');
 Route::get('/newslistshow', [AdminController::class, 'newslistshow'])->name('admin.newslistshow');
