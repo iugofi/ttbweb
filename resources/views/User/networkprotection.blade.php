@@ -491,7 +491,7 @@
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
                                 <img src="assets/img/Best-Services-Iocn-1.png" class="img-fluid service-icon p-1">
                             </div>
-                            <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2 px-2">
+                            <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2 pe-3">
                                 <h5 class="dark-text">32+ Year Of</h5>
                                 <p class="text-gray-light">Business Experience</p>
                             </div>
@@ -508,7 +508,7 @@
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
                                 <img src="assets/img/Best-Services-Iocn-1.png" class="img-fluid service-icon p-1">
                             </div>
-                            <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2 px-2">
+                            <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2 pe-3">
                                 <h5 class="dark-text">Live-Support</h5>
                                 <p class="text-gray-light">Business Experience</p>
                             </div>
