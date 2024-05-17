@@ -473,8 +473,8 @@
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 pt-5 pb-0 lg:px-2 !text-start  my-auto">
                         <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">About Our
                             Company</span>
-                        <h2 class="lg:text-start font-semibold mb-2 pt-5 text-[2rem]">Lorem ipsum dolor sit amet consectetur
-                            Eveniet, explicabo?</h2>
+                        <h2 class="lg:text-start font-semibold mb-2 pt-5 text-[2rem]">The Largest Business Expert<br>
+                            Company!</h2>
                         <p class=" text-[0.9rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
                             value with diverse web-readiness. Collaboratively transition wireless customer service without
                             goal-oriented catalysts for change. Collaboratively.
@@ -484,27 +484,23 @@
                             <div class="row flex gap-8">
                                 <div class="xl:col-grid-6 col-grid-6">
                                     <i class="fa-solid fa-angles-right space-x-4 icon-size">
-                                        <h6 style="font-weight: 700; font-size: 14px;">With supporting
-                                            natural lead</h6>
+                                        <h6 style="font-weight: 700; font-size: 14px;">32+ Year Of</h6>
                                     </i>
-                                    <p>customer service without goal-oriented catalysts for change</p><br>
+                                    <p class="conts">Business Experience</p><br>
                                     <i class="fa-solid fa-angles-right space-x-4 icon-size">
-                                        <h6 style="font-weight: 700; font-size: 14px;">With supporting
-                                            natural lead</h6>
+                                        <h6 style="font-weight: 700; font-size: 14px;">Company Data</h6>
                                     </i><br>
-                                    <p>customer service without goal-oriented catalysts for change</p>
+                                    <p>Business Experience</p>
                                 </div>
                                 <div class="xl:grid-col-6 col-grid-6">
                                     <i class="fa-solid fa-angles-right space-x-4 icon-size">
-                                        <h6 style="font-weight: 700; font-size: 14px;">With supporting
-                                            natural lead</h6>
+                                        <h6 style="font-weight: 700; font-size: 14px;">Live-Support</h6>
                                     </i>
-                                    <p>customer service without goal-oriented catalysts for change</p><br>
+                                    <p class="conts">customer service without goal-oriented catalysts for change</p><br>
                                     <i class="fa-solid fa-angles-right space-x-4 icon-size">
-                                        <h6 style="font-weight: 700; font-size: 14px;">With supporting
-                                            natural lead</h6>
+                                        <h6 style="font-weight: 700; font-size: 14px;">Business History</h6>
                                     </i><br>
-                                    <p>customer service without goal-oriented catalysts for change</p>
+                                    <p class="conts">Business Experience</p>
                                 </div>
                             </div><br><br>
                             <a href="index.html" class="ti-btn bg-primary text-white" style="width:26%;">
