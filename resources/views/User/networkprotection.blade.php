@@ -473,7 +473,7 @@
 
 
         <!-- Start:: network protection section five -->
-        <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]" style="padding-top: 0px !important">
+        <div class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70" style="padding-top: 0px !important">
             <div class="container main-banner-container">
                 <div
                     class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
