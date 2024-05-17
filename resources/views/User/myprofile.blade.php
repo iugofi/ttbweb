@@ -651,6 +651,7 @@
                                                                     <table id="example" class="table-auto w-full">
                                                                         <thead>
                                                                             <tr>
+                                                                                <th class="px-4 py-2">Product Id</th>
                                                                                 <th class="px-4 py-2">Product</th>
                                                                                 <th class="px-4 py-2">Invoice ID</th>
                                                                                 <th class="px-4 py-2">Issued Date</th>
