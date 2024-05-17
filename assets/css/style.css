@@ -43827,7 +43827,11 @@ h6.uppercase {
     z-index: 1;
     transition: .5s;
 }
-
+.content.colum-slide .title:hover {
+    color: #fff;
+    z-index: 2;
+    position: relative;
+}
 /* End network protection slider desktop css */
 
 /* End network protection page css */
