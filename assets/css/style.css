@@ -43841,6 +43841,28 @@ h6.uppercase {
 .owl-stage-outer .card {
     box-shadow: 0px 0px 12px -8px #010101;
 }
+.network-icon {
+    background: #12D2B3;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    color: #fff;
+    bottom: 25px;
+    z-index: 4;
+    font-size: 26px;
+    border-radius: 26px;
+}
+
+
+
+
+
+
+
 /* End network protection slider desktop css */
 
 /* End network protection page css */

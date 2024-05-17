@@ -344,6 +344,7 @@
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil
                         minus.</p>
                 </div>
+                <i class="bx bx-chevrons-right network-icon"></i>
             </div>
             <div class="card">
                 <div class="img">
@@ -357,6 +358,7 @@
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil
                         minus.</p>
                 </div>
+                <i class="bx bx-chevrons-right network-icon"></i>
             </div>
             <div class="card">
                 <div class="img">
@@ -370,6 +372,7 @@
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil
                         minus sed unde voluptas cumque.</p>
                 </div>
+                <i class="bx bx-chevrons-right network-icon"></i>
             </div>
             <div class="card">
                 <div class="img">
@@ -383,6 +386,7 @@
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil
                         minus sed unde voluptas cumque.</p>
                 </div>
+                <i class="bx bx-chevrons-right network-icon"></i>
             </div>
             <div class="card">
                 <div class="img">
@@ -397,6 +401,7 @@
                         minus sed unde voluptas cumque.</p>
 
                 </div>
+                <i class="bx bx-chevrons-right network-icon"></i>
             </div>
             <div class="card">
                 <div class="img">
@@ -410,6 +415,7 @@
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil
                         minus sed unde voluptas cumque.</p>
                 </div>
+                <i class="bx bx-chevrons-right network-icon"></i>
             </div>
             
         </div>
