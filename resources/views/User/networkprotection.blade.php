@@ -415,7 +415,7 @@
                 <div class="img">
                     <img src="{{ asset('assets/img/The-Best-Business-And-It---Service-Company-3.png') }}" alt=""
                         class="img-fluid">
-                </div>
+                </div> 
                 <div class="content colum-slide">
                     <div class="title">
                         Business Offering</div>
