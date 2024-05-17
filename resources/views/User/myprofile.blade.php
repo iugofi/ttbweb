@@ -666,6 +666,11 @@
                                                                             </tr>
                                                                         </thead>
                                                                         <tbody>
+                                                                        @if($productdetails->isEmpty())
+                                                                            <tr>
+                                                                                <td colspan="7" class="text-center">No product details found.</td>
+                                                                            </tr>
+                                                                        @else
                                                                             @foreach ($productdetails as $productdetails_list)
                                                                                 <tr
                                                                                     class="invoice-list border border-defaultborder dark:border-defaultborder/10">
@@ -758,6 +763,7 @@
                                                                                                 class="ri-delete-bin-5-line"></i></button>
                                                                                     </td>
                                                                                 </tr>
+                                                                               @endif
                                                                             @endforeach
 
 
