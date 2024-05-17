@@ -655,6 +655,7 @@
                                                                         <thead>
                                                                             <tr>
                                                                                 <th class="px-4 py-2">Product Id</th>
+                                                                                <th class="px-4 py-2">Product Name</th>
                                                                                 <th class="px-4 py-2">Product</th>
                                                                                 <th class="px-4 py-2">Invoice ID</th>
                                                                                 <th class="px-4 py-2">Issued Date</th>
@@ -670,6 +671,22 @@
                                                                                         $id = 1;
                                                                                     @endphp
                                                                                     <td class="border px-4 py-2">{{ $key + 1 }}</td>
+                                                                                    <td class="border px-4 py-2">@php
+                                                                                        $product_name = DB::table('storepick')
+                                                                                            ->select('*')
+                                                                                            ->where(
+                                                                                                'PICK_ID',
+                                                                                                $item->key_type,
+                                                                                            )
+                                                                                            ->where('STORE_ID', 'key_type')
+                                                                                            ->first();
+                                                                                    @endphp
+                                                                                        @if ($product_name)
+                                                                                            {{ $product_name->PICK_TEXT }}
+                                                                                        @else
+                                                                                            No product found.
+                                                                                        @endif
+        </td>
                                                                                     <td class="border px-4 py-2">
                                                                                         <div class="flex items-center font-semibold">
                                                                                             <span class="!me-2 inline-flex justify-center items-center">
