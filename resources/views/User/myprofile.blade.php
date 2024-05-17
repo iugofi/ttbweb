@@ -11,6 +11,9 @@
         body {
             background-color: rgb(var(--body-bg));
         }
+        div#example_length {
+            display: none;
+        }
     </style>
 
 
