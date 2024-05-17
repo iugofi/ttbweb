@@ -43767,6 +43767,7 @@ h6.uppercase {
   }
   .slider .card .content{
     padding: 30px 20px;
+    min-height: 100% !important;
   }
   .card .content .title{
     font-size: 25px;
