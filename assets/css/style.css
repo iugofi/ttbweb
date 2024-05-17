@@ -43837,7 +43837,9 @@ h6.uppercase {
     z-index: 2;
     position: relative;
 }
-
+.owl-stage-outer .card {
+    box-shadow: 0px 0px 12px -8px #010101;
+}
 /* End network protection slider desktop css */
 
 /* End network protection page css */
