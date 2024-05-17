@@ -487,32 +487,43 @@
                             goal-oriented catalysts for change. Collaboratively.
                         </p>
 
-                        <div class="grid grid-col-12 gap-x-6">
-                            <div class="row flex gap-8">
-                                <div class="xl:col-grid-6 col-grid-6">
-                                    <i class="fa-solid fa-calendar-days space-x-4 icon-sizes">
-                                        <h6 style="font-weight: 700; font-size: 14px;">32+ Year Of</h6>
-                                    </i>
-                                    <p style="position: relative; left: 26px;">Business Experience</p><br>
-                                    <i class="fa-solid fa-database space-x-4 icon-sizes">
-                                        <h6 style="font-weight: 700; font-size: 14px;">Company Data</h6>
-                                    </i><br>
-                                    <p style="position: relative; left: 26px;">Business Experience</p>
-                                </div>
-                                <div class="xl:grid-col-6 col-grid-6">
-                                    <i class="fa-solid fa-headset space-x-4 icon-sizes">
-                                        <h6 style="font-weight: 700; font-size: 14px;">Live-Support</h6>
-                                    </i>
-                                    <p style="position: relative; left: 26px;">Business Experience</p><br>
-                                    <i class="fa-solid fa-business-time space-x-4 icon-sizes">
-                                        <h6 style="font-weight: 700; font-size: 14px;">Business History</h6>
-                                    </i><br>
-                                    <p style="position: relative; left: 26px;">Business Experience</p>
-                                </div>
-                            </div><br><br>
-                            <a href="index.html" class="ti-btn bg-primary text-white" style="width:26%;">
-                                About More
-                            </a>
+                        <div class="row row-service mt-5" style="display: flex;">
+                            <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
+                                <img src="assets/img/Best-Services-Iocn-1.png" class="img-fluid service-icon p-1">
+                            </div>
+                            <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
+                                <h5 class="dark-text">Best Services</h5>
+                                <p class="text-gray-light">Lorem ipsum dolor sit amet, eiusmod
+                                    tempor.</p>
+                            </div>
+                            <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
+                                <img src="assets/img/Best-Services-Iocn-2.png " class="img-fluid service-icon p-1">
+                            </div>
+                            <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
+                                <h5 class="dark-text">Support 24/7</h5>
+                                <p class="text-gray-light">Lorem ipsum dolor sit amet, eiusmod
+                                    tempor.</p>
+                            </div>
+
+                        </div>
+						<div class="row row-service mt-5" style="display: flex;">
+                            <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
+                                <img src="assets/img/Best-Services-Iocn-1.png" class="img-fluid service-icon p-1">
+                            </div>
+                            <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
+                                <h5 class="dark-text">Best Services</h5>
+                                <p class="text-gray-light">Lorem ipsum dolor sit amet, eiusmod
+                                    tempor.</p>
+                            </div>
+                            <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
+                                <img src="assets/img/Best-Services-Iocn-2.png " class="img-fluid service-icon p-1">
+                            </div>
+                            <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
+                                <h5 class="dark-text">Support 24/7</h5>
+                                <p class="text-gray-light">Lorem ipsum dolor sit amet, eiusmod
+                                    tempor.</p>
+                            </div>
+
                         </div>
                     </div>
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6  customize-image text-center">
