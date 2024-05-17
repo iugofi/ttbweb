@@ -486,21 +486,21 @@
                                     <i class="fa-solid fa-angles-right space-x-4 icon-size">
                                         <h6 style="font-weight: 700; font-size: 14px;">32+ Year Of</h6>
                                     </i>
-                                    <p class="conts">Business Experience</p><br>
+                                    <p style="position: relative; left: 26px;">Business Experience</p><br>
                                     <i class="fa-solid fa-angles-right space-x-4 icon-size">
                                         <h6 style="font-weight: 700; font-size: 14px;">Company Data</h6>
                                     </i><br>
-                                    <p>Business Experience</p>
+                                    <p style="position: relative; left: 26px;">Business Experience</p>
                                 </div>
                                 <div class="xl:grid-col-6 col-grid-6">
                                     <i class="fa-solid fa-angles-right space-x-4 icon-size">
                                         <h6 style="font-weight: 700; font-size: 14px;">Live-Support</h6>
                                     </i>
-                                    <p class="conts">Business Experience</p><br>
+                                    <p style="position: relative; left: 26px;">Business Experience</p><br>
                                     <i class="fa-solid fa-angles-right space-x-4 icon-size">
                                         <h6 style="font-weight: 700; font-size: 14px;">Business History</h6>
                                     </i><br>
-                                    <p class="conts">Business Experience</p>
+                                    <p style="position: relative; left: 26px;">Business Experience</p>
                                 </div>
                             </div><br><br>
                             <a href="index.html" class="ti-btn bg-primary text-white" style="width:26%;">
