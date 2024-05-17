@@ -496,7 +496,7 @@
                                     <i class="fa-solid fa-angles-right space-x-4 icon-size">
                                         <h6 style="font-weight: 700; font-size: 14px;">Live-Support</h6>
                                     </i>
-                                    <p class="conts">customer service without goal-oriented catalysts for change</p><br>
+                                    <p class="conts">Business Experience</p><br>
                                     <i class="fa-solid fa-angles-right space-x-4 icon-size">
                                         <h6 style="font-weight: 700; font-size: 14px;">Business History</h6>
                                     </i><br>
