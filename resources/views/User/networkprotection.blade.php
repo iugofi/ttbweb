@@ -330,6 +330,7 @@
             </div>
         </section> --}}
 
+        <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] ">
         <div class="slider owl-carousel">
             <div class="card">
                 <div class="img">
@@ -415,7 +416,7 @@
                 <div class="img">
                     <img src="{{ asset('assets/img/The-Best-Business-And-It---Service-Company-3.png') }}" alt=""
                         class="img-fluid">
-                </div>
+                </div> 
                 <div class="content colum-slide">
                     <div class="title">
                         Business Offering</div>
@@ -428,6 +429,7 @@
                 </div>
             </div>
             
+        </div>
         </div>
         <script>
             $(".slider").owlCarousel({
