@@ -43809,7 +43809,7 @@ h6.uppercase {
 .content.colum-slide {
     margin-top: 0rem !important;
 }
-.content.colum-slide:hover::before {
+.slide-owl .content.colum-slide:hover::before {
     content: "";
     width: 95%;
     height: 43%;
@@ -43817,7 +43817,7 @@ h6.uppercase {
     z-index: 2;
     background: #12D2B3;
 }
-.content.colum-slide:before {
+.slide-owl .content.colum-slide:before {
     background: #12D2B3;
     position: absolute;
     left: 10px;
