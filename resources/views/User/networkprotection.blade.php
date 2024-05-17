@@ -548,9 +548,9 @@
                         </div> --}}
                     </div>
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 pt-5 pb-0 lg:px-2 !text-start  my-auto">
-                        <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">What We Do</span>
-                        <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">We Provide Web Design
-                            With App Development</h4>
+                        <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">About Your Company</span>
+                        <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">The Largest Business Expert<br>
+                            Company!</h4>
                         <p class=" text-[0.9rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
                             value with diverse web-readiness. Collaboratively transition wireless customer service without
                             goal-oriented catalysts for change. Collaboratively.
@@ -568,7 +568,7 @@
                                     tempor. Lorem ipsum dolor sit amet, eiusmod tempor.</p>
                             </div>
                         </div>
-                        <hr>
+                        <hr style="width:94%">
                         <div class="grid grid-rows-2 grid-flow-col pt-4 gap-1">
                             <div class="row-span-3"><img src="assets/img/Best-Services-Iocn-2.png "
                                     class="img-fluid !inline-flex backimage"></div>
