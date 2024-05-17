@@ -331,9 +331,11 @@
         </section> --}}
 
         <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] ">
-            <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">Our Best Service</span>
-            <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">The Best Business And It -<br>
-                Service Company!</h4>
+            <div class="container text-center">
+                <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">What We Do</span>
+                <h1 class="lg:text-center font-semibold mb-2 text-[2rem]">Solutions Coustomers Have<br>
+                    Boilt With Instabase</h1><br> 
+            </div>
         <div class="slider owl-carousel">
             <div class="slide-owl">
             <div class="card">
