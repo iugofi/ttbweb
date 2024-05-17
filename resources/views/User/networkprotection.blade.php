@@ -446,9 +446,6 @@
                 autoplayHoverPause: true,
             });
         </script>
-
-
-
         <!-- Link Swiper JS -->
         <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
         <!-- Initialize Swiper -->
@@ -466,10 +463,77 @@
                 },
             });
         </script>
-
-
-
         <!-- End:: network protection section four -->
+
+
+        <!-- Start:: network protection section five -->
+        <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] ">
+            <div class="container main-banner-container">
+                <div class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 pt-5 pb-0 lg:px-2 !text-start  my-auto">
+                        <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">About Our
+                            Company</span>
+                        <h2 class="lg:text-start font-semibold mb-2 pt-5 text-[2rem]">Lorem ipsum dolor sit amet consectetur
+                            Eveniet, explicabo?</h2>
+                        <p class=" text-[0.9rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
+                            value with diverse web-readiness. Collaboratively transition wireless customer service without
+                            goal-oriented catalysts for change. Collaboratively.
+                        </p>
+
+                        <div class="grid grid-col-12 gap-x-6">
+                            <div class="row flex gap-8">
+                                <div class="xl:col-grid-6 col-grid-6">
+                                    <i class="fa-solid fa-angles-right space-x-4 icon-size">
+                                        <h6 style="font-weight: 700; font-size: 14px;">With supporting
+                                            natural lead</h6>
+                                    </i>
+                                    <p>customer service without goal-oriented catalysts for change</p><br>
+                                    <i class="fa-solid fa-angles-right space-x-4 icon-size">
+                                        <h6 style="font-weight: 700; font-size: 14px;">With supporting
+                                            natural lead</h6>
+                                    </i><br>
+                                    <p>customer service without goal-oriented catalysts for change</p>
+                                </div>
+                                <div class="xl:grid-col-6 col-grid-6">
+                                    <i class="fa-solid fa-angles-right space-x-4 icon-size">
+                                        <h6 style="font-weight: 700; font-size: 14px;">With supporting
+                                            natural lead</h6>
+                                    </i>
+                                    <p>customer service without goal-oriented catalysts for change</p><br>
+                                    <i class="fa-solid fa-angles-right space-x-4 icon-size">
+                                        <h6 style="font-weight: 700; font-size: 14px;">With supporting
+                                            natural lead</h6>
+                                    </i><br>
+                                    <p>customer service without goal-oriented catalysts for change</p>
+                                </div>
+                            </div><br><br>
+                            <a href="index.html" class="ti-btn bg-primary text-white" style="width:26%;">
+                                About More
+                            </a>
+                        </div>
+                    </div>
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6  customize-image text-center">
+                        <div class="lg:text-start !flex items-center lg:justify-start justify-center">
+                            <img src="{{ asset('assets/img/The-Largest-Business-Expert-Company.png') }}" alt=""
+                                class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End:: network protection section five -->
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
