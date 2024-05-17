@@ -699,7 +699,7 @@
                                                                                             <a aria-label="anchor"
                                                                                                 href="{{ route('edit.blogedit', \Crypt::encrypt($item->id)) }}"
                                                                                                 class="ti-btn ti-btn-icon ti-btn-wave !gap-0 !m-0 !h-[1.75rem] !w-[1.75rem] text-[0.8rem] bg-primary/10 text-primary hover:bg-primary hover:text-white hover:border-primary">
-                                                                                                <i class="ri-edit-line"></i>
+                                                                                                <i class="ri-printer-line"></i>
                                                                                             </a>
                                                                                             <button aria-label="button" type="button"
                                                                                                 class="ti-btn !py-1 !px-2 !text-[0.75rem] ti-btn-danger-full btn-wave delete-blogs"
