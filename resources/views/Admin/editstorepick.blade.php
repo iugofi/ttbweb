@@ -57,6 +57,7 @@
 
                                     <div class="xl:col-span-12 col-span-12">
                                         <label for="STORE ID" class="form-label">STORE NAME</label>
+                                        <input type="text" name="main_id" value="{{ isset($editstorepick->id) ? $editstorepick->id : '' }}" hidden>
                                         <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
                                             id="STORE_ID" name="STORE_ID"  value="{{ isset($editstorepick->STORE_ID) ? $editstorepick->STORE_ID : '' }}" placeholder="STORE NAME">
                                         <div class="invalid-feedback"></div>
