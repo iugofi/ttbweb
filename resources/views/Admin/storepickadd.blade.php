@@ -96,7 +96,7 @@
                             <div class="box-footer">
                                 <div class="text-end">
                                     {{-- <button type="button" class="ti-btn !py-1 !px-2 ti-btn-light !text-[0.75rem] !font-medium me-2">Save As Draft</button> --}}
-                                    <input type="submit" value="Post blog" id="storepick_save_btn"
+                                    <input type="submit" value="STOREPICK ADD" id="storepick_save_btn"
                                         class="ti-btn bg-primary text-white !py-1 !px-2 !text-[0.75rem] !font-medium">
                                 </div>
                             </div>
