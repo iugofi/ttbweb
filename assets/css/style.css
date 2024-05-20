@@ -42489,6 +42489,11 @@ img.img-fluid.service-icon {
 .threat-banner-top{
   padding: 170px 0px;
 }
+.threat-banner-top h2{
+    font-size: 5em;
+    font-weight: 700;
+  }
+  
 
 .Phishing-section-four .icon-box-left {
     padding: 16px;
