@@ -627,6 +627,8 @@
                 gap: 10px;
                 padding: 10px;
                 scroll-behavior: smooth;
+                width: 80%;
+                margin: auto;
             }
 
             .carousel::-webkit-scrollbar {
@@ -634,15 +636,15 @@
             }
 
             /* .carousel-item {
-                min-width: 300px;
-                flex: 0 0 auto;
-                scroll-snap-align: start;
-                background: #f1f1f1;
-                border: 1px solid #ccc;
-                border-radius: 8px;
-                padding: 20px;
-                text-align: center;
-            } */
+                    min-width: 300px;
+                    flex: 0 0 auto;
+                    scroll-snap-align: start;
+                    background: #f1f1f1;
+                    border: 1px solid #ccc;
+                    border-radius: 8px;
+                    padding: 20px;
+                    text-align: center;
+                } */
             .carousel-item {
                 min-width: 0px;
                 flex: 0 0 33.111%;
