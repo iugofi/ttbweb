@@ -646,16 +646,17 @@
                     text-align: center;
                 } */
             .carousel-item {
-                min-width: 0px;
+                min-width: 300px;
                 flex: 0 0 33.111%;
                 scroll-snap-align: start;
-                background: #f1f1f1;
-                border: 1px solid #ccc;
+                background: #ffffff;
+                /* border: 1px solid #ccc; */
                 border-radius: 8px;
                 padding: 20px;
                 text-align: center;
                 margin: auto;
                 overflow: hidden;
+                box-shadow: 0px 0px 9px -5px #00000061
             }
 
             .carousel-item img {
