@@ -656,7 +656,7 @@
                 text-align: center;
                 margin: auto;
                 overflow: hidden;
-                box-shadow: 0px 0px 10px 1px #fdfdfde5
+                box-shadow: 0px 0px 9px -5px #00000061
             }
 
             .carousel-item img {
