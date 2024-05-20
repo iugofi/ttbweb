@@ -48,8 +48,8 @@
                         at, laborum eligendi necessitatibus est?</p>
                         <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa asperiores quaerat, quia saepe
                             consequuntur laudantium, cum at expedita eligendi perferendis amet fugiat.</p>
-                          <a class=""><i class="fas fa-angle-double-right"></i> Us</a>
-                          <a class="">Our Services <i class="fas fa-angle-double-right"></i></a>
+                          <a class="btn-cnt">Contact Us<i class="fas fa-angle-double-right"></i></a>
+                          <a class="btn-srv">Our Services <i class="fas fa-angle-double-right"></i></a>
                     </div>
             </div>
         </div>
