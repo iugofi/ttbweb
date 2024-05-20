@@ -42500,6 +42500,13 @@ img.img-fluid.service-icon {
 .threat-section-two h3 {
     font-size: 32px;
 }
+.threat-section-two hr {
+    border-bottom: 1px solid #e7f1fa;
+    width: 54%;
+    margin-top: 15px;
+    margin-left: 10px;
+
+}
 .threat-section-two h5 {
     font-weight: 600;
     font-size: 18px;
