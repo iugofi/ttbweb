@@ -618,48 +618,49 @@
 ------------
 
 
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Carousel</title>
+    <title>Owl Carousel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
+        /* Basic reset and styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body {
             font-family: Arial, sans-serif;
         }
 
         .carousel {
-            display: flex;
-            overflow: hidden;
             width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            overflow: hidden;
             position: relative;
         }
 
-        .carousel-track {
+        .carousel-inner {
             display: flex;
             transition: transform 0.5s ease-in-out;
-            width: 300%;
         }
 
         .carousel-item {
-            flex: 1 0 33.333%;
-            box-sizing: border-box;
-            padding: 15px;
+            min-width: 100%;
+            flex: 0 0 100%;
         }
 
-        .carousel-item > div {
-            background: #fff;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            padding: 20px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        .carousel-item img {
+            width: 100%;
+            display: block;
         }
 
-        .carousel-buttons {
+        .carousel-nav {
             position: absolute;
             top: 50%;
             width: 100%;
@@ -668,68 +669,89 @@
             transform: translateY(-50%);
         }
 
-        .carousel-button {
+        .carousel-nav button {
             background: rgba(0, 0, 0, 0.5);
             border: none;
             color: #fff;
-            padding: 10px;
+            font-size: 2rem;
+            padding: 0.5rem 1rem;
             cursor: pointer;
         }
 
-        @keyframes slide {
-            0%, 15%, 100% { transform: translateX(0); }
-            25%, 40% { transform: translateX(-33.333%); }
-            50%, 65% { transform: translateX(-66.666%); }
-            75%, 90% { transform: translateX(-100%); }
-        }
-
-        .carousel-track {
-            animation: slide 20s infinite;
-        }
-
-        @media (max-width: 768px) {
+        /* Responsive Styles */
+        @media (min-width: 768px) {
             .carousel-item {
-                flex: 1 0 50%;
+                min-width: 33.33%;
+                flex: 0 0 33.33%;
             }
         }
 
-        @media (max-width: 480px) {
+        @media (min-width: 1024px) {
             .carousel-item {
-                flex: 1 0 100%;
+                min-width: 25%;
+                flex: 0 0 25%;
             }
         }
     </style>
 </head>
 <body>
-
-<section class="carousel">
-    <div class="carousel-track">
-        <div class="carousel-item">
-            <div>
-                <h3>Testimonial 1</h3>
-                <p>Some review text goes here. This is an example of a testimonial.</p>
+    <div class="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item">
+                <img src="https://via.placeholder.com/400" alt="Placeholder Image">
+            </div>
+            <div class="carousel-item">
+                <img src="https://via.placeholder.com/400" alt="Placeholder Image">
+            </div>
+            <div class="carousel-item">
+                <img src="https://via.placeholder.com/400" alt="Placeholder Image">
+            </div>
+            <div class="carousel-item">
+                <img src="https://via.placeholder.com/400" alt="Placeholder Image">
+            </div>
+            <div class="carousel-item">
+                <img src="https://via.placeholder.com/400" alt="Placeholder Image">
             </div>
         </div>
-        <div class="carousel-item">
-            <div>
-                <h3>Testimonial 2</h3>
-                <p>Some review text goes here. This is an example of a testimonial.</p>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div>
-                <h3>Testimonial 3</h3>
-                <p>Some review text goes here. This is an example of a testimonial.</p>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div>
-                <h3>Testimonial 4</h3>
-                <p>Some review text goes here. This is an example of a testimonial.</p>
-            </div>
+        <div class="carousel-nav">
+            <button id="prev"><i class="fas fa-chevron-left"></i></button>
+            <button id="next"><i class="fas fa-chevron-right"></i></button>
         </div>
     </div>
-</section>
+
+    <script>
+        const prevButton = document.getElementById('prev');
+        const nextButton = document.getElementById('next');
+        const carouselInner = document.querySelector('.carousel-inner');
+
+        let currentIndex = 0;
+
+        function updateCarousel() {
+            const width = carouselInner.clientWidth;
+            carouselInner.style.transform = `translateX(${-currentIndex * width}px)`;
+        }
+
+        nextButton.addEventListener('click', () => {
+            if (currentIndex < carouselInner.children.length - 1) {
+                currentIndex++;
+                updateCarousel();
+            }
+        });
+
+        prevButton.addEventListener('click', () => {
+            if (currentIndex > 0) {
+                currentIndex--;
+                updateCarousel();
+            }
+        });
+
+        window.addEventListener('resize', updateCarousel);
+    </script>
+</body>
+</html>
+
+
+
 
 </body>
 </html>
