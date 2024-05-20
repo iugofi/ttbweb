@@ -20,20 +20,20 @@
                 <div>
                     <h3
                         class="!text-defaulttextcolor dark:!text-defaulttextcolor/70 dark:text-white dark:hover:text-white text-[1.125rem] font-semibold">
-                        Blog Create </h3>
+                        Storepick Edit </h3>
                 </div>
                 <ol class="flex items-center whitespace-nowrap min-w-0">
                     <li class="text-[0.813rem] ps-[0.5rem]">
                         <a class="flex items-center text-primary hover:text-primary dark:text-primary truncate"
                             href="javascript:void(0);">
-                            Blog
+                            Storepick
                             <i
                                 class="ti ti-chevrons-right flex-shrink-0 text-[#8c9097] dark:text-white/50 px-[0.5rem] overflow-visible rtl:rotate-180"></i>
                         </a>
                     </li>
                     <li class="text-[0.813rem] text-defaulttextcolor font-semibold hover:text-primary dark:text-[#8c9097] dark:text-white/50 "
                         aria-current="page">
-                        Blog Create
+                        Storepick Edit
                     </li>
                 </ol>
             </div>
@@ -44,9 +44,9 @@
                 <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 sm:col-span-12 col-span-12">
                     <div class="box">
                         <div class="box-header">
-                            <div class="box-title">Blog Create</div>
+                            <div class="box-title">Storepick Edit</div>
                         </div>
-                        <form method="post" id="edit_blog_form" enctype="multipart/form-data">
+                        <form method="post" id="edit_storepick_form" enctype="multipart/form-data">
                             @csrf
                             <div class="box-body">
                                 <div class="box text-center">
@@ -100,7 +100,7 @@
                             <div class="box-footer">
                                 <div class="text-end">
                                     {{-- <button type="button" class="ti-btn !py-1 !px-2 ti-btn-light !text-[0.75rem] !font-medium me-2">Save As Draft</button> --}}
-                                    <input type="submit" value="Edit blog" id="blog_edit_btn"
+                                    <input type="submit" value="Edit Storepick" id="storepick_edit_btn"
                                         class="ti-btn bg-primary text-white !py-1 !px-2 !text-[0.75rem] !font-medium">
                                 </div>
                             </div>
@@ -122,14 +122,14 @@
 
     <script>
         $(document).ready(function() {
-            $('#edit_blog_form').submit(function(e) {
+            $('#edit_storepick_form').submit(function(e) {
                 e.preventDefault();
-                $('#blog_edit_btn').val('please wait..');
+                $('#storepick_edit_btn').val('please wait..');
                 var token = $('meta[name="csrf-token"]').attr('content');
                 var formData = new FormData($(this)[0]);
                 
                 $.ajax({
-                    url:  "{{ route('edit.blog') }}",
+                    url:  "{{ route('edit.Storepick') }}",
                     method: 'post',
                     data: formData,
                     headers: {
@@ -139,25 +139,20 @@
                     processData: false,
                     success: function(response) {
                         if (response.status == 400) {
-                            showError('blog_title', response.messages.blog_title);
-                            showError('blog_slug', response.messages.blog_slug);
-                            showError('meta_title', response.messages.meta_title);
-                            showError('canonical_url', response.messages.canonical_url);
-                            showError('meta_keyword', response.messages.meta_keyword);
-                            showError('meta_desc', response.messages.meta_desc);
-                            showError('editoronebest', response.messages.blog_description);
-                            showError('blog_status', response.messages.blog_status);
-
-                            $('#blog_edit_btn').val('Edit blog');
+                            showError('STORE_ID', response.messages.STORE_ID);
+                            showError('PICK_TEXT', response.messages.PICK_TEXT);
+                            showError('PICK_ID', response.messages.PICK_ID);
+                            showError('STORE_INDEX_SEQUENCE', response.messages.STORE_INDEX_SEQUENCE);
+                            $('#storepick_edit_btn').val('Edit Storepick');
                         } else if (response.status == 200) {
                             $('.invalid-feedback').empty();
                             // $("#show_success_alert").html(showMessage('success', response
                             //     .messages));
-                            $('#edit_blog_form')[0].reset();
-                            removeValidationClass("#edit_blog_form");
-                            $('#blog_edit_btn').val('Edit blog');
+                            $('#edit_storepick_form')[0].reset();
+                            removeValidationClass("#edit_storepick_form");
+                            $('#storepick_edit_btn').val('Edit Storepick');
                             alert(response.messages);
-                            window.location.href = "{{ route('admin.bloglistshow') }}";
+                            window.location.href = "{{ route('admin.storepickpage') }}";
                            
                         }
                     },
