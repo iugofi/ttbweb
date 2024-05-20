@@ -42487,7 +42487,7 @@ img.img-fluid.service-icon {
 
 /* phishing page css */
 .threat-banner-top{
-  padding: 170px 45px;
+  padding: 140px 45px;
   background-image: url(/assets/img/threat-Banner.jpg);
   background-size: cover;
   object-fit: cover;
