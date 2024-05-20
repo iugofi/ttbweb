@@ -471,7 +471,7 @@ public function newslistshow(){
 
                        
 
-                        return view('Admin.storepicklist');
+                        return view('Admin.storepickadd');
 
                     }else
                     {
