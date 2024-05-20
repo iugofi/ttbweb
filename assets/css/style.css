@@ -42488,16 +42488,22 @@ img.img-fluid.service-icon {
 /* phishing page css */
 .threat-banner-top{
   padding: 170px 0px;
+  background-color:#000;
 }
 .threat-banner-top h2{
     font-size: 5em;
     font-weight: 700;
+    color: #fff;
 }
   
-  .threat-banner-top p{
+.threat-banner-top p{
     font-size: 16px;
+    color: #fff;
 }
-  
+.threat-banner-top span {
+    color: #12d2b3;
+    text-shadow: 1px 2px #fff;
+} 
 .Phishing-section-four .icon-box-left {
     padding: 16px;
     background-color:#12d2b32b;
