@@ -42492,9 +42492,12 @@ img.img-fluid.service-icon {
 .threat-banner-top h2{
     font-size: 5em;
     font-weight: 700;
-  }
+}
   
-
+  .threat-banner-top p{
+    font-size: 16px;
+}
+  
 .Phishing-section-four .icon-box-left {
     padding: 16px;
     background-color:#12d2b32b;
