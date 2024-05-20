@@ -481,6 +481,50 @@ public function newslistshow(){
 
                 }
 
+                public function savestorepick(Request $request){
+                    if ($this->loggedInAdmin) {
+                
+                        $validator = Validator::make($request->all(), [
+                            'STORE_ID' => 'required',
+                            'PICK_TEXT' => 'required',
+                            'PICK_ID' => 'required',
+                            'STORE_INDEX_SEQUENCE' => 'required'
+                        
+                        ]);
+                        
+                        if ($validator->fails()) {
+                            return response()->json([
+                                'status' => 400,
+                                'messages' => $validator->getMessageBag()->toArray()
+                            ]);
+                        }
+                        else
+                        {
+                
+                                $store = new Storepick();
+                                $store->STORE_ID = $request->STORE_ID;
+                                $store->STORE_TYPE = $request->STORE_TYPE;
+                                $store->PICK_TEXT = $request->PICK_TEXT;
+                                $store->PICK_ID = $request->PICK_ID;
+                                $store->STORE_INDEX_SEQUENCE =$request->STORE_INDEX_SEQUENCE;
+                                $store->PICK_TEXT_EXTEND =$request->PICK_TEXT_EXTEND;
+                                $store->save();
+                                
+                                
+                
+                                return response()->json([
+                                    'status' => 200,
+                                    'messages' => 'StorePick Post successfully'
+                                ]);
+                
+                                }
+                                
+                
+                            } else {
+                                return redirect('/setup');
+                            }
+                            }
+
                 public function fatchstorepick(Request $request)
                 {
                     if ($this->loggedInAdmin) {
