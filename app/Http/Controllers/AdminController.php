@@ -465,6 +465,17 @@ public function newslistshow(){
                     }
 
                 }
+                public function storepickdelete($id)
+                {
+                    if ($this->loggedInAdmin) {
+                        $item = Storepick::findOrFail($id);
+                        $item->delete();
+                        return response()->json(['message' => 'Storepick deleted successfully']);
+                    } else {
+                        return redirect('/setup'); 
+                    }
+                }
+
                 public function storepickadd()
                 {
                     if ($this->loggedInAdmin) {
