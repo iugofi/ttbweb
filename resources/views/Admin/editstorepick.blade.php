@@ -41,7 +41,7 @@
 
             <!-- Start::row-1 -->
             <div class="grid grid-cols-12 gap-x-6">
-                <div class="xxl:col-span-9 xl:col-span-12 lg:col-span-12 md:col-span-12 sm:col-span-12 col-span-12">
+                <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 sm:col-span-12 col-span-12">
                     <div class="box">
                         <div class="box-header">
                             <div class="box-title">Blog Create</div>
@@ -53,89 +53,47 @@
                                     <div class="" id="show_success_alert"></div>
                                 </div>
                                 <div class="grid grid-cols-12 gap-4">
+                                   
+
                                     <div class="xl:col-span-12 col-span-12">
-                                        <label for="blog-title" class="form-label">blog Title</label>
-                                        <input type="text" name="main_id" value="{{ isset($editblog->id) ? $editblog->id : '' }}" hidden>
+                                        <label for="STORE ID" class="form-label">STORE NAME</label>
                                         <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
-                                            id="blog_title" name="blog_title" value="{{ isset($editblog->title) ? $editblog->title : '' }}" placeholder="blog Title">
+                                            id="STORE_ID" name="STORE_ID"  value="{{ isset($editstorepick->STORE_ID) ? $editstorepick->STORE_ID : '' }}" placeholder="STORE NAME">
                                         <div class="invalid-feedback"></div>
                                     </div>
                                     <div class="xl:col-span-12 col-span-12">
-                                        <label for="blog Slug" class="form-label">blog Slug</label>
+                                        <label for="STORE-TYPE" class="form-label">STORE_TYPE</label>
                                         <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
-                                            id="blog_slug" name="blog_slug" value="{{ isset($editblog->slug) ? $editblog->slug : '' }}" placeholder="blog Title">
+                                            id="STORE_TYPE" name="STORE_TYPE" value="{{ isset($editstorepick->STORE_TYPE) ? $editstorepick->STORE_TYPE : '' }}" placeholder="STORE TYPE">
                                         <div class="invalid-feedback"></div>
                                     </div>
 
                                     <div class="xl:col-span-6 col-span-12">
-                                        <label for="Meta Title" class="form-label">Meta Title</label>
+                                        <label for="PICK TEXT" class="form-label">PICK TEXT</label>
                                         <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
-                                            id="meta_title" name="meta_title" value="{{ isset($editblog->meta_title) ? $editblog->meta_title : '' }}" placeholder="Meta Title">
+                                            id="PICK_TEXT" name="PICK_TEXT" value="{{ isset($editstorepick->PICK_TEXT) ? $editstorepick->PICK_TEXT : '' }}" placeholder="PICK TEXT">
                                         <div class="invalid-feedback"></div>
                                     </div>
                                     <div class="xl:col-span-6 col-span-12">
-                                        <label for="canonical-url" class="form-label">Canonical_url</label>
+                                        <label for="canonical-url" class="form-label">PICK_ID</label>
                                         <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
-                                            id="canonical_url" name="canonical_url" value="{{ isset($editblog->canonical_url) ? $editblog->canonical_url : '' }}" placeholder="Enter Canonical Url">
+                                            id="PICK_ID" name="PICK_ID" value="{{ isset($editstorepick->PICK_ID) ? $editstorepick->PICK_ID : '' }}" placeholder="PICK ID">
                                         <div class="invalid-feedback"></div>
                                     </div>
                                     <div class="xl:col-span-6 col-span-12">
-                                        <label for="Meta Keyword" class="form-label">Meta Keyword</label>
-                                        <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
-                                            id="meta_keyword" name="meta_keyword" value="{{ isset($editblog->meta_keyword) ? $editblog->meta_keyword : '' }}" placeholder="Enter Canonical Url">
+                                        <label for="Meta Keyword" class="form-label">STORE INDEX SEQUENCE</label>
+                                        <input type="number" class="form-control block w-full text-[0.875rem] !rounded-md"
+                                            id="STORE_INDEX_SEQUENCE" name="STORE_INDEX_SEQUENCE" value="{{ isset($editstorepick->STORE_INDEX_SEQUENCE) ? $editstorepick->STORE_INDEX_SEQUENCE : '' }}" placeholder="STORE INDEX SEQUENCE">
                                         <div class="invalid-feedback"></div>
                                     </div>
                                     <div class="xl:col-span-6 col-span-12">
-                                        <label for="Meta Desc" class="form-label">Meta Desc</label>
+                                        <label for="Meta Desc" class="form-label">PICK TEXT EXTEND</label>
                                         <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
-                                            id="meta_desc" name="meta_desc" value="{{ isset($editblog->meta_desc) ? $editblog->meta_desc : '' }}" placeholder="Enter Canonical Url">
+                                            id="PICK_TEXT_EXTEND" name="PICK_TEXT_EXTEND" value="{{ isset($editstorepick->PICK_TEXT_EXTEND) ? $editstorepick->PICK_TEXT_EXTEND : '' }}" placeholder="PICK TEXT EXTEND">
                                         <div class="invalid-feedback"></div>
                                     </div>
-                                    {{-- <div class="xl:col-span-6 col-span-12">
-                                    <label for="publish-date" class="form-label">Publish Date</label>
-                                    <input type="date" class="form-control block w-full text-[0.875rem] !rounded-md" id="publish-date" placeholder="Choose date">
-                                </div> --}}
+                                
 
-
-                                    <div class="xl:col-span-12 col-span-12">
-                                        <label class="form-label">blog Discription</label>
-                                        <textarea  id="editoronebest" name="blog_description"
-                                            class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500"
-                                            rows="6">{{ isset($editblog->description) ? $editblog->description : '' }}</textarea>
-                                        <div class="invalid-feedback"></div>
-                                    </div>
-
-                                    <div class="xl:col-span-12 col-span-12">
-                                        <label for="blog-Language" class="form-label">Status</label>
-                                        <select class="form-control block w-full text-[0.875rem] !rounded-md" data-trigger
-                                            name="blog_status" id="blog_status">
-                                            <option value="">Select</option>
-                                            @php
-                                                $status = DB::table('storepick')
-                                                    ->where('STORE_ID', 'Status')
-                                                    ->orderBy('STORE_INDEX_SEQUENCE', 'asc')
-                                                    ->get();
-                                            @endphp
-                                            @foreach ($status as $statuss)
-                                                <option value="{{ $statuss->PICK_ID }}" {{ $statuss->PICK_ID == $editblog->status ? 'selected' : '' }}>{{ $statuss->PICK_TEXT }}</option>
-                                            @endforeach
-
-                                        </select>
-                                        <div class="invalid-feedback"></div>
-
-                                    </div>
-
-                                    <div class="xl:col-span-12 col-span-12 blog-images-container">
-                                        <label for="blog-author-email" class="form-label">blog Images</label>
-                                        <div class="text-center">
-                                            <img src="{{ asset('assets/images/dailyblogs/' . (!empty($editblog->image) ? $editblog->image : 'No Image ')) }}" class="img-fluid !rounded-md !inline-flex" alt="..." style="width:100px">
-                                        </div>
-                                        <input type="file" class="blog_images" id="blog_images" name="blog_images"
-                                            multiple data-allow-reorder="true" data-max-file-size="3MB"
-                                            data-max-files="6">
-                                        <input type="text" name="image_new" value="{{ $editblog->image }}" hidden>
-                                        <div class="invalid-feedback"></div>
-                                    </div>
 
                                 </div>
                             </div>
@@ -149,20 +107,7 @@
                         </form>
                     </div>
                 </div>
-                <div class="xxl:col-span-3 xl:col-span-12 lg:col-span-12 md:col-span-12 sm:col-span-12 col-span-12">
-                    <div class="box">
-                        <div class="box-header">
-                            <div class="box-title">
-                                Recent Blog
-                            </div>
-                        </div>
-                        <div class="box-body" id="recentpost">
-                            <ul class="list-group">
-                                <!-- Recent posts will be dynamically added here -->
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+              
             </div>
             <!--End::row-1 -->
 
@@ -177,59 +122,6 @@
 
     <script>
         $(document).ready(function() {
-            function fetchblog() {
-                $.ajax({
-                    url: "{{ route('fatch.blog') }}",
-                    type: 'GET',
-                    dataType: 'json',
-                    success: function(response) {
-                        console.log(response);
-                        if (response.length > 0) {
-                            var recentPostHtml = '';
-                            $.each(response, function(index, post) {
-                                var truncatedDescription = post.description.split(' ').slice(0,
-                                    2).join(' ');
-                                var truncatedTitle = post.title.split(' ').slice(0, 2).join(
-                                ' ');
-
-                                var imageUrl = "{{asset('assets/images/dailyblogs/')}}"+ '/' + post.image;
-
-                                recentPostHtml += '<li class="list-group-item">';
-                                recentPostHtml +=
-                                    '<div class="flex gap-2 flex-wrap items-center">';
-                                recentPostHtml += '<span class="avatar avatar-xl me-1">';
-                                recentPostHtml += '<img src="' + imageUrl +
-                                    '" class="img-fluid !rounded-md" alt="...">';
-                                recentPostHtml += '</span>';
-                                recentPostHtml += '<div class="flex-grow">';
-                                recentPostHtml +=
-                                    '<a href="" class="text-[0.875rem] font-semibold mb-0">' +
-                                    truncatedTitle + '</a>';
-                                recentPostHtml +=
-                                    '<p class="mb-1 popular-blog-content text-truncate">' +
-                                    truncatedDescription + '</p>';
-                                recentPostHtml +=
-                                    '<span class="text-[#8c9097] dark:text-white/50 text-[0.6875rem]">' +
-                                    post.created_at + '</span>';
-                                recentPostHtml += '</div>';
-                                recentPostHtml += '<div>';
-                                recentPostHtml +=
-                                    '<button aria-label="button" type="button" class="ti-btn ti-btn-light ti-btn-sm rtl:rotate-180"><i class="ri-arrow-right-s-line"></i></button>';
-                                recentPostHtml += '</div>';
-                                recentPostHtml += '</div>';
-                                recentPostHtml += '</li>';
-                            });
-                            $('#recentpost .list-group').html(recentPostHtml);
-                        } else {
-                            // Handle case where no posts are returned
-                        }
-                    },
-                    error: function(xhr, status, error) {
-                        // Handle error
-                    }
-                });
-            }
-
             $('#edit_blog_form').submit(function(e) {
                 e.preventDefault();
                 $('#blog_edit_btn').val('please wait..');
@@ -266,13 +158,13 @@
                             $('#blog_edit_btn').val('Edit blog');
                             alert(response.messages);
                             window.location.href = "{{ route('admin.bloglistshow') }}";
-                            fetchblog();
+                           
                         }
                     },
                     error: function(xhr, status, error) {}
                 });
             });
-            fetchblog();
+
         });
     </script>
 
