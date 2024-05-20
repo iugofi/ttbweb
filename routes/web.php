@@ -126,6 +126,7 @@ Route::get('/ttbantivirus', [UserController::class, 'ttbantivirus'])->name('user
 Route::get('/ttbantivirusnew', [UserController::class, 'ttbantivirusnew'])->name('user.ttbantivirusnew');
 Route::get('/anti-phishing', [UserController::class, 'Phishing'])->name('user.Phishing');
 
+Route::get('/threat-protection', [UserController::class, 'threat'])->name('user.threat');
 
 
 

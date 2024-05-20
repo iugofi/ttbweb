@@ -73,7 +73,7 @@
                                     <i class="fe fe-chevron-right side-menu__angle"></i></a>
                                 <ul class="slide-menu child2">
                                     <li class="slide">
-                                        <a href="javascript:void(0);" class="side-menu__item">Threat Protection</a>
+                                        <a href="{{route('user.threat')}}" class="side-menu__item">Threat Protection</a>
                                     </li>
                                     <li class="slide">
                                         <a href="javascript:void(0);" class="side-menu__item">Behavioral Protection</a>

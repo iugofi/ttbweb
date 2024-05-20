@@ -164,6 +164,9 @@ class UserController extends Controller
     public function network_protection()
     {
         return view('User.networkprotection');
+    }public function threat()
+    {
+        return view('User.threat');
     }
     public function contactform(Request $request)
     {
