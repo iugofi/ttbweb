@@ -41,7 +41,7 @@
 
             <!-- Start::row-1 -->
             <div class="grid grid-cols-12 gap-x-6">
-                <div class="xxl:col-span-9 xl:col-span-12 lg:col-span-12 md:col-span-12 sm:col-span-12 col-span-12">
+                <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 sm:col-span-12 col-span-12">
                     <div class="box">
                         <div class="box-header">
                             <div class="box-title">Storepick Create</div>
