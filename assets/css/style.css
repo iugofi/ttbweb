@@ -43349,26 +43349,11 @@ h6.uppercase {
 }
 /* End:: network protection desktop page css */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media (min-width: 768px) and (max-width: 1080px) {
+    .network-container {
+        height: 42rem !important;
+    }
+}
 
 
 
@@ -43459,6 +43444,9 @@ h6.uppercase {
         padding: 0;
     }
     /* End end point Mobile css */
+    .network-container {
+        height: 42rem !important;
+    }
 }
 
 
@@ -43855,6 +43843,12 @@ h6.uppercase {
     z-index: 4;
     font-size: 26px;
     border-radius: 26px;
+}
+.dark .title {
+    color: #000;
+}
+.dark .colum-slide p {
+    color: #000;
 }
 
 
