@@ -43459,6 +43459,9 @@ h6.uppercase {
         padding: 0;
     }
     /* End end point Mobile css */
+    .network-container {
+        height: 0rem !important;
+    }
 }
 
 
