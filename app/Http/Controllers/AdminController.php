@@ -454,12 +454,7 @@ public function newslistshow(){
                     if ($this->loggedInAdmin) {
 
                         $storepick = Storepick::orderBy('id', 'desc')->get();
-                        $data=Storepick::orderBy('STORE_ID','ASC')->pluck('STORE_ID','STORE_ID');
-
-                        foreach ($storepick as $pick) {
-                            $pick->encrypted_id = \Crypt::encrypt($pick->id);
-                        }
-                        dd($pick);
+                        $data=Storepick::orderBy('STORE_ID','ASC')->pluck('STORE_ID','STORE_ID');            
 
                         return view('Admin.storepicklist',['storepick'=>$storepick],['data'=>$data]);
 
@@ -552,9 +547,16 @@ public function newslistshow(){
                         {
                             $storepick = StorePick::get();
 
+                            foreach ($storepick as $pick) {
+                                $pick->encrypted_id = \Crypt::encrypt($pick->id);
+                            }
+
                         }
                         else{
                             $storepick = StorePick::where('STORE_ID', $storeId)->get();
+                            foreach ($storepick as $pick) {
+                                $pick->encrypted_id = \Crypt::encrypt($pick->id);
+                            }
 
                         }
                         return response()->json(['storepick' => $storepick]);
