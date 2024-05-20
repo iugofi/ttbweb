@@ -618,137 +618,106 @@
 ------------
 
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Owl Carousel</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <style>
-        /* Basic reset and styling */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
 
-        body {
-            font-family: Arial, sans-serif;
-        }
+<style>
 
         .carousel {
-            width: 100%;
-            max-width: 1200px;
-            margin: 0 auto;
-            overflow: hidden;
+            display: flex;
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+            gap: 10px;
+            padding: 10px;
+            scroll-behavior: smooth;
+        }
+        .carousel::-webkit-scrollbar {
+            display: none;
+        }
+        .carousel-item {
+            min-width: 300px;
+            flex: 0 0 auto;
+            scroll-snap-align: start;
+            background: #f1f1f1;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+        }
+        .carousel-item img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .carousel-container {
             position: relative;
         }
-
-        .carousel-inner {
-            display: flex;
-            transition: transform 0.5s ease-in-out;
-        }
-
-        .carousel-item {
-            min-width: 100%;
-            flex: 0 0 100%;
-        }
-
-        .carousel-item img {
-            width: 100%;
-            display: block;
-        }
-
-        .carousel-nav {
+        .carousel-btn {
             position: absolute;
             top: 50%;
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
             transform: translateY(-50%);
-        }
-
-        .carousel-nav button {
             background: rgba(0, 0, 0, 0.5);
+            color: white;
             border: none;
-            color: #fff;
-            font-size: 2rem;
-            padding: 0.5rem 1rem;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
             cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
-
-        /* Responsive Styles */
-        @media (min-width: 768px) {
+        .carousel-btn.left {
+            left: 10px;
+        }
+        .carousel-btn.right {
+            right: 10px;
+        }
+        @media (max-width: 768px) {
             .carousel-item {
-                min-width: 33.33%;
-                flex: 0 0 33.33%;
+                min-width: 200px;
             }
         }
-
-        @media (min-width: 1024px) {
+        @media (max-width: 480px) {
             .carousel-item {
-                min-width: 25%;
-                flex: 0 0 25%;
+                min-width: 150px;
             }
         }
     </style>
-</head>
-<body>
+
+
+<div class="carousel-container">
     <div class="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item">
-                <img src="https://via.placeholder.com/400" alt="Placeholder Image">
-            </div>
-            <div class="carousel-item">
-                <img src="https://via.placeholder.com/400" alt="Placeholder Image">
-            </div>
-            <div class="carousel-item">
-                <img src="https://via.placeholder.com/400" alt="Placeholder Image">
-            </div>
-            <div class="carousel-item">
-                <img src="https://via.placeholder.com/400" alt="Placeholder Image">
-            </div>
-            <div class="carousel-item">
-                <img src="https://via.placeholder.com/400" alt="Placeholder Image">
-            </div>
+        <div class="carousel-item">
+            <img src="https://via.placeholder.com/300x200" alt="Slide 1">
+            <p>Slide 1</p>
         </div>
-        <div class="carousel-nav">
-            <button id="prev"><i class="fas fa-chevron-left"></i></button>
-            <button id="next"><i class="fas fa-chevron-right"></i></button>
+        <div class="carousel-item">
+            <img src="https://via.placeholder.com/300x200" alt="Slide 2">
+            <p>Slide 2</p>
+        </div>
+        <div class="carousel-item">
+            <img src="https://via.placeholder.com/300x200" alt="Slide 3">
+            <p>Slide 3</p>
+        </div>
+        <div class="carousel-item">
+            <img src="https://via.placeholder.com/300x200" alt="Slide 4">
+            <p>Slide 4</p>
+        </div>
+        <div class="carousel-item">
+            <img src="https://via.placeholder.com/300x200" alt="Slide 5">
+            <p>Slide 5</p>
         </div>
     </div>
+    <button class="carousel-btn left" onclick="scrollCarousel(-1)">&#8249;</button>
+    <button class="carousel-btn right" onclick="scrollCarousel(1)">&#8250;</button>
+</div>
 
-    <script>
-        const prevButton = document.getElementById('prev');
-        const nextButton = document.getElementById('next');
-        const carouselInner = document.querySelector('.carousel-inner');
+<script>
+    function scrollCarousel(direction) {
+        const carousel = document.querySelector('.carousel');
+        const scrollAmount = carousel.scrollWidth / carousel.children.length;
+        carousel.scrollLeft += direction * scrollAmount;
+    }
+</script>
 
-        let currentIndex = 0;
-
-        function updateCarousel() {
-            const width = carouselInner.clientWidth;
-            carouselInner.style.transform = `translateX(${-currentIndex * width}px)`;
-        }
-
-        nextButton.addEventListener('click', () => {
-            if (currentIndex < carouselInner.children.length - 1) {
-                currentIndex++;
-                updateCarousel();
-            }
-        });
-
-        prevButton.addEventListener('click', () => {
-            if (currentIndex > 0) {
-                currentIndex--;
-                updateCarousel();
-            }
-        });
-
-        window.addEventListener('resize', updateCarousel);
-    </script>
-</body>
-</html>
 
 
 
