@@ -477,7 +477,6 @@ public function newslistshow(){
                 {
                     $id=$request->main_id;
                     $decryptid=\Crypt::decrypt($id);
-                    dd($decryptid);
                     if ($this->loggedInAdmin) {
                         $validator = Validator::make($request->all(), [
                             'STORE_ID' => 'required',
