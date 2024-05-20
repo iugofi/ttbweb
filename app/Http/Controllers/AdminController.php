@@ -465,6 +465,21 @@ public function newslistshow(){
                     }
 
                 }
+                public function storepickadd()
+                {
+                    if ($this->loggedInAdmin) {
+
+                       
+
+                        return view('Admin.storepicklist');
+
+                    }else
+                    {
+                        return redirect('/setup'); 
+
+                    }
+
+                }
 
                 public function fatchstorepick(Request $request)
                 {
