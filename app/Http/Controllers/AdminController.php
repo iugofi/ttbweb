@@ -539,14 +539,10 @@ public function newslistshow(){
                 public function fatchstorepick(Request $request)
                 {
                     if ($this->loggedInAdmin) {
-
-
-
                         $storeId = $request->input('storeId');
                         if($storeId==null)
                         {
                             $storepick = StorePick::get();
-
                             foreach ($storepick as $pick) {
                                 $pick->encrypted_id = \Crypt::encrypt($pick->id);
                             }
@@ -557,7 +553,6 @@ public function newslistshow(){
                             foreach ($storepick as $pick) {
                                 $pick->encrypted_id = \Crypt::encrypt($pick->id);
                             }
-
                         }
                         return response()->json(['storepick' => $storepick]);
 

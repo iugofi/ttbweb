@@ -207,6 +207,7 @@
                             var tbody = $('#example tbody');
                             tbody.empty();
                             $.each(response.storepick, function(key, item) {
+                                console.log(item.encrypted_id);
                                 var row = '<tr>' +
                                     '<td class="border px-4 py-2">' + (key + 1) +
                                     '</td>' +
