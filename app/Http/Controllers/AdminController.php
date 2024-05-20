@@ -172,9 +172,6 @@ public function newslistshow(){
                 {
 
                     $id=$request->main_id;
-
-                    
-                    
                     if ($this->loggedInAdmin) {
                         $validator = Validator::make($request->all(), [
                             'news_title' => 'required',
@@ -476,6 +473,54 @@ public function newslistshow(){
                         return redirect('/setup');
                     }
                 }
+                public function editstorepicksave(Request $request)
+                {
+                    $id=$request->main_id;
+                    if ($this->loggedInAdmin) {
+                        $validator = Validator::make($request->all(), [
+                            'STORE_ID' => 'required',
+                            'PICK_TEXT' => 'required',
+                            'PICK_ID' => 'required',
+                            'STORE_INDEX_SEQUENCE' => 'required'
+                        ]);
+                        if ($validator->fails()) {
+                            return response()->json([
+                                'status' => 400,
+                                'messages' => $validator->getMessageBag()->toArray() // Convert messages to array
+                            ]);
+                        }
+                        else
+                        {
+                                $store = Storepick::where('id', $id)->first();
+                                if (!$store) {
+                                    return response()->json([
+                                        'status' => 404,
+                                        'messages' => 'News not found'
+                                    ]);
+                                }
+                                $store->update([
+                                    'STORE_ID' => $request->STORE_ID,
+                                    'STORE_TYPE' => $request->STORE_TYPE,
+                                    'PICK_TEXT' => $request->PICK_TEXT,
+                                    'PICK_ID' => $request->PICK_ID,
+                                    'STORE_INDEX_SEQUENCE' => $request->STORE_INDEX_SEQUENCE,
+                                    'PICK_TEXT_EXTEND' => $request->PICK_TEXT_EXTEND
+                                ]);
+                
+                                return response()->json([
+                                    'status' => 200,
+                                    'messages' => 'Storepick Edit successfully'
+                                ]);
+                
+                                }
+
+
+                       
+                    } else {
+                        return redirect('/setup'); 
+                    }
+                }
+
                 public function storepickdelete($id)
                 {
                     if ($this->loggedInAdmin) {

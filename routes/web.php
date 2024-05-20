@@ -181,6 +181,9 @@ Route::post('/editblog', [AdminController::class, 'editblog'])->name('edit.blog'
 //storepick
 Route::get('/storepickpage', [AdminController::class, 'storepickpage'])->name('admin.storepickpage');
 Route::get('/storepickedit/{id}', [AdminController::class, 'storepickedit'])->name('edit.storepickedit');
+Route::get('/newsedit/{id}', [AdminController::class, 'newsedit'])->name('edit.newsedit');
+Route::post('/editstorepicksave', [AdminController::class, 'editstorepicksave'])->name('edit.editstorepicksave');
+
 Route::delete('/storepickdelete/{id}', [AdminController::class, 'storepickdelete'])->name('delete.storepickdelete');
 Route::get('/storepickadd', [AdminController::class, 'storepickadd'])->name('admin.storepickadd');
 Route::post('/savestorepick', [AdminController::class, 'savestorepick'])->name('save.storepick');

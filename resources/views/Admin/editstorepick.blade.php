@@ -129,7 +129,7 @@
                 var formData = new FormData($(this)[0]);
                 
                 $.ajax({
-                    url:  "{{ route('edit.Storepick') }}",
+                    url:  "{{ route('edit.editstorepicksave') }}",
                     method: 'post',
                     data: formData,
                     headers: {
