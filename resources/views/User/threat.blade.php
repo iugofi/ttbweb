@@ -15,7 +15,7 @@
 {{-- <div class="content">
     <div class="main-content"> --}}
 
-        <section class="Phishing-banner-top">
+        <section class="threat-banner-top">
             <div class="container main-banner-container">
                 <div class="grid grid-cols-12 gap-6">
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
