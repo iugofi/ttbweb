@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Storepick extends Model
 {
     protected $table = 'storepick';
+    public $timestamps = false;
 
     use HasFactory;
 }
