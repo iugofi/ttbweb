@@ -456,6 +456,10 @@ public function newslistshow(){
                         $storepick = Storepick::orderBy('id', 'desc')->get();
                         $data=Storepick::orderBy('STORE_ID','ASC')->pluck('STORE_ID','STORE_ID');
 
+                        foreach ($storepick as $pick) {
+                            $pick->encrypted_id = Crypt::encrypt($pick->id);
+                        }
+
                         return view('Admin.storepicklist',['storepick'=>$storepick],['data'=>$data]);
 
                     }else
