@@ -46,7 +46,7 @@
                         <div class="box-header">
                             <div class="box-title">Storepick Create</div>
                         </div>
-                        <form method="post" id="blog_form" enctype="multipart/form-data">
+                        <form method="post" id="storepick_form" enctype="multipart/form-data">
                             @csrf
                             <div class="box-body">
                                 <div class="box text-center">
@@ -54,9 +54,9 @@
                                 </div>
                                 <div class="grid grid-cols-12 gap-4">
                                     <div class="xl:col-span-12 col-span-12">
-                                        <label for="blog-title" class="form-label">STORE NAME</label>
+                                        <label for="STORE ID" class="form-label">STORE NAME</label>
                                         <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
-                                            id="blog_title" name="blog_title" placeholder="STORE NAME">
+                                            id="STORE_ID" name="STORE_ID" placeholder="STORE NAME">
                                         <div class="invalid-feedback"></div>
                                     </div>
                                     <div class="xl:col-span-12 col-span-12">
@@ -186,14 +186,14 @@
                 });
             }
 
-            $('#blog_form').submit(function(e) {
+            $('#storepick_form').submit(function(e) {
                 e.preventDefault();
-                $('#blog_save_btn').val('please wait..');
+                $('#storepick_save_btn').val('please wait..');
                 var token = $('meta[name="csrf-token"]').attr('content');
                 var formData = new FormData($(this)[0]);
 
                 $.ajax({
-                    url: '{{ route('save.blog') }}',
+                    url: '{{ route('save.storepick') }}',
                     method: 'post',
                     data: formData,
                     headers: {
@@ -203,24 +203,19 @@
                     processData: false,
                     success: function(response) {
                         if (response.status == 400) {
-                            showError('blog_title', response.messages.blog_title);
-                            showError('blog_slug', response.messages.blog_slug);
-                            showError('meta_title', response.messages.meta_title);
-                            showError('canonical_url', response.messages.canonical_url);
-                            showError('meta_keyword', response.messages.meta_keyword);
-                            showError('meta_desc', response.messages.meta_desc);
-                            showError('editoronebest', response.messages.blog_description);
-                            showError('blog_images', response.messages.blog_images);
-                            showError('blog_status', response.messages.blog_status);
+                            showError('STORE_ID', response.messages.STORE_ID);
+                            showError('PICK_TEXT', response.messages.PICK_TEXT);
+                            showError('PICK_ID', response.messages.PICK_ID);
+                            showError('STORE_INDEX_SEQUENCE', response.messages.STORE_INDEX_SEQUENCE);                   
 
-                            $('#blog_save_btn').val('Post blog');
+                            $('#storepick_save_btn').val('STOREPICK ADD');
                         } else if (response.status == 200) {
                             $('.invalid-feedback').empty();
                             $("#show_success_alert").html(showMessage('success', response
                                 .messages));
-                            $('#blog_form')[0].reset();
-                            removeValidationClass("#blog_form");
-                            $('#blog_save_btn').val('Post blog');
+                            $('#storepick_form')[0].reset();
+                            removeValidationClass("#storepick_form");
+                            $('#storepick_save_btn').val('STOREPICK ADD');
                             fetchblog();
                         }
                     },
