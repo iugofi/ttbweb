@@ -459,6 +459,7 @@ public function newslistshow(){
                         foreach ($storepick as $pick) {
                             $pick->encrypted_id = \Crypt::encrypt($pick->id);
                         }
+                        dd($pick);
 
                         return view('Admin.storepicklist',['storepick'=>$storepick],['data'=>$data]);
 
