@@ -34,7 +34,7 @@
         <div class="container main-banner-container">
             <div class="grid grid-cols-12 gap-6">
                 <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 col-span-12">
-                    <img src="{{ asset('assets/imgthreat-image1.png') }}" alt="" class="img-fluid">
+                    <img src="{{ asset('assets/img/threat-image1.png') }}" alt="" class="img-fluid">
                 </div>
                 <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 col-span-12">
                    <div class="flex">
