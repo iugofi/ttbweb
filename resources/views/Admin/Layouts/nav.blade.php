@@ -69,7 +69,7 @@
                         </a>
                     </li>
                     <li class="slide">
-                        <a href="" class="side-menu__item">
+                        <a href="{{route('admin.storepickadd')}}" class="side-menu__item">
                             <i class="fa-solid fa-puzzle-piece side-menu__icon"></i>
                             <span class="side-menu__label">StorePick Add</span>
                         </a>
