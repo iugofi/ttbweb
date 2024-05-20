@@ -195,8 +195,7 @@
                                 ' ');
 
                                 var imageUrl =
-                                    "assets/images/Adminimages/" +
-                                    post.image;
+                                    "{{ asset('assets/images/Adminimages') }}/" + post.image;
 
                                 recentPostHtml += '<li class="list-group-item">';
                                 recentPostHtml +=
