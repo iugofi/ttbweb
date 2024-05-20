@@ -186,7 +186,7 @@
                                 ' ');
 
                                 var imageUrl =
-                                    "assets/images/dailyblogs/" +
+                                    "{{asset('assets/images/dailyblogs')}}/" +
                                     post.image;
 
                                 recentPostHtml += '<li class="list-group-item">';
