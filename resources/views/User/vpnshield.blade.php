@@ -709,7 +709,6 @@
             <div class="carousel">
                 <div class="carousel-item">
                     <div class="box-body !p-0">
-                        <div class="px-1 py-2 bg-success/30"></div>
                         <div class="!p-6">
                             <div class="flex justify-between items-center mb-4">
                                 <div class="text-[1.125rem] font-semibold">Team</div>
@@ -785,7 +784,6 @@
                 </div>
                 <div class="carousel-item">
                     <div class="box-body !p-0">
-                        <div class="px-1 py-2 bg-success/30"></div>
                         <div class="!p-6">
                             <div class="flex justify-between items-center mb-4">
                                 <div class="text-[1.125rem] font-semibold">Team</div>
@@ -858,11 +856,9 @@
                             </ul>
                         </div>
                     </div>
-                    <p>Slide 2</p>
                 </div>
                 <div class="carousel-item">
                     <div class="box-body !p-0">
-                        <div class="px-1 py-2 bg-success/30"></div>
                         <div class="!p-6">
                             <div class="flex justify-between items-center mb-4">
                                 <div class="text-[1.125rem] font-semibold">Team</div>
@@ -935,11 +931,9 @@
                             </ul>
                         </div>
                     </div>
-                    <p>Slide 3</p>
                 </div>
                 <div class="carousel-item">
                     <div class="box-body !p-0">
-                        <div class="px-1 py-2 bg-success/30"></div>
                         <div class="!p-6">
                             <div class="flex justify-between items-center mb-4">
                                 <div class="text-[1.125rem] font-semibold">Team</div>
@@ -1012,7 +1006,6 @@
                             </ul>
                         </div>
                     </div>
-                    <p>Slide 4</p>
                 </div>
             </div>
             <button class="carousel-btn left" onclick="scrollCarousel(-1)">&#8249;</button>
