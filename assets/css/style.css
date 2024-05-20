@@ -42486,6 +42486,23 @@ img.img-fluid.service-icon {
 /* neeraj-home-page-css-22-04-2024 */
 
 /* phishing page css */
+
+.threat-section-two {
+    padding: 68px 0px;
+}
+.threat-section-two span{
+    color: #12d2b3;
+}
+.threat-section-two h2 {
+    font-weight: 600;
+    font-size: 32px;
+}
+.threat-section-two h3 {
+    font-size: 32px;
+}
+.threat-section-two p {
+    font-size: 16px;
+}
 .threat-banner-top{
   padding: 170px 45px;
   background-image: url(/assets/img/threat-Banner.jpg);
