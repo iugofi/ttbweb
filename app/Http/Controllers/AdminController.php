@@ -834,10 +834,15 @@ public function newslistshow(){
                         if($storeId==null)
                         {
                             $admindata = Admin::get();
-
+                            foreach ($admindata as $pick) {
+                                $pick->encrypted_id = \Crypt::encrypt($pick->id);
+                            }
                         }
                         else{
                             $admindata = Admin::where('admintype', $storeId)->get();
+                            foreach ($admindata as $pick) {
+                                $pick->encrypted_id = \Crypt::encrypt($pick->id);
+                            }
 
                         }
                         foreach ($admindata as $admin) {
