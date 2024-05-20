@@ -615,6 +615,124 @@
         </section>
 
 
+------------
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Carousel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .carousel {
+            display: flex;
+            overflow: hidden;
+            width: 100%;
+            position: relative;
+        }
+
+        .carousel-track {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+            width: 300%;
+        }
+
+        .carousel-item {
+            flex: 1 0 33.333%;
+            box-sizing: border-box;
+            padding: 15px;
+        }
+
+        .carousel-item > div {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .carousel-buttons {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            transform: translateY(-50%);
+        }
+
+        .carousel-button {
+            background: rgba(0, 0, 0, 0.5);
+            border: none;
+            color: #fff;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        @keyframes slide {
+            0%, 15%, 100% { transform: translateX(0); }
+            25%, 40% { transform: translateX(-33.333%); }
+            50%, 65% { transform: translateX(-66.666%); }
+            75%, 90% { transform: translateX(-100%); }
+        }
+
+        .carousel-track {
+            animation: slide 20s infinite;
+        }
+
+        @media (max-width: 768px) {
+            .carousel-item {
+                flex: 1 0 50%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .carousel-item {
+                flex: 1 0 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<section class="carousel">
+    <div class="carousel-track">
+        <div class="carousel-item">
+            <div>
+                <h3>Testimonial 1</h3>
+                <p>Some review text goes here. This is an example of a testimonial.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div>
+                <h3>Testimonial 2</h3>
+                <p>Some review text goes here. This is an example of a testimonial.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div>
+                <h3>Testimonial 3</h3>
+                <p>Some review text goes here. This is an example of a testimonial.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div>
+                <h3>Testimonial 4</h3>
+                <p>Some review text goes here. This is an example of a testimonial.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
 
 
 
