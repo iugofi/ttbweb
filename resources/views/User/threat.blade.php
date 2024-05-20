@@ -37,7 +37,7 @@
                     <img src="{{ asset('assets/img/Shape-2.png') }}" alt="" class="img-fluid">
                 </div>
                 <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 col-span-12">
-                    <h2>We Provide The Solution.</h2>
+                    <h2>We Provide <span> The Solution.</span></h2>
                     <h3>Grow Your Business From Good to Great</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa asperiores quaerat, quia saepe
                         consequuntur, laudantium, cum at expedita eligendi perferendis amet fugiat? Assumenda numquam nisi
