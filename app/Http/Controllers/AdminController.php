@@ -476,6 +476,7 @@ public function newslistshow(){
                 public function editstorepicksave(Request $request)
                 {
                     $id=$request->main_id;
+                    $decryptid=\Crypt::decrypt($id);
                     if ($this->loggedInAdmin) {
                         $validator = Validator::make($request->all(), [
                             'STORE_ID' => 'required',
@@ -491,7 +492,7 @@ public function newslistshow(){
                         }
                         else
                         {
-                                $store = Storepick::where('id', $id)->first();
+                                $store = Storepick::where('id', $decryptid)->first();
                                 if (!$store) {
                                     return response()->json([
                                         'status' => 404,
