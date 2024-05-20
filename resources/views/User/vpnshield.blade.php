@@ -686,24 +686,299 @@
 <div class="carousel-container">
     <div class="carousel">
         <div class="carousel-item">
-            <img src="https://via.placeholder.com/300x200" alt="Slide 1">
-            <p>Slide 1</p>
+            <div class="box-body !p-0">
+                <div class="px-1 py-2 bg-success/30"></div>
+                <div class="!p-6">
+                    <div class="flex justify-between items-center mb-4">
+                        <div class="text-[1.125rem] font-semibold">Team</div>
+                        <div>
+                            <span class="badge bg-success/10 text-success">
+                                For Small Teams
+                            </span>
+                        </div>
+                    </div>
+                    <div class="text-[1.5625rem] font-bold mb-1">$149<sub class="text-[#8c9097] dark:text-white/50 font-semibold text-[.6875rem] ms-1">/
+                            Per Month</sub></div>
+                    <div class="mb-1 text-[#8c9097] dark:text-white/50">Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Iure quos debitis aliquam .</div>
+                    <div class="text-[0.75rem] mb-4"><u>Billed Monthly</u></div>
+                    <ul class="list-none mb-0">
+                        <li class="flex items-center mb-4">
+                            <span class="me-2">
+                                <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                            </span>
+                            <span>
+                                <strong class="me-1">5 Free</strong>Websites
+                            </span>
+                        </li>
+                        <li class="flex items-center mb-4">
+                            <span class="me-2">
+                                <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                            </span>
+                            <span>
+                                <strong class="me-1">5 GB</strong>Hard disk storage
+                            </span>
+                        </li>
+                        <li class="flex items-center mb-4">
+                            <span class="me-2">
+                                <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                            </span>
+                            <span>
+                                <strong class="me-1">2 Years</strong>Email support
+                            </span>
+                        </li>
+                        <li class="flex items-center mb-4">
+                            <span class="me-2">
+                                <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                            </span>
+                            <span>
+                                <strong class="me-1">5</strong>Licenses
+                            </span>
+                        </li>
+                        <li class="flex items-center mb-4">
+                            <span class="me-2">
+                                <i class="ri-checkbox-circle-line text-[.9375rem] text-[#8c9097] dark:text-white/50 opacity-[0.3]"></i>
+                            </span>
+                            <span>
+                                Custom SEO optimizataion
+                            </span>
+                        </li>
+                        <li class="flex items-center mb-4">
+                            <span class="me-2">
+                                <i class="ri-checkbox-circle-line text-[.9375rem] text-[#8c9097] dark:text-white/50 opacity-[0.3]"></i>
+                            </span>
+                            <span>
+                                Chat Support
+                            </span>
+                        </li>
+                        <li class="grid">
+                            <button type="button" class="ti-btn ti-btn-light ">Choose Plan</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
         <div class="carousel-item">
-            <img src="https://via.placeholder.com/300x200" alt="Slide 2">
+            <div class="box-body !p-0">
+                <div class="px-1 py-2 bg-success/30"></div>
+                <div class="!p-6">
+                    <div class="flex justify-between items-center mb-4">
+                        <div class="text-[1.125rem] font-semibold">Team</div>
+                        <div>
+                            <span class="badge bg-success/10 text-success">
+                                For Small Teams
+                            </span>
+                        </div>
+                    </div>
+                    <div class="text-[1.5625rem] font-bold mb-1">$159<sub class="text-[#8c9097] dark:text-white/50 font-semibold text-[.6875rem] ms-1">/
+                            Per Month</sub></div>
+                    <div class="mb-1 text-[#8c9097] dark:text-white/50">Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Iure quos debitis aliquam .</div>
+                    <div class="text-[0.75rem] mb-4"><u>Billed Monthly</u></div>
+                    <ul class="list-none mb-0">
+                        <li class="flex items-center mb-4">
+                            <span class="me-2">
+                                <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                            </span>
+                            <span>
+                                <strong class="me-1">5 Free</strong>Websites
+                            </span>
+                        </li>
+                        <li class="flex items-center mb-4">
+                            <span class="me-2">
+                                <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                            </span>
+                            <span>
+                                <strong class="me-1">5 GB</strong>Hard disk storage
+                            </span>
+                        </li>
+                        <li class="flex items-center mb-4">
+                            <span class="me-2">
+                                <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                            </span>
+                            <span>
+                                <strong class="me-1">2 Years</strong>Email support
+                            </span>
+                        </li>
+                        <li class="flex items-center mb-4">
+                            <span class="me-2">
+                                <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                            </span>
+                            <span>
+                                <strong class="me-1">5</strong>Licenses
+                            </span>
+                        </li>
+                        <li class="flex items-center mb-4">
+                            <span class="me-2">
+                                <i class="ri-checkbox-circle-line text-[.9375rem] text-[#8c9097] dark:text-white/50 opacity-[0.3]"></i>
+                            </span>
+                            <span>
+                                Custom SEO optimizataion
+                            </span>
+                        </li>
+                        <li class="flex items-center mb-4">
+                            <span class="me-2">
+                                <i class="ri-checkbox-circle-line text-[.9375rem] text-[#8c9097] dark:text-white/50 opacity-[0.3]"></i>
+                            </span>
+                            <span>
+                                Chat Support
+                            </span>
+                        </li>
+                        <li class="grid">
+                            <button type="button" class="ti-btn ti-btn-light ">Choose Plan</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
             <p>Slide 2</p>
         </div>
         <div class="carousel-item">
-            <img src="https://via.placeholder.com/300x200" alt="Slide 3">
+            <div class="box-body !p-0">
+                <div class="px-1 py-2 bg-success/30"></div>
+                <div class="!p-6">
+                    <div class="flex justify-between items-center mb-4">
+                        <div class="text-[1.125rem] font-semibold">Team</div>
+                        <div>
+                            <span class="badge bg-success/10 text-success">
+                                For Small Teams
+                            </span>
+                        </div>
+                    </div>
+                    <div class="text-[1.5625rem] font-bold mb-1">$169<sub class="text-[#8c9097] dark:text-white/50 font-semibold text-[.6875rem] ms-1">/
+                            Per Month</sub></div>
+                    <div class="mb-1 text-[#8c9097] dark:text-white/50">Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Iure quos debitis aliquam .</div>
+                    <div class="text-[0.75rem] mb-4"><u>Billed Monthly</u></div>
+                    <ul class="list-none mb-0">
+                        <li class="flex items-center mb-4">
+                            <span class="me-2">
+                                <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                            </span>
+                            <span>
+                                <strong class="me-1">5 Free</strong>Websites
+                            </span>
+                        </li>
+                        <li class="flex items-center mb-4">
+                            <span class="me-2">
+                                <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                            </span>
+                            <span>
+                                <strong class="me-1">5 GB</strong>Hard disk storage
+                            </span>
+                        </li>
+                        <li class="flex items-center mb-4">
+                            <span class="me-2">
+                                <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                            </span>
+                            <span>
+                                <strong class="me-1">2 Years</strong>Email support
+                            </span>
+                        </li>
+                        <li class="flex items-center mb-4">
+                            <span class="me-2">
+                                <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                            </span>
+                            <span>
+                                <strong class="me-1">5</strong>Licenses
+                            </span>
+                        </li>
+                        <li class="flex items-center mb-4">
+                            <span class="me-2">
+                                <i class="ri-checkbox-circle-line text-[.9375rem] text-[#8c9097] dark:text-white/50 opacity-[0.3]"></i>
+                            </span>
+                            <span>
+                                Custom SEO optimizataion
+                            </span>
+                        </li>
+                        <li class="flex items-center mb-4">
+                            <span class="me-2">
+                                <i class="ri-checkbox-circle-line text-[.9375rem] text-[#8c9097] dark:text-white/50 opacity-[0.3]"></i>
+                            </span>
+                            <span>
+                                Chat Support
+                            </span>
+                        </li>
+                        <li class="grid">
+                            <button type="button" class="ti-btn ti-btn-light ">Choose Plan</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
             <p>Slide 3</p>
         </div>
         <div class="carousel-item">
-            <img src="https://via.placeholder.com/300x200" alt="Slide 4">
+            <div class="box-body !p-0">
+                <div class="px-1 py-2 bg-success/30"></div>
+                <div class="!p-6">
+                    <div class="flex justify-between items-center mb-4">
+                        <div class="text-[1.125rem] font-semibold">Team</div>
+                        <div>
+                            <span class="badge bg-success/10 text-success">
+                                For Small Teams
+                            </span>
+                        </div>
+                    </div>
+                    <div class="text-[1.5625rem] font-bold mb-1">$179<sub class="text-[#8c9097] dark:text-white/50 font-semibold text-[.6875rem] ms-1">/
+                            Per Month</sub></div>
+                    <div class="mb-1 text-[#8c9097] dark:text-white/50">Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Iure quos debitis aliquam .</div>
+                    <div class="text-[0.75rem] mb-4"><u>Billed Monthly</u></div>
+                    <ul class="list-none mb-0">
+                        <li class="flex items-center mb-4">
+                            <span class="me-2">
+                                <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                            </span>
+                            <span>
+                                <strong class="me-1">5 Free</strong>Websites
+                            </span>
+                        </li>
+                        <li class="flex items-center mb-4">
+                            <span class="me-2">
+                                <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                            </span>
+                            <span>
+                                <strong class="me-1">5 GB</strong>Hard disk storage
+                            </span>
+                        </li>
+                        <li class="flex items-center mb-4">
+                            <span class="me-2">
+                                <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                            </span>
+                            <span>
+                                <strong class="me-1">2 Years</strong>Email support
+                            </span>
+                        </li>
+                        <li class="flex items-center mb-4">
+                            <span class="me-2">
+                                <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                            </span>
+                            <span>
+                                <strong class="me-1">5</strong>Licenses
+                            </span>
+                        </li>
+                        <li class="flex items-center mb-4">
+                            <span class="me-2">
+                                <i class="ri-checkbox-circle-line text-[.9375rem] text-[#8c9097] dark:text-white/50 opacity-[0.3]"></i>
+                            </span>
+                            <span>
+                                Custom SEO optimizataion
+                            </span>
+                        </li>
+                        <li class="flex items-center mb-4">
+                            <span class="me-2">
+                                <i class="ri-checkbox-circle-line text-[.9375rem] text-[#8c9097] dark:text-white/50 opacity-[0.3]"></i>
+                            </span>
+                            <span>
+                                Chat Support
+                            </span>
+                        </li>
+                        <li class="grid">
+                            <button type="button" class="ti-btn ti-btn-light ">Choose Plan</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
             <p>Slide 4</p>
-        </div>
-        <div class="carousel-item">
-            <img src="https://via.placeholder.com/300x200" alt="Slide 5">
-            <p>Slide 5</p>
         </div>
     </div>
     <button class="carousel-btn left" onclick="scrollCarousel(-1)">&#8249;</button>
