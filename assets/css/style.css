@@ -42492,10 +42492,12 @@ img.img-fluid.service-icon {
   background-size: cover;
   object-fit: cover;
 }
-.threat-banner-top h2{
+.threat-banner-top h2 {
     font-size: 5em;
     font-weight: 700;
     color: #fff;
+    line-height: 1.2;
+    letter-spacing: 1px;
 }
   
 .threat-banner-top p{
