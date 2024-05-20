@@ -624,7 +624,7 @@
                 display: flex;
                 overflow-x: auto;
                 scroll-snap-type: x mandatory;
-                gap: 10px;
+                gap: 9px;
                 padding: 10px;
                 scroll-behavior: smooth;
                 width: 80%;
