@@ -54,79 +54,40 @@
                                 </div>
                                 <div class="grid grid-cols-12 gap-4">
                                     <div class="xl:col-span-12 col-span-12">
-                                        <label for="blog-title" class="form-label">Blog Title</label>
+                                        <label for="blog-title" class="form-label">STORE NAME</label>
                                         <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
-                                            id="blog_title" name="blog_title" placeholder="Blog Title">
+                                            id="blog_title" name="blog_title" placeholder="STORE NAME">
                                         <div class="invalid-feedback"></div>
                                     </div>
                                     <div class="xl:col-span-12 col-span-12">
-                                        <label for="blog Slug" class="form-label">Blog Slug</label>
+                                        <label for="STORE-TYPE" class="form-label">STORE_TYPE</label>
                                         <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
-                                            id="blog_slug" name="blog_slug" placeholder="blog Title">
+                                            id="STORE_TYPE" name="STORE_TYPE" placeholder="STORE TYPE">
                                         <div class="invalid-feedback"></div>
                                     </div>
 
                                     <div class="xl:col-span-6 col-span-12">
-                                        <label for="Meta Title" class="form-label">Meta Title</label>
+                                        <label for="PICK TEXT" class="form-label">PICK TEXT</label>
                                         <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
-                                            id="meta_title" name="meta_title" placeholder="Meta Title">
+                                            id="PICK_TEXT" name="PICK_TEXT" placeholder="PICK TEXT">
                                         <div class="invalid-feedback"></div>
                                     </div>
                                     <div class="xl:col-span-6 col-span-12">
-                                        <label for="canonical-url" class="form-label">Canonical_url</label>
+                                        <label for="canonical-url" class="form-label">PICK_ID</label>
                                         <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
-                                            id="canonical_url" name="canonical_url" placeholder="Enter Canonical Url">
+                                            id="PICK_ID" name="PICK_ID" placeholder="PICK ID">
                                         <div class="invalid-feedback"></div>
                                     </div>
                                     <div class="xl:col-span-6 col-span-12">
-                                        <label for="Meta Keyword" class="form-label">Meta Keyword</label>
-                                        <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
-                                            id="meta_keyword" name="meta_keyword" placeholder="Enter Canonical Url">
+                                        <label for="Meta Keyword" class="form-label">STORE INDEX SEQUENCE</label>
+                                        <input type="number" class="form-control block w-full text-[0.875rem] !rounded-md"
+                                            id="STORE_INDEX_SEQUENCE" name="STORE_INDEX_SEQUENCE" placeholder="STORE INDEX SEQUENCE">
                                         <div class="invalid-feedback"></div>
                                     </div>
                                     <div class="xl:col-span-6 col-span-12">
-                                        <label for="Meta Desc" class="form-label">Meta Desc</label>
+                                        <label for="Meta Desc" class="form-label">PICK TEXT EXTEND</label>
                                         <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
-                                            id="meta_desc" name="meta_desc" placeholder="Enter Canonical Url">
-                                        <div class="invalid-feedback"></div>
-                                    </div>
-                                    {{-- <div class="xl:col-span-6 col-span-12">
-                                    <label for="publish-date" class="form-label">Publish Date</label>
-                                    <input type="date" class="form-control block w-full text-[0.875rem] !rounded-md" id="publish-date" placeholder="Choose date">
-                                </div> --}}
-
-
-                                    <div class="xl:col-span-12 col-span-12">
-                                        <label class="form-label">blog Discription</label>
-                                        <textarea name="blog_description" id="editoronebest"></textarea>
-                                        <div class="invalid-feedback"></div>
-                                    </div>
-
-                                    <div class="xl:col-span-12 col-span-12">
-                                        <label for="blog-Language" class="form-label">Status</label>
-                                        <select class="form-control block w-full text-[0.875rem] !rounded-md" data-trigger
-                                            name="blog_status" id="blog_status">
-                                            <option value="">Select</option>
-                                            @php
-                                                $status = DB::table('storepick')
-                                                    ->where('STORE_ID', 'Status')
-                                                    ->orderBy('STORE_INDEX_SEQUENCE', 'asc')
-                                                    ->get();
-                                            @endphp
-                                            @foreach ($status as $statuss)
-                                                <option value="{{ $statuss->PICK_ID }}">{{ $statuss->PICK_TEXT }}</option>
-                                            @endforeach
-
-                                        </select>
-                                        <div class="invalid-feedback"></div>
-
-                                    </div>
-
-                                    <div class="xl:col-span-12 col-span-12 blog-images-container">
-                                        <label for="blog-author-email" class="form-label">blog Images</label>
-                                        <input type="file" class="blog_images" id="blog_images" name="blog_images"
-                                            multiple data-allow-reorder="true" data-max-file-size="3MB"
-                                            data-max-files="6">
+                                            id="PICK_TEXT_EXTEND" name="PICK_TEXT_EXTEND" placeholder="PICK TEXT EXTEND">
                                         <div class="invalid-feedback"></div>
                                     </div>
 
@@ -135,7 +96,7 @@
                             <div class="box-footer">
                                 <div class="text-end">
                                     {{-- <button type="button" class="ti-btn !py-1 !px-2 ti-btn-light !text-[0.75rem] !font-medium me-2">Save As Draft</button> --}}
-                                    <input type="submit" value="Post blog" id="blog_save_btn"
+                                    <input type="submit" value="Post blog" id="storepick_save_btn"
                                         class="ti-btn bg-primary text-white !py-1 !px-2 !text-[0.75rem] !font-medium">
                                 </div>
                             </div>
