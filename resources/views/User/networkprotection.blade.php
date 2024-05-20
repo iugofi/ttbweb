@@ -361,9 +361,9 @@
                                     alt="" class="img-fluid">
                             </div>
                             <div class="content colum-slide">
-                                <div class="title dark:text-dark/50">
+                                <div class="title 0">
                                     Business Offering</div>
-                                <p class="dark:text-dark/50">
+                                <p class="d">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae
                                     animi nihil
                                     minus.</p>
