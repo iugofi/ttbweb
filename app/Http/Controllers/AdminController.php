@@ -465,6 +465,17 @@ public function newslistshow(){
                     }
 
                 }
+                public function storepickedit($id){
+                    if ($this->loggedInAdmin) {
+                        $decryptid=\Crypt::decrypt($id);
+                        $editstorepick=Storepick::find($decryptid);
+    
+                        return view('Admin.editstorepick',['editstorepick'=>$editstorepick]);
+                    
+                    } else {
+                        return redirect('/setup');
+                    }
+                }
                 public function storepickdelete($id)
                 {
                     if ($this->loggedInAdmin) {
