@@ -34,7 +34,7 @@
         <div class="container main-banner-container">
             <div class="grid grid-cols-12 gap-6">
                 <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 col-span-12">
-                    <img src="{{ asset('assets/img/Shape-2.png') }}" alt="" class="img-fluid">
+                    <img src="{{ asset('assets/img/threat-image1.png') }}" alt="" class="img-fluid">
                 </div>
                 <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 col-span-12">
                    <div class="flex">
@@ -48,6 +48,7 @@
                         at, laborum eligendi necessitatibus est?</p>
                         <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa asperiores quaerat, quia saepe
                             consequuntur laudantium, cum at expedita eligendi perferendis amet fugiat.</p>
+
                     </div>
             </div>
         </div>
