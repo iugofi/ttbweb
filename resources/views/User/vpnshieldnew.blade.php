@@ -236,7 +236,8 @@
     </div>
 </section>
 
-<section class="section vpn-section-seven text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]" id="faq">
+<section class="section vpn-section-seven text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]"
+    id="faq">
     <div class="container text-center">
         <h3 class="font-semibold text-4xl mb-2">Frequently Asked Queries</h3>
         <div class="grid grid-cols-12 justify-center">
@@ -443,7 +444,8 @@
 
 
 
-<section class="section vpn-section-eight !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
+<section
+    class="section vpn-section-eight !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
     id="features">
     <div class="container main-banner-container">
         <div class="grid grid-cols-12 gap-6">
@@ -493,8 +495,6 @@
 
                                 </div>
 
-
-
                             </div>
                             <div class="swiper-pagination"></div>
                         </div>
@@ -508,7 +508,7 @@
 
 
 
-
+{{-- vpn add --}}
 
 
 
