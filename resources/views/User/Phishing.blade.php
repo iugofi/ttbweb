@@ -11,7 +11,7 @@
 
 
     <div class="content">
-    <div class="main-content">
+    {{-- <div class="main-content"> --}}
 
     <section class="Phishing-banner-top">
         <div class="container main-banner-container">
