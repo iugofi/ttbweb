@@ -156,7 +156,7 @@
                                             <li class="flex items-center mb-4">
                                                 <span class="me-2">
                                                     <i
-                                                        class="ri-checkbox-circle-line text-[.9375rem] text-[#8c9097] dark:text-white/50 opacity-[0.3]"></i>
+                                                        class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
                                                 </span>
                                                 <span>
                                                     Custom SEO optimizataion
@@ -165,7 +165,7 @@
                                             <li class="flex items-center mb-4">
                                                 <span class="me-2">
                                                     <i
-                                                        class="ri-checkbox-circle-line text-[.9375rem] text-[#8c9097] dark:text-white/50 opacity-[0.3]"></i>
+                                                        class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
                                                 </span>
                                                 <span>
                                                     Chat Support
@@ -233,7 +233,7 @@
                                             <li class="flex items-center mb-4">
                                                 <span class="me-2">
                                                     <i
-                                                        class="ri-checkbox-circle-line text-[.9375rem] text-[#8c9097] dark:text-white/50 opacity-[0.3]"></i>
+                                                        class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
                                                 </span>
                                                 <span>
                                                     Custom SEO optimizataion
@@ -242,7 +242,7 @@
                                             <li class="flex items-center mb-4">
                                                 <span class="me-2">
                                                     <i
-                                                        class="ri-checkbox-circle-line text-[.9375rem] text-[#8c9097] dark:text-white/50 opacity-[0.3]"></i>
+                                                        class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
                                                 </span>
                                                 <span>
                                                     Chat Support
@@ -310,7 +310,7 @@
                                             <li class="flex items-center mb-4">
                                                 <span class="me-2">
                                                     <i
-                                                        class="ri-checkbox-circle-line text-[.9375rem] text-[#8c9097] dark:text-white/50 opacity-[0.3]"></i>
+                                                        class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
                                                 </span>
                                                 <span>
                                                     Custom SEO optimizataion
@@ -319,7 +319,7 @@
                                             <li class="flex items-center mb-4">
                                                 <span class="me-2">
                                                     <i
-                                                        class="ri-checkbox-circle-line text-[.9375rem] text-[#8c9097] dark:text-white/50 opacity-[0.3]"></i>
+                                                        class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
                                                 </span>
                                                 <span>
                                                     Chat Support
@@ -387,7 +387,7 @@
                                             <li class="flex items-center mb-4">
                                                 <span class="me-2">
                                                     <i
-                                                        class="ri-checkbox-circle-line text-[.9375rem] text-[#8c9097] dark:text-white/50 opacity-[0.3]"></i>
+                                                        class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
                                                 </span>
                                                 <span>
                                                     Custom SEO optimizataion
@@ -396,7 +396,7 @@
                                             <li class="flex items-center mb-4">
                                                 <span class="me-2">
                                                     <i
-                                                        class="ri-checkbox-circle-line text-[.9375rem] text-[#8c9097] dark:text-white/50 opacity-[0.3]"></i>
+                                                        class="ri-checkbox-circle-line text-[.9375rem] text-success></i>
                                                 </span>
                                                 <span>
                                                     Chat Support
