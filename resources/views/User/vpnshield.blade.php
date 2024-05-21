@@ -619,7 +619,7 @@
 
 
 
-        <div class="carousel-container">
+        <div class="carousel-container container main-banner-container">
             <div class="grid-cols-12 mt-5">
             <div class="carousel"> 
                 <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 sm:col-span-12 md:col-span-6 col-span-12">
