@@ -112,7 +112,7 @@
                                                 <span class="badge bg-success/10 text-success">
                                                     For Small Teams
                                                 </span>
-                                            </div>
+                                            </div> 
                                         </div>
                                         <div class="text-[1.5625rem] font-bold mb-1">$149<sub
                                                 class="text-[#8c9097] dark:text-white/50 font-semibold text-[.6875rem] ms-1">/
