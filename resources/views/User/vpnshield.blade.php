@@ -619,8 +619,10 @@
 
 
 
-        <div class="carousel-container">
-            <div class="carousel">
+        <div class="carousel-container container main-banner-container">
+            <div class="grid-cols-12 mt-5">
+            <div class="carousel"> 
+                <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 sm:col-span-12 md:col-span-6 col-span-12">
                 <div class="carousel-item">
                     <div class="box-body !p-0 slider-box">
                         <div class="!p-6">
@@ -696,6 +698,9 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 sm:col-span-12 md:col-span-6 col-span-12">
+
                 <div class="carousel-item">
                     <div class="box-body !p-0 slider-box">
                         <div class="!p-6">
@@ -771,6 +776,10 @@
                         </div>
                     </div>
                 </div>
+            </div>
+
+                <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 sm:col-span-12 md:col-span-6 col-span-12">
+
                 <div class="carousel-item">
                     <div class="box-body !p-0 slider-box">
                         <div class="!p-6">
@@ -846,6 +855,10 @@
                         </div>
                     </div>
                 </div>
+            </div>
+
+                <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 sm:col-span-12 md:col-span-6 col-span-12">
+
                 <div class="carousel-item">
                     <div class="box-body !p-0 slider-box">
                         <div class="!p-6">
@@ -921,6 +934,10 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+
+
             </div>
             <button class="carousel-btn left" onclick="scrollCarousel(-1)">&#8249;</button>
             <button class="carousel-btn right" onclick="scrollCarousel(1)">&#8250;</button>

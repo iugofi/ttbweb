@@ -43586,10 +43586,10 @@ h6.uppercase {
     display: flex;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
-    gap: 9px;
-    padding: 10px;
+    gap: 8px;
+    padding: 12px;
     scroll-behavior: smooth;
-    width: 80%;
+    width: 81.555%;
     margin: auto;
 }
 
@@ -43627,7 +43627,7 @@ h6.uppercase {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: rgba(0, 0, 0, 0.5);
+    background: #12D2B3
     color: white;
     border: none;
     border-radius: 50%;
@@ -43640,11 +43640,14 @@ h6.uppercase {
 }
 
 .carousel-btn.left {
-    left: 10px;
+    left: 135px;
+    font-size: 24px;
+    align-items: center;
 }
 
 .carousel-btn.right {
-    right: 10px;
+    right: 143px;
+    font-size: 24px;
 }
 
 @media (max-width: 768px) {
