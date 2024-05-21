@@ -620,6 +620,13 @@
 
 
         <div class="carousel-container container main-banner-container">
+            <h3 class="font-semibold mb-2">Pricing Plan</h3>
+                <div class="grid grid-cols-12 justify-center">
+                    <div class="col-span-12">
+                        <p class="text-[#8c9097] dark:text-white/50 text-[0.9375rem] mb-12 font-normal">We have shared some
+                            of the most frequently asked questions to help you out.</p>
+                    </div>
+                </div>
             <div class="grid-cols-12 mt-5">
             <div class="carousel"> 
                 <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 sm:col-span-12 md:col-span-6 col-span-12">
@@ -700,7 +707,6 @@
                 </div>
             </div>
             <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 sm:col-span-12 md:col-span-6 col-span-12">
-
                 <div class="carousel-item">
                     <div class="box-body !p-0 slider-box">
                         <div class="!p-6">
@@ -777,9 +783,7 @@
                     </div>
                 </div>
             </div>
-
                 <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 sm:col-span-12 md:col-span-6 col-span-12">
-
                 <div class="carousel-item">
                     <div class="box-body !p-0 slider-box">
                         <div class="!p-6">
@@ -856,9 +860,7 @@
                     </div>
                 </div>
             </div>
-
                 <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 sm:col-span-12 md:col-span-6 col-span-12">
-
                 <div class="carousel-item">
                     <div class="box-body !p-0 slider-box">
                         <div class="!p-6">
