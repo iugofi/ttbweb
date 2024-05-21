@@ -7,7 +7,13 @@
 @section('content')
 
 
-
+<style>
+    .itsmyown
+    {
+    color: #12d2b3;
+    background-color: #12d2b312; 
+    }
+</style>
 
 
 
@@ -123,7 +129,7 @@
                                 recentPostHtml += '<li class="list-group-item">';
                                 recentPostHtml +=
                                     '<div class="flex gap-2 flex-wrap items-center">';
-                                recentPostHtml += '<span class="avatar avatar-xl me-1">';
+                                recentPostHtml += '<span class="avatar avatar-xl itsmyown me-1">';
                                 recentPostHtml += '</span>';
                                 recentPostHtml += '<div class="flex-grow">';
                                 recentPostHtml +=
