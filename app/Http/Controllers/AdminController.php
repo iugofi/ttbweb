@@ -1007,10 +1007,12 @@ public function newslistshow(){
                     }
                 }
 
-                public function editplansearch(){
+
+                public function editplansearch(Reqest $request){
                     if ($this->loggedInAdmin) {
-                   
-                        $plandetails = Plandetails::all(); 
+                        $key_id=$request->KEY_ID;
+                        $plan_id=$request->PLAN_ID;
+                        $plandetails = Plandetails::where('plan_id',$plan_id)->where('key_type',$key_id)->get(); 
                         return response()->json($plandetails);
                 
                     } else {
