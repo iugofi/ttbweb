@@ -11,6 +11,8 @@ use App\Models\News;
 use App\Models\Blog; 
 use App\Models\Storepick; 
 use App\Models\Planname; 
+use App\Models\Plandetails; 
+
 use Illuminate\Support\Facades\File;
 
 
@@ -864,6 +866,16 @@ public function newslistshow(){
                         $plan = Planname::all();
             
                     return view('Admin.planlist',['plan'=>$plan]);
+                    } else {
+                        return redirect('/setup');
+                    }
+                }
+
+                public function plandetailsshow(){
+                    if ($this->loggedInAdmin) {
+                        $plandetails = Plandetails::all();
+            
+                    return view('Admin.plandetailslist',['plandetails'=>$plandetails]);
                     } else {
                         return redirect('/setup');
                     }

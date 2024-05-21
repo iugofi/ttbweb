@@ -205,6 +205,9 @@ Route::get('/fatchadmindataajax', [AdminController::class, 'fatchadmindataajax']
 //plan details
 Route::get('/planshow', [AdminController::class, 'planlistshow'])->name('plan.listshow');
 
+Route::get('/plandetailsshow', [AdminController::class, 'plandetailsshow'])->name('plan.detailsshow');
+
+
 
 
 
