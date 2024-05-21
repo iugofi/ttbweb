@@ -65,7 +65,7 @@
                             <form id="form_search" method="post">
                             <div class="grid md:grid-cols-4 sm:grid-cols-2 gap-2">
                                 <div class="xl:col-span-1 md:col-span-1 sm:col-span-1 col-span-2">
-                                    <select id="KEY_ID" class="form-control">
+                                    <select id="KEY_ID" class="form-control" name="KEY_ID">
                                         <option value=" ">-Select Key Type-</option>
                                         @foreach ($keydata as $storeId)
                                             <option value="{{ $storeId->PICK_ID }}">{{ $storeId->PICK_TEXT }}</option>
@@ -73,7 +73,7 @@
                                     </select>
                                 </div>
                                 <div class="xl:col-span-1 md:col-span-1 sm:col-span-1 col-span-2">
-                                    <select id="PLAN_ID" class="form-control">
+                                    <select id="PLAN_ID" class="form-control" name="PLAN_ID">
                                         <option value=" ">-Select Plan Type-</option>
                                         @foreach ($plandata as $plandatas)
                                             <option value="{{ $plandatas->plan_id }}">{{ $plandatas->name }}</option>
