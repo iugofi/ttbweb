@@ -871,6 +871,15 @@ public function newslistshow(){
                     }
                 }
 
+                public function plancreate(){
+                    if ($this->loggedInAdmin && $this->admintype == 'superadmin') {
+            
+                    return view('Admin.plancreate');
+                    } else {
+                        return redirect('/setup');
+                    }
+                }
+
                 public function plandetailsshow(){
                     if ($this->loggedInAdmin && $this->admintype == 'superadmin') {
                         $plandetails = Plandetails::all();
