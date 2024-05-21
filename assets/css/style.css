@@ -43610,12 +43610,12 @@ h6.uppercase {
 }
 
 .carousel-item {
-    min-width: 300px;
+    min-width: 355px;
     flex: 0 0 33.111%;
     scroll-snap-align: start;
     background: #ffffff;
     border-radius: 8px;
-    padding: 20px;
+    padding: 0px;
     text-align: center;
     margin: auto;
     overflow: hidden;
@@ -43660,6 +43660,13 @@ h6.uppercase {
 .carousel-btn.right {
     right: 122px;
     font-size: 24px;
+}
+.dark .slider-box {
+    box-shadow: 0 0.5rem 1rem rgb(255 255 255 / 32%) !important;
+    margin: 14px;
+}
+.dark .carousel-item {
+    background-color: #212325 !important;
 }
 
 /* @media (max-width: 768px) {
