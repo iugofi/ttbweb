@@ -212,8 +212,9 @@
                 $('#btn_search').val('please wait..');
                 var token = $('meta[name="csrf-token"]').attr('content');
                 var formData = new FormData($(this)[0]);
-                
-                $.ajax({
+                if(formData)
+                {
+                   $.ajax({
                     url:  "{{ route('search.editplansearch') }}",
                     method: 'post',
                     data: formData,
@@ -262,7 +263,12 @@
                        
                     },
                     error: function(xhr, status, error) {}
-                });
+                }); 
+                }
+                else {
+                $('#showdata tbody').empty();
+            }
+                
             });
 
         });
