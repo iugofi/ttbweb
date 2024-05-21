@@ -95,7 +95,7 @@
                                                         <i class="ri-edit-line"></i>
                                                     </a>
                                                     <button aria-label="button" type="button"
-                                                        class="ti-btn !py-1 !px-2 !text-[0.75rem] ti-btn-danger-full btn-wave delete-blogs"
+                                                        class="ti-btn !py-1 !px-2 !text-[0.75rem] ti-btn-danger-full btn-wave delete-plan"
                                                         data-item-id="{{ $item->id }}">
                                                         <i
                                                             class="ri-delete-bin-line align-middle me-2 inline-block"></i>Delete
@@ -198,9 +198,9 @@
     <script>
         $(document).ready(function() {
             var csrfToken = $('meta[name="csrf-token"]').attr('content');
-            $('.delete-blogs').click(function() {
+            $('.delete-plan').click(function() {
                 var itemId = $(this).data('item-id');
-                var url = "{{ route('delete.blogsdelete', ':id') }}";
+                var url = "{{ route('delete.plandelete', ':id') }}";
                 url = url.replace(':id', itemId);
 
                 // Show confirmation dialog before deleting

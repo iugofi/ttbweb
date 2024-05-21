@@ -207,6 +207,8 @@ Route::get('/planshow', [AdminController::class, 'planlistshow'])->name('plan.li
 Route::get('/plancreate', [AdminController::class, 'plancreate'])->name('plan.plancreate');
 Route::get('/facthplan', [AdminController::class, 'facthplan'])->name('fatch.facthplan');
 Route::post('/saveplan', [AdminController::class, 'saveplan'])->name('save.saveplan');
+Route::delete('/plandelete/{id}', [AdminController::class, 'plandelete'])->name('delete.plandelete');
+
 
 
 

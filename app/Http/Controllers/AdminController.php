@@ -918,12 +918,22 @@ public function newslistshow(){
                                 ]);
                 
                                 }
-                                
-                
+            
                             } else {
                                 return redirect('/setup');
                             }
                             }
+
+                    public function plandelete($id)
+                    {
+                        if ($this->loggedInAdmin) {
+                            $item = Planname::findOrFail($id);
+                            $item->delete();
+                            return response()->json(['message' => 'Plan deleted successfully']);
+                        } else {
+                            return redirect('/setup'); 
+                        }
+                    }
 
                 public function plandetailsshow(){
                     if ($this->loggedInAdmin && $this->admintype == 'superadmin') {
