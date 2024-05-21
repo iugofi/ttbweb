@@ -79,6 +79,9 @@
                                         @endforeach
                                     </select>
                                 </div>
+                                <div class="xl:col-span-1 md:col-span-1 sm:col-span-1 col-span-2">
+                                <input type="submit" class="m-1 ti-btn ti-btn-primary-full" value="Search">
+                                </div>
                             </div>
 
 
