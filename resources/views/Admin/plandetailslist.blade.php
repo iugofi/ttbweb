@@ -204,19 +204,18 @@
             });
         </script>
 
-
-       <script>
-        $(document).ready(function() {
-            $('#form_search').submit(function(e) {
-                e.preventDefault();
-                $('#btn_search').val('please wait..');
-                var token = $('meta[name="csrf-token"]').attr('content');
-                var formData = new FormData($(this)[0]);
-                if(formData)
-                {
-                   $.ajax({
-                    url:  "{{ route('search.editplansearch') }}",
-                    method: 'post',
+<script>
+    $(document).ready(function() {
+        $('#form_search').submit(function(e) {
+            e.preventDefault();
+            $('#btn_search').val('Please wait...');
+            var token = $('meta[name="csrf-token"]').attr('content');
+            var formData = new FormData($(this)[0]);
+    
+            if (formData) {
+                $.ajax({
+                    url: "{{ route('search.editplansearch') }}",
+                    method: 'POST',
                     data: formData,
                     headers: {
                         'X-CSRF-TOKEN': token
@@ -226,54 +225,46 @@
                     success: function(response) {
                         var tbody = $('#showdata tbody');
                         tbody.empty();
-                        $.each(response.plandetails, function(key, item) {
-                            console.log(item);
+    
+                        $.each(response, function(key, item) {
                             var row = '<tr>' +
-                                '<td class="border px-4 py-2">' + (key + 1) +
-                                '</td>' +
-                                '<td class="border px-4 py-2">' + item.key_type +
-                                '</td>' +
-                                '<td class="border px-4 py-2">' + item.plan_id +
-                                '</td>' +
-                                '<td class="border px-4 py-2">' + item.price +
-                                '</td>' +
-                                '<td class="border px-4 py-2">' + item.image +
-                                '</td>' +
-                                '<td class="border px-4 py-2">' + item.discount +
-                                '</td>' +
-                                '<td class="border">' + item.coupons +
-                                '</td>' +
-                                '<td class="border">' + item.is_coupons +
-                                '</td>' +
-                                
+                                '<td class="border px-4 py-2">' + (key + 1) + '</td>' +
+                                '<td class="border px-4 py-2">' + item.key_type + '</td>' +
+                                '<td class="border px-4 py-2">' + item.plan_id + '</td>' +
+                                '<td class="border px-4 py-2">' + item.price + '</td>' +
+                                '<td class="border px-4 py-2">' + item.image + '</td>' +
+                                '<td class="border px-4 py-2">' + item.discount + '</td>' +
+                                '<td class="border">' + item.coupons + '</td>' +
+                                '<td class="border">' + item.is_coupons + '</td>' +
                                 '<td class="border px-4 py-2">' +
                                 '<div class="flex flex-row items-center !gap-2 text-[0.9375rem]">' +
-                                '<a aria-label="anchor" href="{{ route('edit.adminuseredit', ':encrypted_id')}}" class="ti-btn ti-btn-icon ti-btn-wave !gap-0 !m-0 !h-[1.75rem] !w-[1.75rem] text-[0.8rem] bg-primary/10 text-primary hover:bg-primary hover:text-white hover:border-primary">' +
+                                '<a aria-label="anchor" href="{{ route('edit.adminuseredit', ':encrypted_id') }}" class="ti-btn ti-btn-icon ti-btn-wave !gap-0 !m-0 !h-[1.75rem] !w-[1.75rem] text-[0.8rem] bg-primary/10 text-primary hover:bg-primary hover:text-white hover:border-primary">' +
                                 '<i class="ri-edit-line"></i>' +
                                 '</a>' +
-                                '<button aria-label="button" type="button" class="ti-btn !py-1 !px-2 !text-[0.75rem] ti-btn-danger-full btn-wave delete-storepick" data-item-id="' +
-                                item.id + '">' +
+                                '<button aria-label="button" type="button" class="ti-btn !py-1 !px-2 !text-[0.75rem] ti-btn-danger-full btn-wave delete-storepick" data-item-id="' + item.id + '">' +
                                 '<i class="ri-delete-bin-line align-middle me-2 inline-block"></i>Delete' +
                                 '</button>' +
                                 '</div>' +
                                 '</td>' +
                                 '</tr>';
-                                row = row.replace(':encrypted_id', item.encrypted_id);
+                            row = row.replace(':encrypted_id', item.encrypted_id);
                             tbody.append(row);
                         });
-                       
+    
+                        $('#btn_search').val('Search');
                     },
-                    error: function(xhr, status, error) {}
-                }); 
-                }
-                else {
+                    error: function(xhr, status, error) {
+                        console.error(error);
+                        $('#btn_search').val('Search');
+                    }
+                });
+            } else {
                 $('#showdata tbody').empty();
             }
-                
-            });
-
         });
-       </script>
+    });
+    </script>
+    
 
         <script>
             $(document).ready(function() {
