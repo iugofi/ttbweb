@@ -108,7 +108,7 @@
                                                 $pickId = $item->plan_id;
                                                 $items = DB::select('SELECT * FROM planname  WHERE plan_id = ?', [$pickId]);
                                                 if (!empty($items)) {
-                                                echo $items[0]->NAME;
+                                                echo $items[0]->name;
                                             } else {
                                                 echo 'No Plan'; 
                                             }
