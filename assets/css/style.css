@@ -43598,7 +43598,7 @@ h6.uppercase {
 }
 
 .carousel-item {
-    min-width: 300px;
+    min-width: 350px;
     flex: 0 0 33.111%;
     scroll-snap-align: start;
     background: #ffffff;
@@ -43650,7 +43650,7 @@ h6.uppercase {
     font-size: 24px;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .carousel-item {
         min-width: 200px;
     }
@@ -43660,7 +43660,7 @@ h6.uppercase {
     .carousel-item {
         min-width: 150px;
     }
-}
+} */
 
 
 /* End vpn-shild banner css */
