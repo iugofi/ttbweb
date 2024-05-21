@@ -862,7 +862,7 @@ public function newslistshow(){
                 }
 
                 public function planlistshow(){
-                    if ($this->loggedInAdmin) {
+                    if ($this->loggedInAdmin && $this->admintype == 'superadmin') {
                         $plan = Planname::all();
             
                     return view('Admin.planlist',['plan'=>$plan]);
@@ -872,7 +872,7 @@ public function newslistshow(){
                 }
 
                 public function plandetailsshow(){
-                    if ($this->loggedInAdmin) {
+                    if ($this->loggedInAdmin && $this->admintype == 'superadmin') {
                         $plandetails = Plandetails::all();
                         $keydata=Storepick::where('STORE_ID','key_type')->get();
                         $plandata=Planname::all();
