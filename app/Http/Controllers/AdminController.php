@@ -862,7 +862,7 @@ public function newslistshow(){
                 }
 
                 public function planlistshow(){
-                    if ($this->loggedInAdmin) {
+                    if ($this->loggedInAdmin && $this->admintype == 'superadmin') {
                         $plan = Planname::all();
             
                     return view('Admin.planlist',['plan'=>$plan]);
