@@ -90,7 +90,15 @@
                                                 $id = 1;
                                             @endphp
                                             <td class="border px-4 py-2">{{ $key + 1 }}</td>  
-                                            <td class="border px-4 py-2">{{ $item->key_type }}</td>                                                             
+                                            <td class="border px-4 py-2">
+                                                @php
+                                                $storeId = 'key_type';
+                                                $pickId = $item->key_type;
+                                                $items = DB::select('SELECT * FROM storepick WHERE STORE_ID = ? AND PICK_ID = ?', [$storeId, $pickId]);
+                                                echo $items->PICK_TEXT;
+                                            @endphp
+                                            
+                                        </td>                                                             
                                             <td class="border px-4 py-2">{{ $item->plan_id }}</td>  
                                             <td class="border px-4 py-2">{{ $item->price }}</td>                               
                                             <td class="border px-4 py-2">{{ $item->image }}</td> 
