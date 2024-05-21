@@ -895,7 +895,7 @@ public function newslistshow(){
                     if ($this->loggedInAdmin) {
                         $validator = Validator::make($request->all(), [
                             'planname' => 'required',
-                            'plan_id' => 'required'
+                            'plan_id' => 'required|unique:planename,plain_id'
                         
                         ]);
                         if ($validator->fails()) {
