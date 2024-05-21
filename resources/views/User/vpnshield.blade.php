@@ -709,7 +709,7 @@
         <div class="carousel-container">
             <div class="carousel">
                 <div class="carousel-item">
-                    <div class="box-body !p-0 box-shadow">
+                    <div class="box-body !p-0 box-slider">
                         <div class="!p-6">
                             <div class="flex justify-between items-center mb-4">
                                 <div class="text-[1.125rem] font-semibold">Team</div>
@@ -784,7 +784,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="box-body !p-0 box-shadow">
+                    <div class="box-body !p-0 box-slider">
                         <div class="!p-6">
                             <div class="flex justify-between items-center mb-4">
                                 <div class="text-[1.125rem] font-semibold">Team</div>
@@ -859,7 +859,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="box-body !p-0 box-shadow">
+                    <div class="box-body !p-0 box-slider">
                         <div class="!p-6">
                             <div class="flex justify-between items-center mb-4">
                                 <div class="text-[1.125rem] font-semibold">Team</div>
@@ -934,7 +934,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="box-body !p-0 box-shadow">
+                    <div class="box-body !p-0 box-slider">
                         <div class="!p-6">
                             <div class="flex justify-between items-center mb-4">
                                 <div class="text-[1.125rem] font-semibold">Team</div>
