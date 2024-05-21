@@ -43657,13 +43657,13 @@ h6.uppercase {
 }
 
 .carousel-btn.left {
-    left: 114px;
+    left: 5px;
     font-size: 24px;
     align-items: center;
 }
 
 .carousel-btn.right {
-    right: 122px;
+    right: 14px;
     font-size: 24px;
 }
 .dark .slider-box {
