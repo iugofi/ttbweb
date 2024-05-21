@@ -156,7 +156,7 @@
                                             <li class="flex items-center mb-4">
                                                 <span class="me-2">
                                                     <i
-                                                        class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                                                        class="ri-checkbox-circle-line text-[.9375rem] text-[#8c9097] dark:text-white/50 opacity-[0.3]"></i>
                                                 </span>
                                                 <span>
                                                     Custom SEO optimizataion
@@ -165,21 +165,21 @@
                                             <li class="flex items-center mb-4">
                                                 <span class="me-2">
                                                     <i
-                                                        class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                                                        class="ri-checkbox-circle-line text-[.9375rem] text-[#8c9097] dark:text-white/50 opacity-[0.3]"></i>
                                                 </span>
                                                 <span>
                                                     Chat Support
                                                 </span>
                                             </li>
                                             <li class="grid">
-                                                <button type="button" class="m-1 ti-btn ti-btn-primary-full ">Choose Plan</button>
+                                                <button type="button" class="ti-btn ti-btn-light ">Choose Plan</button>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 sm:col-span-12 md:col-span-6 col-span-12 me-5">
+                        <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 sm:col-span-12 md:col-span-6 col-span-12">
                             <div class="dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 carousel-item ">
                                 <div class="box-body !p-0 slider-box">
                                     <div class="!p-6">
@@ -233,7 +233,7 @@
                                             <li class="flex items-center mb-4">
                                                 <span class="me-2">
                                                     <i
-                                                        class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                                                        class="ri-checkbox-circle-line text-[.9375rem] text-[#8c9097] dark:text-white/50 opacity-[0.3]"></i>
                                                 </span>
                                                 <span>
                                                     Custom SEO optimizataion
@@ -242,21 +242,21 @@
                                             <li class="flex items-center mb-4">
                                                 <span class="me-2">
                                                     <i
-                                                        class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                                                        class="ri-checkbox-circle-line text-[.9375rem] text-[#8c9097] dark:text-white/50 opacity-[0.3]"></i>
                                                 </span>
                                                 <span>
                                                     Chat Support
                                                 </span>
                                             </li>
                                             <li class="grid">
-                                                <button type="button" class="m-1 ti-btn ti-btn-primary-full">Choose Plan</button>
+                                                <button type="button" class="ti-btn ti-btn-light ">Choose Plan</button>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 sm:col-span-12 md:col-span-6 col-span-12 me-5">
+                        <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 sm:col-span-12 md:col-span-6 col-span-12">
                             <div class="dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 carousel-item ">
                                 <div class="box-body !p-0 slider-box">
                                     <div class="!p-6">
@@ -310,7 +310,7 @@
                                             <li class="flex items-center mb-4">
                                                 <span class="me-2">
                                                     <i
-                                                        class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                                                        class="ri-checkbox-circle-line text-[.9375rem] text-[#8c9097] dark:text-white/50 opacity-[0.3]"></i>
                                                 </span>
                                                 <span>
                                                     Custom SEO optimizataion
@@ -319,21 +319,21 @@
                                             <li class="flex items-center mb-4">
                                                 <span class="me-2">
                                                     <i
-                                                        class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                                                        class="ri-checkbox-circle-line text-[.9375rem] text-[#8c9097] dark:text-white/50 opacity-[0.3]"></i>
                                                 </span>
                                                 <span>
                                                     Chat Support
                                                 </span>
                                             </li>
                                             <li class="grid">
-                                                <button type="button" class="m-1 ti-btn ti-btn-primary-full">Choose Plan</button>
+                                                <button type="button" class="ti-btn ti-btn-light ">Choose Plan</button>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 sm:col-span-12 md:col-span-6 col-span-12 me-5">
+                        <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 sm:col-span-12 md:col-span-6 col-span-12">
                             <div class="dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 carousel-item ">
                                 <div class="box-body !p-0 slider-box">
                                     <div class="!p-6">
@@ -387,7 +387,7 @@
                                             <li class="flex items-center mb-4">
                                                 <span class="me-2">
                                                     <i
-                                                        class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                                                        class="ri-checkbox-circle-line text-[.9375rem] text-[#8c9097] dark:text-white/50 opacity-[0.3]"></i>
                                                 </span>
                                                 <span>
                                                     Custom SEO optimizataion
@@ -396,14 +396,14 @@
                                             <li class="flex items-center mb-4">
                                                 <span class="me-2">
                                                     <i
-                                                        class="ri-checkbox-circle-line text-[.9375rem] text-success></i>
+                                                        class="ri-checkbox-circle-line text-[.9375rem] text-[#8c9097] dark:text-white/50 opacity-[0.3]"></i>
                                                 </span>
                                                 <span>
                                                     Chat Support
                                                 </span>
                                             </li>
                                             <li class="grid">
-                                                <button type="button" class="m-1 ti-btn ti-btn-primary-full">Choose Plan</button>
+                                                <button type="button" class="ti-btn ti-btn-light ">Choose Plan</button>
                                             </li>
                                         </ul>
                                     </div>
