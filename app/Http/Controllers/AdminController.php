@@ -891,6 +891,42 @@ public function newslistshow(){
                 }
                 }
 
+                public function saveplan(Request $request){
+                    if ($this->loggedInAdmin) {
+                
+                        $validator = Validator::make($request->all(), [
+                            'planname' => 'required',
+                            'plan_id' => 'required'
+                        
+                        ]);
+                        
+                        if ($validator->fails()) {
+                            return response()->json([
+                                'status' => 400,
+                                'messages' => $validator->getMessageBag()->toArray()
+                            ]);
+                        }
+                        else
+                        {
+                
+                                $plan = new Planname();
+                                $plan->plan_id = $request->plan_id;
+                                $plan->name = $request->planname;
+                                $plan->save();
+                                
+                                return response()->json([
+                                    'status' => 200,
+                                    'messages' => 'Plan Add successfully'
+                                ]);
+                
+                                }
+                                
+                
+                            } else {
+                                return redirect('/setup');
+                            }
+                            }
+
                 public function plandetailsshow(){
                     if ($this->loggedInAdmin && $this->admintype == 'superadmin') {
                         $plandetails = Plandetails::all();

@@ -78,7 +78,7 @@
                             <div class="box-footer">
                                 <div class="text-end">
                                     {{-- <button type="button" class="ti-btn !py-1 !px-2 ti-btn-light !text-[0.75rem] !font-medium me-2">Save As Draft</button> --}}
-                                    <input type="submit" value="Save Plan" id="admin_save_btn"
+                                    <input type="submit" value="Save Plan" id="plan_save_btn"
                                         class="ti-btn bg-primary text-white !py-1 !px-2 !text-[0.75rem] !font-medium">
                                 </div>
                             </div>
@@ -113,7 +113,7 @@
 
     <script>
         $(document).ready(function() {
-            function fetchNews() {
+            function fetchPlan() {
                 $.ajax({
                     url: "{{ route('fatch.facthplan') }}",
                     type: 'GET',
@@ -161,14 +161,14 @@
                 });
             }
 
-            $('#admin_form').submit(function(e) {
+            $('#plan_form').submit(function(e) {
                 e.preventDefault();
-                $('#admin_save_btn').val('please wait..');
+                $('#plan_save_btn').val('please wait..');
                 var token = $('meta[name="csrf-token"]').attr('content');
                 var formData = new FormData($(this)[0]);
 
                 $.ajax({
-                    url: '{{ route('save.saveuseradmin') }}',
+                    url: '{{ route('save.saveplan') }}',
                     method: 'post',
                     data: formData,
                     headers: {
@@ -178,26 +178,24 @@
                     processData: false,
                     success: function(response) {
                         if (response.status == 400) {
-                            showError('email', response.messages.email);
-                            showError('name', response.messages.name);
-                            showError('username', response.messages.username);
-                            showError('password', response.messages.password);
-                            showError('admin_status', response.messages.admin_status);
-                            $('#admin_save_btn').val('Save Admin');
+                            showError('planname', response.messages.planname);
+                            showError('plan_id', response.messages.plan_id);
+                        
+                            $('#plan_save_btn').val('Save Plan');
                         } else if (response.status == 200) {
                             $('.invalid-feedback').empty();
                             $("#show_success_alert").html(showMessage('success', response
                                 .messages));
-                            $('#admin_form')[0].reset();
-                            removeValidationClass("#admin_form");
-                            $('#admin_save_btn').val('Save Admin');
-                            fetchNews();
+                            $('#plan_form')[0].reset();
+                            removeValidationClass("#plan_form");
+                            $('#plan_save_btn').val('Save Plan');
+                            fetchPlan();
                         }
                     },
                     error: function(xhr, status, error) {}
                 });
             });
-            fetchNews();
+            fetchPlan();
         });
     </script>
 
