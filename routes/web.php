@@ -210,6 +210,8 @@ Route::post('/saveplan', [AdminController::class, 'saveplan'])->name('save.savep
 Route::delete('/plandelete/{id}', [AdminController::class, 'plandelete'])->name('delete.plandelete');
 Route::get('/planedit/{id}', [AdminController::class, 'planedit'])->name('edit.planedit');
 Route::post('/editplansave', [AdminController::class, 'editplansave'])->name('edit.editplansave');
+Route::post('/editplansearch', [AdminController::class, 'editplansearch'])->name('edit.editplansearch');
+
 
 
 
