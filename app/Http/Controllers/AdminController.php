@@ -937,6 +937,18 @@ public function newslistshow(){
                         }
                     }
 
+                    public function planedit($id){
+                        if ($this->loggedInAdmin) {
+                         $decryptid=\Crypt::decrypt($id);
+                            $editplan=Planname::find($decryptid);
+        
+                            return view('Admin.editplan',['editplan'=>$editplan]);
+                        
+                        } else {
+                            return redirect('/setup');
+                        }
+                    }
+
                 public function plandetailsshow(){
                     if ($this->loggedInAdmin && $this->admintype == 'superadmin') {
                         $plandetails = Plandetails::all();
