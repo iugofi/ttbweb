@@ -67,7 +67,7 @@
                                 <select id="STORE_ID" class="form-control">
                                     <option value=" ">-Select key Type-</option>
                                     @foreach ($keydata as $storeId)
-                                        <option value="{{ $storeId->plan_id }}">{{ $storeId->name }}</option>
+                                        <option value="{{ $storeId->PICK_ID }}">{{ $storeId->PICK_TEXT }}</option>
                                     @endforeach
                                 </select>
                             </div>
