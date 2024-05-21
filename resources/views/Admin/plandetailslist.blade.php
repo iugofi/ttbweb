@@ -95,7 +95,11 @@
                                                 $storeId = 'key_type';
                                                 $pickId = $item->key_type;
                                                 $items = DB::select('SELECT * FROM storepick WHERE STORE_ID = ? AND PICK_ID = ?', [$storeId, $pickId]);
-                                                echo $items->PICK_TEXT;
+                                                if (!empty($items)) {
+                                                echo $items[0]->PICK_TEXT;
+                                            } else {
+                                                echo 'No Key'; 
+                                            }
                                             @endphp
                                             
                                         </td>                                                             
