@@ -64,15 +64,15 @@
                         <div class="box-body">
                             <div class="grid md:grid-cols-4 sm:grid-cols-2 gap-2">
                                 <div class="xl:col-span-1 md:col-span-1 sm:col-span-1 col-span-2">
-                                    <select id="STORE_ID" class="form-control">
-                                        <option value=" ">-Select key Type-</option>
+                                    <select id="KEY_ID" class="form-control">
+                                        <option value=" ">-Select Key Type-</option>
                                         @foreach ($keydata as $storeId)
                                             <option value="{{ $storeId->PICK_ID }}">{{ $storeId->PICK_TEXT }}</option>
                                         @endforeach
                                     </select>
                                 </div>
                                 <div class="xl:col-span-1 md:col-span-1 sm:col-span-1 col-span-2">
-                                    <select id="STORE_ID" class="form-control">
+                                    <select id="PLAN_ID" class="form-control">
                                         <option value=" ">-Select Plan Type-</option>
                                         @foreach ($plandata as $plandatas)
                                             <option value="{{ $plandatas->plan_id }}">{{ $plandatas->name }}</option>
@@ -80,7 +80,7 @@
                                     </select>
                                 </div>
                             </div>
-                           
+
 
 
                             <div class="box-body">
@@ -202,7 +202,7 @@
             $(document).ready(function() {
                 $('#STORE_ID').on('change', function() {
                     var storeId = $(this).val();
-                    console.log(storeId);
+
                     if (storeId) {
                         $.ajax({
                             url: '{{ route('fetch.fatchadmindataajax') }}',
