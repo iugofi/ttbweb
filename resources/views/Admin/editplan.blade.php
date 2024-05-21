@@ -46,7 +46,7 @@
                         <div class="box-header">
                             <div class="box-title">Plan Edit</div>
                         </div>
-                        <form method="post" id="edit_storepick_form" enctype="multipart/form-data">
+                        <form method="post" id="edit_plan_form" enctype="multipart/form-data">
                             @csrf
                             <div class="box-body">
                                 <div class="box text-center">
