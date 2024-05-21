@@ -202,6 +202,10 @@ Route::post('/saveuseradmin', [AdminController::class, 'saveuseradmin'])->name('
 Route::get('/facthadmin', [AdminController::class, 'facthadmin'])->name('fatch.facthadmin');
 Route::get('/fatchadmindataajax', [AdminController::class, 'fatchadmindataajax'])->name('fetch.fatchadmindataajax');
 
+//plan details
+Route::get('/planshow', [AdminController::class, 'planlistshow'])->name('plan.listshow');
+
+
 
 
 });

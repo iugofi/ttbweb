@@ -95,7 +95,16 @@
                 @php
                
                if (session('admintype')== 'superadmin') {
-                @endphp                
+                @endphp 
+                <li class="slide__category"><span class="category-name">Plan Details</span></li>
+
+                    <li class="slide">
+                        <a href="{{route('plan.listshow')}}" class="side-menu__item">
+                            <i class="fa-solid fa-location-dot side-menu__icon"></i>
+                            <span class="side-menu__label">Plan List</span>
+                        </a>
+                    </li>
+
                     <li class="slide__category"><span class="category-name">Payment Details</span></li>
 
                     <li class="slide">

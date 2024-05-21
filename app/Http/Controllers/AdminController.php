@@ -39,15 +39,15 @@ class AdminController extends Controller
         }
     }
 
-    public function newslist(){
-    if ($this->loggedInAdmin) {
-        $news = News::orderBy('id', 'desc')->get();
+        public function newslist(){
+        if ($this->loggedInAdmin) {
+            $news = News::orderBy('id', 'desc')->get();
 
-    return view('Admin.newslist',['news'=>$news]);
-    } else {
-        return redirect('/setup');
+        return view('Admin.newslist',['news'=>$news]);
+        } else {
+            return redirect('/setup');
+        }
     }
-}
 
 public function newscreate(){
     if ($this->loggedInAdmin) {
@@ -856,6 +856,16 @@ public function newslistshow(){
 
                     }
 
+                }
+
+                public function planlistshow(){
+                    if ($this->loggedInAdmin) {
+                        $plan = Planname::all();
+            
+                    return view('Admin.planlist',['plan'=>$plan]);
+                    } else {
+                        return redirect('/setup');
+                    }
                 }
                 
 
