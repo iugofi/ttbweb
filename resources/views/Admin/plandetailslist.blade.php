@@ -62,7 +62,7 @@
                         </div>
 
                         <div class="box-body">
-                            <div class="grid md:grid-cols-4 sm:grid-cols-2">
+                            <div class="grid md:grid-cols-4 sm:grid-cols-2 gap-2">
                                 <div class="xl:col-span-1 md:col-span-1 sm:col-span-1 col-span-2">
                                     <select id="STORE_ID" class="form-control">
                                         <option value=" ">-Select key Type-</option>
@@ -71,17 +71,16 @@
                                         @endforeach
                                     </select>
                                 </div>
-                            </div>
-                            <div class="grid md:grid-cols-4 sm:grid-cols-2">
                                 <div class="xl:col-span-1 md:col-span-1 sm:col-span-1 col-span-2">
                                     <select id="STORE_ID" class="form-control">
-                                        <option value=" ">-Select key Type-</option>
+                                        <option value=" ">-Select Plan Type-</option>
                                         @foreach ($plandata as $plandatas)
                                             <option value="{{ $plandatas->plan_id }}">{{ $plandatas->name }}</option>
                                         @endforeach
                                     </select>
                                 </div>
                             </div>
+                           
 
 
                             <div class="box-body">
