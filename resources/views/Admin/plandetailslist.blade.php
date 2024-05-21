@@ -62,7 +62,7 @@
                         </div>
 
                         <div class="box-body">
-                            <form id="form_search" method="get">
+                            <form id="form_search" method="post">
                             <div class="grid md:grid-cols-4 sm:grid-cols-2 gap-2">
                                 <div class="xl:col-span-1 md:col-span-1 sm:col-span-1 col-span-2">
                                     <select id="KEY_ID" class="form-control" name="KEY_ID">
@@ -210,16 +210,19 @@
             $('#form_search').submit(function(e) {
                 e.preventDefault();
                 $('#btn_search').val('please wait..');
-                var storeId = $(this).val();
-                if(storeId)
+                var token = $('meta[name="csrf-token"]').attr('content');
+                var formData = new FormData($(this)[0]);
+                if(formData)
                 {
                    $.ajax({
                     url:  "{{ route('search.editplansearch') }}",
-                    type: 'GET',
-                    data: {
-                        storeId: storeId
+                    method: 'post',
+                    data: formData,
+                    headers: {
+                        'X-CSRF-TOKEN': token
                     },
-                    dataType: 'json',
+                    contentType: false,
+                    processData: false,
                     success: function(response) {
                         var tbody = $('#showdata tbody');
                         tbody.empty();
