@@ -106,7 +106,7 @@
                                             <td class="border px-4 py-2">@php
                                               ;
                                                 $pickId = $item->plan_id;
-                                                $items = DB::select('SELECT * FROM planname  WHERE PICK_ID = ?', [$pickId]);
+                                                $items = DB::select('SELECT * FROM planname  WHERE plan_id = ?', [$pickId]);
                                                 if (!empty($items)) {
                                                 echo $items[0]->NAME;
                                             } else {
