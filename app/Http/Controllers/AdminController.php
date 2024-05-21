@@ -893,13 +893,11 @@ public function newslistshow(){
 
                 public function saveplan(Request $request){
                     if ($this->loggedInAdmin) {
-                
                         $validator = Validator::make($request->all(), [
                             'planname' => 'required',
                             'plan_id' => 'required'
                         
                         ]);
-                        
                         if ($validator->fails()) {
                             return response()->json([
                                 'status' => 400,
