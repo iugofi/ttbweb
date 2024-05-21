@@ -7,13 +7,12 @@
 @section('content')
 
 
-<style>
-    .itsmyown
-    {
-    color: #12d2b3;
-    background-color: #12d2b312; 
-    }
-</style>
+    <style>
+        .itsmyown {
+            color: #12d2b3;
+            background-color: #12d2b312;
+        }
+    </style>
 
 
 
@@ -59,8 +58,8 @@
                                     <div class="" id="show_success_alert"></div>
                                 </div>
                                 <div class="grid grid-cols-12 gap-4">
-                                    
-                                    
+
+
                                     <div class="xl:col-span-6 col-span-6">
                                         <label for="blog-title" class="form-label">Plan Id</label>
                                         <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
@@ -107,8 +106,8 @@
         </div>
     </div>
 
-  
-    
+
+
 
 
 
@@ -124,20 +123,22 @@
                         if (response.length > 0) {
                             var recentPostHtml = '';
                             $.each(response, function(index, post) {
-                         
+
 
                                 recentPostHtml += '<li class="list-group-item">';
                                 recentPostHtml +=
                                     '<div class="flex gap-2 flex-wrap items-center">';
-                                recentPostHtml += '<span class="avatar avatar-xl itsmyown me-1">';
-                                recentPostHtml += '</span>';
-                                recentPostHtml += '<div class="flex-grow">';
+                                recentPostHtml +=
+                                    '<span class="avatar avatar-xl itsmyown me-1">';
                                 recentPostHtml +=
                                     '<a href="" class="text-[0.875rem] font-semibold mb-0">' +
-                                        post.plan_id + '</a>';
+                                    post.plan_id + '</a>';
+                                recentPostHtml += '</span>';
+                                recentPostHtml += '<div class="flex-grow">';
+
                                 recentPostHtml +=
                                     '<p class="mb-1 popular-blog-content text-truncate">' +
-                                        post.name + '</p>';
+                                    post.name + '</p>';
                                 recentPostHtml +=
                                     '<span class="text-[#8c9097] dark:text-white/50 text-[0.6875rem]">' +
                                     post.created_at + '</span>';
