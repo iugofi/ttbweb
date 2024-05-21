@@ -62,6 +62,7 @@
                         </div>
 
                         <div class="box-body">
+                            <form id="form_search" method="post">
                             <div class="grid md:grid-cols-4 sm:grid-cols-2 gap-2">
                                 <div class="xl:col-span-1 md:col-span-1 sm:col-span-1 col-span-2">
                                     <select id="KEY_ID" class="form-control">
@@ -82,9 +83,10 @@
                                 <div class="xl:col-span-1 md:col-span-1 sm:col-span-1 col-span-2">
                                     <i class="bi bi-search-heart">
                                 <input type="submit" class="m-1 ti-btn ti-btn-primary-full" value="Search">
-                            </i>
+                                 </i>
                                 </div>
                             </div>
+                        </form>
 
 
 
