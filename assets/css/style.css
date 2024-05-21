@@ -43502,13 +43502,10 @@ h6.uppercase {
         height: 42rem !important;
     }
     .carousel-btn.left {
-        left: 25px;
-        font-size: 24px;
-        align-items: center;
+        left: 25px !important;
     }
     .carousel-btn.right {
-        right: 10px;
-        font-size: 24px;
+        right: 10px !important;
     }
 }
 
