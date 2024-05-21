@@ -918,7 +918,8 @@ public function newslistshow(){
                                 ]);
                 
                                 }
-            
+                                
+                
                             } else {
                                 return redirect('/setup');
                             }
@@ -928,12 +929,68 @@ public function newslistshow(){
                     {
                         if ($this->loggedInAdmin) {
                             $item = Planname::findOrFail($id);
+
                             $item->delete();
                             return response()->json(['message' => 'Plan deleted successfully']);
                         } else {
                             return redirect('/setup'); 
                         }
                     }
+
+                    public function planedit($id){
+                        if ($this->loggedInAdmin) {
+                         $decryptid=\Crypt::decrypt($id);
+                            $editplan=Planname::find($decryptid);
+        
+                            return view('Admin.editplan',['editplan'=>$editplan]);
+                        
+                        } else {
+                            return redirect('/setup');
+                        }
+                    }
+
+                    public function editplansave(Request $request)
+                {
+                    $id=$request->main_id;
+                    $decryptid=\Crypt::decrypt($id);
+                    if ($this->loggedInAdmin) {
+                        $validator = Validator::make($request->all(), [
+                            'plan_id' => 'required|unique:planname,plan_id',
+                            'planname' => 'required'
+                        ]);
+                        if ($validator->fails()) {
+                            return response()->json([
+                                'status' => 400,
+                                'messages' => $validator->getMessageBag()->toArray() // Convert messages to array
+                            ]);
+                        }
+                        else
+                        {
+                                $store = Planname::where('id', $decryptid)->first();
+                                if (!$store) {
+                                    return response()->json([
+                                        'status' => 404,
+                                        'messages' => 'News not found'
+                                    ]);
+                                }
+                                $store->update([
+                                    'plan_id' => $request->plan_id,
+                                    'name' => $request->planname
+                                ]);
+                
+                                return response()->json([
+                                    'status' => 200,
+                                    'messages' => 'Plan Edit successfully'
+                                ]);
+                
+                                }
+
+
+                       
+                    } else {
+                        return redirect('/setup'); 
+                    }
+                }
 
                 public function plandetailsshow(){
                     if ($this->loggedInAdmin && $this->admintype == 'superadmin') {
