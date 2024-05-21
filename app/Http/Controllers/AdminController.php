@@ -1000,6 +1000,8 @@ public function newslistshow(){
                         $keydata=Storepick::where('STORE_ID','key_type')->get();
                         $plandata=Planname::all();
 
+
+
             
                     return view('Admin.plandetailslist',['plandetails'=>$plandetails,'keydata'=>$keydata,'plandata'=>$plandata]);
                     } else {
@@ -1013,6 +1015,9 @@ public function newslistshow(){
                         $key_id=$request->KEY_ID;
                         $plan_id=$request->PLAN_ID;
                         $plandetails = Plandetails::where('plan_id',$plan_id)->where('key_type',$key_id)->get(); 
+                        foreach ($plandetails as $pick) {
+                            $pick->encrypted_id = \Crypt::encrypt($pick->id);
+                        }
                         return response()->json($plandetails);
                 
                     } else {
