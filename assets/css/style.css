@@ -43504,7 +43504,9 @@ h6.uppercase {
 
 
 /* start vpn-shild banner css */
-
+.landing-banner-vpn {
+    overflow: hidden;
+}
 .dot-shape {
     top: 60%;
     left: 58%;
@@ -43579,6 +43581,8 @@ h6.uppercase {
     align-items: center;
     display: flex;
 }
+
+
 
 /* End vpn-shild banner css */
 
