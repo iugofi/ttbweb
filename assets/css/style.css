@@ -43582,7 +43582,7 @@ h6.uppercase {
     display: flex;
 }
 
-/* .carousel {
+.carousel {
     display: flex;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
@@ -43657,7 +43657,7 @@ h6.uppercase {
     .carousel-item {
         min-width: 150px;
     }
-} */
+}
 
 
 /* End vpn-shild banner css */

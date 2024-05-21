@@ -619,7 +619,7 @@
 
 
 
-        {{-- <div class="carousel-container">
+        <div class="carousel-container">
             <div class="carousel">
                 <div class="carousel-item">
                     <div class="box-body !p-0 slider-box">
@@ -932,7 +932,7 @@
                 const scrollAmount = carousel.scrollWidth / carousel.children.length;
                 carousel.scrollLeft += direction * scrollAmount;
             }
-        </script> --}}
+        </script>
 
 
 
