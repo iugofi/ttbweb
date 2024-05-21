@@ -107,7 +107,7 @@
                 var formData = new FormData($(this)[0]);
                 
                 $.ajax({
-                    url:  "{{ route('edit.editstorepicksave') }}",
+                    url:  "{{ route('edit.editplansave') }}",
                     method: 'post',
                     data: formData,
                     headers: {
@@ -117,10 +117,8 @@
                     processData: false,
                     success: function(response) {
                         if (response.status == 400) {
-                            showError('STORE_ID', response.messages.STORE_ID);
-                            showError('PICK_TEXT', response.messages.PICK_TEXT);
-                            showError('PICK_ID', response.messages.PICK_ID);
-                            showError('STORE_INDEX_SEQUENCE', response.messages.STORE_INDEX_SEQUENCE);
+                            showError('planname', response.messages.planname);
+                            showError('plan_id', response.messages.plan_id);
                             $('#plan_edit_btn').val('Edit Plan');
                         } else if (response.status == 200) {
                             $('.invalid-feedback').empty();
@@ -130,7 +128,7 @@
                             removeValidationClass("#edit_plan_form");
                             $('#plan_edit_btn').val('Edit Plan');
                             alert(response.messages);
-                            window.location.href = "{{ route('admin.storepickpage') }}";
+                            window.location.href = "{{ route('plan.listshow') }}";
                            
                         }
                     },

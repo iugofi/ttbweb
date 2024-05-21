@@ -209,6 +209,7 @@ Route::get('/facthplan', [AdminController::class, 'facthplan'])->name('fatch.fac
 Route::post('/saveplan', [AdminController::class, 'saveplan'])->name('save.saveplan');
 Route::delete('/plandelete/{id}', [AdminController::class, 'plandelete'])->name('delete.plandelete');
 Route::get('/planedit/{id}', [AdminController::class, 'planedit'])->name('edit.planedit');
+Route::post('/editplansave', [AdminController::class, 'editplansave'])->name('edit.editplansave');
 
 
 
