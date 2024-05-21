@@ -78,7 +78,7 @@
             background-color: rgb(var(--body-bg));
         }
         table.dataTable tbody tr {
-            background-color: #000000;
+            background-color: #1a1c1e !important;
         }
     </style>
 
