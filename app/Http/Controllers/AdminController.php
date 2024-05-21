@@ -992,6 +992,8 @@ public function newslistshow(){
                     }
                 }
 
+
+
                 public function plandetailsshow(){
                     if ($this->loggedInAdmin && $this->admintype == 'superadmin') {
                         $plandetails = Plandetails::all();
@@ -1000,6 +1002,17 @@ public function newslistshow(){
 
             
                     return view('Admin.plandetailslist',['plandetails'=>$plandetails,'keydata'=>$keydata,'plandata'=>$plandata]);
+                    } else {
+                        return redirect('/setup');
+                    }
+                }
+
+                public function editplansearch(){
+                    if ($this->loggedInAdmin) {
+                   
+                        $plandetails = Plandetails::all(); 
+                        return response()->json($plandetails);
+                
                     } else {
                         return redirect('/setup');
                     }

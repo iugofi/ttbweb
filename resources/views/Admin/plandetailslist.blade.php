@@ -214,7 +214,7 @@
                 var formData = new FormData($(this)[0]);
                 
                 $.ajax({
-                    url:  "{{ route('edit.editplansearch') }}",
+                    url:  "{{ route('search.editplansearch') }}",
                     method: 'post',
                     data: formData,
                     headers: {
@@ -223,6 +223,7 @@
                     contentType: false,
                     processData: false,
                     success: function(response) {
+                        console.log(response);
                        
                     },
                     error: function(xhr, status, error) {}
