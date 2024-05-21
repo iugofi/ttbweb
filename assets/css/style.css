@@ -43507,6 +43507,9 @@ h6.uppercase {
     .carousel-btn.right {
         right: 10px !important;
     }
+    .carousel {
+        width: 86% !important;
+    }
 }
 
 
