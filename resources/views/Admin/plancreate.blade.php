@@ -110,7 +110,7 @@
         $(document).ready(function() {
             function fetchNews() {
                 $.ajax({
-                    url: "{{ route('fatch.facthadmin') }}",
+                    url: "{{ route('fatch.facthplan') }}",
                     type: 'GET',
                     dataType: 'json',
                     success: function(response) {
@@ -118,28 +118,20 @@
                         if (response.length > 0) {
                             var recentPostHtml = '';
                             $.each(response, function(index, post) {
-                                var truncatedname = post.name.split(' ').slice(0,
-                                    2).join(' ');
-                                var truncatedUsername = post.username.split(' ').slice(0, 2).join(
-                                ' ');
-
-                                var imageUrl =
-                                    "{{ asset('assets/images/Adminimages') }}/" + post.image;
+                         
 
                                 recentPostHtml += '<li class="list-group-item">';
                                 recentPostHtml +=
                                     '<div class="flex gap-2 flex-wrap items-center">';
                                 recentPostHtml += '<span class="avatar avatar-xl me-1">';
-                                recentPostHtml += '<img src="' + imageUrl +
-                                    '" class="img-fluid !rounded-md" alt="...">';
                                 recentPostHtml += '</span>';
                                 recentPostHtml += '<div class="flex-grow">';
                                 recentPostHtml +=
                                     '<a href="" class="text-[0.875rem] font-semibold mb-0">' +
-                                        truncatedUsername + '</a>';
+                                        post.plan_id + '</a>';
                                 recentPostHtml +=
                                     '<p class="mb-1 popular-blog-content text-truncate">' +
-                                        truncatedname + '</p>';
+                                        post.name + '</p>';
                                 recentPostHtml +=
                                     '<span class="text-[#8c9097] dark:text-white/50 text-[0.6875rem]">' +
                                     post.created_at + '</span>';

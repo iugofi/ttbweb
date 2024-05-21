@@ -880,6 +880,17 @@ public function newslistshow(){
                     }
                 }
 
+                public function facthplan()
+                {
+                    if ($this->loggedInAdmin && $this->admintype == 'superadmin') {
+                    $useradminlist = Planname::all();
+                    return response()->json($useradminlist);
+
+                } else {
+                    return redirect('/setup');
+                }
+                }
+
                 public function plandetailsshow(){
                     if ($this->loggedInAdmin && $this->admintype == 'superadmin') {
                         $plandetails = Plandetails::all();
