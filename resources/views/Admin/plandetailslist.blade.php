@@ -227,6 +227,7 @@
                         var tbody = $('#showdata tbody');
                         tbody.empty();
                         $.each(response.plandetails, function(key, item) {
+                            console.log(item);
                             var row = '<tr>' +
                                 '<td class="border px-4 py-2">' + (key + 1) +
                                 '</td>' +
