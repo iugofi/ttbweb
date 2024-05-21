@@ -131,7 +131,7 @@
                                         post.plan_id + '</a>';
                                 recentPostHtml +=
                                     '<p class="mb-1 popular-blog-content text-truncate">' +
-                                        post.username + '</p>';
+                                        post.name + '</p>';
                                 recentPostHtml +=
                                     '<span class="text-[#8c9097] dark:text-white/50 text-[0.6875rem]">' +
                                     post.created_at + '</span>';
