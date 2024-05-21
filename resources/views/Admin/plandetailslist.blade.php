@@ -63,6 +63,7 @@
 
                         <div class="box-body">
                             <form id="form_search" method="post">
+                                @csrf
                             <div class="grid md:grid-cols-4 sm:grid-cols-2 gap-2">
                                 <div class="xl:col-span-1 md:col-span-1 sm:col-span-1 col-span-2">
                                     <select id="KEY_ID" class="form-control" name="KEY_ID">
@@ -221,6 +222,8 @@
                     headers: {
                         'X-CSRF-TOKEN': token
                     },
+                    contentType: false,
+                    processData: false,
                     dataType: 'json',
                     success: function(response) {
                         var tbody = $('#showdata tbody');
