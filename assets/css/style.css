@@ -43433,7 +43433,10 @@ h6.uppercase {
         background-image: none;
         overflow: hidden;
     }
-
+    .carousel-item {
+        min-width: 350px;
+    }
+    
     /* Start checkout page order css */
     .order-mobile2 {
         order: -1;
@@ -43598,7 +43601,7 @@ h6.uppercase {
 }
 
 .carousel-item {
-    min-width: 350px;
+    min-width: 300px;
     flex: 0 0 33.111%;
     scroll-snap-align: start;
     background: #ffffff;
