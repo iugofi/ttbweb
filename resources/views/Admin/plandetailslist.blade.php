@@ -221,8 +221,7 @@
                     headers: {
                         'X-CSRF-TOKEN': token
                     },
-                    contentType: false,
-                    processData: false,
+                    dataType: 'json',
                     success: function(response) {
                         var tbody = $('#showdata tbody');
                         tbody.empty();
