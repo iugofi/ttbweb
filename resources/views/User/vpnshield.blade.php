@@ -179,7 +179,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 sm:col-span-12 md:col-span-6 col-span-12">
+                        <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 sm:col-span-12 md:col-span-6 col-span-12 me-5">
                             <div class="dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 carousel-item ">
                                 <div class="box-body !p-0 slider-box">
                                     <div class="!p-6">
@@ -256,7 +256,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 sm:col-span-12 md:col-span-6 col-span-12">
+                        <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 sm:col-span-12 md:col-span-6 col-span-12 me-5">
                             <div class="dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 carousel-item ">
                                 <div class="box-body !p-0 slider-box">
                                     <div class="!p-6">
@@ -333,7 +333,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 sm:col-span-12 md:col-span-6 col-span-12">
+                        <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 sm:col-span-12 md:col-span-6 col-span-12 me-5">
                             <div class="dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 carousel-item ">
                                 <div class="box-body !p-0 slider-box">
                                     <div class="!p-6">
