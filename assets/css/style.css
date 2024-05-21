@@ -43615,15 +43615,16 @@ h6.uppercase {
     scroll-snap-align: start;
     background: #ffffff;
     border-radius: 8px;
-    padding: 0px;
+    padding: 15px;
     text-align: center;
     margin: auto;
     overflow: hidden;
 }
 
 .slider-box {
-    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 11%) !important;
+    box-shadow: 0 0px 10px rgb(0 0 0 / 32%) !important;
     border-radius: 8px;
+    margin: auto;
 }
 
 .carousel-item img {
