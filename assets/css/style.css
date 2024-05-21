@@ -43501,6 +43501,15 @@ h6.uppercase {
     .network-container {
         height: 42rem !important;
     }
+    .carousel-btn.left {
+        left: 25px;
+        font-size: 24px;
+        align-items: center;
+    }
+    .carousel-btn.right {
+        right: 10px;
+        font-size: 24px;
+    }
 }
 
 
