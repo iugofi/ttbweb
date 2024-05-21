@@ -60,6 +60,18 @@
                                 Plan Details List
                             </div>
                         </div>
+
+                        <div class="box-body">
+                            <div class="grid md:grid-cols-4 sm:grid-cols-2">
+                                <div class="xl:col-span-1 md:col-span-1 sm:col-span-1 col-span-2">
+                                <select id="STORE_ID" class="form-control">
+                                    <option value=" ">-Select key Type-</option>
+                                    @foreach ($keydata as $storeId)
+                                        <option value="{{ $storeId->plan_id }}">{{ $storeId->name }}</option>
+                                    @endforeach
+                                </select>
+                            </div>
+                        </div>
                      
                         
                         <div class="box-body">

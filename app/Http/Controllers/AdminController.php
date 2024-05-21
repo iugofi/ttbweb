@@ -874,8 +874,9 @@ public function newslistshow(){
                 public function plandetailsshow(){
                     if ($this->loggedInAdmin) {
                         $plandetails = Plandetails::all();
+                        $keydata=Storepick::where('STORE_ID','key_type')->get();
             
-                    return view('Admin.plandetailslist',['plandetails'=>$plandetails]);
+                    return view('Admin.plandetailslist',['plandetails'=>$plandetails,'keydata'=>$keydata]);
                     } else {
                         return redirect('/setup');
                     }
