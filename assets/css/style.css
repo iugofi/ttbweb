@@ -43586,10 +43586,10 @@ h6.uppercase {
     display: flex;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
-    gap: 9px;
-    padding: 10px;
+    gap: 8px;
+    padding: 12px;
     scroll-behavior: smooth;
-    width: 80%;
+    width: 81.555%;
     margin: auto;
 }
 
