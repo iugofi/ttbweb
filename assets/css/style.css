@@ -43436,7 +43436,7 @@ h6.uppercase {
     .carousel-item {
         min-width: 350px;
     }
-    
+
     /* Start checkout page order css */
     .order-mobile2 {
         order: -1;
@@ -43630,7 +43630,7 @@ h6.uppercase {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: #12D2B3
+    background: #12D2B3;
     color: white;
     border: none;
     border-radius: 50%;
@@ -43643,13 +43643,13 @@ h6.uppercase {
 }
 
 .carousel-btn.left {
-    left: 135px;
+    left: 114px;
     font-size: 24px;
     align-items: center;
 }
 
 .carousel-btn.right {
-    right: 143px;
+    right: 105px;
     font-size: 24px;
 }
 
