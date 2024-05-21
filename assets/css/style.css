@@ -43501,6 +43501,12 @@ h6.uppercase {
     .network-container {
         height: 42rem !important;
     }
+    .carousel-btn.left {
+        left: 25px !important;
+    }
+    .carousel-btn.right {
+        right: 10px !important;
+    }
 }
 
 
@@ -43589,7 +43595,7 @@ h6.uppercase {
     display: flex;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
-    gap: 8px;
+    gap: 0px;
     padding: 12px;
     scroll-behavior: smooth;
     width: 81.555%;
@@ -43649,7 +43655,7 @@ h6.uppercase {
 }
 
 .carousel-btn.right {
-    right: 105px;
+    right: 122px;
     font-size: 24px;
 }
 
