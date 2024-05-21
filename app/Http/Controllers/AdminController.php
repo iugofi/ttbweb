@@ -1008,7 +1008,7 @@ public function newslistshow(){
                 }
 
 
-                public function editplansearch(Reqest $request){
+                public function editplansearch(Request $request){
                     if ($this->loggedInAdmin) {
                         $key_id=$request->KEY_ID;
                         $plan_id=$request->PLAN_ID;
