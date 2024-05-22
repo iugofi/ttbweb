@@ -49668,6 +49668,10 @@ h6.uppercase {
         left: 10rem;
         width: 18%;
     }
+    h6.uppercase {
+        rotate: 269deg;
+    }
+
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
