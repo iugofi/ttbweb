@@ -49625,9 +49625,9 @@ h6.uppercase {
 }
 /* End:: network protection desktop page css */
 
-@media (min-width: 1025px) and (max-width: 1390px) {
+@media (min-width: 1024px) and (max-width: 1390px) {
     .carousel-item {
-        min-width: 310px !important;
+        min-width: 310px;
     }
 }
 
