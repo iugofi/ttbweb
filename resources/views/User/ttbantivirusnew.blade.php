@@ -291,8 +291,7 @@
         </div> --}}
         {{-- Start:: pricing plan slider  --}}
 
-        <section
-            class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
+        <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]"
             id="features">
             <div class="carousel-container container main-banner-container mt-5 mb-5 pt-5">
                 <h3 class="font-semibold mb-2 pt-5 text-center">Pricing Plan</h3>
