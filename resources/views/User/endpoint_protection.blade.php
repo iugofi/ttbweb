@@ -95,7 +95,7 @@
             </div>
         </div>
         <!-- End::End Point section two -->
-
+ 
         <!-- Start::End Point section three -->
         <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] ">
             <div class="container endpoint-container">
