@@ -43647,7 +43647,7 @@ h6.uppercase {
     overflow: hidden;
 }
 
-.slider-box {
+.sliders-box {
     box-shadow: 0 0px 10px rgb(0 0 0 / 32%) !important;
     border-radius: 8px;
     margin: auto;
@@ -43696,19 +43696,6 @@ h6.uppercase {
 .dark .carousel-item {
     background-color: #212325 !important;
 }
-
-/* @media (max-width: 768px) {
-    .carousel-item {
-        min-width: 200px;
-    }
-}
-
-@media (max-width: 480px) {
-    .carousel-item {
-        min-width: 150px;
-    }
-} */
-
 
 /* End vpn-shild banner css */
 
