@@ -43408,10 +43408,8 @@ h6.uppercase {
         height: 13rem;
     }
     .box-animantion img {
-    left: 9rem;
-    bottom: 13.5rem;
-    position: relative;
-    margin: auto;
+    left: 9rem !important;
+    bottom: 13.5rem !important;
     width: 166px;
 }
 .img-fluid {
