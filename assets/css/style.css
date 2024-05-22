@@ -49663,6 +49663,10 @@ h6.uppercase {
     #totel-internet-security div#internet-security {
         height: 29.5rem !important;
     }
+    .box i.bx.bx-chevrons-right {
+        top: 20px;
+        left: 10rem;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
