@@ -21,9 +21,11 @@
                         <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 col-span-12">
                             <div class="lg:py-[3rem] text-vartical"
                                 style="position: relative; top: 7rem; padding-right: 2rem;">
-                                <h1 class="lg:text-start font-semibold mb-2 text-[2rem]" style="color: #000;">Robust Threat Protection and
-                                    Security Framework</h1> 
-                                <div class="text-[1rem] mb-[1.3rem] text-black-light opacity-[0.9] dark-text" style="color: #000;">Holisticly
+                                <h1 class="lg:text-start font-semibold mb-2 text-[2rem]" style="color: #000;">Robust Threat
+                                    Protection and
+                                    Security Framework</h1>
+                                <div class="text-[1rem] mb-[1.3rem] text-black-light opacity-[0.9] dark-text"
+                                    style="color: #000;">Holisticly
                                     procrastinate mission-critical convergence with reliable customer service. Assertively
                                     underwhelm idea-sharing for impactful solutions.
                                     Assertively underwhelm idea-sharing for impactful solutions.
@@ -38,7 +40,7 @@
 
                             <div class="text-end landing-main-image landing-heading-img flex justify-end w-full">
                             </div>
- 
+
                         </div>
                     </div>
                 </div>
@@ -56,10 +58,11 @@
                             <img src="{{ asset('assets/img/Second-Section-img.png') }}" alt="" class="img-fluid">
                         </div>
                         <div class="lg:text-start !flex items-center lg:justify-start justify-center animate-bounce">
-                            <h6 class="uppercase">25 year of exprience</h6> 
+                            <h6 class="uppercase">25 year of exprience</h6>
                         </div>
                     </div>
-                    <div class="xxl:col-span-6 xl:col-span-6 md:col-span-12 lg:col-span-6 pt-5 pb-0 lg:px-2 !text-start  my-auto">
+                    <div
+                        class="xxl:col-span-6 xl:col-span-6 md:col-span-12 lg:col-span-6 pt-5 pb-0 lg:px-2 !text-start  my-auto">
                         <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">What We Do</span>
                         <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">We Provide Web Design
                             With App Development</h4>
@@ -235,7 +238,8 @@
 
         {{-- Start:: commericial section fifth --}}
 
-        <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
+        <section
+            class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
             id="features">
             <div class="container main-banner-container">
                 <div class="grid grid-cols-12 gap-6">
@@ -352,7 +356,8 @@
                     <div class="col-span-12">
                         <p class="text-[#8c9097] dark:text-white/50 text-[0.9375rem] mb-12 font-normal">Efficiently
                             productivate reliable paradigms before ubiquitous models. Continually utilize frictionless
-                            <br>expertise whereas tactical relationships. Still have questions? Contact us</p>
+                            <br>expertise whereas tactical relationships. Still have questions? Contact us
+                        </p>
                     </div>
                 </div>
                 <div class="grid grid-cols-12 gap-6 text-start">
@@ -553,14 +558,16 @@
 
         {{-- Start:: commericial section saven --}}
 
-        <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
+        <section
+            class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
             id="features">
             <div class="container main-banner-container">
                 <div class="grid grid-cols-12 gap-6">
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
                         <div class="lg:py-[3rem]">
                             <h2 class="lg:text-center font-semibold mb-2 text-[2rem]">
-                                <span>What Our Client Say <br> About Apdash</h2>
+                                <span>What Our Client Say <br> About Apdash
+                            </h2>
                             <div class="text-[1rem] mb-[3rem] !text-dark opacity-[0.9] ">Collaboratively actualize
                                 excellent schemas without effective <br> models. Synergistically engineer functionalized
                                 applications rather<br> than backend e-commerce.</div>
