@@ -150,7 +150,7 @@
                     </div>
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
                         <div class="grid grid-cols-12 gap-6">
-                            <div class="xl:col-span-6 col-span-12">
+                            <div class="xl:col-span-6 md:col-span-6 col-span-12">
                                 <div class="box">
 
                                     <div class="box-body text-[0.9rem] text-center endpoint-box-bm">
@@ -164,7 +164,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="xl:col-span-6 col-span-12">
+                            <div class="xl:col-span-6 md:col-span-6 col-span-12">
                                 <div class="box">
 
                                     <div class="box-body text-[0.9rem] text-center endpoint-box-bm">
@@ -182,7 +182,7 @@
                     </div>
                     <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 col-span-12 endpoint-rowtwo">
                         <div class="grid grid-cols-12 gap-6">
-                            <div class="xl:col-span-3 col-span-12">
+                            <div class="xl:col-span-3 md:col-span-6 col-span-12">
                                 <div class="box">
 
                                     <div class="box-body text-[0.9rem] text-center endpoint-box-bm">
@@ -196,7 +196,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="xl:col-span-3 col-span-12">
+                            <div class="xl:col-span-3 md:col-span-6 col-span-12">
                                 <div class="box">
 
                                     <div class="box-body text-[0.9rem] text-center endpoint-box-bm">
@@ -210,7 +210,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="xl:col-span-3 col-span-12">
+                            <div class="xl:col-span-3 md:col-span-6 col-span-12">
                                 <div class="box">
                                     <div class="box-body text-[0.9rem] text-center endpoint-box-bm">
                                         <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
@@ -223,7 +223,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="xl:col-span-3 col-span-12">
+                            <div class="xl:col-span-3 md:col-span-6 col-span-12">
                                 <div class="box ">
                                     <div class="box-body text-[0.9rem] text-center endpoint-box-bm">
                                         <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
