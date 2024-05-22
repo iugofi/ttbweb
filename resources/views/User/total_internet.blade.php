@@ -280,14 +280,14 @@
                 <div class="grid grid-cols-12 gap-6 text-start">
                     <div class="xl:col-span-12 col-span-12">
                         <div class="grid grid-cols-12 gap-6">
-                            <div class="xl:col-span-6 col-span-12">
+                            <div class="xl:col-span-6 md:col-span-6 col-span-12">
                                 <h4 class="text font-bold .text-4xl" style="margin: 0 7rem auto;">What's More?</h4>
                                 <div class="lg:text-start !flex items-center lg:justify-start justify-center">
                                     <img src="{{ asset('assets/img/whats-more.png') }}" alt="" width="450"
                                         class="img-fluid">
                                 </div>
                             </div>
-                            <div class="xl:col-span-6 col-span-12">
+                            <div class="xl:col-span-6 md:col-span-6 col-span-12">
                                 <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 col-span-12">
                                     <div class="lg:py-[3rem]">
 
