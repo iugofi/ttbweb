@@ -328,7 +328,7 @@
                                                 </div>
                                             </div><br><br>
                                             <a href="index.html" class="m-1 ti-btn ti-btn-primary-full"
-                                                style="width:26%;">
+                                                style="width:40%;">
                                                 Get Full License!
                                             </a>
                                         </div>
