@@ -48,7 +48,7 @@
             style="padding-top: 0px; padding-bottom: 0px; background-color:#12D2B3;">
             <div class="container main-banner-container">
 
-                <div class="grid lg:grid-cols-12 md:grid-cols-12 sm:grid-cols-12 justify-center align-center">
+                <div class="grid lg:grid-cols-12 md:grid-cols-12 sm:grid-cols-12 justify-center align-center tab-css">
 
 
                     <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 pt-5 pb-3 lg:px-2 !text-start px-12 my-auto">
