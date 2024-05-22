@@ -49627,11 +49627,11 @@ h6.uppercase {
 
 @media (min-width: 1024px) and (max-width: 1390px) {
     .carousel-item {
-        min-width: 310px;
+        min-width: 310px Im !important;
     }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1023px) {
     .network-container {
         height: 42rem !important;
     }
