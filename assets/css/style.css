@@ -49636,7 +49636,7 @@ h6.uppercase {
         height: 42rem !important;
     }
     .box-icon-cont {
-        height: 13rem;
+        height: 100%;
     }
     .box-animantion img {
         left: 9rem !important;
