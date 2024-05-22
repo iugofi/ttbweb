@@ -49669,21 +49669,20 @@ h6.uppercase {
         width: 18%;
     }
     h6.uppercase {
-        right: 216px; 
+        right: 216px;
     }
     .tab-css {
-    display: flex;
-    justify-content: center;
-}
-img.img-fluid.endpoint-icon.p-1 {
-    max-width: 100% !important;
-    height: 75% !important;
-    display: flex;
-}
-.tab-css .my-auto {
-    padding: 10px 0;
-}
-
+        display: flex;
+        justify-content: center;
+    }
+    img.img-fluid.endpoint-icon.p-1 {
+        max-width: 100% !important;
+        height: 75% !important;
+        display: flex;
+    }
+    .tab-css .my-auto {
+        padding: 10px 0;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
