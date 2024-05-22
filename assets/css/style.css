@@ -43424,13 +43424,10 @@ h6.uppercase {
     width: 100% !important;
 }
 .carousel-item {
-    min-width: 345px;
-}
-.carousel-item {
-    min-width: 345px;
+    min-width: 345px !important;
 }
 .slider-m {
-    margin: 0;
+    margin: 0 !important;
 }
 }
 
