@@ -197,7 +197,7 @@
                 <h1 class="lg:text-center font-semibold mb-2 text-[2rem]">Over 15 Years, Costomers Have<br>
                     Come To it Solutions.</h1><br>
                 <div class="grid grid-cols-12 gap-x-6">
-                    <div class="xl:col-span-4 col-span-12">
+                    <div class="xl:col-span-4 md:col-span-6 col-span-12">
                         <div class="boxs">
                             <div class="box-body bg-img1">
                             </div>
@@ -207,7 +207,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="xl:col-span-4 col-span-12">
+                    <div class="xl:col-span-4 md:col-span-6 col-span-12">
                         <div class="boxs">
                             <div class="box-body bg-img2">
                             </div>
@@ -217,7 +217,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="xl:col-span-4 col-span-12">
+                    <div class="xl:col-span-4 md:col-span-12 col-span-12">
                         <div class="boxs">
                             <div class="box-body bg-img3">
                             </div>
