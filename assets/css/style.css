@@ -43407,6 +43407,17 @@ h6.uppercase {
     .box-icon-cont {
         height: 13rem;
     }
+    .box-animantion img {
+    left: 9rem;
+    bottom: 13.5rem;
+    position: relative;
+    margin: auto;
+    width: 166px;
+}
+.img-fluid {
+    max-width: 75%;
+    height: auto;
+}
 }
 
 
