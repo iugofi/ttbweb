@@ -375,25 +375,25 @@
                     <div class="justify-center">
 
                         <div class="feature-logos sm:mt-[3rem] flex-wrap">
-                            <div class="sm:ms-[3rem] ms-2 text-center mx-3 my-4">
+                            <div class="sm:ms-[0rem] ms-2 text-center mx-3 my-4">
                                 <span class="featur-icon counternum">100</span>
                                 <h5 class="mt-8-5 text-dark text-[1.25rem] font-medium">Av Test Certified</h5>
                                 <p>May 2023</p>
 
                             </div>
-                            <div class="sm:ms-[3rem] ms-2 text-center mx-3 my-4">
+                            <div class="sm:ms-[0rem] ms-2 text-center mx-3 my-4">
                                 <span class="featur-icon counternum">100</span>
                                 <h5 class="mt-8-5 text-dark text-[1.25rem] font-medium">Av Test Certified</h5>
                                 <p>May 2023</p>
 
                             </div>
-                            <div class="sm:ms-[3rem] ms-2 text-center mx-3 my-4">
+                            <div class="sm:ms-[0rem] ms-2 text-center mx-3 my-4">
                                 <span class="featur-icon counternum">100</span>
                                 <h5 class="mt-8-5 text-dark text-[1.25rem] font-medium">Av Test Certified</h5>
                                 <p>May 2023</p>
 
                             </div>
-                            <div class="sm:ms-[3rem] ms-2 text-center mx-3 my-4">
+                            <div class="sm:ms-[0rem] ms-2 text-center mx-3 my-4">
                                 <span class="featur-icon counternum">100</span>
                                 <h5 class="mt-8-5 text-dark text-[1.25rem] font-medium">Av Test Certified</h5>
                                 <p>May 2023</p>
