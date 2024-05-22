@@ -43426,6 +43426,12 @@ h6.uppercase {
 .carousel-item {
     min-width: 345px;
 }
+.carousel-item {
+    min-width: 345px;
+}
+.slider-m {
+    margin: 0;
+}
 }
 
 
