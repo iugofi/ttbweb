@@ -159,7 +159,7 @@
                         explicabo maiores qui culpa?<br> Corporis corrupti aperiam cupiditate officia.</p>
                 </div>
                 <div class="grid grid-cols-12 gap-x-6">
-                    <div class="xl:col-span-4 col-span-12">
+                    <div class="xl:col-span-4 md:col-span-4 col-span-12">
                         <div class="box text-center">
                             <div class="box-body">
                                 <div class="mb-2 img-hover">
@@ -175,7 +175,7 @@
                             <i class='bx bx-chevrons-right'></i>
                         </div>
                     </div>
-                    <div class="xl:col-span-4 col-span-12">
+                    <div class="xl:col-span-4 md:col-span-4 col-span-12">
                         <div class="box text-center">
                             <div class="box-body">
                                 <div class="mb-2 img-hover2">
@@ -190,7 +190,7 @@
                             <i class='bx bx-chevrons-right'></i>
                         </div>
                     </div>
-                    <div class="xl:col-span-4 col-span-12">
+                    <div class="xl:col-span-4 md:col-span-4 col-span-12">
                         <div class="box text-center">
                             <div class="box-body">
                                 <div class="mb-2 img-hover3">
