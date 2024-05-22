@@ -95,7 +95,7 @@
                 <h2 class="lg:text-center font-semibold mb-2 text-[2rem]">How does TTB Antivirus secure<br>
                     your devices?</h2><br>
                 <div class="grid grid-cols-12 gap-x-6">
-                    <div class="xl:col-span-3 col-span-12">
+                    <div class="xl:col-span-3 md:col-span-6 col-span-12">
                         <div class="box boxs1">
                             <div class="box-body">
                                 <div class="mb-2 anti-img1">
@@ -112,7 +112,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="xl:col-span-3 col-span-12">
+                    <div class="xl:col-span-3 md:col-span-6 col-span-12">
                         <div class="box boxs1">
                             <div class="box-body">
                                 <div class="mb-2 anti-img2">
@@ -127,7 +127,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="xl:col-span-3 col-span-12">
+                    <div class="xl:col-span-3 md:col-span-6 col-span-12">
                         <div class="box boxs1">
                             <div class="box-body">
                                 <div class="mb-2 anti-img3">
@@ -143,7 +143,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="xl:col-span-3 col-span-12">
+                    <div class="xl:col-span-3 md:col-span-6 col-span-12">
                         <div class="box boxs1">
                             <div class="box-body">
                                 <div class="mb-2 anti-img4 pt-3">
