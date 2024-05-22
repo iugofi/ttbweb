@@ -164,12 +164,12 @@
                 {{-- <div class="grid grid-cols-12 justify-center align-center"> --}}
                 <div class="grid lg:grid-cols-12 md:grid-cols-12 sm:grid-cols-12 justify-center align-center">
 
-                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6  customize-image text-center">
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 customize-image text-center">
                         <div class="lg:text-start !flex items-center lg:justify-start justify-center">
                             <img src="{{ asset('assets/img2/section four.png') }}" alt="" class="img-fluid">
                         </div>
                     </div>
-                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 pt-5 pb-0 lg:px-2 !text-start px-12 my-auto">
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 pt-5 pb-0 lg:px-2 !text-start px-0 my-auto">
                         <h4 class="lg:text-start font-semibold mb-2 text-[2rem] ttb-heading">We Strive To Offer Intelligent
                             Business
                             Solutions</h4>
