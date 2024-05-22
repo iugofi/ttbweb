@@ -43412,6 +43412,9 @@ h6.uppercase {
 
 
 @media (min-width: 320px) and (max-width: 767px) {
+    .box-icon-cont {
+        height: 14em;
+    }
     div#home {
         height: 36rem;
     }
