@@ -49660,6 +49660,9 @@ h6.uppercase {
     .slider-m {
         margin: 0 !important;
     }
+    #totel-internet-security div#internet-security {
+        height: 29.5rem !important;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
