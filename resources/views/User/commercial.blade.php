@@ -110,7 +110,7 @@
                 <h1 class="lg:text-center font-semibold mb-2 text-[2rem]">Solutions Coustomers Have<br>
                     Boilt With Instabase</h1><br>
                 <div class="grid grid-cols-12 gap-x-6">
-                    <div class="xl:col-span-3 col-span-12">
+                    <div class="xl:col-span-3 md:col-span-6 col-span-12">
                         <div class="box text-left text-hover">
                             <div class="box-body">
                                 <div class="mb-2 commericial-img">
@@ -129,7 +129,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="xl:col-span-3 col-span-12">
+                    <div class="xl:col-span-3 md:col-span-6 col-span-12">
                         <div class="box text-left text-hover">
                             <div class="box-body">
                                 <div class="mb-2 commericial-img">
@@ -147,7 +147,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="xl:col-span-3 col-span-12">
+                    <div class="xl:col-span-3 md:col-span-6 col-span-12">
                         <div class="box text-left text-hover">
                             <div class="box-body">
                                 <div class="mb-2 commericial-img">
@@ -165,7 +165,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="xl:col-span-3 col-span-12">
+                    <div class="xl:col-span-3 md:col-span-6 col-span-12">
                         <div class="box text-left text-hover">
                             <div class="box-body">
                                 <div class="mb-2 commericial-img">
