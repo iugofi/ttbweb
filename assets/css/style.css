@@ -49627,7 +49627,7 @@ h6.uppercase {
 
 @media (min-width: 1025px) and (max-width: 1140px) {
     .carousel-item {
-        min-width: 310px Im !important;
+        min-width: 310px !important;
     }
 }
 
