@@ -101,12 +101,12 @@
             <div class="container endpoint-container">
                 <div
                     class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
-                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 text-center">
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 text-center">
                         <div class="lg:text-start !flex items-center lg:justify-start justify-center">
                             <img src="{{ asset('assets/img/scnd-section-img.jpg') }}" alt="" class="img-fluid">
                         </div>
                     </div>
-                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 pt-5 pb-0 lg:px-2 !text-start"
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 pt-5 pb-0 lg:px-2 !text-start"
                         style="margin: 0 50px auto;">
                         <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">WHP WE ARE</span>
                         <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">WhO Does Endpoint <br>
