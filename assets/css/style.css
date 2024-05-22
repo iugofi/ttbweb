@@ -43416,6 +43416,13 @@ h6.uppercase {
     max-width: 75%;
     height: auto;
 }
+.img-round img {
+    position: absolute;
+    bottom: 0rem !important;
+    left: 12rem !important;
+    animation: rotate 30s linear infinite;
+    width: 100% !important;
+}
 }
 
 
