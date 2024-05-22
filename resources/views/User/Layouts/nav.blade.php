@@ -35,7 +35,7 @@
                                 <a href="{{route('user.vpnshield')}}" class="side-menu__item">TTB VPN Shield</a>
                             </li>
                             <li class="slide">
-                                <a href="{{route('user.ttbantivirus')}}" class="side-menu__item">TTB Antivirus</a>
+                                <a href="{{route('user.ttbantivirusnew')}}" class="side-menu__item">TTB Antivirus</a>
                             </li>
                             <li class="slide">
                                 <a href="{{route('user.totalinternet')}}" class="side-menu__item">TTB Total Security</a>
