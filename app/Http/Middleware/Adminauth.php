@@ -19,13 +19,13 @@ class Adminauth
     {
         if($auth)
         {
-            return "ok";
+            return $next($request);
         }
         else{
 
             return "kulvinder ki chut me lavdaa";
         }
         
-        return $next($request);
+        
     }
 }
