@@ -43400,7 +43400,7 @@ h6.uppercase {
 }
 /* End:: network protection desktop page css */
 
-@media (min-width: 768px) and (max-width: 1080px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     .network-container {
         height: 42rem !important;
     }
