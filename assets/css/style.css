@@ -43404,6 +43404,9 @@ h6.uppercase {
     .network-container {
         height: 42rem !important;
     }
+    .box-icon-cont {
+        height: 100vh;
+    }
 }
 
 
