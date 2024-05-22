@@ -43423,6 +43423,9 @@ h6.uppercase {
     animation: rotate 30s linear infinite;
     width: 100% !important;
 }
+.carousel-item {
+    min-width: 345px;
+}
 }
 
 
