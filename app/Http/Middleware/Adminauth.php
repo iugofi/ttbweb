@@ -17,15 +17,6 @@ class Adminauth
      */
     public function handle(Request $request, Closure $next)
     {
-        if($auth)
-        {
-            return $next($request);
-        }
-        else{
-
-            return "kulvinder ki chut me lavdaa";
-        }
-        
-        
+        return $next($request);
     }
 }
