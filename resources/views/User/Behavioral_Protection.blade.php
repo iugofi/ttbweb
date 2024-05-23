@@ -25,7 +25,7 @@
                                     Business.</h1>
                                 <div class="text-[1rem] mb-[1.3rem] text-black-light opacity-[0.9] text-left dark-text"
                                     style="color: #fff;">The first rule any technology used in business automantion
-                                    <br>The first rule any technology used in business automantion
+                                    <br>applied to an efficient operation will magnify.
                                 </div>
                                 {{-- <div class="bnr-btn text-center">
                                     <a href="index.html" class="m-1 ti-btn ti-btn-primary-full bnr-btn-1"
