@@ -23,8 +23,8 @@ use App\Http\Controllers\UserauthController;
 //     return view('welcome');
 // });
 
-Artisan::call('down');
-
+Artisan::call('up');
+Route::prefix('kalu')->group(function () {
 //forget pass
 Route::post('/forget-pass', [UserController::class, 'forgetpass'])->name('user.forgetpass');
 //mail
@@ -155,7 +155,7 @@ Route::get('/logoutadmin', [UserController::class, 'logoutadmin'])->name('admin.
 
 //mail testing
 Route::get('/mailtest', [UserController::class, 'mailtest'])->name('admin.mailtest');
-
+});
 Route::prefix('setup')->group(function () {
 //Admin Controller
 Route::get('/pageadmin', [AdminController::class, 'indexpage'])->name('admin.indexp');
