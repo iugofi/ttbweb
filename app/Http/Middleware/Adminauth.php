@@ -17,9 +17,7 @@ class Adminauth
      */
     public function handle(Request $request, Closure $next)
     {
-        if ($request->has('maintenance')) {
-            Artisan::call('up');
-        }
+        
         return $next($request);
     }
 }
