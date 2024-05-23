@@ -49668,10 +49668,10 @@ h6.uppercase {
         bottom: 13.5rem !important;
         width: 166px;
     }
-    .img-fluid {
+    /* .img-fluid {
         max-width: 75%;
         height: auto;
-    }
+    } */
     .img-round img {
         position: absolute;
         bottom: 0rem !important;
