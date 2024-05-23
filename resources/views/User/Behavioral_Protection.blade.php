@@ -60,12 +60,12 @@
                     Check some of our Services.</h2><br>
                 <div class="grid grid-cols-12 gap-x-6">
                     <div class="xl:col-span-3 md:col-span-6 col-span-12">
-                        <div class="box boxs1">
+                        <div class="box Behav">
                             <div class="box-body">
-                                <div class="mb-2 anti-img1">
+                                <div class="mb-2 Behavioral-img1">
                                     <span class="avatar avatar-md pt-5">
 
-                                        <img src="assets/img/Renovation-Building.png" alt="img"
+                                        <img src="{{asset('assets/img/Renovation-Building.png')}}" alt="img"
                                             class="!rounded-md" style="max-width: 85px;height: 85px;">
                                     </span>
                                 </div>
@@ -77,11 +77,11 @@
                         </div>
                     </div>
                     <div class="xl:col-span-3 md:col-span-6 col-span-12">
-                        <div class="box boxs1">
+                        <div class="box Behav">
                             <div class="box-body">
-                                <div class="mb-2 anti-img2">
+                                <div class="mb-2 Behavioral-img2">
                                     <span class="avatar avatar-md pt-5">
-                                        <img src="assets/img/Power-And-Energy-2.png" alt="img"
+                                        <img src="{{asset('assets/img/Power-And-Energy-2.png')}}" alt="img"
                                             class="!rounded-md" style="max-width: 85px;height: 85px;">
                                     </span>
                                 </div>
@@ -92,11 +92,11 @@
                         </div>
                     </div>
                     <div class="xl:col-span-3 md:col-span-6 col-span-12">
-                        <div class="box boxs1">
+                        <div class="box Behav">
                             <div class="box-body">
-                                <div class="mb-2 anti-img3">
+                                <div class="mb-2 Behavioral-img3">
                                     <span class="avatar avatar-md pt-5">
-                                        <img src="assets/img/Dedicated-Teams.png" alt="img"
+                                        <img src="{{asset('assets/img/Dedicated-Teams.png')}}" alt="img"
                                             class="!rounded-md" style="max-width: 85px;height: 85px;">
 
                                     </span>
@@ -108,11 +108,11 @@
                         </div>
                     </div>
                     <div class="xl:col-span-3 md:col-span-6 col-span-12">
-                        <div class="box boxs1">
+                        <div class="box Behav">
                             <div class="box-body">
-                                <div class="mb-2 anti-img4 pt-3">
+                                <div class="mb-2 Behavioral-img4 pt-3">
                                     <span class="avatar avatar-md">
-                                        <img src="assets/img/Oil-&-Gas-Energy.png" alt="img"
+                                        <img src="{{asset('assets/img/Oil-&-Gas-Energy.png')}}" alt="img"
                                             class="!rounded-md" style="max-width: 85px;height: 85px;">
 
                                     </span>
