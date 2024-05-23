@@ -278,7 +278,7 @@
         <div id="myPopup" class="popup">
             <div class="popup-content">
                 <span class="close">&times;</span>
-                <img src="{{ asset('assets/images/your-image.png') }}" alt="Pop-up Image" style="width:100%">
+                <img src="{{ asset('assets/images/dodo.png') }}" alt="Pop-up Image" style="width:100%">
             </div>
         </div>
     
