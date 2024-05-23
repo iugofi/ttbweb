@@ -91,7 +91,52 @@
                                     </div>
                                    
 
-                                 
+                                    <div class="xl:col-span-6 col-span-12">
+                                        <label for="canonical-url" class="form-label">Price</label>
+                                        <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
+                                            id="price" name="price" value="{{ isset($editplandetails->price) ? $editplandetails->price : '' }}" placeholder="Enter Price">
+                                        <div class="invalid-feedback"></div>
+                                    </div>
+
+                                    <div class="xl:col-span-12 col-span-12 blog-images-container">
+                                        <label for="product-price" class="form-label">Images</label>
+                                        <input type="file" class="product_images" id="product_images" value="{{ isset($editplandetails->image) ? $editplandetails->image : '' }}" name="product_images"
+                                            multiple data-allow-reorder="true" data-max-file-size="3MB"
+                                            data-max-files="6">
+                                        <div class="invalid-feedback"></div>
+                                    </div>
+
+                                    <div class="xl:col-span-6 col-span-12">
+                                        <label for="canonical-url" class="form-label">Discount</label>
+                                        <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
+                                            id="discount" name="discount" value="{{ isset($editplandetails->discount) ? $editplandetails->discount : '' }}" placeholder="Enter Discount">
+                                        <div class="invalid-feedback"></div>
+                                    </div>
+                                    <div class="xl:col-span-6 col-span-12">
+                                        <label for="coupons" class="form-label">Coupons</label>
+                                        <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
+                                            id="coupons" name="coupons" value="{{ isset($editplandetails->coupons) ? $editplandetails->coupons : '' }}" placeholder="Enter coupons">
+                                        <div class="invalid-feedback"></div>
+                                    </div>
+
+                                    <div class="xl:col-span-6 col-span-6">
+                                        <label for="blog-title" class="form-label"> Coupons Status</label>
+                                        <select class="form-control block w-full text-[0.875rem] !rounded-md" data-trigger
+                                            name="coupon_status" id="coupon_status">
+                                            <option value="">Select</option>
+                                            @php
+                                                $status = DB::table('storepick')
+                                                    ->where('STORE_ID', 'Status')
+                                                    ->orderBy('STORE_INDEX_SEQUENCE', 'asc')
+                                                    ->get();
+                                            @endphp
+                                            @foreach ($status as $statuss)
+                                                <option value="{{ $statuss->PICK_ID }}" {{$statuss->PICK_ID ==$editplandetails->is_coupons ? 'selected' : '' }}>{{ $statuss->PICK_TEXT }}</option>
+                                            @endforeach
+
+                                        </select>
+                                        <div class="invalid-feedback"></div>
+                                    </div>
 
                                     
                                 
