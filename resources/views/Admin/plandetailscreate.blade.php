@@ -62,9 +62,9 @@
 
 
                                     <div class="xl:col-span-6 col-span-6">
-                                        <label for="blog-title" class="form-label required">Plan Id</label>
+                                        <label for="blog-title" class="form-label required">Key Type</label>
                                         <select class="form-control block w-full text-[0.875rem] !rounded-md" data-trigger
-                                            name="plan_id" id="plan_id">
+                                            name="planname" id="planname">
                                             <option value="">Select</option>
                                             @php
                                                 $status = DB::table('storepick')
@@ -82,7 +82,7 @@
                                     <div class="xl:col-span-6 col-span-6">
                                         <label for="blog-title" class="form-label required">Plan Name</label>
                                         <select class="form-control block w-full text-[0.875rem] !rounded-md" data-trigger
-                                            name="planname" id="planname">
+                                            name="plan_id" id="plan_id">
                                             <option value="">Select</option>
                                             @php
                                                 $plan_name = DB::table('planname')->get();
