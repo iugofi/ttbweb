@@ -20,14 +20,12 @@
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 col-span-12">
                             <div class="lg:py-[3rem] text-vartical" style="position: relative; top: 7rem;">
-                                <h1 class="text-left font-semibold mb-2 text-[2rem]" style="color: #fff;">Limited Time
-                                    Offer Flat 50% off - No<br>
-                                    Hidden Chnages Hurry Up!!!</h1>
+                                <h1 class="text-left font-semibold mb-2 text-[4rem]" style="color: #fff;">IT Solutions <br>
+                                    For Your<br>
+                                    Business.</h1>
                                 <div class="text-[1rem] mb-[1.3rem] text-black-light opacity-[0.9] text-left dark-text"
-                                    style="color: #fff;">Holisticly
-                                    procrastinate mission-critical convergence with reliable customer service.
-                                    <br>Assertively
-                                    underwhelm idea-sharing for impactful solutions.
+                                    style="color: #fff;">The first rule any technology used in business automantion
+                                    <br>The first rule any technology used in business automantion
                                 </div>
                                 {{-- <div class="bnr-btn text-center">
                                     <a href="index.html" class="m-1 ti-btn ti-btn-primary-full bnr-btn-1"
