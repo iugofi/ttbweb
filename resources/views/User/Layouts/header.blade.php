@@ -58,46 +58,7 @@
     {{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"> --}}
  
 
-    <style>
-        /* CSS for the pop-up */
-        .popup {
-            display: none; /* Hidden by default */
-            position: fixed; /* Stay in place */
-            z-index: 1; /* Sit on top */
-            left: 0;
-            top: 0;
-            width: 100%; /* Full width */
-            height: 100%; /* Full height */
-            overflow: auto; /* Enable scroll if needed */
-            background-color: rgb(0,0,0); /* Fallback color */
-            background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-            justify-content: center;
-            align-items: center;
-        }
 
-        .popup-content {
-            background-color: #fefefe;
-            margin: auto;
-            padding: 20px;
-            border: 1px solid #888;
-            width: 80%;
-            max-width: 600px;
-        }
-
-        .close {
-            color: #aaa;
-            float: right;
-            font-size: 28px;
-            font-weight: bold;
-        }
-
-        .close:hover,
-        .close:focus {
-            color: black;
-            text-decoration: none;
-            cursor: pointer;
-        }
-    </style>
 
 
 
@@ -274,35 +235,7 @@
 
         <!-- SIDEBAR -->
 
-      
-        <div id="myPopup" class="popup">
-            <div class="popup-content">
-                <span class="close">&times;</span>
-                <img src="{{ asset('assets/images/your-image.png') }}" alt="Pop-up Image" style="width:100%">
-            </div>
-        </div>
     
-        <script>
-            // JavaScript to show the pop-up on page load
-            window.onload = function() {
-                var popup = document.getElementById("myPopup");
-                var span = document.getElementsByClassName("close")[0];
-    
-                popup.style.display = "flex"; // Show the pop-up
-    
-                // When the user clicks on <span> (x), close the pop-up
-                span.onclick = function() {
-                    popup.style.display = "none";
-                }
-    
-                // When the user clicks anywhere outside of the pop-up, close it
-                window.onclick = function(event) {
-                    if (event.target == popup) {
-                        popup.style.display = "none";
-                    }
-                }
-            }
-        </script>
 
 
 
