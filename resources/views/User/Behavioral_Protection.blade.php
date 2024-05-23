@@ -141,7 +141,7 @@
                         <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">About Us</span>
                         <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">Construction Industry <br>
                             Awared of in 2024.</h4>
-                            <div class="texts-box ">
+                            <div class="texts-box1" style="display: inline-flex; align-items: center;">
                                 <div class="scct-one">
                                     <p class=" text-[4rem] text-[#8c9097] text-left dark:text-white/50 mb-4 ">25
                                     </p>
