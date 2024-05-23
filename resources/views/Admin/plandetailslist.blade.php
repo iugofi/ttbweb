@@ -63,30 +63,31 @@
 
                         <div class="box-body">
                             <form id="form_search" method="post">
-                            <div class="grid md:grid-cols-4 sm:grid-cols-2 gap-2">
-                                <div class="xl:col-span-1 md:col-span-1 sm:col-span-1 col-span-2">
-                                    <select id="KEY_ID" class="form-control" name="KEY_ID">
-                                        <option value=" ">-Select Key Type-</option>
-                                        @foreach ($keydata as $storeId)
-                                            <option value="{{ $storeId->PICK_ID }}">{{ $storeId->PICK_TEXT }}</option>
-                                        @endforeach
-                                    </select>
+                                <div class="grid md:grid-cols-4 sm:grid-cols-2 gap-2">
+                                    <div class="xl:col-span-1 md:col-span-1 sm:col-span-1 col-span-2">
+                                        <select id="KEY_ID" class="form-control" name="KEY_ID">
+                                            <option value=" ">-Select Key Type-</option>
+                                            @foreach ($keydata as $storeId)
+                                                <option value="{{ $storeId->PICK_ID }}">{{ $storeId->PICK_TEXT }}</option>
+                                            @endforeach
+                                        </select>
+                                    </div>
+                                    <div class="xl:col-span-1 md:col-span-1 sm:col-span-1 col-span-2">
+                                        <select id="PLAN_ID" class="form-control" name="PLAN_ID">
+                                            <option value=" ">-Select Plan Type-</option>
+                                            @foreach ($plandata as $plandatas)
+                                                <option value="{{ $plandatas->plan_id }}">{{ $plandatas->name }}</option>
+                                            @endforeach
+                                        </select>
+                                    </div>
+                                    <div class="xl:col-span-1 md:col-span-1 sm:col-span-1 col-span-2">
+                                        <i class="bi bi-search-heart">
+                                            <input type="submit" id="btn_search" class="m-1 ti-btn ti-btn-primary-full"
+                                                value="Search">
+                                        </i>
+                                    </div>
                                 </div>
-                                <div class="xl:col-span-1 md:col-span-1 sm:col-span-1 col-span-2">
-                                    <select id="PLAN_ID" class="form-control" name="PLAN_ID">
-                                        <option value=" ">-Select Plan Type-</option>
-                                        @foreach ($plandata as $plandatas)
-                                            <option value="{{ $plandatas->plan_id }}">{{ $plandatas->name }}</option>
-                                        @endforeach
-                                    </select>
-                                </div>
-                                <div class="xl:col-span-1 md:col-span-1 sm:col-span-1 col-span-2">
-                                    <i class="bi bi-search-heart">
-                                <input type="submit" id="btn_search" class="m-1 ti-btn ti-btn-primary-full" value="Search">
-                                 </i>
-                                </div>
-                            </div>
-                        </form>
+                            </form>
 
 
 
@@ -204,67 +205,74 @@
             });
         </script>
 
-<script>
-    $(document).ready(function() {
-        $('#form_search').submit(function(e) {
-            e.preventDefault();
-            $('#btn_search').val('Please wait...');
-            var token = $('meta[name="csrf-token"]').attr('content');
-            var formData = new FormData($(this)[0]);
-    
-            if (formData) {
-                $.ajax({
-                    url: "{{ route('search.editplansearch') }}",
-                    method: 'POST',
-                    data: formData,
-                    headers: {
-                        'X-CSRF-TOKEN': token
-                    },
-                    contentType: false,
-                    processData: false,
-                    success: function(response) {
-                        var tbody = $('#showdata tbody');
-                        tbody.empty();
-    
-                        $.each(response, function(key, item) {
-                            var row = '<tr>' +
-                                '<td class="border px-4 py-2">' + (key + 1) + '</td>' +
-                                '<td class="border px-4 py-2">' + item.key_type + '</td>' +
-                                '<td class="border px-4 py-2">' + item.plan_id + '</td>' +
-                                '<td class="border px-4 py-2">' + item.price + '</td>' +
-                                '<td class="border px-4 py-2">' + item.image + '</td>' +
-                                '<td class="border px-4 py-2">' + item.discount + '</td>' +
-                                '<td class="border">' + item.coupons + '</td>' +
-                                '<td class="border">' + item.is_coupons + '</td>' +
-                                '<td class="border px-4 py-2">' +
-                                '<div class="flex flex-row items-center !gap-2 text-[0.9375rem]">' +
-                                '<a aria-label="anchor" href="{{ route('edit.adminuseredit', ':encrypted_id') }}" class="ti-btn ti-btn-icon ti-btn-wave !gap-0 !m-0 !h-[1.75rem] !w-[1.75rem] text-[0.8rem] bg-primary/10 text-primary hover:bg-primary hover:text-white hover:border-primary">' +
-                                '<i class="ri-edit-line"></i>' +
-                                '</a>' +
-                                '<button aria-label="button" type="button" class="ti-btn !py-1 !px-2 !text-[0.75rem] ti-btn-danger-full btn-wave delete-storepick" data-item-id="' + item.id + '">' +
-                                '<i class="ri-delete-bin-line align-middle me-2 inline-block"></i>Delete' +
-                                '</button>' +
-                                '</div>' +
-                                '</td>' +
-                                '</tr>';
-                            row = row.replace(':encrypted_id', item.encrypted_id);
-                            tbody.append(row);
+        <script>
+            $(document).ready(function() {
+                $('#form_search').submit(function(e) {
+                    e.preventDefault();
+                    $('#btn_search').val('Please wait...');
+                    var token = $('meta[name="csrf-token"]').attr('content');
+                    var formData = new FormData($(this)[0]);
+
+                    if (formData) {
+                        $.ajax({
+                            url: "{{ route('search.editplansearch') }}",
+                            method: 'POST',
+                            data: formData,
+                            headers: {
+                                'X-CSRF-TOKEN': token
+                            },
+                            contentType: false,
+                            processData: false,
+                            success: function(response) {
+                                var tbody = $('#showdata tbody');
+                                tbody.empty();
+
+                                $.each(response, function(key, item) {
+                                    var row = '<tr>' +
+                                        '<td class="border px-4 py-2">' + (key + 1) +
+                                        '</td>' +
+                                        '<td class="border px-4 py-2">' + item.key_type +
+                                        '</td>' +
+                                        '<td class="border px-4 py-2">' + item.plan_id +
+                                        '</td>' +
+                                        '<td class="border px-4 py-2">' + item.price +
+                                        '</td>' +
+                                        '<td class="border px-4 py-2">' + item.image +
+                                        '</td>' +
+                                        '<td class="border px-4 py-2">' + item.discount +
+                                        '</td>' +
+                                        '<td class="border">' + item.coupons + '</td>' +
+                                        '<td class="border">' + item.is_coupons + '</td>' +
+                                        '<td class="border px-4 py-2">' +
+                                        '<div class="flex flex-row items-center !gap-2 text-[0.9375rem]">' +
+                                        '<a aria-label="anchor" href="{{ route('edit.adminuseredit', ':encrypted_id') }}" class="ti-btn ti-btn-icon ti-btn-wave !gap-0 !m-0 !h-[1.75rem] !w-[1.75rem] text-[0.8rem] bg-primary/10 text-primary hover:bg-primary hover:text-white hover:border-primary">' +
+                                        '<i class="ri-edit-line"></i>' +
+                                        '</a>' +
+                                        '<button aria-label="button" type="button" class="ti-btn !py-1 !px-2 !text-[0.75rem] ti-btn-danger-full btn-wave delete-storepick" data-item-id="' +
+                                        item.id + '">' +
+                                        '<i class="ri-delete-bin-line align-middle me-2 inline-block"></i>Delete' +
+                                        '</button>' +
+                                        '</div>' +
+                                        '</td>' +
+                                        '</tr>';
+                                    row = row.replace(':encrypted_id', item.encrypted_id);
+                                    tbody.append(row);
+                                });
+
+                                $('#btn_search').val('Search');
+                            },
+                            error: function(xhr, status, error) {
+                                console.error(error);
+                                $('#btn_search').val('Search');
+                            }
                         });
-    
-                        $('#btn_search').val('Search');
-                    },
-                    error: function(xhr, status, error) {
-                        console.error(error);
-                        $('#btn_search').val('Search');
+                    } else {
+                        $('#showdata tbody').empty();
                     }
                 });
-            } else {
-                $('#showdata tbody').empty();
-            }
-        });
-    });
-    </script>
-    
+            });
+        </script>
+
 
         <script>
             $(document).ready(function() {
