@@ -158,7 +158,7 @@
                                                         <div class="flex flex-row items-center !gap-2 text-[0.9375rem]">
 
                                                             <a aria-label="anchor"
-                                                                href="{{ route('edit.adminuseredit', \Crypt::encrypt($item->id)) }}"
+                                                                href="{{ route('edit.editplandetails', \Crypt::encrypt($item->id)) }}"
                                                                 class="ti-btn ti-btn-icon ti-btn-wave !gap-0 !m-0 !h-[1.75rem] !w-[1.75rem] text-[0.8rem] bg-primary/10 text-primary hover:bg-primary hover:text-white hover:border-primary">
                                                                 <i class="ri-edit-line"></i>
                                                             </a>
