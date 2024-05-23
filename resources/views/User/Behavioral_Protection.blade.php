@@ -143,7 +143,7 @@
                             Awared of in 2024.</h4>
                             <div class="texts-box1" style="display: inline-flex; align-items: center;">
                                 <div class="scct-one">
-                                    <p class="txts text-[4rem] text-[#8c9097] text-left dark:text-white/50 mb-4 ">25
+                                    <p class="txts text-[4rem] text-[#8c9097] text-left dark:text-white/50 mb-0 ">25
                                     </p>
                                 </div>
                                 <div class="scct-two">
