@@ -13,7 +13,7 @@
 
 <div class="main-content !p-0 landing-main dark:text-defaulttextcolor/70">
 
-        <!-- Start::ttbantivirus section one -->
+        <!-- Start:: Behavioral Protection section one -->
         <div class="Behavioral-banner" id="Behavioral">
             <section class="section sect-ban">
                 <div class="container main-banner-container">
@@ -48,12 +48,86 @@
                 </div>
             </section>
         </div>
-        <!-- End::ttbantivirus section one -->
+        <!-- End:: Behavioral Protection section one -->
 
+        <!-- Start:: Behavioral Protection section two -->
 
+        <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] "
+            id="features">
+            <div class="container text-center">
+                <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">Our Services</span>
+                <h2 class="lg:text-center font-semibold mb-2 text-[2rem]">We do awesome Services for our clients.<br>
+                    Check some of our Services.</h2><br>
+                <div class="grid grid-cols-12 gap-x-6">
+                    <div class="xl:col-span-3 md:col-span-6 col-span-12">
+                        <div class="box boxs1">
+                            <div class="box-body">
+                                <div class="mb-2 anti-img1">
+                                    <span class="avatar avatar-md pt-5">
 
+                                        <img src="assets/img/Renovation-Building.png" alt="img"
+                                            class="!rounded-md" style="max-width: 85px;height: 85px;">
+                                    </span>
+                                </div>
+                                <h6 class="font-bold mb-2 text-xl">Threat Protection</h6>
+                                <p class="card-text mb-4">Many desktop publishing packages and web page editors
+                                    now use Lorem Ipsum as their default model text.</p>
 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="xl:col-span-3 md:col-span-6 col-span-12">
+                        <div class="box boxs1">
+                            <div class="box-body">
+                                <div class="mb-2 anti-img2">
+                                    <span class="avatar avatar-md pt-5">
+                                        <img src="assets/img/Power-And-Energy-2.png" alt="img"
+                                            class="!rounded-md" style="max-width: 85px;height: 85px;">
+                                    </span>
+                                </div>
+                                <h6 class="font-bold mb-2 text-xl">Easy to Use</h6>
+                                <p class="card-text mb-4">Many desktop publishing packages and web page editors
+                                    now use Lorem Ipsum as their default model text.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="xl:col-span-3 md:col-span-6 col-span-12">
+                        <div class="box boxs1">
+                            <div class="box-body">
+                                <div class="mb-2 anti-img3">
+                                    <span class="avatar avatar-md pt-5">
+                                        <img src="assets/img/Dedicated-Teams.png" alt="img"
+                                            class="!rounded-md" style="max-width: 85px;height: 85px;">
 
+                                    </span>
+                                </div>
+                                <h6 class="font-bold mb-2 text-xl">Consumer Security</h6>
+                                <p class="card-text mb-4">Many desktop publishing packages and web page editors
+                                    now use Lorem Ipsum as their default model text.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="xl:col-span-3 md:col-span-6 col-span-12">
+                        <div class="box boxs1">
+                            <div class="box-body">
+                                <div class="mb-2 anti-img4 pt-3">
+                                    <span class="avatar avatar-md">
+                                        <img src="assets/img/Oil-&-Gas-Energy.png" alt="img"
+                                            class="!rounded-md" style="max-width: 85px;height: 85px;">
+
+                                    </span>
+                                </div>
+                                <h6 class="font-bold mb-2 text-xl">Virus Protection</h6>
+                                <p class="card-text mb-4">Many desktop publishing packages and web page editors
+                                    now use Lorem Ipsum as their default model text.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- End:: Behavioral Protection section two -->
 
 
 
