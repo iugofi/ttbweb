@@ -95,6 +95,13 @@
                                         <div class="invalid-feedback"></div>
                                     </div>
 
+                                    <div class="xl:col-span-6 col-span-12">
+                                        <label for="canonical-url" class="form-label">Price</label>
+                                        <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
+                                            id="price" name="price" placeholder="Enter Price">
+                                        <div class="invalid-feedback"></div>
+                                    </div>
+
                                     <div class="xl:col-span-12 col-span-12 blog-images-container">
                                         <label for="product-price" class="form-label">Images</label>
                                         <input type="file" class="product_images" id="product_images" name="product_images"
@@ -244,6 +251,8 @@
                         if (response.status == 400) {
                             showError('planname', response.messages.planname);
                             showError('plan_id', response.messages.plan_id);
+                            showError('price', response.messages.price);
+
 
                             $('#plan_save_btn').val('Save Plan Details');
                         } else if (response.status == 200) {

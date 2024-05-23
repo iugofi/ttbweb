@@ -1069,7 +1069,9 @@ public function newslistshow(){
                     if ($this->loggedInAdmin) {
                         $validator = Validator::make($request->all(), [
                             'planname' => 'required',
-                            'plan_id' => 'required'
+                            'plan_id' => 'required',
+                            'price' => 'required'
+
                         
                         ]);
                         if ($validator->fails()) {
@@ -1088,7 +1090,6 @@ public function newslistshow(){
                                 $plan->discount = $request->discount;
                                 $plan->coupons = $request->coupons;
                                 $plan->is_coupons = $request->is_coupons;
-
                                 $plan->save();
                                 
                                 return response()->json([
