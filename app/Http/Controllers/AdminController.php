@@ -1030,6 +1030,7 @@ public function newslistshow(){
             $detail->encrypted_id = \Crypt::encrypt($detail->id);
             $storePick = Storepick::select('PICK_TEXT')
                 ->where('STORE_ID', 'key_type')
+                ->where('PICK_ID', $detail->key_type)
                 ->first();
             if ($storePick) {
                 $detail->key_type = $storePick->PICK_TEXT;
