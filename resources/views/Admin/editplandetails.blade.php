@@ -46,7 +46,7 @@
                         <div class="box-header">
                             <div class="box-title">Plan Details Edit</div>
                         </div>
-                        <form method="post" id="edit_plan_form" enctype="multipart/form-data">
+                        <form method="post" id="edit_plan_details_form" enctype="multipart/form-data">
                             @csrf
                             <div class="box-body">
                                 <div class="box text-center">
@@ -147,7 +147,7 @@
                             <div class="box-footer">
                                 <div class="text-end">
                                     {{-- <button type="button" class="ti-btn !py-1 !px-2 ti-btn-light !text-[0.75rem] !font-medium me-2">Save As Draft</button> --}}
-                                    <input type="submit" value="Edit Plan Details" id="plan_edit_btn"
+                                    <input type="submit" value="Edit Plan Details" id="plan_details_edit_btn"
                                         class="ti-btn bg-primary text-white !py-1 !px-2 !text-[0.75rem] !font-medium">
                                 </div>
                             </div>
@@ -169,14 +169,14 @@
 
     <script>
         $(document).ready(function() {
-            $('#edit_plan_form').submit(function(e) {
+            $('#edit_plan_details_form').submit(function(e) {
                 e.preventDefault();
-                $('#plan_edit_btn').val('please wait..');
+                $('#plan_details_edit_btn').val('please wait..');
                 var token = $('meta[name="csrf-token"]').attr('content');
                 var formData = new FormData($(this)[0]);
                 
                 $.ajax({
-                    url:  "{{ route('edit.editplansave') }}",
+                    url:  "{{ route('edit.editplandetailssave') }}",
                     method: 'post',
                     data: formData,
                     headers: {
@@ -188,14 +188,15 @@
                         if (response.status == 400) {
                             showError('planname', response.messages.planname);
                             showError('plan_id', response.messages.plan_id);
-                            $('#plan_edit_btn').val('Edit Plan Details');
+                            showError('price', response.messages.price);
+                            $('#plan_details_edit_btn').val('Edit Plan Details');
                         } else if (response.status == 200) {
                             $('.invalid-feedback').empty();
                             // $("#show_success_alert").html(showMessage('success', response
                             //     .messages));
-                            $('#edit_plan_form')[0].reset();
-                            removeValidationClass("#edit_plan_form");
-                            $('#plan_edit_btn').val('Edit Plan Details');
+                            $('#edit_plan_details_form')[0].reset();
+                            removeValidationClass("#edit_plan_details_form");
+                            $('#plan_details_edit_btn').val('Edit Plan Details');
                             alert(response.messages);
                             window.location.href = "{{ route('plan.listshow') }}";
                            
