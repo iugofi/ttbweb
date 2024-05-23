@@ -147,7 +147,7 @@
                                     </p>
                                 </div>
                                 <div class="scct-two">
-                                    <p class=" text-[0.9rem] text-[#8c9097] text-left dark:text-white/50 mb-4 px-12">Construction Industry awared
+                                    <p class=" text-[0.9rem] text-[#8c9097] text-left dark:text-white/50 mb-4 px-12">YEARS EXPERIENCES
                                     </p>
                                 </div>
 
