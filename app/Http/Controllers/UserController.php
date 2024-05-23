@@ -168,6 +168,10 @@ class UserController extends Controller
     {
         return view('User.threat');
     }
+    public function Behavioral_Protection()
+    {
+        return view('User.Behavioral_Protection');
+    }
     public function contactform(Request $request)
     {
 

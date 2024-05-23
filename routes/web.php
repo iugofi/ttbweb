@@ -71,6 +71,11 @@ Route::get('/vpnshieldnew', [UserController::class, 'vpnshieldnew'])->name('user
 Route::get('/Endpoint_protection', [UserController::class, 'endpoint_protection'])->name('user.endpoint_protection');
 
 
+//Behavioral Protection
+Route::get('/Behavioral_Protection', [UserController::class, 'Behavioral_Protection'])->name('user.Behavioral_Protection');
+
+
+
 
 
 
