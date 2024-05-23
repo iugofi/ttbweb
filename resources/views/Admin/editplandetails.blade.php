@@ -58,6 +58,7 @@
 
                                     <div class="xl:col-span-6 col-span-6">
                                         <label for="blog-title" class="form-label required">Plan Id</label>
+                                        <input type="text" name="main_id" value="{{ isset($editplandetails->id) ? \Crypt::encrypt($editplandetails->id) : '' }}" hidden>
                                         <select class="form-control block w-full text-[0.875rem] !rounded-md" data-trigger
                                             name="planname" id="planname">
                                             <option value="">Select</option>
