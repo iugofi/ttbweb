@@ -66,7 +66,7 @@
                                     <span class="avatar avatar-md pt-5">
 
                                         <img src="{{asset('assets/img/Renovation-Building.png')}}" alt="img"
-                                            class="!rounded-md" style="max-width: 85px;height: 85px;">
+                                            class="!rounded-md" style="max-width: 75px;height: 75px;">
                                     </span>
                                 </div>
                                 <h6 class="font-bold mb-2 text-xl">Threat Protection</h6>
@@ -82,7 +82,7 @@
                                 <div class="mb-2 Behavioral-img2">
                                     <span class="avatar avatar-md pt-5">
                                         <img src="{{asset('assets/img/Power-And-Energy-2.png')}}" alt="img"
-                                            class="!rounded-md" style="max-width: 85px;height: 85px;">
+                                            class="!rounded-md" style="max-width: 75px;height: 75px;">
                                     </span>
                                 </div>
                                 <h6 class="font-bold mb-2 text-xl">Easy to Use</h6>
@@ -97,7 +97,7 @@
                                 <div class="mb-2 Behavioral-img3">
                                     <span class="avatar avatar-md pt-5">
                                         <img src="{{asset('assets/img/Dedicated-Teams.png')}}" alt="img"
-                                            class="!rounded-md" style="max-width: 85px;height: 85px;">
+                                            class="!rounded-md" style="max-width: 75px;height: 75px;">
 
                                     </span>
                                 </div>
@@ -113,7 +113,7 @@
                                 <div class="mb-2 Behavioral-img4 pt-3">
                                     <span class="avatar avatar-md">
                                         <img src="{{asset('assets/img/Oil-&-Gas-Energy.png')}}" alt="img"
-                                            class="!rounded-md" style="max-width: 85px;height: 85px;">
+                                            class="!rounded-md" style="max-width: 75px;height: 75px;">
 
                                     </span>
                                 </div>
