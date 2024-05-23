@@ -148,7 +148,15 @@
                                                         }
                                                     @endphp</td>
                                                     <td class="border px-4 py-2">{{ $item->price }}</td>
-                                                    <td class="border px-4 py-2">{{ $item->image }}</td>
+                                                    <td class="border px-4 py-2">
+                                                        <div class="flex items-center font-semibold">
+                                                            <span class="!me-2 inline-flex justify-center items-center">
+                                                                <img src="{{ asset('assets/images/dailynews/' . $item->image) }}"
+                                                                    alt="img"
+                                                                    class="w-[1.75rem] h-[1.75rem] leading-[1.75rem] text-[0.65rem]  rounded-full">
+                                                            </span>
+                                                        </div>
+                                                    </td>
                                                     <td class="border px-4 py-2">{{ $item->discount }}</td>
                                                     <td class="border px-4 py-2">{{ $item->coupons }}</td>
                                                     <td class="border px-4 py-2">{{ $item->is_coupons }}</td>
