@@ -168,7 +168,7 @@
                                 class="img-fluid">
                         </div>
                         <div class="lg:text-start !flex items-center lg:justify-start justify-center box-animantion">
-                            <img src="{{ asset('assets/img/Box.png') }}" alt="" class="img-fluid">
+                            <img src="{{ asset('assets/img/Construction-Industry-Awared-of-in-2024-Icon.png') }}" alt="" class="img-fluid">
                         </div>
                     </div>
                 </div>
