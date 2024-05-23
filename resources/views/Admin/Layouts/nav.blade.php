@@ -61,6 +61,18 @@
                         </a>
                     </li>
 
+               
+
+                
+
+               
+        
+
+                @php
+               
+               if (session('admintype')== 'superadmin') {
+                @endphp
+
                 <li class="slide__category"><span class="category-name">Storepick</span></li>   
                     <li class="slide">
                         <a href="{{route('admin.storepickpage')}}" class="side-menu__item">
@@ -75,15 +87,6 @@
                         </a>
                     </li>
 
-                
-
-               
-        
-
-                @php
-               
-               if (session('admintype')== 'superadmin') {
-                @endphp 
                 <li class="slide__category"><span class="category-name">User</span></li>               
                 <li class="slide">
                     <a href="{{route('admin.useradminpage')}}" class="side-menu__item">
@@ -97,6 +100,7 @@
                             <span class="side-menu__label">User Create</span>
                         </a>
                     </li>
+
                 <li class="slide__category"><span class="category-name">Plan</span></li>
 
                     <li class="slide">
