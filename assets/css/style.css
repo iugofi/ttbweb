@@ -50333,6 +50333,11 @@ h6.uppercase {
     rotate: 270deg !important;
     font-weight: 600;
 }
+p.txts {
+    font-size: 10rem;
+    font-weight: 700;
+    color: #12D2B3;
+}
 
  
 /* End::marker Behavioral-Protection page css */
