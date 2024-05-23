@@ -154,7 +154,7 @@
 
                             </div>
                         <p class=" text-[0.9rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
-                            value with diverse web-readiness. Collaboratively transition wireless customer service without
+                            value with diverse web-readiness.<br> Collaboratively transition wireless customer service without<br>
                             goal-oriented catalysts for change. Collaboratively.
                         </p>
 
