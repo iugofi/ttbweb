@@ -158,9 +158,6 @@
                             goal-oriented catalysts for change. Collaboratively.
                         </p>
 
-                        <div class="action-btns mt-4">
-                            <a href="#" class="ti-btn bg-primary text-white">Learn More</a>
-                        </div>
                     </div>
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 antivirus-image text-center">
                         <div class="lg:text-start !flex items-center lg:justify-start">
