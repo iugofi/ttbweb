@@ -218,6 +218,7 @@ Route::post('/editplansave', [AdminController::class, 'editplansave'])->name('ed
 
 
 Route::get('/plandetailsshow', [AdminController::class, 'plandetailsshow'])->name('plan.detailsshow');
+Route::get('/plandetailscreate', [AdminController::class, 'plandetailscreate'])->name('plan.plandetailscreate');
 Route::post('/editplansearch', [AdminController::class, 'editplansearch'])->name('search.editplansearch');
 
 
