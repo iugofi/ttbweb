@@ -1018,6 +1018,11 @@ public function newslistshow(){
                         foreach ($plandetails as $pick) {
                             $pick->encrypted_id = \Crypt::encrypt($pick->id);
                         }
+
+                        foreach ($plandetails as $keytype) {
+                            $keytype->key_type =Storepick::select('PICK_TEXT')->where('STORE_ID','key_type')->where('PICK_ID',$key_id)->get();
+                        }
+
                         return response()->json($plandetails);
                 
                     } else {
