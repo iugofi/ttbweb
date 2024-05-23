@@ -229,7 +229,7 @@
                         $.each(response, function(key, item) {
                             var row = '<tr>' +
                                 '<td class="border px-4 py-2">' + (key + 1) + '</td>' +
-                                '<td class="border px-4 py-2">' + key_type['PICK_TEXT'] + '</td>' +
+                                '<td class="border px-4 py-2">' + key_type + '</td>' +
                                 '<td class="border px-4 py-2">' + item.plan_id + '</td>' +
                                 '<td class="border px-4 py-2">' + item.price + '</td>' +
                                 '<td class="border px-4 py-2">' + item.image + '</td>' +
