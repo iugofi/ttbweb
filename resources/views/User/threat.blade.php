@@ -33,7 +33,7 @@
     <section class="threat-section-two">
         <div class="container main-banner-container">
             <div class="grid grid-cols-12 gap-6">
-                <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 col-span-12">
+                <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 col-span-12 text-center">
                     <img src="{{ asset('assets/img/threat-image1.png') }}" alt="" class="img-fluid" width="90%">
                 </div>
                 <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 col-span-12 pt-5">
