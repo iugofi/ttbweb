@@ -147,7 +147,7 @@
                                     </p>
                                 </div>
                                 <div class="scct-two">
-                                    <p class=" text-[1rem] text-[#8c9097] text-left dark:text-white/50 mb-4 px-0">YEARS EXPERIENCES
+                                    <p class=" text-[1rem] text-[#8c9097] text-left dark:text-white/50 mb-4 px-0 year-text-left">YEARS EXPERIENCES
                                     </p>
                                 </div>
 
