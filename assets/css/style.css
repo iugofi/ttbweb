@@ -49713,13 +49713,13 @@ h6.uppercase {
         /* height: 65% !important; */
     }
     .slide-card {
-        height: 387px !important;
+        height: 320px !important;
     }
     .slide-img {
         height: 33% !important;
     }
     .slide-card .content.colum-slide {
-        padding: 12px 15px !important;
+        padding: 50px 15px !important;
     }
     .slide-card .title {
         font-size: 20px !important;
