@@ -1029,7 +1029,7 @@ public function newslistshow(){
         foreach ($plandetails as $detail) {
             $detail->encrypted_id = \Crypt::encrypt($detail->id);
             $storePick = Storepick::select('PICK_TEXT')
-                ->where('STORE_ID', $detail->key_type)
+                ->where('STORE_ID', 'key_type')
                 ->first();
             if ($storePick) {
                 $detail->key_type = $storePick->PICK_TEXT;
