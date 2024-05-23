@@ -1040,6 +1040,7 @@ public function newslistshow(){
                             } else {
                                 $keytype->key_type = null; // or handle as needed
                             }
+                        }
 
                         return response()->json($plandetails);
                 
