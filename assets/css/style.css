@@ -49715,6 +49715,9 @@ h6.uppercase {
     .slide-card {
         height: 387px !important;
     }
+    .slide-img {
+        height: 33% !important;
+    }
     .slide-card .content.colum-slide {
         padding: 12px 15px !important;
     }
