@@ -52,7 +52,7 @@
 
         <!-- Start:: Behavioral Protection section two -->
 
-        <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
+        <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] "
             id="features">
             <div class="container text-center">
                 <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">What We Do</span>
