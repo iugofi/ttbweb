@@ -1027,7 +1027,6 @@ public function newslistshow(){
                             $pick->encrypted_id = \Crypt::encrypt($pick->id);
                         }
 
-
                         foreach ($plandetails as $keytype) {
                             $keytype->key_type =Storepick::select('PICK_TEXT')
                             ->where('STORE_ID', 'key_type')
