@@ -173,7 +173,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> 
 
         <!-- End:: Behavioral Protection section three -->
 
