@@ -57,15 +57,15 @@
 
                                     <div class="xl:col-span-12 col-span-12">
                                         <label for="STORE ID" class="form-label">Plan Id</label>
-                                        <input type="text" name="main_id" value="{{ isset($editplandetails->id) ? \Crypt::encrypt($editplan->id) : '' }}" hidden>
+                                        <input type="text" name="main_id" value="{{ isset($editplandetails->id) ? \Crypt::encrypt($editplandetails->id) : '' }}" hidden>
                                         <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
-                                            id="plan_id" name="plan_id"  value="{{ isset($editplandetails->plan_id) ? $editplan->plan_id : '' }}" placeholder="Plan Id">
+                                            id="plan_id" name="plan_id"  value="{{ isset($editplandetails->plan_id) ? $editplandetails->plan_id : '' }}" placeholder="Plan Id">
                                         <div class="invalid-feedback"></div>
                                     </div>
                                     <div class="xl:col-span-12 col-span-12">
                                         <label for="Plan Name" class="form-label">Plan Name</label>
                                         <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
-                                            id="planname" name="planname" value="{{ isset($editplandetails->key_type) ? $editplan->key_type : '' }}" placeholder="Plan Name">
+                                            id="planname" name="planname" value="{{ isset($editplandetails->key_type) ? $editplandetails->key_type : '' }}" placeholder="Plan Name">
                                         <div class="invalid-feedback"></div>
                                     </div>
 
