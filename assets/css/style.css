@@ -49710,14 +49710,14 @@ h6.uppercase {
     }
     .slide-img img {
         max-width: 100% !important;
-        height: 65% !important;
+        /* height: 65% !important; */
     }
     .slide-card {
-        height: 270px !important;
+        height: 800px !important;
     }
-    .slide-img {
+    /* .slide-img {
         height: 33% !important;
-    }
+    } */
     .slide-card .content.colum-slide {
         padding: 15px 15px !important;
     }
