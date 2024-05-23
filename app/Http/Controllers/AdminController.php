@@ -1027,19 +1027,11 @@ public function newslistshow(){
                             $pick->encrypted_id = \Crypt::encrypt($pick->id);
                         }
 
-
                         foreach ($plandetails as $keytype) {
-                            $storepick = Storepick::select('PICK_TEXT')
-                                ->where('STORE_ID', 'key_type')
-                                ->where('PICK_ID', $key_id)
-                                ->first();
-                            
-                   
-                            if ($storepick) {
-                                $keytype->key_type = $storepick->PICK_TEXT;
-                            } else {
-                                $keytype->key_type = $storepick->PICK_TEXT; 
-                            }
+                            $keytype->key_type =Storepick::select('PICK_TEXT')
+                            ->where('STORE_ID', 'key_type')
+                            ->where('PICK_ID', $key_id)
+                            ->first()->PICK_TEXT;
                         }
 
                         return response()->json($plandetails);
