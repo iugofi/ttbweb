@@ -1024,6 +1024,7 @@ public function newslistshow(){
                         }
                         if(!$key_id && !$plan_id)
                         {
+                            
                             $query;
                         }
 
@@ -1031,18 +1032,30 @@ public function newslistshow(){
                         foreach ($plandetails as $pick) {
                             $pick->encrypted_id = \Crypt::encrypt($pick->id);
                         }
-
+                        foreach ($plandetails as $keytype) {
+                            $keytype->key_type =Storepick::select('PICK_TEXT')
+                            ->where('STORE_ID', 'key_type')
+                            ->first()->PICK_TEXT;
+                        } 
+                        foreach ($plandetails as $plan_ids) {
+                            $plan_ids->plan_id =Planname::select('name')
+                            ->first()->name;
+                        }
+                        if ($plan_id) {
                         foreach ($plandetails as $keytype) {
                             $keytype->key_type =Storepick::select('PICK_TEXT')
                             ->where('STORE_ID', 'key_type')
                             ->where('PICK_ID', $key_id)
                             ->first()->PICK_TEXT;
                         }
+                    }
+                    if ($key_id) {
                         foreach ($plandetails as $plan_ids) {
                             $plan_ids->plan_id =Planname::select('name')
                             ->where('plan_id', $plan_id)
                             ->first()->name;
                         }
+                    }
 
                         return response()->json($plandetails);
                 
