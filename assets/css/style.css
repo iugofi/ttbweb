@@ -50342,6 +50342,12 @@ p.txts {
     position: relative;
     bottom: 50px;
 }
+.lock-animantion img {
+    right: 3rem;
+    bottom: 5.5rem;
+    position: relative;
+    margin: auto;
+}
 
  
 /* End::marker Behavioral-Protection page css */
