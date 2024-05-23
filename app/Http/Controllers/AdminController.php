@@ -1022,6 +1022,11 @@ public function newslistshow(){
                         if ($key_id) {
                             $query->where('key_type', $key_id);
                         }
+                        if(!$key_id && !$plan_id)
+                        {
+                            $query;
+                        }
+
                         $plandetails = $query->get();
                         foreach ($plandetails as $pick) {
                             $pick->encrypted_id = \Crypt::encrypt($pick->id);
