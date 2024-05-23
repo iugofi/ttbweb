@@ -23,7 +23,7 @@ use App\Http\Controllers\UserauthController;
 //     return view('welcome');
 // });
 
-Artisan::call('down');
+
 Route::prefix('eruithruoihjroih547u68495768954768567')->group(function () {
 //forget pass
 Route::post('/forget-pass', [UserController::class, 'forgetpass'])->name('user.forgetpass');
