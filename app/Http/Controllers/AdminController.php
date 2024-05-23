@@ -1010,59 +1010,51 @@ public function newslistshow(){
                 }
 
 
-                public function editplansearch(Request $request){
-                    if ($this->loggedInAdmin) {
-                        $key_id=$request->KEY_ID;
-                        $plan_id=$request->PLAN_ID;
-                        $query = Plandetails::query();
-                        if ($plan_id) {
-                            $query->where('plan_id', $plan_id);
-                        }
-                        
-                        if ($key_id) {
-                            $query->where('key_type', $key_id);
-                        }
-                        if(!$key_id && !$plan_id)
-                        {
-                            
-                            $query;
-                        }
+                public function editplansearch(Request $request)
+{
+    if ($this->loggedInAdmin) {
+        $key_id = $request->KEY_ID;
+        $plan_id = $request->PLAN_ID;
+        $query = Plandetails::query();
 
-                        $plandetails = $query->get();
-                        foreach ($plandetails as $pick) {
-                            $pick->encrypted_id = \Crypt::encrypt($pick->id);
-                        }
-                        foreach ($plandetails as $keytype) {
-                            $keytype->key_type =Storepick::select('PICK_TEXT')
-                            ->where('STORE_ID', 'key_type')
-                            ->first()->PICK_TEXT;
-                        } 
-                        foreach ($plandetails as $plan_ids) {
-                            $plan_ids->plan_id =Planname::select('name')
-                            ->first()->name;
-                        }
-                        if ($plan_id) {
-                        foreach ($plandetails as $keytype) {
-                            $keytype->key_type =Storepick::select('PICK_TEXT')
-                            ->where('STORE_ID', 'key_type')
-                            ->where('PICK_ID', $key_id)
-                            ->first()->PICK_TEXT;
-                        }
-                    }
-                    if ($key_id) {
-                        foreach ($plandetails as $plan_ids) {
-                            $plan_ids->plan_id =Planname::select('name')
-                            ->where('plan_id', $plan_id)
-                            ->first()->name;
-                        }
-                    }
+        if ($plan_id) {
+            $query->where('plan_id', $plan_id);
+        }
+        
+        if ($key_id) {
+            $query->where('key_type', $key_id);
+        }
+        $plandetails = $query->get();
 
-                        return response()->json($plandetails);
-                
-                    } else {
-                        return redirect('/setup');
-                    }
-                }
+        foreach ($plandetails as $detail) {
+            $detail->encrypted_id = \Crypt::encrypt($detail->id);
+            $storePick = Storepick::select('PICK_TEXT')
+                ->where('STORE_ID', $detail->key_type)
+                ->first();
+            if ($storePick) {
+                $detail->key_type = $storePick->PICK_TEXT;
+            } else {
+                $detail->key_type = null;
+            }
+
+            // Fetch and assign the plan name
+            $planName = Planname::select('name')
+                ->where('plan_id', $detail->plan_id)
+                ->first();
+            if ($planName) {
+                $detail->plan_id = $planName->name;
+            } else {
+                $detail->plan_id = null;
+            }
+        }
+
+        return response()->json($plandetails);
+
+    } else {
+        return redirect('/setup');
+    }
+}
+
                 
 
 
