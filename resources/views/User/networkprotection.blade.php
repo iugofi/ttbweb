@@ -338,7 +338,7 @@
                 <div class="slider owl-carousel">
                     <div class="slide-owl">
                         <div class="card">
-                            <div class="img">
+                            <div class="img slide-img">
                                 <img src="{{ asset('assets/img/The-Best-Business-And-It---Service-Company-4.png') }}"
                                     alt="" class="img-fluid">
                             </div>
@@ -355,7 +355,7 @@
                     </div>
                     <div class="slide-owl">
                         <div class="card">
-                            <div class="img">
+                            <div class="img slide-img">
                                 <img src="{{ asset('assets/img/The-Best-Business-And-It---Service-Company-2.png') }}"
                                     alt="" class="img-fluid">
                             </div>
@@ -372,7 +372,7 @@
                     </div>
                     <div class="slide-owl">
                         <div class="card">
-                            <div class="img">
+                            <div class="img slide-img">
                                 <img src="{{ asset('assets/img/The-Best-Business-And-It---Service-Company-3.png') }}"
                                     alt="" class="img-fluid">
                             </div>
@@ -389,7 +389,7 @@
                     </div>
                     <div class="slide-owl">
                         <div class="card">
-                            <div class="img">
+                            <div class="img slide-img">
                                 <img src="{{ asset('assets/img/The-Best-Business-And-It---Service-Company-3.png') }}"
                                     alt="" class="img-fluid">
                             </div>
@@ -406,7 +406,7 @@
                     </div>
                     <div class="slide-owl">
                         <div class="card">
-                            <div class="img">
+                            <div class="img slide-img">
                                 <img src="{{ asset('assets/img/The-Best-Business-And-It---Service-Company-3.png') }}"
                                     alt="" class="img-fluid">
                             </div>
@@ -424,7 +424,7 @@
                     </div>
                     <div class="slide-owl">
                         <div class="card">
-                            <div class="img">
+                            <div class="img slide-img">
                                 <img src="{{ asset('assets/img/The-Best-Business-And-It---Service-Company-3.png') }}"
                                     alt="" class="img-fluid">
                             </div>

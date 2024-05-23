@@ -33,10 +33,10 @@
     <section class="threat-section-two">
         <div class="container main-banner-container">
             <div class="grid grid-cols-12 gap-6">
-                <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 col-span-12">
-                    <img src="{{ asset('assets/img/threat-image1.png') }}" alt="" class="img-fluid">
+                <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 col-span-12 ">
+                    <img src="{{ asset('assets/img/threat-image1.png') }}" alt="" class="img-fluid" width="90%">
                 </div>
-                <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 col-span-12">
+                <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 col-span-12 pt-5">
                    <div class="flex">
                     <h5>About Us!</h5>
                     <hr>
@@ -49,8 +49,8 @@
                         <p class="mt-3 mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa asperiores quaerat, quia saepe
                             consequuntur laudantium, cum at expedita eligendi perferendis amet fugiat.</p>
                         <div class="btn-box">
-                          <a class="btn-cnt">Contact Us<i class="fas fa-angle-double-right"></i></a>
-                          <a class="btn-srv mx-3">Our Services <i class="fas fa-angle-double-right"></i></a>
+                          <a class="btn-cnt" href="#">Contact Us<i class="fas fa-angle-double-right"></i></a>
+                          <a class="btn-srv mx-3" href="#">Our Services <i class="fas fa-angle-double-right"></i></a>
                         </div>
                     </div>
             </div>
