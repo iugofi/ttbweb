@@ -48715,6 +48715,12 @@ img.img-fluid.service-icon {
 
 /* phishing page css */
 
+.threat-section-three {
+    padding: 100px 0px;
+    border-top: 10px solid #12d2b3;
+    background-color: #F5F6FA;
+}
+
 .btn-box{
     margin-top: 5.5em;
 }
