@@ -1068,7 +1068,7 @@ public function newslistshow(){
                 public function saveplandetails(Request $request){
                     if ($this->loggedInAdmin) {
                         $validator = Validator::make($request->all(), [
-                            'key_type' => 'required',
+                            'planname' => 'required',
                             'plan_id' => 'required'
                         
                         ]);
