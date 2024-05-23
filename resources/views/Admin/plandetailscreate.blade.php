@@ -102,13 +102,7 @@
                                         <div class="invalid-feedback"></div>
                                     </div>
 
-                                    <div class="xl:col-span-12 col-span-12 blog-images-container">
-                                        <label for="product-price" class="form-label">Images</label>
-                                        <input type="file" class="product_images" id="product_images" name="product_images"
-                                            multiple data-allow-reorder="true" data-max-file-size="3MB"
-                                            data-max-files="6">
-                                        <div class="invalid-feedback"></div>
-                                    </div>
+                                   
 
                                     <div class="xl:col-span-6 col-span-12">
                                         <label for="canonical-url" class="form-label">discount</label>
