@@ -24,7 +24,7 @@ use App\Http\Controllers\UserauthController;
 // });
 
 
-Artisan::call('down');
+
 //forget pass
 Route::post('/forget-pass', [UserController::class, 'forgetpass'])->name('user.forgetpass');
 //mail
