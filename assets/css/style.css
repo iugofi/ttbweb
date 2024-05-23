@@ -50338,6 +50338,10 @@ p.txts {
     font-weight: 700;
     color: #12D2B3;
 }
+.year-text-left {
+    position: relative;
+    bottom: 50px;
+}
 
  
 /* End::marker Behavioral-Protection page css */
