@@ -1135,7 +1135,7 @@ public function newslistshow(){
                             }
                             else
                             {
-                                    $store = Planname::where('id', $decryptid)->first();
+                                    $store = Plandetails::where('id', $decryptid)->first();
                                     if (!$store) {
                                         return response()->json([
                                             'status' => 404,
