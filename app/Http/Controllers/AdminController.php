@@ -1089,7 +1089,7 @@ public function newslistshow(){
                                 $plan->price = $request->price;
                                 $plan->discount = $request->discount;
                                 $plan->coupons = $request->coupons;
-                                $plan->is_coupons = $request->is_coupons;
+                                $plan->is_coupons = $request->coupon_status;
                                 $plan->save();
                                 
                                 return response()->json([
