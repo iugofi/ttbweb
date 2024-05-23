@@ -55,9 +55,9 @@
         <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] "
             id="features">
             <div class="container text-center">
-                <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">What We Do</span>
-                <h2 class="lg:text-center font-semibold mb-2 text-[2rem]">How does TTB Antivirus secure<br>
-                    your devices?</h2><br>
+                <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">Our Services</span>
+                <h2 class="lg:text-center font-semibold mb-2 text-[2rem]">We do awesome Services for our clients.<br>
+                    Check some of our Services.</h2><br>
                 <div class="grid grid-cols-12 gap-x-6">
                     <div class="xl:col-span-3 md:col-span-6 col-span-12">
                         <div class="box boxs1">
