@@ -1029,11 +1029,17 @@ public function newslistshow(){
 
 
                         foreach ($plandetails as $keytype) {
-                            $keytype->key_type =Storepick::select('PICK_TEXT')
-                            ->where('STORE_ID', 'key_type')
-                            ->where('PICK_ID', $key_id)
-                            ->first()->PICK_TEXT;
-                        }
+                            $storepick = Storepick::select('PICK_TEXT')
+                                ->where('STORE_ID', 'key_type')
+                                ->where('PICK_ID', $key_id)
+                                ->first();
+                            
+                            // Check if storepick is not null
+                            if ($storepick) {
+                                $keytype->key_type = $storepick->PICK_TEXT;
+                            } else {
+                                $keytype->key_type = null; // or handle as needed
+                            }
 
                         return response()->json($plandetails);
                 
