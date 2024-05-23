@@ -20,10 +20,10 @@
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 col-span-12">
                             <div class="lg:py-[3rem] text-vartical" style="position: relative; top: 7rem;">
-                                <h1 class="text-center font-semibold mb-2 text-[2rem]" style="color: #fff;">Limited Time
+                                <h1 class="text-left font-semibold mb-2 text-[2rem]" style="color: #fff;">Limited Time
                                     Offer Flat 50% off - No<br>
                                     Hidden Chnages Hurry Up!!!</h1>
-                                <div class="text-[1rem] mb-[1.3rem] text-black-light opacity-[0.9] text-center dark-text"
+                                <div class="text-[1rem] mb-[1.3rem] text-black-light opacity-[0.9] text-left dark-text"
                                     style="color: #fff;">Holisticly
                                     procrastinate mission-critical convergence with reliable customer service.
                                     <br>Assertively
