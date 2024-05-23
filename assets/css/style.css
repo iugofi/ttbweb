@@ -50335,4 +50335,9 @@ h6.uppercase {
     /* Standard syntax */
 }
 
+.required:after {
+    content:" *";
+    color: red;
+}
+
 /* end kunal */

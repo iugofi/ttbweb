@@ -12,10 +12,7 @@
             color: #12d2b3;
             background-color: #12d2b312;
         }
-        .required:after {
-            content:" *";
-            color: red;
-        }
+        
     </style>
 
 
