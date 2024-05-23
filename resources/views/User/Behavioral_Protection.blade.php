@@ -123,6 +123,9 @@
                             </div>
                         </div>
                     </div>
+                    <div class="action-btns mt-4">
+                        <a href="#" class="ti-btn bg-primary text-white">View All Services</a>
+                    </div>
                 </div>
             </div>
         </section>
