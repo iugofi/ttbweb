@@ -50334,9 +50334,13 @@ h6.uppercase {
     font-weight: 600;
 }
 p.txts {
-    font-size: 10rem;
+    font-size: 12rem;
     font-weight: 700;
     color: #12D2B3;
+}
+.year-text-left {
+    position: relative;
+    bottom: 50px;
 }
 
  

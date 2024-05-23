@@ -143,11 +143,11 @@
                             Awared of in 2024.</h4>
                             <div class="texts-box1" style="display: inline-flex; align-items: center;">
                                 <div class="scct-one">
-                                    <p class="txts text-[4rem] text-[#8c9097] text-left dark:text-white/50 mb-4 ">25
+                                    <p class="txts text-[4rem] text-[#8c9097] text-left dark:text-white/50 mb-0 ">25
                                     </p>
                                 </div>
                                 <div class="scct-two">
-                                    <p class=" text-[1rem] text-[#8c9097] text-left dark:text-white/50 mb-4 px-0 year-text-left">YEARS EXPERIENCES
+                                    <p class=" text-[0.9rem] text-[#8c9097] text-left dark:text-white/50 mb-4 px-0 year-text-left">YEARS EXPERIENCES
                                     </p>
                                 </div>
 
@@ -164,11 +164,11 @@
                     </div>
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 antivirus-image text-center">
                         <div class="lg:text-start !flex items-center lg:justify-start">
-                            <img src="{{ asset('assets/img/ttb-second-section-img-2.png') }}" alt=""
+                            <img src="{{ asset('assets/img/Construction-Industry-Awared-of-in-2024.png') }}" alt=""
                                 class="img-fluid">
                         </div>
                         <div class="lg:text-start !flex items-center lg:justify-start justify-center box-animantion">
-                            <img src="{{ asset('assets/img/Box.png') }}" alt="" class="img-fluid">
+                            <img src="{{ asset('assets/img/Construction-Industry-Awared-of-in-2024-Icon.png') }}" alt="" class="img-fluid">
                         </div>
                     </div>
                 </div>
