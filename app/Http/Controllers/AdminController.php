@@ -1084,7 +1084,7 @@ public function newslistshow(){
                         {
                 
                                 $plan = new Plandetails();
-                                $plan->key_type = $request->key_type;
+                                $plan->key_type = $request->planname;
                                 $plan->plan_id = $request->plan_id;
                                 $plan->price = $request->price;
                                 $plan->discount = $request->discount;
