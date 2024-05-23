@@ -1033,6 +1033,11 @@ public function newslistshow(){
                             ->where('PICK_ID', $key_id)
                             ->first()->PICK_TEXT;
                         }
+                        foreach ($plandetails as $plan_ids) {
+                            $plan_ids->plan_id =Planname::select('name')
+                            ->where('plan_id', $plan_id)
+                            ->first()->name;
+                        }
 
                         return response()->json($plandetails);
                 
