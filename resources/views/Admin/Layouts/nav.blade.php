@@ -75,7 +75,16 @@
                         </a>
                     </li>
 
-                    <li class="slide__category"><span class="category-name">User</span></li>               
+                
+
+               
+        
+
+                @php
+               
+               if (session('admintype')== 'superadmin') {
+                @endphp 
+                <li class="slide__category"><span class="category-name">User</span></li>               
                 <li class="slide">
                     <a href="{{route('admin.useradminpage')}}" class="side-menu__item">
                         <i class="fa-solid fa-blog  side-menu__icon"></i>
@@ -88,14 +97,6 @@
                             <span class="side-menu__label">User Create</span>
                         </a>
                     </li>
-
-               
-        
-
-                @php
-               
-               if (session('admintype')== 'superadmin') {
-                @endphp 
                 <li class="slide__category"><span class="category-name">Plan</span></li>
 
                     <li class="slide">
