@@ -193,7 +193,7 @@
                             removeValidationClass("#edit_plan_details_form");
                             $('#plan_details_edit_btn').val('Edit Plan Details');
                             alert(response.messages);
-                            window.location.href = "{{ route('plan.listshow') }}";
+                            window.location.href = "{{ route('plan.detailsshow') }}";
                            
                         }
                     },
