@@ -49710,13 +49710,13 @@ h6.uppercase {
     }
     .slide-img img {
         max-width: 100% !important;
-        height: 65% !important;
+        /* height: 65% !important; */
     }
     .slide-card {
         height: 387px !important;
     }
     .slide-card .content.colum-slide {
-        padding: 12px 15px;
+        padding: 12px 15px !important;
     }
     .slide-card .title {
         font-size: 20px !important;
