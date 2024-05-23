@@ -1068,8 +1068,10 @@ public function newslistshow(){
                 public function saveplandetails(Request $request){
                     if ($this->loggedInAdmin) {
                         $validator = Validator::make($request->all(), [
-                            'key_type' => 'required',
-                            'plan_id' => 'required'
+                            'planname' => 'required',
+                            'plan_id' => 'required',
+                            'price' => 'required'
+
                         
                         ]);
                         if ($validator->fails()) {
@@ -1088,7 +1090,6 @@ public function newslistshow(){
                                 $plan->discount = $request->discount;
                                 $plan->coupons = $request->coupons;
                                 $plan->is_coupons = $request->is_coupons;
-
                                 $plan->save();
                                 
                                 return response()->json([
