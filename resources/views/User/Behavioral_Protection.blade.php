@@ -132,11 +132,50 @@
 
         <!-- End:: Behavioral Protection section two -->
 
+        <!-- Start:: Behavioral Protection section three -->
+
+        <div class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70">
+            <div class="container ttbantivirus-container">
+                <div class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 pt-5 pb-0 lg:px-2 !text-start">
+                        <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">About Us</span>
+                        <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">Construction Industry <br>
+                            Awared of in 2024.</h4>
+                            <div class="texts-box ">
+                                <div class="scct-one">
+                                    <p class=" text-[4rem] text-[#8c9097] text-left dark:text-white/50 mb-4 ">25
+                                    </p>
+                                </div>
+                                <div class="scct-one">
+                                    <p class=" text-[0.9rem] text-[#8c9097] text-left dark:text-white/50 mb-4 ">Construction Industry awared
+                                    </p>
+                                </div>
 
 
+                            </div>
+                        <p class=" text-[0.9rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
+                            value with diverse web-readiness. Collaboratively transition wireless customer service without
+                            goal-oriented catalysts for change. Collaboratively.
+                        </p>
 
+                        <div class="action-btns mt-4">
+                            <a href="#" class="ti-btn bg-primary text-white">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 antivirus-image text-center">
+                        <div class="lg:text-start !flex items-center lg:justify-start">
+                            <img src="{{ asset('assets/img/ttb-second-section-img-2.png') }}" alt=""
+                                class="img-fluid">
+                        </div>
+                        <div class="lg:text-start !flex items-center lg:justify-start justify-center box-animantion">
+                            <img src="{{ asset('assets/img/Box.png') }}" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-
+        <!-- End:: Behavioral Protection section three -->
 
 
 
