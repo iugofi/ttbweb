@@ -141,8 +141,18 @@
                         <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">About Us</span>
                         <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">Construction Industry <br>
                             Awared of in 2024.</h4>
-                            <p class=" text-[4rem] text-[#8c9097] text-center dark:text-white/50 mb-4 ">25
-                            </p>
+                            <div class="texts-box ">
+                                <div class="scct-one">
+                                    <p class=" text-[4rem] text-[#8c9097] text-left dark:text-white/50 mb-4 ">25
+                                    </p>
+                                </div>
+                                <div class="scct-one">
+                                    <p class=" text-[4rem] text-[#8c9097] text-left dark:text-white/50 mb-4 ">Construction Industry awared
+                                    </p>
+                                </div>
+
+
+                            </div>
                         <p class=" text-[0.9rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
                             value with diverse web-readiness. Collaboratively transition wireless customer service without
                             goal-oriented catalysts for change. Collaboratively.
