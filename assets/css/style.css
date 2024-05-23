@@ -50329,8 +50329,17 @@ h6.uppercase {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.texts-box1 .scct-two {
+    rotate: 270deg !important;
+    font-weight: 600;
+}
+p.txts {
+    font-size: 10rem;
+    font-weight: 700;
+    color: #12D2B3;
+}
 
-
+ 
 /* End::marker Behavioral-Protection page css */
 
 /* kunal-verma 23-04-2024 */
