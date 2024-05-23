@@ -1104,6 +1104,18 @@ public function newslistshow(){
                                 return redirect('/setup');
                             }
                     }
+
+                    public function editplandetails($id){
+                        if ($this->loggedInAdmin) {
+                         $decryptid=\Crypt::decrypt($id);
+                            $editplandetails=Plandetails::find($decryptid);
+        
+                            return view('Admin.editplandetails',['editplandetails'=>$editplandetails]);
+                        
+                        } else {
+                            return redirect('/setup');
+                        }
+                    }
                 
 
 
