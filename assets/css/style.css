@@ -50342,8 +50342,12 @@ p.txts {
     position: relative;
     bottom: 50px;
 }
+.lock-animantion {
+    animation: move-up-down 5s ease-in-out 4s infinite;
+    position: absolute;
+}
 .lock-animantion img {
-    right: 3rem;
+    right: 17rem;
     bottom: 5.5rem;
     position: relative;
     margin: auto;
