@@ -1034,11 +1034,11 @@ public function newslistshow(){
                                 ->where('PICK_ID', $key_id)
                                 ->first();
                             
-                            // Check if storepick is not null
+                   
                             if ($storepick) {
                                 $keytype->key_type = $storepick->PICK_TEXT;
                             } else {
-                                $keytype->key_type = null; // or handle as needed
+                                $keytype->key_type = $storepick->PICK_TEXT; 
                             }
                         }
 
