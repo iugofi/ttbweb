@@ -166,10 +166,6 @@
                                                             Chat Support
                                                         </span>
                                                     </li>
-                                                    <li class="grid">
-                                                        <button type="button" class="m-1 ti-btn ti-btn-primary-full">Choose
-                                                            Plan</button>
-                                                    </li>
                                                 </ul>
                                             </div>
                                         
