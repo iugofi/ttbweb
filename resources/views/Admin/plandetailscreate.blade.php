@@ -62,16 +62,79 @@
 
                                     <div class="xl:col-span-6 col-span-6">
                                         <label for="blog-title" class="form-label">Plan Id</label>
-                                        <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
-                                            id="plan_id" name="plan_id" placeholder="Enter Your Name">
+                                        <select class="form-control block w-full text-[0.875rem] !rounded-md" data-trigger
+                                            name="plan_id" id="plan_id">
+                                            <option value="">Select</option>
+                                            @php
+                                                $status = DB::table('storepick')
+                                                    ->where('STORE_ID', 'key_type')
+                                                    ->orderBy('STORE_INDEX_SEQUENCE', 'asc')
+                                                    ->get();
+                                            @endphp
+                                            @foreach ($status as $statuss)
+                                                <option value="{{ $statuss->PICK_ID }}">{{ $statuss->PICK_TEXT }}</option>
+                                            @endforeach
+
+                                        </select>
                                         <div class="invalid-feedback"></div>
                                     </div>
                                     <div class="xl:col-span-6 col-span-6">
                                         <label for="blog-title" class="form-label">Plan Name</label>
-                                        <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
-                                            id="planname" name="planname" placeholder="Enter Plan Name">
+                                        <select class="form-control block w-full text-[0.875rem] !rounded-md" data-trigger
+                                            name="planname" id="planname">
+                                            <option value="">Select</option>
+                                            @php
+                                                $plan_name = DB::table('planname')->get();
+                                            @endphp
+                                            @foreach ($plan_name as $plan_names)
+                                                <option value="{{ $plan_names->plan_id }}">{{ $plan_names->name }}</option>
+                                            @endforeach
+
+                                        </select>
                                         <div class="invalid-feedback"></div>
                                     </div>
+
+                                    <div class="xl:col-span-12 col-span-12 blog-images-container">
+                                        <label for="product-price" class="form-label">Images</label>
+                                        <input type="file" class="product_images" id="product_images" name="product_images"
+                                            multiple data-allow-reorder="true" data-max-file-size="3MB"
+                                            data-max-files="6">
+                                        <div class="invalid-feedback"></div>
+                                    </div>
+
+                                    <div class="xl:col-span-6 col-span-12">
+                                        <label for="canonical-url" class="form-label">discount</label>
+                                        <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
+                                            id="discount" name="discount" placeholder="Enter Discount">
+                                        <div class="invalid-feedback"></div>
+                                    </div>
+                                    <div class="xl:col-span-6 col-span-12">
+                                        <label for="coupons" class="form-label">coupons</label>
+                                        <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
+                                            id="coupons" name="coupons" placeholder="Enter coupons">
+                                        <div class="invalid-feedback"></div>
+                                    </div>
+
+                                    <div class="xl:col-span-6 col-span-6">
+                                        <label for="blog-title" class="form-label"> Coupons Status</label>
+                                        <select class="form-control block w-full text-[0.875rem] !rounded-md" data-trigger
+                                            name="coupon_status" id="coupon_status">
+                                            <option value="">Select</option>
+                                            @php
+                                                $status = DB::table('storepick')
+                                                    ->where('STORE_ID', 'Status')
+                                                    ->orderBy('STORE_INDEX_SEQUENCE', 'asc')
+                                                    ->get();
+                                            @endphp
+                                            @foreach ($status as $statuss)
+                                                <option value="{{ $statuss->PICK_ID }}">{{ $statuss->PICK_TEXT }}</option>
+                                            @endforeach
+
+                                        </select>
+                                        <div class="invalid-feedback"></div>
+                                    </div>
+
+
 
                                 </div>
                             </div>
@@ -180,7 +243,7 @@
                         if (response.status == 400) {
                             showError('planname', response.messages.planname);
                             showError('plan_id', response.messages.plan_id);
-                        
+
                             $('#plan_save_btn').val('Save Plan Details');
                         } else if (response.status == 200) {
                             $('.invalid-feedback').empty();
