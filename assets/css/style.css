@@ -49708,6 +49708,12 @@ h6.uppercase {
     .tab-css .my-auto {
         padding: 10px 0;
     }
+    .slide-img img {
+        max-width: 100% !important;
+        height: 65% !important;
+    }
+    
+
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
