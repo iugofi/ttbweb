@@ -1014,10 +1014,19 @@ public function newslistshow(){
                     if ($this->loggedInAdmin) {
                         $key_id=$request->KEY_ID;
                         $plan_id=$request->PLAN_ID;
-                        $plandetails = Plandetails::where('plan_id',$plan_id)->where('key_type',$key_id)->get(); 
+                        $query = Plandetails::query();
+                        if ($plan_id) {
+                            $query->where('plan_id', $plan_id);
+                        }
+                        
+                        if ($key_id) {
+                            $query->where('key_type', $key_id);
+                        }
+                        $plandetails = $query->get();
                         foreach ($plandetails as $pick) {
                             $pick->encrypted_id = \Crypt::encrypt($pick->id);
                         }
+
 
                         foreach ($plandetails as $keytype) {
                             $keytype->key_type =Storepick::select('PICK_TEXT')
