@@ -12,6 +12,10 @@
             color: #12d2b3;
             background-color: #12d2b312;
         }
+        .required:after {
+            content:" *";
+            color: red;
+        }
     </style>
 
 
@@ -61,7 +65,7 @@
 
 
                                     <div class="xl:col-span-6 col-span-6">
-                                        <label for="blog-title" class="form-label">Plan Id</label>
+                                        <label for="blog-title" class="form-label required">Plan Id</label>
                                         <select class="form-control block w-full text-[0.875rem] !rounded-md" data-trigger
                                             name="plan_id" id="plan_id">
                                             <option value="">Select</option>
@@ -79,7 +83,7 @@
                                         <div class="invalid-feedback"></div>
                                     </div>
                                     <div class="xl:col-span-6 col-span-6">
-                                        <label for="blog-title" class="form-label">Plan Name</label>
+                                        <label for="blog-title" class="form-label required">Plan Name</label>
                                         <select class="form-control block w-full text-[0.875rem] !rounded-md" data-trigger
                                             name="planname" id="planname">
                                             <option value="">Select</option>
