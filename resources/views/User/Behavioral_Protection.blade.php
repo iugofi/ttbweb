@@ -164,7 +164,7 @@
                     </div>
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 antivirus-image text-center">
                         <div class="lg:text-start !flex items-center lg:justify-start">
-                            <img src="{{ asset('assets/img/ttb-second-section-img-2.png') }}" alt=""
+                            <img src="{{ asset('assets/img/Construction-Industry-Awared-of-in-2024.png') }}" alt=""
                                 class="img-fluid">
                         </div>
                         <div class="lg:text-start !flex items-center lg:justify-start justify-center box-animantion">
