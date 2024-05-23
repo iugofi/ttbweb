@@ -923,7 +923,7 @@ public function newslistshow(){
                             } else {
                                 return redirect('/setup');
                             }
-                            }
+                    }
 
                     public function plandelete($id)
                     {
@@ -1064,6 +1064,45 @@ public function newslistshow(){
                         return redirect('/setup');
                     }
                 }
+
+                public function saveplandetails(Request $request){
+                    if ($this->loggedInAdmin) {
+                        $validator = Validator::make($request->all(), [
+                            'key_type' => 'required',
+                            'plan_id' => 'required'
+                        
+                        ]);
+                        if ($validator->fails()) {
+                            return response()->json([
+                                'status' => 400,
+                                'messages' => $validator->getMessageBag()->toArray()
+                            ]);
+                        }
+                        else
+                        {
+                
+                                $plan = new Plandetails();
+                                $plan->key_type = $request->key_type;
+                                $plan->plan_id = $request->plan_id;
+                                $plan->price = $request->price;
+                                $plan->discount = $request->discount;
+                                $plan->coupons = $request->coupons;
+                                $plan->is_coupons = $request->is_coupons;
+
+                                $plan->save();
+                                
+                                return response()->json([
+                                    'status' => 200,
+                                    'messages' => 'Plan Details Add successfully'
+                                ]);
+                
+                                }
+                                
+                
+                            } else {
+                                return redirect('/setup');
+                            }
+                    }
                 
 
 

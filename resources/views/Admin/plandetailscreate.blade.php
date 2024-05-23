@@ -52,7 +52,7 @@
                         <div class="box-header">
                             <div class="box-title">Plan Details Create</div>
                         </div>
-                        <form method="post" id="plan_form" enctype="multipart/form-data">
+                        <form method="post" id="plan_details_form" enctype="multipart/form-data">
                             @csrf
                             <div class="box-body">
                                 <div class="box text-center">
@@ -225,14 +225,14 @@
                 });
             }
 
-            $('#plan_form').submit(function(e) {
+            $('#plan_details_form').submit(function(e) {
                 e.preventDefault();
                 $('#plan_save_btn').val('please wait..');
                 var token = $('meta[name="csrf-token"]').attr('content');
                 var formData = new FormData($(this)[0]);
 
                 $.ajax({
-                    url: '{{ route('save.saveplan') }}',
+                    url: '{{ route('save.saveplandetails') }}',
                     method: 'post',
                     data: formData,
                     headers: {
@@ -250,8 +250,8 @@
                             $('.invalid-feedback').empty();
                             $("#show_success_alert").html(showMessage('success', response
                                 .messages));
-                            $('#plan_form')[0].reset();
-                            removeValidationClass("#plan_form");
+                            $('#plan_details_form')[0].reset();
+                            removeValidationClass("#plan_details_form");
                             $('#plan_save_btn').val('Save Plan Details');
                             fetchPlan();
                         }
