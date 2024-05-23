@@ -1021,7 +1021,7 @@ public function newslistshow(){
 
                         foreach ($plandetails as $keytype) {
                             $keytype->key_type =Storepick::select('PICK_TEXT')
-                            ->where('STORE_ID', $keytype->key_type)
+                            ->where('STORE_ID', 'key_type')
                             ->where('PICK_ID', $key_id)
                             ->first()->PICK_TEXT;
                         }
