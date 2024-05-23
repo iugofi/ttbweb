@@ -49,8 +49,8 @@
                         <p class="mt-3 mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa asperiores quaerat, quia saepe
                             consequuntur laudantium, cum at expedita eligendi perferendis amet fugiat.</p>
                         <div class="btn-box">
-                          <a class="btn-cnt">Contact Us<i class="fas fa-angle-double-right"></i></a>
-                          <a class="btn-srv mx-3">Our Services <i class="fas fa-angle-double-right"></i></a>
+                          <a class="btn-cnt" href="#">Contact Us<i class="fas fa-angle-double-right"></i></a>
+                          <a class="btn-srv mx-3" href="#">Our Services <i class="fas fa-angle-double-right"></i></a>
                         </div>
                     </div>
             </div>
