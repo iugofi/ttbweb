@@ -50329,6 +50329,9 @@ h6.uppercase {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.texts-box1 .scct-two {
+    rotate: 270deg;
+}
 
 
 /* End::marker Behavioral-Protection page css */
