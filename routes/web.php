@@ -226,6 +226,7 @@ Route::get('/plandetailsshow', [AdminController::class, 'plandetailsshow'])->nam
 Route::get('/plandetailscreate', [AdminController::class, 'plandetailscreate'])->name('plan.plandetailscreate');
 Route::post('/saveplandetails', [AdminController::class, 'saveplandetails'])->name('save.saveplandetails');
 Route::get('/editplandetails/{id}', [AdminController::class, 'editplandetails'])->name('edit.plandetailsedit');
+Route::post('/editplandetailssave', [AdminController::class, 'editplandetailssave'])->name('edit.editplandetailssave');
 
 
 Route::post('/editplansearch', [AdminController::class, 'editplansearch'])->name('search.editplansearch');

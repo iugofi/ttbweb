@@ -1116,6 +1116,55 @@ public function newslistshow(){
                             return redirect('/setup');
                         }
                     }
+
+                    public function editplandetailssave(Request $request)
+                    {
+                        $id=$request->main_id;
+                        $decryptid=\Crypt::decrypt($id);
+                        if ($this->loggedInAdmin) {
+                            $validator = Validator::make($request->all(), [
+                                'planname' => 'required',
+                                'plan_id' => 'required',
+                                'price' => 'required'
+                            ]);
+                            if ($validator->fails()) {
+                                return response()->json([
+                                    'status' => 400,
+                                    'messages' => $validator->getMessageBag()->toArray() // Convert messages to array
+                                ]);
+                            }
+                            else
+                            {
+                                    $store = Planname::where('id', $decryptid)->first();
+                                    if (!$store) {
+                                        return response()->json([
+                                            'status' => 404,
+                                            'messages' => 'Plan not found'
+                                        ]);
+                                    }
+                                    $store->update([
+                                        'key_type' => $request->planname,
+                                        'plan_id' => $request->plan_id,
+                                        'price' => $request->price,
+                                        'discount' => $request->discount,
+                                        'coupons' => $request->coupons,
+                                        'is_coupons' => $request->coupon_status
+
+                                    ]);
+                    
+                                    return response()->json([
+                                        'status' => 200,
+                                        'messages' => 'Plan Details Edit successfully'
+                                    ]);
+                    
+                                    }
+    
+    
+                           
+                        } else {
+                            return redirect('/setup'); 
+                        }
+                    }
                 
 
 
