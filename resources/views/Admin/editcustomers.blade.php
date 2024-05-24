@@ -46,7 +46,7 @@
                         <div class="box-header">
                             <div class="box-title">Customers Edit</div>
                         </div>
-                        <form method="post" id="admin_edit_form" enctype="multipart/form-data">
+                        <form method="post" id="customers_edit_form" enctype="multipart/form-data">
                             @csrf
                             <div class="box-body">
                                 <div class="box text-center">
@@ -176,7 +176,7 @@
                                 <div class="box-footer">
                                     <div class="text-end">
                                         {{-- <button type="button" class="ti-btn !py-1 !px-2 ti-btn-light !text-[0.75rem] !font-medium me-2">Save As Draft</button> --}}
-                                        <input type="submit" value="Save Admin" id="admin_edit_save_btn"
+                                        <input type="submit" value="Save Admin" id="customers_edit_save_btn"
                                             class="ti-btn bg-primary text-white !py-1 !px-2 !text-[0.75rem] !font-medium">
                                     </div>
                                 </div>
@@ -267,14 +267,14 @@
                 });
             }
 
-            $('#admin_edit_form').submit(function(e) {
+            $('#customers_edit_form').submit(function(e) {
                 e.preventDefault();
-                $('#admin_edit_save_btn').val('please wait..');
+                $('#customers_edit_save_btn').val('please wait..');
                 var token = $('meta[name="csrf-token"]').attr('content');
                 var formData = new FormData($(this)[0]);
 
                 $.ajax({
-                    url: "",
+                    url: "{{ route('edit.customerssave') }}",
                     method: 'post',
                     data: formData,
                     headers: {
@@ -285,18 +285,16 @@
                     success: function(response) {
                         if (response.status == 400) {
                             showError('email', response.messages.email);
-                            showError('name', response.messages.name);
-                            showError('username', response.messages.username);
                             showError('password', response.messages.password);
                             showError('admin_status', response.messages.admin_status);
-                            $('#admin_edit_save_btn').val('Save Admin');
+                            $('#customers_edit_save_btn').val('Save Admin');
                         } else if (response.status == 200) {
                             $('.invalid-feedback').empty();
                             // $("#show_success_alert").html(showMessage('success', response
                             //     .messages));
-                            $('#admin_edit_form')[0].reset();
-                            removeValidationClass("#admin_edit_form");
-                            $('#admin_edit_save_btn').val('Save Admin');
+                            $('#customers_edit_form')[0].reset();
+                            removeValidationClass("#customers_edit_form");
+                            $('#customers_edit_save_btn').val('Save Admin');
                             alert(response.messages);
                             window.location.href = "{{ route('admin.useradminpage') }}";
                             fetchAdmin();
