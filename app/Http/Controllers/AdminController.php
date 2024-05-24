@@ -1248,7 +1248,8 @@ public function newslistshow(){
                 public function adminprofile()
                 {
                     if ($this->loggedInAdmin) {
-
+                        $admindata=$this->adminData;
+                        dd($admindata);
 
                     return view('Admin.adminprofile');
                     }else{
