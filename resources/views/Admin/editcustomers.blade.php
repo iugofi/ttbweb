@@ -53,7 +53,6 @@
                                     <div class="" id="show_success_alert"></div>
                                 </div>
                                 <div class="grid grid-cols-12 gap-4">
-
                                     <div class="xl:col-span-6 col-span-6">
                                         <label for="blog-title" class="form-label">First Name</label>
                                         <input type="text" name="main_id"
