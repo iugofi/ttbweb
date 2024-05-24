@@ -10,6 +10,7 @@ use App\Models\Admin;
 use App\Models\News; 
 use App\Models\Blog; 
 use App\Models\Storepick; 
+use App\Models\Users; 
 use App\Models\Planname; 
 use App\Models\Plandetails; 
 
@@ -1163,6 +1164,15 @@ public function newslistshow(){
                            
                         } else {
                             return redirect('/setup'); 
+                        }
+                    }
+
+                    public function customershow(){
+                        if ($this->loggedInAdmin) {
+                            $customerslist = Users::all();
+                            return view('Admin.customerslist', ['customerslist' => $customerslist]);
+                        } else {
+                            return redirect('/setup');
                         }
                     }
                 

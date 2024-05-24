@@ -89,7 +89,7 @@
 
                 <li class="slide__category"><span class="category-name">Customers</span></li>               
                 <li class="slide">
-                    <a href="{{route('admin.useradminpage')}}" class="side-menu__item">
+                    <a href="{{route('customer.show')}}" class="side-menu__item">
                         <i class="bi bi-people side-menu__icon"></i>
                         <span class="side-menu__label">Customers List</span>
                     </a>

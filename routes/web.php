@@ -225,6 +225,9 @@ Route::get('/editplandetails/{id}', [AdminController::class, 'editplandetails'])
 Route::post('/editplandetailssave', [AdminController::class, 'editplandetailssave'])->name('edit.editplandetailssave');
 Route::post('/editplansearch', [AdminController::class, 'editplansearch'])->name('search.editplansearch');
 
+//
+Route::get('/customersshow', [AdminController::class, 'customershow'])->name('customer.show');
+
 //key 
 Route::get('/keyshow', [AdminController::class, 'keyshow'])->name('key.show');
 Route::get('/keyadd', [AdminController::class, 'keyadd'])->name('key.add');
