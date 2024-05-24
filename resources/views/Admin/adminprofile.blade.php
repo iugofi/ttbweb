@@ -23,7 +23,7 @@
                             </div>
                             <div class="flex-grow main-profile-info">
                                 <div class="flex items-center !justify-between">
-                                    <h6 class="font-semibold mb-1 text-white text-[1rem]">{{$admindata->firstname}}</h6>
+                                    <h6 class="font-semibold mb-1 text-white text-[1rem]">{{$admindata->name}}</h6>
                                     <button type="button" class="ti-btn ti-btn-light !font-medium !gap-0"><i
                                             class="ri-add-line me-1 align-middle inline-block"></i>Follow</button>
                                 </div>
