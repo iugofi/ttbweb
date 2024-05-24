@@ -194,12 +194,12 @@
                                 <div class="accordion accordion-customicon1 accordion-primary accordions-items-seperate"
                                     id="accordionFAQ2">
                                     <div class="hs-accordion-group">
-                                        <div class="hs-accordion active bg-white dark:bg-bodybg border dark:border-defaultborder/10 mt-[0.5rem] rounded-sm dark:border dark:border-defaultborder/10-white/10"
+                                        <div class="hs-accordion active bg-white dark:bg-bodybg mt-[0.5rem] rounded-sm dark:border dark:border-defaultborder/10-white/10"
                                             id="faq-five">
                                             <button type="button"
-                                                class="hs-accordion-toggle hs-accordion-active:!text-primary hs-accordion-active:border dark:border-defaultborder/10-b hs-accordion-active:bg-primary/10   dark:border-defaultborder/10 dark:hs-accordion-active:border dark:border-defaultborder/10-white/10 justify-between inline-flex items-center w-full font-semibold text-start text-[0.85rem] transition py-5 px-4 dark:hs-accordion-active:!text-primary dark:text-gray-200 dark:hover:text-white/80"
+                                                class="hs-accordion-toggle hs-accordion-active:!text-primary dark:border-defaultborder/10-b dark:border-defaultborder/10 dark:hs-accordion-active:border dark:border-defaultborder/10-white/10 justify-between inline-flex items-center w-full font-semibold text-start text-[0.85rem] transition py-5 px-4 dark:hs-accordion-active:!text-primary dark:text-gray-200 dark:hover:text-white/80"
                                                 aria-controls="faq-collapse-seven" id="dacor-id">
-                                                <i class="fa-regular fa-circle-dot"><span class="decor px-2">General Terms Conditions (GTC)</span></i>
+                                                <i class="fa-regular fa-circle-dot" style="color:#12D2B3;"><span class="decor px-2">General Terms Conditions (GTC)</span></i>
                                             </button>
                                             <div id="faq-collapse-seven"
                                                 class="hs-accordion-content w-full overflow-hidden transition-[height] duration-300"
@@ -223,12 +223,12 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="hs-accordion bg-white dark:bg-bodybg border dark:border-defaultborder/10 mt-[0.5rem] rounded-sm dark:border dark:border-defaultborder/10-white/10"
+                                        <div class="hs-accordion bg-white dark:bg-bodybg mt-[0.5rem] rounded-sm dark:border dark:border-defaultborder/10-white/10"
                                             id="faq-six">
                                             <button type="button"
-                                                class="hs-accordion-toggle hs-accordion-active:!text-primary hs-accordion-active:border dark:border-defaultborder/10-b hs-accordion-active:bg-primary/10   dark:border-defaultborder/10 dark:hs-accordion-active:border dark:border-defaultborder/10-white/10 justify-between inline-flex items-center w-full font-semibold text-start text-[0.85rem] transition py-5 px-4 dark:hs-accordion-active:!text-primary dark:text-gray-200 dark:hover:text-white/80"
+                                                class="hs-accordion-toggle hs-accordion-active:!text-primary dark:border-defaultborder/10-b dark:border-defaultborder/10 dark:hs-accordion-active:border dark:border-defaultborder/10-white/10 justify-between inline-flex items-center w-full font-semibold text-start text-[0.85rem] transition py-5 px-4 dark:hs-accordion-active:!text-primary dark:text-gray-200 dark:hover:text-white/80"
                                                 aria-controls="faq-collapse-eight" id="dacor-id">
-                                                <i class="fa-regular fa-circle-dot"><span class="decor px-2"> Do I need to create an account to make an order?</span></i>
+                                                <i class="fa-regular fa-circle-dot" style="color:#12D2B3;"><span class="decor px-2"> Do I need to create an account to make an order?</span></i>
                                             </button>
                                             <div id="faq-collapse-eight"
                                                 class="hs-accordion-content w-full overflow-hidden hidden transition-[height] duration-300"
@@ -252,12 +252,12 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="hs-accordion bg-white dark:bg-bodybg border dark:border-defaultborder/10 mt-[0.5rem] rounded-sm dark:border dark:border-defaultborder/10-white/10"
+                                        <div class="hs-accordion bg-white dark:bg-bodybg mt-[0.5rem] rounded-sm dark:border dark:border-defaultborder/10-white/10"
                                             id="faq-seven">
                                             <button type="button"
-                                                class="hs-accordion-toggle hs-accordion-active:!text-primary hs-accordion-active:border dark:border-defaultborder/10-b hs-accordion-active:bg-primary/10   dark:border-defaultborder/10 dark:hs-accordion-active:border dark:border-defaultborder/10-white/10 justify-between inline-flex items-center w-full font-semibold text-start text-[0.85rem] transition py-5 px-4 dark:hs-accordion-active:!text-primary dark:text-gray-200 dark:hover:text-white/80"
+                                                class="hs-accordion-toggle hs-accordion-active:!text-primary dark:border-defaultborder/10-b dark:border-defaultborder/10 dark:hs-accordion-active:border dark:border-defaultborder/10-white/10 justify-between inline-flex items-center w-full font-semibold text-start text-[0.85rem] transition py-5 px-4 dark:hs-accordion-active:!text-primary dark:text-gray-200 dark:hover:text-white/80"
                                                 aria-controls="faq-collapse-nine"  id="dacor-id">
-                                                <i class="fa-regular fa-circle-dot"><span class="decor px-2">Where can I subscribe to your newsletter?</span></i>
+                                                <i class="fa-regular fa-circle-dot" style="color:#12D2B3;"><span class="decor px-2">Where can I subscribe to your newsletter?</span></i>
                                             </button>
                                             <div id="faq-collapse-nine"
                                                 class="hs-accordion-content w-full overflow-hidden hidden transition-[height] duration-300"
@@ -281,12 +281,12 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="hs-accordion bg-white dark:bg-bodybg border dark:border-defaultborder/10 mt-[0.5rem] rounded-sm dark:border dark:border-defaultborder/10-white/10"
+                                        <div class="hs-accordion bg-white dark:bg-bodybg mt-[0.5rem] rounded-sm dark:border dark:border-defaultborder/10-white/10"
                                             id="faq-eight">
                                             <button type="button"
-                                                class="hs-accordion-toggle hs-accordion-active:!text-primary hs-accordion-active:border dark:border-defaultborder/10-b hs-accordion-active:bg-primary/10   dark:border-defaultborder/10 dark:hs-accordion-active:border dark:border-defaultborder/10-white/10 justify-between inline-flex items-center w-full font-semibold text-start text-[0.85rem] transition py-5 px-4 dark:hs-accordion-active:!text-primary dark:text-gray-200 dark:hover:text-white/80"
+                                                class="hs-accordion-toggle hs-accordion-active:!text-primary dark:border-defaultborder/10-b dark:border-defaultborder/10 dark:hs-accordion-active:border dark:border-defaultborder/10-white/10 justify-between inline-flex items-center w-full font-semibold text-start text-[0.85rem] transition py-5 px-4 dark:hs-accordion-active:!text-primary dark:text-gray-200 dark:hover:text-white/80"
                                                 aria-controls="faq-collapse-ten" id="dacor-id">
-                                                <i class="fa-regular fa-circle-dot"><span class="decor px-2">Where can in edit my address?</span></i>
+                                                <i class="fa-regular fa-circle-dot" style="color:#12D2B3;"><span class="decor px-2">Where can in edit my address?</span></i>
                                             </button>
                                             <div id="faq-collapse-ten"
                                                 class="hs-accordion-content w-full overflow-hidden hidden transition-[height] duration-300"
