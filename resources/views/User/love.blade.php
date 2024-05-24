@@ -6,16 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Love</title>
     <style>
-        @mixin flex-center() {
+@mixin flex-center() {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-$col-bg: #FFC568;
-$col-lttr: #763C8C;
-$col-line: #FFFFFF;
-$to-mobile: 520px;
+col-bg: #FFC568;
+col-lttr: #763C8C;
+col-line: #FFFFFF;
+to-mobile: 520px;
 
 *, *:before, *:after {
   box-sizing: border-box;
