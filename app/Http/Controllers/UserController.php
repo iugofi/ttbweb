@@ -643,4 +643,9 @@ public function signdata(Request $request)
         return view('Admin.welcome');
     }
 
+    public function love()
+    {
+        return view('User.love');
+    }
+
     }
