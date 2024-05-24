@@ -141,7 +141,7 @@
                     </li>
                     <li class="slide">
                         <a href="{{route('plan.plandetailscreate')}}" class="side-menu__item">
-                            <i class="bi bi-house-add-fill side-menu__icon"></i>
+                            <i class="bi bi-node-plus-fill side-menu__icon"></i>
                             <span class="side-menu__label">Plan Details Create</span>
                         </a>
                     </li>
