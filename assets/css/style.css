@@ -50375,6 +50375,7 @@ span.decor.px-2 {
 .box-three:hover {
     background-color: #12D2B3;
     color: #fff;
+    border-radius: 4px;
 }
 .box-three:hover .action-btns.mt-4.ps-4 {
     border: 1px solid #fff;
