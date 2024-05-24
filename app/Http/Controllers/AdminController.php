@@ -1243,6 +1243,19 @@ public function newslistshow(){
                         return redirect('/setup'); 
                     }
                 }
+
+
+                public function adminprofile()
+                {
+                    if ($this->loggedInAdmin) {
+
+
+                    return view('Admin.adminprofile');
+                    }else{
+                        return redirect('/setup');
+                    }
+
+                }
                 
 
 
