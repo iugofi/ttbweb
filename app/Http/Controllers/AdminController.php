@@ -1170,7 +1170,7 @@ public function newslistshow(){
                     public function customershow(){
                         if ($this->loggedInAdmin) {
                             $customerslist = Users::all();
-                            return view('Admin.useradminlist', ['customerslist' => $customerslist]);
+                            return view('Admin.customerslist', ['customerslist' => $customerslist]);
                         } else {
                             return redirect('/setup');
                         }
