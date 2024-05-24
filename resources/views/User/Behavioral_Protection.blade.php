@@ -358,9 +358,9 @@
                     <div><div class="box">
 
                         <div class="box-body box-bm">
-                            <p class="card-text mb-4 font-bold text-35xl">Our services</p>
+                            <p class="card-text mb-4 font-bold text-35xl p-3">Our services</p>
                             <div class="action-btns mt-4">
-                                <a href="#" class="ti-btn bg-primary text-white">View All Services</a>
+                                <a href="#" class="ti-btn bg-primary text-white px-4">View All Services</a>
                             </div>
                         </div>
                     </div></div>
