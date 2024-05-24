@@ -91,7 +91,7 @@
                                             <div class="flex items-start flex-wrap">
                                                 <div class="me-2">
                                                     <span class=" inline-flex items-center justify-center">
-                                                        <img src="assets/images/faces/10.jpg" alt=""
+                                                        <img src="{{asset('assets/images/faces/10.jpg')}}" alt=""
                                                             class="w-[1.75rem] h-[1.75rem] leading-[1.75rem] text-[0.65rem]  rounded-full">
                                                     </span>
                                                 </div>
@@ -406,7 +406,7 @@
                                                     <div class="flex items-center font-semibold">
                                                         <span
                                                             class="!me-2 inline-flex justify-center items-center">
-                                                            <img src="assets/images/faces/4.jpg" alt="img"
+                                                            <img src="{{asset('assets/images/faces/4.jpg')}}" alt="img"
                                                                 class="w-[1.75rem] h-[1.75rem] leading-[1.75rem] text-[0.65rem]  rounded-full">
                                                         </span>Mayor Kelly
                                                     </div>
@@ -440,7 +440,7 @@
                                                     <div class="flex items-center font-semibold">
                                                         <span
                                                             class="inline-flex  justify-center items-center me-2">
-                                                            <img src="assets/images/faces/15.jpg" alt="img"
+                                                            <img src="{{asset('assets/images/faces/15.jpg')}}" alt="img"
                                                                 class="w-[1.75rem] h-[1.75rem] leading-[1.75rem] text-[0.65rem]  rounded-full">
                                                         </span>Andrew Garfield
                                                     </div>
@@ -473,7 +473,7 @@
                                                     <div class="flex items-center font-semibold">
                                                         <span
                                                             class="inline-flex  justify-center items-center me-2">
-                                                            <img src="assets/images/faces/11.jpg" alt="img"
+                                                            <img src="{{asset('assets/images/faces/11.jpg')}}" alt="img"
                                                                 class="w-[1.75rem] h-[1.75rem] leading-[1.75rem] text-[0.65rem]  rounded-full">
                                                         </span>Simon Cowel
                                                     </div>
@@ -507,7 +507,7 @@
                                                     <div class="flex items-center font-semibold">
                                                         <span
                                                             class="inline-flex justify-center items-center me-2">
-                                                            <img src="assets/images/faces/8.jpg" alt="img"
+                                                            <img src="{{asset('assets/images/faces/8.jpg')}}" alt="img"
                                                                 class="w-[1.75rem] h-[1.75rem] leading-[1.75rem] text-[0.65rem]  rounded-full">
                                                         </span>Mirinda Hers
                                                     </div>
@@ -541,7 +541,7 @@
                                                     <div class="flex items-center font-semibold">
                                                         <span
                                                             class="inline-flex  justify-center items-center me-2">
-                                                            <img src="assets/images/faces/9.jpg" alt="img"
+                                                            <img src="{{asset('assets/images/faces/9.jpg')}}" alt="img"
                                                                 class="w-[1.75rem] h-[1.75rem] leading-[1.75rem] text-[0.65rem]  rounded-full">
                                                         </span>Jacob Smith
                                                     </div>
