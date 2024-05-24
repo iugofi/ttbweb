@@ -654,7 +654,7 @@
                                 <ul class="text-defaulttextcolor font-medium dark:text-[#8c9097] dark:text-white/50">
                                     <li>
                                         <a class="w-full ti-dropdown-item !text-[0.8125rem] !gap-x-0  !p-[0.65rem] !inline-flex"
-                                            href="profile.html">
+                                            href="{{route('admin.profile')}}">
                                             <i class="ti ti-user-circle text-[1.125rem] me-2 opacity-[0.7]"></i>Profile
                                         </a>
                                     </li>

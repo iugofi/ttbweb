@@ -162,6 +162,11 @@ Route::get('/logoutadmin', [UserController::class, 'logoutadmin'])->name('admin.
 Route::get('/mailtest', [UserController::class, 'mailtest'])->name('admin.mailtest');
 
 Route::prefix('setup')->group(function () {
+
+// Admin Profile
+Route::get('/adminprofile', [AdminController::class, 'adminprofile'])->name('admin.profile');
+
+
 //Admin Controller
 Route::get('/pageadmin', [AdminController::class, 'indexpage'])->name('admin.indexp');
 Route::get('/newslist', [AdminController::class, 'newslist'])->name('admin.newslist');
