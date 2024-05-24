@@ -341,7 +341,7 @@
                             <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary floatright">
                                 <img src="assets/img/Icon-1.png" alt="img" class="!rounded-md">
                             </span>
-                            <h6 class="box-title font-semibold">01</h6><br>
+                            <h6 class="box-title font-bold text-35xl">01</h6><br>
                             <p class="card-text mb-4 font-bold text-base">Digital <br>Marketing</p>
                         </div>
                     </div></div>
@@ -351,7 +351,7 @@
                             <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary floatright">
                                 <img src="assets/img/Icon-1.png" alt="img" class="!rounded-md">
                             </span>
-                            <h6 class="box-title font-semibold">02</h6><br>
+                            <h6 class="box-title font-bold text-35xl">02</h6><br>
                             <p class="card-text mb-4 font-bold text-base">Branding Company <br>Solution</p>
                         </div>
                     </div></div>
@@ -361,7 +361,7 @@
                             <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary floatright">
                                 <img src="assets/img/Icon-1.png" alt="img" class="!rounded-md">
                             </span>
-                            <p class="card-text mb-4 font-bold text-2xl">Our services</p>
+                            <p class="card-text mb-4 font-bold text-35xl">Our services</p>
                             <div class="action-btns mt-4">
                                 <a href="#" class="ti-btn bg-primary text-white">View All Services</a>
                             </div>
