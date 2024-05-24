@@ -194,7 +194,7 @@
                                 <div class="accordion accordion-customicon1 accordion-primary accordions-items-seperate"
                                     id="accordionFAQ2">
                                     <div class="hs-accordion-group">
-                                        <div class="hs-accordion active bg-white dark:bg-bodybg border dark:border-defaultborder/10 mt-[0.5rem] rounded-sm dark:border dark:border-defaultborder/10-white/10"
+                                        <div class="hs-accordion active bg-white dark:bg-bodybg mt-[0.5rem] rounded-sm dark:border dark:border-defaultborder/10-white/10"
                                             id="faq-five">
                                             <button type="button"
                                                 class="hs-accordion-toggle hs-accordion-active:!text-primary dark:border-defaultborder/10-b dark:border-defaultborder/10 dark:hs-accordion-active:border dark:border-defaultborder/10-white/10 justify-between inline-flex items-center w-full font-semibold text-start text-[0.85rem] transition py-5 px-4 dark:hs-accordion-active:!text-primary dark:text-gray-200 dark:hover:text-white/80"
@@ -223,7 +223,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="hs-accordion bg-white dark:bg-bodybg border dark:border-defaultborder/10 mt-[0.5rem] rounded-sm dark:border dark:border-defaultborder/10-white/10"
+                                        <div class="hs-accordion bg-white dark:bg-bodybg mt-[0.5rem] rounded-sm dark:border dark:border-defaultborder/10-white/10"
                                             id="faq-six">
                                             <button type="button"
                                                 class="hs-accordion-toggle hs-accordion-active:!text-primary dark:border-defaultborder/10-b dark:border-defaultborder/10 dark:hs-accordion-active:border dark:border-defaultborder/10-white/10 justify-between inline-flex items-center w-full font-semibold text-start text-[0.85rem] transition py-5 px-4 dark:hs-accordion-active:!text-primary dark:text-gray-200 dark:hover:text-white/80"
@@ -252,7 +252,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="hs-accordion bg-white dark:bg-bodybg border dark:border-defaultborder/10 mt-[0.5rem] rounded-sm dark:border dark:border-defaultborder/10-white/10"
+                                        <div class="hs-accordion bg-white dark:bg-bodybg mt-[0.5rem] rounded-sm dark:border dark:border-defaultborder/10-white/10"
                                             id="faq-seven">
                                             <button type="button"
                                                 class="hs-accordion-toggle hs-accordion-active:!text-primary dark:border-defaultborder/10-b dark:border-defaultborder/10 dark:hs-accordion-active:border dark:border-defaultborder/10-white/10 justify-between inline-flex items-center w-full font-semibold text-start text-[0.85rem] transition py-5 px-4 dark:hs-accordion-active:!text-primary dark:text-gray-200 dark:hover:text-white/80"
@@ -281,7 +281,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="hs-accordion bg-white dark:bg-bodybg border dark:border-defaultborder/10 mt-[0.5rem] rounded-sm dark:border dark:border-defaultborder/10-white/10"
+                                        <div class="hs-accordion bg-white dark:bg-bodybg mt-[0.5rem] rounded-sm dark:border dark:border-defaultborder/10-white/10"
                                             id="faq-eight">
                                             <button type="button"
                                                 class="hs-accordion-toggle hs-accordion-active:!text-primary dark:border-defaultborder/10-b dark:border-defaultborder/10 dark:hs-accordion-active:border dark:border-defaultborder/10-white/10 justify-between inline-flex items-center w-full font-semibold text-start text-[0.85rem] transition py-5 px-4 dark:hs-accordion-active:!text-primary dark:text-gray-200 dark:hover:text-white/80"
