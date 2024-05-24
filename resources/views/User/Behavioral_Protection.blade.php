@@ -341,8 +341,8 @@
                             <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary floatright">
                                 <img src="assets/img/Icon-1.png" alt="img" class="!rounded-md">
                             </span>
-                            <span class="box-title font-semibold">01</span>
-                            <span class="card-text mb-4 font-bold">Digital Marketing</span>
+                            <h6 class="box-title font-semibold">01</h6>
+                            <p class="card-text mb-4 font-bold">Digital Marketing</p>
                         </div>
                     </div></div>
                     <div><div class="box">
@@ -351,8 +351,8 @@
                             <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary floatright">
                                 <img src="assets/img/Icon-1.png" alt="img" class="!rounded-md">
                             </span>
-                            <span class="box-title font-semibold">02</span>
-                            <span class="card-text mb-4 font-bold">Branding Company Solution</span>
+                            <h6 class="box-title font-semibold">02</h6>
+                            <p class="card-text mb-4 font-bold">Branding Company Solution</p>
                         </div>
                     </div></div>
                     <div><div class="box">
@@ -361,8 +361,8 @@
                             <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary floatright">
                                 <img src="assets/img/Icon-1.png" alt="img" class="!rounded-md">
                             </span>
-                            <span class="box-title font-semibold">03</span>
-                            <span class="card-text mb-4 font-bold">Our services</span>
+                            <h6 class="box-title font-semibold">03</h6>
+                            <p class="card-text mb-4 font-bold">Our services</p>
                         </div>
                     </div></div>
                   </div>
