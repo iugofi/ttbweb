@@ -176,7 +176,6 @@
                         </div>
                     </div>
                     <!-- End::header-element -->
-
                     <!-- Start::header-element -->
                     <div class="header-element">
                         <!-- Start::header-link -->
