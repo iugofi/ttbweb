@@ -522,7 +522,8 @@
                 </div>
                 <div class="main-window">
                
-                    <input type="text">
+                  <p>Sorry Chanchal If Any Mistake By Me</p>
+
                    
                     <div class="counter-km">
                         <svg class="km" width="39" height="32" viewBox="0 0 39 32" fill="none"
