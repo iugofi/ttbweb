@@ -521,10 +521,7 @@
 
                 </div>
                 <div class="main-window">
-                    <p class="first-p">Hi, <span>BlurSoul</span> here, I am a <a
-                            href="https://www.behance.net/BlurSoul_" class="links" target="blank">Graphic Designer.</a>
-                        I love to experiment and learn anything, not long ago I didn't have much idea about web
-                        development.</p>
+               
                    
                     <div class="counter-km">
                         <svg class="km" width="39" height="32" viewBox="0 0 39 32" fill="none"
