@@ -1191,11 +1191,12 @@ public function newslistshow(){
 
                     public function editcustomerssave(Request $request)
                 {
+                    dd($request->all());
                     $id=$request->main_id;
                     $decryptid=\Crypt::decrypt($id);
                     if ($this->loggedInAdmin) {
                         $validator = Validator::make($request->all(), [
-                            'email' => 'required|unique:usersall,email',
+                            'email' => 'required|unique',
                             'password' => 'required',
                             'admin_status' => 'required'
 
