@@ -360,7 +360,7 @@
                         <div class="box-body box-three" style="background-color: #12D2B3; color: #fff;">
                             <p class="card-text mb-4 font-bold text-35xl p-3">Our services</p>
                             <div class="action-btns mt-4 ps-4"> 
-                                <a href="#" class="ti-btn bg-white text-black px-4">View All Services</a>
+                                <a href="#" class="ti-btn bg-white px-4" style="color:#12D2B3;">View All Services</a>
                             </div>
                         </div>
                     </div></div>
