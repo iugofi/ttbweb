@@ -71,7 +71,7 @@
                                             value="{{ isset($editCustomers->lastname) ? $editCustomers->lastname : '' }}"
                                             placeholder="Enter Your Lastname">
                                         <div class="invalid-feedback"></div>
-
+                                    </div>
                                         <div class="xl:col-span-6 col-span-6">
                                             <label for="blog-title" class="form-label">Email</label>
                                             <input type="email"
@@ -172,7 +172,7 @@
 
 
 
-                                    </div>
+                                   
                                 </div>
                                 <div class="box-footer">
                                     <div class="text-end">
