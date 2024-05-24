@@ -180,15 +180,6 @@
             <div class="container text-center">
                 {{-- <p class="text-[0.75rem] font-semibold text-success mb-1"><span
                         class="landing-section-heading">F.A.Q</span></p> --}}
-                <h3 class="lg:text-center font-semibold mb-2 text-[2rem]">Frequently Asked Question</h3>
-                <div class="grid grid-cols-12 justify-center">
-                    <div class="col-span-12">
-                        <p class="text-[#8c9097] dark:text-white/50 text-[0.9375rem] mb-12 font-normal">Efficiently
-                            productivate reliable paradigms before ubiquitous models. Continually utilize frictionless
-                            <br>expertise whereas tactical relationships. Still have questions? Contact us
-                        </p>
-                    </div>
-                </div>
                 <div class="grid grid-cols-12 gap-6 text-start">
                     <div class="xl:col-span-12 col-span-12">
                         <div class="grid grid-cols-12 gap-6">
@@ -199,6 +190,7 @@
                                 </div>
                             </div>
                             <div class="xl:col-span-6 col-span-12">
+                                <h3 class="lg:text-center font-semibold mb-2 text-[2rem]">Frequently Asked Question</h3>
                                 <div class="accordion accordion-customicon1 accordion-primary accordions-items-seperate"
                                     id="accordionFAQ2">
                                     <div class="hs-accordion-group">
@@ -207,8 +199,8 @@
                                             <button type="button"
                                                 class="hs-accordion-toggle hs-accordion-active:!text-primary hs-accordion-active:border dark:border-defaultborder/10-b hs-accordion-active:bg-primary/10   dark:border-defaultborder/10 dark:hs-accordion-active:border dark:border-defaultborder/10-white/10 justify-between inline-flex items-center w-full font-semibold text-start text-[0.85rem] transition py-5 px-4 dark:hs-accordion-active:!text-primary dark:text-gray-200 dark:hover:text-white/80"
                                                 aria-controls="faq-collapse-seven">
-                                                General Terms &amp; Conditions (GTC)
-                                                <svg class="hs-accordion-active:hidden hs-accordion-active:!text-primary hs-accordion-active:group-hover:!text-primary block w-3 h-3 text-gray-600 group-hover:text-defaulttextcolor dark:text-defaulttextcolor/70 "
+                                                <i class="fa-regular fa-circle-dot"><span class="decor px-2">General Terms Conditions (GTC)</span></i>
+                                                {{-- <svg class="hs-accordion-active:hidden hs-accordion-active:!text-primary hs-accordion-active:group-hover:!text-primary block w-3 h-3 text-gray-600 group-hover:text-defaulttextcolor dark:text-defaulttextcolor/70 "
                                                     width="16" height="16" viewBox="0 0 16 16" fill="none"
                                                     xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M1.5 8.85999L14.5 8.85998" stroke="currentColor"
@@ -221,7 +213,7 @@
                                                     xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M1.5 8.85999L14.5 8.85998" stroke="currentColor"
                                                         stroke-width="2" stroke-linecap="round" />
-                                                </svg>
+                                                </svg> --}}
                                             </button>
                                             <div id="faq-collapse-seven"
                                                 class="hs-accordion-content w-full overflow-hidden transition-[height] duration-300"
