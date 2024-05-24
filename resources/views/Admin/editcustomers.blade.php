@@ -176,7 +176,7 @@
                                 <div class="box-footer">
                                     <div class="text-end">
                                         {{-- <button type="button" class="ti-btn !py-1 !px-2 ti-btn-light !text-[0.75rem] !font-medium me-2">Save As Draft</button> --}}
-                                        <input type="submit" value="Save Admin" id="customers_edit_save_btn"
+                                        <input type="submit" value="Edit Customers" id="customers_edit_save_btn"
                                             class="ti-btn bg-primary text-white !py-1 !px-2 !text-[0.75rem] !font-medium">
                                     </div>
                                 </div>
@@ -287,16 +287,16 @@
                             showError('email', response.messages.email);
                             showError('password', response.messages.password);
                             showError('admin_status', response.messages.admin_status);
-                            $('#customers_edit_save_btn').val('Save Admin');
+                            $('#customers_edit_save_btn').val('Edit Customers');
                         } else if (response.status == 200) {
                             $('.invalid-feedback').empty();
                             // $("#show_success_alert").html(showMessage('success', response
                             //     .messages));
                             $('#customers_edit_form')[0].reset();
                             removeValidationClass("#customers_edit_form");
-                            $('#customers_edit_save_btn').val('Save Admin');
+                            $('#customers_edit_save_btn').val('Edit Customers');
                             alert(response.messages);
-                            window.location.href = "{{ route('admin.useradminpage') }}";
+                            window.location.href = "{{ route('customer.show') }}";
                             fetchAdmin();
                         }
                     },

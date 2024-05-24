@@ -1195,7 +1195,7 @@ public function newslistshow(){
                     $decryptid=\Crypt::decrypt($id);
                     if ($this->loggedInAdmin) {
                         $validator = Validator::make($request->all(), [
-                            'email' => 'required|unique:usersall,email',
+                            'email' => 'required|unique',
                             'password' => 'required',
                             'admin_status' => 'required'
 
