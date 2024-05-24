@@ -1195,9 +1195,9 @@ public function newslistshow(){
                     $decryptid=\Crypt::decrypt($id);
                     if ($this->loggedInAdmin) {
                         $validator = Validator::make($request->all(), [
-                            'email' => 'required|unique:planname,plan_id',
+                            'email' => 'required|unique:usersall,email',
                             'password' => 'required',
-                            'password' => 'required'
+                            'admin_status' => 'required'
 
                         ]);
                         if ($validator->fails()) {
@@ -1212,17 +1212,26 @@ public function newslistshow(){
                                 if (!$store) {
                                     return response()->json([
                                         'status' => 404,
-                                        'messages' => 'News not found'
+                                        'messages' => 'Customers not found'
                                     ]);
                                 }
                                 $store->update([
-                                    'plan_id' => $request->plan_id,
-                                    'name' => $request->planname
+                                    'firstname' => $request->firstname,
+                                    'lastname' => $request->lastname,
+                                    'email' => $request->email,
+                                    'phone' => $request->phone,
+                                    'address' => $request->address,
+                                    'password' => $request->password,
+                                    'activation_key' => $request->activation_key,
+                                    'reset_tokens' => $request->reset_tokens,
+                                    'otp' => $request->activation_key,
+                                    'status' => $request->status
+
                                 ]);
                 
                                 return response()->json([
                                     'status' => 200,
-                                    'messages' => 'Plan Edit successfully'
+                                    'messages' => 'Customers Edit successfully'
                                 ]);
                 
                                 }
