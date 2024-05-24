@@ -50379,7 +50379,10 @@ span.decor.px-2 {
     border: 1px solid #12D2B3;
     border-radius: 4px;
 }
-
+.floatright {
+    position: relative;
+    top: 30px;
+}
 
 
 
