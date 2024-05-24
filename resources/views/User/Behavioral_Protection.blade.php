@@ -328,9 +328,39 @@
         <div class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70">
             <div class="container ttbantivirus-container">
                 <div class="grid grid-cols-3 gap-4">
-                    <div>01</div>
-                    <div>09</div>
-                    <div>09</div>
+                    <div><div class="box">
+
+                        <div class="box-body box-bm">
+                            <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
+                                <img src="assets/img/Icon-1.png" alt="img" class="!rounded-md">
+                            </span>
+                            <h6 class="box-title font-semibold">Special title treatment</h6>
+                            <p class="card-text mb-4">With supporting text below as a natural lead-in to
+                                additional content.</p>
+                        </div>
+                    </div></div>
+                    <div><div class="box">
+
+                        <div class="box-body box-bm">
+                            <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
+                                <img src="assets/img/Icon-1.png" alt="img" class="!rounded-md">
+                            </span>
+                            <h6 class="box-title font-semibold">Special title treatment</h6>
+                            <p class="card-text mb-4">With supporting text below as a natural lead-in to
+                                additional content.</p>
+                        </div>
+                    </div></div>
+                    <div><div class="box">
+
+                        <div class="box-body box-bm">
+                            <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
+                                <img src="assets/img/Icon-1.png" alt="img" class="!rounded-md">
+                            </span>
+                            <h6 class="box-title font-semibold">Special title treatment</h6>
+                            <p class="card-text mb-4">With supporting text below as a natural lead-in to
+                                additional content.</p>
+                        </div>
+                    </div></div>
                   </div>
                   <div class="grid grid-cols-3 gap-4">
                     <div>01</div>
