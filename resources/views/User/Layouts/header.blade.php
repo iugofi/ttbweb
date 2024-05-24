@@ -58,7 +58,48 @@
     {{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"> --}}
  
 
+    <style>
+        /* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.9);
+}
 
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  max-width: 80%;
+  max-height: 80%;
+}
+
+/* Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+      </style>
 
 
 
@@ -235,7 +276,41 @@
 
         <!-- SIDEBAR -->
 
+        <div id="myModal" class="modal">
+
+
+            <span class="close">&times;</span>
+
+            <img class="modal-content" id="img01">
+
+        </div>
+
+            <script>
+                // Get the modal
+    var modal = document.getElementById("myModal");
     
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("img01");
+    var modalImg = document.getElementById("img01");
+    modal.style.display = "block";
+    modalImg.src = "{{asset('assets/images/imhdg.png')}}";
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+    
+              </script>
 
 
 
