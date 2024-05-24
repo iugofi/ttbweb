@@ -11,9 +11,17 @@
 
 @section('content')
 
+<style>
+    .floatright
+    {
+        float: right;
+    }
+</style>
+
 <div class="main-content !p-0 landing-main dark:text-defaulttextcolor/70">
 
         <!-- Start:: Behavioral Protection section one -->
+
         <div class="Behavioral-banner" id="Behavioral">
             <section class="section sect-ban">
                 <div class="container main-banner-container">
@@ -48,6 +56,7 @@
                 </div>
             </section>
         </div>
+
         <!-- End:: Behavioral Protection section one -->
 
         <!-- Start:: Behavioral Protection section two -->
@@ -319,12 +328,51 @@
             </div>
         </section>
 
-
         <!-- End:: Behavioral Protection section four -->
 
+        <!-- Start:: Behavioral Protection section five -->
 
+        <div class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70">
+            <div class="container ttbantivirus-container">
+                <div class="grid grid-cols-3 gap-4">
+                    <div><div class="box">
 
+                        <div class="box-body box-bm">
+                            <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary floatright">
+                                <img src="assets/img/Icon-1.png" alt="img" class="!rounded-md">
+                            </span>
+                            <h6 class="box-title" style="font-size:32px; font-weight:700;">01</h6><br>
+                            <p class="card-text mb-4 font-bold text-base">Digital <br>Marketing</p>
+                        </div>
+                    </div></div>
+                    <div><div class="box">
 
+                        <div class="box-body box-bm">
+                            <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary floatright">
+                                <img src="assets/img/Icon-1.png" alt="img" class="!rounded-md">
+                            </span>
+                            <h6 class="box-title" style="font-size:32px; font-weight:700;">02</h6><br>
+                            <p class="card-text mb-4 font-bold text-base">Branding Company <br>Solution</p>
+                        </div>
+                    </div></div>
+                    <div><div class="box">
+
+                        <div class="box-body box-bm">
+                            <p class="card-text mb-4 font-bold text-35xl">Our services</p>
+                            <div class="action-btns mt-4">
+                                <a href="#" class="ti-btn bg-primary text-white">View All Services</a>
+                            </div>
+                        </div>
+                    </div></div>
+                  </div>
+                  <div class="grid grid-cols-3 gap-4">
+                    <div>01</div>
+                    <div>09</div>
+                    <div>09</div>
+                  </div>
+            </div>
+        </div> 
+        <!-- End:: Behavioral Protection section five -->
 
 
 
