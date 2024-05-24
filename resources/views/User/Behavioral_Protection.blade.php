@@ -342,8 +342,7 @@
         <div
             class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70">
             <div class="container ttbantivirus-container">
-                <h2 class="lg:text-center text-center font-semibold mb-4 mt-4 text-[2rem]">We do awesome Services for our clients.<br>
-                    Check some of our Services.</h2>
+                <h2 class="lg:text-center text-center font-semibold mb-4 mt-4 text-[2rem]">Services</h2>
                 <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 col-span-12">
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xl:col-span-3 md:col-span-6 col-span-12">
