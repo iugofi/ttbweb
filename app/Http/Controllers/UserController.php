@@ -645,7 +645,7 @@ public function signdata(Request $request)
 
     public function chanchal()
     {
-        return view('User.love');
+        return view('User.chanchal');
     }
 
     }
