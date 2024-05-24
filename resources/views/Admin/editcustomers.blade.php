@@ -180,6 +180,7 @@
                                             class="ti-btn bg-primary text-white !py-1 !px-2 !text-[0.75rem] !font-medium">
                                     </div>
                                 </div>
+                            </div>
                         </form>
                     </div>
                 </div>
