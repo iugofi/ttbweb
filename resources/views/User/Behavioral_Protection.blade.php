@@ -198,7 +198,7 @@
                                             id="faq-five">
                                             <button type="button"
                                                 class="hs-accordion-toggle hs-accordion-active:!text-primary hs-accordion-active:border dark:border-defaultborder/10-b hs-accordion-active:bg-primary/10   dark:border-defaultborder/10 dark:hs-accordion-active:border dark:border-defaultborder/10-white/10 justify-between inline-flex items-center w-full font-semibold text-start text-[0.85rem] transition py-5 px-4 dark:hs-accordion-active:!text-primary dark:text-gray-200 dark:hover:text-white/80"
-                                                aria-controls="faq-collapse-seven" id class="dacor-id">
+                                                aria-controls="faq-collapse-seven" id="dacor-id">
                                                 <i class="fa-regular fa-circle-dot"><span class="decor px-2">General Terms Conditions (GTC)</span></i>
                                             </button>
                                             <div id="faq-collapse-seven"
@@ -227,7 +227,7 @@
                                             id="faq-six">
                                             <button type="button"
                                                 class="hs-accordion-toggle hs-accordion-active:!text-primary hs-accordion-active:border dark:border-defaultborder/10-b hs-accordion-active:bg-primary/10   dark:border-defaultborder/10 dark:hs-accordion-active:border dark:border-defaultborder/10-white/10 justify-between inline-flex items-center w-full font-semibold text-start text-[0.85rem] transition py-5 px-4 dark:hs-accordion-active:!text-primary dark:text-gray-200 dark:hover:text-white/80"
-                                                aria-controls="faq-collapse-eight" id class="dacor-id">
+                                                aria-controls="faq-collapse-eight" id="dacor-id">
                                                 <i class="fa-regular fa-circle-dot"><span class="decor px-2"> Do I need to create an account to make an order?</span></i>
                                             </button>
                                             <div id="faq-collapse-eight"
@@ -256,7 +256,7 @@
                                             id="faq-seven">
                                             <button type="button"
                                                 class="hs-accordion-toggle hs-accordion-active:!text-primary hs-accordion-active:border dark:border-defaultborder/10-b hs-accordion-active:bg-primary/10   dark:border-defaultborder/10 dark:hs-accordion-active:border dark:border-defaultborder/10-white/10 justify-between inline-flex items-center w-full font-semibold text-start text-[0.85rem] transition py-5 px-4 dark:hs-accordion-active:!text-primary dark:text-gray-200 dark:hover:text-white/80"
-                                                aria-controls="faq-collapse-nine"  id class="dacor-id">
+                                                aria-controls="faq-collapse-nine"  id="dacor-id">
                                                 <i class="fa-regular fa-circle-dot"><span class="decor px-2">Where can I subscribe to your newsletter?</span></i>
                                             </button>
                                             <div id="faq-collapse-nine"
@@ -285,7 +285,7 @@
                                             id="faq-eight">
                                             <button type="button"
                                                 class="hs-accordion-toggle hs-accordion-active:!text-primary hs-accordion-active:border dark:border-defaultborder/10-b hs-accordion-active:bg-primary/10   dark:border-defaultborder/10 dark:hs-accordion-active:border dark:border-defaultborder/10-white/10 justify-between inline-flex items-center w-full font-semibold text-start text-[0.85rem] transition py-5 px-4 dark:hs-accordion-active:!text-primary dark:text-gray-200 dark:hover:text-white/80"
-                                                aria-controls="faq-collapse-ten" id class="dacor-id">
+                                                aria-controls="faq-collapse-ten" id="dacor-id">
                                                 <i class="fa-regular fa-circle-dot"><span class="decor px-2">Where can in edit my address?</span></i>
                                             </button>
                                             <div id="faq-collapse-ten"
