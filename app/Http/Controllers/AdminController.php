@@ -1191,6 +1191,7 @@ public function newslistshow(){
 
                     public function editcustomerssave(Request $request)
                 {
+                    dd($request->all());
                     $id=$request->main_id;
                     $decryptid=\Crypt::decrypt($id);
                     if ($this->loggedInAdmin) {
