@@ -337,7 +337,7 @@
                 <div class="grid grid-cols-3 gap-4">
                     <div><div class="box">
 
-                        <div class="box-body box-three">
+                        <div class="box-body box-three"> 
                             <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary floatright">
                                 <img src="assets/img/Icon-1.png" alt="img" class="!rounded-md">
                             </span>
