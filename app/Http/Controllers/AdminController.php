@@ -1181,7 +1181,7 @@ public function newslistshow(){
                          $decryptid=\Crypt::decrypt($id);
                             $editCustomers=Users::find($decryptid);
         
-                            return view('Admin.editcustomerst',['editCustomers'=>$editCustomers]);
+                            return view('Admin.editcustomers',['editCustomers'=>$editCustomers]);
                         
                         } else {
                             return redirect('/setup');
