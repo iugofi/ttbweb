@@ -92,7 +92,7 @@ class UserController extends Controller
             // dd($user);
             $user->password = Hash::make($request->create_password);
             $user->reset_tokens = 'bye-bye';
-            $user->status = 1;
+            $user->status = 101;
 
             $user->save();
             return response()->json([
@@ -450,7 +450,7 @@ public function storecomment(Request $request)
     
     $user = Users::where('activation_key', $activation_key)->first();
     if ($user) {
-        $user->status = 1;
+        $user->status = 101;
         $user->save();
         return redirect()->route('user.signin')->with('messages', 'Your account has been successfully activated. You can now log in.');
     } else {
@@ -475,7 +475,7 @@ public function signdata(Request $request)
         $user = Users::where('email', $request->signin_email)->first();
 
         if ($user) {
-            if ($user->status == 1) {
+            if ($user->status == 101) {
                 if (\Crypt::decrypt($user->password) == $request->signin_password) {
                     $request->session()->put('loggedInUser', $user->id);
                     return response()->json([
