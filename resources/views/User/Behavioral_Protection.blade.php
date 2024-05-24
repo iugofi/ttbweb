@@ -359,7 +359,7 @@
 
                         <div class="box-body box-three">
                             <p class="card-text mb-4 font-bold text-35xl p-3">Our services</p>
-                            <div class="action-btns mt-4 ps-4">
+                            <div class="action-btns mt-4 ps-4"> 
                                 <a href="#" class="ti-btn bg-primary text-white px-4">View All Services</a>
                             </div>
                         </div>
