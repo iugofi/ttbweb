@@ -358,9 +358,6 @@
                     <div><div class="box">
 
                         <div class="box-body box-bm">
-                            <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary floatright">
-                                <img src="assets/img/Icon-1.png" alt="img" class="!rounded-md">
-                            </span>
                             <p class="card-text mb-4 font-bold text-35xl">Our services</p>
                             <div class="action-btns mt-4">
                                 <a href="#" class="ti-btn bg-primary text-white">View All Services</a>
