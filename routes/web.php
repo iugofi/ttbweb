@@ -227,6 +227,8 @@ Route::post('/editplansearch', [AdminController::class, 'editplansearch'])->name
 
 //
 Route::get('/customersshow', [AdminController::class, 'customershow'])->name('customer.show');
+Route::get('/customersredit/{id}', [AdminController::class, 'customersedit'])->name('customers.edit');
+Route::post('/editcustomerssave', [AdminController::class, 'editcustomerssave'])->name('customers.customerssave');
 
 //key 
 Route::get('/keyshow', [AdminController::class, 'keyshow'])->name('key.show');

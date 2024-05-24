@@ -1175,6 +1175,18 @@ public function newslistshow(){
                             return redirect('/setup');
                         }
                     }
+
+                    public function customersedit($id){
+                        if ($this->loggedInAdmin) {
+                         $decryptid=\Crypt::decrypt($id);
+                            $editCustomers=Users::find($decryptid);
+        
+                            return view('Admin.editcustomers',['editCustomers'=>$editCustomers]);
+                        
+                        } else {
+                            return redirect('/setup');
+                        }
+                    }
                 
 
 
