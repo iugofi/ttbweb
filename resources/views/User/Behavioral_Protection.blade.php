@@ -410,7 +410,7 @@
 
                             <div class="box-body box-three">
                                 <span class="mb-4 avatar avatar-lg avatar-rounded !text-primary floatright">
-                                    <img src="assets/img/Icon-1.png" alt="img" class="!rounded-md">
+                                    <i class="fa-solid fa-photo-film" style="font-size:40px;"></i>
                                 </span>
                                 <p class="box-title" style="font-size:32px; font-weight:700;">05</p><br>
                                 <p class="card-text mb-4 font-bold text-base">Branding Company <br>Solution</p>
