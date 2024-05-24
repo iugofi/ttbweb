@@ -1249,7 +1249,7 @@ public function newslistshow(){
                 {
                     if ($this->loggedInAdmin) {
                         $admindata=$this->adminData;
-                        dd($admindata);
+                        dd($admindata->name);
 
                     return view('Admin.adminprofile');
                     }else{
