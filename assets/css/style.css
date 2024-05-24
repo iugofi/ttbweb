@@ -50358,8 +50358,8 @@ span.decor.px-2 {
     font-weight: 700;
 }
 button#dacor-id:active {
-    background-color: #fff;
-    /* border: none; */
+    background-color: #fff !important;
+    border: none;
     padding: 8px;
 }
 #dacor-id {
