@@ -1165,6 +1165,15 @@ public function newslistshow(){
                             return redirect('/setup'); 
                         }
                     }
+
+                    public function customershow(){
+                        if ($this->loggedInAdmin) {
+                            $customerslist = Users::all();
+                            return view('Admin.useradminlist', ['useradminlist' => $useradminlist]);
+                        } else {
+                            return redirect('/setup');
+                        }
+                    }
                 
 
 
