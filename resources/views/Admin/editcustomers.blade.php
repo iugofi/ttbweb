@@ -274,7 +274,7 @@
                 var formData = new FormData($(this)[0]);
 
                 $.ajax({
-                    url: "{{ route('edit.editCustomersusersave') }}",
+                    // url: "{{ route('edit.editCustomersusersave') }}",
                     method: 'post',
                     data: formData,
                     headers: {
