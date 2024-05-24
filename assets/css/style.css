@@ -50384,6 +50384,9 @@ span.decor.px-2 {
     margin: 0 16px auto;
     width: 50%;
 }
+.box-three:hover p.box-title {
+    color: #fff;
+}
 
 
 
