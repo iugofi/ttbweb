@@ -1187,6 +1187,52 @@ public function newslistshow(){
                             return redirect('/setup');
                         }
                     }
+
+
+                    public function editcustomerssave(Request $request)
+                {
+                    $id=$request->main_id;
+                    $decryptid=\Crypt::decrypt($id);
+                    if ($this->loggedInAdmin) {
+                        $validator = Validator::make($request->all(), [
+                            'email' => 'required|unique:planname,plan_id',
+                            'password' => 'required',
+                            'password' => 'required'
+
+                        ]);
+                        if ($validator->fails()) {
+                            return response()->json([
+                                'status' => 400,
+                                'messages' => $validator->getMessageBag()->toArray() // Convert messages to array
+                            ]);
+                        }
+                        else
+                        {
+                                $store = Users::where('id', $decryptid)->first();
+                                if (!$store) {
+                                    return response()->json([
+                                        'status' => 404,
+                                        'messages' => 'News not found'
+                                    ]);
+                                }
+                                $store->update([
+                                    'plan_id' => $request->plan_id,
+                                    'name' => $request->planname
+                                ]);
+                
+                                return response()->json([
+                                    'status' => 200,
+                                    'messages' => 'Plan Edit successfully'
+                                ]);
+                
+                                }
+
+
+                       
+                    } else {
+                        return redirect('/setup'); 
+                    }
+                }
                 
 
 
