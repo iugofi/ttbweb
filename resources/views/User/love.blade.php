@@ -25,7 +25,7 @@ to-mobile: 520px;
 
 html, body {
   min-height: 100vh;
-  @include flex-center();
+  include flex-center();
   
   background-color: $col-bg;
   font-size: 62.5%;
