@@ -604,14 +604,16 @@
             <div class="xxl:col-span-3 xl:col-span-12 col-span-12">
                 <div class="grid grid-cols-12 gap-x-6">
                     <div class="xxl:col-span-12 xl:col-span-12  col-span-12">
-                        <div class="box custom-box">
-                            <div class="box-header">
-                                <div class="box-title">Donut Chart With Patterns</div>
+                       
+                            <div class="box custom-box">
+                                <div class="box-header">
+                                    <div class="box-title">Pie Chart</div>
+                                </div>
+                                <div class="box-body">
+                                    <div id="echart-pie" class="echart-charts"></div>
+                                </div>
                             </div>
-                            <div class="box-body">
-                                <div id="donut-pattern"></div>
-                            </div>
-                        </div>
+                       
                     </div>
                     <div class="xxl:col-span-12 xl:col-span-6  col-span-12">
                         <div class="box">
