@@ -522,7 +522,7 @@
                 </div>
                 <div class="main-window">
                
-                  <p>Sorry Chanchal If Any Mistake By Me</p>
+                  <p class="mb-5">Sorry Chanchal If Any Mistake By Me</p>
 
                    
                     <div class="counter-km">
