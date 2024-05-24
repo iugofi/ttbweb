@@ -50352,7 +50352,11 @@ p.txts {
     position: relative;
     margin: auto;
 }
-
+span.decor.px-2 {
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: 700;
+}
 
  
 /* End::marker Behavioral-Protection page css */
