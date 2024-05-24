@@ -50373,8 +50373,7 @@ span.decor.px-2 {
     color: rgb(var(--default-text-color));
 }
 .box-three {
-    border-color:  2px solid #12D2B3;
-    color: #fff;
+    border: 2px solid #12D2B3;
     border-radius: 4px;
 }
 .box-three:hover {
