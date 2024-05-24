@@ -362,7 +362,7 @@
                                                         also worth noting that just about any HTML can go within the
                                                         <code>.accordion-body</code>, though the transition does limit
                                                         overflow.
-                                                    </p>
+                                                    </p> 
                                                 </div>
                                             </div>
                                         </div>
