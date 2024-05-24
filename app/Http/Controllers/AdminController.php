@@ -1248,9 +1248,10 @@ public function newslistshow(){
                 public function adminprofile()
                 {
                     if ($this->loggedInAdmin) {
+                        $admindata=$this->adminData;
+                    
 
-
-                    return view('Admin.adminprofile');
+                    return view('Admin.adminprofile',['admindata'=>$admindata]);
                     }else{
                         return redirect('/setup');
                     }
