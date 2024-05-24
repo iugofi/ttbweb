@@ -11,6 +11,13 @@
 
 @section('content')
 
+<style>
+    .floatright
+    {
+        float: right;
+    }
+</style>
+
 <div class="main-content !p-0 landing-main dark:text-defaulttextcolor/70">
 
         <!-- Start:: Behavioral Protection section one -->
@@ -331,34 +338,31 @@
                     <div><div class="box">
 
                         <div class="box-body box-bm">
-                            <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
+                            <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary floatright">
                                 <img src="assets/img/Icon-1.png" alt="img" class="!rounded-md">
                             </span>
-                            <h6 class="box-title font-semibold">Special title treatment</h6>
-                            <p class="card-text mb-4">With supporting text below as a natural lead-in to
-                                additional content.</p>
+                            <h6 class="box-title font-semibold">01/h6>
+                            <p class="card-text mb-4">Digital Marketing</p>
                         </div>
                     </div></div>
                     <div><div class="box">
 
                         <div class="box-body box-bm">
-                            <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
+                            <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary floatright">
                                 <img src="assets/img/Icon-1.png" alt="img" class="!rounded-md">
                             </span>
-                            <h6 class="box-title font-semibold">Special title treatment</h6>
-                            <p class="card-text mb-4">With supporting text below as a natural lead-in to
-                                additional content.</p>
+                            <h6 class="box-title font-semibold">02</h6>
+                            <p class="card-text mb-4">Branding Company Solution</p>
                         </div>
                     </div></div>
                     <div><div class="box">
 
                         <div class="box-body box-bm">
-                            <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
+                            <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary floatright">
                                 <img src="assets/img/Icon-1.png" alt="img" class="!rounded-md">
                             </span>
-                            <h6 class="box-title font-semibold">Special title treatment</h6>
-                            <p class="card-text mb-4">With supporting text below as a natural lead-in to
-                                additional content.</p>
+                            <h6 class="box-title font-semibold">03</h6>
+                            <p class="card-text mb-4">Our services</p>
                         </div>
                     </div></div>
                   </div>
