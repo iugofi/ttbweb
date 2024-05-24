@@ -643,7 +643,7 @@ public function signdata(Request $request)
         return view('Admin.welcome');
     }
 
-    public function love()
+    public function chanchal()
     {
         return view('User.love');
     }
