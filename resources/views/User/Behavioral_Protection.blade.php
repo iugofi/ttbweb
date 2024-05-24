@@ -1,5 +1,3 @@
-
-
 @extends('User.Layouts.layout')
 
 @section('title', 'Test')
@@ -11,14 +9,13 @@
 
 @section('content')
 
-<style>
-    .floatright
-    {
-        float: right;
-    }
-</style>
+    <style>
+        .floatright {
+            float: right;
+        }
+    </style>
 
-<div class="main-content !p-0 landing-main dark:text-defaulttextcolor/70">
+    <div class="main-content !p-0 landing-main dark:text-defaulttextcolor/70">
 
         <!-- Start:: Behavioral Protection section one -->
 
@@ -61,8 +58,7 @@
 
         <!-- Start:: Behavioral Protection section two -->
 
-        <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] "
-            id="features">
+        <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] " id="features">
             <div class="container text-center">
                 <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">Our Services</span>
                 <h2 class="lg:text-center font-semibold mb-2 text-[2rem]">We do awesome Services for our clients.<br>
@@ -74,7 +70,7 @@
                                 <div class="mb-2 Behavioral-img1">
                                     <span class="avatar avatar-md pt-5">
 
-                                        <img src="{{asset('assets/img/Renovation-Building.png')}}" alt="img"
+                                        <img src="{{ asset('assets/img/Renovation-Building.png') }}" alt="img"
                                             class="!rounded-md" style="max-width: 75px;height: 75px;">
                                     </span>
                                 </div>
@@ -90,7 +86,7 @@
                             <div class="box-body">
                                 <div class="mb-2 Behavioral-img2">
                                     <span class="avatar avatar-md pt-5">
-                                        <img src="{{asset('assets/img/Power-And-Energy-2.png')}}" alt="img"
+                                        <img src="{{ asset('assets/img/Power-And-Energy-2.png') }}" alt="img"
                                             class="!rounded-md" style="max-width: 75px;height: 75px;">
                                     </span>
                                 </div>
@@ -105,7 +101,7 @@
                             <div class="box-body">
                                 <div class="mb-2 Behavioral-img3">
                                     <span class="avatar avatar-md pt-5">
-                                        <img src="{{asset('assets/img/Dedicated-Teams.png')}}" alt="img"
+                                        <img src="{{ asset('assets/img/Dedicated-Teams.png') }}" alt="img"
                                             class="!rounded-md" style="max-width: 75px;height: 75px;">
 
                                     </span>
@@ -121,7 +117,7 @@
                             <div class="box-body">
                                 <div class="mb-2 Behavioral-img4 pt-3">
                                     <span class="avatar avatar-md">
-                                        <img src="{{asset('assets/img/Oil-&-Gas-Energy.png')}}" alt="img"
+                                        <img src="{{ asset('assets/img/Oil-&-Gas-Energy.png') }}" alt="img"
                                             class="!rounded-md" style="max-width: 75px;height: 75px;">
 
                                     </span>
@@ -145,25 +141,29 @@
 
         <div class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70">
             <div class="container ttbantivirus-container">
-                <div class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
+                <div
+                    class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 pt-5 pb-0 lg:px-2 !text-start">
                         <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">About Us</span>
                         <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">Construction Industry <br>
                             Awared of in 2024.</h4>
-                            <div class="texts-box1" style="display: inline-flex; align-items: center;">
-                                <div class="scct-one">
-                                    <p class="txts text-[4rem] text-[#8c9097] text-left dark:text-white/50 mb-0 ">25
-                                    </p>
-                                </div>
-                                <div class="scct-two">
-                                    <p class=" text-[0.9rem] text-[#8c9097] text-left dark:text-white/50 mb-4 px-0 year-text-left">YEARS EXPERIENCES
-                                    </p>
-                                </div>
-
-
+                        <div class="texts-box1" style="display: inline-flex; align-items: center;">
+                            <div class="scct-one">
+                                <p class="txts text-[4rem] text-[#8c9097] text-left dark:text-white/50 mb-0 ">25
+                                </p>
                             </div>
+                            <div class="scct-two">
+                                <p
+                                    class=" text-[0.9rem] text-[#8c9097] text-left dark:text-white/50 mb-4 px-0 year-text-left">
+                                    YEARS EXPERIENCES
+                                </p>
+                            </div>
+
+
+                        </div>
                         <p class=" text-[0.9rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
-                            value with diverse web-readiness.<br> Collaboratively transition wireless customer service without<br>
+                            value with diverse web-readiness.<br> Collaboratively transition wireless customer service
+                            without<br>
                             goal-oriented catalysts for change. Collaboratively.
                         </p>
 
@@ -174,12 +174,13 @@
                                 class="img-fluid">
                         </div>
                         <div class="lg:text-start !flex items-center lg:justify-start justify-center lock-animantion">
-                            <img src="{{ asset('assets/img/Construction-Industry-Awared-of-in-2024-Icon.png') }}" alt="" class="img-fluid">
+                            <img src="{{ asset('assets/img/Construction-Industry-Awared-of-in-2024-Icon.png') }}"
+                                alt="" class="img-fluid">
                         </div>
                     </div>
                 </div>
             </div>
-        </div> 
+        </div>
 
         <!-- End:: Behavioral Protection section three -->
 
@@ -208,7 +209,8 @@
                                             <button type="button"
                                                 class="hs-accordion-toggle hs-accordion-active:!text-primary dark:border-defaultborder/10-b dark:border-defaultborder/10 dark:hs-accordion-active:border dark:border-defaultborder/10-white/10 justify-between inline-flex items-center w-full font-semibold text-start text-[0.85rem] transition py-5 px-4 dark:hs-accordion-active:!text-primary dark:text-gray-200 dark:hover:text-white/80"
                                                 aria-controls="faq-collapse-seven" id="dacor-id">
-                                                <i class="fa-regular fa-circle-dot" style="color:#12D2B3;"><span class="decor px-2">General Terms Conditions (GTC)</span></i>
+                                                <i class="fa-regular fa-circle-dot" style="color:#12D2B3;"><span
+                                                        class="decor px-2">General Terms Conditions (GTC)</span></i>
                                             </button>
                                             <div id="faq-collapse-seven"
                                                 class="hs-accordion-content w-full overflow-hidden transition-[height] duration-300"
@@ -237,7 +239,9 @@
                                             <button type="button"
                                                 class="hs-accordion-toggle hs-accordion-active:!text-primary dark:border-defaultborder/10-b dark:border-defaultborder/10 dark:hs-accordion-active:border dark:border-defaultborder/10-white/10 justify-between inline-flex items-center w-full font-semibold text-start text-[0.85rem] transition py-5 px-4 dark:hs-accordion-active:!text-primary dark:text-gray-200 dark:hover:text-white/80"
                                                 aria-controls="faq-collapse-eight" id="dacor-id">
-                                                <i class="fa-regular fa-circle-dot" style="color:#12D2B3;"><span class="decor px-2"> Do I need to create an account to make an order?</span></i>
+                                                <i class="fa-regular fa-circle-dot" style="color:#12D2B3;"><span
+                                                        class="decor px-2"> Do I need to create an account to make an
+                                                        order?</span></i>
                                             </button>
                                             <div id="faq-collapse-eight"
                                                 class="hs-accordion-content w-full overflow-hidden hidden transition-[height] duration-300"
@@ -265,8 +269,10 @@
                                             id="faq-seven">
                                             <button type="button"
                                                 class="hs-accordion-toggle hs-accordion-active:!text-primary dark:border-defaultborder/10-b dark:border-defaultborder/10 dark:hs-accordion-active:border dark:border-defaultborder/10-white/10 justify-between inline-flex items-center w-full font-semibold text-start text-[0.85rem] transition py-5 px-4 dark:hs-accordion-active:!text-primary dark:text-gray-200 dark:hover:text-white/80"
-                                                aria-controls="faq-collapse-nine"  id="dacor-id">
-                                                <i class="fa-regular fa-circle-dot" style="color:#12D2B3;"><span class="decor px-2">Where can I subscribe to your newsletter?</span></i>
+                                                aria-controls="faq-collapse-nine" id="dacor-id">
+                                                <i class="fa-regular fa-circle-dot" style="color:#12D2B3;"><span
+                                                        class="decor px-2">Where can I subscribe to your
+                                                        newsletter?</span></i>
                                             </button>
                                             <div id="faq-collapse-nine"
                                                 class="hs-accordion-content w-full overflow-hidden hidden transition-[height] duration-300"
@@ -295,7 +301,8 @@
                                             <button type="button"
                                                 class="hs-accordion-toggle hs-accordion-active:!text-primary dark:border-defaultborder/10-b dark:border-defaultborder/10 dark:hs-accordion-active:border dark:border-defaultborder/10-white/10 justify-between inline-flex items-center w-full font-semibold text-start text-[0.85rem] transition py-5 px-4 dark:hs-accordion-active:!text-primary dark:text-gray-200 dark:hover:text-white/80"
                                                 aria-controls="faq-collapse-ten" id="dacor-id">
-                                                <i class="fa-regular fa-circle-dot" style="color:#12D2B3;"><span class="decor px-2">Where can in edit my address?</span></i>
+                                                <i class="fa-regular fa-circle-dot" style="color:#12D2B3;"><span
+                                                        class="decor px-2">Where can in edit my address?</span></i>
                                             </button>
                                             <div id="faq-collapse-ten"
                                                 class="hs-accordion-content w-full overflow-hidden hidden transition-[height] duration-300"
@@ -315,7 +322,7 @@
                                                         also worth noting that just about any HTML can go within the
                                                         <code>.accordion-body</code>, though the transition does limit
                                                         overflow.
-                                                    </p> 
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -332,46 +339,87 @@
 
         <!-- Start:: Behavioral Protection section five -->
 
-        <div class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70">
+        <div
+            class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70">
             <div class="container ttbantivirus-container">
                 <div class="grid grid-cols-3 gap-4">
-                    <div><div class="box">
+                    <div>
+                        <div class="box">
 
-                        <div class="box-body box-three"> 
-                            <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary floatright">
-                                <img src="assets/img/Icon-1.png" alt="img" class="!rounded-md">
-                            </span>
-                            <h6 class="box-title" style="font-size:32px; font-weight:700;">01</h6><br>
-                            <p class="card-text mb-4 font-bold text-base">Digital <br>Marketing</p>
-                        </div>
-                    </div></div>
-                    <div><div class="box">
-
-                        <div class="box-body box-three">
-                            <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary floatright">
-                                <img src="assets/img/Icon-1.png" alt="img" class="!rounded-md">
-                            </span>
-                            <h6 class="box-title" style="font-size:32px; font-weight:700;">02</h6><br>
-                            <p class="card-text mb-4 font-bold text-base">Branding Company <br>Solution</p>
-                        </div>
-                    </div></div>
-                    <div><div class="box">
-
-                        <div class="box-body box-three">
-                            <p class="card-text mb-4 font-bold text-35xl p-3">Our services</p>
-                            <div class="action-btns mt-4 ps-4"> 
-                                <a href="#" class="ti-btn bg-primary text-white px-4">View All Services</a>
+                            <div class="box-body box-three">
+                                <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary floatright">
+                                    <img src="assets/img/Icon-1.png" alt="img" class="!rounded-md">
+                                </span>
+                                <p class="box-title" style="font-size:32px; font-weight:700;">01</p><br>
+                                <p class="card-text mb-4 font-bold text-base">Digital <br>Marketing</p>
                             </div>
                         </div>
-                    </div></div>
-                  </div>
-                  <div class="grid grid-cols-3 gap-4">
-                    <div>01</div>
-                    <div>09</div>
-                    <div>09</div>
-                  </div>
+                    </div>
+                    <div>
+                        <div class="box">
+
+                            <div class="box-body box-three">
+                                <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary floatright">
+                                    <img src="assets/img/Icon-1.png" alt="img" class="!rounded-md">
+                                </span>
+                                <p class="box-title" style="font-size:32px; font-weight:700;">02</p><br>
+                                <p class="card-text mb-4 font-bold text-base">Branding Company <br>Solution</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="box">
+
+                            <div class="box-body box-three" style="background-color: #12D2B3; color: #fff;">
+                                <p class="card-text mb-4 font-bold text-35xl p-3">Our services</p>
+                                <div class="action-btns mt-4 ps-4">
+                                    <a href="#" class="ti-btn bg-white px-4" style="color:#12D2B3;">View All
+                                        Services</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid grid-cols-3 gap-4">
+                    <div>
+                        <div class="box">
+
+                            <div class="box-body box-three">
+                                <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary floatright">
+                                    <img src="assets/img/Icon-1.png" alt="img" class="!rounded-md">
+                                </span>
+                                <p class="box-title" style="font-size:32px; font-weight:700;">03</p><br>
+                                <p class="card-text mb-4 font-bold text-base">Digital <br>Marketing</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="box">
+
+                            <div class="box-body box-three">
+                                <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary floatright">
+                                    <img src="assets/img/Icon-1.png" alt="img" class="!rounded-md">
+                                </span>
+                                <p class="box-title" style="font-size:32px; font-weight:700;">04</p><br>
+                                <p class="card-text mb-4 font-bold text-base">Branding Company <br>Solution</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="box">
+
+                            <div class="box-body box-three">
+                                <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary floatright">
+                                    <img src="assets/img/Icon-1.png" alt="img" class="!rounded-md">
+                                </span>
+                                <p class="box-title" style="font-size:32px; font-weight:700;">05</p><br>
+                                <p class="card-text mb-4 font-bold text-base">Branding Company <br>Solution</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div> 
+        </div>
         <!-- End:: Behavioral Protection section five -->
 
 
@@ -387,6 +435,6 @@
 
 
 
-</div>
+    </div>
 
 @endsection

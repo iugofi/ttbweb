@@ -50372,17 +50372,14 @@ span.decor.px-2 {
     padding: 1.25rem;
     color: rgb(var(--default-text-color));
 }
-.box-three:hover {
-    background-color: #12D2B3;
-    color: #fff;
-}
-.box-three:hover .action-btns.mt-4.ps-4 {
-    border: 1px solid #fff;
-    padding: 0px 10px;
+.box-three {
     border-radius: 4px;
-    margin: 0 16px auto;
-    width: 50%;
 }
+.box-three:hover {
+    border: 1px solid #12D2B3;
+    border-radius: 4px;
+}
+
 
 
 
