@@ -50372,7 +50372,7 @@ span.decor.px-2 {
     padding: 1.25rem;
     color: rgb(var(--default-text-color));
 }
-.box-three:hover {
+.box-three {
     border-color:  2px solid #12D2B3;
     color: #fff;
     border-radius: 4px;
