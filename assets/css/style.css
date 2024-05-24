@@ -50374,7 +50374,7 @@ span.decor.px-2 {
 }
 
 .box-three:hover {
-    border: 2px solid #12D2B3;
+    border: 1px solid #12D2B3;
     border-radius: 4px;
 }
 .box-three:hover .action-btns.mt-4.ps-4 {
