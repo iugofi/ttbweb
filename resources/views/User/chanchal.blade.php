@@ -552,16 +552,7 @@
                                 fill="currentColor" />
                         </svg>
                     </div>
-                    <p class="second-p">One of the ways by which I learned was drawing with <a
-                            href="https://codepen.io/BlurSoulx" class="links" target="blank">CSS</a>, here at
-                        Codepen. I also do <a href="https://www.behance.net/gallery/145368245/Pixel-Art-Portfolio"
-                            class="links" target="blank">Pixel Art</a>, <a
-                            href="https://www.behance.net/gallery/173904987/Voxel-Art-Portfolio-2023" class="links"
-                            target="blank">Voxel Art</a>, <a
-                            href="https://www.behance.net/gallery/145370477/3D-Art-Portfolio" class="links"
-                            target="blank">3D Renders</a> and <a
-                            href="https://www.behance.net/gallery/172362101/-AnimeFLV-Redesign-2023" class="links"
-                            target="blank">UI Design</a>.</p>
+            
                     <div class="social-container">
                         <a href="https://twitter.com/blursoul_" target="blank" class="social"><svg class="icon"
                                 width="20" height="16" viewBox="0 0 20 16" fill="none"
