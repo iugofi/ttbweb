@@ -207,7 +207,7 @@ Route::post('/saveuseradmin', [AdminController::class, 'saveuseradmin'])->name('
 Route::get('/facthadmin', [AdminController::class, 'facthadmin'])->name('fatch.facthadmin');
 Route::get('/fatchadmindataajax', [AdminController::class, 'fatchadmindataajax'])->name('fetch.fatchadmindataajax');
 
-//plan details
+//plan 
 Route::get('/planshow', [AdminController::class, 'planlistshow'])->name('plan.listshow');
 Route::get('/plancreate', [AdminController::class, 'plancreate'])->name('plan.plancreate');
 Route::get('/facthplan', [AdminController::class, 'facthplan'])->name('fatch.facthplan');
@@ -217,19 +217,19 @@ Route::get('/planedit/{id}', [AdminController::class, 'planedit'])->name('edit.p
 Route::post('/editplansave', [AdminController::class, 'editplansave'])->name('edit.editplansave');
 
 
-
-
-
-
-
+//plan details
 Route::get('/plandetailsshow', [AdminController::class, 'plandetailsshow'])->name('plan.detailsshow');
 Route::get('/plandetailscreate', [AdminController::class, 'plandetailscreate'])->name('plan.plandetailscreate');
 Route::post('/saveplandetails', [AdminController::class, 'saveplandetails'])->name('save.saveplandetails');
 Route::get('/editplandetails/{id}', [AdminController::class, 'editplandetails'])->name('edit.plandetailsedit');
 Route::post('/editplandetailssave', [AdminController::class, 'editplandetailssave'])->name('edit.editplandetailssave');
-
-
 Route::post('/editplansearch', [AdminController::class, 'editplansearch'])->name('search.editplansearch');
+
+//key 
+Route::get('/keyshow', [AdminController::class, 'keyshow'])->name('key.show');
+Route::get('/keyadd', [AdminController::class, 'keyadd'])->name('key.add');
+
+
 
 
 

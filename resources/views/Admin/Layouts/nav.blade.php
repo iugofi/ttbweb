@@ -101,6 +101,21 @@
                         </a>
                     </li>
 
+                    <li class="slide__category"><span class="category-name">Key</span></li>
+
+                        <li class="slide">
+                            <a href="{{route('key.show')}}" class="side-menu__item">
+                                <i class="fa-solid fa-location-dot side-menu__icon"></i>
+                                <span class="side-menu__label">Key List</span>
+                            </a>
+                        </li>
+                        <li class="slide">
+                            <a href="{{route('key.add')}}" class="side-menu__item">
+                                <i class="fa-solid fa-location-dot side-menu__icon"></i>
+                                <span class="side-menu__label">Key Add</span>
+                            </a>
+                        </li>
+
                 <li class="slide__category"><span class="category-name">Plan</span></li>
 
                     <li class="slide">
