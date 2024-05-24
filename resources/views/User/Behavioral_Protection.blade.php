@@ -349,7 +349,7 @@
                             <div class="box">
 
                                 <div class="box-body box-bm">
-                                    <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
+                                    <span class="mb-4 avatar avatar-lg avatar-rounded !text-primary">
                                             <i class="fa-solid fa-gears" style="font-size:40px;"></i>
                                     </span>
                                     <h6 class="box-title font-semibold">Special title treatment</h6>
@@ -362,7 +362,7 @@
                             <div class="box">
 
                                 <div class="box-body box-bm">
-                                    <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
+                                    <span class="mb-4 avatar avatar-lg avatar-rounded !text-primary">
                                            <i class="fa-solid fa-file-code" style="font-size:40px;"></i>
                                     </span>
                                     <h6 class="box-title font-semibold">Special title treatment</h6>
@@ -374,7 +374,7 @@
                         <div class="xl:col-span-3 md:col-span-6 col-span-12">
                             <div class="box">
                                 <div class="box-body box-bm">
-                                    <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
+                                    <span class="mb-4 avatar avatar-lg avatar-rounded !text-primary">
                                         <i class="fa-solid fa-file-shield" style="font-size:40px;"></i>
                                     </span>
                                     <h6 class="box-title font-semibold">Special title treatment</h6>
@@ -386,7 +386,7 @@
                         <div class="xl:col-span-3 md:col-span-6 col-span-12">
                             <div class="box ">
                                 <div class="box-body box-bm">
-                                    <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
+                                    <span class="mb-4 avatar avatar-lg avatar-rounded !text-primary">
                                        <i class="fa-solid fa-photo-film" style="font-size:40px;"></i>
                                     </span>
                                     <h6 class="box-title font-semibold">Special title treatment</h6>
@@ -403,7 +403,7 @@
                             <div class="box">
 
                                 <div class="box-body box-bm">
-                                    <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
+                                    <span class="mb-4 avatar avatar-lg avatar-rounded !text-primary">
                                             <i class="fa-solid fa-gears" style="font-size:40px;"></i>
                                     </span>
                                     <h6 class="box-title font-semibold">Special title treatment</h6>
@@ -416,7 +416,7 @@
                             <div class="box">
 
                                 <div class="box-body box-bm">
-                                    <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
+                                    <span class="mb-4 avatar avatar-lg avatar-rounded !text-primary">
                                            <i class="fa-solid fa-file-code" style="font-size:40px;"></i>
                                     </span>
                                     <h6 class="box-title font-semibold">Special title treatment</h6>
@@ -428,7 +428,7 @@
                         <div class="xl:col-span-3 md:col-span-6 col-span-12">
                             <div class="box">
                                 <div class="box-body box-bm">
-                                    <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
+                                    <span class="mb-4 avatar avatar-lg avatar-rounded !text-primary">
                                         <i class="fa-solid fa-file-shield" style="font-size:40px;"></i>
                                     </span>
                                     <h6 class="box-title font-semibold">Special title treatment</h6>
@@ -440,7 +440,7 @@
                         <div class="xl:col-span-3 md:col-span-6 col-span-12">
                             <div class="box ">
                                 <div class="box-body box-bm">
-                                    <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
+                                    <span class="mb-4 avatar avatar-lg avatar-rounded !text-primary">
                                        <i class="fa-solid fa-photo-film" style="font-size:40px;"></i>
                                     </span>
                                     <h6 class="box-title font-semibold">Special title treatment</h6>
