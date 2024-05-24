@@ -41,8 +41,8 @@ canvas {
 <body>
     <h1>
         <span>i</span> <span style="color: rgb(255, 4, 92)">love</span>
-        <span>you</span>
-        <span>KUNAL GANDU</span>
+        <span>KUNAL</span>
+        <span>FUSSI</span>
       </h1>
       <script>
         class TextDesintegrator {
