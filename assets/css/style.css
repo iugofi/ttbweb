@@ -50368,6 +50368,23 @@ button#dacor-id:active {
 span.decor.px-2 {
     color: #333335;
 }
+.box-body {
+    padding: 1.25rem;
+    color: rgb(var(--default-text-color));
+}
+.box-three:hover {
+    background-color: #12D2B3;
+    color: #fff;
+}
+.box-three:hover .action-btns.mt-4.ps-4 {
+    border: 1px solid #fff;
+    padding: 0px 10px;
+    border-radius: 4px;
+    margin: 0 16px auto;
+    width: 50%;
+}
+
+
 
 
  
