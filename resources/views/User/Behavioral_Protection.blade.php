@@ -348,7 +348,7 @@
 
                             <div class="box-body box-three">
                                 <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary floatright">
-                                    <img src="assets/img/Icon-1.png" alt="img" class="!rounded-md">
+                                    <i class="fa-solid fa-gears"></i>
                                 </span>
                                 <p class="box-title" style="font-size:32px; font-weight:700;">01</p><br>
                                 <p class="card-text mb-4 font-bold text-base">Digital <br>Marketing</p>
