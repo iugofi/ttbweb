@@ -56,7 +56,7 @@
                                     <div class="xl:col-span-6 col-span-6">
                                         <label for="blog-title" class="form-label">First Name</label>
                                         <input type="text" name="main_id"
-                                            value="{{ isset($editCustomers->id) ? $editCustomers->id : '' }}" hidden>
+                                            value="{{ isset($editCustomers->id) ? \Crypt::encrypt($editCustomers->id) : '' }}" hidden>
                                         <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
                                             id="firstname" name="firstname"
                                             value="{{ isset($editCustomers->firstname) ? $editCustomers->firstname : '' }}"
