@@ -87,6 +87,15 @@
                         </a>
                     </li>
 
+                <li class="slide__category"><span class="category-name">Customers</span></li>               
+                <li class="slide">
+                    <a href="{{route('admin.useradminpage')}}" class="side-menu__item">
+                        <i class="bi bi-people side-menu__icon"></i>
+                        <span class="side-menu__label">Customers List</span>
+                    </a>
+                </li>
+                   
+
                 <li class="slide__category"><span class="category-name">User</span></li>               
                 <li class="slide">
                     <a href="{{route('admin.useradminpage')}}" class="side-menu__item">
@@ -105,13 +114,13 @@
 
                         <li class="slide">
                             <a href="{{route('key.show')}}" class="side-menu__item">
-                                <i class="fa-solid fa-location-dot side-menu__icon"></i>
+                                <i class="bi bi-key-fill side-menu__icon"></i>
                                 <span class="side-menu__label">Key List</span>
                             </a>
                         </li>
                         <li class="slide">
                             <a href="{{route('key.add')}}" class="side-menu__item">
-                                <i class="fa-solid fa-location-dot side-menu__icon"></i>
+                                <i class="bi bi-filetype-key side-menu__icon"></i>
                                 <span class="side-menu__label">Key Add</span>
                             </a>
                         </li>
@@ -120,13 +129,13 @@
 
                     <li class="slide">
                         <a href="{{route('plan.listshow')}}" class="side-menu__item">
-                            <i class="fa-solid fa-location-dot side-menu__icon"></i>
+                            <i class="bi bi-view-list side-menu__icon"></i>
                             <span class="side-menu__label">Plan List</span>
                         </a>
                     </li>
                     <li class="slide">
                         <a href="{{route('plan.plancreate')}}" class="side-menu__item">
-                            <i class="fa-solid fa-location-dot side-menu__icon"></i>
+                            <i class="bi bi-bag-plus-fill side-menu__icon"></i>
                             <span class="side-menu__label">Plan Create</span>
                         </a>
                     </li>
@@ -135,13 +144,13 @@
 
                     <li class="slide">
                         <a href="{{route('plan.detailsshow')}}" class="side-menu__item">
-                            <i class="fa-solid fa-location-dot side-menu__icon"></i>
+                            <i class="bi bi-list-stars side-menu__icon"></i>
                             <span class="side-menu__label">Plan Details</span>
                         </a>
                     </li>
                     <li class="slide">
                         <a href="{{route('plan.plandetailscreate')}}" class="side-menu__item">
-                            <i class="fa-solid fa-location-dot side-menu__icon"></i>
+                            <i class="bi bi-node-plus-fill side-menu__icon"></i>
                             <span class="side-menu__label">Plan Details Create</span>
                         </a>
                     </li>
