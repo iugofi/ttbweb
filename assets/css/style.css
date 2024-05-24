@@ -50357,6 +50357,14 @@ span.decor.px-2 {
     font-size: 12px;
     font-weight: 700;
 }
+button#dacor-id:active {
+    background-color: #fff;
+    /* border: none; */
+    padding: 8px;
+}
+#dacor-id {
+    padding: 10px;
+}
 
  
 /* End::marker Behavioral-Protection page css */
