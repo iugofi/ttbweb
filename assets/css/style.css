@@ -50372,13 +50372,9 @@ span.decor.px-2 {
     padding: 1.25rem;
     color: rgb(var(--default-text-color));
 }
-.box-three {
-    border: 2px solid #12D2B3;
-    border-radius: 4px;
-}
+
 .box-three:hover {
-    background-color: #12D2B3;
-    color: #fff;
+    border: 2px solid #12D2B3;
     border-radius: 4px;
 }
 .box-three:hover .action-btns.mt-4.ps-4 {
@@ -50388,9 +50384,7 @@ span.decor.px-2 {
     margin: 0 16px auto;
     width: 50%;
 }
-.box-three:hover p.box-title {
-    color: #fff;
-}
+
 
 
 
