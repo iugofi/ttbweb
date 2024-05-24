@@ -190,7 +190,7 @@
                                 </div>
                             </div>
                             <div class="xl:col-span-6 col-span-12">
-                                <h3 class="lg:text-center font-semibold mb-2 text-[2rem]">Frequently Asked Question</h3>
+                                <h3 class="lg:text-center font-semibold mb-2 text-[2rem]">Why Choose Us?</h3>
                                 <div class="accordion accordion-customicon1 accordion-primary accordions-items-seperate"
                                     id="accordionFAQ2">
                                     <div class="hs-accordion-group">
@@ -198,22 +198,8 @@
                                             id="faq-five">
                                             <button type="button"
                                                 class="hs-accordion-toggle hs-accordion-active:!text-primary hs-accordion-active:border dark:border-defaultborder/10-b hs-accordion-active:bg-primary/10   dark:border-defaultborder/10 dark:hs-accordion-active:border dark:border-defaultborder/10-white/10 justify-between inline-flex items-center w-full font-semibold text-start text-[0.85rem] transition py-5 px-4 dark:hs-accordion-active:!text-primary dark:text-gray-200 dark:hover:text-white/80"
-                                                aria-controls="faq-collapse-seven">
+                                                aria-controls="faq-collapse-seven" id class="dacor-id">
                                                 <i class="fa-regular fa-circle-dot"><span class="decor px-2">General Terms Conditions (GTC)</span></i>
-                                                {{-- <svg class="hs-accordion-active:hidden hs-accordion-active:!text-primary hs-accordion-active:group-hover:!text-primary block w-3 h-3 text-gray-600 group-hover:text-defaulttextcolor dark:text-defaulttextcolor/70 "
-                                                    width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M1.5 8.85999L14.5 8.85998" stroke="currentColor"
-                                                        stroke-width="2" stroke-linecap="round" />
-                                                    <path d="M8 15.36L8 2.35999" stroke="currentColor" stroke-width="2"
-                                                        stroke-linecap="round" />
-                                                </svg>
-                                                <svg class="hs-accordion-active:block hs-accordion-active:!text-primary hs-accordion-active:group-hover:!text-primary hidden w-3 h-3 text-gray-600 group-hover:text-defaulttextcolor dark:text-defaulttextcolor/70 "
-                                                    width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M1.5 8.85999L14.5 8.85998" stroke="currentColor"
-                                                        stroke-width="2" stroke-linecap="round" />
-                                                </svg> --}}
                                             </button>
                                             <div id="faq-collapse-seven"
                                                 class="hs-accordion-content w-full overflow-hidden transition-[height] duration-300"
@@ -241,22 +227,8 @@
                                             id="faq-six">
                                             <button type="button"
                                                 class="hs-accordion-toggle hs-accordion-active:!text-primary hs-accordion-active:border dark:border-defaultborder/10-b hs-accordion-active:bg-primary/10   dark:border-defaultborder/10 dark:hs-accordion-active:border dark:border-defaultborder/10-white/10 justify-between inline-flex items-center w-full font-semibold text-start text-[0.85rem] transition py-5 px-4 dark:hs-accordion-active:!text-primary dark:text-gray-200 dark:hover:text-white/80"
-                                                aria-controls="faq-collapse-eight">
+                                                aria-controls="faq-collapse-eight" id class="dacor-id">
                                                 <i class="fa-regular fa-circle-dot"><span class="decor px-2"> Do I need to create an account to make an order?</span></i>
-                                                {{-- <svg class="hs-accordion-active:hidden hs-accordion-active:!text-primary hs-accordion-active:group-hover:!text-primary block w-3 h-3 text-gray-600 group-hover:text-defaulttextcolor dark:text-defaulttextcolor/70 "
-                                                    width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M1.5 8.85999L14.5 8.85998" stroke="currentColor"
-                                                        stroke-width="2" stroke-linecap="round" />
-                                                    <path d="M8 15.36L8 2.35999" stroke="currentColor" stroke-width="2"
-                                                        stroke-linecap="round" />
-                                                </svg>
-                                                <svg class="hs-accordion-active:block hs-accordion-active:!text-primary hs-accordion-active:group-hover:!text-primary hidden w-3 h-3 text-gray-600 group-hover:text-defaulttextcolor dark:text-defaulttextcolor/70 "
-                                                    width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M1.5 8.85999L14.5 8.85998" stroke="currentColor"
-                                                        stroke-width="2" stroke-linecap="round" />
-                                                </svg> --}}
                                             </button>
                                             <div id="faq-collapse-eight"
                                                 class="hs-accordion-content w-full overflow-hidden hidden transition-[height] duration-300"
@@ -284,22 +256,8 @@
                                             id="faq-seven">
                                             <button type="button"
                                                 class="hs-accordion-toggle hs-accordion-active:!text-primary hs-accordion-active:border dark:border-defaultborder/10-b hs-accordion-active:bg-primary/10   dark:border-defaultborder/10 dark:hs-accordion-active:border dark:border-defaultborder/10-white/10 justify-between inline-flex items-center w-full font-semibold text-start text-[0.85rem] transition py-5 px-4 dark:hs-accordion-active:!text-primary dark:text-gray-200 dark:hover:text-white/80"
-                                                aria-controls="faq-collapse-nine">
+                                                aria-controls="faq-collapse-nine"  id class="dacor-id">
                                                 <i class="fa-regular fa-circle-dot"><span class="decor px-2">Where can I subscribe to your newsletter?</span></i>
-                                                {{-- <svg class="hs-accordion-active:hidden hs-accordion-active:!text-primary hs-accordion-active:group-hover:!text-primary block w-3 h-3 text-gray-600 group-hover:text-defaulttextcolor dark:text-defaulttextcolor/70 "
-                                                    width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M1.5 8.85999L14.5 8.85998" stroke="currentColor"
-                                                        stroke-width="2" stroke-linecap="round" />
-                                                    <path d="M8 15.36L8 2.35999" stroke="currentColor" stroke-width="2"
-                                                        stroke-linecap="round" />
-                                                </svg>
-                                                <svg class="hs-accordion-active:block hs-accordion-active:!text-primary hs-accordion-active:group-hover:!text-primary hidden w-3 h-3 text-gray-600 group-hover:text-defaulttextcolor dark:text-defaulttextcolor/70 "
-                                                    width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M1.5 8.85999L14.5 8.85998" stroke="currentColor"
-                                                        stroke-width="2" stroke-linecap="round" />
-                                                </svg> --}}
                                             </button>
                                             <div id="faq-collapse-nine"
                                                 class="hs-accordion-content w-full overflow-hidden hidden transition-[height] duration-300"
@@ -327,22 +285,8 @@
                                             id="faq-eight">
                                             <button type="button"
                                                 class="hs-accordion-toggle hs-accordion-active:!text-primary hs-accordion-active:border dark:border-defaultborder/10-b hs-accordion-active:bg-primary/10   dark:border-defaultborder/10 dark:hs-accordion-active:border dark:border-defaultborder/10-white/10 justify-between inline-flex items-center w-full font-semibold text-start text-[0.85rem] transition py-5 px-4 dark:hs-accordion-active:!text-primary dark:text-gray-200 dark:hover:text-white/80"
-                                                aria-controls="faq-collapse-ten">
+                                                aria-controls="faq-collapse-ten" id class="dacor-id">
                                                 <i class="fa-regular fa-circle-dot"><span class="decor px-2">Where can in edit my address?</span></i>
-                                                {{-- <svg class="hs-accordion-active:hidden hs-accordion-active:!text-primary hs-accordion-active:group-hover:!text-primary block w-3 h-3 text-gray-600 group-hover:text-defaulttextcolor dark:text-defaulttextcolor/70 "
-                                                    width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M1.5 8.85999L14.5 8.85998" stroke="currentColor"
-                                                        stroke-width="2" stroke-linecap="round" />
-                                                    <path d="M8 15.36L8 2.35999" stroke="currentColor" stroke-width="2"
-                                                        stroke-linecap="round" />
-                                                </svg>
-                                                <svg class="hs-accordion-active:block hs-accordion-active:!text-primary hs-accordion-active:group-hover:!text-primary hidden w-3 h-3 text-gray-600 group-hover:text-defaulttextcolor dark:text-defaulttextcolor/70 "
-                                                    width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M1.5 8.85999L14.5 8.85998" stroke="currentColor"
-                                                        stroke-width="2" stroke-linecap="round" />
-                                                </svg> --}}
                                             </button>
                                             <div id="faq-collapse-ten"
                                                 class="hs-accordion-content w-full overflow-hidden hidden transition-[height] duration-300"
