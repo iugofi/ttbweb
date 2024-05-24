@@ -91,7 +91,7 @@
                                             <div class="flex items-start flex-wrap">
                                                 <div class="me-2">
                                                     <span class=" inline-flex items-center justify-center">
-                                                        <img src="assets/images/faces/10.jpg" alt=""
+                                                        <img src="{{asset('assets/images/faces/10.jpg')}}" alt=""
                                                             class="w-[1.75rem] h-[1.75rem] leading-[1.75rem] text-[0.65rem]  rounded-full">
                                                     </span>
                                                 </div>
@@ -406,7 +406,7 @@
                                                     <div class="flex items-center font-semibold">
                                                         <span
                                                             class="!me-2 inline-flex justify-center items-center">
-                                                            <img src="assets/images/faces/4.jpg" alt="img"
+                                                            <img src="{{asset('assets/images/faces/4.jpg')}}" alt="img"
                                                                 class="w-[1.75rem] h-[1.75rem] leading-[1.75rem] text-[0.65rem]  rounded-full">
                                                         </span>Mayor Kelly
                                                     </div>
@@ -440,7 +440,7 @@
                                                     <div class="flex items-center font-semibold">
                                                         <span
                                                             class="inline-flex  justify-center items-center me-2">
-                                                            <img src="assets/images/faces/15.jpg" alt="img"
+                                                            <img src="{{asset('assets/images/faces/15.jpg')}}" alt="img"
                                                                 class="w-[1.75rem] h-[1.75rem] leading-[1.75rem] text-[0.65rem]  rounded-full">
                                                         </span>Andrew Garfield
                                                     </div>
@@ -473,7 +473,7 @@
                                                     <div class="flex items-center font-semibold">
                                                         <span
                                                             class="inline-flex  justify-center items-center me-2">
-                                                            <img src="assets/images/faces/11.jpg" alt="img"
+                                                            <img src="{{asset('assets/images/faces/11.jpg')}}" alt="img"
                                                                 class="w-[1.75rem] h-[1.75rem] leading-[1.75rem] text-[0.65rem]  rounded-full">
                                                         </span>Simon Cowel
                                                     </div>
@@ -507,7 +507,7 @@
                                                     <div class="flex items-center font-semibold">
                                                         <span
                                                             class="inline-flex justify-center items-center me-2">
-                                                            <img src="assets/images/faces/8.jpg" alt="img"
+                                                            <img src="{{asset('assets/images/faces/8.jpg')}}" alt="img"
                                                                 class="w-[1.75rem] h-[1.75rem] leading-[1.75rem] text-[0.65rem]  rounded-full">
                                                         </span>Mirinda Hers
                                                     </div>
@@ -541,7 +541,7 @@
                                                     <div class="flex items-center font-semibold">
                                                         <span
                                                             class="inline-flex  justify-center items-center me-2">
-                                                            <img src="assets/images/faces/9.jpg" alt="img"
+                                                            <img src="{{asset('assets/images/faces/9.jpg')}}" alt="img"
                                                                 class="w-[1.75rem] h-[1.75rem] leading-[1.75rem] text-[0.65rem]  rounded-full">
                                                         </span>Jacob Smith
                                                     </div>
@@ -604,14 +604,16 @@
             <div class="xxl:col-span-3 xl:col-span-12 col-span-12">
                 <div class="grid grid-cols-12 gap-x-6">
                     <div class="xxl:col-span-12 xl:col-span-12  col-span-12">
-                        <div class="box custom-box">
-                            <div class="box-header">
-                                <div class="box-title">Donut Chart With Patterns</div>
+                       
+                            <div class="box custom-box">
+                                <div class="box-header">
+                                    <div class="box-title">Pie Chart</div>
+                                </div>
+                                <div class="box-body">
+                                    <div id="echart-pie" class="echart-charts"></div>
+                                </div>
                             </div>
-                            <div class="box-body">
-                                <div id="donut-pattern"></div>
-                            </div>
-                        </div>
+                       
                     </div>
                     <div class="xxl:col-span-12 xl:col-span-6  col-span-12">
                         <div class="box">
@@ -895,6 +897,55 @@
 
     </div>
 </div>
+
+
+<script>
+        var dom = document.getElementById('echart-pie');
+    var myChart = echarts.init(dom, null, {
+        renderer: 'canvas',
+        useDirtyRect: false
+    });
+    var app = {};
+    var option;
+    option = {
+        tooltip: {
+            trigger: 'item'
+        },
+        legend: {
+            orient: 'vertical',
+            left: 'left',
+            textStyle: {
+              color: '#777'
+            }
+        },
+        series: [
+            {
+                name: 'Access From',
+                type: 'pie',
+                radius: '50%',
+                data: [
+                    { value: 1048, name: 'Search Engine' },
+                    { value: 735, name: 'Direct' },
+                    { value: 580, name: 'Email' },
+                    { value: 484, name: 'Union Ads' },
+                    { value: 300, name: 'Video Ads' }
+                ],
+                emphasis: {
+                    itemStyle: {
+                        shadowBlur: 10,
+                        shadowOffsetX: 0,
+                        shadowColor: 'rgba(0, 0, 0, 0.5)'
+                    }
+                }
+            }
+        ],
+        color: ["#845adf", "#23b7e5", "#f7b731", "#e82646", "#49b6f5"]
+    };
+    if (option && typeof option === 'object') {
+        myChart.setOption(option);
+    }
+    window.addEventListener('resize', myChart.resize);
+</script>
 
 @endsection
 
