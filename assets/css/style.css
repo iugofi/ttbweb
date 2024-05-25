@@ -48714,7 +48714,9 @@ img.img-fluid.service-icon {
 /* neeraj-home-page-css-22-04-2024 */
 
 /* phishing page css */
-
+.threat-section-three .img-boxthree{
+ background-color: #fff;
+}
 .threat-section-three {
     padding: 100px 0px;
     border-top: 10px solid #12d2b3;
