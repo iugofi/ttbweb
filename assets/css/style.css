@@ -48721,6 +48721,15 @@ img.img-fluid.service-icon {
     background-color: #F5F6FA;
 }
 
+.threat-section-three h2 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.threat-section-three p {
+    font-size: 16px;
+}
+
 .btn-box{
     margin-top: 5.5em;
 }
