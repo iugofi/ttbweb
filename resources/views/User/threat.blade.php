@@ -63,7 +63,7 @@
     <section class="threat-section-three">
         <div class="container">
             <div class="grid grid-cols-12 gap-6">
-                <div class="col-span-12">
+                <div class="col-span-12 text-center">
                     <h2>Stay protected from threats- known and unknown!</h2>
                     <p>Most malware attacks can be recognized based on their past-behaviour, however, those with modified
                         codes
