@@ -65,23 +65,27 @@
             <div class="grid grid-cols-12 gap-6">
                 <div class="col-span-12 text-center">
                     <h2>Stay protected from threats- known and unknown!</h2>
-                    <p class="mt-3">Most malware attacks can be recognized based on their past-behaviour, however,<br> those with modified
+                    <p class="mt-3">Most malware attacks can be recognized based on their past-behaviour, however,<br>
+                        those with modified
                         codes
                         and language are difficult to track.</p>
                 </div>
-            
-            <div class="xxl:col-span-4 xl:col-span-4  md:col-span-4 sm:col-span-12 col-span-12">
-               
-            </div>
-            <div class="xxl:col-span-4 xl:col-span-4  md:col-span-4 sm:col-span-12 col-span-12">
+
+                <div class="xxl:col-span-4 xl:col-span-4  md:col-span-4 sm:col-span-12 col-span-12">
+                    <img src="{{ asset('assets/img/threat-image1.png') }}" alt="" class="img-fluid" width="90%">
+
+                </div>
+                <div class="xxl:col-span-4 xl:col-span-4  md:col-span-4 sm:col-span-12 col-span-12">
+                    <img src="{{ asset('assets/img/threat-image1.png') }}" alt="" class="img-fluid" width="90%">
+
+                </div>
+                <div class="xxl:col-span-4 xl:col-span-4  md:col-span-4 sm:col-span-12 col-span-12">
+                    <img src="{{ asset('assets/img/threat-image1.png') }}" alt="" class="img-fluid" width="90%">
+
+                </div>
 
             </div>
-            <div class="xxl:col-span-4 xl:col-span-4  md:col-span-4 sm:col-span-12 col-span-12">
-
-            </div>
-
         </div>
-    </div>
     </section>
 
 
