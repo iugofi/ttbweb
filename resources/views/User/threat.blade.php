@@ -65,7 +65,7 @@
             <div class="grid grid-cols-12 gap-6">
                 <div class="col-span-12 text-center">
                     <h2>Stay protected from threats- known and unknown!</h2>
-                    <p>Most malware attacks can be recognized based on their past-behaviour, however,<br> those with modified
+                    <p class="mt-3">Most malware attacks can be recognized based on their past-behaviour, however,<br> those with modified
                         codes
                         and language are difficult to track.</p>
                 </div>
