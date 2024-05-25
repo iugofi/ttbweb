@@ -66,8 +66,6 @@
                 <h2>Stay protected from threats- known and unknown!</h2>
                 <p>Most malware attacks can be recognized based on their past-behaviour, however, those with modified codes
                     and language are difficult to track.</p>
-                <div class="xxl:col-span-4 xl:col-span-4  md:col-span-4 sm:col-span-12 col-span-12">
-
                 </div>
                 <div class="xxl:col-span-4 xl:col-span-4  md:col-span-4 sm:col-span-12 col-span-12">
 
@@ -75,7 +73,10 @@
                 <div class="xxl:col-span-4 xl:col-span-4  md:col-span-4 sm:col-span-12 col-span-12">
 
                 </div>
-            </div>
+                <div class="xxl:col-span-4 xl:col-span-4  md:col-span-4 sm:col-span-12 col-span-12">
+
+                </div>
+            
         </div>
     </section>
 
