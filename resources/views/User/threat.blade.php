@@ -179,7 +179,7 @@
     </section>
 
 
-    <section class="threat-section-three">
+    <section class="threat-section-four">
         <div class="container main-banner-container">
             <div class="grid grid-cols-12 gap-6">
                 <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12 ">
