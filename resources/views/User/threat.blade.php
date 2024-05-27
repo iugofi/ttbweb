@@ -84,11 +84,25 @@
                 </div>
                 <div class="xxl:col-span-4 xl:col-span-4  md:col-span-4 sm:col-span-12 col-span-12 img-boxthree">
                     <img src="{{ asset('assets/img/sec3-img2.png') }}" alt="" class="img-fluid" width="100%">
-
+                    <div class="inner-box ">
+                        <div class="flex">
+                            <div class="icon-img-box">
+                                <i class="fa-solid fa-signal"></i>
+                            </div>
+                            <h3 class="ms-3">Improved <br>Defenses.</h3>
+                        </div>
+                    </div>
                 </div>
                 <div class="xxl:col-span-4 xl:col-span-4  md:col-span-4 sm:col-span-12 col-span-12 img-boxthree">
                     <img src="{{ asset('assets/img/sec3-img3.png') }}" alt="" class="img-fluid" width="100%">
-
+                    <div class="inner-box ">
+                        <div class="flex">
+                            <div class="icon-img-box">
+                                <i class="fa-solid fa-signal"></i>
+                            </div>
+                            <h3 class="ms-3">Improved <br>Defenses.</h3>
+                        </div>
+                    </div>
                 </div>
 
             </div>
