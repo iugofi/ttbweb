@@ -48715,11 +48715,11 @@ img.img-fluid.service-icon {
 
 /* phishing page css */
 .img-boxthree{
-  border-bottom: 2px solid #fff;
+  border-bottom: 3px solid #fff;
 }
 
 .img-boxthree:hover{
-    border-bottom: 2px solid #12d2b3;
+    border-bottom: 3px solid #12d2b3;
 }
 
 .inner-box {
