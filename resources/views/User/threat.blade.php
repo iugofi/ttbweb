@@ -122,7 +122,7 @@
                 </div>
 
             </div>
-            <div class="grid grid-cols-12 gap-6">
+            <div class="grid grid-cols-12 gap-6 mt-5">
 
                 <div class="xxl:col-span-4 xl:col-span-4  md:col-span-4 sm:col-span-12 col-span-12 img-boxthree">
                     <img src="{{ asset('assets/img/sec3-img1.png') }}" alt="" class="img-fluid" width="100%">
