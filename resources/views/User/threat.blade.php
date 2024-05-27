@@ -78,7 +78,7 @@
                             <div class="icon-img-box">
                                 <i class="fa-solid fa-signal"></i>
                             </div>
-                            <h3 class="ms-3">Improved <br>Defenses.</h3>
+                            <h3 class="ms-3">Improved <br>Defenses <span>.</span></h3>
                         </div>
                         <div class="progress progress-xs mb-5 mt-5 progress-animate">
                             <div class="progress-bar !rounded-e-full bg-primary w-10">
@@ -94,7 +94,7 @@
                             <div class="icon-img-box">
                                 <i class="fa-solid fa-signal"></i>
                             </div>
-                            <h3 class="ms-3">Improved <br>Defenses.</h3>
+                            <h3 class="ms-3">Improved <br>Defenses<span>.</span></h3>
                         </div>
                         <div class="progress progress-xs mb-5 mt-5 progress-animate ">
                             <div class="progress-bar !rounded-e-full bg-primary w-10">
@@ -131,7 +131,7 @@
                             <div class="icon-img-box">
                                 <i class="fa-solid fa-signal"></i>
                             </div>
-                            <h3 class="ms-3">Improved <br>Defenses.</h3>
+                            <h3 class="ms-3">Improved <br>Defenses<span>.</span></h3>
                         </div>
                         <div class="progress progress-xs mb-5 mt-5 progress-animate ">
                             <div class="progress-bar !rounded-e-full bg-primary w-10">
@@ -147,7 +147,7 @@
                             <div class="icon-img-box">
                                 <i class="fa-solid fa-signal"></i>
                             </div>
-                            <h3 class="ms-3">Improved <br>Defenses.</h3>
+                            <h3 class="ms-3">Improved <br>Defenses<span>.</span></h3>
                         </div>
                         <div class="progress progress-xs mb-5 mt-5 progress-animate ">
                             <div class="progress-bar !rounded-e-full bg-primary w-10">
@@ -164,7 +164,7 @@
                             <div class="icon-img-box">
                                 <i class="fa-solid fa-signal"></i>
                             </div>
-                            <h3 class="ms-3">Improved <br>Defenses.</h3>
+                            <h3 class="ms-3">Improved <br>Defenses<span>.</span></h3>
                         </div>
                         <div class="progress progress-xs mb-5 mt-5 progress-animate ">
                             <div class="progress-bar !rounded-e-full bg-primary w-10">
