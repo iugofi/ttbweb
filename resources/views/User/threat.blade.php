@@ -65,7 +65,7 @@
             <div class="grid grid-cols-12 gap-6">
                 <div class="col-span-12 text-center">
                     <h2>Stay protected from threats- known and unknown!</h2>
-                    <p class="mt-3">Most malware attacks can be recognized based on their past-behaviour, however,<br>
+                    <p class="mt-3 mb-5">Most malware attacks can be recognized based on their past-behaviour, however,<br>
                         those with modified
                         codes
                         and language are difficult to track.</p>
@@ -79,6 +79,10 @@
                                 <i class="fa-solid fa-signal"></i>
                             </div>
                             <h3 class="ms-3">Improved <br>Defenses.</h3>
+                        </div>
+                        <div class="progress progress-xs mb-4 progress-animate">
+                            <div class="progress-bar bg-primary w-96">
+                            </div>
                         </div>
                     </div>
                 </div>
