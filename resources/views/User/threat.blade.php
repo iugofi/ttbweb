@@ -78,7 +78,7 @@
                             <div class="icon-img-box">
                                 <i class="fa-solid fa-signal"></i>
                             </div>
-                            <h3 class="ms-3">Improved Defenses.</h3>
+                            <h3 class="ms-3">Improved <br>Defenses.</h3>
                         </div>
                     </div>
                 </div>
