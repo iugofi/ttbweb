@@ -95,6 +95,10 @@
                             </div>
                             <h3 class="ms-3">Improved <br>Defenses.</h3>
                         </div>
+                        <div class="progress progress-xs mb-5 mt-5 progress-animate ">
+                            <div class="progress-bar !rounded-e-full bg-primary w-10">
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="xxl:col-span-4 xl:col-span-4  md:col-span-4 sm:col-span-12 col-span-12 img-boxthree">
@@ -105,6 +109,10 @@
                                 <i class="fa-solid fa-signal"></i>
                             </div>
                             <h3 class="ms-3">Improved <br>Defenses.</h3>
+                        </div>
+                        <div class="progress progress-xs mb-5 mt-5 progress-animate ">
+                            <div class="progress-bar !rounded-e-full bg-primary w-10">
+                            </div>
                         </div>
                     </div>
                 </div>
