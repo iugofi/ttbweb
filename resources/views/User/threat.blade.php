@@ -73,7 +73,12 @@
 
                 <div class="xxl:col-span-4 xl:col-span-4  md:col-span-4 sm:col-span-12 col-span-12 img-boxthree">
                     <img src="{{ asset('assets/img/sec3-img1.png') }}" alt="" class="img-fluid" width="100%">
-
+                     <div class="flex">
+                        <div>
+                            <i class="fa-solid fa-signal"></i>
+                        </div>
+                        <h3>Improved Defenses.</h3>
+                     </div>
                 </div>
                 <div class="xxl:col-span-4 xl:col-span-4  md:col-span-4 sm:col-span-12 col-span-12 img-boxthree">
                     <img src="{{ asset('assets/img/sec3-img2.png') }}" alt="" class="img-fluid" width="100%">
