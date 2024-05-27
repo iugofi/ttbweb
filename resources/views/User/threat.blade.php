@@ -84,6 +84,7 @@
                             <div class="progress-bar !rounded-e-full bg-primary w-10">
                             </div>
                         </div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
                 </div>
                 <div class="xxl:col-span-4 xl:col-span-4  md:col-span-4 sm:col-span-12 col-span-12 img-boxthree">
@@ -99,6 +100,8 @@
                             <div class="progress-bar !rounded-e-full bg-primary w-10">
                             </div>
                         </div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
                     </div>
                 </div>
                 <div class="xxl:col-span-4 xl:col-span-4  md:col-span-4 sm:col-span-12 col-span-12 img-boxthree">
@@ -114,6 +117,7 @@
                             <div class="progress-bar !rounded-e-full bg-primary w-10">
                             </div>
                         </div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
                 </div>
 
