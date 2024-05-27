@@ -80,7 +80,7 @@
                             </div>
                             <h3 class="ms-3">Improved <br>Defenses.</h3>
                         </div>
-                        <div class="progress progress-xs mb-5 mt-5 progress-animate ">
+                        <div class="progress progress-xs mb-5 mt-5 progress-animate">
                             <div class="progress-bar !rounded-e-full bg-primary w-10">
                             </div>
                         </div>
