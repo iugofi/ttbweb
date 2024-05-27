@@ -75,7 +75,7 @@
                     <img src="{{ asset('assets/img/sec3-img1.png') }}" alt="" class="img-fluid" width="100%">
                     <div class="inner-box p-5">
                         <div class="flex">
-                            <div>
+                            <div class="icon-img-box">
                                 <i class="fa-solid fa-signal"></i>
                             </div>
                             <h3>Improved Defenses.</h3>
