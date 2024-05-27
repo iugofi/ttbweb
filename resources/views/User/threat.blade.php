@@ -179,7 +179,26 @@
     </section>
 
 
-
+    <section class="threat-section-three">
+        <div class="container main-banner-container">
+            <div class="grid grid-cols-12 gap-6">
+                <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12 ">
+                    <h2 class="mt-3">25 Years OF EXPERIENCE</h2>
+                    <h3 class="mt-3">Experst Are Here To Sove Your Finance Problems.</h3>
+                    <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa asperiores quaerat,
+                        quia saepe
+                        consequuntur, laudantium, cum at expedita eligendi perferendis amet fugiat? Assumenda numquam nisi
+                        at, laborum eligendi necessitatibus est?</p>
+                    <p class="mt-3 mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa asperiores quaerat,
+                        quia saepe
+                        consequuntur laudantium, cum at expedita eligendi perferendis amet fugiat.</p>
+                </div>
+                <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12 pt-5">
+                    <img src="{{ asset('assets/img/threat-image1.png') }}" alt="" class="img-fluid" width="90%">
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     {{-- </div>
