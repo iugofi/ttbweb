@@ -122,6 +122,59 @@
                 </div>
 
             </div>
+            <div class="grid grid-cols-12 gap-6">
+
+                <div class="xxl:col-span-4 xl:col-span-4  md:col-span-4 sm:col-span-12 col-span-12 img-boxthree">
+                    <img src="{{ asset('assets/img/sec3-img1.png') }}" alt="" class="img-fluid" width="100%">
+                    <div class="inner-box ">
+                        <div class="flex">
+                            <div class="icon-img-box">
+                                <i class="fa-solid fa-signal"></i>
+                            </div>
+                            <h3 class="ms-3">Improved <br>Defenses.</h3>
+                        </div>
+                        <div class="progress progress-xs mb-5 mt-5 progress-animate ">
+                            <div class="progress-bar !rounded-e-full bg-primary w-10">
+                            </div>
+                        </div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Been the industry's standard dummy</p>
+                    </div>
+                </div>
+                <div class="xxl:col-span-4 xl:col-span-4  md:col-span-4 sm:col-span-12 col-span-12 img-boxthree">
+                    <img src="{{ asset('assets/img/sec3-img2.png') }}" alt="" class="img-fluid" width="100%">
+                    <div class="inner-box ">
+                        <div class="flex">
+                            <div class="icon-img-box">
+                                <i class="fa-solid fa-signal"></i>
+                            </div>
+                            <h3 class="ms-3">Improved <br>Defenses.</h3>
+                        </div>
+                        <div class="progress progress-xs mb-5 mt-5 progress-animate ">
+                            <div class="progress-bar !rounded-e-full bg-primary w-10">
+                            </div>
+                        </div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Been the industry's standard dummy</p>
+
+                    </div>
+                </div>
+                <div class="xxl:col-span-4 xl:col-span-4  md:col-span-4 sm:col-span-12 col-span-12 img-boxthree">
+                    <img src="{{ asset('assets/img/sec3-img3.png') }}" alt="" class="img-fluid" width="100%">
+                    <div class="inner-box ">
+                        <div class="flex">
+                            <div class="icon-img-box">
+                                <i class="fa-solid fa-signal"></i>
+                            </div>
+                            <h3 class="ms-3">Improved <br>Defenses.</h3>
+                        </div>
+                        <div class="progress progress-xs mb-5 mt-5 progress-animate ">
+                            <div class="progress-bar !rounded-e-full bg-primary w-10">
+                            </div>
+                        </div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Been the industry's standard dummy</p>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </section>
 
