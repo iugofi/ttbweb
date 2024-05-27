@@ -81,7 +81,7 @@
                             <h3 class="ms-3">Improved <br>Defenses.</h3>
                         </div>
                         <div class="progress progress-xs mb-4 progress-animate">
-                            <div class="progress-bar bg-primary w-96">
+                            <div class="progress-bar bg-primary w-72">
                             </div>
                         </div>
                     </div>
