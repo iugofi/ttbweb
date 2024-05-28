@@ -48715,6 +48715,12 @@ img.img-fluid.service-icon {
 
 /* neeraj-home-page-css-22-04-2024 */
 
+.banner-home-one .btn-home-now {
+    background-color: #12d2b3;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
 
 .banner-home-one {
     padding: 100px;
