@@ -2,7 +2,7 @@
 
 @extends('User.Layouts.layout')
 
-@section('title', 'Home')
+@section('title', 'Test')
 @section('Description', '')
 @section('keywords', '')
 @section('canonical', '')
@@ -32,41 +32,61 @@
                 </div>
             </div>
         </div>
-    </section>    
-    </div>
-</div>
+    </section>
+  
+    
+    <section class="section-home-two">
+        <div class="container">
+            <div class="grid grid-cols-12 gap-6">
+                <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 col-span-12 text-center">
+                     <h2>Trusted by millions of customers.</h2>
+                     
+                     <div class="photobanner__wrap">
+                        <div class="photobanner">
+                            <img src="https://picsum.photos/350/250" alt="" />
+                           <img src="https://picsum.photos/350/250" alt="" />
+                          <img src="https://picsum.photos/350/250" alt="" />
+                          <img src="https://picsum.photos/350/250" alt="" />
+                          <img src="https://picsum.photos/350/250" alt="" />
+                          <img src="https://picsum.photos/350/250" alt="" />
+                        </div>
+                        <div class="photobanner">
+                            <img src="https://picsum.photos/350/250" alt="" />
+                          <img src="https://picsum.photos/350/250" alt="" />
+                          <img src="https://picsum.photos/350/250" alt="" />
+                          <img src="https://picsum.photos/350/250" alt="" />
+                          <img src="https://picsum.photos/350/250" alt="" />
+                          <img src="https://picsum.photos/350/250" alt="" />
+                        </div>
+                      <div>
 
-<section class="section-home-two">
-    <div class="grid grid-cols-12 gap-6">
-        <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 col-span-12 text-center">
-
-             <div class="container-slide">
-                <h2>Trusted by millions of customers.</h2>
-                <div class="photobanner__wrap pt-5 mt-5">
-                    <div class="photobanner">
-                        <img src="{{ asset('assets/img/brand.png') }}" alt="" class="img-fluid">
-                        <img src="{{ asset('assets/img/brand.png') }}" alt="" class="img-fluid">
-                        <img src="{{ asset('assets/img/brand.png') }}" alt="" class="img-fluid">
-                        <img src="{{ asset('assets/img/brand.png') }}" alt="" class="img-fluid">
-                        <img src="{{ asset('assets/img/brand.png') }}" alt="" class="img-fluid">
-                        <img src="{{ asset('assets/img/brand.png') }}" alt="" class="img-fluid">
-                    </div>
-                    <div class="photobanner">
-                        <img src="{{ asset('assets/img/brand.png') }}" alt="" class="img-fluid">
-                        <img src="{{ asset('assets/img/brand.png') }}" alt="" class="img-fluid">
-                        <img src="{{ asset('assets/img/brand.png') }}" alt="" class="img-fluid">
-                        <img src="{{ asset('assets/img/brand.png') }}" alt="" class="img-fluid">
-                        <img src="{{ asset('assets/img/brand.png') }}" alt="" class="img-fluid">
-                        <img src="{{ asset('assets/img/brand.png') }}" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
-            </div>
         </div>
+    </section>
+
+
+
+
+
+
+        
+    </div>
 </div>
-</section>
+
          
 
 
 
+
+
+
+
+
+
+
 @endsection
+
+
+
