@@ -31,9 +31,6 @@
                         </a>
                         <ul class="slide-menu child1">
                             <li class="slide">
-                                <a href="{{route('user.index')}}" class="side-menu__item">Home</a>
-                            </li>
-                            <li class="slide">
                                 <a href="{{route('user.homenew')}}" class="side-menu__item">Home-New</a>
                             </li>
                          
