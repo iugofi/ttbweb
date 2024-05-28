@@ -18,22 +18,10 @@
                     </svg></div>
                 <ul class="main-menu">
                     <!-- Start::slide -->
-                    {{-- <li class="slide">
+                    <li class="slide">
                         <a class="side-menu__item" href="{{ route('user.index') }}">
                             <span class="side-menu__label">Home</span>
                         </a>
-                    </li> --}}
-                    <li class="slide has-sub">
-                        <a href="javascript:void(0);" class="side-menu__item">
-                            <span class="side-menu__label me-2">Home</span>
-                            <i class="fe fe-chevron-right side-menu__angle op-8"></i>
-                        </a>
-                        <ul class="slide-menu child1">
-                            <li class="slide">
-                                <a href="{{route('User.homenew')}}" class="side-menu__item">Home-New</a>
-                            </li>
-                            
-                        </ul>
                     </li>
                     
                     <!-- End::slide -->
