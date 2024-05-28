@@ -48727,7 +48727,9 @@ img.img-fluid.service-icon {
     color: #12d3b2;
     font-size: 58px;
 }
-
+.banner-home-one p {
+    font-size:16px;
+}
 
 .threat-section-four{
     padding: 100px 0px;
