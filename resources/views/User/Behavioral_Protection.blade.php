@@ -476,10 +476,6 @@
                             value with diverse web-readiness.Collaboratively transition wireless customer service.
                         </p>
 
-                        <div class="action-btns mt-4">
-                            <a href="#" class="ti-btn bg-primary text-white">Get in Touch</a>
-                            <a href="#" class="ti-btn bg-primary text-white">Learn More</a>
-                        </div>
                     </div>
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 antivirus-image text-center">
                         <div class="icon-one">
