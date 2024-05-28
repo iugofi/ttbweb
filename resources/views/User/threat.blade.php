@@ -194,7 +194,7 @@
                         consequuntur laudantium, cum at expedita eligendi perferendis amet fugiat.</p>
                 </div>
                 <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12 pt-5">
-                    <img src="{{ asset('assets/img/thread-section-four.png') }}" alt="" class="img-fluid" width="90%">
+                    <img src="{{asset('assets/img/thread-section-four.png') }}" alt="" class="img-fluid" width="90%">
                 </div>
             </div>
         </div>
