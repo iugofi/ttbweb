@@ -57,7 +57,9 @@ h6 {
     font-size: inherit;
     font-weight: inherit;
     /* font-family: "Montserrat", sans-serif; */
-    font-family: "DM Sans", sans-serif;
+    /* font-family: "DM Sans", sans-serif; */
+    font-family: "Raleway", sans-serif;
+
 }
 
 a {
@@ -20012,7 +20014,7 @@ label {
     [data-nav-layout="horizontal"] .content .main-content {
         margin-left: auto;
         margin-right: auto;
-        width: 94%;
+        width: 100%;
     }
 
     [data-nav-layout="horizontal"] .app-sidebar .main-sidebar,
@@ -48712,8 +48714,41 @@ img.img-fluid.service-icon {
 /* end kunal */
 
 /* neeraj-home-page-css-22-04-2024 */
+.banner-home-one.bttn-box{
+    padding: 40px 0px;
+}
+.banner-home-one .btn-home-now {
+    background-color: #12d2b3;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
 
-/* phishing page css */
+.banner-home-one .btn-home-cnt{
+    background-color: #fff;
+    color: #12d2b3;
+    padding: 10px 33px;
+    border-radius: 25px;
+}
+
+.banner-home-one {
+    padding: 100px;
+}
+
+.banner-home-one h2 {
+    font-weight: 700;
+    font-size: 57px;
+    color: #0d1211;
+}
+.banner-home-one h3 {
+    color: #12d3b2;
+    font-size: 58px;
+    font-weight: 300;
+}
+.banner-home-one p {
+    font-size:16px;
+}
+
 .threat-section-four{
     padding: 100px 0px;
     background-color: #fff;
