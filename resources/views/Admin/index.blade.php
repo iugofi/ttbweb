@@ -605,14 +605,168 @@
                 <div class="grid grid-cols-12 gap-x-6">
                     <div class="xxl:col-span-12 xl:col-span-12  col-span-12">
                        
+                      
                             <div class="box custom-box">
                                 <div class="box-header">
-                                    <div class="box-title">Pie Chart</div>
+                                    <div class="box-title">
+                                        Traffic Sources
+                                    </div>
                                 </div>
                                 <div class="box-body">
-                                    <div id="echart-pie" class="echart-charts"></div>
+                                    <div class="table-responsive">
+                                        <table class="table table-bordered table-hover whitespace-nowrap min-w-full">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col" class="text-start">Browser</th>
+                                                    <th scope="col" class="text-start">Sessions</th>
+                                                    <th scope="col" class="text-start">Views</th>
+                                                    <th scope="col" class="text-start">Traffic</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr class="border border-defaultborder ">
+                                                    <td>
+                                                        <div class="flex items-center">
+                                                            <span class="avatar !rounded-full avatar-sm p-2 bg-primary me-2">
+                                                                <i class="ri-google-fill text-[1.125rem] text-white"></i>
+                                                            </span>
+                                                            <div class="font-semibold">Google</div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <span><i class="ri-arrow-up-s-fill me-1 text-success align-middle text-[1.125rem]"></i>23,379</span>
+                                                    </td>
+                                                    <td>
+                                                        <span>16,890</span>
+                                                    </td>
+                                                    <td>
+                                                        <div class="progress progress-xs">
+                                                            <div class="progress-bar bg-primary w-[34%]" >
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr  class="border border-defaultborder ">
+                                                    <td>
+                                                        <div class="flex items-center">
+                                                            <span class="avatar !rounded-full avatar-sm p-2 bg-primary me-2">
+                                                                <i class="ri-safari-line text-[1.125rem] text-white"></i>
+                                                            </span>
+                                                            <div class="font-semibold">Safari</div>
+                                                        </div>
+
+                                                    </td>
+                                                    <td>
+                                                        <span><i class="ri-arrow-up-s-fill me-1 text-success align-middle text-[1.125rem]"></i>78,973</span>
+                                                    </td>
+                                                    <td>
+                                                        <span>29,906</span>
+                                                    </td>
+                                                    <td>
+                                                        <div class="progress progress-xs">
+                                                            <div class="progress-bar bg-primary w-[58%]" >
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr  class="border border-defaultborder ">
+                                                    <td>
+                                                        <div class="flex items-center">
+                                                            <span class="avatar !rounded-full avatar-sm p-2 bg-primary me-2">
+                                                                <i class="ri-opera-fill text-[1.125rem] text-white"></i>
+                                                            </span>
+                                                            <div class="font-semibold">Opera</div>
+                                                        </div>
+
+                                                    </td>
+                                                    <td>
+                                                        <span><i class="ri-arrow-up-s-fill me-1 text-success align-middle text-[1.125rem]"></i>12,457</span>
+                                                    </td>
+                                                    <td>
+                                                        <span>8,674</span>
+                                                    </td>
+                                                    <td>
+                                                        <div class="progress progress-xs">
+                                                            <div class="progress-bar bg-primary w-[62%]" >
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr  class="border border-defaultborder ">
+                                                    <td>
+                                                        <div class="flex items-center">
+                                                            <span class="avatar !rounded-full avatar-sm p-2 bg-primary me-2">
+                                                                <i class="ri-edge-fill text-[1.125rem] text-white"></i>
+                                                            </span>
+                                                            <div class="font-semibold">Edge</div>
+                                                        </div>
+
+                                                    </td>
+                                                    <td>
+                                                        <span><i class="ri-arrow-up-s-fill me-1 text-success align-middle text-[1.125rem]"></i>8,570</span>
+                                                    </td>
+                                                    <td>
+                                                        <span>4,980</span>
+                                                    </td>
+                                                    <td>
+                                                        <div class="progress progress-xs">
+                                                            <div class="progress-bar bg-primary w-[71%]" >
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr  class="border border-defaultborder ">
+                                                    <td>
+                                                        <div class="flex items-center">
+                                                            <span class="avatar !rounded-full avatar-sm p-2 bg-primary me-2">
+                                                                <i class="ri-firefox-fill text-[1.125rem] text-white"></i>
+                                                            </span>
+                                                            <div class="font-semibold">Firefox</div>
+                                                        </div>
+
+                                                    </td>
+                                                    <td>
+                                                        <span><i class="ri-arrow-up-s-fill me-1 text-success align-middle text-[1.125rem]"></i>6,135</span>
+                                                    </td>
+                                                    <td>
+                                                        <span>4,436</span>
+                                                    </td>
+                                                    <td>
+                                                        <div class="progress progress-xs">
+                                                            <div class="progress-bar bg-primary w-[48%]" >
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr  class="border border-defaultborder ">
+                                                    <td>
+                                                        <div class="flex items-center">
+                                                            <span class="avatar !rounded-full avatar-sm p-2 bg-primary me-2">
+                                                                <i class="ri-ubuntu-fill text-[1.125rem] text-white"></i>
+                                                            </span>
+                                                            <div class="font-semibold">Ubuntu</div>
+                                                        </div>
+
+                                                    </td>
+                                                    <td>
+                                                        <span><i class="ri-arrow-up-s-fill me-1 text-success align-middle text-[1.125rem]"></i>4,789</span>
+                                                    </td>
+                                                    <td>
+                                                        <span>2,447</span>
+                                                    </td>
+                                                    <td>
+                                                        <div class="progress progress-xs">
+                                                            <div class="progress-bar bg-primary w-[28%]" >
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
                                 </div>
                             </div>
+                  
                        
                     </div>
                     <div class="xxl:col-span-12 xl:col-span-6  col-span-12">
