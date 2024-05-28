@@ -48721,13 +48721,14 @@ img.img-fluid.service-icon {
 }
 
 .banner-home-one h2 {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 57px;
-    color: #172624;
+    color: #0d1211;
 }
 .banner-home-one h3 {
     color: #12d3b2;
     font-size: 58px;
+    font-weight: 300;
 }
 .banner-home-one p {
     font-size:16px;
