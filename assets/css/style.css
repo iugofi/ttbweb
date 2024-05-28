@@ -49888,6 +49888,18 @@ h6.uppercase {
         min-width: 300px !important;
         padding: 8px;
     }
+    .icon-one img {
+        position: relative;
+        left: 15rem;
+        top: 84px;
+        width: 90px;
+    }
+    .icon-two img {
+        position: relative;
+        left: 15px;
+        bottom: 65px;
+    }
+    
 }
 
 /* start vpn-shild banner css */
