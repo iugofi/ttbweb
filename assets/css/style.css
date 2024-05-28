@@ -49813,7 +49813,12 @@ h6.uppercase {
     .slide-card .title {
         font-size: 20px !important;
     }    
-
+    .icon-one img {
+        /* position: relative; */
+        left: 15rem;
+        /* top: 75px;
+        width: 110px; */
+    }
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
