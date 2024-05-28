@@ -22,7 +22,7 @@
                      <h2>Protect Your <br> Data With Powerful</h2>
                      <h3>Cyber Security</h3>
                      <p class="mt-4 mb-5">Cyber attacks can cause on average $1.5 billion to a company, with our advanced AI system we can block the attack before it happens.</p>
-                    <div class="btn-box">
+                    <div class="bttn-box">
                      <a href="#" class="btn-home-now">Get Started Now </a>
                      <a href="#" class="btn-home-cnt ms-5">Contact Us</a>
                     </div>
