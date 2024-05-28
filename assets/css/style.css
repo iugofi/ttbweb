@@ -50488,8 +50488,9 @@ span.decor.px-2 {
 }
 .icon-one img {
     position: relative;
-    left: 23rem;
-    top: 116px;
+    left: 26rem;
+    top: 115px;
+    width: 110px;
 }
 .icon-two {
     animation: move-up-down 5s ease-in-out 4s infinite;
