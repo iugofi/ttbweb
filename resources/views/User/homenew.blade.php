@@ -40,6 +40,26 @@
             <div class="grid grid-cols-12 gap-6">
                 <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 col-span-12 text-center">
                      <h2>Trusted by millions of customers.</h2>
+                     
+                     <div class="photobanner__wrap">
+                        <div class="photobanner">
+                            <img src="https://picsum.photos/350/250" alt="" />
+                           <img src="https://picsum.photos/350/250" alt="" />
+                          <img src="https://picsum.photos/350/250" alt="" />
+                          <img src="https://picsum.photos/350/250" alt="" />
+                          <img src="https://picsum.photos/350/250" alt="" />
+                          <img src="https://picsum.photos/350/250" alt="" />
+                        </div>
+                        <div class="photobanner">
+                            <img src="https://picsum.photos/350/250" alt="" />
+                          <img src="https://picsum.photos/350/250" alt="" />
+                          <img src="https://picsum.photos/350/250" alt="" />
+                          <img src="https://picsum.photos/350/250" alt="" />
+                          <img src="https://picsum.photos/350/250" alt="" />
+                          <img src="https://picsum.photos/350/250" alt="" />
+                        </div>
+                      <div>
+
                     </div>
                 </div>
             </div>
@@ -59,4 +79,14 @@
 
 
 
+
+
+
+
+
+
+
 @endsection
+
+
+

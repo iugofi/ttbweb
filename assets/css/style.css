@@ -48714,6 +48714,43 @@ img.img-fluid.service-icon {
 /* end kunal */
 
 /* neeraj-home-page-css-22-04-2024 */
+
+
+.photobanner__wrap {
+    display: flex;
+    
+    &:hover {
+      .photobanner {
+        animation-play-state: paused;
+       }
+    }
+  }
+   
+  .photobanner {
+      display: flex;
+    animation-name: swiperAnimation;
+    animation-duration: 40s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  
+  .photobanner img {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    padding-right: 20px;
+  }
+  
+  @keyframes swiperAnimation{
+    0%{
+      transform:translateX(0)
+    }
+    100% {
+      transform:translateX(-100%)
+    }
+  }
+  
+   /*  */
 .section-home-two{
     padding: 20px 10px 20px 10px;
 }
