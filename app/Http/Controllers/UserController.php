@@ -176,6 +176,10 @@ class UserController extends Controller
     {
         return view('User.homenew');
     }
+    public function malware_detection()
+    {
+        return view('User.malware_detection');
+    }
     public function contactform(Request $request)
     {
 
