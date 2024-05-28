@@ -641,7 +641,14 @@
                                                     </td>
                                                     <td>
                                                         <div class="progress progress-xs">
-                                                            <div class="progress-bar bg-primary w-[34%]" >
+                                                            <?php
+                                                            $totalnewspars = DB::select("SELECT 
+                                                            (SUM(likes) * 100.0 / 100.0) AS percentage
+                                                        FROM 
+                                                            news");
+                                                            
+                                                        ?>
+                                                            <div class="progress-bar bg-primary w-[<?php echo $totalnewspars[0]->percentage;  ?>%]" >
                                                             </div>
                                                         </div>
                                                     </td>
@@ -665,13 +672,13 @@
                                                     <td>
                                                         <div class="progress progress-xs">
                                                         <?php
-                                                            $totalbloglike = DB::select("SELECT 
+                                                            $totalblogpars = DB::select("SELECT 
                                                             (SUM(likes) * 100.0 / 100.0) AS percentage
                                                         FROM 
-                                                            blog;");
+                                                            blog");
                                                             
                                                         ?>
-                                                            <div class="progress-bar bg-primary w-[<?php echo $totalbloglike[0]->percentage;  ?>%]" >
+                                                            <div class="progress-bar bg-primary w-[<?php echo $totalblogpars[0]->percentage;  ?>%]" >
                                                             </div>
                                                         </div>
                                                     </td>
