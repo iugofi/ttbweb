@@ -1,6 +1,6 @@
 @extends('User.Layouts.layout')
 
-@section('title', 'Test')
+@section('title', 'Behavioral Protection')
 @section('Description', '')
 @section('keywords', '')
 @section('canonical', '')
@@ -482,8 +482,14 @@
                         </div>
                     </div>
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 antivirus-image text-center">
+                        <div class="icon-one">
+                            <img src="{{ asset('assets/img/Iconn.png') }}" alt="" class="img-fluid">
+                        </div>
                         <div class="lg:text-start !flex items-center lg:justify-start justify-center">
                             <img src="{{ asset('assets/img/The-Leading-IT-Solutions-Company-&-Your-Partner-for-Innovations-img.png') }}" alt="" class="img-fluid">
+                        </div>
+                        <div class="icon-two">
+                            <img src="{{ asset('assets/img/Construction-Industry-Awared-of-in-2024-Icon.png') }}" alt="" class="img-fluid">
                         </div>
                     </div>
 

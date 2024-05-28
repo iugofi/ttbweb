@@ -50435,7 +50435,24 @@ span.decor.px-2 {
     position: relative;
     top: 45px;
 }
-
+.icon-one {
+    position: relative;
+    animation: move-up-down 5s ease-in-out 4s infinite;
+}
+.icon-one img {
+    position: relative;
+    left: 23rem;
+    top: 116px;
+}
+.icon-two {
+    animation: move-up-down 5s ease-in-out 4s infinite;
+    position: relative;
+}
+.icon-two img {
+    position: relative;
+    left: 45px;
+    bottom: 65px;
+}
 
 
 

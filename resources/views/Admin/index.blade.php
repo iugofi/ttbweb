@@ -634,11 +634,21 @@
                                                     </td>
                                                    
                                                     <td>
-                                                        <span>16,890</span>
+                                                        <span><?php
+                                                            $totalnewslike = DB::select("SELECT SUM(likes) AS totallike FROM news");
+                                                            echo $totalnewslike[0]->totallike; 
+                                                        ?></span>
                                                     </td>
                                                     <td>
                                                         <div class="progress progress-xs">
-                                                            <div class="progress-bar bg-primary w-[34%]" >
+                                                            <?php
+                                                            $totalnewspars = DB::select("SELECT 
+                                                            ROUND(SUM(likes) * 100.0 / 100, 0) AS percentage
+                                                        FROM 
+                                                            news");
+                                                            
+                                                        ?>
+                                                            <div class="progress-bar bg-primary w-[<?php echo $totalnewspars[0]->percentage;  ?>%]" >
                                                             </div>
                                                         </div>
                                                     </td>
@@ -654,11 +664,21 @@
                                                     </td>
                                                    
                                                     <td>
-                                                        <span>16,890</span>
+                                                        <span><?php
+                                                            $totalbloglike = DB::select("SELECT SUM(likes) AS totallike FROM blog");
+                                                            echo $totalbloglike[0]->totallike; 
+                                                        ?></span>
                                                     </td>
                                                     <td>
                                                         <div class="progress progress-xs">
-                                                            <div class="progress-bar bg-primary w-[34%]" >
+                                                        <?php
+                                                            $totalblogpars = DB::select("SELECT 
+                                                            ROUND(SUM(likes) * 100.0 / 100, 0) AS percentage
+                                                        FROM 
+                                                            blog");
+                                                            
+                                                        ?>
+                                                            <div class="progress-bar bg-primary w-[<?php echo $totalblogpars[0]->percentage;  ?>%]" >
                                                             </div>
                                                         </div>
                                                     </td>

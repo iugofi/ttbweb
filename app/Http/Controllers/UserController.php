@@ -172,6 +172,10 @@ class UserController extends Controller
     {
         return view('User.Behavioral_Protection');
     }
+    public function homenew()
+    {
+        return view('User.homenew');
+    }
     public function contactform(Request $request)
     {
 

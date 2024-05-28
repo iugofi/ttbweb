@@ -36,7 +36,8 @@ Route::post('/resetpassform', [UserController::class, 'resetpassform'])->name('u
 //testing
 Route::get('/test', [UserController::class, 'testpageview'])->name('testpageview');
 
-
+//home page new 
+Route::get('/homenew', [UserController::class, 'homenew'])->name('user.homenew');
 
 //blog page
 Route::get('/blog', [UserController::class, 'blogpage'])->name('user.blogpage');
