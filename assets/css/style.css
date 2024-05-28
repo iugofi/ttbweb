@@ -50571,7 +50571,11 @@ span.decor.px-2 {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.my-section {
+    position: relative;
+    bottom: 38px;
+    height: 70%;
+}
 
 
 
