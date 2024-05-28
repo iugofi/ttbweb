@@ -49925,8 +49925,8 @@ h6.uppercase {
     }
     .icon-one img {
         position: relative;
-        left: 18rem;
-        top: 58px;
+        left: 18rem !important;
+        top: 58px Im !important;
         width: 90px;
     }
     .icon-two img {
