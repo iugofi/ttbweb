@@ -12,7 +12,7 @@
 @section('content')
 
 
-<div class="content">
+<div class="content" style="background-color:#F3F2EA;">
     <div class="main-content">
 
     <section class="banner-home-one">
