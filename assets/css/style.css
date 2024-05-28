@@ -49815,8 +49815,8 @@ h6.uppercase {
         font-size: 20px !important;
     }    
     .icon-one img {
-        /* position: relative; */
-        left: 15rem;
+        position: relative !important;
+        left: 15rem !important;
         /* top: 75px;
         width: 110px; */
     }
