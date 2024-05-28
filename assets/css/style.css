@@ -18009,12 +18009,6 @@ label {
         width: 100% !important;
         border-radius: 0.5rem !important;
     }
-    .icon-one img {
-        position: relative;
-        left: 12rem !important;
-        top: 58px !important;
-        width: 90px;
-    }
 }
 
 .star-rating {
