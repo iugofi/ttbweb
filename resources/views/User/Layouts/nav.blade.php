@@ -23,6 +23,9 @@
                             <span class="side-menu__label">Home</span>
                         </a>
                     </li>
+                    <li class="slide">
+                        <a href="{{route('User.homenew')}}" class="side-menu__item">homenew</a>
+                    </li>
                     <!-- End::slide -->
                     <!-- Start::slide -->
                     <li class="slide has-sub">
