@@ -653,11 +653,6 @@ h6 {
     .container {
         max-width: 480px;
     }
-    .icon-one img {
-        position: relative;
-        left: 12rem !important;
-        top: 58px !important;
-    }
 }
 
 @media (min-width: 768px) {
@@ -18013,6 +18008,12 @@ label {
     .companies-search-input .ti-btn {
         width: 100% !important;
         border-radius: 0.5rem !important;
+    }
+    .icon-one img {
+        position: relative;
+        left: 12rem !important;
+        top: 58px !important;
+        width: 90px;
     }
 }
 
