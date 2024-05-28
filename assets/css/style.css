@@ -50565,12 +50565,14 @@ span.decor.px-2 {
 /* Start:: Malware Detection page css */
 
 .Malware-banner {
-    background-image: url("/assets/img/Behavioral_Protection-Banner.png");
+    background-image: url("/assets/img/Banner-img.jpg");
     height: 41rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
 
 
 
