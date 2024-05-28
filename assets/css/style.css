@@ -20012,7 +20012,7 @@ label {
     [data-nav-layout="horizontal"] .content .main-content {
         margin-left: auto;
         margin-right: auto;
-        width: 94%;
+        width: 100%;
     }
 
     [data-nav-layout="horizontal"] .app-sidebar .main-sidebar,
