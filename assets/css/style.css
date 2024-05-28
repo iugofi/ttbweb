@@ -48722,6 +48722,13 @@ img.img-fluid.service-icon {
     border-radius: 25px;
 }
 
+.banner-home-one .btn-home-cnt{
+    background-color: #fff;
+    color: #12d2b3;
+    padding: 10px 33px;
+    border-radius: 25px;
+}
+
 .banner-home-one {
     padding: 100px;
 }
