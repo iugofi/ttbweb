@@ -32,48 +32,39 @@
                 </div>
             </div>
         </div>
-    </section>
-  
-    
-    <section class="section-home-two">
-            <div class="grid grid-cols-12 gap-6">
-                <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 col-span-12 text-center">
-
-                     <div class="container-slide">
-                        <h2>Trusted by millions of customers.</h2>
-                        <div class="photobanner__wrap">
-                            <div class="photobanner">
-                                <img src="{{ asset('assets/img/brand.png') }}" alt="" class="img-fluid">
-                                <img src="{{ asset('assets/img/brand.png') }}" alt="" class="img-fluid">
-                                <img src="{{ asset('assets/img/brand.png') }}" alt="" class="img-fluid">
-                                <img src="{{ asset('assets/img/brand.png') }}" alt="" class="img-fluid">
-                                <img src="{{ asset('assets/img/brand.png') }}" alt="" class="img-fluid">
-                                <img src="{{ asset('assets/img/brand.png') }}" alt="" class="img-fluid">
-                            </div>
-                            <div class="photobanner">
-                                <img src="{{ asset('assets/img/brand.png') }}" alt="" class="img-fluid">
-                                <img src="{{ asset('assets/img/brand.png') }}" alt="" class="img-fluid">
-                                <img src="{{ asset('assets/img/brand.png') }}" alt="" class="img-fluid">
-                                <img src="{{ asset('assets/img/brand.png') }}" alt="" class="img-fluid">
-                                <img src="{{ asset('assets/img/brand.png') }}" alt="" class="img-fluid">
-                                <img src="{{ asset('assets/img/brand.png') }}" alt="" class="img-fluid">
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-        </div>
-    </section>
-
-
-
-
-
-
-        
+    </section>    
     </div>
 </div>
 
+<section class="section-home-two">
+    <div class="grid grid-cols-12 gap-6">
+        <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 col-span-12 text-center">
+
+             <div class="container-slide pt-5 pt-5 mt-5 mb-5">
+                <h2 class="pt-5 pb-5">Trusted by millions of customers.</h2>
+                <div class="photobanner__wrap pt-5 pb-5 mt-5 mb-5">
+                    <div class="photobanner">
+                        <img src="{{ asset('assets/img/brand.png') }}" alt="" class="img-fluid">
+                        <img src="{{ asset('assets/img/brand.png') }}" alt="" class="img-fluid">
+                        <img src="{{ asset('assets/img/brand.png') }}" alt="" class="img-fluid">
+                        <img src="{{ asset('assets/img/brand.png') }}" alt="" class="img-fluid">
+                        <img src="{{ asset('assets/img/brand.png') }}" alt="" class="img-fluid">
+                        <img src="{{ asset('assets/img/brand.png') }}" alt="" class="img-fluid">
+                    </div>
+                    <div class="photobanner">
+                        <img src="{{ asset('assets/img/brand.png') }}" alt="" class="img-fluid">
+                        <img src="{{ asset('assets/img/brand.png') }}" alt="" class="img-fluid">
+                        <img src="{{ asset('assets/img/brand.png') }}" alt="" class="img-fluid">
+                        <img src="{{ asset('assets/img/brand.png') }}" alt="" class="img-fluid">
+                        <img src="{{ asset('assets/img/brand.png') }}" alt="" class="img-fluid">
+                        <img src="{{ asset('assets/img/brand.png') }}" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+</div>
+</section>
          
 
 
