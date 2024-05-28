@@ -39,6 +39,11 @@ Route::get('/test', [UserController::class, 'testpageview'])->name('testpageview
 //home page new 
 Route::get('/homenew', [UserController::class, 'homenew'])->name('user.homenew');
 
+//malware detection page
+Route::get('/malware_detection', [UserController::class, 'malware_detection'])->name('user.malware_detection');
+
+
+
 //blog page
 Route::get('/blog', [UserController::class, 'blogpage'])->name('user.blogpage');
 Route::get('/blog/{id}', [UserController::class, 'blogDetails'])->name('blog.details');
