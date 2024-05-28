@@ -43,20 +43,20 @@
                      
                      <div class="photobanner__wrap">
                         <div class="photobanner">
-                            <img src="https://picsum.photos/350/250" alt="" />
-                           <img src="https://picsum.photos/350/250" alt="" />
-                          <img src="https://picsum.photos/350/250" alt="" />
-                          <img src="https://picsum.photos/350/250" alt="" />
-                          <img src="https://picsum.photos/350/250" alt="" />
-                          <img src="https://picsum.photos/350/250" alt="" />
+                            <img src="{{ asset('assets/home-two-img/brand_3_1.svg') }}" alt="" class="img-fluid" width="100%">
+                            <img src="{{ asset('assets/home-two-img/brand_3_1.svg') }}" alt="" class="img-fluid" width="100%">
+                            <img src="{{ asset('assets/home-two-img/brand_3_1.svg') }}" alt="" class="img-fluid" width="100%">
+                            <img src="{{ asset('assets/home-two-img/brand_3_1.svg') }}" alt="" class="img-fluid" width="100%">
+                            <img src="{{ asset('assets/home-two-img/brand_3_1.svg') }}" alt="" class="img-fluid" width="100%">
+                            <img src="{{ asset('assets/home-two-img/brand_3_1.svg') }}" alt="" class="img-fluid" width="100%">
                         </div>
                         <div class="photobanner">
-                            <img src="https://picsum.photos/350/250" alt="" />
-                          <img src="https://picsum.photos/350/250" alt="" />
-                          <img src="https://picsum.photos/350/250" alt="" />
-                          <img src="https://picsum.photos/350/250" alt="" />
-                          <img src="https://picsum.photos/350/250" alt="" />
-                          <img src="https://picsum.photos/350/250" alt="" />
+                            <img src="{{ asset('assets/home-two-img/brand_3_1.svg') }}" alt="" class="img-fluid" width="100%">
+                            <img src="{{ asset('assets/home-two-img/brand_3_1.svg') }}" alt="" class="img-fluid" width="100%">
+                            <img src="{{ asset('assets/home-two-img/brand_3_1.svg') }}" alt="" class="img-fluid" width="100%">
+                            <img src="{{ asset('assets/home-two-img/brand_3_1.svg') }}" alt="" class="img-fluid" width="100%">
+                            <img src="{{ asset('assets/home-two-img/brand_3_1.svg') }}" alt="" class="img-fluid" width="100%">
+                            <img src="{{ asset('assets/home-two-img/brand_3_1.svg') }}" alt="" class="img-fluid" width="100%">
                         </div>
                       <div>
 
