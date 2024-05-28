@@ -643,7 +643,7 @@
                                                         <div class="progress progress-xs">
                                                             <?php
                                                             $totalnewspars = DB::select("SELECT 
-                                                            (SUM(likes) * 100.0 / 100.0) AS percentage
+                                                            ROUND(SUM(likes) * 100.0 / 100, 0) AS percentage
                                                         FROM 
                                                             news");
                                                             
@@ -673,7 +673,7 @@
                                                         <div class="progress progress-xs">
                                                         <?php
                                                             $totalblogpars = DB::select("SELECT 
-                                                            (SUM(likes) * 100.0 / 100.0) AS percentage
+                                                            ROUND(SUM(likes) * 100.0 / 100, 0) AS percentage
                                                         FROM 
                                                             blog");
                                                             
