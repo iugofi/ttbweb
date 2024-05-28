@@ -50518,11 +50518,21 @@ span.decor.px-2 {
     bottom: 65px;
 }
 
-
-
-
- 
 /* End::marker Behavioral-Protection page css */
+
+/* Start:: Malware Detection page css */
+
+.Malware-banner {
+    background-image: url("/assets/img/Behavioral_Protection-Banner.png");
+    height: 41rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/* End:: Malware Detection page css */
 
 /* kunal-verma 23-04-2024 */
 
