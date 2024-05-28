@@ -48714,6 +48714,14 @@ img.img-fluid.service-icon {
 /* end kunal */
 
 /* neeraj-home-page-css-22-04-2024 */
+.section-home-two{
+    padding: 20px 10px 20px 10px;
+}
+
+.section-home-two h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
 
 .banner-home-one .bttn-box{
     padding: 40px 0px;
@@ -48735,7 +48743,7 @@ img.img-fluid.service-icon {
 }
 
 .banner-home-one {
-    padding: 100px;
+    padding: 100px 25px 25px 25px;
 }
 
 .banner-home-one h2 {
