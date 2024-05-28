@@ -664,7 +664,14 @@
                                                     </td>
                                                     <td>
                                                         <div class="progress progress-xs">
-                                                            <div class="progress-bar bg-primary w-[34%]" >
+                                                        <?php
+                                                            $totalbloglike = DB::select("SELECT 
+                                                            (SUM(likes) * 100.0 / 100.0) AS percentage
+                                                        FROM 
+                                                            blog;");
+                                                            
+                                                        ?>
+                                                            <div class="progress-bar bg-primary w-[<?php echo $totalbloglike[0]->percentage;  ?>%]" >
                                                             </div>
                                                         </div>
                                                     </td>
