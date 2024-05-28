@@ -48731,6 +48731,7 @@ img.img-fluid.service-icon {
     color: #12d2b3;
     padding: 10px 33px;
     border-radius: 25px;
+    border:1px solid #12d2b3;
 }
 
 .banner-home-one {
