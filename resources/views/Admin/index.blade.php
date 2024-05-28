@@ -634,7 +634,10 @@
                                                     </td>
                                                    
                                                     <td>
-                                                        <span>16,890</span>
+                                                        <span><?php
+                                                            $totalnewslike = DB::select("SELECT SUM(likes) AS totallike FROM news");
+                                                            echo $totalnewslike[0]->totallike; 
+                                                        ?></span>
                                                     </td>
                                                     <td>
                                                         <div class="progress progress-xs">
@@ -654,7 +657,10 @@
                                                     </td>
                                                    
                                                     <td>
-                                                        <span>16,890</span>
+                                                        <span><?php
+                                                            $totalbloglike = DB::select("SELECT SUM(likes) AS totallike FROM blog");
+                                                            echo $totalbloglike[0]->totallike; 
+                                                        ?></span>
                                                     </td>
                                                     <td>
                                                         <div class="progress progress-xs">
