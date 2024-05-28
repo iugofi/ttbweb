@@ -70,7 +70,7 @@
                                 <div class="mb-2 Behavioral-img1">
                                     <span class="avatar avatar-md pt-5">
 
-                                        <img src="{{ asset('assets/img/Renovation-Building.png') }}" alt="img"
+                                        <img src="{{ asset('assets/img/Renovation-Building-colored.png') }}" alt="img"
                                             class="!rounded-md" style="max-width: 75px;height: 75px;">
                                     </span>
                                 </div>
@@ -86,7 +86,7 @@
                             <div class="box-body">
                                 <div class="mb-2 Behavioral-img2">
                                     <span class="avatar avatar-md pt-5">
-                                        <img src="{{ asset('assets/img/Power-And-Energy-2.png') }}" alt="img"
+                                        <img src="{{ asset('assets/img/Power-And-Energy-Colored.png') }}" alt="img"
                                             class="!rounded-md" style="max-width: 75px;height: 75px;">
                                     </span>
                                 </div>
@@ -101,7 +101,7 @@
                             <div class="box-body">
                                 <div class="mb-2 Behavioral-img3">
                                     <span class="avatar avatar-md pt-5">
-                                        <img src="{{ asset('assets/img/Dedicated-Teams.png') }}" alt="img"
+                                        <img src="{{ asset('assets/img/Dedicated-Teams-colored.png') }}" alt="img"
                                             class="!rounded-md" style="max-width: 75px;height: 75px;">
 
                                     </span>
@@ -117,7 +117,7 @@
                             <div class="box-body">
                                 <div class="mb-2 Behavioral-img4 pt-3">
                                     <span class="avatar avatar-md">
-                                        <img src="{{ asset('assets/img/Oil-&-Gas-Energy.png') }}" alt="img"
+                                        <img src="{{ asset('assets/img/Oil-&-Gas-Energy-colored.png') }}" alt="img"
                                             class="!rounded-md" style="max-width: 75px;height: 75px;">
 
                                     </span>
