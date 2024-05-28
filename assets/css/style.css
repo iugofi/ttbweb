@@ -50576,7 +50576,10 @@ span.decor.px-2 {
     bottom: 38px;
     height: 70%;
 }
+.text-justify{
+    text-align: justify;
 
+}
 
 
 
