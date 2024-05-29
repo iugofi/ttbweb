@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Chanchal</title>
+    <title>kullu</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
 
@@ -455,13 +455,17 @@
 <body>
 
 
+    <p id="demo"></p>
 
-   <script>
-        for(let i=0;i<100;i++){
-            text1=i," kulvinder ke chut me lavda";
-        }
-        console.log(text1);
-   </script>
+    <script>
+    let text = "";
+    
+    for (let i = 0; i < 5; i++) {
+      text += + i +"Kulvinder ki chut me lavda "  + "<br>";
+    }
+    
+    document.getElementById("demo").innerHTML = text;
+    </script>
 </body>
 
 </html>
