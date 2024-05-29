@@ -94,8 +94,8 @@ Route::get('/commercial', [UserController::class, 'commercial_page'])->name('use
 Route::get('/network-protection', [UserController::class, 'network_protection'])->name('user.networkprotection');
 
 
-
-
+// test
+Route::get('/test', [UserController::class, 'testing'])->name('testing');
 
 
 

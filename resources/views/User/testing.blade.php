@@ -1,3 +1,16 @@
+
+
+@extends('User.Layouts.layout')
+
+@section('title', 'Test')
+@section('Description', '')
+@section('keywords', '')
+@section('canonical', '')
+
+
+
+@section('content')
+
 <button id="clickBtn">Click Me To See PopUp</button>
     <div id="popup">
         <div class="popup-container">
@@ -116,3 +129,4 @@ popup.addEventListener('click', ()=>{
 </script>
 
 
+@endsection

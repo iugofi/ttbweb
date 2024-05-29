@@ -180,6 +180,12 @@ class UserController extends Controller
     {
         return view('User.malware_detection');
     }
+
+    public function testing()
+    {
+        return view('User.testing');
+    }
+    
     public function contactform(Request $request)
     {
 
