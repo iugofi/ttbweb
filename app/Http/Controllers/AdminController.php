@@ -1281,6 +1281,15 @@ public function newslistshow(){
                             return redirect('/setup');
                         }
                     }
+
+                    public function keyadd(){
+                        if ($this->loggedInAdmin && $this->admintype == 'superadmin') {
+                
+                        return view('Admin.keyadd');
+                        } else {
+                            return redirect('/setup');
+                        }
+                    }
                 
 
 
