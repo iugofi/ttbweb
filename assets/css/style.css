@@ -48721,13 +48721,18 @@ img.img-fluid.service-icon {
     padding: 100px 0px;
 }
 
+.section-home-three h3 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
 .section-home-three p{
     font-size:16px;
 }
 
 .section-home-three .border-box{
-    border-left: 2px solid #F3F2EA;
-    border-right: 2px solid #F3F2EA;
+    border-left: 3px solid #F3F2EA;
+    border-right: 3px solid #F3F2EA;
 
 }
 
