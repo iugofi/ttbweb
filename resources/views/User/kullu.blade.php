@@ -466,24 +466,23 @@
         margin: auto;
     ">Danger</button>
 
-    <script>
-        document.addEventListener('DOMContentLoaded',()=>{
-            const buttonkul=document.getElementById('kullubtn');
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const buttonkul = document.getElementById('kullubtn');
 
-            buttonkul.addEventListener('click',()=>{
-                let text = "";
-               
-                let i=0;
-                while(i<=0)
-                {
-                    text += + i +" Kulvinder ki chut me lavda "  + "<br>";
-                }
-                
-                document.getElementById("demo").innerHTML = text;
-            });
+        buttonkul.addEventListener('click', () => {
+            let text = "";
+            let i = 0;
+            while (i <= 0) {
+                text += i + " Kulvinder ki chut me lavda " + "<br>";
+                i++;
+            }
+            
+            document.getElementById("demo").innerHTML = text;
         });
-   
-    </script>
+    });
+</script>
+
 </body>
 
 </html>
