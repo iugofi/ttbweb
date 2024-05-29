@@ -458,13 +458,13 @@
 
     <p id="demo"></p>
 
-    <button id="kullubtn" style="element.style {
+    <button id="kullubtn" style="
         text-align: center;
         padding: 20px 20px 20px 20px;
         background-color: #fff;
         display: block;
         margin: auto;
-    }">Danger</button>
+    ">Danger</button>
 
     <script>
         document.addEventListener('DOMContentLoaded',()=>{
