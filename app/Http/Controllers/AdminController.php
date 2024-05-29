@@ -1276,7 +1276,7 @@ public function newslistshow(){
                             ->get();
                             $keydata=Storepick::where('STORE_ID','key_type')->get();
                             $plandata=Planname::all();
-                            return view('Admin.keyshowlist', ['keylist' => $keylist],['keydata' =>$keydata],['plandata' =>$plandata]);
+                            return view('Admin.keyshowlist', ['keylist' => $keylist,'keydata' =>$keydata,'plandata' =>$plandata]);
                         } else {
                             return redirect('/setup');
                         }
