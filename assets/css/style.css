@@ -48721,6 +48721,10 @@ img.img-fluid.service-icon {
     padding: 100px 0px;
 }
 
+.section-home-three p{
+    font-size:16px;
+}
+
 .section-home-three .border-box{
     border-left: 2px solid #F3F2EA;
     border-right: 2px solid #F3F2EA;
