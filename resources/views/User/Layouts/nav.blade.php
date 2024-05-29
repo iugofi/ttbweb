@@ -102,6 +102,9 @@
                                     <li class="slide">
                                         <a href="{{route('user.Phishing')}}" class="side-menu__item">Real Time Anti-phishing</a>
                                     </li>
+                                    <li class="slide">
+                                        <a href="{{route('user.testing')}}" class="side-menu__item">testing</a>
+                                    </li>
                                     
                                     
                                 </ul>
