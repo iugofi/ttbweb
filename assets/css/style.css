@@ -48714,6 +48714,7 @@ img.img-fluid.service-icon {
 /* end kunal */
 
 /* neeraj-home-page-css-22-04-2024 */
+
 .container-slide {
     width: auto;
     overflow: hidden;
@@ -48740,11 +48741,18 @@ img.img-fluid.service-icon {
     animation-iteration-count: infinite;
 }
 
-.photobanner img {
+/* .photobanner img {
     width: 336px;
     height: 65px;
     object-fit: cover;
     padding-right: 20px;
+} */
+
+.photobanner img {
+    width: 141px;
+    height: 14px;
+    object-fit: cover;
+    padding-right: 12px;
 }
 
 @keyframes swiperAnimation {
