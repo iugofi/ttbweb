@@ -237,6 +237,9 @@ Route::post('/saveplandetails', [AdminController::class, 'saveplandetails'])->na
 Route::get('/editplandetails/{id}', [AdminController::class, 'editplandetails'])->name('edit.plandetailsedit');
 Route::post('/editplandetailssave', [AdminController::class, 'editplandetailssave'])->name('edit.editplandetailssave');
 Route::post('/editplansearch', [AdminController::class, 'editplansearch'])->name('search.editplansearch');
+Route::delete('/plandetailsdelete/{id}', [AdminController::class, 'plandetailsdelete'])->name('delete.plandetailsdelete');
+
+
 
 //
 Route::get('/customersshow', [AdminController::class, 'customershow'])->name('customer.show');

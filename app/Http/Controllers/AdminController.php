@@ -9,7 +9,8 @@ use Illuminate\Support\Facades\Validator;
 use App\Models\Admin; 
 use App\Models\News; 
 use App\Models\Blog; 
-use App\Models\Storepick; 
+use App\Models\Storepick;
+use App\Models\TTBKEY; 
 use App\Models\Users; 
 use App\Models\Planname; 
 use App\Models\Plandetails; 
@@ -1257,6 +1258,27 @@ public function newslistshow(){
                     }
 
                 }
+
+                public function plandetailsdelete($id)
+                    {
+                        if ($this->loggedInAdmin) {
+                            $item = Plandetails::findOrFail($id);
+                            $item->delete();
+                            return response()->json(['message' => 'Plan Details deleted successfully']);
+                        } else {
+                            return redirect('/setup'); 
+                        }
+                    }
+
+                    public function keyshow(){
+                        if ($this->loggedInAdmin) {
+                            $keylist = TTBKEY::JOIN('product_details', 'product_details.ID', '=', 'ttbkey.product_id')
+                            ->get();
+                            return view('Admin.keyshowlist', ['keylist' => $keylist]);
+                        } else {
+                            return redirect('/setup');
+                        }
+                    }
                 
 
 
