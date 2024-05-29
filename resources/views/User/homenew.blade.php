@@ -88,7 +88,7 @@
                                 </div>
                                 <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 md:col-span-12 col-span-12">
                                     <h3>Block to all hackers </h3>
-                                    <p>Cybersecurity refers to the practice of protecting computer systems, networks,
+                                    <p class="mt-2">Cybersecurity refers to the practice of protecting computer systems, networks,
                                         devices</p>
                                 </div>
                             </div>
@@ -101,7 +101,7 @@
                                 </div>
                                 <div class="xxl:col-span-8 xl:col-span-8 lg:col-span-8 md:col-span-12 col-span-12">
                                     <h3>Block to all hackers </h3>
-                                    <p>Cybersecurity refers to the practice of protecting computer systems, networks,
+                                    <p class="mt-2">Cybersecurity refers to the practice of protecting computer systems, networks,
                                         devices</p>
                                 </div>
                             </div>
@@ -114,7 +114,7 @@
                                 </div>
                                 <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 md:col-span-12 col-span-12">
                                     <h3>Block to all hackers </h3>
-                                    <p>Cybersecurity refers to the practice of protecting computer systems, networks,
+                                    <p class="mt-2">Cybersecurity refers to the practice of protecting computer systems, networks,
                                         devices</p>
                                 </div>
                             </div>
