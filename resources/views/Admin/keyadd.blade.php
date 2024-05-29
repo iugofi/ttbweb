@@ -62,18 +62,16 @@
 
 
                                     <div class="xl:col-span-6 col-span-6">
-                                        <label for="blog-title" class="form-label required">Key Type</label>
+                                        <label for="blog-title" class="form-label required">Product Details</label>
                                         <select class="form-control block w-full text-[0.875rem] !rounded-md" data-trigger
                                             name="planname" id="planname">
                                             <option value="">Select</option>
                                             @php
-                                                $status = DB::table('storepick')
-                                                    ->where('STORE_ID', 'key_type')
-                                                    ->orderBy('STORE_INDEX_SEQUENCE', 'asc')
+                                                $product_details = DB::table('product_details')
                                                     ->get();
                                             @endphp
-                                            @foreach ($status as $statuss)
-                                                <option value="{{ $statuss->PICK_ID }}">{{ $statuss->PICK_TEXT }}</option>
+                                            @foreach ($product_details as $product_detailss)
+                                                <option value="{{ $product_detailss->id }}">{{ $product_detailss->key_type }}-{{ $product_detailss->plan_id }}</option>
                                             @endforeach
 
                                         </select>
