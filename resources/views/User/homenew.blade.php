@@ -126,7 +126,28 @@
                 </div>
             </section>
 
-
+            <section class="section-home-three">
+                <div class="container">
+                    <div class="grid grid-cols-12 gap-6 bg-white-one">
+                        <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
+                            <img src="{{ asset('assets/home-two-img/11111111.svg') }}" alt="" class="img-fluid"
+                                width="20%">
+                        </div>
+                        <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12 border-box">
+                            <span>ABOUT US</span>
+                            <h2>Identifying And Responding To Emerging Risks</h2>
+                            <p>Cybersecurity refers to the practice of protecting computer systems, networks, devices, and
+                                data from unauthorized access, cyberattacks, theft, or damage. It encompasses a range of
+                                technologies, processes. and practices designed to safeguard digital assets and ensure </p>
+                                <i class="fa-solid fa-shield-halved"></i><span>High Quality Service</span>
+                                <i class="fa-solid fa-shield-halved"></i><span>Website Security Services</span>
+                                <i class="fa-solid fa-shield-halved"></i><span>Effective Protection</span>
+                                <i class="fa-solid fa-shield-halved"></i><span>Security Management</span>
+                                <i class="fa-solid fa-shield-halved"></i><span>Database Security</span>                        
+                        </div>
+                    </div>
+                </div>
+            </section>
 
 
 
