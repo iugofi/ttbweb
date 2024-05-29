@@ -77,7 +77,7 @@
                     </div>
             </section>
 
-            <section class="section-home2-four">
+            <section class="section-home2-three">
                 <div class="container">
                     <div class="grid grid-cols-12 gap-6 bg-white-one">
                         <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-12 col-span-12">
