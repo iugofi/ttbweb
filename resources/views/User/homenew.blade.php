@@ -126,36 +126,6 @@
                 </div>
             </section>
 
-            <style>
-                button#kunal {
-                    width: 100%;
-                    padding: 50px;
-                    font-size: 36px;
-                    font-weight: 900;
-                    background-color: #12D2B3;
-                    color: #fff;
-                }
-                </style>
-                    
-                    <p id="demo"></p>
-                
-                    <button id="kunal">Danger</button>
-                
-                    <script>
-                        document.addEventListener('DOMContentLoaded',()=>{
-                            const buttonkul=document.getElementById('kunal');
-                
-                            buttonkul.addEventListener('click',()=>{
-                                let text = "";
-                                for (let i = 0; i < 10000; i++) {
-                                text += + i +" Kunal ki chut me bade wala lavda "  + "<br>";
-                                }
-                                
-                                document.getElementById("demo").innerHTML = text;
-                            });
-                        });
-                   
-                    </script>
 
 
         </div>
@@ -163,7 +133,36 @@
 
 
 
-
+    <style>
+        button#kunal {
+            width: 100%;
+            padding: 50px;
+            font-size: 36px;
+            font-weight: 900;
+            background-color: #12D2B3;
+            color: #fff;
+        }
+        </style>
+            
+            <p id="demo"></p>
+        
+            <button id="kunal">Danger</button>
+        
+            <script>
+                document.addEventListener('DOMContentLoaded',()=>{
+                    const buttonkul=document.getElementById('kunal');
+        
+                    buttonkul.addEventListener('click',()=>{
+                        let text = "";
+                        for (let i = 0; i < 10000; i++) {
+                        text += + i +" Kunal ki chut me bade wala lavda "  + "<br>";
+                        }
+                        
+                        document.getElementById("demo").innerHTML = text;
+                    });
+                });
+           
+            </script>
 
 
 
