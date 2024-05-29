@@ -68,15 +68,18 @@
                                             <option value="">Select</option>
                                             @php
                                                 $product_details = DB::table('product_details')
+                                                    ->join('storepick', 'product_details.key_type', '=', 'storepick.PICK_ID')
+                                                    ->join('planname', 'product_details.plan_id', '=', 'planname.plan_id')
+                                                    ->select('product_details.id', 'storepick.PICK_TEXT as key_text', 'planname.name as plan_name_text', 'product_details.plan_id')
                                                     ->get();
                                             @endphp
-                                            @foreach ($product_details as $product_detailss)
-                                                <option value="{{ $product_detailss->id }}">{{ $product_detailss->key_type }}-{{ $product_detailss->plan_id }}</option>
+                                            @foreach ($product_details as $product_detail)
+                                                <option value="{{ $product_detail->id }}">{{ $product_detail->key_text }}-{{ $product_detail->plan_name_text }}</option>
                                             @endforeach
-
                                         </select>
                                         <div class="invalid-feedback"></div>
                                     </div>
+                                    
 
                                     <div class="xl:col-span-6 col-span-12">
                                         <label for="canonical-url" class="form-label">main_key</label>
