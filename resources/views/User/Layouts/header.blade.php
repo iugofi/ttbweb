@@ -60,7 +60,24 @@
 
 
 
-
+    <style>
+        #image-holder {
+          width: 500px;
+          height: auto;
+          position: absolute;
+          left: 300px;
+          top: 200px; 
+          display: none;
+        }
+    </style>
+        <script>
+        JavaScript:
+        function showMyImage() {
+          var img = document.getElementById('image-holder');
+          img.src = "http://www.your-site.com/images/picture.jpg";
+          img.style.display = 'block';
+        }
+</script>
 
 </head>
 
