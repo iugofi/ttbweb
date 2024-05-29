@@ -146,8 +146,8 @@
                                 <i class="fa-solid fa-shield-halved"></i><span class="ms-2">Security Management</span><br>
                                 <i class="fa-solid fa-shield-halved"></i><span class="ms-2">Database Security</span><br>
                             </div>
-                            
-                            <a href="#">Discover More</a>
+
+                            <a href="#" class="mt-5">Discover More</a>
                         </div>
                     </div>
                 </div>
