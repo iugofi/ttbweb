@@ -34,7 +34,7 @@
             </section>
 
 
-            <section class="section-home-two">
+            <section class="section-home2-two">
                 <div class="container">
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 col-span-12 text-center">
@@ -77,7 +77,7 @@
                     </div>
             </section>
 
-            <section class="section-home2-three">
+            <section class="section-home2-four">
                 <div class="container">
                     <div class="grid grid-cols-12 gap-6 bg-white-one">
                         <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-12 col-span-12">
