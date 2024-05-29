@@ -136,7 +136,14 @@
 
 
 <body>
-
+<style>
+    button#kunal {
+    width: 100%;
+    padding: 50px;
+    font-size: 36px;
+    font-weight: 900;
+}
+</style>
     
     <p id="demo"></p>
 
