@@ -50625,6 +50625,12 @@ span.decor.px-2 {
 .text-justify{
     text-align: justify;
 }
+.dark .my-section {
+    background-color: #1A1C1E !important;
+}
+.dark .my-section .box-body {
+    background-color: #1A1C1E;
+}
  
 
 
