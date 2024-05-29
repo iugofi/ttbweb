@@ -141,11 +141,11 @@
                                 data from unauthorized access, cyberattacks, theft, or damage. It encompasses a range of
                                 technologies, processes. and practices designed to safeguard digital assets and ensure </p>
                             <ul class="icn-list">
-                                <li><i class="fa-solid fa-shield-halved "></i>High Quality Service</li>
-                                <li><i class="fa-solid fa-shield-halved"></i>Website Security Services</li>
-                                <li><i class="fa-solid fa-shield-halved"></i>Effective Protection</li>
-                                <li><i class="fa-solid fa-shield-halved"></i>Security Management</li>
-                                <li><i class="fa-solid fa-shield-halved"></i>Database Security</li>
+                                <li><i class="far fa-edit"></i>High Quality Service</li>
+                                <li><i class="far fa-edit"></i>Website Security Services</li>
+                                <li><i class="far fa-edit"></i>Effective Protection</li>
+                                <li><i class="far fa-edit"></i>Security Management</li>
+                                <li><i class="far fa-edit"></i>Database Security</li>
                             </ul>
 
                             <a href="#" class="mt-5">Discover More</a>
