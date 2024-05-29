@@ -10,7 +10,7 @@ use App\Models\Admin;
 use App\Models\News; 
 use App\Models\Blog; 
 use App\Models\Storepick;
-use App\Models\Ttbkey; 
+use App\Models\TTBKEY; 
 use App\Models\Users; 
 use App\Models\Planname; 
 use App\Models\Plandetails; 
@@ -1272,7 +1272,7 @@ public function newslistshow(){
 
                     public function keyshow(){
                         if ($this->loggedInAdmin) {
-                            $keylist = Ttbkey::JOIN('product_details', 'product_details.ID', '=', 'ttbkey.product_id')
+                            $keylist = TTBKEY::JOIN('product_details', 'product_details.ID', '=', 'ttbkey.product_id')
                             ->get();
                             $keydata=Storepick::where('STORE_ID','key_type')->get();
                             $plandata=Planname::all();
@@ -1310,7 +1310,7 @@ public function newslistshow(){
                             else
                             {
     
-                                    $ttbkey = new Ttbkey();
+                                    $ttbkey = new TTBKEY();
                                     $ttbkey->main_key = $request->main_key;
                                     $ttbkey->product_id = $request->product_id;
                                     $ttbkey->is_key_used = $request->is_key_used;
@@ -1336,9 +1336,9 @@ public function newslistshow(){
                         public function keydelete($id)
                     {
                         if ($this->loggedInAdmin) {
-                            $item = Ttbkey::findOrFail($id);
+                            $item = TTBKEY::findOrFail($id);
                             $item->delete();
-                            return response()->json(['message' => 'Key deleted successfully']);
+                            return response()->json(['message' => 'Plan Details deleted successfully']);
                         } else {
                             return redirect('/setup'); 
                         }
