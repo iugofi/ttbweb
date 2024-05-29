@@ -37,7 +37,7 @@ Route::post('/resetpassform', [UserController::class, 'resetpassform'])->name('u
 Route::get('/test', [UserController::class, 'testpageview'])->name('testpageview');
 
 //home page new 
-Route::get('/homenew', [UserController::class, 'homenews'])->name('user.homenew');
+Route::get('/homenew', [UserController::class, 'homenew'])->name('user.homenew');
 
 //malware detection page
 Route::get('/malware_detection', [UserController::class, 'malware_detection'])->name('user.malware_detection');
@@ -108,8 +108,7 @@ Route::get('/network-protection', [UserController::class, 'network_protection'])
 
 
 Route::get('/', [UserController::class, 'index'])->name('user.index');
-Route::get('/kullu', [UserController::class, 'kullu'])->name('user.kullu');
-Route::get('/chanchal', [UserController::class, 'chanchal'])->name('user.chanchal');
+
 
 
 
