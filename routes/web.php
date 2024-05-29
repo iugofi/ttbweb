@@ -250,6 +250,10 @@ Route::post('/editcustomerssave', [AdminController::class, 'editcustomerssave'])
 //key 
 Route::get('/keyshow', [AdminController::class, 'keyshow'])->name('key.show');
 Route::get('/keyadd', [AdminController::class, 'keyadd'])->name('key.add');
+Route::post('/savekey', [AdminController::class, 'savekey'])->name('save.savekey');
+Route::delete('/keydelete/{id}', [AdminController::class, 'keydelete'])->name('delete.keydelete');
+
+
 
 
 
