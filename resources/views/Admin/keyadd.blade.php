@@ -77,46 +77,50 @@
                                         </select>
                                         <div class="invalid-feedback"></div>
                                     </div>
-                                    <div class="xl:col-span-6 col-span-6">
-                                        <label for="blog-title" class="form-label required">Plan Name</label>
+
+                                    <div class="xl:col-span-6 col-span-12">
+                                        <label for="canonical-url" class="form-label">main_key</label>
+                                        <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
+                                            id="main_key" name="main_key" placeholder="Enter Key">
+                                        <div class="invalid-feedback"></div>
+                                    </div>
+                                 
+
+                                    <div class="xl:col-span-6 col-span-12">
+                                        <label for="canonical-url" class="form-label">key_activation_date</label>
+                                        <input type="date" class="form-control block w-full text-[0.875rem] !rounded-md"
+                                            id="key_activation_date" name="key_activation_date" >
+                                        <div class="invalid-feedback"></div>
+                                    </div>
+
+                                
+                                    <div class="xl:col-span-6 col-span-12">
+                                        <label for="canonical-url" class="form-label">key_expirey_date</label>
+                                        <input type="date" class="form-control block w-full text-[0.875rem] !rounded-md"
+                                            id="key_expirey_date" name="key_expirey_date" >
+                                        <div class="invalid-feedback"></div>
+                                    </div>
+
+                                    <div class="xl:col-span-6 col-span-12">
+                                        <label for="coupons" class="form-label">Key Status</label>
                                         <select class="form-control block w-full text-[0.875rem] !rounded-md" data-trigger
-                                            name="plan_id" id="plan_id">
+                                            name="coupon_status" id="coupon_status">
                                             <option value="">Select</option>
                                             @php
-                                                $plan_name = DB::table('planname')->get();
+                                                $status = DB::table('storepick')
+                                                    ->where('STORE_ID', 'key_status')
+                                                    ->orderBy('STORE_INDEX_SEQUENCE', 'asc')
+                                                    ->get();
                                             @endphp
-                                            @foreach ($plan_name as $plan_names)
-                                                <option value="{{ $plan_names->plan_id }}">{{ $plan_names->name }}</option>
+                                            @foreach ($status as $statuss)
+                                                <option value="{{ $statuss->PICK_ID }}">{{ $statuss->PICK_TEXT }}</option>
                                             @endforeach
 
                                         </select>
-                                        <div class="invalid-feedback"></div>
-                                    </div>
-
-                                    <div class="xl:col-span-6 col-span-12">
-                                        <label for="canonical-url" class="form-label">Price</label>
-                                        <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
-                                            id="price" name="price" placeholder="Enter Price">
-                                        <div class="invalid-feedback"></div>
-                                    </div>
-
-                                   
-
-                                    <div class="xl:col-span-6 col-span-12">
-                                        <label for="canonical-url" class="form-label">discount</label>
-                                        <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
-                                            id="discount" name="discount" placeholder="Enter Discount">
-                                        <div class="invalid-feedback"></div>
-                                    </div>
-                                    <div class="xl:col-span-6 col-span-12">
-                                        <label for="coupons" class="form-label">coupons</label>
-                                        <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
-                                            id="coupons" name="coupons" placeholder="Enter coupons">
-                                        <div class="invalid-feedback"></div>
                                     </div>
 
                                     <div class="xl:col-span-6 col-span-6">
-                                        <label for="blog-title" class="form-label"> Coupons Status</label>
+                                        <label for="blog-title" class="form-label">Status</label>
                                         <select class="form-control block w-full text-[0.875rem] !rounded-md" data-trigger
                                             name="coupon_status" id="coupon_status">
                                             <option value="">Select</option>
