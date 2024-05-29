@@ -48722,7 +48722,9 @@ img.img-fluid.service-icon {
 }
 
 .section-home-three .border-box{
-  border:0px 2px solid;
+    border-left: 2px solid #F3F2EA;
+    border-right: 2px solid #F3F2EA;
+
 }
 
 .section-home-three .bg-white-one {
