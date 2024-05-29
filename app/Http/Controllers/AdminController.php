@@ -1274,7 +1274,9 @@ public function newslistshow(){
                         if ($this->loggedInAdmin) {
                             $keylist = TTBKEY::JOIN('product_details', 'product_details.ID', '=', 'ttbkey.product_id')
                             ->get();
-                            return view('Admin.keyshowlist', ['keylist' => $keylist]);
+                            $keydata=Storepick::where('STORE_ID','key_type')->get();
+                            $plandata=Planname::all();
+                            return view('Admin.keyshowlist', ['keylist' => $keylist],['keydata' =>$keydata],['plandata' =>$plandata]);
                         } else {
                             return redirect('/setup');
                         }
