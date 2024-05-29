@@ -651,9 +651,9 @@ public function signdata(Request $request)
         return view('Admin.welcome');
     }
 
-    public function chanchal()
+    public function kullu()
     {
-        return view('User.chanchal');
+        return view('User.kullu');
     }
 
     }

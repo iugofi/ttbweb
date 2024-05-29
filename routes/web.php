@@ -108,7 +108,8 @@ Route::get('/network-protection', [UserController::class, 'network_protection'])
 
 
 Route::get('/', [UserController::class, 'index'])->name('user.index');
-Route::get('/kullu', [UserController::class, 'chanchal'])->name('user.chanchal');
+
+
 
 
 
@@ -249,6 +250,10 @@ Route::post('/editcustomerssave', [AdminController::class, 'editcustomerssave'])
 //key 
 Route::get('/keyshow', [AdminController::class, 'keyshow'])->name('key.show');
 Route::get('/keyadd', [AdminController::class, 'keyadd'])->name('key.add');
+Route::post('/savekey', [AdminController::class, 'savekey'])->name('save.savekey');
+Route::delete('/keydelete/{id}', [AdminController::class, 'keydelete'])->name('delete.keydelete');
+
+
 
 
 

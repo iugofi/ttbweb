@@ -1,6 +1,6 @@
 @extends('Admin.Layouts.layout')
 
-@section('title', 'Plan Details List')
+@section('title', 'Key List')
 @section('Description', '')
 @section('keywords', '')
 @section('canonical', 'vbhdvbh')
@@ -43,7 +43,7 @@
                     </li>
                     <li class="text-[0.813rem] text-defaulttextcolor font-semibold hover:text-primary dark:text-[#8c9097] dark:text-white/50 "
                         aria-current="page">
-                        Plan Details List
+                        Key List
                     </li>
                 </ol>
             </div>
@@ -57,7 +57,7 @@
                     <div class="box custom-box">
                         <div class="box-header">
                             <div class="box-title">
-                                Plan Details List
+                                Key List
                             </div>
                         </div>
 
@@ -165,7 +165,7 @@
                                                                 <i class="ri-edit-line"></i>
                                                             </a>
                                                             <button aria-label="button" type="button"
-                                                                class="ti-btn !py-1 !px-2 !text-[0.75rem] ti-btn-danger-full btn-wave delete-plan-details"
+                                                                class="ti-btn !py-1 !px-2 !text-[0.75rem] ti-btn-danger-full btn-wave delete-key"
                                                                 data-item-id="{{ $item->id }}">
                                                                 <i
                                                                     class="ri-delete-bin-line align-middle me-2 inline-block"></i>Delete
@@ -279,9 +279,9 @@
         <script>
             $(document).ready(function() {
                 var csrfToken = $('meta[name="csrf-token"]').attr('content');
-                $('.delete-plan-details').click(function() {
+                $('.delete-key').click(function() {
                     var itemId = $(this).data('item-id');
-                    var url = "{{ route('delete.plandetailsdelete', ':id') }}";
+                    var url = "{{ route('delete.keydelete', ':id') }}";
                     url = url.replace(':id', itemId);
 
                     // Show confirmation dialog before deleting
