@@ -1309,7 +1309,7 @@ public function newslistshow(){
                             }
                             else
                             {
-                    
+    
                                     $ttbkey = new TTBKEY();
                                     $ttbkey->main_key = $request->main_key;
                                     $ttbkey->product_id = $request->product_id;
@@ -1331,6 +1331,18 @@ public function newslistshow(){
                                     return redirect('/setup');
                                 }
                         }
+
+
+                        public function keydelete($id)
+                    {
+                        if ($this->loggedInAdmin) {
+                            $item = TTBKEY::findOrFail($id);
+                            $item->delete();
+                            return response()->json(['message' => 'Key deleted successfully']);
+                        } else {
+                            return redirect('/setup'); 
+                        }
+                    }
                 
 
 
