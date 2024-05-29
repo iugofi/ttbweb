@@ -48715,6 +48715,13 @@ img.img-fluid.service-icon {
 
 /* neeraj-home-page-css-22-04-2024 */
 
+
+.section-home-three{
+    padding: 100px 0px;
+}
+
+/* slider start */
+
 .container-slide {
     width: auto;
     overflow: hidden;
@@ -48764,6 +48771,10 @@ img.img-fluid.service-icon {
         transform: translateX(-100%)
     }
 }
+
+
+/* slider end */
+
 .section-home-two{
     padding: 20px 10px 20px 10px;
 }
