@@ -653,7 +653,7 @@ public function signdata(Request $request)
 
     public function chanchal()
     {
-        return view('User.chanchal');
+        return view('User.kullu');
     }
 
     }
