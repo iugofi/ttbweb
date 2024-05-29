@@ -6605,6 +6605,9 @@ h6 {
     --tw-bg-opacity: 1 !important;
     background-color: rgb(255 255 255 / var(--tw-bg-opacity)) !important;
 }
+.bg-white-one{
+    background-color: #fff;
+}
 
 .\!bg-white\/20 {
     background-color: rgb(255 255 255 / 0.2) !important;
