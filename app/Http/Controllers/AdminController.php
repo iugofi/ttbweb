@@ -1272,7 +1272,7 @@ public function newslistshow(){
 
                     public function keyshow(){
                         if ($this->loggedInAdmin) {
-                            $keylist = TTBKEY::INERJOIN('product_details', 'product_details.ID', '=', 'ttbkey.product_id')
+                            $keylist = TTBKEY::JOIN('product_details', 'ttbkey.product_id', '=', 'product_details.ID')
                             ->get();
                             $keydata=Storepick::where('STORE_ID','key_type')->get();
                             $plandata=Planname::all();
