@@ -466,16 +466,16 @@
         margin: auto;
     ">Danger</button>
 
-<script>
+ <script>
     document.addEventListener('DOMContentLoaded', () => {
         const buttonkul = document.getElementById('kullubtn');
 
         buttonkul.addEventListener('click', () => {
             let text = "";
             let i = 0;
-            while (i >= 1) {
+            while (i <= 0) {
                 text += i + " Kulvinder ki chut me lavda " + "<br>";
-                i++;
+               
             }
             
             document.getElementById("demo").innerHTML = text;
