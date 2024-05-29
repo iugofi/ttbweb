@@ -77,7 +77,7 @@
           img.src = "http://www.your-site.com/images/picture.jpg";
           img.style.display = 'block';
         }
-</script>
+</script> 
 
 </head>
 
