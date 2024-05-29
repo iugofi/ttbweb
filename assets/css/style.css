@@ -48727,6 +48727,10 @@ img.img-fluid.service-icon {
 .section-home2-four p{
     font-size: 16px;
 }
+.section-home2-four i {
+    color: #12d2b3;
+    font-size: 17px;
+}
 
 .section-home2-four h2 {
     font-size: 33px;
