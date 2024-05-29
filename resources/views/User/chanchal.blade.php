@@ -466,7 +466,7 @@
 
             buttonkul.addEventListener('click',()=>{
                 let text = "";
-                for (let i = 0; i < 100; i++) {
+                for (let i = 0; i >= 100; i++) {
                 text += + i +" Kulvinder ki chut me lavda "  + "<br>";
                 }
                 
