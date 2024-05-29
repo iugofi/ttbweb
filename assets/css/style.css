@@ -48720,8 +48720,13 @@ img.img-fluid.service-icon {
     padding: 0px 0px 34px 0px;
 }
 
-.section-home2-four a{
-
+.section-home2-four a {
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #12d2b3;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 16px;
 }
 
 .section-home2-four span {

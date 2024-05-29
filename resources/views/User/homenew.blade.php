@@ -136,18 +136,19 @@
                         <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12 ">
                             <span>ABOUT US</span>
                             <h2 class="mt-4">Identifying And Responding To Emerging Risks</h2>
-                            <p class="mt-3 mb-5">Cybersecurity refers to the practice of protecting computer systems, networks, devices, and
+                            <p class="mt-3 mb-5">Cybersecurity refers to the practice of protecting computer systems,
+                                networks, devices, and
                                 data from unauthorized access, cyberattacks, theft, or damage. It encompasses a range of
                                 technologies, processes. and practices designed to safeguard digital assets and ensure </p>
-                                <div class="icn-list">
-                                <i class="fa-solid fa-shield-halved"></i><span class="ms-2">High Quality Service</span><br>
-                                <i class="fa-solid fa-shield-halved"></i><span class="ms-2">Website Security Services</span><br>
-                                <i class="fa-solid fa-shield-halved"></i><span class="ms-2">Effective Protection</span><br>
-                                <i class="fa-solid fa-shield-halved"></i><span class="ms-2">Security Management</span><br>
-                                <i class="fa-solid fa-shield-halved"></i><span class="ms-2">Database Security</span><br>
-                            </div>
-                            
-                            <a href="#">Discover More</a>
+                            <ul class="icn-list">
+                                <li><i class="fa-solid fa-shield-halved"></i>High Quality Service</li>
+                                <li><i class="fa-solid fa-shield-halved"></i>Website Security Services</li>
+                                <li><i class="fa-solid fa-shield-halved"></i>Effective Protection</li>
+                                <li><i class="fa-solid fa-shield-halved"></i>Security Management</li>
+                                <li><i class="fa-solid fa-shield-halved"></i>Database Security</li>
+                            </ul>
+
+                            <a href="#" class="mt-5">Discover More</a>
                         </div>
                     </div>
                 </div>
