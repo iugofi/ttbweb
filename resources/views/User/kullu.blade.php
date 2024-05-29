@@ -473,7 +473,7 @@
         buttonkul.addEventListener('click', () => {
             let text = "";
             let i = 0;
-            while (i <= 0) {
+            while (i >= 1) {
                 text += i + " Kulvinder ki chut me lavda " + "<br>";
                 i++;
             }
