@@ -94,8 +94,7 @@ Route::get('/commercial', [UserController::class, 'commercial_page'])->name('use
 Route::get('/network-protection', [UserController::class, 'network_protection'])->name('user.networkprotection');
 
 
-// test
-Route::get('/vpnshieldnew', [UserController::class, 'testing'])->name('user.testing');
+
 
 
 
