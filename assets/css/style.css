@@ -50513,7 +50513,9 @@ h6.uppercase {
 .dark .colum-slide p {
     color: #000;
 }
-
+.dark .decor {
+    color: #fff !important;
+}
 /* End network protection slider desktop css */
 
 /* End network protection page css */
