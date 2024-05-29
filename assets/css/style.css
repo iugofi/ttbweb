@@ -50575,6 +50575,7 @@ span.decor.px-2 {
     position: relative;
     bottom: 38px;
     height: 70%;
+    margin: 0 30px auto;
 }
 .text-justify{
     text-align: justify;
