@@ -54,8 +54,24 @@
                                         class="img-fluid" width="20%">
                                     <img src="{{ asset('assets/home-two-img/brand_3_6.svg') }}" alt=""
                                         class="img-fluid" width="20%">
+                                        <img src="{{ asset('assets/home-two-img/brand_3_1.svg') }}" alt=""
+                                        class="img-fluid" width="20%">
+                                    <img src="{{ asset('assets/home-two-img/brand_3_2.svg') }}" alt=""
+                                        class="img-fluid" width="20%">
+                                    <img src="{{ asset('assets/home-two-img/brand_3_3.svg') }}" alt=""
+                                        class="img-fluid" width="20%">
+                                    <img src="{{ asset('assets/home-two-img/brand_3_4.svg') }}" alt=""
+                                        class="img-fluid" width="20%">
+                                    <img src="{{ asset('assets/home-two-img/brand_3_5.svg') }}" alt=""
+                                        class="img-fluid" width="20%">
+                                        <img src="{{ asset('assets/home-two-img/brand_3_3.svg') }}" alt=""
+                                        class="img-fluid" width="20%">
+                                    <img src="{{ asset('assets/home-two-img/brand_3_4.svg') }}" alt=""
+                                        class="img-fluid" width="20%">
+                                    <img src="{{ asset('assets/home-two-img/brand_3_5.svg') }}" alt=""
+                                        class="img-fluid" width="20%">
                                 </div>
-                                <div class="photobanner">
+                                {{-- <div class="photobanner">
                                     <img src="{{ asset('assets/home-two-img/brand_3_1.svg') }}" alt=""
                                         class="img-fluid" width="20%">
                                     <img src="{{ asset('assets/home-two-img/brand_3_2.svg') }}" alt=""
@@ -68,7 +84,7 @@
                                         class="img-fluid" width="20%">
                                     <img src="{{ asset('assets/home-two-img/brand_3_6.svg') }}" alt=""
                                         class="img-fluid" width="20%">
-                                </div>
+                                </div> --}}
                                 <div>
 
                                 </div>
