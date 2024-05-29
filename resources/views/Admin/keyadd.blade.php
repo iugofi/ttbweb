@@ -64,7 +64,7 @@
                                     <div class="xl:col-span-6 col-span-6">
                                         <label for="blog-title" class="form-label required">Product Details</label>
                                         <select class="form-control block w-full text-[0.875rem] !rounded-md" data-trigger
-                                            name="planname" id="planname">
+                                            name="product_id" id="product_id">
                                             <option value="">Select</option>
                                             @php
                                                 $product_details = DB::table('product_details')
@@ -107,7 +107,7 @@
                                     <div class="xl:col-span-6 col-span-12">
                                         <label for="coupons" class="form-label">Key Status</label>
                                         <select class="form-control block w-full text-[0.875rem] !rounded-md" data-trigger
-                                            name="coupon_status" id="coupon_status">
+                                            name="is_key_used" id="is_key_used">
                                             <option value="">Select</option>
                                             @php
                                                 $status = DB::table('storepick')
@@ -125,7 +125,7 @@
                                     <div class="xl:col-span-6 col-span-6">
                                         <label for="blog-title" class="form-label">Status</label>
                                         <select class="form-control block w-full text-[0.875rem] !rounded-md" data-trigger
-                                            name="coupon_status" id="coupon_status">
+                                            name="key_status" id="key_status">
                                             <option value="">Select</option>
                                             @php
                                                 $status = DB::table('storepick')
@@ -148,7 +148,7 @@
                             <div class="box-footer">
                                 <div class="text-end">
                                     {{-- <button type="button" class="ti-btn !py-1 !px-2 ti-btn-light !text-[0.75rem] !font-medium me-2">Save As Draft</button> --}}
-                                    <input type="submit" value="Save Plan Details" id="plandetails_save_btn"
+                                    <input type="submit" value="Save Key" id="key_save_btn"
                                         class="ti-btn bg-primary text-white !py-1 !px-2 !text-[0.75rem] !font-medium">
                                 </div>
                             </div>
@@ -233,12 +233,12 @@
 
             $('#key_add_form').submit(function(e) {
                 e.preventDefault();
-                $('#plan_save_btn').val('please wait..');
+                $('#key_save_btn').val('please wait..');
                 var token = $('meta[name="csrf-token"]').attr('content');
                 var formData = new FormData($(this)[0]);
 
                 $.ajax({
-                    url: '{{ route('save.saveplandetails') }}',
+                    url: '{{ route('save.savekey') }}',
                     method: 'post',
                     data: formData,
                     headers: {
@@ -248,19 +248,22 @@
                     processData: false,
                     success: function(response) {
                         if (response.status == 400) {
-                            showError('planname', response.messages.planname);
-                            showError('plan_id', response.messages.plan_id);
-                            showError('price', response.messages.price);
+                            showError('main_key', response.messages.main_key);
+                            showError('product_id', response.messages.product_id);
+                            showError('key_activation_date', response.messages.key_activation_date);
+                            showError('key_expirey_date', response.messages.key_expirey_date);
+                            showError('is_key_used', response.messages.is_key_used);
+                            showError('key_status', response.messages.key_status);
 
 
-                            $('#plan_save_btn').val('Save Plan Details');
+                            $('#key_save_btn').val('Save Plan Details');
                         } else if (response.status == 200) {
                             $('.invalid-feedback').empty();
                             $("#show_success_alert").html(showMessage('success', response
                                 .messages));
                             $('#key_add_form')[0].reset();
                             removeValidationClass("#key_add_form");
-                            $('#plan_save_btn').val('Save Plan Details');
+                            $('#key_save_btn').val('Save Key');
                             fetchPlan();
                         }
                     },

@@ -1290,6 +1290,47 @@ public function newslistshow(){
                             return redirect('/setup');
                         }
                     }
+
+                    public function savekey(Request $request){
+                        if ($this->loggedInAdmin) {
+                            $validator = Validator::make($request->all(), [
+                                'main_key' => 'required',
+                                'product_id' => 'required',
+                                'is_key_used' => 'required',
+                                'key_status' => 'required',
+                                'key_expirey_date' => 'required',
+                                'key_activation_date' => 'required'
+                            ]);
+                            if ($validator->fails()) {
+                                return response()->json([
+                                    'status' => 400,
+                                    'messages' => $validator->getMessageBag()->toArray()
+                                ]);
+                            }
+                            else
+                            {
+                    
+                                    $ttbkey = new TTBKEY();
+                                    $ttbkey->main_key = $request->main_key;
+                                    $ttbkey->product_id = $request->product_id;
+                                    $ttbkey->is_key_used = $request->is_key_used;
+                                    $ttbkey->key_status = $request->key_status;
+                                    $ttbkey->key_expirey_date = $request->key_expirey_date;
+                                    $ttbkey->key_activation_date = $request->key_activation_date;
+                                    $ttbkey->save();
+                                    
+                                    return response()->json([
+                                        'status' => 200,
+                                        'messages' => 'Key Add successfully'
+                                    ]);
+                    
+                                    }
+                                    
+                    
+                                } else {
+                                    return redirect('/setup');
+                                }
+                        }
                 
 
 
