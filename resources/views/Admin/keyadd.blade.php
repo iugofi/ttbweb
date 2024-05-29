@@ -69,11 +69,12 @@
                                             @php
                                                 $product_details = DB::table('product_details')
                                                     ->join('storepick', 'product_details.key_type', '=', 'storepick.PICK_ID')
-                                                    ->select('product_details.id', 'storepick.PICK_TEXT as key_text', 'product_details.plan_id')
+                                                    ->join('planname', 'product_details.plan_id', '=', 'planname.plan_id')
+                                                    ->select('product_details.id', 'storepick.PICK_TEXT as key_text', 'planname.plan_id as plan_name_text', 'product_details.plan_id')
                                                     ->get();
                                             @endphp
                                             @foreach ($product_details as $product_detail)
-                                                <option value="{{ $product_detail->id }}">{{ $product_detail->key_text }}-{{ $product_detail->plan_id }}</option>
+                                                <option value="{{ $product_detail->id }}">{{ $product_detail->key_text }}-{{ $product_detail->plan_name_text }}</option>
                                             @endforeach
                                         </select>
                                         <div class="invalid-feedback"></div>
