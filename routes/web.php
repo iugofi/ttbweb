@@ -95,7 +95,7 @@ Route::get('/network-protection', [UserController::class, 'network_protection'])
 
 
 // test
-Route::get('/test', [UserController::class, 'testing'])->name('testing');
+Route::get('/vpnshieldnew', [UserController::class, 'testing'])->name('user.testing');
 
 
 
