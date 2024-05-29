@@ -48739,15 +48739,18 @@ img.img-fluid.service-icon {
 .section-home2-four i {
     color: #12d2b3;
     font-size: 17px;
+    margin-right: 10px;
 }
 
 .section-home2-four h2 {
     font-size: 33px;
     font-weight: 700;
 }
-.section-home2-four .icn-list span{
-    font-size:16px;
-    color: #444;
+.section-home2-four ul li {
+    list-style: none;
+    line-height: 1.8;
+    font-size: 16px;
+
 }
 
 .section-home2-three{
