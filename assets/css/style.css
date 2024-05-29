@@ -50574,8 +50574,9 @@ span.decor.px-2 {
 .my-section {
     position: relative;
     bottom: 38px;
-    height: 70%;
+    height: 78%;
     margin: 0 30px auto;
+    padding: 28px 18px;
 }
 .text-justify{
     text-align: justify;
