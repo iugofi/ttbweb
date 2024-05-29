@@ -87,8 +87,9 @@
                                         class="img-fluid" width="100%">
                                 </div>
                                 <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 md:col-span-12 col-span-12">
-                                    <h3>Block to all hackers </h3>
-                                    <p class="mt-2">Cybersecurity refers to the practice of protecting computer systems, networks,
+                                    <h3 class="mt-1">Block to all hackers </h3>
+                                    <p class="mt-2">Cybersecurity refers to the practice of protecting computer systems,
+                                        networks,
                                         devices</p>
                                 </div>
                             </div>
@@ -100,8 +101,9 @@
                                         class="img-fluid" width="100%">
                                 </div>
                                 <div class="xxl:col-span-8 xl:col-span-8 lg:col-span-8 md:col-span-12 col-span-12">
-                                    <h3>Block to all hackers </h3>
-                                    <p class="mt-2">Cybersecurity refers to the practice of protecting computer systems, networks,
+                                    <h3 class="mt-1">Block to all hackers </h3>
+                                    <p class="mt-2">Cybersecurity refers to the practice of protecting computer systems,
+                                        networks,
                                         devices</p>
                                 </div>
                             </div>
@@ -113,8 +115,9 @@
                                         class="img-fluid" width="100%">
                                 </div>
                                 <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 md:col-span-12 col-span-12">
-                                    <h3>Block to all hackers </h3>
-                                    <p class="mt-2">Cybersecurity refers to the practice of protecting computer systems, networks,
+                                    <h3 class="mt-1">Block to all hackers </h3>
+                                    <p class="mt-2">Cybersecurity refers to the practice of protecting computer systems,
+                                        networks,
                                         devices</p>
                                 </div>
                             </div>
