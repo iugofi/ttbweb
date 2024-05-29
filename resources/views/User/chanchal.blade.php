@@ -458,7 +458,7 @@
 
     <p id="demo"></p>
 
-    <button id="kullubtn"></button>
+    <button id="kullubtn">Danger</button>
 
     <script>
         document.addEventListener('DOMContentLoaded',()=>{
