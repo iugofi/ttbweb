@@ -450,6 +450,7 @@
             transition: 0.2s ease-in-out;
         }
     </style>
+   
 </head>
 
 <body>
@@ -457,14 +458,22 @@
 
     <p id="demo"></p>
 
+    <button id="kullubtn"></button>
+
     <script>
-    let text = "";
-    
-    for (let i = 0; i < 5; i++) {
-      text += + i +"Kulvinder ki chut me lavda "  + "<br>";
-    }
-    
-    document.getElementById("demo").innerHTML = text;
+        document.addEventListener('DOMContentLoaded',()=>{
+            const buttonkul=document.getElementById('kullubtn');
+
+            buttonkul.addEventListener('click',()=>{
+                let text = "";
+                for (let i = 0; i < 100; i++) {
+                text += + i +" Kulvinder ki chut me lavda "  + "<br>";
+                }
+                
+                document.getElementById("demo").innerHTML = text;
+            });
+        });
+   
     </script>
 </body>
 
