@@ -50582,14 +50582,14 @@ span.decor.px-2 {
 .my-section {
     position: relative;
     bottom: 38px;
-    height: auto;
+    height: 75%;
     margin: 0 30px auto;
     padding: 28px 0px;
 }
 .text-justify{
     text-align: justify;
 }
-
+ 
 
 
 /* End:: Malware Detection page css */

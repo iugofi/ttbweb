@@ -100,25 +100,27 @@
                                         <thead>
                                             <tr>
                                                 <th class="px-4 py-2">Id</th>
+                                                <th class="px-4 py-2">main_key</th>
                                                 <th class="px-4 py-2">key_type</th>
                                                 <th class="px-4 py-2">plan_id</th>
                                                 <th class="px-4 py-2">price</th>
-                                                <th class="px-4 py-2">image</th>
-                                                <th class="px-4 py-2">discount</th>
-                                                <th class="px-4 py-2">coupons</th>
-                                                <th class="px-4 py-2">is_coupons</th>
+                                                <th class="px-4 py-2">key_activation_date</th>
+                                                <th class="px-4 py-2">key_expirey_date</th>
+                                                <th class="px-4 py-2">is_key_used</th>
+                                                <th class="px-4 py-2">key_status</th>
                                                 <th class="px-4 py-2">Action</th>
 
 
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            @foreach ($plandetails as $key => $item)
+                                            @foreach ($keylist as $key => $item)
                                                 <tr>
                                                     @php
                                                         $id = 1;
                                                     @endphp
                                                     <td class="border px-4 py-2">{{ $key + 1 }}</td>
+                                                    <td class="border px-4 py-2">{{ $item->main_key }}</td>
                                                     <td class="border px-4 py-2">
                                                         @php
                                                             $storeId = 'key_type';
@@ -148,10 +150,10 @@
                                                         }
                                                     @endphp</td>
                                                     <td class="border px-4 py-2">{{ $item->price }}</td>
-                                                    <td class="border px-4 py-2">{{ $item->image }}</td>
-                                                    <td class="border px-4 py-2">{{ $item->discount }}</td>
-                                                    <td class="border px-4 py-2">{{ $item->coupons }}</td>
-                                                    <td class="border px-4 py-2">{{ $item->is_coupons }}</td>
+                                                    <td class="border px-4 py-2">{{ $item->key_activation_date }}</td>
+                                                    <td class="border px-4 py-2">{{ $item->key_expirey_date }}</td>
+                                                    <td class="border px-4 py-2">{{ $item->is_key_used }}</td>
+                                                    <td class="border px-4 py-2">{{ $item->key_status }}</td>
 
 
                                                     <td class="border px-4 py-2">
