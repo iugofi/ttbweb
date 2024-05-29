@@ -70,7 +70,7 @@
                                                 $product_details = DB::table('product_details')
                                                     ->join('storepick', 'product_details.key_type', '=', 'storepick.PICK_ID')
                                                     ->join('planname', 'product_details.plan_id', '=', 'planname.plan_id')
-                                                    ->select('product_details.id', 'storepick.PICK_TEXT as key_text', 'planname.plan_id as plan_name_text', 'product_details.plan_id')
+                                                    ->select('product_details.id', 'storepick.PICK_TEXT as key_text', 'planname.name as plan_name_text', 'product_details.plan_id')
                                                     ->get();
                                             @endphp
                                             @foreach ($product_details as $product_detail)
