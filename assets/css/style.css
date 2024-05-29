@@ -6605,9 +6605,7 @@ h6 {
     --tw-bg-opacity: 1 !important;
     background-color: rgb(255 255 255 / var(--tw-bg-opacity)) !important;
 }
-.bg-white-one{
-    background-color: #fff;
-}
+
 
 .\!bg-white\/20 {
     background-color: rgb(255 255 255 / 0.2) !important;
@@ -48721,6 +48719,12 @@ img.img-fluid.service-icon {
 
 .section-home-three{
     padding: 100px 0px;
+}
+
+.section-home-three .bg-white-one {
+    background-color: #fff;
+    padding: 46px 10px;
+    border-radius: 22px;
 }
 
 /* slider start */
