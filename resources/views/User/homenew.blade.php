@@ -34,7 +34,7 @@
             </section>
 
 
-            <section class="section-home-two">
+            <section class="section-home2-two">
                 <div class="container">
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 col-span-12 text-center">
@@ -54,24 +54,8 @@
                                         class="img-fluid" width="20%">
                                     <img src="{{ asset('assets/home-two-img/brand_3_6.svg') }}" alt=""
                                         class="img-fluid" width="20%">
-                                        <img src="{{ asset('assets/home-two-img/brand_3_1.svg') }}" alt=""
-                                        class="img-fluid" width="20%">
-                                    <img src="{{ asset('assets/home-two-img/brand_3_2.svg') }}" alt=""
-                                        class="img-fluid" width="20%">
-                                    <img src="{{ asset('assets/home-two-img/brand_3_3.svg') }}" alt=""
-                                        class="img-fluid" width="20%">
-                                    <img src="{{ asset('assets/home-two-img/brand_3_4.svg') }}" alt=""
-                                        class="img-fluid" width="20%">
-                                    <img src="{{ asset('assets/home-two-img/brand_3_5.svg') }}" alt=""
-                                        class="img-fluid" width="20%">
-                                        <img src="{{ asset('assets/home-two-img/brand_3_3.svg') }}" alt=""
-                                        class="img-fluid" width="20%">
-                                    <img src="{{ asset('assets/home-two-img/brand_3_4.svg') }}" alt=""
-                                        class="img-fluid" width="20%">
-                                    <img src="{{ asset('assets/home-two-img/brand_3_5.svg') }}" alt=""
-                                        class="img-fluid" width="20%">
                                 </div>
-                                {{-- <div class="photobanner">
+                                <div class="photobanner">
                                     <img src="{{ asset('assets/home-two-img/brand_3_1.svg') }}" alt=""
                                         class="img-fluid" width="20%">
                                     <img src="{{ asset('assets/home-two-img/brand_3_2.svg') }}" alt=""
@@ -84,7 +68,7 @@
                                         class="img-fluid" width="20%">
                                     <img src="{{ asset('assets/home-two-img/brand_3_6.svg') }}" alt=""
                                         class="img-fluid" width="20%">
-                                </div> --}}
+                                </div>
                                 <div>
 
                                 </div>
@@ -93,7 +77,7 @@
                     </div>
             </section>
 
-            <section class="section-home-three">
+            <section class="section-home2-three">
                 <div class="container">
                     <div class="grid grid-cols-12 gap-6 bg-white-one">
                         <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-12 col-span-12">
@@ -142,10 +126,42 @@
                 </div>
             </section>
 
+            <section class="section-home2-four">
+                <div class="container">
+                    <div class="grid grid-cols-12 gap-6">
+                        <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
+                            <img src="{{ asset('assets/home-two-img/11111111.svg') }}" alt="" class="img-fluid"
+                                width="20%">
+                        </div>
+                        <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12 ">
+                            <span>ABOUT US</span>
+                            <h2 class="mt-4">Identifying And Responding To Emerging Risks</h2>
+                            <p class="mt-3 mb-5">Cybersecurity refers to the practice of protecting computer systems, networks, devices, and
+                                data from unauthorized access, cyberattacks, theft, or damage. It encompasses a range of
+                                technologies, processes. and practices designed to safeguard digital assets and ensure </p>
+                                <div class="icn-list">
+                                <i class="fa-solid fa-shield-halved"></i><span class="ms-2">High Quality Service</span><br>
+                                <i class="fa-solid fa-shield-halved"></i><span class="ms-2">Website Security Services</span><br>
+                                <i class="fa-solid fa-shield-halved"></i><span class="ms-2">Effective Protection</span><br>
+                                <i class="fa-solid fa-shield-halved"></i><span class="ms-2">Security Management</span><br>
+                                <i class="fa-solid fa-shield-halved"></i><span class="ms-2">Database Security</span><br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
 
 
         </div>
     </div>
+
+
+
+
+
+
+
 
 
 

@@ -1,6 +1,6 @@
 @extends('Admin.Layouts.layout')
 
-@section('title', 'Plan Details List')
+@section('title', 'Key List')
 @section('Description', '')
 @section('keywords', '')
 @section('canonical', 'vbhdvbh')
@@ -43,7 +43,7 @@
                     </li>
                     <li class="text-[0.813rem] text-defaulttextcolor font-semibold hover:text-primary dark:text-[#8c9097] dark:text-white/50 "
                         aria-current="page">
-                        Plan Details List
+                        Key List
                     </li>
                 </ol>
             </div>
@@ -57,7 +57,7 @@
                     <div class="box custom-box">
                         <div class="box-header">
                             <div class="box-title">
-                                Plan Details List
+                                Key List
                             </div>
                         </div>
 

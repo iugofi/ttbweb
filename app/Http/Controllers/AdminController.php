@@ -1272,7 +1272,8 @@ public function newslistshow(){
 
                     public function keyshow(){
                         if ($this->loggedInAdmin) {
-                            $keylist = TTBKEY::JOIN('product_details', 'product_details.ID', '=', 'ttbkey.product_id')
+                            $keylist = TTBKEY::join('product_details', 'ttbkey.product_id', '=', 'product_details.ID')
+                            ->select('ttbkey.*', 'product_details.key_type', 'product_details.plan_id')
                             ->get();
                             $keydata=Storepick::where('STORE_ID','key_type')->get();
                             $plandata=Planname::all();
@@ -1338,7 +1339,7 @@ public function newslistshow(){
                         if ($this->loggedInAdmin) {
                             $item = TTBKEY::findOrFail($id);
                             $item->delete();
-                            return response()->json(['message' => 'Key deleted successfully']);
+                            return response()->json(['message' => 'Plan Details deleted successfully']);
                         } else {
                             return redirect('/setup'); 
                         }
