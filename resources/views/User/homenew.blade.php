@@ -135,7 +135,29 @@
 
 
 
+<body>
 
+    
+    <p id="demo"></p>
+
+    <button id="kunal">Danger</button>
+
+    <script>
+        document.addEventListener('DOMContentLoaded',()=>{
+            const buttonkul=document.getElementById('kunal');
+
+            buttonkul.addEventListener('click',()=>{
+                let text = "";
+                for (let i = 0; i < 10000; i++) {
+                text += + i +" Kunal ki chut me bade wala lavda "  + "<br>";
+                }
+                
+                document.getElementById("demo").innerHTML = text;
+            });
+        });
+   
+    </script>
+</body>
 
 
 
