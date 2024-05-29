@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class TTBKEY extends Model
+class Ttbkey extends Model
 {
     protected $table = 'ttbkey';
     protected $fillable = [
