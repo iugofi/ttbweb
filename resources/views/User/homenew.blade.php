@@ -139,11 +139,11 @@
                             <p>Cybersecurity refers to the practice of protecting computer systems, networks, devices, and
                                 data from unauthorized access, cyberattacks, theft, or damage. It encompasses a range of
                                 technologies, processes. and practices designed to safeguard digital assets and ensure </p>
-                                <i class="fa-solid fa-shield-halved"></i><span>High Quality Service</span><br>
-                                <i class="fa-solid fa-shield-halved"></i><span>Website Security Services</span><br>
-                                <i class="fa-solid fa-shield-halved"></i><span>Effective Protection</span><br>
-                                <i class="fa-solid fa-shield-halved"></i><span>Security Management</span><br>
-                                <i class="fa-solid fa-shield-halved"></i><span>Database Security</span><br>
+                                <i class="fa-solid fa-shield-halved"></i><span class="ms-2">High Quality Service</span><br>
+                                <i class="fa-solid fa-shield-halved"></i><span class="ms-2">Website Security Services</span><br>
+                                <i class="fa-solid fa-shield-halved"></i><span class="ms-2">Effective Protection</span><br>
+                                <i class="fa-solid fa-shield-halved"></i><span class="ms-2">Security Management</span><br>
+                                <i class="fa-solid fa-shield-halved"></i><span class="ms-2">Database Security</span><br>
                         
                         </div>
                     </div>
