@@ -126,7 +126,7 @@
                 </div>
             </section>
 
-            <section class="section-home-three">
+            <section class="section-home2-three">
                 <div class="container">
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
@@ -139,11 +139,11 @@
                             <p>Cybersecurity refers to the practice of protecting computer systems, networks, devices, and
                                 data from unauthorized access, cyberattacks, theft, or damage. It encompasses a range of
                                 technologies, processes. and practices designed to safeguard digital assets and ensure </p>
-                                <i></i><span>High Quality Service</span>
-                                <i></i><span>Website Security Services</span>
-                                <i></i><span>Effective Protection</span>
-                                <i></i><span>Security Management</span>
-                                <i></i><span>Database Security</span>
+                                <i class="fa-solid fa-shield-halved"></i><span>High Quality Service</span><br>
+                                <i class="fa-solid fa-shield-halved"></i><span>Website Security Services</span><br>
+                                <i class="fa-solid fa-shield-halved"></i><span>Effective Protection</span><br>
+                                <i class="fa-solid fa-shield-halved"></i><span>Security Management</span><br>
+                                <i class="fa-solid fa-shield-halved"></i><span>Database Security</span><br>
                         
                         </div>
                     </div>
