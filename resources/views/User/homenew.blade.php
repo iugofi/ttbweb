@@ -54,24 +54,8 @@
                                         class="img-fluid" width="20%">
                                     <img src="{{ asset('assets/home-two-img/brand_3_6.svg') }}" alt=""
                                         class="img-fluid" width="20%">
-                                        <img src="{{ asset('assets/home-two-img/brand_3_1.svg') }}" alt=""
-                                        class="img-fluid" width="20%">
-                                    <img src="{{ asset('assets/home-two-img/brand_3_2.svg') }}" alt=""
-                                        class="img-fluid" width="20%">
-                                    <img src="{{ asset('assets/home-two-img/brand_3_3.svg') }}" alt=""
-                                        class="img-fluid" width="20%">
-                                    <img src="{{ asset('assets/home-two-img/brand_3_4.svg') }}" alt=""
-                                        class="img-fluid" width="20%">
-                                    <img src="{{ asset('assets/home-two-img/brand_3_5.svg') }}" alt=""
-                                        class="img-fluid" width="20%">
-                                        <img src="{{ asset('assets/home-two-img/brand_3_3.svg') }}" alt=""
-                                        class="img-fluid" width="20%">
-                                    <img src="{{ asset('assets/home-two-img/brand_3_4.svg') }}" alt=""
-                                        class="img-fluid" width="20%">
-                                    <img src="{{ asset('assets/home-two-img/brand_3_5.svg') }}" alt=""
-                                        class="img-fluid" width="20%">
                                 </div>
-                                {{-- <div class="photobanner">
+                                <div class="photobanner">
                                     <img src="{{ asset('assets/home-two-img/brand_3_1.svg') }}" alt=""
                                         class="img-fluid" width="20%">
                                     <img src="{{ asset('assets/home-two-img/brand_3_2.svg') }}" alt=""
@@ -84,7 +68,7 @@
                                         class="img-fluid" width="20%">
                                     <img src="{{ asset('assets/home-two-img/brand_3_6.svg') }}" alt=""
                                         class="img-fluid" width="20%">
-                                </div> --}}
+                                </div>
                                 <div>
 
                                 </div>
@@ -95,8 +79,8 @@
 
             <section class="section-home-three">
                 <div class="container">
-                    <div class="grid grid-cols-12 gap-6">
-                        <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
+                    <div class="grid grid-cols-12 gap-6 bg-white-one">
+                        <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-12 col-span-12">
                             <div class="icon-box flex p-3">
                                 <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-12 col-span-12 p-3">
                                     <img src="{{ asset('assets/home-two-img/feature_box_1_1.svg') }}" alt=""
@@ -110,7 +94,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12 ">
+                        <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-12 col-span-12 border-box">
                             <div class="icon-box flex p-3">
                                 <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-12 col-span-12 p-3">
                                     <img src="{{ asset('assets/home-two-img/feature_box_1_2.svg') }}" alt=""
@@ -144,29 +128,38 @@
 
             <section class="section-home-three">
                 <div class="container">
-                    <div class="grid grid-cols-12 gap-6 bg-white-one">
+                    <div class="grid grid-cols-12 gap-6 ">
                         <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
                             <img src="{{ asset('assets/home-two-img/11111111.svg') }}" alt="" class="img-fluid"
                                 width="20%">
                         </div>
-                        <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12 border-box">
+                        <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12 ">
                             <span>ABOUT US</span>
                             <h2>Identifying And Responding To Emerging Risks</h2>
                             <p>Cybersecurity refers to the practice of protecting computer systems, networks, devices, and
                                 data from unauthorized access, cyberattacks, theft, or damage. It encompasses a range of
                                 technologies, processes. and practices designed to safeguard digital assets and ensure </p>
-                                <i class="fa-solid fa-shield-halved"></i><span>High Quality Service</span>
-                                <i class="fa-solid fa-shield-halved"></i><span>Website Security Services</span>
-                                <i class="fa-solid fa-shield-halved"></i><span>Effective Protection</span>
-                                <i class="fa-solid fa-shield-halved"></i><span>Security Management</span>
-                                <i class="fa-solid fa-shield-halved"></i><span>Database Security</span>                        
+                                <i class="fa-solid fa-shield-halved"></i><span>High Quality Service</span><br>
+                                <i class="fa-solid fa-shield-halved"></i><span>Website Security Services</span><br>
+                                <i class="fa-solid fa-shield-halved"></i><span>Effective Protection</span><br>
+                                <i class="fa-solid fa-shield-halved"></i><span>Security Management</span><br>
+                                <i class="fa-solid fa-shield-halved"></i><span>Database Security</span>                     
                         </div>
                     </div>
                 </div>
             </section>
 
+
+
         </div>
     </div>
+
+
+
+
+
+
+
 
 
 
