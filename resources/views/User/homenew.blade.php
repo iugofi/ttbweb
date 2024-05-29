@@ -81,10 +81,10 @@
                 <div class="container">
                     <div class="grid grid-cols-12 gap-6 bg-white-one">
                         <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-12 col-span-12">
-                            <div class="icon-box flex">
+                            <div class="icon-box flex p-3">
                                 <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-12 col-span-12">
                                     <img src="{{ asset('assets/home-two-img/feature_box_1_1.svg') }}" alt=""
-                                        class="img-fluid" width="20%">
+                                        class="img-fluid" width="100%">
                                 </div>
                                 <div class="xxl:col-span-8 xl:col-span-8 lg:col-span-8 md:col-span-12 col-span-12">
                                     <h3>Block to all hackers </h3>
@@ -94,10 +94,10 @@
                             </div>
                         </div>
                         <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-12 col-span-12">
-                            <div class="icon-box flex">
+                            <div class="icon-box flex p-3">
                                 <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-12 col-span-12">
                                     <img src="{{ asset('assets/home-two-img/feature_box_1_2.svg') }}" alt=""
-                                        class="img-fluid" width="20%">
+                                        class="img-fluid" width="100%">
                                 </div>
                                 <div class="xxl:col-span-8 xl:col-span-8 lg:col-span-8 md:col-span-12 col-span-12">
                                     <h3>Block to all hackers </h3>
@@ -107,10 +107,10 @@
                             </div>
                         </div>
                         <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-12 col-span-12">
-                            <div class="icon-box flex">
+                            <div class="icon-box flex p-3">
                                 <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-12 col-span-12">
                                     <img src="{{ asset('assets/home-two-img/feature_box_1_3.svg') }}" alt=""
-                                        class="img-fluid" width="20%">
+                                        class="img-fluid" width="100%">
                                 </div>
                                 <div class="xxl:col-span-8 xl:col-span-8 lg:col-span-8 md:col-span-12 col-span-12">
                                     <h3>Block to all hackers </h3>
