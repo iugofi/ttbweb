@@ -42487,9 +42487,30 @@ img.img-fluid.service-icon {
 /* end kunal */
 
 /* neeraj-home-page-css-22-04-2024 */
+
+.home2-seven-pricing{
+    padding: 59px 20px;
+}
+
+.home2-seven-pricing h5{
+    color: #fff;
+    font-size: 31px;
+    font-weight: 600;
+}
+.home2-seven-pricing h4{
+    color: #fff;
+    font-size: 16px;
+}
+
+.home2-seven-pricing .pricing-bx {
+    background-color: #000;
+    border-radius: 20px;
+}
+
 .section-home2-six {
     padding: 20px 0px 50px 0px;
 }
+
 
 .section-home2-six span {
     color: #12d2b3;
