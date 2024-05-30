@@ -42493,8 +42493,9 @@ img.img-fluid.service-icon {
 .home2-seven-pricing .full-box {
     background-color: transparent;
 }
-.home2-seven-pricing .full-box-brd{
-    border:0px solid;
+
+.home2-seven-pricing .full-box-brd {
+    border: 0px solid;
 }
 
 .home2-seven-pricing {
@@ -42504,7 +42505,7 @@ img.img-fluid.service-icon {
 .home2-seven-pricing .price-box {
     background-color: #fff;
     border-radius: 12px;
-    margin: 10px;
+    margin: 22px;
 }
 
 .home2-seven-pricing .pricing-bxx {
