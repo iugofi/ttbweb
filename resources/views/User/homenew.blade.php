@@ -158,9 +158,9 @@
             </section>
 
 
-            <section class="section-home2-four">
+            <section class="section-home2-five">
                 <div class="container">
-                    <div class="grid grid-cols-12 gap-6">
+                    <div class="grid grid-cols-12 gap-6 ">
                         <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-12 col-span-12 ">
                             <div>
                                 <img src="{{asset('assets/home-two-img/.svg')}}" alt="" class="img-fluid" width="20%">
