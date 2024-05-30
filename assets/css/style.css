@@ -42491,6 +42491,17 @@ img.img-fluid.service-icon {
 .section-home2-five {
     padding: 100px 0px;
 }
+
+.section-home2-five h3 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.section-home2-five p {
+    font-size: 16px;
+    color: #444;
+}
+
 .section-home2-five .imgcon-box {
     background-color: #ffff;
     padding: 61px;
