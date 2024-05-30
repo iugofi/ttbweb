@@ -687,8 +687,7 @@
                                                     class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12 col-span-12 ps-0">
                                                     <div class="p-6 pricing-offer overflow-hidden">
                                                         <span class="pricing-offer-details shadow">
-                                                            <span class="font-semibold">10%</span> <span
-                                                                class="text-[0.625rem] op-8 ms-1">Off</span>
+                                                            <span class="font-semibold">POPULAR</span> 
                                                         </span>
                                                         <h6 class="font-semibold text-center text-[1rem]">PREMIUM</h6>
                                                         <div class="py-4 flex items-center justify-center">
