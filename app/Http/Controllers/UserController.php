@@ -14,6 +14,7 @@ use App\Models\Newscomment;
 use App\Models\Contact; 
 use App\Models\Admin; 
 use App\Models\Visitors;
+use Jenssegers\Agent\Agent;
 use Mail;
 use Carbon\Carbon;
 use Illuminate\Support\Str;
@@ -107,17 +108,27 @@ class UserController extends Controller
 
     public function index(Request $request)
     {
-    $ip = $request->ip();
-    $visitor = Visitors::firstOrCreate(['ip_address' => $ip]);
-    $visitor->increment('visits');
-    $visitor->live = true;
-    $visitor->last_active = Carbon::now();
-    $visitor->save();
-    Visitors::where('last_active', '<', Carbon::now()->subMinutes(1))->update(['live' => false]);
-    
+        $ip = $request->ip();
+
+        // Initialize Agent to detect device name
+        $agent = new Agent();
+        $deviceName = $agent->device();
+
+        $visitor = Visitors::firstOrCreate(
+            ['ip_address' => $ip],
+            ['device_name' => $deviceName]
+        );
+        $visitor->increment('visits');
+        $visitor->live = true;
+        $visitor->last_active = Carbon::now();
+        $visitor->save();
+
+        // Mark visitors as not live if inactive for more than 1 minute
+        Visitors::where('last_active', '<', Carbon::now()->subMinutes(1))->update(['live' => false]);
 
         return view('User.welcome');
     }
+
     public function signin()
     {
         return view('User.signin-basic');
