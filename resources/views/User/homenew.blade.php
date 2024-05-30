@@ -535,7 +535,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="tab-pane !p-0 border-b-0 dark:border-defaultborder/10 hidden"
+                                        <div class="tab-pane !p-0 border-b-0 dark:border-defaultborder/10 full-box-brd hidden"
                                             id="pricing-yearly-pane" role="tabpanel">
                                             <div class="grid grid-cols-12">
                                                 <div
