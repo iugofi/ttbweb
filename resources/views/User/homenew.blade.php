@@ -239,9 +239,9 @@
                 <div class="container">
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
-                            <span>WHY CHOOSE US</span>
-                            <h2 class="mt-4">The Perfect Solution For Application Security</h2>
-                            <p class="mt-3 mb-5">As technology continues to evolve, the future of cybersecurity will likely
+                            <span class="ms-2">WHY CHOOSE US</span>
+                            <h2 class="mt-4 ms-2">The Perfect Solution For Application Security</h2>
+                            <p class="mt-3 mb-5 ms-2">As technology continues to evolve, the future of cybersecurity will likely
                                 be shaped by emerging trends such the adoption cloud computing, the proliferation of
                                 connected devices.</p>
                             <div class="flex">
