@@ -1,17 +1,13 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-full" data-nav-layout="horizontal" data-nav-style="menu-click"
     data-menu-position="fixed">
-
-
-
 <head>
 
     <!-- Meta Data -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Description" content="@yield('description')">
-    <meta name="keywords"
-        content="@yield('keywords')">
+    <meta name="keywords" content="@yield('keywords')">
     <link rel="canonical" href="@yield('canonical')" />
 
     <!-- TITLE -->
@@ -51,12 +47,12 @@
 
     {{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> --}}
-  
+
     <script src="{{ asset('assets/js/message.js') }}"></script>
 
 
     {{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"> --}}
- 
+
 
 
 </head>
@@ -123,12 +119,12 @@
                                 id="switcher-primary1">
                         </div>
                         <div class="ti-form-radio switch-select">
-                            <input class="ti-form-radio color-input color-primary-3" type="radio" name="theme-primary"
-                                id="switcher-primary2">
+                            <input class="ti-form-radio color-input color-primary-3" type="radio"
+                                name="theme-primary" id="switcher-primary2">
                         </div>
                         <div class="ti-form-radio switch-select">
-                            <input class="ti-form-radio color-input color-primary-4" type="radio" name="theme-primary"
-                                id="switcher-primary3">
+                            <input class="ti-form-radio color-input color-primary-4" type="radio"
+                                name="theme-primary" id="switcher-primary3">
                         </div>
                         <div class="ti-form-radio switch-select">
                             <input class="ti-form-radio color-input color-primary-5" type="radio"
@@ -166,9 +162,11 @@
                     <!-- Start::header-element -->
                     <div class="header-element">
                         <div class="horizontal-logo">
-                            <a href="{{route('user.index')}}" class="header-logo">
-                                <img src="{{asset('assets/images/brand-logos/favicon.png')}}" alt="logo" class="toggle-logo">
-                                <img src="{{asset('assets/images/brand-logos/favicon.png')}}" alt="logo" class="toggle-dark">
+                            <a href="{{ route('user.index') }}" class="header-logo">
+                                <img src="{{ asset('assets/images/brand-logos/favicon.png') }}" alt="logo"
+                                    class="toggle-logo">
+                                <img src="{{ asset('assets/images/brand-logos/favicon.png') }}" alt="logo"
+                                    class="toggle-dark">
                             </a>
                         </div>
                     </div>
@@ -231,7 +229,7 @@
 
         <!-- SIDEBAR -->
 
-    
+
 
 
 
