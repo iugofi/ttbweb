@@ -13,7 +13,9 @@ use App\Models\Comment;
 use App\Models\Newscomment; 
 use App\Models\Contact; 
 use App\Models\Admin; 
+use App\Models\Visitors;
 use Mail;
+use Carbon\Carbon;
 use Illuminate\Support\Str;
 
 class UserController extends Controller
@@ -103,8 +105,17 @@ class UserController extends Controller
     }
 
 
-    public function index()
+    public function index(Request $request)
     {
+    $ip = $request->ip();
+    $visitor = Visitors::firstOrCreate(['ip_address' => $ip]);
+    $visitor->increment('visits');
+    $visitor->live = true;
+    $visitor->last_active = Carbon::now();
+    $visitor->save();
+    Visitors::where('last_active', '<', Carbon::now()->subMinutes(1))->update(['live' => false]);
+    
+
         return view('User.welcome');
     }
     public function signin()
@@ -180,6 +191,7 @@ class UserController extends Controller
     {
         return view('User.malware_detection');
     }
+    
     public function contactform(Request $request)
     {
 
