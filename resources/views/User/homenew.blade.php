@@ -162,103 +162,118 @@
                 <div class="container imgcon-box">
                     <div class="grid grid-cols-12 ">
                         <div class="col-span-12 text-center pb-5">
-                        <span>OUR SERVICES</span>
-                        <h2 class="mt-4">We Provide Experts Cyber <br> Security Services.</h2>
-                    </div>
+                            <span>OUR SERVICES</span>
+                            <h2 class="mt-4">We Provide Experts Cyber <br> Security Services.</h2>
+                        </div>
                     </div>
                     <div class="grid grid-cols-12 gap-6 mt-5">
                         <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-12 col-span-12 img-boxx">
-                                <img src="{{asset('assets/home-two-img/service_3_1.svg')}}" alt="" class="img-fluid" width="20%">
+                            <img src="{{ asset('assets/home-two-img/service_3_1.svg') }}" alt=""
+                                class="img-fluid" width="20%">
                             <h3 class="mt-2">Cyber Security</h3>
-                            <p class="mt-2 mb-3" >Building a cybersecurity culture within organizations is essential to promoting security.</p>
+                            <p class="mt-2 mb-3">Building a cybersecurity culture within organizations is essential to
+                                promoting security.</p>
                             <a href="#"><i class="fas fa-arrow-right"></i></a>
                         </div>
                         <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-12 col-span-12 img-boxx">
-                                <img src="{{asset('assets/home-two-img/service_3_2.svg')}}" alt="" class="img-fluid" width="20%">
+                            <img src="{{ asset('assets/home-two-img/service_3_2.svg') }}" alt=""
+                                class="img-fluid" width="20%">
                             <h3 class="mt-2">Cyber Security</h3>
-                            <p class="mt-2 mb-3" >Building a cybersecurity culture within organizations is essential to promoting security.</p>
+                            <p class="mt-2 mb-3">Building a cybersecurity culture within organizations is essential to
+                                promoting security.</p>
                             <a href="#"><i class="fas fa-arrow-right"></i></a>
                         </div>
                         <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-12 col-span-12 img-boxx">
-                                <img src="{{asset('assets/home-two-img/service_3_3.svg')}}" alt="" class="img-fluid" width="20%">
+                            <img src="{{ asset('assets/home-two-img/service_3_3.svg') }}" alt=""
+                                class="img-fluid" width="20%">
                             <h3 class="mt-2">Cyber Security</h3>
-                            <p class="mt-2 mb-3" >Building a cybersecurity culture within organizations is essential to promoting security.</p>
+                            <p class="mt-2 mb-3">Building a cybersecurity culture within organizations is essential to
+                                promoting security.</p>
                             <a href="#"><i class="fas fa-arrow-right"></i></a>
                         </div>
                         <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-12 col-span-12 img-boxx">
-                                <img src="{{asset('assets/home-two-img/service_3_4.svg')}}" alt="" class="img-fluid" width="20%">
+                            <img src="{{ asset('assets/home-two-img/service_3_4.svg') }}" alt=""
+                                class="img-fluid" width="20%">
                             <h3 class="mt-2">Cyber Security</h3>
-                            <p class="mt-2 mb-3" >Building a cybersecurity culture within organizations is essential to promoting security.</p>
+                            <p class="mt-2 mb-3">Building a cybersecurity culture within organizations is essential to
+                                promoting security.</p>
                             <a href="#"><i class="fas fa-arrow-right"></i></a>
                         </div>
                         <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-12 col-span-12 img-boxx">
-                                <img src="{{asset('assets/home-two-img/service_3_5.svg')}}" alt="" class="img-fluid" width="20%">
+                            <img src="{{ asset('assets/home-two-img/service_3_5.svg') }}" alt=""
+                                class="img-fluid" width="20%">
                             <h3 class="mt-2">Cyber Security</h3>
-                            <p class="mt-2 mb-3" >Building a cybersecurity culture within organizations is essential to promoting security.</p>
+                            <p class="mt-2 mb-3">Building a cybersecurity culture within organizations is essential to
+                                promoting security.</p>
                             <a href="#"><i class="fas fa-arrow-right"></i></a>
                         </div>
                         <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-12 col-span-12 img-boxx">
-                                <img src="{{asset('assets/home-two-img/service_3_6.svg')}}" alt="" class="img-fluid" width="20%">
+                            <img src="{{ asset('assets/home-two-img/service_3_6.svg') }}" alt=""
+                                class="img-fluid" width="20%">
                             <h3 class="mt-2">Cyber Security</h3>
-                            <p class="mt-2 mb-3" >Building a cybersecurity culture within organizations is essential to promoting security.</p>
+                            <p class="mt-2 mb-3">Building a cybersecurity culture within organizations is essential to
+                                promoting security.</p>
                             <a href="#"><i class="fas fa-arrow-right"></i></a>
                         </div>
                         <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-12 col-span-12 img-boxx">
-                                <img src="{{asset('assets/home-two-img/service_3_7.svg')}}" alt="" class="img-fluid" width="20%">
+                            <img src="{{ asset('assets/home-two-img/service_3_7.svg') }}" alt=""
+                                class="img-fluid" width="20%">
                             <h3 class="mt-2">Cyber Security</h3>
-                            <p class="mt-2 mb-3" >Building a cybersecurity culture within organizations is essential to promoting security.</p>
+                            <p class="mt-2 mb-3">Building a cybersecurity culture within organizations is essential to
+                                promoting security.</p>
                             <a href="#"><i class="fas fa-arrow-right"></i></a>
                         </div>
                         <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-12 col-span-12 img-boxx">
-                                <img src="{{asset('assets/home-two-img/service_3_8.svg')}}" alt="" class="img-fluid" width="20%">
+                            <img src="{{ asset('assets/home-two-img/service_3_8.svg') }}" alt=""
+                                class="img-fluid" width="20%">
                             <h3 class="mt-2">Cyber Security</h3>
-                            <p class="mt-2 mb-3" >Building a cybersecurity culture within organizations is essential to promoting security.</p>
+                            <p class="mt-2 mb-3">Building a cybersecurity culture within organizations is essential to
+                                promoting security.</p>
                             <a href="#"><i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
             </section>
-       
+
             <section class="section-home2-six">
                 <div class="container">
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
-                            <span>ABOUT US</span>
-                            <h2 class="mt-4">Identifying And Responding To Emerging Risks</h2>
-                            <p class="mt-3 mb-5">Cybersecurity refers to the practice of protecting computer systems,
-                                networks, devices, and
-                                data from unauthorized access, cyberattacks, theft, or damage. It encompasses a range of
-                                technologies, processes. and practices designed to safeguard digital assets and ensure </p>
-                                <div class="flex">
-                                    <div class="icon-txt">
-                                        <i class="fas fa-check-square"></i><span>Your Files are Protected</span>
-                                    </div>
-                                    <div class="icon-txt">
-                                        <i class="fas fa-check-square"></i><span>Your Files are Protected</span>
-                                    </div>
+                            <span>WHY CHOOSE US</span>
+                            <h2 class="mt-4">The Perfect Solution For Application Security</h2>
+                            <p class="mt-3 mb-5">As technology continues to evolve, the future of cybersecurity will likely
+                                be shaped by emerging trends such the adoption cloud computing, the proliferation of
+                                connected devices.</p>
+                            <div class="flex">
+                                <div class="icon-txt">
+                                    <i class="fas fa-check-square"></i><span>Your Files are Protected</span>
                                 </div>
-                                <div class="flex">
-                                    <div class="icon-txt">
-                                        <i class="fas fa-check-square"></i><span>Your Files are Protected</span>
-                                    </div>
-                                    <div class="icon-txt">
-                                        <i class="fas fa-check-square"></i><span>Your Files are Protected</span>
-                                    </div>
+                                <div class="icon-txt">
+                                    <i class="fas fa-check-square"></i><span>Your Files are Protected</span>
                                 </div>
-                                <div class="flex">
-                                    <div class="icon-txt">
-                                        <i class="fas fa-check-square"></i><span>Your Files are Protected</span>
-                                    </div>
-                                    <div class="icon-txt">
-                                        <i class="fas fa-check-square"></i><span>Your Files are Protected</span>
-                                    </div>
+                            </div>
+                            <div class="flex">
+                                <div class="icon-txt">
+                                    <i class="fas fa-check-square"></i><span>Your Files are Protected</span>
                                 </div>
+                                <div class="icon-txt">
+                                    <i class="fas fa-check-square"></i><span>Your Files are Protected</span>
+                                </div>
+                            </div>
+                            <div class="flex">
+                                <div class="icon-txt">
+                                    <i class="fas fa-check-square"></i><span>Your Files are Protected</span>
+                                </div>
+                                <div class="icon-txt">
+                                    <i class="fas fa-check-square"></i><span>Your Files are Protected</span>
+                                </div>
+                            </div>
 
                         </div>
                         <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12 ">
                             <img src="{{ asset('assets/home-two-img/11111111.svg') }}" alt="" class="img-fluid"
-                            width="20%">
-                            
+                                width="20%">
+
                         </div>
                     </div>
                 </div>
