@@ -15,6 +15,7 @@ use App\Models\Contact;
 use App\Models\Admin; 
 use App\Models\Visitors;
 use Mail;
+use Carbon\Carbon;
 use Illuminate\Support\Str;
 
 class UserController extends Controller
