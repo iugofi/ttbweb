@@ -289,10 +289,8 @@
                             <div class="flex justify-center !mx-auto">
                                 <div class="">
                                     <h4>SUBSCRIPTION PRICING</h4>
-                                    <h5 class="text-center"> Simple
+                                    <h5 class="text-center mb-5 mt-4"> Simple
                                         Pricing For Everyone </h5>
-                                    <p class="text-center">Choose plan that suits
-                                        best for your business needs, Our plans scales with you based on your needs</p>
                                 </div>
                             </div>
                             <div class="flex justify-center mb-4">
