@@ -42491,6 +42491,12 @@ img.img-fluid.service-icon {
 .section-home2-five {
     padding: 100px 0px;
 }
+.section-home2-five .imgcon-box {
+    background-color: #ffff;
+    padding: 61px;
+    border-radius: 22px;
+}
+
 
 .section-home2-four {
     padding: 0px 0px 34px 0px;
