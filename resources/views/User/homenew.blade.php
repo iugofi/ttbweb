@@ -1,6 +1,6 @@
 @extends('User.Layouts.layout')
 
-@section('title', 'Test')
+@section('title', 'Home')
 @section('Description', '')
 @section('keywords', '')
 @section('canonical', '')
