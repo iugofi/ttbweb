@@ -281,6 +281,7 @@
             </section>
 
             <section class="home2-seven-pricing">
+                <div class="container">
                 <div class="grid grid-cols-12 gap-6 justify-center mb-[3rem]">
                     <div class="xxl:col-span-2 col-span-12"></div>
                     <div class="xxl:col-span-8 xl:col-span-12 col-span-12">
@@ -767,6 +768,7 @@
                     </div>
                     <div class="xxl:col-span-2 col-span-12"></div>
                 </div>
+            </div>
             </section>
 
         </div>
