@@ -42492,9 +42492,10 @@ img.img-fluid.service-icon {
     padding: 100px 0px;
 }
 
-.img-boxx:hover {
+.img-boxx:hover .img-boxx{
     background-color: #12d2b3;
 }
+
 
 .img-boxx:hover img {
     -webkit-filter: brightness(0) invert(1);
