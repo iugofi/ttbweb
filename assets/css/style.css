@@ -42498,7 +42498,9 @@ img.img-fluid.service-icon {
     border-radius: 14px;
     position: relative;
 }
-
+.section-home2-five a i{
+    color:#12D2B3;
+}
 .section-home2-five a {
     width: var(--btn-size, 46px);
     height: var(--btn-size, 46px);
