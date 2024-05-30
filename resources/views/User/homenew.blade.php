@@ -314,7 +314,7 @@
                                             id="pricing-monthly-pane" role="tabpanel">
                                             <div class="grid grid-cols-12">
                                                 <div
-                                                    class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12 col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 pe-0">
+                                                    class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12 col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 pe-0 price-box">
                                                     <div class="p-6">
                                                         <h6 class="font-semibold text-center text-[1rem]">BASIC</h6>
                                                         <div class="py-4 flex items-center justify-center">
@@ -538,7 +538,7 @@
                                             id="pricing-yearly-pane" role="tabpanel">
                                             <div class="grid grid-cols-12">
                                                 <div
-                                                    class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12  col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 pe-0">
+                                                    class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12  col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 pe-0 price-box">
                                                     <div class="p-6">
                                                         <h6 class="font-semibold text-center text-[1rem]">BASIC</h6>
                                                         <div class="py-4 flex items-center justify-center">
