@@ -13,6 +13,7 @@ use App\Models\Comment;
 use App\Models\Newscomment; 
 use App\Models\Contact; 
 use App\Models\Admin; 
+use App\Models\Visitors;
 use Mail;
 use Illuminate\Support\Str;
 
@@ -103,9 +104,14 @@ class UserController extends Controller
     }
 
 
-    public function index()
+    public function index(Request $request)
     {
-        return view('User.welcome');
+        $ip = $request->ip();
+        $visitor = Visitors::firstOrCreate(['ip_address' => $ip]);
+        $visitor->increment('visits');
+        $visitor->save();
+        $visitors = Visitors::count();
+        return view('User.welcome', compact('visitors'));
     }
     public function signin()
     {
