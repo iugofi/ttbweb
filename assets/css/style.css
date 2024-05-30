@@ -42492,7 +42492,7 @@ img.img-fluid.service-icon {
     padding: 100px 0px;
 }
 
-.section-home2-five:hover .img-boxx {
+.img-boxx:hover  {
     background: #12d2b3;
 }
 
