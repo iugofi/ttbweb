@@ -78,7 +78,6 @@
 
 </body>
 
-<!-- Mirrored from php.spruko.com/tailwind/ynex/ynex/pages/landing-jobs.php by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 13 Mar 2024 10:03:39 GMT -->
 
 </html>
 <!-- This code use for render base file -->

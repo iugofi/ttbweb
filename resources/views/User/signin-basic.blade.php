@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr" data-nav-layout="vertical" data-vertical-style="overlay" class="light"
     data-header-styles="light" data-menu-styles="light" data-toggled="close">
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
 
 <head>
 

@@ -4,8 +4,8 @@
     
 
     
-<!-- Mirrored from php.spruko.com/tailwind/ynex/ynex/pages/error500.php by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 13 Mar 2024 10:03:46 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+
+
 <head>
 
         <!-- META DATA -->
@@ -80,6 +80,5 @@
 
 	</body>
 
-<!-- Mirrored from php.spruko.com/tailwind/ynex/ynex/pages/error500.php by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 13 Mar 2024 10:03:46 GMT -->
 </html>
 <!-- This code use for render base file -->
