@@ -106,11 +106,17 @@ class UserController extends Controller
 
     public function index(Request $request)
     {
-        $ip = $request->ip();
-        $visitor = Visitors::firstOrCreate(['ip_address' => $ip]);
-        $visitor->increment('visits');
-        $visitor->save();
-        return view('User.welcome');
+    $ip = $request->ip();
+    $visitor = Visitors::firstOrCreate(['ip_address' => $ip]);
+    $visitor->increment('visits');
+    $visitor->live = true;
+    $visitor->last_active = Carbon::now();
+    $visitor->save();
+    Visitors::where('last_active', '<', Carbon::now()->subMinutes(5))->update(['live' => false]);
+
+    $visitors = Visitors::all();
+
+        return view('User.welcome',compact('visitors'));
     }
     public function signin()
     {
