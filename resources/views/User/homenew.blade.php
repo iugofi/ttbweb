@@ -298,7 +298,7 @@
                                     <a class="hs-tab-active:bg-primary hs-tab-active:text-white cursor-pointer text-primary py-2 px-4  text-sm font-medium text-center rounded-sm hover:text-primary active"
                                         id="pricing-item1" data-hs-tab="#pricing-monthly-pane"
                                         aria-controls="pricing-monthly-pane">
-                                        Monthly
+                                        Antivirus
                                     </a>
                                     <a class="hs-tab-active:bg-primary hs-tab-active:text-white cursor-pointer text-primary py-2 px-4 text-sm font-medium text-center  rounded-sm hover:text-primary "
                                         id="pricing-yearly1-item1" data-hs-tab="#pricing-yearly-pane"
@@ -530,7 +530,9 @@
                                                             <button type="button"
                                                                 class="ti-btn bg-primary text-white">Get Started</button>
                                                         </div>
-                                                    </div>
+                                                    </div><a class="hs-tab-active:bg-primary hs-tab-active:text-white cursor-pointer text-primary py-2 px-4 text-sm font-medium text-center rounded-sm hover:text-primary active" id="pricing-item1" data-hs-tab="#pricing-monthly-pane" aria-controls="pricing-monthly-pane">
+                                        Monthly
+                                    </a>
                                                 </div>
                                             </div>
                                         </div>
