@@ -113,7 +113,7 @@ class UserController extends Controller
     $visitor->live = true;
     $visitor->last_active = Carbon::now();
     $visitor->save();
-    Visitors::where('last_active', '<', Carbon::now()->subMinutes(5))->update(['live' => false]);
+    Visitors::where('last_active', '<', Carbon::now()->subMinutes(1))->update(['live' => false]);
 
     $visitors = Visitors::all();
 
