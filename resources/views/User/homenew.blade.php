@@ -237,6 +237,22 @@
                                         <i class="fas fa-check-square"></i><span>Your Files are Protected</span>
                                     </div>
                                 </div>
+                                <div class="flex">
+                                    <div class="icon-txt">
+                                        <i class="fas fa-check-square"></i><span>Your Files are Protected</span>
+                                    </div>
+                                    <div class="icon-txt">
+                                        <i class="fas fa-check-square"></i><span>Your Files are Protected</span>
+                                    </div>
+                                </div>
+                                <div class="flex">
+                                    <div class="icon-txt">
+                                        <i class="fas fa-check-square"></i><span>Your Files are Protected</span>
+                                    </div>
+                                    <div class="icon-txt">
+                                        <i class="fas fa-check-square"></i><span>Your Files are Protected</span>
+                                    </div>
+                                </div>
 
                         </div>
                         <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12 ">
