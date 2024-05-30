@@ -110,9 +110,7 @@ class UserController extends Controller
     {
         $ip = $request->ip();
         $agent = new Agent();
-        dd($agent);
         $agent->setUserAgent($request->header('User-Agent'));
-    
         $device = $agent->device();
         $browser = $agent->browser();
     
