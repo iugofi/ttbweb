@@ -3,9 +3,7 @@
     data-menu-styles="dark">
 
 
-<!-- Mirrored from php.spruko.com/tailwind/ynex/ynex/pages/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 13 Mar 2024 10:00:08 GMT -->
-<!-- Added by HTTrack -->
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+
 
 <head>
 

@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr" class="h-full" data-nav-layout="horizontal" data-nav-style="menu-click"
     data-menu-position="fixed">
 
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+
 
 <head>
 
