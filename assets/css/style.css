@@ -42492,6 +42492,27 @@ img.img-fluid.service-icon {
     padding: 100px 0px;
 }
 
+.img-boxx:hover img {
+    -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
+}
+.img-boxx:hover h3 {
+    color: #fff;
+}
+.img-boxx:hover p {
+    color: #fff;
+}
+.img-boxx:hover a {
+    background-color: #12d2b3;
+    color: #fff;
+}
+.img-boxx:hover i {
+    color: #fff;
+}
+.img-boxx:hover {
+    background-color: #12d2b3;
+}
+
 .section-home2-five .img-boxx {
     padding: 23px 14px;
     background-color: #f3f2ea;
