@@ -110,8 +110,7 @@ class UserController extends Controller
         $visitor = Visitors::firstOrCreate(['ip_address' => $ip]);
         $visitor->increment('visits');
         $visitor->save();
-        $visitors = Visitors::count();
-        return view('User.welcome', compact('visitors'));
+        return view('User.welcome');
     }
     public function signin()
     {
