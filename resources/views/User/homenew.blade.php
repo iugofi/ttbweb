@@ -82,7 +82,8 @@
                     <div class="grid grid-cols-12 gap-6 bg-white-one">
                         <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-12 col-span-12">
                             <div class="icon-box flex p-3">
-                                <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-12 col-span-12 p-3 img-box">
+                                <div
+                                    class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-12 col-span-12 p-3 img-box">
                                     <img src="{{ asset('assets/home-two-img/feature_box_1_1.svg') }}" alt=""
                                         class="img-fluid" width="90px">
                                 </div>
@@ -96,7 +97,8 @@
                         </div>
                         <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-12 col-span-12 border-box">
                             <div class="icon-box flex p-3">
-                                <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-12 col-span-12 p-3 img-box">
+                                <div
+                                    class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-12 col-span-12 p-3 img-box">
                                     <img src="{{ asset('assets/home-two-img/feature_box_1_2.svg') }}" alt=""
                                         class="img-fluid" width="90px">
                                 </div>
@@ -110,7 +112,8 @@
                         </div>
                         <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-12 col-span-12 ">
                             <div class="icon-box flex p-3">
-                                <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-12 col-span-12 p-3 img-box">
+                                <div
+                                    class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-12 col-span-12 p-3 img-box">
                                     <img src="{{ asset('assets/home-two-img/feature_box_1_3.svg') }}" alt=""
                                         class="img-fluid" width="90px">
                                 </div>
@@ -152,7 +155,49 @@
                         </div>
                     </div>
                 </div>
-            </section>  
+            </section>
+
+
+            <section class="section-home2-four">
+                <div class="container">
+                    <div class="grid grid-cols-12 gap-6">
+                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-12 col-span-12 ">
+                            <div>
+                                <img src="{{asset('assets/home-two-img/.svg')}}" alt="" class="img-fluid" width="20%">
+                            </div>
+                            <h3>Cyber Security</h3>
+                            <p>Building a cybersecurity culture within organizations is essential to promoting security.</p>
+                            <a href="#"><i class="fas fa-arrow-right"></i></a>
+                        </div>
+                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-12 col-span-12 ">
+                            <div>
+                                <img src="{{asset('assets/home-two-img/.svg')}}" alt="" class="img-fluid" width="20%">
+                            </div>
+                            <h3>Cyber Security</h3>
+                            <p>Building a cybersecurity culture within organizations is essential to promoting security.</p>
+                            <a href="#"><i class="fas fa-arrow-right"></i></a>
+                        </div>
+                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-12 col-span-12 ">
+                            <div>
+                                <img src="{{asset('assets/home-two-img/.svg')}}" alt="" class="img-fluid" width="20%">
+                            </div>
+                            <h3>Cyber Security</h3>
+                            <p>Building a cybersecurity culture within organizations is essential to promoting security.</p>
+                            <a href="#"><i class="fas fa-arrow-right"></i></a>
+                        </div>
+                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-12 col-span-12 ">
+                            <div>
+                                <img src="{{asset('assets/home-two-img/.svg')}}" alt="" class="img-fluid" width="20%">
+                            </div>
+                            <h3>Cyber Security</h3>
+                            <p>Building a cybersecurity culture within organizations is essential to promoting security.</p>
+                            <a href="#"><i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
 
 
 
