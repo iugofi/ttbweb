@@ -307,10 +307,10 @@
                                     </a>
                                 </nav>
                             </div>
-                            <div class="box overflow-hidden">
+                            <div class="box overflow-hidden full-box">
                                 <div class="box-body !p-0">
                                     <div class="tab-content" id="myTabContent">
-                                        <div class="tab-pane show active !p-0 border-b-0 dark:border-defaultborder/10"
+                                        <div class="tab-pane show active !p-0 border-b-0 dark:border-defaultborder/10 full-box-brd"
                                             id="pricing-monthly-pane" role="tabpanel">
                                             <div class="grid grid-cols-12">
                                                 <div
