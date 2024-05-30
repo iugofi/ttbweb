@@ -48779,7 +48779,6 @@ img.img-fluid.service-icon {
 }
 
 .icon-box:hover .img-box img {
-    width: 150px;
     transform: scale(-1) rotate(180deg);
     -ms-transform: scale(-1) rotate(180deg);
     -webkit-transform: scale(-1) rotate(180deg);
