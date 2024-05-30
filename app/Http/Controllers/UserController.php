@@ -104,14 +104,14 @@ class UserController extends Controller
     }
 
 
-    public function index()
+    public function index(Request $request)
     {
-    $ip = $request->ip();
-    $visitor = Visitors::firstOrCreate(['ip_address' => $ip]);
-    $visitor->increment('visits');
-    $visitor->save();
-    $visitors = Visitors::count();
-        return view('User.welcome',compact('visitors'));
+        $ip = $request->ip();
+        $visitor = Visitors::firstOrCreate(['ip_address' => $ip]);
+        $visitor->increment('visits');
+        $visitor->save();
+        $visitors = Visitors::count();
+        return view('User.welcome', compact('visitors'));
     }
     public function signin()
     {
