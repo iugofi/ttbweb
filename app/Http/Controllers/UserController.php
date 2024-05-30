@@ -114,10 +114,9 @@ class UserController extends Controller
     $visitor->last_active = Carbon::now();
     $visitor->save();
     Visitors::where('last_active', '<', Carbon::now()->subMinutes(1))->update(['live' => false]);
+    
 
-    $visitors = Visitors::all();
-
-        return view('User.welcome',compact('visitors'));
+        return view('User.welcome');
     }
     public function signin()
     {

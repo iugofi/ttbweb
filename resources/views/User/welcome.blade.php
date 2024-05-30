@@ -16,25 +16,7 @@
     </style>
     <div class="main-content !p-0 landing-main dark:text-defaulttextcolor/70">
 
-        <h1>Visitors</h1>
-        <table>
-            <thead>
-                <tr>
-                    <th>IP Address</th>
-                    <th>Visits</th>
-                    <th>Live Status</th>
-                </tr>
-            </thead>
-            <tbody>
-                @foreach ($visitors as $visitor)
-                    <tr>
-                        <td>{{ $visitor->ip_address }}</td>
-                        <td>{{ $visitor->visits }}</td>
-                        <td>{{ $visitor->live ? 'Live' : 'Not Live' }}</td>
-                    </tr>
-                @endforeach
-            </tbody>
-        </table>
+
         <!-- Start::Home Content -->
         <div class="landing-banner" id="home">
             <section class="section sect-ban">
