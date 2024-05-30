@@ -42499,7 +42499,16 @@ img.img-fluid.service-icon {
     font-size: 32px;
     font-weight: 700;
 }
-
+.section-home2-six .icon-txt {
+    background-color: #fff;
+    padding: 11px;
+    margin: 10px;
+}
+.section-home2-six .icon-txt i {
+    color: #12d2b3;
+    font-size: 17px;
+    margin-right: 10px;
+}
 .section-home2-six p{
     font-size:16px;
 }
