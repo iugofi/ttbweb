@@ -246,26 +246,26 @@
                                 connected devices.</p>
                             <div class="flex">
                                 <div class="icon-txt">
-                                    <i class="fas fa-check-square"></i><span>Your Files are Protected</span>
+                                    <i class="fas fa-check-square-o"></i><span>Your Files are Protected</span>
                                 </div>
                                 <div class="icon-txt">
-                                    <i class="fas fa-check-square"></i><span>Your Files are Protected</span>
-                                </div>
-                            </div>
-                            <div class="flex">
-                                <div class="icon-txt">
-                                    <i class="fas fa-check-square"></i><span>Your Files are Protected</span>
-                                </div>
-                                <div class="icon-txt">
-                                    <i class="fas fa-check-square"></i><span>Your Files are Protected</span>
+                                    <i class="fas fa-check-square-o"></i><span>Your Files are Protected</span>
                                 </div>
                             </div>
                             <div class="flex">
                                 <div class="icon-txt">
-                                    <i class="fas fa-check-square"></i><span>Your Files are Protected</span>
+                                    <i class="fas fa-check-square-o"></i><span>Your Files are Protected</span>
                                 </div>
                                 <div class="icon-txt">
-                                    <i class="fas fa-check-square"></i><span>Your Files are Protected</span>
+                                    <i class="fas fa-check-square-o"></i><span>Your Files are Protected</span>
+                                </div>
+                            </div>
+                            <div class="flex">
+                                <div class="icon-txt">
+                                    <i class="fas fa-check-square-o"></i><span>Your Files are Protected</span>
+                                </div>
+                                <div class="icon-txt">
+                                    <i class="fas fa-check-square-o"></i><span>Your Files are Protected</span>
                                 </div>
                             </div>
 
