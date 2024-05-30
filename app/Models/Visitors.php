@@ -9,7 +9,8 @@ class Visitors extends Model
 {
     protected $table = 'Visitor';
     protected $fillable = [
-        'ip_address'
+        'ip_address',
+        'device_name'
 
     ];
     use HasFactory;
