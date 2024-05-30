@@ -42492,8 +42492,8 @@ img.img-fluid.service-icon {
     padding: 100px 0px;
 }
 
-.img-boxx:hover  {
-    background: #12d2b3;
+.img-boxx:hover {
+    background-color: #12d2b3 !important;
 }
 
 .img-boxx:hover img {
