@@ -16575,11 +16575,11 @@ label {
 .pricing-offer .pricing-offer-details {
     position: absolute;
     inset-inline-end: -2.063rem;
-    top: -1.25rem;
+    top: 1.75rem;
     display: flex;
-    height: 3.75rem;
-    width: 5.438rem;
-    --tw-rotate: 45deg;
+    height: 1.50rem;
+    width: 11.438rem;
+    --tw-rotate: 38deg;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
     align-items: flex-end;
     justify-content: center;
