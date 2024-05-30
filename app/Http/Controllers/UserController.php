@@ -14,7 +14,7 @@ use App\Models\Newscomment;
 use App\Models\Contact; 
 use App\Models\Admin; 
 use App\Models\Visitors;
-use Jenssegers\Agent\Agent;
+use Jenssegers\Agent;
 use Mail;
 use Carbon\Carbon;
 use Illuminate\Support\Str;
