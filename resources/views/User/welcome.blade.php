@@ -16,7 +16,6 @@
     </style>
     <div class="main-content !p-0 landing-main dark:text-defaulttextcolor/70">
 
-        <p>Visitors: {{ $visitors }}</p>
 
         <!-- Start::Home Content -->
         <div class="landing-banner" id="home">
