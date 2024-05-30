@@ -42486,22 +42486,38 @@ img.img-fluid.service-icon {
 
 /* end kunal */
 
+
 /* neeraj-home-page-css-22-04-2024 */
 
-.home2-seven-pricing{
+
+.home2-seven-pricing .full-box {
+    background-color: transparent;
+}
+.home2-seven-pricing .full-box-brd{
+    border:0px solid;
+}
+
+.home2-seven-pricing {
     padding: 59px 20px;
 }
 
-.home2-seven-pricing .pricing-bxx{
+.home2-seven-pricing .price-box {
+    background-color: #fff;
+    border-radius: 12px;
+    margin: 10px;
+}
+
+.home2-seven-pricing .pricing-bxx {
     background-color: #000;
     border-radius: 20px;
 }
 
-.home2-seven-pricing h5{
+.home2-seven-pricing h5 {
     color: #fff;
     font-size: 36px;
     font-weight: 600;
 }
+
 .home2-seven-pricing h4 {
     color: #12d2b3;
     font-size: 16px;
@@ -42523,23 +42539,27 @@ img.img-fluid.service-icon {
     color: #12d2b3;
     font-size: 16px;
 }
+
 .section-home2-six h2 {
     font-size: 32px;
     font-weight: 700;
 }
+
 .section-home2-six .icon-txt {
     background-color: #fff;
     padding: 11px;
     margin: 10px;
     border-radius: 10px;
 }
+
 .section-home2-six .icon-txt i {
     color: #12d2b3;
     font-size: 17px;
     margin-right: 10px;
 }
-.section-home2-six p{
-    font-size:16px;
+
+.section-home2-six p {
+    font-size: 16px;
 }
 
 .section-home2-six .icon-txt span {
@@ -42559,6 +42579,7 @@ img.img-fluid.service-icon {
     font-weight: 700;
     font-size: 30px;
 }
+
 .img-boxx:hover {
     background-color: #12d2b3 !important;
 }
@@ -42567,16 +42588,20 @@ img.img-fluid.service-icon {
     -webkit-filter: brightness(0) invert(1);
     filter: brightness(0) invert(1);
 }
+
 .img-boxx:hover h3 {
     color: #fff;
 }
+
 .img-boxx:hover p {
     color: #fff;
 }
+
 .img-boxx:hover a {
     background-color: #12d2b3;
     color: #fff;
 }
+
 .img-boxx:hover i {
     color: #fff;
 }
@@ -42587,9 +42612,11 @@ img.img-fluid.service-icon {
     border-radius: 14px;
     position: relative;
 }
-.section-home2-five a i{
-    color:#12D2B3;
+
+.section-home2-five a i {
+    color: #12D2B3;
 }
+
 .section-home2-five a {
     width: var(--btn-size, 46px);
     height: var(--btn-size, 46px);
@@ -42606,6 +42633,7 @@ img.img-fluid.service-icon {
     right: -13px;
     bottom: -19px;
 }
+
 .section-home2-five h3 {
     font-size: 16px;
     font-weight: 700;

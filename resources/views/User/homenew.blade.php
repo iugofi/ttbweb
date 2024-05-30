@@ -298,23 +298,23 @@
                                     <a class="hs-tab-active:bg-primary hs-tab-active:text-white cursor-pointer text-primary py-2 px-4  text-sm font-medium text-center rounded-sm hover:text-primary active"
                                         id="pricing-item1" data-hs-tab="#pricing-monthly-pane"
                                         aria-controls="pricing-monthly-pane">
-                                        Monthly
+                                        Antivirus
                                     </a>
                                     <a class="hs-tab-active:bg-primary hs-tab-active:text-white cursor-pointer text-primary py-2 px-4 text-sm font-medium text-center  rounded-sm hover:text-primary "
                                         id="pricing-yearly1-item1" data-hs-tab="#pricing-yearly-pane"
                                         aria-controls="pricing-yearly-pane">
-                                        Yearly
+                                        VPN
                                     </a>
                                 </nav>
                             </div>
-                            <div class="box overflow-hidden">
+                            <div class="box overflow-hidden full-box">
                                 <div class="box-body !p-0">
                                     <div class="tab-content" id="myTabContent">
-                                        <div class="tab-pane show active !p-0 border-b-0 dark:border-defaultborder/10"
+                                        <div class="tab-pane show active !p-0 border-b-0 dark:border-defaultborder/10 full-box-brd"
                                             id="pricing-monthly-pane" role="tabpanel">
                                             <div class="grid grid-cols-12">
                                                 <div
-                                                    class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12 col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 pe-0">
+                                                    class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12 col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 pe-0 price-box">
                                                     <div class="p-6">
                                                         <h6 class="font-semibold text-center text-[1rem]">BASIC</h6>
                                                         <div class="py-4 flex items-center justify-center">
@@ -538,7 +538,7 @@
                                             id="pricing-yearly-pane" role="tabpanel">
                                             <div class="grid grid-cols-12">
                                                 <div
-                                                    class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12  col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 pe-0">
+                                                    class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12  col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 pe-0 price-box">
                                                     <div class="p-6">
                                                         <h6 class="font-semibold text-center text-[1rem]">BASIC</h6>
                                                         <div class="py-4 flex items-center justify-center">
@@ -685,8 +685,7 @@
                                                     class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12 col-span-12 ps-0">
                                                     <div class="p-6 pricing-offer overflow-hidden">
                                                         <span class="pricing-offer-details shadow">
-                                                            <span class="font-semibold">10%</span> <span
-                                                                class="text-[0.625rem] op-8 ms-1">Off</span>
+                                                            <span class="font-semibold">POPULAR</span> 
                                                         </span>
                                                         <h6 class="font-semibold text-center text-[1rem]">PREMIUM</h6>
                                                         <div class="py-4 flex items-center justify-center">
