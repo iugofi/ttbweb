@@ -303,7 +303,7 @@
                                     <a class="hs-tab-active:bg-primary hs-tab-active:text-white cursor-pointer text-primary py-2 px-4 text-sm font-medium text-center  rounded-sm hover:text-primary "
                                         id="pricing-yearly1-item1" data-hs-tab="#pricing-yearly-pane"
                                         aria-controls="pricing-yearly-pane">
-                                        Yearly
+                                        VPN
                                     </a>
                                 </nav>
                             </div>
