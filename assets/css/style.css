@@ -42495,11 +42495,20 @@ img.img-fluid.service-icon {
     color: #12d2b3;
     font-size: 16px;
 }
+.section-home2-six h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.section-home2-six p{
+    font-size:16px;
+}
 
 .section-home2-six .icon-txt span {
     color: #444;
     font-size: 16px;
 }
+
 .section-home2-five {
     padding: 100px 0px;
 }
