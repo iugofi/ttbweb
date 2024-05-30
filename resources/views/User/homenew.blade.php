@@ -458,7 +458,8 @@
                                                     </div>
                                                 </div>
                                                 <div
-                                                    class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12 col-span-12 ps-0">
+                                                    class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12 col-span-12 ps-0 price-box
+                                                    ">
                                                     <div class="p-6 pricing-offer overflow-hidden">
                                                         <span class="pricing-offer-details shadow">
                                                             <span class="font-semibold">POPULAR</span>
@@ -682,7 +683,7 @@
                                                     </div>
                                                 </div>
                                                 <div
-                                                    class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12 col-span-12 ps-0">
+                                                    class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12 col-span-12 ps-0 price-box">
                                                     <div class="p-6 pricing-offer overflow-hidden">
                                                         <span class="pricing-offer-details shadow">
                                                             <span class="font-semibold">POPULAR</span> 
