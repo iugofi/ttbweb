@@ -160,9 +160,11 @@
 
             <section class="section-home2-five">
                 <div class="container">
-                    <div class="grid grid-cols-12 col-span-12">
+                    <div class="grid grid-cols-12 ">
+                        <div class="col-span-12">
                         <span>OUR SERVICES</span>
                         <h2>We Provide Experts Cyber Security Services.</h2>
+                    </div>
                     </div>
                     <div class="grid grid-cols-12 gap-6 imgcon-box">
                         <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-12 col-span-12 img-boxx">
