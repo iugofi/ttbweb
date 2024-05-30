@@ -42496,7 +42496,10 @@ img.img-fluid.service-icon {
     color: #12d2b3;
 }
 
-
+.section-home2-five h2 {
+    font-weight: 700;
+    font-size: 30px;
+}
 .img-boxx:hover {
     background-color: #12d2b3 !important;
 }
