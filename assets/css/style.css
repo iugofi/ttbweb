@@ -42492,6 +42492,11 @@ img.img-fluid.service-icon {
     padding: 100px 0px;
 }
 
+.section-home2-five span {
+    color: #12d2b3;
+}
+
+
 .img-boxx:hover {
     background-color: #12d2b3 !important;
 }

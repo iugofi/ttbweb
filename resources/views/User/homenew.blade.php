@@ -163,7 +163,7 @@
                     <div class="grid grid-cols-12 ">
                         <div class="col-span-12 text-center pb-5">
                         <span>OUR SERVICES</span>
-                        <h2>We Provide Experts Cyber Security Services.</h2>
+                        <h2 class="mt-5">We Provide Experts Cyber <br> Security Services.</h2>
                     </div>
                     </div>
                     <div class="grid grid-cols-12 gap-6 mt-5">
