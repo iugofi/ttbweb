@@ -795,11 +795,11 @@
     </div>
 
 
-    <section class="section landing-testimonials bg-[#f9fafb] section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]"
+    <section class="section section-home2-eight landing-testimonials bg-[#f9fafb] section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]"
     id="testimonials">
     <div class="container text-center">
-        <p class="text-[0.75rem] font-semibold text-success mb-1"><span
-                class="">TESTIMONIALS</span></p>
+        <p class="mb-1"><span
+                class="sp-test">TESTIMONIALS</span></p>
         <h3 class="font-semibold mb-2">We never failed to reach expectations</h3>
         <div>
             <div class="xl:col-span-7 col-span-12">
