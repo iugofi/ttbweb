@@ -803,7 +803,7 @@
         <h3 class="font-semibold mb-2">We never failed to reach expectations</h3>
         <div>
             <div class="xl:col-span-7 col-span-12">
-                <p class="text-[#8c9097] dark:text-white/50 text-[0.9375rem] mb-[3rem] font-normal">Some of
+                <p class="mb-[3rem]">Some of
                     the reviews our clients gave which brings motivation to work for future projects.</p>
             </div>
         </div>
