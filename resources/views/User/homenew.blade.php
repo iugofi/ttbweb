@@ -1172,7 +1172,7 @@
                         </div>
                         <div>
                             <span>Call For More Info</span>
-                            <h3><a href="tel">(+123) 5859 459</a></h3>
+                            <h3><a href="tel:">(+123) 5859 459</a></h3>
                         </div>
                       </div>
                     </div>
