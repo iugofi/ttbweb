@@ -799,7 +799,7 @@
     id="testimonials">
     <div class="container text-center">
         <p class="text-[0.75rem] font-semibold text-success mb-1"><span
-                class="landing-section-heading">TESTIMONIALS</span></p>
+                class="">TESTIMONIALS</span></p>
         <h3 class="font-semibold mb-2">We never failed to reach expectations</h3>
         <div>
             <div class="xl:col-span-7 col-span-12">
@@ -1159,7 +1159,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> 
             </div>
             <div class="swiper-pagination mt-4"></div>
         </div>
