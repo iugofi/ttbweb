@@ -795,8 +795,7 @@
     </div>
 
 
-    <section
-    class="section landing-testimonials bg-[#f9fafb] section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]"
+    <section class="section landing-testimonials bg-[#f9fafb] section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]"
     id="testimonials">
     <div class="container text-center">
         <p class="text-[0.75rem] font-semibold text-success mb-1"><span
@@ -1117,6 +1116,123 @@
                                     <span>1 month ago</span>
                                     <span class="block font-normal text-[0.75rem] text-success"><i>Brenda
                                             Simpson</i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide rtl:dir-rtl">
+                    <div class="box testimonial-card">
+                        <div class="box-body">
+                            <div class="flex items-center mb-4">
+                                <span class="avatar avatar-md avatar-rounded me-4">
+                                    <img src="assets/images/faces/7.jpg" alt="">
+                                </span>
+                                <div>
+                                    <p class="mb-0 font-semibold text-[0.875rem]">Julia Sams</p>
+                                    <p
+                                        class="mb-0 text-[0.625rem] font-semibold text-[#8c9097] dark:text-white/50">
+                                        CHIEF SECRETARY BHOL</p>
+                                </div>
+                            </div>
+                            <div class="mb-4">
+                                <span class="text-[#8c9097] dark:text-white/50">- Lorem ipsum dolor sit amet
+                                    consectetur adipisicing elit. Earum autem quaerat distinctio --</span>
+                            </div>
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center">
+                                    <span class="text-[#8c9097] dark:text-white/50">Rating : </span>
+                                    <span class="text-warning block ms-1">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                    </span>
+                                </div>
+                                <div
+                                    class="ltr:float-right rtl:float-left text-[0.75rem] font-semibold text-[#8c9097] dark:text-white/50 text-end">
+                                    <span>2 month ago</span>
+                                    <span class="block font-normal text-[0.75rem] text-success"><i>Julia
+                                            Sams</i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide rtl:dir-rtl">
+                    <div class="box testimonial-card">
+                        <div class="box-body">
+                            <div class="flex items-center mb-4">
+                                <span class="avatar avatar-md avatar-rounded me-4">
+                                    <img src="assets/images/faces/7.jpg" alt="">
+                                </span>
+                                <div>
+                                    <p class="mb-0 font-semibold text-[0.875rem]">Julia Sams</p>
+                                    <p
+                                        class="mb-0 text-[0.625rem] font-semibold text-[#8c9097] dark:text-white/50">
+                                        CHIEF SECRETARY BHOL</p>
+                                </div>
+                            </div>
+                            <div class="mb-4">
+                                <span class="text-[#8c9097] dark:text-white/50">- Lorem ipsum dolor sit amet
+                                    consectetur adipisicing elit. Earum autem quaerat distinctio --</span>
+                            </div>
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center">
+                                    <span class="text-[#8c9097] dark:text-white/50">Rating : </span>
+                                    <span class="text-warning block ms-1">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                    </span>
+                                </div>
+                                <div
+                                    class="ltr:float-right rtl:float-left text-[0.75rem] font-semibold text-[#8c9097] dark:text-white/50 text-end">
+                                    <span>2 month ago</span>
+                                    <span class="block font-normal text-[0.75rem] text-success"><i>Julia
+                                            Sams</i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide rtl:dir-rtl">
+                    <div class="box testimonial-card">
+                        <div class="box-body">
+                            <div class="flex items-center mb-4">
+                                <span class="avatar avatar-md avatar-rounded me-4">
+                                    <img src="assets/images/faces/7.jpg" alt="">
+                                </span>
+                                <div>
+                                    <p class="mb-0 font-semibold text-[0.875rem]">Julia Sams</p>
+                                    <p
+                                        class="mb-0 text-[0.625rem] font-semibold text-[#8c9097] dark:text-white/50">
+                                        CHIEF SECRETARY BHOL</p>
+                                </div>
+                            </div>
+                            <div class="mb-4">
+                                <span class="text-[#8c9097] dark:text-white/50">- Lorem ipsum dolor sit amet
+                                    consectetur adipisicing elit. Earum autem quaerat distinctio --</span>
+                            </div>
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center">
+                                    <span class="text-[#8c9097] dark:text-white/50">Rating : </span>
+                                    <span class="text-warning block ms-1">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                    </span>
+                                </div>
+                                <div
+                                    class="ltr:float-right rtl:float-left text-[0.75rem] font-semibold text-[#8c9097] dark:text-white/50 text-end">
+                                    <span>2 month ago</span>
+                                    <span class="block font-normal text-[0.75rem] text-success"><i>Julia
+                                            Sams</i></span>
                                 </div>
                             </div>
                         </div>
