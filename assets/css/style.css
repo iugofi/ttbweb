@@ -42510,6 +42510,8 @@ img.img-fluid.service-icon {
 .section-home2-nine span {
     font-size: 16px;
     color: #fff;
+    display: inline-block;
+    margin-top: 7px;
 }
 
 .section-home2-nine h3 {
