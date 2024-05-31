@@ -1185,7 +1185,31 @@
               </div>
             </section>
 
+            <section class="section-home2-ten">
+                <div class="container">
+                    <div class="grid grid-cols-12 gap-6">
+                        <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
+                            <span>ABOUT US</span>
+                            <h2 class="mt-4">Innovate Business Solution For Startup Comapnies</h2>
+                            <p class="mt-3 mb-5">Cybersecurity refers to the practice of protecting computer systems,
+                                networks, devices, and
+                                data from unauthorized access, cyberattacks, theft, or damage. It encompasses a range of
+                                technologies, processes. and practices designed to safeguard digital assets and ensure </p>
+                            <ul class="icn-list">
+                                <li><i class="far fa-edit"></i>Identify growth opportunities and expand market presence</li>
+                                <li><i class="far fa-edit"></i>Enhance operational efficiency and reduce waste</li>
+                                <li><i class="far fa-edit"></i>Make informed decisions based on data-driven insights<li>
+                            </ul>
+                            <a href="#" class="mt-5">VIEW CLIENT STORIES</a>  
+                        </div>
+                        <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12 ">
 
+                            <img src="{{ asset('assets/home-two-img/11111111.svg') }}" alt="" class="img-fluid"
+                                width="20%">
+                        </div>
+                    </div>
+                </div>
+            </section>
 
 
 
