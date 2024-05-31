@@ -1206,10 +1206,10 @@
                         </div>
                         <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12 ">
 
-                            <img src="{{ asset('assets/home-two-img/about_5_1.png') }}" alt="" class="img-fluid"
-                                width="100%">
+                            <img class="img-bck" src="{{ asset('assets/home-two-img/about_5_1.png') }}" alt="" class="img-fluid"
+                                width="80%">
                                 <img class="img-anmt" src="{{ asset('assets/home-two-img/about_5_1sec.png') }}" alt="" class="img-fluid"
-                                width="100%">
+                                width="40%">
                         </div>
                     </div>
                 </div>
