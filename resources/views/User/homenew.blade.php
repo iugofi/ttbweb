@@ -288,7 +288,7 @@
                             <div class="container">
                                 <div class="flex justify-center !mx-auto">
                                     <div class="">
-                                        <h4>SUBSCRIPTION PRICING</h4>
+                                        <h4 class="pt-5">SUBSCRIPTION PRICING</h4>
                                         <h5 class="text-center mb-5 mt-4"> Simple
                                             Pricing For Everyone </h5>
                                     </div>
