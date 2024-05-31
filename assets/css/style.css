@@ -42522,19 +42522,19 @@ img.img-fluid.service-icon {
  }
  
  .img-anmt{
-  animation: up-down linear 4s;
+  animation: img-anmt linear 4s;
   animation-iteration-count: infinite;
   transform-origin: 50% 50%;
-  -webkit-animation: up-down linear 4s;
+  -webkit-animation: img-anmt linear 4s;
   -webkit-animation-iteration-count: infinite;
   -webkit-transform-origin: 50% 50%;
-  -moz-animation: up-down linear 4s;
+  -moz-animation: img-anmt linear 4s;
   -moz-animation-iteration-count: infinite;
   -moz-transform-origin: 50% 50%;
-  -o-animation: up-down linear 4s;
+  -o-animation:img-anmt linear 4s;
   -o-animation-iteration-count: infinite;
   -o-transform-origin: 50% 50%;
-  -ms-animation: up-down linear 4s;
+  -ms-animation: img-anmt linear 4s;
   -ms-animation-iteration-count: infinite;
   -ms-transform-origin: 50% 50%;
 }
