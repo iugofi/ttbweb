@@ -42502,6 +42502,35 @@ img.img-fluid.service-icon {
   font-size: 16px;
 }
 
+.section-home2-nine i {
+    color: #fff;
+    font-size: 55px;
+}
+
+.section-home2-nine span {
+    font-size: 16px;
+    color: #fff;
+}
+
+.section-home2-nine h3 {
+    color: #fff;
+    font-size: 30px;
+}
+
+.section-home2-nine h2 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.section-home2-nine .ctc-us {
+    color: #fff;
+    background-color: #ffffff30;
+    padding: 10px 23px;
+    border: 1px solid;
+    border-radius: 25px;
+}
+
 .section-home2-nine .cnt-box {
     background: #12d2b3;
     border-radius: 20px;

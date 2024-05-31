@@ -1179,7 +1179,7 @@
                       <h2>Let’s Request A Schedule For Free Consultation</h2>
                     </div>
                     <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 md:col-span-12 col-span-12">
-                        <a href="#">CONTACT US</a>
+                        <a href="#" class="ctc-us">CONTACT US</a>
                     </div>
                 </div>
               </div>
