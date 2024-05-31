@@ -790,376 +790,401 @@
                     </div>
                 </div>
             </section>
-            <section class="section section-home2-eight landing-testimonials bg-[#f9fafb] section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]"
-            id="testimonials">
-            <div class="container text-center">
-                <p class="mb-1"><span
-                        class="sp-test">TESTIMONIALS</span></p>
-                <h3 class="font-semibold mb-2">We never failed to reach expectations</h3>
-                <div>
-                    <div class="xl:col-span-7 col-span-12">
-                        <p class="mb-[3rem]">Some of
-                            the reviews our clients gave which brings motivation to work for future projects.</p>
+
+            <section
+                class="section section-home2-eight landing-testimonials bg-[#f9fafb] section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]"
+                id="testimonials">
+                <div class="container text-center">
+                    <p class="mb-1"><span class="sp-test">TESTIMONIALS</span></p>
+                    <h3 class="font-semibold mb-2">We never failed to reach expectations</h3>
+                    <div>
+                        <div class="xl:col-span-7 col-span-12">
+                            <p class="mb-[3rem]">Some of
+                                the reviews our clients gave which brings motivation to work for future projects.</p>
+                        </div>
+                    </div>
+                    <div class="swiper pagination-dynamic text-start rtl:dirrtl">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide rtl:dir-rtl">
+                                <div class="box testimonial-card">
+                                    <div class="box-body">
+                                        <div class="flex items-center mb-4">
+                                            <span class="avatar avatar-md avatar-rounded me-4">
+                                                <img src="assets/images/faces/15.jpg" alt="">
+                                            </span>
+                                            <div>
+                                                <p class="mb-0 font-semibold text-[0.875rem]">Json Taylor</p>
+                                                <p
+                                                    class="mb-0 text-[0.625rem] font-semibold text-[#8c9097] dark:text-white/50">
+                                                    CEO OF NORJA</p>
+                                            </div>
+                                        </div>
+                                        <div class="mb-4">
+                                            <span class="text-[#8c9097] dark:text-white/50">- Lorem ipsum dolor sit amet
+                                                consectetur adipisicing elit. Earum autem quaerat distinctio --</span>
+                                        </div>
+                                        <div class="flex items-center justify-between">
+                                            <div class="flex items-center">
+                                                <span class="text-[#8c9097] dark:text-white/50">Rating : </span>
+                                                <span class="text-warning block ms-1">
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-half-fill"></i>
+                                                </span>
+                                            </div>
+                                            <div
+                                                class="ltr:float-right rtl:float-left text-[0.75rem] font-semibold text-[#8c9097] dark:text-white/50 text-end">
+                                                <span>12 days ago</span>
+                                                <span class="block font-normal text-[0.75rem] text-success"><i>Json
+                                                        Taylor</i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide rtl:dir-rtl">
+                                <div class="box testimonial-card">
+                                    <div class="box-body">
+                                        <div class="flex items-center mb-4">
+                                            <span class="avatar avatar-md avatar-rounded me-4">
+                                                <img src="assets/images/faces/4.jpg" alt="">
+                                            </span>
+                                            <div>
+                                                <p class="mb-0 font-semibold text-[0.875rem]">Melissa Blue</p>
+                                                <p
+                                                    class="mb-0 text-[0.625rem] font-semibold text-[#8c9097] dark:text-white/50">
+                                                    MANAGER CHO</p>
+                                            </div>
+                                        </div>
+                                        <div class="mb-4">
+                                            <span class="text-[#8c9097] dark:text-white/50">- Lorem ipsum dolor sit amet
+                                                consectetur adipisicing elit. Earum autem quaerat distinctio --</span>
+                                        </div>
+                                        <div class="flex items-center justify-between">
+                                            <div class="flex items-center">
+                                                <span class="text-[#8c9097] dark:text-white/50">Rating : </span>
+                                                <span class="text-warning block ms-1">
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-half-fill"></i>
+                                                </span>
+                                            </div>
+                                            <div
+                                                class="ltr:float-right rtl:float-left text-[0.75rem] font-semibold text-[#8c9097] dark:text-white/50 text-end">
+                                                <span>7 days ago</span>
+                                                <span class="block font-normal text-[0.75rem] text-success"><i>Melissa
+                                                        Blue</i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide rtl:dir-rtl">
+                                <div class="box testimonial-card">
+                                    <div class="box-body">
+                                        <div class="flex items-center mb-4">
+                                            <span class="avatar avatar-md avatar-rounded me-4">
+                                                <img src="assets/images/faces/2.jpg" alt="">
+                                            </span>
+                                            <div>
+                                                <p class="mb-0 font-semibold text-[0.875rem]">Kiara Advain</p>
+                                                <p
+                                                    class="mb-0 text-[0.625rem] font-semibold text-[#8c9097] dark:text-white/50">
+                                                    CEO OF EMPIRO</p>
+                                            </div>
+                                        </div>
+                                        <div class="mb-4">
+                                            <span class="text-[#8c9097] dark:text-white/50">- Lorem ipsum dolor sit amet
+                                                consectetur adipisicing elit. Earum autem quaerat distinctio --</span>
+                                        </div>
+                                        <div class="flex items-center justify-between">
+                                            <div class="flex items-center">
+                                                <span class="text-[#8c9097] dark:text-white/50">Rating : </span>
+                                                <span class="text-warning block ms-1">
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-line"></i>
+                                                </span>
+                                            </div>
+                                            <div
+                                                class="ltr:float-right rtl:float-left text-[0.75rem] font-semibold text-[#8c9097] dark:text-white/50 text-end">
+                                                <span>2 days ago</span>
+                                                <span class="block font-normal text-[0.75rem] text-success"><i>Kiara
+                                                        Advain</i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide rtl:dir-rtl">
+                                <div class="box testimonial-card">
+                                    <div class="box-body">
+                                        <div class="flex items-center mb-4">
+                                            <span class="avatar avatar-md avatar-rounded me-4">
+                                                <img src="assets/images/faces/10.jpg" alt="">
+                                            </span>
+                                            <div>
+                                                <p class="mb-0 font-semibold text-[0.875rem]">Jhonson Smith</p>
+                                                <p
+                                                    class="mb-0 text-[0.625rem] font-semibold text-[#8c9097] dark:text-white/50">
+                                                    CHIEF SECRETARY MBIO</p>
+                                            </div>
+                                        </div>
+                                        <div class="mb-4">
+                                            <span class="text-[#8c9097] dark:text-white/50">- Lorem ipsum dolor sit amet
+                                                consectetur adipisicing elit. Earum autem quaerat distinctio --</span>
+                                        </div>
+                                        <div class="flex items-center justify-between">
+                                            <div class="flex items-center">
+                                                <span class="text-[#8c9097] dark:text-white/50">Rating : </span>
+                                                <span class="text-warning block ms-1">
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-half-fill"></i>
+                                                </span>
+                                            </div>
+                                            <div
+                                                class="ltr:float-right rtl:float-left text-[0.75rem] font-semibold text-[#8c9097] dark:text-white/50 text-end">
+                                                <span>16 hrs ago</span>
+                                                <span class="block font-normal text-[0.75rem] text-success"><i>Jhonson
+                                                        Smith</i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide rtl:dir-rtl">
+                                <div class="box testimonial-card">
+                                    <div class="box-body">
+                                        <div class="flex items-center mb-4">
+                                            <span class="avatar avatar-md avatar-rounded me-4">
+                                                <img src="assets/images/faces/12.jpg" alt="">
+                                            </span>
+                                            <div>
+                                                <p class="mb-0 font-semibold text-[0.875rem]">Dwayne Stort</p>
+                                                <p
+                                                    class="mb-0 text-[0.625rem] font-semibold text-[#8c9097] dark:text-white/50">
+                                                    CEO ARMEDILLO</p>
+                                            </div>
+                                        </div>
+                                        <div class="mb-4">
+                                            <span class="text-[#8c9097] dark:text-white/50">- Lorem ipsum dolor sit amet
+                                                consectetur adipisicing elit. Earum autem quaerat distinctio --</span>
+                                        </div>
+                                        <div class="flex items-center justify-between">
+                                            <div class="flex items-center">
+                                                <span class="text-[#8c9097] dark:text-white/50">Rating : </span>
+                                                <span class="text-warning block ms-1">
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-line"></i>
+                                                </span>
+                                            </div>
+                                            <div
+                                                class="ltr:float-right rtl:float-left text-[0.75rem] font-semibold text-[#8c9097] dark:text-white/50 text-end">
+                                                <span>22 days ago</span>
+                                                <span class="block font-normal text-[0.75rem] text-success"><i>Dwayne
+                                                        Stort</i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide rtl:dir-rtl">
+                                <div class="box testimonial-card">
+                                    <div class="box-body">
+                                        <div class="flex items-center mb-4">
+                                            <span class="avatar avatar-md avatar-rounded me-4">
+                                                <img src="assets/images/faces/3.jpg" alt="">
+                                            </span>
+                                            <div>
+                                                <p class="mb-0 font-semibold text-[0.875rem]">Jasmine Kova</p>
+                                                <p
+                                                    class="mb-0 text-[0.625rem] font-semibold text-[#8c9097] dark:text-white/50">
+                                                    AGGENT AMIO</p>
+                                            </div>
+                                        </div>
+                                        <div class="mb-4">
+                                            <span class="text-[#8c9097] dark:text-white/50">- Lorem ipsum dolor sit amet
+                                                consectetur adipisicing elit. Earum autem quaerat distinctio --</span>
+                                        </div>
+                                        <div class="flex items-center justify-between">
+                                            <div class="flex items-center">
+                                                <span class="text-[#8c9097] dark:text-white/50">Rating : </span>
+                                                <span class="text-warning block ms-1">
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-half-fill"></i>
+                                                </span>
+                                            </div>
+                                            <div
+                                                class="ltr:float-right rtl:float-left text-[0.75rem] font-semibold text-[#8c9097] dark:text-white/50 text-end">
+                                                <span>26 days ago</span>
+                                                <span class="block font-normal text-[0.75rem] text-success"><i>Jasmine
+                                                        Kova</i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide rtl:dir-rtl">
+                                <div class="box testimonial-card">
+                                    <div class="box-body">
+                                        <div class="flex items-center mb-4">
+                                            <span class="avatar avatar-md avatar-rounded me-4">
+                                                <img src="assets/images/faces/16.jpg" alt="">
+                                            </span>
+                                            <div>
+                                                <p class="mb-0 font-semibold text-[0.875rem]">Dolph MR</p>
+                                                <p
+                                                    class="mb-0 text-[0.625rem] font-semibold text-[#8c9097] dark:text-white/50">
+                                                    CEO MR BRAND</p>
+                                            </div>
+                                        </div>
+                                        <div class="mb-4">
+                                            <span class="text-[#8c9097] dark:text-white/50">- Lorem ipsum dolor sit amet
+                                                consectetur adipisicing elit. Earum autem quaerat distinctio --</span>
+                                        </div>
+                                        <div class="flex items-center justify-between">
+                                            <div class="flex items-center">
+                                                <span class="text-[#8c9097] dark:text-white/50">Rating : </span>
+                                                <span class="text-warning block ms-1">
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                </span>
+                                            </div>
+                                            <div
+                                                class="ltr:float-right rtl:float-left text-[0.75rem] font-semibold text-[#8c9097] dark:text-white/50 text-end">
+                                                <span>1 month ago</span>
+                                                <span class="block font-normal text-[0.75rem] text-success"><i>Dolph
+                                                        MR</i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide rtl:dir-rtl">
+                                <div class="box testimonial-card">
+                                    <div class="box-body">
+                                        <div class="flex items-center mb-4">
+                                            <span class="avatar avatar-md avatar-rounded me-4">
+                                                <img src="assets/images/faces/5.jpg" alt="">
+                                            </span>
+                                            <div>
+                                                <p class="mb-0 font-semibold text-[0.875rem]">Brenda Simpson</p>
+                                                <p
+                                                    class="mb-0 text-[0.625rem] font-semibold text-[#8c9097] dark:text-white/50">
+                                                    CEO AIBMO</p>
+                                            </div>
+                                        </div>
+                                        <div class="mb-4">
+                                            <span class="text-[#8c9097] dark:text-white/50">- Lorem ipsum dolor sit amet
+                                                consectetur adipisicing elit. Earum autem quaerat distinctio --</span>
+                                        </div>
+                                        <div class="flex items-center justify-between">
+                                            <div class="flex items-center">
+                                                <span class="text-[#8c9097] dark:text-white/50">Rating : </span>
+                                                <span class="text-warning block ms-1">
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-half-fill"></i>
+                                                </span>
+                                            </div>
+                                            <div
+                                                class="ltr:float-right rtl:float-left text-[0.75rem] font-semibold text-[#8c9097] dark:text-white/50 text-end">
+                                                <span>1 month ago</span>
+                                                <span class="block font-normal text-[0.75rem] text-success"><i>Brenda
+                                                        Simpson</i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide rtl:dir-rtl">
+                                <div class="box testimonial-card">
+                                    <div class="box-body">
+                                        <div class="flex items-center mb-4">
+                                            <span class="avatar avatar-md avatar-rounded me-4">
+                                                <img src="assets/images/faces/7.jpg" alt="">
+                                            </span>
+                                            <div>
+                                                <p class="mb-0 font-semibold text-[0.875rem]">Julia Sams</p>
+                                                <p
+                                                    class="mb-0 text-[0.625rem] font-semibold text-[#8c9097] dark:text-white/50">
+                                                    CHIEF SECRETARY BHOL</p>
+                                            </div>
+                                        </div>
+                                        <div class="mb-4">
+                                            <span class="text-[#8c9097] dark:text-white/50">- Lorem ipsum dolor sit amet
+                                                consectetur adipisicing elit. Earum autem quaerat distinctio --</span>
+                                        </div>
+                                        <div class="flex items-center justify-between">
+                                            <div class="flex items-center">
+                                                <span class="text-[#8c9097] dark:text-white/50">Rating : </span>
+                                                <span class="text-warning block ms-1">
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                </span>
+                                            </div>
+                                            <div
+                                                class="ltr:float-right rtl:float-left text-[0.75rem] font-semibold text-[#8c9097] dark:text-white/50 text-end">
+                                                <span>2 month ago</span>
+                                                <span class="block font-normal text-[0.75rem] text-success"><i>Julia
+                                                        Sams</i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination mt-4"></div>
                     </div>
                 </div>
-                <div class="swiper pagination-dynamic text-start rtl:dirrtl">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide rtl:dir-rtl">
-                            <div class="box testimonial-card">
-                                <div class="box-body">
-                                    <div class="flex items-center mb-4">
-                                        <span class="avatar avatar-md avatar-rounded me-4">
-                                            <img src="assets/images/faces/15.jpg" alt="">
-                                        </span>
-                                        <div>
-                                            <p class="mb-0 font-semibold text-[0.875rem]">Json Taylor</p>
-                                            <p
-                                                class="mb-0 text-[0.625rem] font-semibold text-[#8c9097] dark:text-white/50">
-                                                CEO OF NORJA</p>
-                                        </div>
-                                    </div>
-                                    <div class="mb-4">
-                                        <span class="text-[#8c9097] dark:text-white/50">- Lorem ipsum dolor sit amet
-                                            consectetur adipisicing elit. Earum autem quaerat distinctio --</span>
-                                    </div>
-                                    <div class="flex items-center justify-between">
-                                        <div class="flex items-center">
-                                            <span class="text-[#8c9097] dark:text-white/50">Rating : </span>
-                                            <span class="text-warning block ms-1">
-                                                <i class="ri-star-fill"></i>
-                                                <i class="ri-star-fill"></i>
-                                                <i class="ri-star-fill"></i>
-                                                <i class="ri-star-fill"></i>
-                                                <i class="ri-star-half-fill"></i>
-                                            </span>
-                                        </div>
-                                        <div
-                                            class="ltr:float-right rtl:float-left text-[0.75rem] font-semibold text-[#8c9097] dark:text-white/50 text-end">
-                                            <span>12 days ago</span>
-                                            <span class="block font-normal text-[0.75rem] text-success"><i>Json
-                                                    Taylor</i></span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+            </section>
+
+            <section>
+              <div class="container">
+                <div class="grid grid-cols-12 gap-6">
+                    <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-12 col-span-12">
+                      <div class="flex">
+                        <div class="icon-box">
+                           <i class="las la-headphones"></i>
                         </div>
-                        <div class="swiper-slide rtl:dir-rtl">
-                            <div class="box testimonial-card">
-                                <div class="box-body">
-                                    <div class="flex items-center mb-4">
-                                        <span class="avatar avatar-md avatar-rounded me-4">
-                                            <img src="assets/images/faces/4.jpg" alt="">
-                                        </span>
-                                        <div>
-                                            <p class="mb-0 font-semibold text-[0.875rem]">Melissa Blue</p>
-                                            <p
-                                                class="mb-0 text-[0.625rem] font-semibold text-[#8c9097] dark:text-white/50">
-                                                MANAGER CHO</p>
-                                        </div>
-                                    </div>
-                                    <div class="mb-4">
-                                        <span class="text-[#8c9097] dark:text-white/50">- Lorem ipsum dolor sit amet
-                                            consectetur adipisicing elit. Earum autem quaerat distinctio --</span>
-                                    </div>
-                                    <div class="flex items-center justify-between">
-                                        <div class="flex items-center">
-                                            <span class="text-[#8c9097] dark:text-white/50">Rating : </span>
-                                            <span class="text-warning block ms-1">
-                                                <i class="ri-star-fill"></i>
-                                                <i class="ri-star-fill"></i>
-                                                <i class="ri-star-fill"></i>
-                                                <i class="ri-star-fill"></i>
-                                                <i class="ri-star-half-fill"></i>
-                                            </span>
-                                        </div>
-                                        <div
-                                            class="ltr:float-right rtl:float-left text-[0.75rem] font-semibold text-[#8c9097] dark:text-white/50 text-end">
-                                            <span>7 days ago</span>
-                                            <span class="block font-normal text-[0.75rem] text-success"><i>Melissa
-                                                    Blue</i></span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        <div>
+                            <span>Call For More Info</span>
+                            <h3><a href="tel">(+123) 5859 459</a></h3>
                         </div>
-                        <div class="swiper-slide rtl:dir-rtl">
-                            <div class="box testimonial-card">
-                                <div class="box-body">
-                                    <div class="flex items-center mb-4">
-                                        <span class="avatar avatar-md avatar-rounded me-4">
-                                            <img src="assets/images/faces/2.jpg" alt="">
-                                        </span>
-                                        <div>
-                                            <p class="mb-0 font-semibold text-[0.875rem]">Kiara Advain</p>
-                                            <p
-                                                class="mb-0 text-[0.625rem] font-semibold text-[#8c9097] dark:text-white/50">
-                                                CEO OF EMPIRO</p>
-                                        </div>
-                                    </div>
-                                    <div class="mb-4">
-                                        <span class="text-[#8c9097] dark:text-white/50">- Lorem ipsum dolor sit amet
-                                            consectetur adipisicing elit. Earum autem quaerat distinctio --</span>
-                                    </div>
-                                    <div class="flex items-center justify-between">
-                                        <div class="flex items-center">
-                                            <span class="text-[#8c9097] dark:text-white/50">Rating : </span>
-                                            <span class="text-warning block ms-1">
-                                                <i class="ri-star-fill"></i>
-                                                <i class="ri-star-fill"></i>
-                                                <i class="ri-star-fill"></i>
-                                                <i class="ri-star-fill"></i>
-                                                <i class="ri-star-line"></i>
-                                            </span>
-                                        </div>
-                                        <div
-                                            class="ltr:float-right rtl:float-left text-[0.75rem] font-semibold text-[#8c9097] dark:text-white/50 text-end">
-                                            <span>2 days ago</span>
-                                            <span class="block font-normal text-[0.75rem] text-success"><i>Kiara
-                                                    Advain</i></span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide rtl:dir-rtl">
-                            <div class="box testimonial-card">
-                                <div class="box-body">
-                                    <div class="flex items-center mb-4">
-                                        <span class="avatar avatar-md avatar-rounded me-4">
-                                            <img src="assets/images/faces/10.jpg" alt="">
-                                        </span>
-                                        <div>
-                                            <p class="mb-0 font-semibold text-[0.875rem]">Jhonson Smith</p>
-                                            <p
-                                                class="mb-0 text-[0.625rem] font-semibold text-[#8c9097] dark:text-white/50">
-                                                CHIEF SECRETARY MBIO</p>
-                                        </div>
-                                    </div>
-                                    <div class="mb-4">
-                                        <span class="text-[#8c9097] dark:text-white/50">- Lorem ipsum dolor sit amet
-                                            consectetur adipisicing elit. Earum autem quaerat distinctio --</span>
-                                    </div>
-                                    <div class="flex items-center justify-between">
-                                        <div class="flex items-center">
-                                            <span class="text-[#8c9097] dark:text-white/50">Rating : </span>
-                                            <span class="text-warning block ms-1">
-                                                <i class="ri-star-fill"></i>
-                                                <i class="ri-star-fill"></i>
-                                                <i class="ri-star-fill"></i>
-                                                <i class="ri-star-fill"></i>
-                                                <i class="ri-star-half-fill"></i>
-                                            </span>
-                                        </div>
-                                        <div
-                                            class="ltr:float-right rtl:float-left text-[0.75rem] font-semibold text-[#8c9097] dark:text-white/50 text-end">
-                                            <span>16 hrs ago</span>
-                                            <span class="block font-normal text-[0.75rem] text-success"><i>Jhonson
-                                                    Smith</i></span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide rtl:dir-rtl">
-                            <div class="box testimonial-card">
-                                <div class="box-body">
-                                    <div class="flex items-center mb-4">
-                                        <span class="avatar avatar-md avatar-rounded me-4">
-                                            <img src="assets/images/faces/12.jpg" alt="">
-                                        </span>
-                                        <div>
-                                            <p class="mb-0 font-semibold text-[0.875rem]">Dwayne Stort</p>
-                                            <p
-                                                class="mb-0 text-[0.625rem] font-semibold text-[#8c9097] dark:text-white/50">
-                                                CEO ARMEDILLO</p>
-                                        </div>
-                                    </div>
-                                    <div class="mb-4">
-                                        <span class="text-[#8c9097] dark:text-white/50">- Lorem ipsum dolor sit amet
-                                            consectetur adipisicing elit. Earum autem quaerat distinctio --</span>
-                                    </div>
-                                    <div class="flex items-center justify-between">
-                                        <div class="flex items-center">
-                                            <span class="text-[#8c9097] dark:text-white/50">Rating : </span>
-                                            <span class="text-warning block ms-1">
-                                                <i class="ri-star-fill"></i>
-                                                <i class="ri-star-fill"></i>
-                                                <i class="ri-star-fill"></i>
-                                                <i class="ri-star-fill"></i>
-                                                <i class="ri-star-line"></i>
-                                            </span>
-                                        </div>
-                                        <div
-                                            class="ltr:float-right rtl:float-left text-[0.75rem] font-semibold text-[#8c9097] dark:text-white/50 text-end">
-                                            <span>22 days ago</span>
-                                            <span class="block font-normal text-[0.75rem] text-success"><i>Dwayne
-                                                    Stort</i></span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide rtl:dir-rtl">
-                            <div class="box testimonial-card">
-                                <div class="box-body">
-                                    <div class="flex items-center mb-4">
-                                        <span class="avatar avatar-md avatar-rounded me-4">
-                                            <img src="assets/images/faces/3.jpg" alt="">
-                                        </span>
-                                        <div>
-                                            <p class="mb-0 font-semibold text-[0.875rem]">Jasmine Kova</p>
-                                            <p
-                                                class="mb-0 text-[0.625rem] font-semibold text-[#8c9097] dark:text-white/50">
-                                                AGGENT AMIO</p>
-                                        </div>
-                                    </div>
-                                    <div class="mb-4">
-                                        <span class="text-[#8c9097] dark:text-white/50">- Lorem ipsum dolor sit amet
-                                            consectetur adipisicing elit. Earum autem quaerat distinctio --</span>
-                                    </div>
-                                    <div class="flex items-center justify-between">
-                                        <div class="flex items-center">
-                                            <span class="text-[#8c9097] dark:text-white/50">Rating : </span>
-                                            <span class="text-warning block ms-1">
-                                                <i class="ri-star-fill"></i>
-                                                <i class="ri-star-fill"></i>
-                                                <i class="ri-star-fill"></i>
-                                                <i class="ri-star-fill"></i>
-                                                <i class="ri-star-half-fill"></i>
-                                            </span>
-                                        </div>
-                                        <div
-                                            class="ltr:float-right rtl:float-left text-[0.75rem] font-semibold text-[#8c9097] dark:text-white/50 text-end">
-                                            <span>26 days ago</span>
-                                            <span class="block font-normal text-[0.75rem] text-success"><i>Jasmine
-                                                    Kova</i></span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide rtl:dir-rtl">
-                            <div class="box testimonial-card">
-                                <div class="box-body">
-                                    <div class="flex items-center mb-4">
-                                        <span class="avatar avatar-md avatar-rounded me-4">
-                                            <img src="assets/images/faces/16.jpg" alt="">
-                                        </span>
-                                        <div>
-                                            <p class="mb-0 font-semibold text-[0.875rem]">Dolph MR</p>
-                                            <p
-                                                class="mb-0 text-[0.625rem] font-semibold text-[#8c9097] dark:text-white/50">
-                                                CEO MR BRAND</p>
-                                        </div>
-                                    </div>
-                                    <div class="mb-4">
-                                        <span class="text-[#8c9097] dark:text-white/50">- Lorem ipsum dolor sit amet
-                                            consectetur adipisicing elit. Earum autem quaerat distinctio --</span>
-                                    </div>
-                                    <div class="flex items-center justify-between">
-                                        <div class="flex items-center">
-                                            <span class="text-[#8c9097] dark:text-white/50">Rating : </span>
-                                            <span class="text-warning block ms-1">
-                                                <i class="ri-star-fill"></i>
-                                                <i class="ri-star-fill"></i>
-                                                <i class="ri-star-fill"></i>
-                                                <i class="ri-star-fill"></i>
-                                                <i class="ri-star-fill"></i>
-                                            </span>
-                                        </div>
-                                        <div
-                                            class="ltr:float-right rtl:float-left text-[0.75rem] font-semibold text-[#8c9097] dark:text-white/50 text-end">
-                                            <span>1 month ago</span>
-                                            <span class="block font-normal text-[0.75rem] text-success"><i>Dolph
-                                                    MR</i></span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide rtl:dir-rtl">
-                            <div class="box testimonial-card">
-                                <div class="box-body">
-                                    <div class="flex items-center mb-4">
-                                        <span class="avatar avatar-md avatar-rounded me-4">
-                                            <img src="assets/images/faces/5.jpg" alt="">
-                                        </span>
-                                        <div>
-                                            <p class="mb-0 font-semibold text-[0.875rem]">Brenda Simpson</p>
-                                            <p
-                                                class="mb-0 text-[0.625rem] font-semibold text-[#8c9097] dark:text-white/50">
-                                                CEO AIBMO</p>
-                                        </div>
-                                    </div>
-                                    <div class="mb-4">
-                                        <span class="text-[#8c9097] dark:text-white/50">- Lorem ipsum dolor sit amet
-                                            consectetur adipisicing elit. Earum autem quaerat distinctio --</span>
-                                    </div>
-                                    <div class="flex items-center justify-between">
-                                        <div class="flex items-center">
-                                            <span class="text-[#8c9097] dark:text-white/50">Rating : </span>
-                                            <span class="text-warning block ms-1">
-                                                <i class="ri-star-fill"></i>
-                                                <i class="ri-star-fill"></i>
-                                                <i class="ri-star-fill"></i>
-                                                <i class="ri-star-fill"></i>
-                                                <i class="ri-star-half-fill"></i>
-                                            </span>
-                                        </div>
-                                        <div
-                                            class="ltr:float-right rtl:float-left text-[0.75rem] font-semibold text-[#8c9097] dark:text-white/50 text-end">
-                                            <span>1 month ago</span>
-                                            <span class="block font-normal text-[0.75rem] text-success"><i>Brenda
-                                                    Simpson</i></span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide rtl:dir-rtl">
-                            <div class="box testimonial-card">
-                                <div class="box-body">
-                                    <div class="flex items-center mb-4">
-                                        <span class="avatar avatar-md avatar-rounded me-4">
-                                            <img src="assets/images/faces/7.jpg" alt="">
-                                        </span>
-                                        <div>
-                                            <p class="mb-0 font-semibold text-[0.875rem]">Julia Sams</p>
-                                            <p
-                                                class="mb-0 text-[0.625rem] font-semibold text-[#8c9097] dark:text-white/50">
-                                                CHIEF SECRETARY BHOL</p>
-                                        </div>
-                                    </div>
-                                    <div class="mb-4">
-                                        <span class="text-[#8c9097] dark:text-white/50">- Lorem ipsum dolor sit amet
-                                            consectetur adipisicing elit. Earum autem quaerat distinctio --</span>
-                                    </div>
-                                    <div class="flex items-center justify-between">
-                                        <div class="flex items-center">
-                                            <span class="text-[#8c9097] dark:text-white/50">Rating : </span>
-                                            <span class="text-warning block ms-1">
-                                                <i class="ri-star-fill"></i>
-                                                <i class="ri-star-fill"></i>
-                                                <i class="ri-star-fill"></i>
-                                                <i class="ri-star-fill"></i>
-                                                <i class="ri-star-fill"></i>
-                                            </span>
-                                        </div>
-                                        <div
-                                            class="ltr:float-right rtl:float-left text-[0.75rem] font-semibold text-[#8c9097] dark:text-white/50 text-end">
-                                            <span>2 month ago</span>
-                                            <span class="block font-normal text-[0.75rem] text-success"><i>Julia
-                                                    Sams</i></span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> 
+                      </div>
                     </div>
-                    <div class="swiper-pagination mt-4"></div>
+                    <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-12 col-span-12">
+                      <h2>Let’s Request A Schedule For Free Consultation</h2>
+                    </div>
+                    <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 md:col-span-12 col-span-12">
+                        <a href="CONTACT US"></a>
+                    </div>
                 </div>
-            </div>
-        </section>
+              </div>
+            </section>
 
 
 
@@ -1168,8 +1193,6 @@
 
 
 
-
-        
         </div>
     </div>
 
