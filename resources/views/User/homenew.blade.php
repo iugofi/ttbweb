@@ -1204,7 +1204,7 @@
                             </ul>
                             <a href="#" class="mt-5">VIEW CLIENT STORIES</a>
                         </div>
-                        <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12 ">
+                        <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12 " style="position:relative;">
 
                             <img class="img-bck" src="{{ asset('assets/home-two-img/about_5_1.png') }}" alt="" class="img-fluid"
                                 width="80%">
