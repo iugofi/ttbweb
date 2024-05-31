@@ -42529,6 +42529,12 @@ img.img-fluid.service-icon {
     padding: 10px 23px;
     border: 1px solid;
     border-radius: 25px;
+    margin-top: 1.5em;
+    display: inline-block;
+}
+
+.section-home2-nine .icon-box{
+    
 }
 
 .section-home2-nine .cnt-box {

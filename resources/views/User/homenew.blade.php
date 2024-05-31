@@ -1161,9 +1161,9 @@
                 </div>
             </section>
 
-            <section class="section-home2-nine" style="background-image: url(/assets/home-two-img/contact-bg.jpg);">
+            <section class="section-home2-nine">
               <div class="container">
-                <div class="grid grid-cols-12 gap-6 cnt-box">
+                <div class="grid grid-cols-12 gap-6 cnt-box" style="background-image:url(/assets/home-two-img/contact-bg.jpg);">
                     <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-12 col-span-12 ">
                       <div class="flex">
                         <div class="icon-box">
