@@ -12558,7 +12558,10 @@ h6 {
     --tw-pan-x: pan-x;
     touch-action: var(--tw-pan-x) var(--tw-pan-y) var(--tw-pinch-zoom);
 }
-
+.pagination-dynamic .swiper-slide {
+    width: 538px !important;
+    margin: 0 10px auto;
+}
 .swiper-slide {
     position: relative;
     height: 100%;
