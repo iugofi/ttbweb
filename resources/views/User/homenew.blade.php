@@ -795,7 +795,50 @@
     </div>
 
 
-
+<section>
+    <div class="grid grid-cols-12">
+        <div class="xl:col-span-12 col-span-12">
+            <div class="box custom-box">
+                <div class="box-header">
+                    <div class="box-title">
+                        Effect Coverflow
+                    </div>
+                </div>
+                <div class="box-body">
+                    <div class="swiper swiper-overflow">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img class="img-fluid" src="assets/images/media/media-40.jpg" alt="img">
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="img-fluid" src="assets/images/media/media-41.jpg" alt="img">
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="img-fluid" src="assets/images/media/media-42.jpg" alt="img">
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="img-fluid" src="assets/images/media/media-43.jpg" alt="img">
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="img-fluid" src="assets/images/media/media-44.jpg" alt="img">
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="img-fluid" src="assets/images/media/media-59.jpg" alt="img">
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="img-fluid" src="assets/images/media/media-46.jpg" alt="img">
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="img-fluid" src="assets/images/media/media-61.jpg" alt="img">
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 
