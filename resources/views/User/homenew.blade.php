@@ -791,7 +791,8 @@
                 </div>
             </section>
 
-            <section class="section section-home2-eight landing-testimonials bg-[#f9fafb] section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]"
+            <section
+                class="section section-home2-eight landing-testimonials bg-[#f9fafb] section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]"
                 id="testimonials">
                 <div class="container text-center">
                     <p class="mb-1"><span class="sp-test">TESTIMONIALS</span></p>
@@ -1162,27 +1163,28 @@
             </section>
 
             <section class="section-home2-nine">
-              <div class="container">
-                <div class="grid grid-cols-12 gap-6 cnt-box" style="background-image:url(/assets/home-two-img/contact-bg.jpg);">
-                    <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-12 col-span-12 ">
-                      <div class="flex">
-                        <div class="icon-box">
-                           <i class="las la-headphones"></i>
+                <div class="container">
+                    <div class="grid grid-cols-12 gap-6 cnt-box"
+                        style="background-image:url(/assets/home-two-img/contact-bg.jpg);">
+                        <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-12 col-span-12 ">
+                            <div class="flex">
+                                <div class="icon-box">
+                                    <i class="las la-headphones"></i>
+                                </div>
+                                <div>
+                                    <span>Call For More Info</span>
+                                    <h3><a href="tel:">(+123) 5859 459</a></h3>
+                                </div>
+                            </div>
                         </div>
-                        <div>
-                            <span>Call For More Info</span>
-                            <h3><a href="tel:">(+123) 5859 459</a></h3>
+                        <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-12 col-span-12">
+                            <h2>Let’s Request A Schedule For Free Consultation</h2>
                         </div>
-                      </div>
-                    </div>
-                    <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-12 col-span-12">
-                      <h2>Let’s Request A Schedule For Free Consultation</h2>
-                    </div>
-                    <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 md:col-span-12 col-span-12">
-                        <a href="#" class="ctc-us">CONTACT US</a>
+                        <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 md:col-span-12 col-span-12">
+                            <a href="#" class="ctc-us">CONTACT US</a>
+                        </div>
                     </div>
                 </div>
-              </div>
             </section>
 
             <section class="section-home2-ten">
@@ -1191,16 +1193,16 @@
                         <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
                             <span>ABOUT US</span>
                             <h2 class="mt-3">Innovate Business Solution For Startup Comapnies</h2>
-                            <p class="mt-3 mb-5">Cybersecurity refers to the practice of protecting computer systems,
-                                networks, devices, and
-                                data from unauthorized access, cyberattacks, theft, or damage. It encompasses a range of
-                                technologies, processes. and practices designed to safeguard digital assets and ensure </p>
+                            <p class="mt-3 mb-5">Lorem ipsum dolor amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Libero volutpat sed cras ornare.</p>
                             <ul class="icn-list">
-                                <li><i class="far fa-edit"></i>Identify growth opportunities and expand market presence</li>
+                                <li><i class="far fa-edit"></i>Identify growth opportunities and expand market presence
+                                </li>
                                 <li><i class="far fa-edit"></i>Enhance operational efficiency and reduce waste</li>
-                                <li><i class="far fa-edit"></i>Make informed decisions based on data-driven insights<li>
+                                <li><i class="far fa-edit"></i>Make informed decisions based on data-driven insights
+                                <li>
                             </ul>
-                            <a href="#" class="mt-5">VIEW CLIENT STORIES</a>  
+                            <a href="#" class="mt-5">VIEW CLIENT STORIES</a>
                         </div>
                         <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12 ">
 
