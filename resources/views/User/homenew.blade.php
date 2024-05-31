@@ -791,8 +791,7 @@
                 </div>
             </section>
 
-            <section
-                class="section section-home2-eight landing-testimonials bg-[#f9fafb] section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]"
+            <section class="section section-home2-eight landing-testimonials bg-[#f9fafb] section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]"
                 id="testimonials">
                 <div class="container text-center">
                     <p class="mb-1"><span class="sp-test">TESTIMONIALS</span></p>
@@ -1162,10 +1161,10 @@
                 </div>
             </section>
 
-            <section>
+            <section class="section-home2-nine">
               <div class="container">
                 <div class="grid grid-cols-12 gap-6">
-                    <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-12 col-span-12">
+                    <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-12 col-span-12 cnt-box">
                       <div class="flex">
                         <div class="icon-box">
                            <i class="las la-headphones"></i>

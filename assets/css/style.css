@@ -42492,15 +42492,27 @@ img.img-fluid.service-icon {
 
 /* neeraj-home-page-css-22-04-2024 */
 
-.section-home2-eight{
-    background-color: #F3F2EA;
 
+.section-home2-nine {
+    padding: 51px 0px;
 }
 
 .section-home2-eight .sp-test{
   color:#12d2b3;
   font-size: 16px;
 }
+
+.section-home2-nine .cnt-box {
+    background: #12d2b3;
+    border-radius: 20px;
+    padding: 36px;
+}
+
+
+.section-home2-eight{
+    background-color: #F3F2EA;
+}
+
 
 .section-home2-eight p {
     font-size: 16px;
