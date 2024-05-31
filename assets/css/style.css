@@ -42533,8 +42533,12 @@ img.img-fluid.service-icon {
     display: inline-block;
 }
 
-.section-home2-nine .icon-box{
-    
+.section-home2-nine .icon-box {
+    padding: 10px;
+    background-color: #ffffff30;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    margin-right: 21px;
 }
 
 .section-home2-nine .cnt-box {
