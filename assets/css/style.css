@@ -42743,6 +42743,7 @@ img.img-fluid.service-icon {
 .photobanner__wrap {
     display: flex;
     margin-top: 2em;
+    overflow: hidden;
 
     &:hover {
         .photobanner {
