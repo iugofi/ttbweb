@@ -42492,7 +42492,45 @@ img.img-fluid.service-icon {
 
 /* neeraj-home-page-css-22-04-2024 */
 
+.section-home2-ten{
+    padding:50px 0px;
+ }
+ 
+ .section-home2-ten a {
+     display: inline-block;
+     background-color: #12d2b3;
+     padding: 8px 19px;
+     margin-top: 15px 0px;
+     color: #fff;
+     font-size: 15px;
+     border-radius: 25px;
+ }
+ 
+ 
+ .section-home2-ten i {
+     font-size: 16px;
+     color: #12d2b3;
+     margin-right: 10px;
+ }
+ 
+ .section-home2-ten .icn-list li {
+     font-size: 16px;
+     line-height: 1.6;
+ }
+ .section-home2-ten p {
+     font-size: 16px;
+ }
+ 
+ .section-home2-ten h2 {
+     font-size: 34px;
+     font-weight: 600;
+ }
+ .section-home2-ten span {
+     color: #12d2b3;
+     font-size: 16px;
+ }
 
+ 
 .section-home2-nine {
     padding: 51px 0px;
 }
