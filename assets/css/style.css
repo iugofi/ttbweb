@@ -44299,9 +44299,9 @@ h6.uppercase {
     }
 
     .icon-two img {
-        position: relative;
-        left: 15px;
-        bottom: 65px;
+        left: 40px !important;
+        bottom: 38px !important;
+        width: 18%;
     }
     .container.ttbantivirus-container {
         overflow: hidden !important;
