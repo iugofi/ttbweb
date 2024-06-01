@@ -44306,6 +44306,10 @@ h6.uppercase {
     .container.ttbantivirus-container {
         overflow: hidden !important;
     }
+    .box-animantion img {
+        left: 7rem !important;
+    
+    }
     section#features {
         overflow: hidden !important;
     }
