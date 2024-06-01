@@ -44319,6 +44319,9 @@ h6.uppercase {
     .endpoint-protection {
         padding-top: 5rem;
     }
+    .endpoint-container .\!text-start {
+        margin: 0px !important;
+    }
 }
 
 /* start vpn-shild banner css */
