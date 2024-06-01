@@ -44089,7 +44089,12 @@ h6.uppercase {
         left: 15px;
         bottom: 65px;
     }
-
+    .container.ttbantivirus-container {
+        overflow: hidden;
+    }
+    section#features {
+        overflow: hidden;
+    }
 }
 
 /* start vpn-shild banner css */
