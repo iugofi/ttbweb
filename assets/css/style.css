@@ -44332,6 +44332,17 @@ h6.uppercase {
         position: relative;
         bottom: 18px !important;
     }
+    .behavioral img {
+        max-width: 90%;
+        margin: auto;
+    }
+    .lock-animantion img {
+        right: 1rem;
+        bottom: 2.5rem;
+        position: relative;
+        margin: auto !important;
+        width: 65%;
+    }
 }
 
 /* start vpn-shild banner css */
