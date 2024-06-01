@@ -44304,10 +44304,10 @@ h6.uppercase {
         bottom: 65px;
     }
     .container.ttbantivirus-container {
-        overflow: hidden;
+        overflow: hidden !important;
     }
     section#features {
-        overflow: hidden;
+        overflow: hidden !important;
     }
 }
 
