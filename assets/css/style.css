@@ -44348,6 +44348,7 @@ h6.uppercase {
     }
     .my-section {
         margin: 0 !important;
+        padding-bottom: 0px !important;
     }
 }
 
