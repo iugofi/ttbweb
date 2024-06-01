@@ -42396,7 +42396,7 @@ img.img-fluid.service-icon {
 }
 
 .test-slider-img img {
-    max-width: 100px;
+    max-width: 100px !important;
 }
 
 .slider-box .box-body {
