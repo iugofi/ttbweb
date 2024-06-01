@@ -44328,6 +44328,10 @@ h6.uppercase {
     .Behavioral-banner {
         padding-top: 5rem;
     }
+    .year-text-left {
+        position: relative;
+        bottom: 18px;
+    }
 }
 
 /* start vpn-shild banner css */
