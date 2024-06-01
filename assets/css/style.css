@@ -44337,8 +44337,8 @@ h6.uppercase {
         margin: auto;
     }
     .lock-animantion img {
-        right: 1rem;
-        bottom: 2.5rem;
+        right: 1rem !important;
+        bottom: 2.5rem !important;
         position: relative;
         margin: auto !important;
         width: 65%;
