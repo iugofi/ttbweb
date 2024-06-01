@@ -44308,7 +44308,10 @@ h6.uppercase {
     }
     .box-animantion img {
         left: 7rem !important;
-    
+    }
+    .box i.bx.bx-chevrons-right {
+        top: 17px;
+        width: 13%;
     }
     section#features {
         overflow: hidden !important;
