@@ -12563,6 +12563,12 @@ h6 {
     width: 538px !important;
     margin: 0 10px auto;
 }
+@media (max-width: 425px){
+    .pagination-dynamic .swiper-slide{
+        width: 350px !important;
+     }
+}
+
 
 .swiper-slide {
     position: relative;
@@ -42582,7 +42588,8 @@ img.img-fluid.service-icon {
     .section-home2-ten .img-anmt {
         left: -0.2em;
     }
-    .section-home2-ten .icn-list li{
+
+    .section-home2-ten .icn-list li {
         margin-bottom: 10px;
     }
 }
@@ -42785,11 +42792,12 @@ img.img-fluid.service-icon {
     padding: 58px;
 }
 
-@media (max-width: 425px){
-    .section-home2-nine h3{
+@media (max-width: 425px) {
+    .section-home2-nine h3 {
         font-size: 24px;
     }
-    .section-home2-nine .cnt-box{
+
+    .section-home2-nine .cnt-box {
         padding: 36px;
     }
 }
