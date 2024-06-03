@@ -1219,7 +1219,7 @@
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 col-span-12">
                         <span>TTB INTERNET SECURITY APP</span>
-                        <h3>Download Our App And Start Your Free Trail To Get Started Today!</h3>
+                        <h3 class="mt-3">Download Our App And Start Your Free Trail To Get Started Today!</h3>
                         </div>
                         <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 col-span-12">
                         <img src="{{ asset('assets/home-two-img/.png') }}" alt="" width="100%">
