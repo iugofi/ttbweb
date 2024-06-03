@@ -42785,6 +42785,14 @@ img.img-fluid.service-icon {
     padding: 58px;
 }
 
+@media (max-width: 425px){
+    .section-home2-nine h3{
+        font-size: 24px;
+    }
+    .section-home2-nine .cnt-box{
+        padding: 36px;
+    }
+}
 
 .section-home2-eight {
     background-color: #F3F2EA;
