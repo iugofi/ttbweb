@@ -42772,6 +42772,14 @@ img.img-fluid.service-icon {
     border-radius: 20px;
 }
 
+@media (max-width: 768px) and (min-width: 430px) {
+    .home2-seven-pricing .price-box{
+        margin: 0px;
+        border-radius:0px;
+    }
+ }
+ 
+
 .section-home2-six {
     padding: 20px 0px 50px 0px;
 }
