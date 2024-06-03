@@ -42498,6 +42498,12 @@ img.img-fluid.service-icon {
     padding: 34px 0px;
 }
 
+.section-app-down img {
+    width: 60%;
+    float: right;
+    margin-top: 3em;
+}
+
 .section-app-down h3 {
     color: #fff;
     font-size: 28px;
