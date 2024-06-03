@@ -42898,6 +42898,12 @@ img.img-fluid.service-icon {
     font-size: 15px;
 }
 
+@media (max-width: 425px){
+    .section-home2-six .flex {
+        display: block;
+    }
+}
+
 .section-home2-five {
     padding: 100px 0px;
 }
