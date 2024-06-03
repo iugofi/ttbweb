@@ -42799,7 +42799,7 @@ img.img-fluid.service-icon {
     }
 
     .section-home2-nine .cnt-box {
-        padding: 36px;
+        padding: 24px;
     }
 }
 
@@ -42828,6 +42828,11 @@ img.img-fluid.service-icon {
     background-color: #fff;
     border-radius: 12px;
     margin: 22px;
+}
+@media (max-width: 425px) {
+    .home2-seven-pricing .price-box{
+        margin: 10px 0px;
+    }
 }
 
 .home2-seven-pricing .pricing-bxx {
@@ -43054,6 +43059,11 @@ img.img-fluid.service-icon {
     border-left: 3px solid #F3F2EA;
     border-right: 3px solid #F3F2EA;
 
+}
+@media (max-width: 425px) {
+    .section-home2-three .border-box{
+        border:0px;
+    }
 }
 
 .section-home2-three .bg-white-one {
