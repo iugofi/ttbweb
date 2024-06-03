@@ -42524,7 +42524,13 @@ img.img-fluid.service-icon {
 
     }
  }
+ @media (max-width: 425px){ 
+    .section-app-down img{
+        width:100%;
+    }
+ }
  
+
 .section-home2-ten{
     padding:50px 0px;
  }
