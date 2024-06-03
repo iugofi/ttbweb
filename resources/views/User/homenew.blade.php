@@ -1214,7 +1214,7 @@
                 </div>
             </section>
 
-            <section class="">
+            <section class="section-app-down">
                 <div class="container">
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 col-span-12">
