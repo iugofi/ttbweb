@@ -791,8 +791,7 @@
                 </div>
             </section>
 
-            <section
-                class="section section-home2-eight landing-testimonials bg-[#f9fafb] section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]"
+            <section class="section section-home2-eight landing-testimonials bg-[#f9fafb] section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]"
                 id="testimonials">
                 <div class="container text-center">
                     <p class="mb-1"><span class="sp-test">TESTIMONIALS</span></p>
@@ -1215,7 +1214,19 @@
                 </div>
             </section>
 
-
+            <section class="">
+                <div class="container">
+                    <div class="grid grid-cols-12 gap-6">
+                        <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 col-span-12">
+                        <span>TTB INTERNET SECURITY APP</span>
+                        <h3>Download Our App And Start Your Free Trail To Get Started Today!</h3>
+                        </div>
+                        <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 col-span-12">
+                        <img src="{{ asset('assets/home-two-img/.png') }}" alt="" width="100%">
+                        </div>
+                    </div>
+                </div>
+            </section>
 
 
 
