@@ -272,8 +272,8 @@
 
                         </div>
                         <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12 ">
-                            <img src="{{ asset('assets/home-two-img/why-choose-us.png') }}" alt="" class="img-fluid"
-                                width="90%">
+                            <img src="{{ asset('assets/home-two-img/why-choose-us.png') }}" alt=""
+                                class="img-fluid" width="90%">
 
                         </div>
                     </div>
@@ -791,7 +791,8 @@
                 </div>
             </section>
 
-            <section class="section section-home2-eight landing-testimonials bg-[#f9fafb] section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]"
+            <section
+                class="section section-home2-eight landing-testimonials bg-[#f9fafb] section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]"
                 id="testimonials">
                 <div class="container text-center">
                     <p class="mb-1"><span class="sp-test">TESTIMONIALS</span></p>
@@ -1203,12 +1204,13 @@
                             </ul>
                             <a href="#" class="mt-5">VIEW CLIENT STORIES</a>
                         </div>
-                        <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12 " style="position:relative;">
+                        <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12 "
+                            style="position:relative;">
 
-                            <img class="img-bck" src="{{ asset('assets/home-two-img/about_5_1.png') }}" alt="" class="img-fluid"
-                                width="80%">
-                                <img class="img-anmt" src="{{ asset('assets/home-two-img/about_5_1sec.png') }}" alt="" class="img-fluid"
-                                width="40%">
+                            <img class="img-bck" src="{{ asset('assets/home-two-img/about_5_1.png') }}" alt=""
+                                class="img-fluid" width="80%">
+                            <img class="img-anmt" src="{{ asset('assets/home-two-img/about_5_1sec.png') }}"
+                                alt="" class="img-fluid" width="40%">
                         </div>
                     </div>
                 </div>
@@ -1218,11 +1220,13 @@
                 <div class="container">
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 col-span-12">
-                        <span>TTB INTERNET SECURITY APP</span>
-                        <h3 class="mt-3">Download Our App And Start Your Free Trail To Get Started Today!</h3>
+                            <span>TTB INTERNET SECURITY APP</span>
+                            <h3 class="mt-3">Download Our App And Start Your Free Trail To Get Started Today!</h3>
                         </div>
                         <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 col-span-12">
-                        <img src="{{ asset('assets/home-two-img/store-icon.png') }}" alt="" width="100%">
+                            <a href="#">
+                                <img src="{{ asset('assets/home-two-img/store-icon.png') }}" alt=""
+                                    width="100%"></a>
                         </div>
                     </div>
                 </div>
