@@ -1,4 +1,4 @@
-<section class="section landing-footer">
+<section class="section landing-footer  text-white text-[0.813rem]">
     <div class="container">
         <div class="grid grid-cols-12 gap-6">
             <div class="xl:col-span-4 col-span-12">
@@ -104,7 +104,7 @@
         </div>
     </div>
 </section>
-<div class="text-center landing-main-footer py-4 opacity-[0.87]">
+<div class="text-center landing-main-footer py-4">
     <span class="text-[#8c9097] dark:text-white/50 text-[0.9375rem]"> Copyright © <span id="year"></span> <a
         href="javascript:void(0);" class="!text-primary font-semibold"><u>TTB</u></a>.
     Designed with <span class="fa fa-heart text-danger"></span> by <a href="javascript:void(0);" class="!text-primary font-semibold"><u>
