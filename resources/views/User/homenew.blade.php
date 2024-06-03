@@ -133,8 +133,8 @@
                 <div class="container">
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
-                            <img src="{{ asset('assets/home-two-img/11111111.svg') }}" alt="" class="img-fluid"
-                                width="20%">
+                            <img src="{{ asset('assets/home-two-img/About-img-2.png') }}" alt="" class="img-fluid"
+                                width="90%">
                         </div>
                         <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12 ">
                             <span>ABOUT US</span>
