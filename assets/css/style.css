@@ -43171,6 +43171,20 @@ img.img-fluid.service-icon {
 .banner-home-one p {
     font-size: 16px;
 }
+@media (max-width: 425px){
+    .banner-home-one .btn-home-cnt {
+        display: block;
+        text-align: center;
+        margin: 20px 0px 0px 0px;
+    }
+        
+    .banner-home-one .btn-home-now {
+        display: block;
+        text-align: center;
+        border: 2px solid #12d2b3;
+    }
+    
+    }
 
 .threat-section-four {
     padding: 100px 0px;
