@@ -12558,10 +12558,12 @@ h6 {
     --tw-pan-x: pan-x;
     touch-action: var(--tw-pan-x) var(--tw-pan-y) var(--tw-pinch-zoom);
 }
+
 .pagination-dynamic .swiper-slide {
     width: 538px !important;
     margin: 0 10px auto;
 }
+
 .swiper-slide {
     position: relative;
     height: 100%;
@@ -42519,23 +42521,33 @@ img.img-fluid.service-icon {
 }
 
 @media (max-width: 768px) and (min-width: 430px) {
-    .section-app-down img{
-        width:100%;
+    .section-app-down img {
+        width: 100%;
 
     }
- }
- @media (max-width: 425px){ 
-    .section-app-down img{
-        width:100%;
+}
+
+@media (max-width: 425px) {
+    .section-app-down img {
+        width: 100%;
     }
- }
- 
 
-.section-home2-ten{
-    padding:50px 0px;
- }
+    .section-app-down h3 {
+        text-align: center;
+    }
 
- .section-home2-ten .img-bck {
+    .section-app-down span {
+        text-align: center;
+        display: block;
+    }
+}
+
+
+.section-home2-ten {
+    padding: 50px 0px;
+}
+
+.section-home2-ten .img-bck {
     float: right;
 }
 
@@ -42545,148 +42557,170 @@ img.img-fluid.service-icon {
     left: 1.8em;
 }
 
- .section-home2-ten .container {
+.section-home2-ten .container {
     padding: 55px;
     border-radius: 25px;
     border: 1px solid #ccd0db;
 }
- 
- .section-home2-ten a {
-     display: inline-block;
-     background-color: #12d2b3;
-     padding: 8px 19px;
-     margin-top: 20px 0px;
-     color: #fff;
-     font-size: 15px;
-     border-radius: 25px;
- }
- 
- .img-anmt {
+
+.section-home2-ten a {
+    display: inline-block;
+    background-color: #12d2b3;
+    padding: 8px 19px;
+    margin-top: 20px 0px;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 25px;
+}
+
+.img-anmt {
     animation: img-anmt linear 4s infinite;
     transform-origin: 50% 50%;
-  }
-  
-  @keyframes img-anmt {
-    0% {
-      transform: translate(1px, 20px);
-    }
-    24% {
-      transform: translate(1px, 30px);
-    }
-    50% {
-      transform: translate(1px, 12px);
-    }
-    74% {
-      transform: translate(1px, 22px);
-    }
-    100% {
-      transform: translate(1px, 22px);
-    }
-  }
-  
-  @-moz-keyframes img-anmt {
-    0% {
-      -moz-transform: translate(1px, 20px);
-    }
-    24% {
-      -moz-transform: translate(1px, 30px);
-    }
-    50% {
-      -moz-transform: translate(1px, 12px);
-    }
-    74% {
-      -moz-transform: translate(1px, 22px);
-    }
-    100% {
-      -moz-transform: translate(1px, 22px);
-    }
-  }
-  
-  @-webkit-keyframes img-anmt {
-    0% {
-      -webkit-transform: translate(1px, 20px);
-    }
-    24% {
-      -webkit-transform: translate(1px, 30px);
-    }
-    50% {
-      -webkit-transform: translate(1px, 12px);
-    }
-    74% {
-      -webkit-transform: translate(1px, 22px);
-    }
-    100% {
-      -webkit-transform: translate(1px, 22px);
-    }
-  }
-  
-  @-o-keyframes img-anmt {
-    0% {
-      -o-transform: translate(1px, 20px);
-    }
-    24% {
-      -o-transform: translate(1px, 30px);
-    }
-    50% {
-      -o-transform: translate(1px, 12px);
-    }
-    74% {
-      -o-transform: translate(1px, 22px);
-    }
-    100% {
-      -o-transform: translate(1px, 22px);
-    }
-  }
-  
-  @-ms-keyframes img-anmt {
-    0% {
-      -ms-transform: translate(1px, 20px);
-    }
-    24% {
-      -ms-transform: translate(1px, 30px);
-    }
-    50% {
-      -ms-transform: translate(1px, 12px);
-    }
-    74% {
-      -ms-transform: translate(1px, 22px);
-    }
-    100% {
-      -ms-transform: translate(1px, 22px);
-    }
-  }
- 
- .section-home2-ten i {
-     font-size: 16px;
-     color: #12d2b3;
-     margin-right: 10px;
- }
- 
- .section-home2-ten .icn-list li {
-     font-size: 16px;
-     line-height: 1.6;
- }
- .section-home2-ten p {
-     font-size: 16px;
- }
- 
- .section-home2-ten h2 {
-     font-size: 34px;
-     font-weight: 600;
- }
- .section-home2-ten span {
-     color: #12d2b3;
-     font-size: 16px;
- }
+}
 
- 
+@keyframes img-anmt {
+    0% {
+        transform: translate(1px, 20px);
+    }
+
+    24% {
+        transform: translate(1px, 30px);
+    }
+
+    50% {
+        transform: translate(1px, 12px);
+    }
+
+    74% {
+        transform: translate(1px, 22px);
+    }
+
+    100% {
+        transform: translate(1px, 22px);
+    }
+}
+
+@-moz-keyframes img-anmt {
+    0% {
+        -moz-transform: translate(1px, 20px);
+    }
+
+    24% {
+        -moz-transform: translate(1px, 30px);
+    }
+
+    50% {
+        -moz-transform: translate(1px, 12px);
+    }
+
+    74% {
+        -moz-transform: translate(1px, 22px);
+    }
+
+    100% {
+        -moz-transform: translate(1px, 22px);
+    }
+}
+
+@-webkit-keyframes img-anmt {
+    0% {
+        -webkit-transform: translate(1px, 20px);
+    }
+
+    24% {
+        -webkit-transform: translate(1px, 30px);
+    }
+
+    50% {
+        -webkit-transform: translate(1px, 12px);
+    }
+
+    74% {
+        -webkit-transform: translate(1px, 22px);
+    }
+
+    100% {
+        -webkit-transform: translate(1px, 22px);
+    }
+}
+
+@-o-keyframes img-anmt {
+    0% {
+        -o-transform: translate(1px, 20px);
+    }
+
+    24% {
+        -o-transform: translate(1px, 30px);
+    }
+
+    50% {
+        -o-transform: translate(1px, 12px);
+    }
+
+    74% {
+        -o-transform: translate(1px, 22px);
+    }
+
+    100% {
+        -o-transform: translate(1px, 22px);
+    }
+}
+
+@-ms-keyframes img-anmt {
+    0% {
+        -ms-transform: translate(1px, 20px);
+    }
+
+    24% {
+        -ms-transform: translate(1px, 30px);
+    }
+
+    50% {
+        -ms-transform: translate(1px, 12px);
+    }
+
+    74% {
+        -ms-transform: translate(1px, 22px);
+    }
+
+    100% {
+        -ms-transform: translate(1px, 22px);
+    }
+}
+
+.section-home2-ten i {
+    font-size: 16px;
+    color: #12d2b3;
+    margin-right: 10px;
+}
+
+.section-home2-ten .icn-list li {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.section-home2-ten p {
+    font-size: 16px;
+}
+
+.section-home2-ten h2 {
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.section-home2-ten span {
+    color: #12d2b3;
+    font-size: 16px;
+}
+
+
 .section-home2-nine {
     padding: 51px 0px;
 }
 
-.section-home2-eight .sp-test{
-  color:#12d2b3;
-  font-size: 16px;
+.section-home2-eight .sp-test {
+    color: #12d2b3;
+    font-size: 16px;
 }
 
 .section-home2-nine i {
@@ -42737,7 +42771,7 @@ img.img-fluid.service-icon {
 }
 
 
-.section-home2-eight{
+.section-home2-eight {
     background-color: #F3F2EA;
 }
 
@@ -42788,12 +42822,12 @@ img.img-fluid.service-icon {
 }
 
 @media (max-width: 768px) and (min-width: 430px) {
-    .home2-seven-pricing .price-box{
+    .home2-seven-pricing .price-box {
         margin: 0px;
-        border-radius:0px;
+        border-radius: 0px;
     }
- }
- 
+}
+
 
 .section-home2-six {
     padding: 20px 0px 50px 0px;
@@ -42848,8 +42882,8 @@ img.img-fluid.service-icon {
 
 .img-boxx:hover {
     background-color: #12d2b3 !important;
-    -webkit-transition: 0.4s ease-in-out; 
-     transition: 0.4s ease-in-out; 
+    -webkit-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
 }
 
 .img-boxx:hover img {
@@ -44351,39 +44385,50 @@ h6.uppercase {
         bottom: 38px !important;
         width: 18%;
     }
+
     .container.ttbantivirus-container {
         overflow: hidden !important;
     }
+
     .box-animantion img {
         left: 7rem !important;
     }
+
     .box i.bx.bx-chevrons-right {
         left: 14rem;
         width: 13%;
     }
+
     section#features {
         overflow: hidden !important;
     }
+
     .endpoint-protection {
         padding-top: 5rem;
     }
+
     .endpoint-container .\!text-start {
         margin: 0px !important;
     }
+
     .network-protection {
         padding-top: 8rem;
     }
+
     .Behavioral-banner {
         padding-top: 5rem;
     }
+
     .year-text-left {
         position: relative;
         bottom: 18px !important;
     }
+
     .behavioral img {
         max-width: 90%;
         margin: auto;
     }
+
     .lock-animantion img {
         right: 1rem !important;
         bottom: 2.5rem !important;
@@ -44391,9 +44436,11 @@ h6.uppercase {
         margin: auto !important;
         width: 65%;
     }
+
     .Malware-banner {
         padding-top: 6rem;
     }
+
     .my-section {
         margin: 0 !important;
         padding-bottom: 0px !important;
