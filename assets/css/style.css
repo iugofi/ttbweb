@@ -12563,10 +12563,11 @@ h6 {
     width: 538px !important;
     margin: 0 10px auto;
 }
-@media (max-width: 425px){
-    .pagination-dynamic .swiper-slide{
+
+@media (max-width: 425px) {
+    .pagination-dynamic .swiper-slide {
         width: 350px !important;
-     }
+    }
 }
 
 
@@ -42898,7 +42899,7 @@ img.img-fluid.service-icon {
     font-size: 15px;
 }
 
-@media (max-width: 425px){
+@media (max-width: 425px) {
     .section-home2-six .flex {
         display: block;
     }
@@ -42950,6 +42951,12 @@ img.img-fluid.service-icon {
     background-color: #f3f2ea;
     border-radius: 14px;
     position: relative;
+}
+
+@media (max-width: 425px) {
+    .section-home2-five .img-boxx {
+        right: 14px;
+    }
 }
 
 .section-home2-five a i {
@@ -43171,20 +43178,21 @@ img.img-fluid.service-icon {
 .banner-home-one p {
     font-size: 16px;
 }
-@media (max-width: 425px){
+
+@media (max-width: 425px) {
     .banner-home-one .btn-home-cnt {
         display: block;
         text-align: center;
         margin: 20px 0px 0px 0px;
     }
-        
+
     .banner-home-one .btn-home-now {
         display: block;
         text-align: center;
         border: 2px solid #12d2b3;
     }
-    
-    }
+
+}
 
 .threat-section-four {
     padding: 100px 0px;
