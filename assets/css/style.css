@@ -42582,6 +42582,9 @@ img.img-fluid.service-icon {
     .section-home2-ten .img-anmt {
         left: -0.2em;
     }
+    .section-home2-ten .icn-list li{
+        margin-bottom: 10px;
+    }
 }
 
 
