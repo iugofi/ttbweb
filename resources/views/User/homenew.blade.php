@@ -1216,21 +1216,6 @@
                 </div>
             </section>
 
-            <section class="section-app-down">
-                <div class="container">
-                    <div class="grid grid-cols-12 gap-6">
-                        <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 col-span-12">
-                            <span>TTB INTERNET SECURITY APP</span>
-                            <h3 class="mt-3">Download Our App And Start Your Free Trail To Get Started Today!</h3>
-                        </div>
-                        <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 col-span-12">
-                            <a href="#">
-                                <img src="{{ asset('assets/home-two-img/store-icon.png') }}" alt=""
-                                    width="100%"></a>
-                        </div>
-                    </div>
-                </div>
-            </section>
 
 
 
@@ -1239,9 +1224,21 @@
     </div>
 
 
-
-
-
+    <section class="section-app-down">
+        <div class="container">
+            <div class="grid grid-cols-12 gap-6">
+                <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 col-span-12">
+                    <span>TTB INTERNET SECURITY APP</span>
+                    <h3 class="mt-3">Download Our App And Start Your Free Trail To Get Started Today!</h3>
+                </div>
+                <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 col-span-12">
+                    <a href="#">
+                        <img src="{{ asset('assets/home-two-img/store-icon.png') }}" alt=""
+                            width="100%"></a>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
