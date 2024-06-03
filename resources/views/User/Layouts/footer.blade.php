@@ -106,12 +106,7 @@
 </section>
 <div class="text-center landing-main-footer py-4">
     <span class="text-[#8c9097] dark:text-white/50 text-[0.9375rem]"> Copyright © <span id="year"></span> <a
-        href="javascript:void(0);" class="!text-primary font-semibold"><u>TTB</u></a>.
-    Designed with <span class="fa fa-heart text-danger"></span> by <a href="javascript:void(0);" class="!text-primary font-semibold"><u>
-    TTB Team</u>
-    </a> All
-    rights
-    reserved
+        href="javascript:void(0);" class="!text-primary font-semibold"><u>ttbinternetsecurity</u></a>.
     </span>
 </div>
         <!-- FOOTER -->
