@@ -42780,6 +42780,7 @@ img.img-fluid.service-icon {
 .section-home2-six span {
     color: #12d2b3;
     font-size: 16px;
+    display: inline-block;
 }
 
 .section-home2-six h2 {
