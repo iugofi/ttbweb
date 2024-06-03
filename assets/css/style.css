@@ -42504,6 +42504,8 @@ img.img-fluid.service-icon {
     margin-top: 3em;
 }
 
+
+
 .section-app-down h3 {
     color: #fff;
     font-size: 28px;
@@ -42516,6 +42518,13 @@ img.img-fluid.service-icon {
     font-size: 16px;
 }
 
+@media (max-width: 768px) and (min-width: 430px) {
+    .section-app-down img{
+        width:100%;
+
+    }
+ }
+ 
 .section-home2-ten{
     padding:50px 0px;
  }
