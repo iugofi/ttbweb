@@ -167,7 +167,7 @@
                         </div>
                     </div>
                     <div class="grid grid-cols-12 gap-6 mt-5">
-                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-12 col-span-12 img-boxx">
+                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-6 col-span-12 img-boxx">
                             <img src="{{ asset('assets/home-two-img/service_3_1.svg') }}" alt=""
                                 class="img-fluid" width="20%">
                             <h3 class="mt-2">Cyber Security</h3>
@@ -175,7 +175,7 @@
                                 promoting security.</p>
                             <a href="#"><i class="fas fa-arrow-right"></i></a>
                         </div>
-                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-12 col-span-12 img-boxx">
+                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-6 col-span-12 img-boxx">
                             <img src="{{ asset('assets/home-two-img/service_3_2.svg') }}" alt=""
                                 class="img-fluid" width="20%">
                             <h3 class="mt-2">Cyber Security</h3>
@@ -183,7 +183,7 @@
                                 promoting security.</p>
                             <a href="#"><i class="fas fa-arrow-right"></i></a>
                         </div>
-                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-12 col-span-12 img-boxx">
+                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-6 col-span-12 img-boxx">
                             <img src="{{ asset('assets/home-two-img/service_3_3.svg') }}" alt=""
                                 class="img-fluid" width="20%">
                             <h3 class="mt-2">Cyber Security</h3>
@@ -191,7 +191,7 @@
                                 promoting security.</p>
                             <a href="#"><i class="fas fa-arrow-right"></i></a>
                         </div>
-                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-12 col-span-12 img-boxx">
+                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-6 col-span-12 img-boxx">
                             <img src="{{ asset('assets/home-two-img/service_3_4.svg') }}" alt=""
                                 class="img-fluid" width="20%">
                             <h3 class="mt-2">Cyber Security</h3>
@@ -199,7 +199,7 @@
                                 promoting security.</p>
                             <a href="#"><i class="fas fa-arrow-right"></i></a>
                         </div>
-                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-12 col-span-12 img-boxx">
+                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-6 col-span-12 img-boxx">
                             <img src="{{ asset('assets/home-two-img/service_3_5.svg') }}" alt=""
                                 class="img-fluid" width="20%">
                             <h3 class="mt-2">Cyber Security</h3>
@@ -207,7 +207,7 @@
                                 promoting security.</p>
                             <a href="#"><i class="fas fa-arrow-right"></i></a>
                         </div>
-                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-12 col-span-12 img-boxx">
+                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-6 col-span-12 img-boxx">
                             <img src="{{ asset('assets/home-two-img/service_3_6.svg') }}" alt=""
                                 class="img-fluid" width="20%">
                             <h3 class="mt-2">Cyber Security</h3>
@@ -215,7 +215,7 @@
                                 promoting security.</p>
                             <a href="#"><i class="fas fa-arrow-right"></i></a>
                         </div>
-                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-12 col-span-12 img-boxx">
+                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-6 col-span-12 img-boxx">
                             <img src="{{ asset('assets/home-two-img/service_3_7.svg') }}" alt=""
                                 class="img-fluid" width="20%">
                             <h3 class="mt-2">Cyber Security</h3>
@@ -223,7 +223,7 @@
                                 promoting security.</p>
                             <a href="#"><i class="fas fa-arrow-right"></i></a>
                         </div>
-                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-12 col-span-12 img-boxx">
+                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-6 col-span-12 img-boxx">
                             <img src="{{ asset('assets/home-two-img/service_3_8.svg') }}" alt=""
                                 class="img-fluid" width="20%">
                             <h3 class="mt-2">Cyber Security</h3>
