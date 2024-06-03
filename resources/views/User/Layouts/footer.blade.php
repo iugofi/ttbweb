@@ -1,4 +1,4 @@
-<section class="section landing-footer  text-white text-[0.813rem] opacity-[0.87]">
+<section class="section landing-footer">
     <div class="container">
         <div class="grid grid-cols-12 gap-6">
             <div class="xl:col-span-4 col-span-12">
