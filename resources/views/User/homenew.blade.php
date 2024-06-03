@@ -273,7 +273,7 @@
                         </div>
                         <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12 ">
                             <img src="{{ asset('assets/home-two-img/why-choose-us.png') }}" alt="" class="img-fluid"
-                                width="100%">
+                                width="90%">
 
                         </div>
                     </div>
