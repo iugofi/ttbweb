@@ -272,8 +272,8 @@
 
                         </div>
                         <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12 ">
-                            <img src="{{ asset('assets/home-two-img/11111111.svg') }}" alt="" class="img-fluid"
-                                width="20%">
+                            <img src="{{ asset('assets/home-two-img/why-choose-us.png') }}" alt="" class="img-fluid"
+                                width="100%">
 
                         </div>
                     </div>
