@@ -45178,23 +45178,26 @@ span.decor.px-2 {
     background-repeat: no-repeat;
     background-size: cover;
 }
-/* .flex-img{
-    border-right: 60px solid #0004ff;
+.flex-box {
+    padding: 30px;
+    background: #F5F6FA;
     position: relative;
-    top: 0%;
-    bottom: 0;
 }
-.flex-img:hover {
-    border-right: 60px solid #000000;
-    position: relative;
-    top: 0%;
+.flex-box::before {
+    content: '';
+    position: absolute;
+    background-color: #D1D3D8;
+    top: 0;
     bottom: 0;
-}
-.flex-img img {
+    right: 0;
     z-index: 1;
-    position: relative;
-    left: 48px;
-} */
+    height: 100%;
+    width: 20%;
+}
+.flex-box:hover::before {
+    content: '';
+    background-color: #12d2b3;
+}
 
 /* End:: anti-phishing page css */
 
