@@ -47,10 +47,8 @@
                             <div class="row flex gap-8">
                                 <div class="group flex items-center xl:col-grid-6 col-grid-6  px-2 py-5 gap-3 flex-box">
                                     <div class="ltr:ml-3 rtl:mr-3">
-                                        <p class="text-sm font-medium text-slate-700 group-hover:text-slate-900">With
-                                            supporting natural lead</p>
-                                        <h5 class="text-sm font-bold text-xl text-slate-500 group-hover:text-slate-700">customer
-                                            service without goal-oriented catalysts for change</h5>
+                                        <p class="text-sm font-medium text-slate-700 group-hover:text-slate-900">FEATURES</p>
+                                        <h5 class="text-sm font-bold text-xl text-slate-500 group-hover:text-slate-700">Tech-Oriented</h5>
                                     </div>
                                     <div class="flex-img">
                                     <img src="https://nighthawk-routerlogin.com/assets/img/Best-Services-Iocn-1.png" alt="widget" class="rounded-custom img-fluid">
@@ -58,10 +56,9 @@
                                 </div>
                                 <div class="group flex items-center xl:col-grid-6 col-grid-6  px-2 py-5 gap-3 flex-box">
                                     <div class="ltr:ml-3 rtl:mr-3">
-                                        <p class="text-sm font-medium text-slate-700 group-hover:text-slate-900">With
-                                            supporting natural lead</p>
-                                        <h5 class="text-sm font-bold text-xl text-slate-500 group-hover:text-slate-700">customer
-                                            service without goal-oriented catalysts for change</h5>
+                                        <p class="text-sm font-medium text-slate-700 group-hover:text-slate-900">FEATURES</p>
+                                        <h5 class="text-sm font-bold text-xl text-slate-500 group-hover:text-slate-700">Innovative Solution<br>
+                                            For Business</h5>
                                     </div>
                                     <div class="flex-img">
                                         <img src="https://nighthawk-routerlogin.com/assets/img/Best-Services-Iocn-1.png" alt="widget" class="rounded-custom img-fluid">
@@ -69,10 +66,9 @@
                                 </div>
                                 <div class="group flex items-center xl:col-grid-6 col-grid-6  px-2 py-5 gap-3 flex-box">
                                     <div class="ltr:ml-3 rtl:mr-3">
-                                        <p class="text-sm font-medium text-slate-700 group-hover:text-slate-900">With
-                                            supporting natural lead</p>
-                                        <h5 class="text-sm font-bold text-xl text-slate-500 group-hover:text-slate-700">customer
-                                            service without goal-oriented catalysts for change</h5>
+                                        <p class="text-sm font-medium text-slate-700 group-hover:text-slate-900">FEATURES</p>
+                                        <h5 class="text-sm font-bold text-xl text-slate-500 group-hover:text-slate-700">Top Class Support<br>
+                                            For Customers</h5>
                                     </div>
                                     <div class="flex-img">
                                         <img src="https://nighthawk-routerlogin.com/assets/img/Best-Services-Iocn-1.png" alt="widget" class="rounded-custom img-fluid">
