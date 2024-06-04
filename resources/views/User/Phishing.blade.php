@@ -45,7 +45,7 @@
                     <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 pt-5 pb-0 lg:px-2 !text-start  my-auto">
                         <div class="grid grid-col-12 gap-x-6">
                             <div class="row flex gap-8">
-                                <div class="group flex items-center xl:col-grid-6 col-grid-6 px-5 py-5">
+                                <div class="group flex items-center xl:col-grid-6 col-grid-6 px-5 py-5 flex-box">
                                     <div class="ltr:ml-3 rtl:mr-3">
                                         <p class="text-sm font-medium text-slate-700 group-hover:text-slate-900">With
                                             supporting natural lead</p>
@@ -54,9 +54,9 @@
                                     </div>
                                     <div class="flex-img">
                                     <img src="https://nighthawk-routerlogin.com/assets/img/Best-Services-Iocn-1.png" alt="widget" class="rounded-custom img-fluid">
+                                    </div>
                                 </div>
-                                </div>
-                                <div class="group flex items-center xl:col-grid-6 col-grid-6">
+                                <div class="group flex items-center xl:col-grid-6 col-grid-6 px-5 py-5 v">
                                     <div class="ltr:ml-3 rtl:mr-3">
                                         <p class="text-sm font-medium text-slate-700 group-hover:text-slate-900">With
                                             supporting natural lead</p>
@@ -66,7 +66,8 @@
                                     <div class="flex-img">
                                         <img src="https://nighthawk-routerlogin.com/assets/img/Best-Services-Iocn-1.png" alt="widget" class="rounded-custom img-fluid">
                                     </div>
-                                </div><div class="group flex items-center xl:col-grid-6 col-grid-6">
+                                </div>
+                                <div class="group flex items-center xl:col-grid-6 col-grid-6 px-5 py-5 flex-box">
                                     <div class="ltr:ml-3 rtl:mr-3">
                                         <p class="text-sm font-medium text-slate-700 group-hover:text-slate-900">With
                                             supporting natural lead</p>
