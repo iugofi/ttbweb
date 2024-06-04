@@ -88,13 +88,13 @@
 
         <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]" style="padding-top: 0px !important">
             <div class="container main-banner-container">
-                <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 customize-image text-center">
-                    <div class="lg:text-start !flex items-center lg:justify-start justify-center">
-                        <img src="{{ asset('assets/img/The-Largest-Business-Expert-Company-4th-sec.png') }}" alt=""
-                            class="img-fluid">
-                    </div>
-                </div>
                 <div class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 customize-image text-center">
+                        <div class="lg:text-start !flex items-center lg:justify-start justify-center">
+                            <img src="{{ asset('assets/img/The-Largest-Business-Expert-Company-4th-sec.png') }}" alt=""
+                                class="img-fluid">
+                        </div>
+                    </div>
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 pt-5 pb-0 lg:px-2 !text-start  my-auto">
                         <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">About Our
                             Company</span>
