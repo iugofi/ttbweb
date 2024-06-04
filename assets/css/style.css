@@ -45172,12 +45172,29 @@ span.decor.px-2 {
 /* Start:: anti-phishing page css */
 
 .anti-phishing {
-    background-image: url("/assets/img/Banner-img.jpg");
+    background-image: url("/assets/img/phishing-Banner.png");
     height: 41rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+/* .flex-img{
+    border-right: 60px solid #0004ff;
+    position: relative;
+    top: 0%;
+    bottom: 0;
+}
+.flex-img:hover {
+    border-right: 60px solid #000000;
+    position: relative;
+    top: 0%;
+    bottom: 0;
+}
+.flex-img img {
+    z-index: 1;
+    position: relative;
+    left: 48px;
+} */
 
 /* End:: anti-phishing page css */
 
