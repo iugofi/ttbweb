@@ -127,12 +127,11 @@
                                 value with diverse web-readiness. Collaboratively transition wireless customer service without
                                 goal-oriented catalysts for change. Collaboratively.
                             </p><br><br>
-                            <a href="index.html" class="ti-btn bg-primary text-white" style="width:26%;">
-                               Learn More Us
-                            </a>
 
                         </div>
-						
+						<a href="index.html" class="ti-btn bg-primary text-white" style="width:26%;">
+                            Learn More Us
+                         </a>
                     </div>
                 </div>
             </div>
