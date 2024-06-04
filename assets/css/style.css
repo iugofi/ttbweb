@@ -45202,6 +45202,16 @@ span.decor.px-2 {
     position: relative;
     z-index: 1;
 }
+.flex-box .flex-img img {
+    border-radius: 42px;
+    position: relative;
+    background: #fff;
+    width: 65%;
+    padding: 10px;
+    left: 15px;
+    margin: auto;
+    display: list-item;
+}
 
 /* End:: anti-phishing page css */
 
