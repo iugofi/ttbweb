@@ -45193,6 +45193,7 @@ span.decor.px-2 {
     z-index: 1;
     height: 100%;
     width: 20%;
+    transition: all 0.6s ease-in-out;
 }
 .flex-box:hover::before {
     content: '';
