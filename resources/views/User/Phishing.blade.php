@@ -119,15 +119,19 @@
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
                                 <h5 class="dark-text">Company Data</h5>
                                 <p class="text-gray-light">Business Experience</p>
-                            </div><br>
+                            </div>
+
+                        </div>
+						<div class="row row-service mt-5" style="display: flex;">
                             <p class=" text-[0.9rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
                                 value with diverse web-readiness. Collaboratively transition wireless customer service without
                                 goal-oriented catalysts for change. Collaboratively.
-                            </p>
-                        </div><br><br>
-                        <a href="index.html" class="ti-btn bg-primary text-white" style="width:26%;">
-                            Learn More Us
-                        </a>
+                            </p><br><br>
+                            <a href="index.html" class="ti-btn bg-primary text-white" style="width:26%;">
+                               Learn More Us
+                            </a>
+
+                        </div>
 						
                     </div>
                 </div>
