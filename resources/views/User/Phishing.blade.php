@@ -49,8 +49,8 @@
                                     <div class="ltr:ml-3 rtl:mr-3">
                                         <p class="text-sm font-medium text-slate-700 group-hover:text-slate-900">With
                                             supporting natural lead</p>
-                                        <p class="text-sm font-medium text-slate-500 group-hover:text-slate-700">customer
-                                            service without goal-oriented catalysts for change</p>
+                                        <h5 class="text-sm font-bold text-xl text-slate-500 group-hover:text-slate-700">customer
+                                            service without goal-oriented catalysts for change</h5>
                                     </div>
                                     <div class="flex-img">
                                     <img src="https://nighthawk-routerlogin.com/assets/img/Best-Services-Iocn-1.png" alt="widget" class="rounded-custom img-fluid">
@@ -60,8 +60,8 @@
                                     <div class="ltr:ml-3 rtl:mr-3">
                                         <p class="text-sm font-medium text-slate-700 group-hover:text-slate-900">With
                                             supporting natural lead</p>
-                                        <p class="text-sm font-medium text-slate-500 group-hover:text-slate-700">customer
-                                            service without goal-oriented catalysts for change</p>
+                                        <h5 class="text-sm font-bold text-xl text-slate-500 group-hover:text-slate-700">customer
+                                            service without goal-oriented catalysts for change</h5>
                                     </div>
                                     <div class="flex-img">
                                         <img src="https://nighthawk-routerlogin.com/assets/img/Best-Services-Iocn-1.png" alt="widget" class="rounded-custom img-fluid">
@@ -71,8 +71,8 @@
                                     <div class="ltr:ml-3 rtl:mr-3">
                                         <p class="text-sm font-medium text-slate-700 group-hover:text-slate-900">With
                                             supporting natural lead</p>
-                                        <p class="text-sm font-medium text-slate-500 group-hover:text-slate-700">customer
-                                            service without goal-oriented catalysts for change</p>
+                                        <h5 class="text-sm font-bold text-xl text-slate-500 group-hover:text-slate-700">customer
+                                            service without goal-oriented catalysts for change</h5>
                                     </div>
                                     <div class="flex-img">
                                         <img src="https://nighthawk-routerlogin.com/assets/img/Best-Services-Iocn-1.png" alt="widget" class="rounded-custom img-fluid">

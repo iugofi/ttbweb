@@ -45178,6 +45178,23 @@ span.decor.px-2 {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.flex-img{
+    border-right: 60px solid #0004ff;
+    position: relative;
+    top: 0%;
+    bottom: 0;
+}
+.flex-img:hover {
+    border-right: 60px solid #000000;
+    position: relative;
+    top: 0%;
+    bottom: 0;
+}
+.flex-img img {
+    z-index: 1;
+    position: relative;
+    left: 28px;
+}
 
 /* End:: anti-phishing page css */
 
