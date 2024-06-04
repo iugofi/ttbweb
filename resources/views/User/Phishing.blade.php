@@ -85,6 +85,7 @@
 
         <!-- End:: anti-phishing section two -->
 
+        <!-- Start:: anti-phishing section three -->
 
         <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]" style="padding-top: 0px !important">
             <div class="container main-banner-container">
@@ -96,8 +97,7 @@
                         </div>
                     </div>
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 pt-5 pb-0 lg:px-2 !text-start  my-auto">
-                        <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">About Our
-                            Company</span>
+                        <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">Who We Are</span>
                         <h2 class="lg:text-start font-semibold mb-2 pt-5 text-[2rem]">The Largest Business Expert<br>
                             Company!</h2>
                         <p class=" text-[0.9rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
@@ -146,7 +146,7 @@
         </div>
 
 
-
+        <!-- End:: anti-phishing section three -->
 
 
 
