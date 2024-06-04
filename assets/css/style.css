@@ -45179,9 +45179,10 @@ span.decor.px-2 {
     background-size: cover;
 }
 .flex-box {
-    padding: 30px;
+    padding: 44px 20px;
     background: #F5F6FA;
     position: relative;
+    margin: auto;
 }
 .flex-box::before {
     content: '';
