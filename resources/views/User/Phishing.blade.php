@@ -40,11 +40,9 @@
 
         <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] ">
             <div class="container main-banner-container">
-                <div
-                    class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
+                <div class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
 
-                    <div
-                        class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 pt-5 pb-0 lg:px-2 !text-start  my-auto">
+                    <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 pt-5 pb-0 lg:px-2 !text-start  my-auto">
 
 
 
@@ -58,37 +56,28 @@
                                         <p class="text-sm font-medium text-slate-500 group-hover:text-slate-700">customer
                                             service without goal-oriented catalysts for change</p>
                                     </div>
-                                    <img src="https://nighthawk-routerlogin.com/assets/img/Best-Services-Iocn-1.png"
-                                        alt="widget" class="rounded-custom img-fluid">
+                                    <img src="https://nighthawk-routerlogin.com/assets/img/Best-Services-Iocn-1.png" alt="widget" class="rounded-custom img-fluid">
                                 </div>
-                                <div class="xl:col-grid-6 col-grid-6">
-                                    <i class="fa-solid fa-angles-right space-x-4 icon-size">
-                                        <h6 style="font-weight: 700; font-size: 14px;">With supporting
-                                            natural lead</h6>
-                                    </i>
-                                    <p>customer service without goal-oriented catalysts for change</p><br>
-                                    <i class="fa-solid fa-angles-right space-x-4 icon-size">
-                                        <h6 style="font-weight: 700; font-size: 14px;">With supporting
-                                            natural lead</h6>
-                                    </i><br>
-                                    <p>customer service without goal-oriented catalysts for change</p>
+                                <div class="group flex items-center xl:col-grid-6 col-grid-6">
+                                    <div class="ltr:ml-3 rtl:mr-3">
+                                        <p class="text-sm font-medium text-slate-700 group-hover:text-slate-900">With
+                                            supporting natural lead</p>
+                                        <p class="text-sm font-medium text-slate-500 group-hover:text-slate-700">customer
+                                            service without goal-oriented catalysts for change</p>
+                                    </div>
+                                    <img src="https://nighthawk-routerlogin.com/assets/img/Best-Services-Iocn-1.png" alt="widget" class="rounded-custom img-fluid">
+                                </div><div class="group flex items-center xl:col-grid-6 col-grid-6">
+                                    <div class="ltr:ml-3 rtl:mr-3">
+                                        <p class="text-sm font-medium text-slate-700 group-hover:text-slate-900">With
+                                            supporting natural lead</p>
+                                        <p class="text-sm font-medium text-slate-500 group-hover:text-slate-700">customer
+                                            service without goal-oriented catalysts for change</p>
+                                    </div>
+                                    <img src="https://nighthawk-routerlogin.com/assets/img/Best-Services-Iocn-1.png" alt="widget" class="rounded-custom img-fluid">
                                 </div>
-                                <div class="xl:grid-col-6 col-grid-6">
-                                    <i class="fa-solid fa-angles-right space-x-4 icon-size">
-                                        <h6 style="font-weight: 700; font-size: 14px;">With supporting
-                                            natural lead</h6>
-                                    </i>
-                                    <p>customer service without goal-oriented catalysts for change</p><br>
-                                    <i class="fa-solid fa-angles-right space-x-4 icon-size">
-                                        <h6 style="font-weight: 700; font-size: 14px;">With supporting
-                                            natural lead</h6>
-                                    </i><br>
-                                    <p>customer service without goal-oriented catalysts for change</p>
-                                </div>
-                            </div><br><br>
-                            <a href="index.html" class="ti-btn bg-primary text-white" style="width:26%;">
-                                About More
-                            </a>
+                                
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
