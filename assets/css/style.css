@@ -45169,6 +45169,18 @@ span.decor.px-2 {
 
 /* End:: Malware Detection page css */
 
+/* Start:: anti-phishing page css */
+
+.anti-phishing {
+    background-image: url("/assets/img/Banner-img.jpg");
+    height: 41rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* End:: anti-phishing page css */
+
 /* kunal-verma 23-04-2024 */
 
 #totel-internet-security div#vpnshield {
