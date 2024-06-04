@@ -45178,7 +45178,7 @@ span.decor.px-2 {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.flex-img{
+/* .flex-img{
     border-right: 60px solid #0004ff;
     position: relative;
     top: 0%;
@@ -45193,8 +45193,8 @@ span.decor.px-2 {
 .flex-img img {
     z-index: 1;
     position: relative;
-    left: 28px;
-}
+    left: 48px;
+} */
 
 /* End:: anti-phishing page css */
 
