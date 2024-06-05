@@ -318,7 +318,7 @@
                     IT Business Solutiond</h4>
                 <hr>
                 </div>
-                <div class=" grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12">
+                <div class=" grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 mt-5">
                     <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-4">
                         <div class="flex" style="justify-content: center; align-items: center;">
                             <div class="icon-box-counter">
