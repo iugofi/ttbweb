@@ -45214,7 +45214,13 @@ span.decor.px-2 {
     margin: auto;
     display: list-item;
 }
-
+button#hs-tab-js-behavior-item-2:active {
+    background-color: #12d2b3;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 4px;
+}
 /* End:: anti-phishing page css */
 
 
