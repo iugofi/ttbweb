@@ -352,115 +352,92 @@
 
 
 
-        <div class="flex-wrapper">
-            <div class="single-chart">
-              <svg viewBox="0 0 36 36" class="circular-chart orange">
-                <path class="circle-bg"
-                  d="M18 2.0845
-                    a 15.9155 15.9155 0 0 1 0 31.831
-                    a 15.9155 15.9155 0 0 1 0 -31.831"
-                />
-                <path class="circle"
-                  stroke-dasharray="30, 100"
-                  d="M18 2.0845
-                    a 15.9155 15.9155 0 0 1 0 31.831
-                    a 15.9155 15.9155 0 0 1 0 -31.831"
-                />
-                <text x="18" y="20.35" class="percentage">30%</text>
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+          <style>
+            .circle-container {
+              max-width: 100px;
+              margin: 0 auto;
+            }
+          </style>
+        <body class="bg-gray-100 flex items-center justify-center min-h-screen">
+          <div class="container mx-auto px-4 py-8 grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div class="circle-container">
+              <svg viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="45" fill="#FDB900"/>
+                <path fill="none" stroke-linecap="round" stroke-width="5" stroke="#fff"
+                      stroke-dasharray="220.2,0"
+                      d="M50 10
+                         a 40 40 0 0 1 0 80
+                         a 40 40 0 0 1 0 -80"/>
+                <text x="50" y="50" text-anchor="middle" dy="7" font-size="20">85%</text>
               </svg>
             </div>
-            
-            <div class="single-chart">
-              <svg viewBox="0 0 36 36" class="circular-chart green">
-                <path class="circle-bg"
-                  d="M18 2.0845
-                    a 15.9155 15.9155 0 0 1 0 31.831
-                    a 15.9155 15.9155 0 0 1 0 -31.831"
-                />
-                <path class="circle"
-                  stroke-dasharray="60, 100"
-                  d="M18 2.0845
-                    a 15.9155 15.9155 0 0 1 0 31.831
-                    a 15.9155 15.9155 0 0 1 0 -31.831"
-                />
-                <text x="18" y="20.35" class="percentage">60%</text>
+            <div class="circle-container">
+              <svg viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="45" fill="#FDB900"/>
+                <path fill="none" stroke-linecap="round" stroke-width="5" stroke="#fff"
+                      stroke-dasharray="125.6,125.6"
+                      d="M50 10
+                         a 40 40 0 0 1 0 80
+                         a 40 40 0 0 1 0 -80"/>
+                <text x="50" y="50" text-anchor="middle" dy="7" font-size="20">50%</text>
               </svg>
             </div>
-          
-            <div class="single-chart">
-              <svg viewBox="0 0 36 36" class="circular-chart blue">
-                <path class="circle-bg"
-                  d="M18 2.0845
-                    a 15.9155 15.9155 0 0 1 0 31.831
-                    a 15.9155 15.9155 0 0 1 0 -31.831"
-                />
-                <path class="circle"
-                  stroke-dasharray="90, 100"
-                  d="M18 2.0845
-                    a 15.9155 15.9155 0 0 1 0 31.831
-                    a 15.9155 15.9155 0 0 1 0 -31.831"
-                />
-                <text x="18" y="20.35" class="percentage">90%</text>
+            <div class="circle-container">
+              <svg viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="45" fill="#FDB900"/>
+                <path fill="none" stroke-linecap="round" stroke-width="5" stroke="#fff"
+                      stroke-dasharray="251.2,0"
+                      d="M50 10
+                         a 40 40 0 0 1 0 80
+                         a 40 40 0 0 1 0 -80"/>
+                <text x="50" y="50" text-anchor="middle" dy="7" font-size="20">100%</text>
+              </svg>
+            </div>
+            <div class="circle-container">
+              <svg id="animated" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="45" fill="#FDB900"/>
+                <path id="progress" stroke-linecap="round" stroke-width="5" stroke="#fff" fill="none"
+                      d="M50 10
+                         a 40 40 0 0 1 0 80
+                         a 40 40 0 0 1 0 -80"/>
+                <text id="count" x="50" y="50" text-anchor="middle" dy="7" font-size="20">0%</text>
               </svg>
             </div>
           </div>
-
-          <style>
-.flex-wrapper {
-display: flex;
-flex-flow: row nowrap;
-}
-
-.single-chart {
-width: 33%;
-justify-content: space-around ;
-}
-
-.circular-chart {
-display: block;
-margin: 10px auto;
-max-width: 80%;
-max-height: 250px;
-}
-
-.circle-bg {
-fill: none;
-stroke: #eee;
-stroke-width: 3.8;
-}
-
-.circle {
-fill: none;
-stroke-width: 2.8;
-stroke-linecap: round;
-animation: progress 1s ease-out forwards;
-}
-
-@keyframes progress {
-0% {
-stroke-dasharray: 0 100;
-}
-}
-
-.circular-chart.orange .circle {
-stroke: #ff9f00;
-}
-
-.circular-chart.green .circle {
-stroke: #4CC790;
-}
-
-.circular-chart.blue .circle {
-stroke: #3c9ee5;
-}
-
-.percentage {
-fill: #666;
-font-family: sans-serif;
-font-size: 0.5em;
-text-anchor: middle;
-}
-          </style>
+        
+          <script>
+            document.addEventListener('DOMContentLoaded', () => {
+              const progress = document.getElementById('progress');
+              const count = document.getElementById('count');
+              const targetValue = 75;  // Example target value
+              const circumference = 2 * Math.PI * 40; // 2 * π * radius
+              const offset = circumference - (targetValue / 100) * circumference;
+              
+              progress.style.strokeDasharray = `${circumference} ${circumference}`;
+              progress.style.strokeDashoffset = circumference;
+        
+              let progressValue = 0;
+              const increment = targetValue / 100;
+              
+              const updateProgress = () => {
+                if (progressValue < targetValue) {
+                  progressValue += increment;
+                  count.textContent = `${Math.floor(progressValue)}%`;
+                  const newOffset = circumference - (progressValue / 100) * circumference;
+                  progress.style.strokeDashoffset = newOffset;
+                  requestAnimationFrame(updateProgress);
+                } else {
+                  count.textContent = `${targetValue}%`;
+                }
+              };
+        
+              updateProgress();
+            });
+          </script>
+        </body>
+        </html>
+        
 
 
 
