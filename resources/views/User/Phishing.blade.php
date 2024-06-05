@@ -193,19 +193,19 @@
                                                     class="hs-tab-active:bg-white hs-tab-active:border-b-transparent hs-tab-active:text-primary dark:hs-tab-active:bg-bodybg dark:hs-tab-active:border-b-transparent dark:hs-tab-active:text-primary -mb-px py-2 px-3 inline-flex items-center gap-2 bg-gray-50 text-sm font-medium text-center border text-defaulttextcolor rounded-t-sm hover:text-primary dark:bg-black/20 dark:border-white/10 dark:text-[#8c9097] dark:text-white/50 dark:hover:text-gray-300 active"
                                                     id="hs-tab-js-behavior-item-1" data-hs-tab="#hs-tab-js-behavior-1"
                                                     aria-controls="hs-tab-js-behavior-1">
-                                                    Tab 1
+                                                    Our Mission
                                                 </button>
                                                 <button type="button"
                                                     class="hs-tab-active:bg-white hs-tab-active:border-b-transparent hs-tab-active:text-primary dark:hs-tab-active:bg-bodybg dark:hs-tab-active:border-b-transparent dark:hs-tab-active:text-primary -mb-px py-2 px-3 inline-flex items-center gap-2 bg-gray-50 text-sm font-medium text-center border text-defaulttextcolor rounded-t-sm hover:text-primary dark:bg-black/20 dark:border-white/10 dark:text-[#8c9097] dark:text-white/50 dark:hover:text-gray-300"
                                                     id="hs-tab-js-behavior-item-2" data-hs-tab="#hs-tab-js-behavior-2"
                                                     aria-controls="hs-tab-js-behavior-2">
-                                                    Tab 2
+                                                    Our Startegy
                                                 </button>
                                                 <button type="button"
                                                     class="hs-tab-active:bg-white hs-tab-active:border-b-transparent hs-tab-active:text-primary dark:hs-tab-active:bg-bodybg dark:hs-tab-active:border-b-transparent dark:hs-tab-active:text-primary -mb-px py-2 px-3 inline-flex items-center gap-2 bg-gray-50 text-sm font-medium text-center border text-defaulttextcolor rounded-t-sm hover:text-primary dark:bg-black/20 dark:border-white/10 dark:text-[#8c9097] dark:text-white/50 dark:hover:text-gray-300"
                                                     id="hs-tab-js-behavior-item-3" data-hs-tab="#hs-tab-js-behavior-3"
                                                     aria-controls="hs-tab-js-behavior-3">
-                                                    Tab 3
+                                                    Our Vision
                                                 </button>
                                             </nav>
                                         </div>
