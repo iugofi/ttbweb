@@ -160,7 +160,7 @@
 
         <!-- Start:: anti-phishing section five -->
 
-        <div class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 malware-pdg"
+        <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]"
             style="padding: 75px 0px !important;">
             <div class="container ttbantivirus-container">
                 <div
