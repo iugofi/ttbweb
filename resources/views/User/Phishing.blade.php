@@ -307,8 +307,17 @@
 
 
 
+
         <section class="counter-section">
             <div class="container">
+                <div
+                class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 pt-5 pb-0 lg:px-2 !text-start">
+                <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">Business
+                    Strategy We Need</span>
+                <h4 class="lg:text-start font-semibold mb-2 pt-5 pb-5 text-[2rem]">We` Prominent Truly Trusted<br>
+                    IT Business Solutiond</h4>
+                <hr>
+                </div>
                 <div class=" grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12">
                     <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-4">
                         <div class="flex" style="justify-content: center; align-items: center;">
@@ -316,9 +325,9 @@
                                 <div class="circle-container">
                                     <div class="circle" data-percentage="93">
                                         <svg viewbox="0 0 100 100">
-                                            <circle cx="50" cy="50" r="45" fill="#FDB900" />
+                                            <circle cx="50" cy="50" r="45" fill="#fff" />
                                             <path class="progress" stroke-linecap="round" stroke-width="5"
-                                                stroke="#fff" fill="none" d="M50 10
+                                                stroke="#12D2B3" fill="none" d="M50 10
                                              a 40 40 0 0 1 0 80
                                              a 40 40 0 0 1 0 -80">
                                             </path>
@@ -340,9 +349,9 @@
                                 <div class="circle-container">
                                     <div class="circle" data-percentage="68">
                                         <svg viewbox="0 0 100 100">
-                                            <circle cx="50" cy="50" r="45" fill="#FDB900" />
+                                            <circle cx="50" cy="50" r="45" fill="#fff" />
                                             <path class="progress" stroke-linecap="round" stroke-width="5"
-                                                stroke="#fff" fill="none" d="M50 10
+                                                stroke="#12D2B3" fill="none" d="M50 10
                                                  a 40 40 0 0 1 0 80
                                                  a 40 40 0 0 1 0 -80">
                                             </path>
@@ -364,9 +373,9 @@
                                 <div class="circle-container">
                                     <div class="circle" data-percentage="85">
                                         <svg viewbox="0 0 100 100">
-                                            <circle cx="50" cy="50" r="45" fill="#FDB900" />
+                                            <circle cx="50" cy="50" r="45" fill="#fff" />
                                             <path class="progress" stroke-linecap="round" stroke-width="5"
-                                                stroke="#fff" fill="none" d="M50 10
+                                                stroke="#12D2B3" fill="none" d="M50 10
                                                  a 40 40 0 0 1 0 80
                                                  a 40 40 0 0 1 0 -80">
                                             </path>
