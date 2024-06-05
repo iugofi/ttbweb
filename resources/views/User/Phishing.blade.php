@@ -304,7 +304,11 @@
         <!-- Start:: anti-phishing section six -->
 
 
-
+<style>
+    .counter-section{
+        padding: 100px 0px;
+    }
+</style>
 
 
 <section class="counter-section">
