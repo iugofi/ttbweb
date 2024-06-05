@@ -172,34 +172,39 @@
                     </div>
                     <div
                         class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 pt-0 pb-0 lg:px-2 !text-start text-vertical">
-                        <span class="lg:text-center font-semibold mt-2 pt-5 mb-2 text-[1rem]" style="color:#12D2B3;">Who We Are</span>
+                        <span class="lg:text-center font-semibold mt-2 pt-5 mb-2 text-[1rem]" style="color:#12D2B3;">Who We
+                            Are</span>
                         <h4 class="lg:text-start font-semibold mb-2 pt-5 text-[2rem]">We` Prominent Truly Trusted<br>
                             IT Business Solutiond</h4>
                         <p class=" text-[0.9rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
                             value with diverse web-readiness. Collaboratively transition wireless customer service without
                             goal-oriented catalysts for change. Collaboratively.
                         </p>
-                        <div class="grid grid-cols-12 gap-x-6">
+                        <div class="grid grid-cols-12 gap-x-6 section-tab">
                             <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-6">
                                 <div class="box">
                                     <div class="box-body tab">
                                         <div class="border-b-0 border-gray-200 dark:border-white/10">
-                                            <nav class="flex space-x-2 rtl:space-x-reverse" aria-label="Tabs" style="justify-content: center;">
+                                            <nav class="flex space-x-2 rtl:space-x-reverse" aria-label="Tabs"
+                                                style="justify-content: center;">
                                                 <button type="button"
                                                     class="hs-tab-active:bg-white hs-tab-active:border-b-transparent hs-tab-active:text-primary dark:hs-tab-active:bg-bodybg dark:hs-tab-active:border-b-transparent dark:hs-tab-active:text-primary -mb-px py-2 px-3 inline-flex items-center gap-2 bg-gray-50 text-sm font-medium text-center text-defaulttextcolor rounded-t-sm hover:text-primary dark:bg-black/20 dark:border-white/10 dark:text-[#8c9097] dark:text-white/50 dark:hover:text-gray-300 active"
-                                                    id="hs-tab-js-behavior-item-1 tab-btn" data-hs-tab="#hs-tab-js-behavior-1"
+                                                    id="hs-tab-js-behavior-item-1 tab-btn"
+                                                    data-hs-tab="#hs-tab-js-behavior-1"
                                                     aria-controls="hs-tab-js-behavior-1">
                                                     Our Mission
                                                 </button>
                                                 <button type="button"
                                                     class="hs-tab-active:bg-white hs-tab-active:border-b-transparent hs-tab-active:text-primary dark:hs-tab-active:bg-bodybg dark:hs-tab-active:border-b-transparent dark:hs-tab-active:text-primary -mb-px py-2 px-3 inline-flex items-center gap-2 bg-gray-50 text-sm font-medium text-center text-defaulttextcolor rounded-t-sm hover:text-primary dark:bg-black/20 dark:border-white/10 dark:text-[#8c9097] dark:text-white/50 dark:hover:text-gray-300"
-                                                    id="hs-tab-js-behavior-item-2 tab-btn" data-hs-tab="#hs-tab-js-behavior-2"
+                                                    id="hs-tab-js-behavior-item-2 tab-btn"
+                                                    data-hs-tab="#hs-tab-js-behavior-2"
                                                     aria-controls="hs-tab-js-behavior-2">
                                                     Our Startegy
                                                 </button>
                                                 <button type="button"
                                                     class="hs-tab-active:bg-white hs-tab-active:border-b-transparent hs-tab-active:text-primary dark:hs-tab-active:bg-bodybg dark:hs-tab-active:border-b-transparent dark:hs-tab-active:text-primary -mb-px py-2 px-3 inline-flex items-center gap-2 bg-gray-50 text-sm font-medium text-center text-defaulttextcolor rounded-t-sm hover:text-primary dark:bg-black/20 dark:border-white/10 dark:text-[#8c9097] dark:text-white/50 dark:hover:text-gray-300"
-                                                    id="hs-tab-js-behavior-item-3 tab-btn" data-hs-tab="#hs-tab-js-behavior-3"
+                                                    id="hs-tab-js-behavior-item-3 tab-btn"
+                                                    data-hs-tab="#hs-tab-js-behavior-3"
                                                     aria-controls="hs-tab-js-behavior-3">
                                                     Our Vision
                                                 </button>
@@ -211,73 +216,82 @@
                                                 aria-labelledby="hs-tab-js-behavior-item-1">
                                                 <div class="row row-service mt-5" style="display: flex;">
                                                     <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
-                                                        <img src="https://nighthawk-routerlogin.com/assets/img/The-Largest-Business-Expert-Company-icon-1.png" class="img-fluid p-1">
+                                                        <img src="https://nighthawk-routerlogin.com/assets/img/The-Largest-Business-Expert-Company-icon-1.png"
+                                                            class="img-fluid p-1">
                                                     </div>
-                                                    <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2 pe-3">
+                                                    <div
+                                                        class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2 pe-3">
                                                         <h5 class="dark-text pt-4">32+ Year Of</h5>
                                                     </div>
                                                     <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
-                                                        <img src="https://nighthawk-routerlogin.com/assets/img/The-Largest-Business-Expert-Company-icon-2.png" class="img-fluid p-1">
+                                                        <img src="https://nighthawk-routerlogin.com/assets/img/The-Largest-Business-Expert-Company-icon-2.png"
+                                                            class="img-fluid p-1">
                                                     </div>
                                                     <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
                                                         <h5 class="dark-text pt-4">Company Data</h5>
-                                                    </div> 
+                                                    </div>
                                                 </div>
-                                                <p
-                                                class="text-gray-500 dark:text-[#8c9097] dark:text-white/50 p-5 ">
-                                                How hotel deals can help you live a better life. How celebrity cruises
-                                                aren't as bad as you think. How cultural solutions can help you predict
-                                                the future.<br><br> How to cheat at dog friendly hotels and get away with it. 17
-                                                problems with summer activities.
-                                            </p>
+                                                <p class="text-gray-500 dark:text-[#8c9097] dark:text-white/50 p-5 ">
+                                                    How hotel deals can help you live a better life. How celebrity cruises
+                                                    aren't as bad as you think. How cultural solutions can help you predict
+                                                    the future.<br><br> How to cheat at dog friendly hotels and get away
+                                                    with it. 17
+                                                    problems with summer activities.
+                                                </p>
                                             </div>
                                             <div id="hs-tab-js-behavior-2" class="hidden" role="tabpanel"
                                                 aria-labelledby="hs-tab-js-behavior-item-2">
                                                 <div class="row row-service mt-5" style="display: flex;">
                                                     <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
-                                                        <img src="https://nighthawk-routerlogin.com/assets/img/The-Largest-Business-Expert-Company-icon-1.png" class="img-fluid p-1">
+                                                        <img src="https://nighthawk-routerlogin.com/assets/img/The-Largest-Business-Expert-Company-icon-1.png"
+                                                            class="img-fluid p-1">
                                                     </div>
-                                                    <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2 pe-3">
+                                                    <div
+                                                        class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2 pe-3">
                                                         <h5 class="dark-text pt-4">32+ Year Of</h5>
                                                     </div>
                                                     <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
-                                                        <img src="https://nighthawk-routerlogin.com/assets/img/The-Largest-Business-Expert-Company-icon-2.png" class="img-fluid p-1">
+                                                        <img src="https://nighthawk-routerlogin.com/assets/img/The-Largest-Business-Expert-Company-icon-2.png"
+                                                            class="img-fluid p-1">
                                                     </div>
                                                     <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
                                                         <h5 class="dark-text pt-4">Company Data</h5>
-                                                    </div> 
+                                                    </div>
                                                 </div>
-                                                <p
-                                                class="text-gray-500 dark:text-[#8c9097] dark:text-white/50 p-5 ">
-                                                How hotel deals can help you live a better life. How celebrity cruises
-                                                aren't as bad as you think. How cultural solutions can help you predict
-                                                the future.<br><br> How to cheat at dog friendly hotels and get away with it. 17
-                                                problems with summer activities.
-                                               </p>
+                                                <p class="text-gray-500 dark:text-[#8c9097] dark:text-white/50 p-5 ">
+                                                    How hotel deals can help you live a better life. How celebrity cruises
+                                                    aren't as bad as you think. How cultural solutions can help you predict
+                                                    the future.<br><br> How to cheat at dog friendly hotels and get away
+                                                    with it. 17
+                                                    problems with summer activities.
+                                                </p>
                                             </div>
                                             <div id="hs-tab-js-behavior-3" class="hidden" role="tabpanel"
                                                 aria-labelledby="hs-tab-js-behavior-item-3">
                                                 <div class="row row-service mt-5" style="display: flex;">
                                                     <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
-                                                        <img src="https://nighthawk-routerlogin.com/assets/img/The-Largest-Business-Expert-Company-icon-1.png" class="img-fluid p-1">
+                                                        <img src="https://nighthawk-routerlogin.com/assets/img/The-Largest-Business-Expert-Company-icon-1.png"
+                                                            class="img-fluid p-1">
                                                     </div>
-                                                    <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2 pe-3">
+                                                    <div
+                                                        class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2 pe-3">
                                                         <h5 class="dark-text pt-4">32+ Year Of</h5>
                                                     </div>
                                                     <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
-                                                        <img src="https://nighthawk-routerlogin.com/assets/img/The-Largest-Business-Expert-Company-icon-2.png" class="img-fluid p-1">
+                                                        <img src="https://nighthawk-routerlogin.com/assets/img/The-Largest-Business-Expert-Company-icon-2.png"
+                                                            class="img-fluid p-1">
                                                     </div>
                                                     <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
                                                         <h5 class="dark-text pt-4">Company Data</h5>
-                                                    </div> 
+                                                    </div>
                                                 </div>
-                                                <p
-                                                class="text-gray-500 dark:text-[#8c9097] dark:text-white/50 p-5 ">
-                                                How hotel deals can help you live a better life. How celebrity cruises
-                                                aren't as bad as you think. How cultural solutions can help you predict
-                                                the future.<br><br> How to cheat at dog friendly hotels and get away with it. 17
-                                                problems with summer activities.
-                                               </p>
+                                                <p class="text-gray-500 dark:text-[#8c9097] dark:text-white/50 p-5 ">
+                                                    How hotel deals can help you live a better life. How celebrity cruises
+                                                    aren't as bad as you think. How cultural solutions can help you predict
+                                                    the future.<br><br> How to cheat at dog friendly hotels and get away
+                                                    with it. 17
+                                                    problems with summer activities.
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -288,7 +302,7 @@
                 </div>
             </div>
         </div>
-  
+
         <!-- End:: anti-phishing section five -->
 
 
