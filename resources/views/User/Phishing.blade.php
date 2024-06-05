@@ -193,19 +193,19 @@
                                                     class="hs-tab-active:bg-white hs-tab-active:border-b-transparent hs-tab-active:text-primary dark:hs-tab-active:bg-bodybg dark:hs-tab-active:border-b-transparent dark:hs-tab-active:text-primary -mb-px py-2 px-3 inline-flex items-center gap-2 bg-gray-50 text-sm font-medium text-center border text-defaulttextcolor rounded-t-sm hover:text-primary dark:bg-black/20 dark:border-white/10 dark:text-[#8c9097] dark:text-white/50 dark:hover:text-gray-300 active"
                                                     id="hs-tab-js-behavior-item-1" data-hs-tab="#hs-tab-js-behavior-1"
                                                     aria-controls="hs-tab-js-behavior-1">
-                                                    Our Mission
+                                                    Tab 1
                                                 </button>
                                                 <button type="button"
                                                     class="hs-tab-active:bg-white hs-tab-active:border-b-transparent hs-tab-active:text-primary dark:hs-tab-active:bg-bodybg dark:hs-tab-active:border-b-transparent dark:hs-tab-active:text-primary -mb-px py-2 px-3 inline-flex items-center gap-2 bg-gray-50 text-sm font-medium text-center border text-defaulttextcolor rounded-t-sm hover:text-primary dark:bg-black/20 dark:border-white/10 dark:text-[#8c9097] dark:text-white/50 dark:hover:text-gray-300"
                                                     id="hs-tab-js-behavior-item-2" data-hs-tab="#hs-tab-js-behavior-2"
                                                     aria-controls="hs-tab-js-behavior-2">
-                                                    Our Startegy
+                                                    Tab 2
                                                 </button>
                                                 <button type="button"
                                                     class="hs-tab-active:bg-white hs-tab-active:border-b-transparent hs-tab-active:text-primary dark:hs-tab-active:bg-bodybg dark:hs-tab-active:border-b-transparent dark:hs-tab-active:text-primary -mb-px py-2 px-3 inline-flex items-center gap-2 bg-gray-50 text-sm font-medium text-center border text-defaulttextcolor rounded-t-sm hover:text-primary dark:bg-black/20 dark:border-white/10 dark:text-[#8c9097] dark:text-white/50 dark:hover:text-gray-300"
                                                     id="hs-tab-js-behavior-item-3" data-hs-tab="#hs-tab-js-behavior-3"
                                                     aria-controls="hs-tab-js-behavior-3">
-                                                    Our Vision
+                                                    Tab 3
                                                 </button>
                                             </nav>
                                         </div>
@@ -242,20 +242,20 @@
                                                         <img src="https://nighthawk-routerlogin.com/assets/img/The-Largest-Business-Expert-Company-icon-1.png" class="img-fluid p-1">
                                                     </div>
                                                     <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2 pe-3">
-                                                        <h5 class="dark-text">Tech Soulations</h5>
+                                                        <h5 class="dark-text">32+ Year Of</h5>
                                                     </div>
                                                     <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
                                                         <img src="https://nighthawk-routerlogin.com/assets/img/The-Largest-Business-Expert-Company-icon-2.png" class="img-fluid p-1">
                                                     </div>
                                                     <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
-                                                        <h5 class="dark-text">Artification Intelligence</h5>
+                                                        <h5 class="dark-text">Company Data</h5>
                                                     </div>
                                                 </div>
                                                 <p
                                                     class="text-gray-500 dark:text-[#8c9097] dark:text-white/50 p-5 ">
                                                     How hotel deals can help you live a better life. How celebrity cruises
                                                     aren't as bad as you think. How cultural solutions can help you predict
-                                                    the future.<br><br> How to cheat at dog friendly hotels and get away with it. 17
+                                                    the future. How to cheat at dog friendly hotels and get away with it. 17
                                                     problems with summer activities.
                                                 </p>
                                             </div>
