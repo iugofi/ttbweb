@@ -219,68 +219,48 @@
                                                     </div>
                                                     <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2 pe-3">
                                                         <h5 class="dark-text">32+ Year Of</h5>
+                                                        <p class="text-gray-light">Business Experience</p>
                                                     </div>
                                                     <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
                                                         <img src="https://nighthawk-routerlogin.com/assets/img/The-Largest-Business-Expert-Company-icon-2.png" class="img-fluid p-1">
                                                     </div>
                                                     <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
                                                         <h5 class="dark-text">Company Data</h5>
+                                                        <p class="text-gray-light">Business Experience</p>
                                                     </div>
+                                                    
                                                 </div>
+                                            </div>
+                                            <div id="hs-tab-js-behavior-2" class="hidden" role="tabpanel"
+                                                aria-labelledby="hs-tab-js-behavior-item-2">
                                                 <p
-                                                    class="text-gray-500 dark:text-[#8c9097] dark:text-white/50 p-5 ">
-                                                    How hotel deals can help you live a better life. How celebrity cruises
-                                                    aren't as bad as you think. How cultural solutions can help you predict
-                                                    the future. How to cheat at dog friendly hotels and get away with it. 17
-                                                    problems with summer activities.
+                                                    class="text-gray-500 dark:text-[#8c9097] dark:text-white/50 p-5 border rounded-ss-none rounded-sm dark:border-white/10 border-gray-200">
+                                                    How travel coupons make you a better lover. Why cultural solutions are
+                                                    the
+                                                    new black. Why mom was right about travel insurances. How family trip
+                                                    ideas
+                                                    can help you predict the future. How carnival cruises make you a better
+                                                    lover. Why you'll never succeed at daily deals. 11 ways cheapest flights
+                                                    can
+                                                    find you the love of your life. The complete beginner's guide to mission
+                                                    trips. If you read one article about cultural notes read this one. Why
+                                                    you
+                                                    shouldn't eat vacation package in bed.
                                                 </p>
                                             </div>
-                                            <div id="hs-tab-js-behavior-1" role="tabpanel"
-                                                aria-labelledby="hs-tab-js-behavior-item-1">
-                                                <div class="row row-service mt-5" style="display: flex;">
-                                                    <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
-                                                        <img src="https://nighthawk-routerlogin.com/assets/img/The-Largest-Business-Expert-Company-icon-1.png" class="img-fluid p-1">
-                                                    </div>
-                                                    <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2 pe-3">
-                                                        <h5 class="dark-text">32+ Year Of</h5>
-                                                    </div>
-                                                    <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
-                                                        <img src="https://nighthawk-routerlogin.com/assets/img/The-Largest-Business-Expert-Company-icon-2.png" class="img-fluid p-1">
-                                                    </div>
-                                                    <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
-                                                        <h5 class="dark-text">Company Data</h5>
-                                                    </div>
-                                                </div>
+                                            <div id="hs-tab-js-behavior-3" class="hidden" role="tabpanel"
+                                                aria-labelledby="hs-tab-js-behavior-item-3">
                                                 <p
-                                                    class="text-gray-500 dark:text-[#8c9097] dark:text-white/50 p-5 ">
-                                                    How hotel deals can help you live a better life. How celebrity cruises
-                                                    aren't as bad as you think. How cultural solutions can help you predict
-                                                    the future. How to cheat at dog friendly hotels and get away with it. 17
-                                                    problems with summer activities.
-                                                </p>
-                                            </div>
-                                            <div id="hs-tab-js-behavior-1" role="tabpanel"
-                                                aria-labelledby="hs-tab-js-behavior-item-1">
-                                                <div class="row row-service mt-5" style="display: flex;">
-                                                    <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
-                                                        <img src="https://nighthawk-routerlogin.com/assets/img/The-Largest-Business-Expert-Company-icon-1.png" class="img-fluid p-1">
-                                                    </div>
-                                                    <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2 pe-3">
-                                                        <h5 class="dark-text">32+ Year Of</h5>
-                                                    </div>
-                                                    <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
-                                                        <img src="https://nighthawk-routerlogin.com/assets/img/The-Largest-Business-Expert-Company-icon-2.png" class="img-fluid p-1">
-                                                    </div>
-                                                    <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
-                                                        <h5 class="dark-text">Company Data</h5>
-                                                    </div>
-                                                </div>
-                                                <p
-                                                    class="text-gray-500 dark:text-[#8c9097] dark:text-white/50 p-5 ">
-                                                    How hotel deals can help you live a better life. How celebrity cruises
-                                                    aren't as bad as you think. How cultural solutions can help you predict
-                                                    the future. How to cheat at dog friendly hotels and get away with it. 17
-                                                    problems with summer activities.
+                                                    class="text-gray-500 dark:text-[#8c9097] dark:text-white/50 p-5 border rounded-ss-none rounded-sm dark:border-white/10 border-gray-200">
+                                                    Unbelievable healthy snack success stories. 12 facts about safe food
+                                                    handling tips that will impress your friends. Restaurant weeks by the
+                                                    numbers. Will mexican food ever rule the world? The 10 best thai
+                                                    restaurant
+                                                    youtube videos. How restaurant weeks can make you sick. The complete
+                                                    beginner's guide to cooking healthy food. Unbelievable food stamp
+                                                    success
+                                                    stories. How whole foods markets are making the world a better place. 16
+                                                    things that won't happen in dish reviews.
                                                 </p>
                                             </div>
                                         </div>
