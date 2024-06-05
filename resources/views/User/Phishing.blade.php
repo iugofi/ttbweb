@@ -182,7 +182,7 @@
                         <div class="grid grid-cols-12 gap-x-6">
                             <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-6">
                                 <div class="box">
-                                    <div class="box-body">
+                                    <div class="box-body tab">
                                         <div class="border-b-0 border-gray-200 dark:border-white/10">
                                             <nav class="flex space-x-2 rtl:space-x-reverse" aria-label="Tabs" style="justify-content: center;">
                                                 <button type="button"
