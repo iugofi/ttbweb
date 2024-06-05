@@ -155,7 +155,6 @@
 
         <!-- Start:: anti-phishing section four -->
 
-
         <!-- End:: anti-phishing section four -->
 
         <!-- Start:: anti-phishing section five -->
@@ -166,7 +165,7 @@
                 <div
                     class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 antivirus-image text-center">
-                        <div class="lg:text-start !flex items-center lg:justify-center justify-center img-top">
+                        <div class="lg:text-start !flex items-center lg:justify-center justify-center">
                             <img src="{{ asset('assets/img/image-one.jpg') }}" alt="" class="img-fluid">
                         </div>
                     </div>
