@@ -39834,8 +39834,10 @@ caption {
 
 [data-hs-tab].active.hs-tab-active\:bg-white {
     --tw-bg-opacity: 1;
-    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+    background-color: rgb(18 210 179);
 }
+
+
 
 [data-hs-tab].active.hs-tab-active\:font-semibold {
     font-weight: 600;
