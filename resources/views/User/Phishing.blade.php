@@ -352,93 +352,94 @@
 
 
 
-        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-          <style>
-            .circle-container {
-              max-width: 100px;
-              margin: 0 auto;
-            }
-          </style>
-        <body class="bg-gray-100 flex items-center justify-center min-h-screen">
-          <div class="container mx-auto px-4 py-8 grid grid-cols-1 md:grid-cols-4 gap-8">
-            <div class="circle-container">
-              <svg viewBox="0 0 100 100">
+
+          <div class="circle-container">
+            <div class="circle" data-percentage="93">
+              <svg viewbox="0 0 100 100">
                 <circle cx="50" cy="50" r="45" fill="#FDB900"/>
-                <path fill="none" stroke-linecap="round" stroke-width="5" stroke="#fff"
-                      stroke-dasharray="220.2,0"
+                <path class="progress" stroke-linecap="round" stroke-width="5" stroke="#fff" fill="none"
                       d="M50 10
                          a 40 40 0 0 1 0 80
-                         a 40 40 0 0 1 0 -80"/>
+                         a 40 40 0 0 1 0 -80">
+                </path>
+                <text x="50" y="50" text-anchor="middle" dy="7" font-size="20">93%</text>
+              </svg>
+            </div>
+            <div class="circle" data-percentage="68">
+              <svg viewbox="0 0 100 100">
+                <circle cx="50" cy="50" r="45" fill="#FDB900"/>
+                <path class="progress" stroke-linecap="round" stroke-width="5" stroke="#fff" fill="none"
+                      d="M50 10
+                         a 40 40 0 0 1 0 80
+                         a 40 40 0 0 1 0 -80">
+                </path>
+                <text x="50" y="50" text-anchor="middle" dy="7" font-size="20">68%</text>
+              </svg>
+            </div>
+            <div class="circle" data-percentage="85">
+              <svg viewbox="0 0 100 100">
+                <circle cx="50" cy="50" r="45" fill="#FDB900"/>
+                <path class="progress" stroke-linecap="round" stroke-width="5" stroke="#fff" fill="none"
+                      d="M50 10
+                         a 40 40 0 0 1 0 80
+                         a 40 40 0 0 1 0 -80">
+                </path>
                 <text x="50" y="50" text-anchor="middle" dy="7" font-size="20">85%</text>
               </svg>
             </div>
-            <div class="circle-container">
-              <svg viewBox="0 0 100 100">
-                <circle cx="50" cy="50" r="45" fill="#FDB900"/>
-                <path fill="none" stroke-linecap="round" stroke-width="5" stroke="#fff"
-                      stroke-dasharray="125.6,125.6"
-                      d="M50 10
-                         a 40 40 0 0 1 0 80
-                         a 40 40 0 0 1 0 -80"/>
-                <text x="50" y="50" text-anchor="middle" dy="7" font-size="20">50%</text>
-              </svg>
-            </div>
-            <div class="circle-container">
-              <svg viewBox="0 0 100 100">
-                <circle cx="50" cy="50" r="45" fill="#FDB900"/>
-                <path fill="none" stroke-linecap="round" stroke-width="5" stroke="#fff"
-                      stroke-dasharray="251.2,0"
-                      d="M50 10
-                         a 40 40 0 0 1 0 80
-                         a 40 40 0 0 1 0 -80"/>
-                <text x="50" y="50" text-anchor="middle" dy="7" font-size="20">100%</text>
-              </svg>
-            </div>
-            <div class="circle-container">
-              <svg id="animated" viewBox="0 0 100 100">
-                <circle cx="50" cy="50" r="45" fill="#FDB900"/>
-                <path id="progress" stroke-linecap="round" stroke-width="5" stroke="#fff" fill="none"
-                      d="M50 10
-                         a 40 40 0 0 1 0 80
-                         a 40 40 0 0 1 0 -80"/>
-                <text id="count" x="50" y="50" text-anchor="middle" dy="7" font-size="20">0%</text>
-              </svg>
-            </div>
           </div>
-        
-          <script>
-            document.addEventListener('DOMContentLoaded', () => {
-              const progress = document.getElementById('progress');
-              const count = document.getElementById('count');
-              const targetValue = 75;  // Example target value
-              const circumference = 2 * Math.PI * 40; // 2 * π * radius
-              const offset = circumference - (targetValue / 100) * circumference;
-              
-              progress.style.strokeDasharray = `${circumference} ${circumference}`;
-              progress.style.strokeDashoffset = circumference;
-        
-              let progressValue = 0;
-              const increment = targetValue / 100;
-              
-              const updateProgress = () => {
-                if (progressValue < targetValue) {
-                  progressValue += increment;
-                  count.textContent = `${Math.floor(progressValue)}%`;
-                  const newOffset = circumference - (progressValue / 100) * circumference;
-                  progress.style.strokeDashoffset = newOffset;
-                  requestAnimationFrame(updateProgress);
-                } else {
-                  count.textContent = `${targetValue}%`;
-                }
-              };
-        
-              updateProgress();
-            });
-          </script>
-        </body>
-        </html>
-        
+          <script src="script.js"></script>
+<style>
 
+
+.circle-container {
+  display: flex;
+  gap: 20px;
+}
+
+.circle {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+svg {
+  width: 100%;
+  height: 100%;
+  transform: rotate(-90deg);
+}
+
+.progress {
+  stroke-dasharray: 251.2; /* Full circle circumference */
+  stroke-dashoffset: 251.2; /* Full circle circumference to hide it initially */
+  transition: stroke-dashoffset 1s ease-out;
+}
+
+@media (max-width: 600px) {
+  .circle-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+</style>
+        
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+  const circles = document.querySelectorAll('.circle');
+
+  circles.forEach(circle => {
+    const percentage = circle.getAttribute('data-percentage');
+    const offset = 251.2 - (251.2 * percentage / 100);
+    const path = circle.querySelector('.progress');
+
+    setTimeout(() => {
+      path.style.strokeDashoffset = offset;
+    }, 500);
+  });
+});
+
+</script>
 
 
 
