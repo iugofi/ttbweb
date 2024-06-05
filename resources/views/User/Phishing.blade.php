@@ -412,7 +412,7 @@ svg {
 .progress {
   stroke-dasharray: 251.2; /* Full circle circumference */
   stroke-dashoffset: 251.2; /* Full circle circumference to hide it initially */
-  transition: stroke-dashoffset 6s ease-out;
+  transition: stroke-dashoffset 3s ease-out;
 }
 
 @media (max-width: 600px) {
