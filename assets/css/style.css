@@ -39863,7 +39863,7 @@ caption {
 }
 
 [data-hs-tab].active.hs-tab-active\:text-primary {
-    color: rgb(var(--primary));
+    color: rgb(255 255 255);
 }
 
 [data-hs-tab].active.hs-tab-active\:text-secondary {
