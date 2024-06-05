@@ -45188,6 +45188,10 @@ span.decor.px-2 {
     margin-left: 5rem;
     margin-top: 20px;
 }
+.box-body.tab {
+    padding-left: 0px;
+}
+
 .anti-phishing {
     background-image: url("/assets/img/phishing-Banner.png");
     height: 41rem;
