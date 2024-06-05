@@ -228,14 +228,14 @@
                                                         <h5 class="dark-text">Company Data</h5>
                                                         <p class="text-gray-light">Business Experience</p>
                                                     </div>
-                                                    <p
+                                                </div><br>
+                                                <p
                                                     class="text-gray-500 dark:text-[#8c9097] dark:text-white/50 p-5 border rounded-ss-none rounded-sm dark:border-white/10 border-gray-200">
                                                     How hotel deals can help you live a better life. How celebrity cruises
                                                     aren't as bad as you think. How cultural solutions can help you predict
                                                     the future. How to cheat at dog friendly hotels and get away with it. 17
                                                     problems with summer activities.
                                                 </p>
-                                                </div>
                                             </div>
                                             <div id="hs-tab-js-behavior-2" class="hidden" role="tabpanel"
                                                 aria-labelledby="hs-tab-js-behavior-item-2">
