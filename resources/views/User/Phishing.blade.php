@@ -311,7 +311,7 @@
             <div class="container">
                 <div class=" grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12">
                     <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-4">
-                        <div class="flex">
+                        <div class="flex" style="justify-content: center; align-items: center;">
                             <div class="icon-box-counter">
                                 <div class="circle-container">
                                     <div class="circle" data-percentage="93">
@@ -328,10 +328,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="counter-text">
-                                <h5 class="dark-text text-black">Best Services</h5>
-                                <p class="text-black">Lorem ipsum dolor sit amet, eiusmod
-                                    <br> tempor.
+                            <div class="counter-text ps-5">
+                                <h5 class="dark-text text-black ">Best Services</h5>
+                                <p class="text-black">Lorem ipsum dolor sit <br> amet, eiusmod tempor.
                             </div>
                         </div>
                     </div>
@@ -353,10 +352,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="counter-text">
+                            <div class="counter-text ps-5">
                                 <h5 class="dark-text text-black">Best Services</h5>
-                                <p class="text-black">Lorem ipsum dolor sit amet, eiusmod
-                                    <br> tempor.
+                                <p class="text-black">Lorem ipsum dolor sit <br> amet, eiusmod tempor.
                             </div>
                         </div>
                     </div>
@@ -378,10 +376,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="counter-text">
+                            <div class="counter-text ps-5">
                                 <h5 class="dark-text text-black">Best Services</h5>
-                                <p class="text-black">Lorem ipsum dolor sit amet, eiusmod
-                                    <br> tempor.
+                                <p class="text-black">Lorem ipsum dolor sit<br> amet, eiusmod tempor.
                             </div>
                         </div>
                     </div>
