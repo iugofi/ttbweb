@@ -211,7 +211,7 @@
                                         <div class="">
                                             <div id="hs-tab-js-behavior-1" role="tabpanel"
                                                 aria-labelledby="hs-tab-js-behavior-item-1">
-                                                <div class="row row-service mt-5" style="display: flex;">
+                                                <div class="row row-service mt-5 px-5" style="display: flex;">
                                                     <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
                                                         <img src="https://nighthawk-routerlogin.com/assets/img/The-Largest-Business-Expert-Company-icon-1.png"
                                                             class="img-fluid p-1">
@@ -228,7 +228,7 @@
                                                         <h5 class="dark-text pt-4">Company Data</h5>
                                                     </div>
                                                 </div>
-                                                <p class="text-gray-500 dark:text-[#8c9097] dark:text-white/50 py-5 ">
+                                                <p class="text-gray-500 dark:text-[#8c9097] dark:text-white/50 py-5 px-5">
                                                     How hotel deals can help you live a better life. How celebrity cruises
                                                     aren't as bad as you think. How cultural solutions can help you predict
                                                     the future.<br><br> How to cheat at dog friendly hotels and get away
@@ -238,7 +238,7 @@
                                             </div>
                                             <div id="hs-tab-js-behavior-2" class="hidden" role="tabpanel"
                                                 aria-labelledby="hs-tab-js-behavior-item-2">
-                                                <div class="row row-service mt-5" style="display: flex;">
+                                                <div class="row row-service mt-5 px-5" style="display: flex;">
                                                     <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
                                                         <img src="https://nighthawk-routerlogin.com/assets/img/The-Largest-Business-Expert-Company-icon-1.png"
                                                             class="img-fluid p-1">
@@ -255,7 +255,7 @@
                                                         <h5 class="dark-text pt-4">Company Data</h5>
                                                     </div>
                                                 </div>
-                                                <p class="text-gray-500 dark:text-[#8c9097] dark:text-white/50 py-5 ">
+                                                <p class="text-gray-500 dark:text-[#8c9097] dark:text-white/50 py-5 px-5">
                                                     How hotel deals can help you live a better life. How celebrity cruises
                                                     aren't as bad as you think. How cultural solutions can help you predict
                                                     the future.<br><br> How to cheat at dog friendly hotels and get away
@@ -265,7 +265,7 @@
                                             </div>
                                             <div id="hs-tab-js-behavior-3" class="hidden" role="tabpanel"
                                                 aria-labelledby="hs-tab-js-behavior-item-3">
-                                                <div class="row row-service mt-5" style="display: flex;">
+                                                <div class="row row-service mt-5 px-5" style="display: flex;">
                                                     <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
                                                         <img src="https://nighthawk-routerlogin.com/assets/img/The-Largest-Business-Expert-Company-icon-1.png"
                                                             class="img-fluid p-1">
@@ -282,7 +282,7 @@
                                                         <h5 class="dark-text pt-4">Company Data</h5>
                                                     </div>
                                                 </div>
-                                                <p class="text-gray-500 dark:text-[#8c9097] dark:text-white/50 py-5 ">
+                                                <p class="text-gray-500 dark:text-[#8c9097] dark:text-white/50 py-5 px-5">
                                                     How hotel deals can help you live a better life. How celebrity cruises
                                                     aren't as bad as you think. How cultural solutions can help you predict
                                                     the future.<br><br> How to cheat at dog friendly hotels and get away
