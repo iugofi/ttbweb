@@ -366,7 +366,7 @@
                                 <p class="text-black">Lorem ipsum dolor sit <br> amet, eiusmod tempor.
                             </div>
                         </div>
-                    </div>
+                    </div> 
                     <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-4">
                         <div class="flex" style="justify-content: center; align-items: center;">
                             <div class="icon-box-counter">
