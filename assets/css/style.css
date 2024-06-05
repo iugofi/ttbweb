@@ -45173,6 +45173,9 @@ span.decor.px-2 {
 
 /* Start:: anti-phishing page css */
 
+.tab-section {
+    padding: 0px !important;
+}
 .anti-phishing {
     background-image: url("/assets/img/phishing-Banner.png");
     height: 41rem;
@@ -45216,6 +45219,7 @@ span.decor.px-2 {
     margin: auto;
     display: list-item;
 }
+
 
 /* End:: anti-phishing page css */
 

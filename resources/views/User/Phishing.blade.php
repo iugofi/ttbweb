@@ -159,8 +159,7 @@
 
         <!-- Start:: anti-phishing section five -->
 
-        <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]"
-            style="padding: 75px 0px !important;">
+        <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] tab-section">
             <div class="container ttbantivirus-container">
                 <div
                     class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
