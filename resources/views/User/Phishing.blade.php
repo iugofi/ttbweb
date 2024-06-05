@@ -183,9 +183,6 @@
                         <div class="grid grid-cols-12 gap-x-6">
                             <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-6">
                                 <div class="box">
-                                    <div class="box-header">
-                                        <h5 class="box-title">Basic Tabs</h5>
-                                    </div>
                                     <div class="box-body">
                                         <div class="border-b-0 border-gray-200 dark:border-white/10">
                                             <nav class="flex space-x-2 rtl:space-x-reverse" aria-label="Tabs" style="justify-content: center;">
