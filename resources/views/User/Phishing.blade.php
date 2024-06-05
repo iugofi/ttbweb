@@ -313,7 +313,16 @@
                             IT Business Solutiond</h4><hr>
                         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-4 mt-5 py-5 endpoint-content" style="display: flex; justify-content: center;">
                             <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-12 inline-flex"  style="width: 100%;">
-                                <img src="assets/img/Award-Winning.png" class="img-fluid endpoint-icon p-1">
+                                <div class="circle" data-percentage="93">
+                                    <svg viewBox="0 0 100 100">
+                                      <circle cx="50" cy="50" r="45" fill="#Ffff"></circle>
+                                      <path class="progress" stroke-linecap="round" stroke-width="5" stroke="#11CDBE" fill="none" d="M50 10
+                                               a 40 40 0 0 1 0 80
+                                               a 40 40 0 0 1 0 -80" style="stroke-dashoffset: 17.584;">
+                                      </path>
+                                      <text x="50" y="50" text-anchor="middle" dy="7" font-size="20">93%</text>
+                                    </svg>
+                                  </div>
 
                                 <div class="icon-txt ms-4 mr-[1.0rem]">
                                     <h5 class="dark-text text-black">Best Services</h5>
@@ -323,7 +332,16 @@
                                 </div>
                             </div>
                             <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-12 inline-flex ps-3 sectntwo-endpoint" style="border-right: 1px solid #fff; border-left: 1px solid #fff; width: 100%;">
-                                <img src="assets/img/Best-Support.png" class="img-fluid endpoint-icon p-1">
+                                <div class="circle" data-percentage="68">
+                                    <svg viewBox="0 0 100 100">
+                                      <circle cx="50" cy="50" r="45" fill="#FDB900"></circle>
+                                      <path class="progress" stroke-linecap="round" stroke-width="5" stroke="#fff" fill="none" d="M50 10
+                                               a 40 40 0 0 1 0 80
+                                               a 40 40 0 0 1 0 -80" style="stroke-dashoffset: 80.384;">
+                                      </path>
+                                      <text x="50" y="50" text-anchor="middle" dy="7" font-size="20">68%</text>
+                                    </svg>
+                                  </div>
 
                                 <div class="icon-txt ms-4 mr-[1.0rem]">
                                     <h5 class="dark-text text-black">Best Services</h5>
@@ -333,7 +351,16 @@
                                 </div>
                             </div>
                             <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-12 inline-flex" style="width: 100%;">
-                                <img src="assets/img/Unlimited-Downloads.png" class="img-fluid endpoint-icon p-1">
+                                <div class="circle" data-percentage="85">
+                                    <svg viewBox="0 0 100 100">
+                                      <circle cx="50" cy="50" r="45" fill="#FDB900"></circle>
+                                      <path class="progress" stroke-linecap="round" stroke-width="5" stroke="#fff" fill="none" d="M50 10
+                                               a 40 40 0 0 1 0 80
+                                               a 40 40 0 0 1 0 -80" style="stroke-dashoffset: 37.68;">
+                                      </path>
+                                      <text x="50" y="50" text-anchor="middle" dy="7" font-size="20">85%</text>
+                                    </svg>
+                                  </div>
 
                                 <div class="icon-txt ms-4 mr-[1.0rem]">
                                     <h5 class="dark-text text-black">Best Services</h5>
