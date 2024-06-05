@@ -45214,7 +45214,15 @@ span.decor.px-2 {
     margin: auto;
     display: list-item;
 }
-.tab-btn:active {
+/* .tab-btn:active {
+    background-color: #12d2b3;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 4px;
+} */
+
+button#hs-tab-js-behavior-item-1\ tab-btn:active {
     background-color: #12d2b3;
     color: #fff;
     font-weight: 600;
