@@ -304,94 +304,97 @@
         <!-- Start:: anti-phishing section six -->
 
 
-<style>
-    .counter-section{
-        padding: 100px 0px;
-    }
-</style>
 
 
-<section class="counter-section">
-    <div class="container">
-        <div class=" grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12">
-            <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-4">
-              <div class="flex">
-                <div class="icon-box-counter">
-                    <div class="circle-container">
-                        <div class="circle" data-percentage="93">
-                            <svg viewbox="0 0 100 100">
-                                <circle cx="50" cy="50" r="45" fill="#FDB900" />
-                                <path class="progress" stroke-linecap="round" stroke-width="5" stroke="#fff" fill="none" d="M50 10
-                                         a 40 40 0 0 1 0 80
-                                         a 40 40 0 0 1 0 -80">
-                                </path>
-                                <text x="50" y="50" text-anchor="middle" dy="7" font-size="20">93%</text>
-                            </svg>
-                        </div>
-                    </div>
-                </div>
-                <div class="counter-text">
-                    <h5 class="dark-text text-black">Best Services</h5>
-                    <p class="text-black">Lorem ipsum dolor sit amet, eiusmod
-                        <br> tempor.
-                </div>
-              </div>
-            </div>
-            <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-4">
-                <div class="flex">
-                    <div class="icon-box-counter">
-                        <div class="circle-container">
-                            <div class="circle" data-percentage="93">
-                                <svg viewbox="0 0 100 100">
-                                    <circle cx="50" cy="50" r="45" fill="#FDB900" />
-                                    <path class="progress" stroke-linecap="round" stroke-width="5" stroke="#fff" fill="none" d="M50 10
+
+        <section class="counter-section">
+            <div class="container">
+                <div class=" grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12">
+                    <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-4">
+                        <div class="flex">
+                            <div class="icon-box-counter">
+                                <div class="circle-container">
+                                    <div class="circle" data-percentage="93">
+                                        <svg viewbox="0 0 100 100">
+                                            <circle cx="50" cy="50" r="45" fill="#FDB900" />
+                                            <path class="progress" stroke-linecap="round" stroke-width="5"
+                                                stroke="#fff" fill="none" d="M50 10
                                              a 40 40 0 0 1 0 80
                                              a 40 40 0 0 1 0 -80">
-                                    </path>
-                                    <text x="50" y="50" text-anchor="middle" dy="7" font-size="20">93%</text>
-                                </svg>
+                                            </path>
+                                            <text x="50" y="50" text-anchor="middle" dy="7"
+                                                font-size="20">93%</text>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="counter-text">
+                                <h5 class="dark-text text-black">Best Services</h5>
+                                <p class="text-black">Lorem ipsum dolor sit amet, eiusmod
+                                    <br> tempor.
                             </div>
                         </div>
                     </div>
-                    <div class="counter-text">
-                        <h5 class="dark-text text-black">Best Services</h5>
-                        <p class="text-black">Lorem ipsum dolor sit amet, eiusmod
-                            <br> tempor.
-                    </div>
-                  </div>
-            </div>
-            <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-4">
-                <div class="flex">
-                    <div class="icon-box-counter">
-                        <div class="circle-container">
-                            <div class="circle" data-percentage="93">
-                                <svg viewbox="0 0 100 100">
-                                    <circle cx="50" cy="50" r="45" fill="#FDB900" />
-                                    <path class="progress" stroke-linecap="round" stroke-width="5" stroke="#fff" fill="none" d="M50 10
-                                             a 40 40 0 0 1 0 80
-                                             a 40 40 0 0 1 0 -80">
-                                    </path>
-                                    <text x="50" y="50" text-anchor="middle" dy="7" font-size="20">93%</text>
-                                </svg>
+                    <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-4">
+                        <div class="flex">
+                            <div class="icon-box-counter">
+                                <div class="circle-container">
+                                    <div class="circle" data-percentage="68">
+                                        <svg viewbox="0 0 100 100">
+                                            <circle cx="50" cy="50" r="45" fill="#FDB900" />
+                                            <path class="progress" stroke-linecap="round" stroke-width="5"
+                                                stroke="#fff" fill="none" d="M50 10
+                                                 a 40 40 0 0 1 0 80
+                                                 a 40 40 0 0 1 0 -80">
+                                            </path>
+                                            <text x="50" y="50" text-anchor="middle" dy="7"
+                                                font-size="20">68%</text>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="counter-text">
+                                <h5 class="dark-text text-black">Best Services</h5>
+                                <p class="text-black">Lorem ipsum dolor sit amet, eiusmod
+                                    <br> tempor.
                             </div>
                         </div>
                     </div>
-                    <div class="counter-text">
-                        <h5 class="dark-text text-black">Best Services</h5>
-                        <p class="text-black">Lorem ipsum dolor sit amet, eiusmod
-                            <br> tempor.
+                    <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-4">
+                        <div class="flex">
+                            <div class="icon-box-counter">
+                                <div class="circle-container">
+                                    <div class="circle" data-percentage="85">
+                                        <svg viewbox="0 0 100 100">
+                                            <circle cx="50" cy="50" r="45" fill="#FDB900" />
+                                            <path class="progress" stroke-linecap="round" stroke-width="5"
+                                                stroke="#fff" fill="none" d="M50 10
+                                                 a 40 40 0 0 1 0 80
+                                                 a 40 40 0 0 1 0 -80">
+                                            </path>
+                                            <text x="50" y="50" text-anchor="middle" dy="7"
+                                                font-size="20">85%</text>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="counter-text">
+                                <h5 class="dark-text text-black">Best Services</h5>
+                                <p class="text-black">Lorem ipsum dolor sit amet, eiusmod
+                                    <br> tempor.
+                            </div>
+                        </div>
                     </div>
-                  </div>
+                </div>
             </div>
-        </div>
-    </div>
-</section>
-
-
-
+        </section>
 
         <script src="script.js"></script>
         <style>
+            .counter-section {
+                padding: 100px 0px;
+            }
+
             .circle-container {
                 display: flex;
                 gap: 20px;
@@ -442,41 +445,6 @@
         </script>
         <!-- End:: anti-phishing section six -->
 
-
-
-
-        {{-- <div class="circle-container">
-            <div class="circle" data-percentage="93">
-                <svg viewbox="0 0 100 100">
-                    <circle cx="50" cy="50" r="45" fill="#FDB900" />
-                    <path class="progress" stroke-linecap="round" stroke-width="5" stroke="#fff" fill="none" d="M50 10
-                             a 40 40 0 0 1 0 80
-                             a 40 40 0 0 1 0 -80">
-                    </path>
-                    <text x="50" y="50" text-anchor="middle" dy="7" font-size="20">93%</text>
-                </svg>
-            </div>
-            <div class="circle" data-percentage="68">
-                <svg viewbox="0 0 100 100">
-                    <circle cx="50" cy="50" r="45" fill="#FDB900" />
-                    <path class="progress" stroke-linecap="round" stroke-width="5" stroke="#fff" fill="none" d="M50 10
-                             a 40 40 0 0 1 0 80
-                             a 40 40 0 0 1 0 -80">
-                    </path>
-                    <text x="50" y="50" text-anchor="middle" dy="7" font-size="20">68%</text>
-                </svg>
-            </div>
-            <div class="circle" data-percentage="85">
-                <svg viewbox="0 0 100 100">
-                    <circle cx="50" cy="50" r="45" fill="#FDB900" />
-                    <path class="progress" stroke-linecap="round" stroke-width="5" stroke="#fff" fill="none" d="M50 10
-                             a 40 40 0 0 1 0 80
-                             a 40 40 0 0 1 0 -80">
-                    </path>
-                    <text x="50" y="50" text-anchor="middle" dy="7" font-size="20">85%</text>
-                </svg>
-            </div>
-        </div> --}}
         <script src="script.js"></script>
         <style>
             .circle-container {
