@@ -303,70 +303,87 @@
 
         <!-- Start:: anti-phishing section six -->
 
-        <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]" style="padding: 60px !important">
+        <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]"
+            style="padding: 60px !important">
             <div class="container main-banner-container">
-                <div class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
-                    
-                    <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 pt-5 pb-0 lg:px-2 !text-start">
-                        <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">Business Strategy We Need</span>
+                <div
+                    class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
+
+                    <div
+                        class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 pt-5 pb-0 lg:px-2 !text-start">
+                        <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">Business
+                            Strategy We Need</span>
                         <h4 class="lg:text-start font-semibold mb-2 pt-5 pb-5 text-[2rem]">We` Prominent Truly Trusted<br>
-                            IT Business Solutiond</h4><hr>
-                        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-4 mt-5 py-5 endpoint-content" style="display: flex; justify-content: center;">
-                            <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-12 inline-flex"  style="width: 100%;">
-                                <div class="circle" data-percentage="93">
-                                    <svg viewBox="0 0 100 100">
-                                      <circle cx="50" cy="50" r="45" fill="#Ffff"></circle>
-                                      <path class="progress" stroke-linecap="round" stroke-width="5" stroke="#11CDBE" fill="none" d="M50 10
-                                               a 40 40 0 0 1 0 80
-                                               a 40 40 0 0 1 0 -80" style="stroke-dashoffset: 17.584;">
-                                      </path>
-                                      <text x="50" y="50" text-anchor="middle" dy="7" font-size="20">93%</text>
-                                    </svg>
-                                  </div>
+                            IT Business Solutiond</h4>
+                        <hr>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-4 mt-5 py-5 endpoint-content"
+                            style="display: flex; justify-content: center;">
+                            <div class="circle-container">
+                                <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-12 inline-flex"
+                                    style="width: 100%;">
+                                    <div class="circle" data-percentage="93">
+                                        <svg viewBox="0 0 100 100">
+                                            <circle cx="50" cy="50" r="45" fill="#Ffff"></circle>
+                                            <path class="progress" stroke-linecap="round" stroke-width="5"
+                                                stroke="#11CDBE" fill="none" d="M50 10
+                                                   a 40 40 0 0 1 0 80
+                                                   a 40 40 0 0 1 0 -80" style="stroke-dashoffset: 17.584;">
+                                            </path>
+                                            <text x="50" y="50" text-anchor="middle" dy="7"
+                                                font-size="20">93%</text>
+                                        </svg>
+                                    </div>
 
-                                <div class="icon-txt ms-4 mr-[1.0rem]">
-                                    <h5 class="dark-text text-black">Best Services</h5>
-                                    <p class="text-black">Lorem ipsum dolor sit amet, eiusmod
-                                        <br>tempor.
-                                    </p>
+                                    <div class="icon-txt ms-4 mr-[1.0rem]">
+                                        <h5 class="dark-text text-black">Best Services</h5>
+                                        <p class="text-black">Lorem ipsum dolor sit amet, eiusmod
+                                            <br>tempor.
+                                        </p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-12 inline-flex ps-3 sectntwo-endpoint" style="border-right: 1px solid #fff; border-left: 1px solid #fff; width: 100%;">
-                                <div class="circle" data-percentage="68">
-                                    <svg viewBox="0 0 100 100">
-                                      <circle cx="50" cy="50" r="45" fill="#FDB900"></circle>
-                                      <path class="progress" stroke-linecap="round" stroke-width="5" stroke="#fff" fill="none" d="M50 10
-                                               a 40 40 0 0 1 0 80
-                                               a 40 40 0 0 1 0 -80" style="stroke-dashoffset: 80.384;">
-                                      </path>
-                                      <text x="50" y="50" text-anchor="middle" dy="7" font-size="20">68%</text>
-                                    </svg>
-                                  </div>
+                                <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-12 inline-flex ps-3 sectntwo-endpoint"
+                                    style="border-right: 1px solid #fff; border-left: 1px solid #fff; width: 100%;">
+                                    <div class="circle" data-percentage="68">
+                                        <svg viewBox="0 0 100 100">
+                                            <circle cx="50" cy="50" r="45" fill="#FDB900"></circle>
+                                            <path class="progress" stroke-linecap="round" stroke-width="5"
+                                                stroke="#fff" fill="none" d="M50 10
+                                                   a 40 40 0 0 1 0 80
+                                                   a 40 40 0 0 1 0 -80" style="stroke-dashoffset: 80.384;">
+                                            </path>
+                                            <text x="50" y="50" text-anchor="middle" dy="7"
+                                                font-size="20">68%</text>
+                                        </svg>
+                                    </div>
 
-                                <div class="icon-txt ms-4 mr-[1.0rem]">
-                                    <h5 class="dark-text text-black">Best Services</h5>
-                                    <p class="text-black">Lorem ipsum dolor sit amet, eiusmod
-                                        <br> tempor.
-                                    </p>
+                                    <div class="icon-txt ms-4 mr-[1.0rem]">
+                                        <h5 class="dark-text text-black">Best Services</h5>
+                                        <p class="text-black">Lorem ipsum dolor sit amet, eiusmod
+                                            <br> tempor.
+                                        </p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-12 inline-flex" style="width: 100%;">
-                                <div class="circle" data-percentage="85">
-                                    <svg viewBox="0 0 100 100">
-                                      <circle cx="50" cy="50" r="45" fill="#FDB900"></circle>
-                                      <path class="progress" stroke-linecap="round" stroke-width="5" stroke="#fff" fill="none" d="M50 10
-                                               a 40 40 0 0 1 0 80
-                                               a 40 40 0 0 1 0 -80" style="stroke-dashoffset: 37.68;">
-                                      </path>
-                                      <text x="50" y="50" text-anchor="middle" dy="7" font-size="20">85%</text>
-                                    </svg>
-                                  </div>
+                                <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-12 inline-flex"
+                                    style="width: 100%;">
+                                    <div class="circle" data-percentage="85">
+                                        <svg viewBox="0 0 100 100">
+                                            <circle cx="50" cy="50" r="45" fill="#FDB900"></circle>
+                                            <path class="progress" stroke-linecap="round" stroke-width="5"
+                                                stroke="#fff" fill="none" d="M50 10
+                                                   a 40 40 0 0 1 0 80
+                                                   a 40 40 0 0 1 0 -80" style="stroke-dashoffset: 37.68;">
+                                            </path>
+                                            <text x="50" y="50" text-anchor="middle" dy="7"
+                                                font-size="20">85%</text>
+                                        </svg>
+                                    </div>
 
-                                <div class="icon-txt ms-4 mr-[1.0rem]">
-                                    <h5 class="dark-text text-black">Best Services</h5>
-                                    <p class="text-black">Lorem ipsum dolor sit amet, eiusmod
-                                        <br> tempor.
-                                    </p>
+                                    <div class="icon-txt ms-4 mr-[1.0rem]">
+                                        <h5 class="dark-text text-black">Best Services</h5>
+                                        <p class="text-black">Lorem ipsum dolor sit amet, eiusmod
+                                            <br> tempor.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -374,100 +391,62 @@
                 </div>
             </div>
         </div>
+        <script src="script.js"></script>
+        <style>
+            .circle-container {
+                display: flex;
+                gap: 20px;
+            }
 
+            .circle {
+                position: relative;
+                width: 100px;
+                height: 100px;
+            }
+
+            svg {
+                width: 100%;
+                height: 100%;
+                transform: rotate(-90deg);
+            }
+
+            .progress {
+                stroke-dasharray: 251.2;
+                /* Full circle circumference */
+                stroke-dashoffset: 251.2;
+                /* Full circle circumference to hide it initially */
+                transition: stroke-dashoffset 3s ease-out;
+            }
+
+            @media (max-width: 600px) {
+                .circle-container {
+                    flex-direction: column;
+                    gap: 10px;
+                }
+            }
+        </style>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                const circles = document.querySelectorAll('.circle');
+
+                circles.forEach(circle => {
+                    const percentage = circle.getAttribute('data-percentage');
+                    const offset = 251.2 - (251.2 * percentage / 100);
+                    const path = circle.querySelector('.progress');
+
+                    setTimeout(() => {
+                        path.style.strokeDashoffset = offset;
+                    }, 500);
+                });
+            });
+        </script>
         <!-- End:: anti-phishing section six -->
 
 
 
 
-          <div class="circle-container">
-            <div class="circle" data-percentage="93">
-              <svg viewbox="0 0 100 100">
-                <circle cx="50" cy="50" r="45" fill="#FDB900"/>
-                <path class="progress" stroke-linecap="round" stroke-width="5" stroke="#fff" fill="none"
-                      d="M50 10
-                         a 40 40 0 0 1 0 80
-                         a 40 40 0 0 1 0 -80">
-                </path>
-                <text x="50" y="50" text-anchor="middle" dy="7" font-size="20">93%</text>
-              </svg>
-            </div>
-            <div class="circle" data-percentage="68">
-              <svg viewbox="0 0 100 100">
-                <circle cx="50" cy="50" r="45" fill="#FDB900"/>
-                <path class="progress" stroke-linecap="round" stroke-width="5" stroke="#fff" fill="none"
-                      d="M50 10
-                         a 40 40 0 0 1 0 80
-                         a 40 40 0 0 1 0 -80">
-                </path>
-                <text x="50" y="50" text-anchor="middle" dy="7" font-size="20">68%</text>
-              </svg>
-            </div>
-            <div class="circle" data-percentage="85">
-              <svg viewbox="0 0 100 100">
-                <circle cx="50" cy="50" r="45" fill="#FDB900"/>
-                <path class="progress" stroke-linecap="round" stroke-width="5" stroke="#fff" fill="none"
-                      d="M50 10
-                         a 40 40 0 0 1 0 80
-                         a 40 40 0 0 1 0 -80">
-                </path>
-                <text x="50" y="50" text-anchor="middle" dy="7" font-size="20">85%</text>
-              </svg>
-            </div>
-          </div>
-          <script src="script.js"></script>
-<style>
-
-
-.circle-container {
-  display: flex;
-  gap: 20px;
-}
-
-.circle {
-  position: relative;
-  width: 100px;
-  height: 100px;
-}
-
-svg {
-  width: 100%;
-  height: 100%;
-  transform: rotate(-90deg);
-}
-
-.progress {
-  stroke-dasharray: 251.2; /* Full circle circumference */
-  stroke-dashoffset: 251.2; /* Full circle circumference to hide it initially */
-  transition: stroke-dashoffset 3s ease-out;
-}
-
-@media (max-width: 600px) {
-  .circle-container {
-    flex-direction: column;
-    gap: 10px;
-  }
-}
-  
-</style>
-        
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-  const circles = document.querySelectorAll('.circle');
-
-  circles.forEach(circle => {
-    const percentage = circle.getAttribute('data-percentage');
-    const offset = 251.2 - (251.2 * percentage / 100);
-    const path = circle.querySelector('.progress');
-
-    setTimeout(() => {
-      path.style.strokeDashoffset = offset;
-    }, 500);
-  });
-});
-
-</script>
-
+      
 
 
 
