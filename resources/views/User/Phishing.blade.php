@@ -322,7 +322,7 @@
 
                                 <div class="icon-txt ms-4 mr-[1.0rem]">
                                     <h5 class="dark-text" style="color: #000;">Best Services</h5>
-                                    <p class="text-gray-light" style="color: #fff;">Lorem ipsum dolor sit amet, eiusmod
+                                    <p class="text-black">Lorem ipsum dolor sit amet, eiusmod
                                         <br>tempor.
                                     </p>
                                 </div>
@@ -331,8 +331,8 @@
                                 <img src="assets/img/Best-Support.png" class="img-fluid endpoint-icon p-1">
 
                                 <div class="icon-txt ms-4 mr-[1.0rem]">
-                                    <h5 class="dark-text" style="color: #fff;">Best Services</h5>
-                                    <p class="text-gray-light" style="color: #fff;">Lorem ipsum dolor sit amet, eiusmod
+                                    <h5 class="dark-text">Best Services</h5>
+                                    <p class="text-black" style="color: #fff;">Lorem ipsum dolor sit amet, eiusmod
                                         <br> tempor.
                                     </p>
                                 </div>
@@ -341,8 +341,8 @@
                                 <img src="assets/img/Unlimited-Downloads.png" class="img-fluid endpoint-icon p-1">
 
                                 <div class="icon-txt ms-4 mr-[1.0rem]">
-                                    <h5 class="dark-text" style="color: #fff;">Best Services</h5>
-                                    <p class="text-gray-light" style="color: #fff;">Lorem ipsum dolor sit amet, eiusmod
+                                    <h5 class="dark-text">Best Services</h5>
+                                    <p class="text-black">Lorem ipsum dolor sit amet, eiusmod
                                         <br> tempor.
                                     </p>
                                 </div>
