@@ -321,6 +321,7 @@
                             <div class="circle-container">
                                 <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-12 inline-flex"
                                     style="width: 100%;">
+                                    <div class="circle-container">
                                     <div class="circle" data-percentage="93">
                                         <svg viewBox="0 0 100 100">
                                             <circle cx="50" cy="50" r="45" fill="#Ffff"></circle>
@@ -333,7 +334,7 @@
                                                 font-size="20">93%</text>
                                         </svg>
                                     </div>
-
+                                    </div>
                                     <div class="icon-txt ms-4 mr-[1.0rem]">
                                         <h5 class="dark-text text-black">Best Services</h5>
                                         <p class="text-black">Lorem ipsum dolor sit amet, eiusmod
