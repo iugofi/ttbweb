@@ -45214,7 +45214,7 @@ span.decor.px-2 {
     margin: auto;
     display: list-item;
 }
-.tab-btn {
+.tab-btn:active {
     background-color: #12d2b3;
     color: #fff;
     font-weight: 600;
