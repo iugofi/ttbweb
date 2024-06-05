@@ -181,7 +181,7 @@
                             goal-oriented catalysts for change. Collaboratively.
                         </p>
                         <div class="grid grid-cols-12 gap-x-6">
-                            <div class="col-span-12 md:col-span-6 xxl:!col-span-4">
+                            <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-6">
                                 <div class="box">
                                     <div class="box-header">
                                         <h5 class="box-title">Basic Tabs</h5>
