@@ -326,8 +326,8 @@
                                             <circle cx="50" cy="50" r="45" fill="#Ffff"></circle>
                                             <path class="progress" stroke-linecap="round" stroke-width="5"
                                                 stroke="#11CDBE" fill="none" d="M50 10
-                                                   a 40 40 0 0 1 0 80
-                                                   a 40 40 0 0 1 0 -80" style="stroke-dashoffset: 17.584;">
+                                                       a 40 40 0 0 1 0 80
+                                                       a 40 40 0 0 1 0 -80" style="stroke-dashoffset: 17.584;">
                                             </path>
                                             <text x="50" y="50" text-anchor="middle" dy="7"
                                                 font-size="20">93%</text>
@@ -348,8 +348,8 @@
                                             <circle cx="50" cy="50" r="45" fill="#FDB900"></circle>
                                             <path class="progress" stroke-linecap="round" stroke-width="5"
                                                 stroke="#fff" fill="none" d="M50 10
-                                                   a 40 40 0 0 1 0 80
-                                                   a 40 40 0 0 1 0 -80" style="stroke-dashoffset: 80.384;">
+                                                       a 40 40 0 0 1 0 80
+                                                       a 40 40 0 0 1 0 -80" style="stroke-dashoffset: 80.384;">
                                             </path>
                                             <text x="50" y="50" text-anchor="middle" dy="7"
                                                 font-size="20">68%</text>
@@ -370,8 +370,8 @@
                                             <circle cx="50" cy="50" r="45" fill="#FDB900"></circle>
                                             <path class="progress" stroke-linecap="round" stroke-width="5"
                                                 stroke="#fff" fill="none" d="M50 10
-                                                   a 40 40 0 0 1 0 80
-                                                   a 40 40 0 0 1 0 -80" style="stroke-dashoffset: 37.68;">
+                                                       a 40 40 0 0 1 0 80
+                                                       a 40 40 0 0 1 0 -80" style="stroke-dashoffset: 37.68;">
                                             </path>
                                             <text x="50" y="50" text-anchor="middle" dy="7"
                                                 font-size="20">85%</text>
@@ -494,7 +494,7 @@
             svg {
                 width: 100%;
                 height: 100%;
-                transform: rotate(-90deg);
+                transform: rotate(0deg);
             }
 
             .progress {
@@ -502,7 +502,7 @@
                 /* Full circle circumference */
                 stroke-dashoffset: 251.2;
                 /* Full circle circumference to hide it initially */
-                transition: stroke-dashoffset 3s ease-out;
+                transition: stroke-dashoffset 1s ease-out;
             }
 
             @media (max-width: 600px) {
