@@ -45176,6 +45176,14 @@ span.decor.px-2 {
 .tab-section {
     padding: 0px !important;
 }
+.tab-section .container.ttbantivirus-container {
+    padding: 0;
+    margin: 0;
+}
+.tab-section .container.ttbantivirus-container img {
+    width: 100%;
+}
+
 .anti-phishing {
     background-image: url("/assets/img/phishing-Banner.png");
     height: 41rem;
