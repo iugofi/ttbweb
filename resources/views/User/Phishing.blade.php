@@ -158,7 +158,6 @@
         <!-- End:: anti-phishing section four -->
 
         <!-- Start:: anti-phishing section five -->
-
         <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] tab-section">
             <div class="container ttbantivirus-container">
                 <div
@@ -302,11 +301,72 @@
 
         <!-- End:: anti-phishing section five -->
 
+        <!-- Start:: anti-phishing section six -->
 
+        <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]" style="padding-top: 0px !important">
+            <div class="container main-banner-container">
+                <div class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
+                    
+                    <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 pt-5 pb-0 lg:px-2 !text-start  my-auto">
+                        <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">Who We Are</span>
+                        <h2 class="lg:text-start font-semibold mb-2 pt-5 text-[2rem]">We Provide Web Design<br>
+                            With App Development</h2>
+                        <p class=" text-[0.9rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
+                            value with diverse web-readiness. Collaboratively transition wireless customer service without
+                            goal-oriented catalysts for change. Collaboratively.
+                        </p>
 
+                        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-4 endpoint-content" style="display: flex; justify-content: center;">
+                            <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-12 inline-flex">
+                                <img src="assets/img/Award-Winning.png" class="img-fluid endpoint-icon p-1">
 
+                                <div class="icon-txt ms-4 mr-[1.0rem]">
+                                    <h5 class="dark-text" style="color: #000;">Best Services</h5>
+                                    <p class="text-gray-light" style="color: #fff;">Lorem ipsum dolor sit amet, eiusmod
+                                        <br>tempor.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-12 inline-flex ps-3 sectntwo-endpoint" style="border-right: 1px solid #fff; border-left: 1px solid #fff;">
+                                <img src="assets/img/Best-Support.png" class="img-fluid endpoint-icon p-1">
 
+                                <div class="icon-txt ms-4 mr-[1.0rem]">
+                                    <h5 class="dark-text" style="color: #fff;">Best Services</h5>
+                                    <p class="text-gray-light" style="color: #fff;">Lorem ipsum dolor sit amet, eiusmod
+                                        <br> tempor.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-12 inline-flex">
+                                <img src="assets/img/Unlimited-Downloads.png" class="img-fluid endpoint-icon p-1">
 
+                                <div class="icon-txt ms-4 mr-[1.0rem]">
+                                    <h5 class="dark-text" style="color: #fff;">Best Services</h5>
+                                    <p class="text-gray-light" style="color: #fff;">Lorem ipsum dolor sit amet, eiusmod
+                                        <br> tempor.
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row row-service mt-5" style="display: flex;">
+                            <p class=" text-[0.9rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver
+                                professional
+                                value with diverse web-readiness. Collaboratively transition wireless customer service
+                                without
+                                goal-oriented catalysts for change. Collaboratively.
+                            </p><br><br>
+
+                        </div>
+                        <a href="index.html" class="ti-btn bg-primary text-white" style="width:26%;">
+                            Learn More Us
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- End:: anti-phishing section six -->
 
 
 
