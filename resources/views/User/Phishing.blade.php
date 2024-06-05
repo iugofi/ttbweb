@@ -344,18 +344,6 @@
                             </div>
 
                         </div>
-                        <div class="row row-service mt-5" style="display: flex;">
-                            <p class=" text-[0.9rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver
-                                professional
-                                value with diverse web-readiness. Collaboratively transition wireless customer service
-                                without
-                                goal-oriented catalysts for change. Collaboratively.
-                            </p><br><br>
-
-                        </div>
-                        <a href="index.html" class="ti-btn bg-primary text-white" style="width:26%;">
-                            Learn More Us
-                        </a>
                     </div>
                 </div>
             </div>
