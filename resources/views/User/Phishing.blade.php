@@ -213,19 +213,29 @@
                                         <div class="">
                                             <div id="hs-tab-js-behavior-1" role="tabpanel"
                                                 aria-labelledby="hs-tab-js-behavior-item-1">
-                                                <p
+                                                <div class="row row-service mt-5" style="display: flex;">
+                                                    <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
+                                                        <img src="https://nighthawk-routerlogin.com/assets/img/The-Largest-Business-Expert-Company-icon-1.png" class="img-fluid p-1">
+                                                    </div>
+                                                    <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2 pe-3">
+                                                        <h5 class="dark-text">32+ Year Of</h5>
+                                                        <p class="text-gray-light">Business Experience</p>
+                                                    </div>
+                                                    <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
+                                                        <img src="https://nighthawk-routerlogin.com/assets/img/The-Largest-Business-Expert-Company-icon-2.png" class="img-fluid p-1">
+                                                    </div>
+                                                    <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
+                                                        <h5 class="dark-text">Company Data</h5>
+                                                        <p class="text-gray-light">Business Experience</p>
+                                                    </div>
+                                                    <p
                                                     class="text-gray-500 dark:text-[#8c9097] dark:text-white/50 p-5 border rounded-ss-none rounded-sm dark:border-white/10 border-gray-200">
                                                     How hotel deals can help you live a better life. How celebrity cruises
                                                     aren't as bad as you think. How cultural solutions can help you predict
-                                                    the
-                                                    future. How to cheat at dog friendly hotels and get away with it. 17
-                                                    problems with summer activities. How to cheat at travel agents and get
-                                                    away
-                                                    with it. How not knowing family trip ideas makes you a rookie. What
-                                                    everyone
-                                                    is saying about daily deals. How twitter can teach you about carnival
-                                                    cruises. How to start using cultural solutions.
+                                                    the future. How to cheat at dog friendly hotels and get away with it. 17
+                                                    problems with summer activities.
                                                 </p>
+                                                </div>
                                             </div>
                                             <div id="hs-tab-js-behavior-2" class="hidden" role="tabpanel"
                                                 aria-labelledby="hs-tab-js-behavior-item-2">
