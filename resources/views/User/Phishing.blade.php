@@ -183,8 +183,7 @@
                                 <div class="box">
                                     <div class="box-body tab">
                                         <div class="border-b-0 border-gray-200 dark:border-white/10">
-                                            <nav class="flex space-x-2 rtl:space-x-reverse" aria-label="Tabs"
-                                                style="justify-content: center;">
+                                            <nav class="flex space-x-2 rtl:space-x-reverse" aria-label="Tabs">
                                                 <button type="button"
                                                     class="hs-tab-active:bg-white hs-tab-active:border-b-transparent hs-tab-active:text-primary dark:hs-tab-active:bg-bodybg dark:hs-tab-active:border-b-transparent dark:hs-tab-active:text-primary -mb-px py-2 px-3 inline-flex items-center gap-2 bg-gray-50 text-sm font-medium text-center text-defaulttextcolor rounded-t-sm hover:text-primary dark:bg-black/20 dark:border-white/10 dark:text-[#8c9097] dark:text-white/50 dark:hover:text-gray-300 active"
                                                     id="hs-tab-js-behavior-item-1 tab-btn"
