@@ -162,13 +162,12 @@
             <div class="container ttbantivirus-container">
                 <div
                     class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
-                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 antivirus-image text-center">
+                    <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-5 antivirus-image text-center">
                         <div class="lg:text-start !flex items-left lg:justify-left justify-left">
                             <img src="{{ asset('assets/img/We-Prominent-Truly-Trusted-IT-Business-Solutions.png') }}" alt="" class="img-fluid">
                         </div>
                     </div>
-                    <div
-                        class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 pt-0 pb-0 lg:px-2 !text-start text-vertical">
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 pt-0 pb-0 lg:px-2 !text-start text-vertical">
                         <span class="lg:text-center font-semibold mt-2 pt-5 mb-2 text-[1rem]" style="color:#12D2B3;">Who We
                             Are</span>
                         <h4 class="lg:text-start font-semibold mb-2 pt-5 text-[2rem]">We` Prominent Truly Trusted<br>
