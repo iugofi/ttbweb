@@ -155,7 +155,7 @@
         <!-- End:: anti-phishing section three -->
 
         <!-- Start:: anti-phishing section four -->
-        <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] " id="about">
+        <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] " id="about-features">
             <div class="container text-center">
                 <div
                     class="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 justify-center align-center text-section sect-features flex-items">
