@@ -4,16 +4,16 @@
             <div class="xl:col-span-4 col-span-12">
                 <div class="px-6">
                     <p class="font-semibold mb-4"><a aria-label="anchor" href="{{ route('user.index') }}"><img src="{{asset('assets/images/brand-logos/favicon.png')}}" alt=""></a></p>
-                    <p class="mb-2 opacity-[0.6] font-normal">
+                    <p class="mb-2  font-normal">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit et magnam, fuga est mollitia eius, quo illum illo inventore optio aut quas omnis rem. Dolores accusantium aspernatur minus ea incidunt.
                     </p>
-                    <p class="mb-0 opacity-[0.6] font-normal">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem ea esse ad</p>
+                    <p class="mb-0  font-normal">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem ea esse ad</p>
                 </div>
             </div>
             <div class="xl:col-span-2 col-span-12">
                 <div class="px-6">
                     <h6 class="font-semibold text-[1rem] mb-4">PAGES</h6>
-                    <ul class="list-unstyled opacity-[0.6] font-normal landing-footer-list">
+                    <ul class="list-unstyled  font-normal landing-footer-list">
                         <li>
                             <a href="javascript:void(0);" class="text-white">Email</a>
                         </li>
@@ -38,7 +38,7 @@
             <div class="xl:col-span-2 col-span-12">
                 <div class="px-6">
                     <h6 class="font-semibold text-[1rem] mb-2">INFO</h6>
-                    <ul class="list-unstyled opacity-[0.6] font-normal landing-footer-list">
+                    <ul class="list-unstyled font-normal landing-footer-list">
                         <li>
                             <a href="javascript:void(0);" class="text-white">Our Team</a>
                         </li>
@@ -65,19 +65,19 @@
                     <h6 class="font-semibold text-[1rem] mb-2">CONTACT</h6>
                     <ul class="list-unstyled font-normal landing-footer-list">
                         <li>
-                            <a href="javascript:void(0);" class="text-white opacity-[0.6]"><i class="ri-home-4-line me-1 align-middle"></i> New York, NY 10012, US</a>
+                            <a href="javascript:void(0);" class="text-white "><i class="ri-home-4-line me-1 align-middle"></i> New York, NY 10012, US</a>
                         </li>
                         <li>
-                            <a href="javascript:void(0);" class="text-white opacity-[0.6]"><i class="ri-mail-line me-1 align-middle"></i> info@fmail.com</a>
+                            <a href="javascript:void(0);" class="text-white "><i class="ri-mail-line me-1 align-middle"></i> info@fmail.com</a>
                         </li>
                         <li>
-                            <a href="javascript:void(0);" class="text-white opacity-[0.6]"><i class="ri-phone-line me-1 align-middle"></i> +(555)-1920 1831</a>
+                            <a href="javascript:void(0);" class="text-white "><i class="ri-phone-line me-1 align-middle"></i> +(555)-1920 1831</a>
                         </li>
                         <li>
-                            <a href="javascript:void(0);" class="text-white opacity-[0.6]"><i class="ri-printer-line me-1 align-middle"></i> +(123) 1293 123</a>
+                            <a href="javascript:void(0);" class="text-white "><i class="ri-printer-line me-1 align-middle"></i> +(123) 1293 123</a>
                         </li>
                         <li class="mt-4 !mb-0">
-                            <p class="mb-2 font-semibold opacity-[0.8] text-[1rem]">FOLLOW US ON :</p>
+                            <p class="mb-2 font-semibold  text-[1rem]">FOLLOW US ON :</p>
                             <div class="mb-0">
                                 <div class="btn-list">
                                     <button aria-label="button" type="button" class="ti-btn ti-btn-sm !mb-0 ti-btn-primary me-[0.365rem]">
@@ -105,7 +105,7 @@
     </div>
 </section>
 <div class="text-center landing-main-footer py-4">
-    <span class="text-[#8c9097] dark:text-white/50 text-[0.9375rem]"> Copyright © <span id="year"></span> <a
+    <span class="text-[#8c9097] text-white text-[0.9375rem]"> Copyright © <span id="year"></span> <a
         href="https://www.ttbinternetsecurity.com/" class="!text-primary font-semibold"><u>ttbinternetsecurity</u></a>.
     </span>
 </div>
