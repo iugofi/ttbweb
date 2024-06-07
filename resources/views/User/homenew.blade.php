@@ -811,7 +811,7 @@
                                     <div class="box-body">
                                         <div class="flex items-center mb-4">
                                             <span class="avatar avatar-md avatar-rounded me-4">
-                                                <img src="assets/images/faces/15.jpg" alt="">
+                                                <img src="assets/images/faces/10.jpg" alt="">
                                             </span>
                                             <div>
                                                 <p class="mb-0 font-semibold text-[0.875rem]">Json Taylor</p>
@@ -850,7 +850,7 @@
                                     <div class="box-body">
                                         <div class="flex items-center mb-4">
                                             <span class="avatar avatar-md avatar-rounded me-4">
-                                                <img src="assets/images/faces/4.jpg" alt="">
+                                                <img src="assets/images/faces/10.jpg" alt="">
                                             </span>
                                             <div>
                                                 <p class="mb-0 font-semibold text-[0.875rem]">Melissa Blue</p>
@@ -889,7 +889,7 @@
                                     <div class="box-body">
                                         <div class="flex items-center mb-4">
                                             <span class="avatar avatar-md avatar-rounded me-4">
-                                                <img src="assets/images/faces/2.jpg" alt="">
+                                                <img src="assets/images/faces/10.jpg" alt="">
                                             </span>
                                             <div>
                                                 <p class="mb-0 font-semibold text-[0.875rem]">Kiara Advain</p>
@@ -967,7 +967,7 @@
                                     <div class="box-body">
                                         <div class="flex items-center mb-4">
                                             <span class="avatar avatar-md avatar-rounded me-4">
-                                                <img src="assets/images/faces/12.jpg" alt="">
+                                                <img src="assets/images/faces/10.jpg" alt="">
                                             </span>
                                             <div>
                                                 <p class="mb-0 font-semibold text-[0.875rem]">Dwayne Stort</p>
@@ -1006,7 +1006,7 @@
                                     <div class="box-body">
                                         <div class="flex items-center mb-4">
                                             <span class="avatar avatar-md avatar-rounded me-4">
-                                                <img src="assets/images/faces/3.jpg" alt="">
+                                                <img src="assets/images/faces/10.jpg" alt="">
                                             </span>
                                             <div>
                                                 <p class="mb-0 font-semibold text-[0.875rem]">Jasmine Kova</p>
@@ -1045,7 +1045,7 @@
                                     <div class="box-body">
                                         <div class="flex items-center mb-4">
                                             <span class="avatar avatar-md avatar-rounded me-4">
-                                                <img src="assets/images/faces/16.jpg" alt="">
+                                                <img src="assets/images/faces/10.jpg" alt="">
                                             </span>
                                             <div>
                                                 <p class="mb-0 font-semibold text-[0.875rem]">Dolph MR</p>
@@ -1084,7 +1084,7 @@
                                     <div class="box-body">
                                         <div class="flex items-center mb-4">
                                             <span class="avatar avatar-md avatar-rounded me-4">
-                                                <img src="assets/images/faces/5.jpg" alt="">
+                                                <img src="assets/images/faces/10.jpg" alt="">
                                             </span>
                                             <div>
                                                 <p class="mb-0 font-semibold text-[0.875rem]">Brenda Simpson</p>
@@ -1123,7 +1123,7 @@
                                     <div class="box-body">
                                         <div class="flex items-center mb-4">
                                             <span class="avatar avatar-md avatar-rounded me-4">
-                                                <img src="assets/images/faces/7.jpg" alt="">
+                                                <img src="assets/images/faces/10.jpg" alt="">
                                             </span>
                                             <div>
                                                 <p class="mb-0 font-semibold text-[0.875rem]">Julia Sams</p>
