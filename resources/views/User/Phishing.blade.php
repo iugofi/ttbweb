@@ -261,7 +261,7 @@
                         </p>
                         <div class="grid grid-cols-12 gap-x-6 section-tab">
                             <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-6">
-                                <div class="box">
+                                <div class="box-tab">
                                     <div class="box-body tab">
                                         <div class="border-b-0 border-gray-200 dark:border-white/10">
                                             <nav class="flex space-x-2 rtl:space-x-reverse px-5" aria-label="Tabs">
