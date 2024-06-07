@@ -76,8 +76,8 @@
                                         <p class="text-sm font-medium text-slate-700 group-hover:text-slate-900">FEATURES
                                         </p>
                                         <h5 class="text-sm font-bold text-xl text-slate-500 group-hover:text-slate-700">Top
-                                            Class Support<br>
-                                            For Customers</h5>
+                                            Innovative Solution<br>
+                                            For Business</h5>
                                     </div>
                                     <div class="flex-img">
                                         <img src="{{ asset('assets/img/Top-Class-Support-For-Customers.png') }}"
