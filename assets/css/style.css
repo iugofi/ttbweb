@@ -45283,6 +45283,12 @@ span.decor.px-2 {
     display: flex;
     align-items: center;
 }
+section#about-features {
+    background-image: url('assets/img/Bg-image-1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
 /* End:: anti-phishing page css */
 
