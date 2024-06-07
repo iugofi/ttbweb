@@ -45235,7 +45235,12 @@ span.decor.px-2 {
     margin: auto;
     display: list-item;
 }
-
+.dark .circle text {
+    fill: #fff;
+}
+.dark .icon-box-counter circle {
+    fill: #252729;
+}
 
 /* End:: anti-phishing page css */
 
