@@ -44516,6 +44516,12 @@ h6.uppercase {
         margin: 0 !important;
         padding-bottom: 0px !important;
     }
+    .flex {
+        display: -webkit-inline-box;
+        margin: 16px 0 auto !important;
+        width: 100%;
+    }
+    
 }
 
 /* start vpn-shild banner css */
