@@ -164,7 +164,7 @@
                     class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 antivirus-image text-center">
                         <div class="lg:text-start !flex items-left lg:justify-left justify-left">
-                            <img src="{{ asset('assets/img/image-one.jpg') }}" alt="" class="img-fluid">
+                            <img src="{{ asset('assets/img/We-Prominent-Truly-Trusted-IT-Business-Solutions.png') }}" alt="" class="img-fluid">
                         </div>
                     </div>
                     <div
