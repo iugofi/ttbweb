@@ -157,7 +157,7 @@
         <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] " id="about">
             <div class="container text-center">
                 <div
-                    class="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 justify-center align-center text-section sect-features flex-col">
+                    class="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 justify-center align-center text-section sect-features flex-item">
 
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 customize-image text-center">
                         <div class="row">
