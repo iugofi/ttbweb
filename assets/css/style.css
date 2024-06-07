@@ -45249,6 +45249,9 @@ span.decor.px-2 {
     height: 15em;
     /* margin: 0 3rem auto; */
 }
+.flex-item {
+    display: flex;
+}
 /* End:: anti-phishing page css */
 
 
