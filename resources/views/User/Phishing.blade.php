@@ -161,24 +161,26 @@
                     <div class="row">
                         <!--feature new style start-->
                         <div class="grid-cols-3 grid-cols-12">
-                            <div class="row  flex p-4">
-                                <div class="grid-cols-2 col-md-6 text-left ">
-                                    <i class="fa-regular fa-face-smile text-4xl p-2 px-3"></i>
-                                </div>
-                                <div class="grid-cols-2 sm:grid-cols-1 grid-cols-12 text-left ">
-                                    <h4 class="text-2xl5 font-medium">Responsive web design</h4>
-                                    <p class="leading-6 mt-2">Modular and monetize an componente between layouts monetize
-                                        array. Core competencies for testing.</p>
+                            <div class="col-span-1 mb-4 ">
+                                <div class="p-7  !rounded-sm2 bg-white dark:bg-bodybg border box-shadow  dark:border-defaultborder/10 box-icon-cont">
+                                    <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
+                                        <i class="text-[1.5rem] bx bx-spreadsheet"></i>
+                                    </span>
+                                    <h3 class="font-medium mb-0 text-xl text-dark">Complete Online Privacy</h3>
+                                    <p class="mb-1 text-[0.875rem] opacity-[0.7] text-[#8c9097] dark:text-white/50 ">
+                                        Lorem Ipsum is simply dummy industry.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="row flex p-4">
-                                <div class="grid-cols-2 col-md-6 text-left ">
-                                    <i class="bx bx-vector text-4xl p-2 px-3"></i>
-                                </div>
-                                <div class="grid-cols-2 col-md-6 text-left">
-                                    <h4 class="text-2xl5 font-medium">Responsive web design</h4>
-                                    <p class="leading-6 mt-2">Modular and monetize an componente between layouts monetize
-                                        array. Core competencies for testing.</p>
+                            <div class="col-span-1 mb-4 ">
+                                <div class="p-7  !rounded-sm2 bg-white dark:bg-bodybg border box-shadow  dark:border-defaultborder/10 box-icon-cont">
+                                    <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
+                                        <i class="text-[1.5rem] bx bx-spreadsheet"></i>
+                                    </span>
+                                    <h3 class="font-medium mb-0 text-xl text-dark">Complete Online Privacy</h3>
+                                    <p class="mb-1 text-[0.875rem] opacity-[0.7] text-[#8c9097] dark:text-white/50 ">
+                                        Lorem Ipsum is simply dummy industry.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -199,24 +201,26 @@
                     </div>
                     <div class="row">
                         <div class="grid-cols-3 grid-cols-12">
-                            <div class="row flex p-4">
-                                <div class="grid-cols-2 col-md-6 text-left ">
-                                    <i class="bx bx-category text-4xl p-2 px-3"></i>
-                                </div>
-                                <div class="grid-cols-2 col-md-6 text-left">
-                                    <h4 class="text-2xl5 font-medium">Responsive web design</h4>
-                                    <p class="leading-6 mt-2">Modular and monetize an componente between layouts monetize
-                                        array. Core competencies for testing.</p>
+                            <div class="col-span-1 mb-4 ">
+                                <div class="p-7  !rounded-sm2 bg-white dark:bg-bodybg border box-shadow  dark:border-defaultborder/10 box-icon-cont">
+                                    <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
+                                        <i class="text-[1.5rem] bx bx-spreadsheet"></i>
+                                    </span>
+                                    <h3 class="font-medium mb-0 text-xl text-dark">Complete Online Privacy</h3>
+                                    <p class="mb-1 text-[0.875rem] opacity-[0.7] text-[#8c9097] dark:text-white/50 ">
+                                        Lorem Ipsum is simply dummy industry.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="row flex p-4">
-                                <div class="grid-cols-2 col-md-6 text-left ">
-                                    <i class="bx bx-window-alt text-4xl p-2 px-3"></i>
-                                </div>
-                                <div class="grid-cols-2 col-md-6 text-left">
-                                    <h4 class="text-2xl5 font-medium">Responsive web design</h4>
-                                    <p class="leading-6 mt-2">Modular and monetize an componente between layouts monetize
-                                        array. Core competencies for testing.</p>
+                            <div class="col-span-1 mb-4 ">
+                                <div class="p-7  !rounded-sm2 bg-white dark:bg-bodybg border box-shadow  dark:border-defaultborder/10 box-icon-cont">
+                                    <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
+                                        <i class="text-[1.5rem] bx bx-spreadsheet"></i>
+                                    </span>
+                                    <h3 class="font-medium mb-0 text-xl text-dark">Complete Online Privacy</h3>
+                                    <p class="mb-1 text-[0.875rem] opacity-[0.7] text-[#8c9097] dark:text-white/50 ">
+                                        Lorem Ipsum is simply dummy industry.
+                                    </p>
                                 </div>
                             </div>
                         </div>
