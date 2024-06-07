@@ -44524,6 +44524,23 @@ h6.uppercase {
     .flex-items {
         display: block !important;
     }    
+    .section-tab {
+        display: flex;
+    }
+    .section-tab h5 {
+        font-size: 1rem;
+    }
+    .box-tab nav {
+        margin: 0px !important;
+        padding: 0;
+    }
+    .box-tab .row-service {
+        padding: 0;
+    }
+    .box-tab p {
+        padding: 10px 0;
+    }
+    
 }
 
 /* start vpn-shild banner css */
