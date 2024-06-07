@@ -165,7 +165,7 @@
                             <div class="grid-cols-3 grid-cols-12">
                                 <div class="col-span-1 mb-4 ">
                                     <div
-                                        class="p-10  !rounded-sm2 bg-white dark:bg-bodybg border box-shadows  dark:border-defaultborder/10 box-icon-conts">
+                                        class="p-8  !rounded-sm2 bg-white dark:bg-bodybg border box-shadows  dark:border-defaultborder/10 box-icon-conts">
                                         <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
                                             <i class="text-[1.5rem] bx bx-spreadsheet"></i>
                                         </span>
@@ -174,7 +174,7 @@
                                 </div>
                                 <div class="col-span-1 mb-4 ">
                                     <div
-                                        class="p-10  !rounded-sm2 bg-white dark:bg-bodybg border box-shadows  dark:border-defaultborder/10 box-icon-conts">
+                                        class="p-8  !rounded-sm2 bg-white dark:bg-bodybg border box-shadows  dark:border-defaultborder/10 box-icon-conts">
                                         <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
                                             <i class="text-[1.5rem] bx bx-spreadsheet"></i>
                                         </span>
@@ -210,7 +210,7 @@
                             <div class="grid-cols-3 grid-cols-12">
                                 <div class="col-span-1 mb-4 ">
                                     <div
-                                        class="p-10  !rounded-sm2 bg-white dark:bg-bodybg border box-shadows  dark:border-defaultborder/10 box-icon-conts">
+                                        class="p-8  !rounded-sm2 bg-white dark:bg-bodybg border box-shadows  dark:border-defaultborder/10 box-icon-conts">
                                         <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
                                             <i class="text-[1.5rem] bx bx-spreadsheet"></i>
                                         </span>
@@ -219,7 +219,7 @@
                                 </div>
                                 <div class="col-span-1 mb-4 ">
                                     <div
-                                        class="p-10  !rounded-sm2 bg-white dark:bg-bodybg border box-shadows  dark:border-defaultborder/10 box-icon-conts">
+                                        class="p-8  !rounded-sm2 bg-white dark:bg-bodybg border box-shadows  dark:border-defaultborder/10 box-icon-conts">
                                         <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
                                             <i class="text-[1.5rem] bx bx-spreadsheet"></i>
                                         </span>
