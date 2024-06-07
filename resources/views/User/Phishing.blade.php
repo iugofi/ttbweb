@@ -188,14 +188,14 @@
                         <div class="grid-cols-3 col-md-5 d-none d-sm-none d-md-block d-lg-block">
                             <div class="position-relative pb-md-5 py-lg-0 center-imgs">
                                 <span class="lg:text-center font-semibold mt-2 pt-5 mb-2 text-[1rem]" style="color:#12D2B3;">About</span>
-                                <h3 class="font-semibold  mb-2 text-black features-one ttb-heading text-35xl ">TTB Features
+                                <h3 class="font-semibold  mb-2 text-black features-one ttb-heading text-35xl pt-5 px-5">TTB Features
                                 </h3>
+                                <h6 class="font-semibold  mb-2 text-black features-one ttb-heading ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nihil autem inventore fugit numquam adipisci
+                                    perspiciatis iste quia
+                                </h6>
                                 <div class="grid grid-cols-12 justify-center max-w-66xl mx-auto  pt-5 ">
-                                    <span class="font-semibold  mb-2 text-black features-one ttb-heading text-35xl ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nihil autem inventore fugit numquam adipisci
-                                        perspiciatis iste quia
-                                    </span>
                                     <div class="col-span-12">
-                                        <p class=" dark:text-white/50  mb-4 font-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nihil autem inventore fugit numquam adipisci
+                                        <p class=" dark:text-white/50  mb-4 font-normal px-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nihil autem inventore fugit numquam adipisci
                                              perspiciatis iste quia, ipsa corrupti laboriosam et vero in unde tempore optio ea nemo? Delectus dignissimos iure, numquam quas, voluptatibus quam sunt
                                               commodi placeat nobis quos expedita eaque cum nisi laboriosam! Nostrum, aperiam fugit. Numquam? Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                                Minima nihil autem inventore fugit numquam adipisci perspiciatis iste quia, ipsa corrupti laboriosam et vero in unde tempore optio ea nemo? Delectus 
