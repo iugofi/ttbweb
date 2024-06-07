@@ -334,7 +334,7 @@
                             </div>
                             <div class="counter-text ps-5">
                                 <h5 class="dark-text text-black ">Best Services</h5>
-                                <p class="text-black">Lorem ipsum dolor sit <br> amet, eiusmod tempor.
+                                <p class="text-black dark-text">Lorem ipsum dolor sit <br> amet, eiusmod tempor.
                             </div>
                         </div>
                     </div>
@@ -358,7 +358,7 @@
                             </div>
                             <div class="counter-text ps-5">
                                 <h5 class="dark-text text-black">Best Services</h5>
-                                <p class="text-black">Lorem ipsum dolor sit <br> amet, eiusmod tempor.
+                                <p class="text-black dark-text">Lorem ipsum dolor sit <br> amet, eiusmod tempor.
                             </div>
                         </div>
                     </div> 
@@ -382,7 +382,7 @@
                             </div>
                             <div class="counter-text ps-5">
                                 <h5 class="dark-text text-black">Best Services</h5>
-                                <p class="text-black">Lorem ipsum dolor sit<br> amet, eiusmod tempor.
+                                <p class="text-black dark-text">Lorem ipsum dolor sit<br> amet, eiusmod tempor.
                             </div>
                         </div>
                     </div>
@@ -390,7 +390,7 @@
             </div>
         </section>
         </div>
-        
+
         <script src="script.js"></script>
         <style>
             .circle-container {
