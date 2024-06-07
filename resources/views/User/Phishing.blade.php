@@ -156,71 +156,84 @@
         <!-- Start:: anti-phishing section four -->
         <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] " id="about">
             <div class="container text-center">
-                <div class="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 justify-center align-center text-section sect-features">
+                <div
+                    class="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 justify-center align-center text-section sect-features">
 
-                    <div class="row">
-                        <!--feature new style start-->
-                        <div class="grid-cols-3 grid-cols-12">
-                            <div class="col-span-1 mb-4 ">
-                                <div class="p-7  !rounded-sm2 bg-white dark:bg-bodybg border box-shadows  dark:border-defaultborder/10 box-icon-conts">
-                                    <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
-                                        <i class="text-[1.5rem] bx bx-spreadsheet"></i>
-                                    </span>
-                                    <h3 class="font-medium mb-0 text-xl text-dark">Complete Online Privacy</h3>
-                                    <p class="mb-1 text-[0.875rem] opacity-[0.7] text-[#8c9097] dark:text-white/50 ">
-                                        Lorem Ipsum is simply dummy industry.
-                                    </p>
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 customize-image text-center">
+                        <div class="row">
+                            <!--feature new style start-->
+                            <div class="grid-cols-3 grid-cols-12">
+                                <div class="col-span-1 mb-4 ">
+                                    <div
+                                        class="p-7  !rounded-sm2 bg-white dark:bg-bodybg border box-shadows  dark:border-defaultborder/10 box-icon-conts">
+                                        <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
+                                            <i class="text-[1.5rem] bx bx-spreadsheet"></i>
+                                        </span>
+                                        <h3 class="font-medium mb-0 text-xl text-dark">Complete Online Privacy</h3>
+                                        <p class="mb-1 text-[0.875rem] opacity-[0.7] text-[#8c9097] dark:text-white/50 ">
+                                            Lorem Ipsum is simply dummy industry.
+                                        </p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-span-1 mb-4 ">
-                                <div class="p-7  !rounded-sm2 bg-white dark:bg-bodybg border box-shadows  dark:border-defaultborder/10 box-icon-conts">
-                                    <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
-                                        <i class="text-[1.5rem] bx bx-spreadsheet"></i>
-                                    </span>
-                                    <h3 class="font-medium mb-0 text-xl text-dark">Complete Online Privacy</h3>
-                                    <p class="mb-1 text-[0.875rem] opacity-[0.7] text-[#8c9097] dark:text-white/50 ">
-                                        Lorem Ipsum is simply dummy industry.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="grid-cols-3 col-md-5 d-none d-sm-none d-md-block d-lg-block">
-                        <div class="position-relative pb-md-5 py-lg-0 center-imgs">
-                            <h3 class="font-semibold  mb-2 text-black features-one ttb-heading text-35xl ">TTB Features
-                            </h3>
-                            <div class="grid grid-cols-12 justify-center max-w-66xl mx-auto  pt-5 ">
-                                <div class="col-span-12">
-                                    <p class=" dark:text-white/50  mb-4 font-normal">Objectively deliver professional value
-                                        with
-                                        diverse web-readiness. Collaboratively transition wireless customer service without
-                                        goal-oriented catalysts for change. Collaboratively.</p>
+                                <div class="col-span-1 mb-4 ">
+                                    <div
+                                        class="p-7  !rounded-sm2 bg-white dark:bg-bodybg border box-shadows  dark:border-defaultborder/10 box-icon-conts">
+                                        <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
+                                            <i class="text-[1.5rem] bx bx-spreadsheet"></i>
+                                        </span>
+                                        <h3 class="font-medium mb-0 text-xl text-dark">Complete Online Privacy</h3>
+                                        <p class="mb-1 text-[0.875rem] opacity-[0.7] text-[#8c9097] dark:text-white/50 ">
+                                            Lorem Ipsum is simply dummy industry.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="grid-cols-3 grid-cols-12">
-                            <div class="col-span-1 mb-4 ">
-                                <div class="p-7  !rounded-sm2 bg-white dark:bg-bodybg border box-shadows  dark:border-defaultborder/10 box-icon-conts">
-                                    <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
-                                        <i class="text-[1.5rem] bx bx-spreadsheet"></i>
-                                    </span>
-                                    <h3 class="font-medium mb-0 text-xl text-dark">Complete Online Privacy</h3>
-                                    <p class="mb-1 text-[0.875rem] opacity-[0.7] text-[#8c9097] dark:text-white/50 ">
-                                        Lorem Ipsum is simply dummy industry.
-                                    </p>
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 customize-image text-center">
+                        <div class="grid-cols-3 col-md-5 d-none d-sm-none d-md-block d-lg-block">
+                            <div class="position-relative pb-md-5 py-lg-0 center-imgs">
+                                <h3 class="font-semibold  mb-2 text-black features-one ttb-heading text-35xl ">TTB Features
+                                </h3>
+                                <div class="grid grid-cols-12 justify-center max-w-66xl mx-auto  pt-5 ">
+                                    <div class="col-span-12">
+                                        <p class=" dark:text-white/50  mb-4 font-normal">Objectively deliver professional
+                                            value
+                                            with
+                                            diverse web-readiness. Collaboratively transition wireless customer service
+                                            without
+                                            goal-oriented catalysts for change. Collaboratively.</p>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-span-1 mb-4 ">
-                                <div class="p-7  !rounded-sm2 bg-white dark:bg-bodybg border box-shadows  dark:border-defaultborder/10 box-icon-conts">
-                                    <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
-                                        <i class="text-[1.5rem] bx bx-spreadsheet"></i>
-                                    </span>
-                                    <h3 class="font-medium mb-0 text-xl text-dark">Complete Online Privacy</h3>
-                                    <p class="mb-1 text-[0.875rem] opacity-[0.7] text-[#8c9097] dark:text-white/50 ">
-                                        Lorem Ipsum is simply dummy industry.
-                                    </p>
+                        </div>
+                    </div>
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 customize-image text-center">
+                        <div class="row">
+                            <div class="grid-cols-3 grid-cols-12">
+                                <div class="col-span-1 mb-4 ">
+                                    <div
+                                        class="p-7  !rounded-sm2 bg-white dark:bg-bodybg border box-shadows  dark:border-defaultborder/10 box-icon-conts">
+                                        <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
+                                            <i class="text-[1.5rem] bx bx-spreadsheet"></i>
+                                        </span>
+                                        <h3 class="font-medium mb-0 text-xl text-dark">Complete Online Privacy</h3>
+                                        <p class="mb-1 text-[0.875rem] opacity-[0.7] text-[#8c9097] dark:text-white/50 ">
+                                            Lorem Ipsum is simply dummy industry.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-span-1 mb-4 ">
+                                    <div
+                                        class="p-7  !rounded-sm2 bg-white dark:bg-bodybg border box-shadows  dark:border-defaultborder/10 box-icon-conts">
+                                        <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
+                                            <i class="text-[1.5rem] bx bx-spreadsheet"></i>
+                                        </span>
+                                        <h3 class="font-medium mb-0 text-xl text-dark">Complete Online Privacy</h3>
+                                        <p class="mb-1 text-[0.875rem] opacity-[0.7] text-[#8c9097] dark:text-white/50 ">
+                                            Lorem Ipsum is simply dummy industry.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -401,8 +414,8 @@
                                                 <circle cx="50" cy="50" r="45" fill="#fff" />
                                                 <path class="progress" stroke-linecap="round" stroke-width="5"
                                                     stroke="#12D2B3" fill="none" d="M50 10
-                                                 a 40 40 0 0 1 0 80
-                                                 a 40 40 0 0 1 0 -80">
+                                                             a 40 40 0 0 1 0 80
+                                                             a 40 40 0 0 1 0 -80">
                                                 </path>
                                                 <text x="50" y="50" text-anchor="middle" dy="7"
                                                     font-size="20">93%</text>
@@ -425,8 +438,8 @@
                                                 <circle cx="50" cy="50" r="45" fill="#fff" />
                                                 <path class="progress" stroke-linecap="round" stroke-width="5"
                                                     stroke="#12D2B3" fill="none" d="M50 10
-                                                     a 40 40 0 0 1 0 80
-                                                     a 40 40 0 0 1 0 -80">
+                                                                 a 40 40 0 0 1 0 80
+                                                                 a 40 40 0 0 1 0 -80">
                                                 </path>
                                                 <text x="50" y="50" text-anchor="middle" dy="7"
                                                     font-size="20">68%</text>
@@ -449,8 +462,8 @@
                                                 <circle cx="50" cy="50" r="45" fill="#fff" />
                                                 <path class="progress" stroke-linecap="round" stroke-width="5"
                                                     stroke="#12D2B3" fill="none" d="M50 10
-                                                     a 40 40 0 0 1 0 80
-                                                     a 40 40 0 0 1 0 -80">
+                                                                 a 40 40 0 0 1 0 80
+                                                                 a 40 40 0 0 1 0 -80">
                                                 </path>
                                                 <text x="50" y="50" text-anchor="middle" dy="7"
                                                     font-size="20">85%</text>
