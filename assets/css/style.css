@@ -44540,7 +44540,9 @@ h6.uppercase {
     .box-tab p {
         padding: 10px 0;
     }
-    
+    .tab-section .text-vertical {
+        margin: 2rem 1rem !important;
+    }
 }
 
 /* start vpn-shild banner css */
