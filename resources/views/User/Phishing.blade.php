@@ -170,9 +170,6 @@
                                             <i class="text-[1.5rem] bx bx-spreadsheet"></i>
                                         </span>
                                         <h3 class="font-medium mb-0 text-xl text-dark">Complete Online Privacy</h3>
-                                        <p class="mb-1 text-[0.875rem] opacity-[0.7] text-[#8c9097] dark:text-white/50 ">
-                                            Lorem Ipsum is simply dummy industry.
-                                        </p>
                                     </div>
                                 </div>
                                 <div class="col-span-1 mb-4 ">
@@ -182,9 +179,6 @@
                                             <i class="text-[1.5rem] bx bx-spreadsheet"></i>
                                         </span>
                                         <h3 class="font-medium mb-0 text-xl text-dark">Complete Online Privacy</h3>
-                                        <p class="mb-1 text-[0.875rem] opacity-[0.7] text-[#8c9097] dark:text-white/50 ">
-                                            Lorem Ipsum is simply dummy industry.
-                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -193,16 +187,19 @@
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 customize-image text-center">
                         <div class="grid-cols-3 col-md-5 d-none d-sm-none d-md-block d-lg-block">
                             <div class="position-relative pb-md-5 py-lg-0 center-imgs">
+                                <span class="lg:text-center font-semibold mt-2 pt-5 mb-2 text-[1rem]" style="color:#12D2B3;">About</span>
                                 <h3 class="font-semibold  mb-2 text-black features-one ttb-heading text-35xl ">TTB Features
                                 </h3>
                                 <div class="grid grid-cols-12 justify-center max-w-66xl mx-auto  pt-5 ">
+                                    <span class="font-semibold  mb-2 text-black features-one ttb-heading text-35xl ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nihil autem inventore fugit numquam adipisci
+                                        perspiciatis iste quia
+                                    </span>
                                     <div class="col-span-12">
-                                        <p class=" dark:text-white/50  mb-4 font-normal">Objectively deliver professional
-                                            value
-                                            with
-                                            diverse web-readiness. Collaboratively transition wireless customer service
-                                            without
-                                            goal-oriented catalysts for change. Collaboratively.</p>
+                                        <p class=" dark:text-white/50  mb-4 font-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nihil autem inventore fugit numquam adipisci
+                                             perspiciatis iste quia, ipsa corrupti laboriosam et vero in unde tempore optio ea nemo? Delectus dignissimos iure, numquam quas, voluptatibus quam sunt
+                                              commodi placeat nobis quos expedita eaque cum nisi laboriosam! Nostrum, aperiam fugit. Numquam? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                               Minima nihil autem inventore fugit numquam adipisci perspiciatis iste quia, ipsa corrupti laboriosam et vero in unde tempore optio ea nemo? Delectus 
+                                               dignissimos iure, numquam quas, voluptatibus quam sunt commodi placeat nobis quos expedita eaque cum nisi laboriosam! Nostrum, aperiam fugit. Numquam?</p>
                                     </div>
                                 </div>
                             </div>
@@ -218,9 +215,6 @@
                                             <i class="text-[1.5rem] bx bx-spreadsheet"></i>
                                         </span>
                                         <h3 class="font-medium mb-0 text-xl text-dark">Complete Online Privacy</h3>
-                                        <p class="mb-1 text-[0.875rem] opacity-[0.7] text-[#8c9097] dark:text-white/50 ">
-                                            Lorem Ipsum is simply dummy industry.
-                                        </p>
                                     </div>
                                 </div>
                                 <div class="col-span-1 mb-4 ">
@@ -230,9 +224,6 @@
                                             <i class="text-[1.5rem] bx bx-spreadsheet"></i>
                                         </span>
                                         <h3 class="font-medium mb-0 text-xl text-dark">Complete Online Privacy</h3>
-                                        <p class="mb-1 text-[0.875rem] opacity-[0.7] text-[#8c9097] dark:text-white/50 ">
-                                            Lorem Ipsum is simply dummy industry.
-                                        </p>
                                     </div>
                                 </div>
                             </div>
