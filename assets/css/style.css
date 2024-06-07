@@ -45284,8 +45284,7 @@ span.decor.px-2 {
     align-items: center;
 }
 section#about-features {
-    background-image: url('assets/img/Bg-image-1.png');
-    background-repeat: no-repeat;
+    background-image: url("/assets/img/Bg-image-1.png");
     background-position: center;
     background-size: cover;
 }
