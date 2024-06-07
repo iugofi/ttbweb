@@ -169,7 +169,7 @@
                                         <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
                                             <i class="text-[1.5rem] bx bx-spreadsheet"></i>
                                         </span>
-                                        <h3 class="font-medium mb-0 text-xl text-dark">Complete Online Privacy</h3>
+                                        <h3 class="mb-0 text-lg pt-2 font-semibold text-dark">Complete Online Privacy</h3>
                                     </div>
                                 </div>
                                 <div class="col-span-1 mb-4 ">
@@ -178,7 +178,7 @@
                                         <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
                                             <i class="text-[1.5rem] bx bx-spreadsheet"></i>
                                         </span>
-                                        <h3 class="font-medium mb-0 text-xl text-dark">Complete Online Privacy</h3>
+                                        <h3 class="mb-0 text-lg pt-2 font-semibold text-dark">Complete Online Privacy</h3>
                                     </div>
                                 </div>
                             </div>
@@ -214,7 +214,7 @@
                                         <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
                                             <i class="text-[1.5rem] bx bx-spreadsheet"></i>
                                         </span>
-                                        <h3 class="font-medium mb-0 text-xl text-dark">Complete Online Privacy</h3>
+                                        <h3 class="mb-0 text-lg pt-2 font-semibold text-dark">Complete Online Privacy</h3>
                                     </div>
                                 </div>
                                 <div class="col-span-1 mb-4 ">
@@ -223,7 +223,7 @@
                                         <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
                                             <i class="text-[1.5rem] bx bx-spreadsheet"></i>
                                         </span>
-                                        <h3 class="font-medium mb-0 text-xl text-dark">Complete Online Privacy</h3>
+                                        <h3 class="mb-0 text-lg pt-2 font-semibold text-dark">Complete Online Privacy</h3>
                                     </div>
                                 </div>
                             </div>
