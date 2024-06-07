@@ -53,8 +53,8 @@
                                             Tech-Oriented</h5>
                                     </div>
                                     <div class="flex-img">
-                                        <img src="{{ asset('assets/img/Tech-Oriented-Services.png')}}"
-                                            alt="widget" class="rounded-custom img-fluid">
+                                        <img src="{{ asset('assets/img/Tech-Oriented-Services.png') }}" alt="widget"
+                                            class="rounded-custom img-fluid">
                                     </div>
                                 </div>
                                 <div class="group flex items-center xl:col-grid-6 col-grid-6  px-2 py-5 gap-3 flex-box">
@@ -66,7 +66,7 @@
                                             For Business</h5>
                                     </div>
                                     <div class="flex-img">
-                                        <img src="{{ asset('assets/img/Innovative-Solution-For-Business.png')}}"
+                                        <img src="{{ asset('assets/img/Innovative-Solution-For-Business.png') }}"
                                             alt="widget" class="rounded-custom img-fluid">
                                     </div>
                                 </div>
@@ -79,7 +79,7 @@
                                             For Customers</h5>
                                     </div>
                                     <div class="flex-img">
-                                        <img src="{{ asset('assets/img/Top-Class-Support-For-Customers.png')}}"
+                                        <img src="{{ asset('assets/img/Top-Class-Support-For-Customers.png') }}"
                                             alt="widget" class="rounded-custom img-fluid">
                                     </div>
                                 </div>
@@ -166,7 +166,8 @@
                             goal-oriented catalysts for change. Collaboratively.</p>
                     </div>
                 </div>
-                <div class="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 justify-center align-center mobile-section sect-features">
+                <div
+                    class="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 justify-center align-center mobile-section sect-features">
 
                     <div class="row">
                         <!--feature new style start-->
@@ -205,7 +206,16 @@
                     </div>
                     <div class="grid-cols-3 col-md-5 d-none d-sm-none d-md-block d-lg-block">
                         <div class="position-relative pb-md-5 py-lg-0 center-imgs">
-                            <img alt="Image placeholder" src="https://nighthawk-routerlogin.com/assets/img/section-three-ttb.gif" class="img-fluid mt-5">
+                            <h3 class="font-semibold  mb-2 text-black features-one ttb-heading text-35xl ">TTB Features
+                            </h3>
+                            <div class="grid grid-cols-12 justify-center max-w-66xl mx-auto  pt-5 ">
+                                <div class="col-span-12">
+                                    <p class=" dark:text-white/50  mb-4 font-normal">Objectively deliver professional value
+                                        with
+                                        diverse web-readiness. Collaboratively transition wireless customer service without
+                                        goal-oriented catalysts for change. Collaboratively.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="row">
@@ -257,11 +267,14 @@
                     class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
                     <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-5 antivirus-image text-center">
                         <div class="lg:text-start !flex items-left lg:justify-left justify-left">
-                            <img src="{{ asset('assets/img/We-Prominent-Truly-Trusted-IT-Business-Solutions.png') }}" alt="" class="img-fluid">
+                            <img src="{{ asset('assets/img/We-Prominent-Truly-Trusted-IT-Business-Solutions.png') }}"
+                                alt="" class="img-fluid">
                         </div>
                     </div>
-                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 pt-0 pb-0 lg:px-2 !text-start text-vertical">
-                        <span class="lg:text-center font-semibold mt-2 pt-5 mb-2 text-[1rem]" style="color:#12D2B3;">Who We
+                    <div
+                        class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 pt-0 pb-0 lg:px-2 !text-start text-vertical">
+                        <span class="lg:text-center font-semibold mt-2 pt-5 mb-2 text-[1rem]" style="color:#12D2B3;">Who
+                            We
                             Are</span>
                         <h4 class="lg:text-start font-semibold mb-2 pt-5 text-[2rem]">We` Prominent Truly Trusted<br>
                             IT Business Solutiond</h4>
@@ -395,92 +408,92 @@
 
         <!-- Start:: anti-phishing section six -->
         <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]">
-          <section class="counter-section">
-            <div class="container">
-                <div
-                class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 pt-5 pb-0 lg:px-2 ms-5 !text-start">
-                <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">Business
-                    Strategy We Need</span>
-                <h4 class="lg:text-start font-semibold mb-2 pt-5 pb-5 text-[2rem]">We` Prominent Truly Trusted<br>
-                    IT Business Solutiond</h4>
-                <hr>
-                </div>
-                <div class=" grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 mt-5">
-                    <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-4">
-                        <div class="flex" style="justify-content: center; align-items: center;">
-                            <div class="icon-box-counter">
-                                <div class="circle-container">
-                                    <div class="circle" data-percentage="93">
-                                        <svg viewbox="0 0 100 100">
-                                            <circle cx="50" cy="50" r="45" fill="#fff" />
-                                            <path class="progress" stroke-linecap="round" stroke-width="5"
-                                                stroke="#12D2B3" fill="none" d="M50 10
-                                             a 40 40 0 0 1 0 80
-                                             a 40 40 0 0 1 0 -80">
-                                            </path>
-                                            <text x="50" y="50" text-anchor="middle" dy="7"
-                                                font-size="20">93%</text>
-                                        </svg>
+            <section class="counter-section">
+                <div class="container">
+                    <div
+                        class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 pt-5 pb-0 lg:px-2 ms-5 !text-start">
+                        <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">Business
+                            Strategy We Need</span>
+                        <h4 class="lg:text-start font-semibold mb-2 pt-5 pb-5 text-[2rem]">We` Prominent Truly Trusted<br>
+                            IT Business Solutiond</h4>
+                        <hr>
+                    </div>
+                    <div class=" grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 mt-5">
+                        <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-4">
+                            <div class="flex" style="justify-content: center; align-items: center;">
+                                <div class="icon-box-counter">
+                                    <div class="circle-container">
+                                        <div class="circle" data-percentage="93">
+                                            <svg viewbox="0 0 100 100">
+                                                <circle cx="50" cy="50" r="45" fill="#fff" />
+                                                <path class="progress" stroke-linecap="round" stroke-width="5"
+                                                    stroke="#12D2B3" fill="none" d="M50 10
+                                                 a 40 40 0 0 1 0 80
+                                                 a 40 40 0 0 1 0 -80">
+                                                </path>
+                                                <text x="50" y="50" text-anchor="middle" dy="7"
+                                                    font-size="20">93%</text>
+                                            </svg>
+                                        </div>
                                     </div>
                                 </div>
+                                <div class="counter-text ps-5">
+                                    <h5 class="dark-text text-black ">Best Services</h5>
+                                    <p class="text-black dark-text">Lorem ipsum dolor sit <br> amet, eiusmod tempor.
+                                </div>
                             </div>
-                            <div class="counter-text ps-5">
-                                <h5 class="dark-text text-black ">Best Services</h5>
-                                <p class="text-black dark-text">Lorem ipsum dolor sit <br> amet, eiusmod tempor.
+                        </div>
+                        <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-4">
+                            <div class="flex" style="justify-content: center; align-items: center;">
+                                <div class="icon-box-counter">
+                                    <div class="circle-container">
+                                        <div class="circle" data-percentage="68">
+                                            <svg viewbox="0 0 100 100">
+                                                <circle cx="50" cy="50" r="45" fill="#fff" />
+                                                <path class="progress" stroke-linecap="round" stroke-width="5"
+                                                    stroke="#12D2B3" fill="none" d="M50 10
+                                                     a 40 40 0 0 1 0 80
+                                                     a 40 40 0 0 1 0 -80">
+                                                </path>
+                                                <text x="50" y="50" text-anchor="middle" dy="7"
+                                                    font-size="20">68%</text>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="counter-text ps-5">
+                                    <h5 class="dark-text text-black">Best Services</h5>
+                                    <p class="text-black dark-text">Lorem ipsum dolor sit <br> amet, eiusmod tempor.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-4">
+                            <div class="flex" style="justify-content: center; align-items: center;">
+                                <div class="icon-box-counter">
+                                    <div class="circle-container">
+                                        <div class="circle" data-percentage="85">
+                                            <svg viewbox="0 0 100 100">
+                                                <circle cx="50" cy="50" r="45" fill="#fff" />
+                                                <path class="progress" stroke-linecap="round" stroke-width="5"
+                                                    stroke="#12D2B3" fill="none" d="M50 10
+                                                     a 40 40 0 0 1 0 80
+                                                     a 40 40 0 0 1 0 -80">
+                                                </path>
+                                                <text x="50" y="50" text-anchor="middle" dy="7"
+                                                    font-size="20">85%</text>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="counter-text ps-5">
+                                    <h5 class="dark-text text-black">Best Services</h5>
+                                    <p class="text-black dark-text">Lorem ipsum dolor sit<br> amet, eiusmod tempor.
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-4">
-                        <div class="flex" style="justify-content: center; align-items: center;">
-                            <div class="icon-box-counter">
-                                <div class="circle-container">
-                                    <div class="circle" data-percentage="68">
-                                        <svg viewbox="0 0 100 100">
-                                            <circle cx="50" cy="50" r="45" fill="#fff" />
-                                            <path class="progress" stroke-linecap="round" stroke-width="5"
-                                                stroke="#12D2B3" fill="none" d="M50 10
-                                                 a 40 40 0 0 1 0 80
-                                                 a 40 40 0 0 1 0 -80">
-                                            </path>
-                                            <text x="50" y="50" text-anchor="middle" dy="7"
-                                                font-size="20">68%</text>
-                                        </svg>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="counter-text ps-5">
-                                <h5 class="dark-text text-black">Best Services</h5>
-                                <p class="text-black dark-text">Lorem ipsum dolor sit <br> amet, eiusmod tempor.
-                            </div>
-                        </div>
-                    </div> 
-                    <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-4">
-                        <div class="flex" style="justify-content: center; align-items: center;">
-                            <div class="icon-box-counter">
-                                <div class="circle-container">
-                                    <div class="circle" data-percentage="85">
-                                        <svg viewbox="0 0 100 100">
-                                            <circle cx="50" cy="50" r="45" fill="#fff" />
-                                            <path class="progress" stroke-linecap="round" stroke-width="5"
-                                                stroke="#12D2B3" fill="none" d="M50 10
-                                                 a 40 40 0 0 1 0 80
-                                                 a 40 40 0 0 1 0 -80">
-                                            </path>
-                                            <text x="50" y="50" text-anchor="middle" dy="7"
-                                                font-size="20">85%</text>
-                                        </svg>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="counter-text ps-5">
-                                <h5 class="dark-text text-black">Best Services</h5>
-                                <p class="text-black dark-text">Lorem ipsum dolor sit<br> amet, eiusmod tempor.
-                            </div>
-                        </div>
-                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
         </div>
 
         <script src="script.js"></script>
