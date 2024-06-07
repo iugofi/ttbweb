@@ -429,7 +429,7 @@
             }
         </style>
 
-        <script>
+        {{-- <script>
             document.addEventListener("DOMContentLoaded", function() {
                 const circles = document.querySelectorAll('.circle');
 
@@ -443,7 +443,7 @@
                     }, 500);
                 });
             });
-        </script>
+        </script> --}}
         <!-- End:: anti-phishing section six -->
 
         {{-- <script src="script.js"></script>
@@ -479,7 +479,7 @@
                     gap: 10px;
                 }
             }
-        </style>
+        </style> --}}
 
         <script>
             document.addEventListener("DOMContentLoaded", function() {
@@ -495,7 +495,7 @@
                     }, 500);
                 });
             });
-        </script> --}}
+        </script>
 
 
 
