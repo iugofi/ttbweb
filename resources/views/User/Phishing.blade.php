@@ -53,7 +53,7 @@
                                             Tech-Oriented</h5>
                                     </div>
                                     <div class="flex-img">
-                                        <img src="Tech-Oriented-Services.png"
+                                        <img src="{{ asset('assets/img/Tech-Oriented-Services.png')}}"
                                             alt="widget" class="rounded-custom img-fluid">
                                     </div>
                                 </div>
@@ -66,7 +66,7 @@
                                             For Business</h5>
                                     </div>
                                     <div class="flex-img">
-                                        <img src="Innovative-Solution-For-Business.png"
+                                        <img src="{{ asset('assets/img/Innovative-Solution-For-Business.png')}}"
                                             alt="widget" class="rounded-custom img-fluid">
                                     </div>
                                 </div>
@@ -79,7 +79,7 @@
                                             For Customers</h5>
                                     </div>
                                     <div class="flex-img">
-                                        <img src="Top-Class-Support-For-Customers.png"
+                                        <img src="{{ asset('assets/img/Top-Class-Support-For-Customers.png')}}"
                                             alt="widget" class="rounded-custom img-fluid">
                                     </div>
                                 </div>
