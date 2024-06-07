@@ -156,16 +156,6 @@
         <!-- Start:: anti-phishing section four -->
         <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] " id="about">
             <div class="container text-center">
-
-                <h3 class="font-semibold  mb-2 text-black features-one ttb-heading text-35xl ">TTB Features
-                </h3>
-                <div class="grid grid-cols-12 justify-center max-w-66xl mx-auto  pt-5 ">
-                    <div class="col-span-12">
-                        <p class=" dark:text-white/50  mb-4 font-normal">Objectively deliver professional value with
-                            diverse web-readiness. Collaboratively transition wireless customer service without
-                            goal-oriented catalysts for change. Collaboratively.</p>
-                    </div>
-                </div>
                 <div
                     class="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 justify-center align-center mobile-section sect-features">
 
