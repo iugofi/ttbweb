@@ -306,7 +306,7 @@
           <section class="counter-section">
             <div class="container">
                 <div
-                class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 pt-5 pb-0 lg:px-2 !text-start">
+                class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 pt-5 pb-0 lg:px-2 ms-5 !text-start">
                 <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">Business
                     Strategy We Need</span>
                 <h4 class="lg:text-start font-semibold mb-2 pt-5 pb-5 text-[2rem]">We` Prominent Truly Trusted<br>
