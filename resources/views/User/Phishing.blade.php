@@ -181,16 +181,6 @@
                                         array. Core competencies for testing.</p>
                                 </div>
                             </div>
-                            <div class="row flex p-4">
-                                <div class="grid-cols-2 col-md-6 text-left ">
-                                    <i class="bx bx-support text-4xl p-2 px-3"></i>
-                                </div>
-                                <div class="grid-cols-2 col-md-6 text-left">
-                                    <h4 class="text-2xl5 font-medium">Responsive web design</h4>
-                                    <p class="leading-6 mt-2">Modular and monetize an componente between layouts monetize
-                                        array. Core competencies for testing.</p>
-                                </div>
-                            </div>
                         </div>
                     </div>
                     <div class="grid-cols-3 col-md-5 d-none d-sm-none d-md-block d-lg-block">
@@ -222,16 +212,6 @@
                             <div class="row flex p-4">
                                 <div class="grid-cols-2 col-md-6 text-left ">
                                     <i class="bx bx-window-alt text-4xl p-2 px-3"></i>
-                                </div>
-                                <div class="grid-cols-2 col-md-6 text-left">
-                                    <h4 class="text-2xl5 font-medium">Responsive web design</h4>
-                                    <p class="leading-6 mt-2">Modular and monetize an componente between layouts monetize
-                                        array. Core competencies for testing.</p>
-                                </div>
-                            </div>
-                            <div class="row flex p-4">
-                                <div class="grid-cols-2 col-md-6 text-left ">
-                                    <i class="bx bx-palette text-4xl p-2 px-3"></i>
                                 </div>
                                 <div class="grid-cols-2 col-md-6 text-left">
                                     <h4 class="text-2xl5 font-medium">Responsive web design</h4>
