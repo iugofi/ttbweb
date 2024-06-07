@@ -156,8 +156,7 @@
         <!-- Start:: anti-phishing section four -->
         <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] " id="about">
             <div class="container text-center">
-                <div
-                    class="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 justify-center align-center mobile-section sect-features">
+                <div class="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 justify-center align-center text-section sect-features">
 
                     <div class="row">
                         <!--feature new style start-->
