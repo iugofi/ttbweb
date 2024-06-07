@@ -45242,6 +45242,13 @@ span.decor.px-2 {
     fill: #252729;
 }
 
+.box-shadows:hover {
+    border: 1px solid #11CDBD;
+}
+.box-icon-conts {
+    height: 15em;
+    margin: 0 3rem auto;
+}
 /* End:: anti-phishing page css */
 
 
