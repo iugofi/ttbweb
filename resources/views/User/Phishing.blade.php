@@ -302,8 +302,8 @@
         <!-- End:: anti-phishing section five -->
 
         <!-- Start:: anti-phishing section six -->
-
-        <section class="counter-section">
+        <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]">
+          <section class="counter-section">
             <div class="container">
                 <div
                 class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 pt-5 pb-0 lg:px-2 !text-start">
@@ -389,7 +389,8 @@
                 </div>
             </div>
         </section>
-
+        </div>
+        
         <script src="script.js"></script>
         <style>
             .circle-container {
