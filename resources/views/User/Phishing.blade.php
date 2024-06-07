@@ -391,7 +391,7 @@
         </section>
 
         <script src="script.js"></script>
-        <style>
+        {{-- <style>
             .counter-section {
                 padding: 100px 0px;
             }
@@ -427,9 +427,9 @@
                     gap: 10px;
                 }
             }
-        </style>
+        </style> --}}
 
-        {{-- <script>
+        <script>
             document.addEventListener("DOMContentLoaded", function() {
                 const circles = document.querySelectorAll('.circle');
 
@@ -443,10 +443,10 @@
                     }, 500);
                 });
             });
-        </script> --}}
+        </script>
         <!-- End:: anti-phishing section six -->
 
-        {{-- <script src="script.js"></script>
+        <script src="script.js"></script>
         <style>
             .circle-container {
                 display: flex;
@@ -479,9 +479,9 @@
                     gap: 10px;
                 }
             }
-        </style> --}}
+        </style>
 
-        <script>
+        {{-- <script>
             document.addEventListener("DOMContentLoaded", function() {
                 const circles = document.querySelectorAll('.circle');
 
@@ -495,7 +495,7 @@
                     }, 500);
                 });
             });
-        </script>
+        </script> --}}
 
 
 
