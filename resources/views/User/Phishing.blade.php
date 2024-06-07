@@ -190,12 +190,12 @@
                                 <span class="lg:text-center font-semibold mt-2 pt-5 mb-2 text-[1rem]" style="color:#12D2B3;">About</span>
                                 <h3 class="font-semibold dark:text-white/50 mb-2 text-black features-one ttb-heading text-35xl pt-5 px-5">TTB Features
                                 </h3>
-                                <h6 class="font-semibold dark:text-white/50 mb-2 text-black features-one ttb-heading ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nihil autem inventore fugit numquam adipisci
+                                <h6 class="font-semibold dark:text-white/50 mb-2 px-5 text-black features-one ttb-heading ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nihil autem <br>inventore fugit numquam adipisci
                                     perspiciatis iste quia
                                 </h6>
                                 <div class="grid grid-cols-12 justify-center max-w-66xl mx-auto  pt-5 ">
                                     <div class="col-span-12">
-                                        <p class=" dark:text-white/50  mb-4 font-normal px-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nihil autem inventore fugit numquam adipisci
+                                        <p class=" dark:text-white/50  mb-4 font-normal  px-5 ms-5 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nihil autem inventore fugit numquam adipisci
                                              perspiciatis iste quia, ipsa corrupti laboriosam et vero in unde tempore optio ea nemo? Delectus dignissimos iure, numquam quas, voluptatibus quam sunt
                                               commodi placeat nobis quos expedita eaque cum nisi laboriosam! Nostrum, aperiam fugit. Numquam? Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                                Minima nihil autem inventore fugit numquam adipisci perspiciatis iste quia, ipsa corrupti laboriosam et vero in unde tempore optio ea nemo? Delectus 
