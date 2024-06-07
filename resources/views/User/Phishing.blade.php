@@ -446,7 +446,7 @@
         </script>
         <!-- End:: anti-phishing section six -->
 
-        <script src="script.js"></script>
+        {{-- <script src="script.js"></script>
         <style>
             .circle-container {
                 display: flex;
@@ -495,7 +495,7 @@
                     }, 500);
                 });
             });
-        </script>
+        </script> --}}
 
 
 
