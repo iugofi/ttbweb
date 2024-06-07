@@ -391,62 +391,6 @@
         </section>
 
         <script src="script.js"></script>
-        {{-- <style>
-            .counter-section {
-                padding: 100px 0px;
-            }
-
-            .circle-container {
-                display: flex;
-                gap: 20px;
-            }
-
-            .circle {
-                position: relative;
-                width: 100px;
-                height: 100px;
-            }
-
-            svg {
-                width: 100%;
-                height: 100%;
-                transform: rotate(-90deg);
-            }
-
-            .progress {
-                stroke-dasharray: 251.2;
-                /* Full circle circumference */
-                stroke-dashoffset: 251.2;
-                /* Full circle circumference to hide it initially */
-                transition: stroke-dashoffset 3s ease-out;
-            }
-
-            @media (max-width: 600px) {
-                .circle-container {
-                    flex-direction: column;
-                    gap: 10px;
-                }
-            }
-        </style> --}}
-
-        <script>
-            document.addEventListener("DOMContentLoaded", function() {
-                const circles = document.querySelectorAll('.circle');
-
-                circles.forEach(circle => {
-                    const percentage = circle.getAttribute('data-percentage');
-                    const offset = 251.2 - (251.2 * percentage / 100);
-                    const path = circle.querySelector('.progress');
-
-                    setTimeout(() => {
-                        path.style.strokeDashoffset = offset;
-                    }, 500);
-                });
-            });
-        </script>
-        <!-- End:: anti-phishing section six -->
-
-        <script src="script.js"></script>
         <style>
             .circle-container {
                 display: flex;
@@ -481,7 +425,7 @@
             }
         </style>
 
-        {{-- <script>
+        <script>
             document.addEventListener("DOMContentLoaded", function() {
                 const circles = document.querySelectorAll('.circle');
 
@@ -495,7 +439,9 @@
                     }, 500);
                 });
             });
-        </script> --}}
+        </script>
+        <!-- End:: anti-phishing section six -->
+
 
 
 
