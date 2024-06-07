@@ -199,7 +199,7 @@
                                              perspiciatis iste quia, ipsa corrupti laboriosam et vero in unde tempore optio ea nemo? Delectus dignissimos iure, numquam quas, voluptatibus quam sunt
                                               commodi placeat nobis quos expedita eaque cum nisi laboriosam! Nostrum, aperiam fugit. Numquam? Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                                Minima nihil autem inventore fugit numquam adipisci perspiciatis iste quia, ipsa corrupti laboriosam et vero in unde tempore optio ea nemo? Delectus 
-                                               dignissimos iure, numquam quas, voluptatibus quam sunt commodi placeat nobis quos expedita eaque cum nisi laboriosam! Nostrum, aperiam fugit. Numquam?</p>
+                                               dignissimos</p>
                                     </div>
                                 </div>
                             </div>
