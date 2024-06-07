@@ -50,7 +50,8 @@
                                         <p class="text-sm font-medium text-slate-700 group-hover:text-slate-900">FEATURES
                                         </p>
                                         <h5 class="text-sm font-bold text-xl text-slate-500 group-hover:text-slate-700">
-                                            Tech-Oriented</h5>
+                                            Innovative Solution<br>
+                                            For Business</h5>
                                     </div>
                                     <div class="flex-img">
                                         <img src="{{ asset('assets/img/Tech-Oriented-Services.png') }}" alt="widget"
