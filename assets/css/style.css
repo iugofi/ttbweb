@@ -45249,9 +45249,11 @@ span.decor.px-2 {
     height: 15em;
     /* margin: 0 3rem auto; */
 }
-.flex-item {
+.flex-items {
     display: flex;
+    align-items: center;
 }
+
 /* End:: anti-phishing page css */
 
 
