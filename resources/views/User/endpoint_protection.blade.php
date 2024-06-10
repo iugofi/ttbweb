@@ -62,7 +62,7 @@
 
                                 <div class="icon-txt ms-4 mr-[1.0rem]">
                                     <h5 class="dark-text" style="color: #fff;">Best Services</h5>
-                                    <p class="text-gray-light" style="color: #fff;">Lorem ipsum dolor sit amet, eiusmod
+                                    <p class="text-white" style="color: #fff;">Lorem ipsum dolor sit amet, eiusmod
                                         <br>tempor.
                                     </p>
                                 </div>
