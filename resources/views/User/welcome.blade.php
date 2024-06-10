@@ -172,7 +172,7 @@
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 pt-5 pb-0 lg:px-2 !text-start px-0 my-auto">
                         <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">We Strive To Offer Intelligent
                             Business
-                            Solutions</h4>
+                            Solutions</h4> 
                         <p class=" text-[0.9rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
                             value with diverse web-readiness. Collaboratively transition wireless customer service without
                             goal-oriented catalysts for change. Collaboratively.
