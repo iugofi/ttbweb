@@ -13947,6 +13947,9 @@ h6 {
 .dark .dark-text {
     color: #fff;
 }
+.dark .dark-text.ttst {
+    color: #000;
+}
 
 .dark-black {
     color: #000;
