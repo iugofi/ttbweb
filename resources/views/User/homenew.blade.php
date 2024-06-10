@@ -797,9 +797,9 @@
                 id="testimonials">
                 <div class="container text-center">
                     <p class="mb-1"><span class="sp-test">TESTIMONIALS</span></p>
-                    <h3 class="font-semibold mb-2">We never failed to reach expectations</h3>
+                    <h3 class="font-semibold mb-2 text-black">We never failed to reach expectations</h3>
                     <div>
-                        <div class="xl:col-span-7 col-span-12">
+                        <div class="xl:col-span-7 col-span-12 text-black">
                             <p class="mb-[3rem]">Some of
                                 the reviews our clients gave which brings motivation to work for future projects.</p>
                         </div>
@@ -1193,10 +1193,10 @@
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
                             <span>ABOUT US</span>
-                            <h2 class="mt-3">Innovate Business Solution For Startup Comapnies</h2>
-                            <p class="mt-3 mb-5">Lorem ipsum dolor amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            <h2 class="mt-3 text-black">Innovate Business Solution For Startup Comapnies</h2>
+                            <p class="mt-3 mb-5 text-black">Lorem ipsum dolor amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt ut labore et dolore magna aliqua. Libero volutpat sed cras ornare.</p>
-                            <ul class="icn-list">
+                            <ul class="icn-list text-black">
                                 <li><i class="far fa-edit"></i>Identify growth opportunities and expand market presence
                                 </li>
                                 <li><i class="far fa-edit"></i>Enhance operational efficiency and reduce waste</li>
