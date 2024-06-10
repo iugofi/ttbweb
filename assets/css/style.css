@@ -45292,6 +45292,9 @@ section#about-features {
     background-position: center;
     background-size: cover;
 }
+.dark section#about-features {
+    background: #252729;
+}
 
 /* End:: anti-phishing page css */
 
