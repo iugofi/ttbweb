@@ -50,10 +50,6 @@
                                 <img src="{{ asset('assets/img2/section-one-ttb.gif') }}" alt="" class="img-fluid"
                                     width="88%">
                             </div>
-
-                            <div class="dark-shap-two"><img src="{{ asset('assets/img/Shape-2.png') }}" alt=""
-                                    class="img-fluid"></div>
-                        </div>
                     </div>
                 </div>
             </section>
