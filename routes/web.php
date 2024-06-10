@@ -79,6 +79,8 @@ Route::get('/Endpoint_protection', [UserController::class, 'endpoint_protection'
 
 //Behavioral Protection
 Route::get('/Behavioral_Protection', [UserController::class, 'Behavioral_Protection'])->name('user.Behavioral_Protection');
+Route::get('/Enhanced_Firewall', [UserController::class, 'Enhanced_Firewall'])->name('user.Enhanced_Firewall');
+
 
 
 
@@ -87,6 +89,7 @@ Route::get('/Behavioral_Protection', [UserController::class, 'Behavioral_Protect
 
 //ttb total internet kulvinder 22-04-2024
 Route::get('/totel-internet-security', [UserController::class, 'totalinternet'])->name('user.totalinternet');
+
 
 
 //ttb commercial

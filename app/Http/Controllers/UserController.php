@@ -202,6 +202,10 @@ class UserController extends Controller
     {
         return view('User.malware_detection');
     }
+    public function Enhanced_Firewall()
+    {
+        return view('User.Enhanced_Firewall');
+    }
     
     public function contactform(Request $request)
     {
