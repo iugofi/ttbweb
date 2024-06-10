@@ -71,7 +71,7 @@
                         and language are difficult to track.</p>
                 </div>
 
-                <div class="xxl:col-span-4 xl:col-span-4  md:col-span-4 sm:col-span-12 col-span-12 img-boxthree">
+                <div class="xxl:col-span-4 xl:col-span-4  md:col-span-4 sm:col-span-12 col-span-12 d!bg-[#f9fafb] dark:!bg-black/10 border dark:border-defaultborder/10 img-boxthree">
                     <img src="{{ asset('assets/img/sec3-img1.png') }}" alt="" class="img-fluid" width="100%">
                     <div class="inner-box ">
                         <div class="flex">
@@ -87,7 +87,7 @@
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Been the industry's standard dummy</p>
                     </div>
                 </div>
-                <div class="xxl:col-span-4 xl:col-span-4  md:col-span-4 sm:col-span-12 col-span-12 img-boxthree">
+                <div class="xxl:col-span-4 xl:col-span-4  md:col-span-4 sm:col-span-12 col-span-12 d!bg-[#f9fafb] dark:!bg-black/10 border dark:border-defaultborder/10 img-boxthree">
                     <img src="{{ asset('assets/img/sec3-img2.png') }}" alt="" class="img-fluid" width="100%">
                     <div class="inner-box ">
                         <div class="flex">
@@ -104,7 +104,7 @@
 
                     </div>
                 </div>
-                <div class="xxl:col-span-4 xl:col-span-4  md:col-span-4 sm:col-span-12 col-span-12 img-boxthree">
+                <div class="xxl:col-span-4 xl:col-span-4  md:col-span-4 sm:col-span-12 col-span-12 d!bg-[#f9fafb] dark:!bg-black/10 border dark:border-defaultborder/10 img-boxthree">
                     <img src="{{ asset('assets/img/sec3-img3.png') }}" alt="" class="img-fluid" width="100%">
                     <div class="inner-box ">
                         <div class="flex">
@@ -124,7 +124,7 @@
             </div>
             <div class="grid grid-cols-12 gap-6 mt-5">
 
-                <div class="xxl:col-span-4 xl:col-span-4  md:col-span-4 sm:col-span-12 col-span-12 img-boxthree">
+                <div class="xxl:col-span-4 xl:col-span-4  md:col-span-4 sm:col-span-12 col-span-12 d!bg-[#f9fafb] dark:!bg-black/10 border dark:border-defaultborder/10 img-boxthree">
                     <img src="{{ asset('assets/img/sec3-img1.png') }}" alt="" class="img-fluid" width="100%">
                     <div class="inner-box ">
                         <div class="flex">
@@ -140,7 +140,7 @@
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Been the industry's standard dummy</p>
                     </div>
                 </div>
-                <div class="xxl:col-span-4 xl:col-span-4  md:col-span-4 sm:col-span-12 col-span-12 img-boxthree">
+                <div class="xxl:col-span-4 xl:col-span-4  md:col-span-4 sm:col-span-12 col-span-12 d!bg-[#f9fafb] dark:!bg-black/10 border dark:border-defaultborder/10 img-boxthree">
                     <img src="{{ asset('assets/img/sec3-img2.png') }}" alt="" class="img-fluid" width="100%">
                     <div class="inner-box ">
                         <div class="flex">
@@ -157,7 +157,7 @@
 
                     </div>
                 </div>
-                <div class="xxl:col-span-4 xl:col-span-4  md:col-span-4 sm:col-span-12 col-span-12 img-boxthree">
+                <div class="xxl:col-span-4 xl:col-span-4  md:col-span-4 sm:col-span-12 col-span-12 d!bg-[#f9fafb] dark:!bg-black/10 border dark:border-defaultborder/10 img-boxthree">
                     <img src="{{ asset('assets/img/sec3-img3.png') }}" alt="" class="img-fluid" width="100%">
                     <div class="inner-box ">
                         <div class="flex">
