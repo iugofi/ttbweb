@@ -94,7 +94,7 @@
                                         <a href="{{route('user.Behavioral_Protection')}}" class="side-menu__item">Behavioral Protection</a>
                                     </li>
                                     <li class="slide">
-                                        <a href="{{route('user.Enhanced_Firewall')}}" class="side-menu__item">Behavioral Protection</a>
+                                        <a href="{{route('user.Enhanced_Firewall')}}" class="side-menu__item">Enhanced Firewall</a>
                                     </li>
                                     <li class="slide">
                                         <a href="{{route('user.malware_detection')}}" class="side-menu__item">Malware Detection</a>
