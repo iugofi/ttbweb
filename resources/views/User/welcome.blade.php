@@ -363,7 +363,7 @@
             id="features">
             <div class="container text-center">
                 {{-- <h3 class="font-semibold mb-2 !text-dark">Features Used in YNEX</h3> --}}
-                <h2 class="text-center text-black font-semibold text-4xl ttb-heading">TTB #1 <span
+                <h2 class="text-center text-black-light font-semibold text-4xl">TTB #1 <span
                         class="text-color-ttb">Antivirus </span><br>Four Times In A Row.</h2>
                 <div>
                     {{-- <div class="xl:col-span-7 col-span-12">
