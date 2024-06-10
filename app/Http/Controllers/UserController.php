@@ -206,7 +206,7 @@ class UserController extends Controller
     {
         return view('User.Enhanced_Firewall');
     }
-    
+     
     public function contactform(Request $request)
     {
 
