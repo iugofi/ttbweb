@@ -189,7 +189,7 @@
                         quia saepe
                         consequuntur, laudantium, cum at expedita eligendi perferendis amet fugiat? Assumenda numquam nisi
                         at, laborum eligendi necessitatibus est?</p>
-                    <p class="mt-3 mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa asperiores quaerat,
+                    <p class="mt-3 mb-6 text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa asperiores quaerat,
                         quia saepe
                         consequuntur laudantium, cum at expedita eligendi perferendis amet fugiat.</p>
                 </div>
