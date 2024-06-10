@@ -130,13 +130,13 @@
                     <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 col-span-12">
                         <div class="lg:py-[3rem]">
                             <h2 class="landing-banner-heading mb-4 opacity-[0.9] text-35xl"><span
-                                    class="dark-black  font-semibold text-35xl ttb-heading">Smarter
+                                    class="dark-black  font-semibold text-35xl">Smarter
                                     solutions for threats ever-sophisticated </span></h2>
-                            <div class="text-[1rem] mb-[1.75rem] text-black-ligh opacity-[0.9] ">Monotonectally impact
+                            <div class="text-[1rem] mb-[1.75rem] text-black opacity-[0.9] ">Monotonectally impact
                                 sustainable e-services with front-end infomediaries. Collaboratively network functional
                                 solutions whereas initiatives. Progressively pontificate collaborative "outside the box"
                                 thinking for.</div>
-                            <div class="text-[1rem] mb-[3rem] text-black-ligh opacity-[0.9] ">Monotonectally impact
+                            <div class="text-[1rem] mb-[3rem] text-black opacity-[0.9] ">Monotonectally impact
                                 sustainable e-services with front-end infomediaries. Collaboratively network functional
                                 solutions whereas initiatives. Progressively pontificate collaborative "outside the box"
                                 thinking for.</div>
