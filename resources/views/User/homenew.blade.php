@@ -316,7 +316,7 @@
                                                 <div class="grid grid-cols-12">
                                                     <div
                                                         class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12 col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 pe-0 price-box">
-                                                        <div class="p-6">
+                                                        <div class="p-6 text-black">
                                                             <h6 class="font-semibold text-center text-[1rem]">BASIC</h6>
                                                             <div class="py-4 flex items-center justify-center">
                                                                 <div class="pricing-svg1">
@@ -361,26 +361,26 @@
                                                                             class="badge bg-light text-defaulttextcolor ms-1">1Tb</span></span>
                                                                 </li>
                                                                 <li class="mb-4">
-                                                                    <span class="text-[#8c9097] dark:text-white/50">Daily
+                                                                    <span class="text-[#8c9097] text-black">Daily
                                                                         Updates<span
                                                                             class="badge bg-light text-defaulttextcolor ms-1">Unlimited</span></span>
                                                                 </li>
                                                                 <li class="mb-4">
-                                                                    <span class="text-[#8c9097] dark:text-white/50">Online
+                                                                    <span class="text-[#8c9097] text-black">Online
                                                                         Support</span>
                                                                 </li>
                                                                 <li class="mb-4">
                                                                     <span
-                                                                        class="text-[#8c9097] dark:text-white/50">Visitors
+                                                                        class="text-[#8c9097] text-black">Visitors
                                                                         Monitoring<span
                                                                             class="badge bg-light text-defaulttextcolor ms-1">24/7</span></span>
                                                                 </li>
                                                                 <li class="mb-4">
-                                                                    <span class="text-[#8c9097] dark:text-white/50">2 Free
+                                                                    <span class="text-[#8c9097] text-black">2 Free
                                                                         Domains</span>
                                                                 </li>
                                                                 <li class="mb-4">
-                                                                    <span class="text-[#8c9097] dark:text-white/50">Money
+                                                                    <span class="text-[#8c9097] text-black">Money
                                                                         Back
                                                                         Guarentee</span>
                                                                 </li>
