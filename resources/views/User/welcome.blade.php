@@ -413,7 +413,7 @@
         <!-- Start:: Section-9 -->
         <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]" id="faq">
             <div class="container text-center">
-                <h3 class="font-semibold text-4xl mb-2 ttb-heading">Frequently Asked Queries</h3>
+                <h3 class="font-semibold text-4xl mb-2">Frequently Asked Queries</h3>
                 <div class="grid grid-cols-12 justify-center">
                     <div class="col-span-12">
                         <p class="text-[#8c9097] dark:text-white/50 text-[0.9375rem] mb-12 font-normal">Efficiently
@@ -669,7 +669,7 @@
                 <div class="grid grid-cols-12 gap-6">
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
                         <div class="lg:py-[3rem]">
-                            <h2 class="landing-banner-heading mb-4 opacity-[0.9] mt-10 font-semibold text-4xl ttb-heading">
+                            <h2 class="landing-banner-heading mb-4 opacity-[0.9] mt-10 font-semibold text-4xl">
                                 <span>What Our Client Say <br> About Apdash</h2>
                             <div class="text-[1rem] mb-[3rem] !text-dark opacity-[0.9] ">Collaboratively actualize
                                 excellent schemas without effective <br> models. Synergistically engineer functionalized
