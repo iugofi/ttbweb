@@ -139,12 +139,12 @@
                         </div>
                         <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12 ">
                             <span>ABOUT US</span>
-                            <h2 class="mt-4">Identifying And Responding To Emerging Risks</h2>
-                            <p class="mt-3 mb-5">Cybersecurity refers to the practice of protecting computer systems,
+                            <h2 class="mt-4 text-black">Identifying And Responding To Emerging Risks</h2>
+                            <p class="mt-3 mb-5 text-black">Cybersecurity refers to the practice of protecting computer systems,
                                 networks, devices, and
                                 data from unauthorized access, cyberattacks, theft, or damage. It encompasses a range of
                                 technologies, processes. and practices designed to safeguard digital assets and ensure </p>
-                            <ul class="icn-list">
+                            <ul class="icn-list text-black">
                                 <li><i class="far fa-edit"></i>High Quality Service</li>
                                 <li><i class="far fa-edit"></i>Website Security Services</li>
                                 <li><i class="far fa-edit"></i>Effective Protection</li>
@@ -162,13 +162,13 @@
             <section class="section-home2-five">
                 <div class="container imgcon-box">
                     <div class="grid grid-cols-12 ">
-                        <div class="col-span-12 text-center pb-5">
+                        <div class="col-span-12 text-center pb-5 text-black">
                             <span>OUR SERVICES</span>
                             <h2 class="mt-4">We Provide Experts Cyber <br> Security Services.</h2>
                         </div>
                     </div>
                     <div class="grid grid-cols-12 gap-6 mt-5">
-                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-6 col-span-12 img-boxx">
+                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-6 col-span-12 text-black img-boxx">
                             <img src="{{ asset('assets/home-two-img/service_3_1.svg') }}" alt=""
                                 class="img-fluid" width="20%">
                             <h3 class="mt-2">Cyber Security</h3>
@@ -176,7 +176,7 @@
                                 promoting security.</p>
                             <a href="#"><i class="fas fa-arrow-right"></i></a>
                         </div>
-                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-6 col-span-12 img-boxx">
+                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-6 col-span-12 text-black img-boxx">
                             <img src="{{ asset('assets/home-two-img/service_3_2.svg') }}" alt=""
                                 class="img-fluid" width="20%">
                             <h3 class="mt-2">Cyber Security</h3>
@@ -184,7 +184,7 @@
                                 promoting security.</p>
                             <a href="#"><i class="fas fa-arrow-right"></i></a>
                         </div>
-                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-6 col-span-12 img-boxx">
+                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-6 col-span-12 text-black img-boxx">
                             <img src="{{ asset('assets/home-two-img/service_3_3.svg') }}" alt=""
                                 class="img-fluid" width="20%">
                             <h3 class="mt-2">Cyber Security</h3>
@@ -192,7 +192,7 @@
                                 promoting security.</p>
                             <a href="#"><i class="fas fa-arrow-right"></i></a>
                         </div>
-                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-6 col-span-12 img-boxx">
+                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-6 col-span-12 text-black img-boxx">
                             <img src="{{ asset('assets/home-two-img/service_3_4.svg') }}" alt=""
                                 class="img-fluid" width="20%">
                             <h3 class="mt-2">Cyber Security</h3>
@@ -200,7 +200,7 @@
                                 promoting security.</p>
                             <a href="#"><i class="fas fa-arrow-right"></i></a>
                         </div>
-                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-6 col-span-12 img-boxx">
+                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-6 col-span-12 text-black img-boxx">
                             <img src="{{ asset('assets/home-two-img/service_3_5.svg') }}" alt=""
                                 class="img-fluid" width="20%">
                             <h3 class="mt-2">Cyber Security</h3>
@@ -208,7 +208,7 @@
                                 promoting security.</p>
                             <a href="#"><i class="fas fa-arrow-right"></i></a>
                         </div>
-                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-6 col-span-12 img-boxx">
+                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-6 col-span-12 text-black img-boxx">
                             <img src="{{ asset('assets/home-two-img/service_3_6.svg') }}" alt=""
                                 class="img-fluid" width="20%">
                             <h3 class="mt-2">Cyber Security</h3>
@@ -216,7 +216,7 @@
                                 promoting security.</p>
                             <a href="#"><i class="fas fa-arrow-right"></i></a>
                         </div>
-                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-6 col-span-12 img-boxx">
+                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-6 col-span-12 text-black img-boxx">
                             <img src="{{ asset('assets/home-two-img/service_3_7.svg') }}" alt=""
                                 class="img-fluid" width="20%">
                             <h3 class="mt-2">Cyber Security</h3>
@@ -224,7 +224,7 @@
                                 promoting security.</p>
                             <a href="#"><i class="fas fa-arrow-right"></i></a>
                         </div>
-                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-6 col-span-12 img-boxx">
+                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-6 col-span-12 text-black img-boxx">
                             <img src="{{ asset('assets/home-two-img/service_3_8.svg') }}" alt=""
                                 class="img-fluid" width="20%">
                             <h3 class="mt-2">Cyber Security</h3>
@@ -239,7 +239,7 @@
             <section class="section-home2-six">
                 <div class="container">
                     <div class="grid grid-cols-12 gap-6">
-                        <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
+                        <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12 text-black">
                             <span class="ms-2 mt-5">WHY CHOOSE US</span>
                             <h2 class="mt-4 ms-2">The Perfect Solution For Application Security</h2>
                             <p class="mt-3 mb-5 ms-2">As technology continues to evolve, the future of cybersecurity will
