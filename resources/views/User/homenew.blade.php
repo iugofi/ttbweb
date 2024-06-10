@@ -39,7 +39,7 @@
                 <div class="container">
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 col-span-12 text-center">
-                            <h2>Trusted by millions of customers.</h2>
+                            <h2 class="text-black">Trusted by millions of customers.</h2>
 
                             <div class="photobanner__wrap">
                                 <div class="photobanner">
@@ -89,8 +89,8 @@
                                         class="img-fluid" width="90px">
                                 </div>
                                 <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 md:col-span-12 col-span-12">
-                                    <h3 class="mt-1">Block to all hackers </h3>
-                                    <p class="mt-2">Cybersecurity refers to the practice of protecting computer systems,
+                                    <h3 class="mt-1 text-black">Block to all hackers </h3>
+                                    <p class="mt-2 text-black">Cybersecurity refers to the practice of protecting computer systems,
                                         networks,
                                         devices</p>
                                 </div>
@@ -104,8 +104,8 @@
                                         class="img-fluid" width="90px">
                                 </div>
                                 <div class="xxl:col-span-8 xl:col-span-8 lg:col-span-8 md:col-span-12 col-span-12">
-                                    <h3 class="mt-1">Block to all hackers </h3>
-                                    <p class="mt-2">Cybersecurity refers to the practice of protecting computer systems,
+                                    <h3 class="mt-1 text-black">Block to all hackers </h3>
+                                    <p class="mt-2 text-black">Cybersecurity refers to the practice of protecting computer systems,
                                         networks,
                                         devices</p>
                                 </div>
@@ -119,8 +119,8 @@
                                         class="img-fluid" width="90px">
                                 </div>
                                 <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 md:col-span-12 col-span-12">
-                                    <h3 class="mt-1">Block to all hackers </h3>
-                                    <p class="mt-2">Cybersecurity refers to the practice of protecting computer systems,
+                                    <h3 class="mt-1 text-black">Block to all hackers </h3>
+                                    <p class="mt-2 text-black">Cybersecurity refers to the practice of protecting computer systems,
                                         networks,
                                         devices</p>
                                 </div>
