@@ -60,7 +60,7 @@
     </section>
 
 
-    <section class="threat-section-three">
+    <section class="threat-section-three !bg-[#f9fafb] dark:!bg-black/10">
         <div class="container">
             <div class="grid grid-cols-12 gap-6">
                 <div class="col-span-12 text-center">
