@@ -35,7 +35,7 @@
             </section>
 
 
-            <section class="section-home2-two">
+            <section class=" !bg-[##F3F2EA] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 section-home2-two">
                 <div class="container">
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 col-span-12 text-center">
@@ -78,7 +78,7 @@
                     </div>
             </section>
 
-            <section class="section-home2-three">
+            <section class="!bg-[##F3F2EA] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 section-home2-three">
                 <div class="container">
                     <div class="grid grid-cols-12 gap-6 bg-white-one">
                         <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-12 col-span-12">
@@ -130,7 +130,7 @@
                 </div>
             </section>
 
-            <section class="section-home2-four">
+            <section class="!bg-[##F3F2EA] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 section-home2-four">
                 <div class="container">
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
@@ -159,7 +159,7 @@
             </section>
 
 
-            <section class="section-home2-five">
+            <section class="!bg-[##F3F2EA] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 section-home2-five">
                 <div class="container imgcon-box">
                     <div class="grid grid-cols-12 ">
                         <div class="col-span-12 text-center pb-5 text-black">
@@ -236,7 +236,7 @@
                 </div>
             </section>
 
-            <section class="section-home2-six">
+            <section class="!bg-[##F3F2EA] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 section-home2-six">
                 <div class="container">
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12 text-black">
@@ -281,7 +281,7 @@
                 </div>
             </section>
 
-            <section class="home2-seven-pricing">
+            <section class="!bg-[##F3F2EA] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 home2-seven-pricing">
                 <div class="container pricing-bxx">
                     <div class="grid grid-cols-12 gap-6 justify-center mb-[3rem]">
                         <div class="xxl:col-span-2 col-span-12"></div>
@@ -1163,7 +1163,7 @@
                 </div>
             </section>
 
-            <section class="section-home2-nine">
+            <section class="!bg-[##F3F2EA] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 section-home2-nine">
                 <div class="container">
                     <div class="grid grid-cols-12 gap-6 cnt-box"
                         style="background-image:url(/assets/home-two-img/contact-bg.jpg);">
@@ -1188,7 +1188,7 @@
                 </div>
             </section>
 
-            <section class="section-home2-ten">
+            <section class="!bg-[##F3F2EA] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 section-home2-ten">
                 <div class="container">
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
