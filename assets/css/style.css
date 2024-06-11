@@ -49204,6 +49204,9 @@ img.img-fluid.service-icon {
     right: -13px;
     bottom: -19px;
 }
+.dark .section-home2-five a {
+    background-color: #212325;
+}
 
 .section-home2-five h3 {
     font-size: 16px;
