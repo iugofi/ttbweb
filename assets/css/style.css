@@ -44331,6 +44331,9 @@ h6.uppercase {
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
+    section.vpnsection {
+        padding-top: 1rem !important;
+    }
     .box-icon-cont {
         height: 14em;
     }
