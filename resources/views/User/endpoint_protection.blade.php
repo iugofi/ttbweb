@@ -266,7 +266,7 @@
                                 <img src="assets/img/Best-Services-Iocn-1.png" class="img-fluid !inline-flex backimg">
                             </div>
                             <div class="text-[1rem] col-span-2 ">
-                                <p class="text-white px-6">Lorem ipsum dolor sit amet, eiusmod
+                                <p class="text-[#8c9097] dark:text-white/50 px-6">Lorem ipsum dolor sit amet, eiusmod
                                     tempor. Lorem ipsum <br>dolor sit amet, eiusmod tempor.</p>
                             </div>
                             <div class="action-btns mt-2 ms-6">
