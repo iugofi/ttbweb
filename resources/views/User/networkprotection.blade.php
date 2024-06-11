@@ -45,7 +45,7 @@
         <!-- Start:: network protection section two -->
         <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
             style="height: auto;" id="features">
-            <div class="container network-container" style="height: 12rem;">
+            <div class="container network-container" style="height: 8rem;">
                 <div class="grid grid-cols-12 gap-6">
 
 
