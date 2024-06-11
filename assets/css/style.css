@@ -49057,6 +49057,8 @@ img.img-fluid.service-icon {
 .dark .home2-seven-pricing .price-box {
     background-color: #212325;
 }
+
+
 @media (max-width: 425px) {
     .home2-seven-pricing .price-box {
         margin: 10px 0px;
