@@ -44334,6 +44334,12 @@ h6.uppercase {
     section.vpnsection {
         padding-top: 1rem !important;
     }
+    .rounded-custom {
+        display: none;
+    }
+    .position-absolute.rounded-custom.d-flex {
+        display: none !important;
+    }
     .box-icon-cont {
         height: 14em;
     }
