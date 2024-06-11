@@ -49166,6 +49166,9 @@ img.img-fluid.service-icon {
     background-color: #12d2b3;
     color: #fff;
 }
+.dark .img-boxx:hover a {
+    background-color: #12d2b3;
+}
 
 .img-boxx:hover i {
     color: #fff;
