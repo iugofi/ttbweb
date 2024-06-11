@@ -49108,6 +49108,9 @@ img.img-fluid.service-icon {
     margin: 10px;
     border-radius: 10px;
 }
+.dark .section-home2-six .icon-txt {
+    background-color: #212325;
+}
 
 .section-home2-six .icon-txt i {
     color: #12d2b3;
@@ -49122,6 +49125,9 @@ img.img-fluid.service-icon {
 .section-home2-six .icon-txt span {
     color: #444;
     font-size: 15px;
+}
+.dark .section-home2-six .icon-txt span {
+    color: #fff;
 }
 
 @media (max-width: 425px) {
