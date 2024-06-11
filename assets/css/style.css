@@ -49288,6 +49288,9 @@ img.img-fluid.service-icon {
     padding: 46px 10px;
     border-radius: 22px;
 }
+.dark .section-home2-three .bg-white-one {
+    background-color: #212325;
+}
 
 .icon-box:hover .img-box img {
     transform: scale(-1) rotate(180deg);
