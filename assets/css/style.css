@@ -45983,7 +45983,7 @@ caption {
 }
 .dark [data-hs-tab].active.hs-tab-active\:bg-white {
     background-color: rgb(18 210 179) !important;
-    color: #fff;
+    color: #fff !important;
 }
 
 [data-hs-tab].active.hs-tab-active\:font-semibold {
