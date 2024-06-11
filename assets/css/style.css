@@ -44337,6 +44337,7 @@ h6.uppercase {
     .rounded-custom {
         display: none;
     }
+
     .position-absolute.rounded-custom.d-flex {
         display: none !important;
     }
@@ -44558,6 +44559,10 @@ h6.uppercase {
     .box-tab button {
         padding: 6px 4px;
     }
+    .flex-box .flex-img {
+        margin: auto;
+    }
+    
 }
 
 /* start vpn-shild banner css */
