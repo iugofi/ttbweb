@@ -327,7 +327,7 @@
                                                     </div>
                                                     <div
                                                         class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2 pe-3">
-                                                        <h5 class="dark-text pt-4">32+ Year Of</h5>
+                                                        <h5 class="dark-text pt-4">33+ Year Of</h5>
                                                     </div>
                                                     <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
                                                         <img src="https://nighthawk-routerlogin.com/assets/img/The-Largest-Business-Expert-Company-icon-2.png"
@@ -354,7 +354,7 @@
                                                     </div>
                                                     <div
                                                         class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2 pe-3">
-                                                        <h5 class="dark-text pt-4">32+ Year Of</h5>
+                                                        <h5 class="dark-text pt-4">34+ Year Of</h5>
                                                     </div>
                                                     <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
                                                         <img src="https://nighthawk-routerlogin.com/assets/img/The-Largest-Business-Expert-Company-icon-2.png"
