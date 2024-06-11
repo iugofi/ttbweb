@@ -49173,11 +49173,14 @@ img.img-fluid.service-icon {
 
 .section-home2-five .img-boxx {
     padding: 23px 14px;
-    background-color: #212325;
+    background-color: #F3F2EA;
     border-radius: 14px;
     position: relative;
 }
 
+.dark .section-home2-five .img-boxx {
+    background-color: #212325;
+}
 @media (max-width: 425px) {
     .section-home2-five .img-boxx {
         right: 14px;
