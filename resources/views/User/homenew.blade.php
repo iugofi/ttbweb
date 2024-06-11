@@ -314,8 +314,7 @@
                                             <div class="tab-pane show active !p-0 border-b-0 dark:border-defaultborder/10 full-box-brd"
                                                 id="pricing-monthly-pane" role="tabpanel">
                                                 <div class="grid grid-cols-12">
-                                                    <div
-                                                        class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12 col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 pe-0 price-box">
+                                                    <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12 col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 pe-0 price-box">
                                                         <div class="p-6 text-[#000] dark:text-white/50">
                                                             <h6 class="font-semibold text-center text-[1rem]">BASIC</h6>
                                                             <div class="py-4 flex items-center justify-center">
@@ -355,32 +354,32 @@
                                                             </div>
                                                             <ul
                                                                 class="list-none text-center text-[0.75rem] px-4 pt-4 mb-0">
-                                                                <li class="text-[#000] dark:text-white/50 mb-4">
-                                                                    <span class="text-[#8c9097] text-black">Storage
+                                                                <li class="mb-4">
+                                                                    <span class="text-[#000] dark:text-white/50">Storage
                                                                         Capacity<span
                                                                             class="badge bg-light text-defaulttextcolor ms-1">1Tb</span></span>
                                                                 </li>
-                                                                <li class="text-[#000] dark:text-white/50 mb-4">
-                                                                    <span class="text-[#8c9097] text-black">Daily
+                                                                <li class="mb-4">
+                                                                    <span class="text-[#000] dark:text-white/50">Daily
                                                                         Updates<span
                                                                             class="badge bg-light text-defaulttextcolor ms-1">Unlimited</span></span>
                                                                 </li>
-                                                                <li class="text-[#000] dark:text-white/50 mb-4">
-                                                                    <span class="text-[#8c9097] text-black">Online
+                                                                <li class="mb-4">
+                                                                    <span class="text-[#000] dark:text-white/50">Online
                                                                         Support</span>
                                                                 </li>
-                                                                <li class="text-[#000] dark:text-white/50 mb-4">
+                                                                <li class="mb-4">
                                                                     <span
-                                                                        class="text-[#8c9097] text-black">Visitors
+                                                                        class="text-[#000] dark:text-white/50">Visitors
                                                                         Monitoring<span
                                                                             class="badge bg-light text-defaulttextcolor ms-1">24/7</span></span>
                                                                 </li>
-                                                                <li class="text-[#000] dark:text-white/50 mb-4">
-                                                                    <span class="text-[#8c9097] text-black">2 Free
+                                                                <li class="mb-4">
+                                                                    <span class="text-[#000] dark:text-white/50">2 Free
                                                                         Domains</span>
                                                                 </li>
-                                                                <li class="text-[#000] dark:text-white/50 mb-4">
-                                                                    <span class="text-[#8c9097] text-black">Money
+                                                                <li class="mb-4">
+                                                                    <span class="text-[#000] dark:text-white/50">Money
                                                                         Back
                                                                         Guarentee</span>
                                                                 </li>
@@ -391,8 +390,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div
-                                                        class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12 col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 px-0 price-box">
+                                                    <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12 col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 px-0 price-box">
                                                         <div class="p-6 text-[#000] dark:text-white/50">
                                                             <h6 class="font-semibold text-center text-[1rem]">ADVANCED</h6>
                                                             <div class="py-4 flex items-center justify-center">
@@ -464,9 +462,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div
-                                                        class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12 col-span-12 ps-0 price-box
-                                                    ">
+                                                    <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12 col-span-12 ps-0 price-box">
                                                         <div class="p-6 pricing-offer overflow-hidden text-[#000] dark:text-white/50">
                                                             <span class="pricing-offer-details shadow">
                                                                 <span class="font-semibold">POPULAR</span>
@@ -508,31 +504,31 @@
                                                             <ul
                                                                 class="list-none text-center text-[0.75rem] px-4 pt-4 mb-0">
                                                                 <li class="text-[#000] dark:text-white/50 mb-4">
-                                                                    <span class="text-[#8c9097] text-black">Storage
+                                                                    <span class="text-[#000] dark:text-white/50">Storage
                                                                         Capacity<span
                                                                             class="badge bg-light text-defaulttextcolor ms-1">10Tb</span></span>
                                                                 </li>
                                                                 <li class="text-[#000] dark:text-white/50 mb-4">
-                                                                    <span class="text-[#8c9097] text-black">Daily
+                                                                    <span class="text-[#000] dark:text-white/50">Daily
                                                                         Updates<span
                                                                             class="badge bg-light text-defaulttextcolor ms-1">Unlimited</span></span>
                                                                 </li>
                                                                 <li class="text-[#000] dark:text-white/50 mb-4">
-                                                                    <span class="text-[#8c9097] text-black">Online
+                                                                    <span class="text-[#000] dark:text-white/50">Online
                                                                         Support</span>
                                                                 </li>
                                                                 <li class="text-[#000] dark:text-white/50 mb-4">
                                                                     <span
-                                                                        class="text-[#8c9097] text-black">Visitors
+                                                                        class="text-[#000] dark:text-white/50">Visitors
                                                                         Monitoring<span
                                                                             class="badge bg-light text-defaulttextcolor ms-1">24/7</span></span>
                                                                 </li>
                                                                 <li class="text-[#000] dark:text-white/50 mb-4">
-                                                                    <span class="text-[#8c9097] text-black">30 Free
+                                                                    <span class="text-[#000] dark:text-white/50">30 Free
                                                                         Domains</span>
                                                                 </li>
                                                                 <li class="text-[#000] dark:text-white/50 mb-4">
-                                                                    <span class="text-[#8c9097] text-black">Money
+                                                                    <span class="text-[#000] dark:text-white/50">Money
                                                                         Back
                                                                         Guarentee</span>
                                                                 </li>
@@ -549,8 +545,7 @@
                                             <div class="tab-pane !p-0 border-b-0 dark:border-defaultborder/10 full-box-brd hidden"
                                                 id="pricing-yearly-pane" role="tabpanel">
                                                 <div class="grid grid-cols-12">
-                                                    <div
-                                                        class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12  col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 pe-0 price-box">
+                                                    <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12  col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 pe-0 price-box">
                                                         <div class="p-6 text-[#000] dark:text-white/50">
                                                             <h6 class="font-semibold text-center text-[1rem]">BASIC</h6>
                                                             <div class="py-4 flex items-center justify-center">
@@ -627,8 +622,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div
-                                                        class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12 col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 px-0 price-box">
+                                                    <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12 col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 px-0 price-box">
                                                         <div class="p-6 text-[#000] dark:text-white/50">
                                                             <h6 class="font-semibold text-center text-[1rem]">ADVANCED</h6>
                                                             <div class="py-4 flex items-center justify-center">
@@ -701,8 +695,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div
-                                                        class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12 col-span-12 ps-0 price-box">
+                                                    <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12 col-span-12 ps-0 price-box">
                                                         <div class="p-6 pricing-offer overflow-hidden text-[#000] dark:text-white/50">
                                                             <span class="pricing-offer-details shadow">
                                                                 <span class="font-semibold">POPULAR</span>
