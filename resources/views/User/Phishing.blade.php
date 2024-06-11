@@ -257,7 +257,7 @@
                         <h4 class="lg:text-start font-semibold mb-2 pt-5 text-[2rem]">We` Prominent Truly Trusted<br>
                             IT Business Solutiond</h4>
                         <p class=" text-[0.9rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
-                            value with diverse web-readiness. Collaboratively transition wireless customer service without
+                            value with diverse web-readiness. Collaboratively transition wireless<br> customer service without
                             goal-oriented catalysts for change. Collaboratively.
                         </p>
                         <div class="grid grid-cols-12 gap-x-6 section-tab">
@@ -312,7 +312,7 @@
                                                 </div>
                                                 <p class="text-gray-500 dark:text-[#8c9097] dark:text-white/50 py-5 px-5">
                                                     How hotel deals can help you live a better life. How celebrity cruises
-                                                    aren't as bad as you think. How cultural solutions can help you predict
+                                                    aren't as bad as you think. How cultural<br> solutions can help you predict
                                                     the future.<br><br> How to cheat at dog friendly hotels and get away
                                                     with it. 17
                                                     problems with summer activities.
