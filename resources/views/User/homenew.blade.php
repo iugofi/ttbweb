@@ -239,7 +239,7 @@
             <section class="!bg-[##F3F2EA] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 section-home2-six">
                 <div class="container">
                     <div class="grid grid-cols-12 gap-6">
-                        <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12 text-black">
+                        <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12 text-[#000] dark:text-white/50">
                             <span class="ms-2 mt-5">WHY CHOOSE US</span>
                             <h2 class="mt-4 ms-2">The Perfect Solution For Application Security</h2>
                             <p class="mt-3 mb-5 ms-2">As technology continues to evolve, the future of cybersecurity will
