@@ -348,7 +348,7 @@
                                                                 <div class="text-end ms-5">
                                                                     <p class="text-[1.5625rem] font-semibold mb-0">$199</p>
                                                                     <p
-                                                                        class="text-[#000] dark:text-white/50 text-[#000] dark:text-white/50  opacity-50 text-[.6875rem] font-semibold mb-0">
+                                                                        class="text-[#000] dark:text-white/50 opacity-100 text-[.6875rem] font-semibold mb-0">
                                                                         per month</p>
                                                                 </div>
                                                             </div>
@@ -420,7 +420,7 @@
                                                                 <div class="text-end ms-5">
                                                                     <p class="text-[1.5625rem] font-semibold mb-0">$499</p>
                                                                     <p
-                                                                        class="text-[#000] dark:text-white/50 opacity-50 text-[.6875rem] font-semibold mb-0">
+                                                                        class="text-[#000] dark:text-white/50 opacity-100 text-[.6875rem] font-semibold mb-0">
                                                                         per month</p>
                                                                 </div>
                                                             </div>
@@ -497,7 +497,7 @@
                                                                         class="text-[#000] dark:text-white/50text-[#000] dark:text-white/50  font-semibold mb-0 text-primary">
                                                                         $1,299</p>
                                                                     <p
-                                                                        class="text-[#000] dark:text-white/50 opacity-50 text-[.6875rem] font-semibold mb-0">
+                                                                        class="text-[#000] dark:text-white/50 opacity-100 text-[.6875rem] font-semibold mb-0">
                                                                         per month</p>
                                                                 </div>
                                                             </div>
@@ -580,7 +580,7 @@
                                                                     <p class="text-[#000] dark:text-white/50 font-semibold mb-0">$1,499
                                                                     </p>
                                                                     <p
-                                                                        class="text-[#000] dark:text-white/50 opacity-50 text-[.6875rem] font-semibold mb-0">
+                                                                        class="text-[#000] dark:text-white/50 opacity-100 text-[.6875rem] font-semibold mb-0">
                                                                         per Year</p>
                                                                 </div>
                                                             </div>
@@ -653,7 +653,7 @@
                                                                     <p class="text-[#000] dark:text-white/50 font-semibold mb-0">$5,999
                                                                     </p>
                                                                     <p
-                                                                        class="text-[#000] dark:text-white/50 text-black opacity-50 text-[.6875rem] font-semibold mb-0">
+                                                                        class="text-[#000] dark:text-white/50 text-black opacity-100 text-[.6875rem] font-semibold mb-0">
                                                                         per Year</p>
                                                                 </div>
                                                             </div>
@@ -730,7 +730,7 @@
                                                                         class="text-[#000] dark:text-white/50 font-semibold mb-0 text-primary">
                                                                         $11,499</p>
                                                                     <p
-                                                                        class="text-[#000] dark:text-white/50 opacity-50 text-[.6875rem] font-semibold mb-0">
+                                                                        class="text-[#000] dark:text-white/50 opacity-100 text-[.6875rem] font-semibold mb-0">
                                                                         per Year</p>
                                                                 </div>
                                                             </div>
