@@ -49030,7 +49030,7 @@ img.img-fluid.service-icon {
     background-color: #f3f2ea;
 }
 .dark .section-home2-eight {
-    background-color: #212325;
+    background-color: #212325 !important;
 }
 
 .section-home2-eight p {
