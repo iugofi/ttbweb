@@ -144,7 +144,7 @@
                             </p><br><br>
 
                         </div>
-                        <a href="index.html" class="ti-btn bg-primary text-white" style="width:26%;">
+                        <a href="index.html" class="ti-btn bg-primary text-white" style="width:30%;">
                             Learn More Us
                         </a>
                     </div>
