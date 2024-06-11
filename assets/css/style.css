@@ -45981,6 +45981,10 @@ caption {
     --tw-bg-opacity: 1;
     background-color: rgb(18 210 179);
 }
+.dark [data-hs-tab].active.hs-tab-active\:bg-white {
+    background-color: rgb(18 210 179);
+    color: #fff;
+}
 
 [data-hs-tab].active.hs-tab-active\:font-semibold {
     font-weight: 600;
