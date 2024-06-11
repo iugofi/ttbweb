@@ -139,12 +139,12 @@
                         </div>
                         <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12 ">
                             <span>ABOUT US</span>
-                            <h2 class="mt-4 text-black">Identifying And Responding To Emerging Risks</h2>
-                            <p class="mt-3 mb-5 text-black">Cybersecurity refers to the practice of protecting computer systems,
+                            <h2 class="mt-4 text-[#000] dark:text-white/50">Identifying And Responding To Emerging Risks</h2>
+                            <p class="mt-3 mb-5 text-[#000] dark:text-white/50">Cybersecurity refers to the practice of protecting computer systems,
                                 networks, devices, and
                                 data from unauthorized access, cyberattacks, theft, or damage. It encompasses a range of
                                 technologies, processes. and practices designed to safeguard digital assets and ensure </p>
-                            <ul class="icn-list text-black">
+                            <ul class="icn-list text-[#000] dark:text-white/50">
                                 <li><i class="far fa-edit"></i>High Quality Service</li>
                                 <li><i class="far fa-edit"></i>Website Security Services</li>
                                 <li><i class="far fa-edit"></i>Effective Protection</li>
