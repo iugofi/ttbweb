@@ -45982,7 +45982,7 @@ caption {
     background-color: rgb(18 210 179);
 }
 .dark [data-hs-tab].active.hs-tab-active\:bg-white {
-    background-color: rgb(18 210 179);
+    background-color: rgb(18 210 179) !important;
     color: #fff;
 }
 
