@@ -123,7 +123,7 @@
                             </div>
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2 pe-3">
                                 <h5 class="dark-text">32+ Year Of</h5>
-                                <p class="text-gray-light">Business Experience</p>
+                                <p class="text-[#8c9097] dark:text-white/50">Business Experience</p>
                             </div>
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
                                 <img src="{{ asset('assets/img/The-Largest-Business-Expert-Company-icon-2.png') }}"
@@ -131,7 +131,7 @@
                             </div>
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
                                 <h5 class="dark-text">Company Data</h5>
-                                <p class="text-gray-light">Business Experience</p>
+                                <p class="text-[#8c9097] dark:text-white/50">Business Experience</p>
                             </div>
 
                         </div>
