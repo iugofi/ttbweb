@@ -160,7 +160,7 @@
 
 
             <section class="!bg-[##F3F2EA] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 section-home2-five">
-                <div class="container imgcon-box">
+                <div class="container !bg-[##F3F2EA] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 imgcon-box">
                     <div class="grid grid-cols-12 ">
                         <div class="col-span-12 text-center pb-5 text-black">
                             <span>OUR SERVICES</span>
