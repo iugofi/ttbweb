@@ -45252,6 +45252,7 @@ span.decor.px-2 {
     background: #F5F6FA;
     position: relative;
     margin: auto;
+    border-radius: 4px;
 }
 .flex-box::before {
     content: '';
@@ -45259,6 +45260,7 @@ span.decor.px-2 {
     background-color: #D1D3D8;
     top: 0;
     bottom: 0;
+    border-radius: 4px;
     right: 0;
     z-index: 1;
     height: 100%;
