@@ -49058,7 +49058,6 @@ img.img-fluid.service-icon {
     background-color: #212325;
 }
 
-
 @media (max-width: 425px) {
     .home2-seven-pricing .price-box {
         margin: 10px 0px;
@@ -49190,7 +49189,7 @@ img.img-fluid.service-icon {
 
 .section-home2-five .img-boxx {
     padding: 23px 14px;
-    background-color: #F3F2EA;
+    background-color: #f3f2ea;
     border-radius: 14px;
     position: relative;
 }
@@ -51549,7 +51548,7 @@ section#about-features {
 /* start:: Enhanced Firewall page css */
 
 .enhanced-firewall {
-    background-image: url("/assets/img/TTB-Enhaced-Banner");
+    background-image: url("/assets/img/TTB-Enhaced-Banner.png");
     height: 34rem;
     background-position: center;
     background-repeat: no-repeat;
@@ -51565,7 +51564,6 @@ section#about-features {
 }
 
 /* End:: Enhanced Firewall page css */
-
 
 /* kunal-verma 23-04-2024 */
 
