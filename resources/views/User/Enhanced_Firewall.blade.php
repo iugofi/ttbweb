@@ -59,7 +59,7 @@
                             <div class="row flex gap-8">
                                 <div class="group flex items-center xl:col-grid-6 col-grid-6  px-2 py-5 gap-3 flexs-box">
                                     <div class="ltr:ml-3 rtl:mr-3">
-                                        <p class="text-sm font-medium text-slate-700 group-hover:text-slate-900">FEATURES
+                                        <p class="text-sm font-medium text-slate-700 group-hover:text-slate-900"><b>01</b>
                                         </p>
                                         <h5 class="text-sm font-bold text-black text-xl text-slate-500 group-hover:text-slate-700">
                                             Innovative Solution<br>
@@ -72,7 +72,7 @@
                                 </div>
                                 <div class="group flex items-center xl:col-grid-6 col-grid-6  px-2 py-5 gap-3 flexs-box">
                                     <div class="ltr:ml-3 rtl:mr-3">
-                                        <p class="text-sm font-medium text-slate-700 group-hover:text-slate-900">FEATURES
+                                        <p class="text-sm font-medium text-slate-700 group-hover:text-slate-900"><b>02</b>
                                         </p>
                                         <h5 class="text-sm font-bold text-black text-xl text-slate-500 group-hover:text-slate-700">
                                             Innovative Solution<br>
@@ -85,7 +85,7 @@
                                 </div>
                                 <div class="group flex items-center xl:col-grid-6 col-grid-6  px-2 py-5 gap-3 flexs-box">
                                     <div class="ltr:ml-3 rtl:mr-3">
-                                        <p class="text-sm font-medium text-slate-700 group-hover:text-slate-900">FEATURES
+                                        <p class="text-sm font-medium text-slate-700 group-hover:text-slate-900"><b>03</b>
                                         </p>
                                         <h5 class="text-sm font-bold text-black text-xl text-slate-500 group-hover:text-slate-700">
                                             Innovative Solution<br>
@@ -104,7 +104,7 @@
                             <div class="row flex gap-8">
                                 <div class="group flex items-center xl:col-grid-6 col-grid-6  px-2 py-5 gap-3 flexs-box">
                                     <div class="ltr:ml-3 rtl:mr-3">
-                                        <p class="text-sm font-medium text-slate-700 group-hover:text-slate-900">FEATURES
+                                        <p class="text-sm font-medium text-slate-700 group-hover:text-slate-900"><b>04</b>
                                         </p>
                                         <h5 class="text-sm font-bold text-black text-xl text-slate-500 group-hover:text-slate-700">
                                             Innovative Solution<br>
@@ -117,7 +117,7 @@
                                 </div>
                                 <div class="group flex items-center xl:col-grid-6 col-grid-6  px-2 py-5 gap-3 flexs-box">
                                     <div class="ltr:ml-3 rtl:mr-3">
-                                        <p class="text-sm font-medium text-slate-700 group-hover:text-slate-900">FEATURES
+                                        <p class="text-sm font-medium text-slate-700 group-hover:text-slate-900"><b>05</b>
                                         </p>
                                         <h5 class="text-sm font-bold text-black text-xl text-slate-500 group-hover:text-slate-700">
                                             Innovative Solution<br>
@@ -130,7 +130,7 @@
                                 </div>
                                 <div class="group flex items-center xl:col-grid-6 col-grid-6  px-2 py-5 gap-3 flexs-box">
                                     <div class="ltr:ml-3 rtl:mr-3">
-                                        <p class="text-sm font-medium text-slate-700 group-hover:text-slate-900">FEATURES
+                                        <p class="text-sm font-medium text-slate-700 group-hover:text-slate-900"><b>06</b>
                                         </p>
                                         <h5 class="text-sm font-bold text-black text-xl text-slate-500 group-hover:text-slate-700">
                                             Innovative Solution<br>
