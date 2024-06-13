@@ -51546,6 +51546,19 @@ section#about-features {
 
 /* End:: anti-phishing page css */
 
+/* start:: Enhanced Firewall page css */
+
+.flexs-box {
+    padding: 44px 20px;
+    background: #f5f6fa;
+    position: relative;
+    margin: auto;
+    border-radius: 4px;
+}
+
+/* End:: Enhanced Firewall page css */
+
+
 /* kunal-verma 23-04-2024 */
 
 #totel-internet-security div#vpnshield {
