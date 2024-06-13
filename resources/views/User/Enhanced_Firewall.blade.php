@@ -19,7 +19,7 @@
                 <div class="container main-banner-container">
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 col-span-12">
-                            <div class="lg:py-[3rem] text-vartical" style="position: relative; top: 7rem;">
+                            <div class="lg:py-[3rem] text-vartical" style="position: relative; top: 14rem;">
                                 <h1 class="text-center font-semibold mb-2 text-[2rem]" style="color: #fff;">Limited Time
                                     Offer Flat 50% off - No<br>
                                     Hidden Chnages Hurry Up!!!</h1>
@@ -47,7 +47,7 @@
         <!-- Start:: Enhanced Firewall section two -->
         <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] ">
             <div class="container main-banner-container">
-                <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 pt-5 pb-0 lg:px-2 ms-5 !text-start" style="position: relative;top: 14rem;">
+                <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 pt-5 pb-0 lg:px-2 ms-5 !text-start">
                     <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">Our Service</span>
                     <h4 class="lg:text-start font-semibold mb-2 pt-5 pb-5 text-[2rem]">We Shape The Perfect Solutions</h4>
                 </div>
