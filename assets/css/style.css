@@ -51548,6 +51548,14 @@ section#about-features {
 
 /* start:: Enhanced Firewall page css */
 
+.enhanced-firewall {
+    background-image: url("/assets/img/TTB-Enhaced-Banner");
+    height: 34rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .flexs-box {
     padding: 44px 20px;
     background: #f5f6fa;
