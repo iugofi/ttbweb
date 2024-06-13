@@ -47,7 +47,7 @@
         <!-- Start:: Enhanced Firewall section two -->
         <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] ">
             <div class="container main-banner-container">
-                <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 pt-5 pb-0 lg:px-2 ms-5 !text-start">
+                <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 pt-5 pb-0 lg:px-2 ms-5 !text-start" style="position: relative;top: 14rem;">
                     <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">Our Service</span>
                     <h4 class="lg:text-start font-semibold mb-2 pt-5 pb-5 text-[2rem]">We Shape The Perfect Solutions</h4>
                 </div>
