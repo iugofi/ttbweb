@@ -51589,7 +51589,7 @@ section#about-features {
 .text-content {
     background-color: #12d2b3;
     color: #fff;
-    padding: 50px;
+    padding: 98px 40px
 }
 
 /* image section hover effect */
@@ -51710,6 +51710,16 @@ section#about-features {
 
 /* End:: Enhanced Firewall page css */
 
+
+
+
+
+
+
+
+
+
+
 /* kunal-verma 23-04-2024 */
 
 #totel-internet-security div#vpnshield {
@@ -51729,6 +51739,5 @@ section#about-features {
     content: " *";
     color: red;
 }
-
 
 /* end kunal */
