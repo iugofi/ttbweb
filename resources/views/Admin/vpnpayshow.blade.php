@@ -93,7 +93,7 @@
                                                 <td class="border px-4 py-2">
                                                     @php
                                                         $results = DB::table('storepick')
-                                                            ->where('STORE_ID', $item->key_type)
+                                                            ->where('STORE_ID', 'key_type')
                                                             ->where('PICK_ID', $item->key_type)
                                                             ->first();
                                                     @endphp 
