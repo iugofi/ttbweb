@@ -170,7 +170,7 @@
                         </p>
 
                         <div class="action-btns mt-4">
-                            <a href="#" class="ti-btn bg-primary text-white">Discover More</a>
+                            <a href="#" class="ti-btn bg-primary text-white" style="background: transparent; border: 1px solid #12D2B3; color: #12D2B3; font-weight: 600;">Discover More</a>
                         </div>
                        </div>
                      </div>
