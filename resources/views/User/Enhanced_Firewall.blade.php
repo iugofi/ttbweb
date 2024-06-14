@@ -240,18 +240,10 @@
                                 <div class="col-lg-7 col-md-12 col-sm-8 order-1 wow animate fadeInDown" data-wow-duration="1.5s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.5s;"><div class="l-work-item"><img src="https://www.nighthawk-routerlogin.com/assets/img/About-Us-Img-1.jpg" alt="images"><div class="work-overlay"><div class="work-title hover-btn"><span></span><i class="bi bi-arrow-90deg-right" style="cursor: none;"></i><h3><a href="/project-details" style="cursor: none;">BRANDING</a></h3></div></div></div></div>
                             </div>
                             <div class="xl:col-span-4 md:col-span-6 col-span-12">
-                                <div class="box">
-                                    <div class="lg:text-start !flex items-center lg:justify-start justify-center">
-                                        <img src="{{ asset('assets/img/About-Us-Img-1.jpg') }}" alt="" class="img-fluid">
-                                    </div>
-                                </div>
+                                <div class="col-lg-7 col-md-12 col-sm-8 order-1 wow animate fadeInDown" data-wow-duration="1.5s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.5s;"><div class="l-work-item"><img src="https://www.nighthawk-routerlogin.com/assets/img/About-Us-Img-1.jpg" alt="images"><div class="work-overlay"><div class="work-title hover-btn"><span></span><i class="bi bi-arrow-90deg-right" style="cursor: none;"></i><h3><a href="/project-details" style="cursor: none;">BRANDING</a></h3></div></div></div></div>
                             </div>
                             <div class="xl:col-span-4 md:col-span-6 col-span-12">
-                                <div class="box ">
-                                    <div class="lg:text-start !flex items-center lg:justify-start justify-center">
-                                        <img src="{{ asset('assets/img/About-Us-Img-1.jpg') }}" alt="" class="img-fluid">
-                                    </div>
-                                </div>
+                                <div class="col-lg-7 col-md-12 col-sm-8 order-1 wow animate fadeInDown" data-wow-duration="1.5s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.5s;"><div class="l-work-item"><img src="https://www.nighthawk-routerlogin.com/assets/img/About-Us-Img-1.jpg" alt="images"><div class="work-overlay"><div class="work-title hover-btn"><span></span><i class="bi bi-arrow-90deg-right" style="cursor: none;"></i><h3><a href="/project-details" style="cursor: none;">BRANDING</a></h3></div></div></div></div>
                             </div>
                         </div>
                     </div>
