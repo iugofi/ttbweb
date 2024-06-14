@@ -149,7 +149,7 @@
                                                 @endphp
                                                 <td class="border px-4 py-2">{{ $key + 1 }}</td>
                                                 <td class="border px-4 py-2">  @php
-                                                    $results =Users::where('id', $item->user_id)
+                                                    $results =App\Models\Users::where('id', $item->user_id)
                                                     ->first();
                                                 @endphp 
                                                 {{ $results ? $results->firstname . ' ' . $results->lastname : 'Default Value' }}</td>
