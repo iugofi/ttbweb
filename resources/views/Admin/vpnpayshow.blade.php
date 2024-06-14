@@ -93,6 +93,7 @@
                                                 <td class="border px-4 py-2">{{ $item->pay_id  }}</td>
                                                 <td class="border px-4 py-2">{{ $item->product_key  }}</td>
                                                 <td class="border px-4 py-2">{{ $item->amount_total  }}</td>
+                                                <td class="border px-4 py-2">{{ $item->payment_status  }}</td>
                                                 <td class="border px-4 py-2">{{ $item->customer_name  }}</td>
                                                 <td class="border px-4 py-2">{{ $item->country  }}</td>
                                                 <td class="border px-4 py-2">{{ $item->postal_code  }}</td>
