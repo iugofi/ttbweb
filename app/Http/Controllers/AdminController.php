@@ -1344,6 +1344,22 @@ public function newslistshow(){
                             return redirect('/setup'); 
                         }
                     }
+
+                    public function vpnpayshow()
+                    {
+
+                        if ($this->loggedInAdmin) {
+
+                        $storepick = Storepick::orderBy('id', 'desc')->get();
+                        $data=Storepick::orderBy('STORE_ID','ASC')->pluck('STORE_ID','STORE_ID');            
+                        return view('Admin.storepicklist',['storepick'=>$storepick],['data'=>$data]);
+                        
+                        }else
+                        {
+                            return redirect('/setup'); 
+                        }
+
+                    }
                 
 
 
