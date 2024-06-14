@@ -51565,6 +51565,7 @@ section#about-features {
 .flexs-box:hover {
     background-color: transparent;
     border: 2px solid #11CDBD;
+    padding: 40px 20px;
 }
 .flexs-box:hover p {
     color: #11CDBD;
