@@ -51592,6 +51592,111 @@ section#about-features {
     padding: 50px;
 }
 
+/* image section hover effect */
+.l-work-item {
+    overflow: hidden;
+    position: relative;
+}
+.l-work-item:hover .work-overlay {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+.l-work-item .work-overlay {
+    align-items: center;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    background: hsla(0,0%,100%,.4);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: center;
+    left: 0;
+    max-width: 100%;
+    min-width: 100%;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    -webkit-transform: scale(.5);
+    transform: scale(.5);
+    transition: .45s ease-in;
+}
+.l-work-item .work-overlay .work-title {
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+.work-title.hover-btn {
+    color: #fff;
+    font-family: Saira Condensed, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 16px 20px;
+    position: relative;
+    text-align: center;
+    transition: all .3s ease-in;
+}
+.work-title.hover-btn::before {
+    content: '';
+    left: 0;
+    top: 0;
+    transition: .3s;
+    transition-delay: .9s;
+}
+.hover-btn:after, .hover-btn:before {
+    background: #cf2435;
+    content: "";
+    height: 1px;
+    position: absolute;
+    width: 0;
+}
+.work-overlay span {
+    display: block;
+}
+.work-overlay .hover-btn span:after, .hover-btn span:before {
+    content: '';
+    background: #cf2435;
+    content: "";
+    height: 0%;
+    position: absolute;
+    width: 1px;
+}
+.work-overlay .hover-btn span:after {
+    bottom: 0;
+    left: 0;
+    transition: .3s;
+    transition-delay: 0s;
+}
+.work-overlay .hover-btn span:after, .hover-btn span:before {
+    background: #cf2435;
+    content: "";
+    height: 0%;
+    position: absolute;
+    width: 1px;
+}
+.l-work-item .work-overlay .work-title i {
+    color: #17181a;
+    font-size: 45px;
+    transition: .4s ease;
+}
+.l-work-item .work-overlay .work-title h3 {
+    color: #17181a;
+    font-size: 30px;
+    font-weight: 600;
+    transition: .4s ease;
+}
+.hover-btn:after, .hover-btn:before {
+    background: #cf2435;
+    content: "";
+    height: 1px;
+    position: absolute;
+    width: 0;
+}
+
+
+/*End image section hover effect */
+
 
 /* End:: Enhanced Firewall page css */
 
