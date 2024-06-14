@@ -213,7 +213,7 @@
             <div class="container endpoint-container">
                 <div class="grid grid-cols-12 gap-6">
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
-                        <div class="border-content">
+                        <div class="text-content">
                             <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">Who Does Endpoint <br>
                                 Security Matter...</h4>
                             <p class=" text-[1rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
