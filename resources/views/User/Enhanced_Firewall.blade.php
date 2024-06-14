@@ -56,7 +56,7 @@
 
                     <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 pt-5 pb-0 lg:px-2 !text-start  my-auto">
                         <div class="grid grid-col-12 gap-x-6">
-                            <div class="row flex gap-8">
+                            <div class="row flex gap-4">
                                 <div class="group flex items-center xl:col-grid-6 col-grid-6  px-2 py-5 gap-3 flexs-box">
                                     <div class="ltr:ml-3 rtl:mr-3">
                                         <p class="text-4xl font-medium text-slate-700 group-hover:text-slate-900"><b>01</b>
@@ -98,7 +98,7 @@
 
                         </div>
                         <div class="grid grid-col-12 gap-x-6 mt-5">
-                            <div class="row flex gap-8">
+                            <div class="row flex gap-4 mt-5">
                                 <div class="group flex items-center xl:col-grid-6 col-grid-6  px-2 py-5 gap-3 flexs-box">
                                     <div class="ltr:ml-3 rtl:mr-3">
                                         <p class="text-4xl font-medium text-slate-700 group-hover:text-slate-900"><b>04</b>
