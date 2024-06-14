@@ -1352,7 +1352,7 @@ public function newslistshow(){
                         $vpnpaydata=Payments::join('product_details', 'product_details.id', '=', 'payments.product_id')
                         ->where('product_details.key_type', 501)
                         ->get();           
-                        return view('Admin.storepicklist',['vpnpaydata'=>$vpnpaydata]);
+                        return view('Admin.vpnpayshow',['vpnpaydata'=>$vpnpaydata]);
                         
                         }else
                         {
