@@ -231,7 +231,7 @@
                                 <div class="box">
 
                                     <div class="lg:text-start !flex items-center lg:justify-start justify-center">
-                                        <img src="https://www.nighthawk-routerlogin.com/assets/img/About-Us-Img-1.jpg" alt="" class="img-fluid">
+                                        <img src="{{ asset('assets/img/About-Us-Img-1.jpg') }}" alt="" class="img-fluid">
                                     </div>
                                 </div>
                             </div>
@@ -245,21 +245,21 @@
                                 <div class="box">
 
                                     <div class="lg:text-start !flex items-center lg:justify-start justify-center">
-                                        <img src="https://www.nighthawk-routerlogin.com/assets/img/About-Us-Img-1.jpg" alt="" class="img-fluid">
+                                        <img src="{{ asset('assets/img/About-Us-Img-1.jpg') }}" alt="" class="img-fluid">
                                     </div>
                                 </div>
                             </div>
                             <div class="xl:col-span-4 md:col-span-6 col-span-12">
                                 <div class="box">
                                     <div class="lg:text-start !flex items-center lg:justify-start justify-center">
-                                        <img src="https://www.nighthawk-routerlogin.com/assets/img/About-Us-Img-1.jpg" alt="" class="img-fluid">
+                                        <img src="{{ asset('assets/img/About-Us-Img-1.jpg') }}" alt="" class="img-fluid">
                                     </div>
                                 </div>
                             </div>
                             <div class="xl:col-span-4 md:col-span-6 col-span-12">
                                 <div class="box ">
                                     <div class="lg:text-start !flex items-center lg:justify-start justify-center">
-                                        <img src="https://www.nighthawk-routerlogin.com/assets/img/About-Us-Img-1.jpg" alt="" class="img-fluid">
+                                        <img src="{{ asset('assets/img/About-Us-Img-1.jpg') }}" alt="" class="img-fluid">
                                     </div>
                                 </div>
                             </div>
