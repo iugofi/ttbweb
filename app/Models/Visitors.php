@@ -4,6 +4,8 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\SoftDeletes;
+
 
 class Visitors extends Model
 {
@@ -14,5 +16,5 @@ class Visitors extends Model
         'browser'
 
     ];
-    use HasFactory;
+    use HasFactory,SoftDeletes;
 }
