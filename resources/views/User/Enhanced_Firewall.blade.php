@@ -170,11 +170,12 @@
 
 
                         <div class="action-btns mt-4">
-                            <a href="#" class="ti-btn bg-primary text-white" style="background: transparent; border: 1px solid #12D2B3; color: #12D2B3; font-weight: 600;">Discover More</a>
+                            <a href="#" class="ti-btn bg-primary text-white" style="background: transparent; border: 1px solid #12D2B3; color: #12D2B3; font-weight: 600;">Read More</a>
                         </div>
                        </div>
                      </div>
                 </div>
+                
                 <div class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 mt-5 pt-5 justify-center align-center justify-center align-center">
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 pt-0 pb-0 lg:px-0 me-5 text-shadow" style="">
                         <div class="border-content">
@@ -191,7 +192,7 @@
    
    
                            <div class="action-btns mt-4">
-                               <a href="#" class="ti-btn bg-primary text-white" style="background: transparent; border: 1px solid #12D2B3; color: #12D2B3; font-weight: 600;">Discover More</a>
+                               <a href="#" class="ti-btn bg-primary text-white" style="background: transparent; border: 1px solid #12D2B3; color: #12D2B3; font-weight: 600;">Read More</a>
                            </div>
                           </div>
                         </div>
