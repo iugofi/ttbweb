@@ -51693,7 +51693,9 @@ section#about-features {
     position: absolute;
     width: 0;
 }
-
+.l-work-item .work-overlay .work-title:hover h3, .l-work-item .work-overlay .work-title:hover i {
+    color: #12D2B3;
+}
 
 /*End image section hover effect */
 
