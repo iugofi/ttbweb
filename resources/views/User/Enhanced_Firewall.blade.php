@@ -164,9 +164,10 @@
                             value with diverse web-readiness. Collaboratively transition wireless customer service without
                             goal-oriented catalysts for change.
                         </p>
-                        <p class=" text-[1rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
-                            value with diverse web-readiness.Collaboratively transition wireless customer service.
-                        </p>
+                        <p class=" text-[1rem] text-[#8c9097] dark:text-white/50 mb-4 "><i class="fa-solid fa-arrow-right-long"></i>Objectively deliver professional value</p>
+                        <p class=" text-[1rem] text-[#8c9097] dark:text-white/50 mb-4 "><i class="fa-solid fa-arrow-right-long"></i>deliver professional</p>
+                        <p class=" text-[1rem] text-[#8c9097] dark:text-white/50 mb-4 "><i class="fa-solid fa-arrow-right-long"></i>Objectively deliver professional</p>
+
 
                         <div class="action-btns mt-4">
                             <a href="#" class="ti-btn bg-primary text-white" style="background: transparent; border: 1px solid #12D2B3; color: #12D2B3; font-weight: 600;">Discover More</a>
