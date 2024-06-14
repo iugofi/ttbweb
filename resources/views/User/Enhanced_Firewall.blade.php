@@ -266,10 +266,8 @@
                         <div class="lg:text-start !flex items-center lg:justify-start justify-center">
                             <img src="{{ asset('assets/img/Last-Img.png') }}" alt="" class="img-fluid">
                         </div>
-                    </div>
+                    </div> 
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 pt-5 pb-0 lg:px-2 !text-start  my-auto">
-                        <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">A Smarter Way to Safeguard <br>
-                            Busniess Networks</h4>
                         <p class=" text-[0.9rem] text-[#8c9097] dark:text-white/50 mb-4 ">Lorem ipsum dolor sit amet, eiusmod
                             tempor. Lorem ipsum dolor sit amet, eiusmod tempor. Objectively deliver professional
                             value with diverse web-readiness. Collaboratively transition wireless customer service without
