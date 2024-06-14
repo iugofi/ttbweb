@@ -155,7 +155,7 @@
                             <img src="https://www.nighthawk-routerlogin.com/assets/img/scnd-section-img.jpg" alt="" class="img-fluid">
                         </div>
                     </div>
-                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 pt-5 pb-0 lg:px-2 ms-5 text-shadow" style="">
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 pt-0 pb-0 lg:px-0 ms-5 text-shadow" style="">
                      <div class="border-content">
                         <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">WHP WE ARE</span>
                         <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">WhO Does Endpoint <br>
