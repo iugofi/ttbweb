@@ -1351,7 +1351,7 @@ public function newslistshow(){
                         if ($this->loggedInAdmin) {
                         $vpnpaydata=Payments::join('product_details', 'product_details.id', '=', 'payments.product_id')
                         ->where('product_details.key_type', 501)
-                        ->select('payments.*')
+                        ->select('payments.*','product_details.key_type','product_details.plan_id')
                         ->get();           
                         return view('Admin.vpnpayshow',['vpnpaydata'=>$vpnpaydata]);
                         

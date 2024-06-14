@@ -4,6 +4,8 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\SoftDeletes;
+
 
 class TTBKEY extends Model
 {
@@ -16,5 +18,5 @@ class TTBKEY extends Model
         'is_key_used',
         'key_status', 
     ];
-    use HasFactory;
+    use HasFactory,SoftDeletes;
 }

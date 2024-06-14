@@ -4,6 +4,8 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\SoftDeletes;
+
 
 class Planname extends Model
 {
@@ -13,5 +15,5 @@ class Planname extends Model
         'name',
     ];
 
-    use HasFactory;
+    use HasFactory,SoftDeletes;
 }
