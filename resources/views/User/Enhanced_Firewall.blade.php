@@ -175,6 +175,32 @@
                        </div>
                      </div>
                 </div>
+                <div class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 pt-0 pb-0 lg:px-0 ms-5 text-shadow" style="">
+                        <div class="border-content">
+                           <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">Who We Are</span>
+                           <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">Who Does Endpoint <br>
+                               Security <span style="color:#12D2B3;">Matter?</span></h4>
+                           <p class=" text-[1rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
+                               value with diverse web-readiness. Collaboratively transition wireless customer service without
+                               goal-oriented catalysts for change.
+                           </p>
+                           <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i class="fa-solid fa-arrow-right-long"style="width: 6%; color: #000000bd;"></i>Objectively deliver professional value</p>
+                           <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i class="fa-solid fa-arrow-right-long"style="width: 6%; color: #000000bd;"></i>deliver professional</p>
+                           <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i class="fa-solid fa-arrow-right-long"style="width: 6%; color: #000000bd;"></i>Objectively deliver professional</p>
+   
+   
+                           <div class="action-btns mt-4">
+                               <a href="#" class="ti-btn bg-primary text-white" style="background: transparent; border: 1px solid #12D2B3; color: #12D2B3; font-weight: 600;">Discover More</a>
+                           </div>
+                          </div>
+                        </div>
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 me-5 text-center">
+                        <div class="lg:text-start !flex items-center lg:justify-start justify-center">
+                            <img src="{{ asset('assets/img/About-Us-Img-2.jpg') }}" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
