@@ -51579,7 +51579,9 @@ section#about-features {
 .border-content {
     margin: 30px;
     padding: 20px;
-    border: 1px solid;
+    border: dashed;
+    border-color: #12D2B3;
+    border-width: 2px;
 }
 
 /* End:: Enhanced Firewall page css */
