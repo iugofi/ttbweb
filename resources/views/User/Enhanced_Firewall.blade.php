@@ -62,8 +62,7 @@
                                         <p class="text-4xl font-medium text-slate-700 group-hover:text-slate-900"><b>01</b>
                                         </p>
                                         <h5 class="text-sm font-bold text-black text-xl text-slate-500 group-hover:text-slate-700">
-                                            Innovative Solution<br>
-                                            For Business</h5>
+                                            Branding Company <br>Solution</h5>
                                     </div>
                                     <div class="flex-img">
                                         <img src="{{ asset('assets/img/Tech-Oriented-Services.png') }}" alt="widget"
@@ -75,8 +74,7 @@
                                         <p class="text-4xl font-medium text-slate-700 group-hover:text-slate-900"><b>02</b>
                                         </p>
                                         <h5 class="text-sm font-bold text-black text-xl text-slate-500 group-hover:text-slate-700">
-                                            Innovative Solution<br>
-                                            For Business</h5>
+                                            Branding Company <br>Solution</h5>
                                     </div>
                                     <div class="flex-img">
                                         <img src="{{ asset('assets/img/Innovative-Solution-For-Business.png') }}"
@@ -88,8 +86,7 @@
                                         <p class="text-4xl font-medium text-slate-700 group-hover:text-slate-900"><b>03</b>
                                         </p>
                                         <h5 class="text-sm font-bold text-black text-xl text-slate-500 group-hover:text-slate-700">
-                                            Innovative Solution<br>
-                                            For Business</h5>
+                                            Branding Company <br>Solution</h5>
                                     </div>
                                     <div class="flex-img">
                                         <img src="{{ asset('assets/img/Top-Class-Support-For-Customers.png') }}"
@@ -107,8 +104,7 @@
                                         <p class="text-4xl font-medium text-slate-700 group-hover:text-slate-900"><b>04</b>
                                         </p>
                                         <h5 class="text-sm font-bold text-black text-xl text-slate-500 group-hover:text-slate-700">
-                                            Innovative Solution<br>
-                                            For Business</h5>
+                                            Branding Company <br>Solution</h5>
                                     </div>
                                     <div class="flex-img">
                                         <img src="{{ asset('assets/img/Tech-Oriented-Services.png') }}" alt="widget"
@@ -120,8 +116,7 @@
                                         <p class="text-4xl font-medium text-slate-700 group-hover:text-slate-900"><b>05</b>
                                         </p>
                                         <h5 class="text-sm font-bold text-black text-xl text-slate-500 group-hover:text-slate-700">
-                                            Innovative Solution<br>
-                                            For Business</h5>
+                                            Branding Company <br>Solution</h5>
                                     </div>
                                     <div class="flex-img">
                                         <img src="{{ asset('assets/img/Innovative-Solution-For-Business.png') }}"
@@ -133,8 +128,7 @@
                                         <p class="text-4xl font-medium text-slate-700 group-hover:text-slate-900"><b>06</b>
                                         </p>
                                         <h5 class="text-sm font-bold text-black text-xl text-slate-500 group-hover:text-slate-700">
-                                            Innovative Solution<br>
-                                            For Business</h5>
+                                            Branding Company <br>Solution</h5>
                                     </div>
                                     <div class="flex-img">
                                         <img src="{{ asset('assets/img/Top-Class-Support-For-Customers.png') }}"
