@@ -51580,8 +51580,11 @@ section#about-features {
     margin: 34px 40px;
     padding: 30px 20px;
     border: dashed;
-    border-color: #12D2B3;
+    border-color: #0000004f;
     border-width: 2px;
+}
+.border-content:hover {
+    border-color: #12D2B3;
 }
 
 /* End:: Enhanced Firewall page css */
