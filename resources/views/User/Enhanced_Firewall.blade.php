@@ -175,8 +175,8 @@
                        </div>
                      </div>
                 </div>
-                <div class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
-                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 pt-0 pb-0 lg:px-0 ms-5 text-shadow" style="">
+                <div class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 mt-5 pt-5 justify-center align-center justify-center align-center">
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 pt-0 pb-0 lg:px-0 me-5 text-shadow" style="">
                         <div class="border-content">
                            <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">Who We Are</span>
                            <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">Who Does Endpoint <br>
@@ -195,7 +195,7 @@
                            </div>
                           </div>
                         </div>
-                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 me-5 text-center">
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 ms-5 text-center">
                         <div class="lg:text-start !flex items-center lg:justify-start justify-center">
                             <img src="{{ asset('assets/img/About-Us-Img-2.jpg') }}" alt="" class="img-fluid">
                         </div>
