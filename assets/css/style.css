@@ -51589,13 +51589,16 @@ section#about-features {
 .text-content {
     background-color: #12d2b3;
     color: #fff;
-    padding: 98px 40px
+    padding: 98px 40px;
 }
 
 /* image section hover effect */
 .l-work-item {
     overflow: hidden;
     position: relative;
+}
+.l-work-item img {
+    width: 100%;
 }
 .l-work-item:hover .work-overlay {
     opacity: 1;
@@ -51709,16 +51712,6 @@ section#about-features {
 /*End image section hover effect */
 
 /* End:: Enhanced Firewall page css */
-
-
-
-
-
-
-
-
-
-
 
 /* kunal-verma 23-04-2024 */
 
