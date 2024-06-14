@@ -84,11 +84,21 @@
                                                     class="ti ti-arrow-narrow-right ms-2 font-semibold inline-block"></i></a>
                                         </div>
                                         <div class="text-end">
-                                            <p
-                                                class="mb-0 text-success text-[0.813rem] font-semibold">
-                                                +@php
-                                                   $totalNews[0]->total/100; 
-                                                @endphp%</p>
+                                            <p class="mb-0 text-success text-[0.813rem] font-semibold">
+                                                +<?php
+                                                $totalNews = DB::select("SELECT SUM(payments.amount_total) as total FROM payments JOIN product_details ON product_details.id = payments.product_id WHERE product_details.key_type=501 AND payments.deleted_at IS NULL");
+                                            
+                                          
+                                                if ($totalNews && isset($totalNews[0]->total)) {
+                                          
+                                                    $totalAmount = $totalNews[0]->total;
+                                                  
+                                                    echo number_format($totalAmount, 2); 
+                                                } else {
+                                                    echo "0.00";
+                                                }
+                                                ?>%
+                                            </p>
                                             <p
                                                 class="text-[#8c9097] dark:text-white/50 opacity-[0.7] text-[0.6875rem]">
                                                 this month</p>
