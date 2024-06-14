@@ -51569,6 +51569,9 @@ section#about-features {
 .flexs-box:hover p {
     color: #11CDBD;
 }
+.flexs-box .flex-img img {
+    width: 65px;
+}
 
 /* End:: Enhanced Firewall page css */
 
