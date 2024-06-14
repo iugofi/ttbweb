@@ -51562,6 +51562,13 @@ section#about-features {
     margin: auto;
     border-radius: 4px;
 }
+.flexs-box:hover {
+    background-color: transparent;
+    border: 2px solid #11CDBD;
+}
+.flexs-box:hover p {
+    color: #11CDBD;
+}
 
 /* End:: Enhanced Firewall page css */
 
