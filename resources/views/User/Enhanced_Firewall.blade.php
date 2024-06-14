@@ -272,6 +272,9 @@
                             tempor. Lorem ipsum dolor sit amet, eiusmod tempor. Objectively deliver professional
                             value with diverse web-readiness. Collaboratively transition wireless customer service without
                             goal-oriented catalysts for change. Collaboratively Collaboratively transition wireless customer service without
+                            goal-oriented catalysts for change.Lorem ipsum dolor sit amet, eiusmod tempor. Lorem ipsum dolor sit amet, eiusmod tempor. Objectively deliver professional
+                            value with diverse web-readiness. Collaboratively transition wireless customer service without
+                            goal-oriented catalysts for change. Collaboratively Collaboratively transition wireless customer service without
                             goal-oriented catalysts for change.
                         </p>
                         <p class=" text-[0.9rem] text-[#8c9097] dark:text-white/50 mb-4 ">Lorem ipsum dolor sit amet, eiusmod
@@ -282,9 +285,9 @@
                             tempor. Lorem ipsum dolor sit amet, eiusmod tempor.
                         </p>
                         
-                        <div class="action-btns mt-4">
+                        {{-- <div class="action-btns mt-4">
                             <a href="#" class="ti-btn bg-primary text-white">Schevule a Demo Now</a>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>
