@@ -152,7 +152,7 @@
                 <div class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 me-5 text-center">
                         <div class="lg:text-start !flex items-center lg:justify-start justify-center">
-                            <img src="https://www.nighthawk-routerlogin.com/assets/img/scnd-section-img.jpg" alt="" class="img-fluid">
+                            <img src="{{ asset('assets/img/About-Us-Img-1.jpg') }}" alt="" class="img-fluid">
                         </div>
                     </div>
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 pt-0 pb-0 lg:px-0 ms-5 text-shadow" style="">
@@ -162,8 +162,7 @@
                             Security <span style="color:#12D2B3;">Matter?</span></h4>
                         <p class=" text-[1rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
                             value with diverse web-readiness. Collaboratively transition wireless customer service without
-                            goal-oriented catalysts for change. bjectively deliver professional value with diverse
-                            web-readiness.
+                            goal-oriented catalysts for change.
                         </p>
                         <p class=" text-[1rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
                             value with diverse web-readiness.Collaboratively transition wireless customer service.
