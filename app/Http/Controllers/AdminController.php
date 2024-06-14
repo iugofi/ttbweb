@@ -13,6 +13,7 @@ use App\Models\Storepick;
 use App\Models\TTBKEY; 
 use App\Models\Users; 
 use App\Models\Planname; 
+use App\Models\Payments; 
 use App\Models\Plandetails; 
 
 use Illuminate\Support\Facades\File;
@@ -1347,12 +1348,11 @@ public function newslistshow(){
 
                     public function vpnpayshow()
                     {
-
                         if ($this->loggedInAdmin) {
-
-                        $storepick = Storepick::orderBy('id', 'desc')->get();
-                        $data=Storepick::orderBy('STORE_ID','ASC')->pluck('STORE_ID','STORE_ID');            
-                        return view('Admin.storepicklist',['storepick'=>$storepick],['data'=>$data]);
+                        $vpnpaydata=Payments::join('product_details', 'product_details.id', '=', 'payments.product_id')
+                        ->where('product_details.key_type', 501)
+                        ->get();           
+                        return view('Admin.vpnpayshow',['vpnpaydata'=>$vpnpaydata]);
                         
                         }else
                         {
