@@ -89,7 +89,7 @@
                                                 @endphp
                                                 <td class="border px-4 py-2">{{ $key + 1 }}</td>
                                                 <td class="border px-4 py-2">{{ $item->user_id }}</td>
-                                                <td class="border px-4 py-2">{{ $item->product_id }}</td>
+                                                <td class="border px-4 py-2">{{ $item->key_type }}</td>
                                                 <td class="border px-4 py-2">{{ $item->pay_id  }}</td>
                                                 <td class="border px-4 py-2">{{ $item->product_key  }}</td>
                                                 <td class="border px-4 py-2">{{ $item->amount_total  }}</td>
