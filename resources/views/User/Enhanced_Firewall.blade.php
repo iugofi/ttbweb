@@ -216,7 +216,7 @@
                         <div class="text-content">
                             <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">Who Does Endpoint <br>
                                 Security Matter...</h4>
-                            <p class=" text-[1rem] text-[#fff] dark:text-white/50 mb-4 ">Objectively deliver professional
+                            <p class=" text-[1rem] text-white dark:text-white/50 mb-4 ">Objectively deliver professional
                                 value with diverse web-readiness. Collaboratively transition wireless customer service without
                                 goal-oriented catalysts for change.
                             </p>
