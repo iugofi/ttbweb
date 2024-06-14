@@ -51577,8 +51577,8 @@ section#about-features {
     box-shadow: 0px 2px 16px 0px #00000042;
 }
 .border-content {
-    margin: 30px;
-    padding: 20px;
+    margin: 34px 30px;
+    padding: 30px 20px;
     border: dashed;
     border-color: #12D2B3;
     border-width: 2px;
