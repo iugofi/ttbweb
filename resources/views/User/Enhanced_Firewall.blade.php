@@ -157,8 +157,8 @@
                     </div>
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 pt-0 pb-0 lg:px-0 ms-5 text-shadow" style="">
                      <div class="border-content">
-                        <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">WHP WE ARE</span>
-                        <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">WhO Does Endpoint <br>
+                        <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">Who We Are</span>
+                        <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">Who Does Endpoint <br>
                             Security <span style="color:#12D2B3;">Matter?</span></h4>
                         <p class=" text-[1rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
                             value with diverse web-readiness. Collaboratively transition wireless customer service without
