@@ -79,9 +79,9 @@
                                     </div>
                                     <div class="flex items-center justify-between !mt-1">
                                         <div>
-                                            <a class="text-primary text-[0.813rem]"
+                                            {{-- <a class="text-primary text-[0.813rem]"
                                                 href="javascript:void(0);">View All<i
-                                                    class="ti ti-arrow-narrow-right ms-2 font-semibold inline-block"></i></a>
+                                                    class="ti ti-arrow-narrow-right ms-2 font-semibold inline-block"></i></a> --}}
                                         </div>
                                         <div class="text-end">
                                             <p class="mb-0 text-success text-[0.813rem] font-semibold">
