@@ -51591,7 +51591,9 @@ section#about-features {
     color: #fff;
     padding: 98px 40px;
 }
-
+.enhanced-container img.img-fluid {
+    width: -webkit-fill-available;
+}
 /* image section hover effect */
 .l-work-item {
     overflow: hidden;
