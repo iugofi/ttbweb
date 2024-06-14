@@ -213,18 +213,17 @@
             <div class="container endpoint-container">
                 <div class="grid grid-cols-12 gap-6">
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
-                        <div class="txt">
-                            <h2 class="landing-banner-heading font-semibold mb-2 text-[2rem]">How Can TTB
-                                <span style="color:#12D2B3;">Help?
-                            </span></h2>
-                            <div class="text-[1rem] mb-[0rem] !text-dark opacity-[0.9] ">Collaboratively actualize
-                                excellent schemas without effective models. Synergistically engineer functionalized
-                                applications rather than backend e-commerce<br><br>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas laborum labore fugiat
-                                voluptate obcaecati tempore? nisi adipisci.
+                        <div class="border-content">
+                            <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">Who Does Endpoint <br>
+                                Security Matter...</h4>
+                            <p class=" text-[1rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
+                                value with diverse web-readiness. Collaboratively transition wireless customer service without
+                                goal-oriented catalysts for change.
+                            </p>
+                            <div class="action-btns mt-4">
+                                <a href="#" class="ti-btn bg-primary text-white" style="background: transparent; border: 1px solid #12D2B3; color: #12D2B3; font-weight: 600;">Read More</a>
                             </div>
-
-                        </div>
+                           </div>
                     </div>
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
                         <div class="grid grid-cols-12 gap-6">
