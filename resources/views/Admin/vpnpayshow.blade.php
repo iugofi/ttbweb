@@ -70,7 +70,7 @@
                                             <p class="text-[#8c9097] dark:text-white/50 text-[0.813rem] mb-0">
                                                 Total Amount Vpn</p>
                                             <h4 class="font-semibold  text-[1.5rem] !mb-2 "><?php
-                                                $totalNews = DB::select("SELECT SUM(payments.amount_total) as total FROM payments JOIN product_details ON product_details.id = payments.product_id WHERE product_details.key_type=501");
+                                                $totalNews = DB::select("SELECT SUM(payments.amount_total) as total FROM payments JOIN product_details ON product_details.id = payments.product_id WHERE product_details.key_type=501 AND payments.deleted_at IS NULL");
                                                 echo $totalNews[0]->total; 
                                             ?>
                                             </h4>
