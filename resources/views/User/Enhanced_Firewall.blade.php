@@ -231,14 +231,8 @@
                             <div class="xl:col-span-12 md:col-span-12 col-span-12">
                                 <div class="box">
 
-                                    <div class="box-body text-[0.9rem] text-center endpoint-box-bm">
-                                        <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
-                                            
-                                            <i class="fa-solid fa-mobile-screen-button text-4xl icon-hover"></i>
-                                        </span>
-                                        <h6 class="box-title font-semibold">Apps Development</h6>
-                                        <p class="card-text mb-4">With supporting text below as a natural lead-in to
-                                            additional content.</p>
+                                    <div class="lg:text-start !flex items-center lg:justify-start justify-center">
+                                        <img src="https://www.nighthawk-routerlogin.com/assets/img/About-Us-Img-1.jpg" alt="" class="img-fluid">
                                     </div>
                                 </div>
                             </div>
@@ -251,40 +245,22 @@
                             <div class="xl:col-span-4 md:col-span-6 col-span-12">
                                 <div class="box">
 
-                                    <div class="box-body text-[0.9rem] text-center endpoint-box-bm">
-                                        <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
-                                            
-                                            <i class="fa-regular fa-bookmark text-4xl icon-hover"></i>
-                                        </span>
-                                        <h6 class="box-title font-semibold">Market Research</h6>
-                                        <p class="card-text mb-4">With supporting text below as a natural lead-in to
-                                            additional content.</p>
+                                    <div class="lg:text-start !flex items-center lg:justify-start justify-center">
+                                        <img src="https://www.nighthawk-routerlogin.com/assets/img/About-Us-Img-1.jpg" alt="" class="img-fluid">
                                     </div>
                                 </div>
                             </div>
                             <div class="xl:col-span-4 md:col-span-6 col-span-12">
                                 <div class="box">
-                                    <div class="box-body text-[0.9rem] text-center endpoint-box-bm">
-                                        <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
-                                            
-                                            <i class="fa-solid fa-shield-halved text-4xl icon-hover"></i>
-                                        </span>
-                                        <h6 class="box-title font-semibold">Market Cyber Security</h6>
-                                        <p class="card-text mb-4">With supporting text below as a natural lead-in to
-                                            additional content.</p>
+                                    <div class="lg:text-start !flex items-center lg:justify-start justify-center">
+                                        <img src="https://www.nighthawk-routerlogin.com/assets/img/About-Us-Img-1.jpg" alt="" class="img-fluid">
                                     </div>
                                 </div>
                             </div>
                             <div class="xl:col-span-4 md:col-span-6 col-span-12">
                                 <div class="box ">
-                                    <div class="box-body text-[0.9rem] text-center endpoint-box-bm">
-                                        <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
-                                            
-                                            <i class="fa-solid fa-mobile-screen-button text-4xl icon-hover"></i>
-                                        </span>
-                                        <h6 class="box-title font-semibold">Market Cyber Security</h6>
-                                        <p class="card-text mb-4">With supporting text below as a natural lead-in to
-                                            additional content.</p>
+                                    <div class="lg:text-start !flex items-center lg:justify-start justify-center">
+                                        <img src="https://www.nighthawk-routerlogin.com/assets/img/About-Us-Img-1.jpg" alt="" class="img-fluid">
                                     </div>
                                 </div>
                             </div>
