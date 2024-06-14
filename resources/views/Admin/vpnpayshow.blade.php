@@ -152,7 +152,7 @@
                                                     $results =Users::where('id', $item->user_id)
                                                     ->first();
                                                 @endphp 
-                                                {{ $results->firstname $results->lastname ?? 'Default Value' }}</td>
+                                                {{ $results ? $results->firstname . ' ' . $results->lastname : 'Default Value' }}</td>
                                                 <td class="border px-4 py-2">
                                                     @php
                                                         $results = DB::table('storepick')
