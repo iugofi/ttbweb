@@ -86,7 +86,9 @@
                                         <div class="text-end">
                                             <p
                                                 class="mb-0 text-success text-[0.813rem] font-semibold">
-                                                +40%</p>
+                                                +@php
+                                                   $totalNews[0]->total/100; 
+                                                @endphp%</p>
                                             <p
                                                 class="text-[#8c9097] dark:text-white/50 opacity-[0.7] text-[0.6875rem]">
                                                 this month</p>
