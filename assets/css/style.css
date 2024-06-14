@@ -51627,6 +51627,10 @@ section#about-features {
     border: 1px solid transparent;
     cursor: pointer;
 }
+.l-work-item .work-overlay .work-title {
+    border: 1px solid #12D2B3;
+    cursor: pointer;
+}
 .work-title.hover-btn {
     color: #fff;
     font-family: Saira Condensed, sans-serif;
