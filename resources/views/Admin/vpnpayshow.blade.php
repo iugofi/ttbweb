@@ -53,6 +53,55 @@
 
             <!-- Start:: row-4 -->
             <div class="grid grid-cols-12 gap-6">
+            <div class="xl:col-span-12 col-span-12">
+                <div class="xxl:col-span-6 xl:col-span-6 col-span-12">
+                    <div class="box overflow-hidden">
+                        <div class="box-body">
+                            <div class="flex items-top justify-between">
+                                <div>
+                                    <span
+                                        class="!text-[0.8rem]  !w-[2.5rem] !h-[2.5rem] !leading-[2.5rem] !rounded-full inline-flex items-center justify-center bg-primary">
+                                        <i class="ti ti-users text-[1rem] text-white"></i>
+                                    </span>
+                                </div>
+                                <div class="flex-grow ms-4">
+                                    <div class="flex items-center justify-between flex-wrap">
+                                        <div>
+                                            <p class="text-[#8c9097] dark:text-white/50 text-[0.813rem] mb-0">
+                                                Total Amount Vpn</p>
+                                            <h4 class="font-semibold  text-[1.5rem] !mb-2 "><?php
+                                                $totalNews = DB::select("SELECT SUM(payments.amount_total) as total FROM payments JOIN product_details ON product_details.id = payments.product_id WHERE product_details.key_type=501 AND payments.deleted_at IS NULL");
+                                                echo $totalNews[0]->total; 
+                                            ?>
+                                            </h4>
+                                        </div>
+                                        <div id="crm-total-customers"></div>
+                                    </div>
+                                    <div class="flex items-center justify-between !mt-1">
+                                        <div>
+                                            <a class="text-primary text-[0.813rem]"
+                                                href="javascript:void(0);">View All<i
+                                                    class="ti ti-arrow-narrow-right ms-2 font-semibold inline-block"></i></a>
+                                        </div>
+                                        <div class="text-end">
+                                            <p
+                                                class="mb-0 text-success text-[0.813rem] font-semibold">
+                                                +@php
+                                                   $totalNews[0]->total/100; 
+                                                @endphp%</p>
+                                            <p
+                                                class="text-[#8c9097] dark:text-white/50 opacity-[0.7] text-[0.6875rem]">
+                                                this month</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
                 <div class="xl:col-span-12 col-span-12">
                     <div class="box custom-box">
                         <div class="box-header">
