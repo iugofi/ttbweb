@@ -148,7 +148,11 @@
                                                     $id = 1;
                                                 @endphp
                                                 <td class="border px-4 py-2">{{ $key + 1 }}</td>
-                                                <td class="border px-4 py-2">{{ $item->user_id }}</td>
+                                                <td class="border px-4 py-2">  @php
+                                                    $results =Users::where('id', $item->user_id)
+                                                    ->first();
+                                                @endphp 
+                                                {{ $results->firstname $results->lastname ?? 'Default Value' }}</td>
                                                 <td class="border px-4 py-2">
                                                     @php
                                                         $results = DB::table('storepick')
