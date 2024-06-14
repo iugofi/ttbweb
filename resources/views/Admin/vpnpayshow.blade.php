@@ -118,7 +118,7 @@
                                                         </a>
                                                         <button aria-label="button" type="button"
                                                             class="ti-btn !py-1 !px-2 !text-[0.75rem] ti-btn-danger-full btn-wave delete-vpnpay"
-                                                            data-item-id="{{ $item['payments']['id'] }}">
+                                                            data-item-id="{{ $item->id }}">
                                                             <i
                                                                 class="ri-delete-bin-line align-middle me-2 inline-block"></i>Delete
                                                         </button>
