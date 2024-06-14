@@ -13,6 +13,7 @@ use App\Models\Storepick;
 use App\Models\TTBKEY; 
 use App\Models\Users; 
 use App\Models\Planname; 
+use App\Models\Payments; 
 use App\Models\Plandetails; 
 
 use Illuminate\Support\Facades\File;
