@@ -245,6 +245,8 @@ Route::delete('/plandetailsdelete/{id}', [AdminController::class, 'plandetailsde
 
 //vpn shield Payment 
 Route::get('/vpnpayshow', [AdminController::class, 'vpnpayshow'])->name('pay.vpnpayshow');
+Route::delete('/vpnpaydelete/{id}', [AdminController::class, 'vpnpaydelete'])->name('delete.vpnpaydelete');
+
 
 
 

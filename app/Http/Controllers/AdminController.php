@@ -1360,6 +1360,17 @@ public function newslistshow(){
                         }
 
                     }
+
+                    public function vpnpaydelete($id)
+                    {
+                        if ($this->loggedInAdmin) {
+                            $item = Payments::findOrFail($id);
+                            $item->delete();
+                            return response()->json(['message' => 'Vpn Payment deleted successfully']);
+                        } else {
+                            return redirect('/setup'); 
+                        }
+                    }
                 
 
 
