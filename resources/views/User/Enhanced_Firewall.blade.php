@@ -209,7 +209,7 @@
 
         <!-- Start:: Enhanced Firewall section four -->
 
-        <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70" id="features">
+        <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] " id="features">
             <div class="container endpoint-container">
                 <div class="grid grid-cols-12 gap-6">
                     <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-6 col-span-12">
