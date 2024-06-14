@@ -51586,6 +51586,12 @@ section#about-features {
 .border-content:hover {
     border-color: #12D2B3;
 }
+.text-content {
+    background-color: #12D2B3;
+    color: #fff;
+    padding: 50px;
+}
+
 
 /* End:: Enhanced Firewall page css */
 
