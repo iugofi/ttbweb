@@ -65,7 +65,7 @@
                                             Branding Company <br>Solution</h5>
                                     </div>
                                     <div class="flex-img">
-                                        <img src="{{ asset('assets/img/Tech-Oriented-Services.png') }}" alt="widget"
+                                        <img src="{{ asset('assets/img/Digital-Marketing.png') }}" alt="widget"
                                             class="rounded-custom img-fluid">
                                     </div>
                                 </div>
@@ -77,7 +77,7 @@
                                             Branding Company <br>Solution</h5>
                                     </div>
                                     <div class="flex-img">
-                                        <img src="{{ asset('assets/img/Innovative-Solution-For-Business.png') }}"
+                                        <img src="{{ asset('assets/img/Branding-Company-Solution.png') }}"
                                             alt="widget" class="rounded-custom img-fluid">
                                     </div>
                                 </div>
@@ -89,7 +89,7 @@
                                             Branding Company <br>Solution</h5>
                                     </div>
                                     <div class="flex-img">
-                                        <img src="{{ asset('assets/img/Top-Class-Support-For-Customers.png') }}"
+                                        <img src="{{ asset('assets/img/Website-Development.png') }}"
                                             alt="widget" class="rounded-custom img-fluid">
                                     </div>
                                 </div>
@@ -107,7 +107,7 @@
                                             Branding Company <br>Solution</h5>
                                     </div>
                                     <div class="flex-img">
-                                        <img src="{{ asset('assets/img/Tech-Oriented-Services.png') }}" alt="widget"
+                                        <img src="{{ asset('assets/img/Web-Development.png') }}" alt="widget"
                                             class="rounded-custom img-fluid">
                                     </div>
                                 </div>
@@ -119,7 +119,7 @@
                                             Branding Company <br>Solution</h5>
                                     </div>
                                     <div class="flex-img">
-                                        <img src="{{ asset('assets/img/Innovative-Solution-For-Business.png') }}"
+                                        <img src="{{ asset('assets/img/Professional-cyber-Security.png') }}"
                                             alt="widget" class="rounded-custom img-fluid">
                                     </div>
                                 </div>
@@ -131,7 +131,7 @@
                                             Branding Company <br>Solution</h5>
                                     </div>
                                     <div class="flex-img">
-                                        <img src="{{ asset('assets/img/Top-Class-Support-For-Customers.png') }}"
+                                        <img src="{{ asset('assets/img/Professional-3d-Animation.png') }}"
                                             alt="widget" class="rounded-custom img-fluid">
                                     </div>
                                 </div>
