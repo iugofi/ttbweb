@@ -221,7 +221,7 @@
                                 goal-oriented catalysts for change.
                             </p>
                             <div class="action-btns mt-4">
-                                <a href="#" class="ti-btn bg-primary text-white">Read More</a>
+                                <a href="#" class="ti-btn bg-primary text-white" style="border: 2px solid #fff; padding: 8px 27px; font-weight: 600; border-radius: 0;">Read More</a>
                             </div>
                            </div>
                     </div>
