@@ -243,6 +243,11 @@ Route::post('/editplansearch', [AdminController::class, 'editplansearch'])->name
 Route::delete('/plandetailsdelete/{id}', [AdminController::class, 'plandetailsdelete'])->name('delete.plandetailsdelete');
 
 
+//vpn shield Payment 
+Route::get('/vpnpayshow', [AdminController::class, 'vpnpayshow'])->name('pay.vpnpayshow');
+
+
+
 
 //
 Route::get('/customersshow', [AdminController::class, 'customershow'])->name('customer.show');
