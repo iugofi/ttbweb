@@ -70,7 +70,8 @@
                                         <tr>
                                             <th class="px-4 py-2">Id</th>
                                             <th class="px-4 py-2">user_id</th>
-                                            <th class="px-4 py-2">product_id</th>
+                                            <th class="px-4 py-2">key_type</th>
+                                            <th class="px-4 py-2">plan_id</th>
                                             <th class="px-4 py-2">pay_id</th>
                                             <th class="px-4 py-2">product_key</th>
                                             <th class="px-4 py-2">amount_total</th>
@@ -90,6 +91,7 @@
                                                 <td class="border px-4 py-2">{{ $key + 1 }}</td>
                                                 <td class="border px-4 py-2">{{ $item->user_id }}</td>
                                                 <td class="border px-4 py-2">{{ $item->key_type }}</td>
+                                                <td class="border px-4 py-2">{{ $item->plan_id }}</td>
                                                 <td class="border px-4 py-2">{{ $item->pay_id  }}</td>
                                                 <td class="border px-4 py-2">{{ $item->product_key  }}</td>
                                                 <td class="border px-4 py-2">{{ $item->amount_total  }}</td>
