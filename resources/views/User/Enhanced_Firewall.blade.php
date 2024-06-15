@@ -147,7 +147,7 @@
         <!-- End:: Enhanced Firewall section two -->
 
         <!-- Start:: Enhanced Firewall section three -->
-        <div class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70" style="padding:70px 0px;">
+        <div class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70" style="padding:50px 0px;">
             <div class="container enhanced-container"> 
                 <div class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 me-5 text-center img-me">
