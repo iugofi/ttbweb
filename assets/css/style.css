@@ -50802,7 +50802,7 @@ h6.uppercase {
         margin: 0px;
     }
     .text-content {
-        padding: 32px;
+        padding: 32px !important    ;
     }
 }
 
