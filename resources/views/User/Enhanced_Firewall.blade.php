@@ -10,7 +10,7 @@
 
 @section('content')
 
-
+  
 <div class="main-content !p-0 landing-main dark:text-defaulttextcolor/70">
 
         <!-- Start::Enhanced Firewall section one -->
