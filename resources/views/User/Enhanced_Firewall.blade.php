@@ -96,7 +96,7 @@
                             </div>
 
                         </div>
-                        <div class="grid grid-col-12 gap-x-6 mt-5">
+                        <div class="grid grid-col-12 gap-x-6 mt-5 colum-three">
                             <div class="row flex gap-4 mt-5">
                                 <div class="group flex items-center xl:col-grid-6 col-grid-6  px-2 py-5 gap-5 flexs-box">
                                     <div class="ltr:ml-3 rtl:mr-3">
