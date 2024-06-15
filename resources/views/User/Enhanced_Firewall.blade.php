@@ -150,7 +150,7 @@
         <div class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70" style="padding:70px 0px;">
             <div class="container enhanced-container"> 
                 <div class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
-                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 me-5 text-center">
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 me-5 text-center img-me">
                         <div class="lg:text-start !flex items-center lg:justify-start justify-center">
                             <img src="{{ asset('assets/img/About-Us-Img-1.jpg') }}" alt="" class="img-fluid">
                         </div>
@@ -196,7 +196,7 @@
                            </div>
                           </div>
                         </div>
-                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 ms-5 text-center">
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 ms-5 text-center img-me">
                         <div class="lg:text-start !flex items-center lg:justify-start justify-center">
                             <img src="{{ asset('assets/img/About-Us-Img-2.jpg') }}" alt="" class="img-fluid">
                         </div>

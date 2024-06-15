@@ -50792,6 +50792,12 @@ h6.uppercase {
     .flex-box .flex-img {
         margin: auto;
     }
+    .text-shadow {
+        margin: 24px 0;
+    }
+    .text-shado {
+        margin-top: -40px;
+    }
 }
 
 /* start vpn-shild banner css */
