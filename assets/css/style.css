@@ -51579,10 +51579,11 @@ section#about-features {
 }
 .border-content {
     margin: 34px 40px;
-    padding: 30px 20px;
+    padding: 60px 20px;
     border: dashed;
     border-color: #0000004f;
     border-width: 2px;
+    height: 86%;
 }
 .border-content:hover {
     border-color: #12d2b3;
