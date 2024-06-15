@@ -43,7 +43,6 @@
         </div>
         <!-- End::Enhanced Firewall section one -->
 
-
         <!-- Start:: Enhanced Firewall section two -->
         <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] ">
             <div class="container main-banner-container">
