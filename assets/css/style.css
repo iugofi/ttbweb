@@ -50812,7 +50812,7 @@ h6.uppercase {
 }
 .enhanced-firewall {
     padding-top: 5rem;
-    height: 32rem;
+    height: 32rem !important;
 }
 }
 
