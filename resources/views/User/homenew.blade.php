@@ -10,7 +10,7 @@
 @section('content')
 
 
-    <div class="content" style="background-color:#F3F2EA;">
+    <div class="content" style="background-color:#f3f2ea;">
         <div class="main-content">
 
             <section class="banner-home-one">
@@ -19,7 +19,8 @@
                         <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
                             <h2>Protect Your <br> Data With Powerful</h2>
                             <h3>Cyber Security</h3>
-                            <p class="mt-4 text-black">Cyber attacks can cause on average $1.5 billion to a company, with our advanced
+                            <p class="mt-4 text-black">Cyber attacks can cause on average $1.5 billion to a company, with our
+                                advanced
                                 AI system we can block the attack before it happens.</p>
                             <div class="bttn-box">
                                 <a href="#" class="btn-home-now">Get Started Now </a>
@@ -27,15 +28,16 @@
                             </div>
                         </div>
                         <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
-                            {{-- <img src="{{ asset('assets/home-two-img/banner-one-home2.png') }}" alt=""
-                            class="img-fluid" width="20%"> --}}
+                            <img src="{{ asset('assets/home-two-img/banner-one-home2.png') }}" alt=""
+                            class="img-fluid" width="100%">
                         </div>
                     </div>
                 </div>
             </section>
 
 
-            <section class=" !bg-[##F3F2EA] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 section-home2-two">
+            <section
+                class=" !bg-[##F3F2EA] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 section-home2-two">
                 <div class="container">
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 col-span-12 text-center">
@@ -71,14 +73,14 @@
                                         class="img-fluid" width="20%">
                                 </div>
                                 <div>
-
                                 </div>
                             </div>
                         </div>
                     </div>
             </section>
 
-            <section class="!bg-[##F3F2EA] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 section-home2-three">
+            <section
+                class="!bg-[##F3F2EA] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 section-home2-three">
                 <div class="container">
                     <div class="grid grid-cols-12 gap-6 bg-white-one">
                         <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-12 col-span-12">
@@ -90,7 +92,8 @@
                                 </div>
                                 <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 md:col-span-12 col-span-12">
                                     <h3 class="mt-1 text-[#000] dark:text-white/50">Block to all hackers </h3>
-                                    <p class="mt-2 text-[#000] dark:text-whitext-[#000] dark:text-white/50te/50">Cybersecurity refers to the practice of protecting computer systems,
+                                    <p class="mt-2 text-[#000] dark:text-whitext-[#000] dark:text-white/50te/50">
+                                        Cybersecurity refers to the practice of protecting computer systems,
                                         networks,
                                         devices</p>
                                 </div>
@@ -105,7 +108,8 @@
                                 </div>
                                 <div class="xxl:col-span-8 xl:col-span-8 lg:col-span-8 md:col-span-12 col-span-12">
                                     <h3 class="mt-1 text-[#000] dark:text-white/50">Block to all hackers </h3>
-                                    <p class="mt-2 text-[#000] dark:text-white/50">Cybersecurity refers to the practice of protecting computer systems,
+                                    <p class="mt-2 text-[#000] dark:text-white/50">Cybersecurity refers to the practice of
+                                        protecting computer systems,
                                         networks,
                                         devices</p>
                                 </div>
@@ -120,7 +124,8 @@
                                 </div>
                                 <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 md:col-span-12 col-span-12">
                                     <h3 class="mt-1 text-[#000] dark:text-white/50">Block to all hackers </h3>
-                                    <p class="mt-2 text-[#000] dark:text-white/50">Cybersecurity refers to the practice of protecting computer systems,
+                                    <p class="mt-2 text-[#000] dark:text-white/50">Cybersecurity refers to the practice of
+                                        protecting computer systems,
                                         networks,
                                         devices</p>
                                 </div>
@@ -130,17 +135,20 @@
                 </div>
             </section>
 
-            <section class="!bg-[##F3F2EA] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 section-home2-four">
+            <section
+                class="!bg-[##F3F2EA] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 section-home2-four">
                 <div class="container">
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
-                            <img src="{{ asset('assets/home-two-img/About-img-2.png') }}" alt="" class="img-fluid"
-                                width="90%">
+                            <img src="{{ asset('assets/home-two-img/About-img-2.png') }}" alt=""
+                                class="img-fluid" width="90%">
                         </div>
                         <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12 ">
                             <span>ABOUT US</span>
-                            <h2 class="mt-4 text-[#000] dark:text-white/50">Identifying And Responding To Emerging Risks</h2>
-                            <p class="mt-3 mb-5 text-[#000] dark:text-white/50">Cybersecurity refers to the practice of protecting computer systems,
+                            <h2 class="mt-4 text-[#000] dark:text-white/50">Identifying And Responding To Emerging Risks
+                            </h2>
+                            <p class="mt-3 mb-5 text-[#000] dark:text-white/50">Cybersecurity refers to the practice of
+                                protecting computer systems,
                                 networks, devices, and
                                 data from unauthorized access, cyberattacks, theft, or damage. It encompasses a range of
                                 technologies, processes. and practices designed to safeguard digital assets and ensure </p>
@@ -159,76 +167,95 @@
             </section>
 
 
-            <section class="!bg-[##F3F2EA] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 section-home2-five">
-                <div class="container !bg-[##F3F2EA] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 imgcon-box">
+            <section
+                class="!bg-[##F3F2EA] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 section-home2-five">
+                <div
+                    class="container !bg-[##F3F2EA] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 imgcon-box">
                     <div class="grid grid-cols-12 ">
                         <div class="col-span-12 text-center pb-5 text-black">
                             <span>OUR SERVICES</span>
-                            <h2 class="text-[#000] dark:text-white/50 mt-4">We Provide Experts Cyber <br> Security Services.</h2>
+                            <h2 class="text-[#000] dark:text-white/50 mt-4">We Provide Experts Cyber <br> Security
+                                Services.</h2>
                         </div>
                     </div>
                     <div class="grid grid-cols-12 gap-6 mt-5">
-                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-6 col-span-12 text-black img-boxx">
+                        <div
+                            class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-6 col-span-12 text-black img-boxx">
                             <img src="{{ asset('assets/home-two-img/service_3_1.svg') }}" alt=""
                                 class="img-fluid" width="20%">
                             <h3 class="text-[#000] dark:text-white/50 mt-2">Cyber Security</h3>
-                            <p class="text-[#000] dark:text-white/50 mt-2 mb-3">Building a cybersecurity culture within organizations is essential to
+                            <p class="text-[#000] dark:text-white/50 mt-2 mb-3">Building a cybersecurity culture within
+                                organizations is essential to
                                 promoting security.</p>
                             <a href="#"><i class="fas fa-arrow-right"></i></a>
                         </div>
-                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-6 col-span-12 text-black img-boxx">
+                        <div
+                            class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-6 col-span-12 text-black img-boxx">
                             <img src="{{ asset('assets/home-two-img/service_3_2.svg') }}" alt=""
                                 class="img-fluid" width="20%">
                             <h3 class="text-[#000] dark:text-white/50 mt-2">Cyber Security</h3>
-                            <p class="text-[#000] dark:text-white/50 mt-2 mb-3">Building a cybersecurity culture within organizations is essential to
+                            <p class="text-[#000] dark:text-white/50 mt-2 mb-3">Building a cybersecurity culture within
+                                organizations is essential to
                                 promoting security.</p>
                             <a href="#"><i class="fas fa-arrow-right"></i></a>
                         </div>
-                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-6 col-span-12 text-black img-boxx">
+                        <div
+                            class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-6 col-span-12 text-black img-boxx">
                             <img src="{{ asset('assets/home-two-img/service_3_3.svg') }}" alt=""
                                 class="img-fluid" width="20%">
                             <h3 class="text-[#000] dark:text-white/50 mt-2">Cyber Security</h3>
-                            <p class="text-[#000] dark:text-white/50 mt-2 mb-3">Building a cybersecurity culture within organizations is essential to
+                            <p class="text-[#000] dark:text-white/50 mt-2 mb-3">Building a cybersecurity culture within
+                                organizations is essential to
                                 promoting security.</p>
                             <a href="#"><i class="fas fa-arrow-right"></i></a>
                         </div>
-                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-6 col-span-12 text-black img-boxx">
+                        <div
+                            class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-6 col-span-12 text-black img-boxx">
                             <img src="{{ asset('assets/home-two-img/service_3_4.svg') }}" alt=""
                                 class="img-fluid" width="20%">
                             <h3 class="text-[#000] dark:text-white/50 mt-2">Cyber Security</h3>
-                            <p class="text-[#000] dark:text-white/50 mt-2 mb-3">Building a cybersecurity culture within organizations is essential to
+                            <p class="text-[#000] dark:text-white/50 mt-2 mb-3">Building a cybersecurity culture within
+                                organizations is essential to
                                 promoting security.</p>
                             <a href="#"><i class="fas fa-arrow-right"></i></a>
                         </div>
-                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-6 col-span-12 text-black img-boxx">
+                        <div
+                            class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-6 col-span-12 text-black img-boxx">
                             <img src="{{ asset('assets/home-two-img/service_3_5.svg') }}" alt=""
                                 class="img-fluid" width="20%">
                             <h3 class="text-[#000] dark:text-white/50 mt-2">Cyber Security</h3>
-                            <p class="text-[#000] dark:text-white/50 mt-2 mb-3">Building a cybersecurity culture within organizations is essential to
+                            <p class="text-[#000] dark:text-white/50 mt-2 mb-3">Building a cybersecurity culture within
+                                organizations is essential to
                                 promoting security.</p>
                             <a href="#"><i class="fas fa-arrow-right"></i></a>
                         </div>
-                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-6 col-span-12 text-black img-boxx">
+                        <div
+                            class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-6 col-span-12 text-black img-boxx">
                             <img src="{{ asset('assets/home-two-img/service_3_6.svg') }}" alt=""
                                 class="img-fluid" width="20%">
                             <h3 class="text-[#000] dark:text-white/50 mt-2">Cyber Security</h3>
-                            <p class="text-[#000] dark:text-white/50 mt-2 mb-3">Building a cybersecurity culture within organizations is essential to
+                            <p class="text-[#000] dark:text-white/50 mt-2 mb-3">Building a cybersecurity culture within
+                                organizations is essential to
                                 promoting security.</p>
                             <a href="#"><i class="fas fa-arrow-right"></i></a>
                         </div>
-                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-6 col-span-12 text-black img-boxx">
+                        <div
+                            class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-6 col-span-12 text-black img-boxx">
                             <img src="{{ asset('assets/home-two-img/service_3_7.svg') }}" alt=""
                                 class="img-fluid" width="20%">
                             <h3 class="text-[#000] dark:text-white/50 mt-2">Cyber Security</h3>
-                            <p class="text-[#000] dark:text-white/50 mt-2 mb-3">Building a cybersecurity culture within organizations is essential to
+                            <p class="text-[#000] dark:text-white/50 mt-2 mb-3">Building a cybersecurity culture within
+                                organizations is essential to
                                 promoting security.</p>
                             <a href="#"><i class="fas fa-arrow-right"></i></a>
                         </div>
-                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-6 col-span-12 text-black img-boxx">
+                        <div
+                            class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-6 col-span-12 text-black img-boxx">
                             <img src="{{ asset('assets/home-two-img/service_3_8.svg') }}" alt=""
                                 class="img-fluid" width="20%">
                             <h3 class="text-[#000] dark:text-white/50 mt-2">Cyber Security</h3>
-                            <p class="text-[#000] dark:text-white/50 mt-2 mb-3">Building a cybersecurity culture within organizations is essential to
+                            <p class="text-[#000] dark:text-white/50 mt-2 mb-3">Building a cybersecurity culture within
+                                organizations is essential to
                                 promoting security.</p>
                             <a href="#"><i class="fas fa-arrow-right"></i></a>
                         </div>
@@ -236,10 +263,12 @@
                 </div>
             </section>
 
-            <section class="!bg-[##F3F2EA] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 section-home2-six">
+            <section
+                class="!bg-[##F3F2EA] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 section-home2-six">
                 <div class="container">
                     <div class="grid grid-cols-12 gap-6">
-                        <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12 text-[#000] dark:text-white/50">
+                        <div
+                            class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12 text-[#000] dark:text-white/50">
                             <span class="ms-2 mt-5">WHY CHOOSE US</span>
                             <h2 class="mt-4 ms-2">The Perfect Solution For Application Security</h2>
                             <p class="mt-3 mb-5 ms-2">As technology continues to evolve, the future of cybersecurity will
@@ -279,9 +308,10 @@
                         </div>
                     </div>
                 </div>
-            </section>                                                                                      
-                                                                                                                                                                                                                                                                                                
-            <section class="!bg-[##F3F2EA] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 home2-seven-pricing">
+            </section>
+
+            <section
+                class="!bg-[##F3F2EA] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 home2-seven-pricing">
                 <div class="container pricing-bxx">
                     <div class="grid grid-cols-12 gap-6 justify-center mb-[3rem]">
                         <div class="xxl:col-span-2 col-span-12"></div>
@@ -314,7 +344,8 @@
                                             <div class="tab-pane show active !p-0 border-b-0 dark:border-defaultborder/10 full-box-brd"
                                                 id="pricing-monthly-pane" role="tabpanel">
                                                 <div class="grid grid-cols-12">
-                                                    <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12 col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 pe-0 price-box">
+                                                    <div
+                                                        class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12 col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 pe-0 price-box">
                                                         <div class="p-6 text-[#000] dark:text-white/50">
                                                             <h6 class="font-semibold text-center text-[1rem]">BASIC</h6>
                                                             <div class="py-4 flex items-center justify-center">
@@ -369,8 +400,7 @@
                                                                         Support</span>
                                                                 </li>
                                                                 <li class="mb-4">
-                                                                    <span
-                                                                        class="text-[#000] dark:text-white/50">Visitors
+                                                                    <span class="text-[#000] dark:text-white/50">Visitors
                                                                         Monitoring<span
                                                                             class="badge bg-light text-defaulttextcolor ms-1">24/7</span></span>
                                                                 </li>
@@ -390,7 +420,8 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12 col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 px-0 price-box">
+                                                    <div
+                                                        class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12 col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 px-0 price-box">
                                                         <div class="p-6 text-[#000] dark:text-white/50">
                                                             <h6 class="font-semibold text-center text-[1rem]">ADVANCED</h6>
                                                             <div class="py-4 flex items-center justify-center">
@@ -441,8 +472,7 @@
                                                                         Support</span>
                                                                 </li>
                                                                 <li class="mb-4">
-                                                                    <span
-                                                                        class="text-[#000] dark:text-white/50">Visitors
+                                                                    <span class="text-[#000] dark:text-white/50">Visitors
                                                                         Monitoring<span
                                                                             class="badge bg-light text-defaulttextcolor ms-1">24/7</span></span>
                                                                 </li>
@@ -462,8 +492,10 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12 col-span-12 ps-0 price-box">
-                                                        <div class="p-6 pricing-offer overflow-hidden text-[#000] dark:text-white/50">
+                                                    <div
+                                                        class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12 col-span-12 ps-0 price-box">
+                                                        <div
+                                                            class="p-6 pricing-offer overflow-hidden text-[#000] dark:text-white/50">
                                                             <span class="pricing-offer-details shadow">
                                                                 <span class="font-semibold">POPULAR</span>
                                                             </span>
@@ -518,8 +550,7 @@
                                                                         Support</span>
                                                                 </li>
                                                                 <li class="text-[#000] dark:text-white/50 mb-4">
-                                                                    <span
-                                                                        class="text-[#000] dark:text-white/50">Visitors
+                                                                    <span class="text-[#000] dark:text-white/50">Visitors
                                                                         Monitoring<span
                                                                             class="badge bg-light text-defaulttextcolor ms-1">24/7</span></span>
                                                                 </li>
@@ -545,7 +576,8 @@
                                             <div class="tab-pane !p-0 border-b-0 dark:border-defaultborder/10 full-box-brd hidden"
                                                 id="pricing-yearly-pane" role="tabpanel">
                                                 <div class="grid grid-cols-12">
-                                                    <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12  col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 pe-0 price-box">
+                                                    <div
+                                                        class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12  col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 pe-0 price-box">
                                                         <div class="p-6 text-[#000] dark:text-white/50">
                                                             <h6 class="font-semibold text-center text-[1rem]">BASIC</h6>
                                                             <div class="py-4 flex items-center justify-center">
@@ -577,7 +609,9 @@
                                                                     </svg>
                                                                 </div>
                                                                 <div class="text-end ms-5">
-                                                                    <p class="text-[#000] dark:text-white/50 font-semibold mb-0">$1,499
+                                                                    <p
+                                                                        class="text-[#000] dark:text-white/50 font-semibold mb-0">
+                                                                        $1,499
                                                                     </p>
                                                                     <p
                                                                         class="text-[#000] dark:text-white/50 opacity-100 text-[.6875rem] font-semibold mb-0">
@@ -601,8 +635,7 @@
                                                                         Support</span>
                                                                 </li>
                                                                 <li class="mb-4">
-                                                                    <span
-                                                                        class="text-[#000] dark:text-white/50">Visitors
+                                                                    <span class="text-[#000] dark:text-white/50">Visitors
                                                                         Monitoring<span
                                                                             class="badge bg-light text-defaulttextcolor ms-1">24/7</span></span>
                                                                 </li>
@@ -622,7 +655,8 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12 col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 px-0 price-box">
+                                                    <div
+                                                        class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12 col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 px-0 price-box">
                                                         <div class="p-6 text-[#000] dark:text-white/50">
                                                             <h6 class="font-semibold text-center text-[1rem]">ADVANCED</h6>
                                                             <div class="py-4 flex items-center justify-center">
@@ -650,7 +684,9 @@
                                                                     </svg>
                                                                 </div>
                                                                 <div class="text-end ms-5">
-                                                                    <p class="text-[#000] dark:text-white/50 font-semibold mb-0">$5,999
+                                                                    <p
+                                                                        class="text-[#000] dark:text-white/50 font-semibold mb-0">
+                                                                        $5,999
                                                                     </p>
                                                                     <p
                                                                         class="text-[#000] dark:text-white/50 text-black opacity-100 text-[.6875rem] font-semibold mb-0">
@@ -674,8 +710,7 @@
                                                                         Support</span>
                                                                 </li>
                                                                 <li class="mb-4">
-                                                                    <span
-                                                                        class="text-[#000] dark:text-white/50">Visitors
+                                                                    <span class="text-[#000] dark:text-white/50">Visitors
                                                                         Monitoring<span
                                                                             class="badge bg-light text-defaulttextcolor ms-1">24/7</span></span>
                                                                 </li>
@@ -695,8 +730,10 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12 col-span-12 ps-0 price-box">
-                                                        <div class="p-6 pricing-offer overflow-hidden text-[#000] dark:text-white/50">
+                                                    <div
+                                                        class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12 col-span-12 ps-0 price-box">
+                                                        <div
+                                                            class="p-6 pricing-offer overflow-hidden text-[#000] dark:text-white/50">
                                                             <span class="pricing-offer-details shadow">
                                                                 <span class="font-semibold">POPULAR</span>
                                                             </span>
@@ -751,8 +788,7 @@
                                                                         Support</span>
                                                                 </li>
                                                                 <li class="mb-4">
-                                                                    <span
-                                                                        class="text-[#000] dark:text-white/50">Visitors
+                                                                    <span class="text-[#000] dark:text-white/50">Visitors
                                                                         Monitoring<span
                                                                             class="badge bg-light text-defaulttextcolor ms-1">24/7</span></span>
                                                                 </li>
@@ -785,11 +821,13 @@
                 </div>
             </section>
 
-            <section class="section section-home2-eight landing-testimonials bg-[#f9fafb] section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]"
+            <section
+                class="section section-home2-eight landing-testimonials bg-[#f9fafb] section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]"
                 id="testimonials">
                 <div class="container text-center">
                     <p class="mb-1"><span class="sp-test">TESTIMONIALS</span></p>
-                    <h3 class="font-semibold mb-2 text-[#000] dark:text-white/50">We never failed to reach expectations</h3>
+                    <h3 class="font-semibold mb-2 text-[#000] dark:text-white/50">We never failed to reach expectations
+                    </h3>
                     <div>
                         <div class="xl:col-span-7 col-span-12 text-[#000] dark:text-white/50">
                             <p class="mb-[3rem]">Some of
@@ -1155,7 +1193,8 @@
                 </div>
             </section>
 
-            <section class="!bg-[##F3F2EA] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 section-home2-nine">
+            <section
+                class="!bg-[##F3F2EA] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 section-home2-nine">
                 <div class="container">
                     <div class="grid grid-cols-12 gap-6 cnt-box"
                         style="background-image:url(/assets/home-two-img/contact-bg.jpg);">
@@ -1180,13 +1219,16 @@
                 </div>
             </section>
 
-            <section class="!bg-[##F3F2EA] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 section-home2-ten">                                                                                                                                                         
+            <section
+                class="!bg-[##F3F2EA] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 section-home2-ten">
                 <div class="container">
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
                             <span>ABOUT US</span>
-                            <h2 class="mt-3 text-[#000] dark:text-white/50">Innovate Business Solution For Startup Comapnies</h2>
-                            <p class="mt-3 mb-5 text-[#000] dark:text-white/50">Lorem ipsum dolor amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            <h2 class="mt-3 text-[#000] dark:text-white/50">Innovate Business Solution For Startup
+                                Comapnies</h2>
+                            <p class="mt-3 mb-5 text-[#000] dark:text-white/50">Lorem ipsum dolor amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor
                                 incididunt ut labore et dolore magna aliqua. Libero volutpat sed cras ornare.</p>
                             <ul class="icn-list text-[#000] dark:text-white/50">
                                 <li><i class="far fa-edit"></i>Identify growth opportunities and expand market presence
@@ -1226,8 +1268,7 @@
                 </div>
                 <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 col-span-12">
                     <a href="#">
-                        <img src="{{ asset('assets/home-two-img/store-icon.png') }}" alt=""
-                            width="100%"></a>
+                        <img src="{{ asset('assets/home-two-img/store-icon.png') }}" alt="" width="100%"></a>
                 </div>
             </div>
         </div>
