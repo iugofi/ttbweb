@@ -332,113 +332,113 @@ function localStorageBackup() {
 
 
 // for menu target scroll on click
-window.addEventListener("scroll", reveal);
-function reveal() {
-  var reveals = document.querySelectorAll(".reveal");
+// window.addEventListener("scroll", reveal);
+// function reveal() {
+//   var reveals = document.querySelectorAll(".reveal");
 
-  for (var i = 0; i < reveals.length; i++) {
-    var windowHeight = window.innerHeight;
-    var cardTop = reveals[i].getBoundingClientRect().top;
-    var cardRevealPoint = 150;
-    if (cardTop < windowHeight - cardRevealPoint) {
-      reveals[i].classList.add("active");
-    } else {
-      reveals[i].classList.remove("active");
-    }
-  }
-}
-reveal();
-const pageLink = document.querySelectorAll(".side-menu__item");
-pageLink.forEach((elem) => {
-  if (elem != "javascript:void(0);" && elem !== "#") {
-    elem.addEventListener("click", (e) => {
-      e.preventDefault();
-      document.querySelector(elem.getAttribute("href"))?.scrollIntoView({
-        behavior: "smooth",
-        offsetTop: 1 - 60,
-      });
-    });
-  }
-});
+//   for (var i = 0; i < reveals.length; i++) {
+//     var windowHeight = window.innerHeight;
+//     var cardTop = reveals[i].getBoundingClientRect().top;
+//     var cardRevealPoint = 150;
+//     if (cardTop < windowHeight - cardRevealPoint) {
+//       reveals[i].classList.add("active");
+//     } else {
+//       reveals[i].classList.remove("active");
+//     }
+//   }
+// }
+// reveal();
+// const pageLink = document.querySelectorAll(".side-menu__item");
+// pageLink.forEach((elem) => {
+//   if (elem != "javascript:void(0);" && elem !== "#") {
+//     elem.addEventListener("click", (e) => {
+//       e.preventDefault();
+//       document.querySelector(elem.getAttribute("href"))?.scrollIntoView({
+//         behavior: "smooth",
+//         offsetTop: 1 - 60,
+//       });
+//     });
+//   }
+// });
 // // section menu active
-function onScroll(event) {
-  const sections = document.querySelectorAll(".side-menu__item");
-  const scrollPos =
-    window.pageYOffset ||
-    document.documentElement.scrollTop ||
-    document.body.scrollTop;
+// function onScroll(event) {
+//   const sections = document.querySelectorAll(".side-menu__item");
+//   const scrollPos =
+//     window.pageYOffset ||
+//     document.documentElement.scrollTop ||
+//     document.body.scrollTop;
 
-  sections.forEach((elem) => {
-    const val = elem.getAttribute("href");
-    let refElement;
-    if (val != "javascript:void(0);" && val !== "#") {
-      refElement = document.querySelector(val);
-    }
-    const scrollTopMinus = scrollPos + 73;
-    if (
-      refElement?.offsetTop <= scrollTopMinus &&
-      refElement?.offsetTop + refElement.offsetHeight > scrollTopMinus
-    ) {
-      if (elem.parentElement.parentElement.classList.contains("child1")) {
-        elem.parentElement.parentElement.parentElement.children[0].classList.add(
-          "active"
-        );
-      }
-      elem.classList.add("active");
-      if (elem.closest(".child1")?.previousElementSibling) {
-        elem.closest(".child1").previousElementSibling.classList.add("active");
-      }
-    } else {
-      elem.classList.remove("active");
-    }
-  });
-}
-window.document.addEventListener("scroll", onScroll);
+//   sections.forEach((elem) => {
+//     const val = elem.getAttribute("href");
+//     let refElement;
+//     if (val != "javascript:void(0);" && val !== "#") {
+//       refElement = document.querySelector(val);
+//     }
+//     const scrollTopMinus = scrollPos + 73;
+//     if (
+//       refElement?.offsetTop <= scrollTopMinus &&
+//       refElement?.offsetTop + refElement.offsetHeight > scrollTopMinus
+//     ) {
+//       if (elem.parentElement.parentElement.classList.contains("child1")) {
+//         elem.parentElement.parentElement.parentElement.children[0].classList.add(
+//           "active"
+//         );
+//       }
+//       elem.classList.add("active");
+//       if (elem.closest(".child1")?.previousElementSibling) {
+//         elem.closest(".child1").previousElementSibling.classList.add("active");
+//       }
+//     } else {
+//       elem.classList.remove("active");
+//     }
+//   });
+// }
+// window.document.addEventListener("scroll", onScroll);
 // // for menu target scroll on click
 
 // // for testimonials
-var swiper = new Swiper(".pagination-dynamic", {
-    pagination: {
-      el: ".swiper-pagination",
-      dynamicBullets: true,
-      clickable: true,
-    },
-    slidesPerView: 1,
-    loop: true,
-    autoplay: {
-      delay: 3000,
-      disableOnInteraction: false,
-    },
-    breakpoints: {
-      768: {
-        slidesPerView: 2,
-        spaceBetween: 40,
-      },
-      1024: {
-        slidesPerView: 2,
-        spaceBetween: 50,
-      },
-      1400: {
-        slidesPerView: 3,
-        spaceBetween: 50,
-      },
-    },
-  });
+// var swiper = new Swiper(".pagination-dynamic", {
+//     pagination: {
+//       el: ".swiper-pagination",
+//       dynamicBullets: true,
+//       clickable: true,
+//     },
+//     slidesPerView: 1,
+//     loop: true,
+//     autoplay: {
+//       delay: 3000,
+//       disableOnInteraction: false,
+//     },
+//     breakpoints: {
+//       768: {
+//         slidesPerView: 2,
+//         spaceBetween: 40,
+//       },
+//       1024: {
+//         slidesPerView: 2,
+//         spaceBetween: 50,
+//       },
+//       1400: {
+//         slidesPerView: 3,
+//         spaceBetween: 50,
+//       },
+//     },
+//   });
 
 // /* back to top */
-const scrollToTop = document.querySelector(".scrollToTop");
-const $rootElement = document.documentElement;
-const $body = document.body;
-window.onscroll = () => {
-    const scrollTop = window.scrollY || window.pageYOffset;
-    const clientHt = $rootElement.scrollHeight - $rootElement.clientHeight;
-    if (window.scrollY > 100) {
-        scrollToTop.style.display = "flex";
-    } else {
-        scrollToTop.style.display = "none";
-    }
-};
-scrollToTop.onclick = () => {
-    window.scrollTo(0, 0);
-};
+// const scrollToTop = document.querySelector(".scrollToTop");
+// const $rootElement = document.documentElement;
+// const $body = document.body;
+// window.onscroll = () => {
+//     const scrollTop = window.scrollY || window.pageYOffset;
+//     const clientHt = $rootElement.scrollHeight - $rootElement.clientHeight;
+//     if (window.scrollY > 100) {
+//         scrollToTop.style.display = "flex";
+//     } else {
+//         scrollToTop.style.display = "none";
+//     }
+// };
+// scrollToTop.onclick = () => {
+//     window.scrollTo(0, 0);
+// };
 /* back to top */
