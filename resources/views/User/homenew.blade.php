@@ -797,7 +797,7 @@
                         </div>
                     </div>
                     <div class="swiper pagination-dynamic text-start rtl:dirrtl">
-                        <div class="swiper-wrapper">
+                        <div class="swiper-wrapper"> 
                             <div class="swiper-slide rtl:dir-rtl">
                                 <div class="box testimonial-card">
                                     <div class="box-body">
