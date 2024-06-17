@@ -51613,6 +51613,21 @@ section#about-features {
 .border-content:hover {
     border-color: #12d2b3;
 }
+
+.dark .text-shadow {
+    box-shadow: 0px 0px 10px 0px #ffffffab;
+    border-radius: 5px;
+    background: #212325;
+}
+.dark .border-content {
+    border-color: #474849;
+}
+.dark .border-content i.fa-solid.fa-arrow-right-long::before {
+    color: #f6f6f6;
+}
+.dark .text-shadow .border-content:hover {
+    border-color: #11cdbd;
+}
 .text-content {
     background-color: #12d2b3;
     color: #fff;
