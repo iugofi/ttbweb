@@ -51576,7 +51576,7 @@ section#about-features {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.dark .bnr-btn a {
+.dark .bnr-btn a:hover {
     background: transparent !important;
     border: 1px solid #11cdbd;
 }
