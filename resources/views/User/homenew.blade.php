@@ -801,7 +801,7 @@
                                                                         Back
                                                                         Guarentee</span>
                                                                 </li>
-                                                            </ul>
+                                                            </ul> 
                                                             <div class="grid">
                                                                 <button type="button"
                                                                     class="ti-btn bg-primary text-white">Get
