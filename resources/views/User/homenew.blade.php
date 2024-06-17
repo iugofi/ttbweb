@@ -165,7 +165,7 @@
                             <h2 class="text-[#000] dark:text-white/50 mt-4">We Provide Experts Cyber <br> Security Services.</h2>
                         </div>
                     </div>
-                    <div class="grid grid-cols-12 gap-6 mt-5">
+                    <div class="grid grid-cols-12 gap-8 mt-5">
                         <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-6 col-span-12 text-black img-boxx">
                             <img src="{{ asset('assets/home-two-img/service_3_1.svg') }}" alt=""
                                 class="img-fluid" width="20%">
