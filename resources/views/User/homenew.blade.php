@@ -34,7 +34,6 @@
                 </div>
             </section>
 
-
             <section class=" !bg-[##F3F2EA] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 section-home2-two">
                 <div class="container">
                     <div class="grid grid-cols-12 gap-6">
@@ -157,7 +156,6 @@
                     </div>
                 </div>
             </section>
-
 
             <section class="!bg-[##F3F2EA] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 section-home2-five">
                 <div class="container !bg-[##F3F2EA] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 imgcon-box">
@@ -1208,10 +1206,6 @@
                     </div>
                 </div>
             </section>
-
-
-
-
 
         </div>
     </div>
