@@ -113,7 +113,7 @@
 
                         
                     </div>
-                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 customize-image text-center">
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 customize-image text-center" style="margin: auto;">
                         <div class="lg:text-start !flex items-center lg:justify-start justify-center">
                             <img src="https://www.nighthawk-routerlogin.com/assets/img/Last-Section-image.jpg" alt="" class="img-fluid">
                         </div>
