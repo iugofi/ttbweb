@@ -51580,7 +51580,7 @@ section#about-features {
     background: transparent !important;
     border: 1px solid #11cdbd Im !important;
 }
-.flexs-box {
+.flexs-box1 {
     padding: 44px 20px;
     background: #f5f6fa;
     position: relative;
@@ -51588,19 +51588,147 @@ section#about-features {
     border-radius: 4px;
     border: 2px solid #ffffff;
 }
-.flexs-box:hover {
+.flexs-box2 {
+    padding: 44px 20px;
+    background: #f5f6fa;
+    position: relative;
+    margin: auto;
+    border-radius: 4px;
+    border: 2px solid #ffffff;
+}
+.flexs-box3 {
+    padding: 44px 20px;
+    background: #f5f6fa;
+    position: relative;
+    margin: auto;
+    border-radius: 4px;
+    border: 2px solid #ffffff;
+}
+.flexs-box4 {
+    padding: 44px 20px;
+    background: #f5f6fa;
+    position: relative;
+    margin: auto;
+    border-radius: 4px;
+    border: 2px solid #ffffff;
+}
+.flexs-box5 {
+    padding: 44px 20px;
+    background: #f5f6fa;
+    position: relative;
+    margin: auto;
+    border-radius: 4px;
+    border: 2px solid #ffffff;
+}
+.flexs-box6 {
+    padding: 44px 20px;
+    background: #f5f6fa;
+    position: relative;
+    margin: auto;
+    border-radius: 4px;
+    border: 2px solid #ffffff;
+}
+.flexs-box1:hover {
     background-color: transparent;
     border: 2px solid #11cdbd;
     padding: 40px 20px;
 }
-.flexs-box:hover p {
+.flexs-box2:hover {
+    background-color: transparent;
+    border: 2px solid #11cdbd;
+    padding: 40px 20px;
+}
+.flexs-box3:hover {
+    background-color: transparent;
+    border: 2px solid #11cdbd;
+    padding: 40px 20px;
+}
+.flexs-box4:hover {
+    background-color: transparent;
+    border: 2px solid #11cdbd;
+    padding: 40px 20px;
+}
+.flexs-box5:hover {
+    background-color: transparent;
+    border: 2px solid #11cdbd;
+    padding: 40px 20px;
+}
+.flexs-box6:hover {
+    background-color: transparent;
+    border: 2px solid #11cdbd;
+    padding: 40px 20px;
+}
+.flexs-box1:hover p {
     color: #11cdbd;
 }
-.dark .flexs-box:hover h5 {
+.flexs-box2:hover p {
+    color: #11cdbd;
+}
+.flexs-box3:hover p {
+    color: #11cdbd;
+}
+.flexs-box4:hover p {
+    color: #11cdbd;
+}
+.flexs-box5:hover p {
+    color: #11cdbd;
+}
+.flexs-box6:hover p {
+    color: #11cdbd;
+}
+.dark .flexs-box1:hover h5 {
     color: #fff;
 }
-.flexs-box .flex-img img {
+.dark .flexs-box2:hover h5 {
+    color: #fff;
+}
+.dark .flexs-box3:hover h5 {
+    color: #fff;
+}
+.dark .flexs-box4:hover h5 {
+    color: #fff;
+}
+.dark .flexs-box5:hover h5 {
+    color: #fff;
+}
+.dark .flexs-box6:hover h5 {
+    color: #fff;
+}
+.flexs-box1 .flex-img img {
     width: 65px;
+}
+.flexs-box2 .flex-img img {
+    width: 65px;
+}
+.flexs-box3 .flex-img img {
+    width: 65px;
+}
+.flexs-box4 .flex-img img {
+    width: 65px;
+}
+.flexs-box5 .flex-img img {
+    width: 65px;
+}
+.flexs-box6 .flex-img img {
+    width: 65px;
+}
+.dark .flexs-box1:hover .flex-img img {
+    content: url('https://www.nighthawk-routerlogin.com/assets/images/faces/10.jpg');
+}
+.dark .flexs-box2:hover .flex-img img {
+    content: url('https://www.nighthawk-routerlogin.com/assets/images/faces/10.jpg');
+}
+.dark .flexs-box3:hover .flex-img img {
+    content: url('https://www.nighthawk-routerlogin.com/assets/images/faces/10.jpg');
+}
+.dark .flexs-box4:hover .flex-img img {
+    content: url('https://www.nighthawk-routerlogin.com/assets/images/faces/10.jpg');
+}
+.dark .flexs-box5:hover .flex-img img {
+    content: url('https://www.nighthawk-routerlogin.com/assets/images/faces/10.jpg');
+}
+.dark .flexs-box6:hover .flex-img img {
+    content: url('https://www.nighthawk-routerlogin.com/assets/images/faces/10.jpg');
 }
 .text-shadow {
     box-shadow: 0px 2px 16px 0px #00000042;
