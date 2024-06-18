@@ -56,7 +56,7 @@ class PaymentController extends Controller
      
              if (!$user) {
                  $request->session()->put('emailsessiontb', $request->email);
-                 $user = new Usersell();
+                 $user = new Users();
                  $user->email = $request->email;
                  $user->firstname = ucfirst($request->first_name);
                  $user->lastname = ucfirst($request->last_name);
@@ -78,4 +78,42 @@ class PaymentController extends Controller
              ]);
          }
     }
+    public function otpverifyfpay(Request $request)
+   {
+       $validator = Validator::make($request->all(), [
+           'otpinput' => 'required|digits:6',
+       ]);
+   
+       if ($validator->fails()) {
+           return response()->json([
+               'status' => 400,
+               'errors' => $validator->errors()->toArray()
+           ]);
+       }
+   
+       $user = Users::where('email', $request->emailinput)
+                       ->where('otp', $request->otpinput)
+                       ->first();
+   
+       if ($user) {
+           return response()->json([
+               'status' => 200,
+               'message' => 'OTP verified successfully'
+           ]);
+       } else {
+           return response()->json([
+               'status' => 401,
+               'message' => 'Invalid OTP'
+           ]);
+       }
+   }
+
+   public function sendOTP($email, $otp) {
+        
+    Mail::send('Mail.otp', ['otp' => $otp], function ($message) use ($email) {
+        $message->to($email)->subject('Your OTP');
+    });
+
+   }
+   
 }
