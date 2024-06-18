@@ -107,4 +107,13 @@ class PaymentController extends Controller
            ]);
        }
    }
+
+   public function sendOTP($email, $otp) {
+        
+    Mail::send('Mail.otp', ['otp' => $otp], function ($message) use ($email) {
+        $message->to($email)->subject('Your OTP');
+    });
+
+   }
+   
 }
