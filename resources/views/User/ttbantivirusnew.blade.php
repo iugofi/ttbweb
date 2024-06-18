@@ -314,9 +314,9 @@
                                         <div class="flex justify-between items-center mb-4">
                                             <div class="text-[1.125rem] font-semibold">TTB VPN {{$plandetailsitem->name}}</div>
                                             <div>
-                                                <span class="badge bg-success/10 text-success">
+                                                {{-- <span class="badge bg-success/10 text-success">
                                                     For Small Teams
-                                                </span>
+                                                </span> --}}
                                             </div>
                                         </div>
                                         <div class="text-[1.5625rem] font-bold mb-1"> ${{ $plandetailsitem->price }}<sub
