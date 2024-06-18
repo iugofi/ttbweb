@@ -210,6 +210,10 @@ class UserController extends Controller
     {
         return view('User.virus_removal_service');
     }
+    public function E_Support_Concierge()
+    {
+        return view('User.E_Support_Concierge');
+    }
      
     public function contactform(Request $request)
     {
