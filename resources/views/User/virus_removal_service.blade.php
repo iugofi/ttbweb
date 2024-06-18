@@ -85,7 +85,7 @@
                             goal-oriented catalysts for change. Collaboratively.
                         </p> --}}
 
-                        {{-- <div class="grid grid-rows-2 grid-flow-col gap-1">
+                        <div class="grid grid-rows-2 grid-flow-col gap-1">
                             <div class="row-span-3">
                                 <img src="assets/img/Best-Services-Iocn-1.png" class="img-fluid !inline-flex backimage">
                             </div>
@@ -129,66 +129,8 @@
                                 <p class="text-gray-light px-6">Lorem ipsum dolor sit amet, eiusmod
                                     tempor. Lorem ipsum dolor sit amet, eiusmod tempor.</p>
                             </div>
-                        </div> --}}
-                        <style>
-                        .timeline {
-                            display: flex;
-                            flex-direction: column;
-                            align-items: center;
-                            justify-content: center;
-                         }
-                         
-                         .timeline-item {
-                            display: flex;
-                            flex-direction: row;
-                            align-items: center;
-                            justify-content: center;
-                            margin: 20px;
-                            border-radius: 50%;
-                            width: 10px;
-                            height: 10px;
-                            background-color: #ddd;
-                         }
-                         
-                         .timeline-item h2 {
-                            font-size: 2em;
-                            margin: 0 20px;
-                            color: #333;
-                         }
-                         
-                         .timeline-item p {
-                            font-size: 1.2em;
-                            margin: 0 20px;
-                            color: #666;
-                         }
-                         
-                         .timeline-item::before {
-                            content: "";
-                            width: 10px;
-                            height: 10px;
-                            background-color: #00b3b3;
-                            border-radius: 50%;
-                            margin-right: 20px;
-                         }
-                         </style>
-                            <div class="timeline">
-                                <div class="timeline-item">
-                                    <h2>Virus and Malware Removal</h2>
-                                    <p>We eradicate all traces of infection from your device.</p>
-                                </div>
-                                <div class="timeline-item">
-                                    <h2>System Cleanup</h2>
-                                    <p>Restore your device's speed and performance.</p>
-                                </div>
-                                <div class="timeline-item">
-                                    <h2>Security Recommendations</h2>
-                                    <p>Expert advice on keeping your device safe.</p>
-                                </div>
-                                <div class="timeline-item">
-                                    <h2>Data Backup</h2>
-                                    <p>Secure your important files before we start.</p>
-                                </div>
-                            </div>
+                        </div>
+                        
                     </div>
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 customize-image text-center" style="margin: auto;">
                         <div class="lg:text-start !flex items-center lg:justify-start justify-center">
