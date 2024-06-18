@@ -51730,9 +51730,6 @@ section#about-features {
 .flexs-box6:hover .flex-img img {
     content: url('/assets/img/Professional-3d-Animation-Icon.png');
 }
-
-
-
 .dark .flexs-box1:hover .flex-img img {
     content: url('/assets/img/Digital-Marketing-Icon-1.png');
 }
@@ -51905,11 +51902,20 @@ section#about-features {
 .l-work-item .work-overlay .work-title:hover i {
     color: #12d2b3;
 }
-
 /*End image section hover effect */
 
 /* End:: Enhanced Firewall page css */
 
+/* Start:: virus removal page css */
+.virus-removal {
+    background-image: url("/assets/img/Banner-3.png");
+    height: 43rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* End:: virus removal page css */
 /* kunal-verma 23-04-2024 */
 
 #totel-internet-security div#vpnshield {

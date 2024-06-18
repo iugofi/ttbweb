@@ -13,7 +13,7 @@
 <div class="main-content !p-0 landing-main dark:text-defaulttextcolor/70">
 
         <!-- Start::virus removal service section one -->
-        <div class="enhanced-firewall" id="enhanced">
+        <div class="virus-removal" id="virus">
             <section class="section sect-ban">
                 <div class="container main-banner-container">
                     <div class="grid grid-cols-12 gap-6">
