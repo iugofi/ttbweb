@@ -273,7 +273,7 @@
                                             <label class="form-label">Enter OTP:</label>
                                             <input type="text" id="emailDisplayVal" name="emailinput" hidden>
                                             <input type="text" name="otpinput" id="otpinput"
-                                                class="form-control" placeholder="Enter Your Email">
+                                                class="form-control">
                                                 <div class="invalid-feedback"></div>
                                         </div>
                                      
@@ -286,15 +286,15 @@
                                     </div>
                                 </form>
                             </div>
-                            <div class="ti-modal-footer">
+                            {{-- <div class="ti-modal-footer">
                                 <button type="button" class="hs-dropdown-toggle ti-btn ti-btn-secondary-full"
                                     data-hs-overlay="#hs-vertically-centered-modal">
                                     Close
                                 </button>
-                                {{-- <a class="ti-btn ti-btn-primary-full" href="javascript:void(0);">
+                                <a class="ti-btn ti-btn-primary-full" href="javascript:void(0);">
                                     Save changes
-                                </a> --}}
-                            </div>
+                                </a>
+                            </div> --}}
                         </div>
                     </div>
                 </div>
