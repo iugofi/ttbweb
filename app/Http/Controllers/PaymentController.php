@@ -35,4 +35,47 @@ class PaymentController extends Controller
 
         
     }
+
+    public function otpcheckfpay(Request $request)
+    {
+     $validator = Validator::make($request->all(), [
+     'email' => 'required|email',   
+     'first_name' => 'required', 
+     'last_name' => 'required', 
+     
+         ]);
+ 
+         if ($validator->fails()) {
+             return response()->json([
+                 'status' => 400,
+                 'messages' => $validator->getMessageBag()->toArray() // Convert messages to array
+             ]);
+         } else {
+             $user = Users::where('email', $request->email)->first();
+             $otp = rand(100000, 999999); 
+     
+             if (!$user) {
+                 $request->session()->put('emailsessiontb', $request->email);
+                 $user = new Usersell();
+                 $user->email = $request->email;
+                 $user->firstname = ucfirst($request->first_name);
+                 $user->lastname = ucfirst($request->last_name);
+                 $user->otp = $otp;
+                 $user->save();
+             } else {
+                 // Update existing user's OTP
+                 $request->session()->put('emailsessiontb', $request->email);
+                 $user->otp = $otp;
+                 $user->save();
+             }
+     
+             // Send OTP
+             $this->sendOTP($request->email, $otp);
+            
+             return response()->json([
+                 'status' => 200,
+                 'messages' => 'Contact Form Data Sent successfully'
+             ]);
+         }
+    }
 }
