@@ -77,7 +77,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid grid-cols-12 gap-x-6">
+                            <div class="grid grid-cols-12 gap-x-6" id="payment" style="display: none;">
 
                                 <div class="xl:col-span-12 col-span-12">
                                     <div class="box">
