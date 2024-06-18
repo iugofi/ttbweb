@@ -43,23 +43,29 @@
                                         </div>
                                     </div>
                                     <div class="box-body">
+                                    <form method="post" id="otpcheck">
+                                            @csrf
                                         <div class="grid grid-cols-12 sm:gap-x-6 sm:gap-y-4">
                                             <div class="md:col-span-12 col-span-12 mb-4">
                                                 <label class="form-label">Email</label>
-                                                <input type="text" class="form-control">
+                                                <input type="text" name="email" id="email" class="form-control" placeholder="Enter Your Email">
+                                                <div class="invalid-feedback" id="email-error"></div>
                                             </div>
                                             <div class="md:col-span-6 col-span-12 mb-4">
                                                 <label class="form-label">First Name</label>
-                                                <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                                                <input type="text" name="first_name" id="first_name" class="form-control" placeholder="First name" aria-label="First name">
+                                                <div class="invalid-feedback" id="first-name-error"></div>
                                             </div>
                                             <div class="md:col-span-6 col-span-12 mb-4">
                                                 <label class="form-label">Last Name</label>
-                                                <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                                                <input type="text" name="last_name" id="last_name" class="form-control" placeholder="Last name" aria-label="Last name">
                                             </div>
                                             <div class="md:col-span-12 col-span-12 md:flex md:justify-end check-btn"> 
-                                                <button type="submit" class="ti-btn ti-btn-primary-full !mb-0">Sign in</button>
+                                                <input type="submit" value="Submit" id="checkotp" class="ti-btn ti-btn-primary-full !mb-0">
+                                                
                                             </div>
                                         </div>
+                                    </form>
                                     </div>
                                 </div>
                             </div>
@@ -180,7 +186,120 @@
     </div>
 </div>
 
+<div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel"
+aria-hidden="true">
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="successModalLabel">Success!</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <p>Your form has been submitted successfully. An OTP has been sent to:</p>
+            <p id="emailDisplay"></p>
+            <div class="" id="otp_check_alert"></div>
 
+            <!-- Form for OTP verification -->
+            <form method="post" id="otpVerificationForm">
+                @csrf
+                <div class="mb-3">
+                    <label for="otpInput" class="form-label">Enter OTP:</label>
+                    <input type="text" id="emailDisplayVal" name="emailinput" hidden>
+                    <div class="input">
+                        <input type="text" class="form-control" name="otpinput" id="otpinput">
+                        <div class="invalid-feedback"></div>
+                    </div>
+                </div>
+                <input type="submit" value="Verify OTP" id="checkotpinput" class="btn btn-primary">
+            </form>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+    </div>
+</div>
+</div>
+
+<script>
+    $(document).ready(function() {
+        $('#otpcheck').submit(function(e) {
+            e.preventDefault();
+            $('#checkotp').val('please wait..');
+            var formData = $(this).serialize(); // Serialize form data
+            $.ajax({
+                url: '{{ route('user.otpcheckfpay') }}',
+                method: 'post',
+                data: formData,
+                success: function(response) {
+                    if (response.status == 400) {
+                        showError('email', response.messages.email, true);
+                        showError('first_name', response.messages.first_name, true);
+                        showError('last_name', response.messages.last_name, true);
+                        
+                        $('#checkotp').val('submit');
+                    } else if (response.status == 200) {
+                        // $('#otpcheck')[0].reset();
+                        removeValidationClass("#register_form");
+                        $('#checkotp').val('submit');
+                        $('#email').prop('disabled', true);
+                        $('#first_name').prop('disabled', true);
+                        $('#last_name').prop('disabled', true);
+
+                       
+                        $('#checkotp').hide();
+                        $('#successModal').modal('show');
+                        var email = getEmailFromFormData(formData);
+                        $('#emailDisplay').text(email);
+                        $('#emailDisplayVal').val(email);
+                        $('#emailDisplaypay').val(email);
+                        $('#emailDisplayCard').val(email);
+
+                    }
+                }
+            });
+        });
+
+        $('#otpVerificationForm').submit(function(e) {
+            e.preventDefault();
+            $('#checkotpinput').val('please wait..');
+            var formData = $(this).serialize();
+            $.ajax({
+                url: '{{ route('user.otpverifyfpay') }}',
+                method: 'post',
+                data: formData,
+                success: function(response) {
+                    // console.log(response);
+                    if (response.status === 400) {
+                        $('#checkotpinput').val('Verify OTP');
+                        // Handle validation errors
+                        $.each(response.errors, function(key, value) {
+                            showError(key, value[0], true);
+                        });
+                    } else if (response.status === 401) {
+                        $('#checkotpinput').val('Verify OTP');
+                        $("#otp_check_alert").html('<div class="alert alert-danger">' +
+                            response.message + '</div>');
+                    } else if (response.status === 200) {
+                        // Handle success
+                        removeValidationClass("#otpVerificationForm");
+                        $('#checkotpinput').val('Verify OTP');
+                        $('#successModal').modal('hide');
+                        $('#payment').show();
+                    }
+                }
+            });
+        });
+
+
+        function getEmailFromFormData(formData) {
+            var email = decodeURIComponent(formData).split('&').find(function(element) {
+                return element.includes('email=');
+            }).split('=')[1];
+            return email;
+        }
+
+    });
+</script>
 
 
 

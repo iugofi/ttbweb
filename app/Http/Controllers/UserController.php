@@ -159,6 +159,7 @@ class UserController extends Controller
         // dd($queryLog);
         return view('User.ttbantivirusnew', ['plandetails' => $plandetails]);
     }
+    
     public function passreset()
     {
         return view('User.resetpassword-basic');

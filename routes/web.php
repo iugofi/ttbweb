@@ -272,6 +272,8 @@ Route::delete('/keydelete/{id}', [AdminController::class, 'keydelete'])->name('d
 
 //payment page all
 Route::get('/fpay/{id}',[PaymentController::class,'fpayitem'])->name('user.fpay');
+Route::post('/otpcheckfpay',[PaymentController::class,'otpcheckfpay'])->name('user.otpcheckfpay');
+
 
 
 
