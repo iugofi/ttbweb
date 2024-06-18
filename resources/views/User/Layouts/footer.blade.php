@@ -29,8 +29,8 @@
                         <li>
                             <a href="javascript:void(0);" class="text-white">Contacts</a>
                         </li>
-                        <li>
-                            <a href="javascript:void(0);" class="text-white">virus_removal_service.blade.php</a>
+                        <li class="slide">
+                            <a href="{{route('user.virus_removal_service')}}" class="side-menu__item">virus removal service</a>
                         </li>
                     </ul>
                 </div>
