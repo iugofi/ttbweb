@@ -239,7 +239,7 @@
 
    
             
-                <div id="hs-vertically-centered-modal" id="successModal" class="hs-overlay ti-modal hidden" aria-overlay="true" tabindex="-1">
+                <div id="hs-vertically-centered-modal" class="hs-overlay hidden ti-modal">
                     <div
                         class="hs-overlay-open:mt-7 ti-modal-box mt-0 ease-out min-h-[calc(100%-3.5rem)] flex items-center">
                         <div class="ti-modal-content">
@@ -323,8 +323,8 @@
 
                             $('#checkotp').hide();
                             $('#hs-vertically-centered-modal').removeClass('hidden');
-                            $('#successModal').removeClass('hidden');
-                            $('#successModal').addClass('open');
+                            $('#hs-vertically-centered-modal').addClass('hidden');
+                            $('#successModal').modal('show');
                             var email = getEmailFromFormData(formData);
                             $('#emailDisplay').text(email);
                             $('#emailDisplayVal').val(email);
