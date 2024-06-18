@@ -324,6 +324,7 @@
                             $('#checkotp').hide();
                             $('#hs-vertically-centered-modal').removeClass('hidden');
                             $('#successModal').removeClass('hidden');
+                            $('#successModal').addClass('open');
                             var email = getEmailFromFormData(formData);
                             $('#emailDisplay').text(email);
                             $('#emailDisplayVal').val(email);
