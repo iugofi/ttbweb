@@ -57,11 +57,14 @@
                     </div>
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 pt-5 pb-0 lg:px-2 !text-start  my-auto">
                         <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">About Your Company</span>
-                        <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">The Largest Business Expert<br>
-                            Company!</h4>
-                        <p class=" text-[0.9rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
-                            value with diverse web-readiness. Collaboratively transition wireless customer service without
-                            goal-oriented catalysts for change. Collaboratively.
+                        <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">Understanding the Threat: Identify<br>
+                             and Eliminate Viruses & Malware<br></h4>
+                        <p class=" text-[0.9rem] text-[#8c9097] dark:text-white/50 mb-4 ">Viruses and malware can wreak havoc on your devices. They may<br>
+                            compromise your privacy and device security. TTB is an expert at<br>
+                            identifying and removing these digital pests from your computers,<br>
+                            smartphones, and other gadgets.<br>
+                            We don't just remove viruses; we equip your device with the latest<br>
+                            security tools and practices to safeguard it from future threats.
                         </p>
 
                         <div class="grid grid-rows-2 grid-flow-col gap-1">
