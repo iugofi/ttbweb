@@ -286,7 +286,7 @@
                                 <p class="text-gray-light px-6">Lorem ipsum dolor sit amet, eiusmod
                                     tempor. Lorem ipsum dolor sit amet, eiusmod tempor.</p>
                             </div>
-                        </div>
+                        </div><br>
                         <hr style="width:94%">
                         <div class="grid grid-rows-2 grid-flow-col pt-4 gap-1">
                             <div class="row-span-3"><img src="assets/img/Best-Services-Iocn-2.png "
