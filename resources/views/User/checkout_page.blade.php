@@ -249,7 +249,7 @@
                         class="hs-overlay-open:mt-7 ti-modal-box mt-0 ease-out min-h-[calc(100%-3.5rem)] flex items-center">
                         <div class="ti-modal-content">
                             <div class="ti-modal-header">
-                                <h6 class="modal-title" id="staticBackdropLabel2">Modal title
+                                <h6 class="modal-title" id="staticBackdropLabel2">Verification
                                 </h6>
                                 <button type="button" class="hs-dropdown-toggle ti-modal-close-btn"
                                     data-hs-overlay="#hs-vertically-centered-modal">
@@ -329,6 +329,7 @@
 
 
                             $('#checkotp').hide();
+                            $('#hs-vertically-centered-modal').removeClass('hidden');
                             $('#successModal').modal('show');
                             var email = getEmailFromFormData(formData);
                             $('#emailDisplay').text(email);
