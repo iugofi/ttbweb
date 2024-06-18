@@ -26,11 +26,11 @@
                         <li>
                             <a href="javascript:void(0);" class="text-white">Projects</a>
                         </li>
-                        <li>
-                            <a href="javascript:void(0);" class="text-white">Contacts</a>
-                        </li>
                         <li class="slide">
                             <a href="{{route('user.virus_removal_service')}}" class="side-menu__item">virus removal service</a>
+                        </li>
+                        <li class="slide">
+                            <a href="{{route('user.E_Support_Concierge')}}" class="side-menu__item">E Support Concierge</a>
                         </li>
                     </ul>
                 </div>
