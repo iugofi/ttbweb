@@ -239,7 +239,7 @@
 
    
             
-                <div id="hs-vertically-centered-modal" id="successModal" class="hs-overlay ti-modal open" aria-overlay="true" tabindex="-1">
+                <div id="hs-vertically-centered-modal" id="successModal" class="hs-overlay ti-modal hidden" aria-overlay="true" tabindex="-1">
                     <div
                         class="hs-overlay-open:mt-7 ti-modal-box mt-0 ease-out min-h-[calc(100%-3.5rem)] flex items-center">
                         <div class="ti-modal-content">
