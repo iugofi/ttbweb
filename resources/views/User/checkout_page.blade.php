@@ -237,13 +237,8 @@
     </div> --}}
 
 
-    <div class="xl:col-span-4 col-span-12">
-        <div class="box custom-box">
-            <div class="box-body">
-                <button type="button" class="hs-dropdown-toggle ti-btn ti-btn-primary-full"
-                    data-hs-overlay="#hs-vertically-centered-modal">
-                    Vertically centered modal
-                </button>
+   
+            
                 <div id="hs-vertically-centered-modal" id="successModal" class="hs-overlay hidden ti-modal">
                     <div
                         class="hs-overlay-open:mt-7 ti-modal-box mt-0 ease-out min-h-[calc(100%-3.5rem)] flex items-center">
@@ -298,9 +293,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
+      
 
     <script>
         $(document).ready(function() {
