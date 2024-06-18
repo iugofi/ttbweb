@@ -4,6 +4,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\UserauthController;
+use App\Http\Controllers\PaymentController;
+
 
 
 
@@ -266,6 +268,10 @@ Route::get('/keyadd', [AdminController::class, 'keyadd'])->name('key.add');
 Route::post('/savekey', [AdminController::class, 'savekey'])->name('save.savekey');
 Route::delete('/keydelete/{id}', [AdminController::class, 'keydelete'])->name('delete.keydelete');
 
+
+
+//payment page all
+Route::get('/fpay/{id}',[PaymentController::class,'fpayitem'])->name('user.fpay');
 
 
 

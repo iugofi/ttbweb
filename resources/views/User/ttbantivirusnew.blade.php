@@ -377,8 +377,9 @@
                                                 </span>
                                             </li>
                                             <li class="grid">
-                                                <button type="button" class="m-1 ti-btn ti-btn-primary-full">Choose
-                                                    Plan</button>
+                                                {{-- <button type="button" class="m-1 ti-btn ti-btn-primary-full">Choose
+                                                    Plan</button> --}}
+                                                    <a href="{{ route('user.fpay', ['id' => encrypt($plandetailsitem->id)]) }}" class="m-1 ti-btn ti-btn-primary-full">Choose Plan</a>
                                             </li>
                                         </ul>
                                     </div>

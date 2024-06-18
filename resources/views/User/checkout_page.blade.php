@@ -105,14 +105,14 @@
                                             <hr> --}}
                                             <div class="!p-6">
                                                 <div class="flex justify-between items-center mb-4">
-                                                    <div class="text-[1.125rem] font-semibold">Team</div>
+                                                    <div class="text-[1.125rem] font-semibold">{{ $plan->name }}</div>
                                                     <div>
-                                                        <span class="badge bg-success/10 text-success">
+                                                        {{-- <span class="badge bg-success/10 text-success">
                                                             For Small Teams
-                                                        </span>
+                                                        </span> --}}
                                                     </div>
                                                 </div>
-                                                <div class="text-[1.5625rem] font-bold mb-1">$149<sub class="text-[#8C9097] dark:text-white/50 font-semibold text-[.6875rem] ms-1">/
+                                                <div class="text-[1.5625rem] font-bold mb-1">${{ $plan->price }}<sub class="text-[#8C9097] dark:text-white/50 font-semibold text-[.6875rem] ms-1">/
                                                         Per Month</sub></div>
                                                 <div class="mb-1 text-[#8C9097] dark:text-white/50">Lorem ipsum dolor sit amet
                                                     consectetur adipisicing elit. Iure quos debitis aliquam .</div>
