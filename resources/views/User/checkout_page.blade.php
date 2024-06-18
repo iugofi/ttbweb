@@ -360,7 +360,8 @@
                             // Handle success
                             removeValidationClass("#otpVerificationForm");
                             $('#checkotpinput').val('Verify OTP');
-                            $('#successModal').modal('hide');
+                            $('#hs-vertically-centered-modal').removeClass('open');
+                            $('#hs-vertically-centered-modal').addClass('hidden');                  
                             $('#payment').show();
                         }
                     }
