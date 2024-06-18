@@ -62,7 +62,7 @@
                         <p class=" text-[0.9rem] text-[#8c9097] dark:text-white/50 mb-4 ">Viruses and malware can wreak havoc on your devices. They may<br>
                             compromise your privacy and device security. TTB is an expert at<br>
                             identifying and removing these digital pests from your computers,<br>
-                            smartphones, and other gadgets.<br>
+                            smartphones, and other gadgets.<br><br>
                             We don't just remove viruses; we equip your device with the latest<br>
                             security tools and practices to safeguard it from future threats.
                         </p>
