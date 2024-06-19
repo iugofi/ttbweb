@@ -261,7 +261,7 @@ class PaymentController extends Controller
 
     public function success()
     {
-        return view('Test.success');
+        return view('User.success');
     }
    
 }
