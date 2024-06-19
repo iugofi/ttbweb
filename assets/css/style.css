@@ -51962,6 +51962,16 @@ section#about-features {
     left: -11px;
     color: #C0C0C0;
 }
+.bg-two img {
+    width: 100% !important;
+}
+.bg-imgs img {
+    width: 100% !important;
+}
+.flexs-row .col-span-2 {
+    position: relative;
+    left: -4rem;
+}
 .colum-one:hover .icon-hover1 {
     color: #12D2B3;
 }
