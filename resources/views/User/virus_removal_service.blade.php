@@ -49,25 +49,27 @@
         <div class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 ">
             <div class="container">
                 <div class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
-                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 customize-image text-center">
-                        <div class="lg:text-start !flex items-center lg:justify-start justify-center">
-                            <img src="https://www.nighthawk-routerlogin.com/assets/img/Last-Section-image.jpg" alt="" class="img-fluid">
-                        </div>
+                    
+                    <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-=6 md:col-span-6 pt-5 pb-0 lg:px-2 !text-start  my-auto">
                         
-                    </div>
-                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 pt-5 pb-0 lg:px-2 !text-start  my-auto">
-                        <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">About Your Company</span>
-                        <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">Understanding the Threat: Identify<br>
-                             and Eliminate Viruses & Malware<br></h4>
-                        <p class=" text-[1rem] text-[#8c9097] dark:text-white/50 mb-4 ">Viruses and malware can wreak havoc on your devices. They may<br>
-                            compromise your privacy and device security. TTB is an expert at<br>
-                            identifying and removing these digital pests from your computers,<br>
-                            smartphones, and other gadgets.<br><br>
+                        
+                        <p class=" text-[1rem] text-[#8c9097] dark:text-white/50 mb-4 ">Viruses and malware can wreak havoc on your devices. They maycompromise
+                             your privacy and device security. TTB is an expert at smartphones, and other gadgets. compromise your privacy 
+                             and device security. TTB is an expert aT identifying and removing these digital pests from your computers, 
+                             identifying and removing these digital pests from your computers,<br><br>
                             We don't just remove viruses; we equip your device with the latest<br>
                             security tools and practices to safeguard it from future threats.
                         </p>
                     </div>
-                </div>
+                <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 md:col-span-6 pt-5 pb-0 lg:px-2 !text-start  my-auto">
+                        
+                        <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">Understanding the Threat: Identify<br>
+                             and Eliminate Viruses &amp; Malware<br></h4>
+                        <p class=" text-[1rem] text-[#8c9097] dark:text-white/50 mb-4 ">Viruses and malware can wreak havoc on your devices. They may<br>
+                            compromise your privacy and device security.
+                        </p>
+<img src="https://www.nighthawk-routerlogin.com/assets/img/Last-Section-image.jpg" alt="" class="img-fluid">
+                    </div></div>
             </div>
         </div>
 
