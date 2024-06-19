@@ -51921,6 +51921,9 @@ section#about-features {
     height: auto;
     padding: 3rem 5rem 3rem 2rem;
 }
+.dark .virus-inner-one p {
+    background: #1E1F21;
+}
 .virus-inner-two {
     width: 85%;
     margin: auto;
