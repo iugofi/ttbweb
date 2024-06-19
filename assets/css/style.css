@@ -51917,7 +51917,7 @@ section#about-features {
 }
 .virus-inner-one p {
     background: #F5F6FA;
-    height: 100%;
+    height: auto;
     padding: 3rem 5rem 3rem 2rem;
 }
 .virus-inner-two {
