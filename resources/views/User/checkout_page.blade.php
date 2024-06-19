@@ -326,6 +326,8 @@
                             $('#checkotp').hide();
                             $('#hs-vertically-centered-modal').removeClass('hidden');
                             $('#hs-vertically-centered-modal').addClass('open');
+                            $('#hs-vertically-centered-modal').css('background','#1f1f1f47');
+
                             $('#successModal').modal('show');
                             var email = getEmailFromFormData(formData);
                             $('#emailDisplay').text(email);
