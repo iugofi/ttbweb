@@ -51935,12 +51935,13 @@ section#about-features {
     animation: move-up-down 5s ease-in-out 4s infinite;
 }
 .flexs-row {
-    border-left: 1px solid;
+    border-left: 1px solid #C0C0C0;
 }
 .flexs-row .colum-one .icon-hover1 {
     position: relative;
     padding: 0 4px;
     left: -11px;
+    color: #C0C0C0;
 }
 .flexs-row .colum-two .icon-hover2 {
     position: relative;
