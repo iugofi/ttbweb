@@ -103,7 +103,7 @@
                             value with diverse web-readiness. Collaboratively transition wireless customer service without
                             goal-oriented catalysts for change. Collaboratively.
                         </p> --}}
-
+                        <div class="row flex-row">
                         <div class="grid grid-rows-2 grid-flow-col gap-1">
                             <div class="row-span-3">
                                 <img src="assets/img/Best-Services-Iocn-1.png" class="img-fluid !inline-flex backimage">
@@ -149,7 +149,7 @@
                                     tempor. Lorem ipsum dolor sit amet, eiusmod tempor.</p>
                             </div>
                         </div>
-                        
+                    </div>
                     </div>
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 customize-image text-center" style="margin: auto;">
                         <div class="lg:text-start !flex items-center lg:justify-start justify-center">
