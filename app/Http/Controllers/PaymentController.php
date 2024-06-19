@@ -179,5 +179,89 @@ class PaymentController extends Controller
     }
 
     }
+
+
+    public function successpay(Request $request)
+    {
+
+        if(isset($request->session_id) && isset($request->vid))
+    {
+            $session_id = $request->session_id;
+            $vid = decrypt($request->vid);
+            $stripe = new \Stripe\StripeClient(config('stripe.stripe_sk'));
+            $response=$stripe->checkout->sessions->retrieve($request->session_id);
+            // dd($response->status);
+            $pay_id=$response->payment_intent;
+            $emailcust=$response->customer_email;
+            $user_id = Users::where('email', $emailcust)
+            ->first();
+
+
+            $getkey = TTBKEY::where('product_id', $vid)->where('is_key_used', 0)->orderBy('created_at', 'ASC')->limit(1)->first();
+            if ($getkey) {
+                $getkey->is_key_used = 1;
+                $main_key = $getkey->main_key;
+                $getkey->save();
+
+
+                Mail::send('Mail.sendkey', ['main_key' => $main_key], function ($message) use ($response) {
+                    $message->to($response->customer_email)->subject('TTB Internet Security Vpn Key');
+                });
+
+            } else {
+                // Default main key value when no product key is available
+                $main_key = 'N/A';
+                $not_send_key=new Get_not_send_key();
+                $not_send_key->user_id = $user_id ? $user_id->id : null;
+                $not_send_key->session_id = $response->id;
+                $not_send_key->pay_id = $pay_id;
+                $not_send_key->product_id = $vid;
+                $not_send_key->status=0;
+                $not_send_key->save();
+
+
+            }
+
+            $payment = new Payments();
+            $payment->user_id = $user_id ? $user_id->id : null;
+            $payment->session_id = $response->id;
+            $payment->pay_id = $pay_id;
+            $payment->product_id = $vid;
+            $payment->amount_total = $response->amount_total / 100;
+            $payment->currency = $response->currency;
+            $payment->payment_status = $response->payment_status;
+            $payment->payment_method_types = json_encode($response->payment_method_types);
+            $payment->customer_name = $response->customer_details->name;
+            $payment->customer_phone = $response->customer_details->phone;
+            $payment->livemode = $response->livemode;
+            $payment->country = $response->customer_details->address->country;
+            $payment->state = $response->customer_details->address->state;
+            $payment->city = $response->customer_details->address->city;
+            $payment->line1 = $response->customer_details->address->line1;
+            $payment->line2 = $response->customer_details->address->line2;
+            $payment->postal_code = $response->customer_details->address->postal_code;
+            $payment->product_key = $main_key;
+            $payment->save();
+
+
+
+
+            return redirect()->route('user.success');
+
+            }else
+            {
+                return redirect()->route('user.cancel');
+            }
+    }
+
+    public function cancelpay()
+    {
+        return "payment is canceled";
+    }
+
+    public function success()
+    {
+        return view('User.success');
+    }
    
 }
