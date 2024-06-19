@@ -46,7 +46,7 @@
         <!-- End::virus removal service section one -->
 
         <!-- Start::virus removal service section two -->
-        <div class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 ">
+        <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] " id="features">
             <div class="container">
                 <div class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
                     
