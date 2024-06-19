@@ -83,12 +83,9 @@
         <!-- End::virus removal service section two -->
         <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70" id="features">
             <div class="container text-center">
-                <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">What We Do</span>
-                <h3 class="lg:text-center font-semibold mb-2 text-[2rem]">Solutions Coustomers Have<br>
-                    Boilt With Instabase</h3><br>
-                    <div class="text-[1rem] mb-[3rem] !text-dark opacity-[0.9] ">Collaboratively actualize
-                        excellent schemas without effective <br> models. Synergistically engineer functionalized
-                        applications rather <br> than backend e-commerce.</div>
+                <h3 class="lg:text-center font-semibold mb-2 text-[2rem]">TTB as Your Personal Cybersecurity Team</h3><br>
+                    <div class="text-[1rem] mb-[3rem] !text-dark opacity-[0.9] ">Our skilled technicians are your partners in securing your digital life. With years of experience, they'll remotely connect<br>
+                         to your device and ensure it's virus-free, keeping your personal information safe.</div>
             </div>
         </section>
 
