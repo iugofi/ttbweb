@@ -90,7 +90,7 @@
                                             <p class="mb-0 text-[.6875rem] opacity-[0.5] text-white">Total Security</p>
                                         </div> --}}
                                         <div class="me-6">
-                                            <p class="font-bold text-[1.25rem] text-white text-shadow mb-0">12</p>
+                                            <p class="font-bold text-[1.25rem] text-white text-shadow mb-0">{{$keydetails->count}}</p>
                                             <p class="mb-0 text-[.6875rem] opacity-[0.5] text-white">Vpn Shield</p>
                                         </div>
                                     </div>
