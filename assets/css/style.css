@@ -51957,6 +51957,31 @@ section#about-features {
     padding: 0 4px;
     left: -11px;
 }
+.colum-one:hover .icon-hover1 {
+    color: #12D2B3;
+}
+.colum-two:hover .icon-hover1 {
+    color: #12D2B3;
+}
+.colum-three:hover .icon-hover1 {
+    color: #12D2B3;
+}
+.colum-four:hover .icon-hover1 {
+    color: #12D2B3;
+}
+.colum-one:hover h5 {
+    color: #12D2B3;
+}
+.colum-two:hover h5 {
+    color: #12D2B3;
+}
+.colum-three:hover h5 {
+    color: #12D2B3;
+}
+.colum-four:hover h5 {
+    color: #12D2B3;
+}
+
 
 
 
