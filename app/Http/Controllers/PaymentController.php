@@ -204,7 +204,7 @@ class PaymentController extends Controller
                 $getkey->save();
 
 
-                Mail::send('emails.sendkey', ['main_key' => $main_key], function ($message) use ($response) {
+                Mail::send('Mail.sendkey', ['main_key' => $main_key], function ($message) use ($response) {
                     $message->to($response->customer_email)->subject('TTB Internet Security Vpn Key');
                 });
 
