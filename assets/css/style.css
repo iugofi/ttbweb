@@ -51934,6 +51934,42 @@ section#about-features {
     width: 10rem;
     animation: move-up-down 5s ease-in-out 4s infinite;
 }
+.flex-row {
+    border-left: 1px solid;
+}
+.flex-row .icon-hover1 {
+    position: relative;
+    padding: 0 4px;
+    left: -11px;
+}
+.flex-row .icon-hover2 {
+    position: relative;
+    padding: 0 4px;
+    left: -11px;
+}
+.flex-row .icon-hover3 {
+    position: relative;
+    padding: 0 4px;
+    left: -11px;
+}
+.flex-row .icon-hover4 {
+    position: relative;
+    padding: 0 4px;
+    left: -11px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* End:: virus removal page css */
