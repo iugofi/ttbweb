@@ -52,7 +52,11 @@
                     
                     <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-=6 md:col-span-6 pt-5 pb-0 lg:px-2 !text-start  virus-inner-one">
                         
+                        <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 md:col-span-6 pt-5 pb-0 lg:px-2 !text-start virus-inner-shield">
                         
+                    <img src="https://www.nighthawk-routerlogin.com/assets/img/shield-Icon.png" alt="" class="img-fluid">
+                        </div>
+
                         <p class=" text-[1rem] text-[#8c9097] dark:text-white/50 mb-4" style="border-radius: 5px;">Viruses and malware can wreak havoc on your devices. They maycompromise
                              your privacy and device security. TTB is an expert at smartphones, and other gadgets. compromise your privacy 
                              and device security. TTB is an expert aT identifying and removing these digital pests from your computers, 
@@ -71,7 +75,8 @@
                             compromise your privacy and device security.
                         </p>
                 <img src="https://www.nighthawk-routerlogin.com/assets/img/Scnd-section-img.png" alt="" class="img-fluid" style="margin:auto; border-radius: 20px;">
-                    </div></div>
+                    </div>
+                </div>
             </div>
         </div>
 
