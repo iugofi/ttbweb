@@ -51912,7 +51912,7 @@ section#about-features {
     height: 43rem;
     background-position: center;
     background-repeat: no-repeat;
-    /* background-size: cover; */
+    background-size: cover;
     margin: 5rem 0 auto;
     object-fit: cover;
 }
@@ -51920,6 +51920,9 @@ section#about-features {
     background: #F5F6FA;
     height: auto;
     padding: 3rem 5rem 3rem 2rem;
+}
+.dark .virus-inner-one p {
+    background: #1E1F21;
 }
 .virus-inner-two {
     width: 85%;
@@ -51962,6 +51965,17 @@ section#about-features {
     left: -11px;
     color: #C0C0C0;
 }
+.bg-two img {
+    width: 90% !important;
+}
+.bg-imgs img {
+    width: 90% !important;
+}
+.flexs-row .col-span-2 {
+    position: relative;
+    left: -4rem;
+    margin: 0 3rem auto;
+}
 .colum-one:hover .icon-hover1 {
     color: #12D2B3;
 }
@@ -51991,9 +52005,12 @@ section#about-features {
 }
 .bg-imgs {
     position: absolute;
-    right: -3rem;
+    right: 0rem;
     animation: rotate 30s linear infinite;
-    width: 100%;
+    width: 90%;
+    bottom: 0.5rem;
+    display: flex;
+    justify-content: center;
 }
 
 

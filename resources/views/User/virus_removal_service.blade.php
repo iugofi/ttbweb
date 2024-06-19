@@ -57,7 +57,7 @@
                     <img src="https://www.nighthawk-routerlogin.com/assets/img/shield-Icon.png" alt="" class="img-fluid">
                         </div>
 
-                        <p class=" text-[1rem] text-[#8c9097] dark:text-dark mb-4" style="border-radius: 5px;">Viruses and malware can wreak havoc on your devices. They maycompromise
+                        <p class=" text-[1rem] text-[#8c9097] dark:text-white/50 mb-4" style="border-radius: 5px;">Viruses and malware can wreak havoc on your devices. They maycompromise
                              your privacy and device security. TTB is an expert at smartphones, and other gadgets. compromise your privacy 
                              and device security. TTB is an expert aT identifying and removing these digital pests from your computers, 
                              identifying and removing these digital pests from your computers,<br><br>
@@ -85,8 +85,8 @@
         <!-- Start::virus removal service section three -->
         <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70" id="features">
             <div class="container text-center">
-                <h3 class="lg:text-center font-semibold mb-2 text-[2rem]">TTB as Your Personal Cybersecurity Team</h3><br>
-                    <div class="text-[1rem] mb-[3rem] !text-dark opacity-[0.9] ">Our skilled technicians are your partners in securing your digital life. With years of experience, they'll remotely connect<br>
+                <h3 class="lg:text-center font-semibold dark:text-white/50 mb-2 text-[2rem]">TTB as Your Personal Cybersecurity Team</h3><br>
+                    <div class="text-[1rem] mb-[3rem] !text-dark dark:text-white/50 opacity-[0.9] ">Our skilled technicians are your partners in securing your digital life. With years of experience, they'll remotely connect<br>
                          to your device and ensure it's virus-free, keeping your personal information safe.</div>
             </div>
         </section>
@@ -121,10 +121,10 @@
                                 <i class="fa-solid fa-circle icon-hover2"></i>
                                 <img src="assets/img/Best-Services-Iocn-2.png " class="img-fluid !inline-flex backimage"></div>
                             <div class="col-span-2">
-                                <h5 class="dark-text px-0">System Cleanup</h5>
+                                <h5 class="dark-text px-6">System Cleanup</h5>
                             </div>
                             <div class="row-span-2 col-span-2">
-                                <p class="text-gray-light px-0">Restore your device's speed and performance.</p>
+                                <p class="text-gray-light px-6">Restore your device's speed and performance.</p>
                             </div>
                         </div><br>
                         <div class="grid grid-rows-2 grid-flow-col pt-4 gap-1 colum-three">
@@ -143,10 +143,10 @@
                                 <i class="fa-solid fa-circle icon-hover4"></i>
                                 <img src="assets/img/Best-Services-Iocn-2.png " class="img-fluid !inline-flex backimage"></div>
                             <div class="col-span-2">
-                                <h5 class="dark-text px-0">Data Backup</h5>
+                                <h5 class="dark-text px-6">Data Backup</h5>
                             </div>
                             <div class="row-span-2 col-span-2">
-                                <p class="text-gray-light px-0">Safeguard your important files before we start.</p>
+                                <p class="text-gray-light px-6">Safeguard your important files before we start.</p>
                             </div>
                         </div>
                         </div>
