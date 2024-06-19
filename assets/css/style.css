@@ -51912,8 +51912,9 @@ section#about-features {
     height: 43rem;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
     margin: 5rem 0 auto;
+    object-fit: cover;
 }
 .virus-inner-one p {
     background: #F5F6FA;
