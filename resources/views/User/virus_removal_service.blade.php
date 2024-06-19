@@ -121,10 +121,10 @@
                                 <i class="fa-solid fa-circle icon-hover2"></i>
                                 <img src="assets/img/Best-Services-Iocn-2.png " class="img-fluid !inline-flex backimage"></div>
                             <div class="col-span-2">
-                                <h5 class="dark-text px-0">System Cleanup</h5>
+                                <h5 class="dark-text px-6">System Cleanup</h5>
                             </div>
                             <div class="row-span-2 col-span-2">
-                                <p class="text-gray-light px-0">Restore your device's speed and performance.</p>
+                                <p class="text-gray-light px-6">Restore your device's speed and performance.</p>
                             </div>
                         </div><br>
                         <div class="grid grid-rows-2 grid-flow-col pt-4 gap-1 colum-three">
@@ -143,10 +143,10 @@
                                 <i class="fa-solid fa-circle icon-hover4"></i>
                                 <img src="assets/img/Best-Services-Iocn-2.png " class="img-fluid !inline-flex backimage"></div>
                             <div class="col-span-2">
-                                <h5 class="dark-text px-0">Data Backup</h5>
+                                <h5 class="dark-text px-6">Data Backup</h5>
                             </div>
                             <div class="row-span-2 col-span-2">
-                                <p class="text-gray-light px-0">Safeguard your important files before we start.</p>
+                                <p class="text-gray-light px-6">Safeguard your important files before we start.</p>
                             </div>
                         </div>
                         </div>
