@@ -48,9 +48,9 @@
         <!-- Start::virus removal service section two -->
         <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] " id="features">
             <div class="container">
-                <div class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center virus-inner-one">
+                <div class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
                     
-                    <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-=6 md:col-span-6 pt-5 pb-0 lg:px-2 !text-start  my-auto">
+                    <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-=6 md:col-span-6 pt-5 pb-0 lg:px-2 !text-start  virus-inner-one">
                         
                         
                         <p class=" text-[1rem] text-[#8c9097] dark:text-white/50 mb-4 ">Viruses and malware can wreak havoc on your devices. They maycompromise
@@ -61,7 +61,7 @@
                             security tools and practices to safeguard it from future threats.
                         </p>
                     </div>
-                <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 md:col-span-6 pt-5 pb-0 lg:px-2 !text-start  my-auto">
+                <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 md:col-span-6 pt-5 pb-0 lg:px-2 !text-start ">
                         
                         <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">Understanding the Threat: Identify<br>
                              and Eliminate Viruses &amp; Malware<br></h4>
