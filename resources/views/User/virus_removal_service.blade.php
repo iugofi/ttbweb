@@ -81,6 +81,8 @@
         </div>
 
         <!-- End::virus removal service section two -->
+
+        <!-- Start::virus removal service section three -->
         <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70" id="features">
             <div class="container text-center">
                 <h3 class="lg:text-center font-semibold mb-2 text-[2rem]">TTB as Your Personal Cybersecurity Team</h3><br>
@@ -89,8 +91,10 @@
             </div>
         </section>
 
-        <!-- Start::virus removal service section three -->
-        <div class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 ">
+        <!-- End::virus removal service section three -->
+
+        <!-- Start::virus removal service section four -->
+        <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] ">
             <div class="container"> 
                 <div class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 pt-5 pb-0 lg:px-2 !text-start  my-auto">
@@ -157,7 +161,7 @@
             </div>
         </div>
 
-        <!-- End::virus removal service section three -->
+        <!-- End::virus removal service section four -->
 
 
 
