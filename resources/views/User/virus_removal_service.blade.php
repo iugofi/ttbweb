@@ -48,7 +48,7 @@
         <!-- Start::virus removal service section two -->
         <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] " id="features">
             <div class="container">
-                <div class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
+                <div class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center virus-inner-one">
                     
                     <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-=6 md:col-span-6 pt-5 pb-0 lg:px-2 !text-start  my-auto">
                         
