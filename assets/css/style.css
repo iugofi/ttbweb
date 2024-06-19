@@ -52005,9 +52005,12 @@ section#about-features {
 }
 .bg-imgs {
     position: absolute;
-    right: -3rem;
+    right: 0rem;
     animation: rotate 30s linear infinite;
-    width: 100%;
+    width: 90%;
+    bottom: 0.5rem;
+    display: flex;
+    justify-content: center;
 }
 
 
