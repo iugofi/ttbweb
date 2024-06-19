@@ -57,7 +57,9 @@
                              your privacy and device security. TTB is an expert at smartphones, and other gadgets. compromise your privacy 
                              and device security. TTB is an expert aT identifying and removing these digital pests from your computers, 
                              identifying and removing these digital pests from your computers,<br><br>
-                            We don't just remove viruses; we equip your device with the latest<br>
+                            We don't just remove viruses; we equip your device with the latest
+                            security tools and practices to safeguard it from future threats.<br>
+                            We don't just remove viruses; we equip your device with the latest
                             security tools and practices to safeguard it from future threats.
                         </p>
                     </div>
