@@ -51908,12 +51908,13 @@ section#about-features {
 
 /* Start:: virus removal page css */
 .virus-removal {
-    background-image: url("/assets/img/Banner-3.png");
+    background-image: url("/assets/img/Banner-image.png");
     height: 43rem;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
     margin: 5rem 0 auto;
+    object-fit: cover;
 }
 .virus-inner-one p {
     background: #F5F6FA;
@@ -51934,6 +51935,80 @@ section#about-features {
     width: 10rem;
     animation: move-up-down 5s ease-in-out 4s infinite;
 }
+.flexs-row {
+    border-left: 1px solid #C0C0C0;
+}
+.flexs-row .colum-one .icon-hover1 {
+    position: relative;
+    padding: 0 4px;
+    left: -11px;
+    color: #C0C0C0;
+}
+.flexs-row .colum-two .icon-hover2 {
+    position: relative;
+    padding: 0 4px;
+    left: -11px;
+    color: #C0C0C0;
+}
+.flexs-row .colum-three .icon-hover3 {
+    position: relative;
+    padding: 0 4px;
+    left: -11px;
+    color: #C0C0C0;
+}
+.flexs-row .colum-four .icon-hover4 {
+    position: relative;
+    padding: 0 4px;
+    left: -11px;
+    color: #C0C0C0;
+}
+.colum-one:hover .icon-hover1 {
+    color: #12D2B3;
+}
+.colum-two:hover .icon-hover2 {
+    color: #12D2B3;
+}
+.colum-three:hover .icon-hover3 {
+    color: #12D2B3;
+}
+.colum-four:hover .icon-hover4 {
+    color: #12D2B3;
+}
+.colum-one:hover h5 {
+    color: #12D2B3;
+}
+.colum-two:hover h5 {
+    color: #12D2B3;
+}
+.colum-three:hover h5 {
+    color: #12D2B3;
+}
+.colum-four:hover h5 {
+    color: #12D2B3;
+}
+.bg-img-section {
+    position: relative;
+}
+.bg-imgs {
+    position: absolute;
+    right: -3rem;
+    animation: rotate 30s linear infinite;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* End:: virus removal page css */

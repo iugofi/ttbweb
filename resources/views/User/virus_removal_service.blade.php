@@ -102,58 +102,61 @@
                         {{-- <p class=" text-[0.9rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
                             value with diverse web-readiness. Collaboratively transition wireless customer service without
                             goal-oriented catalysts for change. Collaboratively.
-                        </p> --}}
-                        <div class="row flex-row">
-                        <div class="grid grid-rows-2 grid-flow-col gap-1">
+                        </p> --}} 
+                        <div class="row flexs-row">
+                        <div class="grid grid-rows-2 grid-flow-col gap-1 colum-one">
                             <div class="row-span-3">
+                                <i class="fa-solid fa-circle icon-hover1"></i>
                                 <img src="assets/img/Best-Services-Iocn-1.png" class="img-fluid !inline-flex backimage">
                             </div>
                             <div class="col-span-2">
-                                <h5 class="dark-text px-6">Best Services</h5>
+                                <h5 class="dark-text px-6">Virus and Malware Removal</h5>
                             </div>
                             <div class="row-span-2 col-span-2">
-                                <p class="text-gray-light px-6">Lorem ipsum dolor sit amet, eiusmod
-                                    tempor. Lorem ipsum dolor sit amet, eiusmod tempor.</p>
+                                <p class="text-gray-light px-6">We'll eradicate all traces of infections from your device.</p>
                             </div>
                         </div><br>
-                        <hr style="width:94%">
-                        <div class="grid grid-rows-2 grid-flow-col pt-4 gap-1">
-                            <div class="row-span-3"><img src="assets/img/Best-Services-Iocn-2.png " class="img-fluid !inline-flex backimage"></div>
+                        <div class="grid grid-rows-2 grid-flow-col pt-4 gap-1 colum-two">
+                            <div class="row-span-3">
+                                <i class="fa-solid fa-circle icon-hover2"></i>
+                                <img src="assets/img/Best-Services-Iocn-2.png " class="img-fluid !inline-flex backimage"></div>
                             <div class="col-span-2">
-                                <h5 class="dark-text px-6">Support 24/7</h5>
+                                <h5 class="dark-text px-0">System Cleanup</h5>
                             </div>
                             <div class="row-span-2 col-span-2">
-                                <p class="text-gray-light px-6">Lorem ipsum dolor sit amet, eiusmod
-                                    tempor. Lorem ipsum dolor sit amet, eiusmod tempor.</p>
+                                <p class="text-gray-light px-0">Restore your device's speed and performance.</p>
                             </div>
                         </div><br>
-                        <hr style="width:94%">
-                        <div class="grid grid-rows-2 grid-flow-col pt-4 gap-1">
-                            <div class="row-span-3"><img src="assets/img/Best-Services-Iocn-2.png " class="img-fluid !inline-flex backimage"></div>
+                        <div class="grid grid-rows-2 grid-flow-col pt-4 gap-1 colum-three">
+                            <div class="row-span-3">
+                                <i class="fa-solid fa-circle icon-hover3"></i>
+                                <img src="assets/img/Best-Services-Iocn-2.png " class="img-fluid !inline-flex backimage"></div>
                             <div class="col-span-2">
-                                <h5 class="dark-text px-6">Support 24/7</h5>
+                                <h5 class="dark-text px-6">Security Recommendations</h5>
                             </div>
                             <div class="row-span-2 col-span-2">
-                                <p class="text-gray-light px-6">Lorem ipsum dolor sit amet, eiusmod
-                                    tempor. Lorem ipsum dolor sit amet, eiusmod tempor.</p>
+                                <p class="text-gray-light px-6">Receive expert advice on keeping your device safe.</p>
                             </div>
                         </div>
-                        <hr style="width:94%">
-                        <div class="grid grid-rows-2 grid-flow-col pt-4 gap-1">
-                            <div class="row-span-3"><img src="assets/img/Best-Services-Iocn-2.png " class="img-fluid !inline-flex backimage"></div>
+                        <div class="grid grid-rows-2 grid-flow-col pt-4 gap-1 colum-four">
+                            <div class="row-span-3">
+                                <i class="fa-solid fa-circle icon-hover4"></i>
+                                <img src="assets/img/Best-Services-Iocn-2.png " class="img-fluid !inline-flex backimage"></div>
                             <div class="col-span-2">
-                                <h5 class="dark-text px-6">Support 24/7</h5>
+                                <h5 class="dark-text px-0">Data Backup</h5>
                             </div>
                             <div class="row-span-2 col-span-2">
-                                <p class="text-gray-light px-6">Lorem ipsum dolor sit amet, eiusmod
-                                    tempor. Lorem ipsum dolor sit amet, eiusmod tempor.</p>
+                                <p class="text-gray-light px-0">Safeguard your important files before we start.</p>
                             </div>
                         </div>
+                        </div>
                     </div>
-                    </div>
-                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 customize-image text-center" style="margin: auto;">
-                        <div class="lg:text-start !flex items-center lg:justify-start justify-center">
-                            <img src="https://www.nighthawk-routerlogin.com/assets/img/Last-Section-image.jpg" alt="" class="img-fluid">
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 customize-image text-center bg-img-section" style="margin: auto;">
+                        <div class="bg-imgs">
+                            <img src="https://www.nighthawk-routerlogin.com/assets/img/Third-section-bg.png" alt="" class="img-fluid ">
+                        </div>
+                        <div class="lg:text-start !flex items-center lg:justify-start justify-center bg-two">
+                            <img src="https://www.nighthawk-routerlogin.com/assets/img/section-Third-img.png" alt="" class="img-fluid ">
                         </div>
                         
                     </div>
