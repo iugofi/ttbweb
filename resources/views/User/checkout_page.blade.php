@@ -64,6 +64,8 @@
                                                         <input type="text" name="last_name" id="last_name"
                                                             class="form-control" placeholder="Last name"
                                                             aria-label="Last name">
+                                                        <div class="invalid-feedback" id="last-name-error"></div>
+
                                                     </div>
                                                     <div
                                                         class="md:col-span-12 col-span-12 md:flex md:justify-end check-btn">
