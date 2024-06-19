@@ -274,6 +274,7 @@ Route::delete('/keydelete/{id}', [AdminController::class, 'keydelete'])->name('d
 Route::get('/fpay/{id}',[PaymentController::class,'fpayitem'])->name('user.fpay');
 Route::post('/otpcheckfpay',[PaymentController::class,'otpcheckfpay'])->name('user.otpcheckfpay');
 Route::post('otpverifyfpay',[PaymentController::class,'otpverifyfpay'])->name('user.otpverifyfpay');
+Route::post('stripefpay/checkout',[TestPayController::class,'stripeCheckoutfpay'])->name('user.stripeCheckoutfpay');
 
 
 

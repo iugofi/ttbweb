@@ -115,5 +115,69 @@ class PaymentController extends Controller
     });
 
    }
+
+   public function stripeCheckoutfpay(Request $request)
+    {
+        $vid=encrypt($request->vpnid);
+
+        // $vpnshield = DB::table('vpnshield')
+        // ->join('storepick', 'storepick.PICK_ID', '=', 'vpnshield.plan_name')
+        // ->select('vpnshield.id', 'storepick.PICK_TEXT as name', 'vpnshield.price','vpnshield.price', 'vpnshield.is_coupons', 'vpnshield.coupons', DB::raw('(vpnshield.price)/12 AS monthlyprice'))
+        // ->where('storepick.STORE_ID','=','plan_name')
+        // ->where('vpnshield.id',decrypt($vid))
+        // ->first();
+
+
+        $vpnshield = DB::table('product_details')
+        ->join('planname', 'planname.plan_id', '=', 'product_details.plan_id')
+        ->join('storepick', 'storepick.PICK_ID', '=', 'product_details.key_type')
+        ->where('storepick.STORE_ID','=','key_type')
+        ->where('product_details.id',decrypt($vid))
+        ->first();
+
+        
+
+    $stripe = new \Stripe\StripeClient('sk_test_51Oetf6SHWK0fmSdmYx9rUwrdAgJdSQi5NpurLOaBuCHTcF7gm4o3VKPwbMWIrKE5twgHUqckdKZFJ3GzqNoXxsZD00zZGoUyuF');
+
+
+    $allowPromotionCodes = $vpnshield->is_coupons ? true : false;
+   
+    $response=$stripe->checkout->sessions->create([
+    'line_items' => [
+        [
+        'price_data' => [
+            'currency' => 'usd',
+            'product_data' => ['name' => $vpnshield->name],
+            'unit_amount' => $vpnshield->price*100,
+            
+        
+        ],
+        'quantity' => 1,
+        ],
+    ],
+    
+      'mode' => 'payment',
+     'customer_email' =>$request->emailpay,
+     'allow_promotion_codes' => $allowPromotionCodes,
+    //  'allow_promotion_codes' => true,
+    // 'discounts' => [['coupon' => 'free_period']],
+
+    'success_url' => route('user.successpay', ['vid' => $vid]) . '?session_id={CHECKOUT_SESSION_ID}',
+    'cancel_url' => route('user.cancelpay'),
+    ]);
+
+   
+
+    //  dd($response);
+
+
+    if(isset($response->id) && $response->id !=''){
+        return redirect($response->url);
+    }
+    else{
+        return redirect()->route('user.cancelpay');
+    }
+
+    }
    
 }
