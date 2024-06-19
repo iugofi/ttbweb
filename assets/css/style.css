@@ -51915,7 +51915,11 @@ section#about-features {
     background-size: cover;
     margin: 5rem 0 auto;
 }
-
+.virus-inner-one p {
+    background: #F5F6FA;
+    height: 100%;
+    padding: 4rem 2rem;
+}
 /* End:: virus removal page css */
 /* kunal-verma 23-04-2024 */
 
