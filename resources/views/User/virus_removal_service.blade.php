@@ -102,7 +102,7 @@
                         {{-- <p class=" text-[0.9rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
                             value with diverse web-readiness. Collaboratively transition wireless customer service without
                             goal-oriented catalysts for change. Collaboratively.
-                        </p> --}}
+                        </p> --}} 
                         <div class="row flexs-row">
                         <div class="grid grid-rows-2 grid-flow-col gap-1 colum-one">
                             <div class="row-span-3">
@@ -110,11 +110,10 @@
                                 <img src="assets/img/Best-Services-Iocn-1.png" class="img-fluid !inline-flex backimage">
                             </div>
                             <div class="col-span-2">
-                                <h5 class="dark-text px-6">Best Services</h5>
+                                <h5 class="dark-text px-6">Virus and Malware Removal</h5>
                             </div>
                             <div class="row-span-2 col-span-2">
-                                <p class="text-gray-light px-6">Lorem ipsum dolor sit amet, eiusmod
-                                    tempor. Lorem ipsum dolor sit amet, eiusmod tempor.</p>
+                                <p class="text-gray-light px-6">We'll eradicate all traces of<br> infections from your device.</p>
                             </div>
                         </div><br>
                         <div class="grid grid-rows-2 grid-flow-col pt-4 gap-1 colum-two">
@@ -122,11 +121,10 @@
                                 <i class="fa-solid fa-circle icon-hover2"></i>
                                 <img src="assets/img/Best-Services-Iocn-2.png " class="img-fluid !inline-flex backimage"></div>
                             <div class="col-span-2">
-                                <h5 class="dark-text px-6">Support 24/7</h5>
+                                <h5 class="dark-text px-6">System Cleanup</h5>
                             </div>
                             <div class="row-span-2 col-span-2">
-                                <p class="text-gray-light px-6">Lorem ipsum dolor sit amet, eiusmod
-                                    tempor. Lorem ipsum dolor sit amet, eiusmod tempor.</p>
+                                <p class="text-gray-light px-6">Restore your device's speed<br> and performance.</p>
                             </div>
                         </div><br>
                         <div class="grid grid-rows-2 grid-flow-col pt-4 gap-1 colum-three">
@@ -134,11 +132,10 @@
                                 <i class="fa-solid fa-circle icon-hover3"></i>
                                 <img src="assets/img/Best-Services-Iocn-2.png " class="img-fluid !inline-flex backimage"></div>
                             <div class="col-span-2">
-                                <h5 class="dark-text px-6">Support 24/7</h5>
+                                <h5 class="dark-text px-6">Security Recommendations</h5>
                             </div>
                             <div class="row-span-2 col-span-2">
-                                <p class="text-gray-light px-6">Lorem ipsum dolor sit amet, eiusmod
-                                    tempor. Lorem ipsum dolor sit amet, eiusmod tempor.</p>
+                                <p class="text-gray-light px-6">Receive expert advice on keeping<br> your device safe.</p>
                             </div>
                         </div>
                         <div class="grid grid-rows-2 grid-flow-col pt-4 gap-1 colum-four">
@@ -146,11 +143,10 @@
                                 <i class="fa-solid fa-circle icon-hover4"></i>
                                 <img src="assets/img/Best-Services-Iocn-2.png " class="img-fluid !inline-flex backimage"></div>
                             <div class="col-span-2">
-                                <h5 class="dark-text px-6">Support 24/7</h5>
+                                <h5 class="dark-text px-6">Data Backup</h5>
                             </div>
                             <div class="row-span-2 col-span-2">
-                                <p class="text-gray-light px-6">Lorem ipsum dolor sit amet, eiusmod
-                                    tempor. Lorem ipsum dolor sit amet, eiusmod tempor.</p>
+                                <p class="text-gray-light px-6">Safeguard your important files<br> before we start.</p>
                             </div>
                         </div>
                         </div>
