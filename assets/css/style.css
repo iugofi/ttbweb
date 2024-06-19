@@ -51971,6 +51971,7 @@ section#about-features {
 .flexs-row .col-span-2 {
     position: relative;
     left: -4rem;
+    margin: 0 3rem auto;
 }
 .colum-one:hover .icon-hover1 {
     color: #12D2B3;
