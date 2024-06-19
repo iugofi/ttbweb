@@ -81,7 +81,16 @@
         </div>
 
         <!-- End::virus removal service section two -->
-
+        <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70" id="features">
+            <div class="container text-center">
+                <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">What We Do</span>
+                <h3 class="lg:text-center font-semibold mb-2 text-[2rem]">Solutions Coustomers Have<br>
+                    Boilt With Instabase</h3><br>
+                    <div class="text-[1rem] mb-[3rem] !text-dark opacity-[0.9] ">Collaboratively actualize
+                        excellent schemas without effective <br> models. Synergistically engineer functionalized
+                        applications rather <br> than backend e-commerce.</div>
+            </div>
+        </section>
 
         <!-- Start::virus removal service section three -->
         <div class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 ">
