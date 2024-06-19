@@ -51985,6 +51985,15 @@ section#about-features {
 .colum-four:hover h5 {
     color: #12D2B3;
 }
+.bg-img-section {
+    position: relative;
+}
+.bg-imgs {
+    position: absolute;
+    right: -3rem;
+    animation: rotate 30s linear infinite;
+    width: 100%;
+}
 
 
 
