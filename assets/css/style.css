@@ -51924,6 +51924,9 @@ section#about-features {
     width: 85%;
     margin: auto;
 }
+.virus-inner-one {
+    position: relative;
+}
 .virus-inner-shield {
     position: absolute;
     right: -70px;
