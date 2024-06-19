@@ -65,8 +65,8 @@
                     </div>
                 <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 md:col-span-6 pt-5 pb-0 lg:px-2 !text-start virus-inner-two">
                         
-                        <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">Understanding the Threat: Identify  and<br>
-                        Eliminate Viruses Malware<br></h4>
+                        <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">Understanding the Threat: Identify <br>
+                            and Eliminate Viruses Malware<br></h4>
                         <p class=" text-[1rem] text-[#8c9097] dark:text-white/50 mb-4 ">Viruses and malware can wreak havoc on your devices. They may<br>
                             compromise your privacy and device security.
                         </p>
