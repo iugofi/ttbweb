@@ -31,9 +31,15 @@ class UserauthController extends Controller
             ->select('payments.*', 'product_details.*')
             ->get();
             
-          
+            $keydetails = DB::table('payments')
+            ->select(DB::raw('COUNT(product_details.key_type) as count'), 'product_details.key_type')
+            ->join('product_details', 'product_details.id', '=', 'payments.product_id')
+            ->where('payments.user_id', 28)
+            ->where('payments.product_key', '!=', 'N/A')
+            ->groupBy('product_details.key_type')
+            ->first();
             
-            return view('User.myprofile', ['loggedInUser' => $this->loggedInUser, 'user_data' => $this->userData,'productdetails' => $productdetails]);
+            return view('User.myprofile', ['loggedInUser' => $this->loggedInUser, 'user_data' => $this->userData,'productdetails' => $productdetails,'keydetails' => $keydetails]);
         } else {
             return redirect('/signin');
         }
