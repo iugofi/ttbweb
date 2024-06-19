@@ -117,7 +117,6 @@
                                     tempor. Lorem ipsum dolor sit amet, eiusmod tempor.</p>
                             </div>
                         </div><br>
-                        <hr style="width:94%">
                         <div class="grid grid-rows-2 grid-flow-col pt-4 gap-1 colum-two">
                             <div class="row-span-3">
                                 <i class="fa-solid fa-circle icon-hover2"></i>
@@ -130,7 +129,6 @@
                                     tempor. Lorem ipsum dolor sit amet, eiusmod tempor.</p>
                             </div>
                         </div><br>
-                        <hr style="width:94%">
                         <div class="grid grid-rows-2 grid-flow-col pt-4 gap-1 colum-three">
                             <div class="row-span-3">
                                 <i class="fa-solid fa-circle icon-hover3"></i>
@@ -143,7 +141,6 @@
                                     tempor. Lorem ipsum dolor sit amet, eiusmod tempor.</p>
                             </div>
                         </div>
-                        <hr style="width:94%">
                         <div class="grid grid-rows-2 grid-flow-col pt-4 gap-1 colum-four">
                             <div class="row-span-3">
                                 <i class="fa-solid fa-circle icon-hover4"></i>
@@ -156,11 +153,14 @@
                                     tempor. Lorem ipsum dolor sit amet, eiusmod tempor.</p>
                             </div>
                         </div>
-                    </div>
+                        </div>
                     </div>
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 customize-image text-center" style="margin: auto;">
+                        <div class="bg-imgs">
+                            <img src="https://www.nighthawk-routerlogin.com/assets/img/Third-section-bg.png" alt="" class="img-fluid">
+                        </div>
                         <div class="lg:text-start !flex items-center lg:justify-start justify-center">
-                            <img src="https://www.nighthawk-routerlogin.com/assets/img/Last-Section-image.jpg" alt="" class="img-fluid">
+                            <img src="https://www.nighthawk-routerlogin.com/assets/img/section-Third-img.png" alt="" class="img-fluid">
                         </div>
                         
                     </div>
