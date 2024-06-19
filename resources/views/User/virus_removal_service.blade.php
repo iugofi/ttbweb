@@ -104,7 +104,7 @@
                             goal-oriented catalysts for change. Collaboratively.
                         </p> --}}
                         <div class="row flexs-row">
-                        <div class="grid grid-rows-2 grid-flow-col gap-1">
+                        <div class="grid grid-rows-2 grid-flow-col gap-1 colum-one">
                             <div class="row-span-3">
                                 <i class="fa-solid fa-circle icon-hover1"></i>
                                 <img src="assets/img/Best-Services-Iocn-1.png" class="img-fluid !inline-flex backimage">
@@ -118,7 +118,7 @@
                             </div>
                         </div><br>
                         <hr style="width:94%">
-                        <div class="grid grid-rows-2 grid-flow-col pt-4 gap-1">
+                        <div class="grid grid-rows-2 grid-flow-col pt-4 gap-1 colum-two">
                             <div class="row-span-3">
                                 <i class="fa-solid fa-circle icon-hover2"></i>
                                 <img src="assets/img/Best-Services-Iocn-2.png " class="img-fluid !inline-flex backimage"></div>
@@ -131,7 +131,7 @@
                             </div>
                         </div><br>
                         <hr style="width:94%">
-                        <div class="grid grid-rows-2 grid-flow-col pt-4 gap-1">
+                        <div class="grid grid-rows-2 grid-flow-col pt-4 gap-1 colum-three">
                             <div class="row-span-3">
                                 <i class="fa-solid fa-circle icon-hover3"></i>
                                 <img src="assets/img/Best-Services-Iocn-2.png " class="img-fluid !inline-flex backimage"></div>
@@ -144,7 +144,7 @@
                             </div>
                         </div>
                         <hr style="width:94%">
-                        <div class="grid grid-rows-2 grid-flow-col pt-4 gap-1">
+                        <div class="grid grid-rows-2 grid-flow-col pt-4 gap-1 colum-four">
                             <div class="row-span-3">
                                 <i class="fa-solid fa-circle icon-hover4"></i>
                                 <img src="assets/img/Best-Services-Iocn-2.png " class="img-fluid !inline-flex backimage"></div>
