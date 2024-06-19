@@ -63,7 +63,7 @@
                             security tools and practices to safeguard it from future threats.
                         </p>
                     </div>
-                <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 md:col-span-6 pt-5 pb-0 lg:px-2 !text-start ">
+                <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 md:col-span-6 pt-5 pb-0 lg:px-2 !text-start virus-inner-two">
                         
                         <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">Understanding the Threat: Identify  and<br>
                         Eliminate Viruses Malware<br></h4>
