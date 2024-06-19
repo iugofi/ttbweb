@@ -51924,6 +51924,13 @@ section#about-features {
     width: 85%;
     margin: auto;
 }
+.virus-inner-shield {
+    position: absolute;
+    right: -70px;
+    margin: auto;
+    width: 10rem;
+    animation: move-up-down 5s ease-in-out 4s infinite;
+}
 
 
 /* End:: virus removal page css */
