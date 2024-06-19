@@ -51934,7 +51934,7 @@ section#about-features {
     width: 10rem;
     animation: move-up-down 5s ease-in-out 4s infinite;
 }
-.flex-row {
+.flexs-row {
     border-left: 1px solid;
 }
 .flex-row .icon-hover1 {

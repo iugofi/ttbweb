@@ -103,7 +103,7 @@
                             value with diverse web-readiness. Collaboratively transition wireless customer service without
                             goal-oriented catalysts for change. Collaboratively.
                         </p> --}}
-                        <div class="row flex-row">
+                        <div class="row flexs-row">
                         <div class="grid grid-rows-2 grid-flow-col gap-1">
                             <div class="row-span-3">
                                 <i class="fa-solid fa-circle icon-hover1"></i>
