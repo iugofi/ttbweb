@@ -124,7 +124,7 @@
                                 <h5 class="dark-text px-6">System Cleanup</h5>
                             </div>
                             <div class="row-span-2 col-span-2">
-                                <p class="text-gray-light px-6">Restore your device's speed and performance.</p>
+                                <p class="text-gray-light px-6">We'll eradicate all traces of infections from your device.</p>
                             </div>
                         </div><br>
                         <div class="grid grid-rows-2 grid-flow-col pt-4 gap-1 colum-three">
@@ -135,7 +135,7 @@
                                 <h5 class="dark-text px-6">Security Recommendations</h5>
                             </div>
                             <div class="row-span-2 col-span-2">
-                                <p class="text-gray-light px-6">Receive expert advice on keeping your device safe.</p>
+                                <p class="text-gray-light px-6">We'll eradicate all traces of infections from your device.</p>
                             </div>
                         </div>
                         <div class="grid grid-rows-2 grid-flow-col pt-4 gap-1 colum-four">
@@ -146,7 +146,7 @@
                                 <h5 class="dark-text px-6">Data Backup</h5>
                             </div>
                             <div class="row-span-2 col-span-2">
-                                <p class="text-gray-light px-6">Safeguard your important files before we start.</p>
+                                <p class="text-gray-light px-6">We'll eradicate all traces of infections from your device.</p>
                             </div>
                         </div>
                         </div>
