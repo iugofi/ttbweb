@@ -155,12 +155,12 @@
                         </div>
                         </div>
                     </div>
-                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 customize-image text-center" style="margin: auto;">
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 customize-image text-center bg-img-section" style="margin: auto;">
                         <div class="bg-imgs">
-                            <img src="https://www.nighthawk-routerlogin.com/assets/img/Third-section-bg.png" alt="" class="img-fluid">
+                            <img src="https://www.nighthawk-routerlogin.com/assets/img/Third-section-bg.png" alt="" class="img-fluid ">
                         </div>
-                        <div class="lg:text-start !flex items-center lg:justify-start justify-center">
-                            <img src="https://www.nighthawk-routerlogin.com/assets/img/section-Third-img.png" alt="" class="img-fluid">
+                        <div class="lg:text-start !flex items-center lg:justify-start justify-center bg-two">
+                            <img src="https://www.nighthawk-routerlogin.com/assets/img/section-Third-img.png" alt="" class="img-fluid ">
                         </div>
                         
                     </div>
