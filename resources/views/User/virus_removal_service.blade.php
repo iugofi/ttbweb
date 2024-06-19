@@ -53,7 +53,7 @@
                     <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-=6 md:col-span-6 pt-5 pb-0 lg:px-2 !text-start  virus-inner-one">
                         
                         
-                        <p class=" text-[1rem] text-[#8c9097] dark:text-white/50 mb-4 ">Viruses and malware can wreak havoc on your devices. They maycompromise
+                        <p class=" text-[1rem] text-[#8c9097] dark:text-white/50 mb-4" style="border-radius: 5px;">Viruses and malware can wreak havoc on your devices. They maycompromise
                              your privacy and device security. TTB is an expert at smartphones, and other gadgets. compromise your privacy 
                              and device security. TTB is an expert aT identifying and removing these digital pests from your computers, 
                              identifying and removing these digital pests from your computers,<br><br>
