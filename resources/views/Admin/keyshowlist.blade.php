@@ -100,14 +100,14 @@
                                         <thead>
                                             <tr>
                                                 <th class="px-4 py-2">Id</th>
-                                                <th class="px-4 py-2">main_key</th>
-                                                <th class="px-4 py-2">key_type</th>
-                                                <th class="px-4 py-2">plan_id</th>
-                                                <th class="px-4 py-2">price</th>
-                                                <th class="px-4 py-2">key_activation_date</th>
-                                                <th class="px-4 py-2">key_expirey_date</th>
-                                                <th class="px-4 py-2">is_key_used</th>
-                                                <th class="px-4 py-2">key_status</th>
+                                                <th class="px-4 py-2">Key</th>
+                                                <th class="px-4 py-2">Key Type</th>
+                                                <th class="px-4 py-2">Plan Name</th>
+                                                <th class="px-4 py-2">Price</th>
+                                                <th class="px-4 py-2">Key Activation Date</th>
+                                                <th class="px-4 py-2">key Expirey Date</th>
+                                                <th class="px-4 py-2">is Key Used</th>
+                                                <th class="px-4 py-2">Key Status</th>
                                                 <th class="px-4 py-2">Action</th>
 
 
