@@ -212,6 +212,7 @@
                                      Be assured that your devices are in safe hands.</p>
                             </div>
                         </div>
+                        <hr class="hr-line">
                         <div class="row flex-row-colum">
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
                                 <img src="https://www.nighthawk-routerlogin.com/assets/img/The-Largest-Business-Expert-Company-icon-2.png"
