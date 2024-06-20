@@ -156,32 +156,32 @@
 
                                                     <td class="border">
                                                         @php
-                                                            $storepick = DB::table('storepick')
+                                                            $storepickkeystatus = DB::table('storepick')
                                                                 ->where('STORE_ID', '=', 'key_status')
                                                                 ->where('PICK_ID', '=', $item->is_key_used)
                                                                 ->first();
                                                         @endphp
-                                                        @if ($storepick)
+                                                        @if ($storepickkeystatus)
                                                             @php
                                                                 $statusText = '';
                                                                 $statusColor = '';
     
-                                                                switch ($item->status) {
+                                                                switch ($item->is_key_used) {
                                                                     case 101:
-                                                                        $statusText = $storepick->PICK_TEXT;
-                                                                        $statusColor = 'bg-warning';
+                                                                        $statusText = $storepickkeystatus->PICK_TEXT;
+                                                                        $statusColor = 'primary';
                                                                         break;
                                                                     case 102:
-                                                                        $statusText = $storepick->PICK_TEXT;
-                                                                        $statusColor = 'bg-danger';
+                                                                        $statusText = $storepickkeystatus->PICK_TEXT;
+                                                                        $statusColor = 'info';
                                                                         break;
                                                                     case 103:
-                                                                        $statusText = $storepick->PICK_TEXT;
+                                                                        $statusText = $storepickkeystatus->PICK_TEXT;
                                                                         $statusColor = 'danger';
                                                                         break;
                                                                     default:
                                                                         // Default case if none of the above conditions are met
-                                                                        $statusText = $storepick->PICK_TEXT;
+                                                                        $statusText = $storepickkeystatus->PICK_TEXT;
                                                                         $statusColor = 'info'; // You can set a default color here if needed
                                                                         break;
                                                                 }
@@ -207,7 +207,7 @@
                                                                 $statusText = '';
                                                                 $statusColor = '';
     
-                                                                switch ($item->status) {
+                                                                switch ($item->key_status) {
                                                                     case 101:
                                                                         $statusText = $storepick->PICK_TEXT;
                                                                         $statusColor = 'primary';
