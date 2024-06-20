@@ -200,11 +200,7 @@
     <div class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
         style="padding-top: 0px !important">
         <div class="container">
-            <div
-                class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
-
-                <div
-                    class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-6 pt-5 pb-0 lg:px-2 !text-start  my-auto">
+                <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-6 pt-5 pb-0 lg:px-2 !text-start  my-auto">
 
                     <div class="row row-service mt-5 gap-20"
                         style="display: flex;margin: auto;text-align: center;justify-content: center;">
@@ -231,7 +227,6 @@
 
                     </div>
                 </div>
-            </div>
         </div>
     </div>
 
