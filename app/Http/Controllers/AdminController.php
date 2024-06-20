@@ -1067,7 +1067,7 @@ public function newslistshow(){
                             'KEY_ID' => 'required|exists:product_details,id',
                         ]);
                 
-                        $productDetails = TTBKEY::where('id', $keyId)->with(['relatedModel'])->get(); 
+                        $productDetails = TTBKEY::where('id', $keyId)->get();
                 
                         // Prepare response data
                         $response = $productDetails->map(function ($detail) {
