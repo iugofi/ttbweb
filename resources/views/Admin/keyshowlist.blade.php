@@ -163,31 +163,28 @@
                                                         @endphp
                                                         @if ($storepickkeystatus)
                                                             @php
-                                                                $statusText = '';
-                                                                $statusColor = '';
+                                                                $statusTextkey = '';
+                                                                $statusColorkey = '';
     
                                                                 switch ($item->is_key_used) {
-                                                                    case 101:
-                                                                        $statusText = $storepickkeystatus->PICK_TEXT;
-                                                                        $statusColor = 'primary';
+                                                                    case 0:
+                                                                        $statusTextkey = $storepickkeystatus->PICK_TEXT;
+                                                                        $statusColorkey = 'info';
                                                                         break;
-                                                                    case 102:
-                                                                        $statusText = $storepickkeystatus->PICK_TEXT;
-                                                                        $statusColor = 'info';
+                                                                    case 1:
+                                                                        $statusTextkey = $storepickkeystatus->PICK_TEXT;
+                                                                        $statusColorkey = 'danger';
                                                                         break;
-                                                                    case 103:
-                                                                        $statusText = $storepickkeystatus->PICK_TEXT;
-                                                                        $statusColor = 'danger';
-                                                                        break;
+                                                                    
                                                                     default:
                                                                         // Default case if none of the above conditions are met
-                                                                        $statusText = $storepickkeystatus->PICK_TEXT;
-                                                                        $statusColor = 'info'; // You can set a default color here if needed
+                                                                        $statusTextkey = $storepickkeystatus->PICK_TEXT;
+                                                                        $statusColorkey = 'info'; // You can set a default color here if needed
                                                                         break;
                                                                 }
                                                             @endphp
                                                             <span
-                                                                class="inline-flex text-{{ $statusColor }} !py-[0.15rem] !px-[0.45rem] rounded-sm !font-semibold !text-[0.75em] bg-{{ $statusColor }}/10">{{ $statusText }}</span>
+                                                                class="inline-flex text-{{ $statusColor }} !py-[0.15rem] !px-[0.45rem] rounded-sm !font-semibold !text-[0.75em] bg-{{ $statusColorkey }}/10">{{ $statusTextkey }}</span>
                                                         @else
                                                             <span
                                                                 class="inline-flex text-danger !py-[0.15rem] !px-[0.45rem] rounded-sm !font-semibold !text-[0.75em] bg-danger/10">No
