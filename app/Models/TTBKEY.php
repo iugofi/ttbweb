@@ -18,5 +18,9 @@ class TTBKEY extends Model
         'is_key_used',
         'key_status', 
     ];
+    public function relatedModel()
+    {
+        return $this->hasOne(RelatedModel::class); // Adjust according to your related model
+    }
     use HasFactory,SoftDeletes;
 }
