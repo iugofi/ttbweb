@@ -1273,12 +1273,12 @@ public function newslistshow(){
 
                     public function keyshow(){
                         if ($this->loggedInAdmin) {
-                            DB::enableQueryLog();
+                            // DB::enableQueryLog();
                             $keylist = TTBKEY::join('product_details', 'ttbkey.product_id', '=', 'product_details.ID')
-                            ->select('ttbkey.*', 'product_details.key_type', 'product_details.plan_id')
+                            ->select('ttbkey.*', 'product_details.key_type','product_details.price' ,'product_details.plan_id')
                             ->get();
-                            $query = DB::getQueryLog($keylist);
-                            dd($query);
+                            // $query = DB::getQueryLog($keylist);
+                            // dd($query);
 
                             $keydata=Storepick::where('STORE_ID','key_type')->get();
                             $plandata=Planname::all();
