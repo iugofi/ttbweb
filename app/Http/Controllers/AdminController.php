@@ -1059,6 +1059,36 @@ public function newslistshow(){
                     }
                 }
 
+                public function editkeysearch(Request $request)
+                {
+                    if ($this->loggedInAdmin) {
+                        $keyId = $request->input('KEY_ID');
+                        $request->validate([
+                            'KEY_ID' => 'required|exists:product_details,id',
+                        ]);
+                
+                        $productDetails = TTBKEY::where('id', $keyId)->with(['relatedModel'])->get(); 
+                
+                        // Prepare response data
+                        $response = $productDetails->map(function ($detail) {
+                            return [
+                                'main_key' => $detail->main_key, // Adjust according to your column names
+                                'product_id' => $detail->product_id,
+                                'key_activation_date' => $detail->key_activation_date,
+                                'key_expirey_date' => $detail->key_expirey_date,
+                                'is_key_used' => $detail->is_key_used ? 'Yes' : 'No',
+                                'key_status' => $detail->key_status,
+                                'encrypted_id' => encrypt($detail->id), // Encrypt the ID for the edit route
+                            ];
+                        });
+                
+                        return response()->json($response);                
+
+                    } else {
+                        return redirect('/setup');
+                    }
+                }
+
                 public function plandetailscreate(){
                     if ($this->loggedInAdmin && $this->admintype == 'superadmin') {
             

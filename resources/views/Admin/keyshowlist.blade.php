@@ -69,15 +69,12 @@
                                             <option value=" ">-Select Product Details-</option>
                                             @foreach ($product_details as $product_detail)
                                             <option value="{{ $product_detail->id }}">{{ $product_detail->key_text }}-{{ $product_detail->plan_name_text }}</option>
-                                        @endforeach
+                                            @endforeach
                                         </select>
                                     </div>
                                     
                                     <div class="xl:col-span-1 md:col-span-1 sm:col-span-1 col-span-2">
-                                        <i class="bi bi-search-heart">
-                                            <input type="submit" id="btn_search" class="m-1 ti-btn ti-btn-primary-full"
-                                                value="Search">
-                                        </i>
+                                        <input type="submit" id="btn_search" class="m-1 ti-btn ti-btn-primary-full" value="Search">
                                     </div>
                                 </div>
                             </form>
@@ -278,72 +275,61 @@
             });
         </script>
 
-        <script>
-            $(document).ready(function() {
-                $('#form_search_key').submit(function(e) {
-                    e.preventDefault();
-                    $('#btn_search').val('Please wait...');
-                    var token = $('meta[name="csrf-token"]').attr('content');
-                    var formData = new FormData($(this)[0]);
+<script>
+    $(document).ready(function() {
+        $('#form_search_key').submit(function(e) {
+            e.preventDefault();
+            $('#btn_search').val('Please wait...');
+            var token = $('meta[name="csrf-token"]').attr('content');
+            var formData = new FormData(this);
 
-                    if (formData) {
-                        $.ajax({
-                            url: "{{ route('search.editplansearch') }}",
-                            method: 'POST',
-                            data: formData,
-                            headers: {
-                                'X-CSRF-TOKEN': token
-                            },
-                            contentType: false,
-                            processData: false,
-                            success: function(response) {
-                                var tbody = $('#showdata tbody');
-                                tbody.empty();
+            $.ajax({
+                url: "{{ route('search.editkeysearch') }}",
+                method: 'POST',
+                data: formData,
+                headers: {
+                    'X-CSRF-TOKEN': token
+                },
+                contentType: false,
+                processData: false,
+                success: function(response) {
+                    var tbody = $('#showdata tbody');
+                    tbody.empty();
 
-                                $.each(response, function(key, item) {
-                                    var row = '<tr>' +
-                                        '<td class="border px-4 py-2">' + (key + 1) +
-                                        '</td>' +
-                                        '<td class="border px-4 py-2">' + item.main_key +
-                                        '</td>' +
-                                        '<td class="border px-4 py-2">' + item.product_id +
-                                        '</td>' +
-                                        '<td class="border px-4 py-2">' + item.key_activation_date +
-                                        '</td>' +
-                                        '<td class="border px-4 py-2">' + item.key_expirey_date +
-                                        '</td>' +
-                                        '<td class="border px-4 py-2">' + item.is_key_used +
-                                        '</td>' +
-                                        '<td class="border">' + item.key_status + '</td>' +
-                                        '<td class="border px-4 py-2">' +
-                                        '<div class="flex flex-row items-center !gap-2 text-[0.9375rem]">' +
-                                        '<a aria-label="anchor" href="{{ route('edit.adminuseredit', ':encrypted_id') }}" class="ti-btn ti-btn-icon ti-btn-wave !gap-0 !m-0 !h-[1.75rem] !w-[1.75rem] text-[0.8rem] bg-primary/10 text-primary hover:bg-primary hover:text-white hover:border-primary">' +
-                                        '<i class="ri-edit-line"></i>' +
-                                        '</a>' +
-                                        '<button aria-label="button" type="button" class="ti-btn !py-1 !px-2 !text-[0.75rem] ti-btn-danger-full btn-wave delete-storepick" data-item-id="' +
-                                        item.id + '">' +
-                                        '<i class="ri-delete-bin-line align-middle me-2 inline-block"></i>Delete' +
-                                        '</button>' +
-                                        '</div>' +
-                                        '</td>' +
-                                        '</tr>';
-                                    row = row.replace(':encrypted_id', item.encrypted_id);
-                                    tbody.append(row);
-                                });
+                    $.each(response, function(key, item) {
+                        var row = '<tr>' +
+                            '<td class="border px-4 py-2">' + (key + 1) + '</td>' +
+                            '<td class="border px-4 py-2">' + item.main_key + '</td>' +
+                            '<td class="border px-4 py-2">' + item.product_id + '</td>' +
+                            '<td class="border px-4 py-2">' + item.key_activation_date + '</td>' +
+                            '<td class="border px-4 py-2">' + item.key_expirey_date + '</td>' +
+                            '<td class="border px-4 py-2">' + item.is_key_used + '</td>' +
+                            '<td class="border px-4 py-2">' + item.key_status + '</td>' +
+                            '<td class="border px-4 py-2">' +
+                            '<div class="flex flex-row items-center gap-2 text-[0.9375rem]">' +
+                            '<a aria-label="anchor" href="{{ route('edit.adminuseredit', ':encrypted_id') }}" class="ti-btn ti-btn-icon ti-btn-wave gap-0 m-0 h-[1.75rem] w-[1.75rem] text-[0.8rem] bg-primary/10 text-primary hover:bg-primary hover:text-white hover:border-primary">' +
+                            '<i class="ri-edit-line"></i>' +
+                            '</a>' +
+                            '<button aria-label="button" type="button" class="ti-btn py-1 px-2 text-[0.75rem] ti-btn-danger-full btn-wave delete-storepick" data-item-id="' + item.id + '">' +
+                            '<i class="ri-delete-bin-line align-middle me-2 inline-block"></i>Delete' +
+                            '</button>' +
+                            '</div>' +
+                            '</td>' +
+                            '</tr>';
+                        row = row.replace(':encrypted_id', item.encrypted_id);
+                        tbody.append(row);
+                    });
 
-                                $('#btn_search').val('Search');
-                            },
-                            error: function(xhr, status, error) {
-                                console.error(error);
-                                $('#btn_search').val('Search');
-                            }
-                        });
-                    } else {
-                        $('#showdata tbody').empty();
-                    }
-                });
+                    $('#btn_search').val('Search');
+                },
+                error: function(xhr, status, error) {
+                    console.error(error);
+                    $('#btn_search').val('Search');
+                }
             });
-        </script>
+        });
+    });
+</script>
 
 
         <script>
