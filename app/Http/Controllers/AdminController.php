@@ -1061,7 +1061,7 @@ public function newslistshow(){
 
         } elseif ($request->product_details_id) {
 
-            $planName = TTBKEY::where('id', $request->product_details_id)->first();
+            $planName = TTBKEY::where('id', $request->product_details_id)->get();
             return response()->json($planName);
         }
     } else {
