@@ -219,7 +219,7 @@
                                     class="img-fluid p-1">
                             </div>
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
-                                <h5 class="dark-text">24/7 Support: Round-the-Clock Assistance</h5>
+                                <h5 class="dark-text">24/7 Support: Round-the-Clock<br> Assistance</h5>
                                 <p class="text-[#8c9097] dark:text-white/50">Viruses don't wait for convenient times to strike. That's why<br>
                                      our team is available round the clock to assist you with our<br>
                                       range of services.</p>
