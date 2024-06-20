@@ -202,11 +202,11 @@
         <div class="container">
                 <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-6 pt-5 pb-0 lg:px-2 !text-start" style="display: flex; margin: auto; justify-content: center;">
                         <div class="row flex-row-colum">
-                            <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
+                            <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2 px-3">
                                 <img src="https://www.nighthawk-routerlogin.com/assets/img/The-Largest-Business-Expert-Company-icon-1.png"
                                     class="img-fluid p-1">
                             </div>
-                            <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2 pe-3">
+                            <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2 px-3">
                                 <h5 class="dark-text">Affordable Pricing: Protect Your<br> Devices, Without Breaking the<br> Bank</h5>
                                 <p class="text-[#8c9097] dark:text-white/50 text-left">We offer competitive pricing that won't drain your wallet.<br>
                                      Be assured that your devices are in safe hands.</p>
@@ -214,7 +214,7 @@
                         </div>
                         <hr class="hr-line">
                         <div class="row flex-row-colum">
-                            <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
+                            <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2 px-3">
                                 <img src="https://www.nighthawk-routerlogin.com/assets/img/The-Largest-Business-Expert-Company-icon-2.png"
                                     class="img-fluid p-1">
                             </div>
