@@ -314,15 +314,17 @@
         <div class="container text-center">
 
             <h3 class="lg:text-center font-semibold mb-2 text-[2rem]">Frequently Asked Question</h3>
+            <div class="grid grid-cols-12 justify-center">
+                <div class="col-span-12">
+                    <p class="text-[#8c9097] dark:text-white/50 text-[0.9375rem] mb-12 font-normal">Efficiently
+                        productivate reliable paradigms before ubiquitous models. Continually utilize frictionless
+                        <br>expertise whereas tactical relationships. Still have questions? Contact us
+                    </p>
+                </div>
+            </div>
             <div class="grid grid-cols-12 gap-6 text-start">
                 <div class="xl:col-span-12 col-span-12">
                     <div class="grid grid-cols-12 gap-6">
-                        <div class="xl:col-span-6 col-span-12">
-                            <div class="lg:text-start !flex items-center lg:justify-start justify-center">
-                                <img src="https://www.nighthawk-routerlogin.com/assets/img/Faq-images.png" alt=""
-                                    width="95%" class="img-fluid">
-                            </div>
-                        </div>
                         <div class="xl:col-span-6 col-span-12">
                             <div class="accordion accordion-customicon1 accordion-primary accordions-items-seperate"
                                 id="accordionFAQ2">
@@ -502,15 +504,13 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="xl:col-span-6 col-span-12">
+                            <div class="lg:text-start !flex items-center lg:justify-start justify-center">
+                                <img src="https://www.nighthawk-routerlogin.com/assets/img/Faq-images.png" alt=""
+                                    width="95%" class="img-fluid">
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="grid grid-cols-12 justify-center">
-                <div class="col-span-12">
-                    <p class="text-[#8c9097] dark:text-white/50 text-[0.9375rem] mb-12 font-normal">Efficiently
-                        productivate reliable paradigms before ubiquitous models. Continually utilize frictionless
-                        <br>expertise whereas tactical relationships. Still have questions? Contact us
-                    </p>
                 </div>
             </div>
         </div>
