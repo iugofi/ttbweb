@@ -193,44 +193,131 @@
             </div>
         </div>
     </div>
- 
+
     <!-- End::virus removal service section four -->
 
     <!-- Start::virus removal service section five -->
     <div class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
         style="padding-top: 0px !important">
         <div class="container">
-                <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-6 pt-5 pb-0 lg:px-2 !text-start" style="display: flex; margin: auto; justify-content: center;">
-                        <div class="row flex-row-colum">
-                            <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2 px-3">
-                                <img src="https://www.nighthawk-routerlogin.com/assets/img/The-Largest-Business-Expert-Company-icon-1.png"
-                                    class="img-fluid p-1">
-                            </div>
-                            <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2 px-3">
-                                <h5 class="dark-text">Affordable Pricing: Protect Your<br> Devices, Without Breaking the Bank</h5>
-                                <p class="text-[#8c9097] dark:text-white/50 pt-3 text-left">We offer competitive pricing that won't drain your wallet.<br>
-                                     Be assured that your devices are in safe hands.</p>
-                            </div>
-                        </div>
-                        <hr class="hr-line">
-                        <div class="row flex-row-colum">
-                            <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2 px-3">
-                                <img src="https://www.nighthawk-routerlogin.com/assets/img/The-Largest-Business-Expert-Company-icon-2.png"
-                                    class="img-fluid p-1">
-                            </div>
-                            <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
-                                <h5 class="dark-text">24/7 Support: Round-the-Clock<br> Assistance</h5>
-                                <p class="text-[#8c9097] dark:text-white/50 pt-3 text-left">Viruses don't wait for convenient times to strike. That's why<br>
-                                     our team is available round the clock to assist you with our<br>
-                                      range of services.</p>
-                            </div>
-                        </div>
- 
+            <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-6 pt-5 pb-0 lg:px-2 !text-start"
+                style="display: flex; margin: auto; justify-content: center;">
+                <div class="row flex-row-colum">
+                    <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2 px-3">
+                        <img src="https://www.nighthawk-routerlogin.com/assets/img/The-Largest-Business-Expert-Company-icon-1.png"
+                            class="img-fluid p-1">
+                    </div>
+                    <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2 px-3">
+                        <h5 class="dark-text">Affordable Pricing: Protect Your<br> Devices, Without Breaking the Bank</h5>
+                        <p class="text-[#8c9097] dark:text-white/50 pt-3 text-left">We offer competitive pricing that won't
+                            drain your wallet.<br>
+                            Be assured that your devices are in safe hands.</p>
+                    </div>
                 </div>
+                <hr class="hr-line">
+                <div class="row flex-row-colum">
+                    <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2 px-3">
+                        <img src="https://www.nighthawk-routerlogin.com/assets/img/The-Largest-Business-Expert-Company-icon-2.png"
+                            class="img-fluid p-1">
+                    </div>
+                    <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
+                        <h5 class="dark-text">24/7 Support: Round-the-Clock<br> Assistance</h5>
+                        <p class="text-[#8c9097] dark:text-white/50 pt-3 text-left">Viruses don't wait for convenient times
+                            to strike. That's why<br>
+                            our team is available round the clock to assist you with our<br>
+                            range of services.</p>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </div>
 
     <!-- End::virus removal service section five -->
+
+    <!-- Start::virus removal service section six -->
+    <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]"
+        style="padding-top: 0px !important">
+        <div class="container main-banner-container">
+            <div
+                class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
+                <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 customize-image text-center">
+                    <div class="lg:text-start !flex items-center lg:justify-start justify-center">
+                        <img src="https://www.nighthawk-routerlogin.com/assets/img/Hassle-Free-Process-img.png"
+                            alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div
+                    class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 pt-5 pb-0 lg:px-2 !text-start  my-auto">
+                    <h2 class="lg:text-start font-semibold mb-2 pt-5 text-[2rem]">We Provide Web Design<br>
+                        With App Development</h2>
+
+                    <div class="row row-service mt-5" style="display: flex;">
+                        <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
+                            <i class="fa fa-phone icon-font"></i>
+                        </div>
+                        <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2 pe-3">
+                            <h5 class="dark-text">Contact Us</h5>
+                            <p class="text-[#8c9097] dark:text-white/50">Reach out to us via phone or email.</p>
+                        </div>
+                        <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
+                            <i class="fa fa-user-secret icon-font"></i>
+                        </div>
+                        <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
+                            <h5 class="dark-text">Virus Removal</h5>
+                            <p class="text-[#8c9097] dark:text-white/50">We get to work cleaning your device.</p>
+                        </div>
+
+                    </div>
+                    <div class="row row-service mt-5" style="display: flex;">
+                        <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
+                            <i class="fa fa-exclamation-circle icon-font"></i>
+                        </div>
+                        <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2 pe-3">
+                            <h5 class="dark-text">Diagnosis</h5>
+                            <p class="text-[#8c9097] dark:text-white/50">We'll assess your device's issues.</p>
+                        </div>
+                        <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
+                            <i class="fa fa-desktop icon-font"></i>
+                        </div>
+                        <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
+                            <h5 class="dark-text">Quality Assurance</h5>
+                            <p class="text-[#8c9097] dark:text-white/50">We get to work cleaning your device.</p>
+                        </div>
+
+                    </div>
+                    <div class="row row-service mt-5" style="display: flex;">
+                        <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
+                            <i class="fa fa-shield icon-font"></i>
+                        </div>
+                        <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2 pe-3">
+                            <h5 class="dark-text">Secure Connection</h5>
+                            <p class="text-[#8c9097] dark:text-white/50">Our technicians connect remotely.</p>
+                        </div>
+                        <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
+                            <i class="fa-regular fa-face-smile icon-font"></i>
+                        </div>
+                        <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
+                            <h5 class="dark-text">Happy You</h5>
+                            <p class="text-[#8c9097] dark:text-white/50">Enjoy a faster, secure device.</p>
+                        </div>
+
+                    </div>
+                    {{-- <a href="index.html" class="ti-btn bg-primary text-white" style="width:30%;">
+                        Learn More Us
+                    </a> --}}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End::virus removal service section six -->
+
+
+
+
+
+
 
 
 

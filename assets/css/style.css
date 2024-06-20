@@ -52027,7 +52027,19 @@ hr.hr-line {
     position: relative;
     right: 52px;
 }
-
+.icon-font {
+    font-size: 14px;
+    border: 2px solid;
+    border-radius: 22px;
+    padding: 8px;
+    border-color: #fff;
+    box-shadow: 0px 0px 1px 2px #11CDBD;
+    color: #fff;
+    background: #11CDBD;
+    margin: 0 12px auto;
+    display: flex;
+    align-items: center;
+}
 
 
 
