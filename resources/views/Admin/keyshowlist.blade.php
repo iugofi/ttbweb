@@ -184,7 +184,7 @@
                                                                 }
                                                             @endphp
                                                             <span
-                                                                class="inline-flex text-{{ $statusColor }} !py-[0.15rem] !px-[0.45rem] rounded-sm !font-semibold !text-[0.75em] bg-{{ $statusColorkey }}/10">{{ $statusTextkey }}</span>
+                                                                class="inline-flex text-{{ $statusColorkey }} !py-[0.15rem] !px-[0.45rem] rounded-sm !font-semibold !text-[0.75em] bg-{{ $statusColorkey }}/10">{{ $statusTextkey }}</span>
                                                         @else
                                                             <span
                                                                 class="inline-flex text-danger !py-[0.15rem] !px-[0.45rem] rounded-sm !font-semibold !text-[0.75em] bg-danger/10">No
