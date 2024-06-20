@@ -197,7 +197,7 @@
     <!-- End::virus removal service section four -->
 
     <!-- Start::virus removal service section five -->
-    <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]"
+    <div class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
         style="padding-top: 0px !important">
         <div class="container">
             <div
