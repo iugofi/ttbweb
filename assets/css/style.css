@@ -52042,7 +52042,20 @@ hr.hr-line {
 }
 .viral-img-sec {
     position: relative;
+    overflow: hidden;
 }
+.viral-cont-sec {
+    margin: auto;
+    box-shadow: -5px -6px 12px 0px #00000017;
+    padding: 20px;
+    height: 70%;
+    position: absolute;
+    right: -8rem;
+    background: #fff;
+    bottom: 15px;
+    min-width: 873px;
+}
+
 
 
 
