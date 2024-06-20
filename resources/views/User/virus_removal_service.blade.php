@@ -247,7 +247,7 @@
                             alt="" class="img-fluid" style=" width: 100% !important; border-radius: 22px !important;">
                     </div>
                 </div>
-                <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 pt-5 pb-0 lg:px-2 !text-start  my-auto">
+                <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 pt-5 pb-0 lg:px-2 !text-start  viral-cont-sec">
                     <h2 class="lg:text-start font-semibold mb-2 pt-5 text-[2rem]">We Provide Web Design<br>
                         With App Development</h2>
 
