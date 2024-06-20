@@ -1,59 +1,3 @@
-<style>
-    /* Styles for the main menu */
-.main-menu {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-.slide {
-    position: relative;
-}
-
-.has-sub > .slide-menu {
-    display: none;
-    position: absolute;
-    left: 100%;
-    top: 0;
-    margin-left: -1px;
-    background-color: white;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-.has-sub:hover > .slide-menu {
-    display: block;
-}
-
-.slide-menu {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-.slide-menu > .slide {
-    position: relative;
-}
-
-.child1 {
-    position: absolute;
-    left: 100%;
-    top: 0;
-    display: none;
-}
-
-.child2 {
-    position: absolute;
-    left: 100%;
-    top: 0;
-    display: none;
-}
-
-.has-sub:hover > .child1,
-.has-sub:hover > .child2 {
-    display: block;
-}
-
-</style>
 <aside class="app-sidebar sticky !topacity-0 sticky-pin" >
     <div class="container-xl xl:!p-0">
         <!-- Start::main-sidebar -->
@@ -221,22 +165,4 @@
         <!-- End::main-sidebar -->
     </div>
 </aside>
-
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-    var menuItems = document.querySelectorAll('.slide.has-sub > a');
-    menuItems.forEach(function(menuItem) {
-        menuItem.addEventListener('click', function(e) {
-            e.preventDefault();
-            var subMenu = menuItem.nextElementSibling;
-            if (subMenu.style.display === "block") {
-                subMenu.style.display = "none";
-            } else {
-                subMenu.style.display = "block";
-            }
-        });
-    });
-});
-
-</script>
 
