@@ -1079,6 +1079,7 @@ public function newslistshow(){
                                 'main_key' => $detail->main_key, // Adjust according to your column names
                                 'key_type' => $detail->key_type,
                                 'plan_id' => $detail->plan_id,
+                                'price' => $detail->price,
                                 'key_activation_date' => $detail->key_activation_date,
                                 'key_expirey_date' => $detail->key_expirey_date,
                                 'is_key_used' => $detail->is_key_used ? 'Yes' : 'No',

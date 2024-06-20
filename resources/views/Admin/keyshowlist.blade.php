@@ -302,6 +302,7 @@
                             '<td class="border px-4 py-2">' + item.main_key + '</td>' +
                             '<td class="border px-4 py-2">' + item.key_type + '</td>' +
                             '<td class="border px-4 py-2">' + item.plan_id + '</td>' +
+                            '<td class="border px-4 py-2">' + item.price + '</td>' +
                             '<td class="border px-4 py-2">' + item.key_activation_date + '</td>' +
                             '<td class="border px-4 py-2">' + item.key_expirey_date + '</td>' +
                             '<td class="border px-4 py-2">' + item.is_key_used + '</td>' +
