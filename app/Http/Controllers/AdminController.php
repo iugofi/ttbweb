@@ -1297,6 +1297,17 @@ public function newslistshow(){
                         }
                     }
 
+                    public function editkey($id){
+                        if ($this->loggedInAdmin) {
+                         $decryptid=\Crypt::decrypt($id);
+                            $editkey=TTBKEY::find($decryptid);
+                            return view('Admin.editplandetails',['editkey'=>$editkey]);
+                        
+                        } else {
+                            return redirect('/setup');
+                        }
+                    }
+
                     public function savekey(Request $request){
                         if ($this->loggedInAdmin) {
                             $validator = Validator::make($request->all(), [
