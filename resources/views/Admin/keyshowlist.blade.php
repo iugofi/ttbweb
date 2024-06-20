@@ -153,7 +153,47 @@
                                                     <td class="border px-4 py-2">{{ $item->key_activation_date }}</td>
                                                     <td class="border px-4 py-2">{{ $item->key_expirey_date }}</td>
                                                     <td class="border px-4 py-2">{{ $item->is_key_used }}</td>
-                                                    <td class="border px-4 py-2">{{ $item->key_status }}</td>
+                                                   
+                                                    <td class="border">
+                                                        @php
+                                                            $storepick = DB::table('storepick')
+                                                                ->where('STORE_ID', '=', 'Status')
+                                                                ->where('PICK_ID', '=', $item->key_status)
+                                                                ->first();
+                                                        @endphp
+                                                        @if ($storepick)
+                                                            @php
+                                                                $statusText = '';
+                                                                $statusColor = '';
+    
+                                                                switch ($item->status) {
+                                                                    case 101:
+                                                                        $statusText = $storepick->PICK_TEXT;
+                                                                        $statusColor = 'primary';
+                                                                        break;
+                                                                    case 102:
+                                                                        $statusText = $storepick->PICK_TEXT;
+                                                                        $statusColor = 'info';
+                                                                        break;
+                                                                    case 103:
+                                                                        $statusText = $storepick->PICK_TEXT;
+                                                                        $statusColor = 'danger';
+                                                                        break;
+                                                                    default:
+                                                                        // Default case if none of the above conditions are met
+                                                                        $statusText = $storepick->PICK_TEXT;
+                                                                        $statusColor = 'info'; // You can set a default color here if needed
+                                                                        break;
+                                                                }
+                                                            @endphp
+                                                            <span
+                                                                class="inline-flex text-{{ $statusColor }} !py-[0.15rem] !px-[0.45rem] rounded-sm !font-semibold !text-[0.75em] bg-{{ $statusColor }}/10">{{ $statusText }}</span>
+                                                        @else
+                                                            <span
+                                                                class="inline-flex text-danger !py-[0.15rem] !px-[0.45rem] rounded-sm !font-semibold !text-[0.75em] bg-danger/10">No
+                                                                Value</span>
+                                                        @endif
+                                                    </td>
 
 
                                                     <td class="border px-4 py-2">
