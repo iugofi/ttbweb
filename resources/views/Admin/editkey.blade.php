@@ -46,7 +46,7 @@
                         <div class="box-header">
                             <div class="box-title">Key Details Edit</div>
                         </div>
-                        <form method="post" id="edit_plan_details_form" enctype="multipart/form-data">
+                        <form method="post" id="edit_key_save_form" enctype="multipart/form-data">
                             @csrf
                             <div class="box-body">
                                 <div class="box text-center">
@@ -57,6 +57,7 @@
 
                                     <div class="xl:col-span-6 col-span-6">
                                         <label for="blog-title" class="form-label required">Product Details</label>
+                                        <input type="text" name="main_id" value="{{ isset($editkey->id) ? \Crypt::encrypt($editkey->id) : '' }}" hidden>
                                         <select class="form-control block w-full text-[0.875rem] !rounded-md" data-trigger
                                             name="product_id" id="product_id">
                                             <option value="">Select</option>
@@ -140,7 +141,7 @@
                             <div class="box-footer">
                                 <div class="text-end">
                                     {{-- <button type="button" class="ti-btn !py-1 !px-2 ti-btn-light !text-[0.75rem] !font-medium me-2">Save As Draft</button> --}}
-                                    <input type="submit" value="Edit Key" id="plan_details_edit_btn"
+                                    <input type="submit" value="Edit Key" id="key_edit_btn"
                                         class="ti-btn bg-primary text-white !py-1 !px-2 !text-[0.75rem] !font-medium">
                                 </div>
                             </div>
@@ -162,14 +163,14 @@
 
     <script>
         $(document).ready(function() {
-            $('#edit_plan_details_form').submit(function(e) {
+            $('#edit_key_save_form').submit(function(e) {
                 e.preventDefault();
-                $('#plan_details_edit_btn').val('please wait..');
+                $('#key_edit_btn').val('please wait..');
                 var token = $('meta[name="csrf-token"]').attr('content');
                 var formData = new FormData($(this)[0]);
                 
                 $.ajax({
-                    url:  "{{ route('edit.editplandetailssave') }}",
+                    url:  "{{ route('edit.editkeysave') }}",
                     method: 'post',
                     data: formData,
                     headers: {
@@ -179,19 +180,22 @@
                     processData: false,
                     success: function(response) {
                         if (response.status == 400) {
-                            showError('planname', response.messages.planname);
-                            showError('plan_id', response.messages.plan_id);
-                            showError('price', response.messages.price);
-                            $('#plan_details_edit_btn').val('Edit Plan Details');
+                            showError('main_key', response.messages.main_key);
+                            showError('product_id', response.messages.product_id);
+                            showError('key_activation_date', response.messages.key_activation_date);
+                            showError('key_expirey_date', response.messages.key_expirey_date);
+                            showError('is_key_used', response.messages.is_key_used);
+                            showError('key_status', response.messages.key_status);
+                            $('#key_edit_btn').val('Edit Key');
                         } else if (response.status == 200) {
                             $('.invalid-feedback').empty();
                             // $("#show_success_alert").html(showMessage('success', response
                             //     .messages));
-                            $('#edit_plan_details_form')[0].reset();
-                            removeValidationClass("#edit_plan_details_form");
-                            $('#plan_details_edit_btn').val('Edit Plan Details');
+                            $('#edit_key_save_form')[0].reset();
+                            removeValidationClass("#edit_key_save_form");
+                            $('#key_edit_btn').val('Edit Key');
                             alert(response.messages);
-                            window.location.href = "{{ route('plan.detailsshow') }}";
+                            window.location.href = "{{ route('key.show') }}";
                            
                         }
                     },

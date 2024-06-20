@@ -1350,6 +1350,59 @@ public function newslistshow(){
                         }
 
 
+                        public function editkeysave(Request $request)
+                    {
+                        $id=$request->main_id;
+                        $decryptid=\Crypt::decrypt($id);
+                        if ($this->loggedInAdmin) {
+                            $validator = Validator::make($request->all(), [
+                                'main_key' => 'required',
+                                'product_id' => 'required',
+                                'is_key_used' => 'required',
+                                'key_status' => 'required',
+                                'key_expirey_date' => 'required',
+                                'key_activation_date' => 'required'
+                            ]);
+                            if ($validator->fails()) {
+                                return response()->json([
+                                    'status' => 400,
+                                    'messages' => $validator->getMessageBag()->toArray() // Convert messages to array
+                                ]);
+                            }
+                            else
+                            {
+                                    $store = TTBKEY::where('id', $decryptid)->first();
+                                    if (!$store) {
+                                        return response()->json([
+                                            'status' => 404,
+                                            'messages' => 'Plan not found'
+                                        ]);
+                                    }
+                                    $store->update([
+                                        'main_key' => $request->main_key,
+                                        'product_id' => $request->product_id,
+                                        'is_key_used' => $request->is_key_used,
+                                        'key_status' => $request->key_status,
+                                        'key_expirey_date' => $request->key_expirey_date,
+                                        'key_activation_date' => $request->key_activation_date
+
+                                    ]);
+                    
+                                    return response()->json([
+                                        'status' => 200,
+                                        'messages' => 'Key Edit successfully'
+                                    ]);
+                    
+                                    }
+    
+    
+                           
+                        } else {
+                            return redirect('/setup'); 
+                        }
+                    }
+
+
                         public function keydelete($id)
                     {
                         if ($this->loggedInAdmin) {
