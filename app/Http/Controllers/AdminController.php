@@ -1067,13 +1067,18 @@ public function newslistshow(){
                             'KEY_ID' => 'required|exists:product_details,id',
                         ]);
                 
-                        $productDetails = TTBKEY::where('product_id', $keyId)->get();
+                        $productDetails = TTBKEY::join('product_details', 'ttbkey.product_id', '=', 'product_details.ID')
+                        ->select('ttbkey.*', 'product_details.key_type','product_details.price' ,'product_details.plan_id')
+                        ->where('ttbkey.product_id', $keyId)->get();
+
+                        
                 
                         // Prepare response data
                         $response = $productDetails->map(function ($detail) {
                             return [
                                 'main_key' => $detail->main_key, // Adjust according to your column names
-                                'product_id' => $detail->product_id,
+                                'key_type' => $detail->key_type,
+                                'plan_id' => $detail->plan_id,
                                 'key_activation_date' => $detail->key_activation_date,
                                 'key_expirey_date' => $detail->key_expirey_date,
                                 'is_key_used' => $detail->is_key_used ? 'Yes' : 'No',
