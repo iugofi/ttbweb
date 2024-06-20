@@ -585,7 +585,7 @@ public function newslistshow(){
                                 $store->save();
                                 
                                 return redirect()->route('admin.storepickpage')->with([
-                                    'message' => 'StorePick Add successfully',
+                                    'message' => 'StorePick added successfully',
                                     'message_type' => 'success',
                                 ]);
                 
