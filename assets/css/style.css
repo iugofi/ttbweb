@@ -52040,7 +52040,9 @@ hr.hr-line {
     display: flex;
     align-items: center;
 }
-
+.viral-img-sec {
+    position: relative;
+}
 
 
 
