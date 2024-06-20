@@ -121,7 +121,7 @@
                                             </td>                              
                                             <td class="border px-4 py-2">{{ $item->activation_key }}</td>   
                                             <td class="border px-4 py-2">{!! nl2br(e(Str::limit(strip_tags($item->reset_tokens), 20))) !!}</td>                               
-                                            <td class="border px-4 py-2">{{ $item->otp }}</td>
+                                            <td class="border px-4 py-2">{!! nl2br(e(Str::limit(strip_tags($item->otp), 20))) !!}</td>
                                             <td class="border px-4 py-2">{{ $item->status }}</td>                                                                       
                                            
                                             <td class="border px-4 py-2">
