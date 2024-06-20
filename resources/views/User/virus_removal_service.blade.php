@@ -198,7 +198,7 @@
 
     <!-- Start::virus removal service section five -->
     <div class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
-        style="padding-top: 0px !important">
+        style="padding-top: 20px !important">
         <div class="container" style="height: 300px;">
             <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-6 pt-5 pb-0 lg:px-2 !text-start"
                 style="display: flex; margin: auto; justify-content: center;">
@@ -237,7 +237,7 @@
 
     <!-- Start::virus removal service section six -->
     <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]"
-        style="padding-top: 20px !important">
+        style="padding-top: 0px !important">
         <div class="container viral-img-sec">
             <div
                 class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
