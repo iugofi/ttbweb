@@ -1058,6 +1058,7 @@ public function newslistshow(){
                                                     
                     }elseif($request->product_details_id)
                     {
+                        dd("kullu");
                         $planName = TTBKEY::where('id', $request->product_details_id)->first();
                         return response()->json($planName);
                     }
