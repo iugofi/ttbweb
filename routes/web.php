@@ -268,6 +268,8 @@ Route::post('/editcustomerssave', [AdminController::class, 'editcustomerssave'])
 Route::get('/keyshow', [AdminController::class, 'keyshow'])->name('key.show');
 Route::get('/keyadd', [AdminController::class, 'keyadd'])->name('key.add');
 Route::get('/editkey/{id}', [AdminController::class, 'editkey'])->name('edit.keyedit');
+Route::post('/editkeysave', [AdminController::class, 'editkeysave'])->name('edit.editkeysave');
+
 
 
 
