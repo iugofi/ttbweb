@@ -161,6 +161,8 @@
                             $('#storepick_form')[0].reset();
                             removeValidationClass("#storepick_form");
                             $('#storepick_save_btn').val('STOREPICK ADD');
+                            alert(response.messages);
+                            window.location.href = "{{ route('admin.storepickpage') }}";
                          
                         }
                     },
