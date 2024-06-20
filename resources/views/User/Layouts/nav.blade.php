@@ -191,20 +191,3 @@
     </div>
 </aside>
 
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const productMenu = document.getElementById('product-menu');
-        const productSubmenu = document.getElementById('product-submenu');
-
-        productMenu.addEventListener('click', function(event) {
-            productSubmenu.classList.toggle('open');
-            event.stopPropagation(); // Prevent event from bubbling up to the document
-        });
-
-        document.addEventListener('click', function(event) {
-            if (!productSubmenu.contains(event.target) && productSubmenu.classList.contains('open')) {
-                productSubmenu.classList.remove('open');
-            }
-        });
-    });
-</script>
