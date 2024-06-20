@@ -310,7 +310,7 @@
     <!-- End::virus removal service section six -->
 
     <!-- Start::virus removal service section sevan -->
-    <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]" id="faq">
+    <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70" id="faq">
         <div class="container text-center">
 
             <h3 class="lg:text-center font-semibold mb-2 text-[2rem]">Frequently Asked Question</h3>
@@ -325,12 +325,6 @@
             <div class="grid grid-cols-12 gap-6 text-start">
                 <div class="xl:col-span-12 col-span-12">
                     <div class="grid grid-cols-12 gap-6">
-                        <div class="xl:col-span-6 col-span-12">
-                            <div class="lg:text-start !flex items-center lg:justify-start justify-center">
-                                <img src="https://www.nighthawk-routerlogin.com/assets/img/Faq-images.png" alt=""
-                                    width="95%" class="img-fluid">
-                            </div>
-                        </div>
                         <div class="xl:col-span-6 col-span-12">
                             <div class="accordion accordion-customicon1 accordion-primary accordions-items-seperate"
                                 id="accordionFAQ2">
@@ -508,6 +502,12 @@
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                        <div class="xl:col-span-6 col-span-12">
+                            <div class="lg:text-start !flex items-center lg:justify-start justify-center">
+                                <img src="https://www.nighthawk-routerlogin.com/assets/img/Faq-images.png" alt=""
+                                    width="95%" class="img-fluid">
                             </div>
                         </div>
                     </div>
