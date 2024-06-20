@@ -62,7 +62,7 @@
                         </div>
 
                         <div class="box-body">
-                            <form id="form_search" method="post">
+                            <form id="form_search_key" method="post">
                                 <div class="grid md:grid-cols-4 sm:grid-cols-2 gap-2">
                                     <div class="xl:col-span-1 md:col-span-1 sm:col-span-1 col-span-2">
                                         <select id="product_details_id" class="form-control" name="KEY_ID">
@@ -280,7 +280,7 @@
 
         <script>
             $(document).ready(function() {
-                $('#form_search').submit(function(e) {
+                $('#form_search_key').submit(function(e) {
                     e.preventDefault();
                     $('#btn_search').val('Please wait...');
                     var token = $('meta[name="csrf-token"]').attr('content');
