@@ -104,13 +104,13 @@
                                             name="is_key_used" id="is_key_used">
                                             <option value="">Select</option>
                                             @php
-                                                $status = DB::table('storepick')
+                                                $keystatus = DB::table('storepick')
                                                     ->where('STORE_ID', 'key_status')
                                                     ->orderBy('STORE_INDEX_SEQUENCE', 'asc')
                                                     ->get();
                                             @endphp
-                                            @foreach ($status as $statuss)
-                                                <option value="{{ $statuss->PICK_ID }}" {{$statuss->PICK_ID ==$editkey->is_key_used ? 'selected' : '' }}>{{ $statuss->PICK_TEXT }}</option>
+                                            @foreach ($keystatus as $keystatuss)
+                                                <option value="{{ $keystatuss->PICK_ID }}" {{$keystatuss->PICK_ID ==$editkey->is_key_used ? 'selected' : '' }}>{{ $statuss->PICK_TEXT }}</option>
                                             @endforeach
 
                                         </select>
