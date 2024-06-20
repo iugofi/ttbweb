@@ -584,12 +584,15 @@ public function newslistshow(){
                                 $store->PICK_TEXT_EXTEND =$request->PICK_TEXT_EXTEND;
                                 $store->save();
                                 
-                                
-                
-                                return response()->json([
-                                    'status' => 200,
-                                    'messages' => 'StorePick Post successfully'
+                                return redirect()->route('admin.storepickpage')->with([
+                                    'message' => 'StorePick Add successfully',
+                                    'message_type' => 'success',
                                 ]);
+                
+                                // return response()->json([
+                                //     'status' => 200,
+                                //     'messages' => 'StorePick Post successfully'
+                                // ]);
                 
                                 }
                                 
