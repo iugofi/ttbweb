@@ -208,6 +208,8 @@ Route::post('/editblog', [AdminController::class, 'editblog'])->name('edit.blog'
 //storepick
 Route::get('/storepickpage', [AdminController::class, 'storepickpage'])->name('admin.storepickpage');
 Route::get('/storepickedit/{id}', [AdminController::class, 'storepickedit'])->name('edit.storepickedit');
+
+
 Route::get('/newsedit/{id}', [AdminController::class, 'newsedit'])->name('edit.newsedit');
 Route::post('/editstorepicksave', [AdminController::class, 'editstorepicksave'])->name('edit.editstorepicksave');
 
