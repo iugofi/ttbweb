@@ -52017,11 +52017,15 @@ section#about-features {
     /* margin: auto; */
 }
 hr.hr-line {
-    width: 13%;
+    width: 11%;
     rotate: 89.5deg;
     background: #353232;
     position: relative;
     top: 4.5rem;
+}
+.text-left {
+    position: relative;
+    right: 52px;
 }
 
 
