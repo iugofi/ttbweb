@@ -1224,11 +1224,11 @@ public function newslistshow(){
                                     'email' => $request->email,
                                     'phone' => $request->phone,
                                     'address' => $request->address,
-                                    'password' => $request->password,
+                                    'password' => \Crypt::encrypt($request->password),
                                     'activation_key' => $request->activation_key,
                                     'reset_tokens' => $request->reset_tokens,
                                     'otp' => $request->activation_key,
-                                    'status' => $request->status
+                                    'status' => $request->admin_status
 
                                 ]);
                 
