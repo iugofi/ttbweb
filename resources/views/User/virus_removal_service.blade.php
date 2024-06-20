@@ -243,18 +243,14 @@
                 class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
                 <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 customize-image text-center">
                     <div class="lg:text-start !flex items-center lg:justify-start justify-center">
-                        <img src="https://www.nighthawk-routerlogin.com/assets/img/Hassle-Free-Process-img.png" alt=""
-                            class="img-fluid">
+                        <img src="https://www.nighthawk-routerlogin.com/assets/img/Hassle-Free-Process-img.png"
+                            alt="" class="img-fluid">
                     </div>
                 </div>
                 <div
                     class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 pt-5 pb-0 lg:px-2 !text-start  my-auto">
                     <h2 class="lg:text-start font-semibold mb-2 pt-5 text-[2rem]">We Provide Web Design<br>
                         With App Development</h2>
-                    <p class=" text-[0.9rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
-                        value with diverse web-readiness. Collaboratively transition wireless customer service without
-                        goal-oriented catalysts for change. Collaboratively.
-                    </p>
 
                     <div class="row row-service mt-5" style="display: flex;">
                         <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
@@ -276,17 +272,46 @@
 
                     </div>
                     <div class="row row-service mt-5" style="display: flex;">
-                        <p class=" text-[0.9rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver
-                            professional
-                            value with diverse web-readiness. Collaboratively transition wireless customer service
-                            without
-                            goal-oriented catalysts for change. Collaboratively.
-                        </p><br><br>
+                        <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
+                            <img src="https://www.nighthawk-routerlogin.com/assets/img/The-Largest-Business-Expert-Company-icon-1.png"
+                                class="img-fluid p-1">
+                        </div>
+                        <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2 pe-3">
+                            <h5 class="dark-text">32+ Year Of</h5>
+                            <p class="text-[#8c9097] dark:text-white/50">Business Experience</p>
+                        </div>
+                        <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
+                            <img src="https://www.nighthawk-routerlogin.com/assets/img/The-Largest-Business-Expert-Company-icon-2.png"
+                                class="img-fluid p-1">
+                        </div>
+                        <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
+                            <h5 class="dark-text">Company Data</h5>
+                            <p class="text-[#8c9097] dark:text-white/50">Business Experience</p>
+                        </div>
 
                     </div>
-                    <a href="index.html" class="ti-btn bg-primary text-white" style="width:30%;">
+                    <div class="row row-service mt-5" style="display: flex;">
+                        <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
+                            <img src="https://www.nighthawk-routerlogin.com/assets/img/The-Largest-Business-Expert-Company-icon-1.png"
+                                class="img-fluid p-1">
+                        </div>
+                        <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2 pe-3">
+                            <h5 class="dark-text">32+ Year Of</h5>
+                            <p class="text-[#8c9097] dark:text-white/50">Business Experience</p>
+                        </div>
+                        <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
+                            <img src="https://www.nighthawk-routerlogin.com/assets/img/The-Largest-Business-Expert-Company-icon-2.png"
+                                class="img-fluid p-1">
+                        </div>
+                        <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
+                            <h5 class="dark-text">Company Data</h5>
+                            <p class="text-[#8c9097] dark:text-white/50">Business Experience</p>
+                        </div>
+
+                    </div>
+                    {{-- <a href="index.html" class="ti-btn bg-primary text-white" style="width:30%;">
                         Learn More Us
-                    </a>
+                    </a> --}}
                 </div>
             </div>
         </div>
