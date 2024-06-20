@@ -164,7 +164,6 @@
         $(document).ready(function() {
             var csrfToken = $('meta[name="csrf-token"]').attr('content');
             $('.delete-storepick').click(function() {
-                alert("hdf");
                 var itemId = $(this).data('item-id');
                 var url = "{{ route('delete.storepickdelete', ':id') }}";
                 url = url.replace(':id', itemId);
