@@ -1052,13 +1052,13 @@ public function newslistshow(){
                             } else {
                                 $detail->plan_id = null;
                             }
-                        }
+                       
 
                         return response()->json($plandetails);
-                                                    
+                    }                             
                     }elseif($request->product_details_id)
                     {
-                        dd("kullu");
+                        
                         $planName = TTBKEY::where('id', $request->product_details_id)->first();
                         return response()->json($planName);
                     }
