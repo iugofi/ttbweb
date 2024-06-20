@@ -68,7 +68,7 @@
                                         <select id="KEY_ID" class="form-control" name="KEY_ID">
                                             <option value=" ">-Select Product Details-</option>
                                             @foreach ($product_details as $product_detail)
-                                            <option value="{{ $product_detail->id }}" {{$product_detail->id ==$editkey->product_id ? 'selected' :'' }}>{{ $product_detail->key_text }}-{{ $product_detail->plan_name_text }}</option>
+                                            <option value="{{ $product_detail->id }}">{{ $product_detail->key_text }}-{{ $product_detail->plan_name_text }}</option>
                                         @endforeach
                                         </select>
                                     </div>
