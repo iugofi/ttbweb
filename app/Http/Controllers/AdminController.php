@@ -1016,12 +1016,10 @@ public function newslistshow(){
                 public function editplansearch(Request $request)
                 {
                     if ($this->loggedInAdmin) {
-
-                        if( $request->KEY_ID && $request->PLAN_ID )
-                        {
                         $key_id = $request->KEY_ID;
                         $plan_id = $request->PLAN_ID;
                         $query = Plandetails::query();
+
                         if ($plan_id) {
                             $query->where('plan_id', $plan_id);
                         }
@@ -1052,16 +1050,9 @@ public function newslistshow(){
                             } else {
                                 $detail->plan_id = null;
                             }
-                       
+                        }
 
                         return response()->json($plandetails);
-                    }                             
-                    }elseif($request->product_details_id)
-                    {
-                        
-                        $planName = TTBKEY::where('id', $request->product_details_id)->first();
-                        return response()->json($planName);
-                    }
 
                     } else {
                         return redirect('/setup');
