@@ -1076,9 +1076,13 @@ public function newslistshow(){
                         // Prepare response data
                         $response = $productDetails->map(function ($detail) {
                             $planName = Planname::where('plan_id', $detail->plan_id)->value('name');
+                            $storePick = Storepick::where('STORE_ID', 'key_type')
+                            ->where('PICK_ID', $detail->key_type)
+                            ->value('PICK_TEXT');
+
                             return [
                                 'main_key' => $detail->main_key, // Adjust according to your column names
-                                'key_type' => $detail->key_type,
+                                'key_type' => $storePick,
                                 'plan_id' => $planName,
                                 'price' => $detail->price,
                                 'key_activation_date' => $detail->key_activation_date,
