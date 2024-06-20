@@ -76,7 +76,7 @@
 
                        
                             <div class="box text-center">
-                                @include('session_messages')
+                                @include('Admin.session_messages')
                                 <div class="" id="show_success_alert"></div>
                             </div>
                             <div class="table-responsive">
