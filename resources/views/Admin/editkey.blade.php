@@ -110,7 +110,7 @@
                                                     ->get();
                                             @endphp
                                             @foreach ($keystatus as $keystatuss)
-                                                <option value="{{ $keystatuss->PICK_ID }}" {{$keystatuss->PICK_ID ==$editkey->is_key_used ? 'selected' : '' }}>{{ $statuss->PICK_TEXT }}</option>
+                                                <option value="{{ $keystatuss->PICK_ID }}" {{$keystatuss->PICK_ID ==$editkey->is_key_used ? 'selected' : '' }}>{{ $keystatuss->PICK_TEXT }}</option>
                                             @endforeach
 
                                         </select>
