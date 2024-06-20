@@ -88,7 +88,7 @@
                             compromise your privacy and device security.
                         </p>
                         <img src="https://www.nighthawk-routerlogin.com/assets/img/Scnd-section-img.png" alt=""
-                            class="img-fluid" style="margin:auto; border-radius: 20px;">
+                            class="img-fluid" style=" border-radius: 20px;">
                     </div>
                 </div>
             </div>
