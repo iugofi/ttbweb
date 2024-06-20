@@ -52014,7 +52014,7 @@ section#about-features {
 }
 .row.flex-row-colum {
     display: flex;
-    margin: auto;
+    /* margin: auto; */
 }
 hr.hr-line {
     width: 13%;
