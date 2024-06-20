@@ -253,7 +253,7 @@
                         <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
                             <i class="fa fa-phone icon-font"></i>
                         </div>
-                        <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2 pe-3">
+                        <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
                             <h5 class="dark-text">Contact Us</h5>
                             <p class="text-[#8c9097] dark:text-white/50">Reach out to us via phone or email.</p>
                         </div>
