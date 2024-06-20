@@ -207,8 +207,8 @@
                                     class="img-fluid p-1">
                             </div>
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2 px-3">
-                                <h5 class="dark-text">Affordable Pricing: Protect Your<br> Devices, Without Breaking the<br> Bank</h5>
-                                <p class="text-[#8c9097] dark:text-white/50 text-left">We offer competitive pricing that won't drain your wallet.<br>
+                                <h5 class="dark-text">Affordable Pricing: Protect Your<br> Devices, Without Breaking the Bank</h5>
+                                <p class="text-[#8c9097] dark:text-white/50 pt-3 text-left">We offer competitive pricing that won't drain your wallet.<br>
                                      Be assured that your devices are in safe hands.</p>
                             </div>
                         </div>
@@ -220,7 +220,7 @@
                             </div>
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
                                 <h5 class="dark-text">24/7 Support: Round-the-Clock<br> Assistance</h5>
-                                <p class="text-[#8c9097] dark:text-white/50 text-left">Viruses don't wait for convenient times to strike. That's why<br>
+                                <p class="text-[#8c9097] dark:text-white/50 pt-3 text-left">Viruses don't wait for convenient times to strike. That's why<br>
                                      our team is available round the clock to assist you with our<br>
                                       range of services.</p>
                             </div>
