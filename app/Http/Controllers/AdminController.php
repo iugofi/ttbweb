@@ -1228,7 +1228,7 @@ public function newslistshow(){
                                     'activation_key' => $request->activation_key,
                                     'reset_tokens' => $request->reset_tokens,
                                     'otp' => $request->activation_key,
-                                    'status' => $request->status
+                                    'status' => $request->admin_status
 
                                 ]);
                 
