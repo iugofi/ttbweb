@@ -1014,59 +1014,61 @@ public function newslistshow(){
 
 
                 public function editplansearch(Request $request)
-                {
-                    if ($this->loggedInAdmin) {
+{
+    if ($this->loggedInAdmin) {
+        if ($request->KEY_ID && $request->PLAN_ID) {
+            $key_id = $request->KEY_ID;
+            $plan_id = $request->PLAN_ID;
 
-                        if( $request->KEY_ID && $request->PLAN_ID )
-                        {
-                        $key_id = $request->KEY_ID;
-                        $plan_id = $request->PLAN_ID;
-                        $query = Plandetails::query();
-                        if ($plan_id) {
-                            $query->where('plan_id', $plan_id);
-                        }
-                        
-                        if ($key_id) {
-                            $query->where('key_type', $key_id);
-                        }
-                        $plandetails = $query->get();
+            $query = Plandetails::query();
 
-                        foreach ($plandetails as $detail) {
-                            $detail->encrypted_id = \Crypt::encrypt($detail->id);
-                            $storePick = Storepick::select('PICK_TEXT')
-                                ->where('STORE_ID', 'key_type')
-                                ->where('PICK_ID', $detail->key_type)
-                                ->first();
-                            if ($storePick) {
-                                $detail->key_type = $storePick->PICK_TEXT;
-                            } else {
-                                $detail->key_type = null;
-                            }
+            if ($plan_id) {
+                $query->where('plan_id', $plan_id);
+            }
 
-                            // Fetch and assign the plan name
-                            $planName = Planname::select('name')
-                                ->where('plan_id', $detail->plan_id)
-                                ->first();
-                            if ($planName) {
-                                $detail->plan_id = $planName->name;
-                            } else {
-                                $detail->plan_id = null;
-                            }
-                       
+            if ($key_id) {
+                $query->where('key_type', $key_id);
+            }
 
-                        return response()->json($plandetails);
-                    }                             
-                    }elseif($request->product_details_id)
-                    {
-                        
-                        $planName = TTBKEY::where('id', $request->product_details_id)->first();
-                        return response()->json($planName);
-                    }
+            $plandetails = $query->get();
 
-                    } else {
-                        return redirect('/setup');
-                    }
+            foreach ($plandetails as $detail) {
+                $detail->encrypted_id = \Crypt::encrypt($detail->id);
+
+                $storePick = Storepick::select('PICK_TEXT')
+                    ->where('STORE_ID', 'key_type')
+                    ->where('PICK_ID', $detail->key_type)
+                    ->first();
+
+                if ($storePick) {
+                    $detail->key_type = $storePick->PICK_TEXT;
+                } else {
+                    $detail->key_type = null;
                 }
+
+                $planName = Planname::select('name')
+                    ->where('plan_id', $detail->plan_id)
+                    ->first();
+
+                if ($planName) {
+                    $detail->plan_id = $planName->name;
+                } else {
+                    $detail->plan_id = null;
+                }
+            }
+
+            return response()->json($plandetails);
+
+        } elseif ($request->product_details_id) {
+
+            $planName = TTBKEY::where('id', $request->product_details_id)->first();
+            return response()->json($planName);
+        }
+    } else {
+        return redirect('/setup');
+    }
+}
+
 
                 public function plandetailscreate(){
                     if ($this->loggedInAdmin && $this->admintype == 'superadmin') {
