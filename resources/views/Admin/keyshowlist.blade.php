@@ -297,6 +297,7 @@
                             contentType: false,
                             processData: false,
                             success: function(response) {
+                                console.log(response);
                                 var tbody = $('#showdata tbody');
                                 tbody.empty();
 
