@@ -65,7 +65,7 @@
                             <form id="form_search" method="post">
                                 <div class="grid md:grid-cols-4 sm:grid-cols-2 gap-2">
                                     <div class="xl:col-span-1 md:col-span-1 sm:col-span-1 col-span-2">
-                                        <select id="KEY_ID" class="form-control" name="KEY_ID">
+                                        <select id="product_details_id" class="form-control" name="KEY_ID">
                                             <option value=" ">-Select Product Details-</option>
                                             @foreach ($product_details as $product_detail)
                                             <option value="{{ $product_detail->id }}">{{ $product_detail->key_text }}-{{ $product_detail->plan_name_text }}</option>
