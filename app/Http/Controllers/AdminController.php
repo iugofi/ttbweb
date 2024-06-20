@@ -1301,7 +1301,7 @@ public function newslistshow(){
                         if ($this->loggedInAdmin) {
                          $decryptid=\Crypt::decrypt($id);
                             $editkey=TTBKEY::find($decryptid);
-                            return view('Admin.editplandetails',['editkey'=>$editkey]);
+                            return view('Admin.editkey',['editkey'=>$editkey]);
                         
                         } else {
                             return redirect('/setup');
