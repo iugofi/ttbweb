@@ -1075,10 +1075,11 @@ public function newslistshow(){
                 
                         // Prepare response data
                         $response = $productDetails->map(function ($detail) {
+                            $planName = Planname::where('plan_id', $detail->plan_id)->value('name');
                             return [
                                 'main_key' => $detail->main_key, // Adjust according to your column names
                                 'key_type' => $detail->key_type,
-                                'plan_id' => $detail->plan_id,
+                                'plan_id' => $planName,
                                 'price' => $detail->price,
                                 'key_activation_date' => $detail->key_activation_date,
                                 'key_expirey_date' => $detail->key_expirey_date,
