@@ -52016,7 +52016,13 @@ section#about-features {
     display: flex;
     margin: auto;
 }
-
+hr.hr-line {
+    width: 13%;
+    rotate: 89.5deg;
+    background: #353232;
+    position: relative;
+    top: 4.5rem;
+}
 
 
 
