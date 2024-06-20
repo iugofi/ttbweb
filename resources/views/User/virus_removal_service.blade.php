@@ -196,8 +196,46 @@
 
     <!-- End::virus removal service section four -->
 
+    <!-- Start::virus removal service section five -->
+    <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]"
+        style="padding-top: 0px !important">
+        <div class="container">
+            <div
+                class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
 
+                <div
+                    class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-6 pt-5 pb-0 lg:px-2 !text-start  my-auto">
 
+                    <div class="row row-service mt-5 gap-20"
+                        style="display: flex;margin: auto;text-align: center;justify-content: center;">
+                        <div class="row flex-row-colum">
+                            <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
+                                <img src="https://www.nighthawk-routerlogin.com/assets/img/The-Largest-Business-Expert-Company-icon-1.png"
+                                    class="img-fluid p-1">
+                            </div>
+                            <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2 pe-3">
+                                <h5 class="dark-text">32+ Year Of</h5>
+                                <p class="text-[#8c9097] dark:text-white/50">Business Experience</p>
+                            </div>
+                        </div>
+                        <div class="row flex-row-colum">
+                            <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
+                                <img src="https://www.nighthawk-routerlogin.com/assets/img/The-Largest-Business-Expert-Company-icon-2.png"
+                                    class="img-fluid p-1">
+                            </div>
+                            <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
+                                <h5 class="dark-text">Company Data</h5>
+                                <p class="text-[#8c9097] dark:text-white/50">Business Experience</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End::virus removal service section five -->
 
 
 
