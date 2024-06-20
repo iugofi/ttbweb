@@ -1,3 +1,41 @@
+<style>
+    /* Hide submenu by default */
+.main-menu .slide-menu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+
+/* Show submenu on hover */
+.main-menu .slide.has-sub:hover > .slide-menu {
+    display: block;
+}
+
+/* Optional: Styling for the submenu */
+.main-menu .slide-menu {
+    background-color: #fff; /* Background color */
+    border: 1px solid #ddd; /* Border */
+    padding: 10px; /* Padding */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow */
+    z-index: 1000; /* Ensure it’s above other elements */
+}
+
+/* Styling for the parent menu item */
+.main-menu .side-menu__item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    color: #333; /* Text color */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Styling for hover state of the parent menu item */
+.main-menu .side-menu__item:hover {
+    background-color: #f0f0f0; /* Background color on hover */
+}
+
+</style>
 <aside class="app-sidebar sticky !topacity-0 sticky-pin" >
     <div class="container-xl xl:!p-0">
         <!-- Start::main-sidebar -->
