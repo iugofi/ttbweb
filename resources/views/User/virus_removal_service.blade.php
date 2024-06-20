@@ -257,15 +257,15 @@
                             <i class="fa fa-phone icon-font"></i>
                         </div>
                         <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2 pe-3">
-                            <h5 class="dark-text">32+ Year Of</h5>
-                            <p class="text-[#8c9097] dark:text-white/50">Business Experience</p>
+                            <h5 class="dark-text">Contact Us</h5>
+                            <p class="text-[#8c9097] dark:text-white/50">Reach out to us via phone or email.</p>
                         </div>
                         <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
                             <i class="fa fa-user-secret icon-font"></i>
                         </div>
                         <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
-                            <h5 class="dark-text">Company Data</h5>
-                            <p class="text-[#8c9097] dark:text-white/50">Business Experience</p>
+                            <h5 class="dark-text">Virus Removal</h5>
+                            <p class="text-[#8c9097] dark:text-white/50">We get to work cleaning your device.</p>
                         </div>
 
                     </div>
@@ -274,15 +274,15 @@
                             <i class="fa fa-exclamation-circle icon-font"></i>
                         </div>
                         <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2 pe-3">
-                            <h5 class="dark-text">32+ Year Of</h5>
-                            <p class="text-[#8c9097] dark:text-white/50">Business Experience</p>
+                            <h5 class="dark-text">Diagnosis</h5>
+                            <p class="text-[#8c9097] dark:text-white/50">We'll assess your device's issues.</p>
                         </div>
                         <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
                             <i class="fa fa-desktop icon-font"></i>
                         </div>
                         <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
-                            <h5 class="dark-text">Company Data</h5>
-                            <p class="text-[#8c9097] dark:text-white/50">Business Experience</p>
+                            <h5 class="dark-text">Quality Assurance</h5>
+                            <p class="text-[#8c9097] dark:text-white/50">We get to work cleaning your device.</p>
                         </div>
 
                     </div>
@@ -291,15 +291,15 @@
                             <i class="fa fa-shield icon-font"></i>
                         </div>
                         <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2 pe-3">
-                            <h5 class="dark-text">32+ Year Of</h5>
-                            <p class="text-[#8c9097] dark:text-white/50">Business Experience</p>
+                            <h5 class="dark-text">Secure Connection</h5>
+                            <p class="text-[#8c9097] dark:text-white/50">Our technicians connect remotely.</p>
                         </div>
                         <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
                             <i class="fa-regular fa-face-smile icon-font"></i>
                         </div>
                         <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
-                            <h5 class="dark-text">Company Data</h5>
-                            <p class="text-[#8c9097] dark:text-white/50">Business Experience</p>
+                            <h5 class="dark-text">Happy You</h5>
+                            <p class="text-[#8c9097] dark:text-white/50">Enjoy a faster, secure device.</p>
                         </div>
 
                     </div>
