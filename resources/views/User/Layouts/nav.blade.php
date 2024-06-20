@@ -41,11 +41,11 @@
                     <!-- End::slide -->
                     <!-- Start::slide -->
                     <li class="slide has-sub">
-                        <a href="javascript:void(0);" class="side-menu__item">
+                        <a href="javascript:void(0);" class="side-menu__item" id="product-menu">
                             <span class="side-menu__label me-2">Product</span>
                             <i class="fe fe-chevron-right side-menu__angle op-8"></i>
                         </a>
-                        <ul class="slide-menu child1">
+                        <ul class="slide-menu child1" id="product-submenu">
                             <li class="slide">
                                 <a href="{{route('user.vpnshield')}}" class="side-menu__item">TTB VPN Shield</a>
                             </li>
@@ -55,7 +55,6 @@
                             <li class="slide">
                                 <a href="{{route('user.totalinternet')}}" class="side-menu__item">TTB Total Security</a>
                             </li>
-                            
                         </ul>
                     </li>
                     <!-- End::slide -->
@@ -191,3 +190,21 @@
         <!-- End::main-sidebar -->
     </div>
 </aside>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const productMenu = document.getElementById('product-menu');
+        const productSubmenu = document.getElementById('product-submenu');
+
+        productMenu.addEventListener('click', function(event) {
+            productSubmenu.classList.toggle('open');
+            event.stopPropagation(); // Prevent event from bubbling up to the document
+        });
+
+        document.addEventListener('click', function(event) {
+            if (!productSubmenu.contains(event.target) && productSubmenu.classList.contains('open')) {
+                productSubmenu.classList.remove('open');
+            }
+        });
+    });
+</script>
