@@ -244,7 +244,7 @@
                 <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 customize-image text-center">
                     <div class="lg:text-start !flex items-center lg:justify-start justify-center">
                         <img src="https://www.nighthawk-routerlogin.com/assets/img/Hassle-Free-Process-img.png"
-                            alt="" class="img-fluid" style=" width: 100% !important;">
+                            alt="" class="img-fluid" style=" width: 100% !important; border-radius: 22px !important;">
                     </div>
                 </div>
                 <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 pt-5 pb-0 lg:px-2 !text-start  my-auto">
