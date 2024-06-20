@@ -72,14 +72,7 @@
                                         @endforeach
                                         </select>
                                     </div>
-                                    <div class="xl:col-span-1 md:col-span-1 sm:col-span-1 col-span-2">
-                                        <select id="PLAN_ID" class="form-control" name="PLAN_ID">
-                                            <option value=" ">-Select Plan Type-</option>
-                                            @foreach ($plandata as $plandatas)
-                                                <option value="{{ $plandatas->plan_id }}">{{ $plandatas->name }}</option>
-                                            @endforeach
-                                        </select>
-                                    </div>
+                                    
                                     <div class="xl:col-span-1 md:col-span-1 sm:col-span-1 col-span-2">
                                         <i class="bi bi-search-heart">
                                             <input type="submit" id="btn_search" class="m-1 ti-btn ti-btn-primary-full"
