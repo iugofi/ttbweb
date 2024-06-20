@@ -52042,6 +52042,7 @@ hr.hr-line {
 }
 .viral-img-sec {
     position: relative;
+    bottom: 8rem;
     /* overflow: hidden; */
 }
 .viral-cont-sec {
