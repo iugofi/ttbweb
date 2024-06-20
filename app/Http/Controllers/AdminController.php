@@ -1280,9 +1280,15 @@ public function newslistshow(){
                             // $query = DB::getQueryLog($keylist);
                             // dd($query);
 
+                            $product_details=DB::table('product_details')
+                                                    ->join('storepick', 'product_details.key_type', '=', 'storepick.PICK_ID')
+                                                    ->join('planname', 'product_details.plan_id', '=', 'planname.plan_id')
+                                                    ->select('product_details.id', 'storepick.PICK_TEXT as key_text', 'planname.name as plan_name_text', 'product_details.plan_id')
+                                                    ->get();
+
                             $keydata=Storepick::where('STORE_ID','key_type')->get();
                             $plandata=Planname::all();
-                            return view('Admin.keyshowlist', ['keylist' => $keylist,'keydata' =>$keydata,'plandata' =>$plandata]);
+                            return view('Admin.keyshowlist', ['keylist' => $keylist,'keydata' =>$keydata,'plandata' =>$plandata,'product_details' =>$product_details]);
                         } else {
                             return redirect('/setup');
                         }
