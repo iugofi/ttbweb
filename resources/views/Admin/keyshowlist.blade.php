@@ -169,11 +169,11 @@
                                                                 switch ($item->status) {
                                                                     case 101:
                                                                         $statusText = $storepick->PICK_TEXT;
-                                                                        $statusColor = 'bg-warning';
+                                                                        $statusColor = 'warning';
                                                                         break;
                                                                     case 102:
                                                                         $statusText = $storepick->PICK_TEXT;
-                                                                        $statusColor = 'bg-danger';
+                                                                        $statusColor = 'danger';
                                                                         break;
                                                                     case 103:
                                                                         $statusText = $storepick->PICK_TEXT;
