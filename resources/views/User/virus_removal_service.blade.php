@@ -206,7 +206,7 @@
                     </div>
                     <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2 px-3">
                         <h5 class="dark-text">Affordable Pricing: Protect Your<br> Devices, Without Breaking the Bank</h5>
-                        <p class="text-[#8c9097] dark:text-white/50 pt-3 text-left">We offer competitive pricing that won't
+                        <p class="text-[#8c9097] dark:text-white/50 pt-3 texts-left">We offer competitive pricing that won't
                             drain your wallet.<br>
                             Be assured that your devices are in safe hands.</p>
                     </div>
@@ -219,7 +219,7 @@
                     </div>
                     <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
                         <h5 class="dark-text">24/7 Support: Round-the-Clock<br> Assistance</h5>
-                        <p class="text-[#8c9097] dark:text-white/50 pt-3 text-left">Viruses don't wait for convenient times
+                        <p class="text-[#8c9097] dark:text-white/50 pt-3 texts-left">Viruses don't wait for convenient times
                             to strike. That's why<br>
                             our team is available round the clock to assist you with our<br>
                             range of services.</p>
@@ -233,7 +233,7 @@
 
     <!-- Start::virus removal service section six -->
     <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]"
-        style="padding-top: 0px !important margin-bottom: -9rem !important;">
+        style="padding-top: 0px !important; margin-bottom: -9rem !important;">
         <div class="container viral-img-sec">
             <div
                 class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
