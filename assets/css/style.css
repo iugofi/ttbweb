@@ -52012,7 +52012,10 @@ section#about-features {
     display: flex;
     justify-content: center;
 }
-
+.row.flex-row-colum {
+    display: flex;
+    margin: auto;
+}
 
 
 

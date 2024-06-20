@@ -200,7 +200,7 @@
     <div class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
         style="padding-top: 0px !important">
         <div class="container">
-                <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-6 pt-5 pb-0 lg:px-2 !text-start  my-auto">
+                <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-6 pt-5 pb-0 lg:px-2 !text-start" style="display: flex">
                         <div class="row flex-row-colum">
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2">
                                 <img src="https://www.nighthawk-routerlogin.com/assets/img/The-Largest-Business-Expert-Company-icon-1.png"
