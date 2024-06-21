@@ -93,8 +93,8 @@ class UserController extends Controller
         } else {
             $user = Users::where('reset_tokens',$request->own_password)->first();
             // dd($user);
-            $user->password = Hash::make($request->create_password);
-            $user->reset_tokens = 'bye-bye';
+            $user->password =\Crypt::encrypt($request->create_password);
+            $user->reset_tokens = '*****';
             $user->status = 101;
 
             $user->save();
