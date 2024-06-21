@@ -48746,11 +48746,12 @@ img.img-fluid.service-icon {
 /* neeraj-home-page-css-22-04-2024 */
 
 .e-suport-banner {
-    padding: 11em 0em 1em 0em;
+    padding: 8em 0em 1em 0em;
 }
 .e-suport-banner h2 {
     font-size: 41px;
     font-weight: 600;
+    padding-top: 1.8em;
 }
 
 .e-suport-banner h3 {
@@ -48762,6 +48763,7 @@ img.img-fluid.service-icon {
 }
 .e-suport-banner .bttn-box {
     padding: 3em 0em;
+    margin-bottom: 6em;
 }
 
 .e-suport-banner .btn-home-now {
