@@ -20,7 +20,6 @@
                 <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
                     <h2>Your Personal Tech Lifeline</h2>
                     <h3>On-Demand Remote Services for All Things Tech</h3>
-                    <h3>Cyber Security</h3>
                     <p>Technology hiccups can be frustrating, and when they happen, you need a reliable partner to turn to. TTB eSupport Concierge can help fill the blanks.</p>
                     <p>From hardware setup to software troubles, and everything in between, we've got you covered!</p>
                     <div class="bttn-box">
