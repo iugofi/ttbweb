@@ -50626,7 +50626,7 @@ h6.uppercase {
     }
     .viral-img-sec {
         position: inherit;
-        bottom: 5rem;
+        bottom: 5rem !important;
     }
     .virus-removal {
         margin: 0px !important;
@@ -50635,6 +50635,11 @@ h6.uppercase {
         width: 66%;
         justify-content: space-evenly;
     }
+    .sec-saven-top {
+        margin-top: 4rem;
+    }
+
+
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
