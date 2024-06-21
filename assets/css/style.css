@@ -50619,7 +50619,7 @@ h6.uppercase {
         bottom: 5rem;
     }
     .virus-removal {
-        margin: 0px;
+        margin: 0px !important;
     }
 }
 
