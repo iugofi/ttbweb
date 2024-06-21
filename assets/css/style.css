@@ -50831,6 +50831,13 @@ h6.uppercase {
     padding-top: 5rem;
     height: 32rem !important;
 }
+.flexs-row .col-span-2 {
+    position: relative;
+    left: 0 !important;
+    margin: 0px !important;
+}
+
+
 }
 
 /* start vpn-shild banner css */
