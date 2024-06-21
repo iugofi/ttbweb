@@ -50631,6 +50631,10 @@ h6.uppercase {
     .virus-removal {
         margin: 0px !important;
     }
+    .bg-imgs {
+        width: 66%;
+        justify-content: space-evenly;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
