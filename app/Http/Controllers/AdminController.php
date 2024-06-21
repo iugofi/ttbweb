@@ -1468,7 +1468,7 @@ public function newslistshow(){
                         ->where('product_details.key_type', 501)
                         ->select('payments.*','product_details.key_type','product_details.plan_id')
                         ->get();           
-                        return view('Admin.vpnpayshow',['vpnpaydata'=>$vpnpaydata]);
+                        return view('Admin.payshow',['vpnpaydata'=>$vpnpaydata]);
                         
                         }else
                         {
@@ -1483,7 +1483,7 @@ public function newslistshow(){
                         $vpnpaydata=Payments::join('product_details', 'product_details.id', '=', 'payments.product_id')
                         ->select('payments.*','product_details.key_type','product_details.plan_id')
                         ->get();           
-                        return view('Admin.vpnpayshow',['vpnpaydata'=>$vpnpaydata]);
+                        return view('Admin.payshow',['vpnpaydata'=>$vpnpaydata]);
                         
                         }else
                         {
