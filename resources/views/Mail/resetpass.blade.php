@@ -225,7 +225,7 @@
                                                                             style="padding-left:20px;padding-right:20px;font-size:24px;display:inline-block;letter-spacing:normal;"><span
                                                                                 style="font-size: 16px; word-break: break-word; line-height: 2; mso-line-height-alt: 32px;"><strong><span
                                                                                         data-mce-style="font-size:24px;"
-                                                                                        style="font-size:24px;">Activate
+                                                                                        style="font-size:24px;">Reset
                                                                                         Now</span></strong></span></span></a>
                                                                     <!-- <div
                   style="text-decoration:none;display:inline-block;color:#ffffff;background-color:#e03add;border-radius:11px;width:auto;border-top:0px solid #2B79A6;font-weight:undefined;border-right:0px solid #2B79A6;border-bottom:4px solid #B93CC0;border-left:0px solid #2B79A6;padding-top:5px;padding-bottom:5px;font-family:Nunito, Arial, Helvetica Neue, Helvetica, sans-serif;font-size:24px;text-align:center;mso-border-alt:none;word-break:keep-all;">
