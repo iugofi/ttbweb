@@ -135,6 +135,7 @@
                                             <th class="px-4 py-2">customer_name</th>
                                             <th class="px-4 py-2">country</th>
                                             <th class="px-4 py-2">postal_code</th>
+                                            <th class="px-4 py-2">Date</th>
                                             <th class="px-4 py-2">Action</th>
                                         </tr>
                                     </thead>
@@ -168,6 +169,8 @@
                                                 <td class="border px-4 py-2">{{ $item->customer_name  }}</td>
                                                 <td class="border px-4 py-2">{{ $item->country  }}</td>
                                                 <td class="border px-4 py-2">{{ $item->postal_code  }}</td>
+                                                <td class="border px-4 py-2">{{ $item->created_at  }}</td>
+
                                                 
                                                 <td class="border px-4 py-2">
                                                     <div class="flex flex-row items-center !gap-2 text-[0.9375rem]">
