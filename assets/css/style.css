@@ -37571,7 +37571,7 @@ body {
     flex-direction: column;
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     height: 5px;
     width: 0px;
     --tw-bg-opacity: 1;
@@ -37591,7 +37591,20 @@ body {
 
 .dark ::-webkit-scrollbar-thumb {
     background-color: rgb(0 0 0 / 0.2);
-}
+} */
+
+::-webkit-scrollbar{
+    width: 15px;
+    }
+    ::-webkit-scrollbar-track{
+    background: #dle5ff;
+    }
+    ::-webkit-scrollbar-thumb {
+        height: 20px;
+        width: 0px;
+        --tw-bg-opacity: 1;
+        background-color: #a3a3a3;
+    }
 
 code {
     font-size: 0.875rem;
