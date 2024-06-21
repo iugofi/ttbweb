@@ -50635,6 +50635,11 @@ h6.uppercase {
         width: 66%;
         justify-content: space-evenly;
     }
+    .sec-six-top {
+        padding-bottom: 0px !important;
+    }
+    
+
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
