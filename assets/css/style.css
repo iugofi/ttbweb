@@ -50576,8 +50576,8 @@ h6.uppercase {
         width: 110px; */
     }
     .viral-cont-sec {
-        position: revert;
-        width: 100%;
+        position: revert !important;
+        width: 100% !important;
     }
 }
 
