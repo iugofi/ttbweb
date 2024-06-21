@@ -53,7 +53,7 @@
                                         </div>
                                     </div>
                                     <a href="javascript:void(0);">
-                                        <img src="https://www.ttbinternetsecurity.com/admin/uploads/posts/{{ $blogPost->image }}"
+                                        <img src="{{ asset('assets/images/dailyblogs/' . $blogPost->image) }}"
                                             class="card-img rounded-0 blog-details-img" alt="...">
                                     </a>
                                     <div class="box-body border-b dark:border-defaultborder/10 border-dashed">
@@ -458,7 +458,7 @@
                                                 <li class="list-group-item recent-avtar">
                                                     <div class="flex flex-nowrap items-center">
                                                         <span class="avatar avatar-xl me-4">
-                                                            <img src="https://www.ttbinternetsecurity.com/admin/uploads/posts/{{ $recentbloglist->image }}"
+                                                            <img src="{{ asset('assets/images/dailyblogs/' . $recentbloglist->image) }}"
                                                                 class="img-fluid !rounded-md" alt="...">
                                                         </span>
                                                         <div class="flex-grow">
