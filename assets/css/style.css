@@ -50906,7 +50906,12 @@ h6.uppercase {
     height: 38rem !important;
     padding-top: 3rem;
 }
-
+.bg-imgs {
+    position: absolute ;
+    animation: rotate 30s linear infinite;
+    width: 87%;
+    justify-content: center;
+}
 }
 
 /* start vpn-shild banner css */
