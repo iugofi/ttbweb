@@ -69,7 +69,7 @@
                                         <div>
                                             <p class="text-[#8c9097] dark:text-white/50 text-[0.813rem] mb-0">
                                                 Total Amount {{$title}}</p>
-                                            <h4 class="font-semibold  text-[1.5rem] !mb-2 "> {{ $total }}
+                                            <h4 class="font-semibold  text-[1.5rem] !mb-2 "> ${{ $total }}
                                             </h4>
                                         </div>
                                         <div id="crm-total-customers"></div>
