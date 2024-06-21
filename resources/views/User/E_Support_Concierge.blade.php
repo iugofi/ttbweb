@@ -18,18 +18,19 @@
         <div class="container">
             <div class="grid grid-cols-12 gap-6">
                 <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
-                    <h2>Protect Your <br> Data With Powerful</h2>
+                    <h2>Your Personal Tech Lifeline</h2>
+                    <h3>On-Demand Remote Services for All Things Tech</h3>
                     <h3>Cyber Security</h3>
-                    <p class="mt-4 text-black">Cyber attacks can cause on average $1.5 billion to a company, with our advanced
-                        AI system we can block the attack before it happens.</p>
+                    <p>Technology hiccups can be frustrating, and when they happen, you need a reliable partner to turn to. TTB eSupport Concierge can help fill the blanks.</p>
+                    <p>From hardware setup to software troubles, and everything in between, we've got you covered!</p>
                     <div class="bttn-box">
                         <a href="#" class="btn-home-now">Get Started Now </a>
                         <a href="#" class="btn-home-cnt ms-5">Contact Us</a>
                     </div>
                 </div>
                 <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
-                    <img src="{{asset('assets/home-two-img/banner-one-home2.png') }}" alt=""
-                    class="img-fluid" width="100%">
+                    {{-- <img src="{{asset('assets/home-two-img/banner-one-home2.png') }}" alt=""
+                    class="img-fluid" width="100%"> --}}
                 </div>
             </div>
         </div>
