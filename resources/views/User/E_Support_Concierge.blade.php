@@ -51,7 +51,7 @@
                         <p>Guaranteed finest aid for your network and devices and exceptional user experience.</p>
                         <div class="flex">
                             <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 md:col-span-7 col-span-7">
-                                <i></i><span>Read More</span>
+                                <i class="fa-solid fa-arrow-right"></i><span>Read More</span>
                             </div>
                             <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-5 col-span-5">
                                 <img src="" alt="" width="100%">
@@ -62,7 +62,7 @@
                         <p>Guaranteed finest aid for your network and devices and exceptional user experience.</p>
                         <div class="flex">
                             <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 md:col-span-7 col-span-7">
-                                <i></i><span>Read More</span>
+                                <i class="fa-solid fa-arrow-right"></i><span>Read More</span>
                             </div>
                             <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-5 col-span-5">
                                 <img src="" alt="" width="100%">
@@ -73,7 +73,7 @@
                         <p>Guaranteed finest aid for your network and devices and exceptional user experience.</p>
                         <div class="flex">
                             <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 md:col-span-7 col-span-7">
-                                <i></i><span>Read More</span>
+                                <i class="fa-solid fa-arrow-right"></i><span>Read More</span>
                             </div>
                             <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-5 col-span-5">
                                 <img src="" alt="" width="100%">
@@ -84,7 +84,7 @@
                         <p>Guaranteed finest aid for your network and devices and exceptional user experience.</p>
                         <div class="flex">
                             <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 md:col-span-7 col-span-7">
-                                <i></i><span>Read More</span>
+                                <i class="fa-solid fa-arrow-right"></i><span>Read More</span>
                             </div>
                             <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-5 col-span-5">
                                 <img src="" alt="" width="100%">
