@@ -1477,6 +1477,21 @@ public function newslistshow(){
 
                     }
 
+                    public function allpaymentshow()
+                    {
+                        if ($this->loggedInAdmin) {
+                        $vpnpaydata=Payments::join('product_details', 'product_details.id', '=', 'payments.product_id')
+                        ->select('payments.*','product_details.key_type','product_details.plan_id')
+                        ->get();           
+                        return view('Admin.vpnpayshow',['vpnpaydata'=>$vpnpaydata]);
+                        
+                        }else
+                        {
+                            return redirect('/setup'); 
+                        }
+
+                    }
+
                     public function vpnpaydelete($id)
                     {
                         if ($this->loggedInAdmin) {

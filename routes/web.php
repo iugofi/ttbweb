@@ -255,6 +255,10 @@ Route::delete('/plandetailsdelete/{id}', [AdminController::class, 'plandetailsde
 Route::get('/vpnpayshow', [AdminController::class, 'vpnpayshow'])->name('pay.vpnpayshow');
 Route::delete('/vpnpaydelete/{id}', [AdminController::class, 'vpnpaydelete'])->name('delete.vpnpaydelete');
 
+//all payment list
+Route::get('/allpaymentshow', [AdminController::class, 'allpaymentshow'])->name('pay.allpaymentshow');
+
+
 
 
 

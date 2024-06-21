@@ -156,7 +156,7 @@
                     </li>
                     <li class="slide__category"><span class="category-name">All Payment Details</span></li>
                     <li class="slide">
-                        <a href="{{route('pay.vpnpayshow')}}" class="side-menu__item">
+                        <a href="{{route('pay.allpaymentshow')}}" class="side-menu__item">
                             <i class="fa-solid fa-location-dot side-menu__icon"></i>
                             <span class="side-menu__label">All Payment</span>
                         </a>
