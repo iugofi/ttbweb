@@ -306,7 +306,7 @@
     <!-- End::virus removal service section six -->
 
     <!-- Start::virus removal service section sevan -->
-    <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70" id="faq">
+    <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 sec-saven-top" id="faq">
         <div class="container text-center">
 
             <h3 class="lg:text-center font-semibold mb-2 text-[2rem]">Frequently Asked Question</h3>
