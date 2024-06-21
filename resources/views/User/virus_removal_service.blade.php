@@ -55,8 +55,7 @@
                 <div
                     class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
 
-                    <div
-                        class="xxl:col-span-5 xl:col-span-5 lg:col-span-=6 md:col-span-6 pt-5 pb-0 lg:px-2 !text-start  virus-inner-one">
+                    <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-=6 md:col-span-12 pt-5 pb-0 lg:px-2 !text-start  virus-inner-one">
 
                         <div
                             class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 md:col-span-6 pt-5 pb-0 lg:px-2 !text-start virus-inner-shield">
@@ -78,8 +77,7 @@
                             to safeguard it from future threats.
                         </p>
                     </div>
-                    <div
-                        class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 md:col-span-6 pt-5 pb-0 lg:px-2 !text-start virus-inner-two">
+                    <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 md:col-span-12 pt-5 pb-0 lg:px-2 !text-start virus-inner-two">
 
                         <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">Understanding the Threat: Identify <br>
                             and Eliminate Viruses Malware<br></h4>
@@ -109,7 +107,7 @@
     <!-- End::virus removal service section three -->
 
     <!-- Start::virus removal service section four -->
-    <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] ">
+    <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] image-bg">
         <div class="container">
             <div
                 class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
