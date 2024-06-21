@@ -458,7 +458,7 @@
                                                 <li class="list-group-item recent-avtar">
                                                     <div class="flex flex-nowrap items-center">
                                                         <span class="avatar avatar-xl me-4">
-                                                            <img src="https://www.ttbinternetsecurity.com/admin/uploads/posts/{{ $recentbloglist->image }}"
+                                                            <img src="{{ asset('assets/images/dailyblogs/' . $recentbloglist->image) }}"
                                                                 class="img-fluid !rounded-md" alt="...">
                                                         </span>
                                                         <div class="flex-grow">
