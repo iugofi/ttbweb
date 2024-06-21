@@ -50616,7 +50616,7 @@ h6.uppercase {
     }
     .viral-img-sec {
         position: inherit;
-        bottom: 5rem;
+        bottom: 5rem !important;
     }
     .virus-removal {
         margin: 0px !important;
