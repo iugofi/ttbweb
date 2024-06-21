@@ -53,7 +53,7 @@
                                         </div>
                                     </div>
                                     <a href="javascript:void(0);">
-                                        <img src="https://www.ttbinternetsecurity.com/admin/uploads/posts/{{ $blogPost->image }}"
+                                        <img src="https://www.ttbinternetsecurity.com/admin/uploads/dailyblogs/{{ $blogPost->image }}"
                                             class="card-img rounded-0 blog-details-img" alt="...">
                                     </a>
                                     <div class="box-body border-b dark:border-defaultborder/10 border-dashed">
