@@ -50926,9 +50926,11 @@ h6.uppercase {
     padding-top: 3rem;
 }
 .bg-imgs {
-    position: absolute ;
+    position: absolute;
     animation: rotate 30s linear infinite;
-    width: 87%;
+    width: 85% !important;
+    bottom: 0.5rem;
+    display: flex;
     justify-content: center;
 }
 }
