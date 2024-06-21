@@ -48760,7 +48760,7 @@ img.img-fluid.service-icon {
 }
 
 .e-suport-section-two span {
-    display: block;
+    display: inline-block;
     margin-top: 3em;
 }
 
