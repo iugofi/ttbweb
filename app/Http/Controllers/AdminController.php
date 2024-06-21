@@ -1231,6 +1231,17 @@ public function newslistshow(){
                         }
                     }
 
+                    public function customerdelete($id)
+                {
+                    if ($this->loggedInAdmin) {
+                        $item = Users::findOrFail($id);
+                        $item->delete();
+                        return response()->json(['message' => 'User deleted successfully']);
+                    } else {
+                        return redirect('/setup'); 
+                    }
+                }
+
 
                     public function editcustomerssave(Request $request)
                 {
