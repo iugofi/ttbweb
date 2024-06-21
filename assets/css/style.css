@@ -48744,6 +48744,14 @@ img.img-fluid.service-icon {
 /* end kunal */
 
 /* neeraj-home-page-css-22-04-2024 */
+
+.e-suport-section-two .icon-box i {
+    background-color: #F3F3F3;
+    padding: 12px;
+    border-radius: 50%;
+    color: #5d5d5d;
+}
+
 .e-suport-section-two .icon-box {
     border-radius: 2px;
     border: 1px solid #00000024;
