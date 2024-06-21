@@ -48760,6 +48760,26 @@ img.img-fluid.service-icon {
 .e-suport-banner p {
     font-size: 16px;
 }
+.e-suport-banner .bttn-box {
+    padding: 3em 0em;
+}
+
+.e-suport-banner .btn-home-now {
+    background-color: #12d2b3;
+    padding: 12px 10px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 5px;
+    border: 2px solid #12d2b3;
+}
+
+.e-suport-banner .btn-home-cnt {
+    padding: 12px 39px;
+    border: 2px solid #12d2b3;
+    color: #12d2b3;
+    font-size: 16px;
+    border-radius: 5px;
+}
 
 
 .section-app-down {
