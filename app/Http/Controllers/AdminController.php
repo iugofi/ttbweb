@@ -1481,6 +1481,7 @@ public function newslistshow(){
                     public function allpaymentshow()
                     {
                         if ($this->loggedInAdmin) {
+                        $title="All";
                         $vpnpaydata=Payments::join('product_details', 'product_details.id', '=', 'payments.product_id')
                         ->select('payments.*','product_details.key_type','product_details.plan_id')
                         ->get();           
