@@ -169,7 +169,7 @@
                                                 <td class="border px-4 py-2">{{ $item->customer_name  }}</td>
                                                 <td class="border px-4 py-2">{{ $item->country  }}</td>
                                                 <td class="border px-4 py-2">{{ $item->postal_code  }}</td>
-                                                <td class="border px-4 py-2">{{ $item->created_at->format('h:i A')  }}</td>
+                                                <td class="border px-4 py-2">{{ $item->created_at->format('Y-m-d h:i A')  }}</td>
 
                                                 
                                                 <td class="border px-4 py-2">
