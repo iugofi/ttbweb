@@ -109,10 +109,8 @@
     <!-- Start::virus removal service section four -->
     <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] image-bg">
         <div class="container">
-            <div
-                class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
-                <div
-                    class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 pt-5 pb-0 lg:px-2 !text-start  my-auto">
+            <div class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
+                <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 pt-5 pb-0 lg:px-2 !text-start  my-auto">
                     <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">Comprehensive Services:<br> We Cover It All
                     </h4>
                     {{-- <p class=" text-[0.9rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
@@ -174,7 +172,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 customize-image text-center bg-img-section"
+                <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 customize-image text-center bg-img-section"
                     style="margin: auto;">
                     <div class="bg-imgs">
                         <img src="https://www.nighthawk-routerlogin.com/assets/img/Third-section-bg.png" alt=""
