@@ -267,6 +267,8 @@ Route::get('/allpaymentshow', [AdminController::class, 'allpaymentshow'])->name(
 Route::get('/customersshow', [AdminController::class, 'customershow'])->name('customer.show');
 Route::get('/customersredit/{id}', [AdminController::class, 'customersedit'])->name('customers.edit');
 Route::post('/editcustomerssave', [AdminController::class, 'editcustomerssave'])->name('edit.customerssave');
+Route::delete('/customerdelete/{id}', [AdminController::class, 'customerdelete'])->name('delete.customerdelete');
+
 
 //key 
 Route::get('/keyshow', [AdminController::class, 'keyshow'])->name('key.show');
