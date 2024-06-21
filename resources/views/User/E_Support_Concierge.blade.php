@@ -42,7 +42,7 @@
                 <div class="grid grid-cols-12 gap-6">
                     <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 col-span-12 text-center">
                     <h2>What is TTB eSupport Concierge?</h2>
-                    <p class="mb-5">TTB eSupport Concierge offers top-quality services to users for all their smart devices. With a
+                    <p class="mb-5 mt-2">TTB eSupport Concierge offers top-quality services to users for all their smart devices. With a
                         single click, <br> you can have top-notch assistance at your beck and call.</p>
                     </div>
                 </div>
