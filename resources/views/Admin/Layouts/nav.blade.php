@@ -154,6 +154,13 @@
                             <span class="side-menu__label">Plan Details Create</span>
                         </a>
                     </li>
+                    <li class="slide__category"><span class="category-name">All Payment Details</span></li>
+                    <li class="slide">
+                        <a href="{{route('pay.vpnpayshow')}}" class="side-menu__item">
+                            <i class="fa-solid fa-location-dot side-menu__icon"></i>
+                            <span class="side-menu__label">All Payment</span>
+                        </a>
+                    </li>
 
                     <li class="slide__category"><span class="category-name">Payment Details</span></li>
 
@@ -169,12 +176,7 @@
                             <span class="side-menu__label">Antivirus Payment</span>
                         </a>
                     </li>
-                    <li class="slide">
-                        <a href="" class="side-menu__item">
-                            <i class="bx bx-box side-menu__icon"></i>
-                            <span class="side-menu__label">Toyal Sequrity Payment</span>
-                        </a>
-                    </li>
+                   
                 @php
                 }
                 @endphp
