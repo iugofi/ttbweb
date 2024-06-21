@@ -1468,7 +1468,7 @@ public function newslistshow(){
                         $vpnpaydata=Payments::join('product_details', 'product_details.id', '=', 'payments.product_id')
                         ->where('product_details.key_type', 501)
                         ->select('payments.*','product_details.key_type','product_details.plan_id')
-                        ->orderBy('payments.id', 'asc')
+                        ->orderBy('payments.id', 'desc')
                         ->get();       
                         $total = DB::table('payments')
                         ->join('product_details', 'product_details.id', '=', 'payments.product_id')
@@ -1490,7 +1490,7 @@ public function newslistshow(){
                         $title="All";
                         $vpnpaydata=Payments::join('product_details', 'product_details.id', '=', 'payments.product_id')
                         ->select('payments.*','product_details.key_type','product_details.plan_id')
-                        ->orderBy('payments.id', 'asc')
+                        ->orderBy('payments.id', 'desc')
                         ->get();      
                         $total = DB::table('payments')
                         ->join('product_details', 'product_details.id', '=', 'payments.product_id')
