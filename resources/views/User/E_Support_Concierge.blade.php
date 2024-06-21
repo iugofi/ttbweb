@@ -47,7 +47,7 @@
                     </div>
                 </div>
                 <div class="grid grid-cols-12 gap-6 mt-5">
-                    <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-12 col-span-12">
+                    <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-12 col-span-12 icon-box">
                         <p>Guaranteed finest aid for your network and devices and exceptional user experience.</p>
                         <div class="flex">
                             <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 md:col-span-7 col-span-7">
