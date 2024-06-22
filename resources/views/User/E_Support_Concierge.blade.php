@@ -135,6 +135,17 @@
                         <p class="mb-5 mt-2">From smart home devices to tech gadgets, we can help you set up and troubleshoot a wide <br>range of smart technologies.</p>
                     </div>
                 </div>
+                <div class="grid grid-cols-12 gap-6 mt-5">
+                    <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-12">
+
+                    </div>
+                    <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-12">
+                        
+                    </div>
+                    <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-12">
+                        
+                    </div>
+                </div>
             </div>
         </section>
 
