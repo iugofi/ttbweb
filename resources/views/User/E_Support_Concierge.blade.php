@@ -53,8 +53,8 @@
                             <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 md:col-span-7 col-span-7">
                                 <i class="fa-solid fa-arrow-right"></i><span class="ms-5">Read More</span>
                             </div>
-                            <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-5 col-span-5">
-                                <img src="" alt="" width="100%">
+                            <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-5 col-span-5 img-box">
+                                <img src="{{asset('assets/e-support/guaranteed.png') }}" alt="" class="img-fluid" width="100%">
                             </div>
                         </div>
                     </div>
@@ -64,8 +64,8 @@
                             <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 md:col-span-7 col-span-7">
                                 <i class="fa-solid fa-arrow-right"></i><span class="ms-5">Read More</span>
                             </div>
-                            <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-5 col-span-5">
-                                <img src="" alt="" width="100%">
+                            <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-5 col-span-5 img-box">
+                                <img src="{{asset('assets/e-support/guaranteed.png.png') }}" alt="" class="img-fluid" width="100%">
                             </div>
                         </div>
                     </div>
@@ -75,8 +75,8 @@
                             <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 md:col-span-7 col-span-7">
                                 <i class="fa-solid fa-arrow-right"></i><span class="ms-5">Read More</span>
                             </div>
-                            <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-5 col-span-5">
-                                <img src="" alt="" width="100%">
+                            <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-5 col-span-5 img-box">
+                                <img src="{{asset('assets/e-support/guaranteed.png.png') }}" alt="" class="img-fluid" width="100%">
                             </div>
                         </div>
                     </div>
@@ -86,8 +86,8 @@
                             <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 md:col-span-7 col-span-7">
                                 <i class="fa-solid fa-arrow-right"></i><span class="ms-5">Read More</span>
                             </div>
-                            <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-5 col-span-5">
-                                <img src="" alt="" width="100%">
+                            <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-5 col-span-5 img-box">
+                                <img src="{{asset('assets/e-support/guaranteed.png.png') }}" alt="" class="img-fluid" width="100%">
                             </div>
                         </div>
                     </div>

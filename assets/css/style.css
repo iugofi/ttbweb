@@ -48745,6 +48745,10 @@ img.img-fluid.service-icon {
 
 /* neeraj-home-page-css-22-04-2024 */
 
+.e-suport-section-two .img-box{
+    position: absolute;
+}
+
 .e-suport-section-two {
     padding: 3em 0em;
 }
