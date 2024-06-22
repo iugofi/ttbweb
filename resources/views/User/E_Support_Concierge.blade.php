@@ -54,7 +54,7 @@
                                 <i class="fa-solid fa-arrow-right"></i><span class="ms-5">Read More</span>
                             </div>
                             <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-5 col-span-5 img-box">
-                                <img src="{{asset('assets/e-support/guaranteed.png') }}" alt="" class="img-fluid" width="100%">
+                                <img src="{{asset('assets/e-support/guaranteed.png') }}" alt="" class="img-fluid" width="20%">
                             </div>
                         </div>
                     </div>
@@ -65,7 +65,7 @@
                                 <i class="fa-solid fa-arrow-right"></i><span class="ms-5">Read More</span>
                             </div>
                             <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-5 col-span-5 img-box">
-                                <img src="{{asset('assets/e-support/guaranteed.png.png') }}" alt="" class="img-fluid" width="100%">
+                                <img src="{{asset('assets/e-support/guaranteed.png') }}" alt="" class="img-fluid" width="20%">
                             </div>
                         </div>
                     </div>
@@ -76,7 +76,7 @@
                                 <i class="fa-solid fa-arrow-right"></i><span class="ms-5">Read More</span>
                             </div>
                             <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-5 col-span-5 img-box">
-                                <img src="{{asset('assets/e-support/guaranteed.png.png') }}" alt="" class="img-fluid" width="100%">
+                                <img src="{{asset('assets/e-support/guaranteed.png') }}" alt="" class="img-fluid" width="20%">
                             </div>
                         </div>
                     </div>
@@ -87,7 +87,7 @@
                                 <i class="fa-solid fa-arrow-right"></i><span class="ms-5">Read More</span>
                             </div>
                             <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-5 col-span-5 img-box">
-                                <img src="{{asset('assets/e-support/guaranteed.png.png') }}" alt="" class="img-fluid" width="100%">
+                                <img src="{{asset('assets/e-support/guaranteed.png') }}" alt="" class="img-fluid" width="20%">
                             </div>
                         </div>
                     </div>
