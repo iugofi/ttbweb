@@ -49,7 +49,8 @@
                 </div>
                 <div class="grid grid-cols-12 gap-6 mt-5">
                     <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-12 col-span-12 icon-box">
-                        <p class="mt-3">Guaranteed finest aid for your network and devices and exceptional user experience.</p>
+                        <p class="mt-3">Guaranteed finest aid for your network and devices and exceptional user
+                            experience.</p>
                         <div class="flex">
                             <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 md:col-span-7 col-span-7">
                                 <i class="fa-solid fa-arrow-right"></i><span class="ms-2">Read More</span>
@@ -60,7 +61,8 @@
                         </div>
                     </div>
                     <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-12 col-span-12 icon-box">
-                        <p class="mt-3">Guaranteed finest aid for your network and devices and exceptional user experience.</p>
+                        <p class="mt-3">Guaranteed finest aid for your network and devices and exceptional user
+                            experience.</p>
                         <div class="flex">
                             <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 md:col-span-7 col-span-7">
                                 <i class="fa-solid fa-arrow-right"></i><span class="ms-2">Read More</span>
@@ -71,7 +73,8 @@
                         </div>
                     </div>
                     <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-12 col-span-12 icon-box">
-                        <p class="mt-3">Guaranteed finest aid for your network and devices and exceptional user experience.</p>
+                        <p class="mt-3">Guaranteed finest aid for your network and devices and exceptional user
+                            experience.</p>
                         <div class="flex">
                             <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 md:col-span-7 col-span-7">
                                 <i class="fa-solid fa-arrow-right"></i><span class="ms-2">Read More</span>
@@ -82,7 +85,8 @@
                         </div>
                     </div>
                     <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-12 col-span-12 icon-box">
-                        <p class="mt-3">Guaranteed finest aid for your network and devices and exceptional user experience.</p>
+                        <p class="mt-3">Guaranteed finest aid for your network and devices and exceptional user
+                            experience.</p>
                         <div class="flex">
                             <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 md:col-span-7 col-span-7">
                                 <i class="fa-solid fa-arrow-right"></i><span class="ms-2">Read More</span>
@@ -96,6 +100,31 @@
             </div>
         </section>
 
+        <section class="e-suport-section-three">
+            <div class="container">
+                <div class="grid grid-cols-12 gap-6">
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
+                        <h2>What We Offer?</h2>
+                        {{-- <img src="{{asset('assets/home-two-img/banner-one-home2.png') }}" alt=""
+                    class="img-fluid" width="100%"> --}}
+                    </div>
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
+                        <h3>Software Assistance</h3>
+                        <p>Our experts are well-equipped to resolve any software issues you might encounter, ensuring your
+                            device runs smoothly and efficiently.</p>
+                        <h3>Computer Tune-Up</h3>
+                        <p>If your computer has slowed down or needs optimization, our team can perform a thorough tune-up
+                            to bring back its peak performance.</p>
+                        <h3>Device Configuration and Setup</h3>
+                        <p>Struggling with device configuration or setting up your home network? We'll guide you through the
+                            process, step by step, to ensure everything works seamlessly.</p>
+                        <h3>Operating System Setup and Troubleshooting</h3>
+                        <p>We specialize in OS setup, and if you encounter any issues, we'll provide you with a quick
+                            solution.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
 
