@@ -41,9 +41,10 @@
             <div class="container">
                 <div class="grid grid-cols-12 gap-6">
                     <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 col-span-12 text-center">
-                    <h2>What is TTB eSupport Concierge?</h2>
-                    <p class="mb-5 mt-2">TTB eSupport Concierge offers top-quality services to users for all their smart devices. With a
-                        single click, <br> you can have top-notch assistance at your beck and call.</p>
+                        <h2>What is TTB eSupport Concierge?</h2>
+                        <p class="mb-5 mt-2">TTB eSupport Concierge offers top-quality services to users for all their smart
+                            devices. With a
+                            single click, <br> you can have top-notch assistance at your beck and call.</p>
                     </div>
                 </div>
                 <div class="grid grid-cols-12 gap-6 mt-5">
@@ -54,7 +55,8 @@
                                 <i class="fa-solid fa-arrow-right"></i><span class="ms-5">Read More</span>
                             </div>
                             <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-5 col-span-5 box-img">
-                                <img src="{{asset('assets/e-support/guaranteed.png') }}" alt="" class="img-fluid" width="20%">
+                                <img src="{{ asset('assets/e-support/guaranteed.png') }}" alt="" class="img-fluid"
+                                    width="20%">
                             </div>
                         </div>
                     </div>
@@ -65,7 +67,8 @@
                                 <i class="fa-solid fa-arrow-right"></i><span class="ms-5">Read More</span>
                             </div>
                             <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-5 col-span-5 box-img">
-                                <img src="{{asset('assets/e-support/guaranteed.png') }}" alt="" class="img-fluid" width="20%">
+                                <img src="{{ asset('assets/e-support/guaranteed.png') }}" alt="" class="img-fluid"
+                                    width="20%">
                             </div>
                         </div>
                     </div>
@@ -76,7 +79,8 @@
                                 <i class="fa-solid fa-arrow-right"></i><span class="ms-5">Read More</span>
                             </div>
                             <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-5 col-span-5 box-img">
-                                <img src="{{asset('assets/e-support/guaranteed.png') }}" alt="" class="img-fluid" width="20%">
+                                <img src="{{ asset('assets/e-support/guaranteed.png') }}" alt="" class="img-fluid"
+                                    width="20%">
                             </div>
                         </div>
                     </div>
@@ -87,7 +91,8 @@
                                 <i class="fa-solid fa-arrow-right"></i><span class="ms-5">Read More</span>
                             </div>
                             <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-5 col-span-5 box-img">
-                                <img src="{{asset('assets/e-support/guaranteed.png') }}" alt="" class="img-fluid" width="20%">
+                                <img src="{{ asset('assets/e-support/guaranteed.png') }}" alt="" class="img-fluid"
+                                    width="20%">
                             </div>
                         </div>
                     </div>
