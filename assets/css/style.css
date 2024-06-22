@@ -48754,13 +48754,7 @@ img.img-fluid.service-icon {
     font-size: 26px !important;
 }
 
-.e-suport-section-two .icon-box {
-    border-radius: 2px;
-    border: 1px solid #7e7e7e24;
-    padding: 24px;
-    position: relative;
-    overflow: hidden;
-}
+
 
 .e-suport-section-two .inner-icon {
     position: absolute;
@@ -48791,6 +48785,7 @@ img.img-fluid.service-icon {
     border: 1px solid #7e7e7e24;
     padding: 24px;
     position: relative;
+    overflow: hidden;
 }
 
 .e-suport-section-two h2 {
