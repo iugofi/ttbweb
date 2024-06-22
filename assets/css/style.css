@@ -48747,6 +48747,12 @@ img.img-fluid.service-icon {
 
 
 
+.e-suport-section-two .inner-icon {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
 .e-suport-section-two {
     padding: 3em 0em;
 }
@@ -48762,6 +48768,7 @@ img.img-fluid.service-icon {
     border-radius: 2px;
     border: 1px solid #7e7e7e24;
     padding: 24px;
+    position: relative;
 }
 
 .e-suport-section-two h2 {
