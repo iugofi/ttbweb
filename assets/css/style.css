@@ -48760,6 +48760,7 @@ img.img-fluid.service-icon {
     border-radius: 2px;
     border: 1px solid #7e7e7e24;
     padding: 24px;
+    position: relative;
 }
 
 .e-suport-section-two h2 {
