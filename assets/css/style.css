@@ -48746,9 +48746,9 @@ img.img-fluid.service-icon {
 /* neeraj-home-page-css-22-04-2024 */
 
 .e-suport-section-three h3{
-    font-size: 26px;
+    font-size: 22px;
     font-weight: 500;
-   }
+}
 
 .e-suport-section-three h2 {
     font-size: 30px;
@@ -48757,14 +48757,14 @@ img.img-fluid.service-icon {
 
 .e-suport-section-three p {
     font-size: 16px;
-    margin-bottom: 13px;
+    margin-bottom: 20px;
+    margin-top: 6px;
 }
 
 .e-suport-section-three{
     padding: 6em 0em;
     background-color: #F5F6FA;
 }
-
 
 .e-suport-section-two .icon-box:hover  i {
     color: #fff;
