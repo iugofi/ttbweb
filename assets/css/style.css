@@ -48749,6 +48749,15 @@ img.img-fluid.service-icon {
 .e-suport-section-four{
     padding: 6em 0em;
 }
+
+.e-suport-section-four h2 {
+    font-size: 32px;
+    font-weight: 600;
+}
+.e-suport-section-four p{
+    font-size: 16px;
+}
+
 .e-suport-section-three h3{
     font-size: 22px;
     font-weight: 500;
