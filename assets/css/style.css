@@ -48746,6 +48746,28 @@ img.img-fluid.service-icon {
 /* neeraj-home-page-css-22-04-2024 */
 
 
+.inner-icon i {
+    background-color: #f0f0f0 !important;
+    padding: 31px !important;
+    border-radius: 56px 56px 56px 56px !important;
+    color: #12d2b3 !important;
+    font-size: 26px !important;
+}
+
+.e-suport-section-two .icon-box {
+    border-radius: 2px;
+    border: 1px solid #7e7e7e24;
+    padding: 24px;
+    position: relative;
+    overflow: hidden;
+}
+
+.e-suport-section-two .inner-icon {
+    position: absolute;
+    right: -11px;
+    bottom: -13px;
+    z-index: 0;
+}
 
 .e-suport-section-two .inner-icon {
     position: absolute;
