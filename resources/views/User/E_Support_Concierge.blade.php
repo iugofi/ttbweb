@@ -54,7 +54,7 @@
                             <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 md:col-span-7 col-span-7">
                                 <i class="fa-solid fa-arrow-right"></i><span class="ms-5">Read More</span>
                             </div>
-                            <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-5 col-span-5 ">
+                            <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-5 col-span-5 inner-icon">
                                 <i class="fa-regular fa-pen-to-square"></i>
                             </div>
                         </div>
@@ -65,7 +65,7 @@
                             <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 md:col-span-7 col-span-7">
                                 <i class="fa-solid fa-arrow-right"></i><span class="ms-5">Read More</span>
                             </div>
-                            <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-5 col-span-5 ">
+                            <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-5 col-span-5 inner-icon">
                                 <i class="fa-regular fa-pen-to-square"></i>
                             </div>
                         </div>
@@ -76,7 +76,7 @@
                             <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 md:col-span-7 col-span-7">
                                 <i class="fa-solid fa-arrow-right"></i><span class="ms-5">Read More</span>
                             </div>
-                            <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-5 col-span-5 ">
+                            <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-5 col-span-5 inner-icon">
                                 <i class="fa-regular fa-pen-to-square"></i>
                             </div>
                         </div>
@@ -87,7 +87,7 @@
                             <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 md:col-span-7 col-span-7">
                                 <i class="fa-solid fa-arrow-right"></i><span class="ms-5">Read More</span>
                             </div>
-                            <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-5 col-span-5 ">
+                            <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-5 col-span-5 inner-icon">
                                 <i class="fa-regular fa-pen-to-square"></i>
                             </div>
                         </div>
