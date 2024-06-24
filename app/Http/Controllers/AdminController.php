@@ -194,7 +194,7 @@ public function newslistshow(){
                 if ($this->loggedInAdmin) {
                     $decryptid=\Crypt::decrypt($id);
                     $editblog=Comment::find($decryptid);
-                    return view('Admin.newscommentedit',['editblog'=>$editblog]);
+                    return view('Admin.blogcommentedit',['editblog'=>$editblog]);
                 
                 } else {
                     return redirect('/setup');
