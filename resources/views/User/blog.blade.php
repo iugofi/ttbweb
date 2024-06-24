@@ -35,7 +35,7 @@
                                     @foreach ($blogs as $bloglist)
                                         <div
                                             class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 col-span-12 blog-box">
-                                            <div class="box box-border">
+                                            <div class="box">
                                                 <a href="javascript:void(0);">
                                                     <img src="{{ asset('assets/images/dailyblogs/' . $bloglist->image) }}"
                                                         class="card-img-top rounded-t-sm" style="width: 100%;"
