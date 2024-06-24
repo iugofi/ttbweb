@@ -138,27 +138,27 @@
                 </div>
                 <div class="grid grid-cols-12 gap-6 mt-5">
                     <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-12 bx-pricing">
-                        <i class="bi bi-chat-square-text"></i>
+                        <i class="bi bi-coin icon-top"></i>
                         <h2>ONE TIME INCIDENT</h2>
                         <h3>Single Incident</h3>
                         <p>STARTING AT</p>
-                        <i></i><span>PC/Mac/Single Device</span>
+                        <i class="bi bi-bookmark-check"></i><span>PC/Mac/Single Device</span>
                     </div>
                     <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-12 bx-pricing">
-                        {{-- <i></i>
+                        <i class="bi bi-coin icon-top"></i>
                         <h2>1 YEAR SUBSCRIPTION</h2>
                         <h3>TTB Concierge Gold</h3>
                         <p>STARTING AT</p>
-                        <i></i><span>2 PC/Mac</span>
-                        <i></i><span>Up to 4 Connected Devices</span> --}}
+                        <i class="bi bi-bookmark-check"></i><span>2 PC/Mac</span>
+                        <i class="bi bi-bookmark-check"></i><span>Up to 4 Connected Devices</span>
                     </div>
                     <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-12 bx-pricing">
-                        {{-- <i></i>
+                        <i class="bi bi-coin icon-top"></i>
                         <h2>2 YEAR SUBSCRIPTION</h2>
                         <h3>TTB Concierge Platinum</h3>
                         <p>STARTING AT</p>
-                        <i></i><span>4 PC/Mac</span>
-                        <i></i><span>Up to 8 Connected Devices</span> --}}
+                        <i class="bi bi-bookmark-check"></i><span>4 PC/Mac</span>
+                        <i class="bi bi-bookmark-check"></i><span>Up to 8 Connected Devices</span>
                     </div>
                 </div>
             </div>
