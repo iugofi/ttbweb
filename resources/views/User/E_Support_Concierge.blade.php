@@ -145,20 +145,20 @@
                         <i></i><span>PC/Mac/Single Device</span>
                     </div>
                     <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-12 bx-pricing">
-                        <i></i>
+                        {{-- <i></i>
                         <h2>1 YEAR SUBSCRIPTION</h2>
                         <h3>TTB Concierge Gold</h3>
                         <p>STARTING AT</p>
                         <i></i><span>2 PC/Mac</span>
-                        <i></i><span>Up to 4 Connected Devices</span>
+                        <i></i><span>Up to 4 Connected Devices</span> --}}
                     </div>
                     <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-12 bx-pricing">
-                        <i></i>
+                        {{-- <i></i>
                         <h2>2 YEAR SUBSCRIPTION</h2>
                         <h3>TTB Concierge Platinum</h3>
                         <p>STARTING AT</p>
                         <i></i><span>4 PC/Mac</span>
-                        <i></i><span>Up to 8 Connected Devices</span>
+                        <i></i><span>Up to 8 Connected Devices</span> --}}
                     </div>
                 </div>
             </div>
