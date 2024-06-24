@@ -339,7 +339,7 @@ public function storenewscomment(Request $request)
             'first_name' => 'required|string|max:255',
             'last_name' => 'required|string|max:255',
             'email' => 'required|email|max:255',
-            'comment' => 'required|string'
+            'comment' => 'required|max:255'
         ]);
         
 
@@ -423,7 +423,7 @@ public function storecomment(Request $request)
             'first_name' => 'required|string|max:255',
             'last_name' => 'required|string|max:255',
             'email' => 'required|email|max:255',
-            'comment' => 'required|string'
+            'comment' => 'required|max:255'
         ]);
         
 
