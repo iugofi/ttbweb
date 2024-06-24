@@ -48782,6 +48782,12 @@ img.img-fluid.service-icon {
     display: block;
     text-align: center;
 }
+.bx-pricing h1 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+
+}
 
 .bx-pricing h2 {
     font-size: 23px !important;
