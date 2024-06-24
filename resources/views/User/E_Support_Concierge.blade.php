@@ -145,7 +145,7 @@
                         <div class="icon-txt text-center">
                         <i class="bi bi-bookmark-check"></i><span>PC/Mac/Single Device</span>
                         </div>
-                        <div class="price-btn">
+                        <div class="price-btn text-center">
                         <a href="#">Purchase Now</a>
                         </div>
                     </div>
@@ -158,7 +158,7 @@
                         <i class="bi bi-bookmark-check"></i><span>2 PC/Mac</span><br>
                         <i class="bi bi-bookmark-check"></i><span>Up to 4 Connected Devices</span>
                     </div>
-                    <div class="price-btn">
+                    <div class="price-btn text-center">
                     <a href="#">Purchase Now</a>
                 </div>
                     </div>
@@ -171,7 +171,7 @@
                         <i class="bi bi-bookmark-check"></i><span>4 PC/Mac</span><br>
                         <i class="bi bi-bookmark-check"></i><span>Up to 8 Connected Devices</span>
                         </div>
-                        <div class="price-btn">
+                        <div class="price-btn text-center">
                         <a href="#">Purchase Now</a>
                         </div>
                     </div>
