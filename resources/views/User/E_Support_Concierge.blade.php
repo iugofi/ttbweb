@@ -194,19 +194,19 @@
                     </div>
                 </div>
                 <div class="grid grid-cols-12 gap-6 mt-5">
-                    <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-12">
+                    <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-12 ifive-box">
                         <i class="bi bi-send-slash"></i>
                         <h3>Expert Guidance</h3>
                         <p>Our technicians are highly skilled and experienced in addressing a wide variety of tech issues,
                             so you can trust that you're in capable hands.</p>
                     </div>
-                    <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-12">
+                    <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-12 ifive-box">
                         <i class="bi bi-send-slash"></i>
                         <h3>Convenient Remote Support</h3>
                         <p>Enjoy the convenience of resolving tech issues without leaving your home. We provide remote
                             support that's secure and efficient.</p>
                     </div>
-                    <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-12">
+                    <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-12 ifive-box">
                         <i class="bi bi-send-slash"></i>
                         <h3>Personalized Solutions</h3>
                         <p>Every tech problem is unique, and we tailor our solutions to your specific needs, ensuring a
