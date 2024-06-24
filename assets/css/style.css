@@ -51021,6 +51021,50 @@ h6.uppercase {
     width: 85% !important;
     left: 0rem !important;
 }
+hr.hr-line {
+    display: none;
+}
+.texts-left {
+    right: 0 !important;
+}
+.viral-img-sec {
+    bottom: 2rem;
+    display: contents;
+}
+.viral-cont-sec {
+    left: 2rem;
+}
+.viral-cont-sec h2 {
+    font-size: 24px;
+}
+.viral-cont-sec {
+    left: 0 !important;
+    position: relative !important;
+    top: -7rem !important;
+    margin-bottom: 8rem !important;
+    right: 0 !important;
+    box-shadow: none !important;
+}
+.row-service i {
+    margin: 0.9rem;
+}
+.viral-img-sec img {
+    margin-top: 8rem !important;
+}
+.d-text {
+    display: block !important;
+}
+.row.flex-row-colum {
+    margin: 2rem 0 auto;
+}
+.image-bg {
+    padding: 0rem !important;
+}
+.row-service {
+    display: block !important;
+    text-align: center;
+}
+
 }
 
 /* start vpn-shild banner css */

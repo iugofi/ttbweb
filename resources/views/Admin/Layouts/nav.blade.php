@@ -46,6 +46,12 @@
                             <span class="side-menu__label">News Create</span>
                         </a>
                     </li>
+                    <li class="slide">
+                        <a href="{{route('admin.newscommentlist')}}" class="side-menu__item">
+                            <i class="bi bi-file-earmark-plus  side-menu__icon"></i>
+                            <span class="side-menu__label">News Comment List</span>
+                        </a>
+                    </li>
 
                 <li class="slide__category"><span class="category-name">Blog</span></li>               
                 <li class="slide">
