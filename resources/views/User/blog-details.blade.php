@@ -189,7 +189,7 @@
             @if ($blogcomment->count() > 0)
             @foreach ($blogcomment as $blogcommentlist)
             <div class="xxl:col-span-4 xl:col-span-6 lg:col-span-6 md:col-span-6 sm:col-span-12 col-span-12">
-                <div class="box">
+                <div class="box box-border">
                     <div class="box-body">
                         <div class="flex items-center mb-4">
                             <span class="avatar avatar-md avatar-rounded me-4">
@@ -442,7 +442,7 @@
                             </style> 
                             <div class="xl:col-span-6 xxl:col-span-4 col-span-12 stickeymain">
 
-                                <div class="box box-border">
+                                <div class="box">
                                     <div class="box-header flex items-center justify-between">
                                         <div class="box-title">
                                             Recent Posts
