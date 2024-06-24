@@ -48782,22 +48782,30 @@ img.img-fluid.service-icon {
     display: block;
     text-align: center;
 }
+
 .bx-pricing h1 {
-    font-size: 20px;
+    font-size: 34px;
     text-align: center;
     font-weight: 600;
-
+    color: #12D2B3;
 }
 
 .bx-pricing h2 {
-    font-size: 23px !important;
+    font-size: 20px !important;
     text-align: center;
+    font-weight: 500 !important;
+    margin: 15px 0px;
 }
 
 .bx-pricing h3 {
     font-size: 20px;
     text-align: center;
     margin: 6px 0px;
+}
+.bx-pricing p {
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    margin-bottom: 3px !important;
 }
 
 .bx-pricing p {
