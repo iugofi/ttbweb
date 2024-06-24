@@ -61,7 +61,7 @@ class AdminController extends Controller
             if ($this->loggedInAdmin) {
                 $blog = Comment::orderBy('id', 'desc')->get();
     
-                return view('Admin.newscommentlist',['blog'=>$blog]);
+                return view('Admin.blogcommentlist',['blog'=>$blog]);
                 } else {
                     return redirect('/setup');
                 }
