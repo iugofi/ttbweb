@@ -439,7 +439,7 @@
                                     top: 0;
                                     height: 122rem;
                                 }
-                            </style>
+                            </style> 
                             <div class="xl:col-span-6 xxl:col-span-4 col-span-12 stickeymain">
 
                                 <div class="box box-border">
