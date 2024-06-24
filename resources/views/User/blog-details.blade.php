@@ -442,7 +442,7 @@
                             </style>
                             <div class="xl:col-span-6 xxl:col-span-4 col-span-12 stickeymain">
 
-                                <div class="box">
+                                <div class="box box-border">
                                     <div class="box-header flex items-center justify-between">
                                         <div class="box-title">
                                             Recent Posts
