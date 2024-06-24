@@ -49,11 +49,21 @@ class AdminController extends Controller
         if ($this->loggedInAdmin) {
             $news = News::orderBy('id', 'desc')->get();
 
-        return view('Admin.newslist',['news'=>$news]);
-        } else {
-            return redirect('/setup');
+            return view('Admin.newslist',['news'=>$news]);
+            } else {
+                return redirect('/setup');
+            }
         }
-    }
+
+        public function newscommentlist(){
+            if ($this->loggedInAdmin) {
+                $news = Newscomment::orderBy('id', 'desc')->get();
+    
+                return view('Admin.newslist',['news'=>$news]);
+                } else {
+                    return redirect('/setup');
+                }
+            }
 
 public function newscreate(){
     if ($this->loggedInAdmin) {

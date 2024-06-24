@@ -187,6 +187,8 @@ Route::get('/adminprofile', [AdminController::class, 'adminprofile'])->name('adm
 //Admin Controller
 Route::get('/pageadmin', [AdminController::class, 'indexpage'])->name('admin.indexp');
 Route::get('/newslist', [AdminController::class, 'newslist'])->name('admin.newslist');
+Route::get('/newscommentlist', [AdminController::class, 'newscommentlist'])->name('admin.newscommentlist');
+
 //admin news
 Route::get('/newscreate', [AdminController::class, 'newscreate'])->name('admin.newscreate');
 Route::get('/newslistshow', [AdminController::class, 'newslistshow'])->name('admin.newslistshow');
