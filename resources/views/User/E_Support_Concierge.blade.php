@@ -221,7 +221,7 @@
                 <div class="grid grid-cols-12 gap-6">
                     <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 md:col-span-12 col-span-12">
                         <h2>Easily Setup the Smart Devices</h2>
-                        <p>TTB eSupport Concierge will guide you through setting up your <br>hardware and software smoothly.</p>
+                        <p class="pt-3">TTB eSupport Concierge will guide you through setting up your <br>hardware and software smoothly.</p>
                         <div class="box">
 
                             <nav class="flex space-x-2 rtl:space-x-reverse" aria-label="Tabs">
