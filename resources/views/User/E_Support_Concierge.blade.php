@@ -141,7 +141,6 @@
                         <i class="bi bi-coin icon-top"></i>
                         <h1>$99.99</h1>
                         <h2>ONE TIME INCIDENT</h2>
-                        <h3>Single Incident</h3>
                         <p>PC/Mac/Single Device</p>
                         <div class="icon-txt text-center">
                             <i class="bi bi-bookmark-check"></i><span>16 Customize Sub Page</span><br>
@@ -157,7 +156,6 @@
                         <i class="bi bi-gem icon-top"></i>
                         <h1>$299.99</h1>
                         <h2>1 YEAR SUBSCRIPTION</h2>
-                        <h3>TTB Concierge Gold</h3>
                         <p>PC/Mac/Single Device</p>
                         <div class="icon-txt text-center">
                             <i class="bi bi-bookmark-check"></i><span>16 Customize Sub Page</span><br>
@@ -173,7 +171,6 @@
                         <i class="bi bi-stopwatch icon-top"></i>
                         <h1>$349.99</h1>
                         <h2>2 YEAR SUBSCRIPTION</h2>
-                        <h3>TTB Concierge Platinum</h3>
                         <p>PC/Mac/Single Device</p>
                         <div class="icon-txt text-center">
                             <i class="bi bi-bookmark-check"></i><span>16 Customize Sub Page</span><br>
