@@ -221,7 +221,8 @@
                 <div class="grid grid-cols-12 gap-6">
                     <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 md:col-span-12 col-span-12">
                         <h2>Easily Setup the Smart Devices</h2>
-                        <p class="pt-3">TTB eSupport Concierge will guide you through setting up your <br>hardware and software smoothly.</p>
+                        <p class="pt-3">TTB eSupport Concierge will guide you through setting up your <br>hardware and
+                            software smoothly.</p>
                         <div class="box">
 
                             <nav class="flex space-x-2 rtl:space-x-reverse" aria-label="Tabs">
@@ -248,20 +249,20 @@
                             <div class="mt-3">
                                 <div id="pills-on-gray-color-1" role="tabpanel"
                                     aria-labelledby="pills-on-gray-color-item-1">
-                                    <p>
-                                        How 
-                                    </p>
+                                    <h3>Business Network Setup:</h3>
+                                    <p> As a newbie, setting up your home automation devices on your own can be difficult.
+                                        But with our TTB eSupport Concierge it will be easier than ever.</p>
                                 </div>
                                 <div id="pills-on-gray-color-2" class="hidden" role="tabpanel"
                                     aria-labelledby="pills-on-gray-color-item-2">
                                     <p>
-                                        hello 
+                                        hello
                                     </p>
                                 </div>
                                 <div id="pills-on-gray-color-3" class="hidden" role="tabpanel"
                                     aria-labelledby="pills-on-gray-color-item-3">
                                     <p>
-                                        yello 
+                                        yello
                                     </p>
                                 </div>
                             </div>
