@@ -79,7 +79,7 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        @foreach ($news as $key => $item)
+                                        @foreach ($blog as $key => $item)
                                             <tr>
                                                 @php
                                                     $id = 1;
