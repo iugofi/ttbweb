@@ -11,6 +11,7 @@ use App\Models\News;
 use App\Models\Blog; 
 use App\Models\Storepick;
 use App\Models\TTBKEY; 
+use App\Models\Comment; 
 use App\Models\Newscomment; 
 use App\Models\Users; 
 use App\Models\Planname; 
@@ -55,6 +56,16 @@ class AdminController extends Controller
                 return redirect('/setup');
             }
         }
+
+        public function blogcommentlist(){
+            if ($this->loggedInAdmin) {
+                $blog = Comment::orderBy('id', 'desc')->get();
+    
+                return view('Admin.newscommentlist',['blog'=>$blog]);
+                } else {
+                    return redirect('/setup');
+                }
+            }
 
         public function newscommentlist(){
             if ($this->loggedInAdmin) {

@@ -187,10 +187,18 @@ Route::get('/adminprofile', [AdminController::class, 'adminprofile'])->name('adm
 //Admin Controller
 Route::get('/pageadmin', [AdminController::class, 'indexpage'])->name('admin.indexp');
 Route::get('/newslist', [AdminController::class, 'newslist'])->name('admin.newslist');
+
+//news comment all
 Route::get('/newscommentlist', [AdminController::class, 'newscommentlist'])->name('admin.newscommentlist');
 Route::delete('/newscommentdelete/{id}', [AdminController::class, 'newscommentdelete'])->name('delete.newscommentdelete');
 Route::get('/newscommentedit/{id}', [AdminController::class, 'newscommentedit'])->name('edit.newscommentedit');
 Route::post('/editcommentnews', [AdminController::class, 'editcommentnews'])->name('edit.editcommentnews');
+
+//blog comment all
+Route::get('/blogcommentlist', [AdminController::class, 'blogcommentlist'])->name('admin.blogcommentlist');
+Route::delete('/blogcommentdelete/{id}', [AdminController::class, 'blogcommentdelete'])->name('delete.blogcommentdelete');
+Route::get('/blogcommentedit/{id}', [AdminController::class, 'blogcommentedit'])->name('edit.blogcommentedit');
+Route::post('/editcommentblog', [AdminController::class, 'editcommentblog'])->name('edit.editcommentblog');
 
 
 
