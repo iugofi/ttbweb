@@ -48776,6 +48776,7 @@ img.img-fluid.service-icon {
 
 .e-suport-section-four .bx-pricing:hover {
     border-top: 2px solid #12d2b3;
+    box-shadow: 0px 3px 6px 1px #b1b1b130;
 }
 
 .bx-pricing .icon-txt i {
