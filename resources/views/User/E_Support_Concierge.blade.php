@@ -14,7 +14,7 @@
 
 
 
-        <section class="e-suport-banner">
+        <section class="e-support-banner">
             <div class="container">
                 <div class="grid grid-cols-12 gap-6">
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
@@ -37,7 +37,7 @@
             </div>
         </section>
 
-        <section class="e-suport-section-two">
+        <section class="e-support-section-two">
             <div class="container">
                 <div class="grid grid-cols-12 gap-6">
                     <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 col-span-12 text-center">
@@ -100,7 +100,7 @@
             </div>
         </section>
 
-        <section class="e-suport-section-three">
+        <section class="e-support-section-three">
             <div class="container">
                 <div class="grid grid-cols-12 gap-6">
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
@@ -127,7 +127,7 @@
         </section>
 
 
-        <section class="e-suport-section-four">
+        <section class="e-support-section-four">
             <div class="container">
                 <div class="grid grid-cols-12 gap-6">
                     <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 col-span-12 text-center">
@@ -186,7 +186,7 @@
             </div>
         </section>
 
-        <section class="e-suport-section-five">
+        <section class="e-support-section-five">
             <div class="container">
                 <div class="grid grid-cols-12 gap-6">
                     <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 col-span-12 text-center">
@@ -216,6 +216,6 @@
             </div>
         </section>
 
-
+<section class="e-"></section>
     </div>
 @endsection
