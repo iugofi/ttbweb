@@ -51045,7 +51045,13 @@ hr.hr-line {
     right: 0 !important;
 }
 .viral-img-sec img {
-    margin-top: 3rem !important;
+    margin-top: 8rem !important;
+}
+.d-text {
+    display: block !important;
+}
+.row.flex-row-colum {
+    margin: 2rem 0 auto;
 }
 
 }
