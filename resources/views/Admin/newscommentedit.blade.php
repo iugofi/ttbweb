@@ -218,7 +218,6 @@
                     success: function(response) {
                         if (response.status == 400) {
                             showError('news_com_status', response.messages.news_com_status);
-
                             $('#news__com_edit_btn').val('Edit News Comment');
                         } else if (response.status == 200) {
                             $('.invalid-feedback').empty();
