@@ -168,6 +168,16 @@ public function newslistshow(){
                     return redirect('/setup');
                 }
             }
+            public function newscommentedit($id){
+                if ($this->loggedInAdmin) {
+                    $decryptid=\Crypt::decrypt($id);
+                    $editnews=Newscomment::find($decryptid);
+                    return view('Admin.newsedit',['editnews'=>$editnews]);
+                
+                } else {
+                    return redirect('/setup');
+                }
+            }
 
             public function newsdelete($id)
                 {

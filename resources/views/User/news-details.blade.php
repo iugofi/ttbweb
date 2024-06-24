@@ -92,7 +92,7 @@
                                     <div class="grid grid-cols-12 sm:gap-x-6 gap-y-4">
                                         @if ($newscomment->count() > 0)
                                         @foreach ($newscomment as $newscommentlist)
-                                        <div class="xxl:col-span-4 xl:col-span-6 lg:col-span-6 md:col-span-6 sm:col-span-12 col-span-12">
+                                        <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 sm:col-span-12 col-span-12">
                                             <div class="box">
                                                 <div class="box-body">
                                                     <div class="flex items-center mb-4">

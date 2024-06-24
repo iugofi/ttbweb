@@ -52226,6 +52226,9 @@ section#about-features {
     object-fit: cover;
     background-repeat: no-repeat;
 }
+.dark .image-bg {
+    background: #252729;
+}
 .bg-imgs img {
     width: 90% !important;
 }
