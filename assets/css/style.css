@@ -48762,6 +48762,10 @@ img.img-fluid.service-icon {
     border-radius: 21px;
     font-size: 14px;
 }
+.e-suport-section-four .bx-pricing .price-btn a:hover {
+    background-color: #12d2b3;
+    color: #fff;
+}
 
 .e-suport-section-four .bx-pricing {
     padding: 3em 1.5em;
