@@ -48744,6 +48744,9 @@ img.img-fluid.service-icon {
 /* end kunal */
 
 /* neeraj-home-page-css-22-04-2024 */
+.e-suport-section-four .bx-pricing .icon-txt {
+    line-height: 1.8;
+}
 
 .e-suport-section-four .bx-pricing .price-btn a {
     background-color: #ffffff;
