@@ -48753,7 +48753,7 @@ img.img-fluid.service-icon {
 }
 
 .bx-pricing h2 {
-    font-size: 23px;
+    font-size: 23px !important;
     text-align: center;
 }
 
