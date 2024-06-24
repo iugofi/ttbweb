@@ -51040,9 +51040,9 @@ hr.hr-line {
 .viral-cont-sec {
     left: 0 !important;
     position: relative;
-    top: 0;
+    top: 0 !important;
     margin-bottom: 7rem;
-    right: 0;
+    right: 0 !important;
 }
 
 
