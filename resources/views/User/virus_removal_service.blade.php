@@ -193,7 +193,7 @@
     <div class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 "
         style="padding-top: 20px !important">
         <div class="container" style="height: 260px;">
-            <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-6 pt-5 pb-0 lg:px-2 !text-start"
+            <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-6 pt-5 pb-0 lg:px-2 !text-start d-text"
                 style="display: flex; margin: auto; justify-content: center;">
                 <div class="row flex-row-colum">
                     <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 col-span-2 px-3">
