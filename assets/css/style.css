@@ -48745,6 +48745,37 @@ img.img-fluid.service-icon {
 
 /* neeraj-home-page-css-22-04-2024 */
 
+.e-suport-section-four .bx-pricing .price-btn{
+    margin: 21px 0px;
+}
+
+.e-suport-section-four .bx-pricing .icon-txt {
+    line-height: 1.8;
+}
+
+.e-suport-section-four .bx-pricing .price-btn a {
+    background-color: #ffffff;
+    color: #12d2b3;
+    padding: 7px 21px;
+    display: inline-block;
+    border: 2px solid #12d2b3;
+    border-radius: 21px;
+    font-size: 14px;
+}
+
+.e-suport-section-four .bx-pricing {
+    padding: 3em 1.5em;
+    margin: 10px;
+    border: 2px solid #e9e9e9b5;
+    border-radius: 22px;
+}
+
+.bx-pricing .icon-txt i {
+    font-size: 17px;
+    display: inline-block;
+    text-align: center;
+}
+
 .bx-pricing .icon-top{
     font-size: 4.5em;
     color: #12d2b3;
@@ -48760,6 +48791,7 @@ img.img-fluid.service-icon {
 .bx-pricing h3 {
     font-size: 20px;
     text-align: center;
+    margin: 6px 0px;
 }
 
 .bx-pricing p {

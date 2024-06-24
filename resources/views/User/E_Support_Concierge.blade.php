@@ -141,24 +141,46 @@
                         <i class="bi bi-coin icon-top"></i>
                         <h2>ONE TIME INCIDENT</h2>
                         <h3>Single Incident</h3>
-                        <p>STARTING AT</p>
-                        <i class="bi bi-bookmark-check"></i><span>PC/Mac/Single Device</span>
+                        <p>PC/Mac/Single Device</p>
+                        <div class="icon-txt text-center">
+                            <i class="bi bi-bookmark-check"></i><span>16 Customize Sub Page</span><br>
+                            <i class="bi bi-bookmark-check"></i><span>105 Disk Space</span><br>
+                            <i class="bi bi-bookmark-check"></i><span>3 Domain Access</span><br>
+                            <i class="bi bi-bookmark-check"></i><span>24/7 Phone Support</span><br>
+                        </div>
+                        <div class="price-btn text-center">
+                            <a href="#">Purchase Now</a>
+                        </div>
                     </div>
                     <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-12 bx-pricing">
                         <i class="bi bi-gem icon-top"></i>
                         <h2>1 YEAR SUBSCRIPTION</h2>
                         <h3>TTB Concierge Gold</h3>
-                        <p>STARTING AT</p>
-                        <i class="bi bi-bookmark-check"></i><span>2 PC/Mac</span>
-                        <i class="bi bi-bookmark-check"></i><span>Up to 4 Connected Devices</span>
+                        <p>PC/Mac/Single Device</p>
+                        <div class="icon-txt text-center">
+                            <i class="bi bi-bookmark-check"></i><span>16 Customize Sub Page</span><br>
+                            <i class="bi bi-bookmark-check"></i><span>105 Disk Space</span><br>
+                            <i class="bi bi-bookmark-check"></i><span>3 Domain Access</span><br>
+                            <i class="bi bi-bookmark-check"></i><span>24/7 Phone Support</span><br>
+                        </div>
+                        <div class="price-btn text-center">
+                            <a href="#">Purchase Now</a>
+                        </div>
                     </div>
                     <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-12 bx-pricing">
                         <i class="bi bi-stopwatch icon-top"></i>
                         <h2>2 YEAR SUBSCRIPTION</h2>
                         <h3>TTB Concierge Platinum</h3>
-                        <p>STARTING AT</p>
-                        <i class="bi bi-bookmark-check"></i><span>4 PC/Mac</span>
-                        <i class="bi bi-bookmark-check"></i><span>Up to 8 Connected Devices</span>
+                        <p>PC/Mac/Single Device</p>
+                        <div class="icon-txt text-center">
+                            <i class="bi bi-bookmark-check"></i><span>16 Customize Sub Page</span><br>
+                            <i class="bi bi-bookmark-check"></i><span>105 Disk Space</span><br>
+                            <i class="bi bi-bookmark-check"></i><span>3 Domain Access</span><br>
+                            <i class="bi bi-bookmark-check"></i><span>24/7 Phone Support</span><br>
+                        </div>
+                        <div class="price-btn text-center">
+                            <a href="#">Purchase Now</a>
+                        </div>
                     </div>
                 </div>
             </div>
