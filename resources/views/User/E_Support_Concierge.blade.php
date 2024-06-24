@@ -139,6 +139,7 @@
                 <div class="grid grid-cols-12 gap-6 mt-5">
                     <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-12 bx-pricing">
                         <i class="bi bi-coin icon-top"></i>
+                        <h1>$99.<sup>99</h1></sup>
                         <h2>ONE TIME INCIDENT</h2>
                         <h3>Single Incident</h3>
                         <p>PC/Mac/Single Device</p>
