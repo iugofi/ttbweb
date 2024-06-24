@@ -10,6 +10,10 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 class Newscomment extends Model
 {
     protected $table = 'newscomment';
+    protected $fillable = [
+        'status',
+  
+    ];
 
     use HasFactory,SoftDeletes;
 }
