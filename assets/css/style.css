@@ -51039,12 +51039,11 @@ hr.hr-line {
 }
 .viral-cont-sec {
     left: 0 !important;
-    position: relative;
+    position: relative !important;
     top: 0 !important;
-    margin-bottom: 7rem;
+    margin-bottom: 8rem !important;
     right: 0 !important;
 }
-
 
 }
 
