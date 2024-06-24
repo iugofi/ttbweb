@@ -48770,6 +48770,10 @@ img.img-fluid.service-icon {
     border-radius: 22px;
 }
 
+.e-suport-section-four .bx-pricing:hover {
+    border-top: 2px solid #12d2b3;
+}
+
 .bx-pricing .icon-txt i {
     font-size: 17px;
     display: inline-block;
