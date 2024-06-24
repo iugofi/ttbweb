@@ -179,68 +179,93 @@
                                         color: blue;
                                         /* Change color to blue */
                                     }
+
+                                    .box-border .box-body {
+                                        border: 1px solid #00000045;
+                                        border-radius: 4px;
+                                    }
                                 </style>
 
 
 
-<div class="container">
-    <div class="max-w-6xl mx-auto reviews-container">
-        <div class="grid grid-cols-12 sm:gap-x-6 gap-y-4">
-            @if ($blogcomment->count() > 0)
-            @foreach ($blogcomment as $blogcommentlist)
-            <div class="xxl:col-span-4 xl:col-span-6 lg:col-span-6 md:col-span-6 sm:col-span-12 col-span-12">
-                <div class="box box-border">
-                    <div class="box-body">
-                        <div class="flex items-center mb-4">
-                            <span class="avatar avatar-md avatar-rounded me-4">
-                                <img src="{{asset('assets/images/faces/15.jpg')}}" alt="">
-                            </span>
-                            <div>
-                                <p class="mb-0 font-semibold text-[.875rem] text-primary">{{ ucwords(strtolower($blogcommentlist->first_name)) }} {{ ucwords(strtolower($blogcommentlist->last_name)) }}</p>
-                                {{-- <p class="mb-0 text-[.625rem] font-semibold text-[#8c9097] dark:text-white/50">CEO OF NORJA</p> --}}
-                            </div>
-                        </div>
-                        <div class="mb-4">
-                            <span class="text-[#8c9097] dark:text-white/50">{{ $blogcommentlist->comment }} <a href="javascript:void(0);" class="font-semibold text-[.6875rem] text-primary" >Read More</a></span>
-                        </div>
-                        <div class="flex items-center justify-between">
-                            <div class="flex items-center">
-                                <span class="text-[#8c9097] dark:text-white/50">Rating : </span>
-                                <span class="text-warning block ms-1">
-                                    <i class="ri-star-fill"></i>
-                                    <i class="ri-star-fill"></i>
-                                    <i class="ri-star-fill"></i>
-                                    <i class="ri-star-fill"></i>
-                                    <i class="ri-star-half-fill"></i>
-                                </span>
-                            </div>
-                            <div class="ltr:float-right rtl:float-left text-[0.75rem] font-semibold text-[#8c9097] dark:text-white/50 text-end">
-                                <span>{{ \Carbon\Carbon::parse($blogcommentlist->created_at)->diffForHumans() }}</span>
-                                {{-- <span class="block font-normal text-[0.75rem] text-success"><i>Json Taylor</i></span> --}}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            @endforeach
-        @else
-        <div class="xxl:col-span-4 xl:col-span-6 lg:col-span-6 md:col-span-6 sm:col-span-12 col-span-12">
-            <div class="box">
-                <div class="box-body">
-                    <div class="flex items-center mb-4">
-                        <span class="avatar avatar-md avatar-rounded me-4">
-                            <img src="{{asset('assets/images/faces/15.jpg')}}" alt="">
-                        </span>
-                        <div>
-                            <p class="mb-0 font-semibold text-[.875rem] text-primary"></p>
-                            {{-- <p class="mb-0 text-[.625rem] font-semibold text-[#8c9097] dark:text-white/50">CEO OF NORJA</p> --}}
-                        </div>
-                    </div>
-                    <div class="mb-4">
-                        <span class="text-[#8c9097] dark:text-white/50"> <a href="javascript:void(0);" class="font-semibold text-[.6875rem] text-primary" >No comments yet.</a></span>
-                    </div>
-                    <div class="flex items-center justify-between">
-                        {{-- <div class="flex items-center">
+                                <div class="container">
+                                    <div class="max-w-6xl mx-auto reviews-container">
+                                        <div class="grid grid-cols-12 sm:gap-x-6 gap-y-4">
+                                            @if ($blogcomment->count() > 0)
+                                                @foreach ($blogcomment as $blogcommentlist)
+                                                    <div
+                                                        class="xxl:col-span-4 xl:col-span-6 lg:col-span-6 md:col-span-6 sm:col-span-12 col-span-12">
+                                                        <div class="box box-border">
+                                                            <div class="box-body">
+                                                                <div class="flex items-center mb-4">
+                                                                    <span class="avatar avatar-md avatar-rounded me-4">
+                                                                        <img src="{{ asset('assets/images/faces/15.jpg') }}"
+                                                                            alt="">
+                                                                    </span>
+                                                                    <div>
+                                                                        <p
+                                                                            class="mb-0 font-semibold text-[.875rem] text-primary">
+                                                                            {{ ucwords(strtolower($blogcommentlist->first_name)) }}
+                                                                            {{ ucwords(strtolower($blogcommentlist->last_name)) }}
+                                                                        </p>
+                                                                        {{-- <p class="mb-0 text-[.625rem] font-semibold text-[#8c9097] dark:text-white/50">CEO OF NORJA</p> --}}
+                                                                    </div>
+                                                                </div>
+                                                                <div class="mb-4">
+                                                                    <span
+                                                                        class="text-[#8c9097] dark:text-white/50">{{ $blogcommentlist->comment }}
+                                                                        <a href="javascript:void(0);"
+                                                                            class="font-semibold text-[.6875rem] text-primary">Read
+                                                                            More</a></span>
+                                                                </div>
+                                                                <div class="flex items-center justify-between">
+                                                                    <div class="flex items-center">
+                                                                        <span
+                                                                            class="text-[#8c9097] dark:text-white/50">Rating
+                                                                            : </span>
+                                                                        <span class="text-warning block ms-1">
+                                                                            <i class="ri-star-fill"></i>
+                                                                            <i class="ri-star-fill"></i>
+                                                                            <i class="ri-star-fill"></i>
+                                                                            <i class="ri-star-fill"></i>
+                                                                            <i class="ri-star-half-fill"></i>
+                                                                        </span>
+                                                                    </div>
+                                                                    <div
+                                                                        class="ltr:float-right rtl:float-left text-[0.75rem] font-semibold text-[#8c9097] dark:text-white/50 text-end">
+                                                                        <span>{{ \Carbon\Carbon::parse($blogcommentlist->created_at)->diffForHumans() }}</span>
+                                                                        {{-- <span class="block font-normal text-[0.75rem] text-success"><i>Json Taylor</i></span> --}}
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                @endforeach
+                                            @else
+                                                <div
+                                                    class="xxl:col-span-4 xl:col-span-6 lg:col-span-6 md:col-span-6 sm:col-span-12 col-span-12">
+                                                    <div class="box">
+                                                        <div class="box-body">
+                                                            <div class="flex items-center mb-4">
+                                                                <span class="avatar avatar-md avatar-rounded me-4">
+                                                                    <img src="{{ asset('assets/images/faces/15.jpg') }}"
+                                                                        alt="">
+                                                                </span>
+                                                                <div>
+                                                                    <p
+                                                                        class="mb-0 font-semibold text-[.875rem] text-primary">
+                                                                    </p>
+                                                                    {{-- <p class="mb-0 text-[.625rem] font-semibold text-[#8c9097] dark:text-white/50">CEO OF NORJA</p> --}}
+                                                                </div>
+                                                            </div>
+                                                            <div class="mb-4">
+                                                                <span class="text-[#8c9097] dark:text-white/50"> <a
+                                                                        href="javascript:void(0);"
+                                                                        class="font-semibold text-[.6875rem] text-primary">No
+                                                                        comments yet.</a></span>
+                                                            </div>
+                                                            <div class="flex items-center justify-between">
+                                                                {{-- <div class="flex items-center">
                             <span class="text-[#8c9097] dark:text-white/50">Rating : </span>
                             <span class="text-warning block ms-1">
                                 <i class="ri-star-fill"></i>
@@ -250,22 +275,23 @@
                                 <i class="ri-star-half-fill"></i>
                             </span>
                         </div> --}}
-                        <div class="ltr:float-right rtl:float-left text-[0.75rem] font-semibold text-[#8c9097] dark:text-white/50 text-end">
-                            <span></span>
-                            {{-- <span class="block font-normal text-[0.75rem] text-success"><i>Json Taylor</i></span> --}}
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-            
-        @endif
-           
-            
-        </div>
-       
-    </div>
-</div>
+                                                                <div
+                                                                    class="ltr:float-right rtl:float-left text-[0.75rem] font-semibold text-[#8c9097] dark:text-white/50 text-end">
+                                                                    <span></span>
+                                                                    {{-- <span class="block font-normal text-[0.75rem] text-success"><i>Json Taylor</i></span> --}}
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            @endif
+
+
+                                        </div>
+
+                                    </div>
+                                </div>
 
 
                                 <div class="box">
@@ -299,7 +325,6 @@
                                                 @endforeach
                                             </div>
                                         @else
-                                        
                                             <p id="comment">No comments yet.</p>
                                         @endif
 
@@ -418,13 +443,13 @@
                             </script>
                             <style>
                                 /* .my-\[3rem\] {
-                                                                    margin-top: 3rem;
-                                                                    margin-bottom: 6rem;
-                                                                }
+                                                                        margin-top: 3rem;
+                                                                        margin-bottom: 6rem;
+                                                                    }
 
-                                                                .blog-box .box {
-                                                                    height: 95%;
-                                                                } */
+                                                                    .blog-box .box {
+                                                                        height: 95%;
+                                                                    } */
                                 .recent-avtar span.avatar {
                                     width: 100%;
                                     max-width: 70px;
@@ -439,7 +464,7 @@
                                     top: 0;
                                     height: 122rem;
                                 }
-                            </style> 
+                            </style>
                             <div class="xl:col-span-6 xxl:col-span-4 col-span-12 stickeymain">
 
                                 <div class="box">
