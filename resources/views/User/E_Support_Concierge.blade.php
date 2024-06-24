@@ -202,7 +202,7 @@
                     </div>
                     <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-12">
                         <i class="bi bi-send-slash"></i>
-                        <h3>Expert Guidance</h3>
+                        <h3>Convenient Remote Support</h3>
                         <p>Enjoy the convenience of resolving tech issues without leaving your home. We provide remote
                             support that's secure and efficient.</p>
                     </div>
