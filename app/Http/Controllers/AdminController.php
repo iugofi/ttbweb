@@ -185,6 +185,17 @@ public function newslistshow(){
                     }
                 }
 
+                public function newscommentdelete($id)
+                {
+                    if ($this->loggedInAdmin) {
+                        $item = Newscomment::findOrFail($id);
+                        $item->delete();
+                        return response()->json(['message' => 'News Comment deleted successfully']);
+                    } else {
+                        return redirect('/setup'); 
+                    }
+                }
+
                 public function editnews(Request $request)
                 {
 
