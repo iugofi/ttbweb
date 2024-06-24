@@ -216,6 +216,40 @@
             </div>
         </section>
 
-<section class="e-"></section>
+        <section class="e-support-section-six">
+          <div class="container">
+            <div class="grid grid-cols-12 gap-6">
+                <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 md:col-span-12 col-span-12">
+
+                </div>
+                <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-12 col-span-12">
+                    
+                </div>
+            </div>
+          </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </div>
 @endsection
