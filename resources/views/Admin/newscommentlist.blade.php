@@ -69,7 +69,7 @@
                                     <thead>
                                         <tr>
                                             <th class="px-4 py-2">Id</th>
-                                            <th class="px-4 py-2">blog_id</th>
+                                            <th class="px-4 py-2">News id</th>
                                             <th class="px-4 py-2">first_name</th>
                                             <th class="px-4 py-2">last_name</th>
                                             <th class="px-4 py-2">email</th>
