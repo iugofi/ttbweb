@@ -60,6 +60,30 @@
                                             id="news_title" name="news_title" value="{{ isset($editnews->news_id) ? $editnews->news_id : '' }}" placeholder="News Id" disabled>
                                         <div class="invalid-feedback"></div>
                                     </div>
+                                    <div class="xl:col-span-12 col-span-12">
+                                        <label for="blog-title" class="form-label">First Name</label>
+                                        <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
+                                            id="news_title" name="news_title" value="{{ isset($editnews->first_name) ? $editnews->first_name : '' }}" placeholder="News Id" disabled>
+                                        <div class="invalid-feedback"></div>
+                                    </div>
+                                    <div class="xl:col-span-12 col-span-12">
+                                        <label for="blog-title" class="form-label">Last Name</label>
+                                        <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
+                                            id="news_title" name="news_title" value="{{ isset($editnews->last_name) ? $editnews->last_name : '' }}" placeholder="News Id" disabled>
+                                        <div class="invalid-feedback"></div>
+                                    </div>
+                                    <div class="xl:col-span-12 col-span-12">
+                                        <label for="blog-title" class="form-label">Email</label>
+                                        <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
+                                            id="news_title" name="news_title" value="{{ isset($editnews->email) ? $editnews->email : '' }}" placeholder="News Id" disabled>
+                                        <div class="invalid-feedback"></div>
+                                    </div>
+                                    <div class="xl:col-span-12 col-span-12">
+                                        <label for="blog-title" class="form-label">Comment</label>
+                                        <textarea name="" class="form-control block w-full text-[0.875rem] !rounded-md" id="" cols="30" rows="10" disabled>{{ isset($editnews->comment) ? $editnews->comment : '' }}</textarea>
+                                        
+                                        <div class="invalid-feedback"></div>
+                                    </div>
                                    
 
                                     <div class="xl:col-span-12 col-span-12">
