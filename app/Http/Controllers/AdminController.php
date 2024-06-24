@@ -172,7 +172,7 @@ public function newslistshow(){
                 if ($this->loggedInAdmin) {
                     $decryptid=\Crypt::decrypt($id);
                     $editnews=Newscomment::find($decryptid);
-                    return view('Admin.newsedit',['editnews'=>$editnews]);
+                    return view('Admin.newscommentedit',['editnews'=>$editnews]);
                 
                 } else {
                     return redirect('/setup');
