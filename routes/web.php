@@ -189,6 +189,8 @@ Route::get('/pageadmin', [AdminController::class, 'indexpage'])->name('admin.ind
 Route::get('/newslist', [AdminController::class, 'newslist'])->name('admin.newslist');
 Route::get('/newscommentlist', [AdminController::class, 'newscommentlist'])->name('admin.newscommentlist');
 Route::delete('/newscommentdelete/{id}', [AdminController::class, 'newscommentdelete'])->name('delete.newscommentdelete');
+Route::get('/newscommentedit/{id}', [AdminController::class, 'newscommentedit'])->name('edit.newscommentedit');
+
 
 
 //admin news
