@@ -138,7 +138,7 @@
                 </div>
                 <div class="grid grid-cols-12 gap-6 mt-5">
                     <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-12 bx-pricing">
-                        <i></i>
+                        <i class="bi bi-chat-square-text"></i>
                         <h2>ONE TIME INCIDENT</h2>
                         <h3>Single Incident</h3>
                         <p>STARTING AT</p>
