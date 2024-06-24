@@ -283,6 +283,50 @@ public function newslistshow(){
                     }
                 }
 
+                public function editcommentnews(Request $request)
+                {
+
+                    $id=$request->main_id;
+                    if ($this->loggedInAdmin) {
+                        $validator = Validator::make($request->all(), [
+                            'news_com_status' => 'required'
+                        ]);
+                        if ($validator->fails()) {
+                            return response()->json([
+                                'status' => 400,
+                                'messages' => $validator->getMessageBag()->toArray() // Convert messages to array
+                            ]);
+                        }
+                        else
+                        {
+
+                                $news = Newscomment::where('id', $id)->first();
+
+                                if (!$news) {
+                                    return response()->json([
+                                        'status' => 404,
+                                        'messages' => 'News Comment not found'
+                                    ]);
+                                }
+                               
+                                $news->update([
+                                    'status' => $request->news_com_status
+                                ]);
+          
+                                return response()->json([
+                                    'status' => 200,
+                                    'messages' => 'News Comment Edit successfully'
+                                ]);
+                
+                                }
+
+
+                       
+                    } else {
+                        return redirect('/setup'); 
+                    }
+                }
+
                 
                 public function bloglistshow()
                 {

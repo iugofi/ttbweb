@@ -46,7 +46,7 @@
                         <div class="box-header">
                             <div class="box-title">News Comment Edit</div>
                         </div>
-                        <form method="post" id="edit_news_form" enctype="multipart/form-data">
+                        <form method="post" id="edit__com_news_form" enctype="multipart/form-data">
                             @csrf
                             <div class="box-body">
                                 <div class="box text-center">
@@ -89,7 +89,7 @@
                                     <div class="xl:col-span-12 col-span-12">
                                         <label for="blog-Language" class="form-label">Status</label>
                                         <select class="form-control block w-full text-[0.875rem] !rounded-md" data-trigger
-                                            name="news_status" id="news_status">
+                                            name="news_com_status" id="news_com_status">
                                             <option value="">Select</option>
                                             @php
                                                 $status = DB::table('storepick')
@@ -112,7 +112,7 @@
                             <div class="box-footer">
                                 <div class="text-end">
                                     {{-- <button type="button" class="ti-btn !py-1 !px-2 ti-btn-light !text-[0.75rem] !font-medium me-2">Save As Draft</button> --}}
-                                    <input type="submit" value="Edit News" id="news_edit_btn"
+                                    <input type="submit" value="Edit News" id="news__com_edit_btn"
                                         class="ti-btn bg-primary text-white !py-1 !px-2 !text-[0.75rem] !font-medium">
                                 </div>
                             </div>
@@ -200,14 +200,14 @@
                 });
             }
 
-            $('#edit_news_form').submit(function(e) {
+            $('#edit__com_news_form').submit(function(e) {
                 e.preventDefault();
-                $('#news_edit_btn').val('please wait..');
+                $('#news__com_edit_btn').val('please wait..');
                 var token = $('meta[name="csrf-token"]').attr('content');
                 var formData = new FormData($(this)[0]);
                 
                 $.ajax({
-                    url:  "{{ route('edit.news') }}",
+                    url:  "{{ route('edit.editcommentnews') }}",
                     method: 'post',
                     data: formData,
                     headers: {
@@ -217,25 +217,18 @@
                     processData: false,
                     success: function(response) {
                         if (response.status == 400) {
-                            showError('news_title', response.messages.news_title);
-                            showError('news_slug', response.messages.news_slug);
-                            showError('meta_title', response.messages.meta_title);
-                            showError('canonical_url', response.messages.canonical_url);
-                            showError('meta_keyword', response.messages.meta_keyword);
-                            showError('meta_desc', response.messages.meta_desc);
-                            showError('editoronebest', response.messages.news_description);
-                            showError('news_status', response.messages.news_status);
+                            showError('news_com_status', response.messages.news_com_status);
 
-                            $('#news_edit_btn').val('Edit News');
+                            $('#news__com_edit_btn').val('Edit News Comment');
                         } else if (response.status == 200) {
                             $('.invalid-feedback').empty();
                             // $("#show_success_alert").html(showMessage('success', response
                             //     .messages));
-                            $('#edit_news_form')[0].reset();
-                            removeValidationClass("#edit_news_form");
-                            $('#news_edit_btn').val('Edit News');
+                            $('#edit__com_news_form')[0].reset();
+                            removeValidationClass("#edit__com_news_form");
+                            $('#news__com_edit_btn').val('Edit News Comment');
                             alert(response.messages);
-                            window.location.href = "{{ route('admin.newslist') }}";
+                            window.location.href = "{{ route('admin.newscommentlist') }}";
                             fetchNews();
                         }
                     },
