@@ -255,13 +255,13 @@
                                 <div id="pills-on-gray-color-2" class="hidden" role="tabpanel"
                                     aria-labelledby="pills-on-gray-color-item-2">
                                     <p>
-                                        How 
+                                        hello 
                                     </p>
                                 </div>
                                 <div id="pills-on-gray-color-3" class="hidden" role="tabpanel"
                                     aria-labelledby="pills-on-gray-color-item-3">
                                     <p>
-                                        How 
+                                        yello 
                                     </p>
                                 </div>
                             </div>
