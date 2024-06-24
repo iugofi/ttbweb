@@ -66,6 +66,12 @@
                             <span class="side-menu__label">Blog Create</span>
                         </a>
                     </li>
+                    <li class="slide">
+                        <a href="{{route('admin.blogcommentlist')}}" class="side-menu__item">
+                            <i class="bi bi-file-earmark-plus  side-menu__icon"></i>
+                            <span class="side-menu__label">Blog Comment List</span>
+                        </a>
+                    </li>
 
                
 
