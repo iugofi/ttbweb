@@ -11,6 +11,7 @@ use App\Models\News;
 use App\Models\Blog; 
 use App\Models\Storepick;
 use App\Models\TTBKEY; 
+use App\Models\Newscomment; 
 use App\Models\Users; 
 use App\Models\Planname; 
 use App\Models\Payments; 
@@ -49,11 +50,21 @@ class AdminController extends Controller
         if ($this->loggedInAdmin) {
             $news = News::orderBy('id', 'desc')->get();
 
-        return view('Admin.newslist',['news'=>$news]);
-        } else {
-            return redirect('/setup');
+            return view('Admin.newslist',['news'=>$news]);
+            } else {
+                return redirect('/setup');
+            }
         }
-    }
+
+        public function newscommentlist(){
+            if ($this->loggedInAdmin) {
+                $news = Newscomment::orderBy('id', 'desc')->get();
+    
+                return view('Admin.newscommentlist',['news'=>$news]);
+                } else {
+                    return redirect('/setup');
+                }
+            }
 
 public function newscreate(){
     if ($this->loggedInAdmin) {
