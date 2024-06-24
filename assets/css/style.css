@@ -39828,6 +39828,7 @@ caption {
     background-color: rgb(242 244 245 / var(--tw-bg-opacity));
 }
 
+
 [data-hs-tab].active.hs-tab-active\:bg-primary {
     background-color: rgb(var(--primary));
 }
