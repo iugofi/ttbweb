@@ -51043,6 +51043,7 @@ hr.hr-line {
     top: 0 !important;
     margin-bottom: 8rem !important;
     right: 0 !important;
+    box-shadow: none !important;
 }
 .viral-img-sec img {
     margin-top: 8rem !important;
@@ -51052,6 +51053,13 @@ hr.hr-line {
 }
 .row.flex-row-colum {
     margin: 2rem 0 auto;
+}
+.image-bg {
+    padding: 0rem !important;
+}
+.row-service {
+    display: block !important;
+    text-align: center;
 }
 
 }
