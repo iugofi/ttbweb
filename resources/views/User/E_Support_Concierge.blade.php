@@ -143,10 +143,10 @@
                         <h2>ONE TIME INCIDENT</h2>
                         <p>PC/Mac/Single Device</p>
                         <div class="icon-txt text-center">
-                            <i class="bi bi-bookmark-check"></i><span>16 Customize Sub Page</span><br>
-                            <i class="bi bi-bookmark-check"></i><span>105 Disk Space</span><br>
-                            <i class="bi bi-bookmark-check"></i><span>3 Domain Access</span><br>
-                            <i class="bi bi-bookmark-check"></i><span>24/7 Phone Support</span><br>
+                            <i class="bi bi-bookmark-check"></i><span class="ms-1">16 Customize Sub Page</span><br>
+                            <i class="bi bi-bookmark-check"></i><span class="ms-1">105 Disk Space</span><br>
+                            <i class="bi bi-bookmark-check"></i><span class="ms-1">3 Domain Access</span><br>
+                            <i class="bi bi-bookmark-check"></i><span class="ms-1">24/7 Phone Support</span><br>
                         </div>
                         <div class="price-btn text-center">
                             <a href="#">Purchase Now</a>
@@ -158,10 +158,10 @@
                         <h2>1 YEAR SUBSCRIPTION</h2>
                         <p>PC/Mac/Single Device</p>
                         <div class="icon-txt text-center">
-                            <i class="bi bi-bookmark-check"></i><span>16 Customize Sub Page</span><br>
-                            <i class="bi bi-bookmark-check"></i><span>105 Disk Space</span><br>
-                            <i class="bi bi-bookmark-check"></i><span>3 Domain Access</span><br>
-                            <i class="bi bi-bookmark-check"></i><span>24/7 Phone Support</span><br>
+                            <i class="bi bi-bookmark-check"></i><span class="ms-1">16 Customize Sub Page</span><br>
+                            <i class="bi bi-bookmark-check"></i><span class="ms-1">105 Disk Space</span><br>
+                            <i class="bi bi-bookmark-check"></i><span class="ms-1">3 Domain Access</span><br>
+                            <i class="bi bi-bookmark-check"></i><span class="ms-1">24/7 Phone Support</span><br>
                         </div>
                         <div class="price-btn text-center">
                             <a href="#">Purchase Now</a>
@@ -173,10 +173,10 @@
                         <h2>2 YEAR SUBSCRIPTION</h2>
                         <p>PC/Mac/Single Device</p>
                         <div class="icon-txt text-center">
-                            <i class="bi bi-bookmark-check"></i><span>16 Customize Sub Page</span><br>
-                            <i class="bi bi-bookmark-check"></i><span>105 Disk Space</span><br>
-                            <i class="bi bi-bookmark-check"></i><span>3 Domain Access</span><br>
-                            <i class="bi bi-bookmark-check"></i><span>24/7 Phone Support</span><br>
+                            <i class="bi bi-bookmark-check"></i><span class="ms-1">16 Customize Sub Page</span><br>
+                            <i class="bi bi-bookmark-check"></i><span class="ms-1">105 Disk Space</span><br>
+                            <i class="bi bi-bookmark-check"></i><span class="ms-1">3 Domain Access</span><br>
+                            <i class="bi bi-bookmark-check"></i><span class="ms-1">24/7 Phone Support</span><br>
                         </div>
                         <div class="price-btn text-center">
                             <a href="#">Purchase Now</a>
