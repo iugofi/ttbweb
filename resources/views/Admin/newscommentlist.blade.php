@@ -85,7 +85,7 @@
                                                     $id = 1;
                                                 @endphp
                                                 <td class="border px-4 py-2">{{ $key + 1 }}</td>
-                                                <td class="border px-4 py-2">{{$item->blog_id}}</td>
+                                                <td class="border px-4 py-2">{{$item->news_id}}</td>
                                                 <td class="border px-4 py-2">{{$item->first_name}}</td>
                                                 <td class="border px-4 py-2">{{$item->last_name}}</td>
                                                 <td class="border px-4 py-2">{{$item->email}}</td>
