@@ -223,9 +223,6 @@
                    <h2>Easily Setup the Smart Devices</h2>
                    <p>TTB eSupport Concierge will guide you through setting up your hardware and software smoothly.</p>
                     <div class="box">
-                        <div class="box-header">
-                            <h5 class="box-title">Tabs Pills On Gray Color</h5>
-                        </div>
                         <div class="box-body">
                           <nav class="flex space-x-2 rtl:space-x-reverse" aria-label="Tabs">
                             <button type="button" class="hs-tab-active:bg-gray-200 hs-tab-active:text-gray-800 hs-tab-active:hover:text-gray-800 dark:hs-tab-active:bg-light dark:hs-tab-active:text-white py-3 px-4 inline-flex items-center gap-2 bg-transparent text-sm font-medium text-center text-defaulttextcolor rounded-sm hover:text-primary dark:text-[#8c9097] dark:text-white/50 dark:hover:text-white active" id="pills-on-gray-color-item-1" data-hs-tab="#pills-on-gray-color-1" aria-controls="pills-on-gray-color-1">
