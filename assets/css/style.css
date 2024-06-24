@@ -48745,6 +48745,12 @@ img.img-fluid.service-icon {
 
 /* neeraj-home-page-css-22-04-2024 */
 
+.bx-pricing .icon-txt i {
+    font-size: 17px;
+    display: inline-block;
+    text-align: center;
+}
+
 .bx-pricing .icon-top{
     font-size: 4.5em;
     color: #12d2b3;
