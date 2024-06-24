@@ -188,6 +188,8 @@ Route::get('/adminprofile', [AdminController::class, 'adminprofile'])->name('adm
 Route::get('/pageadmin', [AdminController::class, 'indexpage'])->name('admin.indexp');
 Route::get('/newslist', [AdminController::class, 'newslist'])->name('admin.newslist');
 Route::get('/newscommentlist', [AdminController::class, 'newscommentlist'])->name('admin.newscommentlist');
+Route::delete('/newscommentdelete/{id}', [AdminController::class, 'newscommentdelete'])->name('delete.newscommentdelete');
+
 
 //admin news
 Route::get('/newscreate', [AdminController::class, 'newscreate'])->name('admin.newscreate');
