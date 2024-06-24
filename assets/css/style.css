@@ -51040,10 +51040,13 @@ hr.hr-line {
 .viral-cont-sec {
     left: 0 !important;
     position: relative !important;
-    top: 0 !important;
+    top: -7rem !important;
     margin-bottom: 8rem !important;
     right: 0 !important;
     box-shadow: none !important;
+}
+.row-service i {
+    margin: 0.9rem;
 }
 .viral-img-sec img {
     margin-top: 8rem !important;
