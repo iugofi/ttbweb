@@ -190,6 +190,17 @@ public function newslistshow(){
                 }
             }
 
+            public function blogcommentedit($id){
+                if ($this->loggedInAdmin) {
+                    $decryptid=\Crypt::decrypt($id);
+                    $editblog=Comment::find($decryptid);
+                    return view('Admin.blogcommentedit',['editblog'=>$editblog]);
+                
+                } else {
+                    return redirect('/setup');
+                }
+            }
+
             public function newsdelete($id)
                 {
                     if ($this->loggedInAdmin) {
@@ -212,6 +223,17 @@ public function newslistshow(){
                         $item = Newscomment::findOrFail($id);
                         $item->delete();
                         return response()->json(['message' => 'News Comment deleted successfully']);
+                    } else {
+                        return redirect('/setup'); 
+                    }
+                }
+
+                public function blogcommentdelete($id)
+                {
+                    if ($this->loggedInAdmin) {
+                        $item = Comment::findOrFail($id);
+                        $item->delete();
+                        return response()->json(['message' => 'Blog Comment deleted successfully']);
                     } else {
                         return redirect('/setup'); 
                     }
@@ -327,6 +349,50 @@ public function newslistshow(){
                                 return response()->json([
                                     'status' => 200,
                                     'messages' => 'News Comment Edit successfully'
+                                ]);
+                
+                                }
+
+
+                       
+                    } else {
+                        return redirect('/setup'); 
+                    }
+                }
+
+                public function editcommentblog(Request $request)
+                {
+
+                    $id=$request->main_id;
+                    if ($this->loggedInAdmin) {
+                        $validator = Validator::make($request->all(), [
+                            'blog_com_status' => 'required'
+                        ]);
+                        if ($validator->fails()) {
+                            return response()->json([
+                                'status' => 400,
+                                'messages' => $validator->getMessageBag()->toArray() // Convert messages to array
+                            ]);
+                        }
+                        else
+                        {
+
+                                $blog = Comment::where('id', $id)->first();
+
+                                if (!$blog) {
+                                    return response()->json([
+                                        'status' => 404,
+                                        'messages' => 'Blog Comment not found'
+                                    ]);
+                                }
+                               
+                                $blog->update([
+                                    'status' => $request->blog_com_status
+                                ]);
+          
+                                return response()->json([
+                                    'status' => 200,
+                                    'messages' => 'Blog Comment Edit successfully'
                                 ]);
                 
                                 }
