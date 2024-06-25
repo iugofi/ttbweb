@@ -1702,6 +1702,18 @@ public function newslistshow(){
                             return redirect('/setup'); 
                         }
                     }
+
+                    public function payedit($id){
+                        if ($this->loggedInAdmin) {
+                            $decryptid=\Crypt::decrypt($id);
+                            $payedit=Payments::find($decryptid);
+        
+                            return view('Admin.payedit',['payedit'=>$payedit]);
+                        
+                        } else {
+                            return redirect('/setup');
+                        }
+                    }
                 
 
 

@@ -208,7 +208,7 @@ Route::post('/editcommentblog', [AdminController::class, 'editcommentblog'])->na
 //admin news
 Route::get('/newscreate', [AdminController::class, 'newscreate'])->name('admin.newscreate');
 Route::get('/newslistshow', [AdminController::class, 'newslistshow'])->name('admin.newslistshow');
-Route::get('/newsedit/{id}', [AdminController::class, 'newsedit'])->name('edit.newsedit');
+// Route::get('/newsedit/{id}', [AdminController::class, 'newsedit'])->name('edit.newsedit');
 Route::delete('/newsdelete/{id}', [AdminController::class, 'newsdelete'])->name('delete.newsdelete');
 Route::post('/savenews', [AdminController::class, 'savenews'])->name('save.news');
 Route::post('/editnews', [AdminController::class, 'editnews'])->name('edit.news');
@@ -271,6 +271,7 @@ Route::delete('/plandetailsdelete/{id}', [AdminController::class, 'plandetailsde
 
 //vpn shield Payment 
 Route::get('/vpnpayshow', [AdminController::class, 'vpnpayshow'])->name('pay.vpnpayshow');
+Route::get('/payedit/{id}', [AdminController::class, 'payedit'])->name('edit.payedit');
 Route::delete('/vpnpaydelete/{id}', [AdminController::class, 'vpnpaydelete'])->name('delete.vpnpaydelete');
 
 //all payment list
