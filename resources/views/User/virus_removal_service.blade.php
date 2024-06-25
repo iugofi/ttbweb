@@ -37,7 +37,7 @@
                                     incident</h3>
                                 <div class="bnr-btn text-left">
                                     <a href="index.html" class="m-1 ti-btn ti-btn-primary-full bnr-btn-1 btn-primary"
-                                        style="padding: 8px 34px;">
+                                        style="padding: 8px 34px;"> 
                                         Help Me Please
                                     </a>
                                 </div>
