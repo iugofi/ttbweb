@@ -44992,7 +44992,9 @@ h6.uppercase {
         min-width: 300px !important;
         padding: 8px;
     }
-
+    .carousel-container {
+        display: block !important;
+    }
     .icon-one img {
         left: 6rem !important;
         top: 58px !important;
