@@ -52,8 +52,8 @@
                                 <div class="box text-center">
                                     <div class="" id="show_success_alert"></div>
                                 </div>
-                                <div class="grid grid-cols-6 gap-4">
-                                    <div class="xl:col-span-12 col-span-12">
+                                <div class="grid grid-cols-12 gap-4">
+                                    <div class="xl:col-span-6 col-span-12">
                                         <label for="blog-title" class="form-label">Payment Id</label>
                                         <input type="text" name="main_id" value="{{ isset($payedit->id) ? $payedit->id : '' }}" hidden>
                                         <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
