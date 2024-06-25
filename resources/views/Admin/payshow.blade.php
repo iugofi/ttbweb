@@ -235,14 +235,7 @@
 
         <script>
             $(document).ready(function() {
-                var btn_copy=document.querySelector(".buttons-copy");
-                btn_copy.style.backgroundColor="red";
-                var btn_excel=document.querySelector(".buttons-excel");
-                btn_excel.style.backgroundColor="red";
-                var btn_csv=document.querySelector(".buttons-csv");
-                btn_csv.style.backgroundColor="red";
-                var btn_pdf=document.querySelector(".buttons-pdf");
-                btn_pdf.style.backgroundColor="red";
+               
 
                 $('#example').DataTable({
                     layout: {
