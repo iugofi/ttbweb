@@ -121,7 +121,7 @@
                         <div class="grid grid-rows-2 grid-flow-col gap-1 colum-one">
                             <div class="row-span-3">
                                 <i class="fa-solid fa-circle icon-hover1"></i>
-                                <img src="assets/img/Best-Services-Iocn-1.png" class="img-fluid !inline-flex backimage">
+                                <img src="{{asset('assets/img/Virus-and-Malware-Removal-Black.png') }}" class="img-fluid !inline-flex backimage">
                             </div>
                             <div class="col-span-2">
                                 <h5 class="dark-text px-6">Virus and Malware Removal</h5>
@@ -134,7 +134,7 @@
                         <div class="grid grid-rows-2 grid-flow-col pt-4 gap-1 colum-two">
                             <div class="row-span-3">
                                 <i class="fa-solid fa-circle icon-hover2"></i>
-                                <img src="assets/img/Best-Services-Iocn-2.png " class="img-fluid !inline-flex backimage">
+                                <img src="{{asset('assets/img/System-Cleanup-Black.png') }} " class="img-fluid !inline-flex backimage">
                             </div>
                             <div class="col-span-2">
                                 <h5 class="dark-text px-6">System Cleanup</h5>
@@ -147,7 +147,7 @@
                         <div class="grid grid-rows-2 grid-flow-col pt-4 gap-1 colum-three">
                             <div class="row-span-3">
                                 <i class="fa-solid fa-circle icon-hover3"></i>
-                                <img src="assets/img/Best-Services-Iocn-2.png " class="img-fluid !inline-flex backimage">
+                                <img src="{{asset('assets/img/Security-Recommendations.png') }} " class="img-fluid !inline-flex backimage">
                             </div>
                             <div class="col-span-2">
                                 <h5 class="dark-text px-6">Security Recommendations</h5>
@@ -160,7 +160,7 @@
                         <div class="grid grid-rows-2 grid-flow-col pt-4 gap-1 colum-four">
                             <div class="row-span-3">
                                 <i class="fa-solid fa-circle icon-hover4"></i>
-                                <img src="assets/img/Best-Services-Iocn-2.png " class="img-fluid !inline-flex backimage">
+                                <img src="{{asset('assets/img/Data-Backup-Black.png')}} " class="img-fluid !inline-flex backimage">
                             </div>
                             <div class="col-span-2">
                                 <h5 class="dark-text px-6">Data Backup</h5>
