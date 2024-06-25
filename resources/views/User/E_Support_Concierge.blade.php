@@ -282,15 +282,68 @@
                                 </div>
                                 <div id="pills-on-gray-color-2" class="hidden" role="tabpanel"
                                     aria-labelledby="pills-on-gray-color-item-2">
-                                    <p>
-                                        hello
-                                    </p>
+                                    <h3>Smart Device Setup:</h3>
+                                    <p class="mt-2"> From your home networks to workplace security devices, we will help
+                                        you optimize them for optimal functioning only.</p>
+                                    <div class="flex mt-5">
+                                        <div class="tab-icon">
+                                            <i class="bi bi-hdd-stack"></i>
+                                            <p>Watch Over Your Family from Anywhere</p>
+                                        </div>
+                                        <div class="tab-icon">
+                                            <i class="bi bi-hdd-stack"></i>
+                                            <p>Eliminate Common & Complex Issues</p>
+                                        </div>
+                                        <div class="tab-icon">
+                                            <i class="bi bi-hdd-stack"></i>
+                                            <p>Top-Notch Experience Without Lagging</p>
+                                        </div>
+                                    </div>
+                                    <div class="flex pt-2 pb-2">
+                                        <div class="price-tab">
+                                            <h4>$69</h4>
+                                        </div>
+                                        <div class="price-cnt">
+                                            <h5>1 Time</h5>
+                                            <p>Home Network Setup</p>
+                                        </div>
+                                    </div>
+                                    <div class="tab-btn-buy">
+                                        <a href="#">Buy Now</a>
+                                    </div>
                                 </div>
                                 <div id="pills-on-gray-color-3" class="hidden" role="tabpanel"
                                     aria-labelledby="pills-on-gray-color-item-3">
-                                    <p>
-                                        yello
-                                    </p>
+                                    <h3>Software Installation:</h3>
+                                    <p class="mt-2"> Software installation can be difficult to eliminate without
+                                        professional advice. So, contact us to ensure your software is set up and
+                                        functioning properly.</p>
+                                    <div class="flex mt-5">
+                                        <div class="tab-icon">
+                                            <i class="bi bi-hdd-stack"></i>
+                                            <p>Watch Over Your Family from Anywhere</p>
+                                        </div>
+                                        <div class="tab-icon">
+                                            <i class="bi bi-hdd-stack"></i>
+                                            <p>Eliminate Common & Complex Issues</p>
+                                        </div>
+                                        <div class="tab-icon">
+                                            <i class="bi bi-hdd-stack"></i>
+                                            <p>Top-Notch Experience Without Lagging</p>
+                                        </div>
+                                    </div>
+                                    <div class="flex pt-2 pb-2">
+                                        <div class="price-tab">
+                                            <h4>$69</h4>
+                                        </div>
+                                        <div class="price-cnt">
+                                            <h5>1 Time</h5>
+                                            <p>Home Network Setup</p>
+                                        </div>
+                                    </div>
+                                    <div class="tab-btn-buy">
+                                        <a href="#">Buy Now</a>
+                                    </div>
                                 </div>
                             </div>
 
