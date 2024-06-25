@@ -85,12 +85,6 @@
                                 <div class="box text-center">
                                     <div class="" id="show_success_alert"></div>
                                 </div>
-                                <div class="flex justify-end mb-4">
-                                    <button id="importExcelButton" class="ti-btn ti-btn-icon ti-btn-wave text-white bg-green-500 hover:bg-green-600">
-                                        <i class="ri-upload-line align-middle"></i> Import Excel
-                                    </button>
-                                    <input type="file" id="excelFileInput" class="hidden" accept=".xlsx, .xls" />
-                                </div>
                                 <div class="table-responsive">
                                     <table id="showdata" class="table-auto w-full">
                                         <thead>
