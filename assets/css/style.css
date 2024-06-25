@@ -42521,7 +42521,13 @@ img.img-fluid.service-icon {
 /* end kunal */
 
 /* neeraj-home-page-css-22-04-2024 */
-
+.e-support-section-six .tab-icon i {
+    font-size: 28px;
+    color: #12d2b3;
+}
+.e-support-section-six .tab-icon {
+    padding: 15px 19px 12px 0px;
+}
 
 .e-support-section-six h3 {
     font-size: 23px;
