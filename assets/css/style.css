@@ -42522,6 +42522,89 @@ img.img-fluid.service-icon {
 
 /* neeraj-home-page-css-22-04-2024 */
 
+.e-support-section-seven .tab-btn-buy a {
+    background-color: #12d2b3;
+    color: #fff;
+    padding: 10px 21px;
+    font-size: 14px;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 23px 0px;
+}
+
+.e-support-section-seven h4 {
+    font-family: "Poppins", sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    color: #12d2b3;
+    margin-top:5px;
+}
+.e-support-section-seven .price-tab {
+    padding-right: 10px;
+}
+
+.e-support-section-seven h5 {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+.e-support-section-seven .price-cnt {
+    padding-left: 12px;
+    border-left:2px solid #696868ab;
+}
+
+.e-support-section-seven .tab-icon i {
+    font-size: 28px;
+    color: #12d2b3;
+}
+.e-support-section-seven .tab-icon {
+    padding: 15px 19px 12px 0px;
+}
+
+.e-support-section-seven h3 {
+    font-size: 23px;
+    font-weight: 600;
+    margin-top: 0.8em;
+}
+
+.e-support-section-seven .bg-transparent {
+    background-color: #F5F6FA;
+}
+.e-support-section-seven [data-hs-tab].active.hs-tab-active\:text-gray-800 {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255);
+}
+
+.e-support-section-seven [data-hs-tab].active.hs-tab-active\:bg-gray-200 {
+    --tw-bg-opacity: 1;
+    background-color:#12d2b3;
+}
+.e-support-section-seven [data-hs-tab].active.hs-tab-active\:hover\:text-gray-800:hover {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255);
+}
+
+.e-support-section-seven .box{
+    padding:3em 0em;
+}
+
+.e-support-section-seven h2 {
+    font-size: 31px;
+    font-weight: 600;
+}
+
+.e-support-section-seven p {
+    font-size: 16px;
+}
+
+.e-support-section-seven {
+    padding: 5em 0em;
+}
+
+
+
+-------------------------------------------------------------------------------------seven end
+
 .e-support-section-six .tab-btn-buy a {
     background-color: #12d2b3;
     color: #fff;
@@ -42597,7 +42680,7 @@ img.img-fluid.service-icon {
     font-size: 16px;
 }
 
-section.e-support-section-six {
+.e-support-section-six {
     padding: 5em 0em;
 }
 
