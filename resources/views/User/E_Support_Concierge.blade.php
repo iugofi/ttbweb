@@ -103,10 +103,12 @@
         <section class="e-support-section-three">
             <div class="container">
                 <div class="grid grid-cols-12 gap-6">
-                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12 anm-box">
                         <h2 class="mb-5">What We Offer?</h2>
                         <img src="{{asset('assets/e-support/What-We-Offer.png') }}" alt=""
                     class="img-fluid" width="95%">
+                    <img src="{{asset('assets/e-support/What-We-Offer.png') }}" alt=""
+                    class="img-fluid anim-shield">
                     </div>
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
                         <div class="sct-spacing"></div>
