@@ -403,15 +403,15 @@
                                         But with our TTB eSupport Concierge it will be easier than ever.</p>
                                     <div class="flex mt-5">
                                         <div class="tab-icon">
-                                            <i class="bi bi-hdd-stack"></i>
+                                            <i class="bi bi-gear"></i>
                                             <p>Watch Over Your Family from Anywhere</p>
                                         </div>
                                         <div class="tab-icon">
-                                            <i class="bi bi-hdd-stack"></i>
+                                            <i class="bi bi-gear"></i>
                                             <p>Eliminate Common & Complex Issues</p>
                                         </div>
                                         <div class="tab-icon">
-                                            <i class="bi bi-hdd-stack"></i>
+                                            <i class="bi bi-gear"></i>
                                             <p>Top-Notch Experience Without Lagging</p>
                                         </div>
                                     </div>
