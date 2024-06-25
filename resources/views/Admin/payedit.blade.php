@@ -52,8 +52,8 @@
                                 <div class="box text-center">
                                     <div class="" id="show_success_alert"></div>
                                 </div>
-                                <div class="grid grid-cols-6 gap-4">
-                                    <div class="xl:col-span-12 col-span-12">
+                                <div class="grid grid-cols-12 gap-4">
+                                    <div class="xl:col-span-6 col-span-12">
                                         <label for="blog-title" class="form-label">Payment Id</label>
                                         <input type="text" name="main_id" value="{{ isset($payedit->id) ? $payedit->id : '' }}" hidden>
                                         <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
@@ -64,6 +64,12 @@
                                         <label for="product key" class="form-label">product_key</label>
                                         <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
                                             id="product_key" name="product_key" value="{{ isset($payedit->product_key) ? $payedit->product_key : '' }}" placeholder="Product Key">
+                                        <div class="invalid-feedback"></div>
+                                    </div> 
+                                    <div class="xl:col-span-6 col-span-12">
+                                        <label for="product key" class="form-label">Currency</label>
+                                        <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
+                                            id="currency" name="currency" value="{{ isset($payedit->currency) ? $payedit->currency : '' }}" placeholder="Currency">
                                         <div class="invalid-feedback"></div>
                                     </div> 
 
