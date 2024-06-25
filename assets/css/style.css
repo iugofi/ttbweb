@@ -13853,6 +13853,9 @@ h6 {
 .dark a.m-1.ti-btn.ti-btn-primary-full {
     background: #000;
 }
+.dark .btn-primary {
+    background-color: #12D2B3 !important;
+}
 
 [data-nav-layout="horizontal"] .landing-body .landing-banner::before {
     position: absolute;
