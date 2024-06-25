@@ -183,7 +183,7 @@
                         </a>
                     </li>
                     <li class="slide">
-                        <a href="" class="side-menu__item">
+                        <a href="{{'pay.antiviruspayshow'}}" class="side-menu__item">
                             <i class="fa-solid fa-file-shield  side-menu__icon"></i>
                             <span class="side-menu__label">Antivirus Payment</span>
                         </a>

@@ -274,6 +274,8 @@ Route::delete('/vpnpaydelete/{id}', [AdminController::class, 'vpnpaydelete'])->n
 //all payment list
 Route::get('/allpaymentshow', [AdminController::class, 'allpaymentshow'])->name('pay.allpaymentshow');
 
+//antivirus payment 
+Route::get('/antiviruspayshow', [AdminController::class, 'antiviruspayshow'])->name('pay.antiviruspayshow');
 
 
 

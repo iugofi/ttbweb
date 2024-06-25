@@ -1648,6 +1648,29 @@ public function newslistshow(){
 
                     }
 
+                    public function antiviruspayshow()
+                    {
+                        if ($this->loggedInAdmin) {
+                        $title="Antivirus";
+                        $vpnpaydata=Payments::join('product_details', 'product_details.id', '=', 'payments.product_id')
+                        ->where('product_details.key_type', 502)
+                        ->select('payments.*','product_details.key_type','product_details.plan_id')
+                        ->orderBy('payments.id', 'desc')
+                        ->get();       
+                        $total = DB::table('payments')
+                        ->join('product_details', 'product_details.id', '=', 'payments.product_id')
+                        ->where('product_details.key_type', 502)
+                        ->whereNull('payments.deleted_at')
+                        ->sum('payments.amount_total');    
+                        return view('Admin.payshow',['vpnpaydata'=>$vpnpaydata,'title'=>$title,'total'=>$total]);
+                        
+                        }else
+                        {
+                            return redirect('/setup'); 
+                        }
+
+                    }
+
                     public function allpaymentshow()
                     {
                         if ($this->loggedInAdmin) {
