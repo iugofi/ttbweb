@@ -350,7 +350,7 @@
                         </div>
                     </div>
                     <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-12 col-span-12">
-                        <img src="{{ asset('assets/e-support/e-support-tab-2.png') }}" alt=""
+                        <img src="{{ asset('assets/e-support/e-support-tab-1.png') }}" alt=""
                         class="img-fluid mt-2" width="100%">
                     </div>
                 </div>
@@ -361,7 +361,7 @@
             <div class="container">
                 <div class="grid grid-cols-12 gap-6">
                     <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-12 col-span-12">
-                        <img src="{{ asset('assets/e-support/e-support-tab-1.png') }}" alt=""
+                        <img src="{{ asset('assets/e-support/e-support-tab-2.png') }}" alt=""
                         class="img-fluid mt-2" width="100%">
                     </div>
                     <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 md:col-span-12 col-span-12">
