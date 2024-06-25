@@ -266,7 +266,15 @@
                                             <i class="bi bi-hdd-stack"></i>
                                             <p>Top-Notch Experience Without Lagging</p>
                                         </div>
-
+                                    </div>
+                                    <div class="flex">
+                                        <div class="price-tab">
+                                            $69
+                                        </div>
+                                        <div class="price-cnt">
+                                            <h5>1 Time</h5>
+                                            <p>Home Network Setup</p>
+                                        </div>
                                     </div>
                                 </div>
                                 <div id="pills-on-gray-color-2" class="hidden" role="tabpanel"
