@@ -551,8 +551,8 @@
                         <h2 class="text-center">Frequently Asked Questionsl</h2>
                     </div>
                 </div>
-                <div class="grid grid-cols-12 gap-6">
-                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12 pt-5">
+                <div class="grid grid-cols-12 gap-6  pt-5">
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
                         {{-- <img src="{{asset('assets/home-two-img/banner-one-home2.png') }}" alt=""
                     class="img-fluid" width="100%"> --}}
                         <p class="faq-font">TTB eSupport Concierge is a remote technical help provider to users who need help with their
