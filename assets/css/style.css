@@ -44992,13 +44992,13 @@ h6.uppercase {
         height: 42rem !important;
     }
 
-    .carousel-btn.left {
+    /* .carousel-btn.left {
         left: 10px !important;
-    }
+    } */
 
-    .carousel-btn.right {
+    /* .carousel-btn.right {
         right: 10px !important;
-    }
+    } */
 
     .carousel {
         width: 86% !important;
@@ -45008,7 +45008,15 @@ h6.uppercase {
         min-width: 300px !important;
         padding: 8px;
     }
-
+    .carousel-container {
+        display: block !important;
+    }
+    button.carousel-btn.left {
+        display: none;
+    }
+    button.carousel-btn.right {
+        display: none;
+    }
     .icon-one img {
         left: 6rem !important;
         top: 58px !important;
