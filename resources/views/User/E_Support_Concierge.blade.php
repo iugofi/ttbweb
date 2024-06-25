@@ -103,10 +103,12 @@
         <section class="e-support-section-three">
             <div class="container">
                 <div class="grid grid-cols-12 gap-6">
-                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12 anm-box">
                         <h2 class="mb-5">What We Offer?</h2>
                         <img src="{{asset('assets/e-support/What-We-Offer.png') }}" alt=""
                     class="img-fluid" width="95%">
+                    <img src="{{asset('assets/e-support/e-support-shield.png') }}" alt=""
+                    class="img-fluid anim-shield">
                     </div>
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
                         <div class="sct-spacing"></div>
@@ -219,7 +221,7 @@
 
         <section class="e-support-section-six">
             <div class="container">
-                <div class="grid grid-cols-12 gap-6">
+                <div class="grid grid-cols-12 gap-6 pt-5">
                     <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 md:col-span-12 col-span-12">
                         <h2>Easily Setup the Smart Devices</h2>
                         <p class="pt-3">TTB eSupport Concierge will guide you through setting up your <br>hardware and
