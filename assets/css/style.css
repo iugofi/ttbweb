@@ -46487,7 +46487,7 @@ section#about-features {
     content: url('/assets/img/Virus-and-Malware-Removal-Green.png');
 }
 .colum-two:hover .row-span-3 .back-img {
-    content: url('/assets/img/Security-Recommendations-Green.png');
+    content: url('/assets/img/System-Cleanup-Green.png');
 }
 .colum-three:hover .row-span-3 .back-img {
     content: url('/assets/img/Security-Recommendations-Green.png');
@@ -46495,7 +46495,11 @@ section#about-features {
 .colum-four:hover .row-span-3 .back-img {
     content: url('/assets/img/Data-Backup-Green.png');
 }
-
+.dark .back-img {
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 4px;
+}
 .bg-imgs {
     position: absolute;
     right: 0rem;
