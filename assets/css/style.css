@@ -45093,6 +45093,7 @@ h6.uppercase {
 
     .colum-three {
         margin: 0px;
+        display: -webkit-inline-box;
     }
 
     .colum-three .row.flex {
