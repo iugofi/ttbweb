@@ -253,7 +253,7 @@
                                     <p class="mt-2"> As a newbie, setting up your home automation devices on your own can
                                         be difficult.
                                         But with our TTB eSupport Concierge it will be easier than ever.</p>
-                                    <div class="flex">
+                                    <div class="flex mt-5">
                                         <div class="tab-icon">
                                             <i class="bi bi-hdd-stack"></i>
                                             <p>Watch Over Your Family from Anywhere</p>
