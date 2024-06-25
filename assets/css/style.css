@@ -42565,10 +42565,11 @@ img.img-fluid.service-icon {
     font-size: 23px;
     font-weight: 600;
     margin-top: 0.8em;
+    color: #12d2b3;
 }
 
 .e-support-section-seven .bg-transparent {
-    background-color: #F5F6FA;
+    background-color: #fff;
 }
 .e-support-section-seven [data-hs-tab].active.hs-tab-active\:text-gray-800 {
     --tw-text-opacity: 1;
@@ -42586,6 +42587,7 @@ img.img-fluid.service-icon {
 
 .e-support-section-seven .box{
     padding:3em 0em;
+    background-color: transparent;
 }
 
 .e-support-section-seven h2 {
@@ -42599,11 +42601,12 @@ img.img-fluid.service-icon {
 
 .e-support-section-seven {
     padding: 5em 0em;
+    background-color: #F5F6FA;
 }
 
 
 
--------------------------------------------------------------------------------------seven end
+
 
 .e-support-section-six .tab-btn-buy a {
     background-color: #12d2b3;
@@ -42648,6 +42651,7 @@ img.img-fluid.service-icon {
     font-size: 23px;
     font-weight: 600;
     margin-top: 0.8em;
+    color: #12d2b3;
 }
 
 .e-support-section-six .bg-transparent {
