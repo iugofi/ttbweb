@@ -553,230 +553,236 @@
                 </div>
                 <div class="grid grid-cols-12 gap-6">
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
-
+                        {{-- <img src="{{asset('assets/home-two-img/banner-one-home2.png') }}" alt=""
+                    class="img-fluid" width="100%"> --}}
+                        <p>TTB eSupport Concierge is a remote technical help provider to users who need help with their
+                            smart devices. We assist users from all over the world.</p>
+                        <div class="faq-btn">
+                            <a href="#">Read More</a>
+                        </div>
                     </div>
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
                         <div class="accordion accordion-customicon1 accordion-primary accordions-items-seperate"
-                        id="accordionFAQ2">
-                        <div class="hs-accordion-group">
-                            <div class="hs-accordion active bg-white dark:bg-bodybg border dark:border-defaultborder/10 mt-[0.5rem] rounded-sm dark:border dark:border-defaultborder/10-white/10"
-                                id="faq-five">
-                                <button type="button"
-                                    class="hs-accordion-toggle hs-accordion-active:!text-primary hs-accordion-active:border dark:border-defaultborder/10-b hs-accordion-active:bg-primary/10   dark:border-defaultborder/10 dark:hs-accordion-active:border dark:border-defaultborder/10-white/10 justify-between inline-flex items-center w-full font-semibold text-start text-[0.85rem] transition py-5 px-4 dark:hs-accordion-active:!text-primary dark:text-gray-200 dark:hover:text-white/80"
-                                    aria-controls="faq-collapse-seven">
-                                    General Terms &amp; Conditions (GTC)
-                                    <svg class="hs-accordion-active:hidden hs-accordion-active:!text-primary hs-accordion-active:group-hover:!text-primary block w-3 h-3 text-gray-600 group-hover:text-defaulttextcolor dark:text-defaulttextcolor/70 "
-                                        width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M1.5 8.85999L14.5 8.85998" stroke="currentColor"
-                                            stroke-width="2" stroke-linecap="round" />
-                                        <path d="M8 15.36L8 2.35999" stroke="currentColor" stroke-width="2"
-                                            stroke-linecap="round" />
-                                    </svg>
-                                    <svg class="hs-accordion-active:block hs-accordion-active:!text-primary hs-accordion-active:group-hover:!text-primary hidden w-3 h-3 text-gray-600 group-hover:text-defaulttextcolor dark:text-defaulttextcolor/70 "
-                                        width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M1.5 8.85999L14.5 8.85998" stroke="currentColor"
-                                            stroke-width="2" stroke-linecap="round" />
-                                    </svg>
-                                </button>
-                                <div id="faq-collapse-seven"
-                                    class="hs-accordion-content w-full overflow-hidden transition-[height] duration-300"
-                                    aria-labelledby="faq-five">
-                                    <div class="p-5">
-                                        <p class="text-defaulttextcolor dark:text-defaulttextcolor/70 ">
-                                            <strong>This is the first item's accordion body.</strong> It is
-                                            shown by
-                                            default, until the collapse plugin adds the appropriate classes that
-                                            we
-                                            use to style each element. These classes control the overall
-                                            appearance,
-                                            as well as the showing and hiding via CSS transitions. You can
-                                            modify
-                                            any of this with custom CSS or overriding our default variables.
-                                            It's
-                                            also worth noting that just about any HTML can go within the
-                                            <code>.accordion-body</code>, though the transition does limit
-                                            overflow.
-                                        </p>
+                            id="accordionFAQ2">
+                            <div class="hs-accordion-group">
+                                <div class="hs-accordion active bg-white dark:bg-bodybg border dark:border-defaultborder/10 mt-[0.5rem] rounded-sm dark:border dark:border-defaultborder/10-white/10"
+                                    id="faq-five">
+                                    <button type="button"
+                                        class="hs-accordion-toggle hs-accordion-active:!text-primary hs-accordion-active:border dark:border-defaultborder/10-b hs-accordion-active:bg-primary/10   dark:border-defaultborder/10 dark:hs-accordion-active:border dark:border-defaultborder/10-white/10 justify-between inline-flex items-center w-full font-semibold text-start text-[0.85rem] transition py-5 px-4 dark:hs-accordion-active:!text-primary dark:text-gray-200 dark:hover:text-white/80"
+                                        aria-controls="faq-collapse-seven">
+                                        General Terms &amp; Conditions (GTC)
+                                        <svg class="hs-accordion-active:hidden hs-accordion-active:!text-primary hs-accordion-active:group-hover:!text-primary block w-3 h-3 text-gray-600 group-hover:text-defaulttextcolor dark:text-defaulttextcolor/70 "
+                                            width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1.5 8.85999L14.5 8.85998" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" />
+                                            <path d="M8 15.36L8 2.35999" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" />
+                                        </svg>
+                                        <svg class="hs-accordion-active:block hs-accordion-active:!text-primary hs-accordion-active:group-hover:!text-primary hidden w-3 h-3 text-gray-600 group-hover:text-defaulttextcolor dark:text-defaulttextcolor/70 "
+                                            width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1.5 8.85999L14.5 8.85998" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" />
+                                        </svg>
+                                    </button>
+                                    <div id="faq-collapse-seven"
+                                        class="hs-accordion-content w-full overflow-hidden transition-[height] duration-300"
+                                        aria-labelledby="faq-five">
+                                        <div class="p-5">
+                                            <p class="text-defaulttextcolor dark:text-defaulttextcolor/70 ">
+                                                <strong>This is the first item's accordion body.</strong> It is
+                                                shown by
+                                                default, until the collapse plugin adds the appropriate classes that
+                                                we
+                                                use to style each element. These classes control the overall
+                                                appearance,
+                                                as well as the showing and hiding via CSS transitions. You can
+                                                modify
+                                                any of this with custom CSS or overriding our default variables.
+                                                It's
+                                                also worth noting that just about any HTML can go within the
+                                                <code>.accordion-body</code>, though the transition does limit
+                                                overflow.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="hs-accordion bg-white dark:bg-bodybg border dark:border-defaultborder/10 mt-[0.5rem] rounded-sm dark:border dark:border-defaultborder/10-white/10"
-                                id="faq-six">
-                                <button type="button"
-                                    class="hs-accordion-toggle hs-accordion-active:!text-primary hs-accordion-active:border dark:border-defaultborder/10-b hs-accordion-active:bg-primary/10   dark:border-defaultborder/10 dark:hs-accordion-active:border dark:border-defaultborder/10-white/10 justify-between inline-flex items-center w-full font-semibold text-start text-[0.85rem] transition py-5 px-4 dark:hs-accordion-active:!text-primary dark:text-gray-200 dark:hover:text-white/80"
-                                    aria-controls="faq-collapse-eight">
-                                    Do I need to create an account to make an order?
-                                    <svg class="hs-accordion-active:hidden hs-accordion-active:!text-primary hs-accordion-active:group-hover:!text-primary block w-3 h-3 text-gray-600 group-hover:text-defaulttextcolor dark:text-defaulttextcolor/70 "
-                                        width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M1.5 8.85999L14.5 8.85998" stroke="currentColor"
-                                            stroke-width="2" stroke-linecap="round" />
-                                        <path d="M8 15.36L8 2.35999" stroke="currentColor" stroke-width="2"
-                                            stroke-linecap="round" />
-                                    </svg>
-                                    <svg class="hs-accordion-active:block hs-accordion-active:!text-primary hs-accordion-active:group-hover:!text-primary hidden w-3 h-3 text-gray-600 group-hover:text-defaulttextcolor dark:text-defaulttextcolor/70 "
-                                        width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M1.5 8.85999L14.5 8.85998" stroke="currentColor"
-                                            stroke-width="2" stroke-linecap="round" />
-                                    </svg>
-                                </button>
-                                <div id="faq-collapse-eight"
-                                    class="hs-accordion-content w-full overflow-hidden hidden transition-[height] duration-300"
-                                    aria-labelledby="faq-six">
-                                    <div class="p-5">
-                                        <p class="text-defaulttextcolor dark:text-defaulttextcolor/70 ">
-                                            <strong>This is the first item's accordion body.</strong> It is
-                                            shown by
-                                            default, until the collapse plugin adds the appropriate classes that
-                                            we
-                                            use to style each element. These classes control the overall
-                                            appearance,
-                                            as well as the showing and hiding via CSS transitions. You can
-                                            modify
-                                            any of this with custom CSS or overriding our default variables.
-                                            It's
-                                            also worth noting that just about any HTML can go within the
-                                            <code>.accordion-body</code>, though the transition does limit
-                                            overflow.
-                                        </p>
+                                <div class="hs-accordion bg-white dark:bg-bodybg border dark:border-defaultborder/10 mt-[0.5rem] rounded-sm dark:border dark:border-defaultborder/10-white/10"
+                                    id="faq-six">
+                                    <button type="button"
+                                        class="hs-accordion-toggle hs-accordion-active:!text-primary hs-accordion-active:border dark:border-defaultborder/10-b hs-accordion-active:bg-primary/10   dark:border-defaultborder/10 dark:hs-accordion-active:border dark:border-defaultborder/10-white/10 justify-between inline-flex items-center w-full font-semibold text-start text-[0.85rem] transition py-5 px-4 dark:hs-accordion-active:!text-primary dark:text-gray-200 dark:hover:text-white/80"
+                                        aria-controls="faq-collapse-eight">
+                                        Do I need to create an account to make an order?
+                                        <svg class="hs-accordion-active:hidden hs-accordion-active:!text-primary hs-accordion-active:group-hover:!text-primary block w-3 h-3 text-gray-600 group-hover:text-defaulttextcolor dark:text-defaulttextcolor/70 "
+                                            width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1.5 8.85999L14.5 8.85998" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" />
+                                            <path d="M8 15.36L8 2.35999" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" />
+                                        </svg>
+                                        <svg class="hs-accordion-active:block hs-accordion-active:!text-primary hs-accordion-active:group-hover:!text-primary hidden w-3 h-3 text-gray-600 group-hover:text-defaulttextcolor dark:text-defaulttextcolor/70 "
+                                            width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1.5 8.85999L14.5 8.85998" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" />
+                                        </svg>
+                                    </button>
+                                    <div id="faq-collapse-eight"
+                                        class="hs-accordion-content w-full overflow-hidden hidden transition-[height] duration-300"
+                                        aria-labelledby="faq-six">
+                                        <div class="p-5">
+                                            <p class="text-defaulttextcolor dark:text-defaulttextcolor/70 ">
+                                                <strong>This is the first item's accordion body.</strong> It is
+                                                shown by
+                                                default, until the collapse plugin adds the appropriate classes that
+                                                we
+                                                use to style each element. These classes control the overall
+                                                appearance,
+                                                as well as the showing and hiding via CSS transitions. You can
+                                                modify
+                                                any of this with custom CSS or overriding our default variables.
+                                                It's
+                                                also worth noting that just about any HTML can go within the
+                                                <code>.accordion-body</code>, though the transition does limit
+                                                overflow.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="hs-accordion bg-white dark:bg-bodybg border dark:border-defaultborder/10 mt-[0.5rem] rounded-sm dark:border dark:border-defaultborder/10-white/10"
-                                id="faq-seven">
-                                <button type="button"
-                                    class="hs-accordion-toggle hs-accordion-active:!text-primary hs-accordion-active:border dark:border-defaultborder/10-b hs-accordion-active:bg-primary/10   dark:border-defaultborder/10 dark:hs-accordion-active:border dark:border-defaultborder/10-white/10 justify-between inline-flex items-center w-full font-semibold text-start text-[0.85rem] transition py-5 px-4 dark:hs-accordion-active:!text-primary dark:text-gray-200 dark:hover:text-white/80"
-                                    aria-controls="faq-collapse-nine">
-                                    Where can I subscribe to your newsletter?
-                                    <svg class="hs-accordion-active:hidden hs-accordion-active:!text-primary hs-accordion-active:group-hover:!text-primary block w-3 h-3 text-gray-600 group-hover:text-defaulttextcolor dark:text-defaulttextcolor/70 "
-                                        width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M1.5 8.85999L14.5 8.85998" stroke="currentColor"
-                                            stroke-width="2" stroke-linecap="round" />
-                                        <path d="M8 15.36L8 2.35999" stroke="currentColor" stroke-width="2"
-                                            stroke-linecap="round" />
-                                    </svg>
-                                    <svg class="hs-accordion-active:block hs-accordion-active:!text-primary hs-accordion-active:group-hover:!text-primary hidden w-3 h-3 text-gray-600 group-hover:text-defaulttextcolor dark:text-defaulttextcolor/70 "
-                                        width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M1.5 8.85999L14.5 8.85998" stroke="currentColor"
-                                            stroke-width="2" stroke-linecap="round" />
-                                    </svg>
-                                </button>
-                                <div id="faq-collapse-nine"
-                                    class="hs-accordion-content w-full overflow-hidden hidden transition-[height] duration-300"
-                                    aria-labelledby="faq-seven">
-                                    <div class="p-5">
-                                        <p class="text-defaulttextcolor dark:text-defaulttextcolor/70 ">
-                                            <strong>This is the first item's accordion body.</strong> It is
-                                            shown by
-                                            default, until the collapse plugin adds the appropriate classes that
-                                            we
-                                            use to style each element. These classes control the overall
-                                            appearance,
-                                            as well as the showing and hiding via CSS transitions. You can
-                                            modify
-                                            any of this with custom CSS or overriding our default variables.
-                                            It's
-                                            also worth noting that just about any HTML can go within the
-                                            <code>.accordion-body</code>, though the transition does limit
-                                            overflow.
-                                        </p>
+                                <div class="hs-accordion bg-white dark:bg-bodybg border dark:border-defaultborder/10 mt-[0.5rem] rounded-sm dark:border dark:border-defaultborder/10-white/10"
+                                    id="faq-seven">
+                                    <button type="button"
+                                        class="hs-accordion-toggle hs-accordion-active:!text-primary hs-accordion-active:border dark:border-defaultborder/10-b hs-accordion-active:bg-primary/10   dark:border-defaultborder/10 dark:hs-accordion-active:border dark:border-defaultborder/10-white/10 justify-between inline-flex items-center w-full font-semibold text-start text-[0.85rem] transition py-5 px-4 dark:hs-accordion-active:!text-primary dark:text-gray-200 dark:hover:text-white/80"
+                                        aria-controls="faq-collapse-nine">
+                                        Where can I subscribe to your newsletter?
+                                        <svg class="hs-accordion-active:hidden hs-accordion-active:!text-primary hs-accordion-active:group-hover:!text-primary block w-3 h-3 text-gray-600 group-hover:text-defaulttextcolor dark:text-defaulttextcolor/70 "
+                                            width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1.5 8.85999L14.5 8.85998" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" />
+                                            <path d="M8 15.36L8 2.35999" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" />
+                                        </svg>
+                                        <svg class="hs-accordion-active:block hs-accordion-active:!text-primary hs-accordion-active:group-hover:!text-primary hidden w-3 h-3 text-gray-600 group-hover:text-defaulttextcolor dark:text-defaulttextcolor/70 "
+                                            width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1.5 8.85999L14.5 8.85998" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" />
+                                        </svg>
+                                    </button>
+                                    <div id="faq-collapse-nine"
+                                        class="hs-accordion-content w-full overflow-hidden hidden transition-[height] duration-300"
+                                        aria-labelledby="faq-seven">
+                                        <div class="p-5">
+                                            <p class="text-defaulttextcolor dark:text-defaulttextcolor/70 ">
+                                                <strong>This is the first item's accordion body.</strong> It is
+                                                shown by
+                                                default, until the collapse plugin adds the appropriate classes that
+                                                we
+                                                use to style each element. These classes control the overall
+                                                appearance,
+                                                as well as the showing and hiding via CSS transitions. You can
+                                                modify
+                                                any of this with custom CSS or overriding our default variables.
+                                                It's
+                                                also worth noting that just about any HTML can go within the
+                                                <code>.accordion-body</code>, though the transition does limit
+                                                overflow.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="hs-accordion bg-white dark:bg-bodybg border dark:border-defaultborder/10 mt-[0.5rem] rounded-sm dark:border dark:border-defaultborder/10-white/10"
-                                id="faq-eight">
-                                <button type="button"
-                                    class="hs-accordion-toggle hs-accordion-active:!text-primary hs-accordion-active:border dark:border-defaultborder/10-b hs-accordion-active:bg-primary/10   dark:border-defaultborder/10 dark:hs-accordion-active:border dark:border-defaultborder/10-white/10 justify-between inline-flex items-center w-full font-semibold text-start text-[0.85rem] transition py-5 px-4 dark:hs-accordion-active:!text-primary dark:text-gray-200 dark:hover:text-white/80"
-                                    aria-controls="faq-collapse-ten">
-                                    Where can in edit my address?
-                                    <svg class="hs-accordion-active:hidden hs-accordion-active:!text-primary hs-accordion-active:group-hover:!text-primary block w-3 h-3 text-gray-600 group-hover:text-defaulttextcolor dark:text-defaulttextcolor/70 "
-                                        width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M1.5 8.85999L14.5 8.85998" stroke="currentColor"
-                                            stroke-width="2" stroke-linecap="round" />
-                                        <path d="M8 15.36L8 2.35999" stroke="currentColor" stroke-width="2"
-                                            stroke-linecap="round" />
-                                    </svg>
-                                    <svg class="hs-accordion-active:block hs-accordion-active:!text-primary hs-accordion-active:group-hover:!text-primary hidden w-3 h-3 text-gray-600 group-hover:text-defaulttextcolor dark:text-defaulttextcolor/70 "
-                                        width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M1.5 8.85999L14.5 8.85998" stroke="currentColor"
-                                            stroke-width="2" stroke-linecap="round" />
-                                    </svg>
-                                </button>
-                                <div id="faq-collapse-ten"
-                                    class="hs-accordion-content w-full overflow-hidden hidden transition-[height] duration-300"
-                                    aria-labelledby="faq-eight">
-                                    <div class="p-5">
-                                        <p class="text-defaulttextcolor dark:text-defaulttextcolor/70 ">
-                                            <strong>This is the first item's accordion body.</strong> It is
-                                            shown by
-                                            default, until the collapse plugin adds the appropriate classes that
-                                            we
-                                            use to style each element. These classes control the overall
-                                            appearance,
-                                            as well as the showing and hiding via CSS transitions. You can
-                                            modify
-                                            any of this with custom CSS or overriding our default variables.
-                                            It's
-                                            also worth noting that just about any HTML can go within the
-                                            <code>.accordion-body</code>, though the transition does limit
-                                            overflow.
-                                        </p>
+                                <div class="hs-accordion bg-white dark:bg-bodybg border dark:border-defaultborder/10 mt-[0.5rem] rounded-sm dark:border dark:border-defaultborder/10-white/10"
+                                    id="faq-eight">
+                                    <button type="button"
+                                        class="hs-accordion-toggle hs-accordion-active:!text-primary hs-accordion-active:border dark:border-defaultborder/10-b hs-accordion-active:bg-primary/10   dark:border-defaultborder/10 dark:hs-accordion-active:border dark:border-defaultborder/10-white/10 justify-between inline-flex items-center w-full font-semibold text-start text-[0.85rem] transition py-5 px-4 dark:hs-accordion-active:!text-primary dark:text-gray-200 dark:hover:text-white/80"
+                                        aria-controls="faq-collapse-ten">
+                                        Where can in edit my address?
+                                        <svg class="hs-accordion-active:hidden hs-accordion-active:!text-primary hs-accordion-active:group-hover:!text-primary block w-3 h-3 text-gray-600 group-hover:text-defaulttextcolor dark:text-defaulttextcolor/70 "
+                                            width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1.5 8.85999L14.5 8.85998" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" />
+                                            <path d="M8 15.36L8 2.35999" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" />
+                                        </svg>
+                                        <svg class="hs-accordion-active:block hs-accordion-active:!text-primary hs-accordion-active:group-hover:!text-primary hidden w-3 h-3 text-gray-600 group-hover:text-defaulttextcolor dark:text-defaulttextcolor/70 "
+                                            width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1.5 8.85999L14.5 8.85998" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" />
+                                        </svg>
+                                    </button>
+                                    <div id="faq-collapse-ten"
+                                        class="hs-accordion-content w-full overflow-hidden hidden transition-[height] duration-300"
+                                        aria-labelledby="faq-eight">
+                                        <div class="p-5">
+                                            <p class="text-defaulttextcolor dark:text-defaulttextcolor/70 ">
+                                                <strong>This is the first item's accordion body.</strong> It is
+                                                shown by
+                                                default, until the collapse plugin adds the appropriate classes that
+                                                we
+                                                use to style each element. These classes control the overall
+                                                appearance,
+                                                as well as the showing and hiding via CSS transitions. You can
+                                                modify
+                                                any of this with custom CSS or overriding our default variables.
+                                                It's
+                                                also worth noting that just about any HTML can go within the
+                                                <code>.accordion-body</code>, though the transition does limit
+                                                overflow.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="hs-accordion bg-white dark:bg-bodybg border dark:border-defaultborder/10 mt-[0.5rem] rounded-sm dark:border dark:border-defaultborder/10-white/10"
-                                id="faq-nine">
-                                <button type="button"
-                                    class="hs-accordion-toggle hs-accordion-active:!text-primary hs-accordion-active:border dark:border-defaultborder/10-b hs-accordion-active:bg-primary/10   dark:border-defaultborder/10 dark:hs-accordion-active:border dark:border-defaultborder/10-white/10 justify-between inline-flex items-center w-full font-semibold text-start text-[0.85rem] transition py-5 px-4 dark:hs-accordion-active:!text-primary dark:text-gray-200 dark:hover:text-white/80"
-                                    aria-controls="faq-collapse-eleven">
-                                    What are your opening hours?
-                                    <svg class="hs-accordion-active:hidden hs-accordion-active:!text-primary hs-accordion-active:group-hover:!text-primary block w-3 h-3 text-gray-600 group-hover:text-defaulttextcolor dark:text-defaulttextcolor/70 "
-                                        width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M1.5 8.85999L14.5 8.85998" stroke="currentColor"
-                                            stroke-width="2" stroke-linecap="round" />
-                                        <path d="M8 15.36L8 2.35999" stroke="currentColor" stroke-width="2"
-                                            stroke-linecap="round" />
-                                    </svg>
-                                    <svg class="hs-accordion-active:block hs-accordion-active:!text-primary hs-accordion-active:group-hover:!text-primary hidden w-3 h-3 text-gray-600 group-hover:text-defaulttextcolor dark:text-defaulttextcolor/70 "
-                                        width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M1.5 8.85999L14.5 8.85998" stroke="currentColor"
-                                            stroke-width="2" stroke-linecap="round" />
-                                    </svg>
-                                </button>
-                                <div id="faq-collapse-eleven"
-                                    class="hs-accordion-content w-full overflow-hidden hidden transition-[height] duration-300"
-                                    aria-labelledby="faq-nine">
-                                    <div class="p-5">
-                                        <p class="text-defaulttextcolor dark:text-defaulttextcolor/70 ">
-                                            <strong>This is the first item's accordion body.</strong> It is
-                                            shown by
-                                            default, until the collapse plugin adds the appropriate classes that
-                                            we
-                                            use to style each element. These classes control the overall
-                                            appearance,
-                                            as well as the showing and hiding via CSS transitions. You can
-                                            modify
-                                            any of this with custom CSS or overriding our default variables.
-                                            It's
-                                            also worth noting that just about any HTML can go within the
-                                            <code>.accordion-body</code>, though the transition does limit
-                                            overflow.
-                                        </p>
+                                <div class="hs-accordion bg-white dark:bg-bodybg border dark:border-defaultborder/10 mt-[0.5rem] rounded-sm dark:border dark:border-defaultborder/10-white/10"
+                                    id="faq-nine">
+                                    <button type="button"
+                                        class="hs-accordion-toggle hs-accordion-active:!text-primary hs-accordion-active:border dark:border-defaultborder/10-b hs-accordion-active:bg-primary/10   dark:border-defaultborder/10 dark:hs-accordion-active:border dark:border-defaultborder/10-white/10 justify-between inline-flex items-center w-full font-semibold text-start text-[0.85rem] transition py-5 px-4 dark:hs-accordion-active:!text-primary dark:text-gray-200 dark:hover:text-white/80"
+                                        aria-controls="faq-collapse-eleven">
+                                        What are your opening hours?
+                                        <svg class="hs-accordion-active:hidden hs-accordion-active:!text-primary hs-accordion-active:group-hover:!text-primary block w-3 h-3 text-gray-600 group-hover:text-defaulttextcolor dark:text-defaulttextcolor/70 "
+                                            width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1.5 8.85999L14.5 8.85998" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" />
+                                            <path d="M8 15.36L8 2.35999" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" />
+                                        </svg>
+                                        <svg class="hs-accordion-active:block hs-accordion-active:!text-primary hs-accordion-active:group-hover:!text-primary hidden w-3 h-3 text-gray-600 group-hover:text-defaulttextcolor dark:text-defaulttextcolor/70 "
+                                            width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1.5 8.85999L14.5 8.85998" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" />
+                                        </svg>
+                                    </button>
+                                    <div id="faq-collapse-eleven"
+                                        class="hs-accordion-content w-full overflow-hidden hidden transition-[height] duration-300"
+                                        aria-labelledby="faq-nine">
+                                        <div class="p-5">
+                                            <p class="text-defaulttextcolor dark:text-defaulttextcolor/70 ">
+                                                <strong>This is the first item's accordion body.</strong> It is
+                                                shown by
+                                                default, until the collapse plugin adds the appropriate classes that
+                                                we
+                                                use to style each element. These classes control the overall
+                                                appearance,
+                                                as well as the showing and hiding via CSS transitions. You can
+                                                modify
+                                                any of this with custom CSS or overriding our default variables.
+                                                It's
+                                                also worth noting that just about any HTML can go within the
+                                                <code>.accordion-body</code>, though the transition does limit
+                                                overflow.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
 
+                            </div>
                         </div>
-                    </div>
                     </div>
                 </div>
             </div>
