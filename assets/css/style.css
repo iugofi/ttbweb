@@ -42525,8 +42525,13 @@ img.img-fluid.service-icon {
 
 /* neeraj-home-page-css-22-04-2024 */
 
+.e-suppor-faqs {
+    padding: 3em 0em 5em 0em;
+}
+
 .e-suppor-faqs .faq-font {
     font-size: 16px;
+    padding-top:22px;
 }
 
 .e-suppor-faqs .faq-btn a {
