@@ -42855,7 +42855,9 @@ img.img-fluid.service-icon {
     font-size: 22px;
     font-weight: 500;
 }
-
+.e-support-section-three .sct-spacing{
+  padding: 1em 0em;
+}
 .e-support-section-three h2 {
     font-size: 30px;
     font-weight: 600;

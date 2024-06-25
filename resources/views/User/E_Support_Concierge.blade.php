@@ -109,6 +109,7 @@
                     class="img-fluid" width="100%">
                     </div>
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
+                        <div class="sct-spacing"></div>
                         <h3>Software Assistance</h3>
                         <p>Our experts are well-equipped to resolve any software issues you might encounter, ensuring your
                             device runs smoothly and efficiently.</p>
