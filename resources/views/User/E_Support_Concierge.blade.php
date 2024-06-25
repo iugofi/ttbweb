@@ -350,7 +350,8 @@
                         </div>
                     </div>
                     <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-12 col-span-12">
-
+                        <img src="{{ asset('assets/e-support/e-support-tab-2.png') }}" alt=""
+                        class="img-fluid mt-2" width="100%">
                     </div>
                 </div>
             </div>
@@ -360,7 +361,8 @@
             <div class="container">
                 <div class="grid grid-cols-12 gap-6">
                     <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-12 col-span-12">
-
+                        <img src="{{ asset('assets/e-support/e-support-tab-1.png') }}" alt=""
+                        class="img-fluid mt-2" width="100%">
                     </div>
                     <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 md:col-span-12 col-span-12">
                         <h2>Troubleshoot Your Devices With TTB eSupport Concierge</h2>
@@ -553,9 +555,10 @@
                 </div>
                 <div class="grid grid-cols-12 gap-6  pt-5">
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
-                        <img src="{{asset('assets/e-support/e-support-faqs.png') }}" alt=""
-                    class="img-fluid mt-2" width="100%">
-                        <p class="faq-font">TTB eSupport Concierge is a remote technical help provider to users who need help with their
+                        <img src="{{ asset('assets/e-support/e-support-faqs.png') }}" alt=""
+                            class="img-fluid mt-2" width="100%">
+                        <p class="faq-font">TTB eSupport Concierge is a remote technical help provider to users who need
+                            help with their
                             smart devices. We assist users from all over the world.</p>
                         <div class="faq-btn mt-5">
                             <a href="#">Read More</a>

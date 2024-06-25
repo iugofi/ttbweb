@@ -45309,7 +45309,7 @@ h6.uppercase {
 
 .carousel-item {
     min-width: 355px;
-    flex: 0 0 33.111%;
+    flex: 0 0 34%;
     scroll-snap-align: start;
     /* background: #ffffff; */
     border-radius: 8px;
