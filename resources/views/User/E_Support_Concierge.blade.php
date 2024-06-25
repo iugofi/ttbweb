@@ -553,8 +553,8 @@
                 </div>
                 <div class="grid grid-cols-12 gap-6  pt-5">
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
-                        {{-- <img src="{{asset('assets/home-two-img/banner-one-home2.png') }}" alt=""
-                    class="img-fluid" width="100%"> --}}
+                        <img src="{{asset('assets/e-support/e-support-faqs.png') }}" alt=""
+                    class="img-fluid mt-2" width="100%">
                         <p class="faq-font">TTB eSupport Concierge is a remote technical help provider to users who need help with their
                             smart devices. We assist users from all over the world.</p>
                         <div class="faq-btn mt-5">
@@ -737,7 +737,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="hs-accordion bg-white dark:bg-bodybg border dark:border-defaultborder/10 mt-[0.5rem] rounded-sm dark:border dark:border-defaultborder/10-white/10"
+                                {{-- <div class="hs-accordion bg-white dark:bg-bodybg border dark:border-defaultborder/10 mt-[0.5rem] rounded-sm dark:border dark:border-defaultborder/10-white/10"
                                     id="faq-nine">
                                     <button type="button"
                                         class="hs-accordion-toggle hs-accordion-active:!text-primary hs-accordion-active:border dark:border-defaultborder/10-b hs-accordion-active:bg-primary/10   dark:border-defaultborder/10 dark:hs-accordion-active:border dark:border-defaultborder/10-white/10 justify-between inline-flex items-center w-full font-semibold text-start text-[0.85rem] transition py-5 px-4 dark:hs-accordion-active:!text-primary dark:text-gray-200 dark:hover:text-white/80"
@@ -779,7 +779,7 @@
                                             </p>
                                         </div>
                                     </div>
-                                </div>
+                                </div> --}}
 
                             </div>
                         </div>
