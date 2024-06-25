@@ -46480,16 +46480,16 @@ section#about-features {
 .bg-img-section {
     position: relative;
 }
-.colum-one:hover .back-img:hover {
+.colum-one:hover.back-img {
     content: url('/assets/img/Virus-and-Malware-Removal-Green.png');
 }
-.colum-two:hover .back-img:hover {
+.colum-one:hover.back-img {
     content: url('/assets/img/System-Cleanup-Green.png');
 }
-.colum-three:hover .back-img:hover {
+.colum-one:hover.back-img {
     content: url('/assets/img/Security-Recommendations-Green.png');
 }
-.colum-four:hover .back-img:hover {
+.colum-one:hover.back-img {
     content: url('/assets/img/Data-Backup-Green.png');
 }
 
