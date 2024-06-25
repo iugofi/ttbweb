@@ -46484,7 +46484,7 @@ section#about-features {
     position: relative;
 }
 .colum-one:hover .row-span-3 .back-img {
-    content: url('/assets/img/Virus-and-Malware-Removal-Green.png.png');
+    content: url('/assets/img/Virus-and-Malware-Removal-Green.png');
 }
 .colum-two:hover.back-img {
     content: url('/assets/img/System-Cleanup-Green.png');
