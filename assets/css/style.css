@@ -42523,6 +42523,11 @@ img.img-fluid.service-icon {
 /* neeraj-home-page-css-22-04-2024 */
 
 
+.e-support-section-six h3 {
+    font-size: 23px;
+    font-weight: 600;
+    margin-top: 0.8em;
+}
 
 .e-support-section-six .bg-transparent {
     background-color: #F5F6FA;
