@@ -269,7 +269,7 @@
                                     </div>
                                     <div class="flex">
                                         <div class="price-tab">
-                                            $69
+                                            <h4>$69</h4>
                                         </div>
                                         <div class="price-cnt">
                                             <h5>1 Time</h5>
