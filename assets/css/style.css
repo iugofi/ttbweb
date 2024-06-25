@@ -42522,6 +42522,16 @@ img.img-fluid.service-icon {
 
 /* neeraj-home-page-css-22-04-2024 */
 
+.e-suppor-testimonials .text-center {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+
+.e-suppor-testimonials {
+    padding: 4em 0em;
+}
+
 .e-support-section-seven .tab-btn-buy a {
     background-color: #12d2b3;
     color: #fff;
