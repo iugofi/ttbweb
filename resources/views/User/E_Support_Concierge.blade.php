@@ -105,10 +105,10 @@
                 <div class="grid grid-cols-12 gap-6">
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12 anm-box">
                         <h2 class="mb-5">What We Offer?</h2>
-                        <img src="{{asset('assets/e-support/What-We-Offer.png') }}" alt=""
-                    class="img-fluid" width="95%">
-                    <img src="{{asset('assets/e-support/e-support-shield.png') }}" alt=""
-                    class="img-fluid anim-shield">
+                        <img src="{{ asset('assets/e-support/What-We-Offer.png') }}" alt="" class="img-fluid"
+                            width="95%">
+                        <img src="{{ asset('assets/e-support/e-support-shield.png') }}" alt=""
+                            class="img-fluid anim-shield">
                     </div>
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
                         <div class="sct-spacing"></div>
@@ -221,13 +221,12 @@
 
         <section class="e-support-section-six">
             <div class="container">
-                <div class="grid grid-cols-12 gap-6">
+                <div class="grid grid-cols-12 gap-6 pt-5">
                     <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 md:col-span-12 col-span-12">
                         <h2>Easily Setup the Smart Devices</h2>
                         <p class="pt-3">TTB eSupport Concierge will guide you through setting up your <br>hardware and
                             software smoothly.</p>
                         <div class="box">
-
                             <nav class="flex space-x-2 rtl:space-x-reverse" aria-label="Tabs">
                                 <button type="button"
                                     class="hs-tab-active:bg-gray-200 hs-tab-active:text-gray-800 hs-tab-active:hover:text-gray-800 dark:hs-tab-active:bg-light dark:hs-tab-active:text-white py-3 px-4 inline-flex items-center gap-2 bg-transparent text-sm font-medium text-center text-defaulttextcolor rounded-sm hover:text-primary dark:text-[#8c9097] dark:text-white/50 dark:hover:text-white active"
@@ -354,7 +353,7 @@
                     </div>
                     <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-12 col-span-12">
                         <img src="{{ asset('assets/e-support/e-support-tab-1.png') }}" alt=""
-                        class="img-fluid mt-2" width="100%">
+                            class="img-fluid mt-2" width="100%">
                     </div>
                 </div>
             </div>
@@ -365,7 +364,7 @@
                 <div class="grid grid-cols-12 gap-6">
                     <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-12 col-span-12">
                         <img src="{{ asset('assets/e-support/e-support-tab-2.png') }}" alt=""
-                        class="img-fluid mt-2" width="100%">
+                            class="img-fluid mt-2" width="100%">
                     </div>
                     <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 md:col-span-12 col-span-12">
                         <h2>Troubleshoot Your Devices With TTB eSupport Concierge</h2>
@@ -543,7 +542,7 @@
                 <div class="grid grid-cols-12 gap-6">
                     <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 col-span-12">
                         <h2 class="text-center">Testimonials</h2>
-
+ 
                     </div>
                 </div>
             </div>
