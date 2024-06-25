@@ -255,15 +255,15 @@
                                         But with our TTB eSupport Concierge it will be easier than ever.</p>
                                     <div class="flex">
                                         <div class="tab-icon">
-                                            <i class="bi bi-database-slash"></i>
+                                            <i class="bi bi-hdd-stack"></i>
                                             <p>Watch Over Your Family from Anywhere</p>
                                         </div>
                                         <div class="tab-icon">
-                                            <i class="bi bi-database-slash"></i>
+                                            <i class="bi bi-hdd-stack"></i>
                                             <p>Eliminate Common & Complex Issues</p>
                                         </div>
                                         <div class="tab-icon">
-                                            <i class="bi bi-database-slash"></i>
+                                            <i class="bi bi-hdd-stack"></i>
                                             <p>Top-Notch Experience Without Lagging</p>
                                         </div>
 
