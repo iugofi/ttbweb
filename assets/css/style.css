@@ -42851,6 +42851,17 @@ img.img-fluid.service-icon {
     font-size: 16px;
 }
 
+.e-support-section-three .anm-box {
+    position: relative;
+}
+
+.e-support-section-three .anim-shield {
+    position: absolute;
+    top: 157px;
+    left: 145px;
+}
+
+
 .e-support-section-three h3 {
     font-size: 22px;
     font-weight: 500;
