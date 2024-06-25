@@ -267,7 +267,7 @@
                                             <p>Top-Notch Experience Without Lagging</p>
                                         </div>
                                     </div>
-                                    <div class="flex">
+                                    <div class="flex pt-2 pb-2">
                                         <div class="price-tab">
                                             <h4>$69</h4>
                                         </div>

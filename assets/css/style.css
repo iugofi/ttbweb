@@ -42522,6 +42522,26 @@ img.img-fluid.service-icon {
 
 /* neeraj-home-page-css-22-04-2024 */
 
+.e-support-section-six h4 {
+    font-family: "Poppins", sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    color: #12d2b3;
+}
+.e-support-section-six .price-tab {
+    padding-right: 10px;
+}
+
+.e-support-section-six h5 {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+.e-support-section-six .price-cnt {
+    padding-left: 12px;
+    border-left: 1px solid;
+}
+
 .e-support-section-six .tab-icon i {
     font-size: 28px;
     color: #12d2b3;
