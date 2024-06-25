@@ -1,6 +1,6 @@
 @extends('User.Layouts.layout')
 
-@section('title', 'Test')
+@section('title', 'vpnshieldnew')
 @section('Description', '')
 @section('keywords', '')
 @section('canonical', '')
