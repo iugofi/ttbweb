@@ -45336,7 +45336,7 @@ h6.uppercase {
 
 .carousel-btn {
     position: absolute;
-    top: 50% !important;
+    top: 60% !important;
     transform: translateY(-50%);
     background: #12d2b3;
     color: white;
