@@ -5,6 +5,8 @@ use App\Http\Controllers\UserController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\UserauthController;
 use App\Http\Controllers\PaymentController;
+use App\Http\Controllers\ExcelController;
+
 
 
 
@@ -313,6 +315,9 @@ Route::post('stripefpay/checkout',[PaymentController::class,'stripeCheckoutfpay'
 Route::get('/successpay/{vid}',[PaymentController::class,'successpay'])->name('user.successpay');
 Route::get('/cancelpay',[PaymentController::class,'cancelpay'])->name('user.cancelpay');
 Route::get('/success',[PaymentController::class,'success'])->name('user.success');
+
+//excel data
+
 
 
 
