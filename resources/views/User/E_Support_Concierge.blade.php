@@ -363,9 +363,8 @@
 
                     </div>
                     <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 md:col-span-12 col-span-12">
-                        <h2>Easily Setup the Smart Devices</h2>
-                        <p class="pt-3">TTB eSupport Concierge will guide you through setting up your <br>hardware and
-                            software smoothly.</p>
+                        <h2>Troubleshoot Your Devices With TTB eSupport Concierge</h2>
+                        <p class="pt-3">Our experts can help you eliminate various issues within <br>your devices.</p>
                         <div class="box">
 
                             <nav class="flex space-x-2 rtl:space-x-reverse" aria-label="Tabs">
