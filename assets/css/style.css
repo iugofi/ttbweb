@@ -42551,40 +42551,7 @@ img.img-fluid.service-icon {
 .e-suppor-testimonials {
     padding: 4em 0em;
 }
-/* test start */
 
-.e-suppor-testimonials .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
-        .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
-            width: 16px !important;
-            height: 4px !important;
-            border-radius: 5px !important;
-            margin: 0 6px !important;
-        }
-
-        .e-suppor-testimonials  .swiper-pagination {
-            bottom: 2px !important;
-        }
-
-        .e-suppor-testimonials .swiper-wrapper {
-            height: max-content !important;
-            width: max-content !important;
-            padding-bottom: 64px;
-        }
-
-        .e-suppor-testimonials .swiper-pagination-bullet-active {
-            background: #4F46E5 !important;
-        }
-        
-        .e-suppor-testimonials .swiper-slide.swiper-slide-active>.slide_active\:border-indigo-600 {
-            --tw-border-opacity: 1;
-            border-color: rgb(79 70 229 / var(--tw-border-opacity));
-        }
-
-        .e-suppor-testimonials .swiper-slide.swiper-slide-active>.group .slide_active\:text-gray-800 {
-            ---tw-text-opacity: 1;
-            color: rgb(31 41 55 / var(--tw-text-opacity));
-        }
-/* test end */
 .e-support-section-seven .tab-btn-buy a {
     background-color: #12d2b3;
     color: #fff;
