@@ -42568,7 +42568,7 @@ img.img-fluid.service-icon {
 }
 
 .e-support-section-seven .bg-transparent {
-    background-color: #F5F6FA;
+    background-color: #fff;
 }
 .e-support-section-seven [data-hs-tab].active.hs-tab-active\:text-gray-800 {
     --tw-text-opacity: 1;
@@ -42586,6 +42586,7 @@ img.img-fluid.service-icon {
 
 .e-support-section-seven .box{
     padding:3em 0em;
+    background-color: transparent;
 }
 
 .e-support-section-seven h2 {
@@ -42604,7 +42605,7 @@ img.img-fluid.service-icon {
 
 
 
--------------------------------------------------------------------------------------seven end
+
 
 .e-support-section-six .tab-btn-buy a {
     background-color: #12d2b3;
