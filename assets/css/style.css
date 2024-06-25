@@ -46486,13 +46486,13 @@ section#about-features {
 .colum-one:hover .row-span-3 .back-img {
     content: url('/assets/img/Virus-and-Malware-Removal-Green.png');
 }
-.colum-one:hover .row-span-3 .back-img {
+.colum-two:hover .row-span-3 .back-img {
     content: url('/assets/img/Security-Recommendations-Green.png');
 }
-.colum-one:hover .row-span-3 .back-img {
+.colum-three:hover .row-span-3 .back-img {
     content: url('/assets/img/Security-Recommendations-Green.png');
 }
-.colum-one:hover .row-span-3 .back-img {
+.colum-four:hover .row-span-3 .back-img {
     content: url('/assets/img/Data-Backup-Green.png');
 }
 
