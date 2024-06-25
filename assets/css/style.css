@@ -42855,7 +42855,9 @@ img.img-fluid.service-icon {
     font-size: 22px;
     font-weight: 500;
 }
-
+.e-support-section-three .sct-spacing{
+  padding: 2.5em 0em;
+}
 .e-support-section-three h2 {
     font-size: 30px;
     font-weight: 600;
@@ -42875,13 +42877,13 @@ img.img-fluid.service-icon {
 .e-support-section-two .icon-box:hover i {
     color: #fff;
     background-color: #12d2b3;
-    transition: 0.2s;
+    transition: 0.5s;
 }
 
 .e-support-section-two .icon-box:hover .inner-icon i {
     background-color: #12d2b3 !important;
     color: #fff !important;
-    transition: 0.2s !important;
+    transition: 0.5s !important;
 
 }
 
@@ -42933,6 +42935,9 @@ img.img-fluid.service-icon {
     padding: 24px;
     position: relative;
     overflow: hidden;
+    background-image: url(/assets/e-support/e-support-box12.jpg);
+    background-size: cover;
+    object-fit: cover;
 }
 
 .e-support-section-two h2 {
