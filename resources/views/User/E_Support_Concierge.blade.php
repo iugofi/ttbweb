@@ -250,7 +250,7 @@
                                 <div id="pills-on-gray-color-1" role="tabpanel"
                                     aria-labelledby="pills-on-gray-color-item-1">
                                     <h3>Business Network Setup:</h3>
-                                    <p> As a newbie, setting up your home automation devices on your own can be difficult.
+                                    <p class="mt-5"> As a newbie, setting up your home automation devices on your own can be difficult.
                                         But with our TTB eSupport Concierge it will be easier than ever.</p>
                                 </div>
                                 <div id="pills-on-gray-color-2" class="hidden" role="tabpanel"
