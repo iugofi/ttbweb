@@ -756,13 +756,13 @@
                 <button class="carousel-btn right" onclick="scrollCarousel(1)">&#8250;</button>
             </div>
         </section> --}}
-        {{-- <script>
+        <script>
             function scrollCarousel(direction) {
                 const carousel = document.querySelector('.carousel');
                 const scrollAmount = carousel.scrollWidth / carousel.children.length;
                 carousel.scrollLeft += direction * scrollAmount;
             }
-        </script> --}}
+        </script>
 
         {{-- End:: pricing plan slider  --}}
 
