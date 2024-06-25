@@ -42877,13 +42877,13 @@ img.img-fluid.service-icon {
 .e-support-section-two .icon-box:hover i {
     color: #fff;
     background-color: #12d2b3;
-    transition: 0.2s;
+    transition: 0.5s;
 }
 
 .e-support-section-two .icon-box:hover .inner-icon i {
     background-color: #12d2b3 !important;
     color: #fff !important;
-    transition: 0.2s !important;
+    transition: 0.5s !important;
 
 }
 
