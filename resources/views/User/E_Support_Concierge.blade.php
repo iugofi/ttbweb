@@ -276,6 +276,9 @@
                                             <p>Home Network Setup</p>
                                         </div>
                                     </div>
+                                    <div class="tab-btn-buy">
+                                        <a href="#">Buy Now</a>
+                                    </div>
                                 </div>
                                 <div id="pills-on-gray-color-2" class="hidden" role="tabpanel"
                                     aria-labelledby="pills-on-gray-color-item-2">
