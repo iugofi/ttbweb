@@ -42517,10 +42517,25 @@ img.img-fluid.service-icon {
     padding-left: 0px;
     padding-right: 0px;
 }
+.vpnsection {
+    margin-bottom: 3rem !important;
+}
 
 /* end kunal */
 
 /* neeraj-home-page-css-22-04-2024 */
+
+.e-suppor-faqs .faq-font {
+    font-size: 16px;
+}
+
+.e-suppor-faqs .faq-btn a {
+    background-color: #12d2b3;
+    display: inline-block;
+    color: #fff;
+    padding: 9px 25px;
+    border-radius: 5px;
+}
 
 .e-suppor-testimonials .text-center {
     font-size: 32px;

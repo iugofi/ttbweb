@@ -39,7 +39,7 @@
 
                             <div class="content-img-wrap">
                                 <img class="fancy-radius-1 hero-img-width img-custom-width img-fluid gray-light-bg z--1"
-                                    src="{{ asset('assets/img/Banner-Img-4.png') }}" alt="modern desk">
+                                    src="{{ asset('assets/img/Banner-Img-u.png') }}" alt="modern desk">
                                 <div class="position-absolute dot-shape">
                                     <img src="assets/img/dot-shape.png" alt="appdash">
                                 </div>
