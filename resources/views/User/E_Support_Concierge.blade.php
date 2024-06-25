@@ -463,7 +463,7 @@
                                 </div>
                                 <div id="pills-on-gray-color-6" class="hidden" role="tabpanel"
                                     aria-labelledby="pills-on-gray-color-item-6">
-                                    <h3>Smart Device Setup:</h3>
+                                    <h3>Operating System Issues:</h3>
                                     <p class="mt-2"> From your home networks to workplace security devices, we will help
                                         you optimize them for optimal functioning only.</p>
                                     <div class="flex mt-5">
