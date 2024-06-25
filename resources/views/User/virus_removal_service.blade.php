@@ -36,7 +36,7 @@
                                 <h3 class="text-left font-semibold mb-2 text-[2rem]" style="color: #fff;">$69.99 per
                                     incident</h3>
                                 <div class="bnr-btn text-left">
-                                    <a href="index.html" class="m-1 ti-btn ti-btn-primary-full bnr-btn-1"
+                                    <a href="index.html" class="m-1 ti-btn ti-btn-primary-full bnr-btn-1 btn-primary"
                                         style="padding: 8px 34px;">
                                         Help Me Please
                                     </a>
