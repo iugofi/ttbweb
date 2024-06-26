@@ -571,13 +571,13 @@
   <div class="testimonial-container">
     <div class="btn" id="btn-prev"><i class="fa-solid fa-arrow-left"></i></div>
     <div class="btn" id="btn-next"><i class="fa-solid fa-arrow-right"></i></div>
-    <div class="stars">
+    {{-- <div class="stars">
       <i class="fa fa-star"></i>
       <i class="fa fa-star"></i>
       <i class="fa fa-star"></i>
       <i class="fa fa-star"></i>
       <i class="fa fa-star"></i>
-    </div>
+    </div> --}}
     <div class="testimonial">
       <img src="https://randomuser.me/api/portraits/women/46.jpg" alt="user" class="user-image" />
       <p class="testimonial-text">
@@ -617,9 +617,9 @@
   position: relative;
 }
 
-.stars {
+/* .stars {
   font-size: 14px;
-}
+} */
 
 .testimonial {
   display: flex;
