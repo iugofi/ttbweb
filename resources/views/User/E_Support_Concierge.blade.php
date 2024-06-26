@@ -568,8 +568,8 @@
             <div class="container">
                 <div class="grid grid-cols-12 gap-6">
                     <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 col-span-12">
-                        <h2 class="text-center">Testimonials</h2>
                         <div class="testimonial-container">
+                            <h2 class="text-center" style="margin: auto;">Testimonials</h2>
                             <div class="btn" id="btn-prev"><i class="fa-solid fa-arrow-left"></i></div>
                             <div class="btn" id="btn-next"><i class="fa-solid fa-arrow-right"></i></div>
                             {{-- <div class="stars">
