@@ -48809,6 +48809,14 @@ i.fa-regular.fa-pen-to-square {
 .e-support-section-five .ifive-box:hover h3 {
     color: #12D2B3;
 }
+.dark .e-support-section-five .ifive-box .ifive-boxes:hover {
+    background-color: #252729;
+    border: none;
+}
+.dark .e-support-section-five .ifive-box .ifive-boxes {
+    border: 1px solid #12D2B3;
+    border-radius: 8px;
+}
 
 .e-support-section-five .ifive-box .ifive-bottom {
     position: absolute;
