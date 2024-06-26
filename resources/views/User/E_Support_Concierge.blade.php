@@ -614,7 +614,7 @@
                           margin: 20px auto;
                           padding: 50px 80px;
                           width: 1140px;
-                          min-height: 430px;
+                          min-height: 300px;
                           position: relative;
                         }
                         
@@ -663,7 +663,7 @@
                         
                         .progress-dots {
                           display: flex;
-                          gap: 5px;
+                          gap: 8px;
                         }
                         
                         .progress-dot {
