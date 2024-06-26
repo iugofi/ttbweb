@@ -48803,6 +48803,13 @@ i.fa-regular.fa-pen-to-square {
 .ifive-bottom:hover {
     display: none;
 }
+.e-support-section-five .ifive-box:hover i.bi.bi-send-slash {
+    color: #12D2B3;
+}
+.e-support-section-five .ifive-box:hover h3 {
+    color: #12D2B3;
+}
+
 .e-support-section-five .ifive-box .ifive-bottom {
     position: absolute;
     bottom: 0;
