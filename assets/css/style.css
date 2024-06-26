@@ -48879,10 +48879,6 @@ i.fa-regular.fa-pen-to-square {
     position: relative;
 }
 
-/* .stars {
-                          font-size: 14px;
-                        } */
-
 .testimonial {
     display: flex;
     align-items: center;
@@ -48900,7 +48896,21 @@ i.fa-regular.fa-pen-to-square {
     line-height: 28px;
     margin: 0;
 }
-
+.dark .testimonial-container {
+    background-color: #000000;
+}
+.dark .e-suppor-testimonials h2 {
+    color: #fff;
+}
+.dark .e-suppor-testimonials p {
+    color: #b5b1b1;
+}
+.dark .e-suppor-testimonials i.fa-solid.fa-arrow-left {
+    color: #b5b1b1;
+}
+.dark .e-suppor-testimonials i.fa-solid.fa-arrow-right {
+    color: #b5b1b1;
+}
 .user .user-image {
     border-radius: 50%;
     height: 50px;
