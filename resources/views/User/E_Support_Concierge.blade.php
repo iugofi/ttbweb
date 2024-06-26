@@ -196,7 +196,7 @@
                         <h2>Why Choose Us?</h2>
                     </div>
                 </div>
-                <div class="grid grid-cols-12 gap-6 mt-5">
+                {{-- <div class="grid grid-cols-12 gap-6 mt-5">
                     <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-12 ifive-box">
                         <i class="bi bi-send-slash"></i>
                         <h3>Expert Guidance</h3>
@@ -214,6 +214,70 @@
                         <h3>Personalized Solutions</h3>
                         <p>Every tech problem is unique, and we tailor our solutions to your specific needs, ensuring a
                             personalized experience.</p>
+                    </div>
+                </div> --}}
+
+                <style>
+
+                    .e-support-section-five .ifive-box {
+                        position: relative;
+                        transition: background-color 0.3s ease;
+                    }
+                    .e-support-section-five .ifive-box .ifive-boxes {
+                        position: relative;
+                        margin: 10px;
+                        padding: 10px;
+                        overflow: hidden;
+                        z-index: 2;
+                    }
+                    .e-support-section-five .ifive-box .ifive-boxes:hover {
+                        background: #fff;
+                        border-radius: 8px;
+                        box-shadow: 0px 0px 7px 4px #bbbbbbe3;
+                    }
+                    .e-support-section-five .ifive-box .ifive-bottom {
+                        position: absolute;
+                        bottom: 0;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        width: 345px;
+                        height: 100px;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                    }
+                    .e-support-section-five .ifive-box:hover .ifive-bottom {
+                        opacity: 1;
+                        background-position: bottom;
+                        background-image: url(/assets/e-support/icon-bg.png);
+                    }
+                    
+                    
+                    </style>
+
+                <div class="grid grid-cols-12 gap-6 mt-5">
+                    <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-12 ifive-box">
+                        <div class="ifive-boxes">
+                            <i class="bi bi-send-slash"></i>
+                            <h3>Convenient Remote Support</h3>
+                            <p>Enjoy the convenience of resolving tech issues without leaving your home. We provide remote support that's secure and efficient.</p>
+                        </div>
+                        <div class="ifive-bottom"></div>
+                    </div>
+                    <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-12 ifive-box">
+                        <div class="ifive-boxes">
+                            <i class="bi bi-send-slash"></i>
+                            <h3>Convenient Remote Support</h3>
+                            <p>Enjoy the convenience of resolving tech issues without leaving your home. We provide remote support that's secure and efficient.</p>
+                        </div>
+                        <div class="ifive-bottom"></div>
+                    </div>
+                    <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-12 ifive-box">
+                        <div class="ifive-boxes">
+                            <i class="bi bi-send-slash"></i>
+                            <h3>Convenient Remote Support</h3>
+                            <p>Enjoy the convenience of resolving tech issues without leaving your home. We provide remote support that's secure and efficient.</p>
+                        </div>
+                        <div class="ifive-bottom"></div>
                     </div>
                 </div>
             </div>
