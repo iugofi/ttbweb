@@ -695,14 +695,20 @@
   background-color: #eee;
 }
 
-#btn-prev {
-  left: 25px;
+.e-suppor-testimonials #btn-prev {
+    left: 25px;
+    border: none;
 }
-
-#btn-next {
+.e-suppor-testimonials i.fa-solid.fa-arrow-left {
+    font-size: 32px;
+}
+.e-suppor-testimonials #btn-next {
   right: 25px;
+  border: none;
 }
-
+.e-suppor-testimonials i.fa-solid.fa-arrow-right {
+    font-size: 32px;
+}
 
 </style>
 
