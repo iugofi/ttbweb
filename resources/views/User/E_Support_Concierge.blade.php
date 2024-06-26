@@ -581,7 +581,7 @@
                             </div> --}}
                             <div class="testimonial">
                               <img src="https://randomuser.me/api/portraits/women/46.jpg" alt="user" class="user-image" />
-                              <p class="testimonial-text">
+                              <p class="tect-center testimonial-text" style="font-size: 16px; font-weight: 600;">
                                 I've worked with literally hundreds of HTML/CSS developers and I have to
                                 say the top spot goes to this guy. This guy is an amazing developer. He
                                 stresses on good, clean code and pays heed to the details. I love
