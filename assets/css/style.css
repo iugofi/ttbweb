@@ -49534,6 +49534,9 @@ i.fa-regular.fa-pen-to-square {
 
 .e-support-banner {
     padding: 8em 0em 1em 0em;
+    background-image: url(/assets/e-support/banner-esupport.jpg);
+    width: 100%;
+    background-size: cover;
 }
 
 .e-support-banner h2 {
