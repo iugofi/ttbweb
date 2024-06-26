@@ -612,7 +612,7 @@
   border-radius: 15px;
   margin: 20px auto;
   padding: 50px 80px;
-  width: 800px;
+  width: 1140px;
   min-height: 430px;
   position: relative;
 }
