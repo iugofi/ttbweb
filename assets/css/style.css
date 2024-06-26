@@ -48800,6 +48800,9 @@ i.fa-regular.fa-pen-to-square {
     border-radius: 8px;
     box-shadow: 0px 0px 7px 4px #bbbbbbe3;
 }
+.ifive-bottom:hover {
+    display: none;
+}
 .e-support-section-five .ifive-box .ifive-bottom {
     position: absolute;
     bottom: 0;
