@@ -48910,6 +48910,10 @@ i.fa-regular.fa-pen-to-square {
 
 .e-support-section-seven .bg-transparent {
     background-color: #fff;
+    color: #000;
+}
+.e-support-section-seven .bg-transparent:hover {
+    color: #000;
 }
 .e-support-section-seven [data-hs-tab].active.hs-tab-active\:text-gray-800 {
     --tw-text-opacity: 1;
