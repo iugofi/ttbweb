@@ -48832,6 +48832,7 @@ i.fa-regular.fa-pen-to-square {
     opacity: 1;
     background-position: bottom;
     background-image: url(/assets/e-support/icon-bg.png);
+    background-size: contain;
 }
 .dark .e-support-section-five .ifive-box .ifive-boxes p {
     color: #c5c5c5;
