@@ -567,10 +567,243 @@
         <section class="e-suppor-testimonials">
             <div class="container">
                 <div class="grid grid-cols-12 gap-6">
-                    <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 col-span-12">
-                        <h2 class="text-center">Testimonials</h2>
- 
-                    </div>
+                    
+  <div class="testimonial-container">
+    <div class="btn" id="btn-prev"><i class="fa fa-chevron-left"></i></div>
+    <div class="btn" id="btn-next"><i class="fa fa-chevron-right"></i></div>
+    <div class="stars">
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+    </div>
+    <div class="testimonial">
+      <img src="https://randomuser.me/api/portraits/women/46.jpg" alt="user" class="user-image" />
+      <p class="testimonial-text">
+        I've worked with literally hundreds of HTML/CSS developers and I have to
+        say the top spot goes to this guy. This guy is an amazing developer. He
+        stresses on good, clean code and pays heed to the details. I love
+        developers who respect each and every aspect of a thoroughly thought-out
+        design and do their best to put it in code. He goes over and beyond and
+        transforms ART into PIXELS - without a glitch, every time.
+      </p>
+    </div>
+    <div class="user">
+      <div class="user-details">
+        <h4 class="username">Miyah Myles</h4>
+        <p class="role">Marketing</p>
+      </div>
+    </div>
+    <div class="progress-dots" id="progress-dots"></div>
+  </div>
+  
+<style>
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+.testimonial-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2rem;
+  background-color: #fff;
+  color: #333;
+  border-radius: 15px;
+  margin: 20px auto;
+  padding: 50px 80px;
+  width: 800px;
+  min-height: 430px;
+  position: relative;
+}
+
+.stars {
+  font-size: 14px;
+}
+
+.testimonial {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-align: left;
+}
+.testimonial img {
+    border-radius: 6rem;
+    width: 12%;
+    border-right: 2px solid #13D3B3;
+    border-left: 2px solid #13D3B3;
+}
+.testimonial-text {
+  font-weight: 900;
+  line-height: 28px;
+  margin: 0;
+}
+
+.user .user-image {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+}
+
+.user .user-details {
+  text-align: center;
+}
+
+.user .username {
+  margin: 0;
+  font-size: 14px;
+}
+
+.user .role {
+  margin: 0;
+  font-size: 12px;
+}
+
+.progress-dots {
+  display: flex;
+  gap: 5px;
+}
+
+.progress-dot {
+  width: 5px;
+  height: 5px;
+  background-color: #11CDBD;
+  border-radius: 50%;
+}
+
+.progress-dot.active {
+  background-color: #555;
+}
+
+.btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #eee;
+  font-size: 10px;
+  cursor: pointer;
+  transition: 0.1s ease;
+}
+
+.btn:hover {
+  background-color: #eee;
+}
+
+#btn-prev {
+  left: 25px;
+}
+
+#btn-next {
+  right: 25px;
+}
+
+
+</style>
+
+<script>
+
+const testimonialsContainer = document.querySelector(".testimonials-container");
+const testimonialText = document.querySelector(".testimonial-text");
+const userImage = document.querySelector(".user-image");
+const username = document.querySelector(".username");
+const role = document.querySelector(".role");
+const btnPrev = document.getElementById("btn-prev");
+const btnNext = document.getElementById("btn-next");
+const progressDots = document.getElementById("progress-dots");
+
+const testimonials = [
+  {
+    name: "June Cha",
+    position: "Software Engineer",
+    photo: "https://t4.ftcdn.net/jpg/02/44/43/69/240_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg",
+    text: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
+  },
+  {
+    name: "Iida Niskanen",
+    position: "Data Entry",
+    photo: "https://t4.ftcdn.net/jpg/02/44/43/69/240_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg",
+    text: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
+  },
+  {
+    name: "Renee Sims",
+    position: "Receptionist",
+    photo: "https://t4.ftcdn.net/jpg/02/44/43/69/240_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg",
+    text: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
+  },
+  {
+    name: "Sasha Ho",
+    position: "Accountant",
+    photo: "https://t4.ftcdn.net/jpg/02/44/43/69/240_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg",
+    text: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
+  },
+  {
+    name: "Veeti Seppanen",
+    position: "Director",
+    photo: "https://t4.ftcdn.net/jpg/02/44/43/69/240_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg",
+    text: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
+  }
+];
+
+let idx = 0;
+let autoplay;
+
+testimonials.forEach((testimonial) => {
+  const dot = document.createElement("div");
+  dot.classList.add("progress-dot");
+  progressDots.appendChild(dot);
+});
+
+function displayTestimonial() {
+  const { name, position, photo, text } = testimonials[idx];
+
+  testimonialText.innerHTML = text;
+  userImage.src = photo;
+  username.innerHTML = name;
+  role.innerHTML = position;
+
+  updateProgressDots();
+}
+
+function updateProgressDots() {
+  const dots = progressDots.children;
+  [...dots].forEach((dot) => {
+    dot.classList.remove("active");
+  });
+  dots[idx].classList.add("active");
+}
+
+btnNext.addEventListener("click", () => {
+  idx === testimonials.length - 1 ? (idx = 0) : idx++;
+  displayTestimonial();
+  resetAutoplay();
+});
+
+btnPrev.addEventListener("click", () => {
+  idx === 0 ? (idx = testimonials.length - 1) : idx--;
+  displayTestimonial();
+  resetAutoplay();
+});
+
+function resetAutoplay() {
+  clearInterval(autoplay);
+  autoplay = setInterval(() => {
+    idx === testimonials.length - 1 ? (idx = 0) : idx++;
+    displayTestimonial();
+  }, 2000);
+}
+
+displayTestimonial();
+resetAutoplay();
+
+
+
+</script>
                 </div>
             </div>
         </section>
