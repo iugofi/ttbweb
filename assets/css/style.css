@@ -48912,7 +48912,17 @@ img.img-fluid.service-icon {
 .dark .e-suppor-testimonials i.fa-solid.fa-arrow-right {
     color: #b5b1b1;
 }
-.user .user-image {
+.testimonial-container {
+    width: 100%;
+    padding: 5px 20px;
+}
+.e-suppor-testimonials i.fa-solid.fa-arrow-left {
+    display: none;
+}
+.e-suppor-testimonials i.fa-solid.fa-arrow-right {
+    display: none;
+}
+.user .user-image { 
     border-radius: 50%;
     height: 50px;
     width: 50px;
@@ -49157,7 +49167,7 @@ img.img-fluid.service-icon {
     padding: 5em 0em;
 }
 
-@media (max-width: 768px) and (min-width: 430px) {
+@media (max-width: 768px) and (min-width: 425px) {
     .e-support-section-six .flex {
         display: block;
     }
