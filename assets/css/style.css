@@ -48912,16 +48912,6 @@ img.img-fluid.service-icon {
 .dark .e-suppor-testimonials i.fa-solid.fa-arrow-right {
     color: #b5b1b1;
 }
-.testimonial-container {
-    width: 100%;
-    padding: 5px 20px;
-}
-.e-suppor-testimonials i.fa-solid.fa-arrow-left {
-    display: none;
-}
-.e-suppor-testimonials i.fa-solid.fa-arrow-right {
-    display: none;
-}
 .user .user-image { 
     border-radius: 50%;
     height: 50px;
@@ -51803,6 +51793,16 @@ h6.uppercase {
     .row-service {
         display: block !important;
         text-align: center;
+    }
+    .testimonial-container {
+        width: 100%;
+        padding: 5px 20px;
+    }
+    .e-suppor-testimonials i.fa-solid.fa-arrow-left {
+        display: none;
+    }
+    .e-suppor-testimonials i.fa-solid.fa-arrow-right {
+        display: none;
     }
 }
 
