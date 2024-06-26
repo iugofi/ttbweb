@@ -42528,6 +42528,64 @@ img.img-fluid.service-icon {
 
 /* neeraj-home-page-css-22-04-2024 */
 
+neeraj yeh css add kr dena
+.e-support-section-two .icon-box:hover {
+    background-image: url('/assets/e-support/Green-Dot-BG.png');
+}
+i.fa-regular.fa-pen-to-square {
+}
+.dark .e-support-section-two .icon-box {
+    background: #000000 !important;
+}
+.dark .e-support-section-three {
+    background-color: #000;
+}
+.dark .e-support-section-five {
+    background-color: #000;
+}
+.dark .e-support-section-six .box {
+    background-color: #252729;
+}
+.dark .e-support-section-seven {
+    background-color: #000;
+}
+.dark .e-support-section-six .bg-transparent {
+    color: #000;
+}
+.e-support-section-five .ifive-box {
+                        position: relative;
+                        transition: background-color 0.3s ease;
+                    }
+                    .e-support-section-five .ifive-box .ifive-boxes {
+                        position: relative;
+                        margin: 10px;
+                        padding: 10px;
+                        overflow: hidden;
+                        z-index: 2;
+                    }
+                    .e-support-section-five .ifive-box .ifive-boxes:hover {
+                        background: #fff;
+                        border-radius: 8px;
+                        box-shadow: 0px 0px 7px 4px #bbbbbbe3;
+                    }
+                    .e-support-section-five .ifive-box .ifive-bottom {
+                        position: absolute;
+                        bottom: 0;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        width: 345px;
+                        height: 100px;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                    }
+                    .e-support-section-five .ifive-box:hover .ifive-bottom {
+                        opacity: 1;
+                        background-position: bottom;
+                        background-image: url(/assets/e-support/icon-bg.png);
+                    }
+                    
+                    
+
 .e-suppor-faqs {
     padding: 3em 0em 5em 0em;
 }
