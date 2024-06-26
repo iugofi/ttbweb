@@ -649,6 +649,7 @@
                         
                         .user .user-details {
                           text-align: center;
+                          margin: 0 20px auto;
                         }
                         
                         .user .username {
@@ -664,6 +665,7 @@
                         .progress-dots {
                           display: flex;
                           gap: 8px;
+                          margin: 0 20px auto;
                         }
                         
                         .progress-dot {
