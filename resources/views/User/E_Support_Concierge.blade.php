@@ -665,7 +665,7 @@
                         .progress-dots {
                           display: flex;
                           gap: 8px;
-                          margin: 0 20px auto;
+                          margin: 0 24px auto;
                         }
                         
                         .progress-dot {
