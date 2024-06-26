@@ -48833,7 +48833,9 @@ i.fa-regular.fa-pen-to-square {
     background-position: bottom;
     background-image: url(/assets/e-support/icon-bg.png);
 }
-
+.dark .e-support-section-five .ifive-box .ifive-boxes p {
+    color: #c5c5c5;
+}
 .e-suppor-faqs {
     padding: 3em 0em 5em 0em;
 }
