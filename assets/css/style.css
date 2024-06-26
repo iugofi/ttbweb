@@ -49157,6 +49157,11 @@ img.img-fluid.service-icon {
     padding: 5em 0em;
 }
 
+@media (max-width: 768px) and (min-width: 430px) {
+    .e-support-section-six .flex {
+        display: block;
+    }
+}
 .e-support-section-five .ifive-box {
     margin: 10px;
     padding: 10px;
