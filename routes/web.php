@@ -27,7 +27,7 @@ use App\Http\Controllers\ExcelController;
 //     return view('welcome');
 // });
 
-Artisan::call('up');
+Artisan::call('down');
 
 //forget pass
 Route::post('/forget-pass', [UserController::class, 'forgetpass'])->name('user.forgetpass');
@@ -329,7 +329,7 @@ Route::get('/success',[PaymentController::class,'success'])->name('user.success'
 
 
 Route::get('/djj', function () {
-    return "kullu";
+    return "jhgh";
 });
 
 
