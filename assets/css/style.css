@@ -51425,10 +51425,10 @@ h6.uppercase {
     .carousel-item {
         min-width: 345px !important;
     }
-    .carousel-item {
+    /* .carousel-item {
         min-width: calc(100% / 2) !important;
         flex: 0 0 52% !important;
-    }
+    } */
     .slider-m {
         margin: 0 !important;
     }
