@@ -328,7 +328,7 @@ Route::get('/success',[PaymentController::class,'success'])->name('user.success'
 //PAY CHECK
 
 
-Route::get('/dj', function () {
+Route::get('/djj', function () {
     return "kullu";
 });
 
