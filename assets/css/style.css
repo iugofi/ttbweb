@@ -48772,6 +48772,10 @@ img.img-fluid.service-icon {
   color:#13d6af;
 }
 
+.vpn-download-one img{
+    display: inline-block;
+}
+
 /* .e-support-section-two .icon-box:hover {
     background-image: url("/assets/e-support/Green-Dot-BG.png");
 } */
