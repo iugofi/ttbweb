@@ -168,7 +168,7 @@ class PaymentController extends Controller
 
    
 
-     dd($response);
+    //  dd($response);
 
 
     if(isset($response->id) && $response->id !=''){
