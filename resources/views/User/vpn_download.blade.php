@@ -23,14 +23,14 @@
                     </div>
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 col-span-12">
-                            <img src="" alt="">
+                            <img src="{{asset('assets/img/mac.png') }}" alt="" class="img-fluid" width="20%">
                             <div>
                                 <a href="#">Download For Mac</a>
                                 <span> X10.15 or above</span>
                             </div>
                         </div>
                         <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 col-span-12">
-                            <img src="" alt="">
+                            <img src="{{asset('assets/img/ios.png') }}" alt="" class="img-fluid" width="20%">
                             <div>
                                 <a href="#">Download For iOS</a>
                                 <span> X10.15 or above</span>
