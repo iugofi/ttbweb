@@ -48756,10 +48756,25 @@ img.img-fluid.service-icon {
 /* neeraj-home-page-css-22-04-2024 */
 
 
+.vpn-download-two {
+    padding: 5em 0em;
+}
+
+.vpn-download-two h3 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.vpn-download-two p {
+    font-size: 16px;
+}
+
+
 .vpn-download-one {
     background-color: #edf1fc;
     padding: 4em 0em;
 }
+
 .vpn-download-one h2 {
     font-size: 38px;
     font-weight: 600;

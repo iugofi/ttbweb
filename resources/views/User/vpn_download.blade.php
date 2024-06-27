@@ -54,17 +54,17 @@
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4">
                             <h3>About </h3>
-                            <p>It is a long established fact that a reader will be distracted by the readable content of a
+                            <p class="mt-2">It is a long established fact that a reader will be distracted by the readable content of a
                                 page when looking at its layout.</p>
                         </div>
                         <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4">
                             <h3>Feedback </h3>
-                            <p>It is a long established fact that a reader will be distracted by the readable content of a
+                            <p class="mt-2">It is a long established fact that a reader will be distracted by the readable content of a
                                 page when looking at its layout.</p>
                         </div>
                         <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4">
                             <h3>Source </h3>
-                            <p>It is a long established fact that a reader will be distracted by the readable content of a
+                            <p class="mt-2">It is a long established fact that a reader will be distracted by the readable content of a
                                 page when looking at its layout.</p>
                         </div>
                     </div>
