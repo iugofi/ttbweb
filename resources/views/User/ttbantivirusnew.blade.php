@@ -321,7 +321,7 @@
                 background-color: #cccccc;
             }
         </style>
-        <div class="section carousel-container">
+        <div class="carousel-container container main-banner-container mt-5 mb-5 pt-5">
 
             <div class="grid grid-cols-12 text-center">
 
