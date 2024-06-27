@@ -22,14 +22,19 @@
                         </div>
                     </div>
                     <div class="grid grid-cols-12 gap-6">
-                        <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-4">
-
+                        <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 col-span-12">
+                            <img src="" alt="">
+                            <div>
+                                <a href="#">Download For Mac</a>
+                                <span> X10.15 or above</span>
+                            </div>
                         </div>
-                        <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-4">
-
-                        </div>
-                        <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-4">
-
+                        <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 col-span-12">
+                            <img src="" alt="">
+                            <div>
+                                <a href="#">Download For iOS</a>
+                                <span> X10.15 or above</span>
+                            </div>
                         </div>
                     </div>
                 </div>
