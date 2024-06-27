@@ -164,6 +164,10 @@ class UserController extends Controller
     {
         return view('User.resetpassword-basic');
     }
+    public function vpn_download()
+    {
+        return view('User.vpn_download');
+    }
 
     public function contact_aspage()
     {
