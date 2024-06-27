@@ -22,11 +22,10 @@ use Illuminate\Support\Str;
 class UserController extends Controller
 {
 
-    public function resetPassword(Request $request)
+    public function forgetpass(Request $request)
 {
     $validator = Validator::make($request->all(), [
-        'token' => 'required',
-        'password' => 'required|min:8|confirmed'
+        'email' => 'required|max:50|email'
     ]);
 
     if ($validator->fails()) {
@@ -35,29 +34,71 @@ class UserController extends Controller
             'messages' => $validator->getMessageBag()->toArray()
         ]);
     } else {
-        $user = Users::where('reset_tokens', $request->token)
-            ->where('reset_token_expires_at', '>', now())
-            ->first();
+        $user = User::where('email', $request->email)->first();
 
         if ($user) {
-            $user->password = bcrypt($request->password);
-            $user->reset_tokens = null;
-            $user->reset_token_expires_at = null;
+            $resetToken = Str::random(60);
+            $user->reset_tokens = $resetToken;
+            $user->reset_token_created_at = Carbon::now();
             $user->save();
+
+            Mail::send('Mail.resetpass', ['reset_id' => $resetToken], function ($message) use ($request) {
+                $message->to($request->email)->subject('TTB Internet Security Password Reset');
+            });
 
             return response()->json([
                 'status' => 200,
-                'messages' => 'Password Reset Successfully'
+                'messages' => 'Reset Mail Sent Successfully'
             ]);
         } else {
             return response()->json([
                 'status' => 401,
-                'messages' => 'Invalid or Expired Token!'
+                'messages' => 'User Not Found!'
             ]);
         }
     }
 }
 
+public function validateResetToken(Request $request)
+{
+    $validator = Validator::make($request->all(), [
+        'email' => 'required|max:50|email',
+        'token' => 'required'
+    ]);
+
+    if ($validator->fails()) {
+        return response()->json([
+            'status' => 400,
+            'messages' => $validator->getMessageBag()->toArray()
+        ]);
+    } else {
+        $user = User::where('email', $request->email)
+                     ->where('reset_tokens', $request->token)
+                     ->first();
+
+        if ($user) {
+            $tokenCreatedAt = Carbon::parse($user->reset_token_created_at);
+            if (Carbon::now()->diffInSeconds($tokenCreatedAt) <= 60) {
+                // Token is valid
+                return response()->json([
+                    'status' => 200,
+                    'messages' => 'Token is valid'
+                ]);
+            } else {
+                // Token expired
+                return response()->json([
+                    'status' => 400,
+                    'messages' => 'Token has expired'
+                ]);
+            }
+        } else {
+            return response()->json([
+                'status' => 401,
+                'messages' => 'Invalid token or email'
+            ]);
+        }
+    }
+}
 
     public function resetpass($reset_id)
     {    
