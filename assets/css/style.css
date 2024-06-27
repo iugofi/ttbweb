@@ -51491,6 +51491,9 @@ h6.uppercase {
     .sec-saven-top {
         margin-top: 4rem;
     }
+    .testimonial-container {
+        width: 725px;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
