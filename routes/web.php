@@ -46,6 +46,8 @@ Route::get('/homenew', [UserController::class, 'homenew'])->name('user.homenew')
 //malware detection page
 Route::get('/malware_detection', [UserController::class, 'malware_detection'])->name('user.malware_detection');
 
+//test
+Route::get('/testpagenew', [UserController::class, 'testpagenew'])->name('user.testpagenew');
 
 
 //blog page
@@ -328,9 +330,7 @@ Route::get('/success',[PaymentController::class,'success'])->name('user.success'
 //PAY CHECK
 
 
-Route::get('/djj', function () {
-    return "jhgh";
-});
+
 
 
 
