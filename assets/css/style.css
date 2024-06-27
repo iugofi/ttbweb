@@ -48813,6 +48813,10 @@ img.img-fluid.service-icon {
     padding: 2.2em 0em 0.5em 0em;
 }
 
+.vpn-download-one .btn-down a:hover {
+    background-color: #12d2b3;
+    color: #fff;
+}
 .vpn-download-one .pt-top{
     padding: 5.5em 0em;
 }
