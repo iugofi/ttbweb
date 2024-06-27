@@ -174,6 +174,10 @@ public function resetpass($reset_id)
     {
         return view('User.resetpassword-basic');
     }
+    public function antivirus_download()
+    {
+        return view('User.antivirus_download');
+    }
     public function vpn_download()
     {
         return view('User.vpn_download');
