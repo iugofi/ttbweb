@@ -116,7 +116,7 @@
                                 </div>
                             </form>
                             <div id="timer" class="text-center mb-4 text-[#8c9097] dark:text-white/50 opacity-[0.7] font-normal">
-                                Time remaining: <span id="countdown">30</span> seconds
+                                Time remaining: <span id="countdown">180</span> seconds
                             </div>
                            
                         </div>
