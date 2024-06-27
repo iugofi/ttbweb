@@ -264,6 +264,14 @@ class PaymentController extends Controller
         return view('User.success');
     }
 
-      
+    
+
+    public function testpagenew($session_id)
+    {
+        // dd("kk");
+        $stripe = new \Stripe\StripeClient(config('stripe.stripe_sk'));
+        $response=$stripe->checkout->sessions->retrieve($session_id);
+        dd($response->status);
+    }
    
 }

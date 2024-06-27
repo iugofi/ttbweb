@@ -185,135 +185,116 @@ Route::get('/logoutadmin', [UserController::class, 'logoutadmin'])->name('admin.
 //mail testing
 Route::get('/mailtest', [UserController::class, 'mailtest'])->name('admin.mailtest');
 
-Route::prefix('setup')->group(function () {
+      Route::prefix('setup')->group(function () {
 
-// Admin Profile
-Route::get('/adminprofile', [AdminController::class, 'adminprofile'])->name('admin.profile');
+         // Admin Profile
+         Route::get('/adminprofile', [AdminController::class, 'adminprofile'])->name('admin.profile');
+         //Admin Controller
+         Route::get('/pageadmin', [AdminController::class, 'indexpage'])->name('admin.indexp');
+         Route::get('/newslist', [AdminController::class, 'newslist'])->name('admin.newslist');
+         //news comment all
+         Route::get('/newscommentlist', [AdminController::class, 'newscommentlist'])->name('admin.newscommentlist');
+         Route::delete('/newscommentdelete/{id}', [AdminController::class, 'newscommentdelete'])->name('delete.newscommentdelete');
+         Route::get('/newscommentedit/{id}', [AdminController::class, 'newscommentedit'])->name('edit.newscommentedit');
+         Route::post('/editcommentnews', [AdminController::class, 'editcommentnews'])->name('edit.editcommentnews');
 
+         //blog comment all
+         Route::get('/blogcommentlist', [AdminController::class, 'blogcommentlist'])->name('admin.blogcommentlist');
+         Route::delete('/blogcommentdelete/{id}', [AdminController::class, 'blogcommentdelete'])->name('delete.blogcommentdelete');
+         Route::get('/blogcommentedit/{id}', [AdminController::class, 'blogcommentedit'])->name('edit.blogcommentedit');
+         Route::post('/editcommentblog', [AdminController::class, 'editcommentblog'])->name('edit.editcommentblog');
+         //admin news
+         Route::get('/newscreate', [AdminController::class, 'newscreate'])->name('admin.newscreate');
+         Route::get('/newslistshow', [AdminController::class, 'newslistshow'])->name('admin.newslistshow');
+         // Route::get('/newsedit/{id}', [AdminController::class, 'newsedit'])->name('edit.newsedit');
+         Route::delete('/newsdelete/{id}', [AdminController::class, 'newsdelete'])->name('delete.newsdelete');
+         Route::post('/savenews', [AdminController::class, 'savenews'])->name('save.news');
+         Route::post('/editnews', [AdminController::class, 'editnews'])->name('edit.news');
+         Route::get('/facthnews', [AdminController::class, 'facthnews'])->name('fatch.news');
 
-//Admin Controller
-Route::get('/pageadmin', [AdminController::class, 'indexpage'])->name('admin.indexp');
-Route::get('/newslist', [AdminController::class, 'newslist'])->name('admin.newslist');
+         //admin blog
+         Route::get('/bloglistshow', [AdminController::class, 'bloglistshow'])->name('admin.bloglistshow');
+         Route::delete('/blogsdelete/{id}', [AdminController::class, 'blogsdelete'])->name('delete.blogsdelete');
+         Route::get('/blogscreate', [AdminController::class, 'blogscreate'])->name('admin.blogscreate');
+         Route::get('/facthblog', [AdminController::class, 'facthblog'])->name('fatch.blog');
+         Route::post('/saveblog', [AdminController::class, 'saveblog'])->name('save.blog');
+         Route::get('/blogedit/{id}', [AdminController::class, 'blogedit'])->name('edit.blogedit');
+         Route::post('/editblog', [AdminController::class, 'editblog'])->name('edit.blog');
 
-//news comment all
-Route::get('/newscommentlist', [AdminController::class, 'newscommentlist'])->name('admin.newscommentlist');
-Route::delete('/newscommentdelete/{id}', [AdminController::class, 'newscommentdelete'])->name('delete.newscommentdelete');
-Route::get('/newscommentedit/{id}', [AdminController::class, 'newscommentedit'])->name('edit.newscommentedit');
-Route::post('/editcommentnews', [AdminController::class, 'editcommentnews'])->name('edit.editcommentnews');
-
-//blog comment all
-Route::get('/blogcommentlist', [AdminController::class, 'blogcommentlist'])->name('admin.blogcommentlist');
-Route::delete('/blogcommentdelete/{id}', [AdminController::class, 'blogcommentdelete'])->name('delete.blogcommentdelete');
-Route::get('/blogcommentedit/{id}', [AdminController::class, 'blogcommentedit'])->name('edit.blogcommentedit');
-Route::post('/editcommentblog', [AdminController::class, 'editcommentblog'])->name('edit.editcommentblog');
-
-
-
-
-//admin news
-Route::get('/newscreate', [AdminController::class, 'newscreate'])->name('admin.newscreate');
-Route::get('/newslistshow', [AdminController::class, 'newslistshow'])->name('admin.newslistshow');
-// Route::get('/newsedit/{id}', [AdminController::class, 'newsedit'])->name('edit.newsedit');
-Route::delete('/newsdelete/{id}', [AdminController::class, 'newsdelete'])->name('delete.newsdelete');
-Route::post('/savenews', [AdminController::class, 'savenews'])->name('save.news');
-Route::post('/editnews', [AdminController::class, 'editnews'])->name('edit.news');
-Route::get('/facthnews', [AdminController::class, 'facthnews'])->name('fatch.news');
-
-//admin blog
-Route::get('/bloglistshow', [AdminController::class, 'bloglistshow'])->name('admin.bloglistshow');
-Route::delete('/blogsdelete/{id}', [AdminController::class, 'blogsdelete'])->name('delete.blogsdelete');
-Route::get('/blogscreate', [AdminController::class, 'blogscreate'])->name('admin.blogscreate');
-Route::get('/facthblog', [AdminController::class, 'facthblog'])->name('fatch.blog');
-Route::post('/saveblog', [AdminController::class, 'saveblog'])->name('save.blog');
-Route::get('/blogedit/{id}', [AdminController::class, 'blogedit'])->name('edit.blogedit');
-Route::post('/editblog', [AdminController::class, 'editblog'])->name('edit.blog');
-
-//storepick
-Route::get('/storepickpage', [AdminController::class, 'storepickpage'])->name('admin.storepickpage');
-Route::get('/storepickedit/{id}', [AdminController::class, 'storepickedit'])->name('edit.storepickedit');
+         //storepick
+         Route::get('/storepickpage', [AdminController::class, 'storepickpage'])->name('admin.storepickpage');
+         Route::get('/storepickedit/{id}', [AdminController::class, 'storepickedit'])->name('edit.storepickedit');
 
 
-Route::get('/newsedit/{id}', [AdminController::class, 'newsedit'])->name('edit.newsedit');
-Route::post('/editstorepicksave', [AdminController::class, 'editstorepicksave'])->name('edit.editstorepicksave');
+         Route::get('/newsedit/{id}', [AdminController::class, 'newsedit'])->name('edit.newsedit');
+         Route::post('/editstorepicksave', [AdminController::class, 'editstorepicksave'])->name('edit.editstorepicksave');
 
-Route::delete('/storepickdelete/{id}', [AdminController::class, 'storepickdelete'])->name('delete.storepickdelete');
-Route::get('/storepickadd', [AdminController::class, 'storepickadd'])->name('admin.storepickadd');
-Route::post('/savestorepick', [AdminController::class, 'savestorepick'])->name('save.storepick');
+         Route::delete('/storepickdelete/{id}', [AdminController::class, 'storepickdelete'])->name('delete.storepickdelete');
+         Route::get('/storepickadd', [AdminController::class, 'storepickadd'])->name('admin.storepickadd');
+         Route::post('/savestorepick', [AdminController::class, 'savestorepick'])->name('save.storepick');
 
-Route::get('/fatchstorepick', [AdminController::class, 'fatchstorepick'])->name('fetch.storepick');
+         Route::get('/fatchstorepick', [AdminController::class, 'fatchstorepick'])->name('fetch.storepick');
 
-//user admin section
-Route::get('/useradminpage', [AdminController::class, 'useradminpage'])->name('admin.useradminpage');
-Route::get('/adminuseredit/{id}', [AdminController::class, 'adminuseredit'])->name('edit.adminuseredit');
-Route::post('/editadminusersave', [AdminController::class, 'editadminusersave'])->name('edit.editadminusersave');
+         //user admin section
+         Route::get('/useradminpage', [AdminController::class, 'useradminpage'])->name('admin.useradminpage');
+         Route::get('/adminuseredit/{id}', [AdminController::class, 'adminuseredit'])->name('edit.adminuseredit');
+         Route::post('/editadminusersave', [AdminController::class, 'editadminusersave'])->name('edit.editadminusersave');
 
 
 
-Route::get('/useradmincreate', [AdminController::class, 'useradmincreate'])->name('admin.useradmincreate');
-Route::post('/saveuseradmin', [AdminController::class, 'saveuseradmin'])->name('save.saveuseradmin');
-Route::get('/facthadmin', [AdminController::class, 'facthadmin'])->name('fatch.facthadmin');
-Route::get('/fatchadmindataajax', [AdminController::class, 'fatchadmindataajax'])->name('fetch.fatchadmindataajax');
+         Route::get('/useradmincreate', [AdminController::class, 'useradmincreate'])->name('admin.useradmincreate');
+         Route::post('/saveuseradmin', [AdminController::class, 'saveuseradmin'])->name('save.saveuseradmin');
+         Route::get('/facthadmin', [AdminController::class, 'facthadmin'])->name('fatch.facthadmin');
+         Route::get('/fatchadmindataajax', [AdminController::class, 'fatchadmindataajax'])->name('fetch.fatchadmindataajax');
 
-//plan 
-Route::get('/planshow', [AdminController::class, 'planlistshow'])->name('plan.listshow');
-Route::get('/plancreate', [AdminController::class, 'plancreate'])->name('plan.plancreate');
-Route::get('/facthplan', [AdminController::class, 'facthplan'])->name('fatch.facthplan');
-Route::post('/saveplan', [AdminController::class, 'saveplan'])->name('save.saveplan');
-Route::delete('/plandelete/{id}', [AdminController::class, 'plandelete'])->name('delete.plandelete');
-Route::get('/planedit/{id}', [AdminController::class, 'planedit'])->name('edit.planedit');
-Route::post('/editplansave', [AdminController::class, 'editplansave'])->name('edit.editplansave');
-
-
-//plan details
-Route::get('/plandetailsshow', [AdminController::class, 'plandetailsshow'])->name('plan.detailsshow');
-Route::get('/plandetailscreate', [AdminController::class, 'plandetailscreate'])->name('plan.plandetailscreate');
-Route::post('/saveplandetails', [AdminController::class, 'saveplandetails'])->name('save.saveplandetails');
-Route::get('/editplandetails/{id}', [AdminController::class, 'editplandetails'])->name('edit.plandetailsedit');
-Route::post('/editplandetailssave', [AdminController::class, 'editplandetailssave'])->name('edit.editplandetailssave');
-Route::post('/editplansearch', [AdminController::class, 'editplansearch'])->name('search.editplansearch');
-Route::delete('/plandetailsdelete/{id}', [AdminController::class, 'plandetailsdelete'])->name('delete.plandetailsdelete');
+         //plan 
+         Route::get('/planshow', [AdminController::class, 'planlistshow'])->name('plan.listshow');
+         Route::get('/plancreate', [AdminController::class, 'plancreate'])->name('plan.plancreate');
+         Route::get('/facthplan', [AdminController::class, 'facthplan'])->name('fatch.facthplan');
+         Route::post('/saveplan', [AdminController::class, 'saveplan'])->name('save.saveplan');
+         Route::delete('/plandelete/{id}', [AdminController::class, 'plandelete'])->name('delete.plandelete');
+         Route::get('/planedit/{id}', [AdminController::class, 'planedit'])->name('edit.planedit');
+         Route::post('/editplansave', [AdminController::class, 'editplansave'])->name('edit.editplansave');
 
 
-//vpn shield Payment 
-Route::get('/vpnpayshow', [AdminController::class, 'vpnpayshow'])->name('pay.vpnpayshow');
-Route::get('/payedit/{id}', [AdminController::class, 'payedit'])->name('edit.payedit');
-Route::delete('/vpnpaydelete/{id}', [AdminController::class, 'vpnpaydelete'])->name('delete.vpnpaydelete');
-
-//all payment list
-Route::get('/allpaymentshow', [AdminController::class, 'allpaymentshow'])->name('pay.allpaymentshow');
-
-//antivirus payment 
-Route::get('/antiviruspayshow', [AdminController::class, 'antiviruspayshow'])->name('pay.antiviruspayshow');
+         //plan details
+         Route::get('/plandetailsshow', [AdminController::class, 'plandetailsshow'])->name('plan.detailsshow');
+         Route::get('/plandetailscreate', [AdminController::class, 'plandetailscreate'])->name('plan.plandetailscreate');
+         Route::post('/saveplandetails', [AdminController::class, 'saveplandetails'])->name('save.saveplandetails');
+         Route::get('/editplandetails/{id}', [AdminController::class, 'editplandetails'])->name('edit.plandetailsedit');
+         Route::post('/editplandetailssave', [AdminController::class, 'editplandetailssave'])->name('edit.editplandetailssave');
+         Route::post('/editplansearch', [AdminController::class, 'editplansearch'])->name('search.editplansearch');
+         Route::delete('/plandetailsdelete/{id}', [AdminController::class, 'plandetailsdelete'])->name('delete.plandetailsdelete');
 
 
+         //vpn shield Payment 
+         Route::get('/vpnpayshow', [AdminController::class, 'vpnpayshow'])->name('pay.vpnpayshow');
+         Route::get('/payedit/{id}', [AdminController::class, 'payedit'])->name('edit.payedit');
+         Route::delete('/vpnpaydelete/{id}', [AdminController::class, 'vpnpaydelete'])->name('delete.vpnpaydelete');
+
+         //all payment list
+         Route::get('/allpaymentshow', [AdminController::class, 'allpaymentshow'])->name('pay.allpaymentshow');
+
+         //antivirus payment 
+         Route::get('/antiviruspayshow', [AdminController::class, 'antiviruspayshow'])->name('pay.antiviruspayshow');
+
+         Route::get('/customersshow', [AdminController::class, 'customershow'])->name('customer.show');
+         Route::get('/customersredit/{id}', [AdminController::class, 'customersedit'])->name('customers.edit');
+         Route::post('/editcustomerssave', [AdminController::class, 'editcustomerssave'])->name('edit.customerssave');
+         Route::delete('/customerdelete/{id}', [AdminController::class, 'customerdelete'])->name('delete.customerdelete');
 
 
+         //key 
+         Route::get('/keyshow', [AdminController::class, 'keyshow'])->name('key.show');
+         Route::get('/keyadd', [AdminController::class, 'keyadd'])->name('key.add');
+         Route::get('/editkey/{id}', [AdminController::class, 'editkey'])->name('edit.keyedit');
+         Route::post('/editkeysave', [AdminController::class, 'editkeysave'])->name('edit.editkeysave');
+         Route::post('/editkeysearch', [AdminController::class, 'editkeysearch'])->name('search.editkeysearch');
 
-//
-Route::get('/customersshow', [AdminController::class, 'customershow'])->name('customer.show');
-Route::get('/customersredit/{id}', [AdminController::class, 'customersedit'])->name('customers.edit');
-Route::post('/editcustomerssave', [AdminController::class, 'editcustomerssave'])->name('edit.customerssave');
-Route::delete('/customerdelete/{id}', [AdminController::class, 'customerdelete'])->name('delete.customerdelete');
+         Route::post('/savekey', [AdminController::class, 'savekey'])->name('save.savekey');
+         Route::delete('/keydelete/{id}', [AdminController::class, 'keydelete'])->name('delete.keydelete');
 
-
-//key 
-Route::get('/keyshow', [AdminController::class, 'keyshow'])->name('key.show');
-Route::get('/keyadd', [AdminController::class, 'keyadd'])->name('key.add');
-Route::get('/editkey/{id}', [AdminController::class, 'editkey'])->name('edit.keyedit');
-Route::post('/editkeysave', [AdminController::class, 'editkeysave'])->name('edit.editkeysave');
-Route::post('/editkeysearch', [AdminController::class, 'editkeysearch'])->name('search.editkeysearch');
-
-
-
-
-
-
-Route::post('/savekey', [AdminController::class, 'savekey'])->name('save.savekey');
-Route::delete('/keydelete/{id}', [AdminController::class, 'keydelete'])->name('delete.keydelete');
-
-
-
-});
+         });
 
 //payment page all
 Route::get('/fpay/{id}',[PaymentController::class,'fpayitem'])->name('user.fpay');
@@ -325,7 +306,7 @@ Route::get('/cancelpay',[PaymentController::class,'cancelpay'])->name('user.canc
 Route::get('/success',[PaymentController::class,'success'])->name('user.success');
 
 
-Route::get('/testpagenew', [UserController::class, 'testpagenew'])->name('user.testpagenew');
+Route::get('/testpagenew/{session_id}', [PaymentController::class, 'testpagenew'])->name('user.testpagenew');
 
 
 
