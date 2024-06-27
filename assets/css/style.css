@@ -49579,6 +49579,24 @@ img.img-fluid.service-icon {
     padding-top: 1.8em;
 }
 
+@media (max-width: 768px) and (min-width: 425px) {
+    .e-support-banner h2{
+        padding:0px;
+    }
+    .e-support-banner{
+        padding:0px;
+    }
+}
+
+@media (max-width: 425px) {
+    .e-support-banner h2{
+        padding:0px;
+    }
+    .e-support-banner{
+        padding:0px;
+    }
+}
+
 .e-support-banner h3 {
     font-size: 23px;
     font-weight: 600;
