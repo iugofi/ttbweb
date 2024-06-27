@@ -48755,6 +48755,23 @@ img.img-fluid.service-icon {
 
 /* neeraj-home-page-css-22-04-2024 */
 
+
+.vpn-download-one {
+    background-color: #edf1fc;
+    padding: 4em 0em;
+}
+.vpn-download-one h2 {
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.vpn-download-one p{
+  font-size: 16px; 
+}
+.vpn-download-one span{
+  color:#13d6af;
+}
+
 /* .e-support-section-two .icon-box:hover {
     background-image: url("/assets/e-support/Green-Dot-BG.png");
 } */
@@ -51400,9 +51417,9 @@ h6.uppercase {
     .img-round img {
         position: absolute;
         bottom: 0rem !important;
-        left: 9rem !important;
+        left: 11rem !important;
         animation: rotate 30s linear infinite;
-        width: 100% !important;
+        width: 75% !important;
     }
 
     /* .carousel-item {
