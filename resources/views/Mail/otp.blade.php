@@ -399,7 +399,9 @@
         .moz-text-html .t9 {
             width: 500px !important
         }
-
+        .sc-jlZhew {
+            margin-bottom: 73px;
+        }
         .moz-text-html .t6 {
             padding-bottom: 25px !important;
             width: 500px !important
