@@ -271,7 +271,7 @@ class PaymentController extends Controller
         // dd("kk");
         $stripe = new \Stripe\StripeClient(config('stripe.stripe_sk'));
         $response=$stripe->checkout->sessions->retrieve($session_id);
-        dd($response->status);
+        dd($response);
     }
    
 }
