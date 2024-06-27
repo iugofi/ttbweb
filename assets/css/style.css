@@ -49083,6 +49083,9 @@ img.img-fluid.service-icon {
     .e-support-section-seven .flex {
         display: block;
     }
+    .e-support-section-seven{
+        padding: 5em 1em;
+    }
 }
 
 .e-support-section-six .tab-btn-buy a {
@@ -49171,6 +49174,9 @@ img.img-fluid.service-icon {
 @media (max-width: 768px) and (min-width: 425px) {
     .e-support-section-six .flex {
         display: block;
+    }
+    .e-support-section-six{
+        padding:5em 1em;
     }
 }
 .e-support-section-five .ifive-box {
@@ -49576,7 +49582,6 @@ img.img-fluid.service-icon {
 .e-support-banner h2 {
     font-size: 41px;
     font-weight: 600;
-    padding-top: 1.8em;
 }
 
 @media (max-width: 768px) and (min-width: 425px) {
