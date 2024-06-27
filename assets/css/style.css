@@ -48769,6 +48769,9 @@ img.img-fluid.service-icon {
     font-size: 16px;
 }
 
+.vpn-download-two .cnt-download{
+   padding:22px;
+}
 
 .vpn-download-one {
     background-color: #edf1fc;
