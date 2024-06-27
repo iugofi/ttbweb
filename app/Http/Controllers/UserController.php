@@ -155,8 +155,8 @@ class UserController extends Controller
         ->where('storepick.STORE_ID','=','key_type')
         ->where('storepick.PICK_ID','=',502)
         ->get();
-        $queryLog = DB::getQueryLog();
-        dd($queryLog);
+        // $queryLog = DB::getQueryLog();
+        // dd($queryLog);
         return view('User.ttbantivirusnew', ['plandetails' => $plandetails]);
     }
     
