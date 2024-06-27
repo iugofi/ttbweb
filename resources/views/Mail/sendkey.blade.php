@@ -7,5 +7,6 @@
 </head>
 <body>
     <h1>Your Vpn Key: {{ $main_key }}</h1>
+    <p>payment_intent: {{ $payment_intent }}</p>
 </body>
 </html>
