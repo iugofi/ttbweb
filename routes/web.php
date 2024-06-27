@@ -328,7 +328,8 @@ Route::get('/success',[PaymentController::class,'success'])->name('user.success'
 //PAY CHECK
 
 
-Route::get('/checkdata',[PaymentController::class,'checkkpayall'])->name('user.checkkpayall');
+
+Route::get('/dataget',[PaymentController::class,'dataget'])->name('user.dataget');
 
 
 

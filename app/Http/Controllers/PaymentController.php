@@ -264,7 +264,7 @@ class PaymentController extends Controller
         return view('User.success');
     }
 
-    public function checkkpayall()
+    public function dataget()
     {
         dd("kk");
         // $stripe = new \Stripe\StripeClient(config('stripe.stripe_sk'));
