@@ -549,7 +549,7 @@ public function signdata(Request $request)
             } else {
                 return response()->json([
                     'status' => 401,
-                    'messages' => 'Account Not Activated, Please Check Your Registered Email To Activate Account.'
+                    'messages' => 'Account Not Activated, Please Check Your Registered Email To Activate Account Or Forget Password.'
                 ]);
             }
         } else {
