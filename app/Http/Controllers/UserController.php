@@ -720,9 +720,6 @@ public function signdata(Request $request)
         return view('User.kullu');
     }
 
-    public function testpagenew()
-    {
-        return view('User.testpagenew');
-    }
+   
 
     }

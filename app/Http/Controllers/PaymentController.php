@@ -264,6 +264,11 @@ class PaymentController extends Controller
         return view('User.success');
     }
 
+    public function testpagenew()
+    {
+        return view('User.testpagenew');
+    }
+
     public function dataget()
     {
         dd("kk");
