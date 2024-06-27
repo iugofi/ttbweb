@@ -133,7 +133,7 @@
 <script>
     // Countdown function
     function countdown() {
-        var seconds = 30; // Set the initial time
+        var seconds = 180; // Set the initial time
         var timer = setInterval(function() {
             seconds--;
             document.getElementById('countdown').textContent = seconds; 
