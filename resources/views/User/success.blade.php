@@ -1,2 +1,2 @@
 <h1>done</h1>
-<a href="{{route('user.ttbantivirus')}}"></a>
+<a href="{{route('user.ttbantivirusnew')}}"></a>
