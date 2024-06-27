@@ -321,7 +321,7 @@
                 background-color: #cccccc;
             }
         </style>
-        <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] carousel-container">
+        <div class="section carousel-container">
 
             <div class="grid grid-cols-12 text-center">
 
