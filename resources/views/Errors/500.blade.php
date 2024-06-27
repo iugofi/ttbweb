@@ -19,7 +19,7 @@
 		<title> Ynex - PHP Tailwind CSS Admin & Dashboard Template </title>
 
         <!-- FAVICON -->
-        <link rel="icon" href="https://php.spruko.com/tailwind/ynex/ynex/assets/images/brand-logos/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="{{ asset('assets/images/brand-logos/favicon.png') }}" type="image/x-icon">
 
         <!-- ICONS CSS -->
         <link href="assets/css/icons.css" rel="stylesheet">
