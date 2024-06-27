@@ -66,7 +66,7 @@ public function resetpass($reset_id)
     if ($user) {
         $tokenCreationTime = Carbon::parse($user->token_created_at);
         $currentTime = Carbon::now();
-        $tokenExpiryTime = $tokenCreationTime->addSeconds(30);
+        $tokenExpiryTime = $tokenCreationTime->addSeconds(180);
 
         if ($currentTime->lessThan($tokenExpiryTime)) {
             return view('User.passwordreset', ['reset_id' => $reset_id]);
