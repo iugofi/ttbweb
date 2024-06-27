@@ -22,42 +22,42 @@ use Illuminate\Support\Str;
 class UserController extends Controller
 {
 
-    public function forgetpass(Request $request)
-    {
-        $validator = Validator::make($request->all(), [
-            'email' => 'required|max:50'
+    public function resetPassword(Request $request)
+{
+    $validator = Validator::make($request->all(), [
+        'token' => 'required',
+        'password' => 'required|min:8|confirmed'
+    ]);
+
+    if ($validator->fails()) {
+        return response()->json([
+            'status' => 400,
+            'messages' => $validator->getMessageBag()->toArray()
         ]);
-    
-        if ($validator->fails()) {
-            return response()->json([
-                'status' => 400,
-                'messages' => $validator->getMessageBag()->toArray()
-            ]);
-        } else {
-            $user = Users::where('email', $request->email)->first();
+    } else {
+        $user = Users::where('reset_tokens', $request->token)
+            ->where('reset_token_expires_at', '>', now())
+            ->first();
 
-            if ($user) {
-
-            $resetToken = Str::random(60);
-            $user->reset_tokens = $resetToken;
+        if ($user) {
+            $user->password = bcrypt($request->password);
+            $user->reset_tokens = null;
+            $user->reset_token_expires_at = null;
             $user->save();
 
-                Mail::send('Mail.resetpass', ['reset_id' => $user->reset_tokens], function ($message) use ($request) {
-                    $message->to($request->email)->subject('TTB Internet Security Password Reset');
-                });
-                return response()->json([
-                    'status' => 200,
-                    'messages' => 'Reset Mail Send Successfully'
-                ]);
-            } else {
-                return response()->json([
-                    'status' => 401,
-                    'messages' => 'User Not Found!'
-                ]);
-            }
+            return response()->json([
+                'status' => 200,
+                'messages' => 'Password Reset Successfully'
+            ]);
+        } else {
+            return response()->json([
+                'status' => 401,
+                'messages' => 'Invalid or Expired Token!'
+            ]);
         }
-        
     }
+}
+
 
     public function resetpass($reset_id)
     {    
