@@ -51417,9 +51417,9 @@ h6.uppercase {
     .img-round img {
         position: absolute;
         bottom: 0rem !important;
-        left: 9rem !important;
+        left: 11rem !important;
         animation: rotate 30s linear infinite;
-        width: 100% !important;
+        width: 75% !important;
     }
 
     /* .carousel-item {
