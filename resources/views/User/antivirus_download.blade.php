@@ -27,7 +27,7 @@
                             <div class="btn-down">
                                 <a href="#">Download For Mac</a>
                             </div>
-                            <span> X10.15 or above</span>
+                            <span> For MacOS X10.15 or above</span>
                         </div>
                         <div
                             class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-12 text-center box-down">
@@ -35,7 +35,7 @@
                             <div class="btn-down">
                                 <a href="#">Download For Window</a>
                             </div>
-                            <span> X10.15 or above</span>
+                            <span> For Window 10, 8, 7 or above</span>
                         </div>
                         <div
                             class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-12 text-center box-down">
@@ -43,7 +43,7 @@
                             <div class="btn-down">
                                 <a href="#">Download For Android</a>
                             </div>
-                            <span> X10.15 or above</span>
+                            <span> For Android Ver 5.0 or above</span>
                         </div>
                     </div>
                 </div>
