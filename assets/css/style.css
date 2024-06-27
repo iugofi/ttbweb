@@ -49074,6 +49074,12 @@ img.img-fluid.service-icon {
     background-color: #f5f6fa;
 }
 
+@media (max-width: 768px) and (min-width: 425px) {
+    .e-support-section-seven .flex {
+        display: block;
+    }
+}
+
 .e-support-section-six .tab-btn-buy a {
     background-color: #12d2b3;
     color: #fff;
