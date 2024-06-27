@@ -34,7 +34,7 @@ class UserController extends Controller
             'messages' => $validator->getMessageBag()->toArray()
         ]);
     } else {
-        $user = User::where('email', $request->email)->first();
+        $user = Users::where('email', $request->email)->first();
 
         if ($user) {
             $resetToken = Str::random(60);
@@ -72,7 +72,7 @@ public function validateResetToken(Request $request)
             'messages' => $validator->getMessageBag()->toArray()
         ]);
     } else {
-        $user = User::where('email', $request->email)
+        $user = Users::where('email', $request->email)
                      ->where('reset_tokens', $request->token)
                      ->first();
 
