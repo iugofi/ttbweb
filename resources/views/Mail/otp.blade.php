@@ -504,7 +504,7 @@ img,p{margin:0;Margin:0;font-family:Albert Sans,BlinkMacSystemFont,Segoe UI,Helv
                                                                     <div style="font-size:0px;"><img class=t0
                                                                             style="display:block;border:0;height:auto;width:100%;Margin:0;max-width:100%;"
                                                                             width=85 height=89.25 alt=""
-                                                                            src="{{asset('assest/img/ttb-logo.png')}}" /></div>
+                                                                            src="{{asset('assets/img/ttb-logo.png')}}" /></div>
                                                                             
                                                                 </td>
                                                             </tr>
