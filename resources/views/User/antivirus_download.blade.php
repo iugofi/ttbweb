@@ -23,14 +23,6 @@
                     </div>
                     <div class="grid grid-cols-12 gap-6 pt-top">
                         <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-12 text-center  box-down">
-                            <img src="{{ asset('assets/img/ios.png') }}" alt="" class="img-fluid" width="25%">
-                            <div class="btn-down">
-                                <a href="#">Download For iOS</a>
-                            </div>
-                            <span> X10.15 or above</span>
-                        </div>
-                        <div
-                            class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-12 text-center box-down">
                             <img src="{{ asset('assets/img/mac.png') }}" alt="" class="img-fluid" width="25%">
                             <div class="btn-down">
                                 <a href="#">Download For Mac</a>
@@ -39,9 +31,17 @@
                         </div>
                         <div
                             class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-12 text-center box-down">
-                            <img src="{{ asset('assets/img/ios.png') }}" alt="" class="img-fluid" width="25%">
+                            <img src="{{ asset('assets/img/window.png') }}" alt="" class="img-fluid" width="25%">
                             <div class="btn-down">
-                                <a href="#">Download For iOS</a>
+                                <a href="#">Download For Window</a>
+                            </div>
+                            <span> X10.15 or above</span>
+                        </div>
+                        <div
+                            class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-12 text-center box-down">
+                            <img src="{{ asset('assets/img/android.png') }}" alt="" class="img-fluid" width="25%">
+                            <div class="btn-down">
+                                <a href="#">Download For Android</a>
                             </div>
                             <span> X10.15 or above</span>
                         </div>
