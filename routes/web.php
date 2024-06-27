@@ -328,8 +328,9 @@ Route::get('/success',[PaymentController::class,'success'])->name('user.success'
 //PAY CHECK
 
 
-
-Route::get('/dataget',[PaymentController::class,'dataget'])->name('user.dataget');
+Route::get('/dj', function () {
+    return "kullu";
+});
 
 
 
