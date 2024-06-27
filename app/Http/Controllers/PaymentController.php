@@ -264,14 +264,6 @@ class PaymentController extends Controller
         return view('User.success');
     }
 
-    
-
-    public function dataget()
-    {
-        dd("kk");
-        // $stripe = new \Stripe\StripeClient(config('stripe.stripe_sk'));
-        // $response=$stripe->checkout->sessions->retrieve($request->session_id);
-        // dd($response->status);
-    }
+      
    
 }

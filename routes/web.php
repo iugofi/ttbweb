@@ -36,7 +36,6 @@ Route::get('/resetpass/{reset_id}', [UserController::class, 'resetpass'])->name(
 //pass reset form
 Route::post('/resetpassform', [UserController::class, 'resetpassform'])->name('user.resetpassform');
 
-Route::get('/testpagenew', [UserController::class, 'testpagenew'])->name('user.testpagenew');
 
 
 //testing
@@ -323,7 +322,8 @@ Route::get('/successpay/{vid}',[PaymentController::class,'successpay'])->name('u
 Route::get('/cancelpay',[PaymentController::class,'cancelpay'])->name('user.cancelpay');
 Route::get('/success',[PaymentController::class,'success'])->name('user.success');
 
-//excel data
+
+Route::get('/testpagenew', [UserController::class, 'testpagenew'])->name('user.testpagenew');
 
 
 
