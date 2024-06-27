@@ -48879,6 +48879,11 @@ img.img-fluid.service-icon {
     min-height: 300px;
     position: relative;
 }
+@media (max-width: 768px) and (min-width: 425px) {
+    .testimonial-container {
+        width: 576px;
+    }
+}
 
 .testimonial {
     display: flex;
