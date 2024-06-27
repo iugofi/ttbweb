@@ -51798,9 +51798,9 @@ h6.uppercase {
         width: 100%;
         padding: 5px 20px;
     }
-    .e-support-section-six .flex {
+    /* .e-support-section-six .flex {
         display: block;
-    }
+    } */
     .e-suppor-testimonials i.fa-solid.fa-arrow-left {
         display: none;
     }
