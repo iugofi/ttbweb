@@ -48755,6 +48755,71 @@ img.img-fluid.service-icon {
 
 /* neeraj-home-page-css-22-04-2024 */
 
+
+.vpn-download-two {
+    padding: 5em 0em;
+}
+
+.vpn-download-two h3 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.vpn-download-two p {
+    font-size: 16px;
+}
+
+.vpn-download-two .cnt-download{
+   padding:22px;
+}
+
+.vpn-download-one {
+    background-color: #edf1fc;
+    padding: 4em 0em 2em 0em;
+}
+
+.vpn-download-one h2 {
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.vpn-download-one p{
+  font-size: 16px; 
+}
+.vpn-download-one span{
+  color:#13d6af;
+}
+
+.vpn-download-one img{
+    display: inline-block;
+}
+
+.vpn-download-one .box-down {
+    padding: 2.9em 0.5em 1.4em 0.5em;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.vpn-download-one a {
+    background-color: transparent;
+    display: inline-block;
+    padding: 10px 27px;
+    color: #5a5a5a;
+    border: 1px solid;
+    font-size: 15px;
+    border-radius: 25px;
+}
+.vpn-download-one .btn-down {
+    padding: 2.2em 0em 0.5em 0em;
+}
+
+.vpn-download-one .btn-down a:hover {
+    background-color: #12d2b3;
+    color: #fff;
+}
+.vpn-download-one .pt-top{
+    padding: 5.5em 0em;
+}
 /* .e-support-section-two .icon-box:hover {
     background-image: url("/assets/e-support/Green-Dot-BG.png");
 } */
