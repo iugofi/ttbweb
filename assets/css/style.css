@@ -48803,6 +48803,7 @@ img.img-fluid.service-icon {
     padding: 2.9em 0.5em 1.4em 0.5em;
     background-color: #fff;
     border-radius: 5px;
+    margin: 32px;
 }
 
 .vpn-download-one a {
