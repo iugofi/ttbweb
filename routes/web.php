@@ -87,6 +87,9 @@ Route::get('/Enhanced_Firewall', [UserController::class, 'Enhanced_Firewall'])->
 Route::get('/virus_removal_service', [UserController::class, 'virus_removal_service'])->name('user.virus_removal_service');
 Route::get('/E_Support_Concierge', [UserController::class, 'E_Support_Concierge'])->name('user.E_Support_Concierge');
 
+Route::get('/vpn_shield/download', [UserController::class, 'vpn_download'])->name('user.vpn_download');
+
+
 
 
 
