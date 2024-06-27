@@ -49311,6 +49311,16 @@ img.img-fluid.service-icon {
     top: 157px;
     left: 145px;
 }
+
+@media (max-width: 768px) and (min-width: 425px) {
+    .e-support-section-three .anim-shield {
+        position: absolute;
+        top: 125px;
+        left: 128px;
+        width: 30%;
+    }
+}
+
 @media (max-width: 425px) {
     .section-home2-ten .container {
         padding: 20px;
