@@ -337,20 +337,20 @@
                 <div class="carousel">
                     <div id="carouselContainer" class="carousel-container">
 
-                        @foreach ($plandetails as $item)
+                        @foreach ($plandetails as $plandetailsitem)
                             
-                        @endforeach
+                       
                         <div class="carousel-item">
                             <!-- Content for second slide -->
                             <div class="dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70">
                                 <div class="box-body !p-0 sliders-box">
                                     <div class="!p-6">
                                         <div class="flex justify-between items-center mb-4">
-                                            <div class="text-[1.125rem] font-semibold">Team</div>
+                                            <div class="text-[1.125rem] font-semibold">TTB VPN {{$plandetailsitem->name}}</div>
                                             <div>
-                                                <span class="badge bg-success/10 text-success">
+                                                {{-- <span class="badge bg-success/10 text-success">
                                                     For Small Teams
-                                                </span>
+                                                </span> --}}
                                             </div>
                                         </div>
                                         <div class="text-[1.5625rem] font-bold mb-1">$159<sub
@@ -411,14 +411,16 @@
                                                 </span>
                                             </li>
                                             <li class="grid">
-                                                <button type="button" class="m-1 ti-btn ti-btn-primary-full">Choose
-                                                    Plan</button>
+                                                {{-- <button type="button" class="m-1 ti-btn ti-btn-primary-full">Choose
+                                                    Plan</button> --}}
+                                                    <a href="{{ route('user.fpay', ['id' => encrypt($plandetailsitem->id)]) }}" class="m-1 ti-btn ti-btn-primary-full">Choose Plan</a>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        @endforeach
                       
                     </div>
                 </div>
