@@ -324,10 +324,6 @@ Route::get('/success',[PaymentController::class,'success'])->name('user.success'
 //excel data
 
 
-
-
-//PAY CHECK
-
 Route::get('/testpagenew', [UserController::class, 'testpagenew'])->name('user.testpagenew');
 
 
