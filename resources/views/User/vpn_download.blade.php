@@ -21,7 +21,7 @@
                             <p class="mt-2">Select the option that works best for you, below: </p>
                         </div>
                     </div>
-                    <div class="grid grid-cols-12 gap-6">
+                    <div class="grid grid-cols-12 gap-6 pt-top">
                         <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 col-span-12 text-center">
                         </div>
                         <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 col-span-12 text-center box-down">
