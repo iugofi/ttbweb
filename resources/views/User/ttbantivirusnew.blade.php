@@ -346,7 +346,7 @@
                                 <div class="box-body !p-0 sliders-box">
                                     <div class="!p-6">
                                         <div class="flex justify-between items-center mb-4">
-                                            <div class="text-[1.125rem] font-semibold">TTB VPN {{$plandetailsitem->name}}</div>
+                                            <div class="text-[1.125rem] font-semibold m-auto">TTB Antivirus {{$plandetailsitem->name}}</div>
                                             <div>
                                                 {{-- <span class="badge bg-success/10 text-success">
                                                     For Small Teams
