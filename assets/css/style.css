@@ -48776,8 +48776,20 @@ img.img-fluid.service-icon {
     display: inline-block;
 }
 
-.vpn-download-one .box-down{
-    
+.vpn-download-one .box-down {
+    padding: 3em 0.5em;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.vpn-download-one a {
+    background-color: transparent;
+    display: inline-block;
+    padding: 10px 27px;
+    color: #5a5a5a;
+    border: 1px solid;
+    font-size: 15px;
+    border-radius: 25px;
 }
 /* .e-support-section-two .icon-box:hover {
     background-image: url("/assets/e-support/Green-Dot-BG.png");
