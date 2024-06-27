@@ -48773,6 +48773,11 @@ img.img-fluid.service-icon {
    padding:22px;
 }
 
+.vpn-download-one .box-down span {
+    color: #707070 !important;
+}
+
+
 .vpn-download-one {
     background-color: #edf1fc;
     padding: 4em 0em 2em 0em;
