@@ -9,7 +9,14 @@
 <script>
     document.addEventListener("DOMContentLoaded", function() {
         let buttonevent=document.querySelector(".toggle_new");
-        buttonevent.click();
+        function kullu()
+        {
+            buttonevent.click();
+        }
+        
+        setTimeout(() => {
+            kullu();
+        }, 10);
         // setTimeout(clickButton, 15);
     });
 </script>
