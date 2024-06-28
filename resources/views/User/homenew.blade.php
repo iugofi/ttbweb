@@ -47,7 +47,7 @@
                                                     <img src="{{ asset('assets/event_banner/'.$event->banner_img) }}" alt="{{ $event->event_name }}" class="img-fluid" width="100%">
                                                     <h4>{{ $event->event_name }}</h4>
                                                     <p>{{ $event->event_date }}</p>
-                                                    <a href="{{ $event->event_handle }}" class="btn btn-primary">Learn More</a>
+                                                    
                                                 </div>
                                             </div>
                                         @endforeach
