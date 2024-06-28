@@ -184,20 +184,20 @@ p {
             flex: 1;
         }
         
-        /* .left {
+        .left {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             text-align: center;
         }
-        
+         
         .right {
             display: flex;
             justify-content: center;
             align-items: center;
             background-color: #12D2B3;
-        } */
+        }
         
         .success-image {
             max-width: 100%;
