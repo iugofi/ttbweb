@@ -13,7 +13,7 @@ use App\Models\Comment;
 use App\Models\Newscomment; 
 use App\Models\Contact; 
 use App\Models\Admin; 
-use App\Models\Events; 
+use App\Models\Eventmodel; 
 use App\Models\Visitors;
 use Mail;
 use Jenssegers\Agent\Agent;
@@ -247,7 +247,7 @@ public function resetpass($reset_id)
         ->where('storepick.PICK_ID','=',501)
         ->get();
         $currentDate = Carbon::now()->toDateString();
-        $events = Events::where('event_status', 101)
+        $events = Eventmodel::where('event_status', 101)
                     ->whereDate('event_date', $currentDate)
                     ->get();
         dd($events);
