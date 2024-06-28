@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
         <div class="main-content">
 
             <button type="button" class="hs-dropdown-toggle toggle_new ti-btn ti-btn-primary-full"
-                                    data-hs-overlay="#hs-extralarge-modal">
+                                    data-hs-overlay="#hs-extralarge-modal" style="display: none;">
                                     Extra Large modal
             </button>
             <div id="hs-extralarge-modal" class="hs-overlay hidden ti-modal">
