@@ -1719,7 +1719,8 @@ public function newslistshow(){
                     public function visitor_traffic()
                     {
                         if ($this->loggedInAdmin) {
-                            $visitor=Visitors::all();
+                            $visitors = Visitors::orderBy('created_at', 'desc')->get();
+
         
                             return view('Admin.Visitorlist',['visitor'=>$visitor]);
                         
