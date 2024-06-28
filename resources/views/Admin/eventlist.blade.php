@@ -76,7 +76,7 @@
                                         <th class="px-4 py-2">event_date</th>
                                         <th class="px-4 py-2">event_handle</th>
                                         <th class="px-4 py-2">event_status</th>
-                                        {{-- <th class="px-4 py-2">Action</th> --}}
+                                        <th class="px-4 py-2">Action</th>
 
 
                                     </tr>
@@ -95,7 +95,7 @@
                                             <td class="border px-4 py-2">{{ $item->event_status }}</td>                               
                                                                         
 
-                                            {{-- <td class="border px-4 py-2">
+                                            <td class="border px-4 py-2">
                                                 <div class="flex flex-row items-center !gap-2 text-[0.9375rem]">
                                                     
                                                     <a aria-label="anchor" href="{{ route('edit.planedit', \Crypt::encrypt($item->id)) }}"
@@ -110,7 +110,7 @@
                                                     </button>
 
                                                 </div>
-                                            </td> --}}
+                                            </td>
                                         </tr>
                                     @endforeach
                                 </tbody>
