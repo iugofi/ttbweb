@@ -18,7 +18,7 @@
             <div class="payment-cancellation" id="payment">
                 <section class="section">
                     <div class="container payment-cancel">
-                        <div class="grid grid-cols-12 gap-6 row payment">
+                        <div class="grid grid-cols-12 gap-6 row paymentcancel-grid">
                             <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12 column cancel-left">
                                 <div class="crossmark">✗</div>
                                 <h1>Payment Cancelled</h1>
