@@ -149,20 +149,14 @@ p {
 
    
     <style>
-        /* .container {
+        .paymet-container {
             max-width: 900px;
-            width: 100%;
+             width: 100%;
             background: white;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
             overflow: hidden;
         }
-        
-        .row {
-            display: flex;
-            flex-wrap: wrap;
-        } */
-        
         .payment .column {
             flex: 1;
         }
