@@ -6,6 +6,7 @@
 @section('Description', '')
 @section('keywords', '')
 @section('canonical', '')
+<meta charset="UTF-8">
 
 
 
@@ -14,9 +15,6 @@
 
 <div class="content">
     <div class="main-content">
-
-
-        <meta charset="UTF-8">
 
         <div class="container">
             <div class="row payment">
