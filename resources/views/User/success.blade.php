@@ -237,7 +237,10 @@ p {
         }
         
         @media (max-width: 768px) {
-            .row {
+            .paymet-container .grid {
+             display: block;
+            }
+            /* .row {
                 flex-direction: column;
             }
         
@@ -255,7 +258,7 @@ p {
         
             .btn {
                 font-size: 0.9rem;
-            }
+            } */
         }
         
         
