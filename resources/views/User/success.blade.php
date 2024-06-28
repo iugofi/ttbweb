@@ -175,6 +175,9 @@ p {
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
             overflow: hidden;
+            margin-top: 6rem;
+            margin-bottom: 3rem;
+            padding: 0;
         }
         .payment .column {
             flex: 1;
@@ -197,8 +200,7 @@ p {
         
         .success-image {
             max-width: 100%;
-            height: auto;
-            border-radius: 8px;
+            height: 100%;
         }
         
         .checkmark {
