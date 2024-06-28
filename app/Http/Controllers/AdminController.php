@@ -17,6 +17,7 @@ use App\Models\Users;
 use App\Models\Planname; 
 use App\Models\Payments; 
 use App\Models\Plandetails; 
+use App\Models\Visitors; 
 
 use Illuminate\Support\Facades\File;
 
