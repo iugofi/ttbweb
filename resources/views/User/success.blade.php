@@ -110,8 +110,8 @@
     
     </style>
 <div class="content">
-    <div class="main-content">
-
+    <div class="main-content !p-0 landing-main dark:text-defaulttextcolor/70" id="totel-internet-security">
+        <section class="section">
         <div class="container">
             <div class="row payment">
                 <div class="column left">
@@ -128,7 +128,7 @@
         </div>
 
 
-
+        </section>
         
     </div>
 </div>
