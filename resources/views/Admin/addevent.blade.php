@@ -63,7 +63,7 @@
 
                                     <div class="xl:col-span-12 col-span-12">
                                         <label class="form-label">Event Date</label>
-                                        <input type="date" class="form-control block w-full text-[0.875rem] !rounded-md"
+                                        <input type="datetime-local" class="form-control block w-full text-[0.875rem] !rounded-md"
                                         id="event_date" name="event_date" >
                                         <div class="invalid-feedback"></div>
                                     </div>
