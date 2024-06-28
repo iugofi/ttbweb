@@ -96,7 +96,7 @@
         
         .checkmark {
             font-size: 4rem;
-            color: #4CAF50;
+            color: #12D2B3;
         }
         
         .bttn {
