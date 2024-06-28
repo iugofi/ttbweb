@@ -130,13 +130,13 @@ p {
         <meta charset="UTF-8">
         <div class="payment-success" id="paymet">
          <section class="section">
-          <div class="container">
+          <div class="container paymet-container">
             <div class="grid grid-cols-12 gap-6 row payment">
                 <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12 column left">
                     <div class="checkmark">✓</div>
                     <h1>Payment Successful</h1>
                     <p>Thank you for your purchase!</p>
-                    <a href="https://www.ttbinternetsecurity.com/" class="btn">Go to Dashboard</a>
+                    <a href="https://www.ttbinternetsecurity.com/" class="bttn">Go to Dashboard</a>
                 </div>
                 <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12column right">
                     <img src="{{ asset('assets/img/payment-success.jpg') }}" alt="Success Image" class="success-image">
@@ -149,20 +149,14 @@ p {
 
    
     <style>
-        /* .container {
+        .paymet-container {
             max-width: 900px;
-            width: 100%;
+             width: 100%;
             background: white;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
             overflow: hidden;
         }
-        
-        .row {
-            display: flex;
-            flex-wrap: wrap;
-        } */
-        
         .payment .column {
             flex: 1;
         }
@@ -205,7 +199,7 @@ p {
             margin-bottom: 20px;
         }
         
-        .btn {
+        .bttn {
             display: inline-block;
             padding: 10px 20px;
             font-size: 1rem;
