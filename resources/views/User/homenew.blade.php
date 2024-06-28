@@ -9,17 +9,17 @@
 <script>
     document.addEventListener("DOMContentLoaded", function() {
         function clickButton() {
-            document.querySelector(".hs-dropdown-toggle").click();
+            document.querySelector(".toggle_new").click();
         }
         clickButton();
-        setTimeout(clickButton, 30);
+        setTimeout(clickButton, 15);
     });
 </script>
 
     <div class="content" style="background-color:#F3F2EA;">
         <div class="main-content">
 
-            <button type="button" class="hs-dropdown-toggle ti-btn ti-btn-primary-full"
+            <button type="button" class="hs-dropdown-toggle toggle_new ti-btn ti-btn-primary-full"
                                     data-hs-overlay="#hs-extralarge-modal">
                                     Extra Large modal
             </button>
