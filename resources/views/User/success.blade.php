@@ -130,7 +130,7 @@ p {
         <meta charset="UTF-8">
         <div class="payment-success" id="paymet">
          <section class="section">
-          <div class="container">
+          <div class="container paymet-container">
             <div class="grid grid-cols-12 gap-6 row payment">
                 <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12 column left">
                     <div class="checkmark">✓</div>
