@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 
 class Events extends Model
 {
-    protected $table = 'Event';
+    protected $table = 'event';
     protected $fillable = [
         'event_status',
         'event_name',
