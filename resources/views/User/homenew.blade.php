@@ -12,7 +12,7 @@
         <div class="main-content">
 
           
-            @if ($events === true)
+            @if ($events->isNotEmpty())
             <script>
                 document.addEventListener("DOMContentLoaded", function() {
                     let buttonevent = document.querySelector(".toggle_new");
