@@ -282,6 +282,10 @@ public function resetpass($reset_id)
     {
         return view('User.Privacy_policy');
     }
+    public function Terms_of_Service()
+    {
+        return view('User.Terms_of_Service');
+    }
      
     public function contactform(Request $request)
     {

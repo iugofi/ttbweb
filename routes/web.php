@@ -86,6 +86,8 @@ Route::get('/Endpoint_protection', [UserController::class, 'endpoint_protection'
 
 // Legal Page Route
 Route::get('/Privacy_policy', [UserController::class, 'Privacy_policy'])->name('user.Privacy_policy');
+Route::get('/Terms_of_Service', [UserController::class, 'Terms_of_Service'])->name('user.Terms_of_Service');
+
 
 
 
