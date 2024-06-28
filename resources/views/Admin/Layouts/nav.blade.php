@@ -203,6 +203,12 @@
                     <li class="slide">
                         <a href="{{route('user.eventlist')}}" class="side-menu__item">
                             <i class="fa-solid fa-location-dot side-menu__icon"></i>
+                            <span class="side-menu__label">Event List</span>
+                        </a>
+                    </li>
+                    <li class="slide">
+                        <a href="{{route('user.addevent')}}" class="side-menu__item">
+                            <i class="fa-solid fa-location-dot side-menu__icon"></i>
                             <span class="side-menu__label">Add Event</span>
                         </a>
                     </li>

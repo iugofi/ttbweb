@@ -1744,6 +1744,18 @@ public function newslistshow(){
                         }
 
                     }
+
+                    public function addevent()
+                    {
+                        if ($this->loggedInAdmin) {
+                            
+                            return view('Admin.addevent');
+                        
+                        } else {
+                            return redirect('/setup');
+                        }
+
+                    }
                 
 
 

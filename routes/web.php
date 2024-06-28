@@ -302,6 +302,8 @@ Route::get('/mailtest', [UserController::class, 'mailtest'])->name('admin.mailte
 
          //event add
          Route::get('/eventlist', [AdminController::class, 'eventlist'])->name('user.eventlist');
+         Route::get('/addevent', [AdminController::class, 'addevent'])->name('user.addevent');
+
 
 
          });
