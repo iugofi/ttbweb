@@ -209,17 +209,17 @@ p {
             color: #4CAF50;
         }
         
-        h1 {
+        /* h1 {
             font-size: 2rem;
             margin: 20px 0;
             color: #333;
-        }
+        } */
         
-        p {
+        /* p {
             font-size: 1rem;
             color: #777;
             margin-bottom: 20px;
-        }
+        } */
         
         .bttn {
             display: inline-block;
@@ -240,25 +240,11 @@ p {
             .paymet-container .grid {
              display: block;
             }
-            /* .row {
-                flex-direction: column;
+            .paymet-container {
+            margin-top: 0rem;
+            margin-bottom: 0rem;
             }
-        
-            .left, .right {
-                padding: 15px;
-            }
-        
-            h1 {
-                font-size: 1.5rem;
-            }
-        
-            p {
-                font-size: 0.9rem;
-            }
-        
-            .btn {
-                font-size: 0.9rem;
-            } */
+            
         }
         
         
