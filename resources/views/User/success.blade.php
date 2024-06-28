@@ -12,32 +12,7 @@
 
 @section('content')
 
-
-<div class="content">
-    <div class="main-content">
-
-        <div class="container">
-            <div class="row payment">
-                <div class="column left">
-                    <div class="checkmark">✓</div>
-                    <h1>Payment Successful</h1>
-                    <p>Thank you for your purchase!</p>
-                    <a href="{{route('user.signin')}}" class="btn">Go to Dashboard</a>
-                </div>
-                <div class="column right">
-                    <img src="{{asset('assets/img/payment-success.jpg')}}" alt="Success Image" class="success-image">
-                   
-                </div>
-            </div>
-        </div>
-    </body>
-    </html>
-    <style>
-    
-    /* Reset some basic styles */
-
-    
-
+<style>
     
     .container {
         max-width: 900px;
@@ -134,7 +109,23 @@
     
     
     </style>
-    
+<div class="content">
+    <div class="main-content">
+
+        <div class="container">
+            <div class="row payment">
+                <div class="column left">
+                    <div class="checkmark">✓</div>
+                    <h1>Payment Successful</h1>
+                    <p>Thank you for your purchase!</p>
+                    <a href="{{route('user.signin')}}" class="btn">Go to Dashboard</a>
+                </div>
+                <div class="column right">
+                    <img src="{{asset('assets/img/payment-success.jpg')}}" alt="Success Image" class="success-image">
+                   
+                </div>
+            </div>
+        </div>
 
 
 
