@@ -8,7 +8,7 @@
 @section('canonical', '')
 
 
-<style>
+{{-- <style>
 .container {
     max-width: 900px;
     width: 100%;
@@ -102,7 +102,7 @@ p {
     }
 }
 
-</style>
+</style> --}}
 
 @section('content')
 
