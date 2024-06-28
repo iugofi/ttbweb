@@ -127,7 +127,28 @@ p {
         </div> --}}
 
 
-  <style>
+        <meta charset="UTF-8">
+        <div class="payment-success" id="paymet">
+         <section class="section">
+          <div class="container">
+            <div class="grid grid-cols-12 gap-6 row payment">
+                <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12 column left">
+                    <div class="checkmark">✓</div>
+                    <h1>Payment Successful</h1>
+                    <p>Thank you for your purchase!</p>
+                    <a href="https://www.ttbinternetsecurity.com/" class="btn">Go to Dashboard</a>
+                </div>
+                <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12column right">
+                    <img src="/php-lerning/php-img/payment-success.jpg" alt="Success Image" class="success-image">
+                   
+                </div>
+            </div>
+          </div>
+         </section>
+        </div>
+
+   
+    <style>
         .container {
             max-width: 900px;
             width: 100%;
@@ -223,26 +244,6 @@ p {
         
         
         </style>
-        <meta charset="UTF-8">
-
-        <div class="container">
-            <div class="row payment">
-                <div class="column left">
-                    <div class="checkmark">✓</div>
-                    <h1>Payment Successful</h1>
-                    <p>Thank you for your purchase!</p>
-                    <a href="https://www.ttbinternetsecurity.com/" class="btn">Go to Dashboard</a>
-                </div>
-                <div class="column right">
-                    <img src="/php-lerning/php-img/payment-success.jpg" alt="Success Image" class="success-image">
-                   
-                </div>
-            </div>
-        </div>
-    </body>
-    </html>
-   
-  
     
 
 
