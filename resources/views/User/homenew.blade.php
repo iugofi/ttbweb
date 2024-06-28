@@ -10,22 +10,48 @@
     <div class="content" style="background-color:#F3F2EA;">
         <div class="main-content">
 
-            <section class="events-section">
-                <div class="container">
-                    <div class="row">
-                        @foreach($events as $event)
-                            <div class="col-md-4">
-                                <div class="event-card">
-                                    <img src="{{ asset('assets/event_banner/'.$event->banner_img) }}" alt="{{ $event->event_name }}" class="img-fluid" width="100%">
-                                    <h4>{{ $event->event_name }}</h4>
-                                    <p>{{ $event->event_date }}</p>
-                                    <a href="{{ $event->event_handle }}" class="btn btn-primary">Learn More</a>
+            <div class="modal fade" id="eventsModal" tabindex="-1" aria-labelledby="eventsModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="eventsModalLabel">Upcoming Events</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container">
+                                <div class="row">
+                                    @foreach($events as $event)
+                                        <div class="col-md-4 mb-3">
+                                            <div class="event-card text-center">
+                                                <img src="{{ asset($event->banner_img) }}" alt="{{ $event->event_name }}" class="img-fluid" width="100%">
+                                                <h4>{{ $event->event_name }}</h4>
+                                                <p>{{ $event->event_date }}</p>
+                                                <a href="{{ $event->event_handle }}" class="btn btn-primary">Learn More</a>
+                                            </div>
+                                        </div>
+                                    @endforeach
                                 </div>
                             </div>
-                        @endforeach
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
                     </div>
                 </div>
-            </section>
+            </div>
+
+            <script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    var myModal = new bootstrap.Modal(document.getElementById('eventsModal'), {
+                        backdrop: 'static',
+                        keyboard: false
+                    });
+                    myModal.show();
+                });
+            </script>
 
             <section class="banner-home-one">
                 <div class="container">
