@@ -53354,4 +53354,9 @@ hr.hr-line {
     height: auto;
     animation: rotate 0.1s linear infinite;
 }
+.img {
+    max-width: 100%;
+    height: auto;
+    animation: rotate 0.1s linear infinite;
+}
 /* end kunal */
