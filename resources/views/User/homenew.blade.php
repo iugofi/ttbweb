@@ -12,7 +12,7 @@
         <div class="main-content">
 
           
-            @if ($events == true)
+            @if ($events === true)
             <script>
                 document.addEventListener("DOMContentLoaded", function() {
                     let buttonevent = document.querySelector(".toggle_new");
@@ -27,11 +27,11 @@
                     setInterval(clickButton, 900000);
                 });
             </script>
-            
+
             <button type="button" class="hs-dropdown-toggle toggle_new ti-btn ti-btn-primary-full"
             data-hs-overlay="#hs-extralarge-modal" style="display: none;">
             Extra Large modal
-        </button>
+            </button>
                 <div id="hs-extralarge-modal" class="hs-overlay hidden ti-modal">
                     <div class="hs-overlay-open:mt-7 ti-modal-box mt-0 ease-out lg:!max-w-4xl lg:w-full m-3 lg:!mx-auto">
                         <div class="ti-modal-content">
