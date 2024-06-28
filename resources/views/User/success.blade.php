@@ -191,7 +191,7 @@ p {
             align-items: center;
             text-align: center;
         }
-        
+         
         .right {
             display: flex;
             justify-content: center;
