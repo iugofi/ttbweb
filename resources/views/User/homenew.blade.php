@@ -8,11 +8,9 @@
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
 <script>
     document.addEventListener("DOMContentLoaded", function() {
-        function clickButton() {
-            document.querySelector(".toggle_new").click();
-        }
-        clickButton();
-        setTimeout(clickButton, 15);
+        let buttonevent=document.querySelector(".toggle_new");
+        buttonevent.click();
+        // setTimeout(clickButton, 15);
     });
 </script>
 
