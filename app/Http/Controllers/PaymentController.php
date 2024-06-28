@@ -266,7 +266,7 @@ class PaymentController extends Controller
 
     public function cancelpay()
     {
-        return "payment is canceled";
+        return view('User.cancelpay');
     }
 
     public function success()
