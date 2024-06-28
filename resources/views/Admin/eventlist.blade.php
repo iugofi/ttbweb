@@ -71,11 +71,11 @@
                                 <thead>
                                     <tr>
                                         <th class="px-4 py-2">Id</th>
-                                        <th class="px-4 py-2">event_name</th>
-                                        <th class="px-4 py-2">banner_img</th>
-                                        <th class="px-4 py-2">event_date</th>
-                                        <th class="px-4 py-2">event_handle</th>
-                                        <th class="px-4 py-2">event_status</th>
+                                        <th class="px-4 py-2">Event Name</th>
+                                        <th class="px-4 py-2">Banner Img</th>
+                                        <th class="px-4 py-2">Event Date</th>
+                                        {{-- <th class="px-4 py-2">event_handle</th> --}}
+                                        <th class="px-4 py-2">Event Status</th>
                                         <th class="px-4 py-2">Action</th>
 
 
@@ -91,7 +91,7 @@
                                             <td class="border px-4 py-2">{{ $item->event_name }}</td>                                                             
                                             <td class="border px-4 py-2">{{ $item->banner_img }}</td>   
                                             <td class="border px-4 py-2">{{ $item->event_date }}</td>                               
-                                            <td class="border px-4 py-2">{{ $item->event_handle }}</td>                               
+                                            {{-- <td class="border px-4 py-2">{{ $item->event_handle }}</td>                                --}}
                                             <td class="border px-4 py-2">{{ $item->event_status }}</td>                               
                                                                         
 
