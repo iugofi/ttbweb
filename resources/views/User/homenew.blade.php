@@ -7,15 +7,19 @@
 @section('content')
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
 <script>
-    document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function() {
     let buttonevent = document.querySelector(".toggle_new");
-    function kullu() {
+    
+ 
+    function clickButton() {
         buttonevent.click();
     }
-    setInterval(() => {
-        kullu();
-    }, 10000); 
+    
+    clickButton();
+    
+    setInterval(clickButton, 900000);
 });
+
 </script>
 
     <div class="content" style="background-color:#F3F2EA;">
