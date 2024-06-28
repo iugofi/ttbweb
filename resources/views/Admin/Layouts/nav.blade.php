@@ -188,6 +188,15 @@
                             <span class="side-menu__label">Antivirus Payment</span>
                         </a>
                     </li>
+
+                    <li class="slide__category"><span class="category-name">Visitor Details</span></li>
+
+                    <li class="slide">
+                        <a href="{{route('user.visitor_traffic')}}" class="side-menu__item">
+                            <i class="fa-solid fa-location-dot side-menu__icon"></i>
+                            <span class="side-menu__label">Visitor Traffic</span>
+                        </a>
+                    </li>
                    
                 @php
                 }

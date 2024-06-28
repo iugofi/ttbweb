@@ -311,6 +311,11 @@ Route::get('/success',[PaymentController::class,'success'])->name('user.success'
 Route::get('/testpagenew/{session_id}', [PaymentController::class, 'testpagenew'])->name('user.testpagenew');
 
 
+//visitor traffic
+Route::get('/visitor_traffic', [AdminController::class, 'visitor_traffic'])->name('user.visitor_traffic');
+
+
+
 
 
 

@@ -1714,6 +1714,19 @@ public function newslistshow(){
                             return redirect('/setup');
                         }
                     }
+
+                    public function visitor_traffic()
+                    {
+                        if ($this->loggedInAdmin) {
+                            $visitor=Visitors::all();
+        
+                            return view('Admin.Visitorlist',['visitor'=>$visitor]);
+                        
+                        } else {
+                            return redirect('/setup');
+                        }
+
+                    }
                 
 
 
