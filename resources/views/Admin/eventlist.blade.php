@@ -71,8 +71,8 @@
                                 <thead>
                                     <tr>
                                         <th class="px-4 py-2">Id</th>
-                                        <th class="px-4 py-2">Event Name</th>
                                         <th class="px-4 py-2">Banner Img</th>
+                                        <th class="px-4 py-2">Event Name</th>
                                         <th class="px-4 py-2">Event Date</th>
                                         {{-- <th class="px-4 py-2">event_handle</th> --}}
                                         <th class="px-4 py-2">Event Status</th>
@@ -88,7 +88,6 @@
                                                 $id = 1;
                                             @endphp
                                             <td class="border px-4 py-2">{{ $key + 1 }}</td>  
-                                            <td class="border px-4 py-2">{{ $item->event_name }}</td>                                                               
                                             <td class="border px-4 py-2">
                                                 <div class="flex items-center font-semibold">
                                                     <span class="!me-2 inline-flex justify-center items-center">
@@ -98,6 +97,8 @@
                                                     </span>
                                                 </div>
                                             </td>
+                                            <td class="border px-4 py-2">{{ $item->event_name }}</td>                                                               
+                                            
                                             <td class="border px-4 py-2">{{ $item->event_date }}</td>                               
                                             {{-- <td class="border px-4 py-2">{{ $item->event_handle }}</td>                                --}}
                                             <td class="border px-4 py-2">{{ $item->event_status }}</td>                               
