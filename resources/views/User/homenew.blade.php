@@ -8,16 +8,14 @@
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
 <script>
     document.addEventListener("DOMContentLoaded", function() {
-        let buttonevent=document.querySelector(".toggle_new");
-        function kullu()
-        {
-            buttonevent.click();
-        }
-        setTimeout(() => {
-            kullu();
-        }, 10);
-        // setTimeout(clickButton, 15);
-    });
+    let buttonevent = document.querySelector(".toggle_new");
+    function kullu() {
+        buttonevent.click();
+    }
+    setInterval(() => {
+        kullu();
+    }, 10000); 
+});
 </script>
 
     <div class="content" style="background-color:#F3F2EA;">
