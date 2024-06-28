@@ -38,6 +38,8 @@ Route::post('/resetpassform', [UserController::class, 'resetpassform'])->name('u
 
 
 
+
+
 //testing
 Route::get('/test', [UserController::class, 'testpageview'])->name('testpageview');
 
@@ -296,6 +298,12 @@ Route::get('/mailtest', [UserController::class, 'mailtest'])->name('admin.mailte
          Route::post('/savekey', [AdminController::class, 'savekey'])->name('save.savekey');
          Route::delete('/keydelete/{id}', [AdminController::class, 'keydelete'])->name('delete.keydelete');
 
+         Route::get('/visitor_traffic', [AdminController::class, 'visitor_traffic'])->name('user.visitor_traffic');
+
+         //event add
+         Route::get('/eventlist', [AdminController::class, 'eventlist'])->name('user.eventlist');
+
+
          });
 
 //payment page all
@@ -312,7 +320,7 @@ Route::get('/testpagenew/{session_id}', [PaymentController::class, 'testpagenew'
 
 
 //visitor traffic
-Route::get('/visitor_traffic', [AdminController::class, 'visitor_traffic'])->name('user.visitor_traffic');
+
 
 
 

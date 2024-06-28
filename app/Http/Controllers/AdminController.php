@@ -1729,6 +1729,20 @@ public function newslistshow(){
                         }
 
                     }
+
+                    public function eventlist()
+                    {
+                        if ($this->loggedInAdmin) {
+                            $eventmodel = Eventmodel::all();
+
+        
+                            return view('Admin.eventlist',['eventmodel'=>$eventmodel]);
+                        
+                        } else {
+                            return redirect('/setup');
+                        }
+
+                    }
                 
 
 
