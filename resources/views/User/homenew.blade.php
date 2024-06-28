@@ -13,7 +13,6 @@
         {
             buttonevent.click();
         }
-        
         setTimeout(() => {
             kullu();
         }, 10);
