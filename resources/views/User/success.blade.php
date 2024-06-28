@@ -35,19 +35,9 @@
     <style>
     
     /* Reset some basic styles */
-    body, h1, p, a {
-        margin: 0;
-        padding: 0;
-        font-family: Arial, sans-serif;
-    }
+
     
-    body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        background-color: #f4f4f9;
-    }
+
     
     .container {
         max-width: 900px;
