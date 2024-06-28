@@ -278,6 +278,10 @@ public function resetpass($reset_id)
     {
         return view('User.E_Support_Concierge');
     }
+    public function Privacy_policy()
+    {
+        return view('User.Privacy_policy');
+    }
      
     public function contactform(Request $request)
     {

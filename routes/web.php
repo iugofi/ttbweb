@@ -84,6 +84,10 @@ Route::get('/vpnshieldnew', [UserController::class, 'vpnshieldnew'])->name('user
 //Endpoint Protection
 Route::get('/Endpoint_protection', [UserController::class, 'endpoint_protection'])->name('user.endpoint_protection');
 
+// Legal Page Route
+Route::get('/Privacy_policy', [UserController::class, 'Privacy_policy'])->name('user.Privacy_policy');
+
+
 
 //Behavioral Protection
 Route::get('/Behavioral_Protection', [UserController::class, 'Behavioral_Protection'])->name('user.Behavioral_Protection');
