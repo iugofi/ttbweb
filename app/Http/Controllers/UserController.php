@@ -248,9 +248,9 @@ public function resetpass($reset_id)
         ->get();
         $currentDate = Carbon::now()->toDateString();
         $events = Events::where('event_status', 101)
-                        ->whereDate('event_date', $currentDate)
-                        ->get();
-                        dd($events);
+                    ->whereDate('event_date', $currentDate)
+                    ->get();
+        dd($events);
         return view('User.homenew',['antivirus'=>$antivirus,'vpnshield'=>$vpnshield], compact('events'));
     }
     public function malware_detection()
