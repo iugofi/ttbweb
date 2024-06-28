@@ -4,14 +4,28 @@
 @section('Description', '')
 @section('keywords', '')
 @section('canonical', '')
-
-
-
 @section('content')
 
 
     <div class="content" style="background-color:#F3F2EA;">
         <div class="main-content">
+
+            <section class="events-section">
+                <div class="container">
+                    <div class="row">
+                        @foreach($events as $event)
+                            <div class="col-md-4">
+                                <div class="event-card">
+                                    <img src="{{ asset('assets/event_banner/'.$event->banner_img) }}" alt="{{ $event->event_name }}" class="img-fluid" width="100%">
+                                    <h4>{{ $event->event_name }}</h4>
+                                    <p>{{ $event->event_date }}</p>
+                                    <a href="{{ $event->event_handle }}" class="btn btn-primary">Learn More</a>
+                                </div>
+                            </div>
+                        @endforeach
+                    </div>
+                </div>
+            </section>
 
             <section class="banner-home-one">
                 <div class="container">
