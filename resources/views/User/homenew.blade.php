@@ -20,7 +20,7 @@
                     <div class="ti-modal-content">
                         <div class="ti-modal-header">
                             <h6 class="ti-modal-title">
-                                Modal title
+                                Upcoming Events
                             </h6>
                             <button type="button" class="hs-dropdown-toggle ti-modal-close-btn"
                                 data-hs-overlay="#hs-extralarge-modal">
