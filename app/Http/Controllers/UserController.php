@@ -246,9 +246,12 @@ public function resetpass($reset_id)
         ->where('storepick.STORE_ID','=','key_type')
         ->where('storepick.PICK_ID','=',501)
         ->get();
-        $events =DB::table('event')->get();
-        // dd($events);
-        return view('User.homenew',['antivirus'=>$antivirus,'vpnshield'=>$vpnshield,'events'=>$events]);
+        $currentDate = Carbon::now()->toDateString();
+        $events = Events::where('event_status', 101)
+                        ->whereDate('event_date', $currentDate)
+                        ->get();
+                        dd($events);
+        return view('User.homenew',['antivirus'=>$antivirus,'vpnshield'=>$vpnshield], compact('events'));
     }
     public function malware_detection()
     {
