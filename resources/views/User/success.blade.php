@@ -139,7 +139,7 @@ p {
                     <a href="https://www.ttbinternetsecurity.com/" class="btn">Go to Dashboard</a>
                 </div>
                 <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12column right">
-                    <img src="/php-lerning/php-img/payment-success.jpg" alt="Success Image" class="success-image">
+                    <img src="{{ asset('assets/img/payment-success.jpg') }}" alt="Success Image" class="success-image">
                    
                 </div>
             </div>
