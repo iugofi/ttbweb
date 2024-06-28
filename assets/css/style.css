@@ -53349,7 +53349,7 @@ hr.hr-line {
     content: " *";
     color: red;
 }
-.img-fluid {
+/* .img-fluid {
     max-width: 100%;
     height: auto;
     animation: rotate 0.1s linear infinite;
@@ -53358,5 +53358,5 @@ hr.hr-line {
     max-width: 100%;
     height: auto;
     animation: rotate 0.1s linear infinite;
-}
+} */
 /* end kunal */
