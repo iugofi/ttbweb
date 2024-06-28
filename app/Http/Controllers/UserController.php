@@ -246,7 +246,7 @@ public function resetpass($reset_id)
         ->where('storepick.STORE_ID','=','key_type')
         ->where('storepick.PICK_ID','=',501)
         ->get();
-        $events = Event::where('event_status', 1)->get();
+        $events = Event::where('event_status', 101)->get();
         return view('User.homenew',['antivirus'=>$antivirus,'vpnshield'=>$vpnshield,'events'=>$events]);
     }
     public function malware_detection()
