@@ -415,8 +415,7 @@
                                                                 </li>
                                                             </ul>
                                                             <div class="grid">
-                                                                <button type="button" class="ti-btn ti-btn-primary">Get
-                                                                    Started</button>
+                                                                <a href="{{ route('user.fpay', ['id' => encrypt($antivirusitem->id)]) }}" class="ti-btn ti-btn-primary">Choose Plan</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -502,8 +501,8 @@
                                                                 </li>
                                                             </ul>
                                                             <div class="grid">
-                                                                <button type="button" class="ti-btn ti-btn-primary">Get
-                                                                    Started</button>
+                                                                
+                                                                    <a href="{{ route('user.fpay', ['id' => encrypt($vpnshielditem->id)]) }}" class="ti-btn ti-btn-primary">Choose Plan</a>
                                                             </div>
                                                         </div>
                                                     </div>
