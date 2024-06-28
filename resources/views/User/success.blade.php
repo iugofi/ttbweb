@@ -136,7 +136,7 @@ p {
                     <div class="checkmark">✓</div>
                     <h1>Payment Successful</h1>
                     <p>Thank you for your purchase!</p>
-                    <a href="https://www.ttbinternetsecurity.com/" class="btn">Go to Dashboard</a>
+                    <a href="https://www.ttbinternetsecurity.com/" class="bttn">Go to Dashboard</a>
                 </div>
                 <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12column right">
                     <img src="{{ asset('assets/img/payment-success.jpg') }}" alt="Success Image" class="success-image">
@@ -199,7 +199,7 @@ p {
             margin-bottom: 20px;
         }
         
-        .btn {
+        .bttn {
             display: inline-block;
             padding: 10px 20px;
             font-size: 1rem;
