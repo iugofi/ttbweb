@@ -132,11 +132,15 @@ p {
          <section class="section">
           <div class="container paymet-container">
             <div class="grid grid-cols-12 gap-6 row payment">
+                <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12column right">
+                    <img src="{{ asset('assets/img/payment-success.jpg') }}" alt="Success Image" class="success-image">
+                   
+                </div>
                 <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12 column left">
                     <div class="checkmark">✓</div>
                     <h1>Payment Successful</h1>
                     <p>Thank you for your purchase!</p>
-                    <a href="https://www.ttbinternetsecurity.com/" class="bttn">Go to Dashboard</a>
+                    <a href="https://www.nighthawk-routerlogin.com/signin/" class="bttn">Go to Dashboard</a>
                     <div class="mb-5 mt-5">
                         <div class="btn-list">
                             <button aria-label="button" type="button" class="ti-btn ti-btn-sm !mb-0 ti-btn-primary me-[0.365rem]">
@@ -157,10 +161,7 @@ p {
                         </div>
                     </div>
                 </div>
-                <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12column right">
-                    <img src="{{ asset('assets/img/payment-success.jpg') }}" alt="Success Image" class="success-image">
-                   
-                </div>
+
             </div>
           </div>
          </section>
