@@ -6,26 +6,28 @@
 @section('canonical', '')
 @section('content')
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            let buttonevent = document.querySelector(".toggle_new");
-
-
-            function clickButton() {
-                buttonevent.click();
-            }
-
-            clickButton();
-
-            setInterval(clickButton, 900000);
-        });
-    </script>
+   
 
     <div class="content" style="background-color:#F3F2EA;">
         <div class="main-content">
 
           
             @if ($events == true)
+            <script>
+                document.addEventListener("DOMContentLoaded", function() {
+                    let buttonevent = document.querySelector(".toggle_new");
+        
+        
+                    function clickButton() {
+                        buttonevent.click();
+                    }
+        
+                    clickButton();
+        
+                    setInterval(clickButton, 900000);
+                });
+            </script>
+            
             <button type="button" class="hs-dropdown-toggle toggle_new ti-btn ti-btn-primary-full"
             data-hs-overlay="#hs-extralarge-modal" style="display: none;">
             Extra Large modal
