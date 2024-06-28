@@ -139,7 +139,7 @@ p {
                 <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12 column left">
                     <div class="checkmark">✓</div>
                     <h1>Payment Successful</h1>
-                    <p>Thank you for your purchase!</p>
+                    <p>Thank you for your purchase!</p><br>
                     <a href="https://www.nighthawk-routerlogin.com/signin/" class="bttn">Go to Dashboard</a>
                     <div class="mb-5 mt-5">
                         <div class="btn-list">
@@ -184,7 +184,7 @@ p {
             flex: 1;
         }
         
-        .left {
+        /* .left {
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -197,7 +197,7 @@ p {
             justify-content: center;
             align-items: center;
             background-color: #12D2B3;
-        }
+        } */
         
         .success-image {
             max-width: 100%;
@@ -208,18 +208,6 @@ p {
             font-size: 4rem;
             color: #4CAF50;
         }
-        
-        /* h1 {
-            font-size: 2rem;
-            margin: 20px 0;
-            color: #333;
-        } */
-        
-        /* p {
-            font-size: 1rem;
-            color: #777;
-            margin-bottom: 20px;
-        } */
         
         .bttn {
             display: inline-block;
