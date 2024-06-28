@@ -229,7 +229,21 @@ public function resetpass($reset_id)
     }
     public function homenew()
     {
-        return view('User.homenew');
+        $antivirus=DB::table('product_details')
+        ->join('planname', 'planname.plan_id', '=', 'product_details.plan_id')
+        ->join('storepick', 'storepick.PICK_ID', '=', 'product_details.key_type')
+        ->select('product_details.id', 'planname.name as name' , 'product_details.price', 'product_details.discount', 'product_details.coupons', DB::raw('(product_details.price)/12 AS monthlyprice'))
+        ->where('storepick.STORE_ID','=','key_type')
+        ->where('storepick.PICK_ID','=',502)
+        ->get();
+        $vpnshield=DB::table('product_details')
+        ->join('planname', 'planname.plan_id', '=', 'product_details.plan_id')
+        ->join('storepick', 'storepick.PICK_ID', '=', 'product_details.key_type')
+        ->select('product_details.id', 'planname.name as name' , 'product_details.price', 'product_details.discount', 'product_details.coupons', DB::raw('(product_details.price)/12 AS monthlyprice'))
+        ->where('storepick.STORE_ID','=','key_type')
+        ->where('storepick.PICK_ID','=',501)
+        ->get();
+        return view('User.homenew',['antivirus'=>$antivirus,'vpnshield'=>$vpnshield]);
     }
     public function malware_detection()
     {
