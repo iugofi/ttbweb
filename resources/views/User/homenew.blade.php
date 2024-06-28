@@ -36,7 +36,7 @@
                         <div class="ti-modal-body">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title text-center" id="eventsModalLabel">Upcoming Events</h5>
+                                    {{-- <h5 class="modal-title text-center" id="eventsModalLabel">Upcoming Events</h5> --}}
                                     
                                 </div>
                                 <div class="modal-body">
