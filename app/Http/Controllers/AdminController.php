@@ -15,6 +15,7 @@ use App\Models\Comment;
 use App\Models\Newscomment; 
 use App\Models\Users; 
 use App\Models\Planname; 
+use App\Models\Eventmodel; 
 use App\Models\Payments; 
 use App\Models\Plandetails; 
 use App\Models\Visitors; 
