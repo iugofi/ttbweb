@@ -149,7 +149,7 @@ p {
 
    
     <style>
-        .container {
+        /* .container {
             max-width: 900px;
             width: 100%;
             background: white;
@@ -161,7 +161,7 @@ p {
         .row {
             display: flex;
             flex-wrap: wrap;
-        }
+        } */
         
         .payment .column {
             flex: 1;
