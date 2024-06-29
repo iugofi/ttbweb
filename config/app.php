@@ -181,6 +181,7 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+        Statikbe\CookieConsent\CookieConsentServiceProvider::class,
 
         /*
          * Package Service Providers...
