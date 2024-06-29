@@ -92,7 +92,7 @@
 </head>
 
 <body class="landing-body">
-    @include('cookie-consent::index')
+   
     <!-- SWITCHER -->
    
 
