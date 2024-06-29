@@ -85,7 +85,7 @@
     </style>
     {{-- start popup html --}}
 
-    <div class="popup" id="popup">
+    {{-- <div class="popup" id="popup">
         <div class="popup-content">
             <button class="close-btn" id="closePopup">&times;</button>
             <img src="https://www.ttbinternetsecurity.com/assets/img/logo.png" alt="Popup Image">
@@ -93,7 +93,7 @@
             <p>Get 10% off your next purchase. <br>Use code: SPECIAL10 at checkout.</p>
             <a href="index.html" class="m-1 ti-btn ti-btn-primary-full mt-6" id="redirectHome">Purchase Now!</a>
         </div>
-    </div>
+    </div> --}}
     
     <script>
         // Get the popup element
