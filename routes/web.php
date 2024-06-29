@@ -128,13 +128,19 @@ Route::get('/network-protection', [UserController::class, 'network_protection'])
 
 
 
-
-
-
 Route::get('/', [UserController::class, 'index'])->name('user.index');
 
 
 
+
+
+
+Route::group([
+   'middleware' => ['cookie-consent']
+], function(){
+  
+
+});
 
 
 
