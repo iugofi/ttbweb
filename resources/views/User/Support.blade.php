@@ -2,7 +2,7 @@
 
 @extends('User.Layouts.layout')
 
-@section('title', 'Terms of Service')
+@section('title', 'Support')
 @section('Description', '')
 @section('keywords', '')
 @section('canonical', '')

@@ -2,7 +2,7 @@
 
 @extends('User.Layouts.layout')
 
-@section('title', 'Terms of Service')
+@section('title', 'Return & Refund Policy')
 @section('Description', '')
 @section('keywords', '')
 @section('canonical', '')

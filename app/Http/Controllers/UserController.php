@@ -291,11 +291,17 @@ public function resetpass($reset_id)
     {
         return view('User.Terms_of_Service');
     }
-    public function popup()
+    public function Return_Refund_Policy()
     {
-        return view('User.popup');
+        return view('User.Return_Refund_Policy');
     }
-     
+    public function Support()
+    {
+        return view('User.Support');
+    }
+
+
+
     public function contactform(Request $request)
     {
 
