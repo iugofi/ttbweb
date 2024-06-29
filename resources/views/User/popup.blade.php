@@ -103,7 +103,7 @@
     // Redirect to the home page when the button is clicked
     document.getElementById('redirectHome').addEventListener('click', (event) => {
         event.preventDefault();
-        window.location.href = 'https://www.nighthawk-routerlogin.com/';
+        window.location.href = '/';
     });
 </script>
  
