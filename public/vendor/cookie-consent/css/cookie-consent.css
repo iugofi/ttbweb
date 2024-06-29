@@ -153,12 +153,12 @@ input[id^=lcc-]:disabled+span {
     overflow: auto;
     padding: 20px;
     position: fixed;
-    top: 50%;
-    right: 0;
-    transform: translateY(-50%);
+    bottom: 20px; /* Align to bottom */
+    right: 20px;  /* Align to right */
     width: 475px;
     z-index: 10001;
 }
+
 
 
 .lcc-modal .lcc-modal__close {
