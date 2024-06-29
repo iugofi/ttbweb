@@ -302,7 +302,6 @@ public function resetpass($reset_id)
 
 
 
-
     public function contactform(Request $request)
     {
 

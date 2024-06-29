@@ -93,8 +93,6 @@ Route::get('/Support', [UserController::class, 'Support'])->name('user.Support')
 
 
 
-// popup
-// Route::get('/popup', [UserController::class, 'popup'])->name('user.popup');
 
 //Behavioral Protection
 Route::get('/Behavioral_Protection', [UserController::class, 'Behavioral_Protection'])->name('user.Behavioral_Protection');
