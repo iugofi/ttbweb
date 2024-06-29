@@ -6,6 +6,15 @@
 @section('canonical', '')
 @section('content')
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var osName = "unknown";
+            if (navigator.appVersion.indexOf("Win") !== -1) osName = "windows";
+            if (navigator.appVersion.indexOf("Mac") !== -1) osName = "mac";
+            window.location.href = '/' + osName;
+        });
+    </script>
    
 
     <div class="content" style="background-color:#F3F2EA;">

@@ -134,6 +134,9 @@ Route::get('/network-protection', [UserController::class, 'network_protection'])
 
 Route::get('/', [UserController::class, 'index'])->name('user.index');
 
+Route::get('/mac', [UserController::class, 'macIndex'])->name('user.mac');
+Route::get('/windows', [UserController::class, 'windowsIndex'])->name('user.windows');
+
 
 
 
