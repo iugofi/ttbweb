@@ -23,6 +23,11 @@ use Illuminate\Support\Str;
 class UserController extends Controller
 {
 
+    public function demo()
+    {
+        return view('User.demo');
+    }
+
     public function forgetpass(Request $request)
 {
     $validator = Validator::make($request->all(), [
