@@ -135,11 +135,6 @@ Route::get('/', [UserController::class, 'index'])->name('user.index');
 
 
 
-Route::group([
-   'middleware' => ['cookie-consent']
-], function(){
-   // ...
-});
 
 
 Route::get('/signin', [UserController::class, 'signin'])->name('user.signin');
