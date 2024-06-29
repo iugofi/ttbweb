@@ -2,7 +2,7 @@
 
 @extends('User.Layouts.layout')
 
-@section('title', 'Test')
+@section('title', 'popup')
 @section('Description', '')
 @section('keywords', '')
 @section('canonical', '')
