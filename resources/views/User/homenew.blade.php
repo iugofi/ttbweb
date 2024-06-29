@@ -163,7 +163,7 @@
         /* End popup css */
 
     </style>
-    
+
     {{-- start popup html --}}
 
     <div class="popup" id="popup">
@@ -201,11 +201,11 @@
         });
     
         // Redirect to the home page when the button is clicked
-        document.getElementById('redirectHome').addEventListener('click', (event) => {
-            event.preventDefault();
-            window.location.href = '/';
-        });
-    </script>
+    //     document.getElementById('redirectHome').addEventListener('click', (event) => {
+    //         event.preventDefault();
+    //         window.location.href = '/';
+    //     });
+    // </script>
 
     {{-- End popup --}}
 

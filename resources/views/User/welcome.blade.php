@@ -120,10 +120,10 @@
         });
     
         // Redirect to the home page when the button is clicked
-        document.getElementById('redirectHome').addEventListener('click', (event) => {
-            event.preventDefault();
-            window.location.href = '/';
-        });
+        // document.getElementById('redirectHome').addEventListener('click', (event) => {
+        //     event.preventDefault();
+        //     window.location.href = '/';
+        // });
     </script>
 
     {{-- End popup --}}
