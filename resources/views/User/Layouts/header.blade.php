@@ -95,6 +95,7 @@
 <body class="landing-body">
 
     <!-- SWITCHER -->
+    @include('cookie-consent::index')
 
 
     <div id="hs-overlay-switcher" class="hs-overlay hidden ti-offcanvas ti-offcanvas-right" tabindex="-1">
