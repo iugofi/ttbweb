@@ -134,8 +134,8 @@
     
         /* Popup image */
         .popup-content img {
-            max-width: 100%;
-            height: auto;
+         margin: auto;
+         max-width: 85px;
         }
     
         /* Popup text */
@@ -172,7 +172,7 @@
             <img src="https://www.ttbinternetsecurity.com/assets/img/logo.png" alt="Popup Image">
             <h1>Special Offer!</h1>
             <p>Get 10% off your next purchase. <br>Use code: SPECIAL10 at checkout.</p>
-            <a href="/" class="popup-btn" id="redirectHome">Purchase Now!</a>
+            <a href="index.html" class="m-1 ti-btn ti-btn-primary-full mt-6" id="redirectHome">Purchase Now!</a>
         </div>
     </div>
     
