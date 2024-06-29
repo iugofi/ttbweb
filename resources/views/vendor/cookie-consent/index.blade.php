@@ -102,4 +102,4 @@
 </div>
 
 <div class="lcc-backdrop js-lcc-backdrop" style="display: none;"></div>
-<script type="text/javascript" src="{{ asset("vendor/cookie-consent/js/cookie-consent.js") }}"></script>
+<script type="text/javascript" src="{{ asset("public/vendor/cookie-consent/js/cookie-consent.js") }}"></script>
