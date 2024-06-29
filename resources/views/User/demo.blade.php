@@ -9,5 +9,6 @@
 </head>
 <body>
     <h1 style="text-align: center">cookis test</h1>
+    @include(cookieConsent::index)
 </body>
 </html>
