@@ -11,7 +11,6 @@
         "laravel/framework": "^9.19",
         "laravel/sanctum": "^3.0",
         "laravel/tinker": "^2.7",
-        "statikbe/laravel-cookie-consent": "^1.8",
         "stripe/stripe-php": "^14.10"
     },
     "require-dev": {

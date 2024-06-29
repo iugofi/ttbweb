@@ -3,7 +3,7 @@
         'name' => 'laravel/laravel',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '56b1b422cc68a7390b82459f3009859e49bc7d90',
+        'reference' => '40e6552ea78d08a7c49cdc0f420d0371d53ecb51',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -412,7 +412,7 @@
         'laravel/laravel' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '56b1b422cc68a7390b82459f3009859e49bc7d90',
+            'reference' => '40e6552ea78d08a7c49cdc0f420d0371d53ecb51',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -1027,15 +1027,6 @@
             'install_path' => __DIR__ . '/../spatie/laravel-ignition',
             'aliases' => array(),
             'dev_requirement' => true,
-        ),
-        'statikbe/laravel-cookie-consent' => array(
-            'pretty_version' => '1.8.5',
-            'version' => '1.8.5.0',
-            'reference' => 'c1ea3e908d10c1019a945c0e0214a0b495a119d6',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../statikbe/laravel-cookie-consent',
-            'aliases' => array(),
-            'dev_requirement' => false,
         ),
         'stripe/stripe-php' => array(
             'pretty_version' => 'v14.10.0',
