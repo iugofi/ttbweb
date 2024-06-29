@@ -15,6 +15,7 @@ return [
 
     'paths' => [
         resource_path('views'),
+        base_path('resources/views/vendor/cookie-consent'),
     ],
 
     /*
