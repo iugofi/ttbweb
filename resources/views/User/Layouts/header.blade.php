@@ -13,7 +13,7 @@
     <!-- TITLE -->
     <title>@yield('title')</title>
 
-   
+    <link rel="stylesheet" type="text/css" href="{{asset("public/vendor/cookie-consent/css/cookie-consent.css")}}">
 
     <!-- FAVICON -->
     <link rel="icon" href="{{ asset('assets/images/brand-logos/favicon.png') }}" type="image/x-icon">
@@ -94,7 +94,7 @@
 </head>
 
 <body class="landing-body">
-    <link rel="stylesheet" type="text/css" href="{{asset("public/vendor/cookie-consent/css/cookie-consent.css")}}">
+
     <!-- SWITCHER -->
    
 
