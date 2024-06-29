@@ -4342,8 +4342,6 @@ return array(
     'Spatie\\LaravelIgnition\\Support\\StringComparator' => $vendorDir . '/spatie/laravel-ignition/src/Support/StringComparator.php',
     'Spatie\\LaravelIgnition\\Views\\BladeSourceMapCompiler' => $vendorDir . '/spatie/laravel-ignition/src/Views/BladeSourceMapCompiler.php',
     'Spatie\\LaravelIgnition\\Views\\ViewExceptionMapper' => $vendorDir . '/spatie/laravel-ignition/src/Views/ViewExceptionMapper.php',
-    'Statikbe\\CookieConsent\\CookieConsentMiddleware' => $vendorDir . '/statikbe/laravel-cookie-consent/src/CookieConsentMiddleware.php',
-    'Statikbe\\CookieConsent\\CookieConsentServiceProvider' => $vendorDir . '/statikbe/laravel-cookie-consent/src/CookieConsentServiceProvider.php',
     'Stringable' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
     'Stripe\\Account' => $vendorDir . '/stripe/stripe-php/lib/Account.php',
     'Stripe\\AccountLink' => $vendorDir . '/stripe/stripe-php/lib/AccountLink.php',

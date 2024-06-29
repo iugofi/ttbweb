@@ -84,7 +84,6 @@ class ComposerStaticInitfe33f98a750b8c5a51b30c78bd3fab21
             'Symfony\\Component\\CssSelector\\' => 30,
             'Symfony\\Component\\Console\\' => 26,
             'Stripe\\' => 7,
-            'Statikbe\\CookieConsent\\' => 23,
             'Spatie\\LaravelIgnition\\' => 23,
             'Spatie\\Ignition\\' => 16,
             'Spatie\\FlareClient\\' => 19,
@@ -324,10 +323,6 @@ class ComposerStaticInitfe33f98a750b8c5a51b30c78bd3fab21
         'Stripe\\' => 
         array (
             0 => __DIR__ . '/..' . '/stripe/stripe-php/lib',
-        ),
-        'Statikbe\\CookieConsent\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/statikbe/laravel-cookie-consent/src',
         ),
         'Spatie\\LaravelIgnition\\' => 
         array (
@@ -4900,8 +4895,6 @@ class ComposerStaticInitfe33f98a750b8c5a51b30c78bd3fab21
         'Spatie\\LaravelIgnition\\Support\\StringComparator' => __DIR__ . '/..' . '/spatie/laravel-ignition/src/Support/StringComparator.php',
         'Spatie\\LaravelIgnition\\Views\\BladeSourceMapCompiler' => __DIR__ . '/..' . '/spatie/laravel-ignition/src/Views/BladeSourceMapCompiler.php',
         'Spatie\\LaravelIgnition\\Views\\ViewExceptionMapper' => __DIR__ . '/..' . '/spatie/laravel-ignition/src/Views/ViewExceptionMapper.php',
-        'Statikbe\\CookieConsent\\CookieConsentMiddleware' => __DIR__ . '/..' . '/statikbe/laravel-cookie-consent/src/CookieConsentMiddleware.php',
-        'Statikbe\\CookieConsent\\CookieConsentServiceProvider' => __DIR__ . '/..' . '/statikbe/laravel-cookie-consent/src/CookieConsentServiceProvider.php',
         'Stringable' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
         'Stripe\\Account' => __DIR__ . '/..' . '/stripe/stripe-php/lib/Account.php',
         'Stripe\\AccountLink' => __DIR__ . '/..' . '/stripe/stripe-php/lib/AccountLink.php',

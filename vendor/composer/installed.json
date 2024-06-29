@@ -6028,64 +6028,6 @@
             "install-path": "../spatie/laravel-ignition"
         },
         {
-            "name": "statikbe/laravel-cookie-consent",
-            "version": "1.8.5",
-            "version_normalized": "1.8.5.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/statikbe/laravel-cookie-consent.git",
-                "reference": "c1ea3e908d10c1019a945c0e0214a0b495a119d6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/statikbe/laravel-cookie-consent/zipball/c1ea3e908d10c1019a945c0e0214a0b495a119d6",
-                "reference": "c1ea3e908d10c1019a945c0e0214a0b495a119d6",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/http": "^9.0|^10.0|^11.0",
-                "php": "^8.0"
-            },
-            "time": "2024-05-14T14:00:41+00:00",
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Statikbe\\CookieConsent\\CookieConsentServiceProvider"
-                    ]
-                }
-            },
-            "installation-source": "dist",
-            "autoload": {
-                "psr-4": {
-                    "Statikbe\\CookieConsent\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Kristof Serré",
-                    "email": "kristof@statik.be",
-                    "homepage": "https://www.statik.be"
-                }
-            ],
-            "description": "Cookie consent modal for EU",
-            "homepage": "https://github.com/statikbe/laravel-cookie-consent",
-            "keywords": [
-                "cookie",
-                "gdpr",
-                "laravel"
-            ],
-            "support": {
-                "issues": "https://github.com/statikbe/laravel-cookie-consent/issues",
-                "source": "https://github.com/statikbe/laravel-cookie-consent/tree/1.8.5"
-            },
-            "install-path": "../statikbe/laravel-cookie-consent"
-        },
-        {
             "name": "stripe/stripe-php",
             "version": "v14.10.0",
             "version_normalized": "14.10.0.0",
