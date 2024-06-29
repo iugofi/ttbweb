@@ -162,7 +162,7 @@
 
 <script src="assets/js/authentication-main.js"></script>
 
-@include('cookieConsent::index')
+@include("vendor.cookie-consent.index")
 </body>
 
 
