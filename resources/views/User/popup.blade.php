@@ -86,7 +86,7 @@
     // Show the popup after 15 seconds
     setTimeout(() => {
         popup.style.display = 'flex';
-    }, 15000);
+    }, 1000);
 
     // Close the popup when the close button is clicked
     closePopup.addEventListener('click', () => {
