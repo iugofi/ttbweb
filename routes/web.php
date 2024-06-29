@@ -134,9 +134,7 @@ Route::get('/', [UserController::class, 'index'])->name('user.index');
 
 
 
-Route::get('/cookies-policy', function () {
-   return view('cookies-policy');
-});
+
 
 
 Route::get('/signin', [UserController::class, 'signin'])->name('user.signin');
