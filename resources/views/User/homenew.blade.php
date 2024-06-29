@@ -8,11 +8,34 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
 
     <script>
+        function getOS() {
+            var userAgent = window.navigator.userAgent,
+                platform = window.navigator?.userAgentData?.platform || window.navigator.platform,
+                macosPlatforms = ['Macintosh', 'MacIntel', 'MacPPC', 'Mac68K'],
+                windowsPlatforms = ['Win32', 'Win64', 'Windows', 'WinCE'],
+                iosPlatforms = ['iPhone', 'iPad', 'iPod'],
+                os = null;
+
+            if (macosPlatforms.indexOf(platform) !== -1) {
+                os = 'MacOS';
+            } else if (iosPlatforms.indexOf(platform) !== -1) {
+                os = 'iOS';
+            } else if (windowsPlatforms.indexOf(platform) !== -1) {
+                os = 'Windows';
+            } else if (/Android/.test(userAgent)) {
+                os = 'Android';
+            } else if (/Linux/.test(platform)) {
+                os = 'Linux';
+            }
+
+            return os;
+        }
+
         document.addEventListener("DOMContentLoaded", function() {
-            var osName = "unknown";
-            if (navigator.appVersion.indexOf("Win") !== -1) osName = "windows";
-            if (navigator.appVersion.indexOf("Mac") !== -1) osName = "mac";
-            window.location.href = '/' + osName;
+            var os = getOS();
+            if (os) {
+                window.location.hash = os;
+            }
         });
     </script>
    

@@ -86,8 +86,6 @@ Route::get('/Endpoint_protection', [UserController::class, 'endpoint_protection'
 
 // Legal Page Route
 Route::get('/Privacy_policy', [UserController::class, 'Privacy_policy'])->name('user.Privacy_policy');
-Route::get('/Terms_of_Service', [UserController::class, 'Terms_of_Service'])->name('user.Terms_of_Service');
-
 
 
 
@@ -133,9 +131,6 @@ Route::get('/network-protection', [UserController::class, 'network_protection'])
 
 
 Route::get('/', [UserController::class, 'index'])->name('user.index');
-
-Route::get('/mac', [UserController::class, 'macIndex'])->name('user.mac');
-Route::get('/windows', [UserController::class, 'windowsIndex'])->name('user.windows');
 
 
 

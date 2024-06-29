@@ -23,18 +23,6 @@ use Illuminate\Support\Str;
 class UserController extends Controller
 {
 
-    public function macIndex()
-    {
-        
-        return "mac";
-    }
-
-    public function windowsIndex()
-    {
-        // Method for Windows users
-        return "windows";
-    }
-
     public function forgetpass(Request $request)
 {
     $validator = Validator::make($request->all(), [
