@@ -2,7 +2,7 @@
 
 @extends('User.Layouts.layout')
 
-@section('title', 'Test')
+@section('title', 'popup')
 @section('Description', '')
 @section('keywords', '')
 @section('canonical', '')
@@ -16,6 +16,7 @@
     <div class="main-content">
 
 
+        <h1 style="text-align: center;">Hello Popup</h1>
 
 
 
