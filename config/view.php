@@ -14,9 +14,11 @@ return [
     */
 
     'paths' => [
-        resource_path('views'),
-        base_path('resources/views/vendor/cookie-consent'),
+    resource_path('views'),
+    // Other paths
+    base_path('resources/views/vendor/cookie-consent'),
     ],
+
 
     /*
     |--------------------------------------------------------------------------
