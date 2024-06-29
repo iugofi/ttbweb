@@ -30,7 +30,7 @@
                         </li>
                         <li class="slide has-sub">
                             <a href="javascript:void(0);" class="side-menu__item">
-                                <span class="side-menu__label me-2">Product</span>
+                                <span class="side-menu__label me-2">Products</span>
                                 <i class="fe fe-chevron-right side-menu__angle op-8"></i>
                             </a>
                             <ul class="slide-menu child1">
