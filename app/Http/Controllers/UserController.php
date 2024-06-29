@@ -295,7 +295,14 @@ public function resetpass($reset_id)
     {
         return view('User.Return_Refund_Policy');
     }
-     
+    public function Support()
+    {
+        return view('User.Support');
+    }
+
+
+
+
     public function contactform(Request $request)
     {
 
