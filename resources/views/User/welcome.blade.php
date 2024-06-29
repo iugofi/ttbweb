@@ -54,8 +54,8 @@
     
         /* Popup image */
         .popup-content img {
-            max-width: 100%;
-            height: auto;
+         margin: auto;
+         max-width: 85px;
         }
     
         /* Popup text */
