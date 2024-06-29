@@ -118,10 +118,6 @@
 
 <!-- SCRIPTS -->
 
-@include('cookie-banner')
-
-<script src="{{ asset('assets/js/cookie-consent.js') }}"></script>
-
 
 <!-- SCROLL-TO-TOP -->
 <div class="scrollToTop">
