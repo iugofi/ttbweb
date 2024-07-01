@@ -83,7 +83,7 @@
                             <img src="{{asset('assets/images/brand-logos/favicon.png')}}" alt="logo" class="desktop-dark">
                         </a>
                     </div>
-                    <div class="box">
+                    <div class="box mt-5">
                         <div class="box-body !p-[3rem]">
                             @if (session('success'))
                                 <div class="alert alert-success">
