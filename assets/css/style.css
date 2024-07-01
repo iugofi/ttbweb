@@ -53343,6 +53343,16 @@ hr.hr-line {
     background-position: center;
     background-repeat: no-repeat;
 }
+.Return-Refund-Policy {
+    position: relative;
+    top: 8rem;
+    height: 28rem;
+    width: 100%;
+    background-image: url('/assets/img/safe_browsing.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 
 /* End Privacy-Policy page css */
