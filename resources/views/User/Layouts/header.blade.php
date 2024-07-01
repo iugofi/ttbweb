@@ -2,10 +2,7 @@
 <html lang="en" dir="ltr" class="h-full" data-nav-layout="horizontal" data-nav-style="menu-click"
     data-menu-position="fixed">
 <head>
-
-    <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
-
-
+    
     <!-- Meta Data -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -97,11 +94,7 @@
 </head>
 
 <body class="landing-body">
-<!-- TrustBox widget - Review Collector -->
-<div class="trustpilot-widget" data-locale="en-US" data-template-id="56278e9abfbbba0bdcd568bc" data-businessunit-id="66825875341e07c644230c4d" data-style-height="52px" data-style-width="100%">
-  <a href="https://www.trustpilot.com/review/nighthawk-routerlogin.com" target="_blank" rel="noopener">Trustpilot</a>
-</div>
-<!-- End TrustBox widget -->
+
     <!-- SWITCHER -->
    
 
