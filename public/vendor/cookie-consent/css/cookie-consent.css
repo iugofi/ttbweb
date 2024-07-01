@@ -1,6 +1,6 @@
-/* .js-lcc-active {
+.js-lcc-active {
     overflow: hidden;
-} */
+}
 
 [class^=lcc-] {
     box-sizing: border-box !important;
