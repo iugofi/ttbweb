@@ -32,7 +32,7 @@
         <!-- End::first Content -->
 
 
-        <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]" style="padding-top: 10rem;">
+        <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]" style="padding-top: 10rem; padding-top: 10rem; padding-bottom: 0rem">
             <div class="container Privacy-container">
                 <div class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
                     
@@ -51,7 +51,7 @@
             </div>
         </div>
 
-        <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]">
+        <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]"style="padding-top: 0rem;">
             <div class="container Privacy-container">
                 <div class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
                     
