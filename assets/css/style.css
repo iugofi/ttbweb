@@ -53335,7 +53335,7 @@ hr.hr-line {
 
 .Privacy-Policy {
     position: relative;
-    top: 8rem;
+    top: 0rem;
     height: 28rem;
     width: 100%;
     background-image: url('/assets/img/safe_browsing.jpg');
@@ -53345,7 +53345,7 @@ hr.hr-line {
 }
 .Return-Refund-Policy {
     position: relative;
-    top: 8rem;
+    top: 0rem;
     height: 28rem;
     width: 100%;
     background-image: url('/assets/img/safe_browsing.jpg');
