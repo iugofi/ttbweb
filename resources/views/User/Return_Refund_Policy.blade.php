@@ -37,12 +37,22 @@
                     
                     {{-- <h1 class="lg:text-center font-semibold mb-2 text-[2rem]">Good Qualification Services
                         And Better Skills</h1> --}}
-                    <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 ">We at TTB care deeply about privacy, security and online safety. Our mission is to protect our users from the risks of theft,
-                         disruption, and unauthorized access to their online information. In our privacy policy, we explain what we do, how we collect, use and share your personal information through our website.
+                    <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 ">We offer 30 day money-back guarantee for TTB Internet Security and its subscription.
+                         If the end-users have purchased directly from us and follow all the instructions in this return and refund policy within 30 days of the date of 
+                         the purchase, we will return the 100% of the price they paid.
                         <br><br>
-                        TTB sells products and services directly to the consumers and this privacy policy applies to the information we collect from you or your device when you download our services.
+                        Before you start, please read all the instructions and limitation described in this return and refund policy. You can let us know if you are not 
+                        satisfied with your purchase. Our return policy is independent of any statutory rights that you may have under any law.
                     </p>
-
+                    <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i>You can only request for return or refund within the 30 days of its purchase.</p>
+                    <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i>Handling, Shipping, and any applicable tax are totally non-refundable.</p>
+                    <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i>If you return TTB internet security, you must agree to uninstall and delete all copies from all your devices.</p>
+                    <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i>Please note that the return and refund eligibility may differ when purchased or billed through a third-party (e.g. App Store, reseller, retailer, vendor, service provider, etc)</p><br><br>
+                    <h5 class="lg:text-center font-semibold mb-2 text-[1.2rem]">We do not grant return and refund for the purchase if:</h5><br>
+                    <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i>You have completed the purchase more than 30 days to the date you requested a return and refund.</p>
+                    <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i>CD, DVD or any other physical medium on which we provide a solution is defective or damaged.</p>
+                    <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i>The product is without proper billing.</p>
+                    <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i>If you need more info on return and refund policy of TTB Internet Security, you can call us on our toll-free number.</p>
                 </div>
             </div>
         </div>
@@ -54,35 +64,10 @@
                 
                 <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 pt-5 pb-0 lg:px-2 !text-start">
                     
-                    <h2 class="lg:text-center font-semibold mb-2 text-[1.8rem]">What kind of information do we collect?</h2>
-                    <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 ">We collect information in order to provide our product and services.
-                         Some information, you provide directly to us, some of the information is collected through our services and some through third-parties.
-                          The type of personal information may include:<br><br>
-                          <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i>Contact information (such as name, email address, phone number, and mailing address)</p>
-                          <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i>Payment information (such as payment card number, billing address, bank account information)</p>
-                          <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i>Account log in credentials</p>
-                    </p>
-
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]"style="padding-top: 0rem; padding-bottom: 0rem;">
-        <div class="container Privacy-container">
-            <div class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
-                
-                <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 pt-5 pb-0 lg:px-2 !text-start">
-                    
-                    <h3 class="lg:text-center font-semibold mb-2 text-[1.8rem]">How do we use the information that we collect?</h3>
-                    <span class="lg:text-center font-semibold mb-2 text-[1.5rem]">To help protect you</span><br>
-                    <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 ">TTB may use your information for:<br><br>
-                          <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i>Analyze the data to isolate and identify threats, vulnerabilities, suspicious activities, spam, viruses and attacks and communicate with you about potential threats.</p>
-                          <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i>Participate in threat intelligence networks, conduct research, and adapt services and products to help respond to threats.</p>
-                          <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i>Encrypt your data, back-up or recover your data.</p>
-                          <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i>Check for service updates</p>
-                          <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i>Look for misuses of your data</p>
+                    <h2 class="lg:text-center font-semibold mb-2 text-[1.8rem]">Cancellation & Refund Policy</h2>
+                    <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 ">Techboy Solutions offer a 30 day money-back guarantee on subscriptions for certain Services and Solutions that the end-user purchases directly from us through our online retail stores or through our partner e-commerce stores. If your purchase qualifies, and you follow all the instructions in this “Cancellation and Refund Policy” within 30 days of the date of purchase, we will terminate your subscription and refund 100% of the price you have paid for your then-current Subscription Term.<br>
+                        We also allow you to cancel your subscription and request a refund (prorated for the unexpired or unused portion of the Subscription Term) if we provide notice to you that we are amending the End User License Agreement we entered into with you in respect of such subscription and/or Solution (the “EULA”), and you object to such amendment within 30 days of the date of such notice.<br>
+                        If your subscription is conditioned on you paying a fee or charge, and if we have not received payment by the 15th day following the payment due date, you will be deemed to have surrendered your license to use the Solution, and the license will terminate immediately without further action by you or us.<br><br>
                     </p>
 
                 </div>
@@ -97,15 +82,27 @@
                 
                 <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 pt-5 pb-0 lg:px-2 !text-start">
                     
-                    <h3 class="lg:text-center font-semibold mb-2 text-[1.8rem]">Disclosing your personal data to third parties</h3>
-                    <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 ">We are required to disclose your personal data to third parties in limited circumstances:<br><br>
-                          <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i>When it is important to satisfy a legitimate government request or order;</p>
-                          <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i> In compliance with a legal requirement by a court of law;</p>
-                          <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i> In response to a third-party subpoena;</p>
-                          <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i>If we obtain permission; or</p>
-                          <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i>If necessary to defend our users or ourselves</p>
+                    <h4 class="lg:text-center font-semibold mb-2 text-[1.8rem]">REQUESTING A CANCELLATION AND REFUND FROM US</h4>
+                    <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 ">Before you start, please read all the restrictions 
+                        and limitations described in this Cancellation and Refund Policy. If you qualify for a cancellation and refund on 
+                        your purchase, and you purchased the subscription directly from us through our website or from our partner 
+                        e-commerce stores, please follow the instructions below:<br><br>
                     </p>
-
+                    <h5 class="lg:text-center font-semibold mb-2 text-[1.2rem]">Products Purchased from Us and Subscriptions You Terminate for 
+                        Notified Amendments to the EULA</h5><br>
+                    <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 ">To request a cancellation and refund for a subscription
+                         you purchased from our website, or to terminate a subscription because you object to an amendment to the EULA we have
+                          notified to you, please find the confirmation email or invoice we sent directly to you in connection with your purchase,
+                           because it will tell you which department you will need to contact (which may not be the brand name on the Solution) and
+                            will contain certain other information you must provide us in order to request your cancellation and refund.<br><br>
+                    </p>
+                    <h5 class="lg:text-center font-semibold mb-2 text-[1.2rem]">Products Purchased from Our Partner E-commerce Stores</h5><br>
+                    <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 ">To request a cancellation and refund on a subscription and/or Solution you purchased from our partner e-commerce stores, you must provide us with the email address you used at the time of purchasing the subscription/solution and the Transaction ID of the purchase.
+                        You can find the Transaction ID by:<br><br>
+                        <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i>finding the email sent on your email address to confirm your purchase; or</p>
+                        <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i> logging into the e-commerce account and then finding the specific transaction in the Orders section.</p><br>
+                        <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 ">Once you have both these details, click on Request a Refund from TTB and follow the instructions on the linked page.<br>,br>
+                   </p>
                 </div>
             </div>
         </div>
@@ -118,17 +115,20 @@
                 
                 <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 pt-5 pb-0 lg:px-2 !text-start">
                     
-                    <h3 class="lg:text-center font-semibold mb-2 text-[1.8rem]">Who do we share personal data with?</h3>
-                    <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 ">Generally, we disclose the information that we collect to communicate with you, to advertise our services or to facilitate changes. For instance, we may share your personal data we collect in the following ways:<br><br>
-                          <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i>With current and future members of the TTB family;</p>
-                          <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i>With service providers that provide services for us;</p>
-                          <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i>If we believe that disclosure is necessary to prevent financial, physical or any other harm;</p>
-                          <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i>To legal, government or judicial authorities in response to a legal activity;</p>
-                          <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i>With your consent such as when you choose to share your personal information;</p>
-                          <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i>With people that you decide to share information with.</p>
-
+                    <h4 class="lg:text-center font-semibold mb-2 text-[1.8rem]">RESTRICTIONS AND LIMITATIONS</h4>
+                    <h5 class="lg:text-center font-semibold mb-2 text-[1.2rem]">Restrictions Regarding Products Purchased from a Reseller
+                         (including a Physical Store or Online Store (eg. Amazon.com))</h5><br>
+                    <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 ">To request a refund on a subscription and/or Solution
+                         you purchased from a physical bricks- and-mortar store, the Amazon website or any other reseller (not mentioned above),
+                          rather than directly from us, please contact the reseller regarding its cancellation and refund policy and any request 
+                          for a refund. We do not grant refunds on those purchases.<br><br>
                     </p>
 
+                    <h5 class="lg:text-center font-semibold mb-2 text-[1.2rem]">Restrictions on Refunds to Resellers, Distributors and Channel Partners.</h5><br>
+                    <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 ">If you purchased a subscription and/or Solution for resale to a third party,
+                         you have a right to receive refunds only if the right is granted by your Reseller Agreement, Distribution Agreement, Channel Partner Agreement
+                          or other agreement with us. Please review your agreement with us before requesting a cancellation and refund.<br><br>
+                    </p>
                 </div>
             </div>
         </div>
@@ -141,29 +141,22 @@
                 
                 <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 pt-5 pb-0 lg:px-2 !text-start">
                     
-                    <h3 class="lg:text-center font-semibold mb-2 text-[1.8rem]">Storage, Retention, and Deletion of Your Personal Data</h3>
-                    <h5 class="lg:text-center font-semibold mb-2 text-[1.2rem]">Storage of information</h5><br>
-                    <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 ">We store and collect information that we receive on the servers of our affiliates,
-                         subsidiaries representatives, agents, contractors, or reseller who are working on our behalf.<br><br></p>
-                         <h5 class="lg:text-center font-semibold mb-2 text-[1.2rem]">Retention and Deletion of Your Personal Data</h5>
-                         <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 ">We retain information for a limited period for 
-                            legitimate business or legal purposes. The information is collected by us when you buy or use our services. 
-                            We set retention time frames based on the reason for its collection and processing. Some data can be deleted 
-                            whenever you want and some is deleted automatically. The data which is needed for our legitimate or legal purposes
-                             is not deleted even upon request.<br><br></p>
-                             <h5 class="lg:text-center font-semibold mb-2 text-[1.2rem]">How do we protect your data?</h5><br>
-                             <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 ">We use physical, administrative, organizational, 
-                                and technical safeguards to protect the personal data we collect and posses. Our security controls are designed 
-                                to maintain integrity, confidentiality, and an appropriate level of availability.<br><br></p>
-                                <h5 class="lg:text-center font-semibold mb-2 text-[1.2rem]">Contact us</h5><br>
-                                <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 ">If you have any doubts, questions or concerns 
-                                    about this statement of privacy, please contact us via email.<br><br></p>
+                    <h4 class="lg:text-center font-semibold mb-2 text-[1.8rem]">OTHER RESTRICTIONS.</h4><br>
+                    <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 ">We do not grant cancellations and refunds for the purchase of any:<br><br>
+                    </p><br><br>
+                        <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 ">Solution if you completed the purchase more than 30 days prior to the date you requested a cancellation and refund<br>
+                        <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 ">CD, DVD or other physical medium on which we provide a copy of a Solution, unless the physical medium is defective,<br>
+                        <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "> service we have fully performed prior to the date you requested a cancellation and refund,<br>
+                        <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 ">Solution with respect to which you have violated our Acceptable Use Policy,<br>
+                        <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 ">Solution with respect to which you have violated our End User License Agreement.<br>
 
-
+                   </p>
                 </div>
             </div>
         </div>
     </div>
+
+
 
 
 
