@@ -61,9 +61,9 @@
                         <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 ">We collect information in order to provide our product and services.
                              Some information, you provide directly to us, some of the information is collected through our services and some through third-parties.
                               The type of personal information may include:<br><br>
-                              <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i class="fa-solid fa-arrow-right-long" style="width: 3%; color: #000000bd;"></i>Contact information (such as name, email address, phone number, and mailing address)</p>
-                              <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i class="fa-solid fa-arrow-right-long" style="width: 3%; color: #000000bd;"></i>Payment information (such as payment card number, billing address, bank account information)</p>
-                              <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i class="fa-solid fa-arrow-right-long" style="width: 3%; color: #000000bd;"></i>Account log in credentials</p>
+                              <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i>Contact information (such as name, email address, phone number, and mailing address)</p>
+                              <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i>Payment information (such as payment card number, billing address, bank account information)</p>
+                              <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i>Account log in credentials</p>
                         </p>
 
                     </div>
