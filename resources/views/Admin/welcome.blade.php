@@ -23,6 +23,8 @@
 
     <!-- STYLE CSS -->
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{asset("public/vendor/cookie-consent/css/cookie-consent.css")}}">
+
 
     <!-- MAIN JS -->
     <script src="{{ asset('assets/js/authentication-main.js') }}"></script>
