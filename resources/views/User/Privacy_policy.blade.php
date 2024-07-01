@@ -57,7 +57,7 @@
                     
                     <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 pt-5 pb-0 lg:px-2 !text-start">
                         
-                        <h3 class="lg:text-center font-semibold mb-2 text-[2rem]">What kind of information do we collect?</h3>
+                        <h3 class="lg:text-center font-semibold mb-2 text-[1.8rem]">What kind of information do we collect?</h3>
                         <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 ">We collect information in order to provide our product and services.
                              Some information, you provide directly to us, some of the information is collected through our services and some through third-parties.
                               The type of personal information may include:<br><br>
