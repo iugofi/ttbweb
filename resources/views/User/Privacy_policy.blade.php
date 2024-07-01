@@ -19,9 +19,9 @@
             <section class="section">
                 <div class="container main-banner-container">
                     <div class="grid grid-cols-12 gap-6">
-                        <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 col-span-12">
+                        <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 col-span-12">
                             <div class="lg:py-[3rem]">
-                                <p class="landing-banner-heading mb-4 opacity-[0.9] pt-5"><span class="first-color">Privacy Policy</p>
+                                <span class="first-color text-4xl font-bold">Privacy Policy</span>
 
                             </div>
                         </div>

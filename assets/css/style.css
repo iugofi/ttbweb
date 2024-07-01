@@ -53330,6 +53330,23 @@ hr.hr-line {
 }
 
 /* End:: virus removal page css */
+
+/* Start Privacy-Policy page css */
+
+.Privacy-Policy {
+    position: relative;
+    top: 8rem;
+    height: 32rem;
+    width: 100%;
+    background-image: url('/assets/img/safe_browsing.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* End Privacy-Policy page css */
+
 /* kunal-verma 23-04-2024 */
 
 #totel-internet-security div#vpnshield {
