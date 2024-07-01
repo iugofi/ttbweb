@@ -197,38 +197,26 @@ class PaymentController extends Controller
             ->first();
 
 
-            try {
-                $getkey = TTBKEY::where('product_id', $vid)->where('is_key_used', 0)->orderBy('created_at', 'ASC')->limit(1)->first();
-                if ($getkey) {
-                    $getkey->is_key_used = 1;
-                    $main_key = $getkey->main_key;
-                    $getkey->save();
-    
-                    Mail::send('Mail.sendkey', ['main_key' => $main_key, 'payment_intent' => $pay_id], function ($message) use ($response) {
-                        $message->to($response->customer_email)->subject('TTB Internet Security Vpn Key');
-                    });
-                } else {
-                    // Default main key value when no product key is available
-                    $main_key = 'N/A';
-                    $not_send_key = new Get_not_send_key();
-                    $not_send_key->user_id = $user_id ? $user_id->id : null;
-                    $not_send_key->session_id = $response->id;
-                    $not_send_key->pay_id = $pay_id;
-                    $not_send_key->product_id = $vid;
-                    $not_send_key->status = 0;
-                    $not_send_key->save();
-                }
-            } catch (\Exception $e) {
-                // Log the error or handle the exception as needed
-                \Log::error('Error retrieving or updating TTBKEY: ' . $e->getMessage());
-                // Default main key value in case of exception
+            $getkey = TTBKEY::where('product_id', $vid)->where('is_key_used', 0)->orderBy('created_at', 'ASC')->limit(1)->first();
+            if ($getkey) {
+                $getkey->is_key_used = 1;
+                $main_key = $getkey->main_key;
+                $getkey->save();
+
+
+                Mail::send('Mail.sendkey', ['main_key' => $main_key, 'payment_intent' => $pay_id], function ($message) use ($response) {
+                    $message->to($response->customer_email)->subject('TTB Internet Security Vpn Key');
+                });
+
+            } else {
+                // Default main key value when no product key is available
                 $main_key = 'N/A';
-                $not_send_key = new Get_not_send_key();
+                $not_send_key=new Get_not_send_key();
                 $not_send_key->user_id = $user_id ? $user_id->id : null;
                 $not_send_key->session_id = $response->id;
                 $not_send_key->pay_id = $pay_id;
                 $not_send_key->product_id = $vid;
-                $not_send_key->status = 0;
+                $not_send_key->status=0;
                 $not_send_key->save();
             }
 
@@ -253,8 +241,15 @@ class PaymentController extends Controller
             $payment->product_key = $main_key;
             $payment->save();
 
-
-
+            if ($main_key !== 'N/A' && $pay_id) {
+                Mail::send('Mail.sendkey', ['main_key' => $main_key, 'payment_intent' => $pay_id], function ($message) use ($response) {
+                    $message->to($response->customer_email)->subject('TTB Internet Security Vpn Key');
+                });
+            } else {
+                Mail::send('Mail.fail', ['customer_email'=>$response->customer_email], function ($message) use ($response) {
+                    $message->to("kunal.iugofi@gmail.com")->subject('TTB Internet Security Vpn Key - Failed');
+                });
+            }
 
             return redirect()->route('user.success');
 
