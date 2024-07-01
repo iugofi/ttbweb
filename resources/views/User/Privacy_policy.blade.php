@@ -86,7 +86,6 @@
                               <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i>Encrypt your data, back-up or recover your data.</p>
                               <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i>Check for service updates</p>
                               <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i>Look for misuses of your data</p>
-
                         </p>
 
                     </div>
