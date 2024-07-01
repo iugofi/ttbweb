@@ -144,11 +144,11 @@
                     <h4 class="lg:text-center font-semibold mb-2 text-[1.8rem]">OTHER RESTRICTIONS.</h4><br>
                     <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 ">We do not grant cancellations and refunds for the purchase of any:<br><br>
                     </p><br><br>
-                        <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 ">Solution if you completed the purchase more than 30 days prior to the date you requested a cancellation and refund<br>
-                        <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 ">CD, DVD or other physical medium on which we provide a copy of a Solution, unless the physical medium is defective,<br>
-                        <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "> service we have fully performed prior to the date you requested a cancellation and refund,<br>
-                        <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 ">Solution with respect to which you have violated our Acceptable Use Policy,<br>
-                        <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 ">Solution with respect to which you have violated our End User License Agreement.<br>
+                        <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i>Solution if you completed the purchase more than 30 days prior to the date you requested a cancellation and refund<br>
+                        <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i>CD, DVD or other physical medium on which we provide a copy of a Solution, unless the physical medium is defective,<br>
+                        <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i> service we have fully performed prior to the date you requested a cancellation and refund,<br>
+                        <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i>Solution with respect to which you have violated our Acceptable Use Policy,<br>
+                        <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i>Solution with respect to which you have violated our End User License Agreement.<br>
 
                    </p>
                 </div>
