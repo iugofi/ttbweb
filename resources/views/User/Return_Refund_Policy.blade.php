@@ -149,8 +149,7 @@
                         <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i> service we have fully performed prior to the date you requested a cancellation and refund,<br>
                         <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i>Solution with respect to which you have violated our Acceptable Use Policy,<br>
                         <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i>Solution with respect to which you have violated our End User License Agreement.<br>
-
-                   </p>
+                   </p><br><br>
                 </div>
             </div>
         </div>
