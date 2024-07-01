@@ -21,7 +21,7 @@
                     <div class="grid grid-cols-12 gap-6 mt-5">
                         <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 col-span-12 text-center pt-5 mt-5">
                             <div class="lg:py-[3rem] mt-5">
-                                <span class="first-color text-4xl font-bold">Privacy Policy</span>
+                                <h1 class="first-color text-4xl font-bold">Privacy Policy</h1>
 
                             </div>
                         </div>
@@ -57,7 +57,7 @@
                     
                     <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 pt-5 pb-0 lg:px-2 !text-start">
                         
-                        <h1 class="lg:text-center font-semibold mb-2 text-[1.8rem]">What kind of information do we collect?</h1>
+                        <h2 class="lg:text-center font-semibold mb-2 text-[1.8rem]">What kind of information do we collect?</h2>
                         <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 ">We collect information in order to provide our product and services.
                              Some information, you provide directly to us, some of the information is collected through our services and some through third-parties.
                               The type of personal information may include:<br><br>
