@@ -145,20 +145,20 @@
                     <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 pt-5 pb-0 lg:px-2 !text-start">
                         
                         <h3 class="lg:text-center font-semibold mb-2 text-[1.8rem]">Storage, Retention, and Deletion of Your Personal Data</h3>
-                        <span class="lg:text-center font-semibold mb-2 text-[1.2rem]">Storage of information</span>
+                        <h5 class="lg:text-center font-semibold mb-2 text-[1.2rem]">Storage of information</h5><br>
                         <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 ">We store and collect information that we receive on the servers of our affiliates,
                              subsidiaries representatives, agents, contractors, or reseller who are working on our behalf.<br><br></p>
-                             <span class="lg:text-center font-semibold mb-2 text-[1.2rem]">Retention and Deletion of Your Personal Data</span>
+                             <h5 class="lg:text-center font-semibold mb-2 text-[1.2rem]">Retention and Deletion of Your Personal Data</h5>
                              <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 ">We retain information for a limited period for 
                                 legitimate business or legal purposes. The information is collected by us when you buy or use our services. 
                                 We set retention time frames based on the reason for its collection and processing. Some data can be deleted 
                                 whenever you want and some is deleted automatically. The data which is needed for our legitimate or legal purposes
                                  is not deleted even upon request.<br><br></p>
-                                 <span class="lg:text-center font-semibold mb-2 text-[1.2rem]">How do we protect your data?</span>
+                                 <h5 class="lg:text-center font-semibold mb-2 text-[1.2rem]">How do we protect your data?</h5><br>
                                  <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 ">We use physical, administrative, organizational, 
                                     and technical safeguards to protect the personal data we collect and posses. Our security controls are designed 
                                     to maintain integrity, confidentiality, and an appropriate level of availability.<br><br></p>
-                                    <span class="lg:text-center font-semibold mb-2 text-[1.2rem]">Contact us</span>
+                                    <h5 class="lg:text-center font-semibold mb-2 text-[1.2rem]">Contact us</h5><br>
                                     <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 ">If you have any doubts, questions or concerns 
                                         about this statement of privacy, please contact us via email.<br><br></p>
 
