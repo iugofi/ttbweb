@@ -94,7 +94,79 @@
         </div>
 
 
+        <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]"style="padding-top: 0rem;">
+            <div class="container Privacy-container">
+                <div class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
+                    
+                    <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 pt-5 pb-0 lg:px-2 !text-start">
+                        
+                        <h3 class="lg:text-center font-semibold mb-2 text-[1.8rem]">Disclosing your personal data to third parties</h3>
+                        <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 ">We are required to disclose your personal data to third parties in limited circumstances:<br><br>
+                              <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i>When it is important to satisfy a legitimate government request or order;</p>
+                              <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i> In compliance with a legal requirement by a court of law;</p>
+                              <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i> In response to a third-party subpoena;</p>
+                              <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i>If we obtain permission; or</p>
+                              <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i>If necessary to defend our users or ourselves</p>
+                        </p>
 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]"style="padding-top: 0rem;">
+            <div class="container Privacy-container">
+                <div class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
+                    
+                    <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 pt-5 pb-0 lg:px-2 !text-start">
+                        
+                        <h3 class="lg:text-center font-semibold mb-2 text-[1.8rem]">Who do we share personal data with?</h3>
+                        <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 ">Generally, we disclose the information that we collect to communicate with you, to advertise our services or to facilitate changes. For instance, we may share your personal data we collect in the following ways:<br><br>
+                              <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i>With current and future members of the TTB family;</p>
+                              <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i>With service providers that provide services for us;</p>
+                              <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i>If we believe that disclosure is necessary to prevent financial, physical or any other harm;</p>
+                              <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i>To legal, government or judicial authorities in response to a legal activity;</p>
+                              <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i>With your consent such as when you choose to share your personal information;</p>
+                              <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i>With people that you decide to share information with.</p>
+
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]"style="padding-top: 0rem;">
+            <div class="container Privacy-container">
+                <div class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
+                    
+                    <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 pt-5 pb-0 lg:px-2 !text-start">
+                        
+                        <h3 class="lg:text-center font-semibold mb-2 text-[1.8rem]">Storage, Retention, and Deletion of Your Personal Data</h3>
+                        <span class="lg:text-center font-semibold mb-2 text-[1.2rem]">Storage of information</span>
+                        <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 ">We store and collect information that we receive on the servers of our affiliates,
+                             subsidiaries representatives, agents, contractors, or reseller who are working on our behalf.<br><br></p>
+                             <span class="lg:text-center font-semibold mb-2 text-[1.2rem]">Retention and Deletion of Your Personal Data</span>
+                             <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 ">We retain information for a limited period for 
+                                legitimate business or legal purposes. The information is collected by us when you buy or use our services. 
+                                We set retention time frames based on the reason for its collection and processing. Some data can be deleted 
+                                whenever you want and some is deleted automatically. The data which is needed for our legitimate or legal purposes
+                                 is not deleted even upon request.<br><br></p>
+                                 <span class="lg:text-center font-semibold mb-2 text-[1.2rem]">How do we protect your data?</span>
+                                 <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 ">We use physical, administrative, organizational, 
+                                    and technical safeguards to protect the personal data we collect and posses. Our security controls are designed 
+                                    to maintain integrity, confidentiality, and an appropriate level of availability.<br><br></p>
+                                    <span class="lg:text-center font-semibold mb-2 text-[1.2rem]">Contact us</span>
+                                    <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 ">If you have any doubts, questions or concerns 
+                                        about this statement of privacy, please contact us via email.<br><br></p>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
 
