@@ -51781,7 +51781,7 @@ h6.uppercase {
     }
 
     .flex {
-        display: -webkit-inline-box;
+        /* display: -webkit-inline-box; */
         margin: 16px 0 auto !important;
         width: 100%;
     }
