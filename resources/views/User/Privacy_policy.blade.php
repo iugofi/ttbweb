@@ -51,7 +51,7 @@
             </div>
         </div>
 
-        <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]" style="padding-top: 10rem;">
+        <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]">
             <div class="container Privacy-container">
                 <div class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
                     
@@ -60,11 +60,10 @@
                         <h1 class="lg:text-center font-semibold mb-2 text-[2rem]">What kind of information do we collect?</h1>
                         <p class=" text-[1rem] text-[#8c9097] dark:text-white/50 mb-4 ">We collect information in order to provide our product and services.
                              Some information, you provide directly to us, some of the information is collected through our services and some through third-parties.
-                              The type of personal information may include:<br>
-
-                            Contact information (such as name, email address, phone number, and mailing address)
-                            Payment information (such as payment card number, billing address, bank account information)
-                            Account log in credentials
+                              The type of personal information may include:<br><br>
+                              <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i class="fa-solid fa-arrow-right-long" style="width: 6%; color: #000000bd;"></i>Contact information (such as name, email address, phone number, and mailing address)</p>
+                              <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i class="fa-solid fa-arrow-right-long" style="width: 6%; color: #000000bd;"></i>Payment information (such as payment card number, billing address, bank account information)</p>
+                              <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i class="fa-solid fa-arrow-right-long" style="width: 6%; color: #000000bd;"></i>Account log in credentials</p>
                         </p>
 
                     </div>
