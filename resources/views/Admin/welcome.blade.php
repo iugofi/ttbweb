@@ -36,6 +36,9 @@
         body {
             background-color: rgb(var(--body-bg));
         }
+        .lcc-button{
+            color: #fff;
+        }
     </style>
 
 </head>
