@@ -139,12 +139,12 @@ Route::get('/', [UserController::class, 'index'])->name('user.index');
 
 
 
-Route::group([
-   'middleware' => ['cookie-consent']
-], function(){
+// Route::group([
+//    'middleware' => ['cookie-consent']
+// ], function(){
   
 
-});
+// });
 
 
 
