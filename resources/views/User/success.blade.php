@@ -22,9 +22,15 @@ hidefooter.style.display="none";
 
     <div class="main-content !p-0 landing-main dark:text-defaulttextcolor/70" id="totel-internet-security">
 
+<style>
+        @media (min-width: 320px) and (max-width: 767px) {
+            img.payment-success-img {
+                width: 100% !important;
+            }
+        }
 
-
-
+    </style>
+    
     <div class="page error-bg dark:!bg-bodybg" id="particles-js">
         <!-- Start::error-page -->
         <div class="error-page">
