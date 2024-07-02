@@ -87,7 +87,6 @@ Route::get('/Endpoint_protection', [UserController::class, 'endpoint_protection'
 Route::get('/Privacy_policy', [UserController::class, 'Privacy_policy'])->name('user.Privacy_policy');
 Route::get('/Terms_of_Service', [UserController::class, 'Terms_of_Service'])->name('user.Terms_of_Service');
 Route::get('/Return_Refund_Policy', [UserController::class, 'Return_Refund_Policy'])->name('user.Return_Refund_Policy');
-Route::get('/Support', [UserController::class, 'Support'])->name('user.Support');
 
 
 
