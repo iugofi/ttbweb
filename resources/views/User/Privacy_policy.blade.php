@@ -20,7 +20,7 @@
                 <div class="container main-banner-container">
                     <div class="grid grid-cols-12 gap-6 mt-5">
                         <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 col-span-12 text-center pt-5 mt-5">
-                            <div class="lg:py-[3rem] mt-5">
+                            <div class="lg:py-[3rem] mt-5" style="padding: 8rem">
                                 <h1 class="first-color text-4xl font-bold">Privacy Policy</h1>
 
                             </div>
