@@ -44,10 +44,10 @@ hidefooter.style.display="none";
                             <p class="text-[1.125rem] font-semibold mb-4">Payment Successful</p>
                             <div class="flex justify-center items-center mb-[3rem]">
                                 <div class="xl:col-span-6 w-[50%]">
-                                    <p class="mb-0 opacity-[0.7]">Thank you for your purchase!</p>
+                                    <p class="mb-0 opacity-[0.7]">Thank you for your purchase!</p><br>
                                 </div>
                             </div>
-                            <a href="https://www.nighthawk-routerlogin.com/" class="ti-btn bg-primary text-white font-semibold"><i class="ri-arrow-left-line align-middle inline-block"></i>BACK TO HOME</a>
+                            <a href="{{route('/')}}" class="ti-btn bg-primary text-white font-semibold"><i class="ri-arrow-left-line align-middle inline-block"></i>BACK TO HOME</a>
                         </div>
                         <div class="xl:col-span-3"></div>
                     </div>
