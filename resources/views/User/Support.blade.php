@@ -24,12 +24,12 @@
                         <div class="mb-8">
                             <div class="flex items-center mb-4" style="color:#12D2B3; display: block;">
                                 <i class="bi bi-geo-alt text-4xl text-green-500 mr-4"></i>
-                                <h3 class="text-xl font-bold text-white dark:text-white/50 pt-5">OUR OFFICES</h3>
+                                <h3 class="text-xl pt-5" style="color: #12D2B3;">OUR OFFICES</h3>
                             </div>
-                            <p class="mb-2 text-white dark:text-white/50 pt-5"><span class="text-green-500 font-bold text-white dark:text-white/50 pt-5">USA:</span> Sand Lake Rd, Orlando, FL, USA</p>
-                            <p class="mb-2 text-white dark:text-white/50 pt-5"><span class="text-green-500 font-bold text-white dark:text-white/50 pt-5">United Kingdom:</span> Shelton Street, Covent Garden, London, UK</p>
-                            <p class="mb-2 text-white dark:text-white/50 pt-5"><span class="text-green-500 font-bold text-white dark:text-white/50 pt-5">Canada:</span> Sugarpine Court Brampton, Ontario, CA</p>
-                            <p text-white dark:text-white pt-5><span class="text-green-500 font-bold text-white dark:text-white/50 pt-5">India:</span> Bestech Business Tower, Sector 66, Mohali, IN</p>
+                            <p class="mb-2 text-white dark:text-white/50 pt-5"><span class="text-green-500 pt-5" style="color: #12D2B3;">USA:</span> Sand Lake Rd, Orlando, FL, USA</p>
+                            <p class="mb-2 text-white dark:text-white/50 pt-5"><span class="text-green-500 pt-5" style="color: #12D2B3;">United Kingdom:</span> Shelton Street, Covent Garden, London, UK</p>
+                            <p class="mb-2 text-white dark:text-white/50 pt-5"><span class="text-green-500 pt-5" style="color: #12D2B3;">Canada:</span> Sugarpine Court Brampton, Ontario, CA</p>
+                            <p text-white dark:text-white pt-5><span class="text-green-500 pt-5" style="color: #12D2B3;">India:</span> Bestech Business Tower, Sector 66, Mohali, IN</p>
                         </div>
                     </div>
                 </div>
