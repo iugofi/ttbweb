@@ -57,7 +57,7 @@
                 
                 <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 pt-5 pb-0 lg:px-2 !text-start">
                     
-                    <h2 class="lg:text-center font-semibold mb-2 text-[1.8rem]">USER CONDITIONS</h2>
+                    <h2 class="lg:text-center font-semibold mb-2 text-[1.5rem]">USER CONDITIONS</h2>
                     <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 ">Your use of TTB Security products is governed by these
                          terms and conditions which you should read carefully before using any product of TTB Securities. These conditions 
                          represent a contract between you and TTB. If you disagree to the terms and conditions, please do not install or
@@ -78,7 +78,7 @@
                 
                 <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 pt-5 pb-0 lg:px-2 !text-start">
                     
-                    <h3 class="lg:text-center font-semibold mb-2 text-[1.8rem]">CONFIDENTIAL AGREEMENT</h3>
+                    <h3 class="lg:text-center font-semibold mb-2 text-[1.5rem]">CONFIDENTIAL AGREEMENT</h3>
                     <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 ">The parties may disclose to each other confidential information
                          which may include information concerning their respective business and technology. The products and product information are the 
                          confidential information of TTB. Each party must agree to maintain all the confidential information of all the other party in 
@@ -94,7 +94,7 @@
                 
                 <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 pt-5 pb-0 lg:px-2 !text-start">
                     
-                    <h3 class="lg:text-center font-semibold mb-2 text-[1.8rem]">OWNERSHIP</h3>
+                    <h3 class="lg:text-center font-semibold mb-2 text-[1.5rem]">OWNERSHIP</h3>
                     <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 ">TTB own and retain all rights, title and interest to the products,
                          including all the intellectual property and proprietary rights. TTB owns and retains all right, title and interest in all software,
                           documentation, questionnaire, algorithms, logic, methodologies, charts, reports or any other item. TTB reserves all rights.</p>
