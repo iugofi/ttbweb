@@ -34,7 +34,7 @@ hidefooter.style.display="none";
                       <div class="xl:col-span-3"></div>
                         <div class="xl:col-span-6 col-span-12">
                             <!-- <p class="error-text sm:mb-0 mb-2">500</p> -->
-                            <img src="{{asset('assets/img/paysuccess.jpg')}}" alt="" style="width:60%; height: auto; margin: auto;">
+                            <img src="{{asset('assets/img/paysuccess.jpg')}}" alt="" style="width:60%; height: auto; margin: auto;" class="payment-success-img">
                             <p class="text-[1.125rem] font-semibold mb-4">Payment Successful</p>
                             <div class="flex justify-center items-center mb-[3rem]">
                                 <div class="xl:col-span-6 w-[50%]">
