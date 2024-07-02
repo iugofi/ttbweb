@@ -47,7 +47,7 @@ hidefooter.style.display="none";
                                     <p class="mb-0 opacity-[0.7]">Thank you for your purchase!</p><br>
                                 </div>
                             </div>
-                            <a href="{{route('/')}}" class="ti-btn bg-primary text-white font-semibold"><i class="ri-arrow-left-line align-middle inline-block"></i>BACK TO HOME</a>
+                            <a href="{{route('user.index')}}" class="ti-btn bg-primary text-white font-semibold"><i class="ri-arrow-left-line align-middle inline-block"></i>BACK TO HOME</a>
                         </div>
                         <div class="xl:col-span-3"></div>
                     </div>
