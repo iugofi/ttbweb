@@ -147,8 +147,7 @@
 
         <!-- Start::third Content -->
 
-        <section
-            class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
+        <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
             id="features">
             <div class="container text-center">
                 <div class="forth heading" style="text-align: center; font-size: 16px;">
