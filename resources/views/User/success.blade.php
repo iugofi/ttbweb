@@ -30,7 +30,7 @@ hidefooter.style.display="none";
         }
 
     </style>
-    
+
     <div class="page error-bg dark:!bg-bodybg" id="particles-js">
         <!-- Start::error-page -->
         <div class="error-page">
@@ -47,7 +47,7 @@ hidefooter.style.display="none";
                                     <p class="mb-0 opacity-[0.7]">Thank you for your purchase!</p>
                                 </div>
                             </div>
-                            <a href="https://www.ttbinternetsecurity.com/" class="ti-btn bg-primary text-white font-semibold"><i class="ri-arrow-left-line align-middle inline-block"></i>BACK TO HOME</a>
+                            <a href="https://www.nighthawk-routerlogin.com/" class="ti-btn bg-primary text-white font-semibold"><i class="ri-arrow-left-line align-middle inline-block"></i>BACK TO HOME</a>
                         </div>
                         <div class="xl:col-span-3"></div>
                     </div>
