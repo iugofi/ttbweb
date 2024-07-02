@@ -33,7 +33,7 @@
         <div class="container Privacy-container">
             <div class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
                 
-                <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 pt-5 pb-0 lg:px-2 !text-start">
+                <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 pt-5 mt-5 pb-0 lg:px-2 !text-start">
                     
                     {{-- <h1 class="lg:text-center font-semibold mb-2 text-[2rem]">Good Qualification Services
                         And Better Skills</h1> --}}
@@ -67,7 +67,7 @@
                     <h2 class="lg:text-center font-semibold mb-2 text-[1.8rem]">Cancellation & Refund Policy</h2>
                     <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 ">Techboy Solutions offer a 30 day money-back guarantee on subscriptions for certain Services and Solutions that the end-user purchases directly from us through our online retail stores or through our partner e-commerce stores. If your purchase qualifies, and you follow all the instructions in this “Cancellation and Refund Policy” within 30 days of the date of purchase, we will terminate your subscription and refund 100% of the price you have paid for your then-current Subscription Term.<br><br>
                         We also allow you to cancel your subscription and request a refund (prorated for the unexpired or unused portion of the Subscription Term) if we provide notice to you that we are amending the End User License Agreement we entered into with you in respect of such subscription and/or Solution (the “EULA”), and you object to such amendment within 30 days of the date of such notice.<br><br>
-                        If your subscription is conditioned on you paying a fee or charge, and if we have not received payment by the 15th day following the payment due date, you will be deemed to have surrendered your license to use the Solution, and the license will terminate immediately without further action by you or us.<br><br><br>
+                        If your subscription is conditioned on you paying a fee or charge, and if we have not received payment by the 15th day following the payment due date, you will be deemed to have surrendered your license to use the Solution, and the license will terminate immediately without further action by you or us.<br>
                     </p>
 
                 </div>
@@ -142,7 +142,7 @@
                 <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 pt-5 pb-0 lg:px-2 !text-start">
                     
                     <h4 class="lg:text-center font-semibold mb-2 text-[1.8rem]">OTHER RESTRICTIONS.</h4><br>
-                    <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 ">We do not grant cancellations and refunds for the purchase of any:<br><br>
+                    <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 ">We do not grant cancellations and refunds for the purchase of any:
                     </p><br><br>
                         <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i>Solution if you completed the purchase more than 30 days prior to the date you requested a cancellation and refund<br>
                         <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i>CD, DVD or other physical medium on which we provide a copy of a Solution, unless the physical medium is defective,<br>
