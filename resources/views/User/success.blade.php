@@ -8,6 +8,7 @@
 
 @section('content')
 <script>
+document.addEventListener('DOMContentLoaded',(event)=>{
 
 let hidecon=document.querySelector('.landing-main-footer');
 hidecon.style.display="none";
@@ -15,6 +16,7 @@ let hideheader=document.querySelector('.app-sidebar');
 hideheader.style.display="none";
 let hidefooter=document.querySelector('.landing-footer');
 hidefooter.style.display="none";
+});
 
 </script>
     <div class="main-content !p-0 landing-main dark:text-defaulttextcolor/70" id="totel-internet-security">
