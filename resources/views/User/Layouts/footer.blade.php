@@ -162,7 +162,7 @@
 
 <script src="assets/js/authentication-main.js"></script>
 
-<a href="javascript:void(0)" class="js-lcc-settings-toggle">@lang('cookie-consent::texts.alert_settings')</a>
+{{-- <a href="javascript:void(0)" class="js-lcc-settings-toggle">@lang('cookie-consent::texts.alert_settings')</a> --}}
 </body>
 
 
