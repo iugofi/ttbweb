@@ -53354,8 +53354,16 @@ hr.hr-line {
     background-repeat: no-repeat;
 }
 
-
 /* End Privacy-Policy page css */
+
+#support-page {
+    background-image: url('https://www.ttbinternetsecurity.com/assets/img/bacground-image%20(2).png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
 
 /* kunal-verma 23-04-2024 */
 

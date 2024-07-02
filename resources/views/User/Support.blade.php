@@ -11,7 +11,7 @@
 
 @section('content')
 
-<div class="main-content !p-0 landing-main dark:text-defaulttextcolor/70" id="totel-internet-security">
+<div class="main-content !p-0 landing-main dark:text-defaulttextcolor/70" id="support-page">
 
     <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]" id="features">
         <div class="container main-banner-container text-center">
