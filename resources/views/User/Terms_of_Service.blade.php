@@ -109,7 +109,7 @@
                 
                 <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 pt-5 pb-0 lg:px-2 !text-start">
                     
-                    <h3 class="lg:text-center font-semibold mb-2 text-[1.8rem]">SUPPORT</h3>
+                    <h4 class="lg:text-center font-semibold mb-2 text-[1.8rem]">SUPPORT</h4>
                     <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 ">TTB may, in its sole discretion, provide certain support and
                          consultation to its customers. TTB is obligated to correct any bugs, defects or errors in the products.</p>
                 </div>
@@ -123,7 +123,7 @@
                 
                 <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 pt-5 pb-0 lg:px-2 !text-start">
                     
-                    <h3 class="lg:text-center font-semibold mb-2 text-[1.8rem]">UPDATES</h3>
+                    <h4 class="lg:text-center font-semibold mb-2 text-[1.8rem]">UPDATES</h4>
                     <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 ">TTB will provide you updates to the product, malware signatures
                          and content. A user needs to update the security from time-to-time.</p>
                 </div>
@@ -137,7 +137,7 @@
                 
                 <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 pt-5 pb-0 lg:px-2 !text-start">
                     
-                    <h3 class="lg:text-center font-semibold mb-2 text-[1.8rem]">PRIVACY POLICY</h3>
+                    <h4 class="lg:text-center font-semibold mb-2 text-[1.8rem]">PRIVACY POLICY</h4>
                     <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 ">TTB Securities recognizes the importance of maintaining the 
                         privacy of personal data which it possesses and collects. By accepting the terms and conditions, you agree to be bound by TTB.</p>
                 </div>
@@ -151,7 +151,7 @@
                 
                 <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 pt-5 pb-0 lg:px-2 !text-start">
                     
-                    <h3 class="lg:text-center font-semibold mb-2 text-[1.8rem]">LANGUAGE</h3>
+                    <h4 class="lg:text-center font-semibold mb-2 text-[1.8rem]">LANGUAGE</h4>
                     <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 ">The governing language is English. This agreement can
                          only be modified or amended with TTB’s written consent.</p>
                 </div>
