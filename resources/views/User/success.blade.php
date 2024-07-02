@@ -6,6 +6,7 @@
 @section('Description', '')
 @section('keywords', '')
 @section('canonical', '')
+@success('success-paymet')
 
 
 
