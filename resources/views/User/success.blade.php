@@ -60,7 +60,7 @@
    
     <style>
         .paymet-container {
-            max-width: 900px;
+            max-width: 1080px;
              width: 100%;
             background: white;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
