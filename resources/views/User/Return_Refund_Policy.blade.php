@@ -127,7 +127,7 @@
                     <h5 class="lg:text-center font-semibold mb-2 text-[1.2rem]">Restrictions on Refunds to Resellers, Distributors and Channel Partners.</h5><br>
                     <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 ">If you purchased a subscription and/or Solution for resale to a third party,
                          you have a right to receive refunds only if the right is granted by your Reseller Agreement, Distribution Agreement, Channel Partner Agreement
-                          or other agreement with us. Please review your agreement with us before requesting a cancellation and refund.<br><br>
+                          or other agreement with us. Please review your agreement with us before requesting a cancellation and refund.<br>
                     </p>
                 </div>
             </div>
