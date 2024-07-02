@@ -38,20 +38,20 @@
                         <form action="contact_mail.php" method="POST" class="space-y-6">
                             <div class="flex flex-wrap -mx-2">
                                 <div class="w-full md:w-1/2 px-2 mb-4">
-                                    <input type="text" name="firstname" required="" class="w-full p-3 bg-gray-900 border border-gray-700 rounded text-white" placeholder="First Name">
+                                    <input type="text" name="firstname" required="" class="w-full p-3 border border-gray-100 rounded text-white" placeholder="First Name">
                                 </div>
-                                <div class="w-full md:w-1/2 px-2 mb-4">
-                                    <input type="text" name="lastname" required="" class="w-full p-3 bg-gray-900 border border-gray-700 rounded text-white" placeholder="Last Name">
+                                <div class="w-full md:w-1/2 px-2 mb-0">
+                                    <input type="text" name="lastname" required="" class="w-full p-3 border border-gray-700 rounded text-white" placeholder="Last Name">
                                 </div>
                             </div>
-                            <div class="mb-4">
-                                <input type="email" name="email" required="" class="w-full p-3 bg-gray-900 border border-gray-700 rounded text-white" placeholder="Your Email">
+                            <div class="w-full md:w-1/2 px-2 mb-0">
+                                <input type="email" name="email" required="" class="w-full p-3 border border-gray-700 rounded text-white" placeholder="Your Email">
                             </div>
-                            <div class="mb-4">
-                                <input type="text" name="contact" required="" class="w-full p-3 bg-gray-900 border border-gray-700 rounded text-white" placeholder="Contact Number">
+                            <div class="w-full md:w-1/2 px-2 mb-0">
+                                <input type="text" name="contact" required="" class="w-full p-3 border border-gray-700 rounded text-white" placeholder="Contact Number">
                             </div>
-                            <div class="mb-4">
-                                <textarea name="query" required="" class="w-full p-3 bg-gray-900 border border-gray-700 rounded text-white" placeholder="Your Query"></textarea>
+                            <div class="w-full md:w-1/2 px-2 mb-0">
+                                <textarea name="query" required="" class="w-full p-3 border border-gray-700 rounded text-white" placeholder="Your Query" spellcheck="false"></textarea>
                             </div>
                             <div class="text-center">
                                 <button type="submit" name="message" class="px-6 py-3 bg-green-500 rounded hover:bg-green-600 transition">Send Query</button>
