@@ -29,7 +29,7 @@
                             <p class="mb-2 text-white dark:text-white/50 pt-5"><span class="text-green-500 pt-5" style="color: #12D2B3;">USA:</span> Sand Lake Rd, Orlando, FL, USA</p>
                             <p class="mb-2 text-white dark:text-white/50 pt-5"><span class="text-green-500 pt-5" style="color: #12D2B3;">United Kingdom:</span> Shelton Street, Covent Garden, London, UK</p>
                             <p class="mb-2 text-white dark:text-white/50 pt-5"><span class="text-green-500 pt-5" style="color: #12D2B3;">Canada:</span> Sugarpine Court Brampton, Ontario, CA</p>
-                            <p text-white dark:text-white pt-5><span class="text-green-500 pt-5" style="color: #12D2B3;">India:</span> Bestech Business Tower, Sector 66, Mohali, IN</p>
+                            <p class="mb-2 text-white dark:text-white/50 pt-5"><span class="text-green-500 pt-5" style="color: #12D2B3;">India:</span> Bestech Business Tower, Sector 66, Mohali, IN</p>
                         </div>
                     </div>
                 </div>
