@@ -34,7 +34,7 @@
                     </div>
                 </div>
                 <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
-                    <div class="xl:col-span-3 col-span-12 support-m">
+                    <div class="xl:col-span-3 col-span-12 support-m" style="background: #fff; padding: 25px; border-radius: 4px;">
                         <form action="contact_mail.php" method="POST" class="space-y-6">
                             <div class="flex flex-wrap -mx-2">
                                 <div class="w-full md:w-1/2 px-2 mb-4">
