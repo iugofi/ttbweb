@@ -16,20 +16,20 @@
     <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]" id="features">
         <div class="container main-banner-container text-center">
             <h2 class="landing-banner-heading mb-4 pb-5 opacity-[0.9] pt-5"><span class="text-dark"
-                    style="font-size:40px; font-weight:600;">System Requirements</h2>
-            <p class="card-text mb-4 pb-5">Lorem ipsum dolor sit amet</p>
+                    style="font-size:40px; font-weight:600; text-white dark:text-white/50 pt-5">System Requirements</h2>
+            <p class="card-text mb-4 pb-5 text-white dark:text-white/50 pt-5">Lorem ipsum dolor sit amet</p>
             <div class="grid grid-cols-12 gap-6 forth-s-main">
                 <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
                     <div class="xl:col-span-3 col-span-12 border-custom-main">
                         <div class="mb-8">
                             <div class="flex items-center mb-4">
                                 <i class="bi bi-geo-alt text-4xl text-green-500 mr-4"></i>
-                                <h3 class="text-xl font-bold">OUR OFFICES</h3>
+                                <h3 class="text-xl font-bold text-white dark:text-white/50 pt-5">OUR OFFICES</h3>
                             </div>
-                            <p class="mb-2"><span class="text-green-500 font-bold">USA:</span> Sand Lake Rd, Orlando, FL, USA</p>
-                            <p class="mb-2"><span class="text-green-500 font-bold">United Kingdom:</span> Shelton Street, Covent Garden, London, UK</p>
-                            <p class="mb-2"><span class="text-green-500 font-bold">Canada:</span> Sugarpine Court Brampton, Ontario, CA</p>
-                            <p><span class="text-green-500 font-bold">India:</span> Bestech Business Tower, Sector 66, Mohali, IN</p>
+                            <p class="mb-2"><span class="text-green-500 font-bold text-white dark:text-white/50 pt-5">USA:</span> Sand Lake Rd, Orlando, FL, USA</p>
+                            <p class="mb-2"><span class="text-green-500 font-bold text-white dark:text-white/50 pt-5">United Kingdom:</span> Shelton Street, Covent Garden, London, UK</p>
+                            <p class="mb-2"><span class="text-green-500 font-bold text-white dark:text-white/50 pt-5">Canada:</span> Sugarpine Court Brampton, Ontario, CA</p>
+                            <p><span class="text-green-500 font-bold text-white dark:text-white/50 pt-5">India:</span> Bestech Business Tower, Sector 66, Mohali, IN</p>
                         </div>
                     </div>
                 </div>
