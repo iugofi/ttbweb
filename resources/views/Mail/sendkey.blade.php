@@ -1,33 +1,43 @@
 @php
+    $allowedProductIds = [1, 2, 3, 5, 9, 10, 11, 12, 13];
+    $oneYearAgo = \Carbon\Carbon::now()->subYear();
+
     $paymentDetails = DB::table('payments')
-    ->join('product_details', 'product_details.id', '=', 'payments.product_id')
-    ->join('usersall', 'usersall.id', '=', 'payments.user_id')
-    ->select(
-        'payments.id', 
-        'usersall.firstname', 
-        'usersall.lastname', 
-        'usersall.email', 
-        'payments.pay_id', 
-        'payments.product_key', 
-        'payments.created_at', 
-        'payments.amount_total', 
-        'payments.currency', 
-        'payments.payment_method_types', 
-        'product_details.key_type', 
-        'product_details.plan_id'
-    )
-    ->where('payments.pay_id', $payment_intent)
-    ->where('payments.product_key', $main_key)
-    ->first();
+        ->join('product_details', 'product_details.id', '=', 'payments.product_id')
+        ->join('usersall', 'usersall.id', '=', 'payments.user_id')
+        ->select(
+            'payments.id', 
+            'usersall.firstname', 
+            'usersall.lastname', 
+            'usersall.email', 
+            'payments.pay_id', 
+            'payments.product_key', 
+            'payments.created_at', 
+            DB::raw('DATE_ADD(payments.created_at, INTERVAL 1 YEAR) AS expire_date'),
+            'payments.amount_total', 
+            'payments.currency', 
+            'payments.payment_method_types', 
+            'product_details.key_type', 
+            'product_details.plan_id'
+        )
+        ->where('payments.pay_id', $payment_intent)
+        ->where('payments.product_key', $main_key)
+        ->whereIn('payments.product_id', $allowedProductIds)
+        ->where('payments.created_at', '>', $oneYearAgo)
+        ->first();
 
     if ($paymentDetails) {
         $keytypeval = $paymentDetails->key_type;
-        $keytype = DB::table('storepick')->where('PICK_ID', $keytypeval)->select('PICK_TEXT')
-        ->where('STORE_ID', 'key_type')->first();
+        $keytype = DB::table('storepick')
+            ->where('PICK_ID', $keytypeval)
+            ->where('STORE_ID', 'key_type')
+            ->select('PICK_TEXT')
+            ->first();
     } else {
         $keytype = null;
     }
 @endphp
+
 
 
 <!DOCTYPE html
@@ -475,7 +485,7 @@
     <div dir="ltr" class="es-wrapper-color" lang="en" style="background-color:#FDFCFC">
         <!--[if gte mso 9]><v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t"> <v:fill type="tile" color="#fdfcfc"></v:fill> </v:background><![endif]-->
         <table class="es-wrapper" width="100%" cellspacing="0" cellpadding="0" role="none"
-            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;padding:0;Margin:0;width:100%;height:100%;background-repeat:repeat;background-position:center top;background-color:#FDFCFC">
+            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;padding:0;Margin:0;width:100%;height:100%;background-repeat:repeat;background-position:center top;background-color:#f1f1f1">
             <tr>
                 <td valign="top" style="padding:0;Margin:0">
                     <table cellpadding="0" cellspacing="0" class="es-content" align="center" role="none"
@@ -512,7 +522,7 @@
                                                                     <img src="https://fhsfxgx.stripocdn.email/content/guids/CABINET_ed9b093fd8bb67be2cd398f18c4df5f95133af775045eafed93e36585bc10c9a/images/1.png"
                                                                         alt
                                                                         style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
-                                                                        width="100" height="105"></td>
+                                                                        width="75" height="75"></td>
                                                             </tr>
                                                             <tr>
                                                                 <td align="center" class="es-m-txt-c"
@@ -575,11 +585,20 @@
                                                                 <td align="center" class="es-m-txt-l"
                                                                     style="padding:0;Margin:0;padding-bottom:15px;padding-top:25px">
                                                                     <span class="es-button-border"
-                                                                        style="border-style:solid;border-color:#12d2b3;background:#12d2b3;border-width:2px;display:inline-block;border-radius:0px;width:auto"><a
-                                                                            href="https://www.ttbinternetsecurity.com/ttb_antivirus/download"
+                                                                        style="border-style:solid;border-color:#12d2b3;background:#12d2b3;border-width:2px;display:inline-block;border-radius:0px;width:auto">
+                                                                        @if ($paymentDetails->key_type==501)
+                                                                        <a href="{{route('user.vpn_download')}}"
+                                                                        class="es-button" target="_blank"
+                                                                        style="mso-style-priority:100 !important;text-decoration:none;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;color:#FFFFFF;font-size:18px;padding:10px 30px 10px 30px;display:inline-block;background:#12d2b3;border-radius:0px;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-weight:normal;font-style:normal;line-height:22px;width:auto;text-align:center;mso-padding-alt:0;mso-border-alt:10px solid #12d2b3">Activate
+                                                                        Now</a>
+                                                                        @elseif ($keytype->key_type == 502)
+                                                                        <a href="{{route('user.antivirus_download')}}"
                                                                             class="es-button" target="_blank"
                                                                             style="mso-style-priority:100 !important;text-decoration:none;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;color:#FFFFFF;font-size:18px;padding:10px 30px 10px 30px;display:inline-block;background:#12d2b3;border-radius:0px;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-weight:normal;font-style:normal;line-height:22px;width:auto;text-align:center;mso-padding-alt:0;mso-border-alt:10px solid #12d2b3">Activate
-                                                                            Now</a></span></td>
+                                                                            Now</a>
+                                                                        @endif
+
+                                                                        </span></td>
                                                             </tr>
                                                             <tr>
                                                                 <td align="center"
@@ -603,10 +622,17 @@
                                                                     <ul>
                                                                         <li
                                                                             style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;Margin-bottom:15px;margin-left:0;color:#333333;font-size:12px">
-                                                                            Click here to <strong><a
-                                                                                    href="https://www.ttbinternetsecurity.com/ttb_antivirus/download"
+                                                                            Click here to <strong>
+                                                                                @if ($paymentDetails->key_type==501)
+                                                                                <a href="{{route('user.vpn_download')}}"
                                                                                     target="_blank"
-                                                                                    style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#12d2b3;font-size:12px">download</a>.</strong>
+                                                                                    style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#12d2b3;font-size:12px">download</a>
+                                                                                @elseif ($keytype->key_type == 502)
+                                                                                <a href="{{route('user.antivirus_download')}}"
+                                                                                    target="_blank"
+                                                                                    style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#12d2b3;font-size:12px">download</a>
+                                                                                @endif
+                                                                                    .</strong>
                                                                         </li>
                                                                         <li
                                                                             style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;Margin-bottom:15px;margin-left:0;color:#333333;font-size:12px">
@@ -622,7 +648,7 @@
                                                                         Your subscription to TTB is active on
                                                                         <strong>{{ $paymentDetails->created_at }}</strong>, and will
                                                                         automatically renew on<strong>
-                                                                            [2025-02-25]</strong> for the original
+                                                                            {{$paymentDetails->expire_date}}</strong> for the original
                                                                         product price i.e. . Find the order details
                                                                         mentioned below:</p>
                                                                 </td>
@@ -873,10 +899,18 @@
                                                                                     Privacy</a></td>
                                                                             <td align="center" valign="top" width="20%"
                                                                                 style="Margin:0;padding-left:5px;padding-right:5px;padding-top:5px;padding-bottom:5px;border:0;border-left:1px solid #cccccc">
+                                                                                @if ($paymentDetails->key_type==501)
                                                                                 <a target="_blank"
-                                                                                    href="https://www.ttbinternetsecurity.com/ttb_antivirus/download"
+                                                                                href="{{route('user.vpn_download')}}"
+                                                                                style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:none;display:block;font-family:arial, 'helvetica neue', helvetica, sans-serif;color:#282626;font-size:12px;font-weight:bold">
+                                                                                Download</a></td>
+                                                                                @elseif ($keytype->key_type == 502)
+                                                                                <a target="_blank"
+                                                                                    href="{{route('user.antivirus_download')}}"
                                                                                     style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:none;display:block;font-family:arial, 'helvetica neue', helvetica, sans-serif;color:#282626;font-size:12px;font-weight:bold">
-                                                                                    Download</a></td>
+                                                                                    Download</a>
+                                                                                @endif
+                                                                                </td>
                                                                             <td align="center" valign="top" width="20%"
                                                                                 style="Margin:0;padding-left:5px;padding-right:5px;padding-top:5px;padding-bottom:5px;border:0;border-left:1px solid #cccccc">
                                                                                 <a target="_blank"
