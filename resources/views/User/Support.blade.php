@@ -22,7 +22,7 @@
                 <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
                     <div class="xl:col-span-3 col-span-12 border-custom-main">
                         <div class="mb-8">
-                            <div class="flex items-center mb-4">
+                            <div class="flex items-center mb-4" style="color:#12D2B3; display: block;">
                                 <i class="bi bi-geo-alt text-4xl text-green-500 mr-4"></i>
                                 <h3 class="text-xl font-bold text-white dark:text-white/50 pt-5">OUR OFFICES</h3>
                             </div>
