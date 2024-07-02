@@ -79,7 +79,7 @@
                     <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 pt-5 pb-0 lg:px-2 !text-start">
                         
                         <h3 class="lg:text-center font-semibold mb-2 text-[1.8rem]">How do we use the information that we collect?</h3>
-                        <span class="lg:text-center font-semibold mb-2 text-[1.5rem]">To help protect you</span><br>
+                        <h4 class="lg:text-center font-semibold mb-2 text-[1.5rem]">To help protect you</h4><br>
                         <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 ">TTB may use your information for:<br><br>
                               <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i>Analyze the data to isolate and identify threats, vulnerabilities, suspicious activities, spam, viruses and attacks and communicate with you about potential threats.</p>
                               <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 "><i style="width: 6%; color: #12D2B3; font-size: 18px;" class="bi bi-check2-all me-2"></i>Participate in threat intelligence networks, conduct research, and adapt services and products to help respond to threats.</p>
