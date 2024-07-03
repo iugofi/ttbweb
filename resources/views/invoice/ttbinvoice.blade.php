@@ -167,7 +167,7 @@
                     </tr>
                     <tr>
                       <td style="font-size: 12px; font-family: 'Open Sans', sans-serif; color: #ff0000;  line-height: 18px;  vertical-align: top; padding:10px 0;" class="article">
-                        {{$keytype->PICK_TEXT}}
+                        {{$keytype->PICK_TEXT}} {{$planmain->name}}
                       </td>
                       {{-- <td style="font-size: 12px; font-family: 'Open Sans', sans-serif; color: #646a6e;  line-height: 18px;  vertical-align: top; padding:10px 0;"><small>MH792AM/A</small></td> --}}
                       <td style="font-size: 12px; font-family: 'Open Sans', sans-serif; color: #646a6e;  line-height: 18px;  vertical-align: top; padding:10px 0;" align="center">1</td>

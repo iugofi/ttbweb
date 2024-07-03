@@ -825,9 +825,19 @@ public function signdata(Request $request)
         $keytype = null;
     }
 
+    if ($paymentDetails) {
+        $planidhead = $paymentDetails->plan_id;
+        $planmain = DB::table('planname')
+            ->where('plan_id', $planidhead)
+            ->select('name')
+            ->first();
+    } else {
+        $planmain = null;
+    }
+
         // dd($decryptid);
         // $printpay=Payments::where($decryptid);
-        return view('invoice.ttbinvoice',['paymentDetails'=>$paymentDetails,'keytype' => $keytype]);
+        return view('invoice.ttbinvoice',['paymentDetails'=>$paymentDetails,'keytype' => $keytype,'planmain' => $planmain]);
     }
 
    
