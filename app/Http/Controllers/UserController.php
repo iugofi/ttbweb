@@ -10,6 +10,7 @@ use App\Models\Users;
 use App\Models\Blog; 
 use App\Models\News; 
 use App\Models\Comment; 
+use App\Models\Payments; 
 use App\Models\Newscomment; 
 use App\Models\Contact; 
 use App\Models\Admin; 
@@ -774,9 +775,11 @@ public function signdata(Request $request)
         return view('User.kullu');
     }
 
-    public function invoice()
+    public function invoice($pay_id)
     {
-        return view('invoice.ttbinvoice');
+        $decryptid=\Crypt::decrypt($pay_id);
+        $printpay=Payments::find($decryptid);
+        return view('invoice.ttbinvoice',['printpay'=>$printpay]);
     }
 
    
