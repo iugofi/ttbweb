@@ -31,7 +31,7 @@
         ->where('payments.created_at', '>', $oneYearAgo)
         ->first();
 
-        dd($paymentDetails);
+        dd($printpay);
 
     if ($paymentDetails) {
         $keytypeval = $paymentDetails->key_type;
