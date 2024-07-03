@@ -77,7 +77,7 @@
                                         {{-- <span class="me-4 inline-flex"><i
                                                 class="ri-building-line me-1 align-middle"></i>Georgia</span> --}}
                                         <span class="inline-flex">
-                                            <i class="ri-map-pin-line me-1 align-middle"></i>{{ isset($keydetails->address) ? $keydetails->address : 'N/A' }}</span>
+                                            <i class="ri-map-pin-line me-1 align-middle"></i>{{ isset($user_data->address) ? $user_data->address : 'N/A' }}</span>
                                     </p>
                                     <div class="flex mb-0">
                                         <div class="me-6">
