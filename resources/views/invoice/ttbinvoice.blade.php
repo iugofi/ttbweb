@@ -44,8 +44,15 @@
       .hiddenMobile { display: none !important; }
       }
     </style>
+    <script>
+        document.addEventListener('DOMContentLoaded',(event)=>{
+            print();
+        });
+    </script>
 </head>
 <body>
+
+
     
 
 
