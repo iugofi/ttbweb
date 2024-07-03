@@ -774,6 +774,11 @@ public function signdata(Request $request)
         return view('User.kullu');
     }
 
+    public function invoice()
+    {
+        return view('invoice.ttbinvoice');
+    }
+
    
 
     }
