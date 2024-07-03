@@ -810,6 +810,10 @@ public function signdata(Request $request)
         ->where('payments.created_at', '>', $oneYearAgo)
         ->first();
 
+         // Convert date fields to Carbon instances
+         $paymentDetails->created_at = \Carbon\Carbon::parse($paymentDetails->created_at);
+         $paymentDetails->expire_date = \Carbon\Carbon::parse($paymentDetails->expire_date);
+
     if ($paymentDetails) {
         $keytypeval = $paymentDetails->key_type;
         $keytype = DB::table('storepick')
