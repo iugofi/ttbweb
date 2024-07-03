@@ -72,7 +72,7 @@
                     <table width="220" border="0" cellpadding="0" cellspacing="0" align="left" class="col">
                       <tbody>
                         <tr>
-                          <td align="left"> <img src="http://www.supah.it/dribbble/017/logo.png" width="32" height="32" alt="logo" border="0" /></td>
+                          <td align="left"> <img src="{{asset('assets/images/brand-logos/favicon.png')}}" width="32" height="32" alt="logo" border="0" /></td>
                         </tr>
                         <tr class="hiddenMobile">
                           <td height="40"></td>
@@ -97,7 +97,7 @@
                           <td height="5"></td>
                         </tr>
                         <tr>
-                          <td style="font-size: 21px; color: #ff0000; letter-spacing: -1px; font-family: 'Open Sans', sans-serif; line-height: 1; vertical-align: top; text-align: right;">
+                          <td style="font-size: 21px; color: #12D6AC; letter-spacing: -1px; font-family: 'Open Sans', sans-serif; line-height: 1; vertical-align: top; text-align: right;">
                             Invoice
                           </td>
                         </tr>
@@ -310,8 +310,8 @@
                             </tr>
                             <tr>
                               <td style="font-size: 12px; font-family: 'Open Sans', sans-serif; color: #5b5b5b; line-height: 20px; vertical-align: top; ">
-                                {{ $paymentDetails->payment_method_types}} <br> Credit Card Type: Visa<br> Worldpay Transaction ID: <a href="#" style="color: #ff0000; text-decoration:underline;">4185939336</a><br>
-                                <a href="#" style="color:#b0b0b0;">Right of Withdrawal</a>
+                                {{ $paymentDetails->payment_method_types}} >
+                                {{-- <a href="#" style="color:#b0b0b0;">Right of Withdrawal</a> --}}
                               </td>
                             </tr>
                           </tbody>
