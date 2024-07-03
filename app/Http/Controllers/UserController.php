@@ -778,6 +778,7 @@ public function signdata(Request $request)
     public function invoice($pay_id)
     {
         $decryptid=\Crypt::decrypt($pay_id);
+        dd($decryptid);
         $printpay=Payments::find($decryptid);
         return view('invoice.ttbinvoice',['printpay'=>$printpay]);
     }
