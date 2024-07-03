@@ -12,6 +12,8 @@
     <title> Order confirmation </title>
     <meta name="robots" content="noindex,nofollow" />
     <meta name="viewport" content="width=device-width; initial-scale=1.0;" />
+    <link rel="icon" href="{{ asset('assets/images/brand-logos/favicon.png') }}" type="image/x-icon">
+
     <style type="text/css">
       @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
       body { margin: 0; padding: 0; background: #e1e1e1; }
