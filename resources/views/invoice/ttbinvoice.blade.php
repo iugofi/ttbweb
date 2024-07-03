@@ -319,7 +319,7 @@
                             </tr>
                             <tr>
                               <td style="font-size: 12px; font-family: 'Open Sans', sans-serif; color: #5b5b5b; line-height: 20px; vertical-align: top; ">
-                                {{ $paymentDetails->payment_method_types}} >
+                                {{ $paymentDetails->payment_method_types}} 
                                 {{-- <a href="#" style="color:#b0b0b0;">Right of Withdrawal</a> --}}
                               </td>
                             </tr>
