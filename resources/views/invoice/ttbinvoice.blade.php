@@ -1,49 +1,4 @@
-@php
-    $allowedProductIds = [1, 2, 3, 5, 9, 10, 11, 12, 13];
-    $oneYearAgo = \Carbon\Carbon::now()->subYear();
 
-    $paymentDetails = DB::table('payments')
-        ->join('product_details', 'product_details.id', '=', 'payments.product_id')
-        ->join('usersall', 'usersall.id', '=', 'payments.user_id')
-        ->select(
-            'payments.id', 
-            'usersall.firstname', 
-            'usersall.lastname', 
-            'usersall.email', 
-            'payments.pay_id', 
-            'payments.customer_name', 
-            'payments.country', 
-            'payments.city', 
-            'payments.line1', 
-            'payments.line2', 
-            'payments.postal_code', 
-            'payments.product_key', 
-            'payments.created_at', 
-            DB::raw('DATE_ADD(payments.created_at, INTERVAL 1 YEAR) AS expire_date'),
-            'payments.amount_total', 
-            'payments.currency', 
-            'payments.payment_method_types', 
-            'product_details.key_type', 
-            'product_details.plan_id'
-        )
-        ->where('payments.pay_id', $printpay)
-        ->whereIn('payments.product_id', $allowedProductIds)
-        ->where('payments.created_at', '>', $oneYearAgo)
-        ->first();
-
-        
-
-    if ($paymentDetails) {
-        $keytypeval = $paymentDetails->key_type;
-        $keytype = DB::table('storepick')
-            ->where('PICK_ID', $keytypeval)
-            ->where('STORE_ID', 'key_type')
-            ->select('PICK_TEXT')
-            ->first();
-    } else {
-        $keytype = null;
-    }
-@endphp
 
 
 
