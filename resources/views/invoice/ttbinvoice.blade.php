@@ -31,6 +31,8 @@
         ->where('payments.created_at', '>', $oneYearAgo)
         ->first();
 
+        print_r($paymentDetails);
+
     if ($paymentDetails) {
         $keytypeval = $paymentDetails->key_type;
         $keytype = DB::table('storepick')
