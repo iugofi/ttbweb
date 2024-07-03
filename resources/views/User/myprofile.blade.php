@@ -662,7 +662,7 @@
                                                                             <tr>
                                                                                 <th class="px-4 py-2">Product Id</th>
                                                                                 <th class="px-4 py-2">Product Name</th>
-                                                                                <th class="px-4 py-2">Product</th>
+                                                                                {{-- <th class="px-4 py-2">Product</th> --}}
                                                                                 <th class="px-4 py-2">Invoice ID</th>
                                                                                 <th class="px-4 py-2">Issued Date</th>
                                                                                 <th class="px-4 py-2">Amount</th>
@@ -693,7 +693,7 @@
                                                                                             No product found.
                                                                                         @endif
         </td>
-                                                                                    <td class="border px-4 py-2">
+                                                                                    {{-- <td class="border px-4 py-2">
                                                                                         <div class="flex items-center font-semibold">
                                                                                             <span class="!me-2 inline-flex justify-center items-center">
                                                                                                 <img src="{{ asset('assets/images/ecommerce/png/ttb-box.png') }}"
@@ -701,7 +701,7 @@
                                                                                                     class="w-[1.75rem] h-[1.75rem] leading-[1.75rem] text-[0.65rem]  rounded-full">
                                                                                             </span>
                                                                                         </div>
-                                                                                    </td>
+                                                                                    </td> --}}
                                                                                     <td class="border px-4 py-2">{{$item->pay_id}}</td>
                                                                                     <td class="border px-4 py-2">{{$item->pay_id}}</td>
                                                                                     <td class="border px-4 py-2">{{$item->amount_total}}</td>
