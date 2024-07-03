@@ -74,10 +74,10 @@
                                         @endif
                                     </h6>
                                     <p class="text-[0.75rem] text-white mb-6 opacity-[0.5]">
-                                        <span class="me-4 inline-flex"><i
-                                                class="ri-building-line me-1 align-middle"></i>Georgia</span>
-                                        <span class="inline-flex"><i
-                                                class="ri-map-pin-line me-1 align-middle"></i>Washington D.C</span>
+                                        {{-- <span class="me-4 inline-flex"><i
+                                                class="ri-building-line me-1 align-middle"></i>Georgia</span> --}}
+                                        <span class="inline-flex">
+                                            <i class="ri-map-pin-line me-1 align-middle"></i>{{ isset($keydetails->adddress) ? $keydetails->adddress : 'N/A' }}</span>
                                     </p>
                                     <div class="flex mb-0">
                                         <div class="me-6">
@@ -102,7 +102,11 @@
                                 <div class="mb-6">
                                     <p class="text-[.9375rem] mb-2 font-semibold">Professional Bio :</p>
                                     <p class="text-[0.75rem] text-[#8c9097] dark:text-white/50 opacity-[0.7] mb-0">
-                                        I am <b class="text-defaulttextcolor">Sonya Taylor,</b> here by conclude
+                                        I am <b class="text-defaulttextcolor"> @if (isset($user_data) && !empty($user_data->firstname) && !empty($user_data->lastname))
+                                            {{ $user_data->firstname . ' ' . $user_data->lastname }}
+                                        @else
+                                            ! 
+                                        @endif,</b> here by conclude
                                         that,i am the founder and managing director of the prestigeous company name
                                         laugh at all and acts as the cheif executieve officer of the company.
                                     </p>
