@@ -27,7 +27,7 @@
                                     <a href="{{route('user.homenew')}}" class="side-menu__item">Home-New</a>
                                 </li>
                             </ul>
-                            <ul class="slide-menu child1">
+                            <ul class="slide-menu child2">
                                 <li class="slide">
                                     <a href="{{route('user.new_home')}}" class="side-menu__item">New-Home</a>
                                 </li>
