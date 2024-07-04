@@ -1177,7 +1177,6 @@
 ===================================================================================================================================
 
 
-<body>
     <div class="container mt-5">
       <div class="row">
         <div class="col-12 col-lg-8 mx-auto text-center">
@@ -1292,8 +1291,6 @@ $('.testimonials').owlCarousel({
 
 
 </script>
-
-
 
 
 
