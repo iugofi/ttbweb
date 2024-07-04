@@ -296,6 +296,10 @@ public function resetpass($reset_id)
     {
         return view('User.Return_Refund_Policy');
     }
+    public function home_slider()
+    {
+        return view('User.home_slider');
+    }
 
 
 

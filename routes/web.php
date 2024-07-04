@@ -135,6 +135,10 @@ Route::get('/', [UserController::class, 'homenew'])->name('user.index');
 //home page new 
 Route::get('/homenew', [UserController::class, 'index'])->name('user.homenew');
 
+//home slider
+Route::get('/home_slider', [UserController::class, 'index'])->name('user.home_slider');
+
+
 Route::get('/invoice/{id}', [UserController::class, 'invoice'])->name('user.invoice');
 
 
