@@ -1132,7 +1132,7 @@
 	nav: false,
 	mouseDrag: true,
 	autoplay: false,
-	autoplayTimeout: 4000,
+	autoplayTimeout: 1000,
 	smartSpeed: 800
 });
 
