@@ -985,7 +985,7 @@
 	width: calc(100% + 100px);
 }
 .single-testimonial {
-	border: 7px solid #fff;
+	border: 4px solid #13d8aa;
 	text-align: center;
 	border-radius: 45px;
 	position: relative;
