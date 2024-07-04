@@ -886,12 +886,13 @@
 			</div>
 			<!-- Single Testimonial -->
 			<div class="single-testimonial">
+                <i class="fa-solid fa-quote-left"></i>
 				<div class="round-1 round"></div>
 				<div class="round-2 round"></div>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
 				<div class="client-info">
 					<div class="client-video">
-						<a href="#"><img src="https://i.ibb.co/DWhSr6S/play-button2.png" alt=""></a>
+						<i class="fa-solid fa-quote-right"></i>
 					</div>
 					<div class="client-details">
 						<h6>Yeasin Arafat</h6>
@@ -902,12 +903,13 @@
 			</div>
 			<!-- Single Testimonial -->
 			<div class="single-testimonial">
+                <i class="fa-solid fa-quote-left"></i>
 				<div class="round-1 round"></div>
 				<div class="round-2 round"></div>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
 				<div class="client-info">
 					<div class="client-video">
-						<a href="#"><img src="https://i.ibb.co/DWhSr6S/play-button2.png" alt=""></a>
+						<i class="fa-solid fa-quote-right"></i>
 					</div>
 					<div class="client-details">
 						<h6>Yeasin Arafat</h6>
@@ -918,12 +920,13 @@
 			</div>
 			<!-- Single Testimonial -->
 			<div class="single-testimonial">
+                <i class="fa-solid fa-quote-left"></i>
 				<div class="round-1 round"></div>
 				<div class="round-2 round"></div>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
 				<div class="client-info">
 					<div class="client-video">
-						<a href="#"><img src="https://i.ibb.co/DWhSr6S/play-button2.png" alt=""></a>
+						<i class="fa-solid fa-quote-right"></i>
 					</div>
 					<div class="client-details">
 						<h6>Yeasin Arafat</h6>
