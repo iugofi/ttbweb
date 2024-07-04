@@ -23,7 +23,7 @@
                 <div class="swiper-container w-full h-full absolute left-0 top-0">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <div class="slide-inner slide-bg-image" data-background="assets/images/slider/slide-2.jpg">
+                            <div class="slide-inner slide-bg-image" data-background="assets/images/home-two-img/slide-2.jpg">
                                 <!-- <div class="gradient-overlay"></div> -->
                                 <div class="wraper">
                                     <div class="relative h-[900px] lg:h-[680px]  md:h-[600px] sm:h-[500px]">
@@ -65,7 +65,7 @@
                         </div> <!-- end swiper-slide -->
 
                         <div class="swiper-slide">
-                            <div class="slide-inner slide-bg-image" data-background="assets/images/slider/slide-3.jpg">
+                            <div class="slide-inner slide-bg-image" data-background="assets/images/home-two-img/slide-3.jpg">
                                 <!-- <div class="gradient-overlay"></div> -->
                                 <div class="wraper">
                                     <div class="relative h-[900px] lg:h-[680px]  md:h-[600px] sm:h-[500px]">
@@ -123,7 +123,7 @@
     </div>
 
 
-    
+
     <script src="assets/home-new/js/jquery.min.js"></script>
     <script src="assets/home-new/js/jquery-plugin-collection.js"></script>
     <script src="assets/home-new/js/script.js"></script>
