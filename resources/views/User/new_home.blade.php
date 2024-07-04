@@ -7,6 +7,7 @@
 
 
 <link href="assets/home-new/css/global.css" rel="stylesheet">
+<link href="assets/home-new/css/themify-icons.css" rel="stylesheet">
 
 @section('content')
 
