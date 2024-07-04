@@ -110,9 +110,9 @@
                     <!-- end swiper-wrapper -->
 
                     <!-- swipper controls -->
-                    <div class="swiper-pagination"></div>
+                    {{-- <div class="swiper-pagination"></div>
                     <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-prev"></div> --}}
                 </div>
                 <!-- end of wpo-hero-slide-section-->
             </section>
