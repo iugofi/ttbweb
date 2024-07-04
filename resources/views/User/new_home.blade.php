@@ -68,7 +68,7 @@
                             <div class="slide-inner slide-bg-image" data-background="{{ asset('assets/home-two-img/slide-3.jpg') }}">
                                 <!-- <div class="gradient-overlay"></div> -->
                                 <div class="wraper">
-                                    <div class="relative h-[900px] lg:h-[680px]  md:h-[600px] sm:h-[500px]">
+                                    <div class="relative height">
                                         <div
                                             class="max-w-[550px] lg:w-[600px] md:w-full  absolute top-1/2 left-0 transform  -translate-y-1/2">
 
