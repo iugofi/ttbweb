@@ -48759,6 +48759,41 @@ img.img-fluid.service-icon {
 padding: 8em 0em;
 }
 
+.home-new-banner .wraper{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1170px;
+}
+
+@media (max-width: 1399px){
+    .home-new-banner .wraper{
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+@media (max-width: 1199px){
+    .home-new-banner .wraper{
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+@media (max-width: 991px){
+    .home-new-banner .wraper{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 767px){
+    .home-new-banner .wraper{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+
 .vpn-download-two {
     padding: 5em 0em;
 }
