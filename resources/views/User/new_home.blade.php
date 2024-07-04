@@ -23,11 +23,11 @@
                                 <div class="swiper vertical vertical-mouse-control !h-[352px]">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide"><img src="assets/images/media/media-28.jpg"
-                                                class="!rounded-md" alt=""></div>
+                                                class="!rounded-md" alt="">hello </div>
                                         <div class="swiper-slide"><img src="assets/images/media/media-30.jpg"
-                                                class="!rounded-md" alt=""></div>
+                                                class="!rounded-md" alt="">neeraj</div>
                                         <div class="swiper-slide"><img src="assets/images/media/media-32.jpg"
-                                                class="!rounded-md" alt=""></div>
+                                                class="!rounded-md" alt="">kunal</div>
                                     </div>
                                     <div class="swiper-pagination"></div>
                                 </div>
