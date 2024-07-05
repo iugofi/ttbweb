@@ -18,7 +18,7 @@
 
 
             <section
-                class="bg-[#131313] w-full h1-[900px]  lg1:h-[680px]
+                class="bg-[#131313] w-full h1-[511px]  lg1:h-[680px]
                 md1:h-[600px] sm1:h-[500px]  relative z-[1] overflow-hidden home-new-banner">
                 <div class="swiper-container w-full h-full absolute left-0 top-0">
                     <div class="swiper-wrapper">
@@ -31,13 +31,15 @@
                                             class="max-w-[550px] lg:w-[600px] md:w-full  absolute top-1/2 left-0 transform  -translate-y-1/2">
 
                                             <div data-swiper-parallax="200" class="wpo-hero-title-top">
-                                                <span></span>
+                                                <h2>TTB–The Intelligent Threat Protection at your fingertips </h2>
                                             </div>
-                                            <div data-swiper-parallax="300" class="slide-title">
-                                                <h2></h2>
-                                            </div>
+                                            {{-- <div data-swiper-parallax="300" class="slide-title">
+                                               
+                                            </div> --}}
                                             <div data-swiper-parallax="400" class="slide-text">
-                                                <p></p>
+                                                <p>Don’t be a sitting duck in the internet forest! Buy TTB antivirus/VPN
+                                                    that fights to secure you on the web. Order Now!
+                                                </p>
                                             </div>
 
                                             <div data-swiper-parallax="500" class="slide-btn">
@@ -60,27 +62,14 @@
                                             class="max-w-[550px] lg:w-[600px] md:w-full  absolute top-1/2 left-0 transform  -translate-y-1/2">
 
                                             <div data-swiper-parallax="200" class="wpo-hero-title-top">
-                                                <span
-                                                    class="text-[22px] col:text-[18px] text-[#e4e4e4] font-heading-font">We
-                                                    bring the
-                                                    right people
-                                                    together.</span>
+                                                <h2>We Shield the Privacy that matters to you–TTB</h2>
                                             </div>
                                             <div data-swiper-parallax="300" class="slide-title">
-                                                <h2
-                                                    class="text-[70px] font-black leading-[90px] mt-[10px] mb-[25px] lg:text-[50px] md:text-[40px] md:leading-[55px] col:text-[30px] col:leading-[35px] text-white">
-                                                    Helping You Solve Your Problems</h2>
+                                                <span></span>
                                             </div>
                                             <div data-swiper-parallax="400" class="slide-text">
-                                                <p
-                                                    class="text-[25px] text-white font-heading-font 
-                                                                           leading-[35px]
-                                                   max-w-[500px] pl-[20px] border-l-[2px]
-                                                   border-l-white mb-[60px] 
-                                                   md:text-[18px] col:leading-[22px] 
-                                                   col:mb-[30px]">
-                                                    Facilitating client learning that is,teaching clients how to resolve
-                                                    similar problems in the future.</p>
+                                                <p>We are the digital saviors to evacuate you from the dark world of
+                                                    cyberwarfare with real-time threat detection.</p>
                                             </div>
 
                                             <div data-swiper-parallax="500" class="slide-btn">
