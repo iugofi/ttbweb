@@ -48757,8 +48757,7 @@ img.img-fluid.service-icon {
 
 .home-new-banner .swiper-slide img {
     display: inline-block !important;
-    width: 0px !important;
-    height: 0px !important;
+    width: 7% !important;
 }
 
 .home-new-banner h2 {
