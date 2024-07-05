@@ -362,7 +362,7 @@
 	display: inline-block;
 	font-weight: 500;
 	padding: 9px 45px;
-	border: 0;
+	border:2px solid #12d2b3;
 	border-radius: 4px;
 	text-transform: capitalize;
 	-webkit-backface-visibility: hidden;
@@ -370,6 +370,17 @@
 	position: relative;
 	font-size: 20px;
 	font-size: 16px;
+}
+
+
+
+.home-new-banner .theme-btn-2 {
+    border: 2px solid #12d2b3;
+    padding: 10px 39px;
+    font-size: 16px;
+    margin-left: 10px;
+    border-radius: 4px;
+    color: #12d2b3;
 }
 
 .theme-btn:after,
