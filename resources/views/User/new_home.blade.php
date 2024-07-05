@@ -49,7 +49,7 @@
                                                 <span>Excellent</span><img
                                                     src="{{ asset('assets/e-support/.png') }}"> <span>18,249
                                                     Reviews on</span><i class="fa-solid fa-star"></i><img
-                                                    src="{{ asset('assets/e-support/Review.png') }}">
+                                                    src="{{ asset('assets/home-two-img/Review.png') }}">
                                             </div>
                                         </div>
                                     </div>
@@ -82,7 +82,7 @@
                                                 <span>Excellent</span><img
                                                     src="{{ asset('assets/e-support/.png') }}"> <span>18,249
                                                     Reviews on</span><i class="fa-solid fa-star"></i><img
-                                                    src="{{ asset('assets/e-support/AV-Test.png') }}">
+                                                    src="{{ asset('assets/home-two-img/AV-Test.png') }}">
                                             </div>
                                         </div>
                                     </div>
