@@ -43,8 +43,9 @@
                                             </div>
 
                                             <div data-swiper-parallax="500" class="slide-btn">
-                                                <a href="#" class="theme-btn">
-                                                    Download</a>
+                                                <a href="#" class="theme-btn"> Download</a>
+                                                <a href="#" class="theme-btn-2"> Choose Plane</a>
+
                                             </div>
                                         </div>
                                     </div>
@@ -73,8 +74,8 @@
                                             </div>
 
                                             <div data-swiper-parallax="500" class="slide-btn">
-                                                <a href="#" class="theme-btn">
-                                                    Download</a>
+                                                <a href="#" class="theme-btn"> Download</a>
+                                                <a href="#" class="theme-btn-2"> Choose Plane</a>
                                             </div>
                                         </div>
                                     </div>
