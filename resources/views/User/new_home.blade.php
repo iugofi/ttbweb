@@ -33,18 +33,19 @@
                                             <div data-swiper-parallax="200" class="wpo-hero-title-top">
                                                 <h2>TTB–The Intelligent Threat Protection at your fingertips </h2>
                                             </div>
-                                            {{-- <div data-swiper-parallax="300" class="slide-title">
-                                               
-                                            </div> --}}
-                                            <div data-swiper-parallax="400" class="slide-text">
+
+                                            <div data-swiper-parallax="300" class="slide-text">
                                                 <p>Don’t be a sitting duck in the internet forest! Buy TTB antivirus/VPN
                                                     that fights to secure you on the web. Order Now!
                                                 </p>
                                             </div>
 
-                                            <div data-swiper-parallax="500" class="slide-btn">
+                                            <div data-swiper-parallax="400" class="slide-btn">
                                                 <a href="#" class="theme-btn"> Download</a>
                                                 <a href="#" class="theme-btn-2"> Choose Plane</a>
+
+                                            </div>
+                                            <div data-swiper-parallax="500" class="slide-title">
 
                                             </div>
                                         </div>
@@ -65,17 +66,17 @@
                                             <div data-swiper-parallax="200" class="wpo-hero-title-top">
                                                 <h2>We Shield the Privacy that matters to you–TTB</h2>
                                             </div>
-                                            <div data-swiper-parallax="300" class="slide-title">
-                                                <span></span>
-                                            </div>
-                                            <div data-swiper-parallax="400" class="slide-text">
+                                            <div data-swiper-parallax="300" class="slide-text">
                                                 <p>We are the digital saviors to evacuate you from the dark world of
                                                     cyberwarfare with real-time threat detection.</p>
                                             </div>
 
-                                            <div data-swiper-parallax="500" class="slide-btn">
+                                            <div data-swiper-parallax="400" class="slide-btn">
                                                 <a href="#" class="theme-btn"> Download</a>
                                                 <a href="#" class="theme-btn-2"> Choose Plane</a>
+                                            </div>
+                                            <div data-swiper-parallax="500" class="slide-title">
+                                                
                                             </div>
                                         </div>
                                     </div>
