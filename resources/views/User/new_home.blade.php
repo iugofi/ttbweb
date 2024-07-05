@@ -79,10 +79,12 @@
                                                 <a href="#" class="theme-btn-2"> Choose Plane</a>
                                             </div>
                                             <div data-swiper-parallax="500" class="slide-title">
+                                                <div class="spacing-top-cl">
                                                 <span>Excellent</span><img
                                                     src="{{ asset('assets/home-two-img/Review.png') }}"> <span>18,249
                                                     Reviews on</span><i class="fa-solid fa-star"></i><img
                                                     src="{{ asset('assets/home-two-img/AV-Test.png') }}">
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
