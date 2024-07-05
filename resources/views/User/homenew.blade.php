@@ -506,7 +506,7 @@
                 </div>
             </section>
 
-            <section
+            {{-- <section
                 class="!bg-[##F3F2EA] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 home2-seven-pricing">
                 <div class="container pricing-bxx">
                     <div class="grid grid-cols-12 gap-6 justify-center mb-[3rem]">
@@ -722,7 +722,7 @@
                         <div class="xxl:col-span-2 col-span-12"></div>
                     </div>
                 </div>
-            </section>
+            </section> --}}
 
             <section
                 class="section section-home2-eight landing-testimonials bg-[#f9fafb] section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]"
