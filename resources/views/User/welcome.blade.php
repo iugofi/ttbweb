@@ -846,7 +846,7 @@
 <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]" id="faq">
 <section class="testimonial-area">
 	<div class="container">
-		<div class="sec-title white-black">
+		<div class="sec-title white-title">
 			<h2>Testimonials</h2>
 			<p>What Client Say About Us?</p>
 		</div>
@@ -856,14 +856,16 @@
                 <i class="fa-solid fa-quote-left"></i>
 				<div class="round-1 round"></div>
 				<div class="round-2 round"></div>
-				<p class="text-black">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
 				<div class="client-info">
 					<div class="client-video">
-						<i class="fa-solid fa-quote-right"></i>
+						<a href="#"><img src="https://i.ibb.co/DWhSr6S/play-button2.png" alt=""></a>
+                        <i class="fa-solid fa-quote-right"></i>
+
 					</div>
 					<div class="client-details">
-						<h6 class="text-black">Yeasin Arafat</h6>
-						<span class="text-black">Designer, LLCG Team</span>
+						<h6>Yeasin Arafat</h6>
+						<span>Designer, LLCG Team</span>
 					</div>
 				</div>
 
@@ -940,7 +942,7 @@
 	</div>
 </section>
 
-<style>
+{{-- <style>
 
 .sec-title {
 	margin-bottom: 50px;
@@ -1141,7 +1143,285 @@
 	smartSpeed: 200
 });
 
+</script> --}}
+
+=--------------------------------------------------------------------------------------------------------------=
+
+
+<div class="container-fluid bg-body-tertiary py-3">
+    <div id="testimonialCarousel" class="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="card shadow-sm rounded-3">
+            <div class="quotes display-2 text-body-tertiary">
+              <i class="bi bi-quote"></i>
+            </div>
+            <div class="card-body">
+              <p class="card-text">"Some quick example text to build on the card title and make up the
+                bulk of
+                the card's content."</p>
+              <div class="d-flex align-items-center pt-2">
+                <img src="https://codingyaar.com/wp-content/uploads/square-headshot-1.png" alt="bootstrap testimonial carousel slider 2">
+                <div>
+                  <h5 class="card-title fw-bold">Jane Doe</h5>
+                  <span class="text-secondary">CEO, Example Company</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card shadow-sm rounded-3">
+            <div class="quotes display-2 text-body-tertiary">
+              <i class="bi bi-quote"></i>
+            </div>
+            <div class="card-body">
+              <p class="card-text">"Some quick example text to build on the card title and make up the
+                bulk of
+                the card's content."</p>
+              <div class="d-flex align-items-center pt-2">
+                <img src="https://codingyaar.com/wp-content/uploads/square-headshot-2.png" alt="bootstrap testimonial carousel slider 2">
+                <div>
+                  <h5 class="card-title fw-bold">June Doe</h5>
+                  <span class="text-secondary">CEO, Example Company</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card shadow-sm rounded-3">
+            <div class="quotes display-2 text-body-tertiary">
+              <i class="bi bi-quote"></i>
+            </div>
+            <div class="card-body">
+              <p class="card-text">"Some quick example text to build on the card title and make up the
+                bulk of
+                the card's content."</p>
+              <div class="d-flex align-items-center pt-2">
+                <img src="https://codingyaar.com/wp-content/uploads/bootstrap-profile-card-image.jpg" alt="bootstrap testimonial carousel slider 2">
+                <div>
+                  <h5 class="card-title fw-bold">John Doe</h5>
+                  <span class="text-secondary">CEO, Example Company</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card shadow-sm rounded-3">
+            <div class="quotes display-2 text-body-tertiary">
+              <i class="bi bi-quote"></i>
+            </div>
+            <div class="card-body">
+              <p class="card-text">"Some quick example text to build on the card title and make up the
+                bulk of
+                the card's content."</p>
+              <div class="d-flex align-items-center pt-2">
+                <img src="https://codingyaar.com/wp-content/uploads/bootstrap-profile-card-image.jpg" alt="bootstrap testimonial carousel slider 2">
+                <div>
+                  <h5 class="card-title fw-bold">John Doe</h5>
+                  <span class="text-secondary">CEO, Example Company</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card shadow-sm rounded-3">
+            <div class="quotes display-2 text-body-tertiary">
+              <i class="bi bi-quote"></i>
+            </div>
+            <div class="card-body">
+              <p class="card-text">"Some quick example text to build on the card title and make up the
+                bulk of
+                the card's content."</p>
+              <div class="d-flex align-items-center pt-2">
+                <img src="https://codingyaar.com/wp-content/uploads/bootstrap-profile-card-image.jpg" alt="bootstrap testimonial carousel slider 2">
+                <div>
+                  <h5 class="card-title fw-bold">John Doe</h5>
+                  <span class="text-secondary">CEO, Example Company</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card shadow-sm rounded-3">
+            <div class="quotes display-2 text-body-tertiary">
+              <i class="bi bi-quote"></i>
+            </div>
+            <div class="card-body">
+              <p class="card-text">"Some quick example text to build on the card title and make up the
+                bulk of
+                the card's content."</p>
+              <div class="d-flex align-items-center pt-2">
+                <img src="https://codingyaar.com/wp-content/uploads/bootstrap-profile-card-image.jpg" alt="bootstrap testimonial carousel slider 2">
+                <div>
+                  <h5 class="card-title fw-bold">John Doe</h5>
+                  <span class="text-secondary">CEO, Example Company</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card shadow-sm rounded-3">
+            <div class="quotes display-2 text-body-tertiary">
+              <i class="bi bi-quote"></i>
+            </div>
+            <div class="card-body">
+              <p class="card-text">"Some quick example text to build on the card title and make up the
+                bulk of
+                the card's content."</p>
+              <div class="d-flex align-items-center pt-2">
+                <img src="https://codingyaar.com/wp-content/uploads/bootstrap-profile-card-image.jpg" alt="bootstrap testimonial carousel slider 2">
+                <div>
+                  <h5 class="card-title fw-bold">John Doe</h5>
+                  <span class="text-secondary">CEO, Example Company</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card shadow-sm rounded-3">
+            <div class="quotes display-2 text-body-tertiary">
+              <i class="bi bi-quote"></i>
+            </div>
+            <div class="card-body">
+              <p class="card-text">"Some quick example text to build on the card title and make up the
+                bulk of
+                the card's content."</p>
+              <div class="d-flex align-items-center pt-2">
+                <img src="https://codingyaar.com/wp-content/uploads/bootstrap-profile-card-image.jpg" alt="bootstrap testimonial carousel slider 2">
+                <div>
+                  <h5 class="card-title fw-bold">John Doe</h5>
+                  <span class="text-secondary">CEO, Example Company</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card shadow-sm rounded-3">
+            <div class="quotes display-2 text-body-tertiary">
+              <i class="bi bi-quote"></i>
+            </div>
+            <div class="card-body">
+              <p class="card-text">"Some quick example text to build on the card title and make up the
+                bulk of
+                the card's content."</p>
+              <div class="d-flex align-items-center pt-2">
+                <img src="https://codingyaar.com/wp-content/uploads/bootstrap-profile-card-image.jpg" alt="bootstrap testimonial carousel slider 2">
+                <div>
+                  <h5 class="card-title fw-bold">John Doe</h5>
+                  <span class="text-secondary">CEO, Example Company</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  
+  <p class="mt-5 text-center">Get a step-by-step written explanation here: <a href="https://codingyaar.com/bootstrap-5-testimonial-carousel-slider-2" target="_blank">Bootstrap 5 Testimonial Slider #2</a> </p>
+  
+  <p class="mt-2 text-center">Get a step-by-step video explanation here: <a href="https://youtu.be/KrIJD3oc0oM" target="_blank">Bootstrap 5 Testimonial Carousel Slider</a> </p>
+
+
+<style>
+    .carousel img {
+  width: 70px;
+  max-height: 70px;
+  border-radius: 50%;
+  margin-right: 1rem;
+  overflow: hidden;
+}
+.carousel-inner {
+  padding: 1em;
+}
+
+@media screen and (min-width: 576px) {
+  .carousel-inner {
+    display: flex;
+    width: 90%;
+    margin-inline: auto;
+    padding: 1em 0;
+    overflow: hidden;
+  }
+  .carousel-item {
+    display: block;
+    margin-right: 0;
+    flex: 0 0 calc(100% / 2);
+  }
+}
+@media screen and (min-width: 768px) {
+  .carousel-item {
+    display: block;
+    margin-right: 0;
+    flex: 0 0 calc(100% / 2);
+  }
+}
+.carousel .card {
+  margin: 0 0.5em;
+  border: 0;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 3rem;
+  height: 3rem;
+  background-color: grey;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+</style>
+
+
+<script>
+    const multipleItemCarousel = document.querySelector("#testimonialCarousel");
+
+if (window.matchMedia("(min-width:576px)").matches) {
+  const carousel = new bootstrap.Carousel(multipleItemCarousel, {
+    interval: false
+  });
+
+  var carouselWidth = $(".carousel-inner")[0].scrollWidth;
+  var cardWidth = $(".carousel-item").width();
+
+  var scrollPosition = 0;
+
+  $(".carousel-control-next").on("click", function () {
+    if (scrollPosition < carouselWidth - cardWidth * 3) {
+      console.log("next");
+      scrollPosition = scrollPosition + cardWidth;
+      $(".carousel-inner").animate({ scrollLeft: scrollPosition }, 200);
+    }
+  });
+  $(".carousel-control-prev").on("click", function () {
+    if (scrollPosition > 0) {
+      scrollPosition = scrollPosition - cardWidth;
+      $(".carousel-inner").animate({ scrollLeft: scrollPosition }, 200);
+    }
+  });
+} else {
+  $(multipleItemCarousel).addClass("slide");
+}
+
 </script>
+
 
 
 </section>
