@@ -844,7 +844,7 @@
 --------------------------=============================
 
 <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]" id="faq">
-<section class="testimonial-area">
+{{-- <section class="testimonial-area">
 	<div class="container">
 		<div class="sec-title white-title">
 			<h2>Testimonials</h2>
@@ -940,7 +940,7 @@
 			</div>
 		</div>
 	</div>
-</section>
+</section> --}}
 
 {{-- <style>
 
