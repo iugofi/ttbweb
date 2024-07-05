@@ -47,9 +47,9 @@
                                             </div>
                                             <div data-swiper-parallax="500" class="slide-title">
                                                 <span>Excellent</span><img
-                                                    src="{{ asset('assets/e-support/.png') }}"> <span>18,249
+                                                    src="{{ asset('assets/home-two-img/Review.png') }}"> <span>18,249
                                                     Reviews on</span><i class="fa-solid fa-star"></i><img
-                                                    src="{{ asset('assets/home-two-img/Review.png') }}">
+                                                    src="{{ asset('assets/home-two-img/AV-Test.png') }}">
                                             </div>
                                         </div>
                                     </div>
@@ -80,7 +80,7 @@
                                             </div>
                                             <div data-swiper-parallax="500" class="slide-title">
                                                 <span>Excellent</span><img
-                                                    src="{{ asset('assets/e-support/.png') }}"> <span>18,249
+                                                    src="{{ asset('assets/home-two-img/Review.png') }}"> <span>18,249
                                                     Reviews on</span><i class="fa-solid fa-star"></i><img
                                                     src="{{ asset('assets/home-two-img/AV-Test.png') }}">
                                             </div>
