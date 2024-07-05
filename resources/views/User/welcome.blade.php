@@ -995,13 +995,15 @@
 	z-index: 2;
 }
 .single-testimonial p {
-	color: #fff;
-	font-size: 15px;
-	line-height: 24px;
-	padding: 50px;
-	padding-bottom: 30px;
-	position: relative;
-	z-index: 3;
+    color: #000;
+    font-size: 15px;
+    line-height: 24px;
+    padding: 50px;
+    padding-bottom: 30px;
+    position: relative;
+    z-index: 3;
+    text-align: left;
+    background: #fff;
 }
 .single-testimonial::before {
 	content: "";
