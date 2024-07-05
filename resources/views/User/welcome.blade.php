@@ -846,7 +846,7 @@
 <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]" id="faq">
 <section class="testimonial-area">
 	<div class="container">
-		<div class="sec-title white-title">
+		<div class="sec-title white-black">
 			<h2>Testimonials</h2>
 			<p>What Client Say About Us?</p>
 		</div>
@@ -856,14 +856,14 @@
                 <i class="fa-solid fa-quote-left"></i>
 				<div class="round-1 round"></div>
 				<div class="round-2 round"></div>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+				<p class="text-black">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
 				<div class="client-info">
 					<div class="client-video">
 						<i class="fa-solid fa-quote-right"></i>
 					</div>
 					<div class="client-details">
-						<h6>Yeasin Arafat</h6>
-						<span>Designer, LLCG Team</span>
+						<h6 class="text-black">Yeasin Arafat</h6>
+						<span class="text-black">Designer, LLCG Team</span>
 					</div>
 				</div>
 
