@@ -844,7 +844,7 @@
 --------------------------=============================
 
 <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]" id="faq">
-{{-- <section class="testimonial-area">
+<section class="testimonial-area">
 	<div class="container">
 		<div class="sec-title white-title">
 			<h2>Testimonials</h2>
@@ -940,9 +940,9 @@
 			</div>
 		</div>
 	</div>
-</section> --}}
+</section>
 
-{{-- <style>
+<style>
 
 .sec-title {
 	margin-bottom: 50px;
@@ -1143,97 +1143,7 @@
 	smartSpeed: 200
 });
 
-</script> --}}
-
-=--------------------------------------------------------------------------------------------------------------=
-
-
-<div class="container mx-auto py-3">
-    <div id="testimonialCarousel" class="carousel relative overflow-hidden">
-      <div class="carousel-inner flex overflow-hidden">
-        <div class="carousel-item active flex-none w-full sm:w-1/2 lg:w-1/4 p-2">
-          <div class="card shadow-md rounded-lg p-4 bg-white">
-            <div class="quotes text-5xl text-gray-400">
-              <i class="bi bi-quote"></i>
-            </div>
-            <div class="card-body mt-4">
-              <p class="card-text text-gray-700">"Some quick example text to build on the card title and make up the bulk of the card's content."</p>
-              <div class="flex items-center pt-4">
-                <img src="https://codingyaar.com/wp-content/uploads/square-headshot-1.png" alt="bootstrap testimonial carousel slider 2" class="w-16 h-16 rounded-full mr-4">
-                <div>
-                  <h5 class="card-title font-bold text-gray-900">Jane Doe</h5>
-                  <span class="text-gray-500">CEO, Example Company</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Repeat similar blocks for other carousel items -->
-      </div>
-      <button class="carousel-control-prev absolute top-1/2 transform -translate-y-1/2 left-2 bg-gray-500 text-white w-12 h-12 rounded-full flex items-center justify-center" type="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true">&lt;</span>
-        <span class="sr-only">Previous</span>
-      </button>
-      <button class="carousel-control-next absolute top-1/2 transform -translate-y-1/2 right-2 bg-gray-500 text-white w-12 h-12 rounded-full flex items-center justify-center" type="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true">&gt;</span>
-        <span class="sr-only">Next</span>
-      </button>
-    </div>
-</div>
-<p class="mt-5 text-center">Get a step-by-step written explanation here: <a href="https://codingyaar.com/bootstrap-5-testimonial-carousel-slider-2" target="_blank" class="text-blue-500">Bootstrap 5 Testimonial Slider #2</a></p>
-<p class="mt-2 text-center">Get a step-by-step video explanation here: <a href="https://youtu.be/KrIJD3oc0oM" target="_blank" class="text-blue-500">Bootstrap 5 Testimonial Carousel Slider</a></p>
-
-<style>
-    .carousel-inner {
-      display: flex;
-      overflow-x: hidden;
-    }
-    
-    .carousel-item {
-      flex: 0 0 100%;
-      transition: transform 0.6s ease;
-    }
-    
-    @media (min-width: 576px) {
-      .carousel-item {
-        flex: 0 0 50%;
-      }
-    }
-    
-    @media (min-width: 768px) {
-      .carousel-item {
-        flex: 0 0 25%;
-      }
-    }
-    </style>
-
-<script>
-    document.addEventListener('DOMContentLoaded', (event) => {
-        const carousel = document.getElementById('testimonialCarousel');
-        const items = carousel.querySelectorAll('.carousel-item');
-        let currentItem = 0;
-        const totalItems = items.length;
-        const interval = 2000;
-    
-        const nextItem = () => {
-            items[currentItem].classList.remove('active');
-            currentItem = (currentItem + 1) % totalItems;
-            items[currentItem].classList.add('active');
-        };
-    
-        const prevItem = () => {
-            items[currentItem].classList.remove('active');
-            currentItem = (currentItem - 1 + totalItems) % totalItems;
-            items[currentItem].classList.add('active');
-        };
-    
-        document.querySelector('.carousel-control-next').addEventListener('click', nextItem);
-        document.querySelector('.carousel-control-prev').addEventListener('click', prevItem);
-    
-        setInterval(nextItem, interval);
-    });
-    </script>
-    
+</script>
 
 
 </section>
