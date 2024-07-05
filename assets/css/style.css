@@ -48755,7 +48755,9 @@ img.img-fluid.service-icon {
 
 /* neeraj-home-page-css-22-04-2024 */
 
-
+.home-new-banner .swiper-slide img {
+    display: inline-block !important;
+}
 
 .home-new-banner h2 {
     font-size: 35px;
