@@ -48755,6 +48755,10 @@ img.img-fluid.service-icon {
 
 /* neeraj-home-page-css-22-04-2024 */
 
+.home-new-banner .spacing-top-cl {
+    padding: 21px 0px;
+}
+
 .home-new-banner .swiper-slide img {
     display: inline-block !important;
     width: 7% !important;
