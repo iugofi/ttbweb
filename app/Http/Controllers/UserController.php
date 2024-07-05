@@ -305,7 +305,7 @@ public function resetpass($reset_id)
         ->where('storepick.STORE_ID','=','key_type')
         ->where('storepick.PICK_ID','=',502)
         ->orderby('product_details.price', 'desc')
-        ->limit(3)
+        ->limit(4)
         ->get();
         $vpnshield=DB::table('product_details')
         ->join('planname', 'planname.plan_id', '=', 'product_details.plan_id')
