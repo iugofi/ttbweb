@@ -356,8 +356,8 @@
 .view-cart-btn,
 .theme-btn-s3,
 .theme-btn-s4 {
-	background: #3757f7;
-	background: linear-gradient(to left, #3757f7, #071e93);
+	background: #12d2b3 !important;
+	background: linear-gradient(to left, #12d2b3, #12d2b3);
 	color: #fff;
 	display: inline-block;
 	font-weight: 500;
@@ -368,9 +368,8 @@
 	-webkit-backface-visibility: hidden;
 	z-index: 1;
 	position: relative;
-	font-family: "Futura PT";
 	font-size: 20px;
-	font-size: 1.3333333333rem;
+	font-size: 16px;
 }
 
 .theme-btn:after,

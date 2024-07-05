@@ -48755,6 +48755,21 @@ img.img-fluid.service-icon {
 
 /* neeraj-home-page-css-22-04-2024 */
 
+.home-new-banner .btn {
+    /* position:; */
+    /* top: 50%; */
+    /* transform: translateY(-50%); */
+    /* width: 30px; */
+    /* height: 30px; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* border: 1px solid #eee; */
+    /* font-size: 10px; */
+    /* cursor: pointer; */
+    /* transition: 0.1s ease; */
+}
+
 .h1-\[511px\] {
     height: 511px !important;
 }
