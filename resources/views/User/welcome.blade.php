@@ -987,13 +987,13 @@
 	margin-left: -34px;
 	width: calc(100% + 100px);
 }
-.single-testimonial {
+/* .single-testimonial {
 	border: 4px solid #13d8aa;
 	text-align: center;
 	border-radius: 45px;
 	position: relative;
 	z-index: 2;
-}
+} */
 .single-testimonial p {
     color: #000;
     font-size: 15px;
