@@ -18,8 +18,8 @@
 
 
             <section
-                class="bg-[#131313] w-full h-[900px]  lg:h-[680px]
-                md:h-[600px] sm:h-[500px]  relative z-[1] overflow-hidden home-new-banner">
+                class="bg-[#131313] w-full h1-[900px]  lg1:h-[680px]
+                md1:h-[600px] sm1:h-[500px]  relative z-[1] overflow-hidden home-new-banner">
                 <div class="swiper-container w-full h-full absolute left-0 top-0">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
