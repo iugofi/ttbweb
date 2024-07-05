@@ -46,7 +46,10 @@
 
                                             </div>
                                             <div data-swiper-parallax="500" class="slide-title">
-
+                                                <span>Excellent</span><img
+                                                    src="{{ asset('assets/e-support/.png') }}"> <span>18,249
+                                                    Reviews on</span><i class="fa-solid fa-star"></i><img
+                                                    src="{{ asset('assets/e-support/.png') }}">
                                             </div>
                                         </div>
                                     </div>
@@ -76,7 +79,10 @@
                                                 <a href="#" class="theme-btn-2"> Choose Plane</a>
                                             </div>
                                             <div data-swiper-parallax="500" class="slide-title">
-                                                
+                                                <span>Excellent</span><img
+                                                    src="{{ asset('assets/e-support/.png') }}"> <span>18,249
+                                                    Reviews on</span><i class="fa-solid fa-star"></i><img
+                                                    src="{{ asset('assets/e-support/.png') }}">
                                             </div>
                                         </div>
                                     </div>
