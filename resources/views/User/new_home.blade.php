@@ -43,7 +43,7 @@
                                             </div>
 
                                             <div data-swiper-parallax="500" class="slide-btn">
-                                                <a href="about.html" class="btn theme-btn">
+                                                <a href="about.html" class="theme-btn">
                                                     Get Started</a>
                                             </div>
                                         </div>
@@ -73,7 +73,7 @@
                                             </div>
 
                                             <div data-swiper-parallax="500" class="slide-btn">
-                                                <a href="about.html" class="btn theme-btn">
+                                                <a href="about.html" class="theme-btn">
                                                     Get Started</a>
                                             </div>
                                         </div>
