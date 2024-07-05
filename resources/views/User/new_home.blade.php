@@ -42,7 +42,7 @@
 
                                             <div data-swiper-parallax="400" class="slide-btn">
                                                 <a href="#" class="theme-btn"> Download</a>
-                                                <a href="#" class="theme-btn-2"> Choose Plane</a>
+                                                <a href="#" class="theme-btn-2"> Choose Plan</a>
 
                                             </div>
                                             <div data-swiper-parallax="500" class="slide-title">
@@ -78,7 +78,7 @@
 
                                             <div data-swiper-parallax="400" class="slide-btn">
                                                 <a href="#" class="theme-btn"> Download</a>
-                                                <a href="#" class="theme-btn-2"> Choose Plane</a>
+                                                <a href="#" class="theme-btn-2"> Choose Plan</a>
                                             </div>
                                             <div data-swiper-parallax="500" class="slide-title">
                                                 <div class="spacing-top-cl">
