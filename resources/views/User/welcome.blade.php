@@ -1099,7 +1099,7 @@
 	align-items: center;
 	text-align: left;
 	padding-bottom: 50px;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
 }
 /* .client-info h6 {
 	color: #000;
