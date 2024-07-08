@@ -852,6 +852,7 @@
 		</div>
 		<div class="testimonial-content owl-carousel">
 			<!-- Single Testimonial -->
+            <img src="testimonial-content owl-carousel owl-loaded owl-drag" alt="" srcset="">
 			<div class="single-testimonial">
 				<div class="round-1 round"></div>
 				<div class="round-2 round"></div>
