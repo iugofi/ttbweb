@@ -375,17 +375,25 @@
         </div>
     </div>
     <script>
-
         // Get the marquee element
         var marquee = document.getElementById('marqueeText');
+        var stopTimeout;
+        var startTimeout;
 
-        // Add event listeners for mouseover and mouseout
+        // Add event listener for mouseover with delay
         marquee.addEventListener('mouseover', function() {
-            marquee.stop();
+            clearTimeout(startTimeout);
+            stopTimeout = setTimeout(function() {
+                marquee.stop();
+            }, 500); // 500ms delay before stopping
         });
 
+        // Add event listener for mouseout with delay
         marquee.addEventListener('mouseout', function() {
-            marquee.start();
+            clearTimeout(stopTimeout);
+            startTimeout = setTimeout(function() {
+                marquee.start();
+            }, 500); // 500ms delay before starting
         });
     </script>
 
