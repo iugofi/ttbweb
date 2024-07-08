@@ -1000,7 +1000,7 @@
     text-align: left;
     background: #fff;
 }
-.single-testimonial::before {
+/* .single-testimonial::before {
 	content: "";
 	position: absolute;
 	left: -35px;
@@ -1011,7 +1011,7 @@
 	height: 100px;
 	transform: rotate(180deg);
 	background-position: 34px 15px;
-}
+} */
 .single-testimonial::after {
 	content: "";
 	position: absolute;
