@@ -4,7 +4,7 @@ return [
     'alert_accept' => 'Accept all cookies',
     'alert_essentials_only' => 'Accept only necessary cookies',
     'alert_settings' => 'Adjust your preferences',
-    // 'alert_text' => 'By choosing "Accept all cookies" you agree to the use of cookies to help us provide you with a better user experience and to analyse website usage. By clicking "Adjust your preferences" you can choose which cookies to allow. Only the essential cookies are necessary for the proper functioning of our website and cannot be refused',
+    'alert_text' => 'This site uses cookies. Learn more about how and why',
     'alert_title' => 'This website uses cookies',
     'alert_essential_only' => 'Accept only necessary cookies',
     'setting_analytics' => 'Analytical cookies',
