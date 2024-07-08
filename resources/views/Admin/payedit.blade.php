@@ -66,12 +66,20 @@
                                             id="product_key" name="product_key" value="{{ isset($payedit->product_key) ? $payedit->product_key : '' }}" placeholder="Product Key">
                                         <div class="invalid-feedback"></div>
                                     </div> 
+                                     
+                                    <div class="xl:col-span-6 col-span-12">
+                                        <label for="product key" class="form-label">amount_total</label>
+                                        <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
+                                            id="amount_total" name="amount_total" value="{{ isset($payedit->amount_total) ? $payedit->amount_total : '' }}" placeholder="Currency">
+                                        <div class="invalid-feedback"></div>
+                                    </div> 
+
                                     <div class="xl:col-span-6 col-span-12">
                                         <label for="product key" class="form-label">Currency</label>
                                         <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
                                             id="currency" name="currency" value="{{ isset($payedit->currency) ? $payedit->currency : '' }}" placeholder="Currency">
                                         <div class="invalid-feedback"></div>
-                                    </div> 
+                                    </div>
 
                                 </div>
                             </div>
