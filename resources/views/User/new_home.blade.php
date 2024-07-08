@@ -376,7 +376,7 @@
                             </div>
                         </div>
                         <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-12 col-span-12"> 
-                            <div class="flex">
+                            <div class="grid grid-cols-12">
                                 <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-4 icon-box-new">
                                     <i class="material-icons"></i>
                                     {{-- <img src="{{ asset('assets/home-two-img/home-new-brand1.png')}}" alt="" class="img-fluid" width="100%"> --}}
@@ -388,7 +388,7 @@
                             </div>
                         </div>
                         <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-12 col-span-12"> 
-                            <div class="flex">
+                            <div class="grid grid-cols-12">
                                 <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-4 icon-box-new">
                                     <i class="material-icons"></i>
                                     {{-- <img src="{{ asset('assets/home-two-img/home-new-brand1.png')}}" alt="" class="img-fluid" width="100%"> --}}
@@ -400,7 +400,7 @@
                             </div>
                         </div>
                         <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-12 col-span-12"> 
-                            <div class="flex">
+                            <div class="grid grid-cols-12">
                                 <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-4 icon-box-new">
                                     <i class="material-icons"></i>
                                     {{-- <img src="{{ asset('assets/home-two-img/home-new-brand1.png')}}" alt="" class="img-fluid" width="100%"> --}}
