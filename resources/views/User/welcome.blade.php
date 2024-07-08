@@ -2,15 +2,6 @@
 
 @section('title', 'TTB')
 
-<head>
-    <!-- Include jQuery library -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-    <!-- Include Owl Carousel CSS and JS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-</head>
 
 @section('content')
 
@@ -1183,7 +1174,7 @@
 	mouseDrag: true,
 	autoplay: false,
 	autoplayTimeout: 1000,
-	smartSpeed: 200
+	smartSpeed: 100
 });
 
 </script>
