@@ -113,7 +113,7 @@
                 <div class="container">
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 col-span-12 text-center">
-                            
+
 
                             <div class="photobanner__wrap">
                                 <div class="photobanner">
@@ -363,11 +363,18 @@
 
 
 
-            <section class="home-new-icon-box">
+            <section class="section-home-new-5">
                 <div class="container">
                     <div class="grid grid-cols-12 gap-6">
-                        <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 col-span-12">
-                            <h2></h2>
+                        <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
+                            {{-- <img src="{{ asset('assets/home-two-img/home-new-brand5.png') }}" alt="" class="img-fluid" width="30%">    --}}
+                        </div>
+                        <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
+                            <h2> TTB VPN Shield–Encrypted Privacy that hides from CyberPunks</h2>
+                            <p>Now browse and play securely on the web by using our VPN Shield software. It conceals you
+                                from online snoops and never logs your activities. This service is easy to navigate, hides
+                                your IP whenever you connect to the online world, and not slows down your network speed.
+                                With such a VPN, you can freely use public & shared networks. Buy Now to Stay Hidden!</p>
                         </div>
                     </div>
                 </div>
