@@ -48,25 +48,22 @@
                                                 <div class="grid grid-cols-12 sm:gap-x-6 sm:gap-y-4">
                                                     <div class="md:col-span-12 col-span-12 mb-4">
                                                         <label class="form-label">Email</label>
-                                                        <input type="text" name="email" id="email"
-                                                            class="form-control" placeholder="Enter Your Email">
+                                                        <input type="text" name="email" id="email" class="form-control" placeholder="Enter Your Email">
                                                         <div class="invalid-feedback" id="email-error"></div>
                                                     </div>
                                                     <div class="md:col-span-6 col-span-12 mb-4">
                                                         <label class="form-label">First Name</label>
-                                                        <input type="text" name="first_name" id="first_name"
-                                                            class="form-control" placeholder="First name"
-                                                            aria-label="First name">
+                                                        <input type="text" name="first_name" id="first_name" class="form-control" placeholder="First name" aria-label="First name" required>
+                                                        <input type="hidden" name="hidden_first_name" id="hidden_first_name">
                                                         <div class="invalid-feedback" id="first-name-error"></div>
                                                     </div>
                                                     <div class="md:col-span-6 col-span-12 mb-4">
                                                         <label class="form-label">Last Name</label>
-                                                        <input type="text" name="last_name" id="last_name"
-                                                            class="form-control" placeholder="Last name"
-                                                            aria-label="Last name">
+                                                        <input type="text" name="last_name" id="last_name" class="form-control" placeholder="Last name" aria-label="Last name" required>
+                                                        <input type="hidden" name="hidden_last_name" id="hidden_last_name">
                                                         <div class="invalid-feedback" id="last-name-error"></div>
-
                                                     </div>
+                                                    
                                                     <div
                                                         class="md:col-span-12 col-span-12 md:flex md:justify-end check-btn">
                                                         <input type="submit" value="Submit" id="checkotp"
@@ -397,19 +394,27 @@
                         if (response.first_name && response.last_name) {
                             $('#first_name').val(response.first_name).prop('disabled', true);
                             $('#last_name').val(response.last_name).prop('disabled', true);
+                            $('#hidden_first_name').val(response.first_name);
+                            $('#hidden_last_name').val(response.last_name);
                         } else {
                             $('#first_name').val('').prop('disabled', false);
                             $('#last_name').val('').prop('disabled', false);
+                            $('#hidden_first_name').val('');
+                            $('#hidden_last_name').val('');
                         }
                     },
                     error: function() {
                         $('#first_name').val('').prop('disabled', false);
                         $('#last_name').val('').prop('disabled', false);
+                        $('#hidden_first_name').val('');
+                        $('#hidden_last_name').val('');
                     }
                 });
             } else {
                 $('#first_name').val('').prop('disabled', false);
                 $('#last_name').val('').prop('disabled', false);
+                $('#hidden_first_name').val('');
+                $('#hidden_last_name').val('');
             }
         });
 
