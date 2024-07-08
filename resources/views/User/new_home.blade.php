@@ -117,20 +117,20 @@
 
                             <div class="photobanner__wrap">
                                 <div class="photobanner">
-                                    <span>Award Winning Security</span>
-                                    <span>30 Days Money Back Guarantee</span>
-                                    <span>30 Days Free Trial</span>
-                                    <span>Trusted & Accepted by Millions of users</span>
-                                    <span>Lightweight & Easy to Install</span>
-                                    <span>12 Years of Experience</span>
+                                    <h4>Award Winning Security</h4>
+                                    <h4>30 Days Money Back Guarantee</h4>
+                                    <h4>30 Days Free Trial</h4>
+                                    <h4>Trusted & Accepted by Millions of users</h4>
+                                    <h4>Lightweight & Easy to Install</h4>
+                                    <h4>12 Years of Experience</h4>
                                 </div>
                                 <div class="photobanner"style="margin-left: 31em;">
-                                    <span>Award Winning Security</span>
-                                    <span>30 Days Money Back Guarantee</span>
-                                    <span>30 Days Free Trial</span>
-                                    <span>Trusted & Accepted by Millions of users</span>
-                                    <span>Lightweight & Easy to Install</span>
-                                    <span>12 Years of Experience</span>
+                                    <h4>Award Winning Security</h4>
+                                    <h4>30 Days Money Back Guarantee</h4>
+                                    <h4>30 Days Free Trial</h4>
+                                    <h4>Trusted & Accepted by Millions of users</h4>
+                                    <h4>Lightweight & Easy to Install</h4>
+                                    <h4>12 Years of Experience</h4>
                                 </div>
                                 <div>
 
