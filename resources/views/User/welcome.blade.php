@@ -1097,9 +1097,9 @@
 .client-info {
 	display: flex;
 	align-items: center;
-	justify-content: center;
 	text-align: left;
 	padding-bottom: 50px;
+    margin-top: 1rem;
 }
 /* .client-info h6 {
 	color: #000;
