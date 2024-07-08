@@ -1107,11 +1107,11 @@
 	font-size: 18px;
 	color: #fff;
 } */
-.client-info span {
+/* .client-info span {
 	display: inline-block;
 	color: #fff;
 	font-size: 12px;
-}
+} */
 .sec-title.white-title h2 {
 	color: #fff;
 }
