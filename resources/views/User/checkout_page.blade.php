@@ -390,18 +390,26 @@
 
             if (email) {
                 $.ajax({
-                    url: '{{route('check.email')}}',
+                    url: '/check-email',
                     type: 'GET',
                     data: { email: email },
                     success: function(response) {
-                        $('#first_name').val(response.first_name);
-                        $('#last_name').val(response.last_name);
+                        if (response.first_name && response.last_name) {
+                            $('#first_name').val(response.first_name).prop('disabled', true);
+                            $('#last_name').val(response.last_name).prop('disabled', true);
+                        } else {
+                            $('#first_name').val('').prop('disabled', false);
+                            $('#last_name').val('').prop('disabled', false);
+                        }
                     },
                     error: function() {
-                        $('#first_name').val('');
-                        $('#last_name').val('');
+                        $('#first_name').val('').prop('disabled', false);
+                        $('#last_name').val('').prop('disabled', false);
                     }
                 });
+            } else {
+                $('#first_name').val('').prop('disabled', false);
+                $('#last_name').val('').prop('disabled', false);
             }
         });
 
