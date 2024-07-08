@@ -48758,7 +48758,9 @@ img.img-fluid.service-icon {
 .section-home-new-7 {
     padding: 7em 0em;
 }
-
+.section-home-new-7 img {
+    display: inline-block;
+}
 
 .section-home-new-6 h2 {
     font-size: 32px;
