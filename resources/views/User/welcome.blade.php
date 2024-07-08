@@ -1035,7 +1035,7 @@
 	position: absolute;
 	z-index: 1;
 }
-.round-1::before {
+/* .round-1::before {
 	content: "";
 	position: absolute;
 	left: 88px;
@@ -1076,7 +1076,7 @@
 	background: #fff;
 	border-radius: 30px;
 	z-index: 1;
-}
+} */
 .client-video {
 	padding-right: 15px;
 }
