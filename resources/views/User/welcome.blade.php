@@ -851,9 +851,10 @@
 			<h2>Testimonials</h2>
 			<p>What Client Say About Us?</p>
 		</div>
+        <img src="https://www.nighthawk-routerlogin.com/assets/img/Faq-images.png" alt="" srcset="">
 		<div class="testimonial-content owl-carousel">
+           
 			<!-- Single Testimonial -->
-            <img src="testimonial-content owl-carousel owl-loaded owl-drag" alt="" srcset="">
 			<div class="single-testimonial">
 				<div class="round-1 round"></div>
 				<div class="round-2 round"></div>
