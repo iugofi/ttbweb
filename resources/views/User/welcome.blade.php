@@ -843,6 +843,7 @@
 
 --------------------------=============================
 
+
 <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70" id="faq">
 <section class="testimonial-area">
 	<div class="container">
@@ -852,6 +853,7 @@
 		</div>
 		<div class="testimonial-content owl-carousel">
 			<!-- Single Testimonial -->
+            <img src="testimonial-content owl-carousel owl-loaded owl-drag" alt="" srcset="">
 			<div class="single-testimonial">
 				<div class="round-1 round"></div>
 				<div class="round-2 round"></div>
