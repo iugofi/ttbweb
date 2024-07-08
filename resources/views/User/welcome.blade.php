@@ -2,7 +2,15 @@
 
 @section('title', 'TTB')
 
+<head>
+    <!-- Include jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
+    <!-- Include Owl Carousel CSS and JS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+</head>
 
 @section('content')
 
@@ -945,9 +953,6 @@
         <div class="owl-nav">
             <button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">&#10094;</span></button>
             <button type="button" role="presentation" class="owl-next"><span aria-label="Next">&#10095;</span></button>
-        
-            <button class="button left" onclick="scrollCarousel(-1)">‹</button>
-            <button class="button right" onclick="scrollCarousel(1)">›</button>
         </div>
 	</div>
 </section>
