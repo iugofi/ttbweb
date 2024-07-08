@@ -365,9 +365,8 @@
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-12 col-span-12"> 
                             <div class="grid grid-cols-12">
-                                <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-4 icon-box-new">
-                                    {{-- <i class="far fa-clock	"></i> --}}
-                                    <img src="{{ asset('assets/home-two-img/Real-time threat detection.png')}}" alt="" class="img-fluid" width="60%">
+                                <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 col-span-3 icon-box-new">
+                                    <img src="{{ asset('assets/home-two-img/Real-time threat detection.png')}}" alt="" class="img-fluid" width="100%">
                                 </div>
                                 <div class="xxl:col-span-8 xl:col-span-8 lg:col-span-8 md:col-span-8 col-span-8 text-box-new">
                                     <h4>Real-time threat detection</h4>
@@ -377,9 +376,8 @@
                         </div>
                         <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-12 col-span-12"> 
                             <div class="grid grid-cols-12">
-                                <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-4 icon-box-new">
-                                    {{-- <i class="far fa-clock"></i> --}}
-                                    <img src="{{ asset('assets/home-two-img/Auto-update feature.png')}}" alt="" class="img-fluid" width="60%">
+                                <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 col-span-3 icon-box-new">
+                                    <img src="{{ asset('assets/home-two-img/Auto-update feature.png')}}" alt="" class="img-fluid" width="100%">
                                 </div>
                                 <div class="xxl:col-span-8 xl:col-span-8 lg:col-span-8 md:col-span-8 col-span-8 text-box-new">
                                     <h4>Auto-update feature </h4>
@@ -389,9 +387,8 @@
                         </div>
                         <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-12 col-span-12"> 
                             <div class="grid grid-cols-12">
-                                <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-4 icon-box-new">
-                                    {{-- <i class="far fa-clock"></i> --}}
-                                    <img src="{{ asset('assets/home-two-img/24x7 hours.png')}}" alt="" class="img-fluid" width="60%">
+                                <div class="xxl:col-span-4 xl:col-span-33lg:col-span-3 md:col-span-3 col-span-3 icon-box-new">
+                                    <img src="{{ asset('assets/home-two-img/24x7 hours.png')}}" alt="" class="img-fluid" width="100%">
                                 </div>
                                 <div class="xxl:col-span-8 xl:col-span-8 lg:col-span-8 md:col-span-8 col-span-8 text-box-new">
                                     <h4>24x7 hours services</h4>
@@ -401,9 +398,8 @@
                         </div>
                         <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-12 col-span-12"> 
                             <div class="grid grid-cols-12">
-                                <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-4 icon-box-new">
-                                    {{-- <i class="far fa-clock"></i> --}}
-                                    <img src="{{ asset('assets/home-two-img/In-built Firewall.png')}}" alt="" class="img-fluid" width="60%">
+                                <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 col-span-3 icon-box-new">
+                                    <img src="{{ asset('assets/home-two-img/In-built Firewall.png')}}" alt="" class="img-fluid" width="100%">
                                 </div>
                                 <div class="xxl:col-span-8 xl:col-span-8 lg:col-span-8 md:col-span-8 col-span-8 text-box-new">
                                     <h4>In-built Firewall</h4>
