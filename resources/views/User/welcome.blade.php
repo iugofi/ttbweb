@@ -1028,6 +1028,7 @@
     right: 10px;
     font-size: 60px;
     color: #11CDBE;
+    top: 0;
 }
 .round {
 	width: 100%;
