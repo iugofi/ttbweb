@@ -1025,7 +1025,7 @@
 } */
 .client-info i.fa-solid.fa-quote-left {
     position: absolute;
-    right: 60px;
+    right: 10px;
     font-size: 60px;
     color: #11CDBE;
 }
@@ -1094,7 +1094,7 @@
 	box-shadow: 0 0 16px rgba(0, 0, 0, 0.16);
 	font-size: 22px;
 }
-.client-info {
+/* .client-info {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -1106,7 +1106,7 @@
 	font-weight: 700;
 	font-size: 18px;
 	color: #fff;
-}
+} */
 .client-info span {
 	display: inline-block;
 	color: #fff;
