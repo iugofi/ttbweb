@@ -385,6 +385,26 @@
                 return email;
             }
 
+            $('#email').on('blur', function() {
+            var email = $(this).val();
+
+            if (email) {
+                $.ajax({
+                    url: '{{route('check.email')}}',
+                    type: 'GET',
+                    data: { email: email },
+                    success: function(response) {
+                        $('#first_name').val(response.first_name);
+                        $('#last_name').val(response.last_name);
+                    },
+                    error: function() {
+                        $('#first_name').val('');
+                        $('#last_name').val('');
+                    }
+                });
+            }
+        });
+
         });
     </script>
 

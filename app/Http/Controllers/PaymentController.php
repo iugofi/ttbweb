@@ -279,5 +279,23 @@ class PaymentController extends Controller
         $response=$stripe->checkout->sessions->retrieve($session_id);
         dd($response);
     }
+
+    public function checkEmail(Request $request)
+    {
+        $email = $request->query('email');
+        $user = Users::where('email', $email)->first();
+
+        if ($user) {
+            return response()->json([
+                'first_name' => $user->firstname,
+                'last_name' => $user->lastname,
+            ]);
+        } else {
+            return response()->json([
+                'first_name' => '',
+                'last_name' => '',
+            ], 404);
+        }
+    }
    
 }
