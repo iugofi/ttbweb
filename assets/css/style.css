@@ -48755,6 +48755,34 @@ img.img-fluid.service-icon {
 
 /* neeraj-home-page-css-22-04-2024 */
 
+.section-home-new-7 {
+    padding: 7em 0em;
+}
+.section-home-new-7 img {
+    display: inline-block;
+}
+
+.section-home-new-6 h2 {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: capitalize;
+    width: 450px;
+    padding-top: 4em;
+}
+
+.section-home-new-6 {
+    padding: 7em 0em;
+    background-color: #F5F6FA;
+}
+
+.section-home-new-6 p {
+    font-size: 16px;
+    width: 450px;
+    padding-top:1em;
+    text-align: justify;
+}
+
+
 .section-home-new-5 h2 {
     font-size: 32px;
     font-weight: 700;
