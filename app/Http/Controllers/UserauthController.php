@@ -30,6 +30,8 @@ class UserauthController extends Controller
             ->where('payments.user_id', $this->loggedInUser)
             ->select('payments.*', 'product_details.*')
             ->get();
+
+            dd($this->loggedInUser);
             
             $keydetails = DB::table('payments')
             ->select(DB::raw('COUNT(product_details.key_type) as count'), 'product_details.key_type')
