@@ -367,7 +367,7 @@
                 <div class="container">
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
-                            {{-- <img src="{{ asset('assets/home-two-img/home-new-brand5.png') }}" alt="" class="img-fluid" width="30%">    --}}
+                            <img src="{{ asset('assets/home-two-img/section5.png') }}" alt="" class="img-fluid" width="100%">   
                         </div>
                         <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
                             <h2> TTB VPN Shield–Encrypted Privacy that hides from CyberPunks</h2>
