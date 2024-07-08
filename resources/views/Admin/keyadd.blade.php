@@ -272,7 +272,7 @@
             });
             fetchPlan();
         });
-        function addHyphen(input) {     
+        function addHyphen(element) {     
             let ele = document.getElementById(element.id);
             ele = ele.value.split('-').join('');  
             let finalVal = ele.match(/.{1,5}/g).join('-').toUpperCase();
