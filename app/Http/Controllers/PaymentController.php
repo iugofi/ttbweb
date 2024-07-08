@@ -40,8 +40,8 @@ class PaymentController extends Controller
     {
      $validator = Validator::make($request->all(), [
      'email' => 'required|email',   
-     'first_name' => 'required', 
-     'last_name' => 'required', 
+     'first_name' => 'required_without:hidden_first_name',
+    'last_name' => 'required_without:hidden_last_name', 
      
          ]);
  
@@ -58,8 +58,8 @@ class PaymentController extends Controller
                  $request->session()->put('emailsessiontb', $request->email);
                  $user = new Users();
                  $user->email = $request->email;
-                 $user->firstname = ucfirst($request->first_name);
-                 $user->lastname = ucfirst($request->last_name);
+                 $user->firstname = ucfirst($request->input('first_name') ?: $request->input('hidden_first_name'));
+                 $user->lastname = ucfirst($request->input('last_name') ?: $request->input('hidden_last_name'));
                  $user->otp = $otp;
                  $user->save();
              } else {
