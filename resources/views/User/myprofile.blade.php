@@ -800,7 +800,10 @@
                                                                                 @endif
                                                                             </p>
                                                                             <span
-                                                                                class="badge bg-info/10 rounded-full text-info">{{ $productdetails_list->product_key }}</span>
+                                                                                class="badge bg-info/10 rounded-full text-info">@php
+                                                                                $results = App\Models\TTBKEY::where('id', $productdetails_list->product_key)->first();
+                                                                            @endphp
+                                                                                {{ $results ? $results->main_key : 'NA' }} </span>
                                                                         </div>
                                                                     </div>
                                                                 </div>

@@ -843,7 +843,7 @@
 
 --------------------------=============================
 
-<section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]" id="faq">
+<section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70" id="faq">
 <section class="testimonial-area">
 	<div class="container">
 		<div class="sec-title white-title">
@@ -1000,7 +1000,7 @@
     text-align: left;
     background: #fff;
 }
-.single-testimonial::before {
+/* .single-testimonial::before {
 	content: "";
 	position: absolute;
 	left: -35px;
@@ -1022,6 +1022,12 @@
 	width: 126px;
 	height: 100px;
 	background-position: 34px 19px;
+} */
+.client-info i.fa-solid.fa-quote-left {
+    position: absolute;
+    right: 10px;
+    font-size: 60px;
+    color: #11CDBE;
 }
 .round {
 	width: 100%;
@@ -1029,7 +1035,7 @@
 	position: absolute;
 	z-index: 1;
 }
-.round-1::before {
+/* .round-1::before {
 	content: "";
 	position: absolute;
 	left: 88px;
@@ -1070,7 +1076,7 @@
 	background: #fff;
 	border-radius: 30px;
 	z-index: 1;
-}
+} */
 .client-video {
 	padding-right: 15px;
 }
@@ -1088,7 +1094,7 @@
 	box-shadow: 0 0 16px rgba(0, 0, 0, 0.16);
 	font-size: 22px;
 }
-.client-info {
+/* .client-info {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -1100,12 +1106,12 @@
 	font-weight: 700;
 	font-size: 18px;
 	color: #fff;
-}
-.client-info span {
+} */
+/* .client-info span {
 	display: inline-block;
 	color: #fff;
 	font-size: 12px;
-}
+} */
 .sec-title.white-title h2 {
 	color: #fff;
 }
