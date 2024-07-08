@@ -760,9 +760,15 @@
                                                                 class="box !shadow-none border dark:border-defaultborder/10">
                                                                 <div class="box-body p-6">
                                                                     <div class="text-center">
-                                                                        <span class="avatar avatar-xl avatar-rounded">
-                                                                            <img src="assets/images/ecommerce/png/ttb-box.png"
-                                                                                alt="">
+                                                                        <span class="avatar avatar-xl">
+                                                                            @if ($productdetails_list->key_type==502)
+                                                                            <img src="{{asset('assets/Admin/ttb/TTB-Antivirus.png')}}"
+                                                                            alt="">
+                                                                            @elseif ($productdetails_list->key_type==501)
+                                                                            <img src="{{asset('assets/Admin/ttb/VPN-SHIELD.png')}}"
+                                                                            alt="">
+                                                                            @endif
+                                                                            
                                                                         </span>
                                                                         <div class="mt-2">
                                                                             <p class="mb-0 font-semibold">@php
