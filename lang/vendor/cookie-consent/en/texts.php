@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'alert_accept' => 'Accept all cookies',
-    'alert_essentials_only' => 'Accept only necessary cookies',
+    'alert_accept' => 'Accept all',
+    'alert_essentials_only' => 'Accept only necessary',
     'alert_settings' => 'Adjust your preferences',
     'alert_text' => 'This site uses cookies. Learn more about how and why',
     'alert_title' => ' ',
