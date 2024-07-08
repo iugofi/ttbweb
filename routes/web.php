@@ -338,6 +338,7 @@ Route::get('/successpay/{vid}',[PaymentController::class,'successpay'])->name('u
 Route::get('/cancelpay',[PaymentController::class,'cancelpay'])->name('user.cancelpay');
 Route::get('/success',[PaymentController::class,'success'])->name('user.success');
 
+Route::get('/check-email', [PaymentController::class, 'checkEmail'])->name('check.email');
 
 Route::get('/testpagenew/{session_id}', [PaymentController::class, 'testpagenew'])->name('user.testpagenew');
 

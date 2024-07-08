@@ -1028,6 +1028,7 @@
     right: 10px;
     font-size: 60px;
     color: #11CDBE;
+    top: 0;
 }
 .round {
 	width: 100%;
@@ -1094,14 +1095,14 @@
 	box-shadow: 0 0 16px rgba(0, 0, 0, 0.16);
 	font-size: 22px;
 }
-/* .client-info {
+.client-info {
 	display: flex;
 	align-items: center;
-	justify-content: center;
 	text-align: left;
 	padding-bottom: 50px;
+    margin-top: 1.5rem;
 }
-.client-info h6 {
+/* .client-info h6 {
 	color: #000;
 	font-weight: 700;
 	font-size: 18px;
