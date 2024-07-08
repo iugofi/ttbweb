@@ -117,20 +117,32 @@
 
                             <div class="photobanner__wrap">
                                 <div class="photobanner">
-                                    <h4>Award Winning Security</h4>
-                                    <h4>30 Days Money Back Guarantee</h4>
-                                    <h4>30 Days Free Trial</h4>
-                                    <h4>Trusted & Accepted by Millions of users</h4>
-                                    <h4>Lightweight & Easy to Install</h4>
-                                    <h4>12 Years of Experience</h4>
+                                    <img src="{{ asset('assets/home-two-img/home-new-brand1.png') }}" alt=""
+                                        class="img-fluid" width="30%">
+                                    <img src="{{ asset('assets/home-two-img/home-new-brand2.png') }}" alt=""
+                                        class="img-fluid" width="30%">
+                                    <img src="{{ asset('assets/home-two-img/home-new-brand3.png') }}" alt=""
+                                        class="img-fluid" width="30%">
+                                    <img src="{{ asset('assets/home-two-img/home-new-brand4.png') }}" alt=""
+                                        class="img-fluid" width="30%">
+                                    <img src="{{ asset('assets/home-two-img/home-new-brand5.png') }}" alt=""
+                                        class="img-fluid" width="30%">
+                                    <img src="{{ asset('assets/home-two-img/home-new-brand6.png') }}" alt=""
+                                        class="img-fluid" width="30%">
                                 </div>
                                 <div class="photobanner"style="margin-left: 31em;">
-                                    <h4>Award Winning Security</h4>
-                                    <h4>30 Days Money Back Guarantee</h4>
-                                    <h4>30 Days Free Trial</h4>
-                                    <h4>Trusted & Accepted by Millions of users</h4>
-                                    <h4>Lightweight & Easy to Install</h4>
-                                    <h4>12 Years of Experience</h4>
+                                    <img src="{{ asset('assets/home-two-img/home-new-brand1.png') }}" alt=""
+                                        class="img-fluid" width="30%">
+                                    <img src="{{ asset('assets/home-two-img/home-new-brand2.png') }}" alt=""
+                                        class="img-fluid" width="30%">
+                                    <img src="{{ asset('assets/home-two-img/home-new-brand3.png') }}" alt=""
+                                        class="img-fluid" width="30%">
+                                    <img src="{{ asset('assets/home-two-img/home-new-brand4.png') }}" alt=""
+                                        class="img-fluid" width="30%">
+                                    <img src="{{ asset('assets/home-two-img/home-new-brand5.png') }}" alt=""
+                                        class="img-fluid" width="30%">
+                                    <img src="{{ asset('assets/home-two-img/home-new-brand6.png') }}" alt=""
+                                        class="img-fluid" width="30%">
                                 </div>
                                 <div>
 
