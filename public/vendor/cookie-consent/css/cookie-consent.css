@@ -11,6 +11,7 @@
 
 [class^=lcc-]:first-child {
     margin-top: 0;
+    display: inline-block;
 }
 
 [class^=lcc-]:last-child {
@@ -31,7 +32,8 @@
 }
 
 .lcc-text {
-    font-size: 16px;
+    font-size: 24px;
+    font-weight: 400;
     margin: 0 0 22px;
 }
 
@@ -142,7 +144,7 @@ input[id^=lcc-]:disabled+span {
     bottom: 0;
     right: 0;
     width: 100%;
-    max-width: 475px;
+    /* max-width: 475px; */
     z-index: 10001;
 }
 
@@ -179,17 +181,20 @@ input[id^=lcc-]:disabled+span {
 }
 
 .lcc-modal .lcc-modal__actions {
-    margin-top: 30px;
+    margin: 0px 10px;
+    display: flex;
 }
 
 .lcc-modal .lcc-modal__actions-center {
     display: flex;
     justify-content: center;
+    float: right;
 }
 
 .lcc-modal .lcc-modal__actions>* {
     display: block;
     margin-top: 8px;
+    margin-left: 10px;
 }
 
 .lcc-modal.lcc-modal--settings {
