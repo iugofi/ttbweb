@@ -370,7 +370,7 @@
                             <img src="{{ asset('assets/home-two-img/section5.png') }}" alt="" class="img-fluid" width="100%">   
                         </div>
                         <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
-                            <h2> TTB VPN Shield–Encrypted Privacy that hides from CyberPunks</h2>
+                            <h2><span class="ttb-heading">TTB VPN Shield</span>–Encrypted Privacy that hides from CyberPunks</h2>
                             <p>Now browse and play securely on the web by using our VPN Shield software. It conceals you
                                 from online snoops and never logs your activities. This service is easy to navigate, hides
                                 your IP whenever you connect to the online world, and not slows down your network speed.
