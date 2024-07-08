@@ -761,7 +761,7 @@
                                                                 <div class="box-body p-6">
                                                                     <div class="text-center">
                                                                         <span class="avatar avatar-xl avatar-rounded">
-                                                                            <img src="{{asset('assets/images/ecommerce/png/ttb-box.png')}}"
+                                                                            <img src="{{asset('assets/Admin/ttb/TTB-Antivirus.png')}}"
                                                                                 alt="">
                                                                         </span>
                                                                         <div class="mt-2">
