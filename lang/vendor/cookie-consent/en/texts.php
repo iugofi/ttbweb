@@ -5,7 +5,7 @@ return [
     'alert_essentials_only' => 'Accept only necessary cookies',
     'alert_settings' => 'Adjust your preferences',
     'alert_text' => 'This site uses cookies. Learn more about how and why',
-    'alert_title' => 'This website uses cookies',
+    'alert_title' => ' ',
     'alert_essential_only' => 'Accept only necessary cookies',
     'setting_analytics' => 'Analytical cookies',
     'setting_analytics_text' => 'allow us to analyse website use and to improve the visitor\'s experience.',
