@@ -880,6 +880,7 @@
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
 				<div class="client-info">
 					<div class="client-video">
+                        <a href="#"><img src="https://i.ibb.co/DWhSr6S/play-button2.png" alt=""></a>
                         <i class="fa-solid fa-quote-left"></i>
 					</div>
 					<div class="client-details">
@@ -896,6 +897,7 @@
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
 				<div class="client-info">
 					<div class="client-video">
+                        <a href="#"><img src="https://i.ibb.co/DWhSr6S/play-button2.png" alt=""></a>
                         <i class="fa-solid fa-quote-left"></i>
 					</div>
 					<div class="client-details">
@@ -912,6 +914,7 @@
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
 				<div class="client-info">
 					<div class="client-video">
+                        <a href="#"><img src="https://i.ibb.co/DWhSr6S/play-button2.png" alt=""></a>
                         <i class="fa-solid fa-quote-left"></i>
 					</div>
 					<div class="client-details">
@@ -928,6 +931,7 @@
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
 				<div class="client-info">
 					<div class="client-video">
+                        <a href="#"><img src="https://i.ibb.co/DWhSr6S/play-button2.png" alt=""></a>
                         <i class="fa-solid fa-quote-left"></i>
 					</div>
 					<div class="client-details">
@@ -1143,6 +1147,20 @@
 }
 .owl-dots button.active {
 	width: 30px;
+}
+.owl-nav {
+    text-align: center;
+    margin-top: 20px;
+}
+.owl-nav button {
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+.owl-nav button:hover {
+    color: var(--blue);
 }
 
 </style>
