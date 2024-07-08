@@ -25,7 +25,7 @@
 
 
             <!-- Page Header -->
-            <div class="block justify-between page-header md:flex">
+            <div class="block justify-between page-header md:flex p-5">
                 <div>
                     <h3
                         class="!text-defaulttextcolor dark:!text-defaulttextcolor/70 dark:text-white dark:hover:text-white text-[1.125rem] font-semibold">
@@ -49,7 +49,7 @@
             <!-- Page Header Close -->
 
             <!-- Start::row-1 -->
-            <div class="grid grid-cols-12 gap-x-6">
+            <div class="grid grid-cols-12 gap-x-6 p-5">
                 <div class="xxl:col-span-4 xl:col-span-12 col-span-12">
                     <div class="box overflow-hidden">
                         <div class="box-body !p-0">
@@ -170,7 +170,7 @@
                     </div>
                 </div>
                 <div class="xxl:col-span-8 xl:col-span-12 col-span-12">
-                    <div class="grid grid-cols-12 gap-x-6">
+                    <div class="grid grid-cols-12 gap-x-6 p-5">
                         <div class="xl:col-span-12 col-span-12">
                             <div class="box">
                                 <div class="box-body !p-0">

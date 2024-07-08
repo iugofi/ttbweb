@@ -11,6 +11,7 @@
 
 [class^=lcc-]:first-child {
     margin-top: 0;
+    display: inline-block;
 }
 
 [class^=lcc-]:last-child {
@@ -31,15 +32,15 @@
 }
 
 .lcc-text {
-    font-size: 16px;
-    margin: 0 0 22px;
+    font-size: 20px;
+    font-weight: 400;
+    margin: -12px 0 22px;
 }
 
 .lcc-button {
     background: none;
     background-color: #111;
     border: 1px solid #111;
-    /* color: #fff; */
     cursor: pointer;
     display: inline-block;
     font-size: inherit;
@@ -50,8 +51,9 @@
 
 .lcc-button:focus,
 .lcc-button:hover {
-    background: #555;
+    background: #000;
     border-color: #555;
+    color: #fff;
 }
 
 .lcc-button.lcc-button--ghost {
@@ -69,7 +71,7 @@
 
 .lcc-button.lcc-button--ghost:focus,
 .lcc-button.lcc-button--ghost:hover {
-    background: #555;
+    background: #000;
     border-color: #555;
     color: #fff;
 }
@@ -121,7 +123,6 @@ input[id^=lcc-]:disabled+span {
 }
 
 .lcc-backdrop {
-    /* background: rgba(0, 0, 0, .6); */
     bottom: 0;
     left: 0;
     position: fixed;
@@ -137,12 +138,11 @@ input[id^=lcc-]:disabled+span {
     max-height: 100%;
     max-width: 100%;
     overflow: auto;
-    padding: 20px;
+    padding: 20px 80px;
     position: fixed;
     bottom: 0;
     right: 0;
     width: 100%;
-    max-width: 475px;
     z-index: 10001;
 }
 
@@ -179,17 +179,21 @@ input[id^=lcc-]:disabled+span {
 }
 
 .lcc-modal .lcc-modal__actions {
-    margin-top: 30px;
+    margin: 0px 10px;
+    display: flex;
+    float: right;
 }
 
 .lcc-modal .lcc-modal__actions-center {
     display: flex;
     justify-content: center;
+    float: right;
 }
 
 .lcc-modal .lcc-modal__actions>* {
     display: block;
     margin-top: 8px;
+    margin-left: 10px;
 }
 
 .lcc-modal.lcc-modal--settings {
@@ -209,4 +213,54 @@ input[id^=lcc-]:disabled+span {
 
 .lcc-u-text-center {
     text-align: center !important;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    .lcc-modal {
+        padding: 20px 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .lcc-modal {
+        padding: 20px 40px;
+    }
+
+    .lcc-button {
+        padding: 6px 10px;
+    }
+
+    .lcc-button.lcc-button--ghost, 
+    .lcc-button.lcc-button--link {
+        padding: 6px 10px;
+    }
+
+    .lcc-modal .lcc-modal__title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .lcc-modal {
+        padding: 20px;
+    }
+
+    .lcc-modal .lcc-modal__title {
+        font-size: 18px;
+    }
+
+    .lcc-modal .lcc-modal__actions {
+        flex-direction: column;
+        align-items: center;
+        float: unset;
+    }
+
+    .lcc-modal .lcc-modal__actions>* {
+        margin: 10px 0;
+    }
+
+    .lcc-text {
+        font-size: 20px;
+    }
 }
