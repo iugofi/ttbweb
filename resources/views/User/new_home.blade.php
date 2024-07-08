@@ -369,7 +369,7 @@
                                     <img src="{{ asset('assets/home-two-img/Real-time threat detection.png')}}" alt="" class="img-fluid" width="80%">
                                 </div>
                                 <div class="xxl:col-span-8 xl:col-span-8 lg:col-span-8 md:col-span-8 col-span-8 text-box-new">
-                                    <h4>Real-time threat detection</h4>
+                                    <h4>Real-time threat<br> detection</h4>
                                     <p>Lorem ipsum dolor sit amet.</p>
                                 </div>
                             </div>
@@ -380,7 +380,7 @@
                                     <img src="{{ asset('assets/home-two-img/Auto-update feature.png')}}" alt="" class="img-fluid" width="80%">
                                 </div>
                                 <div class="xxl:col-span-8 xl:col-span-8 lg:col-span-8 md:col-span-8 col-span-8 text-box-new">
-                                    <h4>Auto-update feature </h4>
+                                    <h4>Auto-update <br>feature </h4>
                                     <p>Lorem ipsum dolor sit amet.</p>
                                 </div>
                             </div>
@@ -391,7 +391,7 @@
                                     <img src="{{ asset('assets/home-two-img/24x7 hours.png')}}" alt="" class="img-fluid" width="80%">
                                 </div>
                                 <div class="xxl:col-span-8 xl:col-span-8 lg:col-span-8 md:col-span-8 col-span-8 text-box-new">
-                                    <h4>24x7 hours services</h4>
+                                    <h4>24x7 hours expert & certified services</h4>
                                     <p>Lorem ipsum dolor sit amet.</p>
                                 </div>
                             </div>
@@ -402,7 +402,7 @@
                                     <img src="{{ asset('assets/home-two-img/In-built Firewall.png')}}" alt="" class="img-fluid" width="80%">
                                 </div>
                                 <div class="xxl:col-span-8 xl:col-span-8 lg:col-span-8 md:col-span-8 col-span-8 text-box-new">
-                                    <h4>In-built Firewall</h4>
+                                    <h4>Multi-device <br>compatibility                                    </h4>
                                     <p>Lorem ipsum dolor sit amet.</p>
                                 </div>
                             </div>
