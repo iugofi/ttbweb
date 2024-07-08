@@ -103,28 +103,39 @@
                     <div class="swiper-button-prev"></div> --}}
                 </div>
                 <!-- end of wpo-hero-slide-section-->
+            </section>
+
 
 
 
             <section
-                class=" !bg-[##F3F2EA] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 home-new-section-2">
+                class=" !bg-[##F3F2EA] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 section-home2-two">
                 <div class="container">
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 col-span-12 text-center">
                             <h2 class="text-[#000] dark:text-white/50 pt-5">Trusted by millions of customers.</h2>
 
-                            <div class="marquee-container">
-                                <div class="marquee-content" id="marqueeContent">
-                               <span>Award Winning Security </span>
-                               <span>30 Days Money Back Guarantee</span>
-                               <span>30 Days Free Trail</span>
-                               <span>Trusted & Accepted by Millions of users</span>
-                               <span>Lightweight & Easy to Install</span>
-                               <span>12 Year of Experience</span>
+                            <div class="photobanner__wrap">
+                                <div class="photobanner">
+                                    <h4>Award Winning Security</h4>
+                                    <h4>30 Days Money Back Guarantee</h4>
+                                    <h4>30 Days Free Trial</h4>
+                                    <h4>Trusted & Accepted by Millions of users</h4>
+                                    <h4>Lightweight & Easy to Install</h4>
+                                    <h4>12 Years of Experience</h4>
+                                </div>
+                                <div class="photobanner"style="margin-left: 31em;">
+                                    <h4>Award Winning Security</h4>
+                                    <h4>30 Days Money Back Guarantee</h4>
+                                    <h4>30 Days Free Trial</h4>
+                                    <h4>Trusted & Accepted by Millions of users</h4>
+                                    <h4>Lightweight & Easy to Install</h4>
+                                    <h4>12 Years of Experience</h4>
+                                </div>
+                                <div>
 
+                                </div>
                             </div>
-                        </div>
-
                         </div>
                     </div>
             </section>
@@ -367,28 +378,6 @@
 
         </div>
     </div>
-    <script>
-        // Get the marquee content element
-        var marqueeContent = document.getElementById('marqueeContent');
-        var stopTimeout;
-        var startTimeout;
-
-        // Add event listener for mouseover with delay
-        marqueeContent.addEventListener('mouseover', function() {
-            clearTimeout(startTimeout);
-            stopTimeout = setTimeout(function() {
-                marqueeContent.classList.add('paused');
-            }, 500); // 500ms delay before stopping
-        });
-
-        // Add event listener for mouseout with delay
-        marqueeContent.addEventListener('mouseout', function() {
-            clearTimeout(stopTimeout);
-            startTimeout = setTimeout(function() {
-                marqueeContent.classList.remove('paused');
-            }, 500); // 500ms delay before starting
-        });
-    </script>
 
     {{-- End pricing plan section --}}
 
