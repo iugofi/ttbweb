@@ -139,7 +139,7 @@ input[id^=lcc-]:disabled+span {
     max-height: 100%;
     max-width: 100%;
     overflow: auto;
-    padding: 20px;
+    padding: 20px 80px; 
     position: fixed;
     bottom: 0;
     right: 0;
