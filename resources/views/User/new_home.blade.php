@@ -103,36 +103,8 @@
                     <div class="swiper-button-prev"></div> --}}
                 </div>
                 <!-- end of wpo-hero-slide-section-->
-                
-            </section>
-            .marquee-container {
-                width: 100%;
-                overflow: hidden;
-                box-sizing: border-box;
-                position: relative;
-                height: 50px; /* Adjust height as needed */
-            }
-    
-            .marquee-content {
-                display: inline-block;
-                white-space: nowrap;
-                position: absolute;
-                animation: marquee 10s linear infinite;
-            }
-    
-            @keyframes marquee {
-                0% {
-                    transform: translateX(100%);
-                }
-                100% {
-                    transform: translateX(-100%);
-                }
-            }
-    
-            .marquee-content.paused {
-                animation-play-state: paused;
-            }
-        </style>
+
+
 
             <section
                 class=" !bg-[##F3F2EA] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 home-new-section-2">
