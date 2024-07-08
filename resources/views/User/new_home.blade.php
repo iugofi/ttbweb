@@ -106,7 +106,14 @@
             </section>
 
 
-
+            <style>
+                .marquee {
+                    display: block;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    box-sizing: border-box;
+                }
+            </style>
 
             <section
                 class=" !bg-[##F3F2EA] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 home-new-section-2">
@@ -115,39 +122,16 @@
                         <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 col-span-12 text-center">
                             <h2 class="text-[#000] dark:text-white/50 pt-5">Trusted by millions of customers.</h2>
 
-                            <div class="photobanner__wrap">
-                                <div class="photobanner">
-                                    <img src="{{ asset('assets/home-two-img/home-new-brand1.png') }}" alt=""
-                                        class="img-fluid" width="20%">
-                                    <img src="{{ asset('assets/home-two-img/home-new-brand2.png') }}" alt=""
-                                        class="img-fluid" width="20%">
-                                    <img src="{{ asset('assets/home-two-img/home-new-brand3.png') }}" alt=""
-                                        class="img-fluid" width="20%">
-                                    <img src="{{ asset('assets/home-two-img/home-new-brand4.png') }}" alt=""
-                                        class="img-fluid" width="20%">
-                                    <img src="{{ asset('assets/home-two-img/home-new-brand5.png') }}" alt=""
-                                        class="img-fluid" width="20%">
-                                    <img src="{{ asset('assets/home-two-img/home-new-brand6.png') }}" alt=""
-                                        class="img-fluid" width="20%">
-                                </div>
-                                <div class="photobanner"style="margin-left: 31em;">
-                                    <img src="{{ asset('assets/home-two-img/home-new-brand1.png') }}" alt=""
-                                        class="img-fluid" width="20%">
-                                    <img src="{{ asset('assets/home-two-img/home-new-brand2.png') }}" alt=""
-                                        class="img-fluid" width="20%">
-                                    <img src="{{ asset('assets/home-two-img/home-new-brand3.png') }}" alt=""
-                                        class="img-fluid" width="20%">
-                                    <img src="{{ asset('assets/home-two-img/home-new-brand4.png') }}" alt=""
-                                        class="img-fluid" width="20%">
-                                    <img src="{{ asset('assets/home-two-img/home-new-brand5.png') }}" alt=""
-                                        class="img-fluid" width="20%">
-                                    <img src="{{ asset('assets/home-two-img/home-new-brand6.png') }}" alt=""
-                                        class="img-fluid" width="20%">
-                                </div>
-                                <div>
+                            <marquee class="marquee" id="marqueeText" behavior="scroll" direction="left">
+                               <span>Award Winning Security </span>
+                               <span>30 Days Money Back Guarantee</span>
+                               <span>30 Days Free Trail</span>
+                               <span>Trusted & Accepted by Millions of users</span>
+                               <span>Lightweight & Easy to Install</span>
+                               <span>12 Year of Experience</span>
 
-                                </div>
-                            </div>
+                            </marquee>
+
                         </div>
                     </div>
             </section>
@@ -390,6 +374,20 @@
 
         </div>
     </div>
+    <script>
+
+        // Get the marquee element
+        var marquee = document.getElementById('marqueeText');
+
+        // Add event listeners for mouseover and mouseout
+        marquee.addEventListener('mouseover', function() {
+            marquee.stop();
+        });
+
+        marquee.addEventListener('mouseout', function() {
+            marquee.start();
+        });
+    </script>
 
     {{-- End pricing plan section --}}
 
