@@ -945,6 +945,9 @@
         <div class="owl-nav">
             <button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">&#10094;</span></button>
             <button type="button" role="presentation" class="owl-next"><span aria-label="Next">&#10095;</span></button>
+        
+            <button class="button left" onclick="scrollCarousel(-1)">‹</button>
+            <button class="button right" onclick="scrollCarousel(1)">›</button>
         </div>
 	</div>
 </section>
