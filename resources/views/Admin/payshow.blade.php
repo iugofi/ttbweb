@@ -171,7 +171,7 @@
                                                 <td class="border px-4 py-2" style="font-weight: bold;font-size: 13px;"> @php
                                                     $results = App\Models\TTBKEY::where('id', $item->product_key)->first();
                                                 @endphp
-                                                    {{ $results ? $results->main_key : 'No Key' }}</td>
+                                                    {{ $results ? $results->main_key : 'NA' }}</td>
                                                 <td class="border px-4 py-2">{{ $item->amount_total }}</td>
                                                 <td class="border px-4 py-2">{{ $item->payment_status }}</td>
                                                 <td class="border px-4 py-2">{{ $item->customer_name }}</td>
