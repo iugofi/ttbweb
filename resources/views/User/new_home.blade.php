@@ -109,36 +109,48 @@
 
 
             <section
-                class=" !bg-[##F3F2EA] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 section-home2-two">
-                <div class="container">
-                    <div class="grid grid-cols-12 gap-6">
-                        <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 col-span-12 text-center">
-                            <h2 class="text-[#000] dark:text-white/50 pt-5">Trusted by millions of customers.</h2>
+            class=" !bg-[##F3F2EA] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 section-home2-two">
+            <div class="container">
+                <div class="grid grid-cols-12 gap-6">
+                    <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 col-span-12 text-center">
+                        <h2 class="text-[#000] dark:text-white/50 pt-5">Trusted by millions of customers.</h2>
 
-                            <div class="photobanner__wrap">
-                                <div class="photobanner">
-                                    <h4>Award Winning Security</h4>
-                                    <h4>30 Days Money Back Guarantee</h4>
-                                    <h4>30 Days Free Trial</h4>
-                                    <h4>Trusted & Accepted by Millions of users</h4>
-                                    <h4>Lightweight & Easy to Install</h4>
-                                    <h4>12 Years of Experience</h4>
-                                </div>
-                                <div class="photobanner"style="margin-left: 31em;">
-                                    <h4>Award Winning Security</h4>
-                                    <h4>30 Days Money Back Guarantee</h4>
-                                    <h4>30 Days Free Trial</h4>
-                                    <h4>Trusted & Accepted by Millions of users</h4>
-                                    <h4>Lightweight & Easy to Install</h4>
-                                    <h4>12 Years of Experience</h4>
-                                </div>
-                                <div>
+                        <div class="photobanner__wrap">
+                            <div class="photobanner">
+                                <img src="{{ asset('assets/home-two-img/brand_3_1.svg') }}" alt=""
+                                    class="img-fluid" width="20%">
+                                <img src="{{ asset('assets/home-two-img/brand_3_2.svg') }}" alt=""
+                                    class="img-fluid" width="20%">
+                                <img src="{{ asset('assets/home-two-img/brand_3_3.svg') }}" alt=""
+                                    class="img-fluid" width="20%">
+                                <img src="{{ asset('assets/home-two-img/brand_3_4.svg') }}" alt=""
+                                    class="img-fluid" width="20%">
+                                <img src="{{ asset('assets/home-two-img/brand_3_5.svg') }}" alt=""
+                                    class="img-fluid" width="20%">
+                                <img src="{{ asset('assets/home-two-img/brand_3_6.svg') }}" alt=""
+                                    class="img-fluid" width="20%">
+                            </div>
+                            <div class="photobanner"style="margin-left: 31em;">
+                                <img src="{{ asset('assets/home-two-img/brand_3_1.svg') }}" alt=""
+                                    class="img-fluid" width="20%">
+                                <img src="{{ asset('assets/home-two-img/brand_3_2.svg') }}" alt=""
+                                    class="img-fluid" width="20%">
+                                <img src="{{ asset('assets/home-two-img/brand_3_3.svg') }}" alt=""
+                                    class="img-fluid" width="20%">
+                                <img src="{{ asset('assets/home-two-img/brand_3_4.svg') }}" alt=""
+                                    class="img-fluid" width="20%">
+                                <img src="{{ asset('assets/home-two-img/brand_3_5.svg') }}" alt=""
+                                    class="img-fluid" width="20%">
+                                <img src="{{ asset('assets/home-two-img/brand_3_6.svg') }}" alt=""
+                                    class="img-fluid" width="20%">
+                            </div>
+                            <div>
 
-                                </div>
                             </div>
                         </div>
                     </div>
-            </section>
+                </div>
+        </section>
 
 
             {{-- start pricing plan section --}}
