@@ -949,9 +949,8 @@
 .back-img {
     content: url('https://www.nighthawk-routerlogin.com/assets/img/Bg.png');
     width: 100%;
-    height: 250px;
     position: relative;
-    top: 9rem;
+    top: 5rem;
 }
 .sec-title {
 	margin-bottom: 50px;
