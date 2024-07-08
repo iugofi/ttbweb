@@ -169,7 +169,7 @@
                                                 <td class="border px-4 py-2">{{ $item->plan_id }}</td>
                                                 <td class="border px-4 py-2">{{ $item->pay_id }}</td>
                                                 <td class="border px-4 py-2" style="font-weight: bold;font-size: 13px;"> @php
-                                                    $results = App\Models\Users::where('id', $item->product_key)->first();
+                                                    $results = App\Models\TTBKEY::where('id', $item->product_key)->first();
                                                 @endphp
                                                     {{ $results ? $results->main_key : 'No Key' }}</td>
                                                 <td class="border px-4 py-2">{{ $item->amount_total }}</td>
