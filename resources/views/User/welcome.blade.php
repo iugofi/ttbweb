@@ -938,12 +938,16 @@
 
 			</div>
 		</div>
+        <div class="owl-nav">
+            <button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">&#10094;</span></button>
+            <button type="button" role="presentation" class="owl-next"><span aria-label="Next">&#10095;</span></button>
+        </div>
 	</div>
 </section>
 
 <style>
 .back-img {
-    content: url('https://www.nighthawk-routerlogin.com/assets/img/Faq-images.png');
+    content: url('https://www.nighthawk-routerlogin.com/assets/bg.png');
     width: 100%;
     height: 250px;
     position: relative;
