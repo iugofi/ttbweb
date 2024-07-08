@@ -947,7 +947,7 @@
 
 <style>
 .back-img {
-    content: url('https://www.nighthawk-routerlogin.com/assets/bg.png');
+    content: url('https://www.nighthawk-routerlogin.com/assets/img/bg.png');
     width: 100%;
     height: 250px;
     position: relative;
