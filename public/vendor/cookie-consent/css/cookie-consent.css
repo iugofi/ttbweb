@@ -183,6 +183,7 @@ input[id^=lcc-]:disabled+span {
 .lcc-modal .lcc-modal__actions {
     margin: 0px 10px;
     display: flex;
+    float: right;
 }
 
 .lcc-modal .lcc-modal__actions-center {
