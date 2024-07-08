@@ -5,11 +5,13 @@
     $paymentDetails = DB::table('payments')
         ->join('product_details', 'product_details.id', '=', 'payments.product_id')
         ->join('usersall', 'usersall.id', '=', 'payments.user_id')
+        ->join('ttbkey', 'ttbkey.id', '=', 'payments.product_key')
         ->select(
             'payments.id', 
             'usersall.firstname', 
             'usersall.lastname', 
-            'usersall.email', 
+            'usersall.email',
+            'ttbkey.main_key', 
             'payments.pay_id', 
             'payments.product_key', 
             'payments.created_at', 
@@ -21,7 +23,7 @@
             'product_details.plan_id'
         )
         ->where('payments.pay_id', $payment_intent)
-        ->where('payments.product_key', $main_key)
+        ->where('payments.product_key', $id_key)
         ->whereIn('payments.product_id', $allowedProductIds)
         ->where('payments.created_at', '>', $oneYearAgo)
         ->first();
@@ -577,7 +579,7 @@
                                                                     <h2
                                                                         style="Margin:0;line-height:19px;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-size:16px;font-style:normal;font-weight:bold;color:#333333;text-align:center">
                                                                         Product activation key:<br><span
-                                                                            style="color:#13D5A8"><strong>{{ $paymentDetails->product_key }}</strong></span>
+                                                                            style="color:#13D5A8"><strong>{{ $paymentDetails->main_key }}</strong></span>
                                                                     </h2>
                                                                 </td>
                                                             </tr>
