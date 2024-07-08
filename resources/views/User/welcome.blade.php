@@ -942,149 +942,206 @@
 </section>
 
 <style>
-    .back-img {
-        content: url('https://www.nighthawk-routerlogin.com/assets/img/Faq-images.png');
-        width: 100%;
-        height: 250px;
-        position: relative;
-        top: 9rem;
-    }
-    .sec-title {
-        margin-bottom: 50px;
-        padding-bottom: 15px;
-        position: relative;
-    }
-    .sec-title::after {
-        content: "";
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        width: 100px;
-        height: 3px;
-        background: #000;
-    }
-    .sec-title h2 {
-        font-size: 60px;
-        font-family: "Montserrat", sans-serif;
-        font-weight: 900;
-        letter-spacing: 0px;
-        text-transform: uppercase;
-        color: var(--blue);
-    }
-    .sec-title p {
-        font-size: 18px;
-        line-height: 28px;
-    }
-    .testimonial-area {
-        background: var(--blue);
-        position: relative;
-        z-index: 2;
-        padding: 50px 0;
-    }
-    .testimonial-area .owl-carousel {
-        overflow: hidden;
-        padding: 0 20px;
-        margin: 0 -40px;
-        padding-right: 40px;
-    }
-    .testimonial-area .owl-stage-outer {
-        padding: 30px 50px;
-        width: calc(100% + 100px);
-    }
-    .single-testimonial p {
-        color: #000;
-        font-size: 15px;
-        line-height: 24px;
-        padding: 50px;
-        padding-bottom: 30px;
-        position: relative;
-        z-index: 3;
-        text-align: left;
-        background: #fff;
-    }
-    .client-info i.fa-solid.fa-quote-left {
-        position: absolute;
-        right: 10px;
-        font-size: 60px;
-        color: #11CDBE;
-        top: 0;
-    }
-    .round {
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        z-index: 1;
-    }
-    .client-video {
-        padding-right: 15px;
-    }
-    .client-info {
-        position: relative;
-        z-index: 3;
-        display: flex;
-        align-items: center;
-        text-align: left;
-        padding-bottom: 50px;
-        margin-top: 1.5rem;
-    }
-    .client-info a {
-        width: 40px;
-        height: 40px;
-        border-radius: 100px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        box-shadow: 0 0 16px rgba(0, 0, 0, 0.16);
-        font-size: 22px;
-    }
-    .sec-title.white-title h2 {
-        color: #fff;
-    }
-    .owl-dots button {
-        background: #fff !important;
-        width: 10px;
-        height: 10px;
-        border-radius: 26px;
-        margin: 0 5px;
-        transition: 0.3s;
-    }
-    .owl-dots {
-        text-align: center;
-        margin-top: 50px;
-    }
-    .owl-dots button.active {
-        width: 30px;
-    }
+.back-img {
+    content: url('https://www.nighthawk-routerlogin.com/assets/img/Faq-images.png');
+    width: 100%;
+    height: 250px;
+    position: relative;
+    top: 9rem;
+}
+.sec-title {
+	margin-bottom: 50px;
+	padding-bottom: 15px;
+	position: relative;
+}
+.sec-title::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100px;
+	height: 3px;
+	background: #000;
+}
+.sec-title h2 {
+	font-size: 60px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 900;
+	letter-spacing: 0px;
+	text-transform: uppercase;
+	color: var(--blue);
+}
+.sec-title p {
+	font-size: 18px;
+	line-height: 28px;
+}
+.testimonial-area {
+	background: var(--blue);
+	position: relative;
+	z-index: 2;
+	padding: 50px 0;
+}
+.testimonial-area .owl-carousel {
+	overflow: hidden;
+	padding: 0 20px;
+	margin: 0px -40px;
+	padding-right: 40px;
+}
+.testimonial-area .owl-stage-outer {
+	padding: 30px 50px;
+	/* margin-left: -34px; */
+	width: calc(100% + 100px);
+}
+/* .single-testimonial {
+	border: 4px solid #13d8aa;
+	text-align: center;
+	border-radius: 45px;
+	position: relative;
+	z-index: 2;
+} */
+.single-testimonial p {
+    color: #000;
+    font-size: 15px;
+    line-height: 24px;
+    padding: 50px;
+    padding-bottom: 30px;
+    position: relative;
+    z-index: 3;
+    text-align: left;
+    background: #fff;
+}
+/* .single-testimonial::before {
+	content: "";
+	position: absolute;
+	left: -35px;
+	top: -35px;
+	background: url(https://i.ibb.co/nb8Hjms/quote.png) no-repeat var(--blue);
+	background-size: 60%;
+	width: 126px;
+	height: 100px;
+	transform: rotate(180deg);
+	background-position: 34px 15px;
+}
+.single-testimonial::after {
+	content: "";
+	position: absolute;
+	right: -35px;
+	bottom: -34px;
+	background: url(https://i.ibb.co/nb8Hjms/quote.png) no-repeat var(--blue);
+	background-size: 60%;
+	width: 126px;
+	height: 100px;
+	background-position: 34px 19px;
+} */
+.client-info i.fa-solid.fa-quote-left {
+    position: absolute;
+    right: 10px;
+    font-size: 60px;
+    color: #11CDBE;
+    top: 0;
+}
+.round {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 1;
+}
+/* .round-1::before {
+	content: "";
+	position: absolute;
+	left: 88px;
+	top: -7px;
+	width: 50px;
+	height: 7px;
+	background: #fff;
+	border-radius: 30px;
+}
+.round-1::after {
+	content: "";
+	position: absolute;
+	left: -7px;
+	top: 62px;
+	width: 7px;
+	height: 50px;
+	background: #fff;
+	border-radius: 30px;
+}
+.round-2::before {
+	content: "";
+	position: absolute;
+	right: 87px;
+	bottom: -7px;
+	width: 50px;
+	height: 7px;
+	background: #fff;
+	border-radius: 30px;
+	z-index: 1;
+}
+.round-2::after {
+	content: "";
+	position: absolute;
+	right: -7px;
+	bottom: 62px;
+	width: 7px;
+	height: 50px;
+	background: #fff;
+	border-radius: 30px;
+	z-index: 1;
+} */
+.client-video {
+	padding-right: 15px;
+}
+.client-info {
+	position: relative;
+	z-index: 3;
+}
+.client-info a {
+	width: 40px;
+	height: 40px;
+	border-radius: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 0 16px rgba(0, 0, 0, 0.16);
+	font-size: 22px;
+}
+.client-info {
+	display: flex;
+	align-items: center;
+	text-align: left;
+	padding-bottom: 50px;
+    margin-top: 1.5rem;
+}
+/* .client-info h6 {
+	color: #000;
+	font-weight: 700;
+	font-size: 18px;
+	color: #fff;
+} */
+/* .client-info span {
+	display: inline-block;
+	color: #fff;
+	font-size: 12px;
+} */
+.sec-title.white-title h2 {
+	color: #fff;
+}
+.owl-dots button {
+	background: #fff !important;
+	width: 10px;
+	height: 10px;
+	border-radius: 26px;
+	margin: 0 5px;
+	transition: 0.3s;
+}
+.owl-dots {
+	text-align: center;
+	margin-top: 50px;
+}
+.owl-dots button.active {
+	width: 30px;
+}
 
-    @media (max-width: 768px) {
-        .sec-title h2 {
-            font-size: 40px;
-        }
-        .sec-title p {
-            font-size: 16px;
-        }
-        .single-testimonial p {
-            padding: 30px;
-        }
-        .client-info i.fa-solid.fa-quote-left {
-            font-size: 40px;
-        }
-    }
-
-    @media (max-width: 480px) {
-        .sec-title h2 {
-            font-size: 30px;
-        }
-        .sec-title p {
-            font-size: 14px;
-        }
-        .single-testimonial p {
-            padding: 20px;
-        }
-        .client-info i.fa-solid.fa-quote-left {
-            font-size: 30px;
-        }
-    }
 </style>
 
 <script>
