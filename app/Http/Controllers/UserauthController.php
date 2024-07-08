@@ -29,6 +29,7 @@ class UserauthController extends Controller
             $productdetails= Payments::join('product_details', 'payments.product_id', '=', 'product_details.id')
             ->where('payments.user_id', $this->loggedInUser)
             ->select('payments.*', 'product_details.*')
+            ->orderby('created_at','asc')
             ->get();
 
            $user_id_s =$this->loggedInUser;
