@@ -50462,8 +50462,8 @@ padding: 8em 0em;
 } */
 
 .photobanner img {
-    width: 185px;
-    height: 21px;
+    width: 360px;
+    height: 27px;
     object-fit: cover;
     padding-right: 30px;
 }

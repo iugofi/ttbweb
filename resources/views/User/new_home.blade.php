@@ -124,7 +124,7 @@
                                     <img src="{{ asset('assets/home-two-img/home-new-brand3.png') }}" alt=""
                                         class="img-fluid" width="30%">
                                 </div>
-                                <div class="photobanner"style="margin-left: 31em;">
+                                <div class="photobanner"style="margin-left: 19em;">
                                     <img src="{{ asset('assets/home-two-img/home-new-brand4.png') }}" alt=""
                                         class="img-fluid" width="30%">
                                     <img src="{{ asset('assets/home-two-img/home-new-brand5.png') }}" alt=""
