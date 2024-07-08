@@ -111,7 +111,7 @@
                                                     @endphp
                                                     <td class="border px-4 py-2">{{ $key + 1 }}</td>
                                                     <td class="border px-4 py-2">{{ $item->main_key }}</td>
-                                                    <td class="border px-4 py-2">
+                                                    <td class="border px-4 py-2" style="font-weight: bold;">
                                                         @php
                                                             $storeId = 'key_type';
                                                             $pickId = $item->key_type;
