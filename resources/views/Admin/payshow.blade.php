@@ -134,7 +134,7 @@
                                             <th class="px-4 py-2">key_type</th>
                                             <th class="px-4 py-2">plan_id</th>
                                             <th class="px-4 py-2">pay_id</th>
-                                            <th class="px-4 py-2">product_key</th>
+                                            <th class="px-4 py-2" style="font-weight: bold;font-size: 13px;">product_key</th>
                                             <th class="px-4 py-2">amount_total</th>
                                             <th class="px-4 py-2">payment_status</th>
                                             <th class="px-4 py-2">customer_name</th>
