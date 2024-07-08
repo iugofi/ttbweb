@@ -272,11 +272,19 @@
             });
             fetchPlan();
         });
-    function upperCaseF(a){
-        setTimeout(function(){
-            a.value = a.value.toUpperCase();
-        }, 1);
-    }
+        function formatInput(input) {
+    setTimeout(function() {
+        let value = input.value.toUpperCase().replace(/-/g, '');
+        let formattedValue = '';
+        for (let i = 0; i < value.length; i++) {
+            formattedValue += value[i];
+            if ((i + 1) % 5 === 0 && i + 1 !== value.length) {
+                formattedValue += '-';
+            }
+        }
+        input.value = formattedValue;
+    }, 1);
+}
     </script>
 
 
