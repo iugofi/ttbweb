@@ -364,9 +364,9 @@
                 <div class="container">
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-12 col-span-12"> 
-                            <div class="flex">
+                            <div class="grid grid-cols-12">
                                 <div class="icon-box-new">
-                                    <i class="material-icons"></i>
+                                    <i class="far fa-clock	"></i>
                                     {{-- <img src="{{ asset('assets/home-two-img/home-new-brand1.png')}}" alt="" class="img-fluid" width="100%"> --}}
                                 </div>
                                 <div class="text-box-new">
@@ -378,7 +378,7 @@
                         <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-12 col-span-12"> 
                             <div class="grid grid-cols-12">
                                 <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-4 icon-box-new">
-                                    <i class="material-icons"></i>
+                                    <i class="far fa-clock"></i>
                                     {{-- <img src="{{ asset('assets/home-two-img/home-new-brand1.png')}}" alt="" class="img-fluid" width="100%"> --}}
                                 </div>
                                 <div class="xxl:col-span-8 xl:col-span-8 lg:col-span-8 md:col-span-8 col-span-8 text-box-new">
@@ -390,7 +390,7 @@
                         <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-12 col-span-12"> 
                             <div class="grid grid-cols-12">
                                 <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-4 icon-box-new">
-                                    <i class="material-icons"></i>
+                                    <i class="far fa-clock"></i>
                                     {{-- <img src="{{ asset('assets/home-two-img/home-new-brand1.png')}}" alt="" class="img-fluid" width="100%"> --}}
                                 </div>
                                 <div class="xxl:col-span-8 xl:col-span-8 lg:col-span-8 md:col-span-8 col-span-8 text-box-new">
@@ -402,7 +402,7 @@
                         <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-12 col-span-12"> 
                             <div class="grid grid-cols-12">
                                 <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-4 icon-box-new">
-                                    <i class="material-icons"></i>
+                                    <i class="far fa-clock"></i>
                                     {{-- <img src="{{ asset('assets/home-two-img/home-new-brand1.png')}}" alt="" class="img-fluid" width="100%"> --}}
                                 </div>
                                 <div class="xxl:col-span-8 xl:col-span-8 lg:col-span-8 md:col-span-8 col-span-8 text-box-new">
