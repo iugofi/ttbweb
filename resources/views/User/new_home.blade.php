@@ -360,17 +360,68 @@
                 </div>
             </section> --}}
 
-
+            <section class="section-home-new-4">
+                <div class="container">
+                    <div class="grid grid-cols-12 gap-6">
+                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-12 col-span-12"> 
+                            <div class="flex">
+                                <div class="icon-box-new">
+                                    <img src="{{ asset('assets/home-two-img/home-new-brand1.png')}}" alt="" class="img-fluid" width="100%">
+                                </div>
+                                <div class="text-box-new">
+                                    <h4>Real-time threat detection</h4>
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-12 col-span-12"> 
+                            <div class="flex">
+                                <div class="icon-box-new">
+                                    <img src="{{ asset('assets/home-two-img/home-new-brand1.png')}}" alt="" class="img-fluid" width="100%">
+                                </div>
+                                <div class="text-box-new">
+                                    <h4>Real-time threat detection</h4>
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-12 col-span-12"> 
+                            <div class="flex">
+                                <div class="icon-box-new">
+                                    <img src="{{ asset('assets/home-two-img/home-new-brand1.png')}}" alt="" class="img-fluid" width="100%">
+                                </div>
+                                <div class="text-box-new">
+                                    <h4>Real-time threat detection</h4>
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-12 col-span-12"> 
+                            <div class="flex">
+                                <div class="icon-box-new">
+                                    <img src="{{ asset('assets/home-two-img/home-new-brand1.png')}}" alt="" class="img-fluid" width="100%">
+                                </div>
+                                <div class="text-box-new">
+                                    <h4>Real-time threat detection</h4>
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
 
             <section class="section-home-new-5">
                 <div class="container">
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
-                            <img src="{{ asset('assets/home-two-img/section5.png') }}" alt="" class="img-fluid" width="100%">   
+                            <img src="{{ asset('assets/home-two-img/section5.png') }}" alt="" class="img-fluid"
+                                width="100%">
                         </div>
                         <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
-                            <h2> TTB VPN Shield–Encrypted Privacy that hides from CyberPunks</h2>
+                            <h2><span class="text-color-ttb">TTB VPN Shield</span>–Encrypted Privacy that hides from
+                                CyberPunks</h2>
                             <p>Now browse and play securely on the web by using our VPN Shield software. It conceals you
                                 from online snoops and never logs your activities. This service is easy to navigate, hides
                                 your IP whenever you connect to the online world, and not slows down your network speed.
@@ -380,7 +431,36 @@
                 </div>
             </section>
 
+            <section class="section-home-new-6">
+                <div class="container">
+                    <div class="grid grid-cols-12 gap-6">
+                        <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
+                            <h2><span class="text-color-ttb">TTB Antivirus</span>– Advanced Threat Intelligence Tool
+                            </h2>
+                            <p>Our easy-to-install antivirus will alert you about the emerging and new threat that addresses
+                                the dark web. It smartly guards your device and confidentiality with real-time threat
+                                detection and auto-update features. This advanced tool locks up your privacy and security
+                                from malware, ransomware, viruses, & more. Order Now for Advanced Protection!
+                            </p>
 
+                        </div>
+                        <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
+                            <img src="{{ asset('assets/home-two-img/section6.png') }}" alt="" class="img-fluid"
+                                width="100%">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section-home-new-7">
+                <div class="container">
+                    <div class="grid grid-cols-12 gap-6">
+                        <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 col-span-12 text-center">
+                            <img src="{{ asset('assets/home-two-img/certificates.png') }}" alt="" class="img-fluid"
+                                width="60%">
+                        </div>
+                    </div>
+                </div>
+            </section>
 
 
         </div>

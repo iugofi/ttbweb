@@ -851,7 +851,8 @@
 			<h2>Testimonials</h2>
 			<p>What Client Say About Us?</p>
 		</div>
-        <img src="https://www.nighthawk-routerlogin.com/assets/img/Faq-images.png" alt="" srcset="">
+        <div class="back-img"></div>
+        {{-- <img src="https://www.nighthawk-routerlogin.com/assets/img/Faq-images.png" alt="" srcset=""> --}}
 		<div class="testimonial-content owl-carousel">
            
 			<!-- Single Testimonial -->
@@ -941,7 +942,13 @@
 </section>
 
 <style>
-
+.back-img {
+    content: url('https://www.nighthawk-routerlogin.com/assets/img/Faq-images.png');
+    width: 100%;
+    height: 250px;
+    position: relative;
+    top: 9rem;
+}
 .sec-title {
 	margin-bottom: 50px;
 	padding-bottom: 15px;
@@ -982,7 +989,7 @@
 }
 .testimonial-area .owl-stage-outer {
 	padding: 30px 50px;
-	margin-left: -34px;
+	/* margin-left: -34px; */
 	width: calc(100% + 100px);
 }
 /* .single-testimonial {
