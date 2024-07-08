@@ -989,7 +989,7 @@
 }
 .testimonial-area .owl-stage-outer {
 	padding: 30px 50px;
-	margin-left: -34px;
+	/* margin-left: -34px; */
 	width: calc(100% + 100px);
 }
 /* .single-testimonial {
