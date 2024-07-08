@@ -110,7 +110,7 @@
                                                         $id = 1;
                                                     @endphp
                                                     <td class="border px-4 py-2">{{ $key + 1 }}</td>
-                                                    <td class="border px-4 py-2" style="font-weight: bold;font-size: larger;">{{ $item->main_key }}</td>
+                                                    <td class="border px-4 py-2" style="font-weight: bold;font-size: 13px;">{{ $item->main_key }}</td>
                                                     <td class="border px-4 py-2" >
                                                         @php
                                                             $storeId = 'key_type';
