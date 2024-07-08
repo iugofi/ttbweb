@@ -84,7 +84,7 @@
                                     <div class="xl:col-span-6 col-span-12">
                                         <label for="canonical-url" class="form-label">main_key</label>
                                         <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
-                                            id="main_key" name="main_key" placeholder="Enter Key" onkeydown="upperCaseF(this)">
+                                            id="main_key" name="main_key" placeholder="Enter Key" maxlength="29" onkeydown="addHyphen(this)">
                                         <div class="invalid-feedback"></div>
                                     </div>
                                  
@@ -272,19 +272,11 @@
             });
             fetchPlan();
         });
-        function formatInput(input) {
-    setTimeout(function() {
-        let value = input.value.toUpperCase().replace(/-/g, '');
-        let formattedValue = '';
-        for (let i = 0; i < value.length; i++) {
-            formattedValue += value[i];
-            if ((i + 1) % 5 === 0 && i + 1 !== value.length) {
-                formattedValue += '-';
-            }
-        }
-        input.value = formattedValue;
-    }, 1);
-}
+        function addHyphen(element) {
+        let ele = element.value.split('-').join('');
+        let finalVal = ele.match(/.{1,5}/g)?.join('-').toUpperCase() || '';
+        element.value = finalVal;
+    }
     </script>
 
 
