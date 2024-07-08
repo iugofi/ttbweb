@@ -243,7 +243,7 @@ class PaymentController extends Controller
             $payment->save();
 
             if ($id_key !== 'N/A' && $pay_id) {
-                Mail::send('Mail.sendkey', ['main_key' => $id_key, 'payment_intent' => $pay_id], function ($message) use ($response) {
+                Mail::send('Mail.sendkey', ['id_key' => $id_key, 'payment_intent' => $pay_id], function ($message) use ($response) {
                     $message->to($response->customer_email)->subject('TTB Internet Security Vpn Key');
                 });
             } else {
