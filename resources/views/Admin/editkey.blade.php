@@ -79,7 +79,7 @@
                                     <div class="xl:col-span-6 col-span-12">
                                         <label for="canonical-url" class="form-label">main_key</label>
                                         <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
-                                            id="main_key" name="main_key" value="{{ isset($editkey->main_key) ? $editkey->main_key : '' }}" placeholder="Enter Key">
+                                            id="main_key" name="main_key" value="{{ isset($editkey->main_key) ? $editkey->main_key : '' }}" placeholder="Enter Key" maxlength="29" onkeydown="addHyphen(this)">
                                         <div class="invalid-feedback"></div>
                                     </div>
                                  
@@ -204,6 +204,11 @@
             });
 
         });
+            function addHyphen(element) {
+                let ele = element.value.split('-').join('');
+                let finalVal = ele.match(/.{1,5}/g)?.join('-').toUpperCase() || '';
+                element.value = finalVal;
+            }
     </script>
 
 
