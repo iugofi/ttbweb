@@ -103,17 +103,8 @@
                     <div class="swiper-button-prev"></div> --}}
                 </div>
                 <!-- end of wpo-hero-slide-section-->
-            </section>
 
 
-            <style>
-                .marquee {
-                    display: block;
-                    white-space: nowrap;
-                    overflow: hidden;
-                    box-sizing: border-box;
-                }
-            </style>
 
             <section
                 class=" !bg-[##F3F2EA] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 home-new-section-2">
@@ -122,7 +113,8 @@
                         <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 col-span-12 text-center">
                             <h2 class="text-[#000] dark:text-white/50 pt-5">Trusted by millions of customers.</h2>
 
-                            <marquee class="marquee" id="marqueeText" behavior="scroll" direction="left">
+                            <div class="marquee-container">
+                                <div class="marquee-content" id="marqueeContent">
                                <span>Award Winning Security </span>
                                <span>30 Days Money Back Guarantee</span>
                                <span>30 Days Free Trail</span>
@@ -130,7 +122,8 @@
                                <span>Lightweight & Easy to Install</span>
                                <span>12 Year of Experience</span>
 
-                            </marquee>
+                            </div>
+                        </div>
 
                         </div>
                     </div>
@@ -375,24 +368,24 @@
         </div>
     </div>
     <script>
-        // Get the marquee element
-        var marquee = document.getElementById('marqueeText');
+        // Get the marquee content element
+        var marqueeContent = document.getElementById('marqueeContent');
         var stopTimeout;
         var startTimeout;
 
         // Add event listener for mouseover with delay
-        marquee.addEventListener('mouseover', function() {
+        marqueeContent.addEventListener('mouseover', function() {
             clearTimeout(startTimeout);
             stopTimeout = setTimeout(function() {
-                marquee.stop();
+                marqueeContent.classList.add('paused');
             }, 500); // 500ms delay before stopping
         });
 
         // Add event listener for mouseout with delay
-        marquee.addEventListener('mouseout', function() {
+        marqueeContent.addEventListener('mouseout', function() {
             clearTimeout(stopTimeout);
             startTimeout = setTimeout(function() {
-                marquee.start();
+                marqueeContent.classList.remove('paused');
             }, 500); // 500ms delay before starting
         });
     </script>
