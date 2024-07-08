@@ -84,7 +84,7 @@
                                     <div class="xl:col-span-6 col-span-12">
                                         <label for="canonical-url" class="form-label">main_key</label>
                                         <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
-                                            id="main_key" name="main_key" placeholder="Enter Key">
+                                            id="main_key" name="main_key" placeholder="Enter Key" onkeydown="upperCaseF(this)">
                                         <div class="invalid-feedback"></div>
                                     </div>
                                  
@@ -272,6 +272,11 @@
             });
             fetchPlan();
         });
+    function upperCaseF(a){
+        setTimeout(function(){
+            a.value = a.value.toUpperCase();
+        }, 1);
+    }
     </script>
 
 
