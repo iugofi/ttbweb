@@ -30,11 +30,13 @@ class UserauthController extends Controller
             ->where('payments.user_id', $this->loggedInUser)
             ->select('payments.*', 'product_details.*')
             ->get();
+
+           $user_id_s =$this->loggedInUser;
             
             $keydetails = DB::table('payments')
             ->select(DB::raw('COUNT(product_details.key_type) as count'), 'product_details.key_type')
             ->join('product_details', 'product_details.id', '=', 'payments.product_id')
-            ->where('payments.user_id', 28)
+            ->where('payments.user_id', $user_id_s)
             ->where('payments.product_key', '!=', 'N/A')
             ->groupBy('product_details.key_type')
             ->first();
