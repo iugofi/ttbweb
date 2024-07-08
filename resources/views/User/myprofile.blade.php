@@ -810,6 +810,9 @@
                                                                                 $results = App\Models\TTBKEY::where('id', $productdetails_list->product_key)->first();
                                                                             @endphp
                                                                                 {{ $results ? $results->main_key : 'NA' }} </span>
+                                                                            <p class="text-[0.75rem] opacity-[0.7] mb-1 text-[#8c9097] dark:text-white/50">
+                                                                                {{$productdetails_list->created_at->format('F j, Y')}}
+                                                                            </p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
