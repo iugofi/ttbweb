@@ -51,8 +51,9 @@
 
 .lcc-button:focus,
 .lcc-button:hover {
-    background: #555;
+    background: #000;
     border-color: #555;
+    color: #fff;
 }
 
 .lcc-button.lcc-button--ghost {
@@ -70,7 +71,7 @@
 
 .lcc-button.lcc-button--ghost:focus,
 .lcc-button.lcc-button--ghost:hover {
-    background: #555;
+    background: #000;
     border-color: #555;
     color: #fff;
 }
