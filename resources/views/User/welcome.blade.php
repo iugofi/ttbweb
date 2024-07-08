@@ -1012,7 +1012,7 @@
 	transform: rotate(180deg);
 	background-position: 34px 15px;
 }
-/* .single-testimonial::after {
+.single-testimonial::after {
 	content: "";
 	position: absolute;
 	right: -35px;
@@ -1022,7 +1022,7 @@
 	width: 126px;
 	height: 100px;
 	background-position: 34px 19px;
-} */
+}
 .round {
 	width: 100%;
 	height: 100%;
