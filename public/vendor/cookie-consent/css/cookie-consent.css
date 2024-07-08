@@ -41,7 +41,6 @@
     background: none;
     background-color: #111;
     border: 1px solid #111;
-    /* color: #fff; */
     cursor: pointer;
     display: inline-block;
     font-size: inherit;
@@ -123,7 +122,6 @@ input[id^=lcc-]:disabled+span {
 }
 
 .lcc-backdrop {
-    /* background: rgba(0, 0, 0, .6); */
     bottom: 0;
     left: 0;
     position: fixed;
@@ -139,12 +137,11 @@ input[id^=lcc-]:disabled+span {
     max-height: 100%;
     max-width: 100%;
     overflow: auto;
-    padding: 20px 80px; 
+    padding: 20px 80px;
     position: fixed;
     bottom: 0;
     right: 0;
     width: 100%;
-    /* max-width: 475px; */
     z-index: 10001;
 }
 
@@ -215,4 +212,53 @@ input[id^=lcc-]:disabled+span {
 
 .lcc-u-text-center {
     text-align: center !important;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    .lcc-modal {
+        padding: 20px 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .lcc-modal {
+        padding: 20px 40px;
+    }
+
+    .lcc-button {
+        padding: 6px 10px;
+    }
+
+    .lcc-button.lcc-button--ghost, 
+    .lcc-button.lcc-button--link {
+        padding: 6px 10px;
+    }
+
+    .lcc-modal .lcc-modal__title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .lcc-modal {
+        padding: 20px;
+    }
+
+    .lcc-modal .lcc-modal__title {
+        font-size: 18px;
+    }
+
+    .lcc-modal .lcc-modal__actions {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lcc-modal .lcc-modal__actions>* {
+        margin: 10px 0;
+    }
+
+    .lcc-text {
+        font-size: 20px;
+    }
 }
