@@ -166,7 +166,12 @@
                                                     {{ $results->PICK_TEXT ?? 'Default Value' }}
                                                 </td>
 
-                                                <td class="border px-4 py-2">{{ $item->plan_id }}</td>
+                                                <td class="border px-4 py-2"> @php
+                                                    $results_plan = DB::table('planname')
+                                                        ->where('plan_id', $item->plan_id)
+                                                        ->first();
+                                                @endphp
+                                                {{ $results_plan->name ?? 'NA' }}</td>
                                                 <td class="border px-4 py-2">{{ $item->pay_id }}</td>
                                                 <td class="border px-4 py-2" style="font-weight: bold;font-size: 13px;"> @php
                                                     $results = App\Models\TTBKEY::where('id', $item->product_key)->first();
