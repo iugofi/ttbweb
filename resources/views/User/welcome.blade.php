@@ -1000,7 +1000,7 @@
     text-align: left;
     background: #fff;
 }
-.single-testimonial::before {
+/* .single-testimonial::before {
 	content: "";
 	position: absolute;
 	left: -35px;
@@ -1022,6 +1022,12 @@
 	width: 126px;
 	height: 100px;
 	background-position: 34px 19px;
+} */
+.client-info i.fa-solid.fa-quote-left {
+    position: absolute;
+    right: 60px;
+    font-size: 60px;
+    color: #11CDBE;
 }
 .round {
 	width: 100%;
