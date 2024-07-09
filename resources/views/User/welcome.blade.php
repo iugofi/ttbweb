@@ -893,9 +893,13 @@
         display: flex;
         align-items: center;
         text-align: left;
-        padding-bottom: 50px;
+        padding-bottom: 30px;
         margin-top: 1.5rem;
     }
+    .single-testimonial p {
+        background: #fff;
+        padding: 50px;
+}
     .back-img {
         content: url('https://www.nighthawk-routerlogin.com/assets/img/Bg.png');
         width: 100%;
