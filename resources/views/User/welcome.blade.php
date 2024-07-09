@@ -898,7 +898,7 @@
         }
     </style>
 
-<section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70" id="faq">
+<section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70" id="faq" style="overflow: hidden;">
     <section class="testimonial-area">
         <div class="container">
             <div class="sec-title white-title">
