@@ -920,6 +920,7 @@
         align-items: center;
         display: inherit;
         font-size: 24px;
+        color: #0000006e;
     }
 .owl-nav button.owl-next {
         position: relative;
@@ -932,6 +933,7 @@
         align-items: center;
         display: inherit;
         font-size: 24px;
+        color: #0000006e;
     }
 </style>
 
