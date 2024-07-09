@@ -1016,7 +1016,7 @@
         const owl = $(".testimonial-content");
         owl.owlCarousel({
             loop: true,
-            margin: 10,
+            margin: 8,
             dots: true,
             nav: false,
             mouseDrag: true,
