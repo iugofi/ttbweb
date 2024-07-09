@@ -666,6 +666,8 @@
                             <button class="owl-prev"><i class="fa-solid fa-arrow-left"></i></button>
                             <button class="owl-next"><i class="fa-solid fa-arrow-right"></i></button>
                         </div>
+                        <a href="index.html" class="m-1 ti-btn ti-btn-primary-full">
+                            Download</a>
                     </div>
                 </div>
                 </section>
