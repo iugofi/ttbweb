@@ -1015,7 +1015,7 @@
         owl.owlCarousel({
             loop: true,
             items: 2,
-            margin: 10,
+            margin: 6,
             dots: true,
             nav: false,
             mouseDrag: true,
