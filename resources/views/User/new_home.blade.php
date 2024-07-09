@@ -722,7 +722,7 @@
             </div>
         </div>
         <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 my-btn-section">
-            <a href="#" class="ti-btn ti-btn-primary-full !rounded-full ti-btn-wave my-btn-pro">
+            <a href="#" class="ti-btn ti-btn-primary-full !rounded-full ti-btn-wave my-btn-pros">
                 <span class="fab fa-apple icon-size-sm mx-3 mr-3 h2"></span>
                 <div class="download-text text-left">
                     <h5 class="mb-0">Download</h5>
