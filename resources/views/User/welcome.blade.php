@@ -1016,14 +1016,24 @@
         const owl = $(".testimonial-content");
         owl.owlCarousel({
             loop: true,
-            items: 2,
-            margin: 6,
+            margin: 10,
             dots: true,
             nav: false,
             mouseDrag: true,
             autoplay: true,
             autoplayTimeout: 3000,
-            smartSpeed: 1000
+            smartSpeed: 1000,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 2
+                }
+            }
         });
 
         $(".owl-prev").click(function() {
