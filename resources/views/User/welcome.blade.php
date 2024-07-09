@@ -873,12 +873,16 @@
         .sec-title.white-title h2 {
             color: #fff;
         }
+        .client-video img {
+            width: 150px !important;
+            max-width: 65px;
+}
         .client-info i.fa-solid.fa-quote-left {
             position: absolute;
             right: 10px;
             font-size: 60px;
             color: #11CDBE;
-            top: 0;
+            /* top: 0; */
         }
         .client-video {
             padding-right: 15px;
