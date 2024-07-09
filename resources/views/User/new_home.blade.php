@@ -702,7 +702,7 @@
 <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] sect-five" id="statistics">
     <div class="container text-center relative">
         
-        <h3 class="font-semibold mb-2 text-defaulttextcolor dark:text-defaulttextcolor/70  text-35xl ttb-heading">
+        <h3 class="font-semibold mb-2 text-defaulttextcolor dark:text-defaulttextcolor/70  text-28xl ttb-heading">
             Fast, light, and powerful free protection.<br>
             It's just a click away.</h3>
         <div class="">
