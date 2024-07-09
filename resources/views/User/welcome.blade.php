@@ -909,6 +909,30 @@
         position: relative;
         /* top: 5rem; */
     }
+    .owl-nav button.owl-prev {
+        position: relative;
+        left: -3rem;
+        padding: 8px;
+        border-radius: 39px;
+        border-width: 1px;
+        border: 1px solid;
+        height: 38px;
+        align-items: center;
+        display: inherit;
+        font-size: 24px;
+    }
+.owl-nav button.owl-next {
+        position: relative;
+        right: 2rem;
+        padding: 8px;
+        border-radius: 39px;
+        border-width: 1px;
+        border: 1px solid;
+        height: 38px;
+        align-items: center;
+        display: inherit;
+        font-size: 24px;
+    }
 </style>
 
 <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70" id="faq" style="overflow: hidden;">
