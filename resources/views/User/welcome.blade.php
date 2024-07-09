@@ -1043,7 +1043,7 @@
         owl.owlCarousel({
             loop: true,
             margin: 8,
-            dots: true,
+            dots: false,
             nav: false,
             mouseDrag: true,
             autoplay: true,
