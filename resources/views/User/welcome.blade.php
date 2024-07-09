@@ -900,6 +900,7 @@
         background: #fff;
         padding: 42px 32px;
         box-shadow: 0px 0px 8px 2px #0000001a;
+        border-radius: 6px;
     }
     .back-img {
         content: url('https://www.nighthawk-routerlogin.com/assets/img/Bg.png');
