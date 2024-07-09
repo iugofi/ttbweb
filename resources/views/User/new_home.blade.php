@@ -15,8 +15,7 @@
     <div class="content">
         <div class="main-content">
 
-
-
+        {{-- first section start --}}
             <section
                 class="bg-[#131313] w-full h1-[511px]  lg1:h-[680px]
                 md1:h-[600px] sm1:h-[500px]  relative z-[1] overflow-hidden home-new-banner">
@@ -104,10 +103,9 @@
                 </div>
                 <!-- end of wpo-hero-slide-section-->
             </section>
+        {{-- first section End --}}
 
-
-
-
+        {{-- second section start --}}
             <section
                 class=" !bg-[##F3F2EA] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 section-home2-two">
                 <div class="container">
@@ -139,9 +137,10 @@
                         </div>
                     </div>
             </section>
+        {{-- second section End --}}
 
+        {{-- third pricing plan section start --}}
 
-            {{-- start pricing plan section --}}
             {{-- <section
                 class="!bg-[##F3F2EA] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 home2-seven-pricing">
                 <div class="pricing-bxx">
@@ -360,6 +359,9 @@
                 </div>
             </section> --}}
 
+        {{-- third pricing plan section end --}}
+
+        {{-- forth section start --}}
             <section class="section-home-new-4">
                 <div class="container">
                     <div class="grid grid-cols-12 gap-6">
@@ -415,8 +417,9 @@
                     </div>
                 </div>
             </section>
+        {{-- forth section End --}}
 
-
+        {{-- fifth section start --}}
             <section class="section-home-new-5">
                 <div class="container">
                     <div class="grid grid-cols-12 gap-6">
@@ -435,7 +438,9 @@
                     </div>
                 </div>
             </section>
+        {{-- fifth section start --}}
 
+        {{-- six section start --}}
             <section class="section-home-new-6">
                 <div class="container">
                     <div class="grid grid-cols-12 gap-6">
@@ -456,6 +461,9 @@
                     </div>
                 </div>
             </section>
+        {{-- six section End --}}
+
+        {{-- saven section start --}}
             <section class="section-home-new-7">
                 <div class="container">
                     <div class="grid grid-cols-12 gap-6">
@@ -466,7 +474,9 @@
                     </div>
                 </div>
             </section>
+        {{-- saven section End --}}
 
+   {{-- New testimonial html css start --}}
 
             <style>
                 .testimonial-area {
@@ -696,6 +706,7 @@
                 });
             </script>
 
+    {{-- New testimonial html css End --}}
 
 {{-- download section start --}}
 
