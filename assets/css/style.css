@@ -51047,7 +51047,7 @@ padding: 8em 0em;
 .sect-five h5 {
     font-size: 16px;
     text-align: left;
-    margin-top: -4px;
+    /* margin-top: -4px; */
 }
 
 .text-gray-light {
