@@ -1181,7 +1181,8 @@
 
 =====================================================================================================================
 
-<script src="https://cdn.tailwindcss.com"></script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
     <style>
         .carousel-container {
             display: flex;
@@ -1200,8 +1201,7 @@
             }
         }
     </style>
-</head>
-<body>
+
     <div class="container mx-auto my-8">
         <div class="relative">
             <div id="carousel" class="carousel-container">
@@ -1237,10 +1237,10 @@
                     </div>
                 </div>
                 <!-- Add more testimonials as needed -->
-				<div class="carousel-slide single-testimonial bg-gray-200 p-4">
+                <div class="carousel-slide single-testimonial bg-gray-300 p-4">
                     <div class="round-1 round"></div>
                     <div class="round-2 round"></div>
-                    <p>3.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    <p>3. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                     <div class="client-info">
                         <div class="client-video">
                             <a href="#"><img src="https://i.ibb.co/DWhSr6S/play-button2.png" alt="Play"></a>
@@ -1253,10 +1253,10 @@
                     </div>
                 </div>
                 <!-- Add more testimonials as needed -->
-				<div class="carousel-slide single-testimonial bg-gray-200 p-4">
+                <div class="carousel-slide single-testimonial bg-gray-400 p-4">
                     <div class="round-1 round"></div>
                     <div class="round-2 round"></div>
-                    <p>4.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    <p>4. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                     <div class="client-info">
                         <div class="client-video">
                             <a href="#"><img src="https://i.ibb.co/DWhSr6S/play-button2.png" alt="Play"></a>
@@ -1269,7 +1269,7 @@
                     </div>
                 </div>
                 <!-- Add more testimonials as needed -->
-				<div class="carousel-slide single-testimonial bg-gray-200 p-4">
+                <div class="carousel-slide single-testimonial bg-gray-500 p-4">
                     <div class="round-1 round"></div>
                     <div class="round-2 round"></div>
                     <p>5. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
@@ -1293,14 +1293,15 @@
 
     <script>
         const carousel = document.getElementById('carousel');
-        const slides = carousel.children;
+        const slides = Array.from(carousel.children);
         const prevButton = document.getElementById('prev');
         const nextButton = document.getElementById('next');
         let index = 0;
 
         function showSlide(i) {
             index = (i + slides.length) % slides.length;
-            carousel.style.transform = `translateX(-${index * 100 / slides.length}%)`;
+            const slideWidth = slides[0].offsetWidth;
+            carousel.style.transform = `translateX(-${index * slideWidth}px)`;
         }
 
         nextButton.addEventListener('click', () => {
@@ -1318,7 +1319,13 @@
             clearInterval(autoPlayInterval);
             autoPlayInterval = setInterval(() => showSlide(index + 1), 3000);
         }
+
+        window.addEventListener('resize', () => {
+            showSlide(index);
+        });
     </script>
+
+
 
 </section>
 
