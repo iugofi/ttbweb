@@ -1179,6 +1179,146 @@
 
 </script>
 
+=====================================================================================================================
+
+<script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .carousel-container {
+            display: flex;
+            overflow: hidden;
+            scroll-snap-type: x mandatory;
+        }
+        .carousel-slide {
+            scroll-snap-align: start;
+            flex-shrink: 0;
+            width: 100%;
+            transition: transform 0.5s ease-in-out;
+        }
+        @media (min-width: 640px) {
+            .carousel-slide {
+                width: 50%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container mx-auto my-8">
+        <div class="relative">
+            <div id="carousel" class="carousel-container">
+                <div class="carousel-slide single-testimonial bg-gray-100 p-4">
+                    <div class="round-1 round"></div>
+                    <div class="round-2 round"></div>
+                    <p>1. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    <div class="client-info">
+                        <div class="client-video">
+                            <a href="#"><img src="https://i.ibb.co/DWhSr6S/play-button2.png" alt="Play"></a>
+                            <i class="fa-solid fa-quote-left"></i>
+                        </div>
+                        <div class="client-details">
+                            <h6>Yeasin Arafat</h6>
+                            <span>Designer, LLCG Team</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more testimonials as needed -->
+                <div class="carousel-slide single-testimonial bg-gray-200 p-4">
+                    <div class="round-1 round"></div>
+                    <div class="round-2 round"></div>
+                    <p>2. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    <div class="client-info">
+                        <div class="client-video">
+                            <a href="#"><img src="https://i.ibb.co/DWhSr6S/play-button2.png" alt="Play"></a>
+                            <i class="fa-solid fa-quote-left"></i>
+                        </div>
+                        <div class="client-details">
+                            <h6>Yeasin Arafat</h6>
+                            <span>Designer, LLCG Team</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more testimonials as needed -->
+				<div class="carousel-slide single-testimonial bg-gray-200 p-4">
+                    <div class="round-1 round"></div>
+                    <div class="round-2 round"></div>
+                    <p>3.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    <div class="client-info">
+                        <div class="client-video">
+                            <a href="#"><img src="https://i.ibb.co/DWhSr6S/play-button2.png" alt="Play"></a>
+                            <i class="fa-solid fa-quote-left"></i>
+                        </div>
+                        <div class="client-details">
+                            <h6>Yeasin Arafat</h6>
+                            <span>Designer, LLCG Team</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more testimonials as needed -->
+				<div class="carousel-slide single-testimonial bg-gray-200 p-4">
+                    <div class="round-1 round"></div>
+                    <div class="round-2 round"></div>
+                    <p>4.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    <div class="client-info">
+                        <div class="client-video">
+                            <a href="#"><img src="https://i.ibb.co/DWhSr6S/play-button2.png" alt="Play"></a>
+                            <i class="fa-solid fa-quote-left"></i>
+                        </div>
+                        <div class="client-details">
+                            <h6>Yeasin Arafat</h6>
+                            <span>Designer, LLCG Team</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more testimonials as needed -->
+				<div class="carousel-slide single-testimonial bg-gray-200 p-4">
+                    <div class="round-1 round"></div>
+                    <div class="round-2 round"></div>
+                    <p>5. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    <div class="client-info">
+                        <div class="client-video">
+                            <a href="#"><img src="https://i.ibb.co/DWhSr6S/play-button2.png" alt="Play"></a>
+                            <i class="fa-solid fa-quote-left"></i>
+                        </div>
+                        <div class="client-details">
+                            <h6>Yeasin Arafat</h6>
+                            <span>Designer, LLCG Team</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more testimonials as needed -->
+            </div>
+            <button id="prev" class="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-500 text-white p-2 rounded">Prev</button>
+            <button id="next" class="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-500 text-white p-2 rounded">Next</button>
+        </div>
+    </div>
+
+    <script>
+        const carousel = document.getElementById('carousel');
+        const slides = carousel.children;
+        const prevButton = document.getElementById('prev');
+        const nextButton = document.getElementById('next');
+        let index = 0;
+
+        function showSlide(i) {
+            index = (i + slides.length) % slides.length;
+            carousel.style.transform = `translateX(-${index * 100 / slides.length}%)`;
+        }
+
+        nextButton.addEventListener('click', () => {
+            showSlide(index + 1);
+            resetAutoPlay();
+        });
+        prevButton.addEventListener('click', () => {
+            showSlide(index - 1);
+            resetAutoPlay();
+        });
+
+        let autoPlayInterval = setInterval(() => showSlide(index + 1), 3000);
+
+        function resetAutoPlay() {
+            clearInterval(autoPlayInterval);
+            autoPlayInterval = setInterval(() => showSlide(index + 1), 3000);
+        }
+    </script>
 
 </section>
 
