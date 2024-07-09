@@ -861,6 +861,7 @@
         transform: translateY(-50%);
         /* padding: 0 50px;  */
         box-sizing: border-box;
+        width: 100%;
     }
     .owl-nav button {
         background-color: transparent;
