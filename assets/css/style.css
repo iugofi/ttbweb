@@ -48627,6 +48627,15 @@ img.img-fluid.service-icon {
     background-color: #13D8AA;
     color: #fff;
 }
+.my-btn-pros {
+    padding: 4px 18px;
+    margin: 5px 10px;
+}
+.my-btn-pros:hover {
+    background: transparent;
+    border: 1px solid #13D8AA;
+    color: #13D8AA;
+}
 .my-btn-pro:hover span.fab.fa-google-play {
     color: #fff !important;
 }
