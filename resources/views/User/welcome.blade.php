@@ -851,6 +851,7 @@
     .testimonial-content {
         position: relative;
         z-index: 1;
+        bottom: 4.8rem;
     }
     .owl-nav {
         position: absolute;
@@ -906,7 +907,7 @@
         content: url('https://www.nighthawk-routerlogin.com/assets/img/Bg.png');
         width: 100%;
         position: relative;
-        top: 5rem;
+        /* top: 5rem; */
     }
 </style>
 
