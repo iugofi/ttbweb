@@ -894,7 +894,7 @@
         align-items: center;
         text-align: left;
         padding-bottom: 30px;
-        margin-top: 1.5rem;
+        margin-top: 1rem;
     }
     .single-testimonial p {
         background: #fff;
