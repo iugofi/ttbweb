@@ -898,8 +898,9 @@
     }
     .single-testimonial p {
         background: #fff;
-        padding: 50px;
-}
+        padding: 42px 32px;
+        box-shadow: 0px 0px 8px 2px #0000001a;
+    }
     .back-img {
         content: url('https://www.nighthawk-routerlogin.com/assets/img/Bg.png');
         width: 100%;
