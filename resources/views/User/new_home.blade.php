@@ -725,13 +725,13 @@
             <a href="#" class="ti-btn ti-btn-primary-full !rounded-full ti-btn-wave my-btn-pro">
                 <span class="fab fa-apple icon-size-sm mx-3 mr-3 h2"></span>
                 <div class="download-text text-left">
-                    <h5 class="mb-0">App Store</h5>
+                    <h5 class="mb-0">Download</h5>
                 </div>
             </a>
             <a href="#" class="ti-btn !rounded-full ti-btn-wave my-btn-pro" style="border: 2px solid #13D8AA">
                 <span class="fab fa-google-play icon-size-sm mx-3 mr-3 h2" style="color: #13D8AA;"></span>
                 <div class="download-text text-left">
-                    <h5 class="mb-0">Google Play</h5>
+                    <h5 class="mb-0">Download</h5>
                 </div>
             </a>
 
