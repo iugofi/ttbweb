@@ -940,7 +940,7 @@
        <section class="testimonial-area">
         <div class="container">
             <div class="sec-title white-title">
-                <p class="text-center text-4xl font-bold">What Client Say About Us?</p>
+                <p class="text-center text-4xl font-bold mb-4">What Client Say About Us?</p>
             </div>
             <div class="back-img"></div>
             <div class="testimonial-content owl-carousel">
