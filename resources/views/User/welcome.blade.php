@@ -1003,8 +1003,8 @@
                 <!-- Repeat the above block for more testimonials -->
             </div>
             <div class="owl-nav">
-                <button class="owl-prev"><i class="fas fa-chevron-left"></i></button>
-                <button class="owl-next"><i class="fas fa-chevron-right"></i></button>
+                <button class="owl-prev"><i class="fa-solid fa-arrow-left"></i></button>
+                <button class="owl-next"><i class="fa-solid fa-arrow-right"></i></button>
             </div>
         </div>
     </div>
