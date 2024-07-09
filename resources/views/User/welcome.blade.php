@@ -1261,7 +1261,7 @@
                         <div class="client-video">
                             <a href="#"><img src="https://i.ibb.co/DWhSr6S/play-button2.png" alt="Play"></a>
                             <i class="fa-solid fa-quote-left"></i>
-                        </div>
+                        </div> 
                         <div class="client-details">
                             <h6>Yeasin Arafat</h6>
                             <span>Designer, LLCG Team</span>
