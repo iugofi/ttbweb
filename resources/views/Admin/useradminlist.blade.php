@@ -215,41 +215,44 @@
                     },
                     dataType: 'json',
                     success: function(response) {
-                        var tbody = $('#showdata tbody');
-                        tbody.empty();
-                        $.each(response.admindata, function(key, item) {
-                            var row = '<tr>' +
-                                '<td class="border px-4 py-2">' + (key + 1) +
-                                '</td>' +
-                                '<td class="border px-4 py-2">' + item.admintype +
-                                '</td>' +
-                                '<td class="border px-4 py-2">' + item.email +
-                                '</td>' +
-                                '<td class="border px-4 py-2">' + item.name +
-                                '</td>' +
-                                '<td class="border px-4 py-2">' + item.username +
-                                '</td>' +
-                                '<td class="border px-4 py-2">' + item.password +
-                                '</td>' +
-                                '<td class="border">' + item.image +
-                                '</td>' +
-                                
-                                '<td class="border px-4 py-2">' +
-                                '<div class="flex flex-row items-center !gap-2 text-[0.9375rem]">' +
-                                '<a aria-label="anchor" href="{{ route('edit.adminuseredit', ':encrypted_id')}}" class="ti-btn ti-btn-icon ti-btn-wave !gap-0 !m-0 !h-[1.75rem] !w-[1.75rem] text-[0.8rem] bg-primary/10 text-primary hover:bg-primary hover:text-white hover:border-primary">' +
-                                '<i class="ri-edit-line"></i>' +
-                                '</a>' +
-                                '<button aria-label="button" type="button" class="ti-btn !py-1 !px-2 !text-[0.75rem] ti-btn-danger-full btn-wave delete-storepick" data-item-id="' +
-                                item.id + '">' +
-                                '<i class="ri-delete-bin-line align-middle me-2 inline-block"></i>Delete' +
-                                '</button>' +
+                    var tbody = $('#showdata tbody');
+                    tbody.empty();
+                    $.each(response.admindata, function(key, item) {
+                        var imagePath = item.image 
+                            ? `{{ asset('assets/images/Adminimages/') }}/${item.image}` 
+                            : `{{ asset('assets/images/Adminimages/auther.jpg') }}`;
+
+                        var row = '<tr>' +
+                            '<td class="border px-4 py-2">' + (key + 1) + '</td>' +
+                            '<td class="border px-4 py-2">' + item.admintype + '</td>' +
+                            '<td class="border px-4 py-2">' + item.email + '</td>' +
+                            '<td class="border px-4 py-2">' + item.name + '</td>' +
+                            '<td class="border px-4 py-2">' + item.username + '</td>' +
+                            '<td class="border px-4 py-2">' + item.password + '</td>' +
+                            '<td class="border px-4 py-2">' +
+                                '<div class="flex items-center font-semibold">' +
+                                    '<span class="!me-2 inline-flex justify-center items-center">' +
+                                        '<img src="' + imagePath + '" alt="img" class="w-[1.75rem] h-[1.75rem] leading-[1.75rem] text-[0.65rem] rounded-full">' +
+                                    '</span>' +
                                 '</div>' +
-                                '</td>' +
-                                '</tr>';
-                                row = row.replace(':encrypted_id', item.encrypted_id);
-                            tbody.append(row);
-                        });
-                    }
+                            '</td>' +
+                            '<td class="border px-4 py-2">' +
+                                '<div class="flex flex-row items-center !gap-2 text-[0.9375rem]">' +
+                                    '<a aria-label="anchor" href="{{ route('edit.adminuseredit', ':encrypted_id')}}" class="ti-btn ti-btn-icon ti-btn-wave !gap-0 !m-0 !h-[1.75rem] !w-[1.75rem] text-[0.8rem] bg-primary/10 text-primary hover:bg-primary hover:text-white hover:border-primary">' +
+                                        '<i class="ri-edit-line"></i>' +
+                                    '</a>' +
+                                    '<button aria-label="button" type="button" class="ti-btn !py-1 !px-2 !text-[0.75rem] ti-btn-danger-full btn-wave delete-storepick" data-item-id="' +
+                                    item.id + '">' +
+                                        '<i class="ri-delete-bin-line align-middle me-2 inline-block"></i>Delete' +
+                                    '</button>' +
+                                '</div>' +
+                            '</td>' +
+                            '</tr>';
+                        row = row.replace(':encrypted_id', item.encrypted_id);
+                        tbody.append(row);
+                    });
+                }
+
                 });
             } else {
                 $('#showdata tbody').empty();
