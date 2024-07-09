@@ -859,7 +859,7 @@
         width: calc(100% - 100px); /* Reduced width to leave space for buttons */
         display: flex;
         justify-content: space-between;
-        transform: translateY(-50%);
+        transform: translateY(-4rem);
         /* padding: 0 50px;  */
         box-sizing: border-box;
         width: 100%;
@@ -923,7 +923,7 @@
     }
 .owl-nav button.owl-next {
         position: relative;
-        right: 2rem;
+        right: -2rem;
         padding: 8px;
         border-radius: 39px;
         border-width: 1px;
