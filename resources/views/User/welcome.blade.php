@@ -918,7 +918,7 @@
             <div class="back-img"></div>
             <div class="testimonial-content owl-carousel">
                 <!-- Single Testimonial -->
-                <div class="single-testimonial carousel-slide single-testimonial bg-gray-200 p-4">
+                <div class="single-testimonial carousel-slide single-testimonial p-4">
                     <div class="round-1 round"></div>
                     <div class="round-2 round"></div>
                     <p>1. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
@@ -934,7 +934,7 @@
                     </div>
                 </div>
                 <!-- Add more testimonials as needed -->
-                <div class="single-testimonial carousel-slide single-testimonial bg-gray-200 p-4">
+                <div class="single-testimonial carousel-slide single-testimonial p-4">
                     <div class="round-1 round"></div>
                     <div class="round-2 round"></div>
                     <p>2. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
@@ -950,7 +950,7 @@
                     </div>
                 </div>
                 <!-- Repeat the above block for more testimonials -->
-                <div class="single-testimonial carousel-slide single-testimonial bg-gray-200 p-4">
+                <div class="single-testimonial carousel-slide single-testimonial p-4">
                     <div class="round-1 round"></div>
                     <div class="round-2 round"></div>
                     <p>3. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
@@ -966,7 +966,7 @@
                     </div>
                 </div>
                 <!-- Repeat the above block for more testimonials -->
-                <div class="single-testimonial carousel-slide single-testimonial bg-gray-200 p-4">
+                <div class="single-testimonial carousel-slide single-testimonial p-4">
                     <div class="round-1 round"></div>
                     <div class="round-2 round"></div>
                     <p>4. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
@@ -982,7 +982,7 @@
                     </div>
                 </div>
                 <!-- Repeat the above block for more testimonials -->
-                <div class="single-testimonial carousel-slide single-testimonial bg-gray-200 p-4">
+                <div class="single-testimonial carousel-slide single-testimonial p-4">
                     <div class="round-1 round"></div>
                     <div class="round-2 round"></div>
                     <p>5. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
