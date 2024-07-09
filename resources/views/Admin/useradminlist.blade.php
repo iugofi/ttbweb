@@ -226,7 +226,7 @@
                         // Prepare decrypted password input field and toggle button
                         var passwordField = 
                             '<div class="flex">' +
-                                '<input type="password" class="form-control block w-full text-[0.875rem] !rounded-md" id="password_' + item.id + '" name="password" value="' + admindata.password + '" disabled>' +
+                                '<input type="password" class="form-control block w-full text-[0.875rem] !rounded-md" id="password_' + item.id + '" name="password" value="' + item.password + '" disabled>' +
                                 '<button aria-label="button" type="button" class="ti-btn ti-btn-light !rounded-s-none !mb-0" onclick="togglePasswordVisibility(\'password_' + item.id + '\')">' +
                                     '<i class="ri-eye-off-line align-middle"></i>' +
                                 '</button>' +
