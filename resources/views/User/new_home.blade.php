@@ -696,6 +696,53 @@
                 });
             </script>
 
+
+{{-- download section start --}}
+
+<section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] sect-five" id="statistics">
+    <div class="container text-center relative">
+        
+        <h3 class="font-semibold mb-2 text-defaulttextcolor dark:text-defaulttextcolor/70  text-35xl ttb-heading">
+            Download Our Apps</h3>
+        <div class="">
+            <div class="xl:col-span-7 col-span-12">
+                
+            </div>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 my-btn-section">
+            <a href="#" class="ti-btn ti-btn-primary-full !rounded-full ti-btn-wave my-btn-pro">
+                <span class="fab fa-apple icon-size-sm mx-3 mr-3 h2"></span>
+                <div class="download-text text-left">
+                    <small>Download form</small>
+                    <h5 class="mb-0">App Store</h5>
+                </div>
+            </a>
+            <a href="#" class="ti-btn ti-btn-primary-full !rounded-full ti-btn-wave my-btn-pro">
+                <span class="fab fa-google-play icon-size-sm mx-3 mr-3 h2"></span>
+                <div class="download-text text-left">
+                    <small>Download form</small>
+                    <h5 class="mb-0">Google Play</h5>
+                </div>
+            </a>
+
+
+        </div>
+
+    </div>
+</section>
+
+{{-- End download section --}}
+
+
+
+
+
+
+
+
+
+
+
         </div>
     </div>
 
