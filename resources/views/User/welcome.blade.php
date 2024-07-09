@@ -1313,11 +1313,11 @@
             resetAutoPlay();
         });
 
-        let autoPlayInterval = setInterval(() => showSlide(index + 1), 3000);
+        let autoPlayInterval = setInterval(() => showSlide(index + 1), 1000);
 
         function resetAutoPlay() {
             clearInterval(autoPlayInterval);
-            autoPlayInterval = setInterval(() => showSlide(index + 1), 3000);
+            autoPlayInterval = setInterval(() => showSlide(index + 1), 1000);
         }
 
         window.addEventListener('resize', () => {
