@@ -860,7 +860,7 @@
         display: flex;
         justify-content: space-between;
         transform: translateY(-50%);
-        padding: 0 50px; /* Padding to leave space for buttons */
+        /* padding: 0 50px;  */
         box-sizing: border-box;
     }
     .owl-nav button {
