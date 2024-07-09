@@ -703,7 +703,8 @@
     <div class="container text-center relative">
         
         <h3 class="font-semibold mb-2 text-defaulttextcolor dark:text-defaulttextcolor/70  text-35xl ttb-heading">
-            Download Our Apps</h3>
+            Fast, light, and powerful free protection.<br>
+            It's just a click away.</h3>
         <div class="">
             <div class="xl:col-span-7 col-span-12">
                 
