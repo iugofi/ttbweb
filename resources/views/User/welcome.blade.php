@@ -855,7 +855,7 @@
 		<div class="testimonial-content owl-carousel">
            
 			<!-- Single Testimonial -->
-			<div class="single-testimonial">
+			<div class="single-testimonial carousel-slide single-testimonial bg-gray-200 p-4">
 				<div class="round-1 round"></div>
 				<div class="round-2 round"></div>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
@@ -873,7 +873,7 @@
 
 			</div>
 			<!-- Single Testimonial -->
-			<div class="single-testimonial">
+			<div class="single-testimonial carousel-slide single-testimonial bg-gray-200 p-4">
 				<div class="round-1 round"></div>
 				<div class="round-2 round"></div>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
@@ -890,7 +890,7 @@
 
 			</div>
 			<!-- Single Testimonial -->
-			<div class="single-testimonial">
+			<div class="single-testimonial carousel-slide single-testimonial bg-gray-200 p-4">
 				<div class="round-1 round"></div>
 				<div class="round-2 round"></div>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
@@ -907,7 +907,7 @@
 
 			</div>
 			<!-- Single Testimonial -->
-			<div class="single-testimonial">
+			<div class="single-testimonial carousel-slide single-testimonial bg-gray-200 p-4">
 				<div class="round-1 round"></div>
 				<div class="round-2 round"></div>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
@@ -924,7 +924,7 @@
 
 			</div>
 			<!-- Single Testimonial -->
-			<div class="single-testimonial">
+			<div class="single-testimonial carousel-slide single-testimonial bg-gray-200 p-4">
 				<div class="round-1 round"></div>
 				<div class="round-2 round"></div>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
@@ -940,12 +940,43 @@
 				</div>
 
 			</div>
+            <button id="prev" class="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-500 text-white p-2 rounded">Prev</button>
+            <button id="next" class="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-500 text-white p-2 rounded">Next</button>
 		</div>
-        {{-- <div class="owl-nav">
-            <button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">&#10094;</span></button>
-            <button type="button" role="presentation" class="owl-next"><span aria-label="Next">&#10095;</span></button>
-        </div> --}}
 	</div>
+    <script>
+        const carousel = document.getElementById('carousel');
+        const slides = Array.from(carousel.children);
+        const prevButton = document.getElementById('prev');
+        const nextButton = document.getElementById('next');
+        let index = 0;
+
+        function showSlide(i) {
+            index = (i + slides.length) % slides.length;
+            const slideWidth = slides[0].offsetWidth;
+            carousel.style.transform = `translateX(-${index * slideWidth}px)`;
+        }
+
+        nextButton.addEventListener('click', () => {
+            showSlide(index + 1);
+            resetAutoPlay();
+        });
+        prevButton.addEventListener('click', () => {
+            showSlide(index - 1);
+            resetAutoPlay();
+        });
+
+        let autoPlayInterval = setInterval(() => showSlide(index + 1), 1000);
+
+        function resetAutoPlay() {
+            clearInterval(autoPlayInterval);
+            autoPlayInterval = setInterval(() => showSlide(index + 1), 1000);
+        }
+
+        window.addEventListener('resize', () => {
+            showSlide(index);
+        });
+    </script>
 </section>
 
 <style>
@@ -1181,7 +1212,7 @@
 
 =====================================================================================================================
 
-
+{{-- 
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         .carousel-container {
@@ -1323,7 +1354,7 @@
         window.addEventListener('resize', () => {
             showSlide(index);
         });
-    </script>
+    </script> --}}
 
 
 
