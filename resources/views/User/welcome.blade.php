@@ -842,373 +842,139 @@
 
 --------------------------=============================
 
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .testimonial-area {
+            position: relative;
+        }
+        .testimonial-content {
+            position: relative;
+            z-index: 1;
+        }
+        .owl-nav {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            transform: translateY(-50%);
+        }
+        .owl-nav button {
+            background-color: transparent;
+            border: none;
+            font-size: 30px;
+            cursor: pointer;
+            transition: color 0.3s;
+        }
+        .owl-nav button:hover {
+            color: var(--blue);
+        }
+        .sec-title.white-title h2 {
+            color: #fff;
+        }
+        .client-info i.fa-solid.fa-quote-left {
+            position: absolute;
+            right: 10px;
+            font-size: 60px;
+            color: #11CDBE;
+            top: 0;
+        }
+        .client-video {
+            padding-right: 15px;
+        }
+        .client-info {
+            display: flex;
+            align-items: center;
+            text-align: left;
+            padding-bottom: 50px;
+            margin-top: 1.5rem;
+        }
+        .back-img {
+            content: url('https://www.nighthawk-routerlogin.com/assets/img/Bg.png');
+            width: 100%;
+            position: relative;
+            top: 5rem;
+        }
+    </style>
 
 <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70" id="faq">
-<section class="testimonial-area">
-	<div class="container">
-		<div class="sec-title white-title">
-			<h2>Testimonials</h2>
-			<p>What Client Say About Us?</p>
-		</div>
-        <div class="back-img"></div>
-        {{-- <img src="https://www.nighthawk-routerlogin.com/assets/img/Faq-images.png" alt="" srcset=""> --}}
-		<div class="testimonial-content owl-carousel">
-           
-			<!-- Single Testimonial -->
-			<div class="single-testimonial carousel-slide single-testimonial bg-gray-200 p-4">
-				<div class="round-1 round"></div>
-				<div class="round-2 round"></div>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-				<div class="client-info">
-					<div class="client-video">
-						<a href="#"><img src="https://i.ibb.co/DWhSr6S/play-button2.png" alt=""></a>
-                        <i class="fa-solid fa-quote-left"></i>
-
-					</div>
-					<div class="client-details">
-						<h6>Yeasin Arafat</h6>
-						<span>Designer, LLCG Team</span>
-					</div>
-				</div>
-
-			</div>
-			<!-- Single Testimonial -->
-			<div class="single-testimonial carousel-slide single-testimonial bg-gray-200 p-4">
-				<div class="round-1 round"></div>
-				<div class="round-2 round"></div>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-				<div class="client-info">
-					<div class="client-video">
-                        <a href="#"><img src="https://i.ibb.co/DWhSr6S/play-button2.png" alt=""></a>
-                        <i class="fa-solid fa-quote-left"></i>
-					</div>
-					<div class="client-details">
-						<h6>Yeasin Arafat</h6>
-						<span>Designer, LLCG Team</span>
-					</div>
-				</div>
-
-			</div>
-			<!-- Single Testimonial -->
-			<div class="single-testimonial carousel-slide single-testimonial bg-gray-200 p-4">
-				<div class="round-1 round"></div>
-				<div class="round-2 round"></div>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-				<div class="client-info">
-					<div class="client-video">
-                        <a href="#"><img src="https://i.ibb.co/DWhSr6S/play-button2.png" alt=""></a>
-                        <i class="fa-solid fa-quote-left"></i>
-					</div>
-					<div class="client-details">
-						<h6>Yeasin Arafat</h6>
-						<span>Designer, LLCG Team</span>
-					</div>
-				</div>
-
-			</div>
-			<!-- Single Testimonial -->
-			<div class="single-testimonial carousel-slide single-testimonial bg-gray-200 p-4">
-				<div class="round-1 round"></div>
-				<div class="round-2 round"></div>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-				<div class="client-info">
-					<div class="client-video">
-                        <a href="#"><img src="https://i.ibb.co/DWhSr6S/play-button2.png" alt=""></a>
-                        <i class="fa-solid fa-quote-left"></i>
-					</div>
-					<div class="client-details">
-						<h6>Yeasin Arafat</h6>
-						<span>Designer, LLCG Team</span>
-					</div>
-				</div>
-
-			</div>
-			<!-- Single Testimonial -->
-			<div class="single-testimonial carousel-slide single-testimonial bg-gray-200 p-4">
-				<div class="round-1 round"></div>
-				<div class="round-2 round"></div>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-				<div class="client-info">
-					<div class="client-video">
-                        <a href="#"><img src="https://i.ibb.co/DWhSr6S/play-button2.png" alt=""></a>
-                        <i class="fa-solid fa-quote-left"></i>
-					</div>
-					<div class="client-details">
-						<h6>Yeasin Arafat</h6>
-						<span>Designer, LLCG Team</span>
-					</div>
-				</div>
-
-			</div>
-            <button id="prev" class="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-500 text-white p-2 rounded">Prev</button>
-            <button id="next" class="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-500 text-white p-2 rounded">Next</button>
-		</div>
-	</div>
-    <script>
-        const carousel = document.getElementById('carousel');
-        const slides = Array.from(carousel.children);
-        const prevButton = document.getElementById('prev');
-        const nextButton = document.getElementById('next');
-        let index = 0;
-
-        function showSlide(i) {
-            index = (i + slides.length) % slides.length;
-            const slideWidth = slides[0].offsetWidth;
-            carousel.style.transform = `translateX(-${index * slideWidth}px)`;
-        }
-
-        nextButton.addEventListener('click', () => {
-            showSlide(index + 1);
-            resetAutoPlay();
-        });
-        prevButton.addEventListener('click', () => {
-            showSlide(index - 1);
-            resetAutoPlay();
-        });
-
-        let autoPlayInterval = setInterval(() => showSlide(index + 1), 1000);
-
-        function resetAutoPlay() {
-            clearInterval(autoPlayInterval);
-            autoPlayInterval = setInterval(() => showSlide(index + 1), 1000);
-        }
-
-        window.addEventListener('resize', () => {
-            showSlide(index);
-        });
-    </script>
+    <section class="testimonial-area">
+        <div class="container">
+            <div class="sec-title white-title">
+                <h2>Testimonials</h2>
+                <p>What Client Say About Us?</p>
+            </div>
+            <div class="back-img"></div>
+            <div class="testimonial-content owl-carousel">
+                <!-- Single Testimonial -->
+                <div class="single-testimonial carousel-slide single-testimonial bg-gray-200 p-4">
+                    <div class="round-1 round"></div>
+                    <div class="round-2 round"></div>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+                    <div class="client-info">
+                        <div class="client-video">
+                            <a href="#"><img src="https://i.ibb.co/DWhSr6S/play-button2.png" alt=""></a>
+                            <i class="fa-solid fa-quote-left"></i>
+                        </div>
+                        <div class="client-details">
+                            <h6>Yeasin Arafat</h6>
+                            <span>Designer, LLCG Team</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more testimonials as needed -->
+                <div class="single-testimonial carousel-slide single-testimonial bg-gray-200 p-4">
+                    <div class="round-1 round"></div>
+                    <div class="round-2 round"></div>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+                    <div class="client-info">
+                        <div class="client-video">
+                            <a href="#"><img src="https://i.ibb.co/DWhSr6S/play-button2.png" alt=""></a>
+                            <i class="fa-solid fa-quote-left"></i>
+                        </div>
+                        <div class="client-details">
+                            <h6>Yeasin Arafat</h6>
+                            <span>Designer, LLCG Team</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Repeat the above block for more testimonials -->
+            </div>
+            <div class="owl-nav">
+                <button class="owl-prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="owl-next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
 </section>
 
-<style>
-.back-img {
-    content: url('https://www.nighthawk-routerlogin.com/assets/img/Bg.png');
-    width: 100%;
-    position: relative;
-    top: 5rem;
-}
-.sec-title {
-	margin-bottom: 50px;
-	padding-bottom: 15px;
-	position: relative;
-}
-.sec-title::after {
-	content: "";
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	width: 100px;
-	height: 3px;
-	background: #000;
-}
-.sec-title h2 {
-	font-size: 60px;
-	font-family: "Montserrat", sans-serif;
-	font-weight: 900;
-	letter-spacing: 0px;
-	text-transform: uppercase;
-	color: var(--blue);
-}
-.sec-title p {
-	font-size: 18px;
-	line-height: 28px;
-}
-.testimonial-area {
-	background: var(--blue);
-	position: relative;
-	z-index: 2;
-	padding: 50px 0;
-}
-.testimonial-area .owl-carousel {
-	overflow: hidden;
-	padding: 0 20px;
-	margin: 0px -40px;
-	padding-right: 40px;
-}
-.testimonial-area .owl-stage-outer {
-	padding: 30px 50px;
-	/* margin-left: -34px; */
-	width: calc(100% + 100px);
-}
-/* .single-testimonial {
-	border: 4px solid #13d8aa;
-	text-align: center;
-	border-radius: 45px;
-	position: relative;
-	z-index: 2;
-} */
-.single-testimonial p {
-    color: #000;
-    font-size: 15px;
-    line-height: 24px;
-    padding: 50px;
-    padding-bottom: 30px;
-    position: relative;
-    z-index: 3;
-    text-align: left;
-    background: #fff;
-}
-/* .single-testimonial::before {
-	content: "";
-	position: absolute;
-	left: -35px;
-	top: -35px;
-	background: url(https://i.ibb.co/nb8Hjms/quote.png) no-repeat var(--blue);
-	background-size: 60%;
-	width: 126px;
-	height: 100px;
-	transform: rotate(180deg);
-	background-position: 34px 15px;
-}
-.single-testimonial::after {
-	content: "";
-	position: absolute;
-	right: -35px;
-	bottom: -34px;
-	background: url(https://i.ibb.co/nb8Hjms/quote.png) no-repeat var(--blue);
-	background-size: 60%;
-	width: 126px;
-	height: 100px;
-	background-position: 34px 19px;
-} */
-.client-info i.fa-solid.fa-quote-left {
-    position: absolute;
-    right: 10px;
-    font-size: 60px;
-    color: #11CDBE;
-    top: 0;
-}
-.round {
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	z-index: 1;
-}
-/* .round-1::before {
-	content: "";
-	position: absolute;
-	left: 88px;
-	top: -7px;
-	width: 50px;
-	height: 7px;
-	background: #fff;
-	border-radius: 30px;
-}
-.round-1::after {
-	content: "";
-	position: absolute;
-	left: -7px;
-	top: 62px;
-	width: 7px;
-	height: 50px;
-	background: #fff;
-	border-radius: 30px;
-}
-.round-2::before {
-	content: "";
-	position: absolute;
-	right: 87px;
-	bottom: -7px;
-	width: 50px;
-	height: 7px;
-	background: #fff;
-	border-radius: 30px;
-	z-index: 1;
-}
-.round-2::after {
-	content: "";
-	position: absolute;
-	right: -7px;
-	bottom: 62px;
-	width: 7px;
-	height: 50px;
-	background: #fff;
-	border-radius: 30px;
-	z-index: 1;
-} */
-.client-video {
-	padding-right: 15px;
-}
-.client-info {
-	position: relative;
-	z-index: 3;
-}
-.client-info a {
-	width: 40px;
-	height: 40px;
-	border-radius: 100px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	box-shadow: 0 0 16px rgba(0, 0, 0, 0.16);
-	font-size: 22px;
-}
-.client-info {
-	display: flex;
-	align-items: center;
-	text-align: left;
-	padding-bottom: 50px;
-    margin-top: 1.5rem;
-}
-/* .client-info h6 {
-	color: #000;
-	font-weight: 700;
-	font-size: 18px;
-	color: #fff;
-} */
-/* .client-info span {
-	display: inline-block;
-	color: #fff;
-	font-size: 12px;
-} */
-.sec-title.white-title h2 {
-	color: #fff;
-}
-.owl-dots button {
-	background: #fff !important;
-	width: 10px;
-	height: 10px;
-	border-radius: 26px;
-	margin: 0 5px;
-	transition: 0.3s;
-}
-.owl-dots {
-	text-align: center;
-	margin-top: 50px;
-}
-.owl-dots button.active {
-	width: 30px;
-}
-.owl-nav {
-    text-align: center;
-    margin-top: 20px;
-}
-.owl-nav button {
-    background-color: transparent;
-    border: none;
-    font-size: 30px;
-    cursor: pointer;
-    transition: color 0.3s;
-}
-.owl-nav button:hover {
-    color: var(--blue);
-}
-
-</style>
-
 <script>
-    $(".testimonial-content").owlCarousel({
-	loop: true,
-	items: 2,
-	margin: 50,
-	dots: true,
-	nav: false,
-	mouseDrag: true,
-	autoplay: false,
-	autoplayTimeout: 1000,
-	smartSpeed: 100
-});
+    $(document).ready(function(){
+        const owl = $(".testimonial-content");
+        owl.owlCarousel({
+            loop: true,
+            items: 2,
+            margin: 50,
+            dots: true,
+            nav: false,
+            mouseDrag: true,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            smartSpeed: 1000
+        });
 
+        $(".owl-prev").click(function() {
+            owl.trigger('prev.owl.carousel');
+        });
+        
+        $(".owl-next").click(function() {
+            owl.trigger('next.owl.carousel');
+        });
+    });
 </script>
+
+
 
 =====================================================================================================================
 
