@@ -23,7 +23,7 @@
                            <p class="text-6xl font-bold text-red-500">401</p>
                 <p class="text-2xl font-semibold mb-4 text-gray-800 dark:text-gray-200">Oops 😢, The page you are looking for is not available.</p>
                 <p class="mb-4 text-gray-600 dark:text-gray-400">We are sorry for the inconvenience. The page you are trying to access has been removed or never existed.</p>
-                <div class="space-x-4">
+                <div class="space">
                     <a href="index.html" class="inline-block bg-[#12D2B3] text-white font-semibold px-6 py-2 rounded mt-4">
                         <i class="ri-arrow-left-line align-middle inline-block"></i> Back To Home
                     </a>
