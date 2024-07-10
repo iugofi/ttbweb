@@ -55,7 +55,9 @@
                 max-width: 100%;
                 height: 100%;
             }
-            
+            .paymentcancel-grid {
+             display: flex;
+            }
             .crossmark {
                 font-size: 4rem;
                 color: #12D2B3;
