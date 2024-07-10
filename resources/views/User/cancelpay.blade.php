@@ -77,19 +77,19 @@
                 color: #12D2B3;
             }
     
-            .space .bttns {
-                display: inline-block;
+            .space a {
                 padding: 10px 20px;
                 font-size: 1rem;
                 color: white;
                 background-color: #12D2B3;
                 text-decoration: none;
                 border-radius: 5px;
-                transition: background-color 0.3s;
             }
     
-            .space .bttn:hover {
-                background-color: #12D2B3;
+            .space a:hover {
+                border:  1px solid #12D2B3;
+                background: transparent;
+                color: #12D2B3;
             }
     
             @media (max-width: 768px) {
