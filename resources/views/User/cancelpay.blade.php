@@ -77,7 +77,7 @@
                 color: #12D2B3;
             }
     
-            .bttns {
+            .space .bttns {
                 display: inline-block;
                 padding: 10px 20px;
                 font-size: 1rem;
@@ -88,7 +88,7 @@
                 transition: background-color 0.3s;
             }
     
-            .bttn:hover {
+            .space .bttn:hover {
                 background-color: #12D2B3;
             }
     
