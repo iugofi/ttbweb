@@ -20,7 +20,7 @@
                 </div>
                         </div>
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12 column cancel-left">
-                             <img src="{{route('asset/assets/img/payment-cancel.jpg')}}" alt="Payment Cancelled Image" class="w-full h-auto rounded-lg shadow-lg">
+                             <img src="{{asset('assets/img/payment-cancel.jpg') }}" alt="Payment Cancelled Image" class="w-full h-auto rounded-lg shadow-lg">
                         </div></div>
                 </div>
             </section>
