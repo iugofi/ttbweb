@@ -25,10 +25,10 @@
                 <p class="mb-4 text-gray-600 dark:text-gray-400">We are sorry for the inconvenience. The page you are trying to access has been removed or never existed.</p>
                 <div class="space">
                     <a href="index.html" class="inline-block bg-[#12D2B3] text-white font-semibold px-6 py-2 rounded mt-4">
-                        <i class="ri-arrow-left-line align-middle inline-block"></i> Back To Home
+                        <i class="align-middle inline-block"></i> Back To Home
                     </a>
                     <a href="index.html" class="inline-block bg-[#12D2B3] text-white font-semibold px-6 py-2 rounded mt-4">
-                        <i class="ri-arrow-left-line align-middle inline-block"></i> Contact Support
+                        <i class="align-middle inline-block"></i> Contact Support
                     </a>
                 </div>
                         </div>
@@ -61,17 +61,7 @@
                 align-items: center;
                 text-align: center;
             }
-    
-            /* .cancellation-image {
-                max-width: 100%;
-                height: 100%;
-            } */
-            /* .payment-cancel img {
-                width: 65%;
-            } */
-            /* .paymentcancel-grid {
-                display: flex;
-            } */
+
             .crossmark {
                 font-size: 4rem;
                 color: #12D2B3;
