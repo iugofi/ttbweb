@@ -51,12 +51,15 @@
                 text-align: center;
             }
     
-            .cancellation-image {
+            /* .cancellation-image {
                 max-width: 100%;
                 height: 100%;
+            } */
+            .payment-cancel img {
+                width: 65%;
             }
             .paymentcancel-grid {
-             display: flex;
+                display: flex;
             }
             .crossmark {
                 font-size: 4rem;
