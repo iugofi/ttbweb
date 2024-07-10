@@ -20,7 +20,7 @@
                 <div class="container payment-cancel">
                     <div class="grid grid-cols-12 gap-6 row paymentcancel-grid d-flex">
                         <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12 column cancel-left">
-                           <p class="font-bold text-red-500" style="font-size: 36px; color: #383853;">401</p>
+                           <p class="font-bold text-red-500" style="font-size: 36px; color: #383853; ">401</p>
                 <p class="text-2xl font-semibold mb-4 text-gray-800 dark:text-gray-200">Oops 😢, The page you are looking for is not available.</p>
                 <p class="mb-4 text-gray-600 dark:text-gray-400">We are sorry for the inconvenience. The page you are trying to access has been removed or never existed.</p>
                 <div class="space">
