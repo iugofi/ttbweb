@@ -89,6 +89,9 @@
                     margin-top: 0rem;
                     margin-bottom: 0rem;
                 }
+                .payment-cancel {
+                    margin: 0 !important; 
+                }
             }
         </style>
     </div>
