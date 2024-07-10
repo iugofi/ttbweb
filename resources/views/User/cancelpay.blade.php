@@ -32,7 +32,7 @@
                 </div>
                         </div>
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12 column cancel-left">
-                             <img src="{{asset('assets/img/cancel-payment.jpg') }}" alt="Payment Cancelled Image" class="w-full h-auto rounded-lg">
+                             <img src="{{asset('assets/img/Cancel-Payment.jpg') }}" alt="Payment Cancelled Image" class="w-full h-auto rounded-lg">
                         </div></div>
                 </div>
             </section>
