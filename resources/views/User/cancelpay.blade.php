@@ -25,7 +25,7 @@
                 </div>
             </section>
         </div>
-    
+     
         <style>
     
             .payment-cancel {
