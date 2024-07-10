@@ -27,7 +27,7 @@
                     <a href="https://www.nighthawk-routerlogin.com/" class="inline-block bg-[#12D2B3] text-white font-semibold px-6 py-2 rounded mt-4">
                         <i class="align-middle inline-block"></i> Back To Home
                     </a>
-                    <a href="index.html" class="inline-block bg-[#12D2B3] text-white font-semibold px-6 py-2 rounded mt-4">
+                    <a href="https://www.nighthawk-routerlogin.com/contact_as" class="inline-block bg-[#12D2B3] text-white font-semibold px-6 py-2 rounded mt-4">
                         <i class="align-middle inline-block"></i> Contact Support
                     </a>
                 </div>
