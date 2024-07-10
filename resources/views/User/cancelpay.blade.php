@@ -11,9 +11,8 @@
 
 @section('content')
 
-    <div class="main-content !p-0 landing-main dark:text-defaulttextcolor/70" id="totel-internet-security">
+    <div class="main-content !p-0 landing-main dark:text-defaulttextcolor/70" id="payment-cancel">
 
-    <div class="main-content !p-0 landing-main dark:text-defaulttextcolor/70" id="totel-internet-security">
         <meta charset="UTF-8">
         <div class="payment-cancellation" id="payment">
             <section class="section">
@@ -37,7 +36,6 @@
                         </div></div>
                 </div>
             </section>
-        </div>
      
         <style>
     
