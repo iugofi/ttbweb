@@ -909,6 +909,7 @@
                             showError('last_name', response.messages.last_name);
                             showError('user_phone', response.messages.user_phone);
                             showError('user_address', response.messages.user_address);
+                            showError('profile_images', response.messages.profile_images);
                             showError('user_email', response.messages.user_email);
 
                             $('#profilechangeotherbtn').val('Change Password');
