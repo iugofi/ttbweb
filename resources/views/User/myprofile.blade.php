@@ -332,7 +332,7 @@
                                                                             <div class="mb-3">
 
                                                                                 <label for="exampleInputPassword1"
-                                                                                    class="form-label">Profile</label>
+                                                                                    class="form-label">Profile</label><br>
                                                                                     <span class="avatar avatar-xl me-1">
                                                                                         <img src="{{ asset('assets/userprofile/' . ($user_data->profile ? $user_data->profile : 'default-profile.png')) }}" alt="">
                                                                                     </span>
