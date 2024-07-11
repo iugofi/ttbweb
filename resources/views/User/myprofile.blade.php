@@ -858,8 +858,8 @@
 
             <section class="section-two-iconbox pt-8 bg-white">
                 <div class="container main-banner-container">
-                    <h3 class="text-center mb-2">TTBTM Antivirus</h3>
-                    <h3 class="text-center mb-2">0 of 0 License(s) USED:<a href="#"> Download </a></h3>
+                    <h3 class="text-center mb-2" style="color:#000;">TTBTM Antivirus</h3>
+                    <h3 class="text-center mb-2"  style="color:#000;">0 of 0 License(s) USED:<a href="#"> Download </a></h3>
 
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12 con-box">
