@@ -899,9 +899,13 @@
             $('#myprofilechangeother').submit(function(e) {
                 e.preventDefault();
                 $('#profilechangeotherbtn').val('please wait..');
+                var token = $('meta[name="csrf-token"]').attr('content');
                 $.ajax({
                     url: '{{ route('user.myprofileother') }}',
                     method: 'post',
+                    headers: {
+                        'X-CSRF-TOKEN': token
+                    },
                     contentType: false,
                     processData: false,
                     data: $(this).serialize(),
