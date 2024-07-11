@@ -856,10 +856,10 @@
             </div>
             <!--End::row-1 -->
 
-            <section class="section-two-iconbox pt-8 bg-white">
+            <section class="section-two-iconbox pt-8 bg-white text-color">
                 <div class="container main-banner-container">
-                    <h3 class="text-left mb-2" style="color:#000;">TTBTM Antivirus</h3>
-                    <h3 class="text-left mb-5"  style="color:#000;">0 of 0 License(s) USED:<a href="#"> Download </a></h3>
+                    <h3 class="text-left mb-2">TTBTM Antivirus</h3>
+                    <h3 class="text-left mb-5">0 of 0 License(s) USED:<a href="#"> Download </a></h3>
 
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12 con-box">

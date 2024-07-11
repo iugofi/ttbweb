@@ -48999,7 +48999,7 @@ padding: 8em 0em;
 }
 
 .vpn-download-one p{
-  font-size: 16px; 
+  font-size: 16px;
 }
 .vpn-download-one span{
   color:#13d6af;
@@ -49198,7 +49198,7 @@ padding: 8em 0em;
 .dark .e-suppor-testimonials i.fa-solid.fa-arrow-right {
     color: #b5b1b1;
 }
-.user .user-image { 
+.user .user-image {
     border-radius: 50%;
     height: 50px;
     width: 50px;
@@ -50993,6 +50993,9 @@ padding: 8em 0em;
     font-size: 18px;
     color: #12d0b8;
 }
+.text-color h3 {
+    color: #000;
+}
 
 .section-two-iconbox h4 {
     font-size: 29px;
@@ -51988,7 +51991,7 @@ h6.uppercase {
     .my-section {
         margin: 0 !important;
         padding-bottom: 0px !important;
-    } 
+    }
 
     .flex {
         /* display: -webkit-inline-box; */
@@ -52141,7 +52144,7 @@ h6.uppercase {
         width: 100%;
         margin: auto;
     }
-   
+
     /* .e-support-section-six .flex {
         display: block;
     } */
