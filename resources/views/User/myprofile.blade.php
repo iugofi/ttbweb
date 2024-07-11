@@ -893,14 +893,14 @@
                                         <div class="grid grid-cols-12 gap-6 pt-top mt-5">
                                             <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 col-span-12 text-center">
                                             </div>
-                                            <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 col-span-12 text-center box-down">
+                                            <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 col-span-12 text-center boxs-down">
                                                 <img src="https://nighthawk-routerlogin.com/assets/img/mac.png" alt="" class="img-fluid pt-5 pb-5" width="25%;" style="margin: auto;">
                                                 
                                                 <a href="#" class="m-1 ti-btn ti-btn-primary-full mt-0">
                                                     Download For Mac </a><br>
                                                 <span> X10.15 or above</span>
                                             </div>
-                                            <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 col-span-12 text-center box-down">
+                                            <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 col-span-12 text-center boxs-down">
                                                 <img src="https://nighthawk-routerlogin.com/assets/img/ios.png" alt="" class="img-fluid pt-5 pb-5" width="25%" style="margin: auto;">
                                                 
                                                 <a href="#" class="m-1 ti-btn ti-btn-primary-full mt-0">
