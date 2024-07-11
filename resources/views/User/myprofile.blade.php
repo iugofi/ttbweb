@@ -330,6 +330,9 @@
                                                                             </div>
 
                                                                             <div class="mb-3">
+                                                                                <span class="avatar avatar-xl me-1">
+                                                                                    <img src="{{asset('assets/userprofile/'.$user_data->profile )}}" alt="">
+                                                                                </span>
                                                                                 <label for="exampleInputPassword1"
                                                                                     class="form-label">Profile</label>
                                                                                     <input type="file" class="form-control" id="profile_images" name="profile_images"
