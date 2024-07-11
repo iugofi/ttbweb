@@ -397,7 +397,7 @@
                                                     <div class="grid">
                                                         <button type="button" class="ti-btn ti-btn-primary">Get Started</button>
                                                     </div>
-                                                    <ul class="list-none text-center text-[0.75rem] px-4 pt-4 mb-0">
+                                                    <ul class="list-none text-[0.75rem] px-4 pt-4 mb-0">
                                                         <li class="mb-4">
                                                             <span>1 PC, Mac, tablet, or phone</span>
                                                         </li>
@@ -432,7 +432,7 @@
                                                     <div class="grid">
                                                         <button type="button" class="ti-btn ti-btn-primary">Get Started</button>
                                                     </div>
-                                                    <ul class="list-none text-center text-[0.75rem] px-4 pt-4 mb-0">
+                                                    <ul class="list-none  text-[0.75rem] px-4 pt-4 mb-0">
                                                         <li class="mb-4">
                                                             <span>1 PC, Mac, tablet, or phone</span>
                                                         </li>
@@ -474,7 +474,7 @@
                                                     <div class="grid">
                                                         <button type="button" class="ti-btn bg-primary text-white">Get Started</button>
                                                     </div>
-                                                    <ul class="list-none text-center text-[0.75rem] px-4 pt-4 mb-0">
+                                                    <ul class="list-none text-[0.75rem] px-4 pt-4 mb-0">
                                                         <li class="mb-4">
                                                             <span>5 PCs, Macs, tablets, or phones</span>
                                                         </li>
@@ -521,7 +521,7 @@
                                                     <div class="grid">
                                                         <button type="button" class="ti-btn ti-btn-primary">Get Started</button>
                                                     </div>
-                                                    <ul class="list-none text-center text-[0.75rem] px-4 pt-4 mb-0">
+                                                    <ul class="list-none  text-[0.75rem] px-4 pt-4 mb-0">
                                                         <li class="mb-4">
                                                             <span>10 PCs, Macs, tablets, or phones</span>
                                                         </li>
