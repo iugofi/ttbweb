@@ -970,7 +970,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="grid grid-cols-12 gap-6">
+                        {{-- <div class="grid grid-cols-12 gap-6">
                             <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12 con-box">
                                 <i class="fa-solid fa-eye"></i>
                                 <h5>Anonymous Access</h5>
@@ -991,7 +991,7 @@
                                 <h5>100% White Listed</h5>
                                 <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor.</p>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
             </section>
         </div>
