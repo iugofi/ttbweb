@@ -837,12 +837,7 @@
         </section>
         <!-- End:: Section-5 -->
 
-
-        
-
---------------------------=============================
-
-    
+    =======================================
 
 <style>
     .testimonial-area {
@@ -1073,30 +1068,134 @@
 </script>
 
 
+--------------------------
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form with File Upload</title>
-</head>
-<body>
-    <h2>Sample Form with File Upload</h2>
-    <form action="/submit" method="post" enctype="multipart/form-data">
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name" required><br><br>
+<section class="e-support-section-six">
+    <div class="container">
+        <div class="grid grid-cols-12 gap-6 pt-5">
+            <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 md:col-span-12 col-span-12">
+                <h2>Easily Setup the Smart Devices</h2>
+                <p class="pt-3">TTB eSupport Concierge will guide you through setting up your <br>hardware and
+                    software smoothly.</p>
+                <div class="box">
+                    <nav class="flex space-x-2 rtl:space-x-reverse" aria-label="Tabs">
+                        <button type="button" class="hs-tab-active:bg-gray-200 hs-tab-active:text-gray-800 hs-tab-active:hover:text-gray-800 dark:hs-tab-active:bg-light dark:hs-tab-active:text-white py-3 px-4 inline-flex items-center gap-2 bg-transparent text-sm font-medium text-center text-defaulttextcolor rounded-sm hover:text-primary dark:text-[#8c9097] dark:text-white/50 dark:hover:text-white active" id="pills-on-gray-color-item-1" data-hs-tab="#pills-on-gray-color-1" aria-controls="pills-on-gray-color-1">
+                            Business Network Setup
+                        </button>
+                        <button type="button" class="hs-tab-active:bg-gray-200 hs-tab-active:text-gray-800 hs-tab-active:hover:text-gray-800 dark:hs-tab-active:bg-light dark:hs-tab-active:text-white py-3 px-4 inline-flex items-center gap-2 bg-transparent text-sm font-medium text-center text-defaulttextcolor rounded-sm hover:text-primary dark:text-[#8c9097] dark:text-white/50 dark:hover:text-white" id="pills-on-gray-color-item-2" data-hs-tab="#pills-on-gray-color-2" aria-controls="pills-on-gray-color-2">
+                            Smart Device Setup
+                        </button>
+                        <button type="button" class="hs-tab-active:bg-gray-200 hs-tab-active:text-gray-800 hs-tab-active:hover:text-gray-800 dark:hs-tab-active:bg-light dark:hs-tab-active:text-white py-3 px-4 inline-flex items-center gap-2 bg-transparent text-sm font-medium text-center text-defaulttextcolor rounded-sm hover:text-primary dark:text-[#8c9097] dark:text-white/50 dark:hover:text-white" id="pills-on-gray-color-item-3" data-hs-tab="#pills-on-gray-color-3" aria-controls="pills-on-gray-color-3">
+                            Software Installation
+                        </button>
+                    </nav>
 
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
+                    <div class="mt-3">
+                        <div id="pills-on-gray-color-1" role="tabpanel" aria-labelledby="pills-on-gray-color-item-1">
+                            <h3>Business Network Setup:</h3>
+                            <p class="mt-2"> As a newbie, setting up your home automation devices on your own can
+                                be difficult.
+                                But with our TTB eSupport Concierge it will be easier than ever.</p>
+                            <div class="flex mt-5">
+                                <div class="tab-icon">
+                                    <i class="bi bi-hdd-stack"></i>
+                                    <p>Watch Over Your Family from Anywhere</p>
+                                </div>
+                                <div class="tab-icon">
+                                    <i class="bi bi-hdd-stack"></i>
+                                    <p>Eliminate Common &amp; Complex Issues</p>
+                                </div>
+                                <div class="tab-icon">
+                                    <i class="bi bi-hdd-stack"></i>
+                                    <p>Top-Notch Experience Without Lagging</p>
+                                </div>
+                            </div>
+                            <div class="flex pt-2 pb-2">
+                                <div class="price-tab">
+                                    <h4>$69</h4>
+                                </div>
+                                <div class="price-cnt">
+                                    <h5>1 Time</h5>
+                                    <p>Home Network Setup</p>
+                                </div>
+                            </div>
+                            <div class="tab-btn-buy">
+                                <a href="#">Buy Now</a>
+                            </div>
+                        </div>
+                        <div id="pills-on-gray-color-2" class="hidden" role="tabpanel" aria-labelledby="pills-on-gray-color-item-2">
+                            <h3>Smart Device Setup:</h3>
+                            <p class="mt-2"> From your home networks to workplace security devices, we will help
+                                you optimize them for optimal functioning only.</p>
+                            <div class="flex mt-5">
+                                <div class="tab-icon">
+                                    <i class="bi bi-hdd-stack"></i>
+                                    <p>Watch Over Your Family from Anywhere</p>
+                                </div>
+                                <div class="tab-icon">
+                                    <i class="bi bi-hdd-stack"></i>
+                                    <p>Eliminate Common &amp; Complex Issues</p>
+                                </div>
+                                <div class="tab-icon">
+                                    <i class="bi bi-hdd-stack"></i>
+                                    <p>Top-Notch Experience Without Lagging</p>
+                                </div>
+                            </div>
+                            <div class="flex pt-2 pb-2">
+                                <div class="price-tab">
+                                    <h4>$69</h4>
+                                </div>
+                                <div class="price-cnt">
+                                    <h5>1 Time</h5>
+                                    <p>Home Network Setup</p>
+                                </div>
+                            </div>
+                            <div class="tab-btn-buy">
+                                <a href="#">Buy Now</a>
+                            </div>
+                        </div>
+                        <div id="pills-on-gray-color-3" class="hidden" role="tabpanel" aria-labelledby="pills-on-gray-color-item-3">
+                            <h3>Software Installation:</h3>
+                            <p class="mt-2"> Software installation can be difficult to eliminate without
+                                professional advice. So, contact us to ensure your software is set up and
+                                functioning properly.</p>
+                            <div class="flex mt-5">
+                                <div class="tab-icon">
+                                    <i class="bi bi-hdd-stack"></i>
+                                    <p>Watch Over Your Family from Anywhere</p>
+                                </div>
+                                <div class="tab-icon">
+                                    <i class="bi bi-hdd-stack"></i>
+                                    <p>Eliminate Common &amp; Complex Issues</p>
+                                </div>
+                                <div class="tab-icon">
+                                    <i class="bi bi-hdd-stack"></i>
+                                    <p>Top-Notch Experience Without Lagging</p>
+                                </div>
+                            </div>
+                            <div class="flex pt-2 pb-2">
+                                <div class="price-tab">
+                                    <h4>$69</h4>
+                                </div>
+                                <div class="price-cnt">
+                                    <h5>1 Time</h5>
+                                    <p>Home Network Setup</p>
+                                </div>
+                            </div>
+                            <div class="tab-btn-buy">
+                                <a href="#">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
 
-        <label for="file">Upload File:</label><br>
-        <input type="file" id="file" name="file" required><br><br>
-
-        <input type="submit" value="Submit">
-    </form>
-</body>
-</html>
+                </div>
+            </div>
+            <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 md:col-span-12 col-span-12">
+                <img src="https://www.nighthawk-routerlogin.com/assets/e-support/e-support-tab-1.png" alt="" class="img-fluid mt-2" width="100%">
+            </div>
+        </div>
+    </div>
+</section>
 
 
 
