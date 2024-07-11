@@ -11,7 +11,6 @@
         body {
             background-color: rgb(var(--body-bg));
         }
-
         div#example_length {
             display: none;
         }
@@ -58,10 +57,9 @@
                                 <div>
                                     <span class="avatar avatar-xxl avatar-rounded online me-4">
                                         @if (isset($user_data->profile))
-                                            <img src="{{ asset('assets/userprofile/' . $user_data->profile) }}"
-                                                alt="">
+                                        <img src="{{asset('assets/userprofile/'.$user_data->profile)}}" alt="">
                                         @else
-                                            <img src="assets/userprofile/default-profile.png" alt="">
+                                        <img src="assets/userprofile/default-profile.png" alt="">
                                         @endif
                                     </span>
                                 </div>
@@ -83,13 +81,11 @@
                                         {{-- <span class="me-4 inline-flex"><i
                                                 class="ri-building-line me-1 align-middle"></i>Georgia</span> --}}
                                         <span class="inline-flex">
-                                            <i
-                                                class="ri-map-pin-line me-1 align-middle"></i>{{ isset($user_data->address) ? $user_data->address : 'N/A' }}</span>
+                                            <i class="ri-map-pin-line me-1 align-middle"></i>{{ isset($user_data->address) ? $user_data->address : 'N/A' }}</span>
                                     </p>
                                     <div class="flex mb-0">
                                         <div class="me-6">
-                                            <p class="font-bold text-[1.25rem] text-white text-shadow mb-0">
-                                                {{ isset($keydetails->count) ? $keydetails->count : 'N/A' }}
+                                            <p class="font-bold text-[1.25rem] text-white text-shadow mb-0">{{ isset($keydetails->count) ? $keydetails->count : 'N/A' }}
                                             </p>
                                             <p class="mb-0 text-[.6875rem] opacity-[0.5] text-white">Antivirus</p>
                                         </div>
@@ -99,8 +95,7 @@
                                             <p class="mb-0 text-[.6875rem] opacity-[0.5] text-white">Total Security</p>
                                         </div> --}}
                                         <div class="me-6">
-                                            <p class="font-bold text-[1.25rem] text-white text-shadow mb-0">
-                                                {{ isset($keydetails->count) ? $keydetails->count : 'N/A' }}
+                                            <p class="font-bold text-[1.25rem] text-white text-shadow mb-0">{{ isset($keydetails->count) ? $keydetails->count : 'N/A' }}
                                             </p>
                                             <p class="mb-0 text-[.6875rem] opacity-[0.5] text-white">Vpn Shield</p>
                                         </div>
@@ -111,13 +106,11 @@
                                 <div class="mb-6">
                                     <p class="text-[.9375rem] mb-2 font-semibold">Professional Bio :</p>
                                     <p class="text-[0.75rem] text-[#8c9097] dark:text-white/50 opacity-[0.7] mb-0">
-                                        I am <b class="text-defaulttextcolor">
-                                            @if (isset($user_data) && !empty($user_data->firstname) && !empty($user_data->lastname))
-                                                {{ $user_data->firstname . ' ' . $user_data->lastname }}
-                                            @else
-                                                !
-                                            @endif,
-                                        </b> here by conclude
+                                        I am <b class="text-defaulttextcolor"> @if (isset($user_data) && !empty($user_data->firstname) && !empty($user_data->lastname))
+                                            {{ $user_data->firstname . ' ' . $user_data->lastname }}
+                                        @else
+                                            !
+                                        @endif,</b> here by conclude
                                         that,i am the founder and managing director of the prestigeous company name
                                         laugh at all and acts as the cheif executieve officer of the company.
                                     </p>
@@ -280,8 +273,7 @@
                                                                         </button>
                                                                     </div>
                                                                     <div class="ti-modal-body">
-                                                                        <form method="post" id="myprofilechangeother"
-                                                                            enctype="multipart/form-data">
+                                                                        <form method="post" id="myprofilechangeother" enctype="multipart/form-data">
                                                                             @csrf
                                                                             <div class="mb-3">
                                                                                 <label for="exampleInputPassword1"
@@ -345,19 +337,15 @@
 
                                                                                 <label for="exampleInputPassword1"
                                                                                     class="form-label">Profile</label><br>
-                                                                                <span class="avatar avatar-xl me-1">
-                                                                                    <img src="{{ asset('assets/userprofile/' . ($user_data->profile ? $user_data->profile : 'default-profile.png')) }}"
-                                                                                        alt="">
-                                                                                </span>
+                                                                                    <span class="avatar avatar-xl me-1">
+                                                                                        <img src="{{ asset('assets/userprofile/' . ($user_data->profile ? $user_data->profile : 'default-profile.png')) }}" alt="">
+                                                                                    </span>
 
-                                                                                <input type="file" class="form-control"
-                                                                                    id="profile_images"
-                                                                                    name="profile_images" multiple
-                                                                                    data-allow-reorder="true"
-                                                                                    data-max-file-size="3MB"
+                                                                                    <input type="file" class="form-control" id="profile_images" name="profile_images"
+                                                                                    multiple data-allow-reorder="true" data-max-file-size="3MB"
                                                                                     data-max-files="6">
                                                                                 <div class="invalid-feedback"></div>
-                                                                            </div>
+                                                                                </div>
 
                                                                     </div>
                                                                     <div class="ti-modal-footer">
@@ -705,30 +693,23 @@
                                                                                     @php
                                                                                         $id = 1;
                                                                                     @endphp
-                                                                                    <td class="border px-4 py-2">
-                                                                                        {{ $key + 1 }}</td>
-                                                                                    <td class="border px-4 py-2">
-                                                                                        @php
-                                                                                            $product_name = DB::table(
-                                                                                                'storepick',
+                                                                                    <td class="border px-4 py-2">{{ $key + 1 }}</td>
+                                                                                    <td class="border px-4 py-2">@php
+                                                                                        $product_name = DB::table('storepick')
+                                                                                            ->select('*')
+                                                                                            ->where(
+                                                                                                'PICK_ID',
+                                                                                                $item->key_type,
                                                                                             )
-                                                                                                ->select('*')
-                                                                                                ->where(
-                                                                                                    'PICK_ID',
-                                                                                                    $item->key_type,
-                                                                                                )
-                                                                                                ->where(
-                                                                                                    'STORE_ID',
-                                                                                                    'key_type',
-                                                                                                )
-                                                                                                ->first();
-                                                                                        @endphp
+                                                                                            ->where('STORE_ID', 'key_type')
+                                                                                            ->first();
+                                                                                    @endphp
                                                                                         @if ($product_name)
                                                                                             {{ $product_name->PICK_TEXT }}
                                                                                         @else
                                                                                             No product found.
                                                                                         @endif
-                                                                                    </td>
+        </td>
                                                                                     {{-- <td class="border px-4 py-2">
                                                                                         <div class="flex items-center font-semibold">
                                                                                             <span class="!me-2 inline-flex justify-center items-center">
@@ -738,18 +719,14 @@
                                                                                             </span>
                                                                                         </div>
                                                                                     </td> --}}
-                                                                                    <td class="border px-4 py-2">
-                                                                                        {{ $item->pay_id }}</td>
-                                                                                    <td class="border px-4 py-2">
-                                                                                        {{ $item->created_at->format('F j, Y') }}
-                                                                                    </td>
-                                                                                    <td class="border px-4 py-2">
-                                                                                        ${{ $item->amount_total }}</td>
-                                                                                    <td class="border px-4 py-2">
-                                                                                        #1000{{ $item->id_py }}</td>
+                                                                                    <td class="border px-4 py-2">{{$item->pay_id}}</td>
+                                                                                    <td class="border px-4 py-2">{{$item->created_at->format('F j, Y')}}</td>
+                                                                                    <td class="border px-4 py-2">${{$item->amount_total}}</td>
+                                                                                    <td class="border px-4 py-2">#1000{{$item->id_py}}</td>
                                                                                     <td class="border">
 
-                                                                                        @if ($item->payment_status == 'paid')
+                                                                                        @if ($item->payment_status=='paid')
+
                                                                                             <span
                                                                                                 class="inline-flex text-primary !py-[0.15rem] !px-[0.45rem] rounded-sm !font-semibold !text-[0.75em] bg-primary/10">{{ $item->payment_status }}</span>
                                                                                         @else
@@ -760,14 +737,11 @@
 
 
                                                                                     <td class="border px-4 py-2">
-                                                                                        <div
-                                                                                            class="flex flex-row items-center text-[0.9375rem]">
+                                                                                        <div class="flex flex-row items-center text-[0.9375rem]">
                                                                                             <a aria-label="anchor"
                                                                                                 href="{{ route('user.invoice', \Crypt::encrypt($item->pay_id)) }}"
-                                                                                                class="ti-btn ti-btn-icon ti-btn-wave !gap-0 !m-0 !h-[1.75rem] !w-[1.75rem] text-[0.8rem] bg-primary/10 text-primary hover:bg-primary hover:text-white hover:border-primary"
-                                                                                                target="_blank">
-                                                                                                <i
-                                                                                                    class="ri-printer-line"></i>
+                                                                                                class="ti-btn ti-btn-icon ti-btn-wave !gap-0 !m-0 !h-[1.75rem] !w-[1.75rem] text-[0.8rem] bg-primary/10 text-primary hover:bg-primary hover:text-white hover:border-primary" target="_blank">
+                                                                                                <i class="ri-printer-line"></i>
                                                                                             </a>
 
 
@@ -801,12 +775,12 @@
                                                                 <div class="box-body p-6">
                                                                     <div class="text-center">
                                                                         <span class="avatar avatar-xl">
-                                                                            @if ($productdetails_list->key_type == 502)
-                                                                                <img src="{{ asset('assets/Admin/ttb/TTB-Antivirus.png') }}"
-                                                                                    alt="">
-                                                                            @elseif ($productdetails_list->key_type == 501)
-                                                                                <img src="{{ asset('assets/Admin/ttb/VPN-SHIELD.png') }}"
-                                                                                    alt="">
+                                                                            @if ($productdetails_list->key_type==502)
+                                                                            <img src="{{asset('assets/Admin/ttb/TTB-Antivirus.png')}}"
+                                                                            alt="">
+                                                                            @elseif ($productdetails_list->key_type==501)
+                                                                            <img src="{{asset('assets/Admin/ttb/VPN-SHIELD.png')}}"
+                                                                            alt="">
                                                                             @endif
 
                                                                         </span>
@@ -847,16 +821,11 @@
                                                                             </p>
                                                                             <span
                                                                                 class="badge bg-info/10 rounded-full text-info">@php
-                                                                                    $results = App\Models\TTBKEY::where(
-                                                                                        'id',
-                                                                                        $productdetails_list->product_key,
-                                                                                    )->first();
-                                                                                @endphp
-                                                                                {{ $results ? $results->main_key : 'NA' }}
-                                                                            </span>
-                                                                            <p
-                                                                                class="text-[0.75rem] opacity-[0.7] mb-1 text-[#8c9097] dark:text-white/50">
-                                                                                {{ $productdetails_list->created_at->format('F j, Y') }}
+                                                                                $results = App\Models\TTBKEY::where('id', $productdetails_list->product_key)->first();
+                                                                            @endphp
+                                                                                {{ $results ? $results->main_key : 'NA' }} </span>
+                                                                            <p class="text-[0.75rem] opacity-[0.7] mb-1 text-[#8c9097] dark:text-white/50">
+                                                                                {{$productdetails_list->created_at->format('F j, Y')}}
                                                                             </p>
                                                                         </div>
                                                                     </div>
@@ -890,195 +859,64 @@
 
             {{-- profile tab section start --}}
 
-
-
-            {{-- End profile tab section --}}
-
-            <style>
-                .profile-tab button:active {
-                    color: #000 !important;
-                }
-
-                .profile-tab button {
-                    color: #000 !important;
-                }
-            </style>
-
-            {{-- <section class="section-two-iconbox pt-8 bg-white text-color">
-                <div class="container main-banner-container">
-
-                    <div class="box-body">
-                        <div class="border-b border-gray-200 dark:border-white/10">
-                            <nav class="-mb-0.5 flex justify-center space-x-6 rtl:space-x-reverse profile-tab"
-                                aria-label="Tabs">
-                                <button type="button"
-                                    class="hs-tab-active:font-semibold hs-tab-active:border-primary hs-tab-active:text-primary py-4 px-1 inline-flex items-center gap-2 border-b-[3px] border-transparent text-sm whitespace-nowrap text-defaulttextcolor hover:text-primary dark:text-[#8c9097] dark:text-white/50 active"
-                                    id="horizontal-alignment-item-1" data-hs-tab="#horizontal-alignment-1"
-                                    aria-controls="horizontal-alignment-1">
-                                    Tab 1
-                                </button>
-                                <button type="button"
-                                    class="hs-tab-active:font-semibold hs-tab-active:border-primary hs-tab-active:text-primary py-4 px-1 inline-flex items-center gap-2 border-b-[3px] border-transparent text-sm whitespace-nowrap text-defaulttextcolor hover:text-primary dark:text-[#8c9097] dark:text-white/50"
-                                    id="horizontal-alignment-item-2" data-hs-tab="#horizontal-alignment-2"
-                                    aria-controls="horizontal-alignment-2">
-                                    Tab 2
-                                </button>
-                                <button type="button"
-                                    class="hs-tab-active:font-semibold hs-tab-active:border-primary hs-tab-active:text-primary py-4 px-1 inline-flex items-center gap-2 border-b-[3px] border-transparent text-sm whitespace-nowrap text-defaulttextcolor hover:text-primary dark:text-[#8c9097] dark:text-white/50"
-                                    id="horizontal-alignment-item-3" data-hs-tab="#horizontal-alignment-3"
-                                    aria-controls="horizontal-alignment-3">
-                                    Tab 3
-                                </button>
-                            </nav>
-                        </div>
-
-                        <div class="mt-3">
-                            <div id="horizontal-alignment-1" role="tabpanel"
-                                aria-labelledby="horizontal-alignment-item-1">
-                                <p
-                                    class="text-gray-500 dark:text-[#8c9097] dark:text-white/50 p-5 border rounded-sm dark:border-white/10 border-gray-200">
-                                    1. How hotel deals can help you live a better life. How celebrity cruises aren't as bad
-                                    as
-                                    you think. How cultural solutions can help you predict the future. How to cheat at dog
-                                    friendly hotels and get away with it. 17 problems with summer activities. How to cheat
-                                    at travel agents and get away with it. How not knowing family trip ideas makes you a
-                                    rookie. What everyone is saying about daily deals. How twitter can teach you about
-                                    carnival cruises. How to start using cultural solutions.
-                                </p>
-                            </div>
-                            <div id="horizontal-alignment-2" class="hidden" role="tabpanel"
-                                aria-labelledby="horizontal-alignment-item-2">
-                                <p
-                                    class="text-gray-500 dark:text-[#8c9097] dark:text-white/50 p-5 border rounded-sm dark:border-white/10 border-gray-200">
-                                    2. How travel coupons make you a better lover. Why cultural solutions are the new black.
-                                    Why mom was right about travel insurances. How family trip ideas can help you predict
-                                    the future. How carnival cruises make you a better lover. Why you'll never succeed at
-                                    daily deals. 11 ways cheapest flights can find you the love of your life. The complete
-                                    beginner's guide to mission trips. If you read one article about cultural notes read
-                                    this one. Why you shouldn't eat vacation package in bed.
-                                </p>
-                            </div>
-                            <div id="horizontal-alignment-3" class="hidden" role="tabpanel"
-                                aria-labelledby="horizontal-alignment-item-3">
-                                <p
-                                    class="text-gray-500 dark:text-[#8c9097] dark:text-white/50 p-5 border rounded-sm dark:border-white/10 border-gray-200">
-                                    3.Unbelievable healthy snack success stories. 12 facts about safe food handling tips
-                                    that
-                                    will impress your friends. Restaurant weeks by the numbers. Will mexican food ever rule
-                                    the world? The 10 best thai restaurant youtube videos. How restaurant weeks can make you
-                                    sick. The complete beginner's guide to cooking healthy food. Unbelievable food stamp
-                                    success stories. How whole foods markets are making the world a better place. 16 things
-                                    that won't happen in dish reviews.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="grid grid-cols-12 gap-6">
-                            <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12 con-box">
-                                <i class="fa-solid fa-eye"></i>
-                                <h5>Anonymous Access</h5>
-                                <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor.</p>
-                            </div>
-                            <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12 con-box">
-                                <i class="fa-solid fa-user"></i>
-                                <h5>No Usage Logs</h5>
-                                <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor.</p>
-                            </div>
-                            <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12 con-box">
-                                <i class="fa-solid fa-server"></i>
-                                <h5>No Usage Limits</h5>
-                                <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor.</p>
-                            </div>
-                            <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12 con-box">
-                                <i class="fa-solid fa-lock"></i>
-                                <h5>100% White Listed</h5>
-                                <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor.</p>
-                            </div>
-                        </div>
-                    </div>
-            </section> --}}
-
             <div class="col-span-12 md:col-span-6 xxl:!col-span-4">
                 <div class="box">
                     <div class="box-header">
                         <h5 class="box-title">Tabs With Horizontal Center Alignment</h5>
                     </div>
                     <div class="box-body">
-                        <div class="border-b border-gray-200 dark:border-white/10">
-                            <nav class="-mb-0.5 flex justify-center space-x-6 rtl:space-x-reverse" aria-label="Tabs">
-                                <button type="button"
-                                    class="hs-tab-active:font-semibold hs-tab-active:border-primary hs-tab-active:text-primary py-4 px-1 inline-flex items-center gap-2 border-b-[3px] border-transparent text-sm whitespace-nowrap text-defaulttextcolor hover:text-primary dark:text-[#8c9097] dark:text-white/50 active"
-                                    id="horizontal-alignment-item-1" data-hs-tab="#horizontal-alignment-1"
-                                    aria-controls="horizontal-alignment-1">
-                                    Tab 1
-                                </button>
-                                <button type="button"
-                                    class="hs-tab-active:font-semibold hs-tab-active:border-primary hs-tab-active:text-primary py-4 px-1 inline-flex items-center gap-2 border-b-[3px] border-transparent text-sm whitespace-nowrap text-defaulttextcolor hover:text-primary dark:text-[#8c9097] dark:text-white/50"
-                                    id="horizontal-alignment-item-2" data-hs-tab="#horizontal-alignment-2"
-                                    aria-controls="horizontal-alignment-2">
-                                    Tab 2
-                                </button>
-                                <button type="button"
-                                    class="hs-tab-active:font-semibold hs-tab-active:border-primary hs-tab-active:text-primary py-4 px-1 inline-flex items-center gap-2 border-b-[3px] border-transparent text-sm whitespace-nowrap text-defaulttextcolor hover:text-primary dark:text-[#8c9097] dark:text-white/50"
-                                    id="horizontal-alignment-item-3" data-hs-tab="#horizontal-alignment-3"
-                                    aria-controls="horizontal-alignment-3">
-                                    Tab 3
-                                </button>
-                            </nav>
-                        </div>
+                      <div class="border-b border-gray-200 dark:border-white/10">
+                        <nav class="-mb-0.5 flex justify-center space-x-6 rtl:space-x-reverse" aria-label="Tabs">
+                          <button type="button" class="hs-tab-active:font-semibold hs-tab-active:border-primary hs-tab-active:text-primary py-4 px-1 inline-flex items-center gap-2 border-b-[3px] border-transparent text-sm whitespace-nowrap text-defaulttextcolor hover:text-primary dark:text-[#8c9097] dark:text-white/50 active" id="horizontal-alignment-item-1" data-hs-tab="#horizontal-alignment-1" aria-controls="horizontal-alignment-1">
+                            Tab 1
+                          </button>
+                          <button type="button" class="hs-tab-active:font-semibold hs-tab-active:border-primary hs-tab-active:text-primary py-4 px-1 inline-flex items-center gap-2 border-b-[3px] border-transparent text-sm whitespace-nowrap text-defaulttextcolor hover:text-primary dark:text-[#8c9097] dark:text-white/50" id="horizontal-alignment-item-2" data-hs-tab="#horizontal-alignment-2" aria-controls="horizontal-alignment-2">
+                            Tab 2
+                          </button>
+                          <button type="button" class="hs-tab-active:font-semibold hs-tab-active:border-primary hs-tab-active:text-primary py-4 px-1 inline-flex items-center gap-2 border-b-[3px] border-transparent text-sm whitespace-nowrap text-defaulttextcolor hover:text-primary dark:text-[#8c9097] dark:text-white/50" id="horizontal-alignment-item-3" data-hs-tab="#horizontal-alignment-3" aria-controls="horizontal-alignment-3">
+                            Tab 3
+                          </button>
+                        </nav>
+                      </div>
 
-                        <div class="mt-3">
-                            <div id="horizontal-alignment-1" role="tabpanel"
-                                aria-labelledby="horizontal-alignment-item-1">
-                                <p
-                                    class="text-gray-500 dark:text-[#8c9097] dark:text-white/50 p-5 border rounded-sm dark:border-white/10 border-gray-200">
-                                    1. How hotel deals can help you live a better life. How celebrity cruises aren't as bad as
-                                    you think. How cultural solutions can help you predict the future. How to cheat at dog
-                                    friendly hotels and get away with it. 17 problems with summer activities. How to cheat
-                                    at travel agents and get away with it. How not knowing family trip ideas makes you a
-                                    rookie. What everyone is saying about daily deals. How twitter can teach you about
-                                    carnival cruises. How to start using cultural solutions.
-                                </p>
-                            </div>
-                            <div id="horizontal-alignment-2" class="hidden" role="tabpanel"
-                                aria-labelledby="horizontal-alignment-item-2">
-                                <p
-                                    class="text-gray-500 dark:text-[#8c9097] dark:text-white/50 p-5 border rounded-sm dark:border-white/10 border-gray-200">
-                                    2. How travel coupons make you a better lover. Why cultural solutions are the new black.
-                                    Why mom was right about travel insurances. How family trip ideas can help you predict
-                                    the future. How carnival cruises make you a better lover. Why you'll never succeed at
-                                    daily deals. 11 ways cheapest flights can find you the love of your life. The complete
-                                    beginner's guide to mission trips. If you read one article about cultural notes read
-                                    this one. Why you shouldn't eat vacation package in bed.
-                                </p>
-                            </div>
-                            <div id="horizontal-alignment-3" class="hidden" role="tabpanel"
-                                aria-labelledby="horizontal-alignment-item-3">
-                                <p
-                                    class="text-gray-500 dark:text-[#8c9097] dark:text-white/50 p-5 border rounded-sm dark:border-white/10 border-gray-200">
-                                    3. Unbelievable healthy snack success stories. 12 facts about safe food handling tips that
-                                    will impress your friends. Restaurant weeks by the numbers. Will mexican food ever rule
-                                    the world? The 10 best thai restaurant youtube videos. How restaurant weeks can make you
-                                    sick. The complete beginner's guide to cooking healthy food. Unbelievable food stamp
-                                    success stories. How whole foods markets are making the world a better place. 16 things
-                                    that won't happen in dish reviews.
-                                </p>
-                            </div>
+                      <div class="mt-3">
+                        <div id="horizontal-alignment-1" role="tabpanel" aria-labelledby="horizontal-alignment-item-1" class="">
+                          <p class="text-gray-500 dark:text-[#8c9097] dark:text-white/50 p-5 border rounded-sm dark:border-white/10 border-gray-200">
+                            1. How hotel deals can help you live a better life. How celebrity cruises aren't as bad as you think. How cultural solutions can help you predict the future. How to cheat at dog friendly hotels and get away with it. 17 problems with summer activities. How to cheat at travel agents and get away with it. How not knowing family trip ideas makes you a rookie. What everyone is saying about daily deals. How twitter can teach you about carnival cruises. How to start using cultural solutions.
+                          </p>
                         </div>
+                        <div id="horizontal-alignment-2" class="hidden" role="tabpanel" aria-labelledby="horizontal-alignment-item-2">
+                          <p class="text-gray-500 dark:text-[#8c9097] dark:text-white/50 p-5 border rounded-sm dark:border-white/10 border-gray-200">
+                           2. How travel coupons make you a better lover. Why cultural solutions are the new black. Why mom was right about travel insurances. How family trip ideas can help you predict the future. How carnival cruises make you a better lover. Why you'll never succeed at daily deals. 11 ways cheapest flights can find you the love of your life. The complete beginner's guide to mission trips. If you read one article about cultural notes read this one. Why you shouldn't eat vacation package in bed.
+                          </p>
+                        </div>
+                        <div id="horizontal-alignment-3" class="hidden" role="tabpanel" aria-labelledby="horizontal-alignment-item-3">
+                          <p class="text-gray-500 dark:text-[#8c9097] dark:text-white/50 p-5 border rounded-sm dark:border-white/10 border-gray-200">
+                           3. Unbelievable healthy snack success stories. 12 facts about safe food handling tips that will impress your friends. Restaurant weeks by the numbers. Will mexican food ever rule the world? The 10 best thai restaurant youtube videos. How restaurant weeks can make you sick. The complete beginner's guide to cooking healthy food. Unbelievable food stamp success stories. How whole foods markets are making the world a better place. 16 things that won't happen in dish reviews.
+                          </p>
+                        </div>
+                      </div>
                     </div>
                 </div>
             </div>
 
+            {{-- End profile tab section --}}
+
+
+
+
+
         </div>
     </div>
-    </div>
-    <!-- Grid JS -->
-    <script src="{{ asset('assets/libs/gridjs/gridjs.umd.js') }}"></script>
 
-    <!-- Internal Grid JS -->
-    <script src="{{ asset('assets/js/grid.js') }}"></script>
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css">
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+  <!-- Grid JS -->
+  <script src="{{ asset('assets/libs/gridjs/gridjs.umd.js') }}"></script>
+
+  <!-- Internal Grid JS -->
+  <script src="{{ asset('assets/js/grid.js') }}"></script>
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
 
     <script>
         $(document).ready(function() {
