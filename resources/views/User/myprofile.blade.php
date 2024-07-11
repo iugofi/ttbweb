@@ -895,13 +895,13 @@
             {{-- End profile tab section --}}
 
             <style>
-                .profile-tab button:active {
+                /* .profile-tab button:active {
                     color: #000 !important;
                 }
 
                 .profile-tab button {
                     color: #000 !important;
-                }
+                } */
             </style>
 
             <section class="section-two-iconbox pt-8 bg-white text-color">
@@ -909,7 +909,7 @@
 
                     <div class="box-body">
                         <div class="border-b border-gray-200 dark:border-white/10">
-                            <nav class="-mb-0.5 flex justify-center space-x-6 rtl:space-x-reverse profile-tab"
+                            <nav class="-mb-0.5 flex justify-center space-x-6 rtl:space-x-reverse"
                                 aria-label="Tabs">
                                 <button type="button"
                                     class="hs-tab-active:font-semibold hs-tab-active:border-primary hs-tab-active:text-primary py-4 px-1 inline-flex items-center gap-2 border-b-[3px] border-transparent text-sm whitespace-nowrap text-defaulttextcolor hover:text-primary dark:text-[#8c9097] dark:text-white/50 active"
