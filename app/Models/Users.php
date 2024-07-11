@@ -16,6 +16,7 @@ class Users extends Model
         'lastname',
         'email',
         'phone',
+        'profile',
         'address',
         'status',
         'otp',
