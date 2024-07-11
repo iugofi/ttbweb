@@ -476,22 +476,28 @@
                                                     </div>
                                                     <ul class="list-none text-center text-[0.75rem] px-4 pt-4 mb-0">
                                                         <li class="mb-4">
-                                                            <span class="text-[#8c9097] dark:text-white/50">Storage Capacity<span class="badge bg-light text-defaulttextcolor ms-1">1Tb</span></span>
+                                                            <span>5 PCs, Macs, tablets, or phones</span>
                                                         </li>
                                                         <li class="mb-4">
-                                                            <span class="text-[#8c9097] dark:text-white/50">Daily Updates<span class="badge bg-light text-defaulttextcolor ms-1">Unlimited</span></span>
+                                                            <span>Antivirus, malware, ransomware, and hacking protection</span>
                                                         </li>
                                                         <li class="mb-4">
-                                                            <span class="text-[#8c9097] dark:text-white/50">Online Support</span>
+                                                            <span>100% Virus Protection Promise2</span>
                                                         </li>
                                                         <li class="mb-4">
-                                                            <span class="text-[#8c9097] dark:text-white/50">Visitors Monitoring<span class="badge bg-light text-defaulttextcolor ms-1">24/7</span></span>
+                                                            <span>50GB Cloud Backup‡‡,4</span>
                                                         </li>
                                                         <li class="mb-4">
-                                                            <span class="text-[#8c9097] dark:text-white/50">2 Free Domains</span>
+                                                            <span>Password Manager</span>
                                                         </li>
                                                         <li class="mb-4">
-                                                            <span class="text-[#8c9097] dark:text-white/50">Money Back Guarentee</span>
+                                                            <span>VPN private internet connection</span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <span>Parental Control‡</span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <span>Dark Web Monitoring§</span>
                                                         </li>
                                                     </ul>
 
