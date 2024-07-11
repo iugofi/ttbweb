@@ -142,7 +142,7 @@
         {{-- third pricing plan section start --}}
 
             <section
-                class="!bg-[##F3F2EA] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 home2-new-seven-pricing">
+                class=" section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 home2-new-seven-pricing">
                 <div class="pricing-bxx">
                     <div class="grid grid-cols-12 gap-6 justify-center mb-[3rem]">
                         <div class="xxl:col-span-2 col-span-12"></div>
