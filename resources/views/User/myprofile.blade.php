@@ -720,7 +720,7 @@
                                                                                     </td> --}}
                                                                                     <td class="border px-4 py-2">{{$item->pay_id}}</td>
                                                                                     <td class="border px-4 py-2">{{$item->pay_id}}</td>
-                                                                                    <td class="border px-4 py-2">{{$item->amount_total}}</td>
+                                                                                    <td class="border px-4 py-2">${{$item->amount_total}}</td>
 
                                                                                     <td class="border">
 
