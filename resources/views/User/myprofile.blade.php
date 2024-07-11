@@ -330,8 +330,13 @@
                                                                             </div>
 
                                                                             <div class="mb-3">
+
                                                                                 <label for="exampleInputPassword1"
                                                                                     class="form-label">Profile</label>
+                                                                                    <span class="avatar avatar-xl me-1">
+                                                                                        <img src="{{ asset('assets/userprofile/' . ($user_data->profile ? $user_data->profile : 'default-profile.png')) }}" alt="">
+                                                                                    </span>
+
                                                                                     <input type="file" class="form-control" id="profile_images" name="profile_images"
                                                                                     multiple data-allow-reorder="true" data-max-file-size="3MB"
                                                                                     data-max-files="6">
@@ -899,16 +904,24 @@
             $('#myprofilechangeother').submit(function(e) {
                 e.preventDefault();
                 $('#profilechangeotherbtn').val('please wait..');
+                var token = $('meta[name="csrf-token"]').attr('content');
+                var formData = new FormData($(this)[0]);
                 $.ajax({
                     url: '{{ route('user.myprofileother') }}',
                     method: 'post',
-                    data: $(this).serialize(),
+                    headers: {
+                        'X-CSRF-TOKEN': token
+                    },
+                    contentType: false,
+                    processData: false,
+                    data: formData,
                     success: function(response) {
                         if (response.status == 400) {
                             showError('first_name', response.messages.first_name);
                             showError('last_name', response.messages.last_name);
                             showError('user_phone', response.messages.user_phone);
                             showError('user_address', response.messages.user_address);
+                            showError('profile_images', response.messages.profile_images);
                             showError('user_email', response.messages.user_email);
 
                             $('#profilechangeotherbtn').val('Change Password');
