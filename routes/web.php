@@ -27,7 +27,7 @@ use App\Http\Controllers\ExcelController;
 //     return view('welcome');
 // });
 
-Artisan::call('up');
+// Artisan::call('up');
 
 //forget pass
 Route::post('/forget-pass', [UserController::class, 'forgetpass'])->name('user.forgetpass');
@@ -132,7 +132,7 @@ Route::get('/network-protection', [UserController::class, 'network_protection'])
 
 Route::get('/', [UserController::class, 'homenew'])->name('user.index');
 
-//home page new 
+//home page new
 Route::get('/homenew', [UserController::class, 'index'])->name('user.homenew');
 
 //home slider
@@ -148,7 +148,7 @@ Route::get('/invoice/{id}', [UserController::class, 'invoice'])->name('user.invo
 // Route::group([
 //    'middleware' => ['cookie-consent']
 // ], function(){
-  
+
 
 // });
 
@@ -272,7 +272,7 @@ Route::get('/mailtest', [UserController::class, 'mailtest'])->name('admin.mailte
          Route::get('/facthadmin', [AdminController::class, 'facthadmin'])->name('fatch.facthadmin');
          Route::get('/fatchadmindataajax', [AdminController::class, 'fatchadmindataajax'])->name('fetch.fatchadmindataajax');
 
-         //plan 
+         //plan
          Route::get('/planshow', [AdminController::class, 'planlistshow'])->name('plan.listshow');
          Route::get('/plancreate', [AdminController::class, 'plancreate'])->name('plan.plancreate');
          Route::get('/facthplan', [AdminController::class, 'facthplan'])->name('fatch.facthplan');
@@ -292,7 +292,7 @@ Route::get('/mailtest', [UserController::class, 'mailtest'])->name('admin.mailte
          Route::delete('/plandetailsdelete/{id}', [AdminController::class, 'plandetailsdelete'])->name('delete.plandetailsdelete');
 
 
-         //vpn shield Payment 
+         //vpn shield Payment
          Route::get('/vpnpayshow', [AdminController::class, 'vpnpayshow'])->name('pay.vpnpayshow');
          Route::get('/payedit/{id}', [AdminController::class, 'payedit'])->name('edit.payedit');
          Route::delete('/vpnpaydelete/{id}', [AdminController::class, 'vpnpaydelete'])->name('delete.vpnpaydelete');
@@ -300,7 +300,7 @@ Route::get('/mailtest', [UserController::class, 'mailtest'])->name('admin.mailte
          //all payment list
          Route::get('/allpaymentshow', [AdminController::class, 'allpaymentshow'])->name('pay.allpaymentshow');
 
-         //antivirus payment 
+         //antivirus payment
          Route::get('/antiviruspayshow', [AdminController::class, 'antiviruspayshow'])->name('pay.antiviruspayshow');
 
          Route::get('/customersshow', [AdminController::class, 'customershow'])->name('customer.show');
@@ -309,7 +309,7 @@ Route::get('/mailtest', [UserController::class, 'mailtest'])->name('admin.mailte
          Route::delete('/customerdelete/{id}', [AdminController::class, 'customerdelete'])->name('delete.customerdelete');
 
 
-         //key 
+         //key
          Route::get('/keyshow', [AdminController::class, 'keyshow'])->name('key.show');
          Route::get('/keyadd', [AdminController::class, 'keyadd'])->name('key.add');
          Route::get('/editkey/{id}', [AdminController::class, 'editkey'])->name('edit.keyedit');
