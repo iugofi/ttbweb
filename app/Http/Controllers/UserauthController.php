@@ -8,6 +8,8 @@ use App\Models\Payments;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Crypt;
+use Illuminate\Support\Facades\File;
+
 
 class UserauthController extends Controller
 {
@@ -143,7 +145,7 @@ class UserauthController extends Controller
                     if ($request->hasFile('profile_images')) {
                         $image = $request->file('profile_images');
                         $imageName = time() . '.' . $image->getClientOriginalExtension();
-                        $image->move(public_path('assets/userprofile/'), $imageName);
+                        $image->move('assets/userprofile/', $imageName);
 
                         // If the user already has a profile image, delete the old one
                         if ($profileotherchange->profile) {
