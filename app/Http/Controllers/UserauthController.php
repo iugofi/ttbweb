@@ -7,9 +7,12 @@ use App\Models\Users;
 use App\Models\Payments;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Crypt;
 
 class UserauthController extends Controller
 {
+    protected $loggedInUser;
+    protected $userData;
     public function __construct()
     {
         $this->middleware(function ($request, $next) {
@@ -52,7 +55,7 @@ class UserauthController extends Controller
 
         if ($this->loggedInUser) {
             try {
-                $id = \Crypt::decrypt($request->id_user);
+                $id = Crypt::decrypt($request->id_user);
             } catch (\Exception $e) {
                 return response()->json([
                     'status' => 400,
@@ -84,7 +87,7 @@ class UserauthController extends Controller
                         ]);
                     }
                     $profilepasschange->update([
-                        'password' => \Crypt::encrypt($request->new_password)
+                        'password' => Crypt::encrypt($request->new_password)
 
                     ]);
 
@@ -110,7 +113,7 @@ class UserauthController extends Controller
 
         if ($this->loggedInUser) {
             // dd($request->all());
-            $id=\Crypt::decrypt($request->id_user);
+            $id=Crypt::decrypt($request->id_user);
             $validator = Validator::make($request->all(), [
                 'first_name' => 'required|max:50',
                 'last_name' => 'required|max:50',
