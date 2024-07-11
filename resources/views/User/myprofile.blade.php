@@ -926,14 +926,14 @@
                             showError('profile_images', response.messages.profile_images);
                             showError('user_email', response.messages.user_email);
 
-                            $('#profilechangeotherbtn').val('Change Password');
+                            $('#profilechangeotherbtn').val('profile Change');
                         } else if (response.status == 200) {
                             $("#show_success_alert").html(showMessage('success', response
                                 .messages));
                             $('#myprofilechangeother')[0].reset();
                             $('.invalid-feedback').empty();
                             removeValidationClass("#myprofilechangeother");
-                            $('#profilechangeotherbtn').val('Change Password');
+                            $('#profilechangeotherbtn').val('profile Change');
                             $('#modalCloseButtonotprofile').click();
                         }
                     }
