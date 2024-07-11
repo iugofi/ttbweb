@@ -682,6 +682,7 @@
                                                                                 <th class="px-4 py-2">Invoice ID</th>
                                                                                 <th class="px-4 py-2">Issued Date</th>
                                                                                 <th class="px-4 py-2">Amount</th>
+                                                                                <th class="px-4 py-2">Order Id</th>
                                                                                 <th class="px-4 py-2">Status</th>
                                                                                 <th class="px-4 py-2">Action</th>
                                                                             </tr>
@@ -719,7 +720,7 @@
                                                                                         </div>
                                                                                     </td> --}}
                                                                                     <td class="border px-4 py-2">{{$item->pay_id}}</td>
-                                                                                    <td class="border px-4 py-2">{{$item->pay_id}}</td>
+                                                                                    <td class="border px-4 py-2">{{$item->created_at}}</td>
                                                                                     <td class="border px-4 py-2">${{$item->amount_total}}</td>
 
                                                                                     <td class="border">
@@ -733,11 +734,13 @@
                                                                                                 class="inline-flex text-danger !py-[0.15rem] !px-[0.45rem] rounded-sm !font-semibold !text-[0.75em] bg-danger/10">Unpaid</span>
                                                                                         @endif
                                                                                     </td>
+                                                                                    <td class="border px-4 py-2">#1000{{$item->id}}</td>
+
                                                                                     <td class="border px-4 py-2">
                                                                                         <div class="flex flex-row items-center !gap-2 text-[0.9375rem]">
                                                                                             <a aria-label="anchor"
                                                                                                 href="{{ route('user.invoice', \Crypt::encrypt($item->pay_id)) }}"
-                                                                                                class="ti-btn ti-btn-icon ti-btn-wave !gap-0 !m-0 !h-[1.75rem] !w-[1.75rem] text-[0.8rem] bg-primary/10 text-primary hover:bg-primary hover:text-white hover:border-primary">
+                                                                                                class="ti-btn ti-btn-icon ti-btn-wave !gap-0 !m-0 !h-[1.75rem] !w-[1.75rem] text-[0.8rem] bg-primary/10 text-primary hover:bg-primary hover:text-white hover:border-primary" target="_blank">
                                                                                                 <i class="ri-printer-line"></i>
                                                                                             </a>
                                                                                             <button aria-label="button" type="button"
