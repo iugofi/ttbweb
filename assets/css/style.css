@@ -51078,6 +51078,11 @@ padding: 8em 0em;
 .text-gray-light {
     color: #8d8585;
 }
+.box-down {
+    border: 2px solid #13d8aa;
+    padding: 20px;
+    border-radius: 4px;
+}
 
 .sect-three h2 {
     margin-top: 2em;
