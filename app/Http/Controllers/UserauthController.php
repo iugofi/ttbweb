@@ -8,6 +8,8 @@ use App\Models\Payments;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Crypt;
+use Illuminate\Support\Facades\File;
+
 
 class UserauthController extends Controller
 {
@@ -31,7 +33,7 @@ class UserauthController extends Controller
 
             $productdetails= Payments::join('product_details', 'payments.product_id', '=', 'product_details.id')
             ->where('payments.user_id', $this->loggedInUser)
-            ->select('payments.*', 'product_details.*')
+            ->select('payments.*','payments.id as id_py', 'product_details.*')
             ->orderby('payments.created_at','desc')
             ->get();
 
@@ -119,7 +121,7 @@ class UserauthController extends Controller
                 'last_name' => 'required|max:50',
                 'user_email' => 'required|email|max:255',
                 'user_phone' => 'required|digits_between:10,15',
-                'user_address' => 'required|max:255'
+                'user_address' => 'required|max:255',
 
             ]);
 
@@ -138,12 +140,35 @@ class UserauthController extends Controller
                             'messages' => 'User Profile not found'
                         ]);
                     }
+
+
+                    if ($request->hasFile('profile_images')) {
+                        $image = $request->file('profile_images');
+                        $imageName = time() . '.' . $image->getClientOriginalExtension();
+                        $image->move('assets/userprofile/', $imageName);
+
+                        // If the user already has a profile image, delete the old one
+                        if ($profileotherchange->profile) {
+                            $oldImage = 'assets/userprofile/' . $profileotherchange->profile;
+                            if (file_exists($oldImage)) {
+                                unlink($oldImage);
+                            }
+                        }
+                    } else {
+                        return response()->json([
+                            'status' => 400,
+                            'messages' => 'No image uploaded'
+                        ]);
+                    }
+
                     $profileotherchange->update([
                         'firstname' => $request->first_name,
                         'lastname' => $request->last_name,
                         'email' => $request->user_email,
                         'phone' => $request->user_phone,
-                        'address' => $request->user_address
+                        'address' => $request->user_address,
+                        'profile' => $imageName,
+
                     ]);
 
 

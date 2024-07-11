@@ -56,7 +56,11 @@
                             <div class="sm:flex items-start p-6      main-profile-cover">
                                 <div>
                                     <span class="avatar avatar-xxl avatar-rounded online me-4">
-                                        <img src="assets/images/faces/9.jpg" alt="">
+                                        @if (isset($user_data->profile))
+                                        <img src="{{asset('assets/userprofile/'.$user_data->profile)}}" alt="">
+                                        @else
+                                        <img src="assets/userprofile/default-profile.png" alt="">
+                                        @endif
                                     </span>
                                 </div>
                                 <div class="flex-grow main-profile-info">
@@ -269,7 +273,7 @@
                                                                         </button>
                                                                     </div>
                                                                     <div class="ti-modal-body">
-                                                                        <form method="post" id="myprofilechangeother">
+                                                                        <form method="post" id="myprofilechangeother" enctype="multipart/form-data">
                                                                             @csrf
                                                                             <div class="mb-3">
                                                                                 <label for="exampleInputPassword1"
@@ -330,10 +334,17 @@
                                                                             </div>
 
                                                                             <div class="mb-3">
+
                                                                                 <label for="exampleInputPassword1"
-                                                                                    class="form-label">Profile</label>
-                                                                                <input type="file" class="blog_images" id="blog_images" name="blog_images" multiple="" data-allow-reorder="true" data-max-file-size="3MB" data-max-files="6">
-                                                                                    <div class="invalid-feedback"></div>
+                                                                                    class="form-label">Profile</label><br>
+                                                                                    <span class="avatar avatar-xl me-1">
+                                                                                        <img src="{{ asset('assets/userprofile/' . ($user_data->profile ? $user_data->profile : 'default-profile.png')) }}" alt="">
+                                                                                    </span>
+
+                                                                                    <input type="file" class="form-control" id="profile_images" name="profile_images"
+                                                                                    multiple data-allow-reorder="true" data-max-file-size="3MB"
+                                                                                    data-max-files="6">
+                                                                                <div class="invalid-feedback"></div>
                                                                                 </div>
 
                                                                     </div>
@@ -671,6 +682,7 @@
                                                                                 <th class="px-4 py-2">Invoice ID</th>
                                                                                 <th class="px-4 py-2">Issued Date</th>
                                                                                 <th class="px-4 py-2">Amount</th>
+                                                                                <th class="px-4 py-2">Order Id</th>
                                                                                 <th class="px-4 py-2">Status</th>
                                                                                 <th class="px-4 py-2">Action</th>
                                                                             </tr>
@@ -708,9 +720,9 @@
                                                                                         </div>
                                                                                     </td> --}}
                                                                                     <td class="border px-4 py-2">{{$item->pay_id}}</td>
-                                                                                    <td class="border px-4 py-2">{{$item->pay_id}}</td>
-                                                                                    <td class="border px-4 py-2">{{$item->amount_total}}</td>
-
+                                                                                    <td class="border px-4 py-2">{{$item->created_at->format('F j, Y')}}</td>
+                                                                                    <td class="border px-4 py-2">${{$item->amount_total}}</td>
+                                                                                    <td class="border px-4 py-2">#1000{{$item->id_py}}</td>
                                                                                     <td class="border">
 
                                                                                         @if ($item->payment_status=='paid')
@@ -722,19 +734,16 @@
                                                                                                 class="inline-flex text-danger !py-[0.15rem] !px-[0.45rem] rounded-sm !font-semibold !text-[0.75em] bg-danger/10">Unpaid</span>
                                                                                         @endif
                                                                                     </td>
+
+
                                                                                     <td class="border px-4 py-2">
-                                                                                        <div class="flex flex-row items-center !gap-2 text-[0.9375rem]">
+                                                                                        <div class="flex flex-row items-center text-[0.9375rem]">
                                                                                             <a aria-label="anchor"
                                                                                                 href="{{ route('user.invoice', \Crypt::encrypt($item->pay_id)) }}"
-                                                                                                class="ti-btn ti-btn-icon ti-btn-wave !gap-0 !m-0 !h-[1.75rem] !w-[1.75rem] text-[0.8rem] bg-primary/10 text-primary hover:bg-primary hover:text-white hover:border-primary">
+                                                                                                class="ti-btn ti-btn-icon ti-btn-wave !gap-0 !m-0 !h-[1.75rem] !w-[1.75rem] text-[0.8rem] bg-primary/10 text-primary hover:bg-primary hover:text-white hover:border-primary" target="_blank">
                                                                                                 <i class="ri-printer-line"></i>
                                                                                             </a>
-                                                                                            <button aria-label="button" type="button"
-                                                                                                class="ti-btn !py-1 !px-2 !text-[0.75rem] ti-btn-danger-full btn-wave delete-blogs"
-                                                                                                data-item-id="{{ $item->id }}">
-                                                                                                <i
-                                                                                                    class="ri-delete-bin-line align-middle me-2 inline-block"></i>Delete
-                                                                                            </button>
+
 
                                                                                         </div>
                                                                                     </td>
@@ -848,6 +857,55 @@
             <!--End::row-1 -->
 
 
+            {{-- profile tab section start --}}
+
+            <div class="col-span-12 md:col-span-6 xxl:!col-span-4">
+                <div class="box">
+                    <div class="box-header">
+                        <h5 class="box-title">Tabs With Horizontal Center Alignment</h5>
+                    </div>
+                    <div class="box-body">
+                      <div class="border-b border-gray-200 dark:border-white/10">
+                        <nav class="-mb-0.5 flex justify-center space-x-6 rtl:space-x-reverse" aria-label="Tabs">
+                          <button type="button" class="hs-tab-active:font-semibold hs-tab-active:border-primary hs-tab-active:text-primary py-4 px-1 inline-flex items-center gap-2 border-b-[3px] border-transparent text-sm whitespace-nowrap text-defaulttextcolor hover:text-primary dark:text-[#8c9097] dark:text-white/50 active" id="horizontal-alignment-item-1" data-hs-tab="#horizontal-alignment-1" aria-controls="horizontal-alignment-1">
+                            Tab 1
+                          </button>
+                          <button type="button" class="hs-tab-active:font-semibold hs-tab-active:border-primary hs-tab-active:text-primary py-4 px-1 inline-flex items-center gap-2 border-b-[3px] border-transparent text-sm whitespace-nowrap text-defaulttextcolor hover:text-primary dark:text-[#8c9097] dark:text-white/50" id="horizontal-alignment-item-2" data-hs-tab="#horizontal-alignment-2" aria-controls="horizontal-alignment-2">
+                            Tab 2
+                          </button>
+                          <button type="button" class="hs-tab-active:font-semibold hs-tab-active:border-primary hs-tab-active:text-primary py-4 px-1 inline-flex items-center gap-2 border-b-[3px] border-transparent text-sm whitespace-nowrap text-defaulttextcolor hover:text-primary dark:text-[#8c9097] dark:text-white/50" id="horizontal-alignment-item-3" data-hs-tab="#horizontal-alignment-3" aria-controls="horizontal-alignment-3">
+                            Tab 3
+                          </button>
+                        </nav>
+                      </div>
+
+                      <div class="mt-3">
+                        <div id="horizontal-alignment-1" role="tabpanel" aria-labelledby="horizontal-alignment-item-1" class="">
+                          <p class="text-gray-500 dark:text-[#8c9097] dark:text-white/50 p-5 border rounded-sm dark:border-white/10 border-gray-200">
+                            1. How hotel deals can help you live a better life. How celebrity cruises aren't as bad as you think. How cultural solutions can help you predict the future. How to cheat at dog friendly hotels and get away with it. 17 problems with summer activities. How to cheat at travel agents and get away with it. How not knowing family trip ideas makes you a rookie. What everyone is saying about daily deals. How twitter can teach you about carnival cruises. How to start using cultural solutions.
+                          </p>
+                        </div>
+                        <div id="horizontal-alignment-2" class="hidden" role="tabpanel" aria-labelledby="horizontal-alignment-item-2">
+                          <p class="text-gray-500 dark:text-[#8c9097] dark:text-white/50 p-5 border rounded-sm dark:border-white/10 border-gray-200">
+                           2. How travel coupons make you a better lover. Why cultural solutions are the new black. Why mom was right about travel insurances. How family trip ideas can help you predict the future. How carnival cruises make you a better lover. Why you'll never succeed at daily deals. 11 ways cheapest flights can find you the love of your life. The complete beginner's guide to mission trips. If you read one article about cultural notes read this one. Why you shouldn't eat vacation package in bed.
+                          </p>
+                        </div>
+                        <div id="horizontal-alignment-3" class="hidden" role="tabpanel" aria-labelledby="horizontal-alignment-item-3">
+                          <p class="text-gray-500 dark:text-[#8c9097] dark:text-white/50 p-5 border rounded-sm dark:border-white/10 border-gray-200">
+                           3. Unbelievable healthy snack success stories. 12 facts about safe food handling tips that will impress your friends. Restaurant weeks by the numbers. Will mexican food ever rule the world? The 10 best thai restaurant youtube videos. How restaurant weeks can make you sick. The complete beginner's guide to cooking healthy food. Unbelievable food stamp success stories. How whole foods markets are making the world a better place. 16 things that won't happen in dish reviews.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            {{-- End profile tab section --}}
+
+
+
+
+
         </div>
     </div>
 
@@ -897,26 +955,34 @@
             $('#myprofilechangeother').submit(function(e) {
                 e.preventDefault();
                 $('#profilechangeotherbtn').val('please wait..');
+                var token = $('meta[name="csrf-token"]').attr('content');
+                var formData = new FormData($(this)[0]);
                 $.ajax({
                     url: '{{ route('user.myprofileother') }}',
                     method: 'post',
-                    data: $(this).serialize(),
+                    headers: {
+                        'X-CSRF-TOKEN': token
+                    },
+                    contentType: false,
+                    processData: false,
+                    data: formData,
                     success: function(response) {
                         if (response.status == 400) {
                             showError('first_name', response.messages.first_name);
                             showError('last_name', response.messages.last_name);
                             showError('user_phone', response.messages.user_phone);
                             showError('user_address', response.messages.user_address);
+                            showError('profile_images', response.messages.profile_images);
                             showError('user_email', response.messages.user_email);
 
-                            $('#profilechangeotherbtn').val('Change Password');
+                            $('#profilechangeotherbtn').val('profile Change');
                         } else if (response.status == 200) {
                             $("#show_success_alert").html(showMessage('success', response
                                 .messages));
                             $('#myprofilechangeother')[0].reset();
                             $('.invalid-feedback').empty();
                             removeValidationClass("#myprofilechangeother");
-                            $('#profilechangeotherbtn').val('Change Password');
+                            $('#profilechangeotherbtn').val('profile Change');
                             $('#modalCloseButtonotprofile').click();
                         }
                     }

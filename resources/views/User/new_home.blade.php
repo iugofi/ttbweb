@@ -141,7 +141,7 @@
 
         {{-- third pricing plan section start --}}
 
-            <section
+            {{-- <section
                 class=" section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 home2-new-seven-pricing">
                 <div class="pricing-bxx">
                     <div class="grid grid-cols-12 gap-6 justify-center mb-[3rem]">
@@ -150,9 +150,7 @@
                             <div class="container">
                                 <div class="flex justify-center !mx-auto">
                                     <div class="">
-                                        <h4 class="pt-5">SUBSCRIPTION PRICING</h4>
-                                        <h5 class="text-center mb-5 mt-4"> Simple
-                                            Pricing For Everyone </h5>
+                                        <h4 class="pt-5">Compare plans</h4>
                                     </div>
                                 </div>
                                 <div class="flex justify-center mb-4">
@@ -179,8 +177,8 @@
                                                         <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 sm:col-span-12 col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 pe-0 price-box"
                                                             style="margin: 8px;">
                                                             <div class="p-6 text-[#000] dark:text-white/50">
-                                                                <h6 class="font-semibold text-center text-[1rem]">TTB
-                                                                    Antivirus {{ $antivirusitem->name }}</h6>
+                                                                <h6 class="font-semibold text-center text-[1rem]">
+                                                                    Plus  {{ $antivirusitem->name }}</h6>
                                                                 <div class="py-4 flex items-center justify-center">
                                                                     <div class="pricing-svg1">
                                                                         <svg xmlns="http://www.w3.org/2000/svg"
@@ -357,8 +355,346 @@
                         <div class="xxl:col-span-2 col-span-12"></div>
                     </div>
                 </div>
-            </section>
+            </section> --}}
 
+            <div class="grid grid-cols-12 gap-6 justify-center mb-[3rem]">
+                <div class="xxl:col-span-2 col-span-12"></div>
+                <div class="xxl:col-span-8 xl:col-span-12 col-span-12">
+                    <div class="container-fluid">
+                        <div class="flex justify-center !mx-auto">
+                            <div class="">
+                                <h5 class="font-semibold text-center text-[1.25rem] !text-defaulttextcolor"> Simple Pricing For Everyone </h5>
+                                {{-- <p class="text-[#8c9097] dark:text-white/50 mb-4 text-center">Choose plan that suits best for your business needs, Our plans scales with you based on your needs</p> --}}
+                            </div>
+                        </div>
+                        <div class="flex justify-center mb-4 mt-5">
+                            <nav class="bg-primary/10 p-4 rounded-md mb-4" aria-label="Tabs">
+                                <a class="hs-tab-active:bg-primary hs-tab-active:text-white cursor-pointer text-primary py-2 px-4  text-sm font-medium text-center rounded-sm hover:text-primary active" id="pricing-item1" data-hs-tab="#pricing-monthly-pane" aria-controls="pricing-monthly-pane">
+                                Antivirus
+                                </a>
+                                <a class="hs-tab-active:bg-primary hs-tab-active:text-white cursor-pointer text-primary py-2 px-4 text-sm font-medium text-center  rounded-sm hover:text-primary " id="pricing-yearly1-item1" data-hs-tab="#pricing-yearly-pane" aria-controls="pricing-yearly-pane">
+                                  VPN Shield
+                                </a>
+                            </nav>
+                        </div>
+                        <div class="box overflow-hidden">
+                            <div class="box-body !p-0">
+                                <div class="tab-content" id="myTabContent">
+                                    <div class="tab-pane show active !p-0 border-b-0 dark:border-defaultborder/10" id="pricing-monthly-pane" role="tabpanel" >
+                                        <div class="grid grid-cols-12">
+                                            <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 sm:col-span-12 col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 px-0">
+                                                <div class="p-6 pricing-offer overflow-hidden">
+                                                    <h6 class="font-semibold text-center text-[1rem]">Advanced</h6>
+                                                    <div class="py-4 flex items-center justify-center">
+                                                        <div class="pricing-svg1">
+                                                            
+                                                        </div>
+                                                        <div class="text-end ms-5">
+                                                            <p class="text-[1.5625rem] font-semibold mb-0 ">$1,299 per month</p>
+                                                            <p class="text-[#8c9097] dark:text-white/50 opacity-50 text-[.6875rem] font-semibold mb-0">See Subscription details below *</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="grid">
+                                                        <button type="button" class="ti-btn ti-btn-primary">Get Started</button>
+                                                    </div>
+                                                    <ul class="list-none text-[0.75rem] px-4 pt-4 mb-0">
+                                                        <li class="mb-4">
+                                                            <i class="fa-solid fa-check"></i><span>1 PC, Mac, tablet, or phone</span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <i class="fa-solid fa-check"></i><span>Antivirus, malware, ransomware, and hacking protection</span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <i class="fa-solid fa-check"></i><span>100% Virus Protection Promise2</span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <i class="fa-solid fa-check"></i><span>2GB Cloud Backup‡‡,4</span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <i class="fa-solid fa-check"></i><span>Password Manager</span>
+                                                        </li>
+                                                    </ul>
+
+                                                </div>
+                                            </div>
+                                            <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 sm:col-span-12 col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 px-0">
+                                                <div class="p-6 pricing-offer overflow-hidden">
+                                                    <h6 class="font-semibold text-center text-[1rem]">Advanced</h6>
+                                                    <div class="py-4 flex items-center justify-center">
+                                                        <div class="pricing-svg1">
+                                                            
+                                                        </div>
+                                                        <div class="text-end ms-5">
+                                                            <p class="text-[1.5625rem] font-semibold mb-0 ">$1,299 per month</p>
+                                                            <p class="text-[#8c9097] dark:text-white/50 opacity-50 text-[.6875rem] font-semibold mb-0">See Subscription details below *</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="grid">
+                                                        <button type="button" class="ti-btn ti-btn-primary">Get Started</button>
+                                                    </div>
+                                                    <ul class="list-none  text-[0.75rem] px-4 pt-4 mb-0">
+                                                        <li class="mb-4">
+                                                            <i class="fa-solid fa-check"></i> <span>1 PC, Mac, tablet, or phone</span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <i class="fa-solid fa-check"></i><span>Antivirus, malware, ransomware, and hacking protection</span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <i class="fa-solid fa-check"></i><span>100% Virus Protection Promise2</span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <i class="fa-solid fa-check"></i><span>10GB Cloud Backup‡‡,4</span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <i class="fa-solid fa-check"></i><span>Password Manager</span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <i class="fa-solid fa-check"></i> <span>VPN private internet connection</span>
+                                                        </li>
+                                                    </ul>
+
+                                                </div>
+                                            </div>
+                                            <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 sm:col-span-12 col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 px-0">
+                                                <div class="p-6 pricing-offer overflow-hidden">
+                                                    <span class="pricing-offer-details shadow">
+                                                        <span class="font-semibold">10%</span> <span class="text-[0.625rem] op-8 ms-1">Off</span>
+                                                    </span>
+                                                    <h6 class="font-semibold text-center text-[1rem]">Advanced</h6>
+                                                    <div class="py-4 flex items-center justify-center">
+                                                        <div class="pricing-svg1">
+                                                           
+                                                        </div>
+                                                        <div class="text-end ms-5">
+                                                            <p class="text-[1.5625rem] font-semibold mb-0 text-primary">$1,299 per month</p>
+                                                            <p class="text-[#8c9097] dark:text-white/50 opacity-50 text-[.6875rem] font-semibold mb-0">See Subscription details below *</p>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="grid">
+                                                        <button type="button" class="ti-btn bg-primary text-white">Get Started</button>
+                                                    </div>
+                                                    <ul class="list-none text-[0.75rem] px-4 pt-4 mb-0">
+                                                        <li class="mb-4">
+                                                            <i class="fa-solid fa-check"></i><span>5 PCs, Macs, tablets, or phones</span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <i class="fa-solid fa-check"></i><span>Antivirus, malware, ransomware, and hacking protection</span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <i class="fa-solid fa-check"></i><span>100% Virus Protection Promise2</span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <i class="fa-solid fa-check"></i><span>50GB Cloud Backup‡‡,4</span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <i class="fa-solid fa-check"></i><span>Password Manager</span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <i class="fa-solid fa-check"></i><span>VPN private internet connection</span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <i class="fa-solid fa-check"></i><span>Parental Control‡</span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <i class="fa-solid fa-check"></i><span>Dark Web Monitoring§</span>
+                                                        </li>
+                                                    </ul>
+
+                                                </div>
+                                            </div>
+                                            <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 sm:col-span-12 col-span-12 ps-0">
+                                                <div class="p-6 pricing-offer overflow-hidden">
+                                                    <span class="pricing-offer-details shadow">
+                                                        <span class="font-semibold">10%</span> <span class="text-[0.625rem] op-8 ms-1">Off</span>
+                                                    </span>
+                                                    <h6 class="font-semibold text-center text-[1rem]">Advanced</h6>
+                                                    <div class="py-4 flex items-center justify-center">
+                                                        <div class="pricing-svg1">
+                                                            
+                                                        </div>
+                                                        <div class="text-end ms-5">
+                                                            <p class="text-[1.5625rem] font-semibold mb-0 ">$1,299 per month</p>
+                                                            <p class="text-[#8c9097] dark:text-white/50 opacity-50 text-[.6875rem] font-semibold mb-0">See Subscription details below *</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="grid">
+                                                        <button type="button" class="ti-btn ti-btn-primary">Get Started</button>
+                                                    </div>
+                                                    <ul class="list-none  text-[0.75rem] px-4 pt-4 mb-0">
+                                                        <li class="mb-4">
+                                                            <i class="fa-solid fa-check"></i><span>10 PCs, Macs, tablets, or phones</span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <i class="fa-solid fa-check"></i><span>Antivirus, malware, ransomware, and hacking protection</span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <i class="fa-solid fa-check"></i><span>100% Virus Protection Promise2</span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <i class="fa-solid fa-check"></i><span>200GB Cloud Backup‡‡,4</span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <i class="fa-solid fa-check"></i><span>Password Manager</span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <i class="fa-solid fa-check"></i><span>VPN private internet connection</span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <i class="fa-solid fa-check"></i><span>Parental Control‡</span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <i class="fa-solid fa-check"></i><span>Dark Web Monitoring§</span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <i class="fa-solid fa-check"></i><span>Identity Restoration Support</span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <i class="fa-solid fa-check"></i><span>Credit Report and Score18</span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <i class="fa-solid fa-check"></i><span>Credit Alerts18</span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <i class="fa-solid fa-check"></i><span>Stolen Wallet Assist</span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <i class="fa-solid fa-check"></i><span>Social Media Monitoring17</span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <i class="fa-solid fa-check"></i><span>NEW! Financial Monitoring</span>
+                                                        </li>
+                                                    </ul>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane !p-0 border-b-0 dark:border-defaultborder/10 hidden" id="pricing-yearly-pane" role="tabpanel" >
+                                        <div class="grid grid-cols-12">
+                                            <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12  col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 pe-0">
+                                                <div class="p-6">
+                                                    <h6 class="font-semibold text-center text-[1rem]">BASIC</h6>
+                                                    <div class="py-4 flex items-center justify-center">
+                                                        <div class="pricing-svg1">
+                                                            
+                                                        </div>
+                                                        <div class="text-end ms-5">
+                                                            <p class="text-[1.5625rem] font-semibold mb-0">$1,499</p>
+                                                            <p class="text-[#8c9097] dark:text-white/50 opacity-50 text-[.6875rem] font-semibold mb-0">per Year</p>
+                                                        </div>
+                                                    </div>
+                                                    <ul class="list-none text-center text-[0.75rem] px-4 pt-4 mb-0">
+                                                        <li class="mb-4">
+                                                            <span class="text-[#8c9097] dark:text-white/50">Storage Capacity<span class="badge bg-light text-defaulttextcolor ms-1">1Tb</span></span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <span class="text-[#8c9097] dark:text-white/50">Daily Updates<span class="badge bg-light text-defaulttextcolor ms-1">Unlimited</span></span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <span class="text-[#8c9097] dark:text-white/50">Online Support</span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <span class="text-[#8c9097] dark:text-white/50">Visitors Monitoring<span class="badge bg-light text-defaulttextcolor ms-1">24/7</span></span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <span class="text-[#8c9097] dark:text-white/50">2 Free Domains</span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <span class="text-[#8c9097] dark:text-white/50">Money Back Guarentee</span>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="grid">
+                                                        <button type="button" class="ti-btn ti-btn-primary">Get Started</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12 col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 px-0">
+                                                <div class="p-6">
+                                                    <h6 class="font-semibold text-center text-[1rem]">ADVANCED</h6>
+                                                    <div class="py-4 flex items-center justify-center">
+                                                        <div class="pricing-svg1">
+                                                            
+                                                        </div>
+                                                        <div class="text-end ms-5">
+                                                            <p class="text-[1.5625rem] font-semibold mb-0">$5,999</p>
+                                                            <p class="text-[#8c9097] dark:text-white/50 opacity-50 text-[.6875rem] font-semibold mb-0">per Year</p>
+                                                        </div>
+                                                    </div>
+                                                    <ul class="list-none text-center text-[0.75rem] px-4 pt-4 mb-0">
+                                                        <li class="mb-4">
+                                                            <span class="text-[#8c9097] dark:text-white/50">Storage Capacity<span class="badge bg-light text-defaulttextcolor ms-1">5Tb</span></span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <span class="text-[#8c9097] dark:text-white/50">Daily Updates<span class="badge bg-light text-defaulttextcolor ms-1">Unlimited</span></span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <span class="text-[#8c9097] dark:text-white/50">Online Support</span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <span class="text-[#8c9097] dark:text-white/50">Visitors Monitoring<span class="badge bg-light text-defaulttextcolor ms-1">24/7</span></span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <span class="text-[#8c9097] dark:text-white/50">10 Free Domains</span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <span class="text-[#8c9097] dark:text-white/50">Money Back Guarentee</span>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="grid">
+                                                        <button type="button" class="ti-btn ti-btn-primary">Get Started</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12 col-span-12 ps-0">
+                                                <div class="p-6 pricing-offer overflow-hidden">
+                                                    <span class="pricing-offer-details shadow">
+                                                        <span class="font-semibold">10%</span> <span class="text-[0.625rem] op-8 ms-1">Off</span>
+                                                    </span>
+                                                    <h6 class="font-semibold text-center text-[1rem]">PREMIUM</h6>
+                                                    <div class="py-4 flex items-center justify-center">
+                                                        <div class="pricing-svg1">
+                                                            
+                                                        </div>
+                                                        <div class="text-end ms-5">
+                                                            <p class="text-[1.5625rem] font-semibold mb-0 text-primary">$11,499</p>
+                                                            <p class="text-[#8c9097] dark:text-white/50 opacity-50 text-[.6875rem] font-semibold mb-0">per Year</p>
+                                                        </div>
+                                                    </div>
+                                                    <ul class="list-none text-center text-[0.75rem] px-4 pt-4 mb-0">
+                                                        <li class="mb-4">
+                                                            <span class="text-[#8c9097] dark:text-white/50">Storage Capacity<span class="badge bg-light text-defaulttextcolor ms-1">10Tb</span></span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <span class="text-[#8c9097] dark:text-white/50">Daily Updates<span class="badge bg-light text-defaulttextcolor ms-1">Unlimited</span></span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <span class="text-[#8c9097] dark:text-white/50">Online Support</span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <span class="text-[#8c9097] dark:text-white/50">Visitors Monitoring<span class="badge bg-light text-defaulttextcolor ms-1">24/7</span></span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <span class="text-[#8c9097] dark:text-white/50">30 Free Domains</span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <span class="text-[#8c9097] dark:text-white/50">Money Back Guarentee</span>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="grid">
+                                                        <button type="button" class="ti-btn bg-primary text-white">Get Started</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="xxl:col-span-2 col-span-12"></div>
+            </div>
         {{-- third pricing plan section end --}}
 
         {{-- forth section start --}}
