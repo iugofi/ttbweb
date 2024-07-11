@@ -56,7 +56,11 @@
                             <div class="sm:flex items-start p-6      main-profile-cover">
                                 <div>
                                     <span class="avatar avatar-xxl avatar-rounded online me-4">
-                                        <img src="assets/images/faces/9.jpg" alt="">
+                                        @if (isset($user_data->profile))
+                                        <img src="{{asset('assets/userprofile/'.$user_data->profile)}}" alt="">
+                                        @endif
+                                        <img src="assets/userprofile/default-profile.png" alt="">
+
                                     </span>
                                 </div>
                                 <div class="flex-grow main-profile-info">
