@@ -27,7 +27,7 @@ use App\Http\Controllers\ExcelController;
 //     return view('welcome');
 // });
 
-// Artisan::call('up');
+Artisan::call('up');
 
 //forget pass
 Route::post('/forget-pass', [UserController::class, 'forgetpass'])->name('user.forgetpass');
