@@ -269,7 +269,7 @@
                                                                         </button>
                                                                     </div>
                                                                     <div class="ti-modal-body">
-                                                                        <form method="post" id="myprofilechangeother">
+                                                                        <form method="post" id="myprofilechangeother" enctype="multipart/form-data">
                                                                             @csrf
                                                                             <div class="mb-3">
                                                                                 <label for="exampleInputPassword1"
