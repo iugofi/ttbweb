@@ -399,19 +399,19 @@
                                                     </div>
                                                     <ul class="list-none text-[0.75rem] px-4 pt-4 mb-0">
                                                         <li class="mb-4">
-                                                            <span>1 PC, Mac, tablet, or phone</span>
+                                                            <i class="fa-solid fa-check"></i><span>1 PC, Mac, tablet, or phone</span>
                                                         </li>
                                                         <li class="mb-4">
-                                                            <span>Antivirus, malware, ransomware, and hacking protection</span>
+                                                            <i class="fa-solid fa-check"></i><span>Antivirus, malware, ransomware, and hacking protection</span>
                                                         </li>
                                                         <li class="mb-4">
-                                                            <span>100% Virus Protection Promise2</span>
+                                                            <i class="fa-solid fa-check"></i><span>100% Virus Protection Promise2</span>
                                                         </li>
                                                         <li class="mb-4">
-                                                            <span>2GB Cloud Backup‡‡,4</span>
+                                                            <i class="fa-solid fa-check"></i><span>2GB Cloud Backup‡‡,4</span>
                                                         </li>
                                                         <li class="mb-4">
-                                                            <span>Password Manager</span>
+                                                            <i class="fa-solid fa-check"></i><span>Password Manager</span>
                                                         </li>
                                                     </ul>
 
@@ -434,22 +434,22 @@
                                                     </div>
                                                     <ul class="list-none  text-[0.75rem] px-4 pt-4 mb-0">
                                                         <li class="mb-4">
-                                                            <span>1 PC, Mac, tablet, or phone</span>
+                                                            <i class="fa-solid fa-check"></i> <span>1 PC, Mac, tablet, or phone</span>
                                                         </li>
                                                         <li class="mb-4">
-                                                            <span>Antivirus, malware, ransomware, and hacking protection</span>
+                                                            <i class="fa-solid fa-check"></i><i class="fa-solid fa-check"></i><span>Antivirus, malware, ransomware, and hacking protection</span>
                                                         </li>
                                                         <li class="mb-4">
-                                                            <span>100% Virus Protection Promise2</span>
+                                                            <i class="fa-solid fa-check"></i><span>100% Virus Protection Promise2</span>
                                                         </li>
                                                         <li class="mb-4">
-                                                            <span>10GB Cloud Backup‡‡,4</span>
+                                                            <i class="fa-solid fa-check"></i><span>10GB Cloud Backup‡‡,4</span>
                                                         </li>
                                                         <li class="mb-4">
-                                                            <span>Password Manager</span>
+                                                            <i class="fa-solid fa-check"></i><span>Password Manager</span>
                                                         </li>
                                                         <li class="mb-4">
-                                                            <span>VPN private internet connection</span>
+                                                            <i class="fa-solid fa-check"></i> <span>VPN private internet connection</span>
                                                         </li>
                                                     </ul>
 
@@ -476,28 +476,28 @@
                                                     </div>
                                                     <ul class="list-none text-[0.75rem] px-4 pt-4 mb-0">
                                                         <li class="mb-4">
-                                                            <span>5 PCs, Macs, tablets, or phones</span>
+                                                            <i class="fa-solid fa-check"></i><span>5 PCs, Macs, tablets, or phones</span>
                                                         </li>
                                                         <li class="mb-4">
-                                                            <span>Antivirus, malware, ransomware, and hacking protection</span>
+                                                            <i class="fa-solid fa-check"></i><span>Antivirus, malware, ransomware, and hacking protection</span>
                                                         </li>
                                                         <li class="mb-4">
-                                                            <span>100% Virus Protection Promise2</span>
+                                                            <i class="fa-solid fa-check"></i><span>100% Virus Protection Promise2</span>
                                                         </li>
                                                         <li class="mb-4">
-                                                            <span>50GB Cloud Backup‡‡,4</span>
+                                                            <i class="fa-solid fa-check"></i><span>50GB Cloud Backup‡‡,4</span>
                                                         </li>
                                                         <li class="mb-4">
-                                                            <span>Password Manager</span>
+                                                            <i class="fa-solid fa-check"></i><span>Password Manager</span>
                                                         </li>
                                                         <li class="mb-4">
-                                                            <span>VPN private internet connection</span>
+                                                            <i class="fa-solid fa-check"></i><span>VPN private internet connection</span>
                                                         </li>
                                                         <li class="mb-4">
-                                                            <span>Parental Control‡</span>
+                                                            <i class="fa-solid fa-check"></i><span>Parental Control‡</span>
                                                         </li>
                                                         <li class="mb-4">
-                                                            <span>Dark Web Monitoring§</span>
+                                                            <i class="fa-solid fa-check"></i><span>Dark Web Monitoring§</span>
                                                         </li>
                                                     </ul>
 
@@ -523,46 +523,46 @@
                                                     </div>
                                                     <ul class="list-none  text-[0.75rem] px-4 pt-4 mb-0">
                                                         <li class="mb-4">
-                                                            <span>10 PCs, Macs, tablets, or phones</span>
+                                                            <i class="fa-solid fa-check"></i><span>10 PCs, Macs, tablets, or phones</span>
                                                         </li>
                                                         <li class="mb-4">
-                                                            <span>Antivirus, malware, ransomware, and hacking protection</span>
+                                                            <i class="fa-solid fa-check"></i><span>Antivirus, malware, ransomware, and hacking protection</span>
                                                         </li>
                                                         <li class="mb-4">
                                                             <span>100% Virus Protection Promise2</span>
                                                         </li>
                                                         <li class="mb-4">
-                                                            <span>200GB Cloud Backup‡‡,4</span>
+                                                            <i class="fa-solid fa-check"></i><span>200GB Cloud Backup‡‡,4</span>
                                                         </li>
                                                         <li class="mb-4">
-                                                            <span>Password Manager</span>
+                                                            <i class="fa-solid fa-check"></i><span>Password Manager</span>
                                                         </li>
                                                         <li class="mb-4">
-                                                            <span>VPN private internet connection</span>
+                                                            <i class="fa-solid fa-check"></i><span>VPN private internet connection</span>
                                                         </li>
                                                         <li class="mb-4">
-                                                            <span>Parental Control‡</span>
+                                                            <i class="fa-solid fa-check"></i><span>Parental Control‡</span>
                                                         </li>
                                                         <li class="mb-4">
-                                                            <span>Dark Web Monitoring§</span>
+                                                            <i class="fa-solid fa-check"></i><span>Dark Web Monitoring§</span>
                                                         </li>
                                                         <li class="mb-4">
-                                                            <span>Identity Restoration Support</span>
+                                                            <i class="fa-solid fa-check"></i><span>Identity Restoration Support</span>
                                                         </li>
                                                         <li class="mb-4">
-                                                            <span>Credit Report and Score18</span>
+                                                            <i class="fa-solid fa-check"></i><span>Credit Report and Score18</span>
                                                         </li>
                                                         <li class="mb-4">
-                                                            <span>Credit Alerts18</span>
+                                                            <i class="fa-solid fa-check"></i><span>Credit Alerts18</span>
                                                         </li>
                                                         <li class="mb-4">
-                                                            <span>Stolen Wallet Assist</span>
+                                                            <i class="fa-solid fa-check"></i><span>Stolen Wallet Assist</span>
                                                         </li>
                                                         <li class="mb-4">
-                                                            <span>Social Media Monitoring17</span>
+                                                            <i class="fa-solid fa-check"></i><span>Social Media Monitoring17</span>
                                                         </li>
                                                         <li class="mb-4">
-                                                            <span>NEW! Financial Monitoring</span>
+                                                            <i class="fa-solid fa-check"></i><span>NEW! Financial Monitoring</span>
                                                         </li>
                                                     </ul>
 
