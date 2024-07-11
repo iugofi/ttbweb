@@ -878,7 +878,7 @@
                                         Software Installation
                                     </button>
                                 </nav>
-            
+
                                 <div class="mt-3">
                                     <div id="pills-on-gray-color-1" role="tabpanel" aria-labelledby="pills-on-gray-color-item-1">
                                         <h3>Business Network Setup:</h3>
@@ -895,17 +895,15 @@
                                             </div>
                                             <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 col-span-12 text-center box-down">
                                                 <img src="https://nighthawk-routerlogin.com/assets/img/mac.png" alt="" class="img-fluid pt-5 pb-5" width="25%;" style="margin: auto;">
-                                                <div class="btn-down">
-                                                    <a href="#">Download For Mac</a>
-                     
+                                                <div class="action-btns mt-5">
+                                                    <a href="#" class="ti-btn bg-primary text-white mt-5">Explore More</a>
                                                 </div>
                                                 <span> X10.15 or above</span>
                                             </div>
                                             <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 col-span-12 text-center box-down">
                                                 <img src="https://nighthawk-routerlogin.com/assets/img/ios.png" alt="" class="img-fluid pt-5 pb-5" width="25%" style="margin: auto;">
-                                                <div class="btn-down">
-                                                    <a href="#">Download For iOS</a>
-                    
+                                                <div class="action-btns mt-5">
+                                                    <a href="#" class="ti-btn bg-primary text-white mt-5">Explore More</a>
                                                 </div>
                                                 <span> X10.15 or above</span>
                                             </div>
@@ -923,7 +921,7 @@
                                         </div>
                                     </div>
                                 </div>
-            
+
                             </div>
                         </div>
                     </div>
