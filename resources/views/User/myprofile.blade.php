@@ -891,27 +891,10 @@
                                     </div>
                                     <div id="pills-on-gray-color-2" class="hidden" role="tabpanel" aria-labelledby="pills-on-gray-color-item-2">
                                         <h3>Smart Device Setup:</h3>
-                                        <div class="grid grid-cols-12 gap-6 pt-top">
-                                            <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 col-span-12 text-center">
-                                            </div>
-                                            <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 col-span-12 text-center box-down">
-                                                <img src="https://nighthawk-routerlogin.com/assets/img/mac.png" alt="" class="img-fluid" width="25%">
-                                                <div class="btn-down">
-                                                    <a href="#">Download For Mac</a>
-                    
-                                                </div>
-                                                <span> X10.15 or above</span>
-                                            </div>
-                                            <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 col-span-12 text-center box-down">
-                                                <img src="https://nighthawk-routerlogin.com/assets/img/ios.png" alt="" class="img-fluid" width="25%">
-                                                <div class="btn-down">
-                                                    <a href="#">Download For iOS</a>
-                    
-                                                </div>
-                                                <span> X10.15 or above</span>
-                                            </div>
-                                            <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 col-span-12 text-center">
-                                            </div>
+                                        <p class="mt-2"> From your home networks to workplace security devices, we will help
+                                            you optimize them for optimal functioning only.</p>
+                                        <div class="tab-btn-buy">
+                                            <a href="#">Buy Now</a>
                                         </div>
                                     </div>
                                     <div id="pills-on-gray-color-3" class="hidden" role="tabpanel" aria-labelledby="pills-on-gray-color-item-3">
