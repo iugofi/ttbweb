@@ -332,8 +332,10 @@
                                                                             <div class="mb-3">
                                                                                 <label for="exampleInputPassword1"
                                                                                     class="form-label">Profile</label>
-                                                                                <input type="file" class="blog_images" id="blog_images" name="blog_images" multiple="" data-allow-reorder="true" data-max-file-size="3MB" data-max-files="6">
-                                                                                    <div class="invalid-feedback"></div>
+                                                                                    <input type="file" class="form-control" id="profile_images" name="profile_images"
+                                                                                    multiple data-allow-reorder="true" data-max-file-size="3MB"
+                                                                                    data-max-files="6">
+                                                                                <div class="invalid-feedback"></div>
                                                                                 </div>
 
                                                                     </div>
