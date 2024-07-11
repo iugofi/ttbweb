@@ -859,167 +859,46 @@
 
             {{-- profile tab section start --}}
 
-            <section class="e-support-section-six">
-                <div class="container">
-                    <div class="grid grid-cols-12 gap-6 pt-5">
-                        <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 col-span-12">
-                            <h2>Easily Setup the Smart Devices</h2>
-                            <p class="pt-3">TTB eSupport Concierge will guide you through setting up your <br>hardware and
-                                software smoothly.</p>
-                            <div class="box">
-                                <nav class="flex space-x-2 rtl:space-x-reverse mx-auto" aria-label="Tabs">
-                                    <button type="button" class="hs-tab-active:bg-gray-200 hs-tab-active:text-gray-800 hs-tab-active:hover:text-gray-800 dark:hs-tab-active:bg-light dark:hs-tab-active:text-white py-3 px-4 inline-flex items-center gap-2 bg-transparent text-sm font-medium text-center text-defaulttextcolor rounded-sm hover:text-primary dark:text-[#8c9097] dark:text-white/50 dark:hover:text-white active" id="pills-on-gray-color-item-1" data-hs-tab="#pills-on-gray-color-1" aria-controls="pills-on-gray-color-1">
-                                        Business Network Setup
-                                    </button>
-                                    <button type="button" class="hs-tab-active:bg-gray-200 hs-tab-active:text-gray-800 hs-tab-active:hover:text-gray-800 dark:hs-tab-active:bg-light dark:hs-tab-active:text-white py-3 px-4 inline-flex items-center gap-2 bg-transparent text-sm font-medium text-center text-defaulttextcolor rounded-sm hover:text-primary dark:text-[#8c9097] dark:text-white/50 dark:hover:text-white" id="pills-on-gray-color-item-2" data-hs-tab="#pills-on-gray-color-2" aria-controls="pills-on-gray-color-2">
-                                        Smart Device Setup
-                                    </button>
-                                    <button type="button" class="hs-tab-active:bg-gray-200 hs-tab-active:text-gray-800 hs-tab-active:hover:text-gray-800 dark:hs-tab-active:bg-light dark:hs-tab-active:text-white py-3 px-4 inline-flex items-center gap-2 bg-transparent text-sm font-medium text-center text-defaulttextcolor rounded-sm hover:text-primary dark:text-[#8c9097] dark:text-white/50 dark:hover:text-white" id="pills-on-gray-color-item-3" data-hs-tab="#pills-on-gray-color-3" aria-controls="pills-on-gray-color-3">
-                                        Software Installation
-                                    </button>
-                                </nav>
 
-                                <section class="section-two-iconbox pt-8 bg-white text-color">
-                                    <div class="container main-banner-container">
-                                        <h3 class="text-left mb-2">TTBTM Antivirus</h3>
-                                        <h3 class="text-left mb-5">0 of 0 License(s) USED:<a href="#"> Download </a></h3>
-
-                                        <div class="grid grid-cols-12 gap-6">
-                                            <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12 con-box">
-                                                <i class="fa-solid fa-eye"></i>
-                                                <h5>Anonymous Access</h5>
-                                                <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor.</p>
-                                            </div>
-                                            <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12 con-box">
-                                                <i class="fa-solid fa-user"></i>
-                                                <h5>No Usage Logs</h5>
-                                                <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor.</p>
-                                            </div>
-                                            <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12 con-box">
-                                                <i class="fa-solid fa-server"></i>
-                                                <h5>No Usage Limits</h5>
-                                                <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor.</p>
-                                            </div>
-                                            <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12 con-box">
-                                                <i class="fa-solid fa-lock"></i>
-                                                <h5>100% White Listed</h5>
-                                                <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                            </section>
-
-                                {{-- <div class="mt-3">
-                                    <div id="pills-on-gray-color-1" role="tabpanel" aria-labelledby="pills-on-gray-color-item-1" class="">
-                                        <h3>Business Network Setup:</h3>
-                                        <p class="mt-2"> As a newbie, setting up your home automation devices on your own can
-                                            be difficult.
-                                            But with our TTB eSupport Concierge it will be easier than ever.</p>
-                                        <div class="flex mt-5">
-                                            <div class="tab-icon">
-                                                <i class="bi bi-hdd-stack"></i>
-                                                <p>Watch Over Your Family from Anywhere</p>
-                                            </div>
-                                            <div class="tab-icon">
-                                                <i class="bi bi-hdd-stack"></i>
-                                                <p>Eliminate Common &amp; Complex Issues</p>
-                                            </div>
-                                            <div class="tab-icon">
-                                                <i class="bi bi-hdd-stack"></i>
-                                                <p>Top-Notch Experience Without Lagging</p>
-                                            </div>
-                                        </div>
-                                        <div class="flex pt-2 pb-2">
-                                            <div class="price-tab">
-                                                <h4>$69</h4>
-                                            </div>
-                                            <div class="price-cnt">
-                                                <h5>1 Time</h5>
-                                                <p>Home Network Setup</p>
-                                            </div>
-                                        </div>
-                                        <div class="tab-btn-buy">
-                                            <a href="#">Buy Now</a>
-                                        </div>
-                                    </div>
-                                    <div id="pills-on-gray-color-2" class="hidden" role="tabpanel" aria-labelledby="pills-on-gray-color-item-2">
-                                        <h3>Smart Device Setup:</h3>
-                                        <p class="mt-2"> From your home networks to workplace security devices, we will help
-                                            you optimize them for optimal functioning only.</p>
-                                        <div class="flex mt-5">
-                                            <div class="tab-icon">
-                                                <i class="bi bi-hdd-stack"></i>
-                                                <p>Watch Over Your Family from Anywhere</p>
-                                            </div>
-                                            <div class="tab-icon">
-                                                <i class="bi bi-hdd-stack"></i>
-                                                <p>Eliminate Common &amp; Complex Issues</p>
-                                            </div>
-                                            <div class="tab-icon">
-                                                <i class="bi bi-hdd-stack"></i>
-                                                <p>Top-Notch Experience Without Lagging</p>
-                                            </div>
-                                        </div>
-                                        <div class="flex pt-2 pb-2">
-                                            <div class="price-tab">
-                                                <h4>$69</h4>
-                                            </div>
-                                            <div class="price-cnt">
-                                                <h5>1 Time</h5>
-                                                <p>Home Network Setup</p>
-                                            </div>
-                                        </div>
-                                        <div class="tab-btn-buy">
-                                            <a href="#">Buy Now</a>
-                                        </div>
-                                    </div>
-                                    <div id="pills-on-gray-color-3" class="hidden" role="tabpanel" aria-labelledby="pills-on-gray-color-item-3">
-                                        <h3>Software Installation:</h3>
-                                        <p class="mt-2"> Software installation can be difficult to eliminate without
-                                            professional advice. So, contact us to ensure your software is set up and
-                                            functioning properly.</p>
-                                        <div class="flex mt-5">
-                                            <div class="tab-icon">
-                                                <i class="bi bi-hdd-stack"></i>
-                                                <p>Watch Over Your Family from Anywhere</p>
-                                            </div>
-                                            <div class="tab-icon">
-                                                <i class="bi bi-hdd-stack"></i>
-                                                <p>Eliminate Common &amp; Complex Issues</p>
-                                            </div>
-                                            <div class="tab-icon">
-                                                <i class="bi bi-hdd-stack"></i>
-                                                <p>Top-Notch Experience Without Lagging</p>
-                                            </div>
-                                        </div>
-                                        <div class="flex pt-2 pb-2">
-                                            <div class="price-tab">
-                                                <h4>$69</h4>
-                                            </div>
-                                            <div class="price-cnt">
-                                                <h5>1 Time</h5>
-                                                <p>Home Network Setup</p>
-                                            </div>
-                                        </div>
-                                        <div class="tab-btn-buy">
-                                            <a href="#">Buy Now</a>
-                                        </div>
-                                    </div>
-                                </div> --}}
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
 
             {{-- End profile tab section --}}
 
 
-            {{-- <section class="section-two-iconbox pt-8 bg-white text-color">
+            <section class="section-two-iconbox pt-8 bg-white text-color">
                 <div class="container main-banner-container">
-                    <h3 class="text-left mb-2">TTBTM Antivirus</h3>
-                    <h3 class="text-left mb-5">0 of 0 License(s) USED:<a href="#"> Download </a></h3>
+                    <div class="box-body">
+                        <div class="border-b border-gray-200 dark:border-white/10">
+                          <nav class="-mb-0.5 flex justify-center space-x-6 rtl:space-x-reverse" aria-label="Tabs">
+                            <button type="button" class="hs-tab-active:font-semibold hs-tab-active:border-primary hs-tab-active:text-primary py-4 px-1 inline-flex items-center gap-2 border-b-[3px] border-transparent text-sm whitespace-nowrap text-defaulttextcolor hover:text-primary dark:text-[#8c9097] dark:text-white/50 active" id="horizontal-alignment-item-1" data-hs-tab="#horizontal-alignment-1" aria-controls="horizontal-alignment-1">
+                              Tab 1
+                            </button>
+                            <button type="button" class="hs-tab-active:font-semibold hs-tab-active:border-primary hs-tab-active:text-primary py-4 px-1 inline-flex items-center gap-2 border-b-[3px] border-transparent text-sm whitespace-nowrap text-defaulttextcolor hover:text-primary dark:text-[#8c9097] dark:text-white/50" id="horizontal-alignment-item-2" data-hs-tab="#horizontal-alignment-2" aria-controls="horizontal-alignment-2">
+                              Tab 2
+                            </button>
+                            <button type="button" class="hs-tab-active:font-semibold hs-tab-active:border-primary hs-tab-active:text-primary py-4 px-1 inline-flex items-center gap-2 border-b-[3px] border-transparent text-sm whitespace-nowrap text-defaulttextcolor hover:text-primary dark:text-[#8c9097] dark:text-white/50" id="horizontal-alignment-item-3" data-hs-tab="#horizontal-alignment-3" aria-controls="horizontal-alignment-3">
+                              Tab 3
+                            </button>
+                          </nav>
+                        </div>
+
+                        <div class="mt-3">
+                          <div id="horizontal-alignment-1" role="tabpanel" aria-labelledby="horizontal-alignment-item-1">
+                            <p class="text-gray-500 dark:text-[#8c9097] dark:text-white/50 p-5 border rounded-sm dark:border-white/10 border-gray-200">
+                              How hotel deals can help you live a better life. How celebrity cruises aren't as bad as you think. How cultural solutions can help you predict the future. How to cheat at dog friendly hotels and get away with it. 17 problems with summer activities. How to cheat at travel agents and get away with it. How not knowing family trip ideas makes you a rookie. What everyone is saying about daily deals. How twitter can teach you about carnival cruises. How to start using cultural solutions.
+                            </p>
+                          </div>
+                          <div id="horizontal-alignment-2" class="hidden" role="tabpanel" aria-labelledby="horizontal-alignment-item-2">
+                            <p class="text-gray-500 dark:text-[#8c9097] dark:text-white/50 p-5 border rounded-sm dark:border-white/10 border-gray-200">
+                              How travel coupons make you a better lover. Why cultural solutions are the new black. Why mom was right about travel insurances. How family trip ideas can help you predict the future. How carnival cruises make you a better lover. Why you'll never succeed at daily deals. 11 ways cheapest flights can find you the love of your life. The complete beginner's guide to mission trips. If you read one article about cultural notes read this one. Why you shouldn't eat vacation package in bed.
+                            </p>
+                          </div>
+                          <div id="horizontal-alignment-3" class="hidden" role="tabpanel" aria-labelledby="horizontal-alignment-item-3">
+                            <p class="text-gray-500 dark:text-[#8c9097] dark:text-white/50 p-5 border rounded-sm dark:border-white/10 border-gray-200">
+                              Unbelievable healthy snack success stories. 12 facts about safe food handling tips that will impress your friends. Restaurant weeks by the numbers. Will mexican food ever rule the world? The 10 best thai restaurant youtube videos. How restaurant weeks can make you sick. The complete beginner's guide to cooking healthy food. Unbelievable food stamp success stories. How whole foods markets are making the world a better place. 16 things that won't happen in dish reviews.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
 
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12 con-box">
@@ -1044,7 +923,7 @@
                         </div>
                     </div>
                 </div>
-        </section> --}}
+        </section>
 
 
         </div>
