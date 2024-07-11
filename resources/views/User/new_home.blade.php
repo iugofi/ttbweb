@@ -464,7 +464,8 @@
                                                         </div>
                                                         <div class="text-end ms-5">
                                                             <p class="text-[1.5625rem] font-semibold mb-0 text-primary">$1,299 per month</p>
-                                                            {{-- <p class="text-[#8c9097] dark:text-white/50 opacity-50 text-[.6875rem] font-semibold mb-0"></p> --}}
+                                                            <p class="text-[#8c9097] dark:text-white/50 opacity-50 text-[.6875rem] font-semibold mb-0">See Subscription details below *</p>
+
                                                         </div>
                                                     </div>
                                                     <div class="grid">
@@ -472,7 +473,7 @@
                                                     </div>
                                                     <ul class="list-none text-center text-[0.75rem] px-4 pt-4 mb-0">
                                                         <li class="mb-4">
-                                                            <span class="text-[#8c9097] dark:text-white/50">Storage Capacity<span class="badge bg-light text-defaulttextcolor ms-1">10Tb</span></span>
+                                                            <span class="text-[#8c9097] dark:text-white/50">Storage Capacity<span class="badge bg-light text-defaulttextcolor ms-1">1Tb</span></span>
                                                         </li>
                                                         <li class="mb-4">
                                                             <span class="text-[#8c9097] dark:text-white/50">Daily Updates<span class="badge bg-light text-defaulttextcolor ms-1">Unlimited</span></span>
@@ -484,7 +485,7 @@
                                                             <span class="text-[#8c9097] dark:text-white/50">Visitors Monitoring<span class="badge bg-light text-defaulttextcolor ms-1">24/7</span></span>
                                                         </li>
                                                         <li class="mb-4">
-                                                            <span class="text-[#8c9097] dark:text-white/50">30 Free Domains</span>
+                                                            <span class="text-[#8c9097] dark:text-white/50">2 Free Domains</span>
                                                         </li>
                                                         <li class="mb-4">
                                                             <span class="text-[#8c9097] dark:text-white/50">Money Back Guarentee</span>
