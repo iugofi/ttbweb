@@ -456,7 +456,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 sm:col-span-12 col-span-12 ps-0">
+                                            <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 sm:col-span-12 col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 px-0">
                                                 <div class="p-6 pricing-offer overflow-hidden">
                                                     <span class="pricing-offer-details shadow">
                                                         <span class="font-semibold">10%</span> <span class="text-[0.625rem] op-8 ms-1">Off</span>
