@@ -737,13 +737,13 @@
 
 
                                                                                     <td class="border px-4 py-2">
-                                                                                        <div class="flex flex-row items-center !gap-2 text-[0.9375rem]">
+                                                                                        <div class="flex flex-row items-center text-[0.9375rem]">
                                                                                             <a aria-label="anchor"
                                                                                                 href="{{ route('user.invoice', \Crypt::encrypt($item->pay_id)) }}"
                                                                                                 class="ti-btn ti-btn-icon ti-btn-wave !gap-0 !m-0 !h-[1.75rem] !w-[1.75rem] text-[0.8rem] bg-primary/10 text-primary hover:bg-primary hover:text-white hover:border-primary" target="_blank">
                                                                                                 <i class="ri-printer-line"></i>
                                                                                             </a>
-                                                                                           
+
 
                                                                                         </div>
                                                                                     </td>
