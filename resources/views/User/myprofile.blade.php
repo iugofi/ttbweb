@@ -893,11 +893,17 @@
 
 
             {{-- End profile tab section --}}
+
             <style>
                 .profile-tab button:active {
                     color: #000 !important;
                 }
+
+                .profile-tab button {
+                    color: #000 !important;
+                }
             </style>
+
             <section class="section-two-iconbox pt-8 bg-white text-color">
                 <div class="container main-banner-container">
 
