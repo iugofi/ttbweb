@@ -6,25 +6,30 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
-use App\Models\Admin; 
-use App\Models\News; 
-use App\Models\Blog; 
+use App\Models\Admin;
+use App\Models\News;
+use App\Models\Blog;
 use App\Models\Storepick;
-use App\Models\TTBKEY; 
-use App\Models\Comment; 
-use App\Models\Newscomment; 
-use App\Models\Users; 
-use App\Models\Planname; 
-use App\Models\Eventmodel; 
-use App\Models\Payments; 
-use App\Models\Plandetails; 
-use App\Models\Visitors; 
+use App\Models\TTBKEY;
+use App\Models\Comment;
+use App\Models\Newscomment;
+use App\Models\Users;
+use App\Models\Planname;
+use App\Models\Eventmodel;
+use App\Models\Payments;
+use App\Models\Plandetails;
+use App\Models\Visitors;
+use Illuminate\Support\Facades\Crypt;
+
 
 use Illuminate\Support\Facades\File;
 
 
 class AdminController extends Controller
 {
+    protected $loggedInAdmin;
+    protected $adminData;
+    protected $admintype;
     public function __construct()
     {
         $this->middleware(function ($request, $next) {
@@ -62,7 +67,7 @@ class AdminController extends Controller
         public function blogcommentlist(){
             if ($this->loggedInAdmin) {
                 $blog = Comment::orderBy('id', 'desc')->get();
-    
+
                 return view('Admin.blogcommentlist',['blog'=>$blog]);
                 } else {
                     return redirect('/setup');
@@ -72,7 +77,7 @@ class AdminController extends Controller
         public function newscommentlist(){
             if ($this->loggedInAdmin) {
                 $news = Newscomment::orderBy('id', 'desc')->get();
-    
+
                 return view('Admin.newscommentlist',['news'=>$news]);
                 } else {
                     return redirect('/setup');
@@ -89,7 +94,7 @@ public function newscreate(){
 
 public function newslistshow(){
     if ($this->loggedInAdmin) {
-   
+
         $news = News::all(); // Fetch all news data
         return response()->json($news);
 
@@ -112,9 +117,9 @@ public function newslistshow(){
             'news_status' => 'required',
             'news_images' => 'required'
         ]);
-        
 
-        
+
+
 
         if ($validator->fails()) {
             return response()->json([
@@ -127,9 +132,9 @@ public function newslistshow(){
 
             if ($request->hasFile('news_images')) {
                 $image = $request->file('news_images');
-                $imageName = time().'.'.$image->getClientOriginalExtension(); 
+                $imageName = time().'.'.$image->getClientOriginalExtension();
                 $image->move('assets/images/dailynews', $imageName);
-               
+
 
                 $news = new News();
                 $news->title = $request->news_title;
@@ -143,7 +148,7 @@ public function newslistshow(){
                 $news->status =$request->news_status;
                 $news->image=$imageName;
                 $news->save();
-                
+
                 } else {
                     return response()->json([
                         'status' => 400,
@@ -157,7 +162,7 @@ public function newslistshow(){
                 ]);
 
                 }
-                
+
 
             } else {
                 return redirect('/setup');
@@ -172,21 +177,21 @@ public function newslistshow(){
 
             public function newsedit($id){
                 if ($this->loggedInAdmin) {
-                    $decryptid=\Crypt::decrypt($id);
+                    $decryptid=Crypt::decrypt($id);
                     $editnews=News::find($decryptid);
 
                     return view('Admin.newsedit',['editnews'=>$editnews]);
-                
+
                 } else {
                     return redirect('/setup');
                 }
             }
             public function newscommentedit($id){
                 if ($this->loggedInAdmin) {
-                    $decryptid=\Crypt::decrypt($id);
+                    $decryptid=Crypt::decrypt($id);
                     $editnews=Newscomment::find($decryptid);
                     return view('Admin.newscommentedit',['editnews'=>$editnews]);
-                
+
                 } else {
                     return redirect('/setup');
                 }
@@ -194,10 +199,10 @@ public function newslistshow(){
 
             public function blogcommentedit($id){
                 if ($this->loggedInAdmin) {
-                    $decryptid=\Crypt::decrypt($id);
+                    $decryptid=Crypt::decrypt($id);
                     $editblog=Comment::find($decryptid);
                     return view('Admin.blogcommentedit',['editblog'=>$editblog]);
-                
+
                 } else {
                     return redirect('/setup');
                 }
@@ -208,14 +213,14 @@ public function newslistshow(){
                     if ($this->loggedInAdmin) {
                         $item = News::findOrFail($id);
                         $imagePath = 'assets/images/dailynews/' . $item->image;
-                        
+
                         if (File::exists($imagePath)) {
                             File::delete($imagePath);
                         }
                         $item->delete();
                         return response()->json(['message' => 'Item deleted successfully']);
                     } else {
-                        return redirect('/setup'); 
+                        return redirect('/setup');
                     }
                 }
 
@@ -226,7 +231,7 @@ public function newslistshow(){
                         $item->delete();
                         return response()->json(['message' => 'News Comment deleted successfully']);
                     } else {
-                        return redirect('/setup'); 
+                        return redirect('/setup');
                     }
                 }
 
@@ -237,7 +242,7 @@ public function newslistshow(){
                         $item->delete();
                         return response()->json(['message' => 'Blog Comment deleted successfully']);
                     } else {
-                        return redirect('/setup'); 
+                        return redirect('/setup');
                     }
                 }
 
@@ -255,11 +260,11 @@ public function newslistshow(){
                             'meta_desc' => 'required',
                             'news_description' => 'required',
                             'news_status' => 'required'
-                          
+
                         ]);
-                        
-  
-                
+
+
+
                         if ($validator->fails()) {
                             return response()->json([
                                 'status' => 400,
@@ -272,10 +277,10 @@ public function newslistshow(){
 
                                 if ($request->hasFile('news_images')) {
                                     $image = $request->file('news_images');
-                                    $imageName = time().'.'.$image->getClientOriginalExtension(); 
+                                    $imageName = time().'.'.$image->getClientOriginalExtension();
                                     $image->move('assets/images/dailynews', $imageName);
                                 } else {
-                                 
+
                                     $imageName = $request->image_new;
                                 }
 
@@ -287,7 +292,7 @@ public function newslistshow(){
                                         'messages' => 'News not found'
                                     ]);
                                 }
-                               
+
                                 $news->update([
                                     'title' => $request->news_title,
                                     'slug' => $request->news_slug,
@@ -299,22 +304,22 @@ public function newslistshow(){
                                     'status' => $request->news_status,
                                     'image' => $imageName
                                 ]);
-                
-                               
-                                
-                                
-                
+
+
+
+
+
                                 return response()->json([
                                     'status' => 200,
                                     'messages' => 'News Edit successfully'
                                 ]);
-                
+
                                 }
 
 
-                       
+
                     } else {
-                        return redirect('/setup'); 
+                        return redirect('/setup');
                     }
                 }
 
@@ -343,22 +348,22 @@ public function newslistshow(){
                                         'messages' => 'News Comment not found'
                                     ]);
                                 }
-                               
+
                                 $news->update([
                                     'status' => $request->news_com_status
                                 ]);
-          
+
                                 return response()->json([
                                     'status' => 200,
                                     'messages' => 'News Comment Edit successfully'
                                 ]);
-                
+
                                 }
 
 
-                       
+
                     } else {
-                        return redirect('/setup'); 
+                        return redirect('/setup');
                     }
                 }
 
@@ -387,26 +392,26 @@ public function newslistshow(){
                                         'messages' => 'Blog Comment not found'
                                     ]);
                                 }
-                               
+
                                 $blog->update([
                                     'status' => $request->blog_com_status
                                 ]);
-          
+
                                 return response()->json([
                                     'status' => 200,
                                     'messages' => 'Blog Comment Edit successfully'
                                 ]);
-                
+
                                 }
 
 
-                       
+
                     } else {
-                        return redirect('/setup'); 
+                        return redirect('/setup');
                     }
                 }
 
-                
+
                 public function bloglistshow()
                 {
                     if($this->loggedInAdmin)
@@ -424,14 +429,14 @@ public function newslistshow(){
                     if ($this->loggedInAdmin) {
                         $item = Blog::findOrFail($id);
                         $imagePath = 'assets/images/dailyblogs/' . $item->image;
-                        
+
                         if (File::exists($imagePath)) {
                             File::delete($imagePath);
                         }
                         $item->delete();
                         return response()->json(['message' => 'Blogs deleted successfully']);
                     } else {
-                        return redirect('/setup'); 
+                        return redirect('/setup');
                     }
                 }
 
@@ -451,7 +456,7 @@ public function newslistshow(){
 
             public function saveblog(Request $request){
                 if ($this->loggedInAdmin) {
-            
+
                     $validator = Validator::make($request->all(), [
                         'blog_title' => 'required',
                         'blog_slug' => 'required',
@@ -463,10 +468,10 @@ public function newslistshow(){
                         'blog_status' => 'required',
                         'blog_images' => 'required'
                     ]);
-                    
-            
-                    
-            
+
+
+
+
                     if ($validator->fails()) {
                         return response()->json([
                             'status' => 400,
@@ -475,13 +480,13 @@ public function newslistshow(){
                     }
                     else
                     {
-            
+
                         if ($request->hasFile('blog_images')) {
                             $image = $request->file('blog_images');
-                            $imageName = time().'.'.$image->getClientOriginalExtension(); 
+                            $imageName = time().'.'.$image->getClientOriginalExtension();
                             $image->move('assets/images/dailyblogs', $imageName);
-                           
-            
+
+
                             $news = new Blog();
                             $news->title = $request->blog_title;
                             $news->slug = $request->blog_slug;
@@ -494,22 +499,22 @@ public function newslistshow(){
                             $news->status =$request->blog_status;
                             $news->image=$imageName;
                             $news->save();
-                            
+
                             } else {
                                 return response()->json([
                                     'status' => 400,
                                     'messages' => 'No image uploaded'
                                 ]);
                             }
-            
+
                             return response()->json([
                                 'status' => 200,
                                 'messages' => 'Blog Post successfully'
                             ]);
-            
+
                             }
-                            
-            
+
+
                         } else {
                             return redirect('/setup');
                         }
@@ -517,11 +522,11 @@ public function newslistshow(){
 
                         public function blogedit($id){
                             if ($this->loggedInAdmin) {
-                                $decryptid=\Crypt::decrypt($id);
+                                $decryptid=Crypt::decrypt($id);
                                 $editblog=Blog::find($decryptid);
-            
+
                                 return view('Admin.blogedit',['editblog'=>$editblog]);
-                            
+
                             } else {
                                 return redirect('/setup');
                             }
@@ -531,8 +536,8 @@ public function newslistshow(){
                         public function editblog(Request $request)
                 {
 
-                    $id=$request->main_id;  
-                   
+                    $id=$request->main_id;
+
                     if ($this->loggedInAdmin) {
                         $validator = Validator::make($request->all(), [
                             'blog_title' => 'required',
@@ -543,11 +548,11 @@ public function newslistshow(){
                             'meta_desc' => 'required',
                             'blog_description' => 'required',
                             'blog_status' => 'required'
-                          
+
                         ]);
-                        
-  
-                
+
+
+
                         if ($validator->fails()) {
                             return response()->json([
                                 'status' => 400,
@@ -560,10 +565,10 @@ public function newslistshow(){
 
                                 if ($request->hasFile('blog_images')) {
                                     $image = $request->file('blog_images');
-                                    $imageName = time().'.'.$image->getClientOriginalExtension(); 
+                                    $imageName = time().'.'.$image->getClientOriginalExtension();
                                     $image->move('assets/images/dailyblogs', $imageName);
                                 } else {
-                                 
+
                                     $imageName = $request->image_new;
                                 }
 
@@ -575,7 +580,7 @@ public function newslistshow(){
                                         'messages' => 'Blog not found'
                                     ]);
                                 }
-                               
+
                                 $news->update([
                                     'title' => $request->blog_title,
                                     'slug' => $request->blog_slug,
@@ -587,22 +592,22 @@ public function newslistshow(){
                                     'status' => $request->blog_status,
                                     'image' => $imageName
                                 ]);
-                
-                               
-                                
-                                
-                
+
+
+
+
+
                                 return response()->json([
                                     'status' => 200,
                                     'messages' => 'blog Edit successfully'
                                 ]);
-                
+
                                 }
 
 
-                       
+
                     } else {
-                        return redirect('/setup'); 
+                        return redirect('/setup');
                     }
                 }
 
@@ -612,24 +617,24 @@ public function newslistshow(){
                     if ($this->loggedInAdmin) {
 
                         $storepick = Storepick::orderBy('id', 'desc')->get();
-                        $data=Storepick::orderBy('STORE_ID','ASC')->pluck('STORE_ID','STORE_ID');            
+                        $data=Storepick::orderBy('STORE_ID','ASC')->pluck('STORE_ID','STORE_ID');
 
                         return view('Admin.storepicklist',['storepick'=>$storepick],['data'=>$data]);
 
                     }else
                     {
-                        return redirect('/setup'); 
+                        return redirect('/setup');
 
                     }
 
                 }
                 public function storepickedit($id){
                     if ($this->loggedInAdmin) {
-                        $decryptid=\Crypt::decrypt($id);
+                        $decryptid=Crypt::decrypt($id);
                         $editstorepick=Storepick::find($decryptid);
-    
+
                         return view('Admin.editstorepick',['editstorepick'=>$editstorepick]);
-                    
+
                     } else {
                         return redirect('/setup');
                     }
@@ -637,7 +642,7 @@ public function newslistshow(){
                 public function editstorepicksave(Request $request)
                 {
                     $id=$request->main_id;
-                    $decryptid=\Crypt::decrypt($id);
+                    $decryptid=Crypt::decrypt($id);
                     if ($this->loggedInAdmin) {
                         $validator = Validator::make($request->all(), [
                             'STORE_ID' => 'required',
@@ -668,18 +673,18 @@ public function newslistshow(){
                                     'STORE_INDEX_SEQUENCE' => $request->STORE_INDEX_SEQUENCE,
                                     'PICK_TEXT_EXTEND' => $request->PICK_TEXT_EXTEND
                                 ]);
-                
+
                                 return response()->json([
                                     'status' => 200,
                                     'messages' => 'Storepick Edit successfully'
                                 ]);
-                
+
                                 }
 
 
-                       
+
                     } else {
-                        return redirect('/setup'); 
+                        return redirect('/setup');
                     }
                 }
 
@@ -690,7 +695,7 @@ public function newslistshow(){
                         $item->delete();
                         return response()->json(['message' => 'Storepick deleted successfully']);
                     } else {
-                        return redirect('/setup'); 
+                        return redirect('/setup');
                     }
                 }
 
@@ -698,13 +703,13 @@ public function newslistshow(){
                 {
                     if ($this->loggedInAdmin) {
 
-                       
+
 
                         return view('Admin.storepickadd');
 
                     }else
                     {
-                        return redirect('/setup'); 
+                        return redirect('/setup');
 
                     }
 
@@ -712,15 +717,15 @@ public function newslistshow(){
 
                 public function savestorepick(Request $request){
                     if ($this->loggedInAdmin) {
-                
+
                         $validator = Validator::make($request->all(), [
                             'STORE_ID' => 'required',
                             'PICK_TEXT' => 'required',
                             'PICK_ID' => 'required',
                             'STORE_INDEX_SEQUENCE' => 'required'
-                        
+
                         ]);
-                        
+
                         if ($validator->fails()) {
                             return response()->json([
                                 'status' => 400,
@@ -729,7 +734,7 @@ public function newslistshow(){
                         }
                         else
                         {
-                
+
                                 $store = new Storepick();
                                 $store->STORE_ID = $request->STORE_ID;
                                 $store->STORE_TYPE = $request->STORE_TYPE;
@@ -738,17 +743,17 @@ public function newslistshow(){
                                 $store->STORE_INDEX_SEQUENCE =$request->STORE_INDEX_SEQUENCE;
                                 $store->PICK_TEXT_EXTEND =$request->PICK_TEXT_EXTEND;
                                 $store->save();
-                                
-                                
-                
+
+
+
                                 return response()->json([
                                     'status' => 200,
                                     'messages' => 'StorePick Post successfully'
                                 ]);
-                
+
                                 }
-                                
-                
+
+
                             } else {
                                 return redirect('/setup');
                             }
@@ -762,21 +767,21 @@ public function newslistshow(){
                         {
                             $storepick = StorePick::get();
                             foreach ($storepick as $pick) {
-                                $pick->encrypted_id = \Crypt::encrypt($pick->id);
+                                $pick->encrypted_id =Crypt::encrypt($pick->id);
                             }
 
                         }
                         else{
                             $storepick = StorePick::where('STORE_ID', $storeId)->get();
                             foreach ($storepick as $pick) {
-                                $pick->encrypted_id = \Crypt::encrypt($pick->id);
+                                $pick->encrypted_id = Crypt::encrypt($pick->id);
                             }
                         }
                         return response()->json(['storepick' => $storepick]);
 
                     }else
                     {
-                        return redirect('/setup'); 
+                        return redirect('/setup');
 
                     }
 
@@ -789,12 +794,12 @@ public function newslistshow(){
                         $data=Storepick::where('STORE_ID','Admintype')->pluck('PICK_TEXT','PICK_TEXT');
                         if ($this->admintype == 'admin') {
                             $useradminlist = Admin::where('admintype', 'admin')->get();
-                           
+
 
                         } elseif ($this->admintype == 'superadmin') {
                             $useradminlist = Admin::all();
                         }
-                
+
                         return view('Admin.useradminlist', ['useradminlist' => $useradminlist],['data' => $data]);
                     } else {
                         return redirect('/setup');
@@ -815,18 +820,18 @@ public function newslistshow(){
 
                 public function saveuseradmin(Request $request){
                     if ($this->loggedInAdmin) {
-            
+
                     $validator = Validator::make($request->all(), [
                         'email' => 'required',
                         'name' => 'required',
                         'username' => 'required',
                         'password' => 'required',
-                        'admin_status'=>'required' 
+                        'admin_status'=>'required'
                     ]);
-                    
-            
-                    
-            
+
+
+
+
                     if ($validator->fails()) {
                         return response()->json([
                             'status' => 400,
@@ -835,12 +840,12 @@ public function newslistshow(){
                     }
                     else
                     {
-            
+
                         if ($request->hasFile('admin_images')) {
                             $image = $request->file('admin_images');
-                            $imageName = time().'.'.$image->getClientOriginalExtension(); 
+                            $imageName = time().'.'.$image->getClientOriginalExtension();
                             $image->move('assets/images/Adminimages', $imageName);
-                           
+
                             $useradmintype=null;
                             if ($this->admintype == 'admin') {
                                 $useradmintype = 'admin';
@@ -854,11 +859,11 @@ public function newslistshow(){
                             $Admin->email = $request->email;
                             $Admin->name = $request->name;
                             $Admin->username = $request->username;
-                            $Admin->password =\Crypt::encrypt($request->password);
+                            $Admin->password =Crypt::encrypt($request->password);
                             $Admin->status =$request->admin_status;
                             $Admin->image=$imageName;
                             $Admin->save();
-                            
+
                             } else {
                                 return response()->json([
                                     'status' => 400,
@@ -869,10 +874,10 @@ public function newslistshow(){
                                 'status' => 200,
                                 'messages' => 'Admin Add successfully'
                             ]);
-            
+
                             }
-                            
-            
+
+
                         } else {
                             return redirect('/setup');
                         }
@@ -896,11 +901,11 @@ public function newslistshow(){
 
                 public function adminuseredit($id){
                     if ($this->loggedInAdmin) {
-                     $decryptid=\Crypt::decrypt($id);
+                     $decryptid=Crypt::decrypt($id);
                         $editadmin=Admin::find($decryptid);
-    
+
                         return view('Admin.adminuseredit',['editadmin'=>$editadmin]);
-                    
+
                     } else {
                         return redirect('/setup');
                     }
@@ -909,20 +914,20 @@ public function newslistshow(){
 
                 public function editadminusersave(Request $request)
                 {
-                    $id=$request->main_id;  
-                   
+                    $id=$request->main_id;
+
                     if ($this->loggedInAdmin) {
                         $validator = Validator::make($request->all(), [
                             'email' => 'required',
                             'name' => 'required',
                             'username' => 'required',
                             'password' => 'required',
-                            'admin_status'=>'required' 
-                          
+                            'admin_status'=>'required'
+
                         ]);
-                        
-  
-                
+
+
+
                         if ($validator->fails()) {
                             return response()->json([
                                 'status' => 400,
@@ -933,10 +938,10 @@ public function newslistshow(){
                         {
                                 if ($request->hasFile('admin_images')) {
                                     $image = $request->file('admin_images');
-                                    $imageName = time().'.'.$image->getClientOriginalExtension(); 
+                                    $imageName = time().'.'.$image->getClientOriginalExtension();
                                     $image->move('assets/images/Adminimages', $imageName);
                                 } else {
-                                 
+
                                     $imageName = $request->image_new;
                                 }
 
@@ -954,34 +959,34 @@ public function newslistshow(){
                                     $useradmintype = 'admin';
                                 } elseif ($this->admintype == 'superadmin') {
                                     $useradmintype = $request->admin_type;
-    
+
                                 }
-                               
+
                                 $news->update([
                                     'admintype' => $useradmintype,
                                     'email' => $request->email,
                                     'name' => $request->name,
                                     'username' => $request->username,
-                                    'password' => \Crypt::encrypt($request->password),
+                                    'password' => Crypt::encrypt($request->password),
                                     'status' => $request->admin_status,
                                     'image' => $imageName
                                 ]);
-                
-                               
-                                
-                                
-                
+
+
+
+
+
                                 return response()->json([
                                     'status' => 200,
                                     'messages' => 'Admin Edit successfully'
                                 ]);
-                
+
                                 }
 
 
-                       
+
                     } else {
-                        return redirect('/setup'); 
+                        return redirect('/setup');
                     }
                 }
 
@@ -996,24 +1001,24 @@ public function newslistshow(){
                         {
                             $admindata = Admin::get();
                             foreach ($admindata as $pick) {
-                                $pick->encrypted_id = \Crypt::encrypt($pick->id);
+                                $pick->encrypted_id = Crypt::encrypt($pick->id);
                             }
                         }
                         else{
                             $admindata = Admin::where('admintype', $storeId)->get();
                             foreach ($admindata as $pick) {
-                                $pick->encrypted_id = \Crypt::encrypt($pick->id);
+                                $pick->encrypted_id = Crypt::encrypt($pick->id);
                             }
 
                         }
                         foreach ($admindata as $admin) {
-                            $admin->password =\Crypt::decrypt($admin->password);
+                            $admin->password =Crypt::decrypt($admin->password);
                         }
                         return response()->json(['admindata' => $admindata]);
 
                     }else
                     {
-                        return redirect('/setup'); 
+                        return redirect('/setup');
 
                     }
 
@@ -1022,7 +1027,7 @@ public function newslistshow(){
                 public function planlistshow(){
                     if ($this->loggedInAdmin && $this->admintype == 'superadmin') {
                         $plan = Planname::all();
-            
+
                     return view('Admin.planlist',['plan'=>$plan]);
                     } else {
                         return redirect('/setup');
@@ -1031,7 +1036,7 @@ public function newslistshow(){
 
                 public function plancreate(){
                     if ($this->loggedInAdmin && $this->admintype == 'superadmin') {
-            
+
                     return view('Admin.plancreate');
                     } else {
                         return redirect('/setup');
@@ -1054,7 +1059,7 @@ public function newslistshow(){
                         $validator = Validator::make($request->all(), [
                             'planname' => 'required',
                             'plan_id' => 'required|unique:planname,plan_id'
-                        
+
                         ]);
                         if ($validator->fails()) {
                             return response()->json([
@@ -1064,20 +1069,20 @@ public function newslistshow(){
                         }
                         else
                         {
-                
+
                                 $plan = new Planname();
                                 $plan->plan_id = $request->plan_id;
                                 $plan->name = $request->planname;
                                 $plan->save();
-                                
+
                                 return response()->json([
                                     'status' => 200,
                                     'messages' => 'Plan Add successfully'
                                 ]);
-                
+
                                 }
-                                
-                
+
+
                             } else {
                                 return redirect('/setup');
                             }
@@ -1091,17 +1096,17 @@ public function newslistshow(){
                             $item->delete();
                             return response()->json(['message' => 'Plan deleted successfully']);
                         } else {
-                            return redirect('/setup'); 
+                            return redirect('/setup');
                         }
                     }
 
                     public function planedit($id){
                         if ($this->loggedInAdmin) {
-                         $decryptid=\Crypt::decrypt($id);
+                         $decryptid=Crypt::decrypt($id);
                             $editplan=Planname::find($decryptid);
-        
+
                             return view('Admin.editplan',['editplan'=>$editplan]);
-                        
+
                         } else {
                             return redirect('/setup');
                         }
@@ -1110,7 +1115,7 @@ public function newslistshow(){
                     public function editplansave(Request $request)
                 {
                     $id=$request->main_id;
-                    $decryptid=\Crypt::decrypt($id);
+                    $decryptid=Crypt::decrypt($id);
                     if ($this->loggedInAdmin) {
                         $validator = Validator::make($request->all(), [
                             'plan_id' => 'required|unique:planname,plan_id',
@@ -1135,18 +1140,18 @@ public function newslistshow(){
                                     'plan_id' => $request->plan_id,
                                     'name' => $request->planname
                                 ]);
-                
+
                                 return response()->json([
                                     'status' => 200,
                                     'messages' => 'Plan Edit successfully'
                                 ]);
-                
+
                                 }
 
 
-                       
+
                     } else {
-                        return redirect('/setup'); 
+                        return redirect('/setup');
                     }
                 }
 
@@ -1160,7 +1165,7 @@ public function newslistshow(){
 
 
 
-            
+
                     return view('Admin.plandetailslist',['plandetails'=>$plandetails,'keydata'=>$keydata,'plandata'=>$plandata]);
                     } else {
                         return redirect('/setup');
@@ -1178,14 +1183,14 @@ public function newslistshow(){
                         if ($plan_id) {
                             $query->where('plan_id', $plan_id);
                         }
-                        
+
                         if ($key_id) {
                             $query->where('key_type', $key_id);
                         }
                         $plandetails = $query->get();
 
                         foreach ($plandetails as $detail) {
-                            $detail->encrypted_id = \Crypt::encrypt($detail->id);
+                            $detail->encrypted_id = Crypt::encrypt($detail->id);
                             $storePick = Storepick::select('PICK_TEXT')
                                 ->where('STORE_ID', 'key_type')
                                 ->where('PICK_ID', $detail->key_type)
@@ -1221,13 +1226,13 @@ public function newslistshow(){
                         $request->validate([
                             'KEY_ID' => 'required|exists:product_details,id',
                         ]);
-                
+
                         $productDetails = TTBKEY::join('product_details', 'ttbkey.product_id', '=', 'product_details.ID')
                         ->select('ttbkey.*', 'product_details.key_type','product_details.price' ,'product_details.plan_id')
                         ->where('ttbkey.product_id', $keyId)->get();
 
-                        
-                
+
+
                         // Prepare response data
                         $response = $productDetails->map(function ($detail) {
                             $planName = Planname::where('plan_id', $detail->plan_id)->value('name');
@@ -1247,8 +1252,8 @@ public function newslistshow(){
                                 'encrypted_id' => encrypt($detail->id), // Encrypt the ID for the edit route
                             ];
                         });
-                
-                        return response()->json($response);                
+
+                        return response()->json($response);
 
                     } else {
                         return redirect('/setup');
@@ -1257,7 +1262,7 @@ public function newslistshow(){
 
                 public function plandetailscreate(){
                     if ($this->loggedInAdmin && $this->admintype == 'superadmin') {
-            
+
                     return view('Admin.plandetailscreate');
                     } else {
                         return redirect('/setup');
@@ -1271,7 +1276,7 @@ public function newslistshow(){
                             'plan_id' => 'required',
                             'price' => 'required'
 
-                        
+
                         ]);
                         if ($validator->fails()) {
                             return response()->json([
@@ -1281,7 +1286,7 @@ public function newslistshow(){
                         }
                         else
                         {
-                
+
                                 $plan = new Plandetails();
                                 $plan->key_type = $request->planname;
                                 $plan->plan_id = $request->plan_id;
@@ -1290,15 +1295,15 @@ public function newslistshow(){
                                 $plan->coupons = $request->coupons;
                                 $plan->is_coupons = $request->coupon_status;
                                 $plan->save();
-                                
+
                                 return response()->json([
                                     'status' => 200,
                                     'messages' => 'Plan Details Add successfully'
                                 ]);
-                
+
                                 }
-                                
-                
+
+
                             } else {
                                 return redirect('/setup');
                             }
@@ -1306,11 +1311,11 @@ public function newslistshow(){
 
                     public function editplandetails($id){
                         if ($this->loggedInAdmin) {
-                         $decryptid=\Crypt::decrypt($id);
+                         $decryptid=Crypt::decrypt($id);
                             $editplandetails=Plandetails::find($decryptid);
-        
+
                             return view('Admin.editplandetails',['editplandetails'=>$editplandetails]);
-                        
+
                         } else {
                             return redirect('/setup');
                         }
@@ -1319,7 +1324,7 @@ public function newslistshow(){
                     public function editplandetailssave(Request $request)
                     {
                         $id=$request->main_id;
-                        $decryptid=\Crypt::decrypt($id);
+                        $decryptid=Crypt::decrypt($id);
                         if ($this->loggedInAdmin) {
                             $validator = Validator::make($request->all(), [
                                 'planname' => 'required',
@@ -1350,18 +1355,18 @@ public function newslistshow(){
                                         'is_coupons' => $request->coupon_status
 
                                     ]);
-                    
+
                                     return response()->json([
                                         'status' => 200,
                                         'messages' => 'Plan Details Edit successfully'
                                     ]);
-                    
+
                                     }
-    
-    
-                           
+
+
+
                         } else {
-                            return redirect('/setup'); 
+                            return redirect('/setup');
                         }
                     }
 
@@ -1376,11 +1381,11 @@ public function newslistshow(){
 
                     public function customersedit($id){
                         if ($this->loggedInAdmin) {
-                         $decryptid=\Crypt::decrypt($id);
+                         $decryptid=Crypt::decrypt($id);
                             $editCustomers=Users::find($decryptid);
-        
+
                             return view('Admin.editcustomers',['editCustomers'=>$editCustomers]);
-                        
+
                         } else {
                             return redirect('/setup');
                         }
@@ -1393,16 +1398,16 @@ public function newslistshow(){
                         $item->delete();
                         return response()->json(['message' => 'User deleted successfully']);
                     } else {
-                        return redirect('/setup'); 
+                        return redirect('/setup');
                     }
                 }
 
 
                     public function editcustomerssave(Request $request)
                 {
-                 
+
                     $id=$request->main_id;
-                    $decryptid=\Crypt::decrypt($id);
+                    $decryptid=Crypt::decrypt($id);
                     if ($this->loggedInAdmin) {
                         $validator = Validator::make($request->all(), [
                             'email' => 'required',
@@ -1431,25 +1436,25 @@ public function newslistshow(){
                                     'email' => $request->email,
                                     'phone' => $request->phone,
                                     'address' => $request->address,
-                                    'password' => \Crypt::encrypt($request->password),
+                                    'password' => Crypt::encrypt($request->password),
                                     'activation_key' => $request->activation_key,
                                     'reset_tokens' => $request->reset_tokens,
                                     'otp' => $request->activation_key,
                                     'status' => $request->admin_status
 
                                 ]);
-                
+
                                 return response()->json([
                                     'status' => 200,
                                     'messages' => 'Customers Edit successfully'
                                 ]);
-                
+
                                 }
 
 
-                       
+
                     } else {
-                        return redirect('/setup'); 
+                        return redirect('/setup');
                     }
                 }
 
@@ -1458,7 +1463,7 @@ public function newslistshow(){
                 {
                     if ($this->loggedInAdmin) {
                         $admindata=$this->adminData;
-                    
+
 
                     return view('Admin.adminprofile',['admindata'=>$admindata]);
                     }else{
@@ -1474,7 +1479,7 @@ public function newslistshow(){
                             $item->delete();
                             return response()->json(['message' => 'Plan Details deleted successfully']);
                         } else {
-                            return redirect('/setup'); 
+                            return redirect('/setup');
                         }
                     }
 
@@ -1503,7 +1508,7 @@ public function newslistshow(){
 
                     public function keyadd(){
                         if ($this->loggedInAdmin && $this->admintype == 'superadmin') {
-                
+
                         return view('Admin.keyadd');
                         } else {
                             return redirect('/setup');
@@ -1512,10 +1517,10 @@ public function newslistshow(){
 
                     public function editkey($id){
                         if ($this->loggedInAdmin) {
-                         $decryptid=\Crypt::decrypt($id);
+                         $decryptid=Crypt::decrypt($id);
                             $editkey=TTBKEY::find($decryptid);
                             return view('Admin.editkey',['editkey'=>$editkey]);
-                        
+
                         } else {
                             return redirect('/setup');
                         }
@@ -1539,7 +1544,7 @@ public function newslistshow(){
                             }
                             else
                             {
-    
+
                                     $ttbkey = new TTBKEY();
                                     $ttbkey->main_key = $request->main_key;
                                     $ttbkey->product_id = $request->product_id;
@@ -1548,15 +1553,15 @@ public function newslistshow(){
                                     $ttbkey->key_expirey_date = $request->key_expirey_date;
                                     $ttbkey->key_activation_date = $request->key_activation_date;
                                     $ttbkey->save();
-                                    
+
                                     return response()->json([
                                         'status' => 200,
                                         'messages' => 'Key Add successfully'
                                     ]);
-                    
+
                                     }
-                                    
-                    
+
+
                                 } else {
                                     return redirect('/setup');
                                 }
@@ -1566,7 +1571,7 @@ public function newslistshow(){
                         public function editkeysave(Request $request)
                     {
                         $id=$request->main_id;
-                        $decryptid=\Crypt::decrypt($id);
+                        $decryptid=Crypt::decrypt($id);
                         if ($this->loggedInAdmin) {
                             $validator = Validator::make($request->all(), [
                                 'main_key' => 'required',
@@ -1600,18 +1605,18 @@ public function newslistshow(){
                                         'key_activation_date' => $request->key_activation_date
 
                                     ]);
-                    
+
                                     return response()->json([
                                         'status' => 200,
                                         'messages' => 'Key Edit successfully'
                                     ]);
-                    
+
                                     }
-    
-    
-                           
+
+
+
                         } else {
-                            return redirect('/setup'); 
+                            return redirect('/setup');
                         }
                     }
 
@@ -1623,7 +1628,7 @@ public function newslistshow(){
                             $item->delete();
                             return response()->json(['message' => 'Plan Details deleted successfully']);
                         } else {
-                            return redirect('/setup'); 
+                            return redirect('/setup');
                         }
                     }
 
@@ -1635,17 +1640,17 @@ public function newslistshow(){
                         ->where('product_details.key_type', 501)
                         ->select('payments.*','product_details.key_type','product_details.plan_id')
                         ->orderBy('payments.id', 'desc')
-                        ->get();       
+                        ->get();
                         $total = DB::table('payments')
                         ->join('product_details', 'product_details.id', '=', 'payments.product_id')
                         ->where('product_details.key_type', 501)
                         ->whereNull('payments.deleted_at')
-                        ->sum('payments.amount_total');    
+                        ->sum('payments.amount_total');
                         return view('Admin.payshow',['vpnpaydata'=>$vpnpaydata,'title'=>$title,'total'=>$total]);
-                        
+
                         }else
                         {
-                            return redirect('/setup'); 
+                            return redirect('/setup');
                         }
 
                     }
@@ -1658,17 +1663,17 @@ public function newslistshow(){
                         ->where('product_details.key_type', 502)
                         ->select('payments.*','product_details.key_type','product_details.plan_id')
                         ->orderBy('payments.id', 'desc')
-                        ->get();       
+                        ->get();
                         $total = DB::table('payments')
                         ->join('product_details', 'product_details.id', '=', 'payments.product_id')
                         ->where('product_details.key_type', 502)
                         ->whereNull('payments.deleted_at')
-                        ->sum('payments.amount_total');    
+                        ->sum('payments.amount_total');
                         return view('Admin.payshow',['vpnpaydata'=>$vpnpaydata,'title'=>$title,'total'=>$total]);
-                        
+
                         }else
                         {
-                            return redirect('/setup'); 
+                            return redirect('/setup');
                         }
 
                     }
@@ -1680,16 +1685,16 @@ public function newslistshow(){
                         $vpnpaydata=Payments::join('product_details', 'product_details.id', '=', 'payments.product_id')
                         ->select('payments.*','product_details.key_type','product_details.plan_id')
                         ->orderBy('payments.id', 'desc')
-                        ->get();      
+                        ->get();
                         $total = DB::table('payments')
                         ->join('product_details', 'product_details.id', '=', 'payments.product_id')
                         ->whereNull('payments.deleted_at')
-                        ->sum('payments.amount_total');       
+                        ->sum('payments.amount_total');
                         return view('Admin.payshow',['vpnpaydata'=>$vpnpaydata,'title'=>$title,'total'=>$total]);
-                        
+
                         }else
                         {
-                            return redirect('/setup'); 
+                            return redirect('/setup');
                         }
 
                     }
@@ -1701,17 +1706,17 @@ public function newslistshow(){
                             $item->delete();
                             return response()->json(['message' => 'Vpn Payment deleted successfully']);
                         } else {
-                            return redirect('/setup'); 
+                            return redirect('/setup');
                         }
                     }
 
                     public function payedit($id){
                         if ($this->loggedInAdmin) {
-                            $decryptid=\Crypt::decrypt($id);
+                            $decryptid=Crypt::decrypt($id);
                             $payedit=Payments::find($decryptid);
-        
+
                             return view('Admin.payedit',['payedit'=>$payedit]);
-                        
+
                         } else {
                             return redirect('/setup');
                         }
@@ -1722,9 +1727,9 @@ public function newslistshow(){
                         if ($this->loggedInAdmin) {
                             $visitor = Visitors::orderBy('created_at', 'desc')->get();
 
-        
+
                             return view('Admin.Visitorlist',['visitor'=>$visitor]);
-                        
+
                         } else {
                             return redirect('/setup');
                         }
@@ -1736,9 +1741,9 @@ public function newslistshow(){
                         if ($this->loggedInAdmin) {
                             $eventmodel = Eventmodel::all();
 
-        
+
                             return view('Admin.eventlist',['eventmodel'=>$eventmodel]);
-                        
+
                         } else {
                             return redirect('/setup');
                         }
@@ -1748,15 +1753,15 @@ public function newslistshow(){
                     public function addevent()
                     {
                         if ($this->loggedInAdmin) {
-                            
+
                             return view('Admin.addevent');
-                        
+
                         } else {
                             return redirect('/setup');
                         }
 
                     }
-                
+
 
 
 
