@@ -856,7 +856,7 @@
             </div>
             <!--End::row-1 -->
 
-            <section class="section-two-iconbox pt-8">
+            <section class="section-two-iconbox pt-8 bg-white">
                 <div class="container main-banner-container">
                     <h3 class="text-center">About VPN</h3>
                     <h4 class="text-center">Why Should Use Netric VPN?</h4>
