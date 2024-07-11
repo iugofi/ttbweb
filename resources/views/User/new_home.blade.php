@@ -523,7 +523,7 @@
                                                     </div>
                                                     <ul class="list-none text-center text-[0.75rem] px-4 pt-4 mb-0">
                                                         <li class="mb-4">
-                                                            <span>1 PC, Mac, tablet, or phone</span>
+                                                            <span>10 PCs, Macs, tablets, or phones</span>
                                                         </li>
                                                         <li class="mb-4">
                                                             <span>Antivirus, malware, ransomware, and hacking protection</span>
@@ -532,10 +532,37 @@
                                                             <span>100% Virus Protection Promise2</span>
                                                         </li>
                                                         <li class="mb-4">
-                                                            <span>2GB Cloud Backup‡‡,4</span>
+                                                            <span>200GB Cloud Backup‡‡,4</span>
                                                         </li>
                                                         <li class="mb-4">
                                                             <span>Password Manager</span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <span>VPN private internet connection</span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <span>Parental Control‡</span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <span>Dark Web Monitoring§</span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <span>Identity Restoration Support</span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <span>Credit Report and Score18</span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <span>Credit Alerts18</span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <span>Stolen Wallet Assist</span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <span>Social Media Monitoring17</span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <span>NEW! Financial Monitoring</span>
                                                         </li>
                                                     </ul>
 
