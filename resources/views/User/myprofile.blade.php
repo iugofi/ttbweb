@@ -859,7 +859,7 @@
 
             {{-- profile tab section start --}}
 
-            <section class="e-support-section-six">
+            <section class="e-support-section-six bg-white">
                 <div class="container">
                     <div class="grid grid-cols-12 gap-6 pt-5">
                         <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 col-span-12">
@@ -879,98 +879,36 @@
                                     </button>
                                 </nav>
 
-                                <section class="section-two-iconbox pt-8 bg-white text-color">
-                                    <div class="container main-banner-container">
-                                        <h3 class="text-left mb-2">TTBTM Antivirus</h3>
-                                        <h3 class="text-left mb-5">0 of 0 License(s) USED:<a href="#"> Download </a></h3>
-
-                                        <div class="grid grid-cols-12 gap-6">
-                                            <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12 con-box">
-                                                <i class="fa-solid fa-eye"></i>
-                                                <h5>Anonymous Access</h5>
-                                                <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor.</p>
-                                            </div>
-                                            <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12 con-box">
-                                                <i class="fa-solid fa-user"></i>
-                                                <h5>No Usage Logs</h5>
-                                                <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor.</p>
-                                            </div>
-                                            <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12 con-box">
-                                                <i class="fa-solid fa-server"></i>
-                                                <h5>No Usage Limits</h5>
-                                                <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor.</p>
-                                            </div>
-                                            <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12 con-box">
-                                                <i class="fa-solid fa-lock"></i>
-                                                <h5>100% White Listed</h5>
-                                                <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                            </section>
-
-                                {{-- <div class="mt-3">
-                                    <div id="pills-on-gray-color-1" role="tabpanel" aria-labelledby="pills-on-gray-color-item-1" class="">
+                                <div class="mt-3">
+                                    <div id="pills-on-gray-color-1" role="tabpanel" aria-labelledby="pills-on-gray-color-item-1">
                                         <h3>Business Network Setup:</h3>
                                         <p class="mt-2"> As a newbie, setting up your home automation devices on your own can
                                             be difficult.
                                             But with our TTB eSupport Concierge it will be easier than ever.</p>
-                                        <div class="flex mt-5">
-                                            <div class="tab-icon">
-                                                <i class="bi bi-hdd-stack"></i>
-                                                <p>Watch Over Your Family from Anywhere</p>
-                                            </div>
-                                            <div class="tab-icon">
-                                                <i class="bi bi-hdd-stack"></i>
-                                                <p>Eliminate Common &amp; Complex Issues</p>
-                                            </div>
-                                            <div class="tab-icon">
-                                                <i class="bi bi-hdd-stack"></i>
-                                                <p>Top-Notch Experience Without Lagging</p>
-                                            </div>
-                                        </div>
-                                        <div class="flex pt-2 pb-2">
-                                            <div class="price-tab">
-                                                <h4>$69</h4>
-                                            </div>
-                                            <div class="price-cnt">
-                                                <h5>1 Time</h5>
-                                                <p>Home Network Setup</p>
-                                            </div>
-                                        </div>
                                         <div class="tab-btn-buy">
                                             <a href="#">Buy Now</a>
                                         </div>
                                     </div>
                                     <div id="pills-on-gray-color-2" class="hidden" role="tabpanel" aria-labelledby="pills-on-gray-color-item-2">
-                                        <h3>Smart Device Setup:</h3>
-                                        <p class="mt-2"> From your home networks to workplace security devices, we will help
-                                            you optimize them for optimal functioning only.</p>
-                                        <div class="flex mt-5">
-                                            <div class="tab-icon">
-                                                <i class="bi bi-hdd-stack"></i>
-                                                <p>Watch Over Your Family from Anywhere</p>
+                                        <div class="grid grid-cols-12 gap-6 pt-top mt-5">
+                                            <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 col-span-12 text-center">
                                             </div>
-                                            <div class="tab-icon">
-                                                <i class="bi bi-hdd-stack"></i>
-                                                <p>Eliminate Common &amp; Complex Issues</p>
+                                            <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 col-span-12 text-center box-down">
+                                                <img src="https://nighthawk-routerlogin.com/assets/img/mac.png" alt="" class="img-fluid pt-5 pb-5" width="25%;" style="margin: auto;">
+                                                <div class="action-btns mt-5">
+                                                    <a href="#" class="ti-btn bg-primary text-white mt-5">Explore More</a>
+                                                </div>
+                                                <span> X10.15 or above</span>
                                             </div>
-                                            <div class="tab-icon">
-                                                <i class="bi bi-hdd-stack"></i>
-                                                <p>Top-Notch Experience Without Lagging</p>
+                                            <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 col-span-12 text-center box-down">
+                                                <img src="https://nighthawk-routerlogin.com/assets/img/ios.png" alt="" class="img-fluid pt-5 pb-5" width="25%" style="margin: auto;">
+                                                <div class="action-btns mt-5">
+                                                    <a href="#" class="ti-btn bg-primary text-white mt-5">Explore More</a>
+                                                </div>
+                                                <span> X10.15 or above</span>
                                             </div>
-                                        </div>
-                                        <div class="flex pt-2 pb-2">
-                                            <div class="price-tab">
-                                                <h4>$69</h4>
+                                            <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 col-span-12 text-center">
                                             </div>
-                                            <div class="price-cnt">
-                                                <h5>1 Time</h5>
-                                                <p>Home Network Setup</p>
-                                            </div>
-                                        </div>
-                                        <div class="tab-btn-buy">
-                                            <a href="#">Buy Now</a>
                                         </div>
                                     </div>
                                     <div id="pills-on-gray-color-3" class="hidden" role="tabpanel" aria-labelledby="pills-on-gray-color-item-3">
@@ -978,34 +916,11 @@
                                         <p class="mt-2"> Software installation can be difficult to eliminate without
                                             professional advice. So, contact us to ensure your software is set up and
                                             functioning properly.</p>
-                                        <div class="flex mt-5">
-                                            <div class="tab-icon">
-                                                <i class="bi bi-hdd-stack"></i>
-                                                <p>Watch Over Your Family from Anywhere</p>
-                                            </div>
-                                            <div class="tab-icon">
-                                                <i class="bi bi-hdd-stack"></i>
-                                                <p>Eliminate Common &amp; Complex Issues</p>
-                                            </div>
-                                            <div class="tab-icon">
-                                                <i class="bi bi-hdd-stack"></i>
-                                                <p>Top-Notch Experience Without Lagging</p>
-                                            </div>
-                                        </div>
-                                        <div class="flex pt-2 pb-2">
-                                            <div class="price-tab">
-                                                <h4>$69</h4>
-                                            </div>
-                                            <div class="price-cnt">
-                                                <h5>1 Time</h5>
-                                                <p>Home Network Setup</p>
-                                            </div>
-                                        </div>
                                         <div class="tab-btn-buy">
                                             <a href="#">Buy Now</a>
                                         </div>
                                     </div>
-                                </div> --}}
+                                </div>
 
                             </div>
                         </div>
@@ -1016,35 +931,7 @@
             {{-- End profile tab section --}}
 
 
-            {{-- <section class="section-two-iconbox pt-8 bg-white text-color">
-                <div class="container main-banner-container">
-                    <h3 class="text-left mb-2">TTBTM Antivirus</h3>
-                    <h3 class="text-left mb-5">0 of 0 License(s) USED:<a href="#"> Download </a></h3>
 
-                    <div class="grid grid-cols-12 gap-6">
-                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12 con-box">
-                            <i class="fa-solid fa-eye"></i>
-                            <h5>Anonymous Access</h5>
-                            <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor.</p>
-                        </div>
-                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12 con-box">
-                            <i class="fa-solid fa-user"></i>
-                            <h5>No Usage Logs</h5>
-                            <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor.</p>
-                        </div>
-                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12 con-box">
-                            <i class="fa-solid fa-server"></i>
-                            <h5>No Usage Limits</h5>
-                            <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor.</p>
-                        </div>
-                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12 con-box">
-                            <i class="fa-solid fa-lock"></i>
-                            <h5>100% White Listed</h5>
-                            <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor.</p>
-                        </div>
-                    </div>
-                </div>
-        </section> --}}
 
 
         </div>
