@@ -890,7 +890,7 @@
                                         </div>
                                     </div>
                                     <div id="pills-on-gray-color-2" class="hidden" role="tabpanel" aria-labelledby="pills-on-gray-color-item-2">
-                                        <div class="grid grid-cols-12 gap-6 pt-top">
+                                        <div class="grid grid-cols-12 gap-6 pt-top mt-5">
                                             <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 col-span-12 text-center">
                                             </div>
                                             <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 col-span-12 text-center box-down">
