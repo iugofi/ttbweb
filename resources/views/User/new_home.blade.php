@@ -364,7 +364,7 @@
                         <div class="flex justify-center !mx-auto">
                             <div class="">
                                 <h5 class="font-semibold text-center text-[1.25rem] !text-defaulttextcolor"> Simple Pricing For Everyone </h5>
-                                <p class="text-[#8c9097] dark:text-white/50 mb-4 text-center">Choose plan that suits best for your business needs, Our plans scales with you based on your needs</p>
+                                {{-- <p class="text-[#8c9097] dark:text-white/50 mb-4 text-center">Choose plan that suits best for your business needs, Our plans scales with you based on your needs</p> --}}
                             </div>
                         </div>
                         <div class="flex justify-center mb-4">
