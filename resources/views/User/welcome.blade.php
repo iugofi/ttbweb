@@ -1100,29 +1100,6 @@
                                 <a href="#">Buy Now</a>
                             </div>
                         </div>
-                        <section class="section-two-iconbox pt-8">
-                            <div class="container main-banner-container">
-                                <h3 class="text-center">About VPN 1</h3>
-                                <h4 class="text-center">Why Should Use Netric VPN?</h4>
-                                <div class="grid grid-cols-12 gap-6">
-                                    <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12 con-box">
-                                        <i class="fa-solid fa-user"></i>
-                                        <h5>No Usage Logs</h5>
-                                        <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor.</p>
-                                    </div>
-                                    <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12 con-box">
-                                        <i class="fa-solid fa-server"></i>
-                                        <h5>No Usage Limits</h5>
-                                        <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor.</p>
-                                    </div>
-                                    <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12 con-box">
-                                        <i class="fa-solid fa-lock"></i>
-                                        <h5>100% White Listed</h5>
-                                        <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor.</p>
-                                    </div>
-                                </div>
-                            </div>
-                    </section>
                         <div id="pills-on-gray-color-2" class="hidden" role="tabpanel" aria-labelledby="pills-on-gray-color-item-2">
                             <h3>Smart Device Setup:</h3>
                             <p class="mt-2"> From your home networks to workplace security devices, we will help
@@ -1130,29 +1107,6 @@
                             <div class="tab-btn-buy">
                                 <a href="#">Buy Now</a>
                             </div>
-                            <section class="section-two-iconbox pt-8">
-                                <div class="container main-banner-container">
-                                    <h3 class="text-center">About VPN 2</h3>
-                                    <h4 class="text-center">Why Should Use Netric VPN?</h4>
-                                    <div class="grid grid-cols-12 gap-6">
-                                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12 con-box">
-                                            <i class="fa-solid fa-user"></i>
-                                            <h5>No Usage Logs</h5>
-                                            <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor.</p>
-                                        </div>
-                                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12 con-box">
-                                            <i class="fa-solid fa-server"></i>
-                                            <h5>No Usage Limits</h5>
-                                            <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor.</p>
-                                        </div>
-                                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12 con-box">
-                                            <i class="fa-solid fa-lock"></i>
-                                            <h5>100% White Listed</h5>
-                                            <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                        </section>
                         </div>
                         <div id="pills-on-gray-color-3" class="hidden" role="tabpanel" aria-labelledby="pills-on-gray-color-item-3">
                             <h3>Software Installation:</h3>
@@ -1162,29 +1116,6 @@
                             <div class="tab-btn-buy">
                                 <a href="#">Buy Now</a>
                             </div>
-                            <section class="section-two-iconbox pt-8">
-                                <div class="container main-banner-container">
-                                    <h3 class="text-center">About VPN 3</h3>
-                                    <h4 class="text-center">Why Should Use Netric VPN?</h4>
-                                    <div class="grid grid-cols-12 gap-6">
-                                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12 con-box">
-                                            <i class="fa-solid fa-user"></i>
-                                            <h5>No Usage Logs</h5>
-                                            <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor.</p>
-                                        </div>
-                                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12 con-box">
-                                            <i class="fa-solid fa-server"></i>
-                                            <h5>No Usage Limits</h5>
-                                            <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor.</p>
-                                        </div>
-                                        <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12 con-box">
-                                            <i class="fa-solid fa-lock"></i>
-                                            <h5>100% White Listed</h5>
-                                            <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                        </section>
                         </div>
                     </div>
 
