@@ -501,39 +501,37 @@
                                                     <span class="pricing-offer-details shadow">
                                                         <span class="font-semibold">10%</span> <span class="text-[0.625rem] op-8 ms-1">Off</span>
                                                     </span>
-                                                    <h6 class="font-semibold text-center text-[1rem]">PREMIUM</h6>
+                                                    <h6 class="font-semibold text-center text-[1rem]">Advanced</h6>
                                                     <div class="py-4 flex items-center justify-center">
                                                         <div class="pricing-svg1">
                                                             
                                                         </div>
                                                         <div class="text-end ms-5">
-                                                            <p class="text-[1.5625rem] font-semibold mb-0 ">$1,299</p>
-                                                            <p class="text-[#8c9097] dark:text-white/50 opacity-50 text-[.6875rem] font-semibold mb-0">per month</p>
+                                                            <p class="text-[1.5625rem] font-semibold mb-0 ">$1,299 per month</p>
+                                                            <p class="text-[#8c9097] dark:text-white/50 opacity-50 text-[.6875rem] font-semibold mb-0">See Subscription details below *</p>
                                                         </div>
                                                     </div>
-                                                    <ul class="list-none text-center text-[0.75rem] px-4 pt-4 mb-0">
-                                                        <li class="mb-4">
-                                                            <span class="text-[#8c9097] dark:text-white/50">Storage Capacity<span class="badge bg-light text-defaulttextcolor ms-1">10Tb</span></span>
-                                                        </li>
-                                                        <li class="mb-4">
-                                                            <span class="text-[#8c9097] dark:text-white/50">Daily Updates<span class="badge bg-light text-defaulttextcolor ms-1">Unlimited</span></span>
-                                                        </li>
-                                                        <li class="mb-4">
-                                                            <span class="text-[#8c9097] dark:text-white/50">Online Support</span>
-                                                        </li>
-                                                        <li class="mb-4">
-                                                            <span class="text-[#8c9097] dark:text-white/50">Visitors Monitoring<span class="badge bg-light text-defaulttextcolor ms-1">24/7</span></span>
-                                                        </li>
-                                                        <li class="mb-4">
-                                                            <span class="text-[#8c9097] dark:text-white/50">30 Free Domains</span>
-                                                        </li>
-                                                        <li class="mb-4">
-                                                            <span class="text-[#8c9097] dark:text-white/50">Money Back Guarentee</span>
-                                                        </li>
-                                                    </ul>
                                                     <div class="grid">
                                                         <button type="button" class="ti-btn ti-btn-primary">Get Started</button>
                                                     </div>
+                                                    <ul class="list-none text-center text-[0.75rem] px-4 pt-4 mb-0">
+                                                        <li class="mb-4">
+                                                            <span>1 PC, Mac, tablet, or phone</span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <span>Antivirus, malware, ransomware, and hacking protection</span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <span>100% Virus Protection Promise2</span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <span>2GB Cloud Backup‡‡,4</span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <span>Password Manager</span>
+                                                        </li>
+                                                    </ul>
+
                                                 </div>
                                             </div>
                                         </div>
