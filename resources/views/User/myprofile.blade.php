@@ -734,7 +734,7 @@
                                                                                                 class="inline-flex text-danger !py-[0.15rem] !px-[0.45rem] rounded-sm !font-semibold !text-[0.75em] bg-danger/10">Unpaid</span>
                                                                                         @endif
                                                                                     </td>
-                                                                                    <td class="border px-4 py-2">1000{{$item->id}}</td>
+                                                                                    <td class="border px-4 py-2">#1000{{$item->id}}</td>
 
                                                                                     <td class="border px-4 py-2">
                                                                                         <div class="flex flex-row items-center !gap-2 text-[0.9375rem]">
