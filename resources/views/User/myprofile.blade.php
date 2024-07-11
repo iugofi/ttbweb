@@ -902,6 +902,8 @@
                 $.ajax({
                     url: '{{ route('user.myprofileother') }}',
                     method: 'post',
+                    contentType: false,
+                    processData: false,
                     data: $(this).serialize(),
                     success: function(response) {
                         if (response.status == 400) {
