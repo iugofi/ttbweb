@@ -112,7 +112,7 @@ class UserauthController extends Controller
 
 
         if ($this->loggedInUser) {
-            dd($request->all());
+            // dd($request->all());
             $id=Crypt::decrypt($request->id_user);
             $validator = Validator::make($request->all(), [
                 'first_name' => 'required|max:50',
