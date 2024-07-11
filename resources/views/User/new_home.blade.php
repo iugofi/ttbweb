@@ -360,7 +360,7 @@
             <div class="grid grid-cols-12 gap-6 justify-center mb-[3rem]">
                 <div class="xxl:col-span-2 col-span-12"></div>
                 <div class="xxl:col-span-8 xl:col-span-12 col-span-12">
-                    <div class="container">
+                    <div class="container-fluid">
                         <div class="flex justify-center !mx-auto">
                             <div class="">
                                 <h5 class="font-semibold text-center text-[1.25rem] !text-defaulttextcolor"> Simple Pricing For Everyone </h5>
