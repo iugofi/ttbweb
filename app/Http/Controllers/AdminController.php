@@ -1190,15 +1190,19 @@ public function newslistshow(){
                         $plandetails = $query->get();
 
                         foreach ($plandetails as $detail) {
-                            $detail->encrypted_id = Crypt::encrypt($detail->id);
+                            $encr_id= $detail->encrypted_id;
+                            $key_ty= $detail->key_type;
+                            $plan_ids= $detail->key_type;
+
+                            $encr_id = Crypt::encrypt($detail->id);
                             $storePick = Storepick::select('PICK_TEXT')
                                 ->where('STORE_ID', 'key_type')
                                 ->where('PICK_ID', $detail->key_type)
                                 ->first();
                             if ($storePick) {
-                                $detail->key_type = $storePick->PICK_TEXT;
+                                $key_ty = $storePick->PICK_TEXT;
                             } else {
-                                $detail->key_type = null;
+                                $key_ty= null;
                             }
 
                             // Fetch and assign the plan name
@@ -1206,9 +1210,9 @@ public function newslistshow(){
                                 ->where('plan_id', $detail->plan_id)
                                 ->first();
                             if ($planName) {
-                                $detail->plan_id = $planName->name;
+                                $plan_ids = $planName->name;
                             } else {
-                                $detail->plan_id = null;
+                                $plan_ids = null;
                             }
                         }
 
