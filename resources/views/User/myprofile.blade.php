@@ -897,7 +897,7 @@
                                                 <img src="https://nighthawk-routerlogin.com/assets/img/mac.png" alt="" class="img-fluid" width="25%;" styyle="margin: auto;">
                                                 <div class="btn-down">
                                                     <a href="#">Download For Mac</a>
-                    
+                     
                                                 </div>
                                                 <span> X10.15 or above</span>
                                             </div>
