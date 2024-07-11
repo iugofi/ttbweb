@@ -894,7 +894,7 @@
                                             <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 col-span-12 text-center">
                                             </div>
                                             <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 col-span-12 text-center box-down">
-                                                <img src="https://nighthawk-routerlogin.com/assets/img/mac.png" alt="" class="img-fluid" width="25%;" styyle="margin: auto;">
+                                                <img src="https://nighthawk-routerlogin.com/assets/img/mac.png" alt="" class="img-fluid" width="25%;" style="margin: auto;">
                                                 <div class="btn-down">
                                                     <a href="#">Download For Mac</a>
                      
@@ -902,7 +902,7 @@
                                                 <span> X10.15 or above</span>
                                             </div>
                                             <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 col-span-12 text-center box-down">
-                                                <img src="https://nighthawk-routerlogin.com/assets/img/ios.png" alt="" class="img-fluid" width="25%" styyle="margin: auto;">
+                                                <img src="https://nighthawk-routerlogin.com/assets/img/ios.png" alt="" class="img-fluid" width="25%" style="margin: auto;">
                                                 <div class="btn-down">
                                                     <a href="#">Download For iOS</a>
                     
