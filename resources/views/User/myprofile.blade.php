@@ -895,22 +895,116 @@
             {{-- End profile tab section --}}
 
             <style>
-                /* .profile-tab button:active {
+                .profile-tab button:active {
                     color: #000 !important;
                 }
 
                 .profile-tab button {
                     color: #000 !important;
-                } */
+                }
             </style>
 
-            <section class="section-two-iconbox pt-8 bg-white text-color">
+            {{-- <section class="section-two-iconbox pt-8 bg-white text-color">
                 <div class="container main-banner-container">
 
                     <div class="box-body">
                         <div class="border-b border-gray-200 dark:border-white/10">
-                            <nav class="-mb-0.5 flex justify-center space-x-6 rtl:space-x-reverse"
+                            <nav class="-mb-0.5 flex justify-center space-x-6 rtl:space-x-reverse profile-tab"
                                 aria-label="Tabs">
+                                <button type="button"
+                                    class="hs-tab-active:font-semibold hs-tab-active:border-primary hs-tab-active:text-primary py-4 px-1 inline-flex items-center gap-2 border-b-[3px] border-transparent text-sm whitespace-nowrap text-defaulttextcolor hover:text-primary dark:text-[#8c9097] dark:text-white/50 active"
+                                    id="horizontal-alignment-item-1" data-hs-tab="#horizontal-alignment-1"
+                                    aria-controls="horizontal-alignment-1">
+                                    Tab 1
+                                </button>
+                                <button type="button"
+                                    class="hs-tab-active:font-semibold hs-tab-active:border-primary hs-tab-active:text-primary py-4 px-1 inline-flex items-center gap-2 border-b-[3px] border-transparent text-sm whitespace-nowrap text-defaulttextcolor hover:text-primary dark:text-[#8c9097] dark:text-white/50"
+                                    id="horizontal-alignment-item-2" data-hs-tab="#horizontal-alignment-2"
+                                    aria-controls="horizontal-alignment-2">
+                                    Tab 2
+                                </button>
+                                <button type="button"
+                                    class="hs-tab-active:font-semibold hs-tab-active:border-primary hs-tab-active:text-primary py-4 px-1 inline-flex items-center gap-2 border-b-[3px] border-transparent text-sm whitespace-nowrap text-defaulttextcolor hover:text-primary dark:text-[#8c9097] dark:text-white/50"
+                                    id="horizontal-alignment-item-3" data-hs-tab="#horizontal-alignment-3"
+                                    aria-controls="horizontal-alignment-3">
+                                    Tab 3
+                                </button>
+                            </nav>
+                        </div>
+
+                        <div class="mt-3">
+                            <div id="horizontal-alignment-1" role="tabpanel"
+                                aria-labelledby="horizontal-alignment-item-1">
+                                <p
+                                    class="text-gray-500 dark:text-[#8c9097] dark:text-white/50 p-5 border rounded-sm dark:border-white/10 border-gray-200">
+                                    1. How hotel deals can help you live a better life. How celebrity cruises aren't as bad
+                                    as
+                                    you think. How cultural solutions can help you predict the future. How to cheat at dog
+                                    friendly hotels and get away with it. 17 problems with summer activities. How to cheat
+                                    at travel agents and get away with it. How not knowing family trip ideas makes you a
+                                    rookie. What everyone is saying about daily deals. How twitter can teach you about
+                                    carnival cruises. How to start using cultural solutions.
+                                </p>
+                            </div>
+                            <div id="horizontal-alignment-2" class="hidden" role="tabpanel"
+                                aria-labelledby="horizontal-alignment-item-2">
+                                <p
+                                    class="text-gray-500 dark:text-[#8c9097] dark:text-white/50 p-5 border rounded-sm dark:border-white/10 border-gray-200">
+                                    2. How travel coupons make you a better lover. Why cultural solutions are the new black.
+                                    Why mom was right about travel insurances. How family trip ideas can help you predict
+                                    the future. How carnival cruises make you a better lover. Why you'll never succeed at
+                                    daily deals. 11 ways cheapest flights can find you the love of your life. The complete
+                                    beginner's guide to mission trips. If you read one article about cultural notes read
+                                    this one. Why you shouldn't eat vacation package in bed.
+                                </p>
+                            </div>
+                            <div id="horizontal-alignment-3" class="hidden" role="tabpanel"
+                                aria-labelledby="horizontal-alignment-item-3">
+                                <p
+                                    class="text-gray-500 dark:text-[#8c9097] dark:text-white/50 p-5 border rounded-sm dark:border-white/10 border-gray-200">
+                                    3.Unbelievable healthy snack success stories. 12 facts about safe food handling tips
+                                    that
+                                    will impress your friends. Restaurant weeks by the numbers. Will mexican food ever rule
+                                    the world? The 10 best thai restaurant youtube videos. How restaurant weeks can make you
+                                    sick. The complete beginner's guide to cooking healthy food. Unbelievable food stamp
+                                    success stories. How whole foods markets are making the world a better place. 16 things
+                                    that won't happen in dish reviews.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-12 gap-6">
+                            <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12 con-box">
+                                <i class="fa-solid fa-eye"></i>
+                                <h5>Anonymous Access</h5>
+                                <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor.</p>
+                            </div>
+                            <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12 con-box">
+                                <i class="fa-solid fa-user"></i>
+                                <h5>No Usage Logs</h5>
+                                <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor.</p>
+                            </div>
+                            <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12 con-box">
+                                <i class="fa-solid fa-server"></i>
+                                <h5>No Usage Limits</h5>
+                                <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor.</p>
+                            </div>
+                            <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12 con-box">
+                                <i class="fa-solid fa-lock"></i>
+                                <h5>100% White Listed</h5>
+                                <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor.</p>
+                            </div>
+                        </div>
+                    </div>
+            </section> --}}
+
+            <div class="col-span-12 md:col-span-6 xxl:!col-span-4">
+                <div class="box">
+                    <div class="box-header">
+                        <h5 class="box-title">Tabs With Horizontal Center Alignment</h5>
+                    </div>
+                    <div class="box-body">
+                        <div class="border-b border-gray-200 dark:border-white/10">
+                            <nav class="-mb-0.5 flex justify-center space-x-6 rtl:space-x-reverse" aria-label="Tabs">
                                 <button type="button"
                                     class="hs-tab-active:font-semibold hs-tab-active:border-primary hs-tab-active:text-primary py-4 px-1 inline-flex items-center gap-2 border-b-[3px] border-transparent text-sm whitespace-nowrap text-defaulttextcolor hover:text-primary dark:text-[#8c9097] dark:text-white/50 active"
                                     id="horizontal-alignment-item-1" data-hs-tab="#horizontal-alignment-1"
@@ -949,7 +1043,7 @@
                                 aria-labelledby="horizontal-alignment-item-2">
                                 <p
                                     class="text-gray-500 dark:text-[#8c9097] dark:text-white/50 p-5 border rounded-sm dark:border-white/10 border-gray-200">
-                                   2.  How travel coupons make you a better lover. Why cultural solutions are the new black.
+                                    2. How travel coupons make you a better lover. Why cultural solutions are the new black.
                                     Why mom was right about travel insurances. How family trip ideas can help you predict
                                     the future. How carnival cruises make you a better lover. Why you'll never succeed at
                                     daily deals. 11 ways cheapest flights can find you the love of your life. The complete
@@ -970,30 +1064,10 @@
                                 </p>
                             </div>
                         </div>
-                        {{-- <div class="grid grid-cols-12 gap-6">
-                            <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12 con-box">
-                                <i class="fa-solid fa-eye"></i>
-                                <h5>Anonymous Access</h5>
-                                <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor.</p>
-                            </div>
-                            <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12 con-box">
-                                <i class="fa-solid fa-user"></i>
-                                <h5>No Usage Logs</h5>
-                                <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor.</p>
-                            </div>
-                            <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12 con-box">
-                                <i class="fa-solid fa-server"></i>
-                                <h5>No Usage Limits</h5>
-                                <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor.</p>
-                            </div>
-                            <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12 con-box">
-                                <i class="fa-solid fa-lock"></i>
-                                <h5>100% White Listed</h5>
-                                <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor.</p>
-                            </div>
-                        </div> --}}
                     </div>
-            </section>
+                </div>
+            </div>
+
         </div>
     </div>
     </div>
