@@ -149,7 +149,7 @@ class UserauthController extends Controller
 
                         // If the user already has a profile image, delete the old one
                         if ($profileotherchange->profile) {
-                            $oldImage = public_path('assets/userprofile/' . $profileotherchange->profile);
+                            $oldImage = 'assets/userprofile/' . $profileotherchange->profile;
                             if (file_exists($oldImage)) {
                                 unlink($oldImage);
                             }
