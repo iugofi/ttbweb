@@ -105,7 +105,7 @@
                                         I am <b class="text-defaulttextcolor"> @if (isset($user_data) && !empty($user_data->firstname) && !empty($user_data->lastname))
                                             {{ $user_data->firstname . ' ' . $user_data->lastname }}
                                         @else
-                                            ! 
+                                            !
                                         @endif,</b> here by conclude
                                         that,i am the founder and managing director of the prestigeous company name
                                         laugh at all and acts as the cheif executieve officer of the company.
@@ -329,7 +329,12 @@
 
                                                                             </div>
 
-
+                                                                            <div class="mb-3">
+                                                                                <label for="exampleInputPassword1"
+                                                                                    class="form-label">Address</label>
+                                                                                <input type="file" class="blog_images" id="blog_images" name="blog_images" multiple="" data-allow-reorder="true" data-max-file-size="3MB" data-max-files="6">
+                                                                                    <div class="invalid-feedback"></div>
+                                                                                </div>
 
                                                                     </div>
                                                                     <div class="ti-modal-footer">
@@ -707,9 +712,9 @@
                                                                                     <td class="border px-4 py-2">{{$item->amount_total}}</td>
 
                                                                                     <td class="border">
-                                                                                       
+
                                                                                         @if ($item->payment_status=='paid')
-                                                                                            
+
                                                                                             <span
                                                                                                 class="inline-flex text-primary !py-[0.15rem] !px-[0.45rem] rounded-sm !font-semibold !text-[0.75em] bg-primary/10">{{ $item->payment_status }}</span>
                                                                                         @else
@@ -730,7 +735,7 @@
                                                                                                 <i
                                                                                                     class="ri-delete-bin-line align-middle me-2 inline-block"></i>Delete
                                                                                             </button>
-                                    
+
                                                                                         </div>
                                                                                     </td>
                                                                                 </tr>
@@ -738,9 +743,9 @@
                                                                         </tbody>
                                                                     </table>
                                                                 </div>
-                                    
+
                                                             </div>
-                                                            
+
                                                         </div>
                                                     </div>
 
@@ -768,7 +773,7 @@
                                                                             <img src="{{asset('assets/Admin/ttb/VPN-SHIELD.png')}}"
                                                                             alt="">
                                                                             @endif
-                                                                            
+
                                                                         </span>
                                                                         <div class="mt-2">
                                                                             <p class="mb-0 font-semibold">@php
