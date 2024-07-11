@@ -141,7 +141,7 @@
 
         {{-- third pricing plan section start --}}
 
-            <section
+            {{-- <section
                 class=" section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 home2-new-seven-pricing">
                 <div class="pricing-bxx">
                     <div class="grid grid-cols-12 gap-6 justify-center mb-[3rem]">
@@ -150,9 +150,7 @@
                             <div class="container">
                                 <div class="flex justify-center !mx-auto">
                                     <div class="">
-                                        <h4 class="pt-5">SUBSCRIPTION PRICING</h4>
-                                        <h5 class="text-center mb-5 mt-4"> Simple
-                                            Pricing For Everyone </h5>
+                                        <h4 class="pt-5">Compare plans</h4>
                                     </div>
                                 </div>
                                 <div class="flex justify-center mb-4">
@@ -179,8 +177,8 @@
                                                         <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 sm:col-span-12 col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 pe-0 price-box"
                                                             style="margin: 8px;">
                                                             <div class="p-6 text-[#000] dark:text-white/50">
-                                                                <h6 class="font-semibold text-center text-[1rem]">TTB
-                                                                    Antivirus {{ $antivirusitem->name }}</h6>
+                                                                <h6 class="font-semibold text-center text-[1rem]">
+                                                                    Plus  {{ $antivirusitem->name }}</h6>
                                                                 <div class="py-4 flex items-center justify-center">
                                                                     <div class="pricing-svg1">
                                                                         <svg xmlns="http://www.w3.org/2000/svg"
@@ -357,7 +355,616 @@
                         <div class="xxl:col-span-2 col-span-12"></div>
                     </div>
                 </div>
-            </section>
+            </section> --}}
+
+            <div class="grid grid-cols-12 gap-x-6 mb-[3rem]">
+                <div class="xl:col-span-12 col-span-12">
+                    <h5 class="font-semibold text-center text-[1.25rem] !text-defaulttextcolor"> Simple Pricing For Everyone </h5>
+                    <p class="text-[#8c9097] dark:text-white/50 mb-4 text-center">Choose plan that suits best for your business needs, Our plans scales with you based on your needs</p>
+                    <div class="flex justify-center !mb-6">
+                        <nav class="bg-primary/10 p-4 rounded-md mb-4" aria-label="Tabs">
+                            <a class="hs-tab-active:bg-primary hs-tab-active:text-white cursor-pointer text-primary py-2 px-4  text-sm font-medium text-center rounded-sm hover:text-primary active" id="pricing-item" data-hs-tab="#pricing-monthly1-pane" aria-controls="pricing-monthly1-pane">
+                            Monthly
+                            </a>
+                            <a class="hs-tab-active:bg-primary hs-tab-active:text-white cursor-pointer text-primary py-2 px-4 text-sm font-medium text-center  rounded-sm hover:text-primary " id="pricing-yearly1-item" data-hs-tab="#pricing-yearly1-pane" aria-controls="pricing-yearly1-pane">
+                              Yearly
+                            </a>
+                        </nav>
+                    </div>
+                </div>
+                <div class="xl:col-span-12 col-span-12">
+                    <div class="tab-content" id="myTabContent1">
+                        <div class="tab-pane show active !p-0 !border-0" id="pricing-monthly1-pane" role="tabpanel" >
+                            <div class="grid grid-cols-12 gap-6">
+                                <div class="xxl:col-span-3 xl:col-span-6 lg:col-span-6 md:col-span-6 sm:col-span-12 col-span-12">
+                                    <div class="box overflow-hidden">
+                                        <div class="box-body !p-0">
+                                            <div class="px-1 py-2 bg-success/30"></div>
+                                            <div class="!p-6">
+                                                <div class="flex justify-between items-center mb-4">
+                                                    <div class="text-[1.125rem] font-semibold">Free</div>
+                                                    <div class="ms-1">
+                                                        <span class="badge bg-success/10 text-success">For Indivudials</span>
+                                                    </div>
+                                                </div>
+                                                <div class="text-[1.5625rem] font-bold mb-1">$0<sub class="text-[#8c9097] dark:text-white/50 font-semibold text-[.6875rem] ms-1">/ Per Month</sub></div>
+                                                <div class="mb-1 text-[#8c9097] dark:text-white/50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quos debitis aliquam .</div>
+                                                <div class="text-[0.75rem] mb-4"><u>Billed Monthly</u></div>
+                                                <ul class="list-none mb-0">
+                                                    <li class="flex items-center mb-4">
+                                                        <span class="me-2">
+                                                            <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                                                        </span>
+                                                        <span>
+                                                            <strong class="me-1">2 Free</strong>Websites
+                                                        </span>
+                                                    </li>
+                                                    <li class="flex items-center mb-4">
+                                                        <span class="me-2">
+                                                            <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                                                        </span>
+                                                        <span>
+                                                            <strong class="me-1">1 GB</strong>Hard disk storage
+                                                        </span>
+                                                    </li>
+                                                    <li class="flex items-center mb-4">
+                                                        <span class="me-2">
+                                                            <i class="ri-checkbox-circle-line text-[.9375rem] text-[#8c9097] dark:text-white/50 opacity-[0.3]"></i>
+                                                        </span>
+                                                        <span>
+                                                            <strong class="me-1">1 Year</strong>Email support
+                                                        </span>
+                                                    </li>
+                                                    <li class="flex items-center mb-4">
+                                                        <span class="me-2">
+                                                            <i class="ri-checkbox-circle-line text-[.9375rem] text-[#8c9097] dark:text-white/50 opacity-[0.3]"></i>
+                                                        </span>
+                                                        <span>
+                                                            <strong class="me-1">2</strong>Licenses
+                                                        </span>
+                                                    </li>
+                                                    <li class="flex items-center mb-4">
+                                                        <span class="me-2">
+                                                            <i class="ri-checkbox-circle-line text-[.9375rem] text-[#8c9097] dark:text-white/50 opacity-[0.3]"></i>
+                                                        </span>
+                                                        <span>
+                                                            Custom SEO optimizataion
+                                                        </span>
+                                                    </li>
+                                                    <li class="flex items-center mb-4">
+                                                        <span class="me-2">
+                                                            <i class="ri-checkbox-circle-line text-[.9375rem] text-[#8c9097] dark:text-white/50 opacity-[0.3]"></i>
+                                                        </span>
+                                                        <span>
+                                                            Chat Support
+                                                        </span>
+                                                    </li>
+                                                    <li class="grid">
+                                                        <button type="button" class="ti-btn ti-btn-light">Choose Plan</button>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="xxl:col-span-3 xl:col-span-6 lg:col-span-6 md:col-span-6 sm:col-span-12 col-span-12">
+                                    <div class="box overflow-hidden">
+                                        <div class="box-body !p-0">
+                                            <div class="px-1 py-2 bg-success/30"></div>
+                                            <div class="!p-6">
+                                                <div class="flex justify-between items-center mb-4">
+                                                    <div class="text-[1.125rem] font-semibold">Team</div>
+                                                    <div>
+                                                        <span class="badge bg-success/10 text-success">
+                                                            For Small Teams
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="text-[1.5625rem] font-bold mb-1">$149<sub class="text-[#8c9097] dark:text-white/50 font-semibold text-[.6875rem] ms-1">/ Per Month</sub></div>
+                                                <div class="mb-1 text-[#8c9097] dark:text-white/50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quos debitis aliquam .</div>
+                                                <div class="text-[0.75rem] mb-4"><u>Billed Monthly</u></div>
+                                                <ul class="list-none mb-0">
+                                                    <li class="flex items-center mb-4">
+                                                        <span class="me-2">
+                                                            <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                                                        </span>
+                                                        <span>
+                                                            <strong class="me-1">5 Free</strong>Websites
+                                                        </span>
+                                                    </li>
+                                                    <li class="flex items-center mb-4">
+                                                        <span class="me-2">
+                                                            <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                                                        </span>
+                                                        <span>
+                                                            <strong class="me-1">5 GB</strong>Hard disk storage
+                                                        </span>
+                                                    </li>
+                                                    <li class="flex items-center mb-4">
+                                                        <span class="me-2">
+                                                            <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                                                        </span>
+                                                        <span>
+                                                            <strong class="me-1">2 Years</strong>Email support
+                                                        </span>
+                                                    </li>
+                                                    <li class="flex items-center mb-4">
+                                                        <span class="me-2">
+                                                            <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                                                        </span>
+                                                        <span>
+                                                            <strong class="me-1">5</strong>Licenses
+                                                        </span>
+                                                    </li>
+                                                    <li class="flex items-center mb-4">
+                                                        <span class="me-2">
+                                                            <i class="ri-checkbox-circle-line text-[.9375rem] text-[#8c9097] dark:text-white/50 opacity-[0.3]"></i>
+                                                        </span>
+                                                        <span>
+                                                            Custom SEO optimizataion
+                                                        </span>
+                                                    </li>
+                                                    <li class="flex items-center mb-4">
+                                                        <span class="me-2">
+                                                            <i class="ri-checkbox-circle-line text-[.9375rem] text-[#8c9097] dark:text-white/50 opacity-[0.3]"></i>
+                                                        </span>
+                                                        <span>
+                                                            Chat Support
+                                                        </span>
+                                                    </li>
+                                                    <li class="grid">
+                                                        <button type="button" class="ti-btn ti-btn-light ">Choose Plan</button>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="xxl:col-span-3 xl:col-span-6 lg:col-span-6 md:col-span-6 sm:col-span-12 col-span-12">
+                                    <div class="box overflow-hidden border border-primary">
+                                        <div class="box-body !p-0">
+                                            <div class="px-1 py-2 bg-primary/50"></div>
+                                            <div class="!p-6">
+                                                <div class="flex justify-between items-center mb-4">
+                                                    <div class="text-[1.125rem] font-semibold">Business</div>
+                                                    <div>
+                                                        <span class="badge bg-primary/10 text-primary">
+                                                            For Business Purpose
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="text-[1.5625rem] font-bold mb-1">$1,299<sub class="text-[#8c9097] dark:text-white/50 font-semibold text-[.6875rem] ms-1">/ Per Month</sub></div>
+                                                <div class="mb-1 text-[#8c9097] dark:text-white/50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quos debitis aliquam .</div>
+                                                <div class="text-[0.75rem] mb-4 text-dark"><u>Billed Monthly</u></div>
+                                                <ul class="list-none mb-0">
+                                                    <li class="flex items-center mb-4">
+                                                        <span class="me-2">
+                                                            <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                                                        </span>
+                                                        <span>
+                                                            <strong class="me-1">10 Free</strong>Websites
+                                                        </span>
+                                                    </li>
+                                                    <li class="flex items-center mb-4">
+                                                        <span class="me-2">
+                                                            <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                                                        </span>
+                                                        <span>
+                                                            <strong class="me-1">20 GB</strong>Hard disk storage
+                                                        </span>
+                                                    </li>
+                                                    <li class="flex items-center mb-4">
+                                                        <span class="me-2">
+                                                            <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                                                        </span>
+                                                        <span>
+                                                            <strong class="me-1">3 Years</strong>Email support
+                                                        </span>
+                                                    </li>
+                                                    <li class="flex items-center mb-4">
+                                                        <span class="me-2">
+                                                            <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                                                        </span>
+                                                        <span>
+                                                            <strong class="me-1">15</strong>Licenses
+                                                        </span>
+                                                    </li>
+                                                    <li class="flex items-center mb-4">
+                                                        <span class="me-2">
+                                                            <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                                                        </span>
+                                                        <span>
+                                                            Custom SEO optimizataion
+                                                        </span>
+                                                    </li>
+                                                    <li class="flex items-center mb-4">
+                                                        <span class="me-2">
+                                                            <i class="ri-checkbox-circle-line text-[.9375rem] text-[#8c9097] dark:text-white/50 opacity-[0.3]"></i>
+                                                        </span>
+                                                        <span>
+                                                            Chat Support
+                                                        </span>
+                                                    </li>
+                                                    <li class="grid">
+                                                        <button type="button" class="ti-btn bg-primary text-white">Choose Plan</button>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="xxl:col-span-3 xl:col-span-6 lg:col-span-6 md:col-span-6 sm:col-span-12 col-span-12">
+                                    <div class="box overflow-hidden">
+                                        <div class="box-body !p-0">
+                                            <div class="px-1 py-2 bg-success opacity-[0.3]"></div>
+                                            <div class="!p-6">
+                                                <div class="flex justify-between items-center mb-4">
+                                                    <div class="text-[1.125rem] font-semibold">Enterprise</div>
+                                                    <div>
+                                                        <span class="badge bg-success/10 ms-2 text-success">
+                                                            For Large Companies
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="text-[1.5625rem] font-bold mb-1">$7,999<sub class="text-[#8c9097] dark:text-white/50 font-semibold text-[.6875rem] ms-1">/ Per Month</sub></div>
+                                                <div class="mb-1 text-[#8c9097] dark:text-white/50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quos debitis aliquam .</div>
+                                                <div class="text-[0.75rem] mb-4"><u>Billed Monthly</u></div>
+                                                <ul class="list-none mb-0">
+                                                    <li class="flex items-center mb-4">
+                                                        <span class="me-2">
+                                                            <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                                                        </span>
+                                                        <span>
+                                                            <strong class="me-1">20 Free</strong>Websites
+                                                        </span>
+                                                    </li>
+                                                    <li class="flex items-center mb-4">
+                                                        <span class="me-2">
+                                                            <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                                                        </span>
+                                                        <span>
+                                                            <strong class="me-1">30 GB</strong>Hard disk storage
+                                                        </span>
+                                                    </li>
+                                                    <li class="flex items-center mb-4">
+                                                        <span class="me-2">
+                                                            <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                                                        </span>
+                                                        <span>
+                                                            <strong class="me-1">5 Year</strong>Email support
+                                                        </span>
+                                                    </li>
+                                                    <li class="flex items-center mb-4">
+                                                        <span class="me-2">
+                                                            <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                                                        </span>
+                                                        <span>
+                                                            <strong class="me-1">50</strong>Licenses
+                                                        </span>
+                                                    </li>
+                                                    <li class="flex items-center mb-4">
+                                                        <span class="me-2">
+                                                            <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                                                        </span>
+                                                        <span>
+                                                            Custom SEO optimizataion
+                                                        </span>
+                                                    </li>
+                                                    <li class="flex items-center mb-4">
+                                                        <span class="me-2">
+                                                            <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                                                        </span>
+                                                        <span>
+                                                            Chat Support
+                                                        </span>
+                                                    </li>
+                                                    <li class="grid">
+                                                        <button type="button" class="ti-btn ti-btn-light ">Choose Plan</button>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane !p-0 !border-0 hidden" id="pricing-yearly1-pane" role="tabpanel" >
+                            <div class="grid grid-cols-12 gap-6">
+                                <div class="xxl:col-span-3 xl:col-span-6 lg:col-span-6 md:col-span-6 sm:col-span-12 col-span-12">
+                                    <div class="box overflow-hidden">
+                                        <div class="box-body !p-0">
+                                            <div class="px-1 py-2 bg-success opacity-[0.3]"></div>
+                                            <div class="!p-6">
+                                                <div class="flex justify-between items-center mb-4">
+                                                    <div class="text-[1.125rem] font-semibold">Free</div>
+                                                    <div>
+                                                        <span class="badge bg-success/10 text-success">For Indivudials</span>
+                                                    </div>
+                                                </div>
+                                                <div class="text-[1.5625rem] font-bold mb-1">$0<sub class="text-[#8c9097] dark:text-white/50 font-semibold text-[.6875rem] ms-1">/ Per Year</sub></div>
+                                                <div class="mb-1 text-[#8c9097] dark:text-white/50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quos debitis aliquam .</div>
+                                                <div class="text-[0.75rem] mb-4"><u>Billed Yearly</u></div>
+                                                <ul class="list-none mb-0">
+                                                    <li class="flex items-center mb-4">
+                                                        <span class="me-2">
+                                                            <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                                                        </span>
+                                                        <span>
+                                                            <strong class="me-1">2 Free</strong>Websites
+                                                        </span>
+                                                    </li>
+                                                    <li class="flex items-center mb-4">
+                                                        <span class="me-2">
+                                                            <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                                                        </span>
+                                                        <span>
+                                                            <strong class="me-1">1 GB</strong>Hard disk storage
+                                                        </span>
+                                                    </li>
+                                                    <li class="flex items-center mb-4">
+                                                        <span class="me-2">
+                                                            <i class="ri-checkbox-circle-line text-[.9375rem] text-[#8c9097] dark:text-white/50 opacity-[0.3]"></i>
+                                                        </span>
+                                                        <span>
+                                                            <strong class="me-1">1 Year</strong>Email support
+                                                        </span>
+                                                    </li>
+                                                    <li class="flex items-center mb-4">
+                                                        <span class="me-2">
+                                                            <i class="ri-checkbox-circle-line text-[.9375rem] text-[#8c9097] dark:text-white/50 opacity-[0.3]"></i>
+                                                        </span>
+                                                        <span>
+                                                            <strong class="me-1">2</strong>Licenses
+                                                        </span>
+                                                    </li>
+                                                    <li class="flex items-center mb-4">
+                                                        <span class="me-2">
+                                                            <i class="ri-checkbox-circle-line text-[.9375rem] text-[#8c9097] dark:text-white/50 opacity-[0.3]"></i>
+                                                        </span>
+                                                        <span>
+                                                            Custom SEO optimizataion
+                                                        </span>
+                                                    </li>
+                                                    <li class="flex items-center mb-4">
+                                                        <span class="me-2">
+                                                            <i class="ri-checkbox-circle-line text-[.9375rem] text-[#8c9097] dark:text-white/50 opacity-[0.3]"></i>
+                                                        </span>
+                                                        <span>
+                                                            Chat Support
+                                                        </span>
+                                                    </li>
+                                                    <li class="grid">
+                                                        <button type="button" class="ti-btn ti-btn-light ">Choose Plan</button>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="xxl:col-span-3 xl:col-span-6 lg:col-span-6 md:col-span-6 sm:col-span-12 col-span-12">
+                                    <div class="box overflow-hidden">
+                                        <div class="box-body !p-0">
+                                            <div class="px-1 py-2 bg-success opacity-[0.3]"></div>
+                                            <div class="!p-6">
+                                                <div class="flex justify-between items-center mb-4">
+                                                    <div class="text-[1.125rem] font-semibold">Team</div>
+                                                    <div>
+                                                        <span class="badge bg-success/10 text-success">
+                                                            For Small Teams
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="text-[1.5625rem] font-bold mb-1">$1,799<sub class="text-[#8c9097] dark:text-white/50 font-semibold text-[.6875rem] ms-1">/ Per Year</sub></div>
+                                                <div class="mb-1 text-[#8c9097] dark:text-white/50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quos debitis aliquam .</div>
+                                                <div class="text-[0.75rem] mb-4"><u>Billed Yearly</u></div>
+                                                <ul class="list-none mb-0">
+                                                    <li class="flex items-center mb-4">
+                                                        <span class="me-2">
+                                                            <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                                                        </span>
+                                                        <span>
+                                                            <strong class="me-1">5 Free</strong>Websites
+                                                        </span>
+                                                    </li>
+                                                    <li class="flex items-center mb-4">
+                                                        <span class="me-2">
+                                                            <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                                                        </span>
+                                                        <span>
+                                                            <strong class="me-1">5 GB</strong>Hard disk storage
+                                                        </span>
+                                                    </li>
+                                                    <li class="flex items-center mb-4">
+                                                        <span class="me-2">
+                                                            <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                                                        </span>
+                                                        <span>
+                                                            <strong class="me-1">2 Years</strong>Email support
+                                                        </span>
+                                                    </li>
+                                                    <li class="flex items-center mb-4">
+                                                        <span class="me-2">
+                                                            <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                                                        </span>
+                                                        <span>
+                                                            <strong class="me-1">5</strong>Licenses
+                                                        </span>
+                                                    </li>
+                                                    <li class="flex items-center mb-4">
+                                                        <span class="me-2">
+                                                            <i class="ri-checkbox-circle-line text-[.9375rem] text-[#8c9097] dark:text-white/50 opacity-[0.3]"></i>
+                                                        </span>
+                                                        <span>
+                                                            Custom SEO optimizataion
+                                                        </span>
+                                                    </li>
+                                                    <li class="flex items-center mb-4">
+                                                        <span class="me-2">
+                                                            <i class="ri-checkbox-circle-line text-[.9375rem] text-[#8c9097] dark:text-white/50 opacity-[0.3]"></i>
+                                                        </span>
+                                                        <span>
+                                                            Chat Support
+                                                        </span>
+                                                    </li>
+                                                    <li class="grid">
+                                                        <button type="button" class="ti-btn ti-btn-light ">Choose Plan</button>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="xxl:col-span-3 xl:col-span-6 lg:col-span-6 md:col-span-6 sm:col-span-12 col-span-12">
+                                    <div class="box overflow-hidden border border-primary">
+                                        <div class="box-body !p-0">
+                                            <div class="px-1 py-2 bg-primary/50"></div>
+                                            <div class="!p-6">
+                                                <div class="flex justify-between items-center mb-4">
+                                                    <div class="text-[1.125rem] font-semibold">Business</div>
+                                                    <div>
+                                                        <span class="badge bg-primary/10 text-primary">
+                                                            For Business Purpose
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="text-[1.5625rem] font-bold mb-1">$11,999<sub class="text-[#8c9097] dark:text-white/50 font-semibold text-[.6875rem] ms-1">/ Per Year</sub></div>
+                                                <div class="mb-1 text-[#8c9097] dark:text-white/50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quos debitis aliquam .</div>
+                                                <div class="text-[0.75rem] mb-4 text-dark"><u>Billed Yearly</u></div>
+                                                <ul class="list-none mb-0">
+                                                    <li class="flex items-center mb-4">
+                                                        <span class="me-2">
+                                                            <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                                                        </span>
+                                                        <span>
+                                                            <strong class="me-1">10 Free</strong>Websites
+                                                        </span>
+                                                    </li>
+                                                    <li class="flex items-center mb-4">
+                                                        <span class="me-2">
+                                                            <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                                                        </span>
+                                                        <span>
+                                                            <strong class="me-1">20 GB</strong>Hard disk storage
+                                                        </span>
+                                                    </li>
+                                                    <li class="flex items-center mb-4">
+                                                        <span class="me-2">
+                                                            <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                                                        </span>
+                                                        <span>
+                                                            <strong class="me-1">3 Years</strong>Email support
+                                                        </span>
+                                                    </li>
+                                                    <li class="flex items-center mb-4">
+                                                        <span class="me-2">
+                                                            <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                                                        </span>
+                                                        <span>
+                                                            <strong class="me-1">15</strong>Licenses
+                                                        </span>
+                                                    </li>
+                                                    <li class="flex items-center mb-4">
+                                                        <span class="me-2">
+                                                            <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                                                        </span>
+                                                        <span>
+                                                            Custom SEO optimizataion
+                                                        </span>
+                                                    </li>
+                                                    <li class="flex items-center mb-4">
+                                                        <span class="me-2">
+                                                            <i class="ri-checkbox-circle-line text-[.9375rem] text-[#8c9097] dark:text-white/50 opacity-[0.3]"></i>
+                                                        </span>
+                                                        <span>
+                                                            Chat Support
+                                                        </span>
+                                                    </li>
+                                                    <li class="grid">
+                                                        <button type="button" class="ti-btn bg-primary text-white">Choose Plan</button>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="xxl:col-span-3 xl:col-span-6 lg:col-span-6 md:col-span-6 sm:col-span-12 col-span-12">
+                                    <div class="box overflow-hidden">
+                                        <div class="box-body !p-0">
+                                            <div class="px-1 py-2 bg-success opacity-[0.3]"></div>
+                                            <div class="!p-6">
+                                                <div class="flex justify-between items-center mb-4">
+                                                    <div class="text-[1.125rem] font-semibold">Enterprise</div>
+                                                    <div>
+                                                        <span class="badge !bg-success/10 !text-success">
+                                                            For Large Companies
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="text-[1.5625rem] font-bold mb-1">$83,999<sub class="text-[#8c9097] dark:text-white/50 font-semibold text-[.6875rem] ms-1">/ Per Year</sub></div>
+                                                <div class="mb-1 text-[#8c9097] dark:text-white/50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quos debitis aliquam .</div>
+                                                <div class="text-[0.75rem] mb-4"><u>Billed Yearly</u></div>
+                                                <ul class="list-none mb-0">
+                                                    <li class="flex items-center mb-4">
+                                                        <span class="me-2">
+                                                            <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                                                        </span>
+                                                        <span>
+                                                            <strong class="me-1">20 Free</strong>Websites
+                                                        </span>
+                                                    </li>
+                                                    <li class="flex items-center mb-4">
+                                                        <span class="me-2">
+                                                            <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                                                        </span>
+                                                        <span>
+                                                            <strong class="me-1">30 GB</strong>Hard disk storage
+                                                        </span>
+                                                    </li>
+                                                    <li class="flex items-center mb-4">
+                                                        <span class="me-2">
+                                                            <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                                                        </span>
+                                                        <span>
+                                                            <strong class="me-1">5 Year</strong>Email support
+                                                        </span>
+                                                    </li>
+                                                    <li class="flex items-center mb-4">
+                                                        <span class="me-2">
+                                                            <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                                                        </span>
+                                                        <span>
+                                                            <strong class="me-1">50</strong>Licenses
+                                                        </span>
+                                                    </li>
+                                                    <li class="flex items-center mb-4">
+                                                        <span class="me-2">
+                                                            <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                                                        </span>
+                                                        <span>
+                                                            Custom SEO optimizataion
+                                                        </span>
+                                                    </li>
+                                                    <li class="flex items-center mb-4">
+                                                        <span class="me-2">
+                                                            <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
+                                                        </span>
+                                                        <span>
+                                                            Chat Support
+                                                        </span>
+                                                    </li>
+                                                    <li class="grid">
+                                                        <button type="button" class="ti-btn ti-btn-light ">Choose Plan</button>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         {{-- third pricing plan section end --}}
 
