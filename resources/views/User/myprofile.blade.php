@@ -900,6 +900,7 @@
                 e.preventDefault();
                 $('#profilechangeotherbtn').val('please wait..');
                 var token = $('meta[name="csrf-token"]').attr('content');
+                var formData = new FormData($(this)[0]);
                 $.ajax({
                     url: '{{ route('user.myprofileother') }}',
                     method: 'post',
@@ -908,7 +909,7 @@
                     },
                     contentType: false,
                     processData: false,
-                    data: $(this).serialize(),
+                    data: formData,
                     success: function(response) {
                         if (response.status == 400) {
                             showError('first_name', response.messages.first_name);
