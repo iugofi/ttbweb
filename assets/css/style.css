@@ -17409,7 +17409,7 @@ label {
     z-index: 2;
 }
 
-.pricing-svg1::before {
+/* .pricing-svg1::before {
     position: absolute;
     top: -1rem;
     inset-inline-start: -1.25rem;
@@ -17423,7 +17423,7 @@ label {
     background-position: center;
     content: var(--tw-content);
     background-repeat: no-repeat;
-}
+} */
 
 .pricing-svg1 svg {
     height: 4rem;
