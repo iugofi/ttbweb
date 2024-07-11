@@ -58,9 +58,9 @@
                                     <span class="avatar avatar-xxl avatar-rounded online me-4">
                                         @if (isset($user_data->profile))
                                         <img src="{{asset('assets/userprofile/'.$user_data->profile)}}" alt="">
-                                        @endif
+                                        @else
                                         <img src="assets/userprofile/default-profile.png" alt="">
-
+                                        @endif
                                     </span>
                                 </div>
                                 <div class="flex-grow main-profile-info">
