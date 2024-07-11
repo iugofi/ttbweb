@@ -437,7 +437,7 @@
                                                             <i class="fa-solid fa-check"></i> <span>1 PC, Mac, tablet, or phone</span>
                                                         </li>
                                                         <li class="mb-4">
-                                                            <i class="fa-solid fa-check"></i><i class="fa-solid fa-check"></i><span>Antivirus, malware, ransomware, and hacking protection</span>
+                                                            <i class="fa-solid fa-check"></i><span>Antivirus, malware, ransomware, and hacking protection</span>
                                                         </li>
                                                         <li class="mb-4">
                                                             <i class="fa-solid fa-check"></i><span>100% Virus Protection Promise2</span>
