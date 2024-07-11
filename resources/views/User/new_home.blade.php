@@ -367,7 +367,7 @@
                                 {{-- <p class="text-[#8c9097] dark:text-white/50 mb-4 text-center">Choose plan that suits best for your business needs, Our plans scales with you based on your needs</p> --}}
                             </div>
                         </div>
-                        <div class="flex justify-center mb-4">
+                        <div class="flex justify-center mb-4 mt-5">
                             <nav class="bg-primary/10 p-4 rounded-md mb-4" aria-label="Tabs">
                                 <a class="hs-tab-active:bg-primary hs-tab-active:text-white cursor-pointer text-primary py-2 px-4  text-sm font-medium text-center rounded-sm hover:text-primary active" id="pricing-item1" data-hs-tab="#pricing-monthly-pane" aria-controls="pricing-monthly-pane">
                                 Antivirus
