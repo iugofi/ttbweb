@@ -443,10 +443,13 @@
                                                             <span>100% Virus Protection Promise2</span>
                                                         </li>
                                                         <li class="mb-4">
-                                                            <span>2GB Cloud Backup‡‡,4</span>
+                                                            <span>10GB Cloud Backup‡‡,4</span>
                                                         </li>
                                                         <li class="mb-4">
                                                             <span>Password Manager</span>
+                                                        </li>
+                                                        <li class="mb-4">
+                                                            <span>VPN private internet connection</span>
                                                         </li>
                                                     </ul>
 
