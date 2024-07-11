@@ -867,7 +867,7 @@
                             <p class="pt-3">TTB eSupport Concierge will guide you through setting up your <br>hardware and
                                 software smoothly.</p>
                             <div class="box">
-                                <nav class="flex space-x-2 rtl:space-x-reverse" aria-label="Tabs">
+                                <nav class="flex space-x-2 rtl:space-x-reverse mx-auto" aria-label="Tabs">
                                     <button type="button" class="hs-tab-active:bg-gray-200 hs-tab-active:text-gray-800 hs-tab-active:hover:text-gray-800 dark:hs-tab-active:bg-light dark:hs-tab-active:text-white py-3 px-4 inline-flex items-center gap-2 bg-transparent text-sm font-medium text-center text-defaulttextcolor rounded-sm hover:text-primary dark:text-[#8c9097] dark:text-white/50 dark:hover:text-white active" id="pills-on-gray-color-item-1" data-hs-tab="#pills-on-gray-color-1" aria-controls="pills-on-gray-color-1">
                                         Business Network Setup
                                     </button>
@@ -879,7 +879,37 @@
                                     </button>
                                 </nav>
 
-                                <div class="mt-3">
+                                <section class="section-two-iconbox pt-8 bg-white text-color">
+                                    <div class="container main-banner-container">
+                                        <h3 class="text-left mb-2">TTBTM Antivirus</h3>
+                                        <h3 class="text-left mb-5">0 of 0 License(s) USED:<a href="#"> Download </a></h3>
+
+                                        <div class="grid grid-cols-12 gap-6">
+                                            <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12 con-box">
+                                                <i class="fa-solid fa-eye"></i>
+                                                <h5>Anonymous Access</h5>
+                                                <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor.</p>
+                                            </div>
+                                            <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12 con-box">
+                                                <i class="fa-solid fa-user"></i>
+                                                <h5>No Usage Logs</h5>
+                                                <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor.</p>
+                                            </div>
+                                            <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12 con-box">
+                                                <i class="fa-solid fa-server"></i>
+                                                <h5>No Usage Limits</h5>
+                                                <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor.</p>
+                                            </div>
+                                            <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12 con-box">
+                                                <i class="fa-solid fa-lock"></i>
+                                                <h5>100% White Listed</h5>
+                                                <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </section>
+
+                                {{-- <div class="mt-3">
                                     <div id="pills-on-gray-color-1" role="tabpanel" aria-labelledby="pills-on-gray-color-item-1" class="">
                                         <h3>Business Network Setup:</h3>
                                         <p class="mt-2"> As a newbie, setting up your home automation devices on your own can
@@ -975,7 +1005,7 @@
                                             <a href="#">Buy Now</a>
                                         </div>
                                     </div>
-                                </div>
+                                </div> --}}
 
                             </div>
                         </div>
@@ -986,7 +1016,7 @@
             {{-- End profile tab section --}}
 
 
-            <section class="section-two-iconbox pt-8 bg-white text-color">
+            {{-- <section class="section-two-iconbox pt-8 bg-white text-color">
                 <div class="container main-banner-container">
                     <h3 class="text-left mb-2">TTBTM Antivirus</h3>
                     <h3 class="text-left mb-5">0 of 0 License(s) USED:<a href="#"> Download </a></h3>
@@ -1014,7 +1044,7 @@
                         </div>
                     </div>
                 </div>
-        </section>
+        </section> --}}
 
 
         </div>
