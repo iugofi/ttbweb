@@ -1190,7 +1190,7 @@
       <div class="container mx-auto px-4">
         <div class="flex flex-wrap justify-between items-center">
           <div class="w-full lg:w-auto mb-4 lg:mb-0">
-            <p class="text-white text-sm">Copyright © 2024 <a href="https://nighthawk-routerlogin.com/" syile="color:#11CDBE;"> TTB Antivirus.</a> All Rights Reserved
+            <p class="text-white text-sm">Copyright © 2024 <a href="https://nighthawk-routerlogin.com/"> <b style="color:#11CDBE;">TTB Antivirus.</b></a> All Rights Reserved
             </p>
           </div>
           <div class="w-full lg:w-auto">
