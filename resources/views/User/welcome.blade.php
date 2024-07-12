@@ -1099,7 +1099,7 @@
           </div>
           <div class="w-full lg:w-1/2">
             <div class="inner-column text-right lg:text-right">
-              <h2 class="text-white text-3xl font-semibold mb-6">For more information
+              <h2 class="text-white text-3xl font-semibold mb-6">For more information<br>
                 Subscribe today</h2>
               <div class="subscribe-form">
                 <form method="post" action="#">
