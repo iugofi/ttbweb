@@ -1195,37 +1195,67 @@
         </div>
       </div>
   
-    <div class="footer-bottom py-4 border-t border-white">
-      <div class="container mx-auto px-4">
-        <div class="flex flex-wrap justify-between items-center">
-          <div class="w-full lg:w-auto mb-4 lg:mb-0">
-            <p class="text-white text-sm">Copyright © 2024 <a href="https://nighthawk-routerlogin.com/"> <b style="color:#11CDBE;">TTB Antivirus.</b></a> All Rights Reserved
-            </p>
-          </div>
-          <div class="w-full lg:w-auto">
-            <ul class="social-icon flex justify-center lg:justify-end" style="float: inline-end;">
-                <div class="btn-list">
-                    <button aria-label="button" type="button" class="ti-btn ti-btn-sm !mb-0 ti-btn-primary me-[0.365rem]">
-                        <i class="ri-facebook-line font-bold"></i>
-                    </button>
-                    <button aria-label="button" type="button" class="ti-btn ti-btn-sm !mb-0 ti-btn-secondary me-[0.365rem]">
-                        <i class="ri-twitter-line font-bold"></i>
-                    </button>
-                    <button aria-label="button" type="button" class="ti-btn ti-btn-sm !mb-0 ti-btn-warning me-[0.365rem]">
-                        <i class="ri-instagram-line font-bold"></i>
-                    </button>
-                    <button aria-label="button" type="button" class="ti-btn ti-btn-sm !mb-0 ti-btn-success me-[0.365rem]">
-                        <i class="ri-github-line font-bold"></i>
-                    </button>
-                    <button aria-label="button" type="button" class="ti-btn ti-btn-sm !mb-0 ti-btn-danger">
-                        <i class="ri-youtube-line font-bold"></i>
-                    </button>
-                </div>
-            </ul>
+      <div class="footer-bottom py-4 border-t border-white">
+        <div class="container mx-auto px-4">
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 items-center">
+            
+            <!-- Copyright Section -->
+            <div class="mb-4 lg:mb-0">
+              <p class="text-white text-sm">
+                Copyright © 2024 
+                <a href="https://nighthawk-routerlogin.com/">
+                  <b style="color:#11CDBE;">TTB Antivirus.</b>
+                </a> 
+                All Rights Reserved
+              </p>
+            </div>
+            
+            <!-- Navigation Links Section -->
+            <div class="mb-4 lg:mb-0">
+              <div class="flex justify-center lg:justify-center">
+                <ul class="flex lg:flex-row lg:space-x-4">
+                  <li><a href="https://ttbinternetsecurity.com/support" class="text-white">Support</a></li>
+                  <li><a href="https://ttbinternetsecurity.com/privacy_policy" class="text-white">Privacy Policy</a></li>
+                  <li><a href="https://ttbinternetsecurity.com/terms_conditions" class="text-white">Terms Of Service</a></li>
+                  <li><a href="https://ttbinternetsecurity.com/return_policy" class="text-white">Return &amp; Refund Policy</a></li>
+                  <li><a href="https://www.ttbinternetsecurity.com/sitemap.xml" class="text-white">Sitemap</a></li>
+                </ul>
+              </div>
+            </div>
+            
+            <!-- Social Media Icons Section -->
+            <div class="mb-4 lg:mb-0">
+              <ul class="flex justify-center lg:justify-end space-x-2">
+                <li>
+                  <button aria-label="Facebook" type="button" class="ti-btn ti-btn-sm ti-btn-primary">
+                    <i class="ri-facebook-line font-bold"></i>
+                  </button>
+                </li>
+                <li>
+                  <button aria-label="Twitter" type="button" class="ti-btn ti-btn-sm ti-btn-secondary">
+                    <i class="ri-twitter-line font-bold"></i>
+                  </button>
+                </li>
+                <li>
+                  <button aria-label="Instagram" type="button" class="ti-btn ti-btn-sm ti-btn-warning">
+                    <i class="ri-instagram-line font-bold"></i>
+                  </button>
+                </li>
+                <li>
+                  <button aria-label="GitHub" type="button" class="ti-btn ti-btn-sm ti-btn-success">
+                    <i class="ri-github-line font-bold"></i>
+                  </button>
+                </li>
+                <li>
+                  <button aria-label="YouTube" type="button" class="ti-btn ti-btn-sm ti-btn-danger">
+                    <i class="ri-youtube-line font-bold"></i>
+                  </button>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-    </div>
   </footer>
 
     <style>
