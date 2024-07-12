@@ -1246,6 +1246,9 @@ footer::after {
   z-index: -1;
   background-color: #000;
 }
+.footer-top h2 {
+    font-size: 24px;
+}
 .footer-widget a {
     font-size: 14px;
 }
