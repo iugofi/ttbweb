@@ -1076,8 +1076,7 @@
         <div class="flex flex-wrap footer-flex"> 
           <div class="w-full lg:w-1/2 mb-8 lg:mb-0">
             <h2 class="text-white text-3xl font-semibold mb-6">
-                Fast, light, and powerful free protection.
-                It's just a click away.</h2>
+                TTB INTERNET SECURITY APP</h2>
             <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 my-btn-section">
                 <a href="#" class="ti-btn ti-btn-primary-full !rounded-full ti-btn-wave my-btn-pros">
                     <span class="fab fa-apple icon-size-sm mx-3 mr-3 h2"></span>
