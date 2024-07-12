@@ -1309,7 +1309,7 @@ footer::after {
 }
 .footer-bottom .items-center {
     display: flex;
-    gap: 6rem;
+    gap: 3rem;
 }
 .below-links li {
     padding: 0 0.4rem;
