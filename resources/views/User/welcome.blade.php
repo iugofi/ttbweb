@@ -1070,112 +1070,168 @@
 
 --------------------------
 
-<footer class="relative overflow-hidden z-10 bg-gradient-to-r from-purple-500 to-blue-800 text-white">
-    <div class="absolute inset-0 z-0 bg-gradient-to-tr from-purple-400 to-blue-500 opacity-20"></div>
-    <div class="container mx-auto px-4 py-16">
+<footer class="relative overflow-hidden z-1">
+    <img src="images/bg-wave-sym.png" class="wave-img">
+    
+    <div class="footer-top py-12 bg-gradient-to-br from-purple-600 to-blue-800">
+      <div class="container mx-auto px-4">
         <div class="flex flex-wrap">
-            <!-- Download App Section -->
-            <div class="w-full lg:w-1/2 mb-8 lg:mb-0">
-                <h2 class="text-4xl font-semibold mb-6">Download <span class="font-light">App</span> for <br> 7 days free trial</h2>
-                <div class="flex flex-wrap space-x-4">
-                    <a href="#" class="flex items-center border border-white rounded-md p-3 mb-3 hover:bg-white hover:text-blue-800 transition">
-                        <i class="fa fa-apple text-2xl mr-3"></i>
-                        <p class="text-sm">
-                            <small class="block">Download On</small>
-                            App Store
-                        </p>
-                    </a>
-                    <a href="#" class="flex items-center border border-white rounded-md p-3 mb-3 hover:bg-white hover:text-blue-800 transition">
-                        <i class="fa fa-android text-2xl mr-3"></i>
-                        <p class="text-sm">
-                            <small class="block">Get It On</small>
-                            Google Play
-                        </p>
-                    </a>
-                </div>
+          <div class="w-full lg:w-1/2 mb-8 lg:mb-0">
+            <h2 class="text-white text-4xl font-semibold mb-6">
+              Download <span class="font-light">App</span> for <br> 7 days free trial
+            </h2>
+            <div class="download-app-button flex flex-wrap">
+              <a href="#" class="download-btn active flex items-center border border-white text-white py-2 px-6 rounded mr-4 mb-4 hover:bg-white hover:text-indigo-800">
+                <i class="fa fa-apple text-2xl mr-2"></i>
+                <p>
+                  <small class="block">Download On</small>
+                  App Store
+                </p>
+              </a> 
+              <a href="#" class="download-btn flex items-center border border-white text-white py-2 px-6 rounded mr-4 mb-4 hover:bg-white hover:text-indigo-800">
+                <i class="fa fa-android text-2xl mr-2"></i>
+                <p>
+                  <small class="block">Git It On</small>
+                  Google Play
+                </p>
+              </a>
             </div>
-            <!-- Subscribe Section -->
-            <div class="w-full lg:w-1/2">
-                <div class="lg:text-right">
-                    <h2 class="text-4xl font-semibold mb-6">For more <span class="font-light">information</span> <br> Subscribe today</h2>
-                    <form class="relative">
-                        <input type="email" placeholder="Enter email address..." required class="w-full h-14 px-5 py-2 rounded-full bg-white text-gray-800 mb-4">
-                        <button type="submit" class="absolute right-2 top-2 h-10 px-8 bg-yellow-400 text-blue-900 font-bold rounded-full uppercase">Subscribe</button>
-                    </form>
-                </div>
+          </div>
+          <div class="w-full lg:w-1/2">
+            <div class="inner-column text-right lg:text-right">
+              <h2 class="text-white text-4xl font-semibold mb-6">
+                For more <span class="font-light">information</span> <br> Subscribe today
+              </h2>
+              <div class="subscribe-form">
+                <form method="post" action="#">
+                  <div class="form-group relative">
+                    <input type="email" name="text" placeholder="Enter mail address..." required class="w-full h-12 px-10 py-2 rounded-full bg-white text-black outline-none">
+                    <button type="submit" class="absolute right-2 top-2 h-12 bg-yellow-500 text-indigo-800 font-semibold rounded-full px-6 uppercase">
+                      Subscribe
+                    </button>
+                  </div>
+                </form>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
-    <div class="bg-gradient-to-b from-transparent to-blue-900 py-16">
-        <div class="container mx-auto px-4">
+  
+    <div class="widgets-section py-6">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-wrap">
+          <div class="w-full lg:w-1/2 mb-8 lg:mb-0">
             <div class="flex flex-wrap">
-                <!-- About Widget -->
-                <div class="w-full md:w-1/2 lg:w-1/4 mb-8 lg:mb-0">
-                    <div class="mb-8">
-                        <a href="#"><img src="images/logo/logo-light.png" alt="Logo" class="w-1/2 mb-6"></a>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <ul class="space-y-4 mt-6">
-                            <li><i class="fa fa-phone mr-2"></i>+123 (4567) 890</li>
-                            <li><i class="fa fa-envelope mr-2"></i> info@applaap.com</li>
-                            <li><i class="fa fa-home mr-2"></i> 380 St Kilda Road, Melbourne VIC 3004, Australia</li>
-                        </ul>
-                    </div>
+              <div class="w-full lg:w-7/12 mb-8 lg:mb-0">
+                <div class="footer-widget">
+                  <div class="logo mb-8">
+                    <a href="#"><img src="images/logo/logo-light.png" alt="" class="w-40"></a>
+                  </div>
+                  <p class="text-white mb-6">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+                  <ul class="footer-info text-white">
+                    <li class="mb-4 flex items-center"><i class="fa fa-phone mr-2 text-yellow-500"></i>+123 (4567) 890</li>
+                    <li class="mb-4 flex items-center"><i class="fa fa-envelope-o mr-2 text-yellow-500"></i> info@applaap.com</li>
+                    <li class="flex items-center"><i class="fa fa-home mr-2 text-yellow-500"></i> 380 St Kilda Road, Melbourne VIC 3004, Australia</li>
+                  </ul>
                 </div>
-                <!-- Links Widget -->
-                <div class="w-full md:w-1/2 lg:w-1/4 mb-8 lg:mb-0">
-                    <h2 class="text-xl font-semibold mb-6">Links</h2>
-                    <ul class="space-y-4">
-                        <li><a href="#" class="hover:text-yellow-400 transition">Home</a></li>
-                        <li><a href="#" class="hover:text-yellow-400 transition">SAAS</a></li>
-                        <li><a href="#" class="hover:text-yellow-400 transition">Blog list</a></li>
-                        <li><a href="#" class="hover:text-yellow-400 transition">Blog details</a></li>
-                        <li><a href="#" class="hover:text-yellow-400 transition">Login</a></li>
-                        <li><a href="#" class="hover:text-yellow-400 transition">Contact Us</a></li>
-                    </ul>
+              </div>
+              <div class="w-full lg:w-5/12">
+                <div class="footer-widget">
+                  <h2 class="text-white text-xl font-semibold mb-6">Links</h2>
+                  <ul class="list-none text-white">
+                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">Home</a></li>
+                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">SAAS</a></li>
+                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">Blog list</a></li>
+                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">Blog details</a></li>
+                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">Login</a></li>
+                    <li><a href="#" class="hover:text-yellow-500">Contact Us</a></li>
+                  </ul>
                 </div>
-                <!-- Support Widget -->
-                <div class="w-full md:w-1/2 lg:w-1/4 mb-8 lg:mb-0">
-                    <h2 class="text-xl font-semibold mb-6">Support</h2>
-                    <ul class="space-y-4">
-                        <li><a href="#" class="hover:text-yellow-400 transition">Contact Us</a></li>
-                        <li><a href="#" class="hover:text-yellow-400 transition">Submit a Ticket</a></li>
-                        <li><a href="#" class="hover:text-yellow-400 transition">Visit Knowledge Base</a></li>
-                        <li><a href="#" class="hover:text-yellow-400 transition">Support System</a></li>
-                        <li><a href="#" class="hover:text-yellow-400 transition">Refund Policy</a></li>
-                        <li><a href="#" class="hover:text-yellow-400 transition">Professional Services</a></li>
-                    </ul>
-                </div>
-                <!-- Twitter Widget -->
-                <div class="w-full md:w-1/2 lg:w-1/4">
-                    <h2 class="text-xl font-semibold mb-6">Tweets</h2>
-                    <div class="space-y-8">
-                        <div>
-                            <p class="flex items-center"><i class="fa fa-twitter text-blue-400 mr-3"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                            <span class="italic text-yellow-400">@JohnDoe</span>
-                        </div>
-                        <div>
-                            <p class="flex items-center"><i class="fa fa-twitter text-blue-400 mr-3"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                            <span class="italic text-yellow-400">@JohnDoe</span>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
-        </div>
-    </div>
-    <div class="bg-blue-900 py-8">
-        <div class="container mx-auto px-4">
-            <div class="flex flex-wrap items-center justify-between">
-                <p class="w-full md:w-1/2 text-center md:text-left">2019 © Copyright <span class="text-yellow-400">app</span> All rights Reserved.</p>
-                <ul class="flex space-x-6 w-full md:w-1/2 justify-center md:justify-end mt-4 md:mt-0">
-                    <li><a href="#" class="hover:text-yellow-400 transition"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#" class="hover:text-yellow-400 transition"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#" class="hover:text-yellow-400 transition"><i class="fa fa-instagram"></i></a></li>
-                    <li><a href="#" class="hover:text-yellow-400 transition"><i class="fa fa-google-plus"></i></a></li>
-                </ul>
+          </div>
+          <div class="w-full lg:w-1/2">
+            <div class="flex flex-wrap">
+              <div class="w-full lg:w-5/12 mb-8 lg:mb-0">
+                <div class="footer-widget">
+                  <h2 class="text-white text-xl font-semibold mb-6">Support</h2>
+                  <ul class="list-none text-white">
+                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">Contact Us</a></li>
+                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">Submit a Ticket</a></li>
+                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">Visit Knowledge Base</a></li>
+                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">Support System</a></li>
+                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">Refund Policy</a></li>
+                    <li><a href="#" class="hover:text-yellow-500">Professional Services</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="w-full lg:w-7/12">
+                <div class="footer-widget twitter-widget">
+                  <h2 class="text-white text-xl font-semibold mb-6">Tweets</h2>
+                  <div class="tweet-block mb-6">
+                    <p class="text-white mb-2"><i class="fa fa-twitter text-blue-500 mr-2"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    <span class="author-name text-yellow-500 italic">@JohnDoe</span>
+                  </div>
+                  <div class="tweet-block">
+                    <p class="text-white mb-2"><i class="fa fa-twitter text-blue-500 mr-2"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    <span class="author-name text-yellow-500 italic">@JohnDoe</span>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
-</footer>
+  
+    <div class="footer-bottom py-4 border-t border-white">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-wrap justify-between items-center">
+          <div class="w-full lg:w-auto mb-4 lg:mb-0">
+            <p class="text-white text-sm">
+              2019 © Copyright <span class="text-yellow-500">app</span> All rights Reserved.
+            </p>
+          </div>
+          <div class="w-full lg:w-auto">
+            <ul class="social-icon flex justify-center lg:justify-end space-x-4">
+              <li><a href="#" class="text-white hover:text-yellow-500"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#" class="text-white hover:text-yellow-500"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#" class="text-white hover:text-yellow-500"><i class="fa fa-instagram"></i></a></li>
+              <li><a href="#" class="text-white hover:text-yellow-500"><i class="fa fa-google-plus"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+    <style>
+    footer {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+footer::after {
+  position: absolute;
+  content: "";
+  left: -1px;
+  right: -1px;
+  bottom: -1px;
+  top: 0;
+  z-index: -1;
+  background-image: linear-gradient(-134deg, #C86DD7 0%, #3023AE 100%);
+}
+footer .shape-style span {
+  width: 120px;
+  height: 120px;
+  border-radius: 100px 130px 100px 315px;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.
+
+    </style>  
 
 
 
