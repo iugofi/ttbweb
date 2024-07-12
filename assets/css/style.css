@@ -52172,9 +52172,14 @@ h6.uppercase {
     }
 
     /* Start footer mobile responsive */
+
     .footer-flex {
         flex-wrap: wrap !important;
     }
+    .footer-top .subscribe-form {
+        right: 4rem;
+    }
+
     /* End footer mobile responsive */
 }
 
