@@ -1344,6 +1344,14 @@ section.section.landing-footer.text-white.text-\[0\.813rem\] {
 .below-links li:last-child {
     border-right: 0 !important;
 }
+.pinterest {
+    background: #e6002342;
+    color: #e60023;
+}
+.pinterest:hover {
+    color: #fff;
+    background-color: #E60023;
+}
     </style>  
 
 
