@@ -1120,7 +1120,7 @@
   
     <div class="widgets-section py-6">
       <div class="container mx-auto px-4">
-        <div class="flex">
+        <div class="flex flex-wrap footer-flex">
           <div class="w-full lg:w-1/2 mb-8 lg:mb-0">
             <div class="flex flex-wrap">
               <div class="w-full lg:w-7/12 mb-8 lg:mb-0">
