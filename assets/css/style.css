@@ -52179,6 +52179,9 @@ h6.uppercase {
     .footer-top .subscribe-form {
         right: 4rem !important;
     }
+    .px-12 {
+        padding: 0;
+    }
 
     /* End footer mobile responsive */
 }
