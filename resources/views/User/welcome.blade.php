@@ -1341,6 +1341,9 @@ section.section.landing-footer.text-white.text-\[0\.813rem\] {
 .footer-info li a:hover {
     color: #13d4b1;
 }
+.below-links li:last-child {
+    border-right: 0 !important;
+}
     </style>  
 
 
