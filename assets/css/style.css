@@ -52177,7 +52177,7 @@ h6.uppercase {
         flex-wrap: wrap !important;
     }
     .footer-top .subscribe-form {
-        right: 4rem;
+        right: 4rem !important;
     }
 
     /* End footer mobile responsive */
