@@ -1244,7 +1244,7 @@
                 </li>
                 <li>
                   <button aria-label="GitHub" type="button" class="ti-btn ti-btn-sm ti-btn-success">
-                    <i class="ri-github-line font-bold"></i>
+                    <i class="fa-brands fa-linkedin font-bold"></i>
                   </button>
                 </li>
                 <li>
@@ -1252,6 +1252,11 @@
                     <i class="ri-youtube-line font-bold"></i>
                   </button>
                 </li>
+                <li>
+                    <a href="https://www.facebook.com/ttbinternetsecurities/"><button aria-label="pinterest" type="button" class="ti-btn ti-btn-sm ti-btn-danger">
+                      <i class="fa-brands fa-square-pinterest font-bold"></i></a>
+                    </button>
+                  </li>
               </ul>
             </div>
           </div>
