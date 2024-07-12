@@ -1154,7 +1154,7 @@
             </div>
           </div>
           <div class="w-full lg:w-1/2">
-            <div class="flex flex-wrap">
+            <div class="flex flex-wrap footer-flex">
               <div class="w-full lg:w-5/12 mb-8 lg:mb-0">
                 <div class="footer-widget">
                   <h2 class="text-white text-xl font-semibold mb-6">Support</h2>
