@@ -1194,7 +1194,7 @@
             </p>
           </div>
           <div class="w-full lg:w-auto">
-            <ul class="social-icon flex justify-center lg:justify-end space-x-4" style="float-right;">
+            <ul class="social-icon flex justify-center lg:justify-end space-x-4" style="float: inline-end;">
                 <div class="btn-list">
                     <button aria-label="button" type="button" class="ti-btn ti-btn-sm !mb-0 ti-btn-primary me-[0.365rem]">
                         <i class="ri-facebook-line font-bold"></i>
