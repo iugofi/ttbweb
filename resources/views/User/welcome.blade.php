@@ -1131,22 +1131,30 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   </p>
                   <ul class="footer-info text-white">
-                    <li class="mb-4 flex items-center"><i class="fa fa-phone mr-2 text-yellow-500"></i>+123 (4567) 890</li>
+                    <h2 class="text-white text-xl font-semibold mb-6">CONTACT US</h2>
+                    <li class="mb-4 flex items-center"><i class="fa fa-phone mr-2 text-yellow-500"> </i><a href="tel:(800) 710-9311">(800) 710-9311</a></li>
                     <li class="mb-4 flex items-center"><i class="fa fa-envelope-o mr-2 text-yellow-500"></i> info@applaap.com</li>
-                    <li class="flex items-center"><i class="fa fa-home mr-2 text-yellow-500"></i> 380 St Kilda Road, Melbourne VIC 3004, Australia</li>
+                    <h2 class="text-white text-xl font-semibold mb-6">USA</h2>
+                    <li class="flex items-center">Sand Lake Rd, Orlando, FL, USA</li>
+                    <h2 class="text-white text-xl font-semibold mb-6">UNITED KINGDOM</h2>
+                    <li class="flex items-center">Shelton Street, Covent Garden, London,UK</li>
+                    <h2 class="text-white text-xl font-semibold mb-6">CANADA</h2>
+                    <li class="flex items-center">Sugarpine Court Brampton, Ontario, CA</li>
+                    <h2 class="text-white text-xl font-semibold mb-6">INDIA</h2>
+                    <li class="flex items-center">Bestech Business Tower, Sector 66, Mohali, IN</li>
                   </ul>
                 </div>
               </div>
               <div class="w-full lg:w-5/12 px-12">
                 <div class="footer-widget">
-                  <h2 class="text-white text-xl font-semibold mb-6">Links</h2>
+                  <h2 class="text-white text-xl font-semibold mb-6">QUICK LINKS</h2>
                   <ul class="list-none text-white">
                     <li class="mb-2"><a href="#" class="hover:text-yellow-500">Home</a></li>
-                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">SAAS</a></li>
-                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">Blog list</a></li>
-                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">Blog details</a></li>
-                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">Login</a></li>
-                    <li><a href="#" class="hover:text-yellow-500">Contact Us</a></li>
+                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">About</a></li>
+                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">Support</a></li>
+                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">Sign In</a></li>
+                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">Personal</a></li>
+                    <li><a href="#" class="hover:text-yellow-500">Commercial</a></li>
                   </ul>
                 </div>
               </div>
@@ -1156,28 +1164,32 @@
             <div class="flex flex-wrap footer-flex">
               <div class="w-full lg:w-5/12 mb-8 lg:mb-0">
                 <div class="footer-widget">
-                  <h2 class="text-white text-xl font-semibold mb-6">Support</h2>
+                  <h2 class="text-white text-xl font-semibold mb-6">PRODUCTS</h2>
                   <ul class="list-none text-white">
-                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">Contact Us</a></li>
-                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">Submit a Ticket</a></li>
-                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">Visit Knowledge Base</a></li>
-                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">Support System</a></li>
-                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">Refund Policy</a></li>
-                    <li><a href="#" class="hover:text-yellow-500">Professional Services</a></li>
+                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">TTB Antivirus</a></li>
+                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">TTB Internet Security</a></li>
+                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">TTB Total Security</a></li>
+                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">TTB VPN Shield</a></li>
+                    <h2 class="text-white text-xl font-semibold mb-6">RESOURCES</h2>
+                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">News</a></li>
+                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">Blogs</a></li>
                   </ul>
                 </div>
               </div>
               <div class="w-full lg:w-7/12">
                 <div class="footer-widget twitter-widget">
-                  <h2 class="text-white text-xl font-semibold mb-6">Tweets</h2>
-                  <div class="tweet-block mb-6">
-                    <p class="text-white mb-2"><i class="fa fa-twitter text-blue-500 mr-2"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                    <span class="author-name text-yellow-500 italic">@JohnDoe</span>
-                  </div>
-                  <div class="tweet-block">
-                    <p class="text-white mb-2"><i class="fa fa-twitter text-blue-500 mr-2"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                    <span class="author-name text-yellow-500 italic">@JohnDoe</span>
-                  </div>
+                  <h2 class="text-white text-xl font-semibold mb-6">SOLUTIONS</h2>
+                  <ul class="list-none text-white">
+                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">EndPoint Protection</a></li>
+                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">Network Protection</a></li>
+                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">Threat Protection</a></li>
+                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">Behavioral Protection</a></li>
+                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">Enhanced Firewall</a></li>
+                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">Malware Detection</a></li>
+                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">Real Time Anti-phishing</a></li>
+                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">Virus Removal Service</a></li>
+                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">E-Support Concierge</a></li>
+                  </ul>
                 </div>
               </div>
             </div>
