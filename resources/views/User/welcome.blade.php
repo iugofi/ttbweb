@@ -1118,85 +1118,95 @@
     </div>
   
     <div class="widgets-section py-6">
-      <div class="container mx-auto px-4">
-        <div class="flex flex-wrap footer-flex">
-          <div class="w-full lg:w-1/2 mb-8 lg:mb-0">
-            <div class="flex flex-wrap footer-flex">
-              <div class="w-full lg:w-7/12 mb-8 lg:mb-0">
-                <div class="footer-widget">
-                  <div class="logo mb-8">
-                    <a href="#"><img src="images/logo/logo-light.png" alt="" class="w-40"></a>
-                  </div>
-                  <p class="text-white mb-6">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </p>
-                  <ul class="footer-info text-white">
-                    <h2 class="text-white text-xl font-semibold mb-6">CONTACT US</h2>
-                    <li class="mb-4 flex items-center"><i class="fa fa-phone mr-2 text-yellow-500"> </i><a href="tel:(800) 710-9311">(800) 710-9311</a></li>
-                    <li class="mb-4 flex items-center"><i class="fa fa-envelope-o mr-2 text-yellow-500"></i> info@applaap.com</li>
-                    <h2 class="text-white text-xl font-semibold mb-6">USA</h2>
-                    <li class="flex items-center">Sand Lake Rd, Orlando, FL, USA</li>
-                    <h2 class="text-white text-xl font-semibold mb-6">UNITED KINGDOM</h2>
-                    <li class="flex items-center">Shelton Street, Covent Garden, London,UK</li>
-                    <h2 class="text-white text-xl font-semibold mb-6">CANADA</h2>
-                    <li class="flex items-center">Sugarpine Court Brampton, Ontario, CA</li>
-                    <h2 class="text-white text-xl font-semibold mb-6">INDIA</h2>
-                    <li class="flex items-center">Bestech Business Tower, Sector 66, Mohali, IN</li>
-                  </ul>
+        <div class="container mx-auto px-4">
+          <div class="flex flex-wrap footer-flex justify-between">
+            <div class="w-full lg:w-1/5 mb-8 lg:mb-0">
+              <div class="footer-widget">
+                <div class="logo mb-8">
+                  <a href="#"><img src="images/logo/logo-light.png" alt="" class="w-40"></a>
                 </div>
-              </div>
-              <div class="w-full lg:w-5/12 px-12">
-                <div class="footer-widget">
-                  <h2 class="text-white text-xl font-semibold mb-6">QUICK LINKS</h2>
-                  <ul class="list-none text-white">
-                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">Home</a></li>
-                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">About</a></li>
-                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">Support</a></li>
-                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">Sign In</a></li>
-                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">Personal</a></li>
-                    <li><a href="#" class="hover:text-yellow-500">Commercial</a></li>
-                  </ul>
-                </div>
+                <p class="text-white mb-6">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <ul class="footer-info text-white">
+                  <h2 class="text-white text-xl font-semibold mb-6">CONTACT US</h2>
+                  <li class="mb-4 flex items-center"><i class="fa fa-phone mr-2 text-yellow-500"></i><a href="tel:(800) 710-9311">(800) 710-9311</a></li>
+                  <li class="mb-4 flex items-center"><i class="fa fa-envelope-o mr-2 text-yellow-500"></i> info@applaap.com</li>
+                  <h2 class="text-white text-xl font-semibold mb-6">USA</h2>
+                  <li class="flex items-center">Sand Lake Rd, Orlando, FL, USA</li>
+                  <h2 class="text-white text-xl font-semibold mb-6">UNITED KINGDOM</h2>
+                  <li class="flex items-center">Shelton Street, Covent Garden, London, UK</li>
+                  <h2 class="text-white text-xl font-semibold mb-6">CANADA</h2>
+                  <li class="flex items-center">Sugarpine Court Brampton, Ontario, CA</li>
+                  <h2 class="text-white text-xl font-semibold mb-6">INDIA</h2>
+                  <li class="flex items-center">Bestech Business Tower, Sector 66, Mohali, IN</li>
+                </ul>
               </div>
             </div>
-          </div>
-          <div class="w-full lg:w-1/2">
-            <div class="flex flex-wrap footer-flex">
-              <div class="w-full lg:w-5/12 mb-8 lg:mb-0">
-                <div class="footer-widget">
-                  <h2 class="text-white text-xl font-semibold mb-6">PRODUCTS</h2>
-                  <ul class="list-none text-white">
-                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">TTB Antivirus</a></li>
-                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">TTB Internet Security</a></li>
-                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">TTB Total Security</a></li>
-                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">TTB VPN Shield</a></li>
-                    <h2 class="text-white text-xl font-semibold mb-6">RESOURCES</h2>
-                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">News</a></li>
-                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">Blogs</a></li>
-                  </ul>
-                </div>
+            <div class="w-full lg:w-1/5 mb-8 lg:mb-0 px-12">
+              <div class="footer-widget">
+                <h2 class="text-white text-xl font-semibold mb-6">QUICK LINKS</h2>
+                <ul class="list-none text-white">
+                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">Home</a></li>
+                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">About</a></li>
+                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">Support</a></li>
+                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">Sign In</a></li>
+                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">Personal</a></li>
+                  <li><a href="#" class="hover:text-yellow-500">Commercial</a></li>
+                </ul>
               </div>
-              <div class="w-full lg:w-7/12">
-                <div class="footer-widget twitter-widget">
-                  <h2 class="text-white text-xl font-semibold mb-6">SOLUTIONS</h2>
-                  <ul class="list-none text-white">
-                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">EndPoint Protection</a></li>
-                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">Network Protection</a></li>
-                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">Threat Protection</a></li>
-                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">Behavioral Protection</a></li>
-                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">Enhanced Firewall</a></li>
-                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">Malware Detection</a></li>
-                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">Real Time Anti-phishing</a></li>
-                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">Virus Removal Service</a></li>
-                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">E-Support Concierge</a></li>
-                  </ul>
-                </div>
+            </div>
+            <div class="w-full lg:w-1/5 mb-8 lg:mb-0">
+              <div class="footer-widget">
+                <h2 class="text-white text-xl font-semibold mb-6">PRODUCTS</h2>
+                <ul class="list-none text-white">
+                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">TTB Antivirus</a></li>
+                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">TTB Internet Security</a></li>
+                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">TTB Total Security</a></li>
+                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">TTB VPN Shield</a></li>
+                </ul>
+                <h2 class="text-white text-xl font-semibold mb-6">RESOURCES</h2>
+                <ul class="list-none text-white">
+                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">News</a></li>
+                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">Blogs</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="w-full lg:w-1/5 mb-8 lg:mb-0">
+              <div class="footer-widget">
+                <h2 class="text-white text-xl font-semibold mb-6">SOLUTIONS</h2>
+                <ul class="list-none text-white">
+                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">EndPoint Protection</a></li>
+                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">Network Protection</a></li>
+                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">Threat Protection</a></li>
+                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">Behavioral Protection</a></li>
+                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">Enhanced Firewall</a></li>
+                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">Malware Detection</a></li>
+                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">Real Time Anti-phishing</a></li>
+                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">Virus Removal Service</a></li>
+                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">E-Support Concierge</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="w-full lg:w-1/5 mb-8 lg:mb-0">
+              <div class="footer-widget">
+                <h2 class="text-white text-xl font-semibold mb-6">SOLUTIONS</h2>
+                <ul class="list-none text-white">
+                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">EndPoint Protection</a></li>
+                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">Network Protection</a></li>
+                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">Threat Protection</a></li>
+                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">Behavioral Protection</a></li>
+                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">Enhanced Firewall</a></li>
+                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">Malware Detection</a></li>
+                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">Real Time Anti-phishing</a></li>
+                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">Virus Removal Service</a></li>
+                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">E-Support Concierge</a></li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
   
     <div class="footer-bottom py-4 border-t border-white">
       <div class="container mx-auto px-4">
