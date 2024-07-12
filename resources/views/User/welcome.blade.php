@@ -1070,60 +1070,160 @@
 
 --------------------------
 
-<section class="e-support-section-six">
-    <div class="container">
-        <div class="grid grid-cols-12 gap-6 pt-5">
-            <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 col-span-12">
-                <h2>Easily Setup the Smart Devices</h2>
-                <p class="pt-3">TTB eSupport Concierge will guide you through setting up your <br>hardware and
-                    software smoothly.</p>
-                <div class="box">
-                    <nav class="flex space-x-2 rtl:space-x-reverse mx-auto" aria-label="Tabs">
-                        <button type="button" class="hs-tab-active:bg-gray-200 hs-tab-active:text-gray-800 hs-tab-active:hover:text-gray-800 dark:hs-tab-active:bg-light dark:hs-tab-active:text-white py-3 px-4 inline-flex items-center gap-2 bg-transparent text-sm font-medium text-center text-defaulttextcolor rounded-sm hover:text-primary dark:text-[#8c9097] dark:text-white/50 dark:hover:text-white active" id="pills-on-gray-color-item-1" data-hs-tab="#pills-on-gray-color-1" aria-controls="pills-on-gray-color-1">
-                            Business Network Setup
-                        </button>
-                        <button type="button" class="hs-tab-active:bg-gray-200 hs-tab-active:text-gray-800 hs-tab-active:hover:text-gray-800 dark:hs-tab-active:bg-light dark:hs-tab-active:text-white py-3 px-4 inline-flex items-center gap-2 bg-transparent text-sm font-medium text-center text-defaulttextcolor rounded-sm hover:text-primary dark:text-[#8c9097] dark:text-white/50 dark:hover:text-white" id="pills-on-gray-color-item-2" data-hs-tab="#pills-on-gray-color-2" aria-controls="pills-on-gray-color-2">
-                            Smart Device Setup
-                        </button>
-                        <button type="button" class="hs-tab-active:bg-gray-200 hs-tab-active:text-gray-800 hs-tab-active:hover:text-gray-800 dark:hs-tab-active:bg-light dark:hs-tab-active:text-white py-3 px-4 inline-flex items-center gap-2 bg-transparent text-sm font-medium text-center text-defaulttextcolor rounded-sm hover:text-primary dark:text-[#8c9097] dark:text-white/50 dark:hover:text-white" id="pills-on-gray-color-item-3" data-hs-tab="#pills-on-gray-color-3" aria-controls="pills-on-gray-color-3">
-                            Software Installation
-                        </button>
-                    </nav>
-
-                    <div class="mt-3">
-                        <div id="pills-on-gray-color-1" role="tabpanel" aria-labelledby="pills-on-gray-color-item-1">
-                            <h3>Business Network Setup:</h3>
-                            <p class="mt-2"> As a newbie, setting up your home automation devices on your own can
-                                be difficult.
-                                But with our TTB eSupport Concierge it will be easier than ever.</p>
-                            <div class="tab-btn-buy">
-                                <a href="#">Buy Now</a>
-                            </div>
-                        </div>
-                        <div id="pills-on-gray-color-2" class="hidden" role="tabpanel" aria-labelledby="pills-on-gray-color-item-2">
-                            <h3>Smart Device Setup:</h3>
-                            <p class="mt-2"> From your home networks to workplace security devices, we will help
-                                you optimize them for optimal functioning only.</p>
-                            <div class="tab-btn-buy">
-                                <a href="#">Buy Now</a>
-                            </div>
-                        </div>
-                        <div id="pills-on-gray-color-3" class="hidden" role="tabpanel" aria-labelledby="pills-on-gray-color-item-3">
-                            <h3>Software Installation:</h3>
-                            <p class="mt-2"> Software installation can be difficult to eliminate without
-                                professional advice. So, contact us to ensure your software is set up and
-                                functioning properly.</p>
-                            <div class="tab-btn-buy">
-                                <a href="#">Buy Now</a>
-                            </div>
+<footer class="relative overflow-hidden z-1 bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 text-white">
+    <img src="images/bg-wave-sym.png" class="transform rotate-180">
+    <div class="pt-12 pb-6">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap">
+                <div class="w-full lg:w-1/2 mb-8 lg:mb-0">
+                    <h2 class="text-4xl font-semibold mb-4">Download <span class="font-light">App</span> for <br> 7 days free trial</h2>
+                    <div class="flex space-x-4">
+                        <a href="#" class="flex items-center px-4 py-2 border border-white rounded hover:bg-white hover:text-purple-700 transition">
+                            <i class="fa fa-apple text-2xl mr-2"></i>
+                            <p>
+                                <small class="text-sm">Download On</small><br> App Store
+                            </p>
+                        </a>
+                        <a href="#" class="flex items-center px-4 py-2 border border-white rounded hover:bg-white hover:text-purple-700 transition">
+                            <i class="fa fa-android text-2xl mr-2"></i>
+                            <p>
+                                <small class="text-sm">Get It On</small><br>Google Play
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/2">
+                    <div class="text-right">
+                        <h2 class="text-4xl font-semibold mb-4">For more <span class="font-light">information</span> <br> Subscribe today</h2>
+                        <div class="relative">
+                            <form method="post" action="#">
+                                <input type="email" name="email" placeholder="Enter email address..." required class="w-full h-12 p-4 rounded-full text-black">
+                                <button type="submit" class="absolute right-2 top-2 h-10 px-6 bg-yellow-400 text-black font-semibold rounded-full uppercase">Subscribe</button>
+                            </form>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
     </div>
-</section>
+    <div class="py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap">
+                <div class="w-full lg:w-1/2 mb-8 lg:mb-0">
+                    <div class="flex flex-wrap">
+                        <div class="w-full lg:w-7/12 mb-8 lg:mb-0">
+                            <div>
+                                <a href="#"><img src="images/logo/logo-light.png" alt="" class="w-2/5 mb-8"></a>
+                                <p class="mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <ul>
+                                    <li class="flex items-center mb-4">
+                                        <i class="fa fa-phone mr-2"></i>+123 (4567) 890
+                                    </li>
+                                    <li class="flex items-center mb-4">
+                                        <i class="fa fa-envelope mr-2"></i>info@applaap.com
+                                    </li>
+                                    <li class="flex items-center mb-4">
+                                        <i class="fa fa-home mr-2"></i>380 St Kilda Road, Melbourne VIC 3004, Australia
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="w-full lg:w-5/12">
+                            <div>
+                                <h2 class="text-xl font-semibold mb-6">Links</h2>
+                                <ul class="space-y-4">
+                                    <li><a href="#" class="hover:text-yellow-400 transition">Home</a></li>
+                                    <li><a href="#" class="hover:text-yellow-400 transition">SAAS</a></li>
+                                    <li><a href="#" class="hover:text-yellow-400 transition">Blog list</a></li>
+                                    <li><a href="#" class="hover:text-yellow-400 transition">Blog details</a></li>
+                                    <li><a href="#" class="hover:text-yellow-400 transition">Login</a></li>
+                                    <li><a href="#" class="hover:text-yellow-400 transition">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/2">
+                    <div class="flex flex-wrap">
+                        <div class="w-full lg:w-5/12 mb-8 lg:mb-0">
+                            <div>
+                                <h2 class="text-xl font-semibold mb-6">Support</h2>
+                                <ul class="space-y-4">
+                                    <li><a href="#" class="hover:text-yellow-400 transition">Contact Us</a></li>
+                                    <li><a href="#" class="hover:text-yellow-400 transition">Submit a Ticket</a></li>
+                                    <li><a href="#" class="hover:text-yellow-400 transition">Visit Knowledge Base</a></li>
+                                    <li><a href="#" class="hover:text-yellow-400 transition">Support System</a></li>
+                                    <li><a href="#" class="hover:text-yellow-400 transition">Refund Policy</a></li>
+                                    <li><a href="#" class="hover:text-yellow-400 transition">Professional Services</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="w-full lg:w-7/12">
+                            <div>
+                                <h2 class="text-xl font-semibold mb-6">Tweets</h2>
+                                <div class="mb-6">
+                                    <p class="flex items-center mb-2">
+                                        <i class="fa fa-twitter text-blue-400 mr-2"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                                    </p>
+                                    <span class="italic text-yellow-400">@JohnDoe</span>
+                                </div>
+                                <div>
+                                    <p class="flex items-center mb-2">
+                                        <i class="fa fa-twitter text-blue-400 mr-2"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                                    </p>
+                                    <span class="italic text-yellow-400">@JohnDoe</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="py-6 border-t border-white border-opacity-60">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap items-center justify-between">
+                <p class="w-full lg:w-auto text-center lg:text-left mb-4 lg:mb-0">2019 © Copyright <span class="text-yellow-400">app</span> All rights Reserved.</p>
+                <ul class="flex space-x-4 justify-center lg:justify-end">
+                    <li><a href="#" class="hover:text-yellow-400 transition"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#" class="hover:text-yellow-400 transition"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#" class="hover:text-yellow-400 transition"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="#" class="hover:text-yellow-400 transition"><i class="fa fa-google-plus"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    // tailwind.config.js
+module.exports = {
+  theme: {
+    extend: {
+      colors: {
+        purple: {
+          400: '#C86DD7',
+          500: '#3023AE',
+          700: '#281483',
+        },
+        pink: {
+          500: '#D782D9',
+        },
+        yellow: {
+          400: '#FFCC00',
+        },
+        blue: {
+          400: '#0397FF',
+        },
+      },
+      fontFamily: {
+        sans: ['Poppins', 'sans-serif'],
+      },
+    },
+  },
+};
+
+</script>
 
 
 
