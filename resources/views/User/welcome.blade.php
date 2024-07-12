@@ -1128,9 +1128,8 @@
                 </p>
                 <ul class="footer-info text-white">
                   <h2 class="text-white text-xl font-semibold mb-6">CONTACT US</h2>
-                  <li class="mb-4 flex items-center"><i class="fa fa-phone mr-2 text-yellow-500"></i><a href="tel:(800) 710-9311">(800) 710-9311</a></li>
-                  <li class="mb-4 flex items-center"><i class="fa fa-envelope-o mr-2 text-yellow-500"></i> info@applaap.com</li>
-                  
+                  <li class="mb-4 flex items-center"><i class="fa fa-phone mr-2 px-2 text-yellow-500"></i><a href="tel:(800) 710-9311">(800) 710-9311</a></li>
+                  <li class="mb-4 flex items-center"><i class="fa-solid fa-envelope mr-2 px-2 text-yellow-500"></i> info@applaap.com</li>
                 </ul>
               </div>
             </div>
