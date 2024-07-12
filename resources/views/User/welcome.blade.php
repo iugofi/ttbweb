@@ -1084,8 +1084,8 @@
                         <h5 class="mb-0">Download</h5>
                     </div>
                 </a>
-                <a href="#" class="ti-btn !rounded-full ti-btn-wave my-btn-pro" style="border: 1px solid #13D8AA font-size: 26px;">
-                    <span class="fab fa-google-play icon-size-sm mx-3 mr-3 h2" style="color: #13D8AA; font-size: 22px;"></span>
+                <a href="#" class="ti-btn !rounded-full ti-btn-wave my-btn-pro" style="border: 1px solid #13D8AA ">
+                    <span class="fab fa-google-play icon-size-sm mx-3 mr-3 h2" style="color: #13D8AA;"></span>
                     <div class="download-text text-left">
                         <h5 class="mb-0">Download</h5>
                     </div>
