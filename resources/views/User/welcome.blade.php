@@ -1071,7 +1071,7 @@
 --------------------------
 
 <footer class="relative overflow-hidden z-1"> 
-    <div class="footer-top py-12 bg-gradient-to-br from-purple-600 to-blue-800 mt-4">
+    <div class="footer-top py-12 bg-gradient-to-br from-purple-600 to-blue-800" style="margin-top: 4rem;">
       <div class="container mx-auto px-4">
         <div class="flex flex-wrap footer-flex"> 
           <div class="w-full lg:w-1/2 mb-8 lg:mb-0">
