@@ -1074,7 +1074,7 @@
     <div class="footer-top py-12 bg-gradient-to-br from-purple-600 to-blue-800" style="margin-top: 4rem;">
       <div class="container mx-auto px-4">
         <div class="flex flex-wrap footer-flex"> 
-          <div class="w-full lg:w-1/2 mb-8 lg:mb-0">
+          <div class="w-full lg:w-1/2 mb-8 lg:mb-0 mobile-flex">
             {{-- <h2 class="text-white text-3xl font-semibold mb-6">
                 TTB INTERNET SECURITY APP</h2> --}}
             <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 my-btn-section">
