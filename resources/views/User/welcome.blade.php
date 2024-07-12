@@ -1247,13 +1247,15 @@ footer::after {
   z-index: -1;
   background-color: #000;
 }
-/* footer .shape-style span {
-  width: 120px;
-  height: 120px;
-  border-radius: 100px 130px 100px 315px;
-  position: absolute;
-  background: rgba(255, 255, 255, 0.);
-} */
+.footer-widget a {
+    font-size: 14px;
+}
+.footer-widget li {
+    font-size: 14px;
+}
+.footer-widget p {
+    font-size: 14px;
+}
 .footer-flex {
     flex-wrap: inherit;
 }
