@@ -1138,7 +1138,7 @@
                   </ul>
                 </div>
               </div>
-              <div class="w-full lg:w-5/12">
+              <div class="w-full lg:w-5/12 px-12">
                 <div class="footer-widget">
                   <h2 class="text-white text-xl font-semibold mb-6">Links</h2>
                   <ul class="list-none text-white">
