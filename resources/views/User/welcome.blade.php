@@ -1073,11 +1073,11 @@
 <footer class="relative overflow-hidden z-1">
     <img src="images/bg-wave-sym.png" class="wave-img">
     
-    <div class="footer-top py-12 bg-gradient-to-br from-purple-600 to-blue-800">
+    <div class="footer-top py-12 bg-gradient-to-br from-purple-600 to-blue-800 mt-4">
       <div class="container mx-auto px-4">
         <div class="flex flex-wrap footer-flex"> 
           <div class="w-full lg:w-1/2 mb-8 lg:mb-0">
-            <h2 class="text-white text-4xl font-semibold mb-6">
+            <h2 class="text-white text-3xl font-semibold mb-6">
                 Fast, light, and powerful free protection.
                 It's just a click away.</h2>
             <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 my-btn-section">
@@ -1099,7 +1099,7 @@
           </div>
           <div class="w-full lg:w-1/2">
             <div class="inner-column text-right lg:text-right">
-              <h2 class="text-white text-4xl font-semibold mb-6">
+              <h2 class="text-white text-3xl font-semibold mb-6">
                 For more <span class="font-light">information</span> <br> Subscribe today
               </h2>
               <div class="subscribe-form">
