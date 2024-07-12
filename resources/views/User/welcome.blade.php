@@ -1132,14 +1132,7 @@
                   <h2 class="text-white text-xl font-semibold mb-6">CONTACT US</h2>
                   <li class="mb-4 flex items-center"><i class="fa fa-phone mr-2 text-yellow-500"></i><a href="tel:(800) 710-9311">(800) 710-9311</a></li>
                   <li class="mb-4 flex items-center"><i class="fa fa-envelope-o mr-2 text-yellow-500"></i> info@applaap.com</li>
-                  <h2 class="text-white text-xl font-semibold mb-6">USA</h2>
-                  <li class="flex items-center">Sand Lake Rd, Orlando, FL, USA</li>
-                  <h2 class="text-white text-xl font-semibold mb-6">UNITED KINGDOM</h2>
-                  <li class="flex items-center">Shelton Street, Covent Garden, London, UK</li>
-                  <h2 class="text-white text-xl font-semibold mb-6">CANADA</h2>
-                  <li class="flex items-center">Sugarpine Court Brampton, Ontario, CA</li>
-                  <h2 class="text-white text-xl font-semibold mb-6">INDIA</h2>
-                  <li class="flex items-center">Bestech Business Tower, Sector 66, Mohali, IN</li>
+                  
                 </ul>
               </div>
             </div>
@@ -1190,17 +1183,16 @@
             </div>
             <div class="w-full lg:w-1/5 mb-8 lg:mb-0">
               <div class="footer-widget">
-                <h2 class="text-white text-xl font-semibold mb-6">SOLUTIONS</h2>
+                <h2 class="text-white text-xl font-semibold mb-6">ADDRESS</h2>
                 <ul class="list-none text-white">
-                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">EndPoint Protection</a></li>
-                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">Network Protection</a></li>
-                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">Threat Protection</a></li>
-                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">Behavioral Protection</a></li>
-                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">Enhanced Firewall</a></li>
-                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">Malware Detection</a></li>
-                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">Real Time Anti-phishing</a></li>
-                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">Virus Removal Service</a></li>
-                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">E-Support Concierge</a></li>
+                    <h2 class="text-white text-xl font-semibold mb-6">USA</h2>
+                    <li class="flex items-center">Sand Lake Rd, Orlando, FL, USA</li>
+                    <h2 class="text-white text-xl font-semibold mb-6">UNITED KINGDOM</h2>
+                    <li class="flex items-center">Shelton Street, Covent Garden, London, UK</li>
+                    <h2 class="text-white text-xl font-semibold mb-6">CANADA</h2>
+                    <li class="flex items-center">Sugarpine Court Brampton, Ontario, CA</li>
+                    <h2 class="text-white text-xl font-semibold mb-6">INDIA</h2>
+                    <li class="flex items-center">Bestech Business Tower, Sector 66, Mohali, IN</li>
                 </ul>
               </div>
             </div>
