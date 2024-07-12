@@ -1222,6 +1222,7 @@ footer::after {
   bottom: -1px;
   top: 0;
   z-index: -1;
+  background-color: #000;
   /* background-image: linear-gradient(-134deg, #C86DD7 0%, #3023AE 100%); */
 }
 footer .shape-style span {
