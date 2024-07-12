@@ -1247,6 +1247,23 @@ footer::after {
 .footer-top h2 {
     font-size: 24px;
 }
+.footer-top .subscribe-form {
+    position: absolute;
+    right: 7rem;
+    border: 1px solid #13d4b1;
+    border-radius: 31px;
+}
+.footer-top .subscribe-form button {
+    position: absolute;
+    color: #fff;
+    background: #13d4b1;
+    right: 0rem;
+    top: 0;
+}
+.footer-top .subscribe-form input {
+    border: none;
+}
+
 .footer-widget a {
     font-size: 14px;
 }
