@@ -1199,6 +1199,20 @@
         <div class="container mx-auto px-4">
           <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 items-center">
             
+            <!-- Navigation Links Section -->
+            <div class="mb-4 lg:mb-0">
+                <div class="flex justify-center lg:justify-center">
+                  <ul class="flex lg:flex-row lg:space-x-4">
+                    <li><a href="https://ttbinternetsecurity.com/support" class="text-white">Support</a></li>
+                    <li><a href="https://ttbinternetsecurity.com/privacy_policy" class="text-white">Privacy Policy</a></li>
+                    <li><a href="https://ttbinternetsecurity.com/terms_conditions" class="text-white">Terms Of Service</a></li>
+                    <li><a href="https://ttbinternetsecurity.com/return_policy" class="text-white">Return &amp; Refund Policy</a></li>
+                    <li><a href="https://www.ttbinternetsecurity.com/sitemap.xml" class="text-white">Sitemap</a></li>
+                  </ul>
+                </div>
+              </div>
+
+
             <!-- Copyright Section -->
             <div class="mb-4 lg:mb-0">
               <p class="text-white text-sm">
@@ -1208,19 +1222,6 @@
                 </a> 
                 All Rights Reserved
               </p>
-            </div>
-            
-            <!-- Navigation Links Section -->
-            <div class="mb-4 lg:mb-0">
-              <div class="flex justify-center lg:justify-center">
-                <ul class="flex lg:flex-row lg:space-x-4">
-                  <li><a href="https://ttbinternetsecurity.com/support" class="text-white">Support</a></li>
-                  <li><a href="https://ttbinternetsecurity.com/privacy_policy" class="text-white">Privacy Policy</a></li>
-                  <li><a href="https://ttbinternetsecurity.com/terms_conditions" class="text-white">Terms Of Service</a></li>
-                  <li><a href="https://ttbinternetsecurity.com/return_policy" class="text-white">Return &amp; Refund Policy</a></li>
-                  <li><a href="https://www.ttbinternetsecurity.com/sitemap.xml" class="text-white">Sitemap</a></li>
-                </ul>
-              </div>
             </div>
             
             <!-- Social Media Icons Section -->
@@ -1306,7 +1307,12 @@ footer::after {
 .footer-flex {
     flex-wrap: inherit;
 }
-.below-links .align-items-center {
+.footer-bottom .items-center {
+    display: flex;
+    gap: 6rem;
+}
+
+/* .below-links .align-items-center {
     display: flex;
 }
 .below-links {
@@ -1316,7 +1322,7 @@ footer::after {
 }
 .below-links ul > li:last-child {
     border: none !important;
-}
+} */
 section.section.landing-footer.text-white.text-\[0\.813rem\] {
     display: none;
 }
