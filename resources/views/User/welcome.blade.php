@@ -1182,14 +1182,14 @@
               <div class="footer-widget">
                 <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">ADDRESS</h2>
                 <ul class="list-none text-white">
-                    <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">USA</h2>
-                    <li class="flex items-center">Sand Lake Rd, Orlando, FL, USA</li>
-                    <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">UNITED KINGDOM</h2>
-                    <li class="flex items-center">Shelton Street, Covent Garden, London, UK</li>
-                    <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">CANADA</h2>
-                    <li class="flex items-center">Sugarpine Court Brampton, Ontario, CA</li>
-                    <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">INDIA</h2>
-                    <li class="flex items-center">Bestech Business Tower, Sector 66, Mohali, IN</li>
+                    <h2 class="text-white text-lg font-semibold mb-2 text-color-ttb">USA</h2>
+                    <li class="flex items-center pb-2">Sand Lake Rd, Orlando, FL, USA</li>
+                    <h2 class="text-white text-lg font-semibold mb-2 text-color-ttb">UNITED KINGDOM</h2>
+                    <li class="flex items-center pb-2">Shelton Street, Covent Garden, London, UK</li>
+                    <h2 class="text-white text-lg font-semibold mb-2 text-color-ttb">CANADA</h2>
+                    <li class="flex items-center pb-2">Sugarpine Court Brampton, Ontario, CA</li>
+                    <h2 class="text-white text-lg font-semibold mb-2 text-color-ttb">INDIA</h2>
+                    <li class="flex items-center pb-2">Bestech Business Tower, Sector 66, Mohali, IN</li>
                 </ul>
               </div>
             </div>
