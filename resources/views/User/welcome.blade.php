@@ -1195,11 +1195,24 @@
             </p>
           </div>
           <div class="w-full lg:w-auto">
-            <ul class="social-icon flex justify-center lg:justify-end space-x-4">
-              <li><a href="#" class="text-white hover:text-yellow-500"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#" class="text-white hover:text-yellow-500"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#" class="text-white hover:text-yellow-500"><i class="fa fa-instagram"></i></a></li>
-              <li><a href="#" class="text-white hover:text-yellow-500"><i class="fa fa-google-plus"></i></a></li>
+            <ul class="social-icon flex justify-center lg:justify-end space-x-4" style="float-right;">
+                <div class="btn-list">
+                    <button aria-label="button" type="button" class="ti-btn ti-btn-sm !mb-0 ti-btn-primary me-[0.365rem]">
+                        <i class="ri-facebook-line font-bold"></i>
+                    </button>
+                    <button aria-label="button" type="button" class="ti-btn ti-btn-sm !mb-0 ti-btn-secondary me-[0.365rem]">
+                        <i class="ri-twitter-line font-bold"></i>
+                    </button>
+                    <button aria-label="button" type="button" class="ti-btn ti-btn-sm !mb-0 ti-btn-warning me-[0.365rem]">
+                        <i class="ri-instagram-line font-bold"></i>
+                    </button>
+                    <button aria-label="button" type="button" class="ti-btn ti-btn-sm !mb-0 ti-btn-success me-[0.365rem]">
+                        <i class="ri-github-line font-bold"></i>
+                    </button>
+                    <button aria-label="button" type="button" class="ti-btn ti-btn-sm !mb-0 ti-btn-danger">
+                        <i class="ri-youtube-line font-bold"></i>
+                    </button>
+                </div>
             </ul>
           </div>
         </div>
