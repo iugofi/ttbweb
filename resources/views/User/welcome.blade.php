@@ -1201,7 +1201,7 @@
             
             <!-- Navigation Links Section -->
             <div class="mb-4 lg:mb-0">
-                <div class="flex justify-center lg:justify-center">
+                <div class="flex justify-center lg:justify-center below-links">
                   <ul class="flex lg:flex-row lg:space-x-4">
                     <li><a href="https://ttbinternetsecurity.com/support" class="text-white">Support</a></li>
                     <li><a href="https://ttbinternetsecurity.com/privacy_policy" class="text-white">Privacy Policy</a></li>
@@ -1225,7 +1225,7 @@
             </div>
             
             <!-- Social Media Icons Section -->
-            <div class="mb-4 lg:mb-0">
+            <div class="mb-4 lg:mb-0 icon-margin">
               <ul class="flex justify-center lg:justify-end space-x-2">
                 <li>
                   <button aria-label="Facebook" type="button" class="ti-btn ti-btn-sm ti-btn-primary">
@@ -1311,7 +1311,13 @@ footer::after {
     display: flex;
     gap: 6rem;
 }
-
+.below-links li {
+    padding: 0 0.4rem;
+    border-right: 1px solid #fff;
+}
+.icon-margin {
+    margin: auto;
+}
 /* .below-links .align-items-center {
     display: flex;
 }
