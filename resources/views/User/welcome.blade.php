@@ -1070,9 +1070,7 @@
 
 --------------------------
 
-<footer class="relative overflow-hidden z-1">
-    <img src="images/bg-wave-sym.png" class="wave-img">
-    
+<footer class="relative overflow-hidden z-1"> 
     <div class="footer-top py-12 bg-gradient-to-br from-purple-600 to-blue-800 mt-4">
       <div class="container mx-auto px-4">
         <div class="flex flex-wrap footer-flex"> 
