@@ -1075,8 +1075,8 @@
       <div class="container mx-auto px-4">
         <div class="flex flex-wrap footer-flex"> 
           <div class="w-full lg:w-1/2 mb-8 lg:mb-0">
-            <h2 class="text-white text-3xl font-semibold mb-6">
-                TTB INTERNET SECURITY APP</h2>
+            {{-- <h2 class="text-white text-3xl font-semibold mb-6">
+                TTB INTERNET SECURITY APP</h2> --}}
             <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 my-btn-section">
                 <a href="#" class="ti-btn ti-btn-primary-full !rounded-full ti-btn-wave my-btn-pros">
                     <span class="fab fa-apple icon-size-sm mx-3 mr-3 h2"></span>
@@ -1096,7 +1096,7 @@
           </div>
           <div class="w-full lg:w-1/2">
             <div class="inner-column text-right lg:text-right">
-              <h2 class="text-white text-3xl font-semibold mb-6">FOR MORE INFORMATION SUBSCRIBE TODAY</h2>
+              {{-- <h2 class="text-white text-3xl font-semibold mb-6">FOR MORE INFORMATION SUBSCRIBE TODAY</h2> --}}
               <div class="subscribe-form">
                 <form method="post" action="#">
                   <div class="form-group relative">
@@ -1318,17 +1318,7 @@ footer::after {
 .icon-margin {
     margin: auto;
 }
-/* .below-links .align-items-center {
-    display: flex;
-}
-.below-links {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-.below-links ul > li:last-child {
-    border: none !important;
-} */
+
 section.section.landing-footer.text-white.text-\[0\.813rem\] {
     display: none;
 }
