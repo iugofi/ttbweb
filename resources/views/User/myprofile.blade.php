@@ -863,9 +863,9 @@
                 <div class="container">
                     <div class="grid grid-cols-12 gap-6 pt-5">
                         <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 col-span-12">
-                            <h2>Easily Setup the Smart Devices</h2>
+                            {{-- <h2>Easily Setup the Smart Devices</h2>
                             <p class="pt-3">TTB eSupport Concierge will guide you through setting up your <br>hardware and
-                                software smoothly.</p>
+                                software smoothly.</p> --}}
                             <div class="box">
                                 <nav class="flex space-x-2 rtl:space-x-reverse mx-auto" aria-label="Tabs">
                                     <button type="button" class="hs-tab-active:bg-gray-200 hs-tab-active:text-gray-800 hs-tab-active:hover:text-gray-800 dark:hs-tab-active:bg-light dark:hs-tab-active:text-white py-3 px-4 inline-flex items-center gap-2 bg-transparent text-sm font-medium text-center text-defaulttextcolor rounded-sm hover:text-primary dark:text-[#8c9097] dark:text-white/50 dark:hover:text-white active" id="pills-on-gray-color-item-1" data-hs-tab="#pills-on-gray-color-1" aria-controls="pills-on-gray-color-1">
