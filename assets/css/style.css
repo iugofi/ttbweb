@@ -52185,7 +52185,10 @@ h6.uppercase {
     .mobile-flex {
         display: flex;
     }
-    
+    .footer-bottom .items-center {
+        display: inline-grid;
+        text-align: center;
+    }
     /* End footer mobile responsive */
 }
 
