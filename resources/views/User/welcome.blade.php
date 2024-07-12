@@ -1269,7 +1269,12 @@ footer::after {
 .below-links ul > li:last-child {
     border: none !important;
 }
-
+section.section.landing-footer.text-white.text-\[0\.813rem\] {
+    display: none;
+}
+.text-center.landing-main-footer.py-4 {
+    display: none;
+}
 
     </style>  
 
