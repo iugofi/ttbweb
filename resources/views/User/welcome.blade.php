@@ -1260,11 +1260,7 @@
 
 </footer>
 
-@media (min-width: 320px) and (max-width: 767px) {
-    .footer-flex {
-        flex-wrap: wrap;
-    }
-    }
+
 
     <style>
     footer {

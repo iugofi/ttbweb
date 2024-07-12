@@ -52170,6 +52170,12 @@ h6.uppercase {
     .e-suppor-testimonials i.fa-solid.fa-arrow-right {
         display: none;
     }
+
+    /* Start footer mobile responsive */
+    .footer-flex {
+        flex-wrap: wrap !important;
+    }
+    /* End footer mobile responsive */
 }
 
 /* start vpn-shild banner css */
