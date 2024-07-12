@@ -1075,7 +1075,7 @@
     
     <div class="footer-top py-12 bg-gradient-to-br from-purple-600 to-blue-800">
       <div class="container mx-auto px-4">
-        <div class="flex flex-wrap footer-flex"> 
+        <div class="flex flex-wrap"> 
           <div class="w-full lg:w-1/2 mb-8 lg:mb-0">
             <h2 class="text-white text-4xl font-semibold mb-6">
               Download <span class="font-light">App</span> for <br> 7 days free trial
@@ -1120,7 +1120,7 @@
   
     <div class="widgets-section py-6">
       <div class="container mx-auto px-4">
-        <div class="flex flex-wrap">
+        <div class="flex">
           <div class="w-full lg:w-1/2 mb-8 lg:mb-0">
             <div class="flex flex-wrap">
               <div class="w-full lg:w-7/12 mb-8 lg:mb-0">
