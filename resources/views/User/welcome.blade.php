@@ -1078,23 +1078,23 @@
         <div class="flex flex-wrap footer-flex"> 
           <div class="w-full lg:w-1/2 mb-8 lg:mb-0">
             <h2 class="text-white text-4xl font-semibold mb-6">
-              Download <span class="font-light">App</span> for <br> 7 days free trial
-            </h2>
-            <div class="download-app-button flex flex-wrap">
-              <a href="#" class="download-btn active flex items-center border border-white text-white py-2 px-6 rounded mr-4 mb-4 hover:bg-white hover:text-indigo-800">
-                <i class="fa fa-apple text-2xl mr-2"></i>
-                <p>
-                  <small class="block">Download On</small>
-                  App Store
-                </p>
-              </a> 
-              <a href="#" class="download-btn flex items-center border border-white text-white py-2 px-6 rounded mr-4 mb-4 hover:bg-white hover:text-indigo-800">
-                <i class="fa fa-android text-2xl mr-2"></i>
-                <p>
-                  <small class="block">Git It On</small>
-                  Google Play
-                </p>
-              </a>
+                Fast, light, and powerful free protection.
+                It's just a click away.</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 my-btn-section">
+                <a href="#" class="ti-btn ti-btn-primary-full !rounded-full ti-btn-wave my-btn-pros">
+                    <span class="fab fa-apple icon-size-sm mx-3 mr-3 h2"></span>
+                    <div class="download-text text-left">
+                        <h5 class="mb-0">Download</h5>
+                    </div>
+                </a>
+                <a href="#" class="ti-btn !rounded-full ti-btn-wave my-btn-pro" style="border: 1px solid #13D8AA">
+                    <span class="fab fa-google-play icon-size-sm mx-3 mr-3 h2" style="color: #13D8AA;"></span>
+                    <div class="download-text text-left">
+                        <h5 class="mb-0">Download</h5>
+                    </div>
+                </a>
+
+
             </div>
           </div>
           <div class="w-full lg:w-1/2">
@@ -1223,15 +1223,14 @@ footer::after {
   top: 0;
   z-index: -1;
   background-color: #000;
-  /* background-image: linear-gradient(-134deg, #C86DD7 0%, #3023AE 100%); */
 }
-footer .shape-style span {
+/* footer .shape-style span {
   width: 120px;
   height: 120px;
   border-radius: 100px 130px 100px 315px;
   position: absolute;
   background: rgba(255, 255, 255, 0.);
-}
+} */
 .footer-flex {
     flex-wrap: inherit;
 }
