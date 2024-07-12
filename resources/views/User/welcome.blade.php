@@ -1328,7 +1328,9 @@ section.section.landing-footer.text-white.text-\[0\.813rem\] {
 .text-center.landing-main-footer.py-4 {
     display: none;
 }
-
+.footer-info li a:hover {
+    color: #13d4b1;
+}
     </style>  
 
 
