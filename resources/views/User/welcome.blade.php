@@ -1136,7 +1136,7 @@
             </div>
             <div class="w-full lg:w-1/5 mb-8 lg:mb-0 px-12">
               <div class="footer-widget">
-                <h2 class="text-white text-xl font-semibold mb-6">QUICK LINKS</h2>
+                <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">QUICK LINKS</h2>
                 <ul class="list-none text-white">
                   <li class="mb-2"><a href="#" class="hover:text-yellow-500">Home</a></li>
                   <li class="mb-2"><a href="#" class="hover:text-yellow-500">About</a></li>
@@ -1149,14 +1149,14 @@
             </div>
             <div class="w-full lg:w-1/5 mb-8 lg:mb-0">
               <div class="footer-widget">
-                <h2 class="text-white text-xl font-semibold mb-6">PRODUCTS</h2>
+                <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">PRODUCTS</h2>
                 <ul class="list-none text-white">
                   <li class="mb-2"><a href="#" class="hover:text-yellow-500">TTB Antivirus</a></li>
                   <li class="mb-2"><a href="#" class="hover:text-yellow-500">TTB Internet Security</a></li>
                   <li class="mb-2"><a href="#" class="hover:text-yellow-500">TTB Total Security</a></li>
                   <li class="mb-2"><a href="#" class="hover:text-yellow-500">TTB VPN Shield</a></li>
                 </ul>
-                <h2 class="text-white text-xl font-semibold mb-6">RESOURCES</h2>
+                <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">RESOURCES</h2>
                 <ul class="list-none text-white">
                   <li class="mb-2"><a href="#" class="hover:text-yellow-500">News</a></li>
                   <li class="mb-2"><a href="#" class="hover:text-yellow-500">Blogs</a></li>
@@ -1165,7 +1165,7 @@
             </div>
             <div class="w-full lg:w-1/5 mb-8 lg:mb-0">
               <div class="footer-widget">
-                <h2 class="text-white text-xl font-semibold mb-6">SOLUTIONS</h2>
+                <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">SOLUTIONS</h2>
                 <ul class="list-none text-white">
                   <li class="mb-2"><a href="#" class="hover:text-yellow-500">EndPoint Protection</a></li>
                   <li class="mb-2"><a href="#" class="hover:text-yellow-500">Network Protection</a></li>
@@ -1181,15 +1181,15 @@
             </div>
             <div class="w-full lg:w-1/5 mb-8 lg:mb-0">
               <div class="footer-widget">
-                <h2 class="text-white text-xl font-semibold mb-6">ADDRESS</h2>
+                <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">ADDRESS</h2>
                 <ul class="list-none text-white">
-                    <h2 class="text-white text-xl font-semibold mb-6">USA</h2>
+                    <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">USA</h2>
                     <li class="flex items-center">Sand Lake Rd, Orlando, FL, USA</li>
-                    <h2 class="text-white text-xl font-semibold mb-6">UNITED KINGDOM</h2>
+                    <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">UNITED KINGDOM</h2>
                     <li class="flex items-center">Shelton Street, Covent Garden, London, UK</li>
-                    <h2 class="text-white text-xl font-semibold mb-6">CANADA</h2>
+                    <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">CANADA</h2>
                     <li class="flex items-center">Sugarpine Court Brampton, Ontario, CA</li>
-                    <h2 class="text-white text-xl font-semibold mb-6">INDIA</h2>
+                    <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">INDIA</h2>
                     <li class="flex items-center">Bestech Business Tower, Sector 66, Mohali, IN</li>
                 </ul>
               </div>
