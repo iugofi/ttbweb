@@ -407,7 +407,7 @@
                                                             <button type="button" class="ti-btn bg-primary text-white">Get
                                                                 Started</button>
                                                         </div>
-                                                        <ul class="list-none text-[0.75rem] px-4 pt-4 mb-0">
+                                                        <ul class="list-none text-[0.75rem] pt-4 mb-0">
                                                             <li class="mb-4">
                                                                 <i class="fa-solid fa-check"></i><span>1 PC, Mac, tablet,
                                                                     or phone</span>
@@ -452,7 +452,7 @@
                                                             <button type="button" class="ti-btn bg-primary text-white">Get
                                                                 Started</button>
                                                         </div>
-                                                        <ul class="list-none  text-[0.75rem] px-4 pt-4 mb-0">
+                                                        <ul class="list-none  text-[0.75rem] pt-4 mb-0">
                                                             <li class="mb-4">
                                                                 <i class="fa-solid fa-check"></i> <span>1 PC, Mac, tablet,
                                                                     or phone</span>
@@ -506,7 +506,7 @@
                                                             <button type="button"
                                                                 class="ti-btn bg-primary text-white">Get Started</button>
                                                         </div>
-                                                        <ul class="list-none text-[0.75rem] px-4 pt-4 mb-0">
+                                                        <ul class="list-none text-[0.75rem] pt-4 mb-0">
                                                             <li class="mb-4">
                                                                 <i class="fa-solid fa-check"></i><span>5 PCs, Macs,
                                                                     tablets, or phones</span>
@@ -567,7 +567,7 @@
                                                             <button type="button" class="ti-btn bg-primary text-white">Get
                                                                 Started</button>
                                                         </div>
-                                                        <ul class="list-none  text-[0.75rem] px-4 pt-4 mb-0">
+                                                        <ul class="list-none  text-[0.75rem] pt-4 mb-0">
                                                             <li class="mb-4">
                                                                 <i class="fa-solid fa-check"></i><span>10 PCs, Macs,
                                                                     tablets, or phones</span>
@@ -653,7 +653,7 @@
                                                             <button type="button" class="ti-btn bg-primary text-white">Get
                                                                 Started</button>
                                                         </div>
-                                                        <ul class="list-none text-[0.75rem] px-4 pt-4 mb-0">
+                                                        <ul class="list-none text-[0.75rem] pt-4 mb-0">
                                                             <li class="mb-4">
                                                                 <i class="fa-solid fa-check"></i><span>1 PC, Mac, tablet,
                                                                     or phone</span>
@@ -698,7 +698,7 @@
                                                             <button type="button" class="ti-btn bg-primary text-white">Get
                                                                 Started</button>
                                                         </div>
-                                                        <ul class="list-none  text-[0.75rem] px-4 pt-4 mb-0">
+                                                        <ul class="list-none  text-[0.75rem] pt-4 mb-0">
                                                             <li class="mb-4">
                                                                 <i class="fa-solid fa-check"></i> <span>1 PC, Mac, tablet,
                                                                     or phone</span>
@@ -753,7 +753,7 @@
                                                             <button type="button"
                                                                 class="ti-btn bg-primary text-white">Get Started</button>
                                                         </div>
-                                                        <ul class="list-none text-[0.75rem] px-4 pt-4 mb-0">
+                                                        <ul class="list-none text-[0.75rem] pt-4 mb-0">
                                                             <li class="mb-4">
                                                                 <i class="fa-solid fa-check"></i><span>5 PCs, Macs,
                                                                     tablets, or phones</span>
@@ -814,7 +814,7 @@
                                                             <button type="button" class="ti-btn bg-primary text-white">Get
                                                                 Started</button>
                                                         </div>
-                                                        <ul class="list-none  text-[0.75rem] px-4 pt-4 mb-0">
+                                                        <ul class="list-none  text-[0.75rem] pt-4 mb-0">
                                                             <li class="mb-4">
                                                                 <i class="fa-solid fa-check"></i><span>10 PCs, Macs,
                                                                     tablets, or phones</span>
