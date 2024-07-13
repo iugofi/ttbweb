@@ -31,8 +31,9 @@ class UserController extends Controller
 
     public function saveemailsub(Request $request)
     {
-        dd("kk");
-      
+       
+        $email_sub=$request->email_subscribe;
+        dd($email_sub);
     }
 
     public function forgetpass(Request $request)

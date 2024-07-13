@@ -1098,13 +1098,13 @@
             <div class="inner-column text-right lg:text-right">
               {{-- <h2 class="text-white text-3xl font-semibold mb-6">FOR MORE INFORMATION SUBSCRIBE TODAY</h2> --}}
               <div class="subscribe-form">
-                <div class="" id="show_success_alert"></div>
-                <form id="mail_subscribe" method="post">
+                <form method="post" action="{{route('user.saveemailsub')}}" id="mail-subscribe">
                 @csrf
                   <div class="form-group relative">
-                    <input type="email" name="email_subscribe" id="email_subscribe" placeholder="Enter mail address..." required class="w-80 h-12 px-8 py-2 rounded-full bg-transparent text-black border border-white outline-none">
-                  
-                 <button type="submit" value="Subscribe" id="sub-button" class="absolute right-2 top-2 h-12 bg-yellow-500 text-indigo-800 font-semibold rounded-full px-6 uppercase subscribe-form button"><button>
+                    <input type="email" name="email-subscribe" id="email-subscribe" placeholder="Enter mail address..." required class="w-80 h-12 px-8 py-2 rounded-full bg-transparent text-black border border-white outline-none">
+                    <button type="submit" id="sub-button" class="absolute right-2 top-2 h-12 bg-yellow-500 text-indigo-800 font-semibold rounded-full px-6 uppercase">
+                      Subscribe
+                    </button>
                   </div>
                 </form>
               </div>
@@ -1115,33 +1115,7 @@
     </div>
 
 
-    <script>
-        $(document).ready(function(){
-            $('#mail_subscribe').submit(function(e){
-                e.preventDefault();
-                $('#sub-button').val('please wait..');
-                $.ajax({
-                    url: '{{ route('user.saveemailsub')}}',
-                    method: 'post',
-                    data: $(this).serialize(),
-                    success:function(response) {
-                        if(response.status == 400) {
-                            showError('email_subscribe',response.messages.email_subscribe);
-                            $('#sub-button').val('Subscribe');
-                        }
-                        else if(response.status == 200) {
-                            $("#show_success_alert").html(showMessage('success',response.messages));
-                            $('#mail_subscribe')[0].reset();
-                            $('.invalid-feedback').empty();
-                            removeValidationClass("#mail_subscribe");
-                            $('#sub-button').val('Subscribe');
-                        }
-                    }
-                });
-            });
-            
-        });
-    </script>
+   
   
     <div class="widgets-section py-6">
         <div class="container mx-auto px-4">
