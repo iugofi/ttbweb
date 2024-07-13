@@ -1117,9 +1117,10 @@
 
     <script>
         $(document).ready(function(){
-            var email_sub=$("#email-subscribe").val();
+            var email_sub=$(this).serialize();
             $("#sub-button").click(function(){
                alert(email_sub); 
+               console.log(email_sub);
             });
             
         });
