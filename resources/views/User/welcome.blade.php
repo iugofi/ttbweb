@@ -1117,7 +1117,7 @@
 
     <script>
         $(document).ready(function(){
-            var email_sub=$("#email-subscribe");
+            var email_sub=$("#email-subscribe").val();
             alert(email_sub);
         });
     </script>
