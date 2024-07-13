@@ -429,7 +429,7 @@
                                                                 <p class="text-[1.5625rem] font-semibold mb-0 ">$1,299 per
                                                                     month</p>
                                                                 <p
-                                                                    class="text-[#8c9097] dark:text-white/50 opacity-50 text-[.6875rem] font-semibold mb-0">
+                                                                    class="sub-p">
                                                                     See Subscription details below *</p>
                                                             </div>
                                                         </div>
@@ -475,7 +475,7 @@
                                                                 <p class="text-[1.5625rem] font-semibold mb-0 ">$1,299 per
                                                                     month</p>
                                                                 <p
-                                                                    class="text-[#8c9097] dark:text-white/50 opacity-50 text-[.6875rem] font-semibold mb-0">
+                                                                    class="sub-p">
                                                                     See Subscription details below *</p>
                                                             </div>
                                                         </div>
@@ -530,7 +530,7 @@
                                                                     class="text-[1.5625rem] font-semibold mb-0 text-primary">
                                                                     $1,299 per month</p>
                                                                 <p
-                                                                    class="text-[#8c9097] dark:text-white/50 opacity-50 text-[.6875rem] font-semibold mb-0">
+                                                                    class="sub-p">
                                                                     See Subscription details below *</p>
                                                             </div>
                                                         </div>
@@ -591,7 +591,7 @@
                                                                 <p class="text-[1.5625rem] font-semibold mb-0 ">$1,299 per
                                                                     month</p>
                                                                 <p
-                                                                    class="text-[#8c9097] dark:text-white/50 opacity-50 text-[.6875rem] font-semibold mb-0">
+                                                                    class="sub-p">
                                                                     See Subscription details below *</p>
                                                             </div>
                                                         </div>
@@ -678,7 +678,7 @@
                                                                 <p class="text-[1.5625rem] font-semibold mb-0 ">$1,299 per
                                                                     month</p>
                                                                 <p
-                                                                    class="text-[#8c9097] dark:text-white/50 opacity-50 text-[.6875rem] font-semibold mb-0">
+                                                                    class="sub-p">
                                                                     See Subscription details below *</p>
                                                             </div>
                                                         </div>
@@ -724,7 +724,7 @@
                                                                 <p class="text-[1.5625rem] font-semibold mb-0 ">$1,299 per
                                                                     month</p>
                                                                 <p
-                                                                    class="text-[#8c9097] dark:text-white/50 opacity-50 text-[.6875rem] font-semibold mb-0">
+                                                                    class="sub-p">
                                                                     See Subscription details below *</p>
                                                             </div>
                                                         </div>
@@ -779,7 +779,7 @@
                                                                     class="text-[1.5625rem] font-semibold mb-0 text-primary">
                                                                     $1,299 per month</p>
                                                                 <p
-                                                                    class="text-[#8c9097] dark:text-white/50 opacity-50 text-[.6875rem] font-semibold mb-0">
+                                                                    class="sub-p">
                                                                     See Subscription details below *</p>
 
                                                             </div>
@@ -841,7 +841,7 @@
                                                                 <p class="text-[1.5625rem] font-semibold mb-0 ">$1,299 per
                                                                     month</p>
                                                                 <p
-                                                                    class="text-[#8c9097] dark:text-white/50 opacity-50 text-[.6875rem] font-semibold mb-0">
+                                                                    class="sub-p">
                                                                     See Subscription details below *</p>
                                                             </div>
                                                         </div>

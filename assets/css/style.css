@@ -48772,6 +48772,12 @@ img.img-fluid.service-icon {
 
 /* neeraj-home-page-css-22-04-2024 */
 
+.toast-section .sub-p {
+    color: #444;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+}
 
 .toast-section .ti-toast {
     max-width: 1000%;
