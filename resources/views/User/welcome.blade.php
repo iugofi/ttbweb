@@ -1115,16 +1115,7 @@
     </div>
 
 
-    <script>
-        $(document).ready(function(){
-            var email_sub=$(this).serialize();
-            $("#sub-button").click(function(){
-               alert(email_sub); 
-               log
-            });
-            
-        });
-    </script>
+   
   
     <div class="widgets-section py-6">
         <div class="container mx-auto px-4">
