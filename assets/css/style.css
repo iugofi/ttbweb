@@ -48772,6 +48772,19 @@ img.img-fluid.service-icon {
 
 /* neeraj-home-page-css-22-04-2024 */
 
+
+.toast-section .ti-toast {
+    max-width: 1000%;
+    background-color: #12d2b3;
+    border-radius: 0px;
+    --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color),
+        0 4px 6px -4px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+        var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+
+
 .section-home2-two {
     padding: 4em 0em 2em 0em;
     background-color: #f5f6fa;
