@@ -1104,7 +1104,7 @@
                   <div class="form-group relative">
                     <input type="email" name="email_subscribe" id="email_subscribe" placeholder="Enter mail address..." required class="w-80 h-12 px-8 py-2 rounded-full bg-transparent text-black border border-white outline-none">
                   
-                 <input type="text" value="Subscribe" id="sub-button" class="absolute right-2 top-2 h-12 bg-yellow-500 text-indigo-800 font-semibold rounded-full px-6 uppercase">
+                 <input type="submit" value="Subscribe" id="sub-button" class="absolute right-2 top-2 h-12 bg-yellow-500 text-indigo-800 font-semibold rounded-full px-6 uppercase">
                   </div>
                 </form>
               </div>
