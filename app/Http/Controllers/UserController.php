@@ -29,6 +29,12 @@ class UserController extends Controller
         return view('User.demo');
     }
 
+    public function saveemailsub(Request $request)
+    {
+        $email_sub=$request->email_subscribe;
+        dd($email_sub);
+    }
+
     public function forgetpass(Request $request)
 {
     $validator = Validator::make($request->all(), [

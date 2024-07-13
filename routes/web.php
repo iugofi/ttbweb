@@ -37,6 +37,8 @@ Route::get('/resetpass/{reset_id}', [UserController::class, 'resetpass'])->name(
 Route::post('/resetpassform', [UserController::class, 'resetpassform'])->name('user.resetpassform');
 
 
+//email-sub
+Route::post('saveemailsub', [UserController::class, 'saveemailsub'])->name('user.saveemailsub');
 
 
 
