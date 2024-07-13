@@ -48783,8 +48783,10 @@ img.img-fluid.service-icon {
         var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.toast-section p{
-   color:#fff;
+.toast-section p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 
