@@ -48772,6 +48772,11 @@ img.img-fluid.service-icon {
 
 /* neeraj-home-page-css-22-04-2024 */
 
+
+.home2-new-seven-pricing .box-price {
+    border: 2px solid #e7faf7;
+    margin: 4px;
+}
 .home2-new-seven-pricing .tab-content .tab-pane{
   border:0px solid;
 }
