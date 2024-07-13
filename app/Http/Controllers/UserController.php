@@ -16,6 +16,7 @@ use App\Models\Contact;
 use App\Models\Admin; 
 use App\Models\Eventmodel; 
 use App\Models\Visitors;
+use App\Models\EmailSubscribe;
 use Mail;
 use Jenssegers\Agent\Agent;
 use Carbon\Carbon;
@@ -31,9 +32,12 @@ class UserController extends Controller
 
     public function saveemailsub(Request $request)
     {
-       
         $email_sub=$request->email_subscribe;
-        dd($email_sub);
+
+        $saveemail=new EmailSubscribe();
+        $saveemail->email=$emal_sub;
+        $saveemail->save();
+        
     }
 
     public function forgetpass(Request $request)
