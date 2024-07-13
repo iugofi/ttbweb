@@ -1098,8 +1098,8 @@
             <div class="inner-column text-right lg:text-right">
               {{-- <h2 class="text-white text-3xl font-semibold mb-6">FOR MORE INFORMATION SUBSCRIBE TODAY</h2> --}}
               <div class="subscribe-form">
-                <div id="show_success_alert"></div>
-                <form method="post" id="mail-subscribe">
+                <div class="" id="show_success_alert"></div>
+                <form id="mail_subscribe" method="post">
                 @csrf
                   <div class="form-group relative">
                     <input type="email" name="email_subscribe" id="email_subscribe" placeholder="Enter mail address..." required class="w-80 h-12 px-8 py-2 rounded-full bg-transparent text-black border border-white outline-none">
@@ -1117,7 +1117,7 @@
 
     <script>
         $(document).ready(function(){
-            $('#mail-subscribe').submit(function(e){
+            $('#mail_subscribe').submit(function(e){
                 e.preventDefault();
                 $('#sub-button').val('please wait..');
                 $.ajax({
@@ -1131,9 +1131,9 @@
                         }
                         else if(response.status == 200) {
                             $("#show_success_alert").html(showMessage('success',response.messages));
-                            $('#mail-subscribe')[0].reset();
+                            $('#mail_subscribe')[0].reset();
                             $('.invalid-feedback').empty();
-                            removeValidationClass("#mail-subscribe");
+                            removeValidationClass("#mail_subscribe");
                             $('#sub-button').val('Subscribe');
                         }
                     }
