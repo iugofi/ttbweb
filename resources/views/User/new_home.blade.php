@@ -404,7 +404,7 @@
                                                             </div>
                                                         </div>
                                                         <div class="grid">
-                                                            <button type="button" class="ti-btn ti-btn-primary">Get
+                                                            <button type="button" class="ti-btn bg-primary text-white">Get
                                                                 Started</button>
                                                         </div>
                                                         <ul class="list-none text-[0.75rem] px-4 pt-4 mb-0">
@@ -449,7 +449,7 @@
                                                             </div>
                                                         </div>
                                                         <div class="grid">
-                                                            <button type="button" class="ti-btn ti-btn-primary">Get
+                                                            <button type="button" class="ti-btn bg-primary text-white">Get
                                                                 Started</button>
                                                         </div>
                                                         <ul class="list-none  text-[0.75rem] px-4 pt-4 mb-0">
@@ -500,7 +500,6 @@
                                                                 <p
                                                                     class="text-[#8c9097] dark:text-white/50 opacity-50 text-[.6875rem] font-semibold mb-0">
                                                                     See Subscription details below *</p>
-
                                                             </div>
                                                         </div>
                                                         <div class="grid">
@@ -565,7 +564,7 @@
                                                             </div>
                                                         </div>
                                                         <div class="grid">
-                                                            <button type="button" class="ti-btn ti-btn-primary">Get
+                                                            <button type="button" class="ti-btn bg-primary text-white">Get
                                                                 Started</button>
                                                         </div>
                                                         <ul class="list-none  text-[0.75rem] px-4 pt-4 mb-0">
@@ -651,7 +650,7 @@
                                                             </div>
                                                         </div>
                                                         <div class="grid">
-                                                            <button type="button" class="ti-btn ti-btn-primary">Get
+                                                            <button type="button" class="ti-btn bg-primary text-white">Get
                                                                 Started</button>
                                                         </div>
                                                         <ul class="list-none text-[0.75rem] px-4 pt-4 mb-0">
@@ -696,7 +695,7 @@
                                                             </div>
                                                         </div>
                                                         <div class="grid">
-                                                            <button type="button" class="ti-btn ti-btn-primary">Get
+                                                            <button type="button" class="ti-btn bg-primary text-white">Get
                                                                 Started</button>
                                                         </div>
                                                         <ul class="list-none  text-[0.75rem] px-4 pt-4 mb-0">
@@ -812,7 +811,7 @@
                                                             </div>
                                                         </div>
                                                         <div class="grid">
-                                                            <button type="button" class="ti-btn ti-btn-primary">Get
+                                                            <button type="button" class="ti-btn bg-primary text-white">Get
                                                                 Started</button>
                                                         </div>
                                                         <ul class="list-none  text-[0.75rem] px-4 pt-4 mb-0">
