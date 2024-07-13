@@ -48782,9 +48782,9 @@ img.img-fluid.service-icon {
 
 
 .home2-new-seven-pricing .text-box-price {
-   text-align:center;
+    text-align: center;
+    margin: 10px 0px -1px 0px;
 }
-
 .home2-new-seven-pricing h6{
     font-size: 20px;
     font-weight: 700;
