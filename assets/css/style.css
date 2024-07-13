@@ -48781,6 +48781,22 @@ img.img-fluid.service-icon {
   border:0px solid;
 }
 
+.home2-new-seven-pricing .box {
+    position: relative;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+    font-size: 0.813rem;
+    color: rgb(var(--default-text-color));
+    --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0%);
+    --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+        var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 
 .home2-new-seven-pricing .pricing-bxx {
     background-color: transparent;
