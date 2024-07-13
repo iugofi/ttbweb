@@ -1203,11 +1203,11 @@
             <div class="mb-4 lg:mb-0">
                 <div class="flex justify-center lg:justify-center below-links">
                   <ul class="flex lg:flex-row lg:space-x-4">
-                    <li><a href="https://ttbinternetsecurity.com/support" class="text-white">Support</a></li>
-                    <li><a href="https://ttbinternetsecurity.com/privacy_policy" class="text-white">Privacy Policy</a></li>
-                    <li><a href="https://ttbinternetsecurity.com/terms_conditions" class="text-white">Terms Of Service</a></li>
-                    <li><a href="https://ttbinternetsecurity.com/return_policy" class="text-white">Return &amp; Refund Policy</a></li>
-                    <li><a href="https://www.ttbinternetsecurity.com/sitemap.xml" class="text-white">Sitemap</a></li>
+                    <li><a href="#" class="text-white">Support</a></li>
+                    <li><a href="#" class="text-white">Privacy Policy</a></li>
+                    <li><a href="#" class="text-white">Terms Of Service</a></li>
+                    <li><a href="#" class="text-white">Return &amp; Refund Policy</a></li>
+                    <li><a href="#" class="text-white">Sitemap</a></li>
                   </ul>
                 </div>
               </div>
@@ -1270,7 +1270,6 @@
       </div>
 
 </footer>
-
 
 
     <style>
