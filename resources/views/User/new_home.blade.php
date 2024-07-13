@@ -22,8 +22,8 @@
                     class="hs-removing:translate-x-5 hs-removing:opacity-0 transition duration-300 ti-toast bg-white dark:bg-bodybg dark:border-white/10"
                     role="alert">
                     <div class="flex p-4">
-                        <p class="text-sm text-gray-700 dark:text-[#8C9097] dark:text-white/50">
-                            Your email has been sent
+                        <p>
+                            TTB antivirus and cybersecurity—trusted by millions
                         </p>
                         <div class="ms-auto">
                             <button type="button"
