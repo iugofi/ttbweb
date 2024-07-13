@@ -1098,10 +1098,11 @@
             <div class="inner-column text-right lg:text-right">
               {{-- <h2 class="text-white text-3xl font-semibold mb-6">FOR MORE INFORMATION SUBSCRIBE TODAY</h2> --}}
               <div class="subscribe-form">
-                <form method="post" action="#">
+                <form method="post" id="mail-subscribe">
+                @csrf
                   <div class="form-group relative">
-                    <input type="email" name="email" placeholder="Enter mail address..." required class="w-80 h-12 px-8 py-2 rounded-full bg-transparent text-black border border-white outline-none">
-                    <button type="submit" class="absolute right-2 top-2 h-12 bg-yellow-500 text-indigo-800 font-semibold rounded-full px-6 uppercase">
+                    <input type="email" name="email-subscribe" id="email-subscribe" placeholder="Enter mail address..." required class="w-80 h-12 px-8 py-2 rounded-full bg-transparent text-black border border-white outline-none">
+                    <button type="submit" id="sub-button" class="absolute right-2 top-2 h-12 bg-yellow-500 text-indigo-800 font-semibold rounded-full px-6 uppercase">
                       Subscribe
                     </button>
                   </div>
@@ -1112,6 +1113,18 @@
         </div>
       </div>
     </div>
+
+
+    <script>
+        $(document).ready(function(){
+            var email_sub=$(this).serialize();
+            $("#sub-button").click(function(){
+               alert(email_sub); 
+               console.log(email_sub);
+            });
+            
+        });
+    </script>
   
     <div class="widgets-section py-6">
         <div class="container mx-auto px-4">
