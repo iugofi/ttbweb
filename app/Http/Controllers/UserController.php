@@ -37,6 +37,7 @@ class UserController extends Controller
         $saveemail=new EmailSubscribe();
         $saveemail->email=$email_sub;
         $saveemail->save();
+        return redirect()->back();
         
     }
 
