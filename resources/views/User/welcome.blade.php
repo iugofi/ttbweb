@@ -1098,7 +1098,7 @@
             <div class="inner-column text-right lg:text-right">
               {{-- <h2 class="text-white text-3xl font-semibold mb-6">FOR MORE INFORMATION SUBSCRIBE TODAY</h2> --}}
               <div class="subscribe-form">
-                <form method="post" id="mail-subscribe">
+                <form method="post" action="{{route('user.saveemailsub')}}" id="mail-subscribe">
                 @csrf
                   <div class="form-group relative">
                     <input type="email" name="email-subscribe" id="email-subscribe" placeholder="Enter mail address..." required class="w-80 h-12 px-8 py-2 rounded-full bg-transparent text-black border border-white outline-none">
