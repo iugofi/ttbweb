@@ -482,7 +482,7 @@
                                                             </div>
                                                             <div class="text-end ms-5">
                                                                 <p class="text-center"> <del>$59.99</del> <span class="text-primary">50% OFF</span></p>
-                                                                <p class="text-[1.5625rem] font-semibold mb-0 ">$1,299 per
+                                                                <p class="text-[1.5625rem] font-semibold mb-0 ">$2,299 per
                                                                     month</p>
                                                                 <p
                                                                     class="sub-p">
@@ -542,8 +542,8 @@
                                                             <div class="text-end ms-5">
                                                                 <p class="text-center"> <del>$59.99</del> <span class="text-primary">50% OFF</span></p>
                                                                 <p
-                                                                    class="text-[1.5625rem] font-semibold mb-0 text-primary">
-                                                                    $1,299 per month</p>
+                                                                    class="text-[1.5625rem] font-semibold mb-0 ">
+                                                                    $3,299 per month</p>
                                                                 <p
                                                                     class="sub-p">
                                                                     See Subscription details below *</p>
@@ -608,7 +608,7 @@
                                                             </div>
                                                             <div class="text-end ms-5">
                                                                 <p class="text-center"> <del>$59.99</del> <span class="text-primary">50% OFF</span></p>
-                                                                <p class="text-[1.5625rem] font-semibold mb-0 ">$1,299 per
+                                                                <p class="text-[1.5625rem] font-semibold mb-0 text-primary">$4,299 per
                                                                     month</p>
                                                                 <p
                                                                     class="sub-p">
@@ -700,7 +700,7 @@
                                                             </div>
                                                             <div class="text-end ms-5">
                                                                 <p class="text-center"> <del>$59.99</del> <span class="text-primary">50% OFF</span></p>
-                                                                <p class="text-[1.5625rem] font-semibold mb-0 ">$1,299 per
+                                                                <p class="text-[1.5625rem] font-semibold mb-0 ">$4,299 per
                                                                     month</p>
                                                                 <p
                                                                     class="sub-p">
@@ -751,7 +751,7 @@
                                                             </div>
                                                             <div class="text-end ms-5">
                                                                 <p class="text-center"> <del>$59.99</del> <span class="text-primary">50% OFF</span></p>
-                                                                <p class="text-[1.5625rem] font-semibold mb-0 ">$1,299 per
+                                                                <p class="text-[1.5625rem] font-semibold mb-0 ">$5,299 per
                                                                     month</p>
                                                                 <p
                                                                     class="sub-p">
@@ -811,8 +811,8 @@
                                                             <div class="text-end ms-5">
                                                                 <p class="text-center"> <del>$59.99</del> <span class="text-primary">50% OFF</span></p>
                                                                 <p
-                                                                    class="text-[1.5625rem] font-semibold mb-0 text-primary">
-                                                                    $1,299 per month</p>
+                                                                    class="text-[1.5625rem] font-semibold mb-0 ">
+                                                                    $6,299 per month</p>
                                                                 <p
                                                                     class="sub-p">
                                                                     See Subscription details below *</p>
@@ -878,7 +878,7 @@
                                                             </div>
                                                             <div class="text-end ms-5">
                                                                 <p class="text-center"> <del>$59.99</del> <span class="text-primary">50% OFF</span></p>
-                                                                <p class="text-[1.5625rem] font-semibold mb-0 ">$1,299 per
+                                                                <p class="text-[1.5625rem] font-semibold mb-0 text-primary">$8,299 per
                                                                     month</p>
                                                                 <p
                                                                     class="sub-p">
