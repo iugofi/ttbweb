@@ -28,7 +28,7 @@
             align-items: center;
             z-index: 1000;
         }
-    
+
         /* Popup content */
         .popup-content {
             background: white;
@@ -39,7 +39,7 @@
             max-width: 500px;
             width: 90%;
         }
-    
+
         /* Close button */
         .popup-content .close-btn {
             position: absolute;
@@ -50,19 +50,19 @@
             font-size: 30px;
             cursor: pointer;
         }
-    
+
         /* Popup image */
         .popup-content img {
-         margin: auto;
-         max-width: 85px;
+            margin: auto;
+            max-width: 85px;
         }
-    
+
         /* Popup text */
         .popup-content h1,
         .popup-content p {
             margin: 10px 0;
         }
-    
+
         /* Button */
         .popup-content .btn {
             display: inline-block;
@@ -74,16 +74,15 @@
             border-radius: 5px;
             transition: background-color 0.3s;
         }
-    
+
         .popup-content .btn:hover {
             background-color: #0bb38c;
         }
 
         /* End popup css */
-
     </style>
     {{-- start popup html --}}
-{{-- 
+    {{--
     <div class="popup" id="popup">
         <div class="popup-content">
             <button class="close-btn" id="closePopup">&times;</button>
@@ -93,31 +92,31 @@
             <a href="index.html" class="m-1 ti-btn ti-btn-primary-full mt-6" id="redirectHome">Purchase Now!</a>
         </div>
     </div> --}}
-    
+
     <script>
         // Get the popup element
         const popup = document.getElementById('popup');
-    
+
         // Get the close button element
         const closePopup = document.getElementById('closePopup');
-    
+
         // Show the popup after 15 seconds
         setTimeout(() => {
             popup.style.display = 'flex';
         }, 1000);
-    
+
         // Close the popup when the close button is clicked
         closePopup.addEventListener('click', () => {
             popup.style.display = 'none';
         });
-    
+
         // Close the popup when clicking outside of the popup content
         window.addEventListener('click', (event) => {
             if (event.target === popup) {
                 popup.style.display = 'none';
             }
         });
-    
+
         // Redirect to the home page when the button is clicked
         // document.getElementById('redirectHome').addEventListener('click', (event) => {
         //     event.preventDefault();
@@ -164,8 +163,8 @@
                                 <img src="{{ asset('assets/img2/section-one-ttb.gif') }}" alt="" class="img-fluid"
                                     width="88%">
                             </div>
+                        </div>
                     </div>
-                </div>
             </section>
         </div>
         <!-- End::Home Content -->
@@ -279,10 +278,11 @@
                             <img src="{{ asset('assets/img2/section four.png') }}" alt="" class="img-fluid">
                         </div>
                     </div>
-                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 pt-5 pb-0 lg:px-2 !text-start px-0 my-auto">
+                    <div
+                        class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 pt-5 pb-0 lg:px-2 !text-start px-0 my-auto">
                         <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">We Strive To Offer Intelligent
                             Business
-                            Solutions</h4> 
+                            Solutions</h4>
                         <p class=" text-[0.9rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
                             value with diverse web-readiness. Collaboratively transition wireless customer service without
                             goal-oriented catalysts for change. Collaboratively.
@@ -780,7 +780,8 @@
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
                         <div class="lg:py-[3rem]">
                             <h2 class="landing-banner-heading mb-4 opacity-[0.9] mt-10 font-semibold text-4xl">
-                                <span>What Our Client Say <br> About Apdash</h2>
+                                <span>What Our Client Say <br> About Apdash
+                            </h2>
                             <div class="text-[1rem] mb-[3rem] !text-dark opacity-[0.9] ">Collaboratively actualize
                                 excellent schemas without effective <br> models. Synergistically engineer functionalized
                                 applications rather<br> than backend e-commerce.</div>
@@ -837,533 +838,522 @@
         </section>
         <!-- End:: Section-5 -->
 
-    =======================================
+        =======================================
 
-<style>
-    .testimonial-area {
-        position: relative;
-    }
-    .testimonial-content {
-        position: relative;
-        z-index: 1;
-        bottom: 4.8rem;
-    }
-    .owl-nav {
-        position: absolute;
-        top: 50%;
-        width: calc(100% - 100px); /* Reduced width to leave space for buttons */
-        display: flex;
-        justify-content: space-between;
-        transform: translateY(-4rem);
-        /* padding: 0 50px;  */
-        box-sizing: border-box;
-        width: 100%;
-    }
-    .owl-nav button {
-        background-color: transparent;
-        border: none;
-        font-size: 30px;
-        cursor: pointer;
-        transition: color 0.3s;
-    }
-    .owl-nav button:hover {
-        color: var(--blue);
-    }
-    .sec-title.white-title h2 {
-        color: #fff;
-    }
-    .client-video img {
-        width: 150px !important;
-        max-width: 65px;
-    }
-    .client-info i.fa-solid.fa-quote-left {
-        position: absolute;
-        right: 10px;
-        font-size: 60px;
-        color: #11CDBE;
-    }
-    .client-video {
-        padding-right: 15px;
-    }
-    .client-info {
-        display: flex;
-        align-items: center;
-        text-align: left;
-        padding-bottom: 30px;
-        margin-top: 1rem;
-    }
-    .single-testimonial p {
-        background: #fff;
-        padding: 42px 32px;
-        box-shadow: 0px 0px 8px 2px #0000001a;
-        border-radius: 6px;
-    }
-    .back-img {
-        content: url('https://www.nighthawk-routerlogin.com/assets/img/Bg.png');
-        width: 100%;
-        position: relative;
-        /* top: 5rem; */
-    }
-    .owl-nav button.owl-prev {
-        position: relative;
-        left: -3rem;
-        padding: 8px;
-        border-radius: 39px;
-        border-width: 1px;
-        border: 1px solid;
-        height: 38px;
-        align-items: center;
-        display: inherit;
-        font-size: 24px;
-        color: #0000006e;
-    }
-.owl-nav button.owl-next {
-        position: relative;
-        right: -2rem;
-        padding: 8px;
-        border-radius: 39px;
-        border-width: 1px;
-        border: 1px solid;
-        height: 38px;
-        align-items: center;
-        display: inherit;
-        font-size: 24px;
-        color: #0000006e;
-    }
-</style>
-
-<section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70" id="faq" style="overflow: hidden; padding-bottom: 0rem; height: 420px;">
-    <div class="container main-banner-container">
-       <section class="testimonial-area">
-        <div class="container">
-            <div class="sec-title white-title">
-                <p class="text-center text-4xl font-bold mb-4 pb-4">What Client Say About Us?</p>
-            </div>
-            <div class="back-img"></div>
-            <div class="testimonial-content owl-carousel">
-                <!-- Single Testimonial -->
-                <div class="single-testimonial carousel-slide single-testimonial p-4">
-                    <div class="round-1 round"></div>
-                    <div class="round-2 round"></div>
-                    <p>1. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-                    <div class="client-info">
-                        <div class="client-video">
-                            <a href="#"><img src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg" alt=""></a>
-                        </div>
-                        <div class="client-details">
-                            <h6>Yeasin Arafat</h6>
-                            <span>Designer, LLCG Team</span>
-                        </div>
-                        <i class="fa-solid fa-quote-left"></i>
-                    </div>
-                </div>
-                <!-- Add more testimonials as needed -->
-                <div class="single-testimonial carousel-slide single-testimonial p-4">
-                    <div class="round-1 round"></div>
-                    <div class="round-2 round"></div>
-                    <p>2. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-                    <div class="client-info">
-                        <div class="client-video">
-                            <a href="#"><img src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg" alt=""></a>
-                        </div>
-                        <div class="client-details">
-                            <h6>Yeasin Arafat</h6>
-                            <span>Designer, LLCG Team</span>
-                        </div>
-                        <i class="fa-solid fa-quote-left"></i>
-                    </div>
-                </div>
-                <!-- Repeat the above block for more testimonials -->
-                <div class="single-testimonial carousel-slide single-testimonial p-4">
-                    <div class="round-1 round"></div>
-                    <div class="round-2 round"></div>
-                    <p>3. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-                    <div class="client-info">
-                        <div class="client-video">
-                            <a href="#"><img src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg" alt=""></a>
-                        </div>
-                        <div class="client-details">
-                            <h6>Yeasin Arafat</h6>
-                            <span>Designer, LLCG Team</span>
-                        </div>
-                        <i class="fa-solid fa-quote-left"></i>
-                    </div>
-                </div>
-                <!-- Repeat the above block for more testimonials -->
-                <div class="single-testimonial carousel-slide single-testimonial p-4">
-                    <div class="round-1 round"></div>
-                    <div class="round-2 round"></div>
-                    <p>4. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-                    <div class="client-info">
-                        <div class="client-video">
-                            <a href="#"><img src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg" alt=""></a>
-                        </div>
-                        <div class="client-details">
-                            <h6>Yeasin Arafat</h6>
-                            <span>Designer, LLCG Team</span>
-                        </div>
-                        <i class="fa-solid fa-quote-left"></i>
-                    </div>
-                </div>
-                <!-- Repeat the above block for more testimonials -->
-                <div class="single-testimonial carousel-slide single-testimonial p-4">
-                    <div class="round-1 round"></div>
-                    <div class="round-2 round"></div>
-                    <p>5. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-                    <div class="client-info">
-                        <div class="client-video">
-                            <a href="#"><img src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg" alt=""></a>
-                        </div>
-                        <div class="client-details">
-                            <h6>Yeasin Arafat</h6>
-                            <span>Designer, LLCG Team</span>
-                        </div>
-                        <i class="fa-solid fa-quote-left"></i>
-                    </div>
-                </div>
-                <!-- Repeat the above block for more testimonials -->
-            </div>
-            <div class="owl-nav">
-                <button class="owl-prev"><i class="fa-solid fa-arrow-left"></i></button>
-                <button class="owl-next"><i class="fa-solid fa-arrow-right"></i></button>
-            </div>
-        </div>
-    </div>
-    </section>
-</section>
-
-<script>
-    $(document).ready(function(){
-        const owl = $(".testimonial-content");
-        owl.owlCarousel({
-            loop: true,
-            margin: 8,
-            dots: false,
-            nav: false,
-            mouseDrag: true,
-            autoplay: true,
-            autoplayTimeout: 3000,
-            smartSpeed: 1000,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                600: {
-                    items: 1
-                },
-                1000: {
-                    items: 2
-                }
+        <style>
+            .testimonial-area {
+                position: relative;
             }
-        });
 
-        $(".owl-prev").click(function() {
-            owl.trigger('prev.owl.carousel');
-        });
-        
-        $(".owl-next").click(function() {
-            owl.trigger('next.owl.carousel');
-        });
-    });
-</script>
+            .testimonial-content {
+                position: relative;
+                z-index: 1;
+                bottom: 4.8rem;
+            }
+
+            .owl-nav {
+                position: absolute;
+                top: 50%;
+                width: calc(100% - 100px);
+                /* Reduced width to leave space for buttons */
+                display: flex;
+                justify-content: space-between;
+                transform: translateY(-4rem);
+                /* padding: 0 50px;  */
+                box-sizing: border-box;
+                width: 100%;
+            }
+
+            .owl-nav button {
+                background-color: transparent;
+                border: none;
+                font-size: 30px;
+                cursor: pointer;
+                transition: color 0.3s;
+            }
+
+            .owl-nav button:hover {
+                color: var(--blue);
+            }
+
+            .sec-title.white-title h2 {
+                color: #fff;
+            }
+
+            .client-video img {
+                width: 150px !important;
+                max-width: 65px;
+            }
+
+            .client-info i.fa-solid.fa-quote-left {
+                position: absolute;
+                right: 10px;
+                font-size: 60px;
+                color: #11CDBE;
+            }
+
+            .client-video {
+                padding-right: 15px;
+            }
+
+            .client-info {
+                display: flex;
+                align-items: center;
+                text-align: left;
+                padding-bottom: 30px;
+                margin-top: 1rem;
+            }
+
+            .single-testimonial p {
+                background: #fff;
+                padding: 42px 32px;
+                box-shadow: 0px 0px 8px 2px #0000001a;
+                border-radius: 6px;
+            }
+
+            .back-img {
+                content: url('https://www.nighthawk-routerlogin.com/assets/img/Bg.png');
+                width: 100%;
+                position: relative;
+                /* top: 5rem; */
+            }
+
+            .owl-nav button.owl-prev {
+                position: relative;
+                left: -3rem;
+                padding: 8px;
+                border-radius: 39px;
+                border-width: 1px;
+                border: 1px solid;
+                height: 38px;
+                align-items: center;
+                display: inherit;
+                font-size: 24px;
+                color: #0000006e;
+            }
+
+            .owl-nav button.owl-next {
+                position: relative;
+                right: -2rem;
+                padding: 8px;
+                border-radius: 39px;
+                border-width: 1px;
+                border: 1px solid;
+                height: 38px;
+                align-items: center;
+                display: inherit;
+                font-size: 24px;
+                color: #0000006e;
+            }
+        </style>
+
+        <section
+            class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
+            id="faq" style="overflow: hidden; padding-bottom: 0rem; height: 420px;">
+            <div class="container main-banner-container">
+                <section class="testimonial-area">
+                    <div class="container">
+                        <div class="sec-title white-title">
+                            <p class="text-center text-4xl font-bold mb-4 pb-4">What Client Say About Us?</p>
+                        </div>
+                        <div class="back-img"></div>
+                        <div class="testimonial-content owl-carousel">
+                            <!-- Single Testimonial -->
+                            <div class="single-testimonial carousel-slide single-testimonial p-4">
+                                <div class="round-1 round"></div>
+                                <div class="round-2 round"></div>
+                                <p>1. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                    has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                    printer took a galley of type and scrambled it to make a type specimen book</p>
+                                <div class="client-info">
+                                    <div class="client-video">
+                                        <a href="#"><img
+                                                src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg"
+                                                alt=""></a>
+                                    </div>
+                                    <div class="client-details">
+                                        <h6>Yeasin Arafat</h6>
+                                        <span>Designer, LLCG Team</span>
+                                    </div>
+                                    <i class="fa-solid fa-quote-left"></i>
+                                </div>
+                            </div>
+                            <!-- Add more testimonials as needed -->
+                            <div class="single-testimonial carousel-slide single-testimonial p-4">
+                                <div class="round-1 round"></div>
+                                <div class="round-2 round"></div>
+                                <p>2. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                    has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                    printer took a galley of type and scrambled it to make a type specimen book</p>
+                                <div class="client-info">
+                                    <div class="client-video">
+                                        <a href="#"><img
+                                                src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg"
+                                                alt=""></a>
+                                    </div>
+                                    <div class="client-details">
+                                        <h6>Yeasin Arafat</h6>
+                                        <span>Designer, LLCG Team</span>
+                                    </div>
+                                    <i class="fa-solid fa-quote-left"></i>
+                                </div>
+                            </div>
+                            <!-- Repeat the above block for more testimonials -->
+                            <div class="single-testimonial carousel-slide single-testimonial p-4">
+                                <div class="round-1 round"></div>
+                                <div class="round-2 round"></div>
+                                <p>3. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                    has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                    printer took a galley of type and scrambled it to make a type specimen book</p>
+                                <div class="client-info">
+                                    <div class="client-video">
+                                        <a href="#"><img
+                                                src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg"
+                                                alt=""></a>
+                                    </div>
+                                    <div class="client-details">
+                                        <h6>Yeasin Arafat</h6>
+                                        <span>Designer, LLCG Team</span>
+                                    </div>
+                                    <i class="fa-solid fa-quote-left"></i>
+                                </div>
+                            </div>
+                            <!-- Repeat the above block for more testimonials -->
+                            <div class="single-testimonial carousel-slide single-testimonial p-4">
+                                <div class="round-1 round"></div>
+                                <div class="round-2 round"></div>
+                                <p>4. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                    has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                    printer took a galley of type and scrambled it to make a type specimen book</p>
+                                <div class="client-info">
+                                    <div class="client-video">
+                                        <a href="#"><img
+                                                src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg"
+                                                alt=""></a>
+                                    </div>
+                                    <div class="client-details">
+                                        <h6>Yeasin Arafat</h6>
+                                        <span>Designer, LLCG Team</span>
+                                    </div>
+                                    <i class="fa-solid fa-quote-left"></i>
+                                </div>
+                            </div>
+                            <!-- Repeat the above block for more testimonials -->
+                            <div class="single-testimonial carousel-slide single-testimonial p-4">
+                                <div class="round-1 round"></div>
+                                <div class="round-2 round"></div>
+                                <p>5. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                    has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                    printer took a galley of type and scrambled it to make a type specimen book</p>
+                                <div class="client-info">
+                                    <div class="client-video">
+                                        <a href="#"><img
+                                                src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg"
+                                                alt=""></a>
+                                    </div>
+                                    <div class="client-details">
+                                        <h6>Yeasin Arafat</h6>
+                                        <span>Designer, LLCG Team</span>
+                                    </div>
+                                    <i class="fa-solid fa-quote-left"></i>
+                                </div>
+                            </div>
+                            <!-- Repeat the above block for more testimonials -->
+                        </div>
+                        <div class="owl-nav">
+                            <button class="owl-prev"><i class="fa-solid fa-arrow-left"></i></button>
+                            <button class="owl-next"><i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        </section>
+
+        <script>
+            $(document).ready(function() {
+                const owl = $(".testimonial-content");
+                owl.owlCarousel({
+                    loop: true,
+                    margin: 8,
+                    dots: false,
+                    nav: false,
+                    mouseDrag: true,
+                    autoplay: true,
+                    autoplayTimeout: 3000,
+                    smartSpeed: 1000,
+                    responsive: {
+                        0: {
+                            items: 1
+                        },
+                        600: {
+                            items: 1
+                        },
+                        1000: {
+                            items: 2
+                        }
+                    }
+                });
+
+                $(".owl-prev").click(function() {
+                    owl.trigger('prev.owl.carousel');
+                });
+
+                $(".owl-next").click(function() {
+                    owl.trigger('next.owl.carousel');
+                });
+            });
+        </script>
 
 
---------------------------
+        --------------------------
 
-<footer class="relative overflow-hidden z-1"> 
-    <div class="footer-top py-12 bg-gradient-to-br from-purple-600 to-blue-800" style="margin-top: 4rem;">
-      <div class="container mx-auto px-4">
-        <div class="flex flex-wrap footer-flex"> 
-          <div class="w-full lg:w-1/2 mb-8 lg:mb-0 mobile-flex">
-            {{-- <h2 class="text-white text-3xl font-semibold mb-6">
+        {{-- Start New footer html --}}
+
+        <footer class="relative overflow-hidden z-1">
+            <div class="footer-top py-12 bg-gradient-to-br from-purple-600 to-blue-800" style="margin-top: 4rem;">
+                <div class="container mx-auto px-4">
+                    <div class="flex flex-wrap footer-flex">
+                        <div class="w-full lg:w-1/2 mb-8 lg:mb-0 mobile-flex">
+                            {{-- <h2 class="text-white text-3xl font-semibold mb-6">
                 TTB INTERNET SECURITY APP</h2> --}}
-            <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 my-btn-section">
-                <a href="#" class="ti-btn ti-btn-primary-full !rounded-full ti-btn-wave my-btn-pros">
-                    <span class="fab fa-apple icon-size-sm mx-3 mr-3 h2"></span>
-                    <div class="download-text text-left">
-                        <h5 class="mb-0">Download</h5>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 my-btn-section">
+                                <a href="#"
+                                    class="ti-btn ti-btn-primary-full !rounded-full ti-btn-wave my-btn-pros">
+                                    <span class="fab fa-apple icon-size-sm mx-3 mr-3 h2"></span>
+                                    <div class="download-text text-left">
+                                        <h5 class="mb-0">Download</h5>
+                                    </div>
+                                </a>
+                                <a href="#" class="ti-btn !rounded-full ti-btn-wave my-btn-pro"
+                                    style="border: 1px solid #13D8AA ">
+                                    <span class="fab fa-google-play icon-size-sm mx-3 mr-3 h2"
+                                        style="color: #13D8AA;"></span>
+                                    <div class="download-text text-left">
+                                        <h5 class="mb-0">Download</h5>
+                                    </div>
+                                </a>
+
+
+                            </div>
+                        </div>
+                        <div class="w-full lg:w-1/2">
+                            <div class="inner-column text-right lg:text-right">
+                                {{-- <h2 class="text-white text-3xl font-semibold mb-6">FOR MORE INFORMATION SUBSCRIBE TODAY</h2> --}}
+                                <div class="subscribe-form">
+                                    <form method="post" action="{{ route('user.saveemailsub') }}" id="mail-subscribe">
+                                        @csrf
+                                        <div class="form-group relative">
+                                            <input type="email" name="email_subscribe" id="email_subscribe"
+                                                placeholder="Enter mail address..." required
+                                                class="w-80 h-12 px-8 py-2 rounded-full bg-transparent text-black border border-white outline-none">
+                                            <button type="submit" id="sub-button"
+                                                class="absolute right-2 top-2 h-12 bg-yellow-500 text-indigo-800 font-semibold rounded-full px-6 uppercase">
+                                                Subscribe
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </a>
-                <a href="#" class="ti-btn !rounded-full ti-btn-wave my-btn-pro" style="border: 1px solid #13D8AA ">
-                    <span class="fab fa-google-play icon-size-sm mx-3 mr-3 h2" style="color: #13D8AA;"></span>
-                    <div class="download-text text-left">
-                        <h5 class="mb-0">Download</h5>
+                </div>
+            </div>
+
+
+
+
+            <div class="widgets-section py-6">
+                <div class="container mx-auto px-4">
+                    <div class="flex flex-wrap footer-flex justify-between">
+                        <div class="w-full lg:w-1/5 mb-8 lg:mb-0">
+                            <div class="footer-widget">
+                                <div class="logo mb-8">
+                                    <a href="#"><img src="images/logo/logo-light.png" alt=""
+                                            class="w-40"></a>
+                                </div>
+                                <p class="text-white mb-6">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                </p>
+                                <ul class="footer-info text-white">
+                                    <h2 class="text-white text-xl font-semibold mb-6">CONTACT US</h2>
+                                    <li class="mb-4 flex items-center"><i
+                                            class="fa fa-phone mr-2 px-2 text-yellow-500"></i><a
+                                            href="tel:(800) 710-9311">(800) 710-9311</a></li>
+                                    <li class="mb-4 flex items-center"><i
+                                            class="fa-solid fa-envelope mr-2 px-2 text-yellow-500"></i> <a
+                                            href="mailto:care@ttbinternetsecurity.com">care@ttbinternetsecurity.com</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="w-full lg:w-1/5 mb-8 lg:mb-0 px-12">
+                            <div class="footer-widget">
+                                <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">QUICK LINKS</h2>
+                                <ul class="list-none text-white">
+                                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">Home</a></li>
+                                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">About</a></li>
+                                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">Support</a></li>
+                                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">Sign In</a></li>
+                                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">Personal</a></li>
+                                    <li><a href="#" class="hover:text-yellow-500">Commercial</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="w-full lg:w-1/5 mb-8 lg:mb-0">
+                            <div class="footer-widget">
+                                <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">PRODUCTS</h2>
+                                <ul class="list-none text-white">
+                                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">TTB Antivirus</a>
+                                    </li>
+                                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">TTB Internet
+                                            Security</a></li>
+                                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">TTB Total
+                                            Security</a></li>
+                                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">TTB VPN Shield</a>
+                                    </li>
+                                </ul>
+                                <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">RESOURCES</h2>
+                                <ul class="list-none text-white">
+                                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">News</a></li>
+                                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">Blogs</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="w-full lg:w-1/5 mb-8 lg:mb-0">
+                            <div class="footer-widget">
+                                <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">SOLUTIONS</h2>
+                                <ul class="list-none text-white">
+                                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">EndPoint
+                                            Protection</a></li>
+                                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">Network
+                                            Protection</a></li>
+                                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">Threat
+                                            Protection</a></li>
+                                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">Behavioral
+                                            Protection</a></li>
+                                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">Enhanced
+                                            Firewall</a></li>
+                                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">Malware
+                                            Detection</a></li>
+                                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">Real Time
+                                            Anti-phishing</a></li>
+                                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">Virus Removal
+                                            Service</a></li>
+                                    <li class="mb-2"><a href="#" class="hover:text-yellow-500">E-Support
+                                            Concierge</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="w-full lg:w-1/5 mb-8 lg:mb-0">
+                            <div class="footer-widget">
+                                <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">ADDRESS</h2>
+                                <ul class="list-none text-white">
+                                    <h2 class="text-white text-lg font-semibold mb-2 text-color-ttb">USA</h2>
+                                    <li class="flex items-center pb-2">Sand Lake Rd, Orlando, FL, USA</li>
+                                    <h2 class="text-white text-lg font-semibold mb-2 text-color-ttb">UNITED KINGDOM</h2>
+                                    <li class="flex items-center pb-2">Shelton Street, Covent Garden, London, UK</li>
+                                    <h2 class="text-white text-lg font-semibold mb-2 text-color-ttb">CANADA</h2>
+                                    <li class="flex items-center pb-2">Sugarpine Court Brampton, Ontario, CA</li>
+                                    <h2 class="text-white text-lg font-semibold mb-2 text-color-ttb">INDIA</h2>
+                                    <li class="flex items-center pb-2">Bestech Business Tower, Sector 66, Mohali, IN</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                </a>
-
-
-            </div>
-          </div>
-          <div class="w-full lg:w-1/2">
-            <div class="inner-column text-right lg:text-right">
-              {{-- <h2 class="text-white text-3xl font-semibold mb-6">FOR MORE INFORMATION SUBSCRIBE TODAY</h2> --}}
-              <div class="subscribe-form">
-                <form method="post" action="{{route('user.saveemailsub')}}" id="mail-subscribe">
-                @csrf
-                  <div class="form-group relative">
-                    <input type="email" name="email_subscribe" id="email_subscribe" placeholder="Enter mail address..." required class="w-80 h-12 px-8 py-2 rounded-full bg-transparent text-black border border-white outline-none">
-                    <button type="submit" id="sub-button" class="absolute right-2 top-2 h-12 bg-yellow-500 text-indigo-800 font-semibold rounded-full px-6 uppercase">
-                      Subscribe
-                    </button>
-                  </div>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-   
-  
-    <div class="widgets-section py-6">
-        <div class="container mx-auto px-4">
-          <div class="flex flex-wrap footer-flex justify-between">
-            <div class="w-full lg:w-1/5 mb-8 lg:mb-0">
-              <div class="footer-widget">
-                <div class="logo mb-8">
-                  <a href="#"><img src="images/logo/logo-light.png" alt="" class="w-40"></a>
                 </div>
-                <p class="text-white mb-6">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-                <ul class="footer-info text-white">
-                  <h2 class="text-white text-xl font-semibold mb-6">CONTACT US</h2>
-                  <li class="mb-4 flex items-center"><i class="fa fa-phone mr-2 px-2 text-yellow-500"></i><a href="tel:(800) 710-9311">(800) 710-9311</a></li>
-                  <li class="mb-4 flex items-center"><i class="fa-solid fa-envelope mr-2 px-2 text-yellow-500"></i> <a href="mailto:care@ttbinternetsecurity.com">care@ttbinternetsecurity.com</a></li>
-                </ul>
-              </div>
             </div>
-            <div class="w-full lg:w-1/5 mb-8 lg:mb-0 px-12">
-              <div class="footer-widget">
-                <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">QUICK LINKS</h2>
-                <ul class="list-none text-white">
-                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">Home</a></li>
-                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">About</a></li>
-                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">Support</a></li>
-                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">Sign In</a></li>
-                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">Personal</a></li>
-                  <li><a href="#" class="hover:text-yellow-500">Commercial</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="w-full lg:w-1/5 mb-8 lg:mb-0">
-              <div class="footer-widget">
-                <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">PRODUCTS</h2>
-                <ul class="list-none text-white">
-                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">TTB Antivirus</a></li>
-                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">TTB Internet Security</a></li>
-                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">TTB Total Security</a></li>
-                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">TTB VPN Shield</a></li>
-                </ul>
-                <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">RESOURCES</h2>
-                <ul class="list-none text-white">
-                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">News</a></li>
-                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">Blogs</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="w-full lg:w-1/5 mb-8 lg:mb-0">
-              <div class="footer-widget">
-                <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">SOLUTIONS</h2>
-                <ul class="list-none text-white">
-                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">EndPoint Protection</a></li>
-                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">Network Protection</a></li>
-                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">Threat Protection</a></li>
-                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">Behavioral Protection</a></li>
-                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">Enhanced Firewall</a></li>
-                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">Malware Detection</a></li>
-                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">Real Time Anti-phishing</a></li>
-                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">Virus Removal Service</a></li>
-                  <li class="mb-2"><a href="#" class="hover:text-yellow-500">E-Support Concierge</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="w-full lg:w-1/5 mb-8 lg:mb-0">
-              <div class="footer-widget">
-                <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">ADDRESS</h2>
-                <ul class="list-none text-white">
-                    <h2 class="text-white text-lg font-semibold mb-2 text-color-ttb">USA</h2>
-                    <li class="flex items-center pb-2">Sand Lake Rd, Orlando, FL, USA</li>
-                    <h2 class="text-white text-lg font-semibold mb-2 text-color-ttb">UNITED KINGDOM</h2>
-                    <li class="flex items-center pb-2">Shelton Street, Covent Garden, London, UK</li>
-                    <h2 class="text-white text-lg font-semibold mb-2 text-color-ttb">CANADA</h2>
-                    <li class="flex items-center pb-2">Sugarpine Court Brampton, Ontario, CA</li>
-                    <h2 class="text-white text-lg font-semibold mb-2 text-color-ttb">INDIA</h2>
-                    <li class="flex items-center pb-2">Bestech Business Tower, Sector 66, Mohali, IN</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-  
-      <div class="footer-bottom py-4 border-t border-white">
-        <div class="container mx-auto px-4">
-          <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 items-center">
-            
-            <!-- Navigation Links Section -->
-            <div class="mb-4 lg:mb-0">
-                <div class="flex justify-center lg:justify-center below-links">
-                  <ul class="flex lg:flex-row lg:space-x-4">
-                    <li><a href="#" class="text-white">Support</a></li>
-                    <li><a href="#" class="text-white">Privacy Policy</a></li>
-                    <li><a href="#" class="text-white">Terms Of Service</a></li>
-                    <li><a href="#" class="text-white">Return &amp; Refund Policy</a></li>
-                    <li><a href="#" class="text-white">Sitemap</a></li>
-                  </ul>
+
+            <div class="footer-bottom py-4 border-t border-white">
+                <div class="container mx-auto px-4">
+                    <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 items-center">
+
+                        <!-- Navigation Links Section -->
+                        <div class="mb-4 lg:mb-0">
+                            <div class="flex justify-center lg:justify-center below-links">
+                                <ul class="flex lg:flex-row lg:space-x-4">
+                                    <li><a href="#" class="text-white">Support</a></li>
+                                    <li><a href="#" class="text-white">Privacy Policy</a></li>
+                                    <li><a href="#" class="text-white">Terms Of Service</a></li>
+                                    <li><a href="#" class="text-white">Return &amp; Refund Policy</a></li>
+                                    <li><a href="#" class="text-white">Sitemap</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                        <!-- Copyright Section -->
+                        <div class="mb-4 lg:mb-0">
+                            <p class="text-white text-sm">
+                                Copyright © 2024
+                                <a href="https://nighthawk-routerlogin.com/">
+                                    <b style="color:#11CDBE;">TTB Antivirus.</b>
+                                </a>
+                                All Rights Reserved
+                            </p>
+                        </div>
+
+                        <!-- Social Media Icons Section -->
+                        <div class="mb-4 lg:mb-0 icon-margin">
+                            <ul class="flex justify-center lg:justify-end space-x-2">
+                                <li>
+                                    <a href="https://www.facebook.com/ttbinternetsecurities/">
+                                        <button aria-label="Facebook" type="button"
+                                            class="ti-btn ti-btn-sm ti-btn-primary">
+                                            <i class="ri-facebook-line font-bold"></i></a>
+                                    </button>
+                                </li>
+                                <li>
+                                    <a href="https://x.com/i/flow/login?redirect_after_login=%2FTTBisecure">
+                                        <button aria-label="Twitter" type="button"
+                                            class="ti-btn ti-btn-sm ti-btn-secondary">
+                                            <i class="ri-twitter-line font-bold"></i></a>
+                                    </button>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/ttbinternetsecurity/">
+                                        <button aria-label="Instagram" type="button"
+                                            class="ti-btn ti-btn-sm ti-btn-warning">
+                                            <i class="ri-instagram-line font-bold"></i></a>
+                                    </button>
+                                </li>
+                                <li>
+                                    <a href="https://www.youtube.com/channel/UCda5n02Q-bHeQlyWwm3ieWg">
+                                        <button aria-label="YouTube" type="button"
+                                            class="ti-btn ti-btn-sm ti-btn-danger">
+                                            <i class="ri-youtube-line font-bold"></i></a>
+                                    </button>
+                                </li>
+                                <li>
+                                <li>
+                                    <a href="https://www.linkedin.com/company/ttbinternetsecurity">
+                                        <button aria-label="linkedin" type="button"
+                                            class="ti-btn ti-btn-sm ti-btn-success">
+                                            <i class="fa-brands fa-linkedin font-bold"></i></a>
+                                    </button>
+                                </li>
+                                <a href="https://in.pinterest.com/ttbinternetsecurity/_created/">
+                                    <button aria-label="pinterest" type="button" class="ti-btn ti-btn-sm ti-btn-danger">
+                                        <i class="fa-brands fa-square-pinterest font-bold"></i></a>
+                                </button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-              </div>
-
-
-            <!-- Copyright Section -->
-            <div class="mb-4 lg:mb-0">
-              <p class="text-white text-sm">
-                Copyright © 2024 
-                <a href="https://nighthawk-routerlogin.com/">
-                  <b style="color:#11CDBE;">TTB Antivirus.</b>
-                </a> 
-                All Rights Reserved
-              </p>
             </div>
-            
-            <!-- Social Media Icons Section -->
-            <div class="mb-4 lg:mb-0 icon-margin">
-              <ul class="flex justify-center lg:justify-end space-x-2">
-                <li>
-                    <a href="https://www.facebook.com/ttbinternetsecurities/">
-                  <button aria-label="Facebook" type="button" class="ti-btn ti-btn-sm ti-btn-primary">
-                    <i class="ri-facebook-line font-bold"></i></a>
-                  </button>
-                </li>
-                <li>
-                    <a href="https://x.com/i/flow/login?redirect_after_login=%2FTTBisecure">
-                  <button aria-label="Twitter" type="button" class="ti-btn ti-btn-sm ti-btn-secondary">
-                    <i class="ri-twitter-line font-bold"></i></a>
-                  </button>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/ttbinternetsecurity/">
-                  <button aria-label="Instagram" type="button" class="ti-btn ti-btn-sm ti-btn-warning">
-                    <i class="ri-instagram-line font-bold"></i></a>
-                  </button>
-                </li>
-                <li>
-                    <a href="https://www.youtube.com/channel/UCda5n02Q-bHeQlyWwm3ieWg">
-                  <button aria-label="YouTube" type="button" class="ti-btn ti-btn-sm ti-btn-danger">
-                    <i class="ri-youtube-line font-bold"></i></a>
-                  </button>
-                </li>
-                <li>
-                    <li>
-                        <a href="https://www.linkedin.com/company/ttbinternetsecurity">
-                        <button aria-label="linkedin" type="button" class="ti-btn ti-btn-sm ti-btn-success">
-                          <i class="fa-brands fa-linkedin font-bold"></i></a>
-                        </button>
-                      </li>
-                      <a href="https://in.pinterest.com/ttbinternetsecurity/_created/">
-                        <button aria-label="pinterest" type="button" class="ti-btn ti-btn-sm ti-btn-danger">
-                      <i class="fa-brands fa-square-pinterest font-bold"></i></a>
-                    </button>
-                  </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
 
-</footer>
+        </footer>
 
-
-    <style>
-    footer {
-  position: relative;
-  overflow: hidden;
-  z-index: 1;
-}
-footer::after {
-  position: absolute;
-  content: "";
-  left: -1px;
-  right: -1px;
-  bottom: -1px;
-  top: 0;
-  z-index: -1;
-  background-color: #000;
-}
-.footer-top h2 {
-    font-size: 24px;
-}
-.footer-top .subscribe-form {
-    position: absolute;
-    right: 7rem;
-    border: 1px solid #13d4b1;
-    border-radius: 31px;
-}
-.footer-top .subscribe-form button {
-    position: absolute;
-    color: #fff;
-    background: #13d4b1;
-    right: 0rem;
-    top: 0;
-}
-.footer-top .subscribe-form input {
-    border: none;
-}
-
-.footer-widget a {
-    font-size: 14px;
-}
-.footer-widget li {
-    font-size: 14px;
-}
-.footer-widget p {
-    font-size: 14px;
-}
-.footer-flex {
-    flex-wrap: inherit;
-}
-.footer-bottom .items-center {
-    display: flex;
-    gap: 2rem;
-}
-.below-links li {
-    padding: 0 0.4rem;
-    border-right: 1px solid #fff;
-}
-.icon-margin {
-    margin: auto;
-}
-section.section.landing-footer.text-white.text-\[0\.813rem\] {
-    display: none;
-}
-.text-center.landing-main-footer.py-4 {
-    display: none;
-}
-.footer-info li a:hover {
-    color: #13d4b1;
-}
-.below-links li:last-child {
-    border-right: 0 !important;
-}
-.pinterest {
-    background: #e6002342;
-    color: #e60023;
-}
-.pinterest:hover {
-    color: #fff;
-    background-color: #E60023;
-}
-    </style>  
+        {{-- End New footer html --}}
 
 
 
 
-</section>
+
+        </section>
 
 
 
     @endsection
-
-
