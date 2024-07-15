@@ -17434,6 +17434,28 @@ label {
     position: relative;
 }
 
+/* .pricing-offer .pricing-offer-details {
+    position: absolute;
+    inset-inline-end: -2.063rem;
+    top: 1.75rem;
+    display: flex;
+    height: 1.5rem;
+    width: 11.438rem;
+    --tw-rotate: 38deg;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y))
+        rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+        scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    align-items: flex-end;
+    justify-content: center;
+    background-color: rgb(var(--primary));
+    padding: 0.313rem;
+    font-size: 0.75rem;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+} */
+
+
+
 .pricing-offer .pricing-offer-details {
     position: absolute;
     inset-inline-end: -2.063rem;
@@ -17452,7 +17474,18 @@ label {
     font-size: 0.75rem;
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));
+    animation: blinkBackground 1s infinite;
 }
+
+@keyframes blinkBackground {
+    0%, 100% {
+        background-color: rgb(var(--primary));
+    }
+    50% {
+        background-color: transparent;
+    }
+}
+
 
 [dir="rtl"] .pricing-offer-details {
     --tw-rotate: 315deg;
@@ -48772,6 +48805,25 @@ img.img-fluid.service-icon {
 
 /* neeraj-home-page-css-22-04-2024 */
 
+
+.home2-new-seven-pricing .text-box-price p {
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding: 2px 10px;
+}
+.home2-new-seven-pricing .ti-btn{
+   border-radius: 25px;
+   font-family: "Roboto", sans-serif;
+
+}
+
+
+
+.home2-new-seven-pricing .text-box-price {
+    text-align: center;
+    margin: 10px 0px -1px 0px;
+}
 .home2-new-seven-pricing h6{
     font-size: 20px;
     font-weight: 700;
@@ -48803,7 +48855,7 @@ img.img-fluid.service-icon {
 
 .section-home2-two {
     padding: 4em 0em 2em 0em;
-    background-color: #f5f6fa;
+    background-color: #ffffff;
 }
 
 .home2-new-seven-pricing h5{

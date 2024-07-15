@@ -399,12 +399,12 @@
                             </div>
                             <div class="flex justify-center mb-4 mt-5">
                                 <nav class="bg-primary/10 p-4 rounded-md mb-4" aria-label="Tabs">
-                                    <a class="hs-tab-active:bg-primary hs-tab-active:text-white cursor-pointer text-primary py-2 px-4  text-sm font-medium text-center rounded-sm hover:text-primary active"
+                                    <a class="hs-tab-active:bg-primary hs-tab-active:text-white cursor-pointer text-primary py-2 px-4  text-lg font-medium text-center rounded-sm hover:text-primary active"
                                         id="pricing-item1" data-hs-tab="#pricing-monthly-pane"
                                         aria-controls="pricing-monthly-pane">
                                         Antivirus
                                     </a>
-                                    <a class="hs-tab-active:bg-primary hs-tab-active:text-white cursor-pointer text-primary py-2 px-4 text-sm font-medium text-center  rounded-sm hover:text-primary "
+                                    <a class="hs-tab-active:bg-primary hs-tab-active:text-white cursor-pointer text-primary py-2 px-4 text-lg font-medium text-center  rounded-sm hover:text-primary "
                                         id="pricing-yearly1-item1" data-hs-tab="#pricing-yearly-pane"
                                         aria-controls="pricing-yearly-pane">
                                         VPN Shield
@@ -421,6 +421,10 @@
                                                     class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 sm:col-span-12 col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 px-0 box-price">
                                                     <div class="p-6 pricing-offer overflow-hidden">
                                                         <h6 class="font-semibold text-center text-[1rem]">Plus</h6>
+                                                        <div class="text-box-price">
+                                                            <p>Annual</p>
+                                                            </div>
+                                                            
                                                         <div class="py-4 flex items-center justify-center">
                                                             <div class="pricing-svg1">
 
@@ -468,13 +472,17 @@
                                                     class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 sm:col-span-12 col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 px-0 box-price">
                                                     <div class="p-6 pricing-offer overflow-hidden">
                                                         <h6 class="font-semibold text-center text-[1rem]">Standard</h6>
+                                                        <div class="text-box-price">
+                                                            <p>Annual</p>
+                                                            </div>
+                                                            
                                                         <div class="py-4 flex items-center justify-center">
                                                             <div class="pricing-svg1">
 
                                                             </div>
                                                             <div class="text-end ms-5">
                                                                 <p class="text-center"> <del>$59.99</del> <span class="text-primary">50% OFF</span></p>
-                                                                <p class="text-[1.5625rem] font-semibold mb-0 ">$1,299 per
+                                                                <p class="text-[1.5625rem] font-semibold mb-0 ">$2,299 per
                                                                     month</p>
                                                                 <p
                                                                     class="sub-p">
@@ -523,6 +531,10 @@
                                                                 class="text-[0.625rem] op-8 ms-1">Off</span>
                                                         </span> --}}
                                                         <h6 class="font-semibold text-center text-[1rem]">Deluxe</h6>
+                                                        <div class="text-box-price">
+                                                            <p>Annual</p>
+                                                            </div>
+                                                            
                                                         <div class="py-4 flex items-center justify-center">
                                                             <div class="pricing-svg1">
 
@@ -530,8 +542,8 @@
                                                             <div class="text-end ms-5">
                                                                 <p class="text-center"> <del>$59.99</del> <span class="text-primary">50% OFF</span></p>
                                                                 <p
-                                                                    class="text-[1.5625rem] font-semibold mb-0 text-primary">
-                                                                    $1,299 per month</p>
+                                                                    class="text-[1.5625rem] font-semibold mb-0 ">
+                                                                    $3,299 per month</p>
                                                                 <p
                                                                     class="sub-p">
                                                                     See Subscription details below *</p>
@@ -581,18 +593,22 @@
                                                 <div
                                                     class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 sm:col-span-12 col-span-12 ps-0 box-price">
                                                     <div class="p-6 pricing-offer overflow-hidden">
-                                                        <span class="pricing-offer-details shadow">
+                                                        <span class="pricing-offer-details ">
                                                             <span class="font-semibold">10%</span> <span
                                                                 class="text-[0.625rem] op-8 ms-1">Off</span>
                                                         </span>
                                                         <h6 class="font-semibold text-center text-[1rem]">Advanced</h6>
+                                                        <div class="text-box-price">
+                                                            <p>Annual</p>
+                                                            </div>
+                                                            
                                                         <div class="py-4 flex items-center justify-center">
                                                             <div class="pricing-svg1">
 
                                                             </div>
                                                             <div class="text-end ms-5">
                                                                 <p class="text-center"> <del>$59.99</del> <span class="text-primary">50% OFF</span></p>
-                                                                <p class="text-[1.5625rem] font-semibold mb-0 ">$1,299 per
+                                                                <p class="text-[1.5625rem] font-semibold mb-0 text-primary">$4,299 per
                                                                     month</p>
                                                                 <p
                                                                     class="sub-p">
@@ -674,13 +690,17 @@
                                                     class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 sm:col-span-12 col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 px-0 box-price">
                                                     <div class="p-6 pricing-offer overflow-hidden">
                                                         <h6 class="font-semibold text-center text-[1rem]">Plus </h6>
+                                                        <div class="text-box-price">
+                                                            <p>Annual</p>
+                                                            </div>
+                                                            
                                                         <div class="py-4 flex items-center justify-center">
                                                             <div class="pricing-svg1">
 
                                                             </div>
                                                             <div class="text-end ms-5">
                                                                 <p class="text-center"> <del>$59.99</del> <span class="text-primary">50% OFF</span></p>
-                                                                <p class="text-[1.5625rem] font-semibold mb-0 ">$1,299 per
+                                                                <p class="text-[1.5625rem] font-semibold mb-0 ">$4,299 per
                                                                     month</p>
                                                                 <p
                                                                     class="sub-p">
@@ -721,13 +741,17 @@
                                                     class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 sm:col-span-12 col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 px-0 box-price">
                                                     <div class="p-6 pricing-offer overflow-hidden">
                                                         <h6 class="font-semibold text-center text-[1rem]">Standard</h6>
+                                                        <div class="text-box-price">
+                                                            <p>Annual</p>
+                                                            </div>
+                                                            
                                                         <div class="py-4 flex items-center justify-center">
                                                             <div class="pricing-svg1">
 
                                                             </div>
                                                             <div class="text-end ms-5">
                                                                 <p class="text-center"> <del>$59.99</del> <span class="text-primary">50% OFF</span></p>
-                                                                <p class="text-[1.5625rem] font-semibold mb-0 ">$1,299 per
+                                                                <p class="text-[1.5625rem] font-semibold mb-0 ">$5,299 per
                                                                     month</p>
                                                                 <p
                                                                     class="sub-p">
@@ -776,6 +800,10 @@
                                                                 class="text-[0.625rem] op-8 ms-1">Off</span>
                                                         </span> --}}
                                                         <h6 class="font-semibold text-center text-[1rem]">Deluxe</h6>
+                                                        <div class="text-box-price">
+                                                            <p>Annual</p>
+                                                            </div>
+                                                            
                                                         <div class="py-4 flex items-center justify-center">
                                                             <div class="pricing-svg1">
 
@@ -783,8 +811,8 @@
                                                             <div class="text-end ms-5">
                                                                 <p class="text-center"> <del>$59.99</del> <span class="text-primary">50% OFF</span></p>
                                                                 <p
-                                                                    class="text-[1.5625rem] font-semibold mb-0 text-primary">
-                                                                    $1,299 per month</p>
+                                                                    class="text-[1.5625rem] font-semibold mb-0 ">
+                                                                    $6,299 per month</p>
                                                                 <p
                                                                     class="sub-p">
                                                                     See Subscription details below *</p>
@@ -835,18 +863,22 @@
                                                 <div
                                                     class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 sm:col-span-12 col-span-12 ps-0 box-price">
                                                     <div class="p-6 pricing-offer overflow-hidden">
-                                                        <span class="pricing-offer-details shadow">
+                                                        <span class="pricing-offer-details ">
                                                             <span class="font-semibold">10%</span> <span
                                                                 class="text-[0.625rem] op-8 ms-1">Off</span>
                                                         </span>
                                                         <h6 class="font-semibold text-center text-[1rem]">Advanced</h6>
+                                                        <div class="text-box-price">
+                                                            <p>Annual</p>
+                                                            </div>
+                                                            
                                                         <div class="py-4 flex items-center justify-center">
                                                             <div class="pricing-svg1">
 
                                                             </div>
                                                             <div class="text-end ms-5">
                                                                 <p class="text-center"> <del>$59.99</del> <span class="text-primary">50% OFF</span></p>
-                                                                <p class="text-[1.5625rem] font-semibold mb-0 ">$1,299 per
+                                                                <p class="text-[1.5625rem] font-semibold mb-0 text-primary">$8,299 per
                                                                     month</p>
                                                                 <p
                                                                     class="sub-p">
