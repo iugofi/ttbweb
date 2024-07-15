@@ -11473,7 +11473,7 @@ h6 {
     padding-inline-start: 0px !important;
 } */
 
-/* .box.crm-highlight-card {
+.box.crm-highlight-card {
     position: relative;
     overflow: hidden;
     --tw-shadow: 0 0 #0000;
@@ -11707,7 +11707,7 @@ h6 {
     transform: translate(var(--tw-translate-x), var(--tw-translate-y))
         rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
         scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-} */
+}
 
 .apexcharts-bar-series.apexcharts-plot-series
     .apexcharts-series
