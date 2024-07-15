@@ -423,18 +423,18 @@
                                                         <h6 class="font-semibold text-center text-[1rem]">Plus</h6>
                                                         <div class="text-box-price">
                                                             <p>Annual</p>
-                                                            </div>
-                                                            
+                                                        </div>
+
                                                         <div class="py-4 flex items-center justify-center">
                                                             <div class="pricing-svg1">
 
                                                             </div>
                                                             <div class="text-end ms-5">
-                                                                <p class="text-center"> <del>$59.99</del> <span class="text-primary">50% OFF</span></p>
+                                                                <p class="text-center"> <del>$59.99</del> <span
+                                                                        class="text-primary">50% OFF</span></p>
                                                                 <p class="text-[1.5625rem] font-semibold mb-0 ">$1,299 per
                                                                     month</p>
-                                                                <p
-                                                                    class="sub-p">
+                                                                <p class="sub-p">
                                                                     See Subscription details below *</p>
                                                             </div>
                                                         </div>
@@ -474,18 +474,18 @@
                                                         <h6 class="font-semibold text-center text-[1rem]">Standard</h6>
                                                         <div class="text-box-price">
                                                             <p>Annual</p>
-                                                            </div>
-                                                            
+                                                        </div>
+
                                                         <div class="py-4 flex items-center justify-center">
                                                             <div class="pricing-svg1">
 
                                                             </div>
                                                             <div class="text-end ms-5">
-                                                                <p class="text-center"> <del>$59.99</del> <span class="text-primary">50% OFF</span></p>
+                                                                <p class="text-center"> <del>$59.99</del> <span
+                                                                        class="text-primary">50% OFF</span></p>
                                                                 <p class="text-[1.5625rem] font-semibold mb-0 ">$2,299 per
                                                                     month</p>
-                                                                <p
-                                                                    class="sub-p">
+                                                                <p class="sub-p">
                                                                     See Subscription details below *</p>
                                                             </div>
                                                         </div>
@@ -533,19 +533,18 @@
                                                         <h6 class="font-semibold text-center text-[1rem]">Deluxe</h6>
                                                         <div class="text-box-price">
                                                             <p>Annual</p>
-                                                            </div>
-                                                            
+                                                        </div>
+
                                                         <div class="py-4 flex items-center justify-center">
                                                             <div class="pricing-svg1">
 
                                                             </div>
                                                             <div class="text-end ms-5">
-                                                                <p class="text-center"> <del>$59.99</del> <span class="text-primary">50% OFF</span></p>
-                                                                <p
-                                                                    class="text-[1.5625rem] font-semibold mb-0 ">
+                                                                <p class="text-center"> <del>$59.99</del> <span
+                                                                        class="text-primary">50% OFF</span></p>
+                                                                <p class="text-[1.5625rem] font-semibold mb-0 ">
                                                                     $3,299 per month</p>
-                                                                <p
-                                                                    class="sub-p">
+                                                                <p class="sub-p">
                                                                     See Subscription details below *</p>
                                                             </div>
                                                         </div>
@@ -600,18 +599,20 @@
                                                         <h6 class="font-semibold text-center text-[1rem]">Advanced</h6>
                                                         <div class="text-box-price">
                                                             <p>Annual</p>
-                                                            </div>
-                                                            
+                                                        </div>
+
                                                         <div class="py-4 flex items-center justify-center">
                                                             <div class="pricing-svg1">
 
                                                             </div>
                                                             <div class="text-end ms-5">
-                                                                <p class="text-center"> <del>$59.99</del> <span class="text-primary">50% OFF</span></p>
-                                                                <p class="text-[1.5625rem] font-semibold mb-0 text-primary">$4,299 per
-                                                                    month</p>
+                                                                <p class="text-center"> <del>$59.99</del> <span
+                                                                        class="text-primary">50% OFF</span></p>
                                                                 <p
-                                                                    class="sub-p">
+                                                                    class="text-[1.5625rem] font-semibold mb-0 text-primary">
+                                                                    $4,299 per
+                                                                    month</p>
+                                                                <p class="sub-p">
                                                                     See Subscription details below *</p>
                                                             </div>
                                                         </div>
@@ -692,18 +693,18 @@
                                                         <h6 class="font-semibold text-center text-[1rem]">Plus </h6>
                                                         <div class="text-box-price">
                                                             <p>Annual</p>
-                                                            </div>
-                                                            
+                                                        </div>
+
                                                         <div class="py-4 flex items-center justify-center">
                                                             <div class="pricing-svg1">
 
                                                             </div>
                                                             <div class="text-end ms-5">
-                                                                <p class="text-center"> <del>$59.99</del> <span class="text-primary">50% OFF</span></p>
+                                                                <p class="text-center"> <del>$59.99</del> <span
+                                                                        class="text-primary">50% OFF</span></p>
                                                                 <p class="text-[1.5625rem] font-semibold mb-0 ">$4,299 per
                                                                     month</p>
-                                                                <p
-                                                                    class="sub-p">
+                                                                <p class="sub-p">
                                                                     See Subscription details below *</p>
                                                             </div>
                                                         </div>
@@ -743,18 +744,18 @@
                                                         <h6 class="font-semibold text-center text-[1rem]">Standard</h6>
                                                         <div class="text-box-price">
                                                             <p>Annual</p>
-                                                            </div>
-                                                            
+                                                        </div>
+
                                                         <div class="py-4 flex items-center justify-center">
                                                             <div class="pricing-svg1">
 
                                                             </div>
                                                             <div class="text-end ms-5">
-                                                                <p class="text-center"> <del>$59.99</del> <span class="text-primary">50% OFF</span></p>
+                                                                <p class="text-center"> <del>$59.99</del> <span
+                                                                        class="text-primary">50% OFF</span></p>
                                                                 <p class="text-[1.5625rem] font-semibold mb-0 ">$5,299 per
                                                                     month</p>
-                                                                <p
-                                                                    class="sub-p">
+                                                                <p class="sub-p">
                                                                     See Subscription details below *</p>
                                                             </div>
                                                         </div>
@@ -802,19 +803,18 @@
                                                         <h6 class="font-semibold text-center text-[1rem]">Deluxe</h6>
                                                         <div class="text-box-price">
                                                             <p>Annual</p>
-                                                            </div>
-                                                            
+                                                        </div>
+
                                                         <div class="py-4 flex items-center justify-center">
                                                             <div class="pricing-svg1">
 
                                                             </div>
                                                             <div class="text-end ms-5">
-                                                                <p class="text-center"> <del>$59.99</del> <span class="text-primary">50% OFF</span></p>
-                                                                <p
-                                                                    class="text-[1.5625rem] font-semibold mb-0 ">
+                                                                <p class="text-center"> <del>$59.99</del> <span
+                                                                        class="text-primary">50% OFF</span></p>
+                                                                <p class="text-[1.5625rem] font-semibold mb-0 ">
                                                                     $6,299 per month</p>
-                                                                <p
-                                                                    class="sub-p">
+                                                                <p class="sub-p">
                                                                     See Subscription details below *</p>
 
                                                             </div>
@@ -870,18 +870,20 @@
                                                         <h6 class="font-semibold text-center text-[1rem]">Advanced</h6>
                                                         <div class="text-box-price">
                                                             <p>Annual</p>
-                                                            </div>
-                                                            
+                                                        </div>
+
                                                         <div class="py-4 flex items-center justify-center">
                                                             <div class="pricing-svg1">
 
                                                             </div>
                                                             <div class="text-end ms-5">
-                                                                <p class="text-center"> <del>$59.99</del> <span class="text-primary">50% OFF</span></p>
-                                                                <p class="text-[1.5625rem] font-semibold mb-0 text-primary">$8,299 per
-                                                                    month</p>
+                                                                <p class="text-center"> <del>$59.99</del> <span
+                                                                        class="text-primary">50% OFF</span></p>
                                                                 <p
-                                                                    class="sub-p">
+                                                                    class="text-[1.5625rem] font-semibold mb-0 text-primary">
+                                                                    $8,299 per
+                                                                    month</p>
+                                                                <p class="sub-p">
                                                                     See Subscription details below *</p>
                                                             </div>
                                                         </div>
@@ -1366,7 +1368,7 @@
 
             {{-- download section start --}}
 
-            <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] sect-five"
+            {{-- <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] sect-five"
                 id="statistics">
                 <div class="container text-center relative">
 
@@ -1399,7 +1401,7 @@
                     </div>
 
                 </div>
-            </section>
+            </section> --}}
 
             {{-- End download section --}}
 
