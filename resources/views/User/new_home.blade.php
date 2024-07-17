@@ -386,6 +386,7 @@
                     </div>
                 </div>
             </section> --}}
+            
             <section class="home2-new-seven-pricing">
                 <div class="grid grid-cols-12 gap-6 justify-center mb-[3rem] ">
                     <div class="xxl:col-span-2 col-span-12"></div>
