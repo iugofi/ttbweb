@@ -450,10 +450,10 @@
         </style>
 
         <!-- FOOTER -->
-{{-- </div> --}}
+</div>
 <!-- END MAIN-CONTENT -->
 
-{{-- </div> --}}
+</div>
 <!-- END PAGE-->
 
 <!-- SCRIPTS -->
