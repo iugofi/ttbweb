@@ -112,7 +112,7 @@
 
         {{-- Start New footer html --}}
 
-        <footer class="relative overflow-hidden z-1">
+        <footer class="relative overflow-hidden z-1 section landing-footer  text-white text-[0.813rem]">
             <div class="footer-top py-12 bg-gradient-to-br from-purple-600 to-blue-800" style="margin-top: 4rem;">
                 <div class="container mx-auto px-4">
                     <div class="flex flex-wrap footer-flex">
@@ -447,7 +447,7 @@
                 background-color: #E60023;
             }
 
-            {{-- End New footer html --}}
+             /* End New footer html */
 
         </style>
 
