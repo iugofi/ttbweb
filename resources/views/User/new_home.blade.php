@@ -47,8 +47,6 @@
                 class="bg-[#131313] w-full h1-[511px]  lg1:h-[680px]
                 md1:h-[600px] sm1:h-[500px]  relative z-[1] overflow-hidden home-new-banner">
 
-
-
                 <div class="swiper-container w-full h-full absolute left-0 top-0">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
@@ -78,8 +76,8 @@
                                                 <div class="spacing-top-cl">
                                                     <span>Excellent</span><img
                                                         src="{{ asset('assets/home-two-img/Review.png') }}"> <span>18,249
-                                                        Reviews on</span><i class="fa-solid fa-star"></i><img
-                                                        src="{{ asset('assets/home-two-img/AV-Test.png') }}">
+                                                        Reviews on</span><i class="fa-solid fa-star"></i><a href="https://www.av-test.org/en/antivirus/mobile-devices/manufacturer/ttb/"><img
+                                                        src="{{ asset('assets/home-two-img/AV-Test.png') }}"></a>
                                                 </div>
                                             </div>
                                         </div>
