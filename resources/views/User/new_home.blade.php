@@ -111,8 +111,8 @@
                                                 <div class="spacing-top-cl">
                                                     <span>Excellent</span><img
                                                         src="{{ asset('assets/home-two-img/Review.png') }}"> <span>18,249
-                                                        Reviews on</span><i class="fa-solid fa-star"></i><img
-                                                        src="{{ asset('assets/home-two-img/AV-Test.png') }}">
+                                                        Reviews on</span><i class="fa-solid fa-star"></i><a href="https://www.av-test.org/en/antivirus/mobile-devices/manufacturer/ttb/"><img
+                                                        src="{{ asset('assets/home-two-img/AV-Test.png') }}"></a>
                                                 </div>
                                             </div>
                                         </div>
