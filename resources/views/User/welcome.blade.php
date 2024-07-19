@@ -1496,5 +1496,4 @@
 
             {{-- End New footer html --}}
 
-
         </style>
