@@ -69,7 +69,7 @@
 
                                             <div data-swiper-parallax="400" class="slide-btn">
                                                 <a href="#" class="theme-btn"> Download</a>
-                                                <a href="#" class="theme-btn-2"> Choose Plan</a>
+                                                <a href="#pricing-plan-sect" class="theme-btn-2"> Choose Plan</a>
 
                                             </div>
                                             <div data-swiper-parallax="500" class="slide-title">
@@ -105,7 +105,7 @@
 
                                             <div data-swiper-parallax="400" class="slide-btn">
                                                 <a href="#" class="theme-btn"> Download</a>
-                                                <a href="#" class="theme-btn-2"> Choose Plan</a>
+                                                <a href="#pricing-plan-sect" class="theme-btn-2"> Choose Plan</a>
                                             </div>
                                             <div data-swiper-parallax="500" class="slide-title">
                                                 <div class="spacing-top-cl"><a href="https://www.trustpilot.com/review/ttbinternetsecurity.com?utm_medium=trustbox&utm_source=MicroReviewCount" target="_blank">
@@ -385,7 +385,7 @@
                 </div>
             </section> --}}
             
-            <section class="home2-new-seven-pricing">
+            <section class="home2-new-seven-pricing" id="pricing-plan-sect">
                 <div class="grid grid-cols-12 gap-6 justify-center mb-[3rem] ">
                     <div class="xxl:col-span-2 col-span-12"></div>
                     <div class="xxl:col-span-8 xl:col-span-12 col-span-12">
