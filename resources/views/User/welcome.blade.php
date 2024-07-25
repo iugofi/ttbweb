@@ -1115,7 +1115,11 @@
 
 
         {{-- Start New footer html --}}
-
+<style>
+    .footer-widget li {
+    --tw-space-x-reverse: 1 !important;
+}
+</style>
         <section class="section landing-footer  text-white text-[0.813rem]">
             <div class="container">
                 <div class="grid grid-cols-12 gap-6">
