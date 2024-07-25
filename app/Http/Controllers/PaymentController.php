@@ -118,6 +118,7 @@ class PaymentController extends Controller
 
    public function stripeCheckoutfpay(Request $request)
     {
+        dd($request);
         $vid=encrypt($request->vpnid);
 
         // $vpnshield = DB::table('vpnshield')
