@@ -1,6 +1,6 @@
-.js-lcc-active {
+/* .js-lcc-active {
     overflow: hidden;
-}
+} */
 
 [class^=lcc-] {
     box-sizing: border-box !important;
@@ -231,7 +231,7 @@ input[id^=lcc-]:disabled+span {
         padding: 6px 10px;
     }
 
-    .lcc-button.lcc-button--ghost, 
+    .lcc-button.lcc-button--ghost,
     .lcc-button.lcc-button--link {
         padding: 6px 10px;
     }
