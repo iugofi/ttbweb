@@ -343,6 +343,7 @@
             });
 
             $('#otpVerificationForm').submit(function(e) {
+                alert("kk");
                 e.preventDefault();
                 $('#checkotpinput').val('please wait..');
                 var formData = $(this).serialize();
