@@ -1115,141 +1115,170 @@
 
 
         {{-- Start New footer html --}}
-<style>
-    .footer-widget li {
-    --tw-space-x-reverse: 1 !important;
-}
-</style>
+        <style>
+            .footer-widget li {
+                --tw-space-x-reverse: 1 !important;
+            }
+
+            .form-group.relative #sub-button {
+                position: relative;
+                right: 4rem;
+                margin: 14px 30px auto;
+            }
+        </style>
         <section class="section landing-footer  text-white text-[0.813rem]">
             <div class="container">
                 <div class="grid grid-cols-12 gap-6">
 
-                                <div class="xl:col-span-2 col-span-12">
-                                    <div class="footer-widget">
-                                        <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">FOLLOW US </h2>
-                                        <ul class="justify-center lg:justify-end space-x-2">
-                                            <li>
-                                               <button aria-label="Facebook" type="button" class="ti-btn ti-btn-sm mx-1 ti-btn-primary"><a href="https://www.facebook.com/ttbinternetsecurities/">
-                                                        <i class="ri-facebook-line font-bold"></i>
-                                                </button> Facebook</a>
-                                            </li>
-                                            <li>
-                                                <button aria-label="Twitter" type="button" class="ti-btn ti-btn-sm mx-1 ti-btn-secondary"><a href="https://x.com/i/flow/login?redirect_after_login=%2FTTBisecure">
-                                                        <i class="ri-twitter-line font-bold"></i>
-                                                </button> Twitter</a>
-                                            </li>
-                                            <li>
-                                                <button aria-label="Instagram" type="button" class="ti-btn ti-btn-sm mx-1 ti-btn-warning"><a href="https://www.instagram.com/ttbinternetsecurity/">
-                                                        <i class="ri-instagram-line font-bold"></i>
-                                                </button> Instagram</a>
-                                            </li>
-                                            <li>
-                                                <button aria-label="YouTube" type="button" class="ti-btn ti-btn-sm mx-1 ti-btn-danger"><a href="https://www.youtube.com/channel/UCda5n02Q-bHeQlyWwm3ieWg">
-                                                        <i class="ri-youtube-line font-bold"></i>
-                                                </button> YouTube</a>
-                                            </li>
-                                            <li>
-                                               <button aria-label="linkedin" type="button" class="ti-btn ti-btn-sm mx-1 ti-btn-success"><a href="https://www.linkedin.com/company/ttbinternetsecurity">
-                                                        <i class="fa-brands fa-linkedin font-bold"></i>
-                                                </button> linkedin</a>
-                                            </li>
-                                            <li>
-                                          <button aria-label="pinterest" type="button" class="ti-btn ti-btn-sm mx-1 ti-btn-danger"><a href="https://in.pinterest.com/ttbinternetsecurity/_created/">
-                                                    <i class="fa-brands fa-square-pinterest font-bold"></i>
-                                            </button> pinterest</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
+                    <div class="xl:col-span-2 col-span-12">
+                        <div class="footer-widget">
+                            <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">FOLLOW US </h2>
+                            <ul class="justify-center lg:justify-end space-x-2">
+                                <li>
+                                    <button aria-label="Facebook" type="button"
+                                        class="ti-btn ti-btn-sm mx-1 ti-btn-primary"><a
+                                            href="https://www.facebook.com/ttbinternetsecurities/">
+                                            <i class="ri-facebook-line font-bold"></i>
+                                    </button> Facebook</a>
+                                </li>
+                                <li>
+                                    <button aria-label="Twitter" type="button"
+                                        class="ti-btn ti-btn-sm mx-1 ti-btn-secondary"><a
+                                            href="https://x.com/i/flow/login?redirect_after_login=%2FTTBisecure">
+                                            <i class="ri-twitter-line font-bold"></i>
+                                    </button> Twitter</a>
+                                </li>
+                                <li>
+                                    <button aria-label="Instagram" type="button"
+                                        class="ti-btn ti-btn-sm mx-1 ti-btn-warning"><a
+                                            href="https://www.instagram.com/ttbinternetsecurity/">
+                                            <i class="ri-instagram-line font-bold"></i>
+                                    </button> Instagram</a>
+                                </li>
+                                <li>
+                                    <button aria-label="YouTube" type="button"
+                                        class="ti-btn ti-btn-sm mx-1 ti-btn-danger"><a
+                                            href="https://www.youtube.com/channel/UCda5n02Q-bHeQlyWwm3ieWg">
+                                            <i class="ri-youtube-line font-bold"></i>
+                                    </button> YouTube</a>
+                                </li>
+                                <li>
+                                    <button aria-label="linkedin" type="button"
+                                        class="ti-btn ti-btn-sm mx-1 ti-btn-success"><a
+                                            href="https://www.linkedin.com/company/ttbinternetsecurity">
+                                            <i class="fa-brands fa-linkedin font-bold"></i>
+                                    </button> linkedin</a>
+                                </li>
+                                <li>
+                                    <button aria-label="pinterest" type="button"
+                                        class="ti-btn ti-btn-sm mx-1 ti-btn-danger"><a
+                                            href="https://in.pinterest.com/ttbinternetsecurity/_created/">
+                                            <i class="fa-brands fa-square-pinterest font-bold"></i>
+                                    </button> pinterest</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
 
-                                <div class="xl:col-span-2 col-span-12">
-                                    <div class="footer-widget">
-                                        <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">QUICK LINKS</h2>
-                                        <ul class="list-none text-white">
-                                            <li class="mb-2"><a href="#" class="hover:text-yellow-500">Home</a></li>
-                                            <li class="mb-2"><a href="#" class="hover:text-yellow-500">About</a></li>
-                                            <li class="mb-2"><a href="#" class="hover:text-yellow-500">Support</a></li>
-                                            <li class="mb-2"><a href="#" class="hover:text-yellow-500">Sign In</a></li>
-                                            <li class="mb-2"><a href="#" class="hover:text-yellow-500">Personal</a></li>
-                                            <li><a href="#" class="hover:text-yellow-500">Commercial</a></li>
-                                        </ul>
+                    <div class="xl:col-span-2 col-span-12">
+                        <div class="footer-widget">
+                            <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">QUICK LINKS</h2>
+                            <ul class="list-none text-white">
+                                <li class="mb-2"><a href="#" class="hover:text-yellow-500">Home</a></li>
+                                <li class="mb-2"><a href="#" class="hover:text-yellow-500">About</a></li>
+                                <li class="mb-2"><a href="#" class="hover:text-yellow-500">Support</a></li>
+                                <li class="mb-2"><a href="#" class="hover:text-yellow-500">Sign In</a></li>
+                                <li class="mb-2"><a href="#" class="hover:text-yellow-500">Personal</a></li>
+                                <li><a href="#" class="hover:text-yellow-500">Commercial</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="xl:col-span-2 col-span-12">
+                        <div class="footer-widget">
+                            <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">PRODUCTS</h2>
+                            <ul class="list-none text-white">
+                                <li class="mb-2"><a href="#" class="hover:text-yellow-500">TTB Antivirus</a>
+                                </li>
+                                <li class="mb-2"><a href="#" class="hover:text-yellow-500">TTB Internet
+                                        Security</a></li>
+                                <li class="mb-2"><a href="#" class="hover:text-yellow-500">TTB Total
+                                        Security</a></li>
+                                <li class="mb-2"><a href="#" class="hover:text-yellow-500">TTB VPN Shield</a>
+                                </li>
+                            </ul>
+                            <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">RESOURCES</h2>
+                            <ul class="list-none text-white">
+                                <li class="mb-2"><a href="#" class="hover:text-yellow-500">News</a></li>
+                                <li class="mb-2"><a href="#" class="hover:text-yellow-500">Blogs</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="xl:col-span-2 col-span-12">
+                        <div class="footer-widget">
+                            <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">SOLUTIONS</h2>
+                            <ul class="list-none text-white">
+                                <li class="mb-2"><a href="#" class="hover:text-yellow-500">EndPoint
+                                        Protection</a></li>
+                                <li class="mb-2"><a href="#" class="hover:text-yellow-500">Network
+                                        Protection</a></li>
+                                <li class="mb-2"><a href="#" class="hover:text-yellow-500">Threat
+                                        Protection</a></li>
+                                <li class="mb-2"><a href="#" class="hover:text-yellow-500">Behavioral
+                                        Protection</a></li>
+                                <li class="mb-2"><a href="#" class="hover:text-yellow-500">Enhanced
+                                        Firewall</a></li>
+                                <li class="mb-2"><a href="#" class="hover:text-yellow-500">Malware
+                                        Detection</a></li>
+                                <li class="mb-2"><a href="#" class="hover:text-yellow-500">Real Time
+                                        Anti-phishing</a></li>
+                                <li class="mb-2"><a href="#" class="hover:text-yellow-500">Virus Removal
+                                        Service</a></li>
+                                <li class="mb-2"><a href="#" class="hover:text-yellow-500">E-Support
+                                        Concierge</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="xl:col-span-3 col-span-12">
+                        <div class="inner-column text-right lg:text-right">
+                            <h2 class="text-white text-lg font-semibold mb-6">Sign up For Newsletter</h2>
+                            <div class="subscribe-form">
+                                <form method="post" action="https://www.nighthawk-routerlogin.com/saveemailsub"
+                                    id="mail-subscribe">
+                                    <input type="hidden" name="_token"
+                                        value="iBdPTkSAy1r2FkYmXRlfaYojRVg8F4oXZcKr5jYP">
+                                    <div class="form-group relative">
+                                        <input type="email" name="email_subscribe" id="email_subscribe"
+                                            placeholder="Enter mail address..." required=""
+                                            class="w-40 h-12 px-8 py-2 rounded-full bg-transparent text-black border border-white outline-none">
+                                        <button type="submit" id="sub-button"
+                                            class="mt-6 h-12 bg-yellow-500 ti-btn-primary-full text-indigo-800 font-semibold rounded-full px-6 uppercase">
+                                            Subscribe
+                                        </button>
                                     </div>
-                                </div><div class="xl:col-span-2 col-span-12">
-                                    <div class="footer-widget">
-                                        <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">PRODUCTS</h2>
-                                        <ul class="list-none text-white">
-                                            <li class="mb-2"><a href="#" class="hover:text-yellow-500">TTB Antivirus</a>
-                                            </li>
-                                            <li class="mb-2"><a href="#" class="hover:text-yellow-500">TTB Internet
-                                                    Security</a></li>
-                                            <li class="mb-2"><a href="#" class="hover:text-yellow-500">TTB Total
-                                                    Security</a></li>
-                                            <li class="mb-2"><a href="#" class="hover:text-yellow-500">TTB VPN Shield</a>
-                                            </li>
-                                        </ul>
-                                        <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">RESOURCES</h2>
-                                        <ul class="list-none text-white">
-                                            <li class="mb-2"><a href="#" class="hover:text-yellow-500">News</a></li>
-                                            <li class="mb-2"><a href="#" class="hover:text-yellow-500">Blogs</a></li>
-                                        </ul>
+                                </form>
+                            </div>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 my-btn-section">
+                                <a href="#"
+                                    class="ti-btn ti-btn-primary-full !rounded-full ti-btn-wave my-btn-pros">
+                                    <span class="fab fa-apple icon-size-sm mx-3 mr-3 h2"></span>
+                                    <div class="download-text text-left">
+                                        <h5 class="mb-0">Download</h5>
                                     </div>
-                                </div>
-                                <div class="xl:col-span-2 col-span-12">
-                                    <div class="footer-widget">
-                                        <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">SOLUTIONS</h2>
-                                        <ul class="list-none text-white">
-                                            <li class="mb-2"><a href="#" class="hover:text-yellow-500">EndPoint
-                                                    Protection</a></li>
-                                            <li class="mb-2"><a href="#" class="hover:text-yellow-500">Network
-                                                    Protection</a></li>
-                                            <li class="mb-2"><a href="#" class="hover:text-yellow-500">Threat
-                                                    Protection</a></li>
-                                            <li class="mb-2"><a href="#" class="hover:text-yellow-500">Behavioral
-                                                    Protection</a></li>
-                                            <li class="mb-2"><a href="#" class="hover:text-yellow-500">Enhanced
-                                                    Firewall</a></li>
-                                            <li class="mb-2"><a href="#" class="hover:text-yellow-500">Malware
-                                                    Detection</a></li>
-                                            <li class="mb-2"><a href="#" class="hover:text-yellow-500">Real Time
-                                                    Anti-phishing</a></li>
-                                            <li class="mb-2"><a href="#" class="hover:text-yellow-500">Virus Removal
-                                                    Service</a></li>
-                                            <li class="mb-2"><a href="#" class="hover:text-yellow-500">E-Support
-                                                    Concierge</a></li>
-                                        </ul>
+                                </a>
+                                <a href="#" class="ti-btn !rounded-full ti-btn-wave my-btn-pro"
+                                    style="border: 1px solid #13D8AA ">
+                                    <span class="fab fa-google-play icon-size-sm mx-3 mr-3 h2"
+                                        style="color: #13D8AA;"></span>
+                                    <div class="download-text text-left">
+                                        <h5 class="mb-0">Download</h5>
                                     </div>
-                                </div>
-                                <div class="xl:col-span-3 col-span-12">
-                                    <div class="inner-column text-right lg:text-right">
-                                        <h2 class="text-white text-3xl font-semibold mb-6">Sign up For Newsletter</h2>
-                                        <div class="subscribe-form">
-                                            <form method="post" action="https://www.nighthawk-routerlogin.com/saveemailsub" id="mail-subscribe">
-                                                <input type="hidden" name="_token" value="iBdPTkSAy1r2FkYmXRlfaYojRVg8F4oXZcKr5jYP">                                        <div class="form-group relative">
-                                                    <input type="email" name="email_subscribe" id="email_subscribe" placeholder="Enter mail address..." required="" class="w-40 h-12 px-8 py-2 rounded-full bg-transparent text-black border border-white outline-none">
-                                                    <button type="submit" id="sub-button" class="mt-6 h-12 bg-yellow-500 ti-btn-primary-full text-indigo-800 font-semibold rounded-full px-6 uppercase">
-                                                        Subscribe
-                                                    </button>
-                                                </div>
-                                            </form>
-                                        </div>
-                                        <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 my-btn-section">
-                                            <a href="#" class="ti-btn ti-btn-primary-full !rounded-full ti-btn-wave my-btn-pros">
-                                                <span class="fab fa-apple icon-size-sm mx-3 mr-3 h2"></span>
-                                                <div class="download-text text-left">
-                                                    <h5 class="mb-0">Download</h5>
-                                                </div>
-                                            </a>
-                                            <a href="#" class="ti-btn !rounded-full ti-btn-wave my-btn-pro" style="border: 1px solid #13D8AA ">
-                                                <span class="fab fa-google-play icon-size-sm mx-3 mr-3 h2" style="color: #13D8AA;"></span>
-                                                <div class="download-text text-left">
-                                                    <h5 class="mb-0">Download</h5>
-                                                </div>
-                                            </a>
+                                </a>
 
 
-                                        </div>
-                                    </div>
-                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
