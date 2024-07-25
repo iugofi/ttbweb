@@ -109,7 +109,7 @@
 
 <body class="landing-body">
 
-    <div class="wrapper">
+    <div class="wrappercoo">
         <header>
           <i class="bx bx-cookie"></i>
           <h2>Cookies Consent</h2>
@@ -120,8 +120,8 @@
         </div>
 
         <div class="buttons">
-          <button class="button" id="acceptBtn">Accept</button>
-          <button class="button" id="declineBtn">Decline</button>
+          <button class="buttoncoo" id="acceptBtn">Accept</button>
+          <button class="buttoncoo" id="declineBtn">Decline</button>
         </div>
       </div>
 

@@ -1,5 +1,5 @@
-const cookieBox = document.querySelector(".wrapper"),
-  buttons = document.querySelectorAll(".button");
+const cookieBox = document.querySelector(".wrappercoo"),
+  buttons = document.querySelectorAll(".buttoncoo");
 
 const executeCodes = () => {
   //if cookie contains codinglab it will be returned and below of this code will not run
