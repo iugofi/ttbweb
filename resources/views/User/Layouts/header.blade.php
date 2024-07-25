@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-full" data-nav-layout="horizontal" data-nav-style="menu-click"
     data-menu-position="fixed">
+
 <head>
     <!-- Meta Data -->
     <meta charset="UTF-8">
@@ -49,8 +50,8 @@
 
     {{-- for cookies --}}
     <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="{{asset('assets/cookies/css/style.css')}}" />
-    <script src="{{asset('assets/cookies/js/script.js')}}" defer></script>
+    <link rel="stylesheet" href="{{ asset('assets/cookies/css/style.css') }}" />
+    <script src="{{ asset('assets/cookies/js/script.js') }}" defer></script>
 
 
 
@@ -93,13 +94,15 @@
         });
     </script>
 
-{{-- header testimonial slider cdn --}}
+    {{-- header testimonial slider cdn --}}
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
 
     {{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"> --}}
@@ -109,21 +112,6 @@
 
 <body class="landing-body">
 
-    <div class="wrappercoo">
-        <header>
-          <i class="bx bx-cookie"></i>
-          <h2>Cookies Consent</h2>
-        </header>
-
-        <div class="data">
-          <p>This website use cookies to help you have a superior and more relevant browsing experience on the website. <a href="#"> Read more...</a></p>
-        </div>
-
-        <div class="buttons">
-          <button class="buttoncoo" id="acceptBtn">Accept</button>
-          <button class="buttoncoo" id="declineBtn">Decline</button>
-        </div>
-      </div>
 
     <!-- SWITCHER -->
 
@@ -178,12 +166,12 @@
                     <p class="switcher-style-head">Theme Primary:</p>
                     <div class="flex switcher-style space-x-3 rtl:space-x-reverse">
                         <div class="ti-form-radio switch-select">
-                            <input class="ti-form-radio color-input color-primary-1" type="radio" name="theme-primary"
-                                id="switcher-primary" checked>
+                            <input class="ti-form-radio color-input color-primary-1" type="radio"
+                                name="theme-primary" id="switcher-primary" checked>
                         </div>
                         <div class="ti-form-radio switch-select">
-                            <input class="ti-form-radio color-input color-primary-2" type="radio" name="theme-primary"
-                                id="switcher-primary1">
+                            <input class="ti-form-radio color-input color-primary-2" type="radio"
+                                name="theme-primary" id="switcher-primary1">
                         </div>
                         <div class="ti-form-radio switch-select">
                             <input class="ti-form-radio color-input color-primary-3" type="radio"
@@ -211,6 +199,24 @@
         </div>
     </div>
     <!-- END SWITCHER -->
+
+
+    <div class="wrappercoo">
+        <header>
+            <i class="bx bx-cookie"></i>
+            <h2>Cookies Consent</h2>
+        </header>
+
+        <div class="data">
+            <p>This website use cookies to help you have a superior and more relevant browsing experience on the
+                website. <a href="#"> Read more...</a></p>
+        </div>
+
+        <div class="buttons">
+            <button class="buttoncoo" id="acceptBtn">Accept</button>
+            <button class="buttoncoo" id="declineBtn">Decline</button>
+        </div>
+    </div>
 
     <!-- PAGE -->
     <div class="landing-page-wrapper relative">
