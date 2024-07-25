@@ -1221,7 +1221,7 @@
                                 </div>
                                 <div class="xl:col-span-3 col-span-12">
                                     <div class="inner-column text-right lg:text-right">
-                                        <h2 class="text-white text-3xl font-semibold mb-6">Sign up For Newsletter</h2>
+                                        <h2 class="text-white text-lg font-semibold mb-6">Sign up For Newsletter</h2>
                                         <div class="subscribe-form">
                                             <form method="post" action="https://www.nighthawk-routerlogin.com/saveemailsub" id="mail-subscribe">
                                                 <input type="hidden" name="_token" value="iBdPTkSAy1r2FkYmXRlfaYojRVg8F4oXZcKr5jYP">                                        <div class="form-group relative">
