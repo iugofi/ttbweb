@@ -1122,7 +1122,7 @@
 
             .form-group.relative #sub-button {
                 position: relative;
-                right: 4rem;
+                right: 3rem;
                 margin: 14px 30px auto;
             }
         </style>
@@ -1239,8 +1239,8 @@
                         </div>
                     </div>
                     <div class="xl:col-span-3 col-span-12">
-                        <div class="inner-column text-right lg:text-right">
-                            <h2 class="text-white text-lg font-semibold mb-6">Sign up For Newsletter</h2>
+                        <div class="inner-column text-center lg:text-right">
+                            <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">Sign up For Newsletter</h2>
                             <div class="subscribe-form">
                                 <form method="post" action="https://www.nighthawk-routerlogin.com/saveemailsub"
                                     id="mail-subscribe">
