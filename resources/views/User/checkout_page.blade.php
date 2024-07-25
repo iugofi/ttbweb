@@ -89,7 +89,7 @@
                                             <div class="grid grid-cols-12 sm:gap-x-6 sm:gap-y-4">
 
                                                 <div class="md:col-span-12 col-span-12 text-center">
-                                                    <form id='checkout-form' method='post' id="openformstripe">
+                                                    <form  method='post' id="openformstripe">
                                                         @csrf
                                                         <input type="text" id="emailDisplaypay" name="emailpay" hidden>
                                                         <input type='hidden' name='vpnid' value="{{ $plan->id }}" id='vpnid'>
