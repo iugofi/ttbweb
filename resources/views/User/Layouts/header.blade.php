@@ -207,8 +207,7 @@
         </header>
 
         <div class="data">
-            <p>This website uses cookies to help you have a superior and more relevant browsing experience on the
-                website. <a href="#"> Read more...</a></p>
+            <p>This website uses cookies to help you have a superior and more relevant browsing experience on the website. <a href="#">Read more...</a></p>
         </div>
 
         <div class="buttons">
