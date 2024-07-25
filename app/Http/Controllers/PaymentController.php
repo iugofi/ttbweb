@@ -157,7 +157,7 @@ class PaymentController extends Controller
     ],
 
       'mode' => 'payment',
-     'customer_email' =>'kunal.iugofi@gmail.com',
+     'customer_email' =>$request->emailpay,
      'allow_promotion_codes' => $allowPromotionCodes,
     //  'allow_promotion_codes' => true,
     // 'discounts' => [['coupon' => 'free_period']],
