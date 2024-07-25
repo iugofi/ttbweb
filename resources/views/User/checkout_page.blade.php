@@ -89,14 +89,13 @@
                                             <div class="grid grid-cols-12 sm:gap-x-6 sm:gap-y-4">
 
                                                 <div class="md:col-span-12 col-span-12 text-center">
-                                                    <form id='checkout-form' method='post' action="{{ route('user.stripeCheckoutfpay') }}">
+                                                    <form id='checkout-form' method='post' id="openformstripe">
                                                         @csrf
                                                         <input type="text" id="emailDisplaypay" name="emailpay" hidden>
                                                         <input type='hidden' name='vpnid' value="{{ $plan->id }}" id='vpnid'>
                                                         {{-- <button  class="ti-btn ti-btn-primary-full !mb-0">Pay With Stripe</button> --}}
-                                                        {{-- <button  class="ti-btn ti-btn-primary-full !mb-0">Pay With Stripe</button> --}}
-                                                        <input type="submit" value="Pay With Stripe" class="ti-btn ti-btn-primary-full !mb-0">
-
+                                                        <input type="submit" value="Pay With Stripe" id="stripepaybtn"
+                                                        class="ti-btn ti-btn-primary-full !mb-0">
                                                     <form>
 
                                                 </div>
@@ -369,6 +368,38 @@
                             // Handle success
                             removeValidationClass("#otpVerificationForm");
                             $('#checkotpinput').val('Verify OTP');
+                            $('#hs-vertically-centered-modal').removeClass('open');
+                            $('#hs-vertically-centered-modal').addClass('hidden');
+                            $('#payment').show();
+                        }
+                    }
+                });
+            });
+
+            $('#openformstripe').submit(function(e) {
+                e.preventDefault();
+                $('#stripepaybtn').val('please wait..');
+                var formData = $(this).serialize();
+                $.ajax({
+                    url: '{{ route('user.stripeCheckoutfpay') }}',
+                    method: 'post',
+                    data: formData,
+                    success: function(response) {
+                        // console.log(response);
+                        if (response.status === 400) {
+                            $('#stripepaybtn').val('Pay With Stripe');
+                            // Handle validation errors
+                            $.each(response.errors, function(key, value) {
+                                showError(key, value[0], true);
+                            });
+                        } else if (response.status === 401) {
+                            $('#stripepaybtn').val('Pay With Stripe');
+                            $("#otp_check_alert").html('<div class="alert alert-danger">' +
+                                response.message + '</div>');
+                        } else if (response.status === 200) {
+                            // Handle success
+                            removeValidationClass("#openformstripe");
+                            $('#stripepaybtn').val('Pay With Stripe');
                             $('#hs-vertically-centered-modal').removeClass('open');
                             $('#hs-vertically-centered-modal').addClass('hidden');
                             $('#payment').show();
