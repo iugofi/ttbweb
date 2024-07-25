@@ -1194,7 +1194,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="xl:col-span-3 col-span-12">
+                                <div class="xl:col-span-2 col-span-12">
                                     <div class="footer-widget">
                                         <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">SOLUTIONS</h2>
                                         <ul class="list-none text-white">
@@ -1219,14 +1219,14 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="xl:col-span-2 col-span-12">
+                                <div class="xl:col-span-3 col-span-12">
                                     <div class="inner-column text-right lg:text-right">
                                         <h2 class="text-white text-3xl font-semibold mb-6">Sign up For Newsletter</h2>
                                         <div class="subscribe-form">
                                             <form method="post" action="https://www.nighthawk-routerlogin.com/saveemailsub" id="mail-subscribe">
                                                 <input type="hidden" name="_token" value="iBdPTkSAy1r2FkYmXRlfaYojRVg8F4oXZcKr5jYP">                                        <div class="form-group relative">
                                                     <input type="email" name="email_subscribe" id="email_subscribe" placeholder="Enter mail address..." required="" class="w-40 h-12 px-8 py-2 rounded-full bg-transparent text-black border border-white outline-none">
-                                                    <button type="submit" id="sub-button" class="top-6 h-12 bg-yellow-500 ti-btn-primary-full text-indigo-800 font-semibold rounded-full px-6 uppercase">
+                                                    <button type="submit" id="sub-button" class="mt-6 h-12 bg-yellow-500 ti-btn-primary-full text-indigo-800 font-semibold rounded-full px-6 uppercase">
                                                         Subscribe
                                                     </button>
                                                 </div>
