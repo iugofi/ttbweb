@@ -207,41 +207,6 @@
         </div>
     </div>
 
-    {{-- <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="successModalLabel">Success!</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <p>Your form has been submitted successfully. An OTP has been sent to:</p>
-                    <p id="emailDisplay"></p>
-                    <div class="" id="otp_check_alert"></div>
-
-                    <!-- Form for OTP verification -->
-                    <form method="post" id="otpVerificationForm">
-                        @csrf
-                        <div class="mb-3">
-                            <label for="otpInput" class="form-label">Enter OTP:</label>
-                            <input type="text" id="emailDisplayVal" name="emailinput" hidden>
-                            <div class="input">
-                                <input type="text" class="form-control" name="otpinput" id="otpinput">
-                                <div class="invalid-feedback"></div>
-                            </div>
-                        </div>
-                        <input type="submit" value="Verify OTP" id="checkotpinput" class="btn btn-primary">
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div> --}}
-
-
-
 
                 <div id="hs-vertically-centered-modal" class="hs-overlay hidden ti-modal">
                     <div
