@@ -1163,6 +1163,7 @@
                                         </ul>
                                     </div>
                                 </div>
+
                                 <div class="xl:col-span-2 col-span-12">
                                     <div class="footer-widget">
                                         <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">QUICK LINKS</h2>
