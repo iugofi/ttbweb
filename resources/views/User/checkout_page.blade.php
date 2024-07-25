@@ -65,7 +65,7 @@
                                                     </div>
 
                                                     <div
-                                                        class="md:col-span-12 col-span-12 md:flex md:justify-end check-btn">
+                                                                                                            class="md:col-span-12 col-span-12 md:flex md:justify-end check-btn">
                                                         <input type="submit" value="Submit" id="checkotp"
                                                             class="ti-btn ti-btn-primary-full !mb-0">
 
@@ -97,7 +97,7 @@
                                                     <form>
 
                                                 </div>
-                                            </div>
+                                                                                                </div>
                                         </div>
                                     </div>
                                 </div>
@@ -207,11 +207,46 @@
         </div>
     </div>
 
+    {{-- <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="successModalLabel">Success!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Your form has been submitted successfully. An OTP has been sent to:</p>
+                    <p id="emailDisplay"></p>
+                    <div class="" id="otp_check_alert"></div>
+
+                    <!-- Form for OTP verification -->
+                    <form method="post" id="otpVerificationForm">
+                        @csrf
+                        <div class="mb-3">
+                            <label for="otpInput" class="form-label">Enter OTP:</label>
+                            <input type="text" id="emailDisplayVal" name="emailinput" hidden>
+                            <div class="input">
+                                <input type="text" class="form-control" name="otpinput" id="otpinput">
+                                <div class="invalid-feedback"></div>
+                            </div>
+                        </div>
+                        <input type="submit" value="Verify OTP" id="checkotpinput" class="btn btn-primary">
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div> --}}
+
+
+
 
                 <div id="hs-vertically-centered-modal" class="hs-overlay hidden ti-modal">
                     <div
                         class="hs-overlay-open:mt-7 ti-modal-box mt-0 ease-out min-h-[calc(100%-3.5rem)] flex items-center">
-                        <div class="ti-modal-content">
+                                       <div class="ti-modal-content">
                             <div class="ti-modal-header">
                                 <h6 class="modal-title" id="staticBackdropLabel2">Verification
                                 </h6>
@@ -236,12 +271,16 @@
                                         <div class="md:col-span-12 col-span-12 mb-4">
                                             <label class="form-label">Enter OTP:</label>
                                             <input type="text" id="emailDisplayVal" name="emailinput" hidden>
-                                            <input type="text" name="otpinput" id="otpinput" class="form-control">
-                                            <div class="invalid-feedback"></div>
+                                            <input type="text" name="otpinput" id="otpinput"
+                                                class="form-control">
+                                                <div class="invalid-feedback"></div>
                                         </div>
 
-                                        <div class="md:col-span-12 col-span-12 md:flex md:justify-end check-btn">
-                                            <input type="submit" value="Verify OTP" id="checkotpinput" class="ti-btn ti-btn-primary-full !mb-0">
+                                        <div
+                                            class="md:col-span-12 col-span-12 md:flex md:justify-end check-btn">
+                                            <input type="submit" value="Verify OTP" id="checkotpinput"
+                                                                                     class="ti-btn ti-btn-primary-full !mb-0">
+
                                         </div>
                                     </div>
                                 </form>
@@ -267,7 +306,7 @@
                 $('#checkotp').val('please wait..');
                 var formData = $(this).serialize(); // Serialize form data
                 $.ajax({
-                    url: '{{ route('user.otpcheckfpay') }}',
+                          url: '{{ route('user.otpcheckfpay') }}',
                     method: 'post',
                     data: formData,
                     success: function(response) {
@@ -290,6 +329,8 @@
                             $('#hs-vertically-centered-modal').removeClass('hidden');
                             $('#hs-vertically-centered-modal').addClass('open');
                             $('#hs-vertically-centered-modal').css('background','#1f1f1f47');
+
+                            // $('#successModal').modal('show');
                             var email = getEmailFromFormData(formData);
                             $('#emailDisplay').text(email);
                             $('#emailDisplayVal').val(email);
@@ -302,48 +343,42 @@
             });
 
             $('#otpVerificationForm').submit(function(e) {
-                alert()
-            e.preventDefault();
-            console.log('Form submitted'); // Debugging statement
-            $('#checkotpinput').val('please wait..');
-            var formData = $(this).serialize();
-            console.log('Form data:', formData); // Debugging statement
-            $.ajax({
-                url: '{{ route('user.otpverifyfpay') }}',
-                method: 'post',
-                data: formData,
-                success: function(response) {
-                    console.log('Response:', response); // Debugging statement
-                    if (response.status === 400) {
-                        $('#checkotpinput').val('Verify OTP');
-                        // Handle validation errors
-                        $.each(response.errors, function(key, value) {
-                            showError(key, value[0], true);
-                        });
-                    } else if (response.status === 401) {
-                        $('#checkotpinput').val('Verify OTP');
-                        $("#otp_check_alert").html('<div class="alert alert-danger">' + response.message + '</div>');
-                    } else if (response.status === 200) {
-                        // Handle success
-                        removeValidationClass("#otpVerificationForm");
-                        $('#checkotpinput').val('Verify OTP');
-                        $('#hs-vertically-centered-modal').removeClass('open');
-                        $('#hs-vertically-centered-modal').addClass('hidden');
-                        $('#payment').show();
+                e.preventDefault();
+                $('#checkotpinput').val('please wait..');
+                var formData = $(this).serialize();
+                $.ajax({
+                    url: '{{ route('user.otpverifyfpay') }}',
+                    method: 'post',
+                    data: formData,
+                    success: function(response) {
+                        // console.log(response);
+                        if (response.status === 400) {
+                            $('#checkotpinput').val('Verify OTP');
+                            // Handle validation errors
+                            $.each(response.errors, function(key, value) {
+                                showError(key, value[0], true);
+                            });
+                        } else if (response.status === 401) {
+                            $('#checkotpinput').val('Verify OTP');
+                            $("#otp_check_alert").html('<div class="alert alert-danger">' +
+                                response.message + '</div>');
+                        } else if (response.status === 200) {
+                            // Handle success
+                            removeValidationClass("#otpVerificationForm");
+                            $('#checkotpinput').val('Verify OTP');
+                            $('#hs-vertically-centered-modal').removeClass('open');
+                            $('#hs-vertically-centered-modal').addClass('hidden');
+                            $('#payment').show();
+                        }
                     }
-                },
-                error: function(jqXHR, textStatus, errorThrown) {
-                    console.log('AJAX error:', textStatus, errorThrown); // Debugging statement
-                    $('#checkotpinput').val('Verify OTP');
-                }
+                });
             });
-        });
 
 
             function getEmailFromFormData(formData) {
                 var email = decodeURIComponent(formData).split('&').find(function(element) {
                     return element.includes('email=');
-                }).split('=')[1];
+                }).split('=')[                  1];
                 return email;
             }
 
