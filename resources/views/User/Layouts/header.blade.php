@@ -200,6 +200,7 @@
     </div>
     <!-- END SWITCHER -->
 
+
     <div class="wrappercoo">
         <header>
             <i class="bx bx-cookie"></i>
@@ -207,7 +208,8 @@
         </header>
 
         <div class="data">
-            <p>This website uses cookies to help you have a superior and more relevant browsing experience on the website. <a href="#">Read more...</a></p>
+            <p>This website use cookies to help you have a superior and more relevant browsing experience on the
+                website. <a href="#"> Read more...</a></p>
         </div>
 
         <div class="buttons">
@@ -215,8 +217,6 @@
             <button class="buttoncoo" id="declineBtn">Decline</button>
         </div>
     </div>
-
-
 
     <!-- PAGE -->
     <div class="landing-page-wrapper relative">
