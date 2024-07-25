@@ -15,6 +15,7 @@
 }
 .wrappercoo.show {
   right: 20px;
+  z-index: 5;
 }
 .wrappercoo header {
   display: flex;
