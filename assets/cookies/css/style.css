@@ -1,81 +1,74 @@
-/* Add this if your section needs specific styling */
-.content-section {
-    position: relative;
-    min-height: 100vh; /* Ensure the section covers the viewport height */
-    padding: 20px;
-  }
+/* Google Fonts - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
-  /* Google Fonts - Poppins */
-  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
-
-  .wrappercoo {
-    position: fixed;
-    bottom: 50px;
-    right: -370px;
-    max-width: 345px;
-    width: 100%;
-    background: #fff;
-    border-radius: 8px;
-    padding: 15px 25px 22px;
-    transition: right 0.3s ease;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-  }
-  .wrappercoo.show {
-    right: 20px;
-  }
-  .wrappercoo header {
-    display: flex;
-    align-items: center;
-    column-gap: 15px;
-  }
-  header i {
-    color: #13D8AA;
-    font-size: 32px;
-  }
-  header h2 {
-    color: #13D8AA;
-    font-weight: 500;
-  }
-  .wrappercoo .data {
-    margin-top: 16px;
-  }
-  .wrappercoo .data p {
-    color: #333;
-    font-size: 16px;
-  }
-  .data p a {
-    color: #13D8AA;
-    text-decoration: none;
-  }
-  .data p a:hover {
-    text-decoration: underline;
-  }
-  .wrappercoo .buttons {
-    margin-top: 16px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .buttons .buttoncoo {
-    border: none;
-    color: #fff;
-    padding: 8px 0;
-    border-radius: 4px;
-    background: #13D8AA;
-    cursor: pointer;
-    width: calc(100% / 2 - 10px);
-    transition: all 0.2s ease;
-  }
-  .buttons #acceptBtn:hover {
-    background-color: #13D8AA;
-  }
-  #declineBtn {
-    border: 2px solid #13D8AA;
-    background-color: #fff;
-    color: #13D8AA;
-  }
-  #declineBtn:hover {
-    background-color: #13D8AA;
-    color: #fff;
-  }
+.wrappercoo {
+  position: fixed;
+  bottom: 50px;
+  right: -370px;
+  max-width: 345px;
+  width: 100%;
+  background: #fff;
+  border-radius: 8px;
+  padding: 15px 25px 22px;
+  transition: right 0.3s ease;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.wrappercoo.show {
+  right: 20px;
+}
+.wrappercoo header {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+}
+header i {
+  color: #13D8AA;
+  font-size: 32px;
+}
+header h2 {
+  color: #13D8AA;
+  font-weight: 500;
+}
+.wrappercoo .data {
+  margin-top: 16px;
+}
+.wrappercoo .data p {
+  color: #333;
+  font-size: 16px;
+}
+.data p a {
+  color: #13D8AA;
+  text-decoration: none;
+}
+.data p a:hover {
+  text-decoration: underline;
+}
+.wrappercoo .buttons {
+  margin-top: 16px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.buttons .buttoncoo {
+  border: none;
+  color: #fff;
+  padding: 8px 0;
+  border-radius: 4px;
+  background: #13D8AA;
+  cursor: pointer;
+  width: calc(50% - 10px);
+  transition: all 0.2s ease;
+}
+.buttons #acceptBtn:hover {
+  background-color: #0ba583;
+}
+#declineBtn {
+  border: 2px solid #13D8AA;
+  background-color: #fff;
+  color: #13D8AA;
+}
+#declineBtn:hover {
+  background-color: #13D8AA;
+  color: #fff;
+}
