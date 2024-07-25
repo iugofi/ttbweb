@@ -200,25 +200,23 @@
     </div>
     <!-- END SWITCHER -->
 
-    <section class="content-section">
-        <!-- Your other content here -->
-        <div class="wrappercoo">
-            <header>
-                <i class="bx bx-cookie"></i>
-                <h2>Cookies Consent</h2>
-            </header>
+    <div class="wrappercoo">
+        <header>
+            <i class="bx bx-cookie"></i>
+            <h2>Cookies Consent</h2>
+        </header>
 
-            <div class="data">
-                <p>This website use cookies to help you have a superior and more relevant browsing experience on the
-                    website. <a href="#"> Read more...</a></p>
-            </div>
-
-            <div class="buttons">
-                <button class="buttoncoo" id="acceptBtn">Accept</button>
-                <button class="buttoncoo" id="declineBtn">Decline</button>
-            </div>
+        <div class="data">
+            <p>This website uses cookies to help you have a superior and more relevant browsing experience on the
+                website. <a href="#"> Read more...</a></p>
         </div>
-    </section>
+
+        <div class="buttons">
+            <button class="buttoncoo" id="acceptBtn">Accept</button>
+            <button class="buttoncoo" id="declineBtn">Decline</button>
+        </div>
+    </div>
+
 
 
     <!-- PAGE -->
