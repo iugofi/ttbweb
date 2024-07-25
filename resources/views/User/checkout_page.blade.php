@@ -63,7 +63,7 @@
                                                         <input type="hidden" name="hidden_last_name" id="hidden_last_name">
                                                         <div class="invalid-feedback" id="last-name-error"></div>
                                                     </div>
-                                                    
+
                                                     <div
                                                         class="md:col-span-12 col-span-12 md:flex md:justify-end check-btn">
                                                         <input type="submit" value="Submit" id="checkotp"
@@ -95,7 +95,7 @@
                                                         <input type='hidden' name='vpnid' value="{{ $plan->id }}" id='vpnid'>
                                                         <button  class="ti-btn ti-btn-primary-full !mb-0">Pay With Stripe</button>
                                                     <form>
-                                                    
+
                                                 </div>
                                             </div>
                                         </div>
@@ -241,8 +241,8 @@
     </div> --}}
 
 
-   
-            
+
+
                 <div id="hs-vertically-centered-modal" class="hs-overlay hidden ti-modal">
                     <div
                         class="hs-overlay-open:mt-7 ti-modal-box mt-0 ease-out min-h-[calc(100%-3.5rem)] flex items-center">
@@ -275,7 +275,7 @@
                                                 class="form-control">
                                                 <div class="invalid-feedback"></div>
                                         </div>
-                                     
+
                                         <div
                                             class="md:col-span-12 col-span-12 md:flex md:justify-end check-btn">
                                             <input type="submit" value="Verify OTP" id="checkotpinput"
@@ -297,7 +297,7 @@
                         </div>
                     </div>
                 </div>
-      
+
 
     <script>
         $(document).ready(function() {
@@ -332,6 +332,7 @@
 
                             $('#successModal').modal('show');
                             var email = getEmailFromFormData(formData);
+                            console.log(email);
                             $('#emailDisplay').text(email);
                             $('#emailDisplayVal').val(email);
                             $('#emailDisplaypay').val(email);
@@ -367,7 +368,7 @@
                             removeValidationClass("#otpVerificationForm");
                             $('#checkotpinput').val('Verify OTP');
                             $('#hs-vertically-centered-modal').removeClass('open');
-                            $('#hs-vertically-centered-modal').addClass('hidden');                  
+                            $('#hs-vertically-centered-modal').addClass('hidden');
                             $('#payment').show();
                         }
                     }
