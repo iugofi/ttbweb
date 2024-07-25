@@ -1123,7 +1123,7 @@
                                 <div class="xl:col-span-2 col-span-12">
                                     <div class="footer-widget">
                                         <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">FOLLOW US </h2>
-                                        <ul class="flex justify-center lg:justify-end space-x-2">
+                                        <ul class="justify-center lg:justify-end space-x-2">
                                             <li>
                                                 <a href="https://www.facebook.com/ttbinternetsecurities/">
                                                     </a><button aria-label="Facebook" type="button" class="ti-btn ti-btn-sm ti-btn-primary"><a href="https://www.facebook.com/ttbinternetsecurities/">
@@ -1149,20 +1149,21 @@
                                                 </button>
                                             </li>
                                             <li>
-                                            </li><li>
                                                 <a href="https://www.linkedin.com/company/ttbinternetsecurity">
                                                     </a><button aria-label="linkedin" type="button" class="ti-btn ti-btn-sm ti-btn-success"><a href="https://www.linkedin.com/company/ttbinternetsecurity">
                                                         <i class="fa-brands fa-linkedin font-bold"></i></a>
                                                 </button>
                                             </li>
+                                            <li>
                                             <a href="https://in.pinterest.com/ttbinternetsecurity/_created/">
                                                 </a><button aria-label="pinterest" type="button" class="ti-btn ti-btn-sm ti-btn-danger"><a href="https://in.pinterest.com/ttbinternetsecurity/_created/">
                                                     <i class="fa-brands fa-square-pinterest font-bold"></i></a>
                                             </button>
-
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
+
                                 <div class="xl:col-span-2 col-span-12">
                                     <div class="footer-widget">
                                         <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">QUICK LINKS</h2>
