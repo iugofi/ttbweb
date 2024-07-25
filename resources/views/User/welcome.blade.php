@@ -1067,7 +1067,6 @@
                     </div>
             </div>
         </section>
-        </section>
 
         <script>
             $(document).ready(function() {
@@ -1112,7 +1111,7 @@
 
 
 
------------------
+        -----------------
 
 
         {{-- Start New footer html --}}
@@ -1122,7 +1121,8 @@
                 <div class="container mx-auto px-4">
                     <div class="flex flex-wrap footer-flex">
                         <div class="w-full lg:w-1/2 mb-8 lg:mb-0 mobile-flex">
-                            <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 my-btn-section">
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 my-btn-section">
                                 <a href="#"
                                     class="ti-btn ti-btn-primary-full !rounded-full ti-btn-wave my-btn-pros">
                                     <span class="fab fa-apple icon-size-sm mx-3 mr-3 h2"></span>
@@ -1268,7 +1268,8 @@
                                         </div>
                                     </form>
                                 </div>
-                                <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 my-btn-section">
+                                <div
+                                    class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 my-btn-section">
                                     <a href="#"
                                         class="ti-btn ti-btn-primary-full !rounded-full ti-btn-wave my-btn-pros">
                                         <span class="fab fa-apple icon-size-sm mx-3 mr-3 h2"></span>
@@ -1472,8 +1473,7 @@
                 background-color: #E60023;
             }
 
-             /* End New footer html */
-
+            /* End New footer html */
         </style>
 
         <!-- FOOTER -->
@@ -1490,5 +1490,5 @@
 
 
 
-    </section>
+        </section>
     @endsection
