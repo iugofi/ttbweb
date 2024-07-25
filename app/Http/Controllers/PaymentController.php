@@ -40,8 +40,8 @@ class PaymentController extends Controller
     {
      $validator = Validator::make($request->all(), [
      'email' => 'required|email',
-     'first_name' => 'required',
-     'last_name' => 'required',
+     'first_name' => 'required_without:hidden_first_name',
+    'last_name' => 'required_without:hidden_last_name',
 
          ]);
 
@@ -58,8 +58,8 @@ class PaymentController extends Controller
                  $request->session()->put('emailsessiontb', $request->email);
                  $user = new Users();
                  $user->email = $request->email;
-                 $user->firstname = ucfirst($request->first_name);
-                 $user->lastname = ucfirst($request->last_name);
+                 $user->firstname = ucfirst($request->input('first_name') ?: $request->input('hidden_first_name'));
+                 $user->lastname = ucfirst($request->input('last_name') ?: $request->input('hidden_last_name'));
                  $user->otp = $otp;
                  $user->save();
              } else {
@@ -197,38 +197,27 @@ class PaymentController extends Controller
             ->first();
 
 
-            try {
-                $getkey = TTBKEY::where('product_id', $vid)->where('is_key_used', 0)->orderBy('created_at', 'ASC')->limit(1)->first();
-                if ($getkey) {
-                    $getkey->is_key_used = 1;
-                    $main_key = $getkey->main_key;
-                    $getkey->save();
+            $getkey = TTBKEY::where('product_id', $vid)->where('is_key_used', 0)->orderBy('created_at', 'ASC')->limit(1)->first();
+            if ($getkey) {
+                $getkey->is_key_used = 1;
+                $id_key = $getkey->id;
+                $main_key = $getkey->main_key;
+                $getkey->save();
 
-                    Mail::send('Mail.sendkey', ['main_key' => $main_key, 'payment_intent' => $pay_id], function ($message) use ($response) {
-                        $message->to($response->customer_email)->subject('TTB Internet Security Vpn Key');
-                    });
-                } else {
-                    // Default main key value when no product key is available
-                    $main_key = 'N/A';
-                    $not_send_key = new Get_not_send_key();
-                    $not_send_key->user_id = $user_id ? $user_id->id : null;
-                    $not_send_key->session_id = $response->id;
-                    $not_send_key->pay_id = $pay_id;
-                    $not_send_key->product_id = $vid;
-                    $not_send_key->status = 0;
-                    $not_send_key->save();
-                }
-            } catch (\Exception $e) {
-                // Log the error or handle the exception as needed
-                \Log::error('Error retrieving or updating TTBKEY: ' . $e->getMessage());
-                // Default main key value in case of exception
-                $main_key = 'N/A';
-                $not_send_key = new Get_not_send_key();
+
+                // Mail::send('Mail.sendkey', ['main_key' => $id_key, 'payment_intent' => $pay_id], function ($message) use ($response) {
+                //     $message->to($response->customer_email)->subject('TTB Internet Security Vpn Key');
+                // });
+
+            } else {
+                // Default main key value when no product key is available
+                $id_key = 'N/A';
+                $not_send_key=new Get_not_send_key();
                 $not_send_key->user_id = $user_id ? $user_id->id : null;
                 $not_send_key->session_id = $response->id;
                 $not_send_key->pay_id = $pay_id;
                 $not_send_key->product_id = $vid;
-                $not_send_key->status = 0;
+                $not_send_key->status=0;
                 $not_send_key->save();
             }
 
@@ -250,11 +239,18 @@ class PaymentController extends Controller
             $payment->line1 = $response->customer_details->address->line1;
             $payment->line2 = $response->customer_details->address->line2;
             $payment->postal_code = $response->customer_details->address->postal_code;
-            $payment->product_key = $main_key;
+            $payment->product_key = $id_key;
             $payment->save();
 
-
-
+            if ($id_key !== 'N/A' && $pay_id) {
+                Mail::send('Mail.sendkey', ['id_key' => $id_key, 'payment_intent' => $pay_id], function ($message) use ($response) {
+                    $message->to($response->customer_email)->subject('TTB Internet Security Vpn Key');
+                });
+            } else {
+                Mail::send('Mail.fail', ['customer_email'=>$response->customer_email], function ($message) use ($response) {
+                    $message->to("kunal.iugofi@gmail.com")->subject('TTB Internet Security Vpn Key - Failed');
+                });
+            }
 
             return redirect()->route('user.success');
 
@@ -282,6 +278,24 @@ class PaymentController extends Controller
         $stripe = new \Stripe\StripeClient(config('stripe.stripe_sk'));
         $response=$stripe->checkout->sessions->retrieve($session_id);
         dd($response);
+    }
+
+    public function checkEmail(Request $request)
+    {
+        $email = $request->query('email');
+        $user = Users::where('email', $email)->first();
+
+        if ($user) {
+            return response()->json([
+                'first_name' => $user->firstname,
+                'last_name' => $user->lastname,
+            ]);
+        } else {
+            return response()->json([
+                'first_name' => '',
+                'last_name' => '',
+            ], 404);
+        }
     }
 
 }
