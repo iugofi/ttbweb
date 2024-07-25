@@ -1172,15 +1172,19 @@
                                     <img src="https://png.pngtree.com/png-clipart/20190516/original/pngtree-usa-flag--vector-illustration-png-image_3749931.jpg"
                                         alt="" srcset=""
                                         style="width: 50px; height: 50px; border-radius: 30px;">
+                                        <div class="box-location d-flex">
                                     <p>Canada</p><br>
                                     <span>Sugarpine Court Brampton, Ontario, CA</span>
+                                </div>
                                 </li>
                                 <li>
                                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_India.png/2560px-Flag_of_India.png"
                                         alt="" srcset=""
                                         style="width: 50px; height: 50px; border-radius: 30px;">
+                                        <div class="box-location d-flex">
                                     <p>India</p><br>
                                     <span>Bestech Business Tower, Sector 66, Mohali, IN</span>
+                                </div>
                                 </li>
                             </ul>
                         </div>
@@ -1193,15 +1197,19 @@
                                     <img src="https://png.pngtree.com/png-clipart/20190516/original/pngtree-usa-flag--vector-illustration-png-image_3749931.jpg"
                                         alt="" srcset=""
                                         style="width: 50px; height: 50px; border-radius: 30px;">
+                                        <div class="box-location d-flex">
                                     <p>Canada</p><br>
                                     <span>Sugarpine Court Brampton, Ontario, CA</span>
+                                </div>
                                 </li>
                                 <li>
                                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_India.png/2560px-Flag_of_India.png"
                                         alt="" srcset=""
                                         style="width: 50px; height: 50px; border-radius: 30px;">
+                                        <div class="box-location d-flex">
                                     <p>India</p><br>
                                     <span>Bestech Business Tower, Sector 66, Mohali, IN</span>
+                                </div>
                                 </li>
                             </ul>
                         </div>
