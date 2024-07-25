@@ -10,6 +10,7 @@ use App\Models\TTBKEY;
 use App\Models\Payments;
 use App\Models\Get_not_send_key;
 use App\Models\Users;
+use Carbon\Carbon;
 // use Illuminate\Support\Facades\Mail;
 use Session;
 use Illuminate\Support\Facades\Validator;
@@ -200,6 +201,7 @@ class PaymentController extends Controller
             $getkey = TTBKEY::where('product_id', $vid)->where('is_key_used', 0)->orderBy('created_at', 'ASC')->limit(1)->first();
             if ($getkey) {
                 $getkey->is_key_used = 1;
+                $getkey->key_activation_date=Carbon::now();
                 $id_key = $getkey->id;
                 $main_key = $getkey->main_key;
                 $getkey->save();
