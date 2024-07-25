@@ -1135,14 +1135,19 @@
                             <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">FOLLOW US </h2>
                             <ul class="justify-center lg:justify-end space-x-2">
                                 <li>
-                                    <button aria-label="Call" type="button" class="ti-btn ti-btn-sm mx-1 ti-btn-primary"><a href="https://www.facebook.com/ttbinternetsecurities/">
-                                        <i class="fa-solid fa-phone"></i>
-                                    </a></button><a href="tel:800-710-9311"> 800-710-9311</a>
+                                    <button aria-label="Call" type="button"
+                                        class="ti-btn ti-btn-sm mx-1 ti-btn-primary"><a
+                                            href="https://www.facebook.com/ttbinternetsecurities/">
+                                            <i class="fa-solid fa-phone"></i>
+                                        </a></button><a href="tel:800-710-9311"> 800-710-9311</a>
                                 </li>
                                 <li>
-                                    <button aria-label="Email" type="button" class="ti-btn ti-btn-sm mx-1 ti-btn-secondary"><a href="https://x.com/i/flow/login?redirect_after_login=%2FTTBisecure">
-                                        <i class="fa-solid fa-envelope"></i>
-                                    </a></button><a href="mailto:care@ttbinternetsecurity.com"> care@ttbinternetsecurity.com</a>
+                                    <button aria-label="Email" type="button"
+                                        class="ti-btn ti-btn-sm mx-1 ti-btn-secondary"><a
+                                            href="https://x.com/i/flow/login?redirect_after_login=%2FTTBisecure">
+                                            <i class="fa-solid fa-envelope"></i>
+                                        </a></button><a href="mailto:care@ttbinternetsecurity.com">
+                                        care@ttbinternetsecurity.com</a>
                                 </li>
                             </ul>
                         </div>
@@ -1152,51 +1157,59 @@
                         <div class="footer-widget">
                             <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">Find Us On:</h2>
                             <div class="list-none text-white">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit et magnam, fuga est mollitia eius, quo illum illo inventore optio aut quas omnis rem.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit et magnam, fuga
+                                    est mollitia eius, quo illum illo inventore optio aut quas omnis rem.</p>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="xl:col-span-2 col-span-12">
-                    <div class="footer-widget">
-                        <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">FOLLOW US </h2>
-                        <ul class="justify-center lg:justify-end space-x-2">
-                            <li>
-                                <button aria-label="Call" type="button" class="ti-btn ti-btn-sm mx-1 ti-btn-primary"><a href="https://www.facebook.com/ttbinternetsecurities/">
-                                    <i class="fa-solid fa-phone"></i>
-                                </a></button><a href="tel:800-710-9311"> 800-710-9311</a>
-                            </li>
-                            <li>
-                                <button aria-label="Email" type="button" class="ti-btn ti-btn-sm mx-1 ti-btn-secondary"><a href="https://x.com/i/flow/login?redirect_after_login=%2FTTBisecure">
-                                    <i class="fa-solid fa-envelope"></i>
-                                </a></button><a href="mailto:care@ttbinternetsecurity.com"> care@ttbinternetsecurity.com</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="xl:col-span-2 col-span-12">
-                    <div class="footer-widget">
-                        <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">FOLLOW US </h2>
-                        <ul class="justify-center lg:justify-end space-x-2">
-                            <li>
-                                <img src="https://png.pngtree.com/png-clipart/20190516/original/pngtree-usa-flag--vector-illustration-png-image_3749931.jpg" alt="" srcset="">
-                                    <i class="fa-solid fa-phone"></i>
-                                </a>
-                                <p>Canada</p>
-                                <SPan>Sugarpine Court Brampton, Ontario, CA</SPan>
-                            </li>
-                            <li>
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_India.png/2560px-Flag_of_India.png" alt="" srcset="">
-                                    <i class="fa-solid fa-phone"></i>
-                                </a>
-                                <p>India</p>
-                                <SPan>Bestech Business Tower, Sector 66, Mohali, IN</SPan>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
 
--------------------
+                    <div class="xl:col-span-2 col-span-12">
+                        <div class="footer-widget">
+                            <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">FOLLOW US </h2>
+                            <ul class="justify-center lg:justify-end space-x-2">
+                                <li>
+                                    <button aria-label="Call" type="button"
+                                        class="ti-btn ti-btn-sm mx-1 ti-btn-primary"><a
+                                            href="https://www.facebook.com/ttbinternetsecurities/">
+                                            <i class="fa-solid fa-phone"></i>
+                                        </a></button><a href="tel:800-710-9311"> 800-710-9311</a>
+                                </li>
+                                <li>
+                                    <button aria-label="Email" type="button"
+                                        class="ti-btn ti-btn-sm mx-1 ti-btn-secondary"><a
+                                            href="https://x.com/i/flow/login?redirect_after_login=%2FTTBisecure">
+                                            <i class="fa-solid fa-envelope"></i>
+                                        </a></button><a href="mailto:care@ttbinternetsecurity.com">
+                                        care@ttbinternetsecurity.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="xl:col-span-2 col-span-12">
+                        <div class="footer-widget">
+                            <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">FOLLOW US </h2>
+                            <ul class="justify-center lg:justify-end space-x-2">
+                                <li>
+                                    <img src="https://png.pngtree.com/png-clipart/20190516/original/pngtree-usa-flag--vector-illustration-png-image_3749931.jpg"
+                                        alt="" srcset="">
+                                    <i class="fa-solid fa-phone"></i>
+                                    </a>
+                                    <p>Canada</p>
+                                    <SPan>Sugarpine Court Brampton, Ontario, CA</SPan>
+                                </li>
+                                <li>
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_India.png/2560px-Flag_of_India.png"
+                                        alt="" srcset="">
+                                    <i class="fa-solid fa-phone"></i>
+                                    </a>
+                                    <p>India</p>
+                                    <SPan>Bestech Business Tower, Sector 66, Mohali, IN</SPan>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                -------------------
                 <div class="grid grid-cols-12 gap-6">
 
                     <div class="xl:col-span-2 col-span-12">
