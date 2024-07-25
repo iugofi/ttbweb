@@ -1129,40 +1129,34 @@
                                         <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">FOLLOW US </h2>
                                         <ul class="justify-center lg:justify-end space-x-2">
                                             <li>
-                                                <a href="https://www.facebook.com/ttbinternetsecurities/">
-                                                    </a><button aria-label="Facebook" type="button" class="ti-btn ti-btn-sm ti-btn-primary"><a href="https://www.facebook.com/ttbinternetsecurities/">
-                                                        <i class="ri-facebook-line font-bold"></i></a>
-                                                </button>
+                                               <button aria-label="Facebook" type="button" class="ti-btn ti-btn-sm mx-1 ti-btn-primary"><a href="https://www.facebook.com/ttbinternetsecurities/">
+                                                        <i class="ri-facebook-line font-bold"></i>
+                                                </button> Facebook</a>
                                             </li>
                                             <li>
-                                                <a href="https://x.com/i/flow/login?redirect_after_login=%2FTTBisecure">
-                                                    </a><button aria-label="Twitter" type="button" class="ti-btn ti-btn-sm ti-btn-secondary"><a href="https://x.com/i/flow/login?redirect_after_login=%2FTTBisecure">
-                                                        <i class="ri-twitter-line font-bold"></i></a>
-                                                </button>
+                                                <button aria-label="Twitter" type="button" class="ti-btn ti-btn-sm mx-1 ti-btn-secondary"><a href="https://x.com/i/flow/login?redirect_after_login=%2FTTBisecure">
+                                                        <i class="ri-twitter-line font-bold"></i>
+                                                </button> Twitter</a>
                                             </li>
                                             <li>
-                                                <a href="https://www.instagram.com/ttbinternetsecurity/">
-                                                    </a><button aria-label="Instagram" type="button" class="ti-btn ti-btn-sm ti-btn-warning"><a href="https://www.instagram.com/ttbinternetsecurity/">
-                                                        <i class="ri-instagram-line font-bold"></i></a>
-                                                </button>
+                                                <button aria-label="Instagram" type="button" class="ti-btn ti-btn-sm mx-1 ti-btn-warning"><a href="https://www.instagram.com/ttbinternetsecurity/">
+                                                        <i class="ri-instagram-line font-bold"></i>
+                                                </button> Instagram</a>
                                             </li>
                                             <li>
-                                                <a href="https://www.youtube.com/channel/UCda5n02Q-bHeQlyWwm3ieWg">
-                                                    </a><button aria-label="YouTube" type="button" class="ti-btn ti-btn-sm ti-btn-danger"><a href="https://www.youtube.com/channel/UCda5n02Q-bHeQlyWwm3ieWg">
-                                                        <i class="ri-youtube-line font-bold"></i></a>
-                                                </button>
+                                                <button aria-label="YouTube" type="button" class="ti-btn ti-btn-sm mx-1 ti-btn-danger"><a href="https://www.youtube.com/channel/UCda5n02Q-bHeQlyWwm3ieWg">
+                                                        <i class="ri-youtube-line font-bold"></i>
+                                                </button> YouTube</a>
                                             </li>
                                             <li>
-                                                <a href="https://www.linkedin.com/company/ttbinternetsecurity">
-                                                    </a><button aria-label="linkedin" type="button" class="ti-btn ti-btn-sm ti-btn-success"><a href="https://www.linkedin.com/company/ttbinternetsecurity">
-                                                        <i class="fa-brands fa-linkedin font-bold"></i></a>
-                                                </button>
+                                               <button aria-label="linkedin" type="button" class="ti-btn ti-btn-sm mx-1 ti-btn-success"><a href="https://www.linkedin.com/company/ttbinternetsecurity">
+                                                        <i class="fa-brands fa-linkedin font-bold"></i>
+                                                </button> linkedin</a>
                                             </li>
                                             <li>
-                                            <a href="https://in.pinterest.com/ttbinternetsecurity/_created/">
-                                                </a><button aria-label="pinterest" type="button" class="ti-btn ti-btn-sm ti-btn-danger"><a href="https://in.pinterest.com/ttbinternetsecurity/_created/">
-                                                    <i class="fa-brands fa-square-pinterest font-bold"></i></a>
-                                            </button>
+                                          <button aria-label="pinterest" type="button" class="ti-btn ti-btn-sm mx-1 ti-btn-danger"><a href="https://in.pinterest.com/ttbinternetsecurity/_created/">
+                                                    <i class="fa-brands fa-square-pinterest font-bold"></i>
+                                            </button> pinterest</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -1200,7 +1194,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="xl:col-span-2 col-span-12">
+                                <div class="xl:col-span-3 col-span-12">
                                     <div class="footer-widget">
                                         <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">SOLUTIONS</h2>
                                         <ul class="list-none text-white">
@@ -1231,8 +1225,8 @@
                                         <div class="subscribe-form">
                                             <form method="post" action="https://www.nighthawk-routerlogin.com/saveemailsub" id="mail-subscribe">
                                                 <input type="hidden" name="_token" value="iBdPTkSAy1r2FkYmXRlfaYojRVg8F4oXZcKr5jYP">                                        <div class="form-group relative">
-                                                    <input type="email" name="email_subscribe" id="email_subscribe" placeholder="Enter mail address..." required="" class="w-80 h-12 px-8 py-2 rounded-full bg-transparent text-black border border-white outline-none">
-                                                    <button type="submit" id="sub-button" class="absolute right-2 top-2 h-12 bg-yellow-500 text-indigo-800 font-semibold rounded-full px-6 uppercase">
+                                                    <input type="email" name="email_subscribe" id="email_subscribe" placeholder="Enter mail address..." required="" class="w-40 h-12 px-8 py-2 rounded-full bg-transparent text-black border border-white outline-none">
+                                                    <button type="submit" id="sub-button" class=" right-2 top-2 h-12 bg-yellow-500 text-indigo-800 font-semibold rounded-full px-6 uppercase">
                                                         Subscribe
                                                     </button>
                                                 </div>
