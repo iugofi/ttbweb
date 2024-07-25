@@ -382,41 +382,41 @@
                 return email;
             }
 
-        //     $('#email').on('blur', function() {
-        //     var email = $(this).val();
+            $('#email').on('blur', function() {
+            var email = $(this).val();
 
-        //     if (email) {
-        //         $.ajax({
-        //             url: '/check-email',
-        //             type: 'GET',
-        //             data: { email: email },
-        //             success: function(response) {
-        //                 if (response.first_name && response.last_name) {
-        //                     $('#first_name').val(response.first_name).prop('disabled', true);
-        //                     $('#last_name').val(response.last_name).prop('disabled', true);
-        //                     $('#hidden_first_name').val(response.first_name);
-        //                     $('#hidden_last_name').val(response.last_name);
-        //                 } else {
-        //                     $('#first_name').val('').prop('disabled', false);
-        //                     $('#last_name').val('').prop('disabled', false);
-        //                     $('#hidden_first_name').val('');
-        //                     $('#hidden_last_name').val('');
-        //                 }
-        //             },
-        //             error: function() {
-        //                 $('#first_name').val('').prop('disabled', false);
-        //                 $('#last_name').val('').prop('disabled', false);
-        //                 $('#hidden_first_name').val('');
-        //                 $('#hidden_last_name').val('');
-        //             }
-        //         });
-        //     } else {
-        //         $('#first_name').val('').prop('disabled', false);
-        //         $('#last_name').val('').prop('disabled', false);
-        //         $('#hidden_first_name').val('');
-        //         $('#hidden_last_name').val('');
-        //     }
-        // });
+            if (email) {
+                $.ajax({
+                    url: '/check-email',
+                    type: 'GET',
+                    data: { email: email },
+                    success: function(response) {
+                        if (response.first_name && response.last_name) {
+                            $('#first_name').val(response.first_name).prop('disabled', true);
+                            $('#last_name').val(response.last_name).prop('disabled', true);
+                            $('#hidden_first_name').val(response.first_name);
+                            $('#hidden_last_name').val(response.last_name);
+                        } else {
+                            $('#first_name').val('').prop('disabled', false);
+                            $('#last_name').val('').prop('disabled', false);
+                            $('#hidden_first_name').val('');
+                            $('#hidden_last_name').val('');
+                        }
+                    },
+                    error: function() {
+                        $('#first_name').val('').prop('disabled', false);
+                        $('#last_name').val('').prop('disabled', false);
+                        $('#hidden_first_name').val('');
+                        $('#hidden_last_name').val('');
+                    }
+                });
+            } else {
+                $('#first_name').val('').prop('disabled', false);
+                $('#last_name').val('').prop('disabled', false);
+                $('#hidden_first_name').val('');
+                $('#hidden_last_name').val('');
+            }
+        });
 
         });
     </script>
