@@ -80,7 +80,6 @@ class PaymentController extends Controller
     }
     public function otpverifyfpay(Request $request)
    {
-    dd($request->emailinput);
        $validator = Validator::make($request->all(), [
            'otpinput' => 'required|digits:6',
        ]);
