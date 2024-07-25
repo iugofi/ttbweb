@@ -1119,20 +1119,17 @@
         <section class="section landing-footer  text-white text-[0.813rem]">
             <div class="container">
                 <div class="grid grid-cols-12 gap-6">
-                                            <div class="xl:col-span-2 col-span-12">
+
+                                <div class="xl:col-span-2 col-span-12">
                                     <div class="footer-widget">
-                                        <div class="logo mb-8">
-                                            <a href="#"><img src="images/logo/logo-light.png" alt="" class="w-40"></a>
-                                        </div>
-                                        <p class="text-white mb-6">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                            incididunt ut labore et dolore magna aliqua.
-                                        </p>
-                                        <ul class="footer-info text-white">
-                                            <h2 class="text-white text-xl font-semibold mb-6">CONTACT US</h2>
-                                            <li class="mb-4 flex items-center"><i class="fa fa-phone mr-2 px-2 text-yellow-500"></i><a href="tel:(800) 710-9311">(800) 710-9311</a></li>
-                                            <li class="mb-4 flex items-center"><i class="fa-solid fa-envelope mr-2 px-2 text-yellow-500"></i> <a href="mailto:care@ttbinternetsecurity.com">care@ttbinternetsecurity.com</a>
-                                            </li>
+                                        <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">QUICK LINKS</h2>
+                                        <ul class="list-none text-white">
+                                            <li class="mb-2"><a href="#" class="hover:text-yellow-500">Home</a></li>
+                                            <li class="mb-2"><a href="#" class="hover:text-yellow-500">About</a></li>
+                                            <li class="mb-2"><a href="#" class="hover:text-yellow-500">Support</a></li>
+                                            <li class="mb-2"><a href="#" class="hover:text-yellow-500">Sign In</a></li>
+                                            <li class="mb-2"><a href="#" class="hover:text-yellow-500">Personal</a></li>
+                                            <li><a href="#" class="hover:text-yellow-500">Commercial</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -1148,8 +1145,7 @@
                                             <li><a href="#" class="hover:text-yellow-500">Commercial</a></li>
                                         </ul>
                                     </div>
-                                </div>
-                                <div class="xl:col-span-2 col-span-12">
+                                </div><div class="xl:col-span-2 col-span-12">
                                     <div class="footer-widget">
                                         <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">PRODUCTS</h2>
                                         <ul class="list-none text-white">
