@@ -236,16 +236,12 @@
                                         <div class="md:col-span-12 col-span-12 mb-4">
                                             <label class="form-label">Enter OTP:</label>
                                             <input type="text" id="emailDisplayVal" name="emailinput" hidden>
-                                            <input type="text" name="otpinput" id="otpinput"
-                                                class="form-control">
-                                                <div class="invalid-feedback"></div>
+                                            <input type="text" name="otpinput" id="otpinput" class="form-control">
+                                            <div class="invalid-feedback"></div>
                                         </div>
 
-                                        <div
-                                            class="md:col-span-12 col-span-12 md:flex md:justify-end check-btn">
-                                            <input type="submit" value="Verify OTP" id="checkotpinput"
-                                                class="ti-btn ti-btn-primary-full !mb-0">
-
+                                        <div class="md:col-span-12 col-span-12 md:flex md:justify-end check-btn">
+                                            <input type="submit" value="Verify OTP" id="checkotpinput" class="ti-btn ti-btn-primary-full !mb-0">
                                         </div>
                                     </div>
                                 </form>
@@ -308,37 +304,41 @@
             });
 
             $('#otpVerificationForm').submit(function(e) {
-                alert("kk");
-                e.preventDefault();
-                $('#checkotpinput').val('please wait..');
-                var formData = $(this).serialize();
-                $.ajax({
-                    url: '{{ route('user.otpverifyfpay') }}',
-                    method: 'post',
-                    data: formData,
-                    success: function(response) {
-                        // console.log(response);
-                        if (response.status === 400) {
-                            $('#checkotpinput').val('Verify OTP');
-                            // Handle validation errors
-                            $.each(response.errors, function(key, value) {
-                                showError(key, value[0], true);
-                            });
-                        } else if (response.status === 401) {
-                            $('#checkotpinput').val('Verify OTP');
-                            $("#otp_check_alert").html('<div class="alert alert-danger">' +
-                                response.message + '</div>');
-                        } else if (response.status === 200) {
-                            // Handle success
-                            removeValidationClass("#otpVerificationForm");
-                            $('#checkotpinput').val('Verify OTP');
-                            $('#hs-vertically-centered-modal').removeClass('open');
-                            $('#hs-vertically-centered-modal').addClass('hidden');
-                            $('#payment').show();
-                        }
+            e.preventDefault();
+            console.log('Form submitted'); // Debugging statement
+            $('#checkotpinput').val('please wait..');
+            var formData = $(this).serialize();
+            console.log('Form data:', formData); // Debugging statement
+            $.ajax({
+                url: '{{ route('user.otpverifyfpay') }}',
+                method: 'post',
+                data: formData,
+                success: function(response) {
+                    console.log('Response:', response); // Debugging statement
+                    if (response.status === 400) {
+                        $('#checkotpinput').val('Verify OTP');
+                        // Handle validation errors
+                        $.each(response.errors, function(key, value) {
+                            showError(key, value[0], true);
+                        });
+                    } else if (response.status === 401) {
+                        $('#checkotpinput').val('Verify OTP');
+                        $("#otp_check_alert").html('<div class="alert alert-danger">' + response.message + '</div>');
+                    } else if (response.status === 200) {
+                        // Handle success
+                        removeValidationClass("#otpVerificationForm");
+                        $('#checkotpinput').val('Verify OTP');
+                        $('#hs-vertically-centered-modal').removeClass('open');
+                        $('#hs-vertically-centered-modal').addClass('hidden');
+                        $('#payment').show();
                     }
-                });
+                },
+                error: function(jqXHR, textStatus, errorThrown) {
+                    console.log('AJAX error:', textStatus, errorThrown); // Debugging statement
+                    $('#checkotpinput').val('Verify OTP');
+                }
             });
+        });
 
 
             function getEmailFromFormData(formData) {
