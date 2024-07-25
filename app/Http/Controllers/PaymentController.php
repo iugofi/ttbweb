@@ -4,18 +4,19 @@ namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\Models\Planname; 
+use App\Models\Planname;
 use App\Models\VpnShield;
 use App\Models\TTBKEY;
 use App\Models\Payments;
 use App\Models\Get_not_send_key;
-use App\Models\Users; 
+use App\Models\Users;
 // use Illuminate\Support\Facades\Mail;
 use Session;
 use Illuminate\Support\Facades\Validator;
 use Stripe;
 use DB;
 use Mail;
+use Carbon\Carbon;
 
 
 class PaymentController extends Controller
@@ -30,21 +31,21 @@ class PaymentController extends Controller
         ->where('storepick.STORE_ID','=','key_type')
         ->where('product_details.id',$id)
         ->first();
-        
+
         return view('User.checkout_page',['plan'=>$plan]);
 
-        
+
     }
 
     public function otpcheckfpay(Request $request)
     {
      $validator = Validator::make($request->all(), [
-     'email' => 'required|email',   
+     'email' => 'required|email',
      'first_name' => 'required_without:hidden_first_name',
-    'last_name' => 'required_without:hidden_last_name', 
-     
+    'last_name' => 'required_without:hidden_last_name',
+
          ]);
- 
+
          if ($validator->fails()) {
              return response()->json([
                  'status' => 400,
@@ -52,8 +53,8 @@ class PaymentController extends Controller
              ]);
          } else {
              $user = Users::where('email', $request->email)->first();
-             $otp = rand(100000, 999999); 
-     
+             $otp = rand(100000, 999999);
+
              if (!$user) {
                  $request->session()->put('emailsessiontb', $request->email);
                  $user = new Users();
@@ -68,10 +69,10 @@ class PaymentController extends Controller
                  $user->otp = $otp;
                  $user->save();
              }
-     
+
              // Send OTP
              $this->sendOTP($request->email, $otp);
-            
+
              return response()->json([
                  'status' => 200,
                  'messages' => 'Contact Form Data Sent successfully'
@@ -83,18 +84,18 @@ class PaymentController extends Controller
        $validator = Validator::make($request->all(), [
            'otpinput' => 'required|digits:6',
        ]);
-   
+
        if ($validator->fails()) {
            return response()->json([
                'status' => 400,
                'errors' => $validator->errors()->toArray()
            ]);
        }
-   
+
        $user = Users::where('email', $request->emailinput)
                        ->where('otp', $request->otpinput)
                        ->first();
-   
+
        if ($user) {
            return response()->json([
                'status' => 200,
@@ -109,7 +110,7 @@ class PaymentController extends Controller
    }
 
    public function sendOTP($email, $otp) {
-        
+
     Mail::send('Mail.otp', ['otp' => $otp], function ($message) use ($email) {
         $message->to($email)->subject('Your OTP');
     });
@@ -135,13 +136,13 @@ class PaymentController extends Controller
         ->where('product_details.id',decrypt($vid))
         ->first();
 
-        
+
 
     $stripe = new \Stripe\StripeClient('sk_test_51Oetf6SHWK0fmSdmYx9rUwrdAgJdSQi5NpurLOaBuCHTcF7gm4o3VKPwbMWIrKE5twgHUqckdKZFJ3GzqNoXxsZD00zZGoUyuF');
 
 
     $allowPromotionCodes = $vpnshield->is_coupons ? true : false;
-   
+
     $response=$stripe->checkout->sessions->create([
     'line_items' => [
         [
@@ -149,13 +150,13 @@ class PaymentController extends Controller
             'currency' => 'usd',
             'product_data' => ['name' => $vpnshield->name],
             'unit_amount' => $vpnshield->price*100,
-            
-        
+
+
         ],
         'quantity' => 1,
         ],
     ],
-    
+
       'mode' => 'payment',
      'customer_email' =>$request->emailpay,
      'allow_promotion_codes' => $allowPromotionCodes,
@@ -166,7 +167,7 @@ class PaymentController extends Controller
     'cancel_url' => route('user.cancelpay'),
     ]);
 
-   
+
 
     //  dd($response);
 
@@ -200,6 +201,7 @@ class PaymentController extends Controller
             $getkey = TTBKEY::where('product_id', $vid)->where('is_key_used', 0)->orderBy('created_at', 'ASC')->limit(1)->first();
             if ($getkey) {
                 $getkey->is_key_used = 1;
+                $getkey->key_activation_date=Carbon::now();
                 $id_key = $getkey->id;
                 $main_key = $getkey->main_key;
                 $getkey->save();
@@ -270,7 +272,7 @@ class PaymentController extends Controller
         return view('User.success');
     }
 
-    
+
 
     public function testpagenew($session_id)
     {
@@ -297,5 +299,5 @@ class PaymentController extends Controller
             ], 404);
         }
     }
-   
+
 }
