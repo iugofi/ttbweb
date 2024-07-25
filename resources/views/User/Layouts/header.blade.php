@@ -12,7 +12,8 @@
     <!-- TITLE -->
     <title>@yield('title')</title>
 
-    <link rel="stylesheet" type="text/css" href="{{asset("public/vendor/cookie-consent/css/cookie-consent.css")}}">
+    {{-- <link rel="stylesheet" type="text/css" href="{{asset("public/vendor/cookie-consent/css/cookie-consent.css")}}"> --}}
+
 
     <!-- FAVICON -->
     <link rel="icon" href="{{ asset('assets/images/brand-logos/favicon.png') }}" type="image/x-icon">
@@ -45,7 +46,14 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
- 
+
+    {{-- for cookies --}}
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="{{asset('assets/css/cookies/css/style.css')}}" />
+    <script src="{{asset('assets/css/cookies/js/script.js')}}" defer></script>
+
+
+
 
     {{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> --}}
@@ -84,7 +92,7 @@
             }
         });
     </script>
-    
+
 {{-- header testimonial slider cdn --}}
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
@@ -101,8 +109,24 @@
 
 <body class="landing-body">
 
+    <div class="wrapper">
+        <header>
+          <i class="bx bx-cookie"></i>
+          <h2>Cookies Consent</h2>
+        </header>
+
+        <div class="data">
+          <p>This website use cookies to help you have a superior and more relevant browsing experience on the website. <a href="#"> Read more...</a></p>
+        </div>
+
+        <div class="buttons">
+          <button class="button" id="acceptBtn">Accept</button>
+          <button class="button" id="declineBtn">Decline</button>
+        </div>
+      </div>
+
     <!-- SWITCHER -->
-   
+
 
 
     <div id="hs-overlay-switcher" class="hs-overlay hidden ti-offcanvas ti-offcanvas-right" tabindex="-1">
