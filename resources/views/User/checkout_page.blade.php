@@ -89,12 +89,12 @@
                                             <div class="grid grid-cols-12 sm:gap-x-6 sm:gap-y-4">
 
                                                 <div class="md:col-span-12 col-span-12 text-center">
-                                                    <form id='checkout-form' method='post' action="{{ route('user.stripeCheckoutfpay') }}">
+                                                    {{-- <form id='checkout-form' method='post' action="{{ route('user.stripeCheckoutfpay') }}">
                                                         @csrf
                                                         <input type="text" id="emailDisplaypay" name="emailpay" hidden>
                                                         <input type='hidden' name='vpnid' value="{{ $plan->id }}" id='vpnid'>
                                                         <button  class="ti-btn ti-btn-primary-full !mb-0">Pay With Stripe</button>
-                                                    <form>
+                                                    <form> --}}
 
                                                 </div>
                                                                                                 </div>
