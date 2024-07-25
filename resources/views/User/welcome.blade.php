@@ -1129,38 +1129,32 @@
                                         <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">FOLLOW US </h2>
                                         <ul class="justify-center lg:justify-end space-x-2">
                                             <li>
-                                                <a href="https://www.facebook.com/ttbinternetsecurities/">
-                                                    </a><button aria-label="Facebook" type="button" class="ti-btn ti-btn-sm ti-btn-primary"><a href="https://www.facebook.com/ttbinternetsecurities/">
+                                               <button aria-label="Facebook" type="button" class="ti-btn ti-btn-sm ti-btn-primary"><a href="https://www.facebook.com/ttbinternetsecurities/">
                                                         <i class="ri-facebook-line font-bold"></i></a>
                                                 </button> Facebook
                                             </li>
                                             <li>
-                                                <a href="https://x.com/i/flow/login?redirect_after_login=%2FTTBisecure">
-                                                    </a><button aria-label="Twitter" type="button" class="ti-btn ti-btn-sm ti-btn-secondary"><a href="https://x.com/i/flow/login?redirect_after_login=%2FTTBisecure">
+                                                <button aria-label="Twitter" type="button" class="ti-btn ti-btn-sm ti-btn-secondary"><a href="https://x.com/i/flow/login?redirect_after_login=%2FTTBisecure">
                                                         <i class="ri-twitter-line font-bold"></i></a>
                                                 </button> Twitter
                                             </li>
                                             <li>
-                                                <a href="https://www.instagram.com/ttbinternetsecurity/">
-                                                    </a><button aria-label="Instagram" type="button" class="ti-btn ti-btn-sm ti-btn-warning"><a href="https://www.instagram.com/ttbinternetsecurity/">
+                                                <button aria-label="Instagram" type="button" class="ti-btn ti-btn-sm ti-btn-warning"><a href="https://www.instagram.com/ttbinternetsecurity/">
                                                         <i class="ri-instagram-line font-bold"></i></a>
                                                 </button> Instagram
                                             </li>
                                             <li>
-                                                <a href="https://www.youtube.com/channel/UCda5n02Q-bHeQlyWwm3ieWg">
-                                                    </a><button aria-label="YouTube" type="button" class="ti-btn ti-btn-sm ti-btn-danger"><a href="https://www.youtube.com/channel/UCda5n02Q-bHeQlyWwm3ieWg">
+                                                <button aria-label="YouTube" type="button" class="ti-btn ti-btn-sm ti-btn-danger"><a href="https://www.youtube.com/channel/UCda5n02Q-bHeQlyWwm3ieWg">
                                                         <i class="ri-youtube-line font-bold"></i></a>
                                                 </button> YouTube
                                             </li>
                                             <li>
-                                                <a href="https://www.linkedin.com/company/ttbinternetsecurity">
-                                                    </a><button aria-label="linkedin" type="button" class="ti-btn ti-btn-sm ti-btn-success"><a href="https://www.linkedin.com/company/ttbinternetsecurity">
+                                               <button aria-label="linkedin" type="button" class="ti-btn ti-btn-sm ti-btn-success"><a href="https://www.linkedin.com/company/ttbinternetsecurity">
                                                         <i class="fa-brands fa-linkedin font-bold"></i></a>
                                                 </button> linkedin
                                             </li>
                                             <li>
-                                            <a href="https://in.pinterest.com/ttbinternetsecurity/_created/">
-                                                </a><button aria-label="pinterest" type="button" class="ti-btn ti-btn-sm ti-btn-danger"><a href="https://in.pinterest.com/ttbinternetsecurity/_created/">
+                                          <button aria-label="pinterest" type="button" class="ti-btn ti-btn-sm ti-btn-danger"><a href="https://in.pinterest.com/ttbinternetsecurity/_created/">
                                                     <i class="fa-brands fa-square-pinterest font-bold"></i></a>
                                             </button> pinterest
                                             </li>
