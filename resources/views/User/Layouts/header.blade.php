@@ -49,8 +49,8 @@
 
     {{-- for cookies --}}
     <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="{{asset('assets/css/cookies/css/style.css')}}" />
-    <script src="{{asset('assets/css/cookies/js/script.js')}}" defer></script>
+    <link rel="stylesheet" href="{{asset('assets/cookies/css/style.css')}}" />
+    <script src="{{asset('assets/cookies/js/script.js')}}" defer></script>
 
 
 
