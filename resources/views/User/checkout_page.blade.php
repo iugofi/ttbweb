@@ -302,7 +302,7 @@
             });
 
             $('#otpVerificationForm').submit(function(e) {
-                alert("kk");
+                alert()
             e.preventDefault();
             console.log('Form submitted'); // Debugging statement
             $('#checkotpinput').val('please wait..');
