@@ -16,7 +16,6 @@ use Illuminate\Support\Facades\Validator;
 use Stripe;
 use DB;
 use Mail;
-use Carbon\Carbon;
 
 
 class PaymentController extends Controller
@@ -201,7 +200,6 @@ class PaymentController extends Controller
             $getkey = TTBKEY::where('product_id', $vid)->where('is_key_used', 0)->orderBy('created_at', 'ASC')->limit(1)->first();
             if ($getkey) {
                 $getkey->is_key_used = 1;
-                $getkey->key_activation_date=Carbon::now();
                 $id_key = $getkey->id;
                 $main_key = $getkey->main_key;
                 $getkey->save();
