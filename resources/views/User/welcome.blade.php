@@ -1122,7 +1122,7 @@
 
                     <div class="xl:col-span-3 col-span-12">
                         <div class="footer-widget">
-                            <h2 class="text-white text-lg font-semibold mb-2">Contact Us: </h2>
+                            <h2 class="text-white text-2xl font-semibold mb-2">Contact Us: </h2>
                             <ul class="justify-center lg:justify-end space-x-2">
                                 <li>
                                     <button aria-label="Call" type="button"
@@ -1145,7 +1145,7 @@
 
                     <div class="xl:col-span-3 col-span-12">
                         <div class="footer-widget">
-                            <h2 class="text-white text-lg font-semibold mb-2">Find Us On:</h2>
+                            <h2 class="text-white text-2xl font-semibold mb-2">Find Us On:</h2>
                             <div class="list-none text-white">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit et magnam, fuga
                                     est mollitia eius, quo illum illo inventore optio aut quas omnis rem.</p>
@@ -1209,7 +1209,7 @@
 
                     <div class="xl:col-span-3 col-span-12">
                         <div class="footer-widget">
-                            <h2 class="text-white text-lg font-semibold mb-2">Follow Us</h2>
+                            <h2 class="text-white text-2xl font-semibold mb-2">Follow Us</h2>
                             <ul class="justify-center lg:justify-end space-x-2">
                                 <li>
                                     <button aria-label="Facebook" type="button"
@@ -1259,7 +1259,7 @@
 
                     <div class="xl:col-span-2 col-span-12">
                         <div class="footer-widget">
-                            <h2 class="text-white text-lg font-semibold mb-2"> Quick Link</h2>
+                            <h2 class="text-white text-2xl font-semibold mb-2"> Quick Link</h2>
                             <ul class="list-none text-white">
                                 <li class="mb-2"><a href="#" class="hover:text-yellow-500">Home</a></li>
                                 <li class="mb-2"><a href="#" class="hover:text-yellow-500">About</a></li>
@@ -1272,7 +1272,7 @@
                     </div>
                     <div class="xl:col-span-2 col-span-12">
                         <div class="footer-widget">
-                            <h2 class="text-white text-lg font-semibold mb-2"> Products</h2>
+                            <h2 class="text-white text-2xl font-semibold mb-2"> Products</h2>
                             <ul class="list-none text-white">
                                 <li class="mb-2"><a href="#" class="hover:text-yellow-500">TTB Antivirus</a>
                                 </li>
@@ -1283,7 +1283,7 @@
                                 <li class="mb-2"><a href="#" class="hover:text-yellow-500">TTB VPN Shield</a>
                                 </li>
                             </ul>
-                            <h2 class="text-white text-lg font-semibold mb-2">Resources</h2>
+                            <h2 class="text-white text-2xl font-semibold mb-2">Resources</h2>
                             <ul class="list-none text-white">
                                 <li class="mb-2"><a href="#" class="hover:text-yellow-500">News</a></li>
                                 <li class="mb-2"><a href="#" class="hover:text-yellow-500">Blogs</a></li>
@@ -1292,7 +1292,7 @@
                     </div>
                     <div class="xl:col-span-2 col-span-12">
                         <div class="footer-widget">
-                            <h2 class="text-white text-lg font-semibold mb-2"> Solutions</h2>
+                            <h2 class="text-white text-2xl font-semibold mb-2"> Solutions</h2>
                             <ul class="list-none text-white">
                                 <li class="mb-2"><a href="#" class="hover:text-yellow-500">EndPoint
                                         Protection</a></li>
@@ -1317,7 +1317,7 @@
                     </div>
                     <div class="xl:col-span-3 col-span-12">
                         <div class="inner-column text-center lg:text-right">
-                            <h2 class="text-white text-lg font-semibold mb-2">Sign up For Newsletter</h2>
+                            <h2 class="text-white text-2xl font-semibold mb-2">Sign up For Newsletter</h2>
                             <div class="subscribe-form">
                                 <form method="post" action="https://www.nighthawk-routerlogin.com/saveemailsub"
                                     id="mail-subscribe">
