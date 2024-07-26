@@ -554,7 +554,6 @@ class UserController extends Controller
     public function saveUser(Request $request)
     {
         // $ref=md5($request->email,time());
-        dd($request);
         $validator = Validator::make($request->all(), [
             'signup_firstname' => 'required|max:50',
             'signup_lastname' => 'required|max:50',
