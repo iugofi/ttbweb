@@ -1154,7 +1154,7 @@
                         <div class="footer-widget">
                             <ul class="justify-center lg:justify-end space-x-2">
                                 <li class="icon-list">
-                                    <img src="{{ asset('assets/img2/USA-Flag.png') }}" alt="" class="img-fluid"
+                                    <img src="{{ asset('assets/img/USA-Flag.png') }}" alt="" class="img-fluid"
                                         style="width: 50px; height: 50px; border-radius: 30px;">
                                     <div class="box-location d-flex">
                                         <h2>USA</h2>
@@ -1162,7 +1162,7 @@
                                     </div>
                                 </li>
                                 <li class="icon-list">
-                                    <img src="{{ asset('assets/img2/Canada-Flag.png') }}" alt="" class="img-fluid"
+                                    <img src="{{ asset('assets/img/Canada-Flag.png') }}" alt="" class="img-fluid"
                                         style="width: 50px; height: 50px; border-radius: 30px;">
                                     <div class="box-location d-flex">
                                         <h2>CANADA</h2>
@@ -1176,7 +1176,7 @@
                         <div class="footer-widget">
                             <ul class="justify-center lg:justify-end space-x-2">
                                 <li class="icon-list">
-                                    <img src="{{ asset('assets/img2/UK-Flag.png') }}" alt="" class="img-fluid"
+                                    <img src="{{ asset('assets/img/UK-Flag.png') }}" alt="" class="img-fluid"
                                         style="width: 50px; height: 50px; border-radius: 30px;">
                                     <div class="box-location d-flex">
                                         <h2>UNITED KINGDOM</h2>
@@ -1184,7 +1184,7 @@
                                     </div>
                                 </li>
                                 <li class="icon-list">
-                                    <img src="{{ asset('assets/img2/India-Flag.png') }}" alt="" class="img-fluid"
+                                    <img src="{{ asset('assets/img/India-Flag.png') }}" alt="" class="img-fluid"
                                         style="width: 50px; height: 50px; border-radius: 30px;">
                                     <div class="box-location d-flex">
                                         <h2>INDIA</h2>
