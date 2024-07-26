@@ -32,11 +32,8 @@
                     </a>
                 </li>
 
-                @php
 
-                if (session('admintype')== 'superadmin' || session('admintype')== 'admin') {
-                 @endphp
-
+                @if (session('admintype') == 'superadmin' || session('admintype') == 'admin')
                 <li class="slide__category"><span class="category-name">News</span></li>
                 <li class="slide">
                     <a href="{{route('admin.newslist')}}" class="side-menu__item">
@@ -76,21 +73,15 @@
                             <span class="side-menu__label">Blog Comment List</span>
                         </a>
                     </li>
-
-
-                    @php
-                }
-                @endphp
+                 @endif
 
 
 
 
 
-                @php
 
-               if (session('admintype')== 'superadmin') {
-                @endphp
 
+             @if (session('admintype') == 'superadmin')
                 <li class="slide__category"><span class="category-name">Storepick</span></li>
                     <li class="slide">
                         <a href="{{route('admin.storepickpage')}}" class="side-menu__item">
@@ -105,7 +96,7 @@
                         </a>
                     </li>
 
-            @if (session('admintype') == 'Supervisor')
+
                 <li class="slide__category"><span class="category-name">Customers</span></li>
                 <li class="slide">
                     <a href="{{route('customer.show')}}" class="side-menu__item">
@@ -113,7 +104,7 @@
                         <span class="side-menu__label">Customers List</span>
                     </a>
                 </li>
-            @endif
+
 
                 <li class="slide__category"><span class="category-name">User</span></li>
                 <li class="slide">
@@ -220,9 +211,19 @@
                         </a>
                     </li>
 
-                @php
-                }
-                @endphp
+                    @endif
+
+                    @if (session('admintype') == 'superadmin')
+                    
+                    <li class="slide__category"><span class="category-name">Customers</span></li>
+                    <li class="slide">
+                        <a href="{{route('customer.show')}}" class="side-menu__item">
+                            <i class="bi bi-people side-menu__icon"></i>
+                            <span class="side-menu__label">Customers List</span>
+                        </a>
+                    </li>
+
+                    @endif
 
 
 
