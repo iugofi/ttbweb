@@ -66,8 +66,8 @@
                                 Welcome &amp; Join us by
                                 creating a free account !</p>
                                 <div class="" id="show_success_alert"></div>
-                                <form id="register_form" method="post">  
-                                    @csrf                             
+                                <form id="register_form" method="post">
+                                    @csrf
                                     <div class="grid grid-cols-12 gap-y-4">
                                         <div class="xl:col-span-12 col-span-12">
                                             <label for="signup-firstname" class="form-label text-default">First Name</label>
@@ -99,7 +99,7 @@
                                                         <br><br>
                                                 <p class="invalid-feedback" style="width:100%"></p>
                                             </div>
-                                            
+
                                         </div>
                                         <div class="xl:col-span-12 col-span-12 mb-2">
                                             <label for="signup-confirmpassword" class="form-label text-default">Confirm
@@ -130,9 +130,9 @@
                                                         class="text-success"><u>Privacy Policy</u></a>
                                                 </label>
                                                 <div class="invalid-feedback"></div>
-                                                
+
                                             </div>
-                                            
+
 
 
                                         </div>
@@ -182,6 +182,7 @@
 
     <script>
         $(document).ready(function() {
+            alert("kk");
             $('#register_form').submit(function(e){
                 e.preventDefault();
                 $('#register_btn').val('please wait..');
@@ -210,8 +211,8 @@
                 });
             });
         });
-    
-        
+
+
     </script>
 
 
