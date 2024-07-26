@@ -1124,19 +1124,15 @@
                         <div class="footer-widget">
                             <h2 class="text-white text-2xl font-semibold mb-2">Contact Us: </h2>
                             <ul class="justify-center lg:justify-end space-x-2">
-                                <li>
-                                    <button aria-label="Call" type="button"
-                                        class="ti-btn ti-btn-sm mx-1 ti-btn-primary"><a
-                                            href="https://www.facebook.com/ttbinternetsecurities/">
+                                <li class="footer-icon">
+                                    <a href="https://www.facebook.com/ttbinternetsecurities/">
                                             <i class="fa-solid fa-phone"></i>
-                                        </a></button><a href="tel:800-710-9311"> 800-710-9311</a>
+                                        </a><a href="tel:800-710-9311"> 800-710-9311</a>
                                 </li>
-                                <li>
-                                    <button aria-label="Email" type="button"
-                                        class="ti-btn ti-btn-sm mx-1 ti-btn-secondary"><a
-                                            href="https://x.com/i/flow/login?redirect_after_login=%2FTTBisecure">
+                                <li class="footer-icon">
+                                    <a href="https://x.com/i/flow/login?redirect_after_login=%2FTTBisecure">
                                             <i class="fa-solid fa-envelope"></i>
-                                        </a></button><a href="mailto:care@ttbinternetsecurity.com" class="text-sm">
+                                        </a><a href="mailto:care@ttbinternetsecurity.com" class="text-sm">
                                         care@ttbinternetsecurity.com</a>
                                 </li>
                             </ul>
@@ -1211,45 +1207,36 @@
                         <div class="footer-widget">
                             <h2 class="text-white text-2xl font-semibold mb-2">Follow Us</h2>
                             <ul class="justify-center lg:justify-end space-x-2">
-                                <li>
+                                <li class="footer-icon">
                                     <a href="https://www.facebook.com/ttbinternetsecurities/">
                                             <i class="ri-facebook-line font-bold"></i>
                                     Facebook</a>
                                 </li>
-                                <li>
-                                    <button aria-label="Twitter" type="button"
-                                        class="ti-btn ti-btn-sm mx-1 ti-btn-secondary"><a
-                                            href="https://x.com/i/flow/login?redirect_after_login=%2FTTBisecure">
+                                <li class="footer-icon">
+                                    <a href="https://x.com/i/flow/login?redirect_after_login=%2FTTBisecure">
                                             <i class="ri-twitter-line font-bold"></i>
-                                    </button> Twitter</a>
+                                    Twitter</a>
                                 </li>
-                                <li>
-                                    <button aria-label="Instagram" type="button"
-                                        class="ti-btn ti-btn-sm mx-1 ti-btn-warning"><a
-                                            href="https://www.instagram.com/ttbinternetsecurity/">
+                                <li class="footer-icon">
+                                    <a href="https://www.instagram.com/ttbinternetsecurity/">
                                             <i class="ri-instagram-line font-bold"></i>
-                                    </button> Instagram</a>
+                                    Instagram</a>
                                 </li>
-                                <li>
-                                    <button aria-label="YouTube" type="button"
-                                        class="ti-btn ti-btn-sm mx-1 ti-btn-danger"><a
-                                            href="https://www.youtube.com/channel/UCda5n02Q-bHeQlyWwm3ieWg">
+                                <li class="footer-icon">
+                                    <a href="https://www.youtube.com/channel/UCda5n02Q-bHeQlyWwm3ieWg">
                                             <i class="ri-youtube-line font-bold"></i>
-                                    </button> YouTube</a>
+                                    YouTube</a>
                                 </li>
-                                <li>
-                                    <button aria-label="linkedin" type="button"
-                                        class="ti-btn ti-btn-sm mx-1 ti-btn-success"><a
-                                            href="https://www.linkedin.com/company/ttbinternetsecurity">
+                                <li class="footer-icon">
+                                    <a href="https://www.linkedin.com/company/ttbinternetsecurity">
                                             <i class="fa-brands fa-linkedin font-bold"></i>
-                                    </button> linkedin</a>
+                                    linkedin</a>
                                 </li>
-                                <li>
-                                    <button aria-label="pinterest" type="button"
-                                        class="ti-btn ti-btn-sm mx-1 ti-btn-danger"><a
+                                <li class="footer-icon">
+                                    <a
                                             href="https://in.pinterest.com/ttbinternetsecurity/_created/">
                                             <i class="fa-brands fa-square-pinterest font-bold"></i>
-                                    </button> pinterest</a>
+                                    pinterest</a>
                                 </li>
                             </ul>
                         </div>
