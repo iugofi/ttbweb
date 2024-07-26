@@ -72,7 +72,7 @@
                                             @endforeach
                                         </select>
                                     </div>
-                                    
+
                                     <div class="xl:col-span-1 md:col-span-1 sm:col-span-1 col-span-2">
                                         <input type="submit" id="btn_search" class="m-1 ti-btn ti-btn-primary-full" value="Search">
                                     </div>
@@ -142,7 +142,7 @@
                                                     <td class="border px-4 py-2">{{ $item->price }}</td>
                                                     <td class="border px-4 py-2">{{ $item->key_activation_date }}</td>
                                                     <td class="border px-4 py-2">{{ $item->key_expirey_date }}</td>
-                                                   
+
 
                                                     <td class="border">
                                                         @php
@@ -155,7 +155,7 @@
                                                             @php
                                                                 $statusTextkey = '';
                                                                 $statusColorkey = '';
-    
+
                                                                 switch ($item->is_key_used) {
                                                                     case 0:
                                                                         $statusTextkey = $storepickkeystatus->PICK_TEXT;
@@ -165,7 +165,7 @@
                                                                         $statusTextkey = $storepickkeystatus->PICK_TEXT;
                                                                         $statusColorkey = 'danger';
                                                                         break;
-                                                                    
+
                                                                     default:
                                                                         // Default case if none of the above conditions are met
                                                                         $statusTextkey = $storepickkeystatus->PICK_TEXT;
@@ -181,7 +181,7 @@
                                                                 Value</span>
                                                         @endif
                                                     </td>
-                                                   
+
                                                     <td class="border">
                                                         @php
                                                             $storepick = DB::table('storepick')
@@ -193,7 +193,7 @@
                                                             @php
                                                                 $statusText = '';
                                                                 $statusColor = '';
-    
+
                                                                 switch ($item->key_status) {
                                                                     case 101:
                                                                         $statusText = $storepick->PICK_TEXT;
@@ -337,7 +337,7 @@
         <script>
             $(document).ready(function() {
                 var csrfToken = $('meta[name="csrf-token"]').attr('content');
-                $('.delete-key').click(function() {
+                $(document).on('click', '.delete-key', function() {
                     var itemId = $(this).data('item-id');
                     var url = "{{ route('delete.keydelete', ':id') }}";
                     url = url.replace(':id', itemId);

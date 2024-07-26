@@ -277,7 +277,7 @@
         <script>
             $(document).ready(function() {
                 var csrfToken = $('meta[name="csrf-token"]').attr('content');
-                $('.delete-plan-details').click(function() {
+                $(document).on('click', '.delete-plan-details', function() {
                     var itemId = $(this).data('item-id');
                     var url = "{{ route('delete.plandetailsdelete', ':id') }}";
                     url = url.replace(':id', itemId);

@@ -74,7 +74,7 @@
                             </div>
                         </div>
 
-                       
+
                             <div class="box text-center">
                                 @include('Admin.session_messages')
                                 <div class="" id="show_success_alert"></div>
@@ -163,7 +163,7 @@
     <script>
         $(document).ready(function() {
             var csrfToken = $('meta[name="csrf-token"]').attr('content');
-            $('.delete-storepick').click(function() {
+            $(document).on('click', '.delete-storepick', function() {
                 var itemId = $(this).data('item-id');
                 var url = "{{ route('delete.storepickdelete', ':id') }}";
                 url = url.replace(':id', itemId);

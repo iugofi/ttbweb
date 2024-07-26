@@ -60,8 +60,8 @@
                                 Plan List
                             </div>
                         </div>
-                     
-                        
+
+
                         <div class="box-body">
                             <div class="box text-center">
                                 <div class="" id="show_success_alert"></div>
@@ -84,12 +84,12 @@
                                             @php
                                                 $id = 1;
                                             @endphp
-                                            <td class="border px-4 py-2">{{ $key + 1 }}</td>  
-                                            <td class="border px-4 py-2">{{ $item->plan_id }}</td>                                                             
-                                            <td class="border px-4 py-2">{{ $item->name }}</td>                               
+                                            <td class="border px-4 py-2">{{ $key + 1 }}</td>
+                                            <td class="border px-4 py-2">{{ $item->plan_id }}</td>
+                                            <td class="border px-4 py-2">{{ $item->name }}</td>
                                             <td class="border px-4 py-2">
                                                 <div class="flex flex-row items-center !gap-2 text-[0.9375rem]">
-                                                    
+
                                                     <a aria-label="anchor" href="{{ route('edit.planedit', \Crypt::encrypt($item->id)) }}"
                                                         class="ti-btn ti-btn-icon ti-btn-wave !gap-0 !m-0 !h-[1.75rem] !w-[1.75rem] text-[0.8rem] bg-primary/10 text-primary hover:bg-primary hover:text-white hover:border-primary">
                                                         <i class="ri-edit-line"></i>
@@ -170,7 +170,7 @@
                                 '</td>' +
                                 '<td class="border">' + item.image +
                                 '</td>' +
-                                
+
                                 '<td class="border px-4 py-2">' +
                                 '<div class="flex flex-row items-center !gap-2 text-[0.9375rem]">' +
                                 '<a aria-label="anchor" href="{{ route('edit.planedit', ':encrypted_id')}}" class="ti-btn ti-btn-icon ti-btn-wave !gap-0 !m-0 !h-[1.75rem] !w-[1.75rem] text-[0.8rem] bg-primary/10 text-primary hover:bg-primary hover:text-white hover:border-primary">' +
@@ -198,7 +198,7 @@
     <script>
         $(document).ready(function() {
             var csrfToken = $('meta[name="csrf-token"]').attr('content');
-            $('.delete-plan').click(function() {
+            $(document).on('click', '.delete-plan', function() {
                 var itemId = $(this).data('item-id');
                 var url = "{{ route('delete.plandelete', ':id') }}";
                 url = url.replace(':id', itemId);

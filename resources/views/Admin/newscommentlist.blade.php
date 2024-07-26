@@ -190,7 +190,7 @@
         <script>
             $(document).ready(function() {
                 var csrfToken = $('meta[name="csrf-token"]').attr('content');
-                $('.delete-news-comment').click(function() {
+                $(document).on('click', '.delete-news-comment', function() {
                     var itemId = $(this).data('item-id');
                     var url = "{{ route('delete.newscommentdelete', ':id') }}";
                     url = url.replace(':id', itemId);
