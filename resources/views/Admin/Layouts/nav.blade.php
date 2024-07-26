@@ -32,8 +32,8 @@
                     </a>
                 </li>
 
-                              
-                <li class="slide__category"><span class="category-name">News</span></li>               
+
+                <li class="slide__category"><span class="category-name">News</span></li>
                 <li class="slide">
                     <a href="{{route('admin.newslist')}}" class="side-menu__item">
                         <i class="bi bi-newspaper  side-menu__icon"></i>
@@ -53,7 +53,7 @@
                         </a>
                     </li>
 
-                <li class="slide__category"><span class="category-name">Blog</span></li>               
+                <li class="slide__category"><span class="category-name">Blog</span></li>
                 <li class="slide">
                     <a href="{{route('admin.bloglistshow')}}" class="side-menu__item">
                         <i class="fa-solid fa-blog  side-menu__icon"></i>
@@ -73,22 +73,22 @@
                         </a>
                     </li>
 
-               
 
-                
 
-               
-        
+
+
+
+
 
                 @php
-               
-               if (session('admintype')== 'superadmin') {
+
+               if (session('admintype')== 'superadmin' || Auth::user()) {
                 @endphp
 
-                <li class="slide__category"><span class="category-name">Storepick</span></li>   
+                <li class="slide__category"><span class="category-name">Storepick</span></li>
                     <li class="slide">
                         <a href="{{route('admin.storepickpage')}}" class="side-menu__item">
-                            <i class="fa-solid fa-store side-menu__icon"></i> 
+                            <i class="fa-solid fa-store side-menu__icon"></i>
                             <span class="side-menu__label">StorePick List</span>
                         </a>
                     </li>
@@ -99,16 +99,16 @@
                         </a>
                     </li>
 
-                <li class="slide__category"><span class="category-name">Customers</span></li>               
+                <li class="slide__category"><span class="category-name">Customers</span></li>
                 <li class="slide">
                     <a href="{{route('customer.show')}}" class="side-menu__item">
                         <i class="bi bi-people side-menu__icon"></i>
                         <span class="side-menu__label">Customers List</span>
                     </a>
                 </li>
-                   
 
-                <li class="slide__category"><span class="category-name">User</span></li>               
+
+                <li class="slide__category"><span class="category-name">User</span></li>
                 <li class="slide">
                     <a href="{{route('admin.useradminpage')}}" class="side-menu__item">
                         <i class="fa-solid fa-blog  side-menu__icon"></i>
@@ -212,12 +212,12 @@
                             <span class="side-menu__label">Add Event</span>
                         </a>
                     </li>
-                   
+
                 @php
                 }
                 @endphp
-            
-               
+
+
 
 
             </ul>
