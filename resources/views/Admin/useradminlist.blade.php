@@ -62,7 +62,7 @@
                         </div>
                         @php
                         if (session('admintype')== 'superadmin') {
-                         @endphp  
+                         @endphp
                         <div class="box-body">
                             <div class="grid md:grid-cols-4 sm:grid-cols-2">
                                 <div class="xl:col-span-1 md:col-span-1 sm:col-span-1 col-span-2">
@@ -77,7 +77,7 @@
                         @php
                         }
                         @endphp
-                        
+
                         <div class="box-body">
                             <div class="box text-center">
                                 <div class="" id="show_success_alert"></div>
@@ -104,11 +104,11 @@
                                             @php
                                                 $id = 1;
                                             @endphp
-                                            <td class="border px-4 py-2">{{ $key + 1 }}</td>  
-                                            <td class="border px-4 py-2">{{ $item->admintype }}</td>                               
-                                            <td class="border px-4 py-2">{{ $item->email }}</td>                               
-                                            <td class="border px-4 py-2">{{ $item->name }}</td>                               
-                                            <td class="border px-4 py-2">{{ $item->username }}</td>  
+                                            <td class="border px-4 py-2">{{ $key + 1 }}</td>
+                                            <td class="border px-4 py-2">{{ $item->admintype }}</td>
+                                            <td class="border px-4 py-2">{{ $item->email }}</td>
+                                            <td class="border px-4 py-2">{{ $item->name }}</td>
+                                            <td class="border px-4 py-2">{{ $item->username }}</td>
                                             <td class="border px-4 py-2">
                                                 <?php
                                                     try {
@@ -129,9 +129,9 @@
                                                     }
                                                 ?>
                                             </td>
-                                            
-                                            
-                                                                      
+
+
+
                                             <td class="border px-4 py-2">
                                                 <div class="flex items-center font-semibold">
                                                     @if($item->image)
@@ -141,18 +141,18 @@
                                                                 class="w-[1.75rem] h-[1.75rem] leading-[1.75rem] text-[0.65rem]  rounded-full">
                                                         </span>
                                                     @else
-                                                        
+
                                                         <span><img src="{{ asset('assets/images/Adminimages/auther.jpg') }}"
                                                             alt="img"
                                                             class="w-[1.75rem] h-[1.75rem] leading-[1.75rem] text-[0.65rem]  rounded-full"></span>
                                                     @endif
                                                 </div>
                                             </td>
-                                                                          
-                                           
+
+
                                             <td class="border px-4 py-2">
                                                 <div class="flex flex-row items-center !gap-2 text-[0.9375rem]">
-                                                    
+
                                                     <a aria-label="anchor" href="{{ route('edit.adminuseredit', \Crypt::encrypt($item->id)) }}"
                                                         class="ti-btn ti-btn-icon ti-btn-wave !gap-0 !m-0 !h-[1.75rem] !w-[1.75rem] text-[0.8rem] bg-primary/10 text-primary hover:bg-primary hover:text-white hover:border-primary">
                                                         <i class="ri-edit-line"></i>
@@ -219,12 +219,12 @@
                     tbody.empty();
                     $.each(response.admindata, function(key, item) {
                         // Prepare image path
-                        var imagePath = item.image 
-                            ? `{{ asset('assets/images/Adminimages/') }}/${item.image}` 
+                        var imagePath = item.image
+                            ? `{{ asset('assets/images/Adminimages/') }}/${item.image}`
                             : `{{ asset('assets/images/Adminimages/auther.jpg') }}`;
 
                         // Prepare decrypted password input field and toggle button
-                        var passwordField = 
+                        var passwordField =
                             '<div class="flex">' +
                                 '<input type="password" class="form-control block w-full text-[0.875rem] !rounded-md" id="password_' + item.id + '" name="password" value="' + item.password + '" disabled>' +
                                 '<button aria-label="button" type="button" class="ti-btn ti-btn-light !rounded-s-none !mb-0" onclick="togglePasswordVisibility(\'password_' + item.id + '\')">' +
@@ -282,7 +282,7 @@
     <script>
         $(document).ready(function() {
             var csrfToken = $('meta[name="csrf-token"]').attr('content');
-            $('.delete-blogs').click(function() {
+            $(document).on('click', '.delete-blogs', function() {
                 var itemId = $(this).data('item-id');
                 var url = "{{ route('delete.blogsdelete', ':id') }}";
                 url = url.replace(':id', itemId);

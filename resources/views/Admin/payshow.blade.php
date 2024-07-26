@@ -92,10 +92,10 @@
                                                 <p class="mb-0 text-success text-[0.813rem] font-semibold">
                                                     +<?php
                                                     $totalNews = DB::select('SELECT SUM(payments.amount_total) as total FROM payments JOIN product_details ON product_details.id = payments.product_id WHERE product_details.key_type=501 AND payments.deleted_at IS NULL');
-                                                    
+
                                                     if ($totalNews && isset($totalNews[0]->total)) {
                                                         $totalAmount = $totalNews[0]->total;
-                                                    
+
                                                         echo number_format($totalAmount, 2);
                                                     } else {
                                                         echo '0.00';
@@ -262,7 +262,7 @@
     <script>
         $(document).ready(function() {
             var csrfToken = $('meta[name="csrf-token"]').attr('content');
-            $('.delete-vpnpay').click(function() {
+            $(document).on('click', '.delete-vpnpay', function() {
                 var itemId = $(this).data('item-id');
                 var url = "{{ route('delete.vpnpaydelete', ':id') }}";
                 url = url.replace(':id', itemId);
