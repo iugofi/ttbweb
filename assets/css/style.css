@@ -23,10 +23,7 @@ html {
     -moz-tab-size: 4;
     -o-tab-size: 4;
     tab-size: 4;
-    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
-        "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
-        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
-        "Noto Color Emoji";
+    font-family: "rajdhani";
     font-feature-settings: normal;
     font-variation-settings: normal;
 }
@@ -58,13 +55,13 @@ h6 {
     font-weight: inherit;
     /* font-family: "Montserrat", sans-serif; */
     /* font-family: "DM Sans", sans-serif; */
-    font-family: "Raleway", sans-serif;
+    font-family: "rajdhani", sans-serif;
 }
 
 a {
     color: inherit;
     text-decoration: inherit;
-    font-family: "Roboto", sans-serif;
+    font-family: "rajdhani", sans-serif;
 }
 
 b,
@@ -78,7 +75,7 @@ samp,
 pre {
     /* font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
         "Liberation Mono", "Courier New", monospace; */
-    font-family: "Roboto", sans-serif;
+    font-family: "rajdhani", sans-serif;
     font-size: 1em;
 }
 
@@ -113,7 +110,7 @@ input,
 optgroup,
 select,
 textarea {
-    font-family: "Roboto", sans-serif;
+    font-family: "rajdhani", sans-serif;
     font-feature-settings: inherit;
     font-variation-settings: inherit;
     font-size: 100%;
@@ -9050,24 +9047,24 @@ h6 {
     vertical-align: bottom;
 }
 
-.font-Montserrat {
-    font-family: Montserrat, sans-serif;
+.font-rajdhani {
+    font-family: rajdhani, sans-serif;
 }
 
 .font-\[\'remixicon\'\] {
-    font-family: "remixicon";
+    font-family: "rajdhani";
 }
 
 .font-\[\.7rem\] {
     font-family: 0.7rem;
 }
 
-.font-\[remixicon\] {
-    font-family: remixicon;
+.font-\[rajdhani\] {
+    font-family: rajdhani;
 }
 
-.font-inter {
-    font-family: Inter, sans-serif;
+.font-rajdhani {
+    font-family: rajdhani, sans-serif;
 }
 
 .\!text-\[\.625rem\] {
@@ -17622,7 +17619,7 @@ label {
     justify-content: center;
     border-radius: 9999px;
     background-color: rgb(var(--primary));
-    font-family: remixicon;
+    font-family: rajdhani;
     font-size: 1.125rem;
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -18936,7 +18933,7 @@ label {
     border-inline-end-color: rgb(255 255 255 / 0.1);
     --tw-bg-opacity: 1;
     background-color: rgb(17 28 67 / var(--tw-bg-opacity));
-    font-family: Montserrat, sans-serif;
+    font-family: rajdhani, sans-serif;
     transition-property: all;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 150ms;
@@ -37573,7 +37570,7 @@ pre {
 html {
     scroll-behavior: smooth;
     text-align: start;
-    font-family: Inter, sans-serif;
+    font-family: rajdhani, sans-serif;
 }
 
 html[dir="rtl"] {
@@ -37587,7 +37584,7 @@ body {
     scroll-behavior: smooth;
     /* background-color: rgb(var(--body-bg)); */
     text-align: start;
-    font-family: Inter, sans-serif;
+    font-family: rajdhani, sans-serif;
     font-size: 0.813rem;
     font-weight: 400;
     color: rgb(var(--default-text-color));
@@ -41165,7 +41162,7 @@ select {
 
 .pickr-container-primary .pickr .pcr-button::after,
 .pickr-container-background .pickr .pcr-button::after {
-    font-family: "remixicon" !important;
+    font-family: "rajdhani" !important;
     color: rgb(255 255 255 / 0.7) !important;
     --tw-content: "\efc3" !important;
     content: var(--tw-content) !important;
@@ -48815,7 +48812,7 @@ img.img-fluid.service-icon {
 }
 .home2-new-seven-pricing .ti-btn{
    border-radius: 25px;
-   font-family: "Roboto", sans-serif;
+   font-family: "rajdhani", sans-serif;
 
 }
 
@@ -49410,7 +49407,7 @@ padding: 8em 0em;
 }
 
 .e-support-section-seven h4 {
-    font-family: "Poppins", sans-serif;
+    font-family: "rajdhani", sans-serif;
     font-size: 28px;
     font-weight: 500;
     color: #12d2b3;
@@ -49423,7 +49420,7 @@ padding: 8em 0em;
 .e-support-section-seven h5 {
     font-size: 18px;
     font-weight: 600;
-    font-family: "Poppins", sans-serif;
+    font-family: "rajdhani", sans-serif;
 }
 .e-support-section-seven .price-cnt {
     padding-left: 12px;
@@ -49508,7 +49505,7 @@ padding: 8em 0em;
 }
 
 .e-support-section-six h4 {
-    font-family: "Poppins", sans-serif;
+    font-family: "rajdhani", sans-serif;
     font-size: 28px;
     font-weight: 500;
     color: #12d2b3;
@@ -49521,7 +49518,7 @@ padding: 8em 0em;
 .e-support-section-six h5 {
     font-size: 18px;
     font-weight: 600;
-    font-family: "Poppins", sans-serif;
+    font-family: "rajdhani", sans-serif;
 }
 .e-support-section-six .price-cnt {
     padding-left: 12px;
@@ -49678,7 +49675,7 @@ padding: 8em 0em;
     text-align: center;
     font-weight: 500 !important;
     margin: 15px 0px;
-    font-family: "Poppins", sans-serif;
+    font-family: "rajdhani", sans-serif;
 }
 
 .bx-pricing h3 {
@@ -53400,7 +53397,7 @@ section#about-features {
 
 .work-title.hover-btn {
     color: #fff;
-    font-family: Saira Condensed, sans-serif;
+    font-family: rajdhani, sans-serif;
     font-size: 20px;
     font-weight: 500;
     padding: 16px 20px;
