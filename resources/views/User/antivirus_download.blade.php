@@ -5,25 +5,21 @@
 @section('keywords', '')
 @section('canonical', '')
 
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
-    <!-- jQuery -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<!-- Toastr JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 <style>
-    /* Custom CSS for red toast */
-    .toast-red {
-        background-color: #f44336; /* Red color */
-        color: #fff; /* White text */
-    }
-    .toast-red .toast-title {
-        color: #fff; /* White text for title */
-    }
-    .toast-red .toast-message {
-        color: #fff; /* White text for message */
-    }
+    #toast {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 9999;
+}
+
 </style>
+
 @section('content')
 
 
@@ -43,6 +39,9 @@
                             <img src="{{ asset('assets/img/mac.png') }}" alt="" class="img-fluid" width="25%">
                             <div class="btn-down">
                                 <a href="#" id="downloadLink">Download For Mac</a>
+                                <div id="toast">Download started...</div>
+                                <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                                <script src="script.js"></script>
                             </div>
                             <span> For MacOS X10.15 or above</span>
                         </div>
@@ -94,21 +93,17 @@
     </div>
 
 
-    <script>
-        $(document).ready(function() {
-            $('#downloadLink').click(function(e) {
-                e.preventDefault(); // Prevent the default link action
-                toastr.info('Your download is starting...', 'Download', {
-                    positionClass: 'toast-bottom-left',
-                    timeOut: 3000,
-                    extendedTimeOut: 0,
-                    closeButton: true,
-                    className: 'toast-red'
-                });
-            });
-        });
-    </script>
+<script>
+    $(document).ready(function() {
+    $('#downloadLink').click(function(event) {
+        event.preventDefault(); // Prevent the default action of the link
 
+        // Show the toast message
+        $('#toast').fadeIn(400).delay(2000).fadeOut(400);
+    });
+});
+
+</script>
 
 
 @endsection
