@@ -1207,7 +1207,7 @@
 
                 <div class="grid grid-cols-12 gap-6">
 
-                    <div class="xl:col-span-2 col-span-12">
+                    <div class="xl:col-span-3 col-span-12">
                         <div class="footer-widget">
                             <h2 class="text-white text-lg font-semibold mb-2">Follow Us</h2>
                             <ul class="justify-center lg:justify-end space-x-2">
@@ -1257,7 +1257,7 @@
                         </div>
                     </div>
 
-                    <div class="xl:col-span-3 col-span-12">
+                    <div class="xl:col-span-2 col-span-12">
                         <div class="footer-widget">
                             <h2 class="text-white text-lg font-semibold mb-2"> Quick Link</h2>
                             <ul class="list-none text-white">
