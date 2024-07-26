@@ -181,37 +181,39 @@
 
 
     <script>
-        $(document).ready(function() {
-
-            $('#register_form').submit(function(e){
-                e.preventDefault();
-                $('#register_btn').val('please wait..');
-                $.ajax({
-                    url: '{{ route('user.saveregister')}}',
-                    method: 'post',
-                    data: $(this).serialize(),
-                    success:function(response) {
-                        console.log(response);
-                        if(response.status == 400) {
-                            showError('signup_firstname',response.messages.signup_firstname);
-                            showError('signup_lastname',response.messages.signup_lastname);
-                            showError('email',response.messages.email);
-                            showError('signup_confirmpassword',response.messages.signup_confirmpassword);
-                            showError('signup_password',response.messages.signup_password);
-                            showError('signup_check',response.messages.signup_check);
-                            $('#register_btn').val('Create Account');
-                        }
-                        else if(response.status == 200) {
-                            $("#show_success_alert").html(showMessage('success',response.messages));
-                            $('#register_form')[0].reset();
-                            $('.invalid-feedback').empty();
-                            removeValidationClass("#register_form");
-                            $('#register_btn').val('Create Account');
-                        }
-                    }
-                });
-            });
+       $(document).ready(function() {
+    $('#register_form').submit(function(e) {
+        e.preventDefault();
+        $('#register_btn').val('please wait..');
+        $.ajax({
+            url: '{{ route('user.saveregister') }}',
+            method: 'post',
+            data: $(this).serialize(),
+            success: function(response) {
+                if(response.status == 400) {
+                    showError('signup_firstname', response.messages.signup_firstname);
+                    showError('signup_lastname', response.messages.signup_lastname);
+                    showError('email', response.messages.email);
+                    showError('signup_confirmpassword', response.messages.signup_confirmpassword);
+                    showError('signup_password', response.messages.signup_password);
+                    showError('signup_check', response.messages.signup_check);
+                    $('#register_btn').val('Create Account');
+                } else if(response.status == 200) {
+                    $("#show_success_alert").html(showMessage('success', response.messages));
+                    $('#register_form')[0].reset();
+                    $('.invalid-feedback').empty();
+                    removeValidationClass("#register_form");
+                    $('#register_btn').val('Create Account');
+                }
+            },
+            error: function(xhr) {
+                console.error(xhr.responseText); // Log any unexpected errors
+                $('#register_btn').val('Create Account');
+            }
         });
+    });
+});
+
 
 
     </script>
