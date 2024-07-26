@@ -1136,7 +1136,7 @@
                                         class="ti-btn ti-btn-sm mx-1 ti-btn-secondary"><a
                                             href="https://x.com/i/flow/login?redirect_after_login=%2FTTBisecure">
                                             <i class="fa-solid fa-envelope"></i>
-                                        </a></button><a href="mailto:care@ttbinternetsecurity.com">
+                                        </a></button><a href="mailto:care@ttbinternetsecurity.com" class="text-sm">
                                         care@ttbinternetsecurity.com</a>
                                 </li>
                             </ul>
@@ -1257,7 +1257,7 @@
                         </div>
                     </div>
 
-                    <div class="xl:col-span-2 col-span-12">
+                    <div class="xl:col-span-3 col-span-12">
                         <div class="footer-widget">
                             <h2 class="text-white text-lg font-semibold mb-2"> Quick Link</h2>
                             <ul class="list-none text-white">
