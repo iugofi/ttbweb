@@ -1154,20 +1154,18 @@
                         <div class="footer-widget">
                             <ul class="justify-center lg:justify-end space-x-2">
                                 <li class="icon-list">
-                                    <img src="https://png.pngtree.com/png-clipart/20190516/original/pngtree-usa-flag--vector-illustration-png-image_3749931.jpg"
-                                        alt="" srcset=""
+                                    <img src="{{ asset('assets/img2/USA-Flag.png') }}" alt="" class="img-fluid"
                                         style="width: 50px; height: 50px; border-radius: 30px;">
                                     <div class="box-location d-flex">
-                                        <h2>Canada</h2>
+                                        <h2>USA</h2>
                                         <p>Sugarpine Court Brampton, Ontario, CA</p>
                                     </div>
                                 </li>
                                 <li class="icon-list">
-                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_India.png/2560px-Flag_of_India.png"
-                                        alt="" srcset=""
+                                    <img src="{{ asset('assets/img2/Canada-Flag.png') }}" alt="" class="img-fluid"
                                         style="width: 50px; height: 50px; border-radius: 30px;">
                                     <div class="box-location d-flex">
-                                        <h2>India</h2>
+                                        <h2>CANADA</h2>
                                         <p>Bestech Business Tower, Sector 66, Mohali, IN</p>
                                     </div>
                                 </li>
@@ -1178,20 +1176,18 @@
                         <div class="footer-widget">
                             <ul class="justify-center lg:justify-end space-x-2">
                                 <li class="icon-list">
-                                    <img src="https://png.pngtree.com/png-clipart/20190516/original/pngtree-usa-flag--vector-illustration-png-image_3749931.jpg"
-                                        alt="" srcset=""
+                                    <img src="{{ asset('assets/img2/UK-Flag.png') }}" alt="" class="img-fluid"
                                         style="width: 50px; height: 50px; border-radius: 30px;">
                                     <div class="box-location d-flex">
-                                        <h2>Canada</h2>
+                                        <h2>UNITED KINGDOM</h2>
                                         <p>Sugarpine Court Brampton, Ontario, CA</p>
                                     </div>
                                 </li>
                                 <li class="icon-list">
-                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_India.png/2560px-Flag_of_India.png"
-                                        alt="" srcset=""
+                                    <img src="{{ asset('assets/img2/India-Flag.png') }}" alt="" class="img-fluid"
                                         style="width: 50px; height: 50px; border-radius: 30px;">
                                     <div class="box-location d-flex">
-                                        <h2>India</h2>
+                                        <h2>INDIA</h2>
                                         <p>Bestech Business Tower, Sector 66, Mohali, IN</p>
                                     </div>
                                 </li>
