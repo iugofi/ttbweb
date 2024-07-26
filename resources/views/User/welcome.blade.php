@@ -1320,41 +1320,29 @@
 
                 ---------------------------
                 <div class="grid grid-cols-12 gap-6">
+                    <div class="xl:col-span-6 col-span-12">
+                        <div class="footer-widget">
+                            <ul class="flex lg:flex-row lg:space-x-4">
+                                    <li><a href="#" class="text-white">Support</a></li>
+                                    <li><a href="#" class="text-white">Privacy Policy</a></li>
+                                    <li><a href="#" class="text-white">Terms Of Service</a></li>
+                                    <li><a href="#" class="text-white">Return &amp; Refund Policy</a></li>
+                                    <li><a href="#" class="text-white">Sitemap</a></li>
+                                </ul>
+                        </div>
+                    </div>
 
                     <div class="xl:col-span-6 col-span-12">
-                        <div class="footer-bottom py-4 border-t border-white">
-                            <div class="container mx-auto px-4">
-                                <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 items-center">
-
-                                    <!-- Navigation Links Section -->
-                                    <div class="mb-4 lg:mb-0">
-                                        <div class="flex justify-center lg:justify-center below-links">
-                                            <ul class="flex lg:flex-row lg:space-x-4">
-                                                <li><a href="#" class="text-white">Support</a></li>
-                                                <li><a href="#" class="text-white">Privacy Policy</a></li>
-                                                <li><a href="#" class="text-white">Terms Of Service</a></li>
-                                                <li><a href="#" class="text-white">Return &amp; Refund Policy</a>
-                                                </li>
-                                                <li><a href="#" class="text-white">Sitemap</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- Copyright Section -->
-                                <div class="xl:col-span-6 col-span-12">
-                                    <div class="mb-4 lg:mb-0">
-                                        <p class="text-white text-sm">
-                                            Copyright © 2024
-                                            <a href="https://nighthawk-routerlogin.com/">
-                                                <b style="color:#11CDBE;">TTB Antivirus.</b>
-                                            </a>
-                                            All Rights Reserved
-                                        </p>
-                                    </div>
-                                </div>
-
-                            </div>
+                        <div class="footer-widget">
+                            <div class="mb-4 lg:mb-0">
+                            <p class="text-white text-sm">
+                                Copyright © 2024
+                                <a href="https://nighthawk-routerlogin.com/">
+                                    <b style="color:#11CDBE;">TTB Antivirus.</b>
+                                </a>
+                                All Rights Reserved
+                            </p>
+                        </div>
                         </div>
                     </div>
 
