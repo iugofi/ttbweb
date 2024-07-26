@@ -40,7 +40,7 @@
                         <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-12 text-center  box-down">
                             <img src="{{ asset('assets/img/mac.png') }}" alt="" class="img-fluid" width="25%">
                             <div class="btn-down">
-                                <a href="#" id="downloadLink">Download For Mac</a>
+                                <a href="#" id="downloadmac">Download For Mac</a>
                                 <div id="toast">Download started...</div>
                             </div>
                             <span> For MacOS X10.15 or above</span>
@@ -49,7 +49,7 @@
                             class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-12 text-center box-down">
                             <img src="{{ asset('assets/img/window.png') }}" alt="" class="img-fluid" width="25%">
                             <div class="btn-down">
-                                <a href="#" id="downloadLink">Download For Window</a>
+                                <a href="#" id="downloadwin">Download For Window</a>
                                 <div id="toast">Download started...</div>
 
                             </div>
@@ -59,7 +59,7 @@
                             class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-12 text-center box-down">
                             <img src="{{ asset('assets/img/android.png') }}" alt="" class="img-fluid" width="25%">
                             <div class="btn-down">
-                                <a href="#" id="downloadLink">Download For Android</a>
+                                <a href="#" id="downloadand">Download For Android</a>
                                 <div id="toast">Download started...</div>
 
                             </div>
@@ -99,8 +99,8 @@
 
 <script>
     $(document).ready(function() {
-    $('#downloadLink').click(function(event) {
-        event.preventDefault(); 
+    $('#downloadmac,#downloadwin,#downloadand').click(function(event) {
+        event.preventDefault();
         $('#toast').fadeIn(400).delay(2000).fadeOut(400);
     });
 });
