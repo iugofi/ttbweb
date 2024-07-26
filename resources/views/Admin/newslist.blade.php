@@ -193,7 +193,7 @@
         <script>
             $(document).ready(function() {
                 var csrfToken = $('meta[name="csrf-token"]').attr('content');
-                $('.delete-news').click(function() {
+                $(document).on('click', '.delete-news', function() {
                     var itemId = $(this).data('item-id');
                     var url = "{{ route('delete.newsdelete', ':id') }}";
                     url = url.replace(':id', itemId);
