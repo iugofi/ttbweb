@@ -182,8 +182,9 @@
 
     <script>
         $(document).ready(function() {
-            alert("kk");
+
             $('#register_form').submit(function(e){
+                alert("kk");
                 e.preventDefault();
                 $('#register_btn').val('please wait..');
                 $.ajax({
