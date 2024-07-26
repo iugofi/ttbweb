@@ -6,15 +6,15 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
-use App\Models\Users; 
-use App\Models\Blog; 
-use App\Models\News; 
-use App\Models\Comment; 
-use App\Models\Payments; 
-use App\Models\Newscomment; 
-use App\Models\Contact; 
-use App\Models\Admin; 
-use App\Models\Eventmodel; 
+use App\Models\Users;
+use App\Models\Blog;
+use App\Models\News;
+use App\Models\Comment;
+use App\Models\Payments;
+use App\Models\Newscomment;
+use App\Models\Contact;
+use App\Models\Admin;
+use App\Models\Eventmodel;
 use App\Models\Visitors;
 use App\Models\EmailSubscribe;
 use Mail;
@@ -32,76 +32,75 @@ class UserController extends Controller
 
     public function saveemailsub(Request $request)
     {
-        $email_sub=$request->email_subscribe;
+        $email_sub = $request->email_subscribe;
 
-        $saveemail=new EmailSubscribe();
-        $saveemail->email=$email_sub;
+        $saveemail = new EmailSubscribe();
+        $saveemail->email = $email_sub;
         $saveemail->save();
         return redirect()->back();
-        
     }
 
     public function forgetpass(Request $request)
-{
-    $validator = Validator::make($request->all(), [
-        'email' => 'required|max:50'
-    ]);
-
-    if ($validator->fails()) {
-        return response()->json([
-            'status' => 400,
-            'messages' => $validator->getMessageBag()->toArray()
+    {
+        $validator = Validator::make($request->all(), [
+            'email' => 'required|max:50'
         ]);
-    } else {
-        $user = Users::where('email', $request->email)->first();
+
+        if ($validator->fails()) {
+            return response()->json([
+                'status' => 400,
+                'messages' => $validator->getMessageBag()->toArray()
+            ]);
+        } else {
+            $user = Users::where('email', $request->email)->first();
+
+            if ($user) {
+                $resetToken = Str::random(60);
+                $user->reset_tokens = $resetToken;
+                $user->token_created_at = Carbon::now();
+                $user->save();
+
+                Mail::send('Mail.resetpass', ['reset_id' => $user->reset_tokens], function ($message) use ($request) {
+                    $message->to($request->email)->subject('TTB Internet Security Password Reset');
+                });
+
+                return response()->json([
+                    'status' => 200,
+                    'messages' => 'Reset Mail Sent Successfully'
+                ]);
+            } else {
+                return response()->json([
+                    'status' => 401,
+                    'messages' => 'User Not Found!'
+                ]);
+            }
+        }
+    }
+
+    public function resetpass($reset_id)
+    {
+        $user = Users::where('reset_tokens', $reset_id)->first();
 
         if ($user) {
-            $resetToken = Str::random(60);
-            $user->reset_tokens = $resetToken;
-            $user->token_created_at = Carbon::now();
-            $user->save();
+            $tokenCreationTime = Carbon::parse($user->token_created_at);
+            $currentTime = Carbon::now();
+            $tokenExpiryTime = $tokenCreationTime->addSeconds(180);
 
-            Mail::send('Mail.resetpass', ['reset_id' => $user->reset_tokens], function ($message) use ($request) {
-                $message->to($request->email)->subject('TTB Internet Security Password Reset');
-            });
-
-            return response()->json([
-                'status' => 200,
-                'messages' => 'Reset Mail Sent Successfully'
-            ]);
+            if ($currentTime->lessThan($tokenExpiryTime)) {
+                return view('User.passwordreset', ['reset_id' => $reset_id]);
+            } else {
+                return response()->json([
+                    'status' => 401,
+                    'messages' => 'Session expired!'
+                ]);
+            }
         } else {
             return response()->json([
                 'status' => 401,
-                'messages' => 'User Not Found!'
+                'messages' => 'Invalid token!'
             ]);
         }
     }
-}
-
-public function resetpass($reset_id)
-{
-    $user = Users::where('reset_tokens', $reset_id)->first();
-
-    if ($user) {
-        $tokenCreationTime = Carbon::parse($user->token_created_at);
-        $currentTime = Carbon::now();
-        $tokenExpiryTime = $tokenCreationTime->addSeconds(180);
-
-        if ($currentTime->lessThan($tokenExpiryTime)) {
-            return view('User.passwordreset', ['reset_id' => $reset_id]);
-        } else {
-            return response()->json([
-                'status' => 401,
-                'messages' => 'Session expired!'
-            ]);
-        }
-    } else {
-        return response()->json([
-            'status' => 401,
-            'messages' => 'Invalid token!'
-        ]);
-    }
-}
 
     public function resetpassform(Request $request)
     {
@@ -109,7 +108,7 @@ public function resetpass($reset_id)
         // dd($ref);
         $validator = Validator::make($request->all(), [
             'create_password' => 'required|min:6|max:50',
-            're_password' => 'required|min:6|same:create_password' 
+            're_password' => 'required|min:6|same:create_password'
         ], [
             'create_password.same' => 'Password did not match!',
             're_password.required' => 'Re type Password is Required!'
@@ -120,9 +119,9 @@ public function resetpass($reset_id)
                 'messages' => $validator->getMessageBag()->toArray() // Convert messages to array
             ]);
         } else {
-            $user = Users::where('reset_tokens',$request->own_password)->first();
+            $user = Users::where('reset_tokens', $request->own_password)->first();
             // dd($user);
-            $user->password =\Crypt::encrypt($request->create_password);
+            $user->password = \Crypt::encrypt($request->create_password);
             $user->reset_tokens = '*****';
             $user->status = 101;
 
@@ -142,19 +141,19 @@ public function resetpass($reset_id)
         $agent->setUserAgent($request->header('User-Agent'));
         $device = $agent->device();
         $browser = $agent->browser();
-    
+
         $visitor = Visitors::firstOrCreate(
             ['ip_address' => $ip],
             ['device' => $device, 'browser' => $browser]
         );
-    
+
         $visitor->increment('visits');
         $visitor->live = true;
         $visitor->last_active = Carbon::now();
         $visitor->save();
-    
+
         Visitors::where('last_active', '<', Carbon::now()->subMinutes(1))->update(['live' => false]);
-    
+
         return view('User.welcome');
     }
 
@@ -177,19 +176,19 @@ public function resetpass($reset_id)
     public function ttbantivirusnew()
     {
         DB::enableQueryLog();
-        $plandetails=DB::table('product_details')
-        ->join('planname', 'planname.plan_id', '=', 'product_details.plan_id')
-        ->join('storepick', 'storepick.PICK_ID', '=', 'product_details.key_type')
-        ->select('product_details.id', 'planname.name as name' , 'product_details.price', 'product_details.discount', 'product_details.coupons', DB::raw('(product_details.price)/12 AS monthlyprice'))
-        ->where('storepick.STORE_ID','=','key_type')
-        ->orderby('product_details.price', 'asc')
-        ->where('storepick.PICK_ID','=',502)
-        ->get();
+        $plandetails = DB::table('product_details')
+            ->join('planname', 'planname.plan_id', '=', 'product_details.plan_id')
+            ->join('storepick', 'storepick.PICK_ID', '=', 'product_details.key_type')
+            ->select('product_details.id', 'planname.name as name', 'product_details.price', 'product_details.discount', 'product_details.coupons', DB::raw('(product_details.price)/12 AS monthlyprice'))
+            ->where('storepick.STORE_ID', '=', 'key_type')
+            ->orderby('product_details.price', 'asc')
+            ->where('storepick.PICK_ID', '=', 502)
+            ->get();
         // $queryLog = DB::getQueryLog();
         // dd($queryLog);
         return view('User.ttbantivirusnew', ['plandetails' => $plandetails]);
     }
-    
+
     public function passreset()
     {
         return view('User.resetpassword-basic');
@@ -209,15 +208,15 @@ public function resetpass($reset_id)
     }
     public function vpnshield()
     {
-        $plandetails=DB::table('product_details')
-        ->join('planname', 'planname.plan_id', '=', 'product_details.plan_id')
-        ->join('storepick', 'storepick.PICK_ID', '=', 'product_details.key_type')
-        ->select('product_details.id', 'planname.name as name' , 'product_details.price', 'product_details.discount', 'product_details.coupons', DB::raw('(product_details.price)/12 AS monthlyprice'))
-        ->where('storepick.STORE_ID','=','key_type')
-        ->orderby('product_details.price', 'asc')
-        ->where('storepick.PICK_ID','=',501)
-        ->get();
-        return view('User.vpnshield',['plandetails'=>$plandetails]);
+        $plandetails = DB::table('product_details')
+            ->join('planname', 'planname.plan_id', '=', 'product_details.plan_id')
+            ->join('storepick', 'storepick.PICK_ID', '=', 'product_details.key_type')
+            ->select('product_details.id', 'planname.name as name', 'product_details.price', 'product_details.discount', 'product_details.coupons', DB::raw('(product_details.price)/12 AS monthlyprice'))
+            ->where('storepick.STORE_ID', '=', 'key_type')
+            ->orderby('product_details.price', 'asc')
+            ->where('storepick.PICK_ID', '=', 501)
+            ->get();
+        return view('User.vpnshield', ['plandetails' => $plandetails]);
     }
     public function vpnshieldnew()
     {
@@ -247,7 +246,8 @@ public function resetpass($reset_id)
     public function network_protection()
     {
         return view('User.networkprotection');
-    }public function threat()
+    }
+    public function threat()
     {
         return view('User.threat');
     }
@@ -257,28 +257,28 @@ public function resetpass($reset_id)
     }
     public function homenew()
     {
-        $antivirus=DB::table('product_details')
-        ->join('planname', 'planname.plan_id', '=', 'product_details.plan_id')
-        ->join('storepick', 'storepick.PICK_ID', '=', 'product_details.key_type')
-        ->select('product_details.id', 'planname.name as name' , 'product_details.price', 'product_details.discount', 'product_details.coupons', DB::raw('(product_details.price)/12 AS monthlyprice'))
-        ->where('storepick.STORE_ID','=','key_type')
-        ->where('storepick.PICK_ID','=',502)
-        ->orderby('product_details.price', 'desc')
-        ->limit(3)
-        ->get();
-        $vpnshield=DB::table('product_details')
-        ->join('planname', 'planname.plan_id', '=', 'product_details.plan_id')
-        ->join('storepick', 'storepick.PICK_ID', '=', 'product_details.key_type')
-        ->select('product_details.id', 'planname.name as name' , 'product_details.price', 'product_details.discount', 'product_details.coupons', DB::raw('(product_details.price)/12 AS monthlyprice'))
-        ->where('storepick.STORE_ID','=','key_type')
-        ->where('storepick.PICK_ID','=',501)
-        ->get();
+        $antivirus = DB::table('product_details')
+            ->join('planname', 'planname.plan_id', '=', 'product_details.plan_id')
+            ->join('storepick', 'storepick.PICK_ID', '=', 'product_details.key_type')
+            ->select('product_details.id', 'planname.name as name', 'product_details.price', 'product_details.discount', 'product_details.coupons', DB::raw('(product_details.price)/12 AS monthlyprice'))
+            ->where('storepick.STORE_ID', '=', 'key_type')
+            ->where('storepick.PICK_ID', '=', 502)
+            ->orderby('product_details.price', 'desc')
+            ->limit(3)
+            ->get();
+        $vpnshield = DB::table('product_details')
+            ->join('planname', 'planname.plan_id', '=', 'product_details.plan_id')
+            ->join('storepick', 'storepick.PICK_ID', '=', 'product_details.key_type')
+            ->select('product_details.id', 'planname.name as name', 'product_details.price', 'product_details.discount', 'product_details.coupons', DB::raw('(product_details.price)/12 AS monthlyprice'))
+            ->where('storepick.STORE_ID', '=', 'key_type')
+            ->where('storepick.PICK_ID', '=', 501)
+            ->get();
         $currentDate = Carbon::now()->toDateString();
         $events = Eventmodel::where('event_status', 101)
-                    ->whereDate('event_date', $currentDate)
-                    ->get();
+            ->whereDate('event_date', $currentDate)
+            ->get();
         // dd($events);
-        return view('User.homenew',['antivirus'=>$antivirus,'vpnshield'=>$vpnshield], compact('events'));
+        return view('User.homenew', ['antivirus' => $antivirus, 'vpnshield' => $vpnshield], compact('events'));
     }
     public function malware_detection()
     {
@@ -310,27 +310,27 @@ public function resetpass($reset_id)
     }
     public function new_home()
     {
-        $antivirus=DB::table('product_details')
-        ->join('planname', 'planname.plan_id', '=', 'product_details.plan_id')
-        ->join('storepick', 'storepick.PICK_ID', '=', 'product_details.key_type')
-        ->select('product_details.id', 'planname.name as name' , 'product_details.price', 'product_details.discount', 'product_details.coupons', DB::raw('(product_details.price)/12 AS monthlyprice'))
-        ->where('storepick.STORE_ID','=','key_type')
-        ->where('storepick.PICK_ID','=',502)
-        ->orderby('product_details.price', 'desc')
-        ->limit(4)
-        ->get();
-        $vpnshield=DB::table('product_details')
-        ->join('planname', 'planname.plan_id', '=', 'product_details.plan_id')
-        ->join('storepick', 'storepick.PICK_ID', '=', 'product_details.key_type')
-        ->select('product_details.id', 'planname.name as name' , 'product_details.price', 'product_details.discount', 'product_details.coupons', DB::raw('(product_details.price)/12 AS monthlyprice'))
-        ->where('storepick.STORE_ID','=','key_type')
-        ->where('storepick.PICK_ID','=',501)
-        ->get();
+        $antivirus = DB::table('product_details')
+            ->join('planname', 'planname.plan_id', '=', 'product_details.plan_id')
+            ->join('storepick', 'storepick.PICK_ID', '=', 'product_details.key_type')
+            ->select('product_details.id', 'planname.name as name', 'product_details.price', 'product_details.discount', 'product_details.coupons', DB::raw('(product_details.price)/12 AS monthlyprice'))
+            ->where('storepick.STORE_ID', '=', 'key_type')
+            ->where('storepick.PICK_ID', '=', 502)
+            ->orderby('product_details.price', 'desc')
+            ->limit(4)
+            ->get();
+        $vpnshield = DB::table('product_details')
+            ->join('planname', 'planname.plan_id', '=', 'product_details.plan_id')
+            ->join('storepick', 'storepick.PICK_ID', '=', 'product_details.key_type')
+            ->select('product_details.id', 'planname.name as name', 'product_details.price', 'product_details.discount', 'product_details.coupons', DB::raw('(product_details.price)/12 AS monthlyprice'))
+            ->where('storepick.STORE_ID', '=', 'key_type')
+            ->where('storepick.PICK_ID', '=', 501)
+            ->get();
         $currentDate = Carbon::now()->toDateString();
         $events = Eventmodel::where('event_status', 101)
-                    ->whereDate('event_date', $currentDate)
-                    ->get();
-        return view('User.new_home',['antivirus'=>$antivirus,'vpnshield'=>$vpnshield], compact('events'));
+            ->whereDate('event_date', $currentDate)
+            ->get();
+        return view('User.new_home', ['antivirus' => $antivirus, 'vpnshield' => $vpnshield], compact('events'));
     }
 
 
@@ -347,34 +347,30 @@ public function resetpass($reset_id)
             'message' => 'required|string',
         ]);
 
-       
+
 
         if ($validator->fails()) {
             return response()->json([
                 'status' => 400,
                 'messages' => $validator->getMessageBag()->toArray() // Convert messages to array
             ]);
+        } else {
+
+            // Create a new comment instance
+            $contactdata = new Contact();
+            $contactdata->first_name = $request->first_name;
+            $contactdata->last_name = $request->last_name;
+            $contactdata->phone = $request->phone;
+            $contactdata->email = $request->email;
+            $contactdata->address = $request->address;
+            $contactdata->message = $request->message;
+            $contactdata->save();
+
+            return response()->json([
+                'status' => 200,
+                'messages' => 'contact Form Data Send successfully'
+            ]);
         }
-        else
-        {
-
-        // Create a new comment instance
-        $contactdata = new Contact();
-        $contactdata->first_name = $request->first_name;
-        $contactdata->last_name = $request->last_name;
-        $contactdata->phone = $request->phone;
-        $contactdata->email = $request->email;
-        $contactdata->address = $request->address;
-        $contactdata->message =$request->message;
-        $contactdata->save();
-
-        return response()->json([
-            'status' => 200,
-            'messages' => 'contact Form Data Send successfully'
-        ]);
-
-        }
-
     }
 
     public function about_aspage()
@@ -397,14 +393,14 @@ public function resetpass($reset_id)
                 ->orderByDesc('id')
                 ->where('status', 101)
                 ->paginate(12);
-    
+
             return view('User.news', [
                 'newsscroll' => $newsscroll,
                 'newsscroll2' => $newsscroll2,
                 'newsscroll3' => $newsscroll3
             ]);
         } catch (\Exception $e) {
-          
+
             \Log::error('Error in newspage method: ' . $e->getMessage());
             return response()->view('Errors.500', [], 500);
         }
@@ -426,18 +422,18 @@ public function resetpass($reset_id)
     }
 
     public function newsDetails($id)
-{
+    {
 
-    $newsPost = News::where('slug', $id)->where('status', 101)->first();
-    $totalnews = News::count();
-    $recentblog = News::orderBy('id', 'desc')->where('status', 101)->get()->random(4);
-    $newscomment=Newscomment::where('news_id',$newsPost->id)->where('status', 101)->get();
+        $newsPost = News::where('slug', $id)->where('status', 101)->first();
+        $totalnews = News::count();
+        $recentblog = News::orderBy('id', 'desc')->where('status', 101)->get()->random(4);
+        $newscomment = Newscomment::where('news_id', $newsPost->id)->where('status', 101)->get();
 
 
-    return view('User.news-details', ['newsPost' => $newsPost,'recentblog'=>$recentblog,'totalnews' => $totalnews,'newscomment'=>$newscomment]);
-}
+        return view('User.news-details', ['newsPost' => $newsPost, 'recentblog' => $recentblog, 'totalnews' => $totalnews, 'newscomment' => $newscomment]);
+    }
 
-public function storenewscomment(Request $request)
+    public function storenewscomment(Request $request)
     {
 
         $validator = Validator::make($request->all(), [
@@ -446,82 +442,78 @@ public function storenewscomment(Request $request)
             'email' => 'required|email|max:255',
             'comment' => 'required|max:255'
         ]);
-        
 
-       
+
+
 
         if ($validator->fails()) {
             return response()->json([
                 'status' => 400,
                 'messages' => $validator->getMessageBag()->toArray() // Convert messages to array
             ]);
+        } else {
+
+            // Create a new comment instance
+            $comment = new Newscomment();
+            $comment->news_id = $request->news_id;
+            $comment->first_name = $request->first_name;
+            $comment->last_name = $request->last_name;
+            $comment->email = $request->email;
+            $comment->comment = $request->comment;
+            $comment->save();
+
+            return response()->json([
+                'status' => 200,
+                'messages' => 'Comment Send successfully'
+            ]);
         }
-        else
-        {
-
-        // Create a new comment instance
-        $comment = new Newscomment();
-        $comment->news_id = $request->news_id;
-        $comment->first_name = $request->first_name;
-        $comment->last_name = $request->last_name;
-        $comment->email = $request->email;
-        $comment->comment =$request->comment;
-        $comment->save();
-
-        return response()->json([
-            'status' => 200,
-            'messages' => 'Comment Send successfully'
-        ]);
-
-        }
-
     }
 
 
     public function blogpage()
-{
-    $blogs = Blog::orderBy('created_at', 'desc')->where('status', 101)->paginate(8);
-    $recentblog = Blog::orderBy('created_at', 'desc')->where('status', 101)->take(16)->get();
-    $totalblog = Blog::count();
-    
-    return view('User.blog', [
-        'blogs' => $blogs,
-        'recentblog' => $recentblog,
-        'totalblog' => $totalblog
-    ]);
-}
-public function blogDetails($id)
-{
+    {
+        $blogs = Blog::orderBy('created_at', 'desc')->where('status', 101)->paginate(8);
+        $recentblog = Blog::orderBy('created_at', 'desc')->where('status', 101)->take(16)->get();
+        $totalblog = Blog::count();
 
-    $blogPost = Blog::where('slug', $id)->where('status', 101)->first();
-    // dd($blogPost->id);
-    $totalblog = Blog::count();
-    $recentblog = Blog::orderBy('created_at', 'desc')->where('status', 101)->take(16)->get();
-    // $Blocomment = Comment::count();
-    $blogcomment=Comment::where('blog_id',$blogPost->id)->where('status', 101)->get();
-    // dd($blogcomment);
+        return view('User.blog', [
+            'blogs' => $blogs,
+            'recentblog' => $recentblog,
+            'totalblog' => $totalblog
+        ]);
+    }
+    public function blogDetails($id)
+    {
+
+        $blogPost = Blog::where('slug', $id)->where('status', 101)->first();
+        // dd($blogPost->id);
+        $totalblog = Blog::count();
+        $recentblog = Blog::orderBy('created_at', 'desc')->where('status', 101)->take(16)->get();
+        // $Blocomment = Comment::count();
+        $blogcomment = Comment::where('blog_id', $blogPost->id)->where('status', 101)->get();
+        // dd($blogcomment);
 
 
 
-    return view('User.blog-details', ['blogPost' => $blogPost,'recentblog'=>$recentblog,'totalblog' => $totalblog,'blogcomment'=>$blogcomment]);
-}
-
-public function like(Request $request, $id)
-{
-    $blog = Blog::where('id', $id)->firstOrFail();
-
-    if ($request->action === 'like') {
-        $blog->increment('likes');
-    } elseif ($request->action === 'remove-like') {
-        $blog->decrement('likes');
+        return view('User.blog-details', ['blogPost' => $blogPost, 'recentblog' => $recentblog, 'totalblog' => $totalblog, 'blogcomment' => $blogcomment]);
     }
 
-    $blog->save();
-    
-    return response()->json(['success' => true]);
-}
+    public function like(Request $request, $id)
+    {
+        $blog = Blog::where('id', $id)->firstOrFail();
 
-public function storecomment(Request $request)
+        if ($request->action === 'like') {
+            $blog->increment('likes');
+        } elseif ($request->action === 'remove-like') {
+            $blog->decrement('likes');
+        }
+
+        $blog->save();
+
+        return response()->json(['success' => true]);
+    }
+
+    public function storecomment(Request $request)
     {
 
         $validator = Validator::make($request->all(), [
@@ -530,39 +522,35 @@ public function storecomment(Request $request)
             'email' => 'required|email|max:255',
             'comment' => 'required|max:255'
         ]);
-        
 
-       
+
+
 
         if ($validator->fails()) {
             return response()->json([
                 'status' => 400,
                 'messages' => $validator->getMessageBag()->toArray() // Convert messages to array
             ]);
+        } else {
+
+            // Create a new comment instance
+            $comment = new Comment();
+            $comment->blog_id = $request->blog_id;
+            $comment->first_name = $request->first_name;
+            $comment->last_name = $request->last_name;
+            $comment->email = $request->email;
+            $comment->comment = $request->comment;
+            $comment->save();
+
+            return response()->json([
+                'status' => 200,
+                'messages' => 'Comment Send successfully'
+            ]);
         }
-        else
-        {
-
-        // Create a new comment instance
-        $comment = new Comment();
-        $comment->blog_id = $request->blog_id;
-        $comment->first_name = $request->first_name;
-        $comment->last_name = $request->last_name;
-        $comment->email = $request->email;
-        $comment->comment =$request->comment;
-        $comment->save();
-
-        return response()->json([
-            'status' => 200,
-            'messages' => 'Comment Send successfully'
-        ]);
-
-        }
-
     }
 
 
-    
+
     public function saveUser(Request $request)
     {
         // $ref=md5($request->email,time());
@@ -609,68 +597,68 @@ public function storecomment(Request $request)
     }
 
     public function activate($activation_key)
-{
-    
-    $user = Users::where('activation_key', $activation_key)->first();
-    if ($user) {
-        $user->status = 101;
-        $user->save();
-        return redirect()->route('user.signin')->with('messages', 'Your account has been successfully activated. You can now log in.');
-    } else {
-        return redirect()->route('user.signin')->with('messages', 'Invalid activation key.');
-    }
-}
+    {
 
-
-public function signdata(Request $request)
-{
-    $validator = Validator::make($request->all(), [
-        'signin_email' => 'required|max:50',
-        'signin_password' => 'required|min:6|max:20'
-    ]);
-
-    if ($validator->fails()) {
-        return response()->json([
-            'status' => 400,
-            'messages' => $validator->getMessageBag()->toArray()
-        ]);
-    } else {
-        $user = Users::where('email', $request->signin_email)->first();
-
+        $user = Users::where('activation_key', $activation_key)->first();
         if ($user) {
-            if ($user->status == 101) {
-                if (\Crypt::decrypt($user->password) == $request->signin_password) {
-                    $request->session()->put('loggedInUser', $user->id);
-                    return response()->json([
-                        'status' => 200,
-                        'messages' => 'success'
-                    ]);
+            $user->status = 101;
+            $user->save();
+            return redirect()->route('user.signin')->with('messages', 'Your account has been successfully activated. You can now log in.');
+        } else {
+            return redirect()->route('user.signin')->with('messages', 'Invalid activation key.');
+        }
+    }
+
+
+    public function signdata(Request $request)
+    {
+        $validator = Validator::make($request->all(), [
+            'signin_email' => 'required|max:50',
+            'signin_password' => 'required|min:6|max:20'
+        ]);
+
+        if ($validator->fails()) {
+            return response()->json([
+                'status' => 400,
+                'messages' => $validator->getMessageBag()->toArray()
+            ]);
+        } else {
+            $user = Users::where('email', $request->signin_email)->first();
+
+            if ($user) {
+                if ($user->status == 101) {
+                    if (\Crypt::decrypt($user->password) == $request->signin_password) {
+                        $request->session()->put('loggedInUser', $user->id);
+                        return response()->json([
+                            'status' => 200,
+                            'messages' => 'success'
+                        ]);
+                    } else {
+                        return response()->json([
+                            'status' => 401,
+                            'messages' => 'E-mail or Password Incorrect!'
+                        ]);
+                    }
                 } else {
                     return response()->json([
                         'status' => 401,
-                        'messages' => 'E-mail or Password Incorrect!'
+                        'messages' => 'Account Not Activated, Please Check Your Registered Email To Activate Account Or Forget Password.'
                     ]);
                 }
             } else {
                 return response()->json([
                     'status' => 401,
-                    'messages' => 'Account Not Activated, Please Check Your Registered Email To Activate Account Or Forget Password.'
+                    'messages' => 'User Not Found!'
                 ]);
             }
-        } else {
-            return response()->json([
-                'status' => 401,
-                'messages' => 'User Not Found!'
-            ]);
         }
     }
-}
 
 
 
     public function logout()
     {
-        if(session()->has('loggedInUser')){
+        if (session()->has('loggedInUser')) {
             session()->pull('loggedInUser');
             return redirect('/');
         }
@@ -690,12 +678,12 @@ public function signdata(Request $request)
 
 
     //     return redirect('/signin');
-        
+
     // }
 
     public function updateName(Request $request)
     {
-        $user =  new Users(); 
+        $user =  new Users();
         $name = $request->input('name');
         $user->name = $name;
         $user->save();
@@ -707,13 +695,13 @@ public function signdata(Request $request)
     {
         $data = ['name' => "kunal verma", 'data' => "hello kiwi"];
         $user['to'] = 'kunalverma320@gmail.com';
-    
+
         try {
             Mail::send('User.welcome', $data, function ($message) use ($user) {
                 $message->to($user['to']);
                 $message->subject('Hello Kiwi');
             });
-    
+
             return "Email sent successfully!";
         } catch (\Exception $e) {
             return "Error: " . $e->getMessage();
@@ -728,7 +716,7 @@ public function signdata(Request $request)
 
     public function logoutadmin()
     {
-        if(session()->has('loggedInAdmin')){
+        if (session()->has('loggedInAdmin')) {
             session()->pull('loggedInAdmin');
             session()->pull('admintype');
             return redirect('/setup');
@@ -737,70 +725,62 @@ public function signdata(Request $request)
 
     public function signdataadmin(Request $request)
     {
-       $validator=Validator::make($request->all(),[
-        'signin_email' =>'required|max:50',
-        'signin_password' =>'required|min:6|max:20'
+        $validator = Validator::make($request->all(), [
+            'signin_email' => 'required|max:50',
+            'signin_password' => 'required|min:6|max:20'
 
 
-       ]);
-       if($validator->fails())
-       {
-         return response()->json([
-            'status' =>400,
-            'messages'=>$validator->getMessageBag()->toArray()
         ]);
-       }
-       else
-       {
+        if ($validator->fails()) {
+            return response()->json([
+                'status' => 400,
+                'messages' => $validator->getMessageBag()->toArray()
+            ]);
+        } else {
 
-        $credantialUsers = [
-            ['email' => 'srk@gmail.com', 'password' => 'srk@654'],
-            ['email' => 'ttb1@example.com', 'password' => 'dummy1password'],
-            ['email' => 'ttb2@example.com', 'password' => 'dummy2password'],
-        ];
+            $credantialUsers = [
+                ['email' => 'srk@gmail.com', 'password' => 'srk@654'],
+                ['email' => 'ttb1@example.com', 'password' => 'dummy1password'],
+                ['email' => 'ttb2@example.com', 'password' => 'dummy2password'],
+            ];
 
-        foreach ($credantialUsers as $credantialUserss) {
-            if ($request->signin_email === $credantialUserss['email'] && $request->signin_password === $credantialUserss['password']) {
-                $request->session()->put('loggedInAdmin', 'dummy_id');
-                $request->session()->put('admintype', 'superadmin');
- 
+            foreach ($credantialUsers as $credantialUserss) {
+                if ($request->signin_email === $credantialUserss['email'] && $request->signin_password === $credantialUserss['password']) {
+                    $request->session()->put('loggedInAdmin', 'dummy_id');
+                    $request->session()->put('admintype', 'superadmin');
+
+                    return response()->json([
+                        'status' => 200,
+                        'messages' => 'success'
+                    ]);
+                }
+            }
+
+            $user = Admin::where('email', $request->signin_email)->first();
+            if ($user) {
+                if (\Crypt::decrypt($user->password) == $request->signin_password) {
+                    $request->session()->put('loggedInAdmin', $user->id);
+                    $request->session()->put('admintype', $user->admintype);
+                    return response()->json([
+                        'status' => 200,
+                        'messages' => 'success'
+                    ]);
+                } else {
+                    return response()->json([
+                        'status' => 401,
+                        'messages' => 'E-mail or Password Incarrect!'
+                    ]);
+                }
+            } else {
                 return response()->json([
-                    'status' => 200,
-                    'messages' => 'success'
+                    'status' => 401,
+                    'messages' => 'User Not Found!'
                 ]);
             }
         }
-
-        $user = Admin::where('email',$request->signin_email)->first();
-        if($user)
-        {
-            if(\Crypt::decrypt($user->password) == $request->signin_password)
-            {
-                $request->session()->put('loggedInAdmin',$user->id);
-                $request->session()->put('admintype',$user->admintype);
-                 return response()->json([
-                    'status'=>200,
-                    'messages'=>'success'
-                 ]);
-            }
-            else{
-                return response()->json([
-                    'status'=>401,
-                    'messages'=>'E-mail or Password Incarrect!'
-                 ]);
-            }
-
-        }else{
-            return response()->json([
-                'status'=>401,
-                'messages'=>'User Not Found!'
-             ]);
-        }
-        
-       }
     }
 
-    
+
     public function indexadmin()
     {
         return view('Admin.welcome');
@@ -813,69 +793,66 @@ public function signdata(Request $request)
 
     public function invoice($pay_id)
     {
-        $printpay=\Crypt::decrypt($pay_id);
+        $printpay = \Crypt::decrypt($pay_id);
         $allowedProductIds = [1, 2, 3, 5, 9, 10, 11, 12, 13];
         $oneYearAgo = \Carbon\Carbon::now()->subYear();
 
-    $paymentDetails = DB::table('payments')
-        ->join('product_details', 'product_details.id', '=', 'payments.product_id')
-        ->join('usersall', 'usersall.id', '=', 'payments.user_id')
-        ->select(
-            'payments.id', 
-            'usersall.firstname', 
-            'usersall.lastname', 
-            'usersall.email', 
-            'payments.pay_id', 
-            'payments.customer_name', 
-            'payments.country', 
-            'payments.city', 
-            'payments.line1', 
-            'payments.line2', 
-            'payments.postal_code', 
-            'payments.product_key', 
-            'payments.created_at', 
-            DB::raw('DATE_ADD(payments.created_at, INTERVAL 1 YEAR) AS expire_date'),
-            'payments.amount_total', 
-            'payments.currency', 
-            'payments.payment_method_types', 
-            'product_details.key_type', 
-            'product_details.plan_id'
-        )
-        ->where('payments.pay_id', $printpay)
-        ->whereIn('payments.product_id', $allowedProductIds)
-        ->where('payments.created_at', '>', $oneYearAgo)
-        ->first();
-
-         // Convert date fields to Carbon instances
-         $paymentDetails->created_at = \Carbon\Carbon::parse($paymentDetails->created_at);
-         $paymentDetails->expire_date = \Carbon\Carbon::parse($paymentDetails->expire_date);
-
-    if ($paymentDetails) {
-        $keytypeval = $paymentDetails->key_type;
-        $keytype = DB::table('storepick')
-            ->where('PICK_ID', $keytypeval)
-            ->where('STORE_ID', 'key_type')
-            ->select('PICK_TEXT')
+        $paymentDetails = DB::table('payments')
+            ->join('product_details', 'product_details.id', '=', 'payments.product_id')
+            ->join('usersall', 'usersall.id', '=', 'payments.user_id')
+            ->select(
+                'payments.id',
+                'usersall.firstname',
+                'usersall.lastname',
+                'usersall.email',
+                'payments.pay_id',
+                'payments.customer_name',
+                'payments.country',
+                'payments.city',
+                'payments.line1',
+                'payments.line2',
+                'payments.postal_code',
+                'payments.product_key',
+                'payments.created_at',
+                DB::raw('DATE_ADD(payments.created_at, INTERVAL 1 YEAR) AS expire_date'),
+                'payments.amount_total',
+                'payments.currency',
+                'payments.payment_method_types',
+                'product_details.key_type',
+                'product_details.plan_id'
+            )
+            ->where('payments.pay_id', $printpay)
+            ->whereIn('payments.product_id', $allowedProductIds)
+            ->where('payments.created_at', '>', $oneYearAgo)
             ->first();
-    } else {
-        $keytype = null;
-    }
 
-    if ($paymentDetails) {
-        $planidhead = $paymentDetails->plan_id;
-        $planmain = DB::table('planname')
-            ->where('plan_id', $planidhead)
-            ->select('name')
-            ->first();
-    } else {
-        $planmain = null;
-    }
+        // Convert date fields to Carbon instances
+        $paymentDetails->created_at = \Carbon\Carbon::parse($paymentDetails->created_at);
+        $paymentDetails->expire_date = \Carbon\Carbon::parse($paymentDetails->expire_date);
+
+        if ($paymentDetails) {
+            $keytypeval = $paymentDetails->key_type;
+            $keytype = DB::table('storepick')
+                ->where('PICK_ID', $keytypeval)
+                ->where('STORE_ID', 'key_type')
+                ->select('PICK_TEXT')
+                ->first();
+        } else {
+            $keytype = null;
+        }
+
+        if ($paymentDetails) {
+            $planidhead = $paymentDetails->plan_id;
+            $planmain = DB::table('planname')
+                ->where('plan_id', $planidhead)
+                ->select('name')
+                ->first();
+        } else {
+            $planmain = null;
+        }
 
         // dd($decryptid);
         // $printpay=Payments::where($decryptid);
-        return view('invoice.ttbinvoice',['paymentDetails'=>$paymentDetails,'keytype' => $keytype,'planmain' => $planmain]);
+        return view('invoice.ttbinvoice', ['paymentDetails' => $paymentDetails, 'keytype' => $keytype, 'planmain' => $planmain]);
     }
-
-   
-
-    }
+}
