@@ -191,6 +191,7 @@
                     method: 'post',
                     data: $(this).serialize(),
                     success:function(response) {
+                        console.log(response);
                         if(response.status == 400) {
                             showError('signup_firstname',response.messages.signup_firstname);
                             showError('signup_lastname',response.messages.signup_lastname);
