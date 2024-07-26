@@ -6,17 +6,19 @@
 @section('canonical', '')
 
 <style>
-    #toast {
-    /* display: none; */
+   #toast {
+    display: none;
     position: fixed;
     bottom: 20px;
     left: 20px;
-    background-color: #333;
+    background-color: #13d8aa;
     color: #fff;
-    padding: 10px;
+    padding: 18px 29px;
     border-radius: 5px;
     z-index: 9999;
+    font-size: 20px;
 }
+
 
 </style>
 
@@ -49,7 +51,7 @@
                             class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-12 text-center box-down">
                             <img src="{{ asset('assets/img/window.png') }}" alt="" class="img-fluid" width="25%">
                             <div class="btn-down">
-                                <a href="#">Download For Window</a>
+                                <a href="#" id="downloadLink">Download For Window</a>
                             </div>
                             <span> For Window 10, 8, 7 or above</span>
                         </div>
@@ -57,7 +59,7 @@
                             class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-12 text-center box-down">
                             <img src="{{ asset('assets/img/android.png') }}" alt="" class="img-fluid" width="25%">
                             <div class="btn-down">
-                                <a href="#">Download For Android</a>
+                                <a href="#" id="downloadLink">Download For Android</a>
                             </div>
                             <span> For Android Ver 5.0 or above</span>
                         </div>
