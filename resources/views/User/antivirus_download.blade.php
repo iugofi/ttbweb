@@ -5,35 +5,19 @@
 @section('keywords', '')
 @section('canonical', '')
 
-<style>
-    .toast {
-    position: fixed;
-    bottom: 10px;
-    left: 10px;
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    border-radius: 5px;
-    display: none; /* Hidden by default */
-    z-index: 1000;
-}
 
-.toast.show {
-    display: block; /* Show the toast */
-}
-
-</style>
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Toastr JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 @section('content')
 
 
     <div class="content">
         <div class="main-content">
 
-
-
             <section class="vpn-download-one">
-                <div id="toast" class="toast">Download started!</div>
                 <div class="container">
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xxl:col-span-12 xl:col-span12 lg:col-span-12 md:col-span-12 col-span-12 text-center ">
@@ -46,7 +30,6 @@
                             <img src="{{ asset('assets/img/mac.png') }}" alt="" class="img-fluid" width="25%">
                             <div class="btn-down">
                                 <a href="#" id="downloadLink">Download For Mac</a>
-                                <div id="toast" class="toast">Download started...</div>
                             </div>
                             <span> For MacOS X10.15 or above</span>
                         </div>
@@ -96,21 +79,18 @@
 
         </div>
     </div>
-<script>
-    document.getElementById('downloadLink').addEventListener('click', function(event) {
-    event.preventDefault(); // Prevent the default link action
 
-    var toast = document.getElementById('toast');
-    toast.classList.add('show'); // Show the toast
-
-    // Hide the toast after 3 seconds
-    setTimeout(function() {
-        toast.classList.remove('show');
-    }, 3000);
-});
-
-</script>
-
+    <script>
+        $(document).ready(function() {
+            $('#downloadLink').click(function(e) {
+                e.preventDefault(); // Prevent the default link action
+                toastr.info('Download link clicked!', 'Information', {
+                    positionClass: 'toast-bottom-left',
+                    timeOut: 3000
+                });
+            });
+        });
+    </script>
 
 
 
