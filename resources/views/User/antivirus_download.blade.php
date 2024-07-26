@@ -8,9 +8,22 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
     <!-- jQuery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <!-- Toastr JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!-- Toastr JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+<style>
+    /* Custom CSS for red toast */
+    .toast-red {
+        background-color: #f44336; /* Red color */
+        color: #fff; /* White text */
+    }
+    .toast-red .toast-title {
+        color: #fff; /* White text for title */
+    }
+    .toast-red .toast-message {
+        color: #fff; /* White text for message */
+    }
+</style>
 @section('content')
 
 
@@ -80,13 +93,17 @@
         </div>
     </div>
 
+
     <script>
         $(document).ready(function() {
             $('#downloadLink').click(function(e) {
                 e.preventDefault(); // Prevent the default link action
-                toastr.info('Download link clicked!', 'Information', {
+                toastr.info('Your download is starting...', 'Download', {
                     positionClass: 'toast-bottom-left',
-                    timeOut: 3000
+                    timeOut: 3000,
+                    extendedTimeOut: 0,
+                    closeButton: true,
+                    className: 'toast-red'
                 });
             });
         });
