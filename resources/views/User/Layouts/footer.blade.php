@@ -200,43 +200,41 @@
             </div>
         </div>
 
-        <hr class="hr">
-        <div class="grid grid-cols-12 gap-6">
-            <div class="xl:col-span-6 col-span-12">
-                <div class="support-link">
-                    <ul class="flex lg:flex-row lg:space-x-4">
-                            <li><a href="#" class="text-white">Support</a></li>
-                            <li><a href="#" class="text-white">Privacy Policy</a></li>
-                            <li><a href="#" class="text-white">Terms Of Service</a></li>
-                            <li><a href="#" class="text-white">Return &amp; Refund Policy</a></li>
-                            <li><a href="#" class="text-white">Sitemap</a></li>
-                        </ul>
-                </div>
-            </div>
 
-            <div class="xl:col-span-6 col-span-12">
-                <div class="footer-widget">
-                    <div class="mb-4 lg:mb-0">
-                    <p class="text-white text-sm text-right">
-                        Copyright © 2024
-                        <a href="https://nighthawk-routerlogin.com/">
-                            <b style="color:#11CDBE;">TTB Antivirus.</b>
-                        </a>
-                        All Rights Reserved
-                    </p>
-                </div>
-                </div>
-            </div>
 
-        </div>
 
     </div>
 </section>
 
 <div class="text-center landing-main-footer py-4">
-    <span class="text-[#8c9097] text-white text-[0.9375rem]"> Copyright © <span id="year"></span> <a
-        href="https://www.ttbinternetsecurity.com/" class="!text-primary font-semibold"><u>ttbinternetsecurity</u></a>.
-    </span>
+    <div class="grid grid-cols-12 gap-6">
+        <div class="xl:col-span-6 col-span-12">
+            <div class="support-link">
+                <ul class="flex lg:flex-row lg:space-x-4">
+                        <li><a href="#" class="text-white">Support</a></li>
+                        <li><a href="#" class="text-white">Privacy Policy</a></li>
+                        <li><a href="#" class="text-white">Terms Of Service</a></li>
+                        <li><a href="#" class="text-white">Return &amp; Refund Policy</a></li>
+                        <li><a href="#" class="text-white">Sitemap</a></li>
+                    </ul>
+            </div>
+        </div>
+
+        <div class="xl:col-span-6 col-span-12">
+            <div class="footer-widget">
+                <div class="mb-4 lg:mb-0">
+                <p class="text-white text-sm text-right">
+                    Copyright © 2024
+                    <a href="https://nighthawk-routerlogin.com/">
+                        <b style="color:#11CDBE;">TTB Antivirus.</b>
+                    </a>
+                    All Rights Reserved
+                </p>
+            </div>
+            </div>
+        </div>
+
+    </div>
 </div>
 
 
