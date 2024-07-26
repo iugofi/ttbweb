@@ -1116,7 +1116,7 @@
 
         {{-- Start New footer html --}}
 
-        <section class="section landing-footer  text-white text-[0.813rem]">
+        {{-- <section class="section landing-footer  text-white text-[0.813rem]">
             <div class="container">
                 <div class="grid grid-cols-12 gap-6">
 
@@ -1349,7 +1349,7 @@
                 </div>
 
             </div>
-        </section>
+        </section> --}}
 
         <!-- FOOTER -->
 
