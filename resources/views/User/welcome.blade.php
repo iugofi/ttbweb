@@ -1122,7 +1122,7 @@
 
                     <div class="xl:col-span-3 col-span-12">
                         <div class="footer-widget">
-                            <h2 class="text-white text-lg font-semibold mb-2 text-color-ttb">FOLLOW US </h2>
+                            <h2 class="text-white text-lg font-semibold mb-2 text-color-ttb">Contact Us: </h2>
                             <ul class="justify-center lg:justify-end space-x-2">
                                 <li>
                                     <button aria-label="Call" type="button"
@@ -1209,7 +1209,7 @@
 
                     <div class="xl:col-span-2 col-span-12">
                         <div class="footer-widget">
-                            <h2 class="text-white text-lg font-semibold mb-2 text-color-ttb">FOLLOW US </h2>
+                            <h2 class="text-white text-lg font-semibold mb-2 text-color-ttb">Follow Us</h2>
                             <ul class="justify-center lg:justify-end space-x-2">
                                 <li>
                                     <button aria-label="Facebook" type="button"
@@ -1259,7 +1259,7 @@
 
                     <div class="xl:col-span-2 col-span-12">
                         <div class="footer-widget">
-                            <h2 class="text-white text-lg font-semibold mb-2 text-color-ttb">QUICK LINKS</h2>
+                            <h2 class="text-white text-lg font-semibold mb-2 text-color-ttb"> Quick Link</h2>
                             <ul class="list-none text-white">
                                 <li class="mb-2"><a href="#" class="hover:text-yellow-500">Home</a></li>
                                 <li class="mb-2"><a href="#" class="hover:text-yellow-500">About</a></li>
@@ -1272,7 +1272,7 @@
                     </div>
                     <div class="xl:col-span-2 col-span-12">
                         <div class="footer-widget">
-                            <h2 class="text-white text-lg font-semibold mb-2 text-color-ttb">PRODUCTS</h2>
+                            <h2 class="text-white text-lg font-semibold mb-2 text-color-ttb"> Products</h2>
                             <ul class="list-none text-white">
                                 <li class="mb-2"><a href="#" class="hover:text-yellow-500">TTB Antivirus</a>
                                 </li>
@@ -1283,7 +1283,7 @@
                                 <li class="mb-2"><a href="#" class="hover:text-yellow-500">TTB VPN Shield</a>
                                 </li>
                             </ul>
-                            <h2 class="text-white text-lg font-semibold mb-2 text-color-ttb">RESOURCES</h2>
+                            <h2 class="text-white text-lg font-semibold mb-2 text-color-ttb">Resources</h2>
                             <ul class="list-none text-white">
                                 <li class="mb-2"><a href="#" class="hover:text-yellow-500">News</a></li>
                                 <li class="mb-2"><a href="#" class="hover:text-yellow-500">Blogs</a></li>
@@ -1292,7 +1292,7 @@
                     </div>
                     <div class="xl:col-span-2 col-span-12">
                         <div class="footer-widget">
-                            <h2 class="text-white text-lg font-semibold mb-2 text-color-ttb">SOLUTIONS</h2>
+                            <h2 class="text-white text-lg font-semibold mb-2 text-color-ttb"> Solutions</h2>
                             <ul class="list-none text-white">
                                 <li class="mb-2"><a href="#" class="hover:text-yellow-500">EndPoint
                                         Protection</a></li>
