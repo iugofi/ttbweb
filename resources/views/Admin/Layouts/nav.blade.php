@@ -32,6 +32,10 @@
                     </a>
                 </li>
 
+                @php
+
+                if (session('admintype')== 'superadmin' || session('admintype')== 'admin') {
+                 @endphp
 
                 <li class="slide__category"><span class="category-name">News</span></li>
                 <li class="slide">
@@ -74,7 +78,9 @@
                     </li>
 
 
-
+                    @php
+                }
+                @endphp
 
 
 
