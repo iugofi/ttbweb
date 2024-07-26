@@ -53750,7 +53750,7 @@ hr.hr-line {
     margin: 20px 0;
 }
 .footer-icon i {
-    border: 1px solid #3d3d3d;
+    border: 1px solid #dbdbdb;
     padding: 9px;
     border-radius: 95px;
     width: 36px;
@@ -53759,7 +53759,7 @@ hr.hr-line {
     font-size: 16px;
     height: 36px;
     align-items: center;
-    color: #3d3d3d;
+    color: #dbdbdb;
 }
 .landing-footer h2 {
     opacity: 65%;
@@ -53770,7 +53770,6 @@ hr.hr-line {
 .landing-footer p {
     opacity: 65%;
 }
-
 
 
 /* End footer css */
