@@ -62,6 +62,8 @@ a {
     color: inherit;
     text-decoration: inherit;
     font-family: "rajdhani", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 b,
@@ -189,6 +191,7 @@ pre {
 p {
     font-family: "rajdhani", sans-serif;
     font-weight: 600 !important;
+    font-size: 16px;
 }
 
 fieldset {
@@ -9476,7 +9479,7 @@ h6 {
 }
 
 .font-semibold {
-    font-weight: 600;
+    font-weight: bold;
 }
 
 .uppercase {
