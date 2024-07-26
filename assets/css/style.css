@@ -53749,6 +53749,18 @@ hr.hr-line {
 .hr {
     margin: 20px 0;
 }
+.footer-icon i {
+    border: 1px solid #fff;
+    padding: 9px;
+    border-radius: 95px;
+    width: 36px;
+    justify-content: center;
+    margin: 8px 10px auto;
+    font-size: 16px;
+    height: 36px;
+    align-items: center;
+}
+
 
 /* End footer css */
 
