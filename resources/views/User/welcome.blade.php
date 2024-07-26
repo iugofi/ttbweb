@@ -1272,7 +1272,7 @@
                     </div>
                     <div class="xl:col-span-2 col-span-12">
                         <div class="footer-widget">
-                            <h2 class="text-white text-lg font-semibold mb-2 text-color-ttb"> Products</h2>
+                            <h2 class="text-white text-lg font-semibold mb-2"> Products</h2>
                             <ul class="list-none text-white">
                                 <li class="mb-2"><a href="#" class="hover:text-yellow-500">TTB Antivirus</a>
                                 </li>
