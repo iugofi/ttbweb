@@ -53766,6 +53766,7 @@ hr.hr-line {
 }
 .landing-footer p {
     opacity: 65%;
+    font-weight: 500 !Important;
 }
 .landing-footer input {
     opacity: 65%;
