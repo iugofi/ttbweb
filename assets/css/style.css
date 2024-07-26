@@ -53745,7 +53745,9 @@ hr.hr-line {
 .icon-list img {
     margin: 0 10px auto;
 }
-
+.hr {
+    margin: 20px 0;
+}
 
 /* End footer css */
 

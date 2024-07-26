@@ -1122,7 +1122,7 @@
 
                     <div class="xl:col-span-3 col-span-12">
                         <div class="footer-widget">
-                            <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">FOLLOW US </h2>
+                            <h2 class="text-white text-lg font-semibold mb-2 text-color-ttb">FOLLOW US </h2>
                             <ul class="justify-center lg:justify-end space-x-2">
                                 <li>
                                     <button aria-label="Call" type="button"
@@ -1145,7 +1145,7 @@
 
                     <div class="xl:col-span-3 col-span-12">
                         <div class="footer-widget">
-                            <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">Find Us On:</h2>
+                            <h2 class="text-white text-lg font-semibold mb-2 text-color-ttb">Find Us On:</h2>
                             <div class="list-none text-white">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit et magnam, fuga
                                     est mollitia eius, quo illum illo inventore optio aut quas omnis rem.</p>
@@ -1156,7 +1156,7 @@
 
                     <div class="xl:col-span-3 col-span-12">
                         <div class="footer-widget">
-                            <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">FOLLOW US </h2>
+                            <h2 class="text-white text-lg font-semibold mb-2 text-color-ttb">FOLLOW US </h2>
                             <ul class="justify-center lg:justify-end space-x-2">
                                 <li class="icon-list">
                                     <img src="https://png.pngtree.com/png-clipart/20190516/original/pngtree-usa-flag--vector-illustration-png-image_3749931.jpg"
@@ -1181,7 +1181,7 @@
                     </div>
                     <div class="xl:col-span-3 col-span-12">
                         <div class="footer-widget">
-                            <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">FOLLOW US </h2>
+                            <h2 class="text-white text-lg font-semibold mb-2 text-color-ttb">FOLLOW US </h2>
                             <ul class="justify-center lg:justify-end space-x-2">
                                 <li class="icon-list">
                                     <img src="https://png.pngtree.com/png-clipart/20190516/original/pngtree-usa-flag--vector-illustration-png-image_3749931.jpg"
@@ -1214,7 +1214,7 @@
 
                     <div class="xl:col-span-2 col-span-12">
                         <div class="footer-widget">
-                            <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">FOLLOW US </h2>
+                            <h2 class="text-white text-lg font-semibold mb-2 text-color-ttb">FOLLOW US </h2>
                             <ul class="justify-center lg:justify-end space-x-2">
                                 <li>
                                     <button aria-label="Facebook" type="button"
@@ -1264,7 +1264,7 @@
 
                     <div class="xl:col-span-2 col-span-12">
                         <div class="footer-widget">
-                            <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">QUICK LINKS</h2>
+                            <h2 class="text-white text-lg font-semibold mb-2 text-color-ttb">QUICK LINKS</h2>
                             <ul class="list-none text-white">
                                 <li class="mb-2"><a href="#" class="hover:text-yellow-500">Home</a></li>
                                 <li class="mb-2"><a href="#" class="hover:text-yellow-500">About</a></li>
@@ -1277,7 +1277,7 @@
                     </div>
                     <div class="xl:col-span-2 col-span-12">
                         <div class="footer-widget">
-                            <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">PRODUCTS</h2>
+                            <h2 class="text-white text-lg font-semibold mb-2 text-color-ttb">PRODUCTS</h2>
                             <ul class="list-none text-white">
                                 <li class="mb-2"><a href="#" class="hover:text-yellow-500">TTB Antivirus</a>
                                 </li>
@@ -1288,7 +1288,7 @@
                                 <li class="mb-2"><a href="#" class="hover:text-yellow-500">TTB VPN Shield</a>
                                 </li>
                             </ul>
-                            <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">RESOURCES</h2>
+                            <h2 class="text-white text-lg font-semibold mb-2 text-color-ttb">RESOURCES</h2>
                             <ul class="list-none text-white">
                                 <li class="mb-2"><a href="#" class="hover:text-yellow-500">News</a></li>
                                 <li class="mb-2"><a href="#" class="hover:text-yellow-500">Blogs</a></li>
@@ -1297,7 +1297,7 @@
                     </div>
                     <div class="xl:col-span-2 col-span-12">
                         <div class="footer-widget">
-                            <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">SOLUTIONS</h2>
+                            <h2 class="text-white text-lg font-semibold mb-2 text-color-ttb">SOLUTIONS</h2>
                             <ul class="list-none text-white">
                                 <li class="mb-2"><a href="#" class="hover:text-yellow-500">EndPoint
                                         Protection</a></li>
@@ -1322,7 +1322,7 @@
                     </div>
                     <div class="xl:col-span-3 col-span-12">
                         <div class="inner-column text-center lg:text-right">
-                            <h2 class="text-white text-lg font-semibold mb-6 text-color-ttb">Sign up For Newsletter</h2>
+                            <h2 class="text-white text-lg font-semibold mb-2 text-color-ttb">Sign up For Newsletter</h2>
                             <div class="subscribe-form">
                                 <form method="post" action="https://www.nighthawk-routerlogin.com/saveemailsub"
                                     id="mail-subscribe">
