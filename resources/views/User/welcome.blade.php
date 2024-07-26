@@ -1214,7 +1214,7 @@
                                 </li>
                                 <li class="footer-icon">
                                     <a href="https://x.com/i/flow/login?redirect_after_login=%2FTTBisecure">
-                                            <i class="ri-twitter-line font-bold"></i>
+                                        <i class="fa-brands fa-x-twitter"></i>
                                     Twitter</a>
                                 </li>
                                 <li class="footer-icon">
