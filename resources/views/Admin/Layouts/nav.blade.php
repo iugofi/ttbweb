@@ -82,7 +82,7 @@
 
                 @php
 
-               if (session('admintype')== 'superadmin' || !Auth::guard('admin')->user()->admintype == 'Supervisor') {
+               if (session('admintype')== 'superadmin') {
                 @endphp
 
                 <li class="slide__category"><span class="category-name">Storepick</span></li>
