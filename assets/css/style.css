@@ -53771,6 +53771,17 @@ hr.hr-line {
     opacity: 65%;
     border-color: #dbdbdb;
 }
+.support-link ul li {
+    border-right: 2px solid #7e7e7e;
+    padding: 0 8px;
+    height: 16px;
+    align-items: center;
+    display: flex;
+}
+.support-link ul li:last-child {
+    border: none;
+}
+
 
 
 
