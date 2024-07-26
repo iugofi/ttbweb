@@ -30,6 +30,7 @@ return array(
     'App\\Models\\Blog' => $baseDir . '/app/Models/Blog.php',
     'App\\Models\\Comment' => $baseDir . '/app/Models/Comment.php',
     'App\\Models\\Contact' => $baseDir . '/app/Models/Contact.php',
+    'App\\Models\\EmailSubscribe' => $baseDir . '/app/Models/EmailSubscribe.php',
     'App\\Models\\Eventmodel' => $baseDir . '/app/Models/Eventmodel.php',
     'App\\Models\\Get_not_send_key' => $baseDir . '/app/Models/Get_not_send_key.php',
     'App\\Models\\News' => $baseDir . '/app/Models/News.php',

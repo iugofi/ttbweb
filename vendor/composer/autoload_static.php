@@ -180,6 +180,7 @@ class ComposerStaticInitfe33f98a750b8c5a51b30c78bd3fab21
         ),
         'A' => 
         array (
+            'App\\Console\\Commands\\' => 21,
             'App\\' => 4,
         ),
     );
@@ -546,6 +547,10 @@ class ComposerStaticInitfe33f98a750b8c5a51b30c78bd3fab21
         array (
             0 => __DIR__ . '/..' . '/brick/math/src',
         ),
+        'App\\Console\\Commands\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/app/Console/Commands',
+        ),
         'App\\' => 
         array (
             0 => __DIR__ . '/../..' . '/app',
@@ -588,6 +593,7 @@ class ComposerStaticInitfe33f98a750b8c5a51b30c78bd3fab21
         'App\\Models\\Blog' => __DIR__ . '/../..' . '/app/Models/Blog.php',
         'App\\Models\\Comment' => __DIR__ . '/../..' . '/app/Models/Comment.php',
         'App\\Models\\Contact' => __DIR__ . '/../..' . '/app/Models/Contact.php',
+        'App\\Models\\EmailSubscribe' => __DIR__ . '/../..' . '/app/Models/EmailSubscribe.php',
         'App\\Models\\Eventmodel' => __DIR__ . '/../..' . '/app/Models/Eventmodel.php',
         'App\\Models\\Get_not_send_key' => __DIR__ . '/../..' . '/app/Models/Get_not_send_key.php',
         'App\\Models\\News' => __DIR__ . '/../..' . '/app/Models/News.php',
