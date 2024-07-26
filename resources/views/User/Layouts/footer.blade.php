@@ -232,7 +232,7 @@
     </div>
 </section>
 
-<div class="text-center landing-main-footer py-4">
+<div class="text-center landing-main-footer py-4 hidden">
 
         <span class="text-[#8c9097] text-white text-[0.9375rem]">
         Copyright © <span id="year"></span> <a
