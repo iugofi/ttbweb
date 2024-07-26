@@ -600,6 +600,8 @@ class UserController extends Controller
 }
 
 
+
+
     public function activate($activation_key)
     {
 
