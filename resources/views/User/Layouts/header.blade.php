@@ -50,8 +50,8 @@
 
     {{-- for cookies --}}
     <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="{{ asset('assets/cookies/css/style.css') }}" />
-    <script src="{{ asset('assets/cookies/js/script.js') }}" defer></script>
+    {{-- <link rel="stylesheet" href="{{ asset('assets/cookies/css/style.css') }}" />
+    <script src="{{ asset('assets/cookies/js/script.js') }}" defer></script> --}}
 
 
 
@@ -112,7 +112,7 @@
 
 <body class="landing-body">
 
-    <div class="wrappercoo">
+    {{-- <div class="wrappercoo">
         <header>
             <i class="bx bx-cookie"></i>
             <h2>Cookies Consent</h2>
@@ -126,7 +126,7 @@
             <button class="buttoncoo" id="acceptBtn">Accept</button>
             <button class="buttoncoo" id="declineBtn">Decline</button>
         </div>
-    </div>
+    </div> --}}
 
 
     <!-- SWITCHER -->
