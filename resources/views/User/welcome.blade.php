@@ -1156,7 +1156,6 @@
 
                     <div class="xl:col-span-3 col-span-12">
                         <div class="footer-widget">
-                            <h2 class="text-white text-lg font-semibold mb-2 text-color-ttb">FOLLOW US </h2>
                             <ul class="justify-center lg:justify-end space-x-2">
                                 <li class="icon-list">
                                     <img src="https://png.pngtree.com/png-clipart/20190516/original/pngtree-usa-flag--vector-illustration-png-image_3749931.jpg"
@@ -1181,7 +1180,6 @@
                     </div>
                     <div class="xl:col-span-3 col-span-12">
                         <div class="footer-widget">
-                            <h2 class="text-white text-lg font-semibold mb-2 text-color-ttb">FOLLOW US </h2>
                             <ul class="justify-center lg:justify-end space-x-2">
                                 <li class="icon-list">
                                     <img src="https://png.pngtree.com/png-clipart/20190516/original/pngtree-usa-flag--vector-illustration-png-image_3749931.jpg"
