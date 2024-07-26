@@ -234,7 +234,7 @@
 
 <div class="text-center landing-main-footer py-4">
     <div class="grid grid-cols-2 gap-4">
-        <div class="support-link">
+        {{-- <div class="support-link">
             <ul class="flex lg:flex-row lg:space-x-4">
                 <li><a href="#" class="text-white">Support</a></li>
                 <li><a href="#" class="text-white">Privacy Policy</a></li>
@@ -252,8 +252,15 @@
                 All Rights Reserved
             </p>
         </div>
-    </div>
+    </div> --}}
+    <div>first</div>
+    <div>second</div>
 
+    {{-- <span class="text-[#8c9097] text-white text-[0.9375rem]">
+        Copyright © <span id="year"></span> <a
+            href="https://www.ttbinternetsecurity.com/"
+            class="!text-primary font-semibold"><u>ttbinternetsecurity</u></a>.
+    </span> --}}
 </div>
 
 
