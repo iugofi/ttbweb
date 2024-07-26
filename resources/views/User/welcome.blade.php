@@ -1329,7 +1329,7 @@
                                             class="w-40 h-12 px-8 py-2 rounded-full bg-transparent text-black border border-white outline-none">
                                         <button type="submit" id="sub-button"
                                             class="mt-6 h-12 bg-yellow-500 ti-btn-primary-full text-indigo-800 font-semibold rounded-full px-6 uppercase">
-                                            Subscribe
+                                            Subscribe Now
                                         </button>
                                     </div>
                                 </form>
