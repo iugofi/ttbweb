@@ -53770,6 +53770,11 @@ hr.hr-line {
 .landing-footer p {
     opacity: 65%;
 }
+.landing-footer input {
+    opacity: 65%;
+    border-color: #dbdbdb;
+}
+
 
 
 /* End footer css */
