@@ -201,7 +201,7 @@
         </div>
 
         <hr class="hr">
-        <div class="grid grid-cols-12 gap-6 text-center landing-main-footer py-4">
+        <div class="grid grid-cols-12 gap-6">
             <div class="xl:col-span-6 col-span-12">
                 <div class="support-link">
                     <ul class="flex lg:flex-row lg:space-x-4">
@@ -214,10 +214,10 @@
                 </div>
             </div>
 
-            <div class="xl:col-span-6 col-span-12">
+            <div class="xl:col-span-6 col-span-12 text-center landing-main-footer py-4">
                 <div class="footer-widget">
                     <div class="mb-4 lg:mb-0">
-                    <p class="text-white text-sm text-right">
+                    <p class="text-white text-sm text-right text-[#8c9097] text-white text-[0.9375rem]">
                         Copyright © 2024
                         <a href="https://nighthawk-routerlogin.com/">
                             <b style="color:#11CDBE;">TTB Antivirus.</b>
