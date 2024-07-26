@@ -1159,7 +1159,7 @@
                                         style="width: 50px; height: 50px; border-radius: 30px;">
                                     <div class="box-location d-flex">
                                         <p>Canada</p>
-                                        <span>Sugarpine Court Brampton, Ontario, CA</span>
+                                        <p>Sugarpine Court Brampton, Ontario, CA</p>
                                     </div>
                                 </li>
                                 <li class="icon-list">
@@ -1168,7 +1168,7 @@
                                         style="width: 50px; height: 50px; border-radius: 30px;">
                                     <div class="box-location d-flex">
                                         <p>India</p>
-                                        <span>Bestech Business Tower, Sector 66, Mohali, IN</span>
+                                        <p>Bestech Business Tower, Sector 66, Mohali, IN</p>
                                     </div>
                                 </li>
                             </ul>
@@ -1183,7 +1183,7 @@
                                         style="width: 50px; height: 50px; border-radius: 30px;">
                                     <div class="box-location d-flex">
                                         <p>Canada</p>
-                                        <span>Sugarpine Court Brampton, Ontario, CA</span>
+                                        <p>Sugarpine Court Brampton, Ontario, CA</p>
                                     </div>
                                 </li>
                                 <li class="icon-list">
@@ -1192,7 +1192,7 @@
                                         style="width: 50px; height: 50px; border-radius: 30px;">
                                     <div class="box-location d-flex">
                                         <p>India</p>
-                                        <span>Bestech Business Tower, Sector 66, Mohali, IN</span>
+                                        <p>Bestech Business Tower, Sector 66, Mohali, IN</p>
                                     </div>
                                 </li>
                             </ul>
