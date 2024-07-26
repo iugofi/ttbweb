@@ -1115,17 +1115,7 @@
 
 
         {{-- Start New footer html --}}
-        <style>
-            .footer-widget li {
-                --tw-space-x-reverse: 1 !important;
-            }
 
-            .form-group.relative #sub-button {
-                position: relative;
-                right: 3rem;
-                margin: 14px 30px auto;
-            }
-        </style>
         <section class="section landing-footer  text-white text-[0.813rem]">
             <div class="container">
                 <div class="grid grid-cols-12 gap-6">

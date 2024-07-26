@@ -53725,6 +53725,29 @@ hr.hr-line {
 
 /* End Privacy-Policy page css */
 
+/* start footer css */
+
+.footer-widget li {
+    --tw-space-x-reverse: 1 !important;
+}
+
+.form-group.relative #sub-button {
+    position: relative;
+    right: 3rem;
+    margin: 14px 30px auto;
+}
+
+.icon-list {
+    display: flex;
+    margin: 20px 0 auto;
+}
+
+.icon-list img {
+    margin: 0 10px auto;
+}
+
+
+/* End footer css */
 
 /* kunal-verma 23-04-2024 */
 
