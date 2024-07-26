@@ -552,26 +552,26 @@ class UserController extends Controller
 
 
     public function saveUser(Request $request)
-    {
-        dd($request->all());
-        // $ref=md5($request->email,time());
-        $validator = Validator::make($request->all(), [
-            'signup_firstname' => 'required|max:50',
-            'signup_lastname' => 'required|max:50',
-            'email' => 'required|email|unique:usersall|max:100',
-            'signup_password' => 'required|min:6|max:50',
-            'signup_confirmpassword' => 'required|min:6|same:signup_password',
-            'signup_check' => 'required|accepted'
-        ], [
-            'signup_confirmpassword.same' => 'Password did not match!',
-            'signup_confirmpassword.required' => 'Confirm Password is Required!'
+{
+    $validator = Validator::make($request->all(), [
+        'signup_firstname' => 'required|max:50',
+        'signup_lastname' => 'required|max:50',
+        'email' => 'required|email|unique:usersall|max:100',
+        'signup_password' => 'required|min:6|max:50',
+        'signup_confirmpassword' => 'required|min:6|same:signup_password',
+        'signup_check' => 'required|accepted'
+    ], [
+        'signup_confirmpassword.same' => 'Password did not match!',
+        'signup_confirmpassword.required' => 'Confirm Password is Required!'
+    ]);
+
+    if ($validator->fails()) {
+        return response()->json([
+            'status' => 400,
+            'messages' => $validator->getMessageBag()->toArray()
         ]);
-        if ($validator->fails()) {
-            return response()->json([
-                'status' => 400,
-                'messages' => $validator->getMessageBag()->toArray() // Convert messages to array
-            ]);
-        } else {
+    } else {
+        try {
             $user = new Users(); // Assuming User is your Eloquent model for users
             $user->firstname = $request->signup_firstname;
             $user->lastname = $request->signup_lastname;
@@ -581,20 +581,24 @@ class UserController extends Controller
             $user->password = \Crypt::encrypt($request->signup_password);
             $user->save();
 
-            // Mail::send('Html.view', $data, function ($message) {
-            //     $message->to('john@johndoe.com', 'John Doe');
-            // });
-
             Mail::send('Mail.activationkey', ['activation_key' => $activation_key], function ($message) use ($request) {
                 $message->to($request->email)->subject('Activate Your Account');
             });
 
             return response()->json([
                 'status' => 200,
-                'messages' => 'Register successfully Please Check Your Mail!'
+                'messages' => 'Register successfully. Please check your mail!'
+            ]);
+        } catch (\Exception $e) {
+            \Log::error('Error during registration: '.$e->getMessage());
+            return response()->json([
+                'status' => 500,
+                'messages' => 'An error occurred during registration. Please try again later.'
             ]);
         }
     }
+}
+
 
     public function activate($activation_key)
     {
