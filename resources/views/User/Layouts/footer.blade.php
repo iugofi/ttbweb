@@ -200,13 +200,6 @@
         </div>
 
         <hr class="hr">
-
-
-    </div>
-</section>
-
-<div class="text-center landing-main-footer py-4">
-    <span class="text-[#8c9097] text-white text-[0.9375rem]">
         <div class="grid grid-cols-12 gap-6">
             <div class="xl:col-span-6 col-span-12">
                 <div class="support-link">
@@ -235,6 +228,15 @@
             </div>
 
         </div>
+
+    </div>
+</section>
+
+<div class="text-center landing-main-footer py-4">
+    <span class="text-[#8c9097] text-white text-[0.9375rem]">
+        Copyright © <span id="year"></span> <a
+            href="https://www.ttbinternetsecurity.com/"
+            class="!text-primary font-semibold"><u>ttbinternetsecurity</u></a>.
     </span>
 </div>
 
