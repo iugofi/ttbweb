@@ -21,7 +21,7 @@ class Users extends Model
         'status',
         'otp',
         'activation_key',
-        'reset_tokens'
+        'reset_tokens',
 
 
 
