@@ -42,8 +42,6 @@
                             <div class="btn-down">
                                 <a href="#" id="downloadLink">Download For Mac</a>
                                 <div id="toast">Download started...</div>
-                                <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-                                <script src="script.js"></script>
                             </div>
                             <span> For MacOS X10.15 or above</span>
                         </div>
@@ -52,6 +50,8 @@
                             <img src="{{ asset('assets/img/window.png') }}" alt="" class="img-fluid" width="25%">
                             <div class="btn-down">
                                 <a href="#" id="downloadLink">Download For Window</a>
+                                <div id="toast">Download started...</div>
+
                             </div>
                             <span> For Window 10, 8, 7 or above</span>
                         </div>
@@ -60,6 +60,8 @@
                             <img src="{{ asset('assets/img/android.png') }}" alt="" class="img-fluid" width="25%">
                             <div class="btn-down">
                                 <a href="#" id="downloadLink">Download For Android</a>
+                                <div id="toast">Download started...</div>
+
                             </div>
                             <span> For Android Ver 5.0 or above</span>
                         </div>
@@ -98,9 +100,7 @@
 <script>
     $(document).ready(function() {
     $('#downloadLink').click(function(event) {
-        event.preventDefault(); // Prevent the default action of the link
-
-        // Show the toast message
+        event.preventDefault(); 
         $('#toast').fadeIn(400).delay(2000).fadeOut(400);
     });
 });
