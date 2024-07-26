@@ -230,12 +230,6 @@
 
         </div>
 
-<div class="text-center landing-main-footer py-4">
-    <span class="text-[#8c9097] text-white text-[0.9375rem]"> Copyright © <span id="year"></span> <a
-        href="https://www.ttbinternetsecurity.com/" class="!text-primary font-semibold"><u>ttbinternetsecurity</u></a>.
-    </span>
-</div>
-
 </div>
 </section>
 </div>
