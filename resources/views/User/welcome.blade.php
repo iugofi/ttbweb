@@ -1158,7 +1158,7 @@
                                         alt="" srcset=""
                                         style="width: 50px; height: 50px; border-radius: 30px;">
                                     <div class="box-location d-flex">
-                                        <p>Canada</p>
+                                        <h2>Canada</h2>
                                         <p>Sugarpine Court Brampton, Ontario, CA</p>
                                     </div>
                                 </li>
@@ -1167,7 +1167,7 @@
                                         alt="" srcset=""
                                         style="width: 50px; height: 50px; border-radius: 30px;">
                                     <div class="box-location d-flex">
-                                        <p>India</p>
+                                        <h2>India</h2>
                                         <p>Bestech Business Tower, Sector 66, Mohali, IN</p>
                                     </div>
                                 </li>
@@ -1182,7 +1182,7 @@
                                         alt="" srcset=""
                                         style="width: 50px; height: 50px; border-radius: 30px;">
                                     <div class="box-location d-flex">
-                                        <p>Canada</p>
+                                        <h2>Canada</h2>
                                         <p>Sugarpine Court Brampton, Ontario, CA</p>
                                     </div>
                                 </li>
@@ -1191,7 +1191,7 @@
                                         alt="" srcset=""
                                         style="width: 50px; height: 50px; border-radius: 30px;">
                                     <div class="box-location d-flex">
-                                        <p>India</p>
+                                        <h2>India</h2>
                                         <p>Bestech Business Tower, Sector 66, Mohali, IN</p>
                                     </div>
                                 </li>
