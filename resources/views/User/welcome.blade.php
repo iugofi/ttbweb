@@ -1212,11 +1212,9 @@
                             <h2 class="text-white text-2xl font-semibold mb-2">Follow Us</h2>
                             <ul class="justify-center lg:justify-end space-x-2">
                                 <li>
-                                    <button aria-label="Facebook" type="button"
-                                        class="ti-btn ti-btn-sm mx-1 ti-btn-primary"><a
-                                            href="https://www.facebook.com/ttbinternetsecurities/">
+                                    <a href="https://www.facebook.com/ttbinternetsecurities/">
                                             <i class="ri-facebook-line font-bold"></i>
-                                    </button> Facebook</a>
+                                    Facebook</a>
                                 </li>
                                 <li>
                                     <button aria-label="Twitter" type="button"
