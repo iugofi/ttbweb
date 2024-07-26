@@ -1205,9 +1205,6 @@
                 </div>
                 <hr class="hr">
 
-
-
-                -------------------
                 <div class="grid grid-cols-12 gap-6">
 
                     <div class="xl:col-span-2 col-span-12">
