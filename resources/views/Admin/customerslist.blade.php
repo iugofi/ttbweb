@@ -60,8 +60,8 @@
                                 Customers List
                             </div>
                         </div>
-                      
-                        
+
+
                         <div class="box-body">
                             <div class="box text-center">
                                 <div class="" id="show_success_alert"></div>
@@ -92,12 +92,12 @@
                                             @php
                                                 $id = 1;
                                             @endphp
-                                            <td class="border px-4 py-2">{{ $key + 1 }}</td>  
-                                            <td class="border px-4 py-2">{{ $item->firstname }}</td>  
-                                            <td class="border px-4 py-2">{{ $item->lastname }}</td>                               
-                                            <td class="border px-4 py-2">{{ $item->email }}</td>                               
-                                            <td class="border px-4 py-2">{{ $item->phone }}</td>                               
-                                            <td class="border px-4 py-2">{{ $item->address }}</td>                               
+                                            <td class="border px-4 py-2">{{ $key + 1 }}</td>
+                                            <td class="border px-4 py-2">{{ $item->firstname }}</td>
+                                            <td class="border px-4 py-2">{{ $item->lastname }}</td>
+                                            <td class="border px-4 py-2">{{ $item->email }}</td>
+                                            <td class="border px-4 py-2">{{ $item->phone }}</td>
+                                            <td class="border px-4 py-2">{{ $item->address }}</td>
 
                                             <td class="border px-4 py-2">
                                                 <?php
@@ -118,24 +118,21 @@
                                                         echo "Decryption failed: " . $e->getMessage();
                                                     }
                                                 ?>
-                                            </td>                              
-                                            <td class="border px-4 py-2">{{ $item->activation_key }}</td>   
-                                            <td class="border px-4 py-2">{!! nl2br(e(Str::limit(strip_tags($item->reset_tokens), 10))) !!}</td>                               
+                                            </td>
+                                            <td class="border px-4 py-2">{{ $item->activation_key }}</td>
+                                            <td class="border px-4 py-2">{!! nl2br(e(Str::limit(strip_tags($item->reset_tokens), 10))) !!}</td>
                                             <td class="border px-4 py-2">{!! nl2br(e(Str::limit(strip_tags($item->otp), 10))) !!}</td>
-                                            <td class="border px-4 py-2">{{ $item->status }}</td>                                                                       
-                                           
+                                            <td class="border px-4 py-2">{{ $item->status }}</td>
+
                                             <td class="border px-4 py-2">
                                                 <div class="flex flex-row items-center !gap-2 text-[0.9375rem]">
-                                                    
+
                                                     <a aria-label="anchor" href="{{ route('customers.edit', \Crypt::encrypt($item->id)) }}"
                                                         class="ti-btn ti-btn-icon ti-btn-wave !gap-0 !m-0 !h-[1.75rem] !w-[1.75rem] text-[0.8rem] bg-primary/10 text-primary hover:bg-primary hover:text-white hover:border-primary">
                                                         <i class="ri-edit-line"></i>
                                                     </a>
-                                                    <button aria-label="button" type="button"
-                                                        class="ti-btn !py-1 !px-2 !text-[0.75rem] ti-btn-danger-full btn-wave delete-customers"
-                                                        data-item-id="{{ $item->id }}">
-                                                        <i
-                                                            class="ri-delete-bin-line align-middle me-2 inline-block"></i>Delete
+                                                    <button aria-label="button" type="button" class="ti-btn !py-1 !px-2 !text-[0.75rem] ti-btn-danger-full btn-wave delete-customers" data-item-id="{{ $item->id }}">
+                                                        <i class="ri-delete-bin-line align-middle me-2 inline-block"></i>Delete
                                                     </button>
 
                                                 </div>
@@ -177,6 +174,7 @@
 
 <script>
     $(document).ready(function() {
+        var csrfToken = $('meta[name="csrf-token"]').attr('content');
         $('#STORE_ID').on('change', function() {
             var storeId = $(this).val();
             console.log(storeId);
@@ -207,7 +205,7 @@
                                 '</td>' +
                                 '<td class="border">' + item.image +
                                 '</td>' +
-                                
+
                                 '<td class="border px-4 py-2">' +
                                 '<div class="flex flex-row items-center !gap-2 text-[0.9375rem]">' +
                                 '<a aria-label="anchor" href="{{ route('edit.adminuseredit', ':encrypted_id')}}" class="ti-btn ti-btn-icon ti-btn-wave !gap-0 !m-0 !h-[1.75rem] !w-[1.75rem] text-[0.8rem] bg-primary/10 text-primary hover:bg-primary hover:text-white hover:border-primary">' +
@@ -229,37 +227,34 @@
                 $('#showdata tbody').empty();
             }
         });
+
+        $('.delete-customers').click(function() {
+        var itemId = $(this).data('item-id');
+        var url = "{{ route('delete.customerdelete', ':id') }}";
+        url = url.replace(':id', itemId);
+
+        // Show confirmation dialog before deleting
+        if (confirm("Are you sure you want to delete this item?")) {
+            $.ajax({
+                url: url,
+                type: 'DELETE',
+                headers: {
+                    'X-CSRF-TOKEN': csrfToken // Include CSRF token in headers
+                },
+                success: function(response) {
+                    console.log(response.message);
+                    location.reload(); // Reload the page after successful deletion
+                },
+                error: function(xhr, status, error) {
+                    console.error(error);
+                }
+            });
+        }
+    });
     });
 </script>
 
-    <script>
-        $(document).ready(function() {
-            var csrfToken = $('meta[name="csrf-token"]').attr('content');
-            $('.delete-customers').click(function() {
-                var itemId = $(this).data('item-id');
-                var url = "{{ route('delete.customerdelete', ':id') }}";
-                url = url.replace(':id', itemId);
 
-                // Show confirmation dialog before deleting
-                if (confirm("Are you sure you want to delete this item?")) {
-                    $.ajax({
-                        url: url,
-                        type: 'DELETE',
-                        headers: {
-                            'X-CSRF-TOKEN': csrfToken // Include CSRF token in headers
-                        },
-                        success: function(response) {
-                            console.log(response.message);
-                            location.reload();
-                        },
-                        error: function(xhr, status, error) {
-                            console.error(error);
-                        }
-                    });
-                }
-            });
-        });
-    </script>
 
 
 @endsection
