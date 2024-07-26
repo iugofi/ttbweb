@@ -228,7 +228,7 @@
             }
         });
 
-        $('.delete-customers').click(function() {
+        $(document).on('click', '.delete-customers', function() {
         var itemId = $(this).data('item-id');
         var url = "{{ route('delete.customerdelete', ':id') }}";
         url = url.replace(':id', itemId);
