@@ -48870,6 +48870,9 @@ img.img-fluid.service-icon {
 .home2-new-seven-pricing .tab-content .tab-pane{
   border:0px solid;
 }
+.dark #pricing-monthly-pane {
+    background-color: #1A1C1E;
+}
 
 .home2-new-seven-pricing .box {
     position: relative;
