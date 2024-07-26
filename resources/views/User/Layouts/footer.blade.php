@@ -183,8 +183,7 @@
                     <div class="subscribe-form">
                         <form method="post" action="https://www.nighthawk-routerlogin.com/saveemailsub"
                             id="mail-subscribe">
-                            <input type="hidden" name="_token"
-                                value="iBdPTkSAy1r2FkYmXRlfaYojRVg8F4oXZcKr5jYP">
+                            <input type="hidden" name="_token" value="iBdPTkSAy1r2FkYmXRlfaYojRVg8F4oXZcKr5jYP">
                             <div class="form-group relative">
                                 <input type="email" name="email_subscribe" id="email_subscribe"
                                     placeholder="Enter mail address..." required=""
@@ -201,41 +200,43 @@
         </div>
 
         <hr class="hr">
-        <div class="grid grid-cols-12 gap-6">
-            <div class="xl:col-span-6 col-span-12">
-                <div class="support-link">
-                    <ul class="flex lg:flex-row lg:space-x-4">
+        <div class="text-center landing-main-footer py-4">
+            <div class="grid grid-cols-12 gap-6">
+                <div class="xl:col-span-6 col-span-12">
+                    <div class="support-link">
+                        <ul class="flex lg:flex-row lg:space-x-4">
                             <li><a href="#" class="text-white">Support</a></li>
                             <li><a href="#" class="text-white">Privacy Policy</a></li>
                             <li><a href="#" class="text-white">Terms Of Service</a></li>
                             <li><a href="#" class="text-white">Return &amp; Refund Policy</a></li>
                             <li><a href="#" class="text-white">Sitemap</a></li>
                         </ul>
+                    </div>
                 </div>
-            </div>
 
-            <div class="xl:col-span-6 col-span-12 text-center landing-main-footer py-4">
-                <div class="footer-widget">
-                    <div class="mb-4 lg:mb-0">
-                    <p class="text-white text-sm text-right text-[#8c9097] text-white text-[0.9375rem]">
-                        Copyright © 2024
-                        <a href="https://nighthawk-routerlogin.com/">
-                            <b style="color:#11CDBE;">TTB Antivirus.</b>
-                        </a>
-                        All Rights Reserved
-                    </p>
+                <div class="xl:col-span-6 col-span-12">
+                    <div class="footer-widget">
+                        <div class="mb-4 lg:mb-0">
+                            <p class="text-white text-sm text-right">
+                                Copyright © 2024
+                                <a href="https://nighthawk-routerlogin.com/">
+                                    <b style="color:#11CDBE;">TTB Antivirus.</b>
+                                </a>
+                                All Rights Reserved
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                </div>
-            </div>
 
+            </div>
         </div>
-
     </div>
 </section>
 
 {{-- <div class="text-center landing-main-footer py-4">
     <span class="text-[#8c9097] text-white text-[0.9375rem]"> Copyright © <span id="year"></span> <a
-        href="https://www.ttbinternetsecurity.com/" class="!text-primary font-semibold"><u>ttbinternetsecurity</u></a>.
+            href="https://www.ttbinternetsecurity.com/"
+            class="!text-primary font-semibold"><u>ttbinternetsecurity</u></a>.
     </span>
 </div> --}}
 
@@ -251,34 +252,34 @@
 
 <!-- SCROLL-TO-TOP -->
 <div class="scrollToTop">
-<span class="arrow"><i class="ri-arrow-up-s-fill  text-[1.25rem]"></i></span>
+    <span class="arrow"><i class="ri-arrow-up-s-fill  text-[1.25rem]"></i></span>
 </div>
 <div id="responsive-overlay"></div>
 
 <!-- POPPER JS -->
-<script src="{{asset('assets/libs/%40popperjs/core/umd/popper.min.js')}}"></script>
+<script src="{{ asset('assets/libs/%40popperjs/core/umd/popper.min.js') }}"></script>
 
 <!-- COLOR PICKER JS -->
-<script src="{{asset('assets/libs/%40simonwep/pickr/pickr.es5.min.js')}}"></script>
+<script src="{{ asset('assets/libs/%40simonwep/pickr/pickr.es5.min.js') }}"></script>
 
 <!-- SWIPER JS -->
-<script src="{{asset('assets/libs/swiper/swiper-bundle.min.js')}}"></script>
+<script src="{{ asset('assets/libs/swiper/swiper-bundle.min.js') }}"></script>
 
 <!-- DEFAULTMENU JS -->
-<script src="{{asset('assets/js/defaultmenu.js')}}"></script>
+<script src="{{ asset('assets/js/defaultmenu.js') }}"></script>
 
 <!-- SIMPLEBAR JS -->
-<script src="{{asset('assets/libs/simplebar/simplebar.min.js')}}"></script>
+<script src="{{ asset('assets/libs/simplebar/simplebar.min.js') }}"></script>
 
 <!-- INTERNAL LANDING JS -->
-<script src="{{asset('assets/js/landing.js')}}"></script>
+<script src="{{ asset('assets/js/landing.js') }}"></script>
 
 <!-- PRELINE JS -->
-<script src="{{asset('assets/libs/preline/preline.js')}}"></script>
+<script src="{{ asset('assets/libs/preline/preline.js') }}"></script>
 
-<script src="{{asset('assets/js/custom-switcher.js')}}"></script>
-<script src="{{asset('assets/js/swiper.js')}}"></script>
-<script src="{{asset('assets/js/switch.js')}}"></script>
+<script src="{{ asset('assets/js/custom-switcher.js') }}"></script>
+<script src="{{ asset('assets/js/swiper.js') }}"></script>
+<script src="{{ asset('assets/js/switch.js') }}"></script>
 
 
 
