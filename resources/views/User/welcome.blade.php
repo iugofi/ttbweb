@@ -1321,7 +1321,7 @@
                 <hr class="hr">
                 <div class="grid grid-cols-12 gap-6">
                     <div class="xl:col-span-6 col-span-12">
-                        <div class="footer-widget">
+                        <div class="support-link">
                             <ul class="flex lg:flex-row lg:space-x-4">
                                     <li><a href="#" class="text-white">Support</a></li>
                                     <li><a href="#" class="text-white">Privacy Policy</a></li>
