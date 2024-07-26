@@ -214,7 +214,6 @@
                     @endif
 
                     @if (session('admintype') == 'supervisor')
-
                     <li class="slide__category"><span class="category-name">Customers</span></li>
                     <li class="slide">
                         <a href="{{route('customer.show')}}" class="side-menu__item">
@@ -222,7 +221,6 @@
                             <span class="side-menu__label">Customers List</span>
                         </a>
                     </li>
-
                     @endif
 
 
