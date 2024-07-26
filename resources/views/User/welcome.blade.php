@@ -1126,13 +1126,13 @@
                             <ul class="justify-center lg:justify-end space-x-2">
                                 <li class="footer-icon">
                                     <a href="https://www.facebook.com/ttbinternetsecurities/">
-                                            <i class="fa-solid fa-phone"></i>
-                                        </a><a href="tel:800-710-9311"> 800-710-9311</a>
+                                        <i class="fa-solid fa-phone"></i>
+                                    </a><a href="tel:800-710-9311"> 800-710-9311</a>
                                 </li>
                                 <li class="footer-icon">
                                     <a href="https://x.com/i/flow/login?redirect_after_login=%2FTTBisecure">
-                                            <i class="fa-solid fa-envelope"></i>
-                                        </a><a href="mailto:care@ttbinternetsecurity.com" class="text-sm">
+                                        <i class="fa-solid fa-envelope"></i>
+                                    </a><a href="mailto:care@ttbinternetsecurity.com" class="text-sm">
                                         care@ttbinternetsecurity.com</a>
                                 </li>
                             </ul>
@@ -1205,34 +1205,33 @@
                             <ul class="justify-center lg:justify-end space-x-2">
                                 <li class="footer-icon">
                                     <a href="https://www.facebook.com/ttbinternetsecurities/">
-                                            <i class="ri-facebook-line font-bold"></i>
-                                    Facebook</a>
+                                        <i class="ri-facebook-line font-bold"></i>
+                                        Facebook</a>
                                 </li>
                                 <li class="footer-icon">
                                     <a href="https://x.com/i/flow/login?redirect_after_login=%2FTTBisecure">
                                         <i class="fa-brands fa-x-twitter"></i>
-                                    Twitter</a>
+                                        Twitter</a>
                                 </li>
                                 <li class="footer-icon">
                                     <a href="https://www.instagram.com/ttbinternetsecurity/">
-                                            <i class="ri-instagram-line font-bold"></i>
-                                    Instagram</a>
+                                        <i class="ri-instagram-line font-bold"></i>
+                                        Instagram</a>
                                 </li>
                                 <li class="footer-icon">
                                     <a href="https://www.youtube.com/channel/UCda5n02Q-bHeQlyWwm3ieWg">
-                                            <i class="ri-youtube-line font-bold"></i>
-                                    YouTube</a>
+                                        <i class="ri-youtube-line font-bold"></i>
+                                        YouTube</a>
                                 </li>
                                 <li class="footer-icon">
                                     <a href="https://www.linkedin.com/company/ttbinternetsecurity">
-                                            <i class="fa-brands fa-linkedin font-bold"></i>
-                                    linkedin</a>
+                                        <i class="fa-brands fa-linkedin font-bold"></i>
+                                        linkedin</a>
                                 </li>
                                 <li class="footer-icon">
-                                    <a
-                                            href="https://in.pinterest.com/ttbinternetsecurity/_created/">
-                                            <i class="fa-brands fa-square-pinterest font-bold"></i>
-                                    pinterest</a>
+                                    <a href="https://in.pinterest.com/ttbinternetsecurity/_created/">
+                                        <i class="fa-brands fa-square-pinterest font-bold"></i>
+                                        pinterest</a>
                                 </li>
                             </ul>
                         </div>
@@ -1318,6 +1317,49 @@
                         </div>
                     </div>
                 </div>
+
+                ---------------------------
+                <div class="grid grid-cols-12 gap-6">
+
+                    <div class="xl:col-span-6 col-span-12">
+                        <div class="footer-bottom py-4 border-t border-white">
+                            <div class="container mx-auto px-4">
+                                <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 items-center">
+
+                                    <!-- Navigation Links Section -->
+                                    <div class="mb-4 lg:mb-0">
+                                        <div class="flex justify-center lg:justify-center below-links">
+                                            <ul class="flex lg:flex-row lg:space-x-4">
+                                                <li><a href="#" class="text-white">Support</a></li>
+                                                <li><a href="#" class="text-white">Privacy Policy</a></li>
+                                                <li><a href="#" class="text-white">Terms Of Service</a></li>
+                                                <li><a href="#" class="text-white">Return &amp; Refund Policy</a>
+                                                </li>
+                                                <li><a href="#" class="text-white">Sitemap</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Copyright Section -->
+                                <div class="xl:col-span-6 col-span-12">
+                                    <div class="mb-4 lg:mb-0">
+                                        <p class="text-white text-sm">
+                                            Copyright © 2024
+                                            <a href="https://nighthawk-routerlogin.com/">
+                                                <b style="color:#11CDBE;">TTB Antivirus.</b>
+                                            </a>
+                                            All Rights Reserved
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
         </section>
 
