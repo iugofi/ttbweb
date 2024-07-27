@@ -50,7 +50,7 @@
 
             <!-- Start::row-1 -->
             <div class="grid grid-cols-12 gap-x-6 p-5">
-                <div class="xxl:col-span-4 xl:col-span-12 col-span-12">
+                <div class="xxl:col-span-4 xl:col-span-3 col-span-12">
                     <div class="box overflow-hidden">
                         <div class="box-body !p-0">
                             <div class="sm:flex items-start p-6      main-profile-cover">
@@ -142,7 +142,7 @@
                                         @if (isset($user_data) && !empty($user_data->email))
                                             {{ $user_data->email }}
                                         @else
-                                            ! Email
+
                                         @endif
                                     </p>
                                     <p class="mb-2">
@@ -173,8 +173,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="xxl:col-span-8 xl:col-span-12 col-span-12">
-                    <div class="grid grid-cols-12 gap-x-6 p-5">
+                <div class="xxl:col-span-8 xl:col-span-9 col-span-12">
+                    <div class="grid grid-cols-12 gap-x-6">
                         <div class="xl:col-span-12 col-span-12">
                             <div class="box">
                                 <div class="box-body !p-0">
@@ -205,11 +205,9 @@
                                             </a>
                                         </nav>
                                         <div>
-                                            <p class="font-semibold mb-2">Profile 60% completed - <a
-                                                    href="javascript:void(0);" class="text-primary text-[0.75rem]">Finish
-                                                    now</a></p>
+                                            <p class="font-semibold mb-2">Profile {{ $profileCompletion }}% completed - <a href="javascript:void(0);" class="text-primary text-[0.75rem]">Finish now</a></p>
                                             <div class="progress progress-xs progress-animate">
-                                                <div class="progress-bar bg-primary w-[60%]"></div>
+                                                <div class="progress-bar bg-primary" style="width: {{ $profileCompletion }}%;"></div>
                                             </div>
                                         </div>
 
@@ -252,7 +250,7 @@
                                                             class="hs-overlay hidden ti-modal">
                                                             <div
                                                                 class="hs-overlay-open:mt-7 ti-modal-box mt-0 ease-out h-[calc(100%-3.5rem)] min-h-[calc(100%-3.5rem)] flex items-center">
-                                                                <div class="max-h-full overflow-hidden ti-modal-content">
+                                                                <div class="max-h-full overflow-hidden ti-modal-content popup-scroll">
                                                                     <div class="ti-modal-header">
                                                                         <h6 class="modal-title" id="staticBackdropLabel3">
                                                                             Edit Profile
@@ -309,7 +307,7 @@
                                                                                     name="user_email"
                                                                                     value="{{ isset($user_data->email) ? $user_data->email : '' }}"
                                                                                     id="user_email" name=""
-                                                                                    aria-describedby="emailHelp">
+                                                                                    aria-describedby="emailHelp" disabled>
                                                                                 <div class="invalid-feedback"></div>
 
 
@@ -524,7 +522,7 @@
                                                                             @if (isset($user_data) && !empty($user_data->email))
                                                                                 {{ $user_data->email }}
                                                                             @else
-                                                                                ! Email
+
                                                                             @endif
                                                                         </span>
                                                                     </div>
@@ -539,7 +537,7 @@
                                                                             @if (isset($user_data) && !empty($user_data->phone))
                                                                                 {{ $user_data->phone }}
                                                                             @else
-                                                                                ! Email
+
                                                                             @endif
                                                                         </span>
 
@@ -556,7 +554,7 @@
                                                                             @if (isset($user_data) && !empty($user_data->address))
                                                                                 {{ $user_data->address }}
                                                                             @else
-                                                                                ! Email
+
                                                                             @endif
                                                                         </span>
 
@@ -895,14 +893,14 @@
                                             </div>
                                             <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 col-span-12 text-center boxs-down">
                                                 <img src="https://nighthawk-routerlogin.com/assets/img/mac.png" alt="" class="img-fluid pt-5 pb-5" width="25%;" style="margin: auto;">
-                                                
+
                                                 <a href="#" class="m-1 ti-btn ti-btn-primary-full mt-0">
                                                     Download For Mac </a><br>
                                                 <span> X10.15 or above</span>
                                             </div>
                                             <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 col-span-12 text-center boxs-down">
                                                 <img src="https://nighthawk-routerlogin.com/assets/img/ios.png" alt="" class="img-fluid pt-5 pb-5" width="25%" style="margin: auto;">
-                                                
+
                                                 <a href="#" class="m-1 ti-btn ti-btn-primary-full mt-0">
                                                     Download For iOS </a><br>
                                                 <span> X10.15 or above</span>
@@ -1012,6 +1010,7 @@
                             removeValidationClass("#myprofilechangeother");
                             $('#profilechangeotherbtn').val('profile Change');
                             $('#modalCloseButtonotprofile').click();
+                            location.reload();
                         }
                     }
                 });

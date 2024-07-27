@@ -135,9 +135,10 @@ Route::get('/network-protection', [UserController::class, 'network_protection'])
 
 
 
+Route::get('/', [UserController::class, 'new_home'])->name('user.index');
 
 
-Route::get('/', [UserController::class, 'homenew'])->name('user.index');
+// Route::get('/', [UserController::class, 'homenew'])->name('user.index');
 
 //home page new
 Route::get('/homenew', [UserController::class, 'index'])->name('user.homenew');
