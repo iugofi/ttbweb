@@ -33424,7 +33424,9 @@ span.flatpickr-weekday {
     z-index: 10;
     height: 18.75rem;
 }
-
+.popup-scroll {
+    overflow-y: auto;
+}
 #project-descriptioin-editor {
     height: 200px !important;
     overflow: auto !important;
