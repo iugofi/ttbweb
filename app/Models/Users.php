@@ -46,6 +46,6 @@ class Users extends Model
         }
     }
 
-    return ($filledFields / $totalFields) * 100;
+    return round(($filledFields / $totalFields) * 100);
 }
 }
