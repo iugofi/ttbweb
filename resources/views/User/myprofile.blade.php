@@ -142,7 +142,7 @@
                                         @if (isset($user_data) && !empty($user_data->email))
                                             {{ $user_data->email }}
                                         @else
-                                            ! Email
+
                                         @endif
                                     </p>
                                     <p class="mb-2">
@@ -522,7 +522,7 @@
                                                                             @if (isset($user_data) && !empty($user_data->email))
                                                                                 {{ $user_data->email }}
                                                                             @else
-                                                                                ! Email
+
                                                                             @endif
                                                                         </span>
                                                                     </div>
@@ -537,7 +537,7 @@
                                                                             @if (isset($user_data) && !empty($user_data->phone))
                                                                                 {{ $user_data->phone }}
                                                                             @else
-                                                                                ! Email
+
                                                                             @endif
                                                                         </span>
 
@@ -554,7 +554,7 @@
                                                                             @if (isset($user_data) && !empty($user_data->address))
                                                                                 {{ $user_data->address }}
                                                                             @else
-                                                                                ! Email
+                                                                               
                                                                             @endif
                                                                         </span>
 
