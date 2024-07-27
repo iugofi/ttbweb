@@ -328,286 +328,7 @@
         </section>
 
 
-        <!-- Start:: Section-9 -->
-        <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]" id="faq">
-            <div class="container text-center">
-
-                <div class="grid grid-cols-12 gap-6 text-start">
-                    <div class="xl:col-span-12 col-span-12">
-                        <div class="grid grid-cols-12 gap-6">
-                            <div class="xl:col-span-6 col-span-12">
-                                <div class="lg:text-start !flex items-center lg:justify-start justify-center">
-                                    <img src="{{ asset('assets/img/We-Provide-Web-Design-with-App-Development.png') }}"
-                                        alt="" width="600" class="img-fluid">
-                                </div>
-                            </div>
-                            <div class="xl:col-span-6 col-span-12">
-                                <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 col-span-12">
-                                    <div class="lg:py-[3rem]">
-                                        <h2 class="landing-banner-heading mb-4 opacity-[0.9]"><span>What Our Client Say
-                                                <br> About
-                                                Apdash</h2>
-                                        <p class="card-text mb-4">With supporting text below as a natural lead-in to
-                                            additional content. <br> Lorem ipsum dolor sit amet consectetur adipisicing
-                                            elit. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-                                            provident id accusantium.</p>
-                                        <p class="card-text mb-4">With supporting text below as a natural lead-in to
-                                            additional content. <br> Lorem ipsum dolor sit amet consectetur adipisicing
-                                            elit. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-                                            provident id accusantium.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End:: Section-9 -->
-
-
-
-
-        <section
-            class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
-            id="features">
-            <div class="container text-center">
-                <div class="grid grid-cols-12 gap-x-6">
-                    <div class="xl:col-span-4 col-span-12">
-                        <div class="box text-center">
-                            <div class="box-body">
-                                <div class="mb-2 img-hover">
-                                    <span class="avatar avatar-md">
-
-                                        <img src="assets/img/Green-icon-1.png" alt="img" class="!rounded-md">
-                                    </span>
-                                </div>
-                                <h6 class="box-title font-semibold mb-2">Why do we use it?</h6>
-                                <p class="card-text mb-4">Many desktop publishing packages and <br> web page editors
-                                    now use Lorem Ipsum as <br> their default model text.</p>
-
-                            </div>
-                            <i class='bx bx-chevrons-right'></i>
-                        </div>
-                    </div>
-                    <div class="xl:col-span-4 col-span-12">
-                        <div class="box text-center">
-                            <div class="box-body">
-                                <div class="mb-2 img-hover2">
-                                    <span class="avatar avatar-md">
-                                        <img src="assets/img/Green-icon-2.png" alt="img" class="!rounded-md">
-
-                                    </span>
-                                </div>
-                                <h6 class="box-title font-semibold mb-2">Why do we use it?</h6>
-                                <p class="card-text mb-4">Many desktop publishing packages and <br> web page editors
-                                    now use Lorem Ipsum as <br> their default model text.</p>
-
-                            </div>
-                            <i class='bx bx-chevrons-right'></i>
-                        </div>
-                    </div>
-                    <div class="xl:col-span-4 col-span-12">
-                        <div class="box text-center">
-                            <div class="box-body">
-                                <div class="mb-2 img-hover3">
-                                    <span class="avatar avatar-md">
-                                        <img src="assets/img/Green-icon-3.png" alt="img" class="!rounded-md">
-
-                                    </span>
-                                </div>
-                                <h6 class="box-title font-semibold mb-2">Why do we use it?</h6>
-                                <p class="card-text mb-4">Many desktop publishing packages and <br> web page editors
-                                    now use Lorem Ipsum as <br> their default model text.</p>
-
-                            </div>
-                            <i class='bx bx-chevrons-right'></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]" id="features">
-            <div class="container main-banner-container">
-                <div class="grid grid-cols-12 gap-6">
-                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
-                        <div class="xl:col-span-3 col-span-12 border-custom-main">
-                            <div class="box">
-                                <div class="box-header">
-                                    <div class="flex align-center w-full">
-                                        <img src="assets/img/24-7-Support.png" alt="img"
-                                            class="avatar avatar-rounded me-2 !mb-0">
-                                        <div class="my-auto">
-                                            <div class="text-[.9375rem] font-semibold">24/7 <br>support</span></div>
-
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <div class="box-body">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam possimus distinctio
-                                    ipsam sed cum tempora!
-                                    <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum qui nobis, impedit
-                                    nisi fuga quam cupiditate laboriosam nulla.
-                                    <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                    <br> Lorem ipsum dolor sit amet, consectetur adipisicing.
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
-                        <div class="xl:col-span-3 col-span-12 border-custom-main">
-                            <div class="box">
-                                <div class="box-header">
-                                    <div class="flex align-center w-full">
-                                        <img src="assets/img/30-Day-Money-back-Guarantee.png" alt="img"
-                                            class="avatar avatar-rounded me-2 !mb-0">
-                                        <div class="my-auto">
-                                            <div class="text-[.9375rem] font-semibold">30-Day Mony-back
-                                                <br>Guarantee</span>
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <div class="box-body">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam possimus distinctio
-                                    ipsam sed cum tempora!
-                                    <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum qui nobis, impedit
-                                    nisi fuga quam cupiditate laboriosam nulla.
-                                    <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                    <br> Lorem ipsum dolor sit amet, consectetur adipisicing.
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="grid-cols-12 mt-5">
-                    <div class="container text-center">
-                        <a href="index.html" class="m-1 ti-btn ti-btn-primary-full">
-                            Download
-                            <i class="ri-eye-line ms-2 align-middle"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-
-        </section>
-
-
-        ------------
-        <style>
-            .testimonial-area {
-                position: relative;
-            }
-
-            .testimonial-content {
-                position: relative;
-                z-index: 1;
-                bottom: 4.8rem;
-            }
-
-            .owl-nav {
-                position: absolute;
-                top: 50%;
-                width: calc(100% - 100px);
-                /* Reduced width to leave space for buttons */
-                display: flex;
-                justify-content: space-between;
-                transform: translateY(-4rem);
-                /* padding: 0 50px;  */
-                box-sizing: border-box;
-                width: 100%;
-            }
-
-            .owl-nav button {
-                background-color: transparent;
-                border: none;
-                font-size: 30px;
-                cursor: pointer;
-                transition: color 0.3s;
-            }
-
-            .owl-nav button:hover {
-                color: var(--blue);
-            }
-
-            .sec-title.white-title h2 {
-                color: #fff;
-            }
-
-            .client-video img {
-                width: 150px !important;
-                max-width: 65px;
-            }
-
-            .client-info i.fa-solid.fa-quote-left {
-                position: absolute;
-                right: 10px;
-                font-size: 60px;
-                color: #11CDBE;
-            }
-
-            .client-video {
-                padding-right: 15px;
-            }
-
-            .client-info {
-                display: flex;
-                align-items: center;
-                text-align: left;
-                padding-bottom: 30px;
-                margin-top: 1rem;
-            }
-
-            .single-testimonial p {
-                background: #fff;
-                padding: 42px 32px;
-                box-shadow: 0px 0px 8px 2px #0000001a;
-                border-radius: 6px;
-            }
-
-            .back-img {
-                content: url('https://www.nighthawk-routerlogin.com/assets/img/Bg.png');
-                width: 100%;
-                position: relative;
-                /* top: 5rem; */
-            }
-
-            .owl-nav button.owl-prev {
-                position: relative;
-                left: -3rem;
-                padding: 8px;
-                border-radius: 39px;
-                border-width: 1px;
-                border: 1px solid;
-                height: 38px;
-                align-items: center;
-                display: inherit;
-                font-size: 24px;
-                color: #0000006e;
-            }
-
-            .owl-nav button.owl-next {
-                position: relative;
-                right: -2rem;
-                padding: 8px;
-                border-radius: 39px;
-                border-width: 1px;
-                border: 1px solid;
-                height: 38px;
-                align-items: center;
-                display: inherit;
-                font-size: 24px;
-                color: #0000006e;
-            }
-        </style>
+        <!-- Start:: testimonial Section-9 -->
         <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70" id="faq" style="overflow: hidden; padding-bottom: 0rem; height: 420px;">
             <div class="container main-banner-container">
                 <section class="testimonial-area">
@@ -846,6 +567,145 @@
                     });
                 });
             </script>
+
+        <!-- End:: testimonial Section-9 -->
+
+
+
+
+        <section
+            class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
+            id="features">
+            <div class="container text-center">
+                <div class="grid grid-cols-12 gap-x-6">
+                    <div class="xl:col-span-4 col-span-12">
+                        <div class="box text-center">
+                            <div class="box-body">
+                                <div class="mb-2 img-hover">
+                                    <span class="avatar avatar-md">
+
+                                        <img src="assets/img/Green-icon-1.png" alt="img" class="!rounded-md">
+                                    </span>
+                                </div>
+                                <h6 class="box-title font-semibold mb-2">Why do we use it?</h6>
+                                <p class="card-text mb-4">Many desktop publishing packages and <br> web page editors
+                                    now use Lorem Ipsum as <br> their default model text.</p>
+
+                            </div>
+                            <i class='bx bx-chevrons-right'></i>
+                        </div>
+                    </div>
+                    <div class="xl:col-span-4 col-span-12">
+                        <div class="box text-center">
+                            <div class="box-body">
+                                <div class="mb-2 img-hover2">
+                                    <span class="avatar avatar-md">
+                                        <img src="assets/img/Green-icon-2.png" alt="img" class="!rounded-md">
+
+                                    </span>
+                                </div>
+                                <h6 class="box-title font-semibold mb-2">Why do we use it?</h6>
+                                <p class="card-text mb-4">Many desktop publishing packages and <br> web page editors
+                                    now use Lorem Ipsum as <br> their default model text.</p>
+
+                            </div>
+                            <i class='bx bx-chevrons-right'></i>
+                        </div>
+                    </div>
+                    <div class="xl:col-span-4 col-span-12">
+                        <div class="box text-center">
+                            <div class="box-body">
+                                <div class="mb-2 img-hover3">
+                                    <span class="avatar avatar-md">
+                                        <img src="assets/img/Green-icon-3.png" alt="img" class="!rounded-md">
+
+                                    </span>
+                                </div>
+                                <h6 class="box-title font-semibold mb-2">Why do we use it?</h6>
+                                <p class="card-text mb-4">Many desktop publishing packages and <br> web page editors
+                                    now use Lorem Ipsum as <br> their default model text.</p>
+
+                            </div>
+                            <i class='bx bx-chevrons-right'></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]" id="features">
+            <div class="container main-banner-container">
+                <div class="grid grid-cols-12 gap-6">
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
+                        <div class="xl:col-span-3 col-span-12 border-custom-main">
+                            <div class="box">
+                                <div class="box-header">
+                                    <div class="flex align-center w-full">
+                                        <img src="assets/img/24-7-Support.png" alt="img"
+                                            class="avatar avatar-rounded me-2 !mb-0">
+                                        <div class="my-auto">
+                                            <div class="text-[.9375rem] font-semibold">24/7 <br>support</span></div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="box-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam possimus distinctio
+                                    ipsam sed cum tempora!
+                                    <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum qui nobis, impedit
+                                    nisi fuga quam cupiditate laboriosam nulla.
+                                    <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                    <br> Lorem ipsum dolor sit amet, consectetur adipisicing.
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
+                        <div class="xl:col-span-3 col-span-12 border-custom-main">
+                            <div class="box">
+                                <div class="box-header">
+                                    <div class="flex align-center w-full">
+                                        <img src="assets/img/30-Day-Money-back-Guarantee.png" alt="img"
+                                            class="avatar avatar-rounded me-2 !mb-0">
+                                        <div class="my-auto">
+                                            <div class="text-[.9375rem] font-semibold">30-Day Mony-back
+                                                <br>Guarantee</span>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="box-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam possimus distinctio
+                                    ipsam sed cum tempora!
+                                    <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum qui nobis, impedit
+                                    nisi fuga quam cupiditate laboriosam nulla.
+                                    <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                    <br> Lorem ipsum dolor sit amet, consectetur adipisicing.
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-cols-12 mt-5">
+                    <div class="container text-center">
+                        <a href="index.html" class="m-1 ti-btn ti-btn-primary-full">
+                            Download
+                            <i class="ri-eye-line ms-2 align-middle"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+
+
 
 
 
