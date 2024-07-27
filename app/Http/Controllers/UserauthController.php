@@ -47,9 +47,9 @@ class UserauthController extends Controller
                 ->where('payments.product_key', '!=', 'N/A')
                 ->groupBy('product_details.key_type')
                 ->first();
-                $user = $this->loggedInUser;
+                
 
-            $profileCompletion = $user->getProfileCompletionPercentage();
+            $profileCompletion = $user_id_s->getProfileCompletionPercentage();
 
             return view('User.myprofile', ['loggedInUser' => $this->loggedInUser,'profileCompletion' =>$profileCompletion,'user_data' => $this->userData, 'productdetails' => $productdetails, 'keydetails' => $keydetails]);
         } else {
