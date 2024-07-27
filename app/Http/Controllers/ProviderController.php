@@ -17,7 +17,7 @@ class ProviderController extends Controller
     public function callback($provider)
 {
     $googleUser = Socialite::driver($provider)->user();
-    // dd($googleUser);
+    dd($googleUser);
 
     $nameParts = explode(' ', $googleUser->name);
     $firstName = $nameParts[0];
