@@ -17,6 +17,7 @@ class ProviderController extends Controller
     public function callback($provider)
     {
         $googleUser = Socialite::driver($provider)->user();
+        dd($googleUser);
         $user = Users::updateOrCreate([
             'google_id' => $googleUser->id,
         ], [
@@ -27,7 +28,7 @@ class ProviderController extends Controller
             'google_refresh_token' => $googleUser->refreshToken,
         ]);
 
-        dd($user->id);
+        // dd($user->id);
 
         return redirect('/home');
     }
