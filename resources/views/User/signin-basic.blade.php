@@ -142,6 +142,7 @@
                                     class="ti-btn ti-btn-icon ti-btn-light me-[0.365rem]">
                                     <a href="https://nighthawk-routerlogin.com/auth/google/redirect">
                                         <i class="ri-google-line font-bold text-dark opacity-[0.7]"></i>
+                                    </a>
                                 </button>
                                 <button aria-label="button" type="button" class="ti-btn ti-btn-icon ti-btn-light">
                                     <a href="https://nighthawk-routerlogin.com/auth/twitter/redirect">
