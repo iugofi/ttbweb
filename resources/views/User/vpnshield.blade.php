@@ -328,7 +328,181 @@
         </section>
 
 
-        <!-- Start:: testimonial Section-9 -->
+        <!-- Start:: Section-9 -->
+        <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]" id="faq">
+            <div class="container text-center">
+
+                <div class="grid grid-cols-12 gap-6 text-start">
+                    <div class="xl:col-span-12 col-span-12">
+                        <div class="grid grid-cols-12 gap-6">
+                            <div class="xl:col-span-6 col-span-12">
+                                <div class="lg:text-start !flex items-center lg:justify-start justify-center">
+                                    <img src="{{ asset('assets/img/We-Provide-Web-Design-with-App-Development.png') }}"
+                                        alt="" width="600" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="xl:col-span-6 col-span-12">
+                                <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 col-span-12">
+                                    <div class="lg:py-[3rem]">
+                                        <h2 class="landing-banner-heading mb-4 opacity-[0.9]"><span>What Our Client Say
+                                                <br> About
+                                                Apdash</h2>
+                                        <p class="card-text mb-4">With supporting text below as a natural lead-in to
+                                            additional content. <br> Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+                                            provident id accusantium.</p>
+                                        <p class="card-text mb-4">With supporting text below as a natural lead-in to
+                                            additional content. <br> Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+                                            provident id accusantium.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End:: Section-9 -->
+
+
+
+
+        <section
+            class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
+            id="features">
+            <div class="container text-center">
+                <div class="grid grid-cols-12 gap-x-6">
+                    <div class="xl:col-span-4 col-span-12">
+                        <div class="box text-center">
+                            <div class="box-body">
+                                <div class="mb-2 img-hover">
+                                    <span class="avatar avatar-md">
+
+                                        <img src="assets/img/Green-icon-1.png" alt="img" class="!rounded-md">
+                                    </span>
+                                </div>
+                                <h6 class="box-title font-semibold mb-2">Why do we use it?</h6>
+                                <p class="card-text mb-4">Many desktop publishing packages and <br> web page editors
+                                    now use Lorem Ipsum as <br> their default model text.</p>
+
+                            </div>
+                            <i class='bx bx-chevrons-right'></i>
+                        </div>
+                    </div>
+                    <div class="xl:col-span-4 col-span-12">
+                        <div class="box text-center">
+                            <div class="box-body">
+                                <div class="mb-2 img-hover2">
+                                    <span class="avatar avatar-md">
+                                        <img src="assets/img/Green-icon-2.png" alt="img" class="!rounded-md">
+
+                                    </span>
+                                </div>
+                                <h6 class="box-title font-semibold mb-2">Why do we use it?</h6>
+                                <p class="card-text mb-4">Many desktop publishing packages and <br> web page editors
+                                    now use Lorem Ipsum as <br> their default model text.</p>
+
+                            </div>
+                            <i class='bx bx-chevrons-right'></i>
+                        </div>
+                    </div>
+                    <div class="xl:col-span-4 col-span-12">
+                        <div class="box text-center">
+                            <div class="box-body">
+                                <div class="mb-2 img-hover3">
+                                    <span class="avatar avatar-md">
+                                        <img src="assets/img/Green-icon-3.png" alt="img" class="!rounded-md">
+
+                                    </span>
+                                </div>
+                                <h6 class="box-title font-semibold mb-2">Why do we use it?</h6>
+                                <p class="card-text mb-4">Many desktop publishing packages and <br> web page editors
+                                    now use Lorem Ipsum as <br> their default model text.</p>
+
+                            </div>
+                            <i class='bx bx-chevrons-right'></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]" id="features">
+            <div class="container main-banner-container">
+                <div class="grid grid-cols-12 gap-6">
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
+                        <div class="xl:col-span-3 col-span-12 border-custom-main">
+                            <div class="box">
+                                <div class="box-header">
+                                    <div class="flex align-center w-full">
+                                        <img src="assets/img/24-7-Support.png" alt="img"
+                                            class="avatar avatar-rounded me-2 !mb-0">
+                                        <div class="my-auto">
+                                            <div class="text-[.9375rem] font-semibold">24/7 <br>support</span></div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="box-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam possimus distinctio
+                                    ipsam sed cum tempora!
+                                    <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum qui nobis, impedit
+                                    nisi fuga quam cupiditate laboriosam nulla.
+                                    <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                    <br> Lorem ipsum dolor sit amet, consectetur adipisicing.
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
+                        <div class="xl:col-span-3 col-span-12 border-custom-main">
+                            <div class="box">
+                                <div class="box-header">
+                                    <div class="flex align-center w-full">
+                                        <img src="assets/img/30-Day-Money-back-Guarantee.png" alt="img"
+                                            class="avatar avatar-rounded me-2 !mb-0">
+                                        <div class="my-auto">
+                                            <div class="text-[.9375rem] font-semibold">30-Day Mony-back
+                                                <br>Guarantee</span>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="box-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam possimus distinctio
+                                    ipsam sed cum tempora!
+                                    <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum qui nobis, impedit
+                                    nisi fuga quam cupiditate laboriosam nulla.
+                                    <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                    <br> Lorem ipsum dolor sit amet, consectetur adipisicing.
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-cols-12 mt-5">
+                    <div class="container text-center">
+                        <a href="index.html" class="m-1 ti-btn ti-btn-primary-full">
+                            Download
+                            <i class="ri-eye-line ms-2 align-middle"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+
+        ------------
+
         <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70" id="faq" style="overflow: hidden; padding-bottom: 0rem; height: 420px;">
             <div class="container main-banner-container">
                 <section class="testimonial-area">
@@ -338,6 +512,7 @@
                         </div>
                         <div class="back-img"></div>
                         <div class="testimonial-content owl-carousel owl-loaded owl-drag">
+
                             <!-- Repeat the above block for more testimonials -->
                         <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-2200px, 0px, 0px); transition: 1s; width: 6050px;"><div class="owl-item cloned" style="width: 542px; margin-right: 8px;"><div class="single-testimonial carousel-slide single-testimonial p-4">
                                 <div class="round-1 round"></div>
@@ -532,179 +707,8 @@
                             <button class="owl-next"><i class="fa-solid fa-arrow-right"></i></button>
                         </div>
                     </div>
-            </section>
-            <script>
-                $(document).ready(function() {
-                    const owl = $(".testimonial-content");
-                    owl.owlCarousel({
-                        loop: true,
-                        margin: 8,
-                        dots: false,
-                        nav: false,
-                        mouseDrag: true,
-                        autoplay: true,
-                        autoplayTimeout: 3000,
-                        smartSpeed: 1000,
-                        responsive: {
-                            0: {
-                                items: 1
-                            },
-                            600: {
-                                items: 1
-                            },
-                            1000: {
-                                items: 2
-                            }
-                        }
-                    });
-
-                    $(".owl-prev").click(function() {
-                        owl.trigger('prev.owl.carousel');
-                    });
-
-                    $(".owl-next").click(function() {
-                        owl.trigger('next.owl.carousel');
-                    });
-                });
-            </script>
-
-        <!-- End:: testimonial Section-9 -->
-
-
-
-
-        <section
-            class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
-            id="features">
-            <div class="container text-center">
-                <div class="grid grid-cols-12 gap-x-6">
-                    <div class="xl:col-span-4 col-span-12">
-                        <div class="box text-center">
-                            <div class="box-body">
-                                <div class="mb-2 img-hover">
-                                    <span class="avatar avatar-md">
-
-                                        <img src="assets/img/Green-icon-1.png" alt="img" class="!rounded-md">
-                                    </span>
-                                </div>
-                                <h6 class="box-title font-semibold mb-2">Why do we use it?</h6>
-                                <p class="card-text mb-4">Many desktop publishing packages and <br> web page editors
-                                    now use Lorem Ipsum as <br> their default model text.</p>
-
-                            </div>
-                            <i class='bx bx-chevrons-right'></i>
-                        </div>
-                    </div>
-                    <div class="xl:col-span-4 col-span-12">
-                        <div class="box text-center">
-                            <div class="box-body">
-                                <div class="mb-2 img-hover2">
-                                    <span class="avatar avatar-md">
-                                        <img src="assets/img/Green-icon-2.png" alt="img" class="!rounded-md">
-
-                                    </span>
-                                </div>
-                                <h6 class="box-title font-semibold mb-2">Why do we use it?</h6>
-                                <p class="card-text mb-4">Many desktop publishing packages and <br> web page editors
-                                    now use Lorem Ipsum as <br> their default model text.</p>
-
-                            </div>
-                            <i class='bx bx-chevrons-right'></i>
-                        </div>
-                    </div>
-                    <div class="xl:col-span-4 col-span-12">
-                        <div class="box text-center">
-                            <div class="box-body">
-                                <div class="mb-2 img-hover3">
-                                    <span class="avatar avatar-md">
-                                        <img src="assets/img/Green-icon-3.png" alt="img" class="!rounded-md">
-
-                                    </span>
-                                </div>
-                                <h6 class="box-title font-semibold mb-2">Why do we use it?</h6>
-                                <p class="card-text mb-4">Many desktop publishing packages and <br> web page editors
-                                    now use Lorem Ipsum as <br> their default model text.</p>
-
-                            </div>
-                            <i class='bx bx-chevrons-right'></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            </section></div>
         </section>
-
-        <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]" id="features">
-            <div class="container main-banner-container">
-                <div class="grid grid-cols-12 gap-6">
-                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
-                        <div class="xl:col-span-3 col-span-12 border-custom-main">
-                            <div class="box">
-                                <div class="box-header">
-                                    <div class="flex align-center w-full">
-                                        <img src="assets/img/24-7-Support.png" alt="img"
-                                            class="avatar avatar-rounded me-2 !mb-0">
-                                        <div class="my-auto">
-                                            <div class="text-[.9375rem] font-semibold">24/7 <br>support</span></div>
-
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <div class="box-body">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam possimus distinctio
-                                    ipsam sed cum tempora!
-                                    <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum qui nobis, impedit
-                                    nisi fuga quam cupiditate laboriosam nulla.
-                                    <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                    <br> Lorem ipsum dolor sit amet, consectetur adipisicing.
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
-                        <div class="xl:col-span-3 col-span-12 border-custom-main">
-                            <div class="box">
-                                <div class="box-header">
-                                    <div class="flex align-center w-full">
-                                        <img src="assets/img/30-Day-Money-back-Guarantee.png" alt="img"
-                                            class="avatar avatar-rounded me-2 !mb-0">
-                                        <div class="my-auto">
-                                            <div class="text-[.9375rem] font-semibold">30-Day Mony-back
-                                                <br>Guarantee</span>
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <div class="box-body">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam possimus distinctio
-                                    ipsam sed cum tempora!
-                                    <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum qui nobis, impedit
-                                    nisi fuga quam cupiditate laboriosam nulla.
-                                    <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                    <br> Lorem ipsum dolor sit amet, consectetur adipisicing.
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="grid-cols-12 mt-5">
-                    <div class="container text-center">
-                        <a href="index.html" class="m-1 ti-btn ti-btn-primary-full">
-                            Download
-                            <i class="ri-eye-line ms-2 align-middle"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-
-        </section>
-
-
 
 
 
