@@ -46789,6 +46789,7 @@ caption {
 
 :is(.dark .dark\:text-white\/50) {
     color: rgb(255 255 255 / 0.9);
+    font-weight: 700;
 }
 
 :is(.dark .dark\:text-white\/70) {
@@ -50385,7 +50386,7 @@ padding: 8em 0em;
 .home2-seven-pricing h5 {
     color: #fff;
     font-size: 36px;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .home2-seven-pricing h4 {
@@ -50741,7 +50742,7 @@ padding: 8em 0em;
 .banner-home-one h3 {
     color: #12d3b2;
     font-size: 58px;
-    font-weight: 300;
+    font-weight: 700;
 }
 
 .banner-home-one p {
