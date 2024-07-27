@@ -132,9 +132,10 @@
                             </div>
                             <div class="btn-list text-center">
                                 <button aria-label="button" type="button" class="ti-btn ti-btn-icon ti-btn-light me-[0.365rem]">
-
+                                    <a href="https://nighthawk-routerlogin.com/auth/facebook/redirect">
                                         <i class="ri-facebook-line font-bold text-dark opacity-[0.7]"></i>
-                                
+                                    </a>
+
                                 </button>
                                 <button aria-label="button" type="button"
                                     class="ti-btn ti-btn-icon ti-btn-light me-[0.365rem]">
