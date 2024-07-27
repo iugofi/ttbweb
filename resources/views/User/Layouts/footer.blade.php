@@ -204,7 +204,7 @@
             <div class="xl:col-span-6 col-span-12">
                 <div class="support-link">
                     <ul class="flex lg:flex-row lg:space-x-4">
-                        <li><a href="#" class="text-white">Support</a></li>
+                        <li><a href="https://www.nighthawk-routerlogin.com/contact_as" class="text-white">Support</a></li>
                         <li><a href="#" class="text-white">Privacy Policy</a></li>
                         <li><a href="#" class="text-white">Terms Of Service</a></li>
                         <li><a href="#" class="text-white">Return &amp; Refund Policy</a></li>
