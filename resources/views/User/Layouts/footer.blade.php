@@ -282,7 +282,7 @@
 <script src="{{ asset('assets/js/swiper.js') }}"></script>
 <script src="{{ asset('assets/js/switch.js') }}"></script>
 
-
+<script src="{{asset('assets/js/userjs.js')}}"></script>
 
 
 <!-- STICKY JS -->

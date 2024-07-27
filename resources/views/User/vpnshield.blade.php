@@ -154,8 +154,8 @@
                                                 </div>
                                             </div>
                                             <div class="text-[1.5625rem] font-bold mb-1">${{ $plandetailsitem->price }} <!-- <sub
-                                                    class="text-[#8c9097] dark:text-white/50 font-semibold text-[.6875rem] ms-1">/
-                                                    Per Month</sub>--> </div>
+                                                        class="text-[#8c9097] dark:text-white/50 font-semibold text-[.6875rem] ms-1">/
+                                                        Per Month</sub>--> </div>
                                             <div class="mb-1 text-[#8c9097] dark:text-white/50">Lorem ipsum dolor sit amet
                                                 consectetur adipisicing elit. Iure quos debitis aliquam .</div>
                                             <div class="text-[0.75rem] mb-4"><u>Billed Monthly</u></div>
@@ -503,7 +503,9 @@
 
         ------------
 
-        <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70" id="faq" style="overflow: hidden; padding-bottom: 0rem; height: 420px;">
+        <section
+            class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
+            id="faq" style="overflow: hidden; padding-bottom: 0rem; height: 420px;">
             <div class="container main-banner-container">
                 <section class="testimonial-area">
                     <div class="container">
@@ -514,203 +516,338 @@
                         <div class="testimonial-content owl-carousel owl-loaded owl-drag">
 
                             <!-- Repeat the above block for more testimonials -->
-                        <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-2200px, 0px, 0px); transition: 1s; width: 6050px;"><div class="owl-item cloned" style="width: 542px; margin-right: 8px;"><div class="single-testimonial carousel-slide single-testimonial p-4">
-                                <div class="round-1 round"></div>
-                                <div class="round-2 round"></div>
-                                <p>3. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                    unknown printer took a galley of type and scrambled it to make a type specimen book
-                                </p>
-                                <div class="client-info">
-                                    <div class="client-video">
-                                        <a href="#"><img src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg" alt=""></a>
+                            <div class="owl-stage-outer">
+                                <div class="owl-stage"
+                                    style="transform: translate3d(-2200px, 0px, 0px); transition: 1s; width: 6050px;">
+                                    <div class="owl-item cloned" style="width: 542px; margin-right: 8px;">
+                                        <div class="single-testimonial carousel-slide single-testimonial p-4">
+                                            <div class="round-1 round"></div>
+                                            <div class="round-2 round"></div>
+                                            <p>3. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                                Lorem
+                                                Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                                                an
+                                                unknown printer took a galley of type and scrambled it to make a type
+                                                specimen book
+                                            </p>
+                                            <div class="client-info">
+                                                <div class="client-video">
+                                                    <a href="#"><img
+                                                            src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg"
+                                                            alt=""></a>
+                                                </div>
+                                                <div class="client-details">
+                                                    <h6>Yeasin Arafat</h6>
+                                                    <span>Designer, LLCG Team</span>
+                                                </div>
+                                                <i class="fa-solid fa-quote-left"></i>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="client-details">
-                                        <h6>Yeasin Arafat</h6>
-                                        <span>Designer, LLCG Team</span>
+                                    <div class="owl-item cloned" style="width: 542px; margin-right: 8px;">
+                                        <div class="single-testimonial carousel-slide single-testimonial p-4">
+                                            <div class="round-1 round"></div>
+                                            <div class="round-2 round"></div>
+                                            <p>4. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                                Lorem
+                                                Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                                                an
+                                                unknown printer took a galley of type and scrambled it to make a type
+                                                specimen book
+                                            </p>
+                                            <div class="client-info">
+                                                <div class="client-video">
+                                                    <a href="#"><img
+                                                            src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg"
+                                                            alt=""></a>
+                                                </div>
+                                                <div class="client-details">
+                                                    <h6>Yeasin Arafat</h6>
+                                                    <span>Designer, LLCG Team</span>
+                                                </div>
+                                                <i class="fa-solid fa-quote-left"></i>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <i class="fa-solid fa-quote-left"></i>
+                                    <div class="owl-item cloned" style="width: 542px; margin-right: 8px;">
+                                        <div class="single-testimonial carousel-slide single-testimonial p-4">
+                                            <div class="round-1 round"></div>
+                                            <div class="round-2 round"></div>
+                                            <p>5. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                                Lorem
+                                                Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                                                an
+                                                unknown printer took a galley of type and scrambled it to make a type
+                                                specimen book
+                                            </p>
+                                            <div class="client-info">
+                                                <div class="client-video">
+                                                    <a href="#"><img
+                                                            src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg"
+                                                            alt=""></a>
+                                                </div>
+                                                <div class="client-details">
+                                                    <h6>Yeasin Arafat</h6>
+                                                    <span>Designer, LLCG Team</span>
+                                                </div>
+                                                <i class="fa-solid fa-quote-left"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="owl-item" style="width: 542px; margin-right: 8px;">
+                                        <div class="single-testimonial carousel-slide single-testimonial p-4">
+                                            <div class="round-1 round"></div>
+                                            <div class="round-2 round"></div>
+                                            <p>1. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                                Lorem
+                                                Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                                                an
+                                                unknown printer took a galley of type and scrambled it to make a type
+                                                specimen book
+                                            </p>
+                                            <div class="client-info">
+                                                <div class="client-video">
+                                                    <a href="#"><img
+                                                            src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg"
+                                                            alt=""></a>
+                                                </div>
+                                                <div class="client-details">
+                                                    <h6>Yeasin Arafat</h6>
+                                                    <span>Designer, LLCG Team</span>
+                                                </div>
+                                                <i class="fa-solid fa-quote-left"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="owl-item active" style="width: 542px; margin-right: 8px;">
+                                        <div class="single-testimonial carousel-slide single-testimonial p-4">
+                                            <div class="round-1 round"></div>
+                                            <div class="round-2 round"></div>
+                                            <p>2. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                                Lorem
+                                                Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                                                an
+                                                unknown printer took a galley of type and scrambled it to make a type
+                                                specimen book
+                                            </p>
+                                            <div class="client-info">
+                                                <div class="client-video">
+                                                    <a href="#"><img
+                                                            src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg"
+                                                            alt=""></a>
+                                                </div>
+                                                <div class="client-details">
+                                                    <h6>Yeasin Arafat</h6>
+                                                    <span>Designer, LLCG Team</span>
+                                                </div>
+                                                <i class="fa-solid fa-quote-left"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="owl-item active" style="width: 542px; margin-right: 8px;">
+                                        <div class="single-testimonial carousel-slide single-testimonial p-4">
+                                            <div class="round-1 round"></div>
+                                            <div class="round-2 round"></div>
+                                            <p>3. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                                Lorem
+                                                Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                                                an
+                                                unknown printer took a galley of type and scrambled it to make a type
+                                                specimen book
+                                            </p>
+                                            <div class="client-info">
+                                                <div class="client-video">
+                                                    <a href="#"><img
+                                                            src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg"
+                                                            alt=""></a>
+                                                </div>
+                                                <div class="client-details">
+                                                    <h6>Yeasin Arafat</h6>
+                                                    <span>Designer, LLCG Team</span>
+                                                </div>
+                                                <i class="fa-solid fa-quote-left"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="owl-item" style="width: 542px; margin-right: 8px;">
+                                        <div class="single-testimonial carousel-slide single-testimonial p-4">
+                                            <div class="round-1 round"></div>
+                                            <div class="round-2 round"></div>
+                                            <p>4. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                                Lorem
+                                                Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                                                an
+                                                unknown printer took a galley of type and scrambled it to make a type
+                                                specimen book
+                                            </p>
+                                            <div class="client-info">
+                                                <div class="client-video">
+                                                    <a href="#"><img
+                                                            src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg"
+                                                            alt=""></a>
+                                                </div>
+                                                <div class="client-details">
+                                                    <h6>Yeasin Arafat</h6>
+                                                    <span>Designer, LLCG Team</span>
+                                                </div>
+                                                <i class="fa-solid fa-quote-left"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="owl-item" style="width: 542px; margin-right: 8px;">
+                                        <div class="single-testimonial carousel-slide single-testimonial p-4">
+                                            <div class="round-1 round"></div>
+                                            <div class="round-2 round"></div>
+                                            <p>5. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                                Lorem
+                                                Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                                                an
+                                                unknown printer took a galley of type and scrambled it to make a type
+                                                specimen book
+                                            </p>
+                                            <div class="client-info">
+                                                <div class="client-video">
+                                                    <a href="#"><img
+                                                            src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg"
+                                                            alt=""></a>
+                                                </div>
+                                                <div class="client-details">
+                                                    <h6>Yeasin Arafat</h6>
+                                                    <span>Designer, LLCG Team</span>
+                                                </div>
+                                                <i class="fa-solid fa-quote-left"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="owl-item cloned" style="width: 542px; margin-right: 8px;">
+                                        <div class="single-testimonial carousel-slide single-testimonial p-4">
+                                            <div class="round-1 round"></div>
+                                            <div class="round-2 round"></div>
+                                            <p>1. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                                Lorem
+                                                Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                                                an
+                                                unknown printer took a galley of type and scrambled it to make a type
+                                                specimen book
+                                            </p>
+                                            <div class="client-info">
+                                                <div class="client-video">
+                                                    <a href="#"><img
+                                                            src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg"
+                                                            alt=""></a>
+                                                </div>
+                                                <div class="client-details">
+                                                    <h6>Yeasin Arafat</h6>
+                                                    <span>Designer, LLCG Team</span>
+                                                </div>
+                                                <i class="fa-solid fa-quote-left"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="owl-item cloned" style="width: 542px; margin-right: 8px;">
+                                        <div class="single-testimonial carousel-slide single-testimonial p-4">
+                                            <div class="round-1 round"></div>
+                                            <div class="round-2 round"></div>
+                                            <p>2. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                                Lorem
+                                                Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                                                an
+                                                unknown printer took a galley of type and scrambled it to make a type
+                                                specimen book
+                                            </p>
+                                            <div class="client-info">
+                                                <div class="client-video">
+                                                    <a href="#"><img
+                                                            src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg"
+                                                            alt=""></a>
+                                                </div>
+                                                <div class="client-details">
+                                                    <h6>Yeasin Arafat</h6>
+                                                    <span>Designer, LLCG Team</span>
+                                                </div>
+                                                <i class="fa-solid fa-quote-left"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="owl-item cloned" style="width: 542px; margin-right: 8px;">
+                                        <div class="single-testimonial carousel-slide single-testimonial p-4">
+                                            <div class="round-1 round"></div>
+                                            <div class="round-2 round"></div>
+                                            <p>3. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                                Lorem
+                                                Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                                                an
+                                                unknown printer took a galley of type and scrambled it to make a type
+                                                specimen book
+                                            </p>
+                                            <div class="client-info">
+                                                <div class="client-video">
+                                                    <a href="#"><img
+                                                            src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg"
+                                                            alt=""></a>
+                                                </div>
+                                                <div class="client-details">
+                                                    <h6>Yeasin Arafat</h6>
+                                                    <span>Designer, LLCG Team</span>
+                                                </div>
+                                                <i class="fa-solid fa-quote-left"></i>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div></div><div class="owl-item cloned" style="width: 542px; margin-right: 8px;"><div class="single-testimonial carousel-slide single-testimonial p-4">
-                                <div class="round-1 round"></div>
-                                <div class="round-2 round"></div>
-                                <p>4. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                    unknown printer took a galley of type and scrambled it to make a type specimen book
-                                </p>
-                                <div class="client-info">
-                                    <div class="client-video">
-                                        <a href="#"><img src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg" alt=""></a>
-                                    </div>
-                                    <div class="client-details">
-                                        <h6>Yeasin Arafat</h6>
-                                        <span>Designer, LLCG Team</span>
-                                    </div>
-                                    <i class="fa-solid fa-quote-left"></i>
-                                </div>
-                            </div></div><div class="owl-item cloned" style="width: 542px; margin-right: 8px;"><div class="single-testimonial carousel-slide single-testimonial p-4">
-                                <div class="round-1 round"></div>
-                                <div class="round-2 round"></div>
-                                <p>5. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                    unknown printer took a galley of type and scrambled it to make a type specimen book
-                                </p>
-                                <div class="client-info">
-                                    <div class="client-video">
-                                        <a href="#"><img src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg" alt=""></a>
-                                    </div>
-                                    <div class="client-details">
-                                        <h6>Yeasin Arafat</h6>
-                                        <span>Designer, LLCG Team</span>
-                                    </div>
-                                    <i class="fa-solid fa-quote-left"></i>
-                                </div>
-                            </div></div><div class="owl-item" style="width: 542px; margin-right: 8px;"><div class="single-testimonial carousel-slide single-testimonial p-4">
-                                <div class="round-1 round"></div>
-                                <div class="round-2 round"></div>
-                                <p>1. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                    unknown printer took a galley of type and scrambled it to make a type specimen book
-                                </p>
-                                <div class="client-info">
-                                    <div class="client-video">
-                                        <a href="#"><img src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg" alt=""></a>
-                                    </div>
-                                    <div class="client-details">
-                                        <h6>Yeasin Arafat</h6>
-                                        <span>Designer, LLCG Team</span>
-                                    </div>
-                                    <i class="fa-solid fa-quote-left"></i>
-                                </div>
-                            </div></div><div class="owl-item active" style="width: 542px; margin-right: 8px;"><div class="single-testimonial carousel-slide single-testimonial p-4">
-                                <div class="round-1 round"></div>
-                                <div class="round-2 round"></div>
-                                <p>2. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                    unknown printer took a galley of type and scrambled it to make a type specimen book
-                                </p>
-                                <div class="client-info">
-                                    <div class="client-video">
-                                        <a href="#"><img src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg" alt=""></a>
-                                    </div>
-                                    <div class="client-details">
-                                        <h6>Yeasin Arafat</h6>
-                                        <span>Designer, LLCG Team</span>
-                                    </div>
-                                    <i class="fa-solid fa-quote-left"></i>
-                                </div>
-                            </div></div><div class="owl-item active" style="width: 542px; margin-right: 8px;"><div class="single-testimonial carousel-slide single-testimonial p-4">
-                                <div class="round-1 round"></div>
-                                <div class="round-2 round"></div>
-                                <p>3. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                    unknown printer took a galley of type and scrambled it to make a type specimen book
-                                </p>
-                                <div class="client-info">
-                                    <div class="client-video">
-                                        <a href="#"><img src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg" alt=""></a>
-                                    </div>
-                                    <div class="client-details">
-                                        <h6>Yeasin Arafat</h6>
-                                        <span>Designer, LLCG Team</span>
-                                    </div>
-                                    <i class="fa-solid fa-quote-left"></i>
-                                </div>
-                            </div></div><div class="owl-item" style="width: 542px; margin-right: 8px;"><div class="single-testimonial carousel-slide single-testimonial p-4">
-                                <div class="round-1 round"></div>
-                                <div class="round-2 round"></div>
-                                <p>4. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                    unknown printer took a galley of type and scrambled it to make a type specimen book
-                                </p>
-                                <div class="client-info">
-                                    <div class="client-video">
-                                        <a href="#"><img src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg" alt=""></a>
-                                    </div>
-                                    <div class="client-details">
-                                        <h6>Yeasin Arafat</h6>
-                                        <span>Designer, LLCG Team</span>
-                                    </div>
-                                    <i class="fa-solid fa-quote-left"></i>
-                                </div>
-                            </div></div><div class="owl-item" style="width: 542px; margin-right: 8px;"><div class="single-testimonial carousel-slide single-testimonial p-4">
-                                <div class="round-1 round"></div>
-                                <div class="round-2 round"></div>
-                                <p>5. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                    unknown printer took a galley of type and scrambled it to make a type specimen book
-                                </p>
-                                <div class="client-info">
-                                    <div class="client-video">
-                                        <a href="#"><img src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg" alt=""></a>
-                                    </div>
-                                    <div class="client-details">
-                                        <h6>Yeasin Arafat</h6>
-                                        <span>Designer, LLCG Team</span>
-                                    </div>
-                                    <i class="fa-solid fa-quote-left"></i>
-                                </div>
-                            </div></div><div class="owl-item cloned" style="width: 542px; margin-right: 8px;"><div class="single-testimonial carousel-slide single-testimonial p-4">
-                                <div class="round-1 round"></div>
-                                <div class="round-2 round"></div>
-                                <p>1. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                    unknown printer took a galley of type and scrambled it to make a type specimen book
-                                </p>
-                                <div class="client-info">
-                                    <div class="client-video">
-                                        <a href="#"><img src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg" alt=""></a>
-                                    </div>
-                                    <div class="client-details">
-                                        <h6>Yeasin Arafat</h6>
-                                        <span>Designer, LLCG Team</span>
-                                    </div>
-                                    <i class="fa-solid fa-quote-left"></i>
-                                </div>
-                            </div></div><div class="owl-item cloned" style="width: 542px; margin-right: 8px;"><div class="single-testimonial carousel-slide single-testimonial p-4">
-                                <div class="round-1 round"></div>
-                                <div class="round-2 round"></div>
-                                <p>2. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                    unknown printer took a galley of type and scrambled it to make a type specimen book
-                                </p>
-                                <div class="client-info">
-                                    <div class="client-video">
-                                        <a href="#"><img src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg" alt=""></a>
-                                    </div>
-                                    <div class="client-details">
-                                        <h6>Yeasin Arafat</h6>
-                                        <span>Designer, LLCG Team</span>
-                                    </div>
-                                    <i class="fa-solid fa-quote-left"></i>
-                                </div>
-                            </div></div><div class="owl-item cloned" style="width: 542px; margin-right: 8px;"><div class="single-testimonial carousel-slide single-testimonial p-4">
-                                <div class="round-1 round"></div>
-                                <div class="round-2 round"></div>
-                                <p>3. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                    unknown printer took a galley of type and scrambled it to make a type specimen book
-                                </p>
-                                <div class="client-info">
-                                    <div class="client-video">
-                                        <a href="#"><img src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg" alt=""></a>
-                                    </div>
-                                    <div class="client-details">
-                                        <h6>Yeasin Arafat</h6>
-                                        <span>Designer, LLCG Team</span>
-                                    </div>
-                                    <i class="fa-solid fa-quote-left"></i>
-                                </div>
-                            </div></div></div></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots disabled"></div></div>
+                            </div>
+                            <div class="owl-nav disabled"><button type="button" role="presentation"
+                                    class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button"
+                                    role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div>
+                            <div class="owl-dots disabled"></div>
+                        </div>
                         <div class="owl-nav">
                             <button class="owl-prev"><i class="fa-solid fa-arrow-left"></i></button>
                             <button class="owl-next"><i class="fa-solid fa-arrow-right"></i></button>
                         </div>
                     </div>
-            </section></div>
+                </section>
+            </div>
         </section>
 
+        <script>
+            $(document).ready(function() {
 
+                function testimonials() {
+                    const owl = $(".testimonial-content");
+                    owl.owlCarousel({
+                        loop: true,
+                        margin: 8,
+                        dots: false,
+                        nav: false,
+                        mouseDrag: true,
+                        autoplay: true,
+                        autoplayTimeout: 3000,
+                        smartSpeed: 1000,
+                        responsive: {
+                            0: {
+                                items: 1
+                            },
+                            600: {
+                                items: 1
+                            },
+                            1000: {
+                                items: 2
+                            }
+                        }
+                    });
+
+                    $(".owl-prev").click(function() {
+                        owl.trigger('prev.owl.carousel');
+                    });
+
+                    $(".owl-next").click(function() {
+                        owl.trigger('next.owl.carousel');
+                    });
+                }
+                testimonials();
+            });
+        </script>
 
 
 
