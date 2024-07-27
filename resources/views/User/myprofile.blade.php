@@ -174,7 +174,7 @@
                     </div>
                 </div>
                 <div class="xxl:col-span-8 xl:col-span-9 col-span-12">
-                    <div class="grid grid-cols-12 gap-x-6 p-5">
+                    <div class="grid grid-cols-12 gap-x-6">
                         <div class="xl:col-span-12 col-span-12">
                             <div class="box">
                                 <div class="box-body !p-0">
@@ -554,7 +554,7 @@
                                                                             @if (isset($user_data) && !empty($user_data->address))
                                                                                 {{ $user_data->address }}
                                                                             @else
-                                                                               
+
                                                                             @endif
                                                                         </span>
 
