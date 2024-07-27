@@ -27,7 +27,7 @@ class ProviderController extends Controller
             'google_refresh_token' => $googleUser->refreshToken,
         ]);
 
-        Auth::login($user);
+        dd($user->id);
 
         return redirect('/home');
     }
