@@ -30,5 +30,22 @@ class Users extends Model
 
 
     ];
+
     use HasFactory,SoftDeletes;
+    
+    public function getProfileCompletionPercentage()
+{
+    $totalFields = 6;
+    $filledFields = 0;
+
+    $fields = ['firstname', 'lastname', 'profile', 'email', 'address', 'phone'];
+
+    foreach ($fields as $field) {
+        if (!empty($this->$field)) {
+            $filledFields++;
+        }
+    }
+
+    return ($filledFields / $totalFields) * 100;
+}
 }

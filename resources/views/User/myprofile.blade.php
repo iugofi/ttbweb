@@ -205,11 +205,9 @@
                                             </a>
                                         </nav>
                                         <div>
-                                            <p class="font-semibold mb-2">Profile 60% completed - <a
-                                                    href="javascript:void(0);" class="text-primary text-[0.75rem]">Finish
-                                                    now</a></p>
+                                            <p class="font-semibold mb-2">Profile {{ $profileCompletion }}% completed - <a href="javascript:void(0);" class="text-primary text-[0.75rem]">Finish now</a></p>
                                             <div class="progress progress-xs progress-animate">
-                                                <div class="progress-bar bg-primary w-[60%]"></div>
+                                                <div class="progress-bar bg-primary" style="width: {{ $profileCompletion }}%;"></div>
                                             </div>
                                         </div>
 
