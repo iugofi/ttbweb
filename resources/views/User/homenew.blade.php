@@ -7,25 +7,25 @@
 @section('content')
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
 
-   
-   
+
+
 
     <div class="content" style="background-color:#F3F2EA;">
         <div class="main-content">
 
-          
+
             @if ($events->isNotEmpty())
             <script>
                 document.addEventListener("DOMContentLoaded", function() {
                     let buttonevent = document.querySelector(".toggle_new");
-        
-        
+
+
                     function clickButton() {
                         buttonevent.click();
                     }
-        
+
                     clickButton();
-        
+
                     setInterval(clickButton, 900000);
                 });
             </script>
@@ -109,7 +109,7 @@
             align-items: center;
             z-index: 1000;
         }
-    
+
         /* Popup content */
         .popup-content {
             background: white;
@@ -120,7 +120,7 @@
             max-width: 500px;
             width: 90%;
         }
-    
+
         /* Close button */
         .popup-content .close-btn {
             position: absolute;
@@ -131,19 +131,19 @@
             font-size: 30px;
             cursor: pointer;
         }
-    
+
         /* Popup image */
         .popup-content img {
          margin: auto;
          max-width: 85px;
         }
-    
+
         /* Popup text */
         .popup-content h1,
         .popup-content p {
             margin: 10px 0;
         }
-    
+
         /* Button */
         .popup-content .btn {
             display: inline-block;
@@ -155,7 +155,7 @@
             border-radius: 5px;
             transition: background-color 0.3s;
         }
-    
+
         .popup-content .btn:hover {
             background-color: #0bb38c;
         }
@@ -175,31 +175,31 @@
             <a href="index.html" class="m-1 ti-btn ti-btn-primary-full mt-6" id="redirectHome">Purchase Now!</a>
         </div>
     </div> --}}
-    
+
     <script>
         // Get the popup element
         const popup = document.getElementById('popup');
-    
+
         // Get the close button element
         const closePopup = document.getElementById('closePopup');
-    
+
         // Show the popup after 15 seconds
         setTimeout(() => {
             popup.style.display = 'flex';
         }, 1000);
-    
+
         // Close the popup when the close button is clicked
         closePopup.addEventListener('click', () => {
             popup.style.display = 'none';
         });
-    
+
         // Close the popup when clicking outside of the popup content
         window.addEventListener('click', (event) => {
             if (event.target === popup) {
                 popup.style.display = 'none';
             }
         });
-    
+
         // Redirect to the home page when the button is clicked
     //     document.getElementById('redirectHome').addEventListener('click', (event) => {
     //         event.preventDefault();
