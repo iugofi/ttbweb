@@ -250,7 +250,7 @@
                                                             class="hs-overlay hidden ti-modal">
                                                             <div
                                                                 class="hs-overlay-open:mt-7 ti-modal-box mt-0 ease-out h-[calc(100%-3.5rem)] min-h-[calc(100%-3.5rem)] flex items-center">
-                                                                <div class="max-h-full ti-modal-content popup-scroll">
+                                                                <div class="max-h-full overflow-hidden ti-modal-content popup-scroll">
                                                                     <div class="ti-modal-header">
                                                                         <h6 class="modal-title" id="staticBackdropLabel3">
                                                                             Edit Profile
@@ -338,13 +338,12 @@
                                                                                     <span class="avatar avatar-xl me-1">
                                                                                         <img src="{{ asset('assets/userprofile/' . ($user_data->profile ? $user_data->profile : 'default-profile.png')) }}" alt="">
                                                                                     </span>
-                                                                            </div>
-                                                                            <div class="mb-3">
-                                                                                <input type="file" class="form-control" id="profile_images" name="profile_images"
-                                                                                multiple data-allow-reorder="true" data-max-file-size="3MB"
-                                                                                data-max-files="6">
-                                                                            <div class="invalid-feedback"></div>
-                                                                            </div>
+
+                                                                                    <input type="file" class="form-control" id="profile_images" name="profile_images"
+                                                                                    multiple data-allow-reorder="true" data-max-file-size="3MB"
+                                                                                    data-max-files="6">
+                                                                                <div class="invalid-feedback"></div>
+                                                                                </div>
 
                                                                     </div>
                                                                     <div class="ti-modal-footer">
