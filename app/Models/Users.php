@@ -19,6 +19,10 @@ class Users extends Model
         'address',
         'status',
         'otp',
+        'google_id',
+        'google_token',
+        'google_refresh_token',
+        'provider',
         'activation_key',
         'reset_tokens',
 
