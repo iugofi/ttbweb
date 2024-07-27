@@ -15,34 +15,21 @@ class ProviderController extends Controller
         return Socialite::driver($provider)->redirect();
     }
     public function callback($provider)
-{
-    $googleUser = Socialite::driver($provider)->user();
-    dd($googleUser);
-
-    $user = Users::where('email', $googleUser->email)->first();
-
-    if ($user) {
-        // Update existing user
-        $user->update([
+    {
+        $googleUser = Socialite::driver($provider)->user();
+        dd($googleUser);
+        $user = Users::updateOrCreate([
             'google_id' => $googleUser->id,
+        ], [
             'name' => $googleUser->name,
-            'provider' => $provider,
+            'email' =>$googleUser->email,
+            'provider' =>$provider,
             'google_token' => $googleUser->token,
             'google_refresh_token' => $googleUser->refreshToken,
         ]);
-    } else {
-        // Create new user
-        $user = Users::create([
-            'google_id' => $googleUser->id,
-            'name' => $googleUser->name,
-            'email' => $googleUser->email,
-            'provider' => $provider,
-            'google_token' => $googleUser->token,
-            'google_refresh_token' => $googleUser->refreshToken,
-        ]);
+
+        // dd($user->id);
+
+        return redirect('/home');
     }
-
-    return redirect('/home');
-}
-
 }
