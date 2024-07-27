@@ -9048,24 +9048,24 @@ h6 {
     vertical-align: bottom;
 }
 
-.font-rajdhani {
-    font-family: rajdhani, sans-serif;
+.font-Roboto {
+    font-family: Roboto, sans-serif;
 }
 
 .font-\[\'remixicon\'\] {
-    font-family: "rajdhani";
+    font-family: "Roboto";
 }
 
 .font-\[\.7rem\] {
     font-family: 0.7rem;
 }
 
-.font-\[rajdhani\] {
-    font-family: rajdhani;
+.font-\[Roboto\] {
+    font-family: Roboto;
 }
 
-.font-rajdhani {
-    font-family: rajdhani, sans-serif;
+.font-Roboto {
+    font-family: Roboto, sans-serif;
 }
 
 .\!text-\[\.625rem\] {
@@ -17620,7 +17620,7 @@ label {
     justify-content: center;
     border-radius: 9999px;
     background-color: rgb(var(--primary));
-    font-family: rajdhani;
+    font-family: Roboto;
     font-size: 1.125rem;
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -18934,7 +18934,7 @@ label {
     border-inline-end-color: rgb(255 255 255 / 0.1);
     --tw-bg-opacity: 1;
     background-color: rgb(17 28 67 / var(--tw-bg-opacity));
-    font-family: rajdhani, sans-serif;
+    font-family: Roboto, sans-serif;
     transition-property: all;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 150ms;
@@ -37571,7 +37571,7 @@ pre {
 html {
     scroll-behavior: smooth;
     text-align: start;
-    font-family: rajdhani, sans-serif;
+    font-family: Roboto, sans-serif;
 }
 
 html[dir="rtl"] {
@@ -37585,7 +37585,7 @@ body {
     scroll-behavior: smooth;
     /* background-color: rgb(var(--body-bg)); */
     text-align: start;
-    font-family: rajdhani, sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 0.813rem;
     font-weight: 400;
     color: rgb(var(--default-text-color));
@@ -41163,7 +41163,7 @@ select {
 
 .pickr-container-primary .pickr .pcr-button::after,
 .pickr-container-background .pickr .pcr-button::after {
-    font-family: "rajdhani" !important;
+    font-family: "Roboto" !important;
     color: rgb(255 255 255 / 0.7) !important;
     --tw-content: "\efc3" !important;
     content: var(--tw-content) !important;
@@ -48813,7 +48813,7 @@ img.img-fluid.service-icon {
 }
 .home2-new-seven-pricing .ti-btn{
    border-radius: 25px;
-   font-family: "rajdhani", sans-serif;
+   font-family: "Roboto", sans-serif;
 
 }
 
@@ -53401,7 +53401,7 @@ section#about-features {
 
 .work-title.hover-btn {
     color: #fff;
-    font-family: rajdhani, sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 20px;
     font-weight: 500;
     padding: 16px 20px;
