@@ -50,7 +50,7 @@
 
             <!-- Start::row-1 -->
             <div class="grid grid-cols-12 gap-x-6 p-5">
-                <div class="xxl:col-span-4 xl:col-span-12 col-span-12">
+                <div class="xxl:col-span-4 xl:col-span-3 col-span-12">
                     <div class="box overflow-hidden">
                         <div class="box-body !p-0">
                             <div class="sm:flex items-start p-6      main-profile-cover">
@@ -173,7 +173,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="xxl:col-span-8 xl:col-span-12 col-span-12">
+                <div class="xxl:col-span-8 xl:col-span-9 col-span-12">
                     <div class="grid grid-cols-12 gap-x-6 p-5">
                         <div class="xl:col-span-12 col-span-12">
                             <div class="box">
