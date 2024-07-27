@@ -29,8 +29,8 @@ class ProviderController extends Controller
         // Update existing user
         $user->update([
             'google_id' => $googleUser->id,
-            'firstname' => $firstName,
-            'lastname' => $lastName,
+            // 'firstname' => $firstName,
+            // 'lastname' => $lastName,
             'provider' => $provider,
             'google_token' => $googleUser->token,
             'google_refresh_token' => $googleUser->refreshToken,
