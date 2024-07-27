@@ -250,7 +250,7 @@
                                                             class="hs-overlay hidden ti-modal">
                                                             <div
                                                                 class="hs-overlay-open:mt-7 ti-modal-box mt-0 ease-out h-[calc(100%-3.5rem)] min-h-[calc(100%-3.5rem)] flex items-center">
-                                                                <div class="max-h-full overflow-hidden ti-modal-content">
+                                                                <div class="max-h-full ti-modal-content">
                                                                     <div class="ti-modal-header">
                                                                         <h6 class="modal-title" id="staticBackdropLabel3">
                                                                             Edit Profile
