@@ -48,7 +48,9 @@ class ProviderController extends Controller
         ]);
     }
 
-    return redirect('/home');
+    session()->put('loggedInUser', $user->id);
+
+    return redirect()->route('user.index');
 }
 
 }
