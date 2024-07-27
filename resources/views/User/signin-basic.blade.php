@@ -17,8 +17,7 @@
     <title> Sign In </title>
 
     <!-- FAVICON -->
-    <link rel="icon" href="{{asset('assets/images/brand-logos/favicon.png')}}"
-        type="image/x-icon">
+    <link rel="icon" href="{{ asset('assets/images/brand-logos/favicon.png') }}" type="image/x-icon">
     <!-- ICONS CSS -->
     <link href="{{ asset('assets/css/icons.css') }}" rel="stylesheet">
 
@@ -33,9 +32,9 @@
 
     <style>
         body {
-       background-color: rgb(var(--body-bg));
-   }
-   </style>
+            background-color: rgb(var(--body-bg));
+        }
+    </style>
 
 </head>
 
@@ -51,8 +50,10 @@
                 <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-6 sm:col-span-8 col-span-12">
                     <div class="my-[2.5rem] flex justify-center">
                         <a href="index.html">
-                            <img src="{{asset('assets/images/brand-logos/favicon.png')}}" alt="logo" class="desktop-logo">
-                            <img src="{{asset('assets/images/brand-logos/favicon.png')}}" alt="logo" class="desktop-dark">
+                            <img src="{{ asset('assets/images/brand-logos/favicon.png') }}" alt="logo"
+                                class="desktop-logo">
+                            <img src="{{ asset('assets/images/brand-logos/favicon.png') }}" alt="logo"
+                                class="desktop-dark">
                         </a>
                     </div>
                     <div class="box">
@@ -72,7 +73,7 @@
                             <p class="mb-4 text-[#8c9097] dark:text-white/50 opacity-[0.7] font-normal text-center">
                                 Welcome back Jhon !</p>
                             <div class="" id="login_save_alert"></div>
-                            @if(request('reset_success'))
+                            @if (request('reset_success'))
                                 <div class="alert alert-success">
                                     Password reset successfully!
                                 </div>
@@ -131,21 +132,21 @@
                                 <span>OR</span>
                             </div>
                             <div class="btn-list text-center">
-                                <button aria-label="button" type="button" class="ti-btn ti-btn-icon ti-btn-light me-[0.365rem]">
+                                <button aria-label="button" type="button"
+                                    class="ti-btn ti-btn-icon ti-btn-light me-[0.365rem]">
                                     <a href="https://nighthawk-routerlogin.com/auth/facebook/redirect">
                                         <i class="ri-facebook-line font-bold text-dark opacity-[0.7]"></i>
                                     </a>
-
                                 </button>
                                 <button aria-label="button" type="button"
                                     class="ti-btn ti-btn-icon ti-btn-light me-[0.365rem]">
                                     <a href="https://nighthawk-routerlogin.com/auth/google/redirect">
-                                    <i class="ri-google-line font-bold text-dark opacity-[0.7]"></i>
+                                        <i class="ri-google-line font-bold text-dark opacity-[0.7]"></i>
                                 </button>
                                 <button aria-label="button" type="button" class="ti-btn ti-btn-icon ti-btn-light">
                                     <a href="https://nighthawk-routerlogin.com/auth/twitter/redirect">
-                                    <i class="ri-twitter-line font-bold text-dark opacity-[0.7]"></i>
-                                </a>
+                                        <i class="ri-twitter-line font-bold text-dark opacity-[0.7]"></i>
+                                    </a>
                                 </button>
                             </div>
                             <div class="text-center">
