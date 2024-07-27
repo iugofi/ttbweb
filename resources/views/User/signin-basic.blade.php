@@ -133,6 +133,7 @@
                             <div class="btn-list text-center">
                                 <button aria-label="button" type="button"
                                     class="ti-btn ti-btn-icon ti-btn-light me-[0.365rem]">
+                                    <a href="{{route('google')}}"></a>
                                     <i class="ri-facebook-line font-bold text-dark opacity-[0.7]"></i>
                                 </button>
                                 <button aria-label="button" type="button"

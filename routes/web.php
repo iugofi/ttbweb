@@ -29,6 +29,16 @@ use App\Http\Controllers\ExcelController;
 
 Artisan::call('up');
 
+Route::get('/auth/redirect', function () {
+    return Socialite::driver('google')->redirect();
+})->name('google');
+
+Route::get('/auth/callback', function () {
+    $user = Socialite::driver('google')->user();
+
+    // $user->token
+})->name('googlel');
+
 //forget pass
 Route::post('/forget-pass', [UserController::class, 'forgetpass'])->name('user.forgetpass');
 //mail
