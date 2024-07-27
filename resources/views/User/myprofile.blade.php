@@ -307,7 +307,7 @@
                                                                                     name="user_email"
                                                                                     value="{{ isset($user_data->email) ? $user_data->email : '' }}"
                                                                                     id="user_email" name=""
-                                                                                    aria-describedby="emailHelp">
+                                                                                    aria-describedby="emailHelp" disabled>
                                                                                 <div class="invalid-feedback"></div>
 
 

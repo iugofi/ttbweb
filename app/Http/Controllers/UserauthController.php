@@ -153,7 +153,7 @@ class UserauthController extends Controller
             $profileotherchange->update([
                 'firstname' => $request->first_name,
                 'lastname' => $request->last_name,
-                'email' => $request->user_email,
+                // 'email' => $request->user_email,
                 'phone' => $request->user_phone,
                 'address' => $request->user_address,
                 'profile' => $imageName,
