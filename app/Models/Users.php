@@ -32,7 +32,7 @@ class Users extends Model
     ];
 
     use HasFactory,SoftDeletes;
-    
+
     public function getProfileCompletionPercentage()
 {
     $totalFields = 6;
