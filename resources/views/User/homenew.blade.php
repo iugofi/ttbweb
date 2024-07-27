@@ -5,7 +5,7 @@
 @section('keywords', '')
 @section('canonical', '')
 @section('content')
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
 
 
 
@@ -15,25 +15,25 @@
 
 
             @if ($events->isNotEmpty())
-                <script>
-                    document.addEventListener("DOMContentLoaded", function() {
-                        let buttonevent = document.querySelector(".toggle_new");
+            <script>
+                document.addEventListener("DOMContentLoaded", function() {
+                    let buttonevent = document.querySelector(".toggle_new");
 
 
-                        function clickButton() {
-                            buttonevent.click();
-                        }
+                    function clickButton() {
+                        buttonevent.click();
+                    }
 
-                        clickButton();
+                    clickButton();
 
-                        setInterval(clickButton, 900000);
-                    });
-                </script>
+                    setInterval(clickButton, 900000);
+                });
+            </script>
 
-                <button type="button" class="hs-dropdown-toggle toggle_new ti-btn ti-btn-primary-full"
-                    data-hs-overlay="#hs-extralarge-modal" style="display: none;">
-                    Extra Large modal
-                </button>
+            <button type="button" class="hs-dropdown-toggle toggle_new ti-btn ti-btn-primary-full"
+            data-hs-overlay="#hs-extralarge-modal" style="display: none;">
+            Extra Large modal
+            </button>
                 <div id="hs-extralarge-modal" class="hs-overlay hidden ti-modal">
                     <div class="hs-overlay-open:mt-7 ti-modal-box mt-0 ease-out lg:!max-w-4xl lg:w-full m-3 lg:!mx-auto">
                         <div class="ti-modal-content">
@@ -93,79 +93,80 @@
                     $('#eventsModal').modal('show');
                 });
             </script>
-            <style>
-                /* Start popup css */
+                <style>
+            /* Start popup css */
 
-                /* Popup container */
-                .popup {
-                    display: none;
-                    position: fixed;
-                    top: 0;
-                    left: 0;
-                    width: 100%;
-                    height: 100%;
-                    background-color: rgba(0, 0, 0, 0.5);
-                    justify-content: center;
-                    align-items: center;
-                    z-index: 1000;
-                }
+        /* Popup container */
+        .popup {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
 
-                /* Popup content */
-                .popup-content {
-                    background: white;
-                    padding: 80px;
-                    border-radius: 10px;
-                    text-align: center;
-                    position: relative;
-                    max-width: 500px;
-                    width: 90%;
-                }
+        /* Popup content */
+        .popup-content {
+            background: white;
+            padding: 80px;
+            border-radius: 10px;
+            text-align: center;
+            position: relative;
+            max-width: 500px;
+            width: 90%;
+        }
 
-                /* Close button */
-                .popup-content .close-btn {
-                    position: absolute;
-                    top: 10px;
-                    right: 10px;
-                    background: transparent;
-                    border: none;
-                    font-size: 30px;
-                    cursor: pointer;
-                }
+        /* Close button */
+        .popup-content .close-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: transparent;
+            border: none;
+            font-size: 30px;
+            cursor: pointer;
+        }
 
-                /* Popup image */
-                .popup-content img {
-                    margin: auto;
-                    max-width: 85px;
-                }
+        /* Popup image */
+        .popup-content img {
+         margin: auto;
+         max-width: 85px;
+        }
 
-                /* Popup text */
-                .popup-content h1,
-                .popup-content p {
-                    margin: 10px 0;
-                }
+        /* Popup text */
+        .popup-content h1,
+        .popup-content p {
+            margin: 10px 0;
+        }
 
-                /* Button */
-                .popup-content .btn {
-                    display: inline-block;
-                    padding: 10px 20px;
-                    font-size: 1rem;
-                    color: white;
-                    background-color: #13d8aa;
-                    text-decoration: none;
-                    border-radius: 5px;
-                    transition: background-color 0.3s;
-                }
+        /* Button */
+        .popup-content .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 1rem;
+            color: white;
+            background-color: #13d8aa;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
 
-                .popup-content .btn:hover {
-                    background-color: #0bb38c;
-                }
+        .popup-content .btn:hover {
+            background-color: #0bb38c;
+        }
 
-                /* End popup css */
-            </style>
+        /* End popup css */
 
-            {{-- start popup html --}}
+    </style>
 
-            {{-- <div class="popup" id="popup">
+    {{-- start popup html --}}
+
+    {{-- <div class="popup" id="popup">
         <div class="popup-content">
             <button class="close-btn" id="closePopup">&times;</button>
             <img src="https://www.ttbinternetsecurity.com/assets/img/logo.png" alt="Popup Image">
@@ -175,39 +176,38 @@
         </div>
     </div> --}}
 
-            <script>
-                // Get the popup element
-                const popup = document.getElementById('popup');
+    <script>
+        // Get the popup element
+        const popup = document.getElementById('popup');
 
-                // Get the close button element
-                const closePopup = document.getElementById('closePopup');
+        // Get the close button element
+        const closePopup = document.getElementById('closePopup');
 
-                // Show the popup after 15 seconds
-                setTimeout(() => {
-                    popup.style.display = 'flex';
-                }, 1000);
+        // Show the popup after 15 seconds
+        setTimeout(() => {
+            popup.style.display = 'flex';
+        }, 1000);
 
-                // Close the popup when the close button is clicked
-                closePopup.addEventListener('click', () => {
-                    popup.style.display = 'none';
-                });
+        // Close the popup when the close button is clicked
+        closePopup.addEventListener('click', () => {
+            popup.style.display = 'none';
+        });
 
-                // Close the popup when clicking outside of the popup content
-                window.addEventListener('click', (event) => {
-                    if (event.target === popup) {
-                        popup.style.display = 'none';
-                    }
-                });
+        // Close the popup when clicking outside of the popup content
+        window.addEventListener('click', (event) => {
+            if (event.target === popup) {
+                popup.style.display = 'none';
+            }
+        });
 
-                // Redirect to the home page when the button is clicked
-                //     document.getElementById('redirectHome').addEventListener('click', (event) => {
-                //         event.preventDefault();
-                //         window.location.href = '/';
-                //     });
-                //
-            </script>
+        // Redirect to the home page when the button is clicked
+    //     document.getElementById('redirectHome').addEventListener('click', (event) => {
+    //         event.preventDefault();
+    //         window.location.href = '/';
+    //     });
+    // </script>
 
-            {{-- End popup --}}
+    {{-- End popup --}}
 
             <section class="banner-home-one">
                 <div class="container">
@@ -723,278 +723,379 @@
                     </div>
                 </div>
             </section>
-            {{-- start testimonial --}}
-
-            <style>
-                .testimonial-area {
-                    position: relative;
-                }
-
-                .testimonial-content {
-                    position: relative;
-                    z-index: 1;
-                    bottom: 4.8rem;
-                }
-
-                .owl-nav {
-                    position: absolute;
-                    top: 50%;
-                    width: calc(100% - 100px);
-                    /* Reduced width to leave space for buttons */
-                    display: flex;
-                    justify-content: space-between;
-                    transform: translateY(-4rem);
-                    /* padding: 0 50px;  */
-                    box-sizing: border-box;
-                    width: 100%;
-                }
-
-                .owl-nav button {
-                    background-color: transparent;
-                    border: none;
-                    font-size: 30px;
-                    cursor: pointer;
-                    transition: color 0.3s;
-                }
-
-                .owl-nav button:hover {
-                    color: var(--blue);
-                }
-
-                .sec-title.white-title h2 {
-                    color: #fff;
-                }
-
-                .client-video img {
-                    width: 150px !important;
-                    max-width: 65px;
-                }
-
-                .client-info i.fa-solid.fa-quote-left {
-                    position: absolute;
-                    right: 10px;
-                    font-size: 60px;
-                    color: #11CDBE;
-                }
-
-                .client-video {
-                    padding-right: 15px;
-                }
-
-                .client-info {
-                    display: flex;
-                    align-items: center;
-                    text-align: left;
-                    padding-bottom: 30px;
-                    margin-top: 1rem;
-                }
-
-                .single-testimonial p {
-                    background: #fff;
-                    padding: 42px 32px;
-                    box-shadow: 0px 0px 8px 2px #0000001a;
-                    border-radius: 6px;
-                }
-
-                .back-img {
-                    content: url('https://www.nighthawk-routerlogin.com/assets/img/Bg.png');
-                    width: 100%;
-                    position: relative;
-                    /* top: 5rem; */
-                }
-
-                .owl-nav button.owl-prev {
-                    position: relative;
-                    left: -3rem;
-                    padding: 8px;
-                    border-radius: 39px;
-                    border-width: 1px;
-                    border: 1px solid;
-                    height: 38px;
-                    align-items: center;
-                    display: inherit;
-                    font-size: 24px;
-                    color: #0000006e;
-                }
-
-                .owl-nav button.owl-next {
-                    position: relative;
-                    right: -2rem;
-                    padding: 8px;
-                    border-radius: 39px;
-                    border-width: 1px;
-                    border: 1px solid;
-                    height: 38px;
-                    align-items: center;
-                    display: inherit;
-                    font-size: 24px;
-                    color: #0000006e;
-                }
-            </style>
 
             <section
-                class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
-                id="faq" style="overflow: hidden; padding-bottom: 0rem; margin-bottom:2rem; height: 420px;">
-                <div class="container main-banner-container">
-                    <section class="testimonial-area">
-                        <div class="container">
-                            <div class="sec-title white-title">
-                                <p class="text-center text-4xl font-bold mb-4 pb-4">What Client Say About Us?</p>
-                            </div>
-                            <div class="back-img"></div>
-                            <div class="testimonial-content owl-carousel">
-                                <!-- Single Testimonial -->
-                                <div class="single-testimonial carousel-slide single-testimonial p-4">
-                                    <div class="round-1 round"></div>
-                                    <div class="round-2 round"></div>
-                                    <p>1. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum
-                                        has been the industry's standard dummy text ever since the 1500s, when an unknown
-                                        printer took a galley of type and scrambled it to make a type specimen book</p>
-                                    <div class="client-info">
-                                        <div class="client-video">
-                                            <a href="#"><img
-                                                    src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg"
-                                                    alt=""></a>
-                                        </div>
-                                        <div class="client-details">
-                                            <h6>Yeasin Arafat</h6>
-                                            <span>Designer, LLCG Team</span>
-                                        </div>
-                                        <i class="fa-solid fa-quote-left"></i>
-                                    </div>
-                                </div>
-                                <!-- Add more testimonials as needed -->
-                                <div class="single-testimonial carousel-slide single-testimonial p-4">
-                                    <div class="round-1 round"></div>
-                                    <div class="round-2 round"></div>
-                                    <p>2. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum
-                                        has been the industry's standard dummy text ever since the 1500s, when an unknown
-                                        printer took a galley of type and scrambled it to make a type specimen book</p>
-                                    <div class="client-info">
-                                        <div class="client-video">
-                                            <a href="#"><img
-                                                    src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg"
-                                                    alt=""></a>
-                                        </div>
-                                        <div class="client-details">
-                                            <h6>Yeasin Arafat</h6>
-                                            <span>Designer, LLCG Team</span>
-                                        </div>
-                                        <i class="fa-solid fa-quote-left"></i>
-                                    </div>
-                                </div>
-                                <!-- Repeat the above block for more testimonials -->
-                                <div class="single-testimonial carousel-slide single-testimonial p-4">
-                                    <div class="round-1 round"></div>
-                                    <div class="round-2 round"></div>
-                                    <p>3. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum
-                                        has been the industry's standard dummy text ever since the 1500s, when an unknown
-                                        printer took a galley of type and scrambled it to make a type specimen book</p>
-                                    <div class="client-info">
-                                        <div class="client-video">
-                                            <a href="#"><img
-                                                    src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg"
-                                                    alt=""></a>
-                                        </div>
-                                        <div class="client-details">
-                                            <h6>Yeasin Arafat</h6>
-                                            <span>Designer, LLCG Team</span>
-                                        </div>
-                                        <i class="fa-solid fa-quote-left"></i>
-                                    </div>
-                                </div>
-                                <!-- Repeat the above block for more testimonials -->
-                                <div class="single-testimonial carousel-slide single-testimonial p-4">
-                                    <div class="round-1 round"></div>
-                                    <div class="round-2 round"></div>
-                                    <p>4. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum
-                                        has been the industry's standard dummy text ever since the 1500s, when an unknown
-                                        printer took a galley of type and scrambled it to make a type specimen book</p>
-                                    <div class="client-info">
-                                        <div class="client-video">
-                                            <a href="#"><img
-                                                    src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg"
-                                                    alt=""></a>
-                                        </div>
-                                        <div class="client-details">
-                                            <h6>Yeasin Arafat</h6>
-                                            <span>Designer, LLCG Team</span>
-                                        </div>
-                                        <i class="fa-solid fa-quote-left"></i>
-                                    </div>
-                                </div>
-                                <!-- Repeat the above block for more testimonials -->
-                                <div class="single-testimonial carousel-slide single-testimonial p-4">
-                                    <div class="round-1 round"></div>
-                                    <div class="round-2 round"></div>
-                                    <p>5. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum
-                                        has been the industry's standard dummy text ever since the 1500s, when an unknown
-                                        printer took a galley of type and scrambled it to make a type specimen book</p>
-                                    <div class="client-info">
-                                        <div class="client-video">
-                                            <a href="#"><img
-                                                    src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg"
-                                                    alt=""></a>
-                                        </div>
-                                        <div class="client-details">
-                                            <h6>Yeasin Arafat</h6>
-                                            <span>Designer, LLCG Team</span>
-                                        </div>
-                                        <i class="fa-solid fa-quote-left"></i>
-                                    </div>
-                                </div>
-                                <!-- Repeat the above block for more testimonials -->
-                            </div>
-                            <div class="owl-nav">
-                                <button class="owl-prev"><i class="fa-solid fa-arrow-left"></i></button>
-                                <button class="owl-next"><i class="fa-solid fa-arrow-right"></i></button>
-                            </div>
+                class="section section-home2-eight landing-testimonials bg-[#f9fafb] section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem]"
+                id="testimonials">
+                <div class="container text-center">
+                    <p class="mb-1"><span class="sp-test">TESTIMONIALS</span></p>
+                    <h3 class="font-semibold mb-2 text-[#000] dark:text-white/50">We never failed to reach expectations
+                    </h3>
+                    <div>
+                        <div class="xl:col-span-7 col-span-12 text-[#000] dark:text-white/50">
+                            <p class="mb-[3rem]">Some of
+                                the reviews our clients gave which brings motivation to work for future projects.</p>
                         </div>
+                    </div>
+                    <div class="swiper pagination-dynamic text-start rtl:dirrtl">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide rtl:dir-rtl">
+                                <div class="box testimonial-card">
+                                    <div class="box-body">
+                                        <div class="flex items-center mb-4">
+                                            <span class="avatar avatar-md avatar-rounded me-4">
+                                                <img src="assets/images/faces/10.jpg" alt="">
+                                            </span>
+                                            <div>
+                                                <p class="mb-0 font-semibold text-[0.875rem]">Json Taylor</p>
+                                                <p
+                                                    class="mb-0 text-[0.625rem] font-semibold text-[#8c9097] dark:text-white/50">
+                                                    CEO OF NORJA</p>
+                                            </div>
+                                        </div>
+                                        <div class="mb-4">
+                                            <span class="text-[#8c9097] dark:text-white/50">- Lorem ipsum dolor sit amet
+                                                consectetur adipisicing elit. Earum autem quaerat distinctio --</span>
+                                        </div>
+                                        <div class="flex items-center justify-between">
+                                            <div class="flex items-center">
+                                                <span class="text-[#8c9097] dark:text-white/50">Rating : </span>
+                                                <span class="text-warning block ms-1">
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-half-fill"></i>
+                                                </span>
+                                            </div>
+                                            <div
+                                                class="ltr:float-right rtl:float-left text-[0.75rem] font-semibold text-[#8c9097] dark:text-white/50 text-end">
+                                                <span>12 days ago</span>
+                                                <span class="block font-normal text-[0.75rem] text-success"><i>Json
+                                                        Taylor</i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide rtl:dir-rtl">
+                                <div class="box testimonial-card">
+                                    <div class="box-body">
+                                        <div class="flex items-center mb-4">
+                                            <span class="avatar avatar-md avatar-rounded me-4">
+                                                <img src="assets/images/faces/10.jpg" alt="">
+                                            </span>
+                                            <div>
+                                                <p class="mb-0 font-semibold text-[0.875rem]">Melissa Blue</p>
+                                                <p
+                                                    class="mb-0 text-[0.625rem] font-semibold text-[#8c9097] dark:text-white/50">
+                                                    MANAGER CHO</p>
+                                            </div>
+                                        </div>
+                                        <div class="mb-4">
+                                            <span class="text-[#8c9097] dark:text-white/50">- Lorem ipsum dolor sit amet
+                                                consectetur adipisicing elit. Earum autem quaerat distinctio --</span>
+                                        </div>
+                                        <div class="flex items-center justify-between">
+                                            <div class="flex items-center">
+                                                <span class="text-[#8c9097] dark:text-white/50">Rating : </span>
+                                                <span class="text-warning block ms-1">
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-half-fill"></i>
+                                                </span>
+                                            </div>
+                                            <div
+                                                class="ltr:float-right rtl:float-left text-[0.75rem] font-semibold text-[#8c9097] dark:text-white/50 text-end">
+                                                <span>7 days ago</span>
+                                                <span class="block font-normal text-[0.75rem] text-success"><i>Melissa
+                                                        Blue</i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide rtl:dir-rtl">
+                                <div class="box testimonial-card">
+                                    <div class="box-body">
+                                        <div class="flex items-center mb-4">
+                                            <span class="avatar avatar-md avatar-rounded me-4">
+                                                <img src="assets/images/faces/10.jpg" alt="">
+                                            </span>
+                                            <div>
+                                                <p class="mb-0 font-semibold text-[0.875rem]">Kiara Advain</p>
+                                                <p
+                                                    class="mb-0 text-[0.625rem] font-semibold text-[#8c9097] dark:text-white/50">
+                                                    CEO OF EMPIRO</p>
+                                            </div>
+                                        </div>
+                                        <div class="mb-4">
+                                            <span class="text-[#8c9097] dark:text-white/50">- Lorem ipsum dolor sit amet
+                                                consectetur adipisicing elit. Earum autem quaerat distinctio --</span>
+                                        </div>
+                                        <div class="flex items-center justify-between">
+                                            <div class="flex items-center">
+                                                <span class="text-[#8c9097] dark:text-white/50">Rating : </span>
+                                                <span class="text-warning block ms-1">
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-line"></i>
+                                                </span>
+                                            </div>
+                                            <div
+                                                class="ltr:float-right rtl:float-left text-[0.75rem] font-semibold text-[#8c9097] dark:text-white/50 text-end">
+                                                <span>2 days ago</span>
+                                                <span class="block font-normal text-[0.75rem] text-success"><i>Kiara
+                                                        Advain</i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide rtl:dir-rtl">
+                                <div class="box testimonial-card">
+                                    <div class="box-body">
+                                        <div class="flex items-center mb-4">
+                                            <span class="avatar avatar-md avatar-rounded me-4">
+                                                <img src="assets/images/faces/10.jpg" alt="">
+                                            </span>
+                                            <div>
+                                                <p class="mb-0 font-semibold text-[0.875rem]">Jhonson Smith</p>
+                                                <p
+                                                    class="mb-0 text-[0.625rem] font-semibold text-[#8c9097] dark:text-white/50">
+                                                    CHIEF SECRETARY MBIO</p>
+                                            </div>
+                                        </div>
+                                        <div class="mb-4">
+                                            <span class="text-[#8c9097] dark:text-white/50">- Lorem ipsum dolor sit amet
+                                                consectetur adipisicing elit. Earum autem quaerat distinctio --</span>
+                                        </div>
+                                        <div class="flex items-center justify-between">
+                                            <div class="flex items-center">
+                                                <span class="text-[#8c9097] dark:text-white/50">Rating : </span>
+                                                <span class="text-warning block ms-1">
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-half-fill"></i>
+                                                </span>
+                                            </div>
+                                            <div
+                                                class="ltr:float-right rtl:float-left text-[0.75rem] font-semibold text-[#8c9097] dark:text-white/50 text-end">
+                                                <span>16 hrs ago</span>
+                                                <span class="block font-normal text-[0.75rem] text-success"><i>Jhonson
+                                                        Smith</i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide rtl:dir-rtl">
+                                <div class="box testimonial-card">
+                                    <div class="box-body">
+                                        <div class="flex items-center mb-4">
+                                            <span class="avatar avatar-md avatar-rounded me-4">
+                                                <img src="assets/images/faces/10.jpg" alt="">
+                                            </span>
+                                            <div>
+                                                <p class="mb-0 font-semibold text-[0.875rem]">Dwayne Stort</p>
+                                                <p
+                                                    class="mb-0 text-[0.625rem] font-semibold text-[#8c9097] dark:text-white/50">
+                                                    CEO ARMEDILLO</p>
+                                            </div>
+                                        </div>
+                                        <div class="mb-4">
+                                            <span class="text-[#8c9097] dark:text-white/50">- Lorem ipsum dolor sit amet
+                                                consectetur adipisicing elit. Earum autem quaerat distinctio --</span>
+                                        </div>
+                                        <div class="flex items-center justify-between">
+                                            <div class="flex items-center">
+                                                <span class="text-[#8c9097] dark:text-white/50">Rating : </span>
+                                                <span class="text-warning block ms-1">
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-line"></i>
+                                                </span>
+                                            </div>
+                                            <div
+                                                class="ltr:float-right rtl:float-left text-[0.75rem] font-semibold text-[#8c9097] dark:text-white/50 text-end">
+                                                <span>22 days ago</span>
+                                                <span class="block font-normal text-[0.75rem] text-success"><i>Dwayne
+                                                        Stort</i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide rtl:dir-rtl">
+                                <div class="box testimonial-card">
+                                    <div class="box-body">
+                                        <div class="flex items-center mb-4">
+                                            <span class="avatar avatar-md avatar-rounded me-4">
+                                                <img src="assets/images/faces/10.jpg" alt="">
+                                            </span>
+                                            <div>
+                                                <p class="mb-0 font-semibold text-[0.875rem]">Jasmine Kova</p>
+                                                <p
+                                                    class="mb-0 text-[0.625rem] font-semibold text-[#8c9097] dark:text-white/50">
+                                                    AGGENT AMIO</p>
+                                            </div>
+                                        </div>
+                                        <div class="mb-4">
+                                            <span class="text-[#8c9097] dark:text-white/50">- Lorem ipsum dolor sit amet
+                                                consectetur adipisicing elit. Earum autem quaerat distinctio --</span>
+                                        </div>
+                                        <div class="flex items-center justify-between">
+                                            <div class="flex items-center">
+                                                <span class="text-[#8c9097] dark:text-white/50">Rating : </span>
+                                                <span class="text-warning block ms-1">
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-half-fill"></i>
+                                                </span>
+                                            </div>
+                                            <div
+                                                class="ltr:float-right rtl:float-left text-[0.75rem] font-semibold text-[#8c9097] dark:text-white/50 text-end">
+                                                <span>26 days ago</span>
+                                                <span class="block font-normal text-[0.75rem] text-success"><i>Jasmine
+                                                        Kova</i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide rtl:dir-rtl">
+                                <div class="box testimonial-card">
+                                    <div class="box-body">
+                                        <div class="flex items-center mb-4">
+                                            <span class="avatar avatar-md avatar-rounded me-4">
+                                                <img src="assets/images/faces/10.jpg" alt="">
+                                            </span>
+                                            <div>
+                                                <p class="mb-0 font-semibold text-[0.875rem]">Dolph MR</p>
+                                                <p
+                                                    class="mb-0 text-[0.625rem] font-semibold text-[#8c9097] dark:text-white/50">
+                                                    CEO MR BRAND</p>
+                                            </div>
+                                        </div>
+                                        <div class="mb-4">
+                                            <span class="text-[#8c9097] dark:text-white/50">- Lorem ipsum dolor sit amet
+                                                consectetur adipisicing elit. Earum autem quaerat distinctio --</span>
+                                        </div>
+                                        <div class="flex items-center justify-between">
+                                            <div class="flex items-center">
+                                                <span class="text-[#8c9097] dark:text-white/50">Rating : </span>
+                                                <span class="text-warning block ms-1">
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                </span>
+                                            </div>
+                                            <div
+                                                class="ltr:float-right rtl:float-left text-[0.75rem] font-semibold text-[#8c9097] dark:text-white/50 text-end">
+                                                <span>1 month ago</span>
+                                                <span class="block font-normal text-[0.75rem] text-success"><i>Dolph
+                                                        MR</i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide rtl:dir-rtl">
+                                <div class="box testimonial-card">
+                                    <div class="box-body">
+                                        <div class="flex items-center mb-4">
+                                            <span class="avatar avatar-md avatar-rounded me-4">
+                                                <img src="assets/images/faces/10.jpg" alt="">
+                                            </span>
+                                            <div>
+                                                <p class="mb-0 font-semibold text-[0.875rem]">Brenda Simpson</p>
+                                                <p
+                                                    class="mb-0 text-[0.625rem] font-semibold text-[#8c9097] dark:text-white/50">
+                                                    CEO AIBMO</p>
+                                            </div>
+                                        </div>
+                                        <div class="mb-4">
+                                            <span class="text-[#8c9097] dark:text-white/50">- Lorem ipsum dolor sit amet
+                                                consectetur adipisicing elit. Earum autem quaerat distinctio --</span>
+                                        </div>
+                                        <div class="flex items-center justify-between">
+                                            <div class="flex items-center">
+                                                <span class="text-[#8c9097] dark:text-white/50">Rating : </span>
+                                                <span class="text-warning block ms-1">
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-half-fill"></i>
+                                                </span>
+                                            </div>
+                                            <div
+                                                class="ltr:float-right rtl:float-left text-[0.75rem] font-semibold text-[#8c9097] dark:text-white/50 text-end">
+                                                <span>1 month ago</span>
+                                                <span class="block font-normal text-[0.75rem] text-success"><i>Brenda
+                                                        Simpson</i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide rtl:dir-rtl">
+                                <div class="box testimonial-card">
+                                    <div class="box-body">
+                                        <div class="flex items-center mb-4">
+                                            <span class="avatar avatar-md avatar-rounded me-4">
+                                                <img src="assets/images/faces/10.jpg" alt="">
+                                            </span>
+                                            <div>
+                                                <p class="mb-0 font-semibold text-[0.875rem]">Julia Sams</p>
+                                                <p
+                                                    class="mb-0 text-[0.625rem] font-semibold text-[#8c9097] dark:text-white/50">
+                                                    CHIEF SECRETARY BHOL</p>
+                                            </div>
+                                        </div>
+                                        <div class="mb-4">
+                                            <span class="text-[#8c9097] dark:text-white/50">- Lorem ipsum dolor sit amet
+                                                consectetur adipisicing elit. Earum autem quaerat distinctio --</span>
+                                        </div>
+                                        <div class="flex items-center justify-between">
+                                            <div class="flex items-center">
+                                                <span class="text-[#8c9097] dark:text-white/50">Rating : </span>
+                                                <span class="text-warning block ms-1">
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                </span>
+                                            </div>
+                                            <div
+                                                class="ltr:float-right rtl:float-left text-[0.75rem] font-semibold text-[#8c9097] dark:text-white/50 text-end">
+                                                <span>2 month ago</span>
+                                                <span class="block font-normal text-[0.75rem] text-success"><i>Julia
+                                                        Sams</i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="swiper-pagination mt-4"></div>
+                    </div>
                 </div>
             </section>
-
-            <script>
-                $(document).ready(function() {
-                    const owl = $(".testimonial-content");
-                    owl.owlCarousel({
-                        loop: true,
-                        margin: 8,
-                        dots: false,
-                        nav: false,
-                        mouseDrag: true,
-                        autoplay: true,
-                        autoplayTimeout: 3000,
-                        smartSpeed: 1000,
-                        responsive: {
-                            0: {
-                                items: 1
-                            },
-                            600: {
-                                items: 1
-                            },
-                            1000: {
-                                items: 2
-                            }
-                        }
-                    });
-
-                    $(".owl-prev").click(function() {
-                        owl.trigger('prev.owl.carousel');
-                    });
-
-                    $(".owl-next").click(function() {
-                        owl.trigger('next.owl.carousel');
-                    });
-                });
-            </script>
-
-            {{-- End Testimonial --}}
-
 
             <section
                 class="!bg-[##F3F2EA] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 section-home2-nine">
