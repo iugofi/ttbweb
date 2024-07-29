@@ -58,11 +58,11 @@
                                             class="max-w-[550px] lg:w-[600px] md:w-full  absolute top-1/2 left-0 transform  -translate-y-1/2">
 
                                             <div data-swiper-parallax="200" class="wpo-hero-title-top">
-                                                <h2>TTB–The Intelligent Threat Protection at your fingertips </h2>
+                                                <h2 class="first-color">TTB–The Intelligent Threat Protection at your fingertips </h2>
                                             </div>
 
                                             <div data-swiper-parallax="300" class="slide-text">
-                                                <p>Don’t be a sitting duck in the internet forest! Buy TTB antivirus/VPN
+                                                <p class="first-color">Don’t be a sitting duck in the internet forest! Buy TTB antivirus/VPN
                                                     that fights to secure you on the web. Order Now!
                                                 </p>
                                             </div>
