@@ -2,10 +2,10 @@
     "use strict";
 
     /* basic vector map */
-    var map = new jsVectorMap({
-        selector: "#vector-map",
-        map: "world_merc",
-    });
+    // var map = new jsVectorMap({
+    //     selector: "#vector-map",
+    //     map: "world_merc",
+    // });
 
     /* map with markers */
     var markers = [{
