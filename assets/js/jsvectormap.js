@@ -2,60 +2,28 @@
     "use strict";
 
     /* basic vector map */
-    // var map = new jsVectorMap({
-    //     selector: "#vector-map",
-    //     map: "world_merc",
-    // });
+    var map = new jsVectorMap({
+        selector: "#vector-map",
+        map: "world_merc",
+    });
 
     /* map with markers */
-    var markers = [{
-        name: 'Russia',
-        coords: [61, 105],
-        style: {
-            fill: '#5c5cff'
-        }
-    },
-    {
-        name: 'Greenland',
-        coords: [72, -42],
-        style: {
-            fill: '#ff9251'
-        }
-    },
-    {
-        name: 'Canada',
-        coords: [56, -106],
-        style: {
-            fill: '#56de80'
-        }
-    },
-    {
-        name: 'Palestine',
-        coords: [31.5, 34.8],
-        style: {
-            fill: 'yellow'
-        }
-    },
-    {
-        name: 'Brazil',
-        coords: [-14.2350, -51.9253],
-        style: {
-            fill: '#000'
-        }
-    },
+    var markers = [
+        { name: 'Russia', coords: [61, 105], style: { fill: '#5c5cff' } },
+        { name: 'Greenland', coords: [72, -42], style: { fill: '#ff9251' } },
+        { name: 'Canada', coords: [56, -106], style: { fill: '#56de80' } },
+        { name: 'Palestine', coords: [31.5, 34.8], style: { fill: 'yellow' } },
+        { name: 'Brazil', coords: [-14.2350, -51.9253], style: { fill: '#000' } },
     ];
 
     var map = new jsVectorMap({
         map: 'world_merc',
         selector: '#marker-map',
         markersSelectable: true,
-        // markersSelectableOne: true,
-
+        markersSelectableOne: true,
         onMarkerSelected(index, isSelected, selectedMarkers) {
             console.log(index, isSelected, selectedMarkers);
         },
-
-        // -------- Labels --------
         labels: {
             markers: {
                 render: function (marker) {
@@ -63,8 +31,6 @@
                 },
             },
         },
-
-        // -------- Marker and label style --------
         markers: markers,
         markerStyle: {
             hover: {
@@ -84,31 +50,18 @@
                 fill: '#35373e',
             },
         },
-    })
+    });
 
     /* map with image markers */
     var markers = [
-        {
-            name: 'Palestine',
-            coords: [31.5, 34.8],
-        },
-        {
-            name: 'Russia',
-            coords: [61, 105],
-        },
-        {
-            name: 'Greenland',
-            coords: [72, -42],
-        },
-        {
-            name: 'Canada',
-            coords: [56, -106],
-        },
+        { name: 'Palestine', coords: [31.5, 34.8] },
+        { name: 'Russia', coords: [61, 105] },
+        { name: 'Greenland', coords: [72, -42] },
+        { name: 'Canada', coords: [56, -106] },
     ];
     var map = new jsVectorMap({
         map: 'world_merc',
         selector: '#marker-image-map',
-
         labels: {
             markers: {
                 render: function (marker) {
@@ -143,7 +96,7 @@
                 }
             }],
         }
-    })
+    });
 
     /* maps with lines */
     var markers = [
@@ -151,16 +104,15 @@
         { name: 'Egypt', coords: [26.8206, 30.8025] },
         { name: 'Greenland', coords: [71.7069, -42.6043], offsets: [2, 10] },
         { name: 'Canada', coords: [56, -106], offsets: [-7, 12] },
-    ]
+    ];
 
     var lines = [
         { from: 'Russia', to: 'Egypt', style: { stroke: '#abb0b7', strokeWidth: 1.5 } },
         { from: 'Canada', to: 'Russia', style: { stroke: '#abb0b7', strokeWidth: 1.5 } },
-    ]
+    ];
     new jsVectorMap({
         map: 'world_merc',
         selector: document.querySelector('#lines-map'),
-        // -------- Labels --------
         labels: {
             markers: {
                 render: function (marker) {
@@ -171,7 +123,6 @@
                 }
             },
         },
-        // -------- Marker and label style --------
         markers: markers,
         lines: lines,
         lineStyle: {
@@ -193,7 +144,7 @@
                 fill: '#35373e',
             },
         },
-    })
+    });
 
     /* us vector map */
     var map = new jsVectorMap({
