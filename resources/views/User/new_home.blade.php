@@ -101,10 +101,10 @@
                                             class="max-w-[550px] lg:w-[600px] md:w-full  absolute top-1/2 left-0 transform  -translate-y-1/2">
 
                                             <div data-swiper-parallax="200" class="wpo-hero-title-top">
-                                                <h2>We Shield the Privacy that matters to you–TTB</h2>
+                                                <h2 class="first-color">We Shield the Privacy that matters to you–TTB</h2>
                                             </div>
                                             <div data-swiper-parallax="300" class="slide-text">
-                                                <p>We are the digital saviors to evacuate you from the dark world of
+                                                <p class="first-color">We are the digital saviors to evacuate you from the dark world of
                                                     cyberwarfare with real-time threat detection.</p>
                                             </div>
 
@@ -116,9 +116,9 @@
                                                 <div class="spacing-top-cl"><a
                                                         href="https://www.trustpilot.com/review/ttbinternetsecurity.com?utm_medium=trustbox&utm_source=MicroReviewCount"
                                                         target="_blank">
-                                                        <span>Excellent</span><img
+                                                        <span class="first-color">Excellent</span><img
                                                             src="{{ asset('assets/home-two-img/Review.png') }}">
-                                                        <span>18,249
+                                                        <span class="first-color">18,249
                                                             Reviews on</span><i class="fa-solid fa-star"></i></a><a
                                                         href="https://www.av-test.org/en/antivirus/mobile-devices/manufacturer/ttb/"
                                                         target="_blank"><img
@@ -980,7 +980,7 @@
                 <div class="container">
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 col-span-12 text-center">
-                            <h2>Services</h2>
+                            <h2 class="first-color">Services</h2>
                         </div>
                     </div>
                     <div class="grid grid-cols-12 gap-6">
@@ -993,8 +993,8 @@
                                 </div>
                                 <div
                                     class="xxl:col-span-8 xl:col-span-8 lg:col-span-8 md:col-span-8 col-span-8 text-box-new">
-                                    <h4>Real-time threat<br> detection</h4>
-                                    <p>Lorem ipsum dolor sit amet.</p>
+                                    <h4 class="first-color">Real-time threat<br> detection</h4>
+                                    <p class="first-color">Lorem ipsum dolor sit amet.</p>
                                 </div>
                             </div>
                         </div>
@@ -1007,8 +1007,8 @@
                                 </div>
                                 <div
                                     class="xxl:col-span-8 xl:col-span-8 lg:col-span-8 md:col-span-8 col-span-8 text-box-new">
-                                    <h4>Auto-update <br>feature </h4>
-                                    <p>Lorem ipsum dolor sit amet.</p>
+                                    <h4 class="first-color">Auto-update <br>feature </h4>
+                                    <p class="first-color">Lorem ipsum dolor sit amet.</p>
                                 </div>
                             </div>
                         </div>
@@ -1021,8 +1021,8 @@
                                 </div>
                                 <div
                                     class="xxl:col-span-8 xl:col-span-8 lg:col-span-8 md:col-span-8 col-span-8 text-box-new">
-                                    <h4>24x7 hours expert & certified services</h4>
-                                    <p>Lorem ipsum dolor sit amet.</p>
+                                    <h4 class="first-color">24x7 hours expert & certified services</h4>
+                                    <p class="first-color">Lorem ipsum dolor sit amet.</p>
                                 </div>
                             </div>
                         </div>
@@ -1035,8 +1035,8 @@
                                 </div>
                                 <div
                                     class="xxl:col-span-8 xl:col-span-8 lg:col-span-8 md:col-span-8 col-span-8 text-box-new">
-                                    <h4>Multi-device <br>compatibility </h4>
-                                    <p>Lorem ipsum dolor sit amet.</p>
+                                    <h4 class="first-color">Multi-device <br>compatibility </h4>
+                                    <p class="first-color">Lorem ipsum dolor sit amet.</p>
                                 </div>
                             </div>
                         </div>
@@ -1071,9 +1071,9 @@
                 <div class="container">
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
-                            <h2><span class="text-color-ttb">TTB Antivirus</span>– Advanced Threat Intelligence Tool
+                            <h2 class="first-color"><span class="text-color-ttb">TTB Antivirus</span>– Advanced Threat Intelligence Tool
                             </h2>
-                            <p>Our easy-to-install antivirus will alert you about the emerging and new threat that addresses
+                            <p class="first-color">Our easy-to-install antivirus will alert you about the emerging and new threat that addresses
                                 the dark web. It smartly guards your device and confidentiality with real-time threat
                                 detection and auto-update features. This advanced tool locks up your privacy and security
                                 from malware, ransomware, viruses, & more. Order Now for Advanced Protection!
@@ -1226,7 +1226,7 @@
                                 <div class="single-testimonial carousel-slide single-testimonial p-4">
                                     <div class="round-1 round"></div>
                                     <div class="round-2 round"></div>
-                                    <p>1. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    <p class="first-color">1. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                                         Ipsum has been the industry's standard dummy text ever since the 1500s, when an
                                         unknown printer took a galley of type and scrambled it to make a type specimen book
                                     </p>
@@ -1247,7 +1247,7 @@
                                 <div class="single-testimonial carousel-slide single-testimonial p-4">
                                     <div class="round-1 round"></div>
                                     <div class="round-2 round"></div>
-                                    <p>2. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    <p class="first-color">2. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                                         Ipsum has been the industry's standard dummy text ever since the 1500s, when an
                                         unknown printer took a galley of type and scrambled it to make a type specimen book
                                     </p>
@@ -1268,7 +1268,7 @@
                                 <div class="single-testimonial carousel-slide single-testimonial p-4">
                                     <div class="round-1 round"></div>
                                     <div class="round-2 round"></div>
-                                    <p>3. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    <p class="first-color">3. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                                         Ipsum has been the industry's standard dummy text ever since the 1500s, when an
                                         unknown printer took a galley of type and scrambled it to make a type specimen book
                                     </p>
@@ -1289,7 +1289,7 @@
                                 <div class="single-testimonial carousel-slide single-testimonial p-4">
                                     <div class="round-1 round"></div>
                                     <div class="round-2 round"></div>
-                                    <p>4. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    <p class="first-color">4. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                                         Ipsum has been the industry's standard dummy text ever since the 1500s, when an
                                         unknown printer took a galley of type and scrambled it to make a type specimen book
                                     </p>
@@ -1310,7 +1310,7 @@
                                 <div class="single-testimonial carousel-slide single-testimonial p-4">
                                     <div class="round-1 round"></div>
                                     <div class="round-2 round"></div>
-                                    <p>5. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    <p class="first-color">5. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                                         Ipsum has been the industry's standard dummy text ever since the 1500s, when an
                                         unknown printer took a galley of type and scrambled it to make a type specimen book
                                     </p>
