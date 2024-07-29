@@ -625,15 +625,6 @@
                 <div class="testimonial-content owl-carousel owl-loaded owl-drag">
                     <!-- Single Testimonial -->
 
-                    <!-- Add more testimonials as needed -->
-
-                    <!-- Repeat the above block for more testimonials -->
-
-                    <!-- Repeat the above block for more testimonials -->
-
-                    <!-- Repeat the above block for more testimonials -->
-
-                    <!-- Repeat the above block for more testimonials -->
                     <div class="owl-stage-outer">
                         <div class="owl-stage"
                             style="transform: translate3d(-1650px, 0px, 0px); transition: 1s; width: 6050px;">
@@ -901,6 +892,7 @@
                                     </div>
                                 </div>
                             </div>
+                                                <!-- Add more testimonials as needed -->
                         </div>
                     </div>
                     <div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><span
@@ -917,32 +909,7 @@
     </div>
 </section>
 
-
-
 {{-- New testimonial html css End --}}
-
-
-<div class="xl:col-span-6 col-span-12">
-    <div class="box custom-box">
-        <div class="box-header">
-            <div class="box-title">Map With Markers</div>
-        </div>
-        <div class="box-body">
-            <div id="marker-map"></div>
-        </div>
-    </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -955,15 +922,15 @@
     });
 </script>
 
-<script src="{{asset('assets/libs/jsvectormap/js/jsvectormap.min.js')}}"></script>
+{{-- <script src="{{asset('assets/libs/jsvectormap/js/jsvectormap.min.js')}}"></script> --}}
 
 <!-- JSVector Maps MapsJS -->
-<script src="{{asset('assets/libs/jsvectormap/maps/world-merc.js')}}"></script>
+{{-- <script src="{{asset('assets/libs/jsvectormap/maps/world-merc.js')}}"></script>
 <script src="{{asset('assets/js/us-merc-en.js')}}"></script>
 <script src="{{asset('assets/js/russia.js')}}"></script>
 <script src="{{asset('assets/js/spain.js')}}"></script>
 <script src="{{asset('assets/js/canada.js')}}"></script>
-<script src="{{asset('assets/js/jsvectormap.js')}}"></script>
+<script src="{{asset('assets/js/jsvectormap.js')}}"></script> --}}
 
 
 
