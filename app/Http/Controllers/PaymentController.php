@@ -202,6 +202,30 @@ class PaymentController extends Controller
             if ($getkey) {
                 $getkey->is_key_used = 1;
                 $getkey->key_activation_date=Carbon::now();
+                $plan_id_get = DB::table('product_details')
+                ->select('plan_id')
+                ->where('id', $vid)
+                ->first();
+
+            if (isset($plan_id_get->plan_id)) {
+                switch ($plan_id_get->plan_id) {
+                    case 601:
+                        $getkey->key_expiry_date = Carbon::now()->addMonths(3);
+                        break;
+                    case 602:
+                        $getkey->key_expiry_date = Carbon::now()->addYear();
+                        break;
+                    case 603:
+                    case 604:
+                    case 605:
+                        $getkey->key_expiry_date = Carbon::now()->addYear();
+                        break;
+                    default:
+                        // Handle other cases or set a default expiry date if needed
+                        $getkey->key_expiry_date = Carbon::now();
+                        break;
+                }
+                $getkey->key_expirey_date = $plan_id_get->is_key_used;
                 $id_key = $getkey->id;
                 $main_key = $getkey->main_key;
                 $getkey->save();
