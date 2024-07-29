@@ -447,7 +447,115 @@
 
             {{-- New testimonial html css start --}}
 
-            <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
+            <style>
+                .testimonial-area {
+                    position: relative;
+                }
+
+                .testimonial-content {
+                    position: relative;
+                    z-index: 1;
+                    bottom: 4.8rem;
+                }
+
+                .owl-nav {
+                    position: absolute;
+                    top: 50%;
+                    width: calc(100% - 100px);
+                    /* Reduced width to leave space for buttons */
+                    display: flex;
+                    justify-content: space-between;
+                    transform: translateY(-4rem);
+                    /* padding: 0 50px;  */
+                    box-sizing: border-box;
+                    width: 100%;
+                }
+
+                .owl-nav button {
+                    background-color: transparent;
+                    border: none;
+                    font-size: 30px;
+                    cursor: pointer;
+                    transition: color 0.3s;
+                }
+
+                .owl-nav button:hover {
+                    color: var(--blue);
+                }
+
+                .sec-title.white-title h2 {
+                    color: #fff;
+                }
+
+                .client-video img {
+                    width: 150px !important;
+                    max-width: 65px;
+                }
+
+                .client-info i.fa-solid.fa-quote-left {
+                    position: absolute;
+                    right: 10px;
+                    font-size: 60px;
+                    color: #11CDBE;
+                }
+
+                .client-video {
+                    padding-right: 15px;
+                }
+
+                .client-info {
+                    display: flex;
+                    align-items: center;
+                    text-align: left;
+                    padding-bottom: 30px;
+                    margin-top: 1rem;
+                }
+
+                .single-testimonial p {
+                    background: #fff;
+                    padding: 42px 32px;
+                    box-shadow: 0px 0px 8px 2px #0000001a;
+                    border-radius: 6px;
+                }
+
+                .back-img {
+                    content: url('https://www.nighthawk-routerlogin.com/assets/img/Bg.png');
+                    width: 100%;
+                    position: relative;
+                    /* top: 5rem; */
+                }
+
+                .owl-nav button.owl-prev {
+                    position: relative;
+                    left: -3rem;
+                    padding: 8px;
+                    border-radius: 39px;
+                    border-width: 1px;
+                    border: 1px solid;
+                    height: 38px;
+                    align-items: center;
+                    display: inherit;
+                    font-size: 24px;
+                    color: #0000006e;
+                }
+
+                .owl-nav button.owl-next {
+                    position: relative;
+                    right: -2rem;
+                    padding: 8px;
+                    border-radius: 39px;
+                    border-width: 1px;
+                    border: 1px solid;
+                    height: 38px;
+                    align-items: center;
+                    display: inherit;
+                    font-size: 24px;
+                    color: #0000006e;
+                }
+            </style>
+
+            <section
+                class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
                 id="faq" style="overflow: hidden; padding-bottom: 0rem; height: 420px;">
                 <div class="container main-banner-container">
                     <section class="testimonial-area">
