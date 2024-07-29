@@ -4,7 +4,7 @@
 @section('Description', '')
 @section('keywords', '')
 @section('canonical', '')
-
+@section('content')
 <!-- Jsvector Maps -->
 <link rel="stylesheet" href="assets/libs/jsvectormap/css/jsvectormap.min.css">
 
@@ -917,11 +917,7 @@
     </div>
 </section>
 
-<script>
-    $(document).ready(function() {
-        testimonials();
-    });
-</script>
+
 
 {{-- New testimonial html css End --}}
 
@@ -944,7 +940,11 @@
 
 
 </div>
-
+<script>
+    $(document).ready(function() {
+        testimonials();
+    });
+</script>
 
 <script src="assets/libs/jsvectormap/js/jsvectormap.min.js"></script>
 
@@ -956,6 +956,6 @@
 <script src="assets/js/canada.js"></script>
 <script src="assets/js/jsvectormap.js"></script>
 
-@section('content')
+
 
 @endsection
