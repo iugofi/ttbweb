@@ -922,7 +922,16 @@
 {{-- New testimonial html css End --}}
 
 
-
+<div class="xl:col-span-6 col-span-12">
+    <div class="box custom-box">
+        <div class="box-header">
+            <div class="box-title">Map With Markers</div>
+        </div>
+        <div class="box-body">
+            <div id="marker-map"></div>
+        </div>
+    </div>
+</div>
 
 
 
@@ -946,15 +955,15 @@
     });
 </script>
 
-{{-- <script src="assets/libs/jsvectormap/js/jsvectormap.min.js"></script> --}}
+<script src="assets/libs/jsvectormap/js/jsvectormap.min.js"></script>
 
 <!-- JSVector Maps MapsJS -->
-{{-- <script src="assets/libs/jsvectormap/maps/world-merc.js"></script>
+<script src="assets/libs/jsvectormap/maps/world-merc.js"></script>
 <script src="assets/js/us-merc-en.js"></script>
 <script src="assets/js/russia.js"></script>
 <script src="assets/js/spain.js"></script>
 <script src="assets/js/canada.js"></script>
-<script src="assets/js/jsvectormap.js"></script> --}}
+<script src="assets/js/jsvectormap.js"></script>
 
 
 
