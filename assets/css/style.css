@@ -53644,6 +53644,15 @@ section#about-features {
     background-color: #000;
     border-radius: 0px !important;
 }
+.dark p.dark-black {
+    background: #252729;
+    color: #c5c3c3;
+}
+.dark .client-video img {
+    background-color: #252729 !important;
+    border-radius: 50px;
+    opacity: 75%;
+}
 .bg-imgs {
     position: absolute;
     right: 0rem;
