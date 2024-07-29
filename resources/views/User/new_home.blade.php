@@ -76,9 +76,9 @@
                                                 <div class="spacing-top-cl"><a
                                                         href="https://www.trustpilot.com/review/ttbinternetsecurity.com?utm_medium=trustbox&utm_source=MicroReviewCount"
                                                         target="_blank">
-                                                        <span>Excellent</span><img
+                                                        <span class="dark-black">Excellent</span><img
                                                             src="{{ asset('assets/home-two-img/Review.png') }}">
-                                                        <span>18,249
+                                                        <span class="dark-black">18,249
                                                             Reviews on</span><i class="fa-solid fa-star"></i></a><a
                                                         href="https://www.av-test.org/en/antivirus/mobile-devices/manufacturer/ttb/"
                                                         target="_blank"><img
