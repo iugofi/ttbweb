@@ -16,8 +16,8 @@ class TTBKEY extends Model
         'key_activation_date',
         'key_expirey_date',
         'is_key_used',
-        'key_status', 
+        'key_status',
     ];
-    
+
     use HasFactory,SoftDeletes;
 }
