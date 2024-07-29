@@ -946,15 +946,15 @@
     });
 </script>
 
-<script src="assets/libs/jsvectormap/js/jsvectormap.min.js"></script>
+{{-- <script src="assets/libs/jsvectormap/js/jsvectormap.min.js"></script> --}}
 
 <!-- JSVector Maps MapsJS -->
-<script src="assets/libs/jsvectormap/maps/world-merc.js"></script>
+{{-- <script src="assets/libs/jsvectormap/maps/world-merc.js"></script>
 <script src="assets/js/us-merc-en.js"></script>
 <script src="assets/js/russia.js"></script>
 <script src="assets/js/spain.js"></script>
 <script src="assets/js/canada.js"></script>
-<script src="assets/js/jsvectormap.js"></script>
+<script src="assets/js/jsvectormap.js"></script> --}}
 
 
 
