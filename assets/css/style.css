@@ -53639,6 +53639,11 @@ section#about-features {
     border-radius: 30px;
     padding: 4px;
 }
+.dark .back-img {
+    background-image: url('https://www.nighthawk-routerlogin.com/assets/img/Bg-img-dark.png');
+    background-color: #000;
+    border-radius: 0px !important;
+}
 .bg-imgs {
     position: absolute;
     right: 0rem;
