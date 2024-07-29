@@ -1104,7 +1104,7 @@
 
             {{-- New testimonial html css start --}}
 
-            <style>
+            {{-- <style>
                 .testimonial-area {
                     position: relative;
                 }
@@ -1209,7 +1209,7 @@
                     font-size: 24px;
                     color: #0000006e;
                 }
-            </style>
+            </style> --}}
 
             <section
                 class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
