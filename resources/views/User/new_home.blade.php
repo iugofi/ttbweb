@@ -1226,7 +1226,7 @@
                                 <div class="single-testimonial carousel-slide single-testimonial p-4">
                                     <div class="round-1 round"></div>
                                     <div class="round-2 round"></div>
-                                    <p class="dark-black">1. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    <p class="dark-black-p">1. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                                         Ipsum has been the industry's standard dummy text ever since the 1500s, when an
                                         unknown printer took a galley of type and scrambled it to make a type specimen book
                                     </p>
@@ -1247,7 +1247,7 @@
                                 <div class="single-testimonial carousel-slide single-testimonial p-4">
                                     <div class="round-1 round"></div>
                                     <div class="round-2 round"></div>
-                                    <p class="dark-black">2. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    <p class="dark-black-p">2. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                                         Ipsum has been the industry's standard dummy text ever since the 1500s, when an
                                         unknown printer took a galley of type and scrambled it to make a type specimen book
                                     </p>
@@ -1268,7 +1268,7 @@
                                 <div class="single-testimonial carousel-slide single-testimonial p-4">
                                     <div class="round-1 round"></div>
                                     <div class="round-2 round"></div>
-                                    <p class="dark-black">3. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    <p class="dark-black-p">3. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                                         Ipsum has been the industry's standard dummy text ever since the 1500s, when an
                                         unknown printer took a galley of type and scrambled it to make a type specimen book
                                     </p>
@@ -1289,7 +1289,7 @@
                                 <div class="single-testimonial carousel-slide single-testimonial p-4">
                                     <div class="round-1 round"></div>
                                     <div class="round-2 round"></div>
-                                    <p class="dark-black">4. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    <p class="dark-black-p">4. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                                         Ipsum has been the industry's standard dummy text ever since the 1500s, when an
                                         unknown printer took a galley of type and scrambled it to make a type specimen book
                                     </p>
@@ -1310,7 +1310,7 @@
                                 <div class="single-testimonial carousel-slide single-testimonial p-4">
                                     <div class="round-1 round"></div>
                                     <div class="round-2 round"></div>
-                                    <p class="dark-black">5. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    <p class="dark-black-p">5. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                                         Ipsum has been the industry's standard dummy text ever since the 1500s, when an
                                         unknown printer took a galley of type and scrambled it to make a type specimen book
                                     </p>
