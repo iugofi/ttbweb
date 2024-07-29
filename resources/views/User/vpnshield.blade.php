@@ -501,10 +501,7 @@
         </section>
 
 
-        ------------
-
-        <section
-            class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
+        <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
             id="faq" style="overflow: hidden; padding-bottom: 0rem; height: 420px;">
             <div class="container main-banner-container">
                 <section class="testimonial-area">
