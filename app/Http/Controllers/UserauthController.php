@@ -31,12 +31,14 @@ class UserauthController extends Controller
     {
 
         if ($this->loggedInUser) {
-
+            DB::enableQueryLog();
             $productdetails = Payments::join('product_details', 'payments.product_id', '=', 'product_details.id')
                 ->where('payments.user_id', $this->loggedInUser)
                 ->select('payments.*', 'payments.id as id_py', 'product_details.*')
                 ->orderby('payments.created_at', 'desc')
                 ->get();
+                $query = DB::getQueryLog($productdetails);
+                dd($query);
 
             $user_id_s = $this->loggedInUser;
 
