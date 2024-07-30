@@ -256,7 +256,7 @@
                                 excellent schemas without effective <br> models. Synergistically engineer functionalized
                                 applications rather <br> than backend e-commerce.</div>
 
-                            <a href="index.html" class="m-1 ti-btn ti-btn-primary-full">
+                            <a href="index.html" class="ti-btn bg-primary text-white">
                                 Read More
                                 <i class="ri-eye-line ms-2 align-middle"></i>
                             </a>
@@ -489,7 +489,7 @@
                 </div>
                 <div class="grid-cols-12 mt-5">
                     <div class="container text-center">
-                        <a href="index.html" class="m-1 ti-btn ti-btn-primary-full">
+                        <a href="index.html" class="ti-btn bg-primary text-white">
                             Download
                             <i class="ri-eye-line ms-2 align-middle"></i>
                         </a>
