@@ -11,6 +11,7 @@
         body {
             background-color: rgb(var(--body-bg));
         }
+
         div#example_length {
             display: none;
         }
@@ -57,9 +58,10 @@
                                 <div>
                                     <span class="avatar avatar-xxl avatar-rounded online me-4">
                                         @if (isset($user_data->profile))
-                                        <img src="{{asset('assets/userprofile/'.$user_data->profile)}}" alt="">
+                                            <img src="{{ asset('assets/userprofile/' . $user_data->profile) }}"
+                                                alt="">
                                         @else
-                                        <img src="assets/userprofile/default-profile.png" alt="">
+                                            <img src="assets/userprofile/default-profile.png" alt="">
                                         @endif
                                     </span>
                                 </div>
@@ -81,11 +83,13 @@
                                         {{-- <span class="me-4 inline-flex"><i
                                                 class="ri-building-line me-1 align-middle"></i>Georgia</span> --}}
                                         <span class="inline-flex">
-                                            <i class="ri-map-pin-line me-1 align-middle"></i>{{ isset($user_data->address) ? $user_data->address : 'N/A' }}</span>
+                                            <i
+                                                class="ri-map-pin-line me-1 align-middle"></i>{{ isset($user_data->address) ? $user_data->address : 'N/A' }}</span>
                                     </p>
                                     <div class="flex mb-0">
                                         <div class="me-6">
-                                            <p class="font-bold text-[1.25rem] text-white text-shadow mb-0">{{ isset($keydetails->count) ? $keydetails->count : 'N/A' }}
+                                            <p class="font-bold text-[1.25rem] text-white text-shadow mb-0">
+                                                {{ isset($keydetails->count) ? $keydetails->count : 'N/A' }}
                                             </p>
                                             <p class="mb-0 text-[.6875rem] opacity-[0.5] text-white">Antivirus</p>
                                         </div>
@@ -95,7 +99,8 @@
                                             <p class="mb-0 text-[.6875rem] opacity-[0.5] text-white">Total Security</p>
                                         </div> --}}
                                         <div class="me-6">
-                                            <p class="font-bold text-[1.25rem] text-white text-shadow mb-0">{{ isset($keydetails->count) ? $keydetails->count : 'N/A' }}
+                                            <p class="font-bold text-[1.25rem] text-white text-shadow mb-0">
+                                                {{ isset($keydetails->count) ? $keydetails->count : 'N/A' }}
                                             </p>
                                             <p class="mb-0 text-[.6875rem] opacity-[0.5] text-white">Vpn Shield</p>
                                         </div>
@@ -106,11 +111,13 @@
                                 <div class="mb-6">
                                     <p class="text-[.9375rem] mb-2 font-semibold">Professional Bio :</p>
                                     <p class="text-[0.75rem] text-[#8c9097] dark:text-white/50 opacity-[0.7] mb-0">
-                                        I am <b class="text-defaulttextcolor"> @if (isset($user_data) && !empty($user_data->firstname) && !empty($user_data->lastname))
-                                            {{ $user_data->firstname . ' ' . $user_data->lastname }}
-                                        @else
-                                            !
-                                        @endif,</b> here by conclude
+                                        I am <b class="text-defaulttextcolor">
+                                            @if (isset($user_data) && !empty($user_data->firstname) && !empty($user_data->lastname))
+                                                {{ $user_data->firstname . ' ' . $user_data->lastname }}
+                                            @else
+                                                !
+                                            @endif,
+                                        </b> here by conclude
                                         that,i am the founder and managing director of the prestigeous company name
                                         laugh at all and acts as the cheif executieve officer of the company.
                                     </p>
@@ -142,7 +149,6 @@
                                         @if (isset($user_data) && !empty($user_data->email))
                                             {{ $user_data->email }}
                                         @else
-
                                         @endif
                                     </p>
                                     <p class="mb-2">
@@ -205,9 +211,12 @@
                                             </a>
                                         </nav>
                                         <div>
-                                            <p class="font-semibold mb-2">Profile {{ $profileCompletion }}% completed - <a href="javascript:void(0);" class="text-primary text-[0.75rem]">Finish now</a></p>
+                                            <p class="font-semibold mb-2">Profile {{ $profileCompletion }}% completed - <a
+                                                    href="javascript:void(0);" class="text-primary text-[0.75rem]">Finish
+                                                    now</a></p>
                                             <div class="progress progress-xs progress-animate">
-                                                <div class="progress-bar bg-primary" style="width: {{ $profileCompletion }}%;"></div>
+                                                <div class="progress-bar bg-primary"
+                                                    style="width: {{ $profileCompletion }}%;"></div>
                                             </div>
                                         </div>
 
@@ -250,7 +259,8 @@
                                                             class="hs-overlay hidden ti-modal">
                                                             <div
                                                                 class="hs-overlay-open:mt-7 ti-modal-box mt-0 ease-out h-[calc(100%-3.5rem)] min-h-[calc(100%-3.5rem)] flex items-center">
-                                                                <div class="max-h-full overflow-hidden ti-modal-content popup-scroll">
+                                                                <div
+                                                                    class="max-h-full overflow-hidden ti-modal-content popup-scroll">
                                                                     <div class="ti-modal-header">
                                                                         <h6 class="modal-title" id="staticBackdropLabel3">
                                                                             Edit Profile
@@ -271,7 +281,8 @@
                                                                         </button>
                                                                     </div>
                                                                     <div class="ti-modal-body">
-                                                                        <form method="post" id="myprofilechangeother" enctype="multipart/form-data">
+                                                                        <form method="post" id="myprofilechangeother"
+                                                                            enctype="multipart/form-data">
                                                                             @csrf
                                                                             <div class="mb-3">
                                                                                 <label for="exampleInputPassword1"
@@ -335,15 +346,19 @@
 
                                                                                 <label for="exampleInputPassword1"
                                                                                     class="form-label">Profile</label><br>
-                                                                                    <span class="avatar avatar-xl me-1">
-                                                                                        <img src="{{ asset('assets/userprofile/' . ($user_data->profile ? $user_data->profile : 'default-profile.png')) }}" alt="">
-                                                                                    </span>
+                                                                                <span class="avatar avatar-xl me-1">
+                                                                                    <img src="{{ asset('assets/userprofile/' . ($user_data->profile ? $user_data->profile : 'default-profile.png')) }}"
+                                                                                        alt="">
+                                                                                </span>
 
-                                                                                    <input type="file" class="form-control" id="profile_images" name="profile_images"
-                                                                                    multiple data-allow-reorder="true" data-max-file-size="3MB"
+                                                                                <input type="file" class="form-control"
+                                                                                    id="profile_images"
+                                                                                    name="profile_images" multiple
+                                                                                    data-allow-reorder="true"
+                                                                                    data-max-file-size="3MB"
                                                                                     data-max-files="6">
                                                                                 <div class="invalid-feedback"></div>
-                                                                                </div>
+                                                                            </div>
 
                                                                     </div>
                                                                     <div class="ti-modal-footer">
@@ -522,7 +537,6 @@
                                                                             @if (isset($user_data) && !empty($user_data->email))
                                                                                 {{ $user_data->email }}
                                                                             @else
-
                                                                             @endif
                                                                         </span>
                                                                     </div>
@@ -537,7 +551,6 @@
                                                                             @if (isset($user_data) && !empty($user_data->phone))
                                                                                 {{ $user_data->phone }}
                                                                             @else
-
                                                                             @endif
                                                                         </span>
 
@@ -554,7 +567,6 @@
                                                                             @if (isset($user_data) && !empty($user_data->address))
                                                                                 {{ $user_data->address }}
                                                                             @else
-
                                                                             @endif
                                                                         </span>
 
@@ -691,23 +703,30 @@
                                                                                     @php
                                                                                         $id = 1;
                                                                                     @endphp
-                                                                                    <td class="border px-4 py-2">{{ $key + 1 }}</td>
-                                                                                    <td class="border px-4 py-2">@php
-                                                                                        $product_name = DB::table('storepick')
-                                                                                            ->select('*')
-                                                                                            ->where(
-                                                                                                'PICK_ID',
-                                                                                                $item->key_type,
+                                                                                    <td class="border px-4 py-2">
+                                                                                        {{ $key + 1 }}</td>
+                                                                                    <td class="border px-4 py-2">
+                                                                                        @php
+                                                                                            $product_name = DB::table(
+                                                                                                'storepick',
                                                                                             )
-                                                                                            ->where('STORE_ID', 'key_type')
-                                                                                            ->first();
-                                                                                    @endphp
+                                                                                                ->select('*')
+                                                                                                ->where(
+                                                                                                    'PICK_ID',
+                                                                                                    $item->key_type,
+                                                                                                )
+                                                                                                ->where(
+                                                                                                    'STORE_ID',
+                                                                                                    'key_type',
+                                                                                                )
+                                                                                                ->first();
+                                                                                        @endphp
                                                                                         @if ($product_name)
                                                                                             {{ $product_name->PICK_TEXT }}
                                                                                         @else
                                                                                             No product found.
                                                                                         @endif
-        </td>
+                                                                                    </td>
                                                                                     {{-- <td class="border px-4 py-2">
                                                                                         <div class="flex items-center font-semibold">
                                                                                             <span class="!me-2 inline-flex justify-center items-center">
@@ -717,14 +736,18 @@
                                                                                             </span>
                                                                                         </div>
                                                                                     </td> --}}
-                                                                                    <td class="border px-4 py-2">{{$item->pay_id}}</td>
-                                                                                    <td class="border px-4 py-2">{{$item->created_at->format('F j, Y')}}</td>
-                                                                                    <td class="border px-4 py-2">${{$item->amount_total}}</td>
-                                                                                    <td class="border px-4 py-2">#1000{{$item->id_py}}</td>
+                                                                                    <td class="border px-4 py-2">
+                                                                                        {{ $item->pay_id }}</td>
+                                                                                    <td class="border px-4 py-2">
+                                                                                        {{ $item->created_at->format('F j, Y') }}
+                                                                                    </td>
+                                                                                    <td class="border px-4 py-2">
+                                                                                        ${{ $item->amount_total }}</td>
+                                                                                    <td class="border px-4 py-2">
+                                                                                        #1000{{ $item->id_py }}</td>
                                                                                     <td class="border">
 
-                                                                                        @if ($item->payment_status=='paid')
-
+                                                                                        @if ($item->payment_status == 'paid')
                                                                                             <span
                                                                                                 class="inline-flex text-primary !py-[0.15rem] !px-[0.45rem] rounded-sm !font-semibold !text-[0.75em] bg-primary/10">{{ $item->payment_status }}</span>
                                                                                         @else
@@ -735,11 +758,14 @@
 
 
                                                                                     <td class="border px-4 py-2">
-                                                                                        <div class="flex flex-row items-center text-[0.9375rem]">
+                                                                                        <div
+                                                                                            class="flex flex-row items-center text-[0.9375rem]">
                                                                                             <a aria-label="anchor"
                                                                                                 href="{{ route('user.invoice', \Crypt::encrypt($item->pay_id)) }}"
-                                                                                                class="ti-btn ti-btn-icon ti-btn-wave !gap-0 !m-0 !h-[1.75rem] !w-[1.75rem] text-[0.8rem] bg-primary/10 text-primary hover:bg-primary hover:text-white hover:border-primary" target="_blank">
-                                                                                                <i class="ri-printer-line"></i>
+                                                                                                class="ti-btn ti-btn-icon ti-btn-wave !gap-0 !m-0 !h-[1.75rem] !w-[1.75rem] text-[0.8rem] bg-primary/10 text-primary hover:bg-primary hover:text-white hover:border-primary"
+                                                                                                target="_blank">
+                                                                                                <i
+                                                                                                    class="ri-printer-line"></i>
                                                                                             </a>
 
 
@@ -773,12 +799,12 @@
                                                                 <div class="box-body p-6">
                                                                     <div class="text-center">
                                                                         <span class="avatar avatar-xl">
-                                                                            @if ($productdetails_list->key_type==502)
-                                                                            <img src="{{asset('assets/Admin/ttb/TTB-Antivirus.png')}}"
-                                                                            alt="">
-                                                                            @elseif ($productdetails_list->key_type==501)
-                                                                            <img src="{{asset('assets/Admin/ttb/VPN-SHIELD.png')}}"
-                                                                            alt="">
+                                                                            @if ($productdetails_list->key_type == 502)
+                                                                                <img src="{{ asset('assets/Admin/ttb/TTB-Antivirus.png') }}"
+                                                                                    alt="">
+                                                                            @elseif ($productdetails_list->key_type == 501)
+                                                                                <img src="{{ asset('assets/Admin/ttb/VPN-SHIELD.png') }}"
+                                                                                    alt="">
                                                                             @endif
 
                                                                         </span>
@@ -819,12 +845,31 @@
                                                                             </p>
                                                                             <span
                                                                                 class="badge bg-info/10 rounded-full text-info">@php
-                                                                                $results = App\Models\TTBKEY::where('id', $productdetails_list->product_key)->first();
-                                                                            @endphp
-                                                                                {{ $results ? $results->main_key : 'NA' }} </span>
-                                                                            <p class="text-[0.75rem] opacity-[0.7] mb-1 text-[#8c9097] dark:text-white/50">
-                                                                                {{$productdetails_list->created_at->format('F j, Y')}}
-                                                                            </p>
+                                                                                    $results = App\Models\TTBKEY::where(
+                                                                                        'id',
+                                                                                        $productdetails_list->product_key,
+                                                                                    )->first();
+                                                                                @endphp
+                                                                                {{ $results ? $results->main_key : 'NA' }}
+                                                                            </span>
+                                                                            <div class="grid grid-cols-12 gap-6">
+                                                                                <div
+                                                                                    class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
+                                                                                    <p
+                                                                                        class="text-[0.75rem] opacity-[0.7] mb-1 text-[#8c9097] dark:text-white/50">
+                                                                                        {{ $productdetails_list->created_at->format('F j, Y') }}
+                                                                                    </p>
+                                                                                </div>
+                                                                                <div
+                                                                                    class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
+                                                                                    <p
+                                                                                        class="text-[0.75rem] opacity-[0.7] mb-1 text-[#8c9097] dark:text-white/50">
+                                                                                        {{ $productdetails_list->created_at->format('F j, Y') }}
+                                                                                    </p>
+                                                                                </div>
+                                                                            </div>
+
+
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -866,50 +911,71 @@
                                 software smoothly.</p> --}}
                             <div class="box">
                                 <nav class="flex space-x-2 rtl:space-x-reverse mx-auto" aria-label="Tabs">
-                                    <button type="button" class="hs-tab-active:bg-gray-200 hs-tab-active:text-gray-800 hs-tab-active:hover:text-gray-800 dark:hs-tab-active:bg-light dark:hs-tab-active:text-white py-3 px-4 inline-flex items-center gap-2 bg-transparent text-sm font-medium text-center text-defaulttextcolor rounded-sm hover:text-primary dark:text-[#8c9097] dark:text-white/50 dark:hover:text-white active" id="pills-on-gray-color-item-1" data-hs-tab="#pills-on-gray-color-1" aria-controls="pills-on-gray-color-1">
+                                    <button type="button"
+                                        class="hs-tab-active:bg-gray-200 hs-tab-active:text-gray-800 hs-tab-active:hover:text-gray-800 dark:hs-tab-active:bg-light dark:hs-tab-active:text-white py-3 px-4 inline-flex items-center gap-2 bg-transparent text-sm font-medium text-center text-defaulttextcolor rounded-sm hover:text-primary dark:text-[#8c9097] dark:text-white/50 dark:hover:text-white active"
+                                        id="pills-on-gray-color-item-1" data-hs-tab="#pills-on-gray-color-1"
+                                        aria-controls="pills-on-gray-color-1">
                                         TTB Antivirus
                                     </button>
-                                    <button type="button" class="hs-tab-active:bg-gray-200 hs-tab-active:text-gray-800 hs-tab-active:hover:text-gray-800 dark:hs-tab-active:bg-light dark:hs-tab-active:text-white py-3 px-4 inline-flex items-center gap-2 bg-transparent text-sm font-medium text-center text-defaulttextcolor rounded-sm hover:text-primary dark:text-[#8c9097] dark:text-white/50 dark:hover:text-white" id="pills-on-gray-color-item-2" data-hs-tab="#pills-on-gray-color-2" aria-controls="pills-on-gray-color-2">
+                                    <button type="button"
+                                        class="hs-tab-active:bg-gray-200 hs-tab-active:text-gray-800 hs-tab-active:hover:text-gray-800 dark:hs-tab-active:bg-light dark:hs-tab-active:text-white py-3 px-4 inline-flex items-center gap-2 bg-transparent text-sm font-medium text-center text-defaulttextcolor rounded-sm hover:text-primary dark:text-[#8c9097] dark:text-white/50 dark:hover:text-white"
+                                        id="pills-on-gray-color-item-2" data-hs-tab="#pills-on-gray-color-2"
+                                        aria-controls="pills-on-gray-color-2">
                                         TTB VPN Shield
                                     </button>
-                                    <button type="button" class="hs-tab-active:bg-gray-200 hs-tab-active:text-gray-800 hs-tab-active:hover:text-gray-800 dark:hs-tab-active:bg-light dark:hs-tab-active:text-white py-3 px-4 inline-flex items-center gap-2 bg-transparent text-sm font-medium text-center text-defaulttextcolor rounded-sm hover:text-primary dark:text-[#8c9097] dark:text-white/50 dark:hover:text-white" id="pills-on-gray-color-item-3" data-hs-tab="#pills-on-gray-color-3" aria-controls="pills-on-gray-color-3">
+                                    <button type="button"
+                                        class="hs-tab-active:bg-gray-200 hs-tab-active:text-gray-800 hs-tab-active:hover:text-gray-800 dark:hs-tab-active:bg-light dark:hs-tab-active:text-white py-3 px-4 inline-flex items-center gap-2 bg-transparent text-sm font-medium text-center text-defaulttextcolor rounded-sm hover:text-primary dark:text-[#8c9097] dark:text-white/50 dark:hover:text-white"
+                                        id="pills-on-gray-color-item-3" data-hs-tab="#pills-on-gray-color-3"
+                                        aria-controls="pills-on-gray-color-3">
                                         TTB Total Security
                                     </button>
                                 </nav>
 
                                 <div class="mt-3">
-                                    <div id="pills-on-gray-color-1" role="tabpanel" aria-labelledby="pills-on-gray-color-item-1">
+                                    <div id="pills-on-gray-color-1" role="tabpanel"
+                                        aria-labelledby="pills-on-gray-color-item-1">
                                         <h3>Business Network Setup:</h3>
-                                        <p class="mt-2"> As a newbie, setting up your home automation devices on your own can
+                                        <p class="mt-2"> As a newbie, setting up your home automation devices on your own
+                                            can
                                             be difficult.
                                             But with our TTB eSupport Concierge it will be easier than ever.</p>
                                         <div class="tab-btn-buy">
                                             <a href="#">Buy Now</a>
                                         </div>
                                     </div>
-                                    <div id="pills-on-gray-color-2" class="hidden" role="tabpanel" aria-labelledby="pills-on-gray-color-item-2">
+                                    <div id="pills-on-gray-color-2" class="hidden" role="tabpanel"
+                                        aria-labelledby="pills-on-gray-color-item-2">
                                         <div class="grid grid-cols-12 gap-6 pt-top mt-5">
-                                            <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 col-span-12 text-center">
+                                            <div
+                                                class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 col-span-12 text-center">
                                             </div>
-                                            <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 col-span-12 text-center boxs-down">
-                                                <img src="https://nighthawk-routerlogin.com/assets/img/mac.png" alt="" class="img-fluid pt-5 pb-5" width="25%;" style="margin: auto;">
+                                            <div
+                                                class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 col-span-12 text-center boxs-down">
+                                                <img src="https://nighthawk-routerlogin.com/assets/img/mac.png"
+                                                    alt="" class="img-fluid pt-5 pb-5" width="25%;"
+                                                    style="margin: auto;">
 
                                                 <a href="#" class="m-1 ti-btn ti-btn-primary-full mt-0">
                                                     Download For Mac </a><br>
                                                 <span> X10.15 or above</span>
                                             </div>
-                                            <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 col-span-12 text-center boxs-down">
-                                                <img src="https://nighthawk-routerlogin.com/assets/img/ios.png" alt="" class="img-fluid pt-5 pb-5" width="25%" style="margin: auto;">
+                                            <div
+                                                class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 col-span-12 text-center boxs-down">
+                                                <img src="https://nighthawk-routerlogin.com/assets/img/ios.png"
+                                                    alt="" class="img-fluid pt-5 pb-5" width="25%"
+                                                    style="margin: auto;">
 
                                                 <a href="#" class="m-1 ti-btn ti-btn-primary-full mt-0">
                                                     Download For iOS </a><br>
                                                 <span> X10.15 or above</span>
                                             </div>
-                                            <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 col-span-12 text-center">
+                                            <div
+                                                class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 col-span-12 text-center">
                                             </div>
                                         </div>
                                     </div>
-                                    <div id="pills-on-gray-color-3" class="hidden" role="tabpanel" aria-labelledby="pills-on-gray-color-item-3">
+                                    <div id="pills-on-gray-color-3" class="hidden" role="tabpanel"
+                                        aria-labelledby="pills-on-gray-color-item-3">
                                         <h3>Software Installation:</h3>
                                         <p class="mt-2"> Software installation can be difficult to eliminate without
                                             professional advice. So, contact us to ensure your software is set up and
@@ -935,14 +1001,14 @@
         </div>
     </div>
 
-  <!-- Grid JS -->
-  <script src="{{ asset('assets/libs/gridjs/gridjs.umd.js') }}"></script>
+    <!-- Grid JS -->
+    <script src="{{ asset('assets/libs/gridjs/gridjs.umd.js') }}"></script>
 
-  <!-- Internal Grid JS -->
-  <script src="{{ asset('assets/js/grid.js') }}"></script>
-  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css">
-  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-  <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+    <!-- Internal Grid JS -->
+    <script src="{{ asset('assets/js/grid.js') }}"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
 
     <script>
         $(document).ready(function() {
