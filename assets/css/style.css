@@ -53910,10 +53910,10 @@ hr.hr-line {
     color: #0000006e;
 }
 .dark .owl-nav button.owl-next {
-    color: #13d8aa;
+    color: #13d8aa !important;
 }
 .dark .owl-nav button.owl-prev {
-    color: #13d8aa;
+    color: #13d8aa !important;
 }
 
  /* End new trestimonial css */
