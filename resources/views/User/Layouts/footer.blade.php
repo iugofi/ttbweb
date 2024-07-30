@@ -43,7 +43,7 @@
                                 <p>Sugarpine Court Brampton, Ontario, CA</p>
                             </div>
                         </li>
-                        <li class="icon-list">
+                        <li class="icon-list mt-5">
                             <img src="{{ asset('assets/img/Canada-Flag.png') }}" alt="" class="img-fluid"
                                 style="width: 50px; height: 50px; border-radius: 30px;">
                             <div class="box-location d-flex">
@@ -57,7 +57,7 @@
             <div class="xl:col-span-3 col-span-12">
                 <div class="footer-widget">
                     <ul class="justify-center lg:justify-end space-x-2">
-                        <li class="icon-list mt-5">
+                        <li class="icon-list ">
                             <img src="{{ asset('assets/img/UK-Flag.png') }}" alt="" class="img-fluid"
                                 style="width: 50px; height: 50px; border-radius: 30px;">
                             <div class="box-location d-flex">
