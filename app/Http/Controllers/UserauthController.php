@@ -48,7 +48,7 @@ class UserauthController extends Controller
             ->join('product_details', 'product_details.id', '=', 'payments.product_id')
             ->join('storepick', 'storepick.PICK_ID', '=', 'product_details.key_type')
             ->where('payments.user_id', $user_id_s)
-            ->where('storepick.STORE_ID', '=', $key_type) // Assuming $key_type is a variable, otherwise use a string 'key_type'
+            ->where('storepick.STORE_ID', '=', 'key_type') // Assuming $key_type is a variable, otherwise use a string 'key_type'
             ->groupBy('product_details.key_type', 'storepick.PICK_TEXT')
             ->first();
 
