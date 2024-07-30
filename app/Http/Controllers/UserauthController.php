@@ -50,7 +50,7 @@ class UserauthController extends Controller
             ->where('payments.user_id', $user_id_s)
             ->where('storepick.STORE_ID', '=', 'key_type') // Assuming $key_type is a variable, otherwise use a string 'key_type'
             ->groupBy('product_details.key_type', 'storepick.PICK_TEXT')
-            ->first();
+            ->get();
 
 
                 $query = DB::getQueryLog($keydetails);
