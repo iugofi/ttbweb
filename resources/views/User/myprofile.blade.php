@@ -897,7 +897,7 @@
 
             {{-- profile tab section start --}}
 
-            <section class="e-support-section-six bg-white" style="padding: 0px">
+            <section class="e-support-section-six bg-dark" style="padding: 0px">
                 <div class="container">
                     <div class="grid grid-cols-12 gap-6 pt-5">
                         <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 col-span-12">
