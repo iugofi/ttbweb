@@ -29,7 +29,7 @@
                                     admin template to design stunning dashboards that will wow your target viewers or users
                                     to no end. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet.</div>
 
-                                <a href="index.html" class="m-1 ti-btn ti-btn-primary-full mt-6">
+                                <a href="index.html" class="ti-btn bg-primary text-white mt-5">
                                     View Demos
                                     <i class="ri-eye-line ms-2 align-middle"></i>
                                 </a>
@@ -214,7 +214,7 @@
                                                     {{-- <button type="button" class="m-1 ti-btn ti-btn-primary-full">Choose
                                                     Plan</button> --}}
                                                     <a href="{{ route('user.fpay', ['id' => encrypt($plandetailsitem->id)]) }}"
-                                                        class="m-1 ti-btn ti-btn-primary-full">Choose Plan</a>
+                                                        class="ti-btn bg-primary text-white mt-5">Choose Plan</a>
                                                 </li>
                                             </ul>
                                         </div>
