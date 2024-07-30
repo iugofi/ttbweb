@@ -33,8 +33,9 @@ class UserauthController extends Controller
         if ($this->loggedInUser) {
             DB::enableQueryLog();
             $productdetails = Payments::join('product_details', 'payments.product_id', '=', 'product_details.id')
+                ->join('ttbkey','ttbkey.id','=','payments.product_key')
                 ->where('payments.user_id', $this->loggedInUser)
-                ->select('payments.*', 'payments.id as id_py', 'product_details.*')
+                ->select('payments.*', 'payments.id as id_py', 'product_details.*','ttbkey.*')
                 ->orderby('payments.created_at', 'desc')
                 ->get();
                 $query = DB::getQueryLog($productdetails);
