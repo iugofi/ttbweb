@@ -856,14 +856,14 @@
                                                                                 <div
                                                                                     class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12 pt-5">
                                                                                     <p
-                                                                                        class="text-[0.75rem] opacity-[0.7] mb-1 text-[#8c9097] dark:text-white/50">
+                                                                                        class="text-[0.75rem] opacity-[0.7] mb-1 text-[#000] dark:text-white/50">
                                                                                         <span class="text-primary">Start Date: </span>{{ $productdetails_list->created_at->format('F j, Y') }}
                                                                                     </p>
                                                                                 </div>
                                                                                 <div
                                                                                     class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12 pt-5">
                                                                                     <p
-                                                                                        class="text-[0.75rem] opacity-[0.7] mb-1 text-[#8c9097] dark:text-white/50">
+                                                                                        class="text-[0.75rem] opacity-[0.7] mb-1 text-[#000] dark:text-white/50">
                                                                                         <span class="text-primary">End Date: </span> {{ $productdetails_list->created_at->format('F j, Y') }}
                                                                                     </p>
                                                                                 </div>
