@@ -854,14 +854,14 @@
                                                                             </span>
                                                                             <div class="grid grid-cols-12 gap-6">
                                                                                 <div
-                                                                                    class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
+                                                                                    class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12 pt-5">
                                                                                     <p
                                                                                         class="text-[0.75rem] opacity-[0.7] mb-1 text-[#8c9097] dark:text-white/50">
                                                                                         {{ $productdetails_list->created_at->format('F j, Y') }}
                                                                                     </p>
                                                                                 </div>
                                                                                 <div
-                                                                                    class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
+                                                                                    class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12 pt-5">
                                                                                     <p
                                                                                         class="text-[0.75rem] opacity-[0.7] mb-1 text-[#8c9097] dark:text-white/50">
                                                                                         {{ $productdetails_list->created_at->format('F j, Y') }}
