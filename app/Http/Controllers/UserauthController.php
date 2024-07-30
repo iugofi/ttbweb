@@ -42,7 +42,7 @@ class UserauthController extends Controller
                 // dd($query);
 
             $user_id_s = $this->loggedInUser;
-
+        DB::enableQueryLog();
             $keydetails = DB::table('payments')
                 ->select(DB::raw('COUNT(product_details.key_type) as count'), 'product_details.key_type')
                 ->join('product_details', 'product_details.id', '=', 'payments.product_id')
@@ -50,6 +50,9 @@ class UserauthController extends Controller
                 ->where('payments.product_key', '!=', 'N/A')
                 ->groupBy('product_details.key_type')
                 ->first();
+
+                $query = DB::getQueryLog($keydetails);
+                dd($query);
 
 
             $profileCompletion = $this->userData->getProfileCompletionPercentage();
