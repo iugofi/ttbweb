@@ -211,7 +211,7 @@ class PaymentController extends Controller
                 if (isset($plan_id_get->plan_id)) {
                     switch ($plan_id_get->plan_id) {
                         case 601:
-                            $getkey->key_expirey_date = Carbon::now()->addMonths(3);
+                            $getkey->key_expirey_date = Carbon::now()->addMonths(1);
                             break;
                         case 602:
                             $getkey->key_expirey_date = Carbon::now()->addYear();

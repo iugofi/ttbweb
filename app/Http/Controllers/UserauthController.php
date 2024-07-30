@@ -31,22 +31,30 @@ class UserauthController extends Controller
     {
 
         if ($this->loggedInUser) {
-
+            // DB::enableQueryLog();
             $productdetails = Payments::join('product_details', 'payments.product_id', '=', 'product_details.id')
+                ->join('ttbkey','ttbkey.id','=','payments.product_key')
                 ->where('payments.user_id', $this->loggedInUser)
-                ->select('payments.*', 'payments.id as id_py', 'product_details.*')
+                ->select('payments.*', 'payments.id as id_py', 'product_details.*','ttbkey.*')
                 ->orderby('payments.created_at', 'desc')
                 ->get();
+                // $query = DB::getQueryLog($productdetails);
+                // dd($query);
 
             $user_id_s = $this->loggedInUser;
-
+        // DB::enableQueryLog();
             $keydetails = DB::table('payments')
-                ->select(DB::raw('COUNT(product_details.key_type) as count'), 'product_details.key_type')
-                ->join('product_details', 'product_details.id', '=', 'payments.product_id')
-                ->where('payments.user_id', $user_id_s)
-                ->where('payments.product_key', '!=', 'N/A')
-                ->groupBy('product_details.key_type')
-                ->first();
+            ->select('storepick.PICK_TEXT', DB::raw('COUNT(product_id) AS TotalCount'))
+            ->join('product_details', 'product_details.id', '=', 'payments.product_id')
+            ->join('storepick', 'storepick.PICK_ID', '=', 'product_details.key_type')
+            ->where('payments.user_id', $user_id_s)
+            ->where('storepick.STORE_ID', '=', 'key_type') // Assuming $key_type is a variable, otherwise use a string 'key_type'
+            ->groupBy('product_details.key_type', 'storepick.PICK_TEXT')
+            ->get();
+
+
+                // $query = DB::getQueryLog($keydetails);
+                // dd($query);
 
 
             $profileCompletion = $this->userData->getProfileCompletionPercentage();
