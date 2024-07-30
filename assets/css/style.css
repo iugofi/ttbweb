@@ -53909,6 +53909,13 @@ hr.hr-line {
     font-size: 24px;
     color: #0000006e;
 }
+.dark .owl-nav button.owl-next {
+    color: #13d8aa;
+}
+.dark .owl-nav button.owl-prev {
+    color: #13d8aa;
+}
+
  /* End new trestimonial css */
 
 /* kunal-verma 23-04-2024 */
