@@ -21,7 +21,7 @@
                             Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
                             ridiculus
                             mus.</p>
-                        <a href="index.html" class="m-1 ti-btn ti-btn-primary-full">
+                        <a href="index.html" class="ti-btn bg-primary text-white">
                             Download Now
                             <i class='bx bxs-cloud-download icon-hm'></i>
                         </a>
@@ -77,7 +77,7 @@
     <div class="container main-banner-container">
         <div class="grid grid-cols-12 gap-6">
             <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
-                <h3>Supported By World's Renowned Venture Capital's</h3>
+                <h3 class="first-color">Supported By World's Renowned Venture Capital's</h3>
             </div>
             <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when
@@ -93,7 +93,7 @@
                         width="100%">
                 </div>
                 <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12 prog-section">
-                    <h3>World's Best VPN Services That Provide Own DNS System</h3>
+                    <h3 class="first-color">World's Best VPN Services That Provide Own DNS System</h3>
                     <p class="mt-3 mb-6">I Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                         tempor incididunt ut
                         labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
@@ -153,7 +153,7 @@
                         <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                 </div>
-                <a href="index.html" class="m-1 ti-btn ti-btn-primary-full mt-9">
+                <a href="index.html" class="ti-btn bg-primary text-white mt-9">
                     Get Free Trial
                 </a>
             </div>
@@ -614,7 +614,7 @@
     }
 </style> --}}
 <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
-    id="faq" style="overflow: hidden; padding-bottom: 0rem; height: 420px;">
+    id="faq" style="overflow: hidden; padding-bottom: 0rem; height: 420px; margin-bottom: 4rem;">
     <div class="container main-banner-container">
         <section class="testimonial-area">
             <div class="container">
