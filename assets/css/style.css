@@ -53766,7 +53766,7 @@ hr.hr-line {
 
 .icon-list {
     display: flex;
-    margin: 20px 0 auto;
+    /* margin: 20px 0 auto; */
 }
 
 .icon-list img {
