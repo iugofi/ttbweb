@@ -87,14 +87,17 @@
                                                 class="ri-map-pin-line me-1 align-middle"></i>{{ isset($user_data->address) ? $user_data->address : 'N/A' }}</span>
                                     </p>
                                     <div class="flex mb-0">
+                                        @if(!empty($keydetails))
                                         @foreach ($keydetails as $keydetails_list)
-                                        <div class="me-6">
-                                            <p class="font-bold text-[1.25rem] text-white text-shadow mb-0">
-                                                {{ isset($keydetails_list->TotalCount) ? $keydetails_list->TotalCount : 'N/A' }}
-                                            </p>
-                                            <p class="mb-0 text-[.6875rem] opacity-[0.5] text-white">{{ isset($keydetails_list->PICK_TEXT) ? $keydetails_list->PICK_TEXT : 'N/A' }}</p>
-                                        </div>
+                                            <div class="me-6">
+                                                <p class="font-bold text-[1.25rem] text-white text-shadow mb-0">
+                                                    {{ isset($keydetails_list->TotalCount) ? $keydetails_list->TotalCount : 'N/A' }}
+                                                </p>
+                                                <p class="mb-0 text-[.6875rem] opacity-[0.5] text-white">{{ isset($keydetails_list->PICK_TEXT) ? $keydetails_list->PICK_TEXT : 'N/A' }}</p>
+                                            </div>
                                         @endforeach
+                                    @endif
+
 
                                     </div>
                                 </div>
