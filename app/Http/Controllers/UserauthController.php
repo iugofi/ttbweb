@@ -44,12 +44,14 @@ class UserauthController extends Controller
             $user_id_s = $this->loggedInUser;
         DB::enableQueryLog();
             $keydetails = DB::table('payments')
-                ->select(DB::raw('COUNT(product_details.key_type) as count'), 'product_details.key_type')
-                ->join('product_details', 'product_details.id', '=', 'payments.product_id')
-                ->where('payments.user_id', $user_id_s)
-                ->where('payments.product_key', '!=', 'N/A')
-                ->groupBy('product_details.key_type')
-                ->first();
+            ->select('storepick.PICK_TEXT', DB::raw('COUNT(product_id) AS TotalCount'))
+            ->join('product_details', 'product_details.id', '=', 'payments.product_id')
+            ->join('storepick', 'storepick.PICK_ID', '=', 'product_details.key_type')
+            ->where('payments.user_id', $user_id_s)
+            ->where('storepick.STORE_ID', '=', $key_type) // Assuming $key_type is a variable, otherwise use a string 'key_type'
+            ->groupBy('product_details.key_type', 'storepick.PICK_TEXT')
+            ->first();
+
 
                 $query = DB::getQueryLog($keydetails);
                 dd($query);
