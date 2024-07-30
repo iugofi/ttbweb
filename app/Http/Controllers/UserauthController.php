@@ -42,7 +42,7 @@ class UserauthController extends Controller
                 // dd($query);
 
             $user_id_s = $this->loggedInUser;
-        DB::enableQueryLog();
+        // DB::enableQueryLog();
             $keydetails = DB::table('payments')
             ->select('storepick.PICK_TEXT', DB::raw('COUNT(product_id) AS TotalCount'))
             ->join('product_details', 'product_details.id', '=', 'payments.product_id')
@@ -53,8 +53,8 @@ class UserauthController extends Controller
             ->get();
 
 
-                $query = DB::getQueryLog($keydetails);
-                dd($query);
+                // $query = DB::getQueryLog($keydetails);
+                // dd($query);
 
 
             $profileCompletion = $this->userData->getProfileCompletionPercentage();
