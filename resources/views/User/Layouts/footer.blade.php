@@ -9,7 +9,7 @@
                         <li class="footer-icon">
                             <a href="https://www.facebook.com/ttbinternetsecurities/">
                                 <i class="fa-solid fa-phone"></i>
-                            </a><a href="tel:800-710-9311"> 800-710-9311</a>
+                            </a><a href="tel:800-710-9311">[ 800] 710-9311</a>
                         </li>
                         <li class="footer-icon">
                             <a href="https://x.com/i/flow/login?redirect_after_login=%2FTTBisecure">
@@ -26,7 +26,7 @@
                     <h2 class="text-white text-2xl font-semibold mb-2">Find Us On:</h2>
                     <div class="list-none text-white">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit et magnam, fuga
-                            est mollitia eius, quo illum illo inventore optio aut quas omnis rem.</p>
+                            est mollitia eius.</p>
                     </div>
                 </div>
             </div>
@@ -39,7 +39,7 @@
                             <img src="{{ asset('assets/img/USA-Flag.png') }}" alt="" class="img-fluid"
                                 style="width: 50px; height: 50px; border-radius: 30px;">
                             <div class="box-location d-flex">
-                                <h2 class="text-white text-lg font-semibold mb-2">USA</h2>
+                                <h2 class="text-white text-lg font-semibold ">USA</h2>
                                 <p>Sugarpine Court Brampton, Ontario, CA</p>
                             </div>
                         </li>
@@ -47,7 +47,7 @@
                             <img src="{{ asset('assets/img/Canada-Flag.png') }}" alt="" class="img-fluid"
                                 style="width: 50px; height: 50px; border-radius: 30px;">
                             <div class="box-location d-flex">
-                                <h2 class="text-white text-lg font-semibold mb-2">CANADA</h2>
+                                <h2 class="text-white text-lg font-semibold">CANADA</h2>
                                 <p>Bestech Business Tower, Sector 66, Mohali, IN</p>
                             </div>
                         </li>
@@ -61,7 +61,7 @@
                             <img src="{{ asset('assets/img/UK-Flag.png') }}" alt="" class="img-fluid"
                                 style="width: 50px; height: 50px; border-radius: 30px;">
                             <div class="box-location d-flex">
-                                <h2 class="text-white text-lg font-semibold mb-2">UNITED KINGDOM</h2>
+                                <h2 class="text-white text-lg font-semibold ">UNITED KINGDOM</h2>
                                 <p>Sugarpine Court Brampton, Ontario, CA</p>
                             </div>
                         </li>
@@ -69,7 +69,7 @@
                             <img src="{{ asset('assets/img/India-Flag.png') }}" alt="" class="img-fluid"
                                 style="width: 50px; height: 50px; border-radius: 30px;">
                             <div class="box-location d-flex">
-                                <h2 class="text-white text-lg font-semibold mb-2">INDIA</h2>
+                                <h2 class="text-white text-lg font-semibold ">INDIA</h2>
                                 <p>Bestech Business Tower, Sector 66, Mohali, IN</p>
                             </div>
                         </li>
