@@ -494,7 +494,7 @@
             id="faq" style="overflow: hidden; padding-bottom: 0rem; height: 420px; margin-bottom: 4rem;">
             <div class="container main-banner-container">
                 <section class="testimonial-area">
-                    <div class="container">
+                    <div class="container container-img">
                         <div class="sec-title white-title">
                             <h4 class="text-center text-4xl font-bold mb-4 pb-4">What Client Say About Us?</h4>
                         </div>
