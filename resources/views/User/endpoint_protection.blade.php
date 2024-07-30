@@ -490,7 +490,7 @@
 
         {{-- New testimonial html css start --}}
         <section
-            class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
+            class="section text-defaulttextcolor text-defaulttextcolor dark:text-defaulttextcolor/70"
             id="faq" style="overflow: hidden; padding-bottom: 0rem; height: 420px; margin-bottom: 4rem;">
             <div class="container main-banner-container">
                 <section class="testimonial-area">
