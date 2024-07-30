@@ -839,7 +839,7 @@
                                                                                 @endif
                                                                             </p>
                                                                             <span
-                                                                                class="badge bg-info/10 rounded-full text-info">@php
+                                                                                class="badge bg-info/10 rounded-full text-info">Key: @php
                                                                                     $results = App\Models\TTBKEY::where(
                                                                                         'id',
                                                                                         $productdetails_list->product_key,
