@@ -53644,6 +53644,9 @@ section#about-features {
     background-color: #000;
     border-radius: 0px !important;
 }
+.dark .container-img .back-img {
+    background-color: #252729;
+}
 .dark p.dark-black-p {
     background: #252729;
     color: #c5c3c3;
