@@ -97,28 +97,28 @@
                     <p class="mt-3 mb-6">I Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                         tempor incididunt ut
                         labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                    <p class="text-[0.75rem] font-semibold mb-3 text-[#8C9097] dark:text-white/50">Fast VPN<span
+                    <p class="text-text-[0.75rem] font-semibold mb-3 first-color">Fast VPN<span
                             class="ltr:float-right rtl:float-left text-[0.625rem] font-normal ">95%</span>
                     </p>
                     <div class="progress progress-xs mb-4 progress-animate">
                         <div class="progress-bar bg-primary w-96">
                         </div>
                     </div>
-                    <p class="text-[0.75rem] font-semibold mb-3 text-[#8C9097] dark:text-white/50">Malware Detection
+                    <p class="text-[0.75rem] font-semibold mb-3 first-color">Malware Detection
                         <span class="ltr:float-right rtl:float-left text-[0.625rem] font-normal">73%</span>
                     </p>
                     <div class="progress progress-xs mb-4 progress-animate ">
                         <div class="progress-bar !rounded-none bg-primary w-80">
                         </div>
                     </div>
-                    <p class="text-[0.75rem] font-semibold mb-3 text-[#8C9097] dark:text-white/50">Total Security
+                    <p class="text-[0.75rem] font-semibold mb-3 first-color">Total Security
                         <span class="ltr:float-right rtl:float-left text-[0.625rem] font-normal">92%</span>
                     </p>
                     <div class="progress progress-xs mb-4 progress-animate ">
                         <div class="progress-bar !rounded-e-full bg-primary w-72">
                         </div>
                     </div>
-                    <p class="text-[0.75rem] font-semibold mb-3 text-[#8C9097] dark:text-white/50">Absolute Privacy
+                    <p class="text-[0.75rem] font-semibold mb-3 first-color">Absolute Privacy
                         <span class="ltr:float-right rtl:float-left text-[0.625rem] font-normal">81%</span>
                     </p>
                     <div class="progress progress-xs mb-5 progress-animate ">
