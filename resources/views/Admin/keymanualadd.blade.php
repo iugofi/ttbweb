@@ -52,26 +52,26 @@
                                 <div class="xl:col-span-12 col-span-12">
                                     <label for="STORE ID" class="form-label">Customer Email</label>
                                     <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
-                                        id="STORE_ID" name="STORE_ID" placeholder="STORE NAME">
+                                        id="STORE_ID" name="STORE_ID" placeholder="Customer Email">
                                     <div class="invalid-feedback"></div>
                                 </div>
                                 <div class="xl:col-span-12 col-span-12">
                                     <label for="STORE-TYPE" class="form-label">Customer First Name</label>
                                     <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
-                                        id="STORE_TYPE" name="STORE_TYPE" placeholder="STORE TYPE">
+                                        id="STORE_TYPE" name="STORE_TYPE" placeholder="First Name">
                                     <div class="invalid-feedback"></div>
                                 </div>
 
                                 <div class="xl:col-span-6 col-span-12">
                                     <label for="PICK TEXT" class="form-label">Customer Last Name</label>
                                     <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
-                                        id="PICK_TEXT" name="PICK_TEXT" placeholder="PICK TEXT">
+                                        id="PICK_TEXT" name="PICK_TEXT" placeholder="Last Name">
                                     <div class="invalid-feedback"></div>
                                 </div>
                                 <div class="xl:col-span-6 col-span-12">
                                     <label for="canonical-url" class="form-label">Customer Phone</label>
                                     <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
-                                        id="PICK_ID" name="PICK_ID" placeholder="PICK ID">
+                                        id="PICK_ID" name="PICK_ID" placeholder="Phone">
                                     <div class="invalid-feedback"></div>
                                 </div>
 
