@@ -194,7 +194,7 @@
                     $('#plan_id').append('<option value="">Select</option>');
 
                     $.each(data, function(key, value) {
-                        $('#plan_id').append('<option value="'+ value.plan_id +'">'+ value.plan_id +'</option>');
+                        $('#plan_id').append('<option value="'+ value.plan_id +'">'+ value.name +'</option>');
                     });
                 }
             });

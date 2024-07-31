@@ -1645,6 +1645,7 @@ class AdminController extends Controller
 {
 
     $plan_ids = DB::table('product_details')
+    ->join('planname','planname.plan_id','=','product_details.plan_id')
         ->where('key_type', $request->planname)
         ->distinct()
         ->get();
