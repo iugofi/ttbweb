@@ -335,6 +335,7 @@ Route::get('/mailtest', [UserController::class, 'mailtest'])->name('admin.mailte
 
          //user key manual
          Route::get('/keymanual', [AdminController::class, 'keymanualpage'])->name('key.manual');
+         Route::get('/get-plan-id', [AdminController::class, 'getPlanId'])->name('get.plan.id');
 
 
 

@@ -1641,4 +1641,12 @@ class AdminController extends Controller
             return redirect('/setup');
         }
     }
+    public function getPlanId(Request $request)
+{
+    $plan_ids = DB::table('product_details')
+        ->where('plan_id', $request->planname)
+        ->get();
+
+    return response()->json($plan_ids);
+}
 }

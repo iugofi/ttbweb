@@ -71,8 +71,7 @@
 
                                 <div class="xl:col-span-6 col-span-6">
                                     <label for="blog-title" class="form-label required">Key Type</label>
-                                    <select class="form-control block w-full text-[0.875rem] !rounded-md" data-trigger
-                                        name="planname" id="planname">
+                                    <select class="form-control block w-full text-[0.875rem] !rounded-md" name="planname" id="planname">
                                         <option value="">Select</option>
                                         @php
                                             $status = DB::table('storepick')
@@ -83,25 +82,18 @@
                                         @foreach ($status as $statuss)
                                             <option value="{{ $statuss->PICK_ID }}">{{ $statuss->PICK_TEXT }}</option>
                                         @endforeach
-
                                     </select>
                                     <div class="invalid-feedback"></div>
                                 </div>
                                 <div class="xl:col-span-6 col-span-6">
                                     <label for="blog-title" class="form-label required">Plan Name</label>
-                                    <select class="form-control block w-full text-[0.875rem] !rounded-md" data-trigger
-                                        name="plan_id" id="plan_id">
+                                    <select class="form-control block w-full text-[0.875rem] !rounded-md" name="plan_id" id="plan_id">
                                         <option value="">Select</option>
-                                        @php
-                                            $plan_name = DB::table('planname')->get();
-                                        @endphp
-                                        @foreach ($plan_name as $plan_names)
-                                            <option value="{{ $plan_names->plan_id }}">{{ $plan_names->name }}</option>
-                                        @endforeach
-
+                                        <!-- Options will be populated dynamically -->
                                     </select>
                                     <div class="invalid-feedback"></div>
                                 </div>
+
 
                                 <div class="xl:col-span-6 col-span-12">
                                     <label for="PICK TEXT" class="form-label">State</label>
@@ -186,10 +178,31 @@
     </div>
 </div>
 
+
 <script>
+    $(document).ready(function() {
+        $('#planname').on('change', function() {
+            var planname = $(this).val();
+
+            $.ajax({
+                url: '{{ route("get.plan.id") }}',
+                type: 'GET',
+                data: { planname: planname },
+                success: function(data) {
+                    $('#plan_id').empty();
+                    $('#plan_id').append('<option value="">Select</option>');
+
+                    $.each(data, function(key, value) {
+                        $('#plan_id').append('<option value="'+ value.plan_id +'">'+ value.name +'</option>');
+                    });
+                }
+            });
+        });
+    });
+    </script>
 
 
-
+<script>
 $('#customer_email').on('blur', function() {
             var email = $(this).val();
 
