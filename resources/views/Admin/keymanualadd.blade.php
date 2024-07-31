@@ -68,7 +68,41 @@
                                         id="last_name" name="last_name" placeholder="Last Name">
                                     <div class="invalid-feedback"></div>
                                 </div>
-                              
+
+                                <div class="xl:col-span-6 col-span-6">
+                                    <label for="blog-title" class="form-label required">Key Type</label>
+                                    <select class="form-control block w-full text-[0.875rem] !rounded-md" data-trigger
+                                        name="planname" id="planname">
+                                        <option value="">Select</option>
+                                        @php
+                                            $status = DB::table('storepick')
+                                                ->where('STORE_ID', 'key_type')
+                                                ->orderBy('STORE_INDEX_SEQUENCE', 'asc')
+                                                ->get();
+                                        @endphp
+                                        @foreach ($status as $statuss)
+                                            <option value="{{ $statuss->PICK_ID }}">{{ $statuss->PICK_TEXT }}</option>
+                                        @endforeach
+
+                                    </select>
+                                    <div class="invalid-feedback"></div>
+                                </div>
+                                <div class="xl:col-span-6 col-span-6">
+                                    <label for="blog-title" class="form-label required">Plan Name</label>
+                                    <select class="form-control block w-full text-[0.875rem] !rounded-md" data-trigger
+                                        name="plan_id" id="plan_id">
+                                        <option value="">Select</option>
+                                        @php
+                                            $plan_name = DB::table('planname')->get();
+                                        @endphp
+                                        @foreach ($plan_name as $plan_names)
+                                            <option value="{{ $plan_names->plan_id }}">{{ $plan_names->name }}</option>
+                                        @endforeach
+
+                                    </select>
+                                    <div class="invalid-feedback"></div>
+                                </div>
+
                                 <div class="xl:col-span-6 col-span-12">
                                     <label for="PICK TEXT" class="form-label">State</label>
                                     <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
