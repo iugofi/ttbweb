@@ -317,11 +317,14 @@ class PaymentController extends Controller
             return response()->json([
                 'first_name' => $user->firstname,
                 'last_name' => $user->lastname,
+                'customer_phone' => $user->phone,
+
             ]);
         } else {
             return response()->json([
                 'first_name' => '',
                 'last_name' => '',
+                'customer_phone' => '',
             ], 404);
         }
     }

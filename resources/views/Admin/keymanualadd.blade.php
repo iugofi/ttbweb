@@ -71,7 +71,7 @@
                                 <div class="xl:col-span-6 col-span-12">
                                     <label for="canonical-url" class="form-label">Customer Phone</label>
                                     <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
-                                        id="PICK_ID" name="PICK_ID" placeholder="Phone">
+                                        id="customer_phone" name="customer_phone" placeholder="Phone">
                                     <div class="invalid-feedback"></div>
                                 </div>
                                 <div class="xl:col-span-6 col-span-12">
@@ -173,11 +173,13 @@ $('#customer_email').on('blur', function() {
                         if (response.first_name && response.last_name) {
                             $('#first_name').val(response.first_name).prop('disabled', true);
                             $('#last_name').val(response.last_name).prop('disabled', true);
+                            $('#customer_phone').val(response.customer_phone).prop('disabled', true);
                             $('#hidden_first_name').val(response.first_name);
                             $('#hidden_last_name').val(response.last_name);
                         } else {
                             $('#first_name').val('').prop('disabled', false);
                             $('#last_name').val('').prop('disabled', false);
+                            $('#customer_phone').val('').prop('disabled', false);
                             $('#hidden_first_name').val('');
                             $('#hidden_last_name').val('');
                         }
@@ -185,6 +187,7 @@ $('#customer_email').on('blur', function() {
                     error: function() {
                         $('#first_name').val('').prop('disabled', false);
                         $('#last_name').val('').prop('disabled', false);
+                        $('#customer_phone').val('').prop('disabled', false);
                         $('#hidden_first_name').val('');
                         $('#hidden_last_name').val('');
                     }
@@ -192,6 +195,7 @@ $('#customer_email').on('blur', function() {
             } else {
                 $('#first_name').val('').prop('disabled', false);
                 $('#last_name').val('').prop('disabled', false);
+                $('#customer_phone').val('').prop('disabled', false);
                 $('#hidden_first_name').val('');
                 $('#hidden_last_name').val('');
             }
