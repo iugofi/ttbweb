@@ -319,14 +319,15 @@ class PaymentController extends Controller
         if ($user->firstname) {
             $response['first_name'] = $user->firstname;
         }
+        if ($user->id) {
+            $response['user_id'] = $user->id;
+        }
 
         if ($user->lastname) {
             $response['last_name'] = $user->lastname;
         }
 
-        if ($user->phone) {
-            $response['customer_phone'] = $user->phone;
-        }
+       
 
         return response()->json($response);
     } else {
