@@ -183,6 +183,7 @@
     $(document).ready(function() {
         $('#planname').on('change', function() {
             var planname = $(this).val();
+            console.log(planname);
 
             $.ajax({
                 url: '{{ route("get.plan.id") }}',
