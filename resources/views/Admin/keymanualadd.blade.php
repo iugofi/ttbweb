@@ -96,6 +96,15 @@
 
 
                                 <div class="xl:col-span-6 col-span-12">
+                                    <label for="PICK TEXT" class="form-label">Key</label>
+                                    <select class="form-control block w-full text-[0.875rem] !rounded-md" name="key" id="key">
+                                        <option value="">Select</option>
+                                        <!-- Options will be populated dynamically -->
+                                    </select>
+                                    <div class="invalid-feedback"></div>
+                                </div>
+
+                                <div class="xl:col-span-6 col-span-12">
                                     <label for="PICK TEXT" class="form-label">State</label>
                                     <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
                                         id="PICK_TEXT" name="PICK_TEXT" placeholder="Last Name">
