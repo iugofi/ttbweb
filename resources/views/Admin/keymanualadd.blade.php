@@ -55,7 +55,7 @@
                                         id="STORE_ID" name="STORE_ID" placeholder="Customer Email">
                                     <div class="invalid-feedback"></div>
                                 </div>
-                                <div class="xl:col-span-12 col-span-12">
+                                <div class="xl:col-span-6 col-span-12">
                                     <label for="STORE-TYPE" class="form-label">Customer First Name</label>
                                     <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
                                         id="STORE_TYPE" name="STORE_TYPE" placeholder="First Name">
