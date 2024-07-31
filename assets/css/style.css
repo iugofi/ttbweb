@@ -53808,33 +53808,33 @@ hr.hr-line {
 .support-link ul li:last-child {
     border: none;
 }
-.footer-social:hover li.footer-icon i.ri-facebook-line {
+li.footer-icon:hover i.ri-facebook-line {
     color: #fff;
     border: 1px solid #0866FF;
     background-color: #0866FF;
 }
-.footer-social:hover li.footer-icon .fa-x-twitter {
+li.footer-icon:hover .fa-x-twitter {
     color: #fff;
     background-color: #000;
     border: 1px solid #000;
 }
-.footer-social:hover li.footer-icon i.ri-instagram-line {
+li.footer-icon:hover i.ri-instagram-line {
     color: #fff;
     background-color: #DA04E3;
     border: 1px solid #DA04E3;
 }
-.footer-social:hover li.footer-icon i.ri-youtube-line {
+li.footer-icon:hover i.ri-youtube-line {
     color: #fff;
     background-color: #FF0000;
     border: 1px solid #FF0000;
 }
-.footer-social:hover li.footer-icon i.fa-brands.fa-linkedin {
+li.footer-icon:hover i.fa-brands.fa-linkedin {
     color: #fff;
     background-color: #0A66C2;
     border: 1px solid #0A66C2;
     display: inline-flex;
 }
-.footer-social:hover li.footer-icon i.fa-brands.fa-square-pinterest {
+li.footer-icon:hover i.fa-brands.fa-square-pinterest {
     color: #fff;
     background-color: #E60023;
     border: 1px solid #E60023;
