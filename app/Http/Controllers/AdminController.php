@@ -1642,16 +1642,17 @@ class AdminController extends Controller
         }
     }
     public function getPlanId(Request $request)
-{
+    {
 
-    $plan_ids = DB::table('product_details')
-    ->join('planname','planname.plan_id','=','product_details.plan_id')
-        ->where('key_type', $request->planname)
-        ->distinct()
-        ->get();
+        $plan_ids = DB::table('product_details')
+        ->select('product_details.id as  plande_id','planname.*')
+            ->join('planname', 'planname.plan_id', '=', 'product_details.plan_id')
+            ->where('key_type', $request->planname)
+            ->distinct()
+            ->get();
 
 
 
-    return response()->json($plan_ids);
-}
+        return response()->json($plan_ids);
+    }
 }
