@@ -82,7 +82,7 @@
         <div class="grid grid-cols-12 gap-6">
 
             <div class="xl:col-span-3 col-span-12">
-                <div class="footer-widget">
+                <div class="footer-widget footer-social">
                     <h2 class="text-white text-2xl font-semibold mb-2">Follow Us</h2>
                     <ul class="justify-center lg:justify-end space-x-2">
                         <li class="footer-icon">
