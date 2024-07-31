@@ -1644,8 +1644,10 @@ class AdminController extends Controller
     public function getPlanId(Request $request)
 {
     $plan_ids = DB::table('product_details')
-        ->where('plan_id', $request->planname)
+        ->where('key_type', $request->planname)
         ->get();
+
+
 
     return response()->json($plan_ids);
 }

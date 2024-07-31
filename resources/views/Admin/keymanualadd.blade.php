@@ -183,7 +183,7 @@
     $(document).ready(function() {
         $('#planname').on('change', function() {
             var planname = $(this).val();
-            console.log(planname);
+            // console.log(planname);
 
             $.ajax({
                 url: '{{ route("get.plan.id") }}',
@@ -194,7 +194,7 @@
                     $('#plan_id').append('<option value="">Select</option>');
 
                     $.each(data, function(key, value) {
-                        $('#plan_id').append('<option value="'+ value.plan_id +'">'+ value.name +'</option>');
+                        $('#plan_id').append('<option value="'+ value.plan_id +'">'+ value.plan_id +'</option>');
                     });
                 }
             });
