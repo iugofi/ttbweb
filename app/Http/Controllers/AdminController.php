@@ -1631,4 +1631,14 @@ class AdminController extends Controller
             return redirect('/setup');
         }
     }
+
+    public function keymanualpage()
+    {
+        if ($this->loggedInAdmin) {
+
+            return view('Admin.keymanualadd');
+        } else {
+            return redirect('/setup');
+        }
+    }
 }

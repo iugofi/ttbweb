@@ -214,7 +214,7 @@
                     <li class="slide__category"><span class="category-name">Manual Key Submit</span></li>
 
                     <li class="slide">
-                        <a href="{{route('user.eventlist')}}" class="side-menu__item">
+                        <a href="{{route('user.keymanul')}}" class="side-menu__item">
                             <i class="fa-solid fa-location-dot side-menu__icon"></i>
                             <span class="side-menu__label">User Key Asign</span>
                         </a>
