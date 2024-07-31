@@ -105,19 +105,21 @@
                                     <div class="invalid-feedback"></div>
                                 </div>
                                 <div class="xl:col-span-6 col-span-12">
-                                    <label for="canonical-url" class="form-label">Is manual</label>
-                                    {{-- <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
-                                        id="PICK_ID" name="PICK_ID" placeholder="Phone"> --}}
-                                        <select name="" id="">
-                                            <option value="">--Please choose an option--</option>
-                                            <option value="">demo</option>
-                                            <option value="">demo</option>
-                                            <option value="">demo</option>
-                                            <option value="">demo</option>
-                                            <option value="">demo</option>
-                                            <option value="">demo</option>
-                                          </select>
+                                    <label for="coupons" class="form-label">Is Manual</label>
+                                    <select class="form-control block w-full text-[0.875rem] !rounded-md" data-trigger
+                                        name="is_key_used" id="is_key_used">
+                                        <option value="">Select</option>
+                                        @php
+                                            $status = DB::table('storepick')
+                                                ->where('STORE_ID', 'key_status')
+                                                ->orderBy('STORE_INDEX_SEQUENCE', 'asc')
+                                                ->get();
+                                        @endphp
+                                        @foreach ($status as $statuss)
+                                            <option value="{{ $statuss->PICK_ID }}">{{ $statuss->PICK_TEXT }}</option>
+                                        @endforeach
 
+                                    </select>
 
                                     <div class="invalid-feedback"></div>
                                 </div>
