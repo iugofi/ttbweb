@@ -1643,9 +1643,10 @@ class AdminController extends Controller
     }
     public function getPlanId(Request $request)
 {
+
     $plan_ids = DB::table('product_details')
         ->where('key_type', $request->planname)
-        ->distinct('plan_id')
+        ->distinct()
         ->get();
 
 
