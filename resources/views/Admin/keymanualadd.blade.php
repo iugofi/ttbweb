@@ -111,7 +111,7 @@
                                         <option value="">Select</option>
                                         @php
                                             $status = DB::table('storepick')
-                                                ->where('STORE_ID', 'key_status')
+                                                ->where('STORE_ID', 'yes_no')
                                                 ->orderBy('STORE_INDEX_SEQUENCE', 'asc')
                                                 ->get();
                                         @endphp
