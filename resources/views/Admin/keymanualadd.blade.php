@@ -106,8 +106,12 @@
                                 </div>
                                 <div class="xl:col-span-6 col-span-12">
                                     <label for="canonical-url" class="form-label">Is manual</label>
-                                    <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
-                                        id="PICK_ID" name="PICK_ID" placeholder="Phone">
+                                    <select id="cars" name="cars">
+                                        <option value="volvo">one</option>
+                                        <option value="saab">two</option>
+                                        <option value="fiat">three</option>
+                                        <option value="audi">four</option>
+                                      </select>
                                     <div class="invalid-feedback"></div>
                                 </div>
 
