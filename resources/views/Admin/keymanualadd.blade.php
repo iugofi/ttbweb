@@ -52,20 +52,20 @@
                                 <div class="xl:col-span-12 col-span-12">
                                     <label for="STORE ID" class="form-label">Customer Email</label>
                                     <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
-                                        id="STORE_ID" name="STORE_ID" placeholder="Customer Email">
+                                        id="customer_email" name="customer_email" placeholder="Customer Email">
                                     <div class="invalid-feedback"></div>
                                 </div>
                                 <div class="xl:col-span-6 col-span-12">
                                     <label for="STORE-TYPE" class="form-label">Customer First Name</label>
                                     <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
-                                        id="STORE_TYPE" name="STORE_TYPE" placeholder="First Name">
+                                        id="first_name" name="first_name" placeholder="First Name">
                                     <div class="invalid-feedback"></div>
                                 </div>
 
                                 <div class="xl:col-span-6 col-span-12">
                                     <label for="PICK TEXT" class="form-label">Customer Last Name</label>
                                     <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
-                                        id="PICK_TEXT" name="PICK_TEXT" placeholder="Last Name">
+                                        id="last_name" name="last_name" placeholder="Last Name">
                                     <div class="invalid-feedback"></div>
                                 </div>
                                 <div class="xl:col-span-6 col-span-12">
@@ -157,7 +157,47 @@
     </div>
 </div>
 
+<script>
 
+
+
+$('#customer_email').on('blur', function() {
+            var email = $(this).val();
+
+            if (email) {
+                $.ajax({
+                    url: '/check-email',
+                    type: 'GET',
+                    data: { email: email },
+                    success: function(response) {
+                        if (response.first_name && response.last_name) {
+                            $('#first_name').val(response.first_name).prop('disabled', true);
+                            $('#last_name').val(response.last_name).prop('disabled', true);
+                            $('#hidden_first_name').val(response.first_name);
+                            $('#hidden_last_name').val(response.last_name);
+                        } else {
+                            $('#first_name').val('').prop('disabled', false);
+                            $('#last_name').val('').prop('disabled', false);
+                            $('#hidden_first_name').val('');
+                            $('#hidden_last_name').val('');
+                        }
+                    },
+                    error: function() {
+                        $('#first_name').val('').prop('disabled', false);
+                        $('#last_name').val('').prop('disabled', false);
+                        $('#hidden_first_name').val('');
+                        $('#hidden_last_name').val('');
+                    }
+                });
+            } else {
+                $('#first_name').val('').prop('disabled', false);
+                $('#last_name').val('').prop('disabled', false);
+                $('#hidden_first_name').val('');
+                $('#hidden_last_name').val('');
+            }
+        });
+
+</script>
 
 
 @endsection
