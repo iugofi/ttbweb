@@ -75,37 +75,37 @@
                                     <div class="invalid-feedback"></div>
                                 </div>
                                 <div class="xl:col-span-6 col-span-12">
-                                    <label for="PICK TEXT" class="form-label">Customer Last Name</label>
+                                    <label for="PICK TEXT" class="form-label">State</label>
                                     <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
                                         id="PICK_TEXT" name="PICK_TEXT" placeholder="Last Name">
                                     <div class="invalid-feedback"></div>
                                 </div>
                                 <div class="xl:col-span-6 col-span-12">
-                                    <label for="canonical-url" class="form-label">Customer Phone</label>
+                                    <label for="canonical-url" class="form-label">City</label>
                                     <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
                                         id="PICK_ID" name="PICK_ID" placeholder="Phone">
                                     <div class="invalid-feedback"></div>
                                 </div>
                                 <div class="xl:col-span-6 col-span-12">
-                                    <label for="PICK TEXT" class="form-label">Customer Last Name</label>
+                                    <label for="PICK TEXT" class="form-label">Line 1</label>
                                     <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
                                         id="PICK_TEXT" name="PICK_TEXT" placeholder="Last Name">
                                     <div class="invalid-feedback"></div>
                                 </div>
                                 <div class="xl:col-span-6 col-span-12">
-                                    <label for="canonical-url" class="form-label">Customer Phone</label>
+                                    <label for="canonical-url" class="form-label">Line 2</label>
                                     <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
                                         id="PICK_ID" name="PICK_ID" placeholder="Phone">
                                     <div class="invalid-feedback"></div>
                                 </div>
                                 <div class="xl:col-span-6 col-span-12">
-                                    <label for="PICK TEXT" class="form-label">Customer Last Name</label>
+                                    <label for="PICK TEXT" class="form-label">Postal Code</label>
                                     <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
                                         id="PICK_TEXT" name="PICK_TEXT" placeholder="Last Name">
                                     <div class="invalid-feedback"></div>
                                 </div>
                                 <div class="xl:col-span-6 col-span-12">
-                                    <label for="canonical-url" class="form-label">Customer Phone</label>
+                                    <label for="canonical-url" class="form-label">Is manual</label>
                                     <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
                                         id="PICK_ID" name="PICK_ID" placeholder="Phone">
                                     <div class="invalid-feedback"></div>
