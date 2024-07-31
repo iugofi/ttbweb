@@ -309,23 +309,29 @@ class PaymentController extends Controller
     }
 
     public function checkEmail(Request $request)
-    {
-        $email = $request->query('email');
-        $user = Users::where('email', $email)->first();
+{
+    $email = $request->query('email');
+    $user = Users::where('email', $email)->first();
 
-        if ($user) {
-            return response()->json([
-                'first_name' => $user->firstname,
-                'last_name' => $user->lastname,
-                'customer_phone' => $user->phone,
+    if ($user) {
+        $response = [];
 
-            ]);
-        } else {
-            return response()->json([
-                'first_name' => '',
-                'last_name' => '',
-                'customer_phone' => '',
-            ], 404);
+        if ($user->firstname) {
+            $response['first_name'] = $user->firstname;
         }
+
+        if ($user->lastname) {
+            $response['last_name'] = $user->lastname;
+        }
+
+        if ($user->phone) {
+            $response['customer_phone'] = $user->phone;
+        }
+
+        return response()->json($response);
+    } else {
+        return response()->json([], 404);
     }
+}
+
 }
