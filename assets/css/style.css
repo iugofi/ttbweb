@@ -53794,6 +53794,9 @@ hr.hr-line {
     opacity: 65%;
     font-weight: 500 !Important;
 }
+.landing-footer input#email_subscribe {
+    color: #fff;
+}
 .landing-footer input {
     opacity: 65%;
     border-color: #dbdbdb;
