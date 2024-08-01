@@ -87,18 +87,16 @@
                                                 class="ri-map-pin-line me-1 align-middle"></i>{{ isset($user_data->address) ? $user_data->address : 'N/A' }}</span>
                                     </p>
                                     <div class="flex mb-0">
-                                        @if (!empty($keydetails))
-                                            @foreach ($keydetails as $keydetails_list)
-                                                <div class="me-6">
-                                                    <p class="font-bold text-[1.25rem] text-white text-shadow mb-0">
-                                                        {{ isset($keydetails_list->TotalCount) ? $keydetails_list->TotalCount : 'N/A' }}
-                                                    </p>
-                                                    <p class="mb-0 text-[.6875rem] opacity-[0.5] text-white">
-                                                        {{ isset($keydetails_list->PICK_TEXT) ? $keydetails_list->PICK_TEXT : 'N/A' }}
-                                                    </p>
-                                                </div>
-                                            @endforeach
-                                        @endif
+                                        @if(!empty($keydetails))
+                                        @foreach ($keydetails as $keydetails_list)
+                                            <div class="me-6">
+                                                <p class="font-bold text-[1.25rem] text-white text-shadow mb-0">
+                                                    {{ isset($keydetails_list->TotalCount) ? $keydetails_list->TotalCount : 'N/A' }}
+                                                </p>
+                                                <p class="mb-0 text-[.6875rem] opacity-[0.5] text-white">{{ isset($keydetails_list->PICK_TEXT) ? $keydetails_list->PICK_TEXT : 'N/A' }}</p>
+                                            </div>
+                                        @endforeach
+                                    @endif
 
 
                                     </div>
@@ -205,12 +203,6 @@
                                                 href="javascript:void(0);" id="gallery-tab" data-hs-tab="#gallery-tab-pane"
                                                 aria-controls="gallery-tab-pane">
                                                 <i class="ri-list-ordered me-1 align-middle inline-block"></i>Order History
-                                            </a>
-                                            <a class="w-full sm:w-auto flex hs-tab-active:font-semibold  hs-tab-active:text-white hs-tab-active:bg-primary rounded-md  py-2 px-4 text-primary text-sm"
-                                                href="javascript:void(0);" id="gallery-tab"
-                                                data-hs-tab="#gallery-tab-pane-order"
-                                                aria-controls="gallery-tab-pane-order">
-                                                <i class="ri-list-ordered me-1 align-middle inline-block"></i>Need Help
                                             </a>
                                         </nav>
                                         <div>
@@ -847,8 +839,7 @@
                                                                                 @endif
                                                                             </p>
                                                                             <span
-                                                                                class="badge bg-info/10 rounded-full text-info">Key:
-                                                                                @php
+                                                                                class="badge bg-info/10 rounded-full text-info">Key: @php
                                                                                     $results = App\Models\TTBKEY::where(
                                                                                         'id',
                                                                                         $productdetails_list->product_key,
@@ -861,18 +852,14 @@
                                                                                     class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12 pt-5">
                                                                                     <p
                                                                                         class="text-[0.75rem] opacity-[0.7] mb-1 text-[#000] dark:text-white/50">
-                                                                                        <span class="text-primary">Start
-                                                                                            Date:
-                                                                                        </span>{{ $productdetails_list->key_activation_date ?? '&nbsp;' }}
+                                                                                        <span class="text-primary">Start Date: </span>{{ $productdetails_list->key_activation_date ?? '&nbsp;' }}
                                                                                     </p>
                                                                                 </div>
                                                                                 <div
                                                                                     class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12 pt-5">
                                                                                     <p
                                                                                         class="text-[0.75rem] opacity-[0.7] mb-1 text-[#000] dark:text-white/50">
-                                                                                        <span class="text-primary">End
-                                                                                            Date: </span>
-                                                                                        {{ $productdetails_list->key_expirey_date ?? '&nbsp;' }}
+                                                                                        <span class="text-primary">End Date: </span> {{ $productdetails_list->key_expirey_date ?? '&nbsp;' }}
                                                                                     </p>
                                                                                 </div>
                                                                             </div>
@@ -894,13 +881,6 @@
                                                                 All</button>
                                                         </div>
                                                     </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="tab-pane fade !p-0 !border-0 hidden" id="gallery-tab-pane-order"
-                                                role="tabpanel" aria-labelledby="gallery-tab" tabindex="0">
-                                                <div class="grid grid-cols-12 sm:gap-x-6">
-                                                    <h1>fgh</h1>
                                                 </div>
                                             </div>
                                         </div>
