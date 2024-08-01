@@ -1656,6 +1656,8 @@ class AdminController extends Controller
     {
         $plan_ids = DB::table('ttbkey')
             ->where('id', $request->plan_id)
+            ->where('is_key_used', 0)
+            ->orderBy('created_at', 'desc')
             ->get();
         return response()->json($plan_ids);
     }
