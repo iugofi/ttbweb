@@ -29,9 +29,7 @@
                                 <li class="slide">
                                     <a href="{{route('user.new_home')}}" class="side-menu__item">New-Home</a>
                                 </li>
-                                <li class="slide">
-                                    <div id="google_translate_element"></div>
-                                </li>
+
                             </ul>
                         </li>
                         <li class="slide has-sub">
@@ -140,6 +138,9 @@
                         </li>
                         @endif
                     </ul>
+
+                        <div id="google_translate_element"></div>
+
 
                 <div class="slide-right hidden" id="slide-right"><svg xmlns="http://www.w3.org/2000/svg" fill="#7b8191"
                         width="24" height="24" viewBox="0 0 24 24">
