@@ -97,7 +97,7 @@
 
                                 <div class="xl:col-span-6 col-span-12">
                                     <label for="PICK TEXT" class="form-label">Key</label>
-                                    <select class="form-control block w-full text-[0.875rem] !rounded-md" name="key" id="key">
+                                    <select class="form-control block w-full text-[0.875rem] !rounded-md" name="key_ttb" id="key_ttb">
                                         <option value="">Select</option>
                                         <!-- Options will be populated dynamically -->
                                     </select>
@@ -192,8 +192,6 @@
     $(document).ready(function() {
         $('#planname').on('change', function() {
             var planname = $(this).val();
-            // console.log(planname);
-
             $.ajax({
                 url: '{{ route("get.plan.id") }}',
                 type: 'GET',
@@ -204,6 +202,21 @@
 
                     $.each(data, function(key, value) {
                         $('#plan_id').append('<option value="'+ value.plande_id +'">'+ value.name +'</option>');
+                    });
+                }
+            });
+        });
+        $('#plan_id').on('change', function() {
+            var plan_id = $(this).val();
+            $.ajax({
+                url: '{{ route("get.key.id") }}',
+                type: 'GET',
+                data: { plan_id: plan_id },
+                success: function(data) {
+                    $('#key_ttb').empty();
+                    $('#key_ttb').append('<option value="">Select</option>');
+                    $.each(data, function(key, value) {
+                        $('#key_ttb').append('<option value="'+ value.id +'">'+ value.main_key +'</option>');
                     });
                 }
             });

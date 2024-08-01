@@ -1650,9 +1650,13 @@ class AdminController extends Controller
             ->where('key_type', $request->planname)
             ->distinct()
             ->get();
-
-
-
+        return response()->json($plan_ids);
+    }
+    public function getKeyId(Request $request)
+    {
+        $plan_ids = DB::table('ttbkey')
+            ->where('id', $request->plan_id)
+            ->get();
         return response()->json($plan_ids);
     }
 }
