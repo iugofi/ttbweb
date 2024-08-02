@@ -14694,7 +14694,7 @@ h6 {
     border-color: rgb(255 255 255 / 0.1) !important;
     --tw-bg-opacity: 1 !important;
     /* background-color: rgb(0 0 0 / var(--tw-bg-opacity)) !important; */
-    background-color: #0D0D0D;
+    background-color: #0d0d0d;
 }
 
 [data-nav-layout="horizontal"] .landing-body .landing-main-footer {
@@ -17454,8 +17454,6 @@ label {
     color: rgb(255 255 255 / var(--tw-text-opacity));
 } */
 
-
-
 .pricing-offer .pricing-offer-details {
     position: absolute;
     inset-inline-end: -2.063rem;
@@ -17478,14 +17476,14 @@ label {
 }
 
 @keyframes blinkBackground {
-    0%, 100% {
+    0%,
+    100% {
         background-color: rgb(var(--primary));
     }
     50% {
         background-color: transparent;
     }
 }
-
 
 [dir="rtl"] .pricing-offer-details {
     --tw-rotate: 315deg;
@@ -48661,7 +48659,7 @@ img.img-fluid.service-icon {
 }
 .my-btn-pro:hover {
     border: none !important;
-    background-color: #13D8AA;
+    background-color: #13d8aa;
     color: #fff;
 }
 .my-btn-pros {
@@ -48670,8 +48668,8 @@ img.img-fluid.service-icon {
 }
 .my-btn-pros:hover {
     background: transparent;
-    border: 1px solid #13D8AA;
-    color: #13D8AA;
+    border: 1px solid #13d8aa;
+    color: #13d8aa;
 }
 .my-btn-pro:hover span.fab.fa-google-play {
     color: #fff !important;
@@ -48808,26 +48806,22 @@ img.img-fluid.service-icon {
 
 /* neeraj-home-page-css-22-04-2024 */
 
-
 .home2-new-seven-pricing .text-box-price p {
     background-color: #000;
     color: #fff;
     display: inline-block;
     padding: 2px 10px;
 }
-.home2-new-seven-pricing .ti-btn{
-   border-radius: 25px;
-   font-family: "Roboto", sans-serif;
-
+.home2-new-seven-pricing .ti-btn {
+    border-radius: 25px;
+    font-family: "Roboto", sans-serif;
 }
-
-
 
 .home2-new-seven-pricing .text-box-price {
     text-align: center;
     margin: 10px 0px -1px 0px;
 }
-.home2-new-seven-pricing h6{
+.home2-new-seven-pricing h6 {
     font-size: 20px;
     font-weight: 700;
 }
@@ -48855,29 +48849,27 @@ img.img-fluid.service-icon {
     font-weight: 600;
 }
 
-
 .section-home2-two {
     padding: 0em 0em 2em 0em;
     background-color: #ffffff;
 }
 
-.home2-new-seven-pricing h5{
-    font-size:32px;
+.home2-new-seven-pricing h5 {
+    font-size: 32px;
 }
-
 
 .home2-new-seven-pricing .box-price {
     border: 2px solid #e7faf7;
     margin: 4px;
 }
-.home2-new-seven-pricing .tab-content .tab-pane{
-  border:0px solid;
+.home2-new-seven-pricing .tab-content .tab-pane {
+    border: 0px solid;
 }
 .dark #pricing-monthly-pane {
-    background-color: #1A1C1E;
+    background-color: #1a1c1e;
 }
 .dark #pricing-yearly-pane {
-    background-color: #1A1C1E;
+    background-color: #1a1c1e;
 }
 
 .home2-new-seven-pricing .box {
@@ -48896,7 +48888,6 @@ img.img-fluid.service-icon {
         var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-
 .home2-new-seven-pricing .pricing-bxx {
     background-color: transparent;
     border-radius: 20px;
@@ -48911,7 +48902,6 @@ img.img-fluid.service-icon {
 .home2-new-seven-pricing span {
     font-size: 14px;
 }
-
 
 .section-home-new-4 h2 {
     padding-bottom: 23px;
@@ -48930,7 +48920,7 @@ img.img-fluid.service-icon {
 }
 
 .section-home-new-4 {
-    background-color: #F5F6FA;
+    background-color: #f5f6fa;
     padding: 2em 0em 2em 0em;
 }
 
@@ -48951,16 +48941,15 @@ img.img-fluid.service-icon {
 
 .section-home-new-6 {
     padding: 7em 0em;
-    background-color: #F5F6FA;
+    background-color: #f5f6fa;
 }
 
 .section-home-new-6 p {
     font-size: 16px;
     width: 450px;
-    padding-top:1em;
+    padding-top: 1em;
     text-align: justify;
 }
-
 
 .section-home-new-5 h2 {
     font-size: 32px;
@@ -48977,10 +48966,9 @@ img.img-fluid.service-icon {
 .section-home-new-5 p {
     font-size: 16px;
     width: 450px;
-    padding-top:1em;
+    padding-top: 1em;
     text-align: justify;
 }
-
 
 .marquee-container {
     width: 100%;
@@ -49010,8 +48998,7 @@ img.img-fluid.service-icon {
     animation-play-state: paused;
 }
 
-
-.home-new-banner i{
+.home-new-banner i {
     color: #12d2b3;
     padding: 0px 0px 0px 8px;
 }
@@ -49041,66 +49028,63 @@ img.img-fluid.service-icon {
     padding: 20px 0px 40px 0px;
 }
 
-
 .h1-\[511px\] {
     height: 511px !important;
 }
 
-.lg1\:h-\[680px\]{
+.lg1\:h-\[680px\] {
     height: 680px;
 }
 
-.sm1\:h-\[500px\]{
+.sm1\:h-\[500px\] {
     height: 500px;
 }
 
-.md1\:h-\[600px\]{
+.md1\:h-\[600px\] {
     height: 600px;
 }
 
-
-.home-new-banner .wraper .height{
-    height:700;
+.home-new-banner .wraper .height {
+    height: 700;
 }
 
-.home-new-banner{
-padding: 8em 0em;
+.home-new-banner {
+    padding: 8em 0em;
 }
 
-.home-new-banner .wraper{
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1170px;
+.home-new-banner .wraper {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1170px;
 }
 
-@media (max-width: 1399px){
-    .home-new-banner .wraper{
-    padding-left: 12px;
-    padding-right: 12px;
-  }
+@media (max-width: 1399px) {
+    .home-new-banner .wraper {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
 }
 
-@media (max-width: 1199px){
-    .home-new-banner .wraper{
-    padding-left: 12px;
-    padding-right: 12px;
-  }
+@media (max-width: 1199px) {
+    .home-new-banner .wraper {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
 }
 
-@media (max-width: 991px){
-    .home-new-banner .wraper{
-    padding-left: 20px;
-    padding-right: 20px;
-  }
+@media (max-width: 991px) {
+    .home-new-banner .wraper {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
 
-@media (max-width: 767px){
-    .home-new-banner .wraper{
-    padding-left: 10px;
-    padding-right: 10px;
-  }
+@media (max-width: 767px) {
+    .home-new-banner .wraper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
-
 
 .vpn-download-two {
     padding: 5em 0em;
@@ -49115,14 +49099,13 @@ padding: 8em 0em;
     font-size: 16px;
 }
 
-.vpn-download-two .cnt-download{
-   padding:22px;
+.vpn-download-two .cnt-download {
+    padding: 22px;
 }
 
 .vpn-download-one .box-down span {
     color: #707070 !important;
 }
-
 
 .vpn-download-one {
     background-color: #edf1fc;
@@ -49134,14 +49117,14 @@ padding: 8em 0em;
     font-weight: 600;
 }
 
-.vpn-download-one p{
-  font-size: 16px;
+.vpn-download-one p {
+    font-size: 16px;
 }
-.vpn-download-one span{
-  color:#13d6af;
+.vpn-download-one span {
+    color: #13d6af;
 }
 
-.vpn-download-one img{
+.vpn-download-one img {
     display: inline-block;
 }
 
@@ -49169,7 +49152,7 @@ padding: 8em 0em;
     background-color: #12d2b3;
     color: #fff;
 }
-.vpn-download-one .pt-top{
+.vpn-download-one .pt-top {
     padding: 5.5em 0em;
 }
 /* .e-support-section-two .icon-box:hover {
@@ -49500,7 +49483,7 @@ padding: 8em 0em;
     .e-support-section-seven .flex {
         display: block;
     }
-    .e-support-section-seven{
+    .e-support-section-seven {
         padding: 5em 1em;
     }
 }
@@ -49592,8 +49575,8 @@ padding: 8em 0em;
     .e-support-section-six .flex {
         display: block;
     }
-    .e-support-section-six{
-        padding:5em 1em;
+    .e-support-section-six {
+        padding: 5em 1em;
     }
 }
 .e-support-section-five .ifive-box {
@@ -49751,7 +49734,7 @@ padding: 8em 0em;
         left: 128px;
         width: 30%;
     }
- }
+}
 @media (max-width: 425px) {
     .section-home2-ten .container {
         padding: 20px;
@@ -50002,20 +49985,20 @@ padding: 8em 0em;
 }
 
 @media (max-width: 768px) and (min-width: 425px) {
-    .e-support-banner h2{
-        padding:0px;
+    .e-support-banner h2 {
+        padding: 0px;
     }
-    .e-support-banner{
-        padding:0px;
+    .e-support-banner {
+        padding: 0px;
     }
 }
 
 @media (max-width: 425px) {
-    .e-support-banner h2{
-        padding:0px;
+    .e-support-banner h2 {
+        padding: 0px;
     }
-    .e-support-banner{
-        padding:0px;
+    .e-support-banner {
+        padding: 0px;
     }
 }
 
@@ -52321,9 +52304,6 @@ h6.uppercase {
     /* End footer mobile responsive */
 }
 
-
-
-
 /* start vpn-shild banner css */
 .landing-banner-vpn {
     overflow: hidden;
@@ -53648,7 +53628,7 @@ section#about-features {
     padding: 4px;
 }
 .dark .back-img {
-    background-image: url('https://www.nighthawk-routerlogin.com/assets/img/Bg-img-dark.png');
+    background-image: url("https://www.nighthawk-routerlogin.com/assets/img/Bg-img-dark.png");
     background-color: #000;
     border-radius: 0px !important;
 }
@@ -53737,7 +53717,7 @@ hr.hr-line {
     top: 0rem;
     height: 28rem;
     width: 100%;
-    background-image: url('/assets/img/safe_browsing.jpg');
+    background-image: url("/assets/img/safe_browsing.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -53747,7 +53727,7 @@ hr.hr-line {
     top: 0rem;
     height: 28rem;
     width: 100%;
-    background-image: url('/assets/img/safe_browsing.jpg');
+    background-image: url("/assets/img/safe_browsing.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -53795,7 +53775,7 @@ hr.hr-line {
 }
 .landing-footer p {
     opacity: 65%;
-    font-weight: 500 !Important;
+    font-weight: 500 !important;
 }
 .landing-footer input {
     opacity: 65%;
@@ -53814,8 +53794,8 @@ hr.hr-line {
 }
 li.footer-icon:hover i.ri-facebook-line {
     color: #fff;
-    border: 1px solid #0866FF;
-    background-color: #0866FF;
+    border: 1px solid #0866ff;
+    background-color: #0866ff;
 }
 li.footer-icon:hover .fa-x-twitter {
     color: #fff;
@@ -53824,30 +53804,29 @@ li.footer-icon:hover .fa-x-twitter {
 }
 li.footer-icon:hover i.ri-instagram-line {
     color: #fff;
-    background-color: #DA04E3;
-    border: 1px solid #DA04E3;
+    background-color: #da04e3;
+    border: 1px solid #da04e3;
 }
 li.footer-icon:hover i.ri-youtube-line {
     color: #fff;
-    background-color: #FF0000;
-    border: 1px solid #FF0000;
+    background-color: #ff0000;
+    border: 1px solid #ff0000;
 }
 li.footer-icon:hover i.fa-brands.fa-linkedin {
     color: #fff;
-    background-color: #0A66C2;
-    border: 1px solid #0A66C2;
+    background-color: #0a66c2;
+    border: 1px solid #0a66c2;
     display: inline-flex;
 }
 li.footer-icon:hover i.fa-brands.fa-square-pinterest {
     color: #fff;
-    background-color: #E60023;
-    border: 1px solid #E60023;
+    background-color: #e60023;
+    border: 1px solid #e60023;
 }
 
 /* End footer css */
 
 /* start new testimonial css */
-
 
 .testimonial-area {
     position: relative;
@@ -53897,7 +53876,7 @@ li.footer-icon:hover i.fa-brands.fa-square-pinterest {
     position: absolute;
     right: 10px;
     font-size: 60px;
-    color: #11CDBE;
+    color: #11cdbe;
 }
 
 .client-video {
@@ -53921,7 +53900,7 @@ li.footer-icon:hover i.fa-brands.fa-square-pinterest {
 }
 
 .back-img {
-    content: url('https://www.nighthawk-routerlogin.com/assets/img/Bg.png');
+    content: url("https://www.nighthawk-routerlogin.com/assets/img/Bg.png");
     width: 100%;
     position: relative;
     /* top: 5rem; */
@@ -53961,7 +53940,7 @@ li.footer-icon:hover i.fa-brands.fa-square-pinterest {
     color: #13d8aa !important;
 }
 
- /* End new trestimonial css */
+/* End new trestimonial css */
 
 /* kunal-verma 23-04-2024 */
 
@@ -53982,8 +53961,6 @@ li.footer-icon:hover i.fa-brands.fa-square-pinterest {
     content: " *";
     color: red;
 }
-
-
 
 /* google language */
 
