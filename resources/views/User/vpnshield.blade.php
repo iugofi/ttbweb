@@ -528,7 +528,7 @@
                                                     alt=""></a>
                                         </div>
                                         <div class="client-details">
-                                            <h6>GG21</h6>
+                                            <h6><b>GG21</b></h6>
                                             {{-- <span>Designer, LLCG Team</span> --}}
                                         </div>
                                         <i class="fa-solid fa-quote-left"></i>
@@ -549,7 +549,7 @@
                                                     alt=""></a>
                                         </div>
                                         <div class="client-details">
-                                            <h6>George kalnin</h6>
+                                            <h6><b>George kalnin</b></h6>
                                             {{-- <span>Designer, LLCG Team</span> --}}
                                         </div>
                                         <i class="fa-solid fa-quote-left"></i>
@@ -570,7 +570,7 @@
                                                     alt=""></a>
                                         </div>
                                         <div class="client-details">
-                                            <h6>Lori Woods</h6>
+                                            <h6><b>Lori Woods</b></h6>
                                             {{-- <span>Designer, LLCG Team</span> --}}
                                         </div>
                                         <i class="fa-solid fa-quote-left"></i>
@@ -592,7 +592,7 @@
                                                     alt=""></a>
                                         </div>
                                         <div class="client-details">
-                                            <h6>Betty M</h6>
+                                            <h6><b>Betty M</b></h6>
                                             {{-- <span>Designer, LLCG Team</span> --}}
                                         </div>
                                         <i class="fa-solid fa-quote-left"></i>
@@ -612,7 +612,7 @@
                                                     alt=""></a>
                                         </div>
                                         <div class="client-details">
-                                            <h6>Adrienne Otis</h6>
+                                            <h6><b>Adrienne Otis</b></h6>
                                             {{-- <span>Designer, LLCG Team</span> --}}
                                         </div>
                                         <i class="fa-solid fa-quote-left"></i>
@@ -632,7 +632,7 @@
                                                     alt=""></a>
                                         </div>
                                         <div class="client-details">
-                                            <h6>Rick Serafine</h6>
+                                            <h6><b>Rick Serafine</b></h6>
                                             {{-- <span>Designer, LLCG Team</span> --}}
                                         </div>
                                         <i class="fa-solid fa-quote-left"></i>
@@ -653,7 +653,7 @@
                                                     alt=""></a>
                                         </div>
                                         <div class="client-details">
-                                            <h6>John Holt</h6>
+                                            <h6><b>John Holt</b></h6>
                                             {{-- <span>Designer, LLCG Team</span> --}}
                                         </div>
                                         <i class="fa-solid fa-quote-left"></i>
@@ -672,7 +672,7 @@
                                                     alt=""></a>
                                         </div>
                                         <div class="client-details">
-                                            <h6>David Richter</h6>
+                                            <h6><b>David Richter</b></h6>
                                             {{-- <span>Designer, LLCG Team</span> --}}
                                         </div>
                                         <i class="fa-solid fa-quote-left"></i>
@@ -691,7 +691,7 @@
                                                     alt=""></a>
                                         </div>
                                         <div class="client-details">
-                                            <h6>Frank</h6>
+                                            <h6><b>Frank</b></h6>
                                             {{-- <span>Designer, LLCG Team</span> --}}
                                         </div>
                                         <i class="fa-solid fa-quote-left"></i>
@@ -711,7 +711,7 @@
                                                     alt=""></a>
                                         </div>
                                         <div class="client-details">
-                                            <h6>Randall Thomas </h6>
+                                            <h6><b>Randall Thomas</b></h6>
                                             {{-- <span>Designer, LLCG Team</span> --}}
                                         </div>
                                         <i class="fa-solid fa-quote-left"></i>
