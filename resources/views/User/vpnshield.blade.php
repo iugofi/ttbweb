@@ -711,7 +711,7 @@
                                                     alt=""></a>
                                         </div>
                                         <div class="client-details">
-                                            <h6><b>Randall Thomas</b></h6>
+                                            <h6><b>Randall Thomas </b></h6>
                                             {{-- <span>Designer, LLCG Team</span> --}}
                                         </div>
                                         <i class="fa-solid fa-quote-left"></i>
