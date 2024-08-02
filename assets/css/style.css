@@ -50812,6 +50812,9 @@ padding: 8em 0em;
     font-size: 33px;
     color: #12d3b1;
 }
+.img-boxthree:hover .icon-img-box {
+    border: 3px solid #12d3b1;
+}
 
 .threat-section-three .img-boxthree {
     background-color: #fff;
