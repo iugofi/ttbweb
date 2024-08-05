@@ -48674,6 +48674,17 @@ img.img-fluid.service-icon {
 .my-btn-pro:hover span.fab.fa-google-play {
     color: #fff !important;
 }
+.my-btn-pro-btn {
+    padding: 4px 14px;
+    color: #13D8AA;
+}
+.my-btn-pro-btn:hover {
+    color: #fff;
+    background: #13D8AA;
+}
+.my-btn-pro-btn .fab.fa-google-play:hover {
+    color: #fff !important;
+}
 .my-btn-section {
     display: contents;
 }
