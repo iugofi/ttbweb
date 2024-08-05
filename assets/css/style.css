@@ -48919,7 +48919,9 @@ img.img-fluid.service-icon {
     font-size: 32px;
     font-weight: 600;
 }
-
+.dark .section-home-new-4 h2 {
+    color: #fff;
+}
 .section-home-new-4 h4 {
     font-size: 16px;
     color: #161616;
