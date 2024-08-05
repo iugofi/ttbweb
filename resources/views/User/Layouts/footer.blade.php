@@ -184,7 +184,7 @@
                         <form method="post" action="https://www.nighthawk-routerlogin.com/saveemailsub"
                             id="mail-subscribe">
                             <input type="hidden" name="_token" value="iBdPTkSAy1r2FkYmXRlfaYojRVg8F4oXZcKr5jYP">
-                            <div class="form-group relative">
+                            <div class="form-group relative text-left">
                                 <input type="email" name="email_subscribe" id="email_subscribe"
                                     placeholder="Enter mail address..." required=""
                                     class="w-40 h-12 px-8 py-2 rounded-full bg-transparent text-black border border-white outline-none">
