@@ -123,11 +123,11 @@
                 <div class="footer-widget">
                     <h2 class="text-white text-2xl font-semibold mb-2"> Quick Link</h2>
                     <ul class="list-none text-white">
-                        <li class="mb-2"><a href="https://www.nighthawk-routerlogin.com/" class="hover:text-yellow-500">Home</a></li>
-                        <li class="mb-2"><a href="https://www.nighthawk-routerlogin.com/about_as" class="hover:text-yellow-500">About</a></li>
-                        <li class="mb-2"><a href="https://www.nighthawk-routerlogin.com/contact_as" class="hover:text-yellow-500">Support</a></li>
-                        <li class="mb-2"><a href="https://www.nighthawk-routerlogin.com/signin" class="hover:text-yellow-500">Sign In</a></li>
-                        <li class="mb-2"><a href="https://www.nighthawk-routerlogin.com/" class="hover:text-yellow-500">Personal</a></li>
+                        <li class="mb-3"><a href="https://www.nighthawk-routerlogin.com/" class="hover:text-yellow-500">Home</a></li>
+                        <li class="mb-3"><a href="https://www.nighthawk-routerlogin.com/about_as" class="hover:text-yellow-500">About</a></li>
+                        <li class="mb-3"><a href="https://www.nighthawk-routerlogin.com/contact_as" class="hover:text-yellow-500">Support</a></li>
+                        <li class="mb-3"><a href="https://www.nighthawk-routerlogin.com/signin" class="hover:text-yellow-500">Sign In</a></li>
+                        <li class="mb-3"><a href="https://www.nighthawk-routerlogin.com/" class="hover:text-yellow-500">Personal</a></li>
                         <li><a href="https://www.nighthawk-routerlogin.com/commercial" class="hover:text-yellow-500">Commercial</a></li>
                     </ul>
                 </div>
@@ -136,19 +136,19 @@
                 <div class="footer-widget">
                     <h2 class="text-white text-2xl font-semibold mb-2"> Products</h2>
                     <ul class="list-none text-white">
-                        <li class="mb-2"><a href="https://www.nighthawk-routerlogin.com/ttbantivirus" class="hover:text-yellow-500">TTB Antivirus</a>
+                        <li class="mb-3"><a href="https://www.nighthawk-routerlogin.com/ttbantivirus" class="hover:text-yellow-500">TTB Antivirus</a>
                         </li>
                         {{-- <li class="mb-2"><a href="#" class="hover:text-yellow-500">TTB Internet
                                 Security</a></li> --}}
-                        <li class="mb-2"><a href="https://www.nighthawk-routerlogin.com/totel-internet-security" class="hover:text-yellow-500">TTB Total
+                        <li class="mb-3"><a href="https://www.nighthawk-routerlogin.com/totel-internet-security" class="hover:text-yellow-500">TTB Total
                                 Security</a></li>
-                        <li class="mb-2"><a href="https://www.nighthawk-routerlogin.com/vpnshieldnew" class="hover:text-yellow-500">TTB VPN Shield</a>
+                        <li class="mb-3"><a href="https://www.nighthawk-routerlogin.com/vpnshieldnew" class="hover:text-yellow-500">TTB VPN Shield</a>
                         </li>
                     </ul>
                     <h2 class="text-white text-2xl font-semibold mb-2">Resources</h2>
                     <ul class="list-none text-white">
-                        <li class="mb-2"><a href="https://www.nighthawk-routerlogin.com/news" class="hover:text-yellow-500">News</a></li>
-                        <li class="mb-2"><a href="https://www.nighthawk-routerlogin.com/blog" class="hover:text-yellow-500">Blog</a></li>
+                        <li class="mb-3"><a href="https://www.nighthawk-routerlogin.com/news" class="hover:text-yellow-500">News</a></li>
+                        <li class="mb-3"><a href="https://www.nighthawk-routerlogin.com/blog" class="hover:text-yellow-500">Blog</a></li>
                     </ul>
                 </div>
             </div>
@@ -156,23 +156,23 @@
                 <div class="footer-widget">
                     <h2 class="text-white text-2xl font-semibold mb-2"> Solutions</h2>
                     <ul class="list-none text-white">
-                        <li class="mb-2"><a href="https://www.nighthawk-routerlogin.com/Endpoint_protection" class="hover:text-yellow-500">EndPoint
+                        <li class="mb-3"><a href="https://www.nighthawk-routerlogin.com/Endpoint_protection" class="hover:text-yellow-500">EndPoint
                                 Protection</a></li>
-                        <li class="mb-2"><a href="https://www.nighthawk-routerlogin.com/network-protection" class="hover:text-yellow-500">Network
+                        <li class="mb-3"><a href="https://www.nighthawk-routerlogin.com/network-protection" class="hover:text-yellow-500">Network
                                 Protection</a></li>
-                        <li class="mb-2"><a href="https://www.nighthawk-routerlogin.com/threat-protection" class="hover:text-yellow-500">Threat
+                        <li class="mb-3"><a href="https://www.nighthawk-routerlogin.com/threat-protection" class="hover:text-yellow-500">Threat
                                 Protection</a></li>
-                        <li class="mb-2"><a href="https://www.nighthawk-routerlogin.com/Behavioral_Protection" class="hover:text-yellow-500">Behavioral
+                        <li class="mb-3"><a href="https://www.nighthawk-routerlogin.com/Behavioral_Protection" class="hover:text-yellow-500">Behavioral
                                 Protection</a></li>
-                        <li class="mb-2"><a href="https://www.nighthawk-routerlogin.com/Enhanced_Firewall" class="hover:text-yellow-500">Enhanced
+                        <li class="mb-3"><a href="https://www.nighthawk-routerlogin.com/Enhanced_Firewall" class="hover:text-yellow-500">Enhanced
                                 Firewall</a></li>
-                        <li class="mb-2"><a href="https://www.nighthawk-routerlogin.com/malware_detection" class="hover:text-yellow-500">Malware
+                        <li class="mb-3"><a href="https://www.nighthawk-routerlogin.com/malware_detection" class="hover:text-yellow-500">Malware
                                 Detection</a></li>
-                        <li class="mb-2"><a href="https://www.nighthawk-routerlogin.com/anti-phishing" class="hover:text-yellow-500">Real Time
+                        <li class="mb-3"><a href="https://www.nighthawk-routerlogin.com/anti-phishing" class="hover:text-yellow-500">Real Time
                                 Anti-phishing</a></li>
-                        <li class="mb-2"><a href="https://www.nighthawk-routerlogin.com/virus_removal_service" class="hover:text-yellow-500">Virus Removal
+                        <li class="mb-3"><a href="https://www.nighthawk-routerlogin.com/virus_removal_service" class="hover:text-yellow-500">Virus Removal
                                 Service</a></li>
-                        <li class="mb-2"><a href="https://www.nighthawk-routerlogin.com/E_Support_Concierge" class="hover:text-yellow-500">E-Support
+                        <li class="mb-3"><a href="https://www.nighthawk-routerlogin.com/E_Support_Concierge" class="hover:text-yellow-500">E-Support
                                 Concierge</a></li>
                     </ul>
                 </div>
