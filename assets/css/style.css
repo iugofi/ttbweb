@@ -48934,6 +48934,12 @@ img.img-fluid.service-icon {
     background-color: #f5f6fa;
     padding: 2em 0em 2em 0em;
 }
+.dark .section-home-new-4 h4 {
+    color: #fff;
+}
+.dark .section-home-new-4 p {
+    color: #fff;
+}
 
 .section-home-new-7 {
     padding: 7em 0em;
