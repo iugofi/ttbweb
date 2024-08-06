@@ -132,10 +132,11 @@
                                 property rights, user rights, and content standards, and threatens the personal safety of the users. </li>
                             <li>Also, we can disclose the identity and any other information about the users and any third party who claims to be violated by the material posted.</li>
                             <li>Suspend or terminate the user’s access to the TTB’s official website for no reason without any limitation and violating these terms of service.</li>
-                        </ul>
+                        </ul></p>
+                        <p>
                         Furthermore, we do not assume any liability or possession for any action and inaction regarding the transmission, reproduction, and distribution of the content provided by the users and any
                         third party. Also, we are not responsible for any performance or non-performance of the activities mentioned above.
-                        </p>
+                    </p>
                 </div>
             </div>
         </div>
