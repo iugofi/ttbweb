@@ -144,7 +144,7 @@
                         @endif
                     </ul>
 
-                        <div id="google_translate_element"></div>
+                        {{-- <div id="google_translate_element"></div> --}}
 
 
                 <div class="slide-right hidden" id="slide-right"><svg xmlns="http://www.w3.org/2000/svg" fill="#7b8191"

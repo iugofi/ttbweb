@@ -48919,10 +48919,12 @@ img.img-fluid.service-icon {
     font-size: 32px;
     font-weight: 600;
 }
-
+.dark .section-home-new-4 h2 {
+    color: #fff;
+}
 .section-home-new-4 h4 {
     font-size: 16px;
-    color: #5d5a5a;
+    color: #161616;
     font-weight: 600;
 }
 
@@ -48934,9 +48936,15 @@ img.img-fluid.service-icon {
     background-color: #f5f6fa;
     padding: 2em 0em 2em 0em;
 }
+.dark .section-home-new-4 h4 {
+    color: #fff;
+}
+.dark .section-home-new-4 p {
+    color: #fff;
+}
 
 .section-home-new-7 {
-    padding: 7em 0em;
+    padding: 3em 0em;
 }
 .section-home-new-7 img {
     display: inline-block;

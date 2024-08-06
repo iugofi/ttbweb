@@ -976,7 +976,7 @@
 
 
             {{-- forth section start --}}
-            <section class="section-home-new-4">
+            <section class="!bg-[##F3F2EA] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 section-home-new-4">
                 <div class="container">
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 col-span-12 text-center">
@@ -1472,7 +1472,7 @@
                         </a>
                         <a href="#" class="ti-btn !rounded-full ti-btn-wave my-btn-pro-btn"
                             style="border: 1px solid #13D8AA;">
-                            <span class="fab fa-google-play icon-size-sm mx-3 mr-3 h2" style="color: #13D8AA;"></span>
+                            <span class="fab fa-google-play icon-size-sm mx-3 mr-3 h2"></span>
                             <div class="download-text text-left">
                                 <h5 class="mb-0">Download</h5>
                             </div>
