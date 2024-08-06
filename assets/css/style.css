@@ -53769,6 +53769,14 @@ hr.hr-line {
 .hr {
     margin: 20px 0;
 }
+
+.landing-footer h2 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    text-align: left;
+}
+
 .footer-icon i {
     border: 1px solid #dbdbdb;
     padding: 9px;
@@ -53783,11 +53791,17 @@ hr.hr-line {
 }
 .landing-footer a {
     opacity: 65%;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
 }
 .landing-footer p {
     opacity: 65%;
-    font-weight: 500 !important;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
 }
+
 .landing-footer input {
     opacity: 65%;
     border-color: #dbdbdb;
