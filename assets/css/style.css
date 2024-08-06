@@ -53764,6 +53764,7 @@ hr.hr-line {
     position: relative;
     right: 1.8rem;
     margin: 14px 30px auto;
+    font-family: "Roboto", sans-serif;
 }
 
 .icon-list {
@@ -53780,7 +53781,7 @@ hr.hr-line {
 
 .landing-footer h2 {
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
     font-family: "Roboto", sans-serif;
     text-align: left;
 }
@@ -53811,9 +53812,10 @@ hr.hr-line {
 }
 
 .landing-footer input {
-    opacity: 65%;
+    opacity: 100%;
     border-color: #dbdbdb;
     color: #fff;
+    background: #10131c;
 }
 .support-link ul li {
     border-right: 2px solid #7e7e7e;
