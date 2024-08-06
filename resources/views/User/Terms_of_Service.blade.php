@@ -123,7 +123,7 @@
                         with the users in real time. Using these features, users can post, publish, submit, and transmit content, feedback, queries, and materials to other users on our website.<br><br>
                         But, all the users must consider that these user contributions should comply with the content standards, predefined in the Terms of Conditions. Any kind of user contribution will
                         be considered as non-proprietary and non-confidential. Additionally, you warrant that:
-                        <ul class="display-ul" style="list-style: disc; font-size: 16px;">
+                        <ul class="display-ul" style="list-style: disc; font-size: 16px; px-4">
                             <li>You hold all the rights to and in the user contributions as well as to grant the licenses to us or our service providers, affiliates, and business partners.</li>
                             <li>All the user contributions you make are subject to and comply with our Terms of Service.</li><br>
                             <b>On the contrary, TTB own rights to:</b><br><br>
