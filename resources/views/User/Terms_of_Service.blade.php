@@ -126,14 +126,14 @@
                         <ul class="display-ul" style="list-style: disc; font-size: 16px;">
                             <li>You hold all the rights to and in the user contributions as well as to grant the licenses to us or our service providers, affiliates, and business partners.</li>
                             <li>All the user contributions you make are subject to and comply with our Terms of Service.</li><br>
-                            <b>On the contrary, TTB own rights to:</b><br>
+                            <b>On the contrary, TTB own rights to:</b><br><br>
                             <li>Remove and refuse to post any user contributions for any reason.</li>
                             <li>We can also take any action concerning the user contribution that consider necessary at our sole discretion only if we believe that such user contribution violates intellectual
                                 property rights, user rights, and content standards, and threatens the personal safety of the users. </li>
                             <li>Also, we can disclose the identity and any other information about the users and any third party who claims to be violated by the material posted.</li>
                             <li>Suspend or terminate the user’s access to the TTB’s official website for no reason without any limitation and violating these terms of service.</li>
                         </ul>
-                    </p>
+                    </p><br><br>
                         <p class=" text-[1rem] text-[#000000bd] dark:text-white/50 mb-4 ">
                         Furthermore, we do not assume any liability or possession for any action and inaction regarding the transmission, reproduction, and distribution of the content provided by the users and any
                         third party. Also, we are not responsible for any performance or non-performance of the activities mentioned above.
