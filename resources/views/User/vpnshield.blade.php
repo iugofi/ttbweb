@@ -155,8 +155,8 @@
                                                 </div>
                                             </div>
                                             <div class="text-[1.5625rem] font-bold mb-1">${{ $plandetailsitem->price }} <!-- <sub
-                                                                            class="text-[#8c9097] dark:text-white/50 font-semibold text-[.6875rem] ms-1">/
-                                                                            Per Month</sub>--> </div>
+                                                                                class="text-[#8c9097] dark:text-white/50 font-semibold text-[.6875rem] ms-1">/
+                                                                                Per Month</sub>--> </div>
                                             <div class="mb-1 text-[#8c9097] dark:text-white/50 dark-text">Lorem ipsum dolor
                                                 sit amet
                                                 consectetur adipisicing elit. Iure quos debitis aliquam .</div>
@@ -507,7 +507,7 @@
 
         <section
             class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
-            id="faq" style="overflow: hidden; padding-bottom: 0rem; height: 420px;">
+            id="faq" style="overflow: hidden; padding-bottom: 0rem; height: 470px;">
             <div class="container main-banner-container">
                 <section class="testimonial-area">
                     <div class="container">
@@ -755,18 +755,21 @@
                                 .google-button {
                                     display: block;
                                     margin: 15px auto;
-                                    width: 75%;
-                                    max-width: 208px;
-                                    padding: 4px 10px 4px 65px;
+                                    width: 72%;
+                                    max-width: 200px;
+                                    padding: 4px 10px 4px 40px;
                                     border: 2px solid #ffffff;
                                     border-radius: 50px;
+                                    position: relative;
+                                    top: -7rem;
+                                    bottom: 0;
                                     text-transform: uppercase;
                                     text-decoration: none;
                                     text-align: center;
                                     font-size: 10px;
-                                    line-height: 20px;
+                                    line-height: 19px;
                                     color: #ffffff;
-                                    background: url(https://cdn2.hubspot.net/hubfs/1961464/Support%20images/new-google-favicon-512.png) no-repeat left 20px center / 40px 40px;
+                                    background: url(https://cdn2.hubspot.net/hubfs/1961464/Support%20images/new-google-favicon-512.png) no-repeat left 10px center / 24px 24px;
                                     -webkit-transition: all 0.3s ease;
                                     -moz-transition: all 0.3s ease;
                                     -o-transition: all 0.3s ease;
@@ -784,7 +787,7 @@
                                 }
 
                                 .google-button strong {
-                                    font-size: 18px;
+                                    font-size: 14px;
                                     display: block;
                                 }
 
