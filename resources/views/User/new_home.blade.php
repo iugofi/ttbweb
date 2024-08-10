@@ -51,7 +51,7 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="slide-inner slide-bg-image"
-                                data-background="{{ asset('aassets/img/TTB-Banner-1-2.jpg') }}">
+                                data-background="{{ asset('assets/home-two-img/ttb-new-banner.jpg') }}">
                                 <div class="wraper">
                                     <div class="relative h-[900px] lg:h-[680px]  md:h-[600px] sm:h-[500px]">
                                         <div
@@ -77,7 +77,7 @@
                                                         href="https://www.trustpilot.com/review/ttbinternetsecurity.com?utm_medium=trustbox&utm_source=MicroReviewCount"
                                                         target="_blank">
                                                         <span class="dark-black">Excellent</span><img
-                                                            src="{{ asset('assets/img/TTB-Banner-2.jpg') }}">
+                                                            src="{{ asset('assets/home-two-img/Review.png') }}">
                                                         <span class="dark-black">18,249
                                                             Reviews on</span><i class="fa-solid fa-star"></i></a><a
                                                         href="https://www.av-test.org/en/antivirus/mobile-devices/manufacturer/ttb/"
