@@ -153,9 +153,9 @@
 
                             <div class="photobanner__wrap">
                                 <div class="photobanner">
-                                    <img src="{{ asset('assets/home-two-img/home-new-brand1.png') }}" alt=""
+                                    <img src="{{ asset('assets/img/TTB-Banner-1-2.jpg') }}" alt=""
                                         class="img-fluid" width="30%">
-                                    <img src="{{ asset('assets/home-two-img/home-new-brand2.png') }}" alt=""
+                                    <img src="{{ asset('assets/img/TTB-Banner-2.jpg') }}" alt=""
                                         class="img-fluid" width="30%">
                                     <img src="{{ asset('assets/home-two-img/home-new-brand3.png') }}" alt=""
                                         class="img-fluid" width="30%">
