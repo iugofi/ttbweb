@@ -768,7 +768,9 @@
                                     text-align: center;
                                     font-size: 10px;
                                     line-height: 19px;
-                                    color: #ffffff;
+                                    color: #11cdbe;
+                                    font-weight: 600;
+                                    font-family: 'roboto' sans-serif;
                                     background: url(https://cdn2.hubspot.net/hubfs/1961464/Support%20images/new-google-favicon-512.png) no-repeat left 10px center / 24px 24px;
                                     -webkit-transition: all 0.3s ease;
                                     -moz-transition: all 0.3s ease;
