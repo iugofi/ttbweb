@@ -51,7 +51,7 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="slide-inner slide-bg-image"
-                                data-background="{{ asset('assets/home-two-img/ttb-new-banner.jpg') }}">
+                                data-background="{{ asset('assets/img/TTB-Banner-2.jpg') }}">
                                 <div class="wraper">
                                     <div class="relative h-[900px] lg:h-[680px]  md:h-[600px] sm:h-[500px]">
                                         <div
@@ -93,7 +93,7 @@
 
                         <div class="swiper-slide">
                             <div class="slide-inner slide-bg-image"
-                                data-background="{{ asset('assets/home-two-img/TTB-Banner-Without-Content.jpg') }}">
+                                data-background="{{ asset('aassets/img/TTB-Banner-1-2.jpg') }}">
                                 <!-- <div class="gradient-overlay"></div> -->
                                 <div class="wraper">
                                     <div class="relative height">
