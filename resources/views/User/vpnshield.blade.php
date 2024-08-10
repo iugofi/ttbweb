@@ -155,8 +155,8 @@
                                                 </div>
                                             </div>
                                             <div class="text-[1.5625rem] font-bold mb-1">${{ $plandetailsitem->price }} <!-- <sub
-                                                                                    class="text-[#8c9097] dark:text-white/50 font-semibold text-[.6875rem] ms-1">/
-                                                                                    Per Month</sub>--> </div>
+                                                                                        class="text-[#8c9097] dark:text-white/50 font-semibold text-[.6875rem] ms-1">/
+                                                                                        Per Month</sub>--> </div>
                                             <div class="mb-1 text-[#8c9097] dark:text-white/50 dark-text">Lorem ipsum dolor
                                                 sit amet
                                                 consectetur adipisicing elit. Iure quos debitis aliquam .</div>
@@ -793,6 +793,9 @@
                                     color: #11cdbe;
                                 }
 
+                                .google-button strong:hover {
+                                    color: #fff;
+                                }
 
                                 @-webkit-keyframes wiggle {
 
