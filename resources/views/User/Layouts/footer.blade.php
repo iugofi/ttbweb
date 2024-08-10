@@ -40,7 +40,7 @@
                                 style="width: 50px; height: 50px; border-radius: 30px;">
                             <div class="box-location d-flex">
                                 <h2 class="text-white text-lg font-semibold ">USA</h2>
-                                <p>Sugarpine Court Brampton, Ontario, CA</p>
+                                <p>Sand Lake Rd, Orlando, FL, USA</p>
                             </div>
                         </li>
                         <li class="icon-list mt-5">
@@ -48,7 +48,7 @@
                                 style="width: 50px; height: 50px; border-radius: 30px;">
                             <div class="box-location d-flex">
                                 <h2 class="text-white text-lg font-semibold">CANADA</h2>
-                                <p>Bestech Business Tower, Sector 66, Mohali, IN</p>
+                                <p>Sugarpine Court Brampton, Ontario, CA</p>
                             </div>
                         </li>
                     </ul>
@@ -62,7 +62,7 @@
                                 style="width: 50px; height: 50px; border-radius: 30px;">
                             <div class="box-location d-flex">
                                 <h2 class="text-white text-lg font-semibold ">UNITED KINGDOM</h2>
-                                <p>Sugarpine Court Brampton, Ontario, CA</p>
+                                <p>Shelton Street, Covent Garden, London,UK</p>
                             </div>
                         </li>
                         <li class="icon-list mt-5">
