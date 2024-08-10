@@ -750,7 +750,7 @@
                         <div class="review-btn">
                             <a class="google-button"
                                 href="https://www.trustpilot.com/review/ttbinternetsecurity.com?utm_medium=trustbox&utm_source=MicroReviewCount"
-                                target="_blank">Click here to leave a <strong>google review</strong></a>
+                                target="_blank">Click here to leave a <strong>Trustpilot</strong></a>
                             <style>
                                 .google-button {
                                     display: block;
@@ -783,7 +783,7 @@
                                 .google-button:hover {
                                     color: #ffffff;
                                     background-color: #11cdbe;
-                                    background-image: url(https://cdn2.hubspot.net/hubfs/1961464/Support%20images/new-google-favicon-512-white.png);
+                                    background-image: url(assets/img/download.png);
                                     border-color: #11cdbe;
                                 }
 
