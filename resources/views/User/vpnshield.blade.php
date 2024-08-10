@@ -127,10 +127,10 @@
 
             </div>
             <div class="grid-cols-12">
-                <h3 class="font-semibold mb-2 pt-5 text-center">Pricing Plan</h3>
+                <h3 class="font-semibold mb-2 pt-5 text-center dark-text">Pricing Plan</h3>
                 <div class="grid grid-cols-12 text-center">
                     <div class="col-span-12">
-                        <p class="text-[#8c9097] dark:text-white/50 text-[0.9375rem] mb-6 font-normal">We have shared some
+                        <p class="text-[#8c9097] dark:text-white/50 text-[0.9375rem] mb-6 font-normal dark-text">We have shared some
                             of the most frequently asked questions to help you out.</p>
                     </div>
                 </div>

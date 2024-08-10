@@ -9,7 +9,7 @@
                         <li class="footer-icon">
                             <a href="https://www.facebook.com/ttbinternetsecurities/">
                                 <i class="fa-solid fa-phone"></i>
-                            </a><a href="tel:800-710-9311">[ 800] 710-9311</a>
+                            </a><a href="tel:800-710-9311">[ 800 ] 710-9311</a>
                         </li>
                         <li class="footer-icon">
                             <a href="https://x.com/i/flow/login?redirect_after_login=%2FTTBisecure">
