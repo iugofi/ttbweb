@@ -21,7 +21,7 @@
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 col-span-12 ps-6">
                             <div class="lg:py-[3rem]">
-                                <h2 class="landing-banner-heading mb-4 opacity-[0.9]">Lorem ipsum
+                                <h2 class="landing-banner-heading mb-4 opacity-[0.9] dark-text">Lorem ipsum
                                     dolor sit amet. Lorem ipsum dolor sit amet consectetur.</h2>
                                 <div class="text-[1rem] mb-[1rem] text-black opacity-[0.9] dark-text"
                                     style="padding-right:40px;">ynex - Now you can use
@@ -156,11 +156,11 @@
                                             <div class="text-[1.5625rem] font-bold mb-1">${{ $plandetailsitem->price }} <!-- <sub
                                                         class="text-[#8c9097] dark:text-white/50 font-semibold text-[.6875rem] ms-1">/
                                                         Per Month</sub>--> </div>
-                                            <div class="mb-1 text-[#8c9097] dark:text-white/50">Lorem ipsum dolor sit amet
+                                            <div class="mb-1 text-[#8c9097] dark:text-white/50 dark-text">Lorem ipsum dolor sit amet
                                                 consectetur adipisicing elit. Iure quos debitis aliquam .</div>
                                             <div class="text-[0.75rem] mb-4"><u>Billed Monthly</u></div>
                                             <ul class="list-none mb-0">
-                                                <li class="flex items-center mb-4">
+                                                <li class="flex items-center mb-4 dark-text">
                                                     <span class="me-2">
                                                         <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
                                                     </span>
@@ -168,7 +168,7 @@
                                                         <strong class="me-1">5 Free</strong>Websites
                                                     </span>
                                                 </li>
-                                                <li class="flex items-center mb-4">
+                                                <li class="flex items-center mb-4 dark-text">
                                                     <span class="me-2">
                                                         <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
                                                     </span>
@@ -176,7 +176,7 @@
                                                         <strong class="me-1">5 GB</strong>Hard disk storage
                                                     </span>
                                                 </li>
-                                                <li class="flex items-center mb-4">
+                                                <li class="flex items-center mb-4 dark-text">
                                                     <span class="me-2">
                                                         <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
                                                     </span>
@@ -184,7 +184,7 @@
                                                         <strong class="me-1">2 Years</strong>Email support
                                                     </span>
                                                 </li>
-                                                <li class="flex items-center mb-4">
+                                                <li class="flex items-center mb-4 dark-text">
                                                     <span class="me-2">
                                                         <i class="ri-checkbox-circle-line text-[.9375rem] text-success"></i>
                                                     </span>
@@ -192,7 +192,7 @@
                                                         <strong class="me-1">5</strong>Licenses
                                                     </span>
                                                 </li>
-                                                <li class="flex items-center mb-4">
+                                                <li class="flex items-center mb-4 dark-text">
                                                     <span class="me-2">
                                                         <i
                                                             class="ri-checkbox-circle-line text-[.9375rem] text-[#8c9097] dark:text-white/50 opacity-[0.3]"></i>
@@ -201,7 +201,7 @@
                                                         Custom SEO optimizataion
                                                     </span>
                                                 </li>
-                                                <li class="flex items-center mb-4">
+                                                <li class="flex items-center mb-4 dark-text">
                                                     <span class="me-2">
                                                         <i
                                                             class="ri-checkbox-circle-line text-[.9375rem] text-[#8c9097] dark:text-white/50 opacity-[0.3]"></i>
