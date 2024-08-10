@@ -155,8 +155,8 @@
                                                 </div>
                                             </div>
                                             <div class="text-[1.5625rem] font-bold mb-1">${{ $plandetailsitem->price }} <!-- <sub
-                                                                                class="text-[#8c9097] dark:text-white/50 font-semibold text-[.6875rem] ms-1">/
-                                                                                Per Month</sub>--> </div>
+                                                                                    class="text-[#8c9097] dark:text-white/50 font-semibold text-[.6875rem] ms-1">/
+                                                                                    Per Month</sub>--> </div>
                                             <div class="mb-1 text-[#8c9097] dark:text-white/50 dark-text">Lorem ipsum dolor
                                                 sit amet
                                                 consectetur adipisicing elit. Iure quos debitis aliquam .</div>
@@ -758,7 +758,7 @@
                                     width: 72%;
                                     max-width: 200px;
                                     padding: 4px 10px 4px 40px;
-                                    border: 2px solid #ffffff;
+                                    border: 2px solid #11cdbe;
                                     border-radius: 50px;
                                     position: relative;
                                     top: -7rem;
@@ -782,8 +782,9 @@
 
                                 .google-button:hover {
                                     color: #ffffff;
-                                    background-color: #00a0dc;
+                                    background-color: #11cdbe;
                                     background-image: url(https://cdn2.hubspot.net/hubfs/1961464/Support%20images/new-google-favicon-512-white.png);
+                                    border-color: #11cdbe;
                                 }
 
                                 .google-button strong {
