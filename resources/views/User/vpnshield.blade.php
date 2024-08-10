@@ -790,6 +790,7 @@
                                 .google-button strong {
                                     font-size: 14px;
                                     display: block;
+                                    color: #11cdbe;
                                 }
 
 
