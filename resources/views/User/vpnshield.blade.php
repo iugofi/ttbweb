@@ -155,8 +155,8 @@
                                                 </div>
                                             </div>
                                             <div class="text-[1.5625rem] font-bold mb-1">${{ $plandetailsitem->price }} <!-- <sub
-                                                            class="text-[#8c9097] dark:text-white/50 font-semibold text-[.6875rem] ms-1">/
-                                                            Per Month</sub>--> </div>
+                                                                    class="text-[#8c9097] dark:text-white/50 font-semibold text-[.6875rem] ms-1">/
+                                                                    Per Month</sub>--> </div>
                                             <div class="mb-1 text-[#8c9097] dark:text-white/50 dark-text">Lorem ipsum dolor
                                                 sit amet
                                                 consectetur adipisicing elit. Iure quos debitis aliquam .</div>
@@ -742,9 +742,14 @@
                             <!-- Repeat the above block for more testimonials -->
 
                         </div>
-                        <hr>
 
-                        <p>Help other people find us by leaving a review on Google</p>
+
+                        <div class="owl-nav">
+                            <button class="owl-prev"><i class="fa-solid fa-arrow-left"></i></button>
+                            <button class="owl-next"><i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                        <div class="review-btn">
+                            <hr>
                         <a class="google-button"
                             href="https://www.trustpilot.com/review/ttbinternetsecurity.com?utm_medium=trustbox&utm_source=MicroReviewCount"
                             target="_blank">Click here to leave a <strong>google review</strong></a>
@@ -878,10 +883,6 @@
                                 }
                             }
                         </style>
-
-                        <div class="owl-nav">
-                            <button class="owl-prev"><i class="fa-solid fa-arrow-left"></i></button>
-                            <button class="owl-next"><i class="fa-solid fa-arrow-right"></i></button>
                         </div>
                     </div>
             </div>
