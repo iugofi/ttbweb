@@ -93,7 +93,7 @@
 
                         <div class="swiper-slide">
                             <div class="slide-inner slide-bg-image"
-                                data-background="{{ asset('aassets/img/TTB-Banner-1-2.jpg') }}">
+                                data-background="{{ asset('assets/img/TTB-Banner-1-2.jpg') }}">
                                 <!-- <div class="gradient-overlay"></div> -->
                                 <div class="wraper">
                                     <div class="relative height">
