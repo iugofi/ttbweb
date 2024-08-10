@@ -761,7 +761,7 @@
                                     border: 2px solid #11cdbe;
                                     border-radius: 50px;
                                     position: relative;
-                                    top: -7rem;
+                                    top: -6.5rem;
                                     bottom: 0;
                                     text-transform: uppercase;
                                     text-decoration: none;
