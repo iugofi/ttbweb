@@ -130,7 +130,8 @@
                 <h3 class="font-semibold mb-2 pt-5 text-center dark-text">Pricing Plan</h3>
                 <div class="grid grid-cols-12 text-center">
                     <div class="col-span-12">
-                        <p class="text-[#8c9097] dark:text-white/50 text-[0.9375rem] mb-6 font-normal dark-text">We have shared some
+                        <p class="text-[#8c9097] dark:text-white/50 text-[0.9375rem] mb-6 font-normal dark-text">We have
+                            shared some
                             of the most frequently asked questions to help you out.</p>
                     </div>
                 </div>
@@ -154,9 +155,10 @@
                                                 </div>
                                             </div>
                                             <div class="text-[1.5625rem] font-bold mb-1">${{ $plandetailsitem->price }} <!-- <sub
-                                                        class="text-[#8c9097] dark:text-white/50 font-semibold text-[.6875rem] ms-1">/
-                                                        Per Month</sub>--> </div>
-                                            <div class="mb-1 text-[#8c9097] dark:text-white/50 dark-text">Lorem ipsum dolor sit amet
+                                                            class="text-[#8c9097] dark:text-white/50 font-semibold text-[.6875rem] ms-1">/
+                                                            Per Month</sub>--> </div>
+                                            <div class="mb-1 text-[#8c9097] dark:text-white/50 dark-text">Lorem ipsum dolor
+                                                sit amet
                                                 consectetur adipisicing elit. Iure quos debitis aliquam .</div>
                                             <div class="text-[0.75rem] mb-4"><u>Billed Monthly</u></div>
                                             <ul class="list-none mb-0">
@@ -501,241 +503,398 @@
         </section>
 
 
-            {{-- New testimonial html css start --}}
+        {{-- New testimonial html css start --}}
 
-            <section
-                class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
-                id="faq" style="overflow: hidden; padding-bottom: 0rem; height: 420px;">
-                <div class="container main-banner-container">
-                    <section class="testimonial-area">
-                        <div class="container">
-                            <div class="sec-title white-title">
-                                <h4 class="text-center text-4xl font-bold mb-4 pb-4">What Client Say About Us?</h4>
-                            </div>
-                            <div class="back-img"></div>
-                            <div class="testimonial-content owl-carousel">
-                                <!-- Single Testimonial -->
-                                <div class="single-testimonial carousel-slide single-testimonial p-4">
-                                    <div class="round-1 round"></div>
-                                    <div class="round-2 round"></div>
-                                    <p class="dark-black-p">Alex was very thorough, knowledgeable & courteous.
-                                         everything I needed and more was taken care of. I've always had great service with TTB.
-                                    </p>
-                                    <div class="client-info">
-                                        <div class="client-video">
-                                            <a href="#"><img
-                                                    src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg"
-                                                    alt=""></a>
-                                        </div>
-                                        <div class="client-details">
-                                            <h6><b>GG21</b></h6>
-                                            {{-- <span>Designer, LLCG Team</span> --}}
-                                        </div>
-                                        <i class="fa-solid fa-quote-left"></i>
-                                    </div>
-                                </div>
-                                <!-- Add more testimonials as needed -->
-                                <div class="single-testimonial carousel-slide single-testimonial p-4">
-                                    <div class="round-1 round"></div>
-                                    <div class="round-2 round"></div>
-                                    <p class="dark-black-p">These guys are extremely responsive. Always available at a toll-free number and have batted 1.000 in fixing whatever issues I've encountered.
-                                        I also like that their support extends to all of our devices, phones for my wife and I, my home office PC laptop and various peripherals as
-                                       well as her Mac and Apple tablet. All for 2 years at a fixed one-time price.
-                                    </p>
-                                    <div class="client-info">
-                                        <div class="client-video">
-                                            <a href="#"><img
-                                                    src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg"
-                                                    alt=""></a>
-                                        </div>
-                                        <div class="client-details">
-                                            <h6><b>George kalnin</b></h6>
-                                            {{-- <span>Designer, LLCG Team</span> --}}
-                                        </div>
-                                        <i class="fa-solid fa-quote-left"></i>
-                                    </div>
-                                </div>
-                                <!-- Repeat the above block for more testimonials -->
-                                <div class="single-testimonial carousel-slide single-testimonial p-4">
-                                    <div class="round-1 round"></div>
-                                    <div class="round-2 round"></div>
-                                    <p class="dark-black-p">The technician helped me with all of my devices: laptop, desktop, smart phone and tablet. Each had a different issue but they were knowledgeable
-                                        about them and improved the speed while taking care of my security. I would recommend them any day, so much better than some random file.
-                                       They follow up periodically to make sure you are having no issues. Great customer service.
-                                    </p>
-                                    <div class="client-info">
-                                        <div class="client-video">
-                                            <a href="#"><img
-                                                    src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg"
-                                                    alt=""></a>
-                                        </div>
-                                        <div class="client-details">
-                                            <h6><b>Lori Woods</b></h6>
-                                            {{-- <span>Designer, LLCG Team</span> --}}
-                                        </div>
-                                        <i class="fa-solid fa-quote-left"></i>
-                                    </div>
-                                </div>
-                                <!-- Repeat the above block for more testimonials -->
-                                <div class="single-testimonial carousel-slide single-testimonial p-4">
-                                    <div class="round-1 round"></div>
-                                    <div class="round-2 round"></div>
-                                    <p class="dark-black-p">I really appreciate when ever I call TTB they are very knowledgeable, patient, and kind. Today i want to thank Eric Jack for his extremely helpful
-                                        disposition. Also he;ping me to figure out how to trndfer a document tp my email. There is no question to small that they will not help you with.
-                                        He also clean out my system, added a more secure secrurity system as advising me what to expect as changes were made to was understandable for
-                                       someone my age. Just great service.
-                                    </p>
-                                    <div class="client-info">
-                                        <div class="client-video">
-                                            <a href="#"><img
-                                                    src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg"
-                                                    alt=""></a>
-                                        </div>
-                                        <div class="client-details">
-                                            <h6><b>Betty M</b></h6>
-                                            {{-- <span>Designer, LLCG Team</span> --}}
-                                        </div>
-                                        <i class="fa-solid fa-quote-left"></i>
-                                    </div>
-                                </div>
-                                <!-- Repeat the above block for more testimonials -->
-                                <div class="single-testimonial carousel-slide single-testimonial p-4">
-                                    <div class="round-1 round"></div>
-                                    <div class="round-2 round"></div>
-                                    <p class="dark-black-p">The TTB service is very thorough: we like knowing that all of our IT in the house is covered--routers, IPhones, computers, music systems, etc.
-                                        And when we move to a new home, the service stays with us. Josh has been unfailingly patient and proactive during our service calls. Highly recommend!
-                                    </p>
-                                    <div class="client-info">
-                                        <div class="client-video">
-                                            <a href="#"><img
-                                                    src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg"
-                                                    alt=""></a>
-                                        </div>
-                                        <div class="client-details">
-                                            <h6><b>Adrienne Otis</b></h6>
-                                            {{-- <span>Designer, LLCG Team</span> --}}
-                                        </div>
-                                        <i class="fa-solid fa-quote-left"></i>
-                                    </div>
-                                </div>
-                                <!-- Repeat the above block for more testimonials -->
-                                <div class="single-testimonial carousel-slide single-testimonial p-4">
-                                    <div class="round-1 round"></div>
-                                    <div class="round-2 round"></div>
-                                    <p class="dark-black-p">Josh at TTB called me to update my PC. He provided excellent service and walked me through the steps to complete a download. I feel confident that my PC
-                                        is running optimally with the privacy and data protection that they offer. Great job and I highly recommend this company. Very secure & easy to work with.
-                                    </p>
-                                    <div class="client-info">
-                                        <div class="client-video">
-                                            <a href="#"><img
-                                                    src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg"
-                                                    alt=""></a>
-                                        </div>
-                                        <div class="client-details">
-                                            <h6><b>Rick Serafine</b></h6>
-                                            {{-- <span>Designer, LLCG Team</span> --}}
-                                        </div>
-                                        <i class="fa-solid fa-quote-left"></i>
-                                    </div>
-                                </div>
-                                <!-- Repeat the above block for more testimonials -->
-                                <div class="single-testimonial carousel-slide single-testimonial p-4">
-                                    <div class="round-1 round"></div>
-                                    <div class="round-2 round"></div>
-                                    <p class="dark-black-p">Working with TTB is a pleasure .Very knowledgeable staff guide me through the necessary steps to protect my units. They remember to call and scan and update
-                                        my units without being called or reminded. When I have experienced problems and issues my calls are quickly answered and resolved. Your staff is friendly,
-                                        patient, and easy to work with. Great Company!
-                                    </p>
-                                    <div class="client-info">
-                                        <div class="client-video">
-                                            <a href="#"><img
-                                                    src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg"
-                                                    alt=""></a>
-                                        </div>
-                                        <div class="client-details">
-                                            <h6><b>John Holt</b></h6>
-                                            {{-- <span>Designer, LLCG Team</span> --}}
-                                        </div>
-                                        <i class="fa-solid fa-quote-left"></i>
-                                    </div>
-                                </div>
-                                <!-- Repeat the above block for more testimonials -->
-                                <div class="single-testimonial carousel-slide single-testimonial p-4">
-                                    <div class="round-1 round"></div>
-                                    <div class="round-2 round"></div>
-                                    <p class="dark-black-p">The technicians were very knowledgeable and professional. They would make contact when services needed to be updated.
-                                    </p>
-                                    <div class="client-info">
-                                        <div class="client-video">
-                                            <a href="#"><img
-                                                    src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg"
-                                                    alt=""></a>
-                                        </div>
-                                        <div class="client-details">
-                                            <h6><b>David Richter</b></h6>
-                                            {{-- <span>Designer, LLCG Team</span> --}}
-                                        </div>
-                                        <i class="fa-solid fa-quote-left"></i>
-                                    </div>
-                                </div>
-                                <!-- Repeat the above block for more testimonials -->
-                                <div class="single-testimonial carousel-slide single-testimonial p-4">
-                                    <div class="round-1 round"></div>
-                                    <div class="round-2 round"></div>
-                                    <p class="dark-black-p">Always helpful. a bit hard to understand but always works thru it. Pricing is a bit confusing at times compared to year's past. Thanks.
-                                    </p>
-                                    <div class="client-info">
-                                        <div class="client-video">
-                                            <a href="#"><img
-                                                    src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg"
-                                                    alt=""></a>
-                                        </div>
-                                        <div class="client-details">
-                                            <h6><b>Frank</b></h6>
-                                            {{-- <span>Designer, LLCG Team</span> --}}
-                                        </div>
-                                        <i class="fa-solid fa-quote-left"></i>
-                                    </div>
-                                </div>
-                                <!-- Repeat the above block for more testimonials -->
-                                <div class="single-testimonial carousel-slide single-testimonial p-4">
-                                    <div class="round-1 round"></div>
-                                    <div class="round-2 round"></div>
-                                    <p class="dark-black-p">I asked them to provide a new license for my TTB Antivirus and they did it very quickly.
-                                        Agent was very polite and responsive to my needs.
-                                    </p>
-                                    <div class="client-info">
-                                        <div class="client-video">
-                                            <a href="#"><img
-                                                    src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg"
-                                                    alt=""></a>
-                                        </div>
-                                        <div class="client-details">
-                                            <h6><b>Randall Thomas </b></h6>
-                                            {{-- <span>Designer, LLCG Team</span> --}}
-                                        </div>
-                                        <i class="fa-solid fa-quote-left"></i>
-                                    </div>
-                                </div>
-                                <!-- Repeat the above block for more testimonials -->
-
-                            </div>
-                            <div class="owl-nav">
-                                <button class="owl-prev"><i class="fa-solid fa-arrow-left"></i></button>
-                                <button class="owl-next"><i class="fa-solid fa-arrow-right"></i></button>
-                            </div>
+        <section
+            class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
+            id="faq" style="overflow: hidden; padding-bottom: 0rem; height: 420px;">
+            <div class="container main-banner-container">
+                <section class="testimonial-area">
+                    <div class="container">
+                        <div class="sec-title white-title">
+                            <h4 class="text-center text-4xl font-bold mb-4 pb-4">What Client Say About Us?</h4>
                         </div>
-                </div>
-            </section>
+                        <div class="back-img"></div>
+                        <div class="testimonial-content owl-carousel">
+                            <!-- Single Testimonial -->
+                            <div class="single-testimonial carousel-slide single-testimonial p-4">
+                                <div class="round-1 round"></div>
+                                <div class="round-2 round"></div>
+                                <p class="dark-black-p">Alex was very thorough, knowledgeable & courteous.
+                                    everything I needed and more was taken care of. I've always had great service with TTB.
+                                </p>
+                                <div class="client-info">
+                                    <div class="client-video">
+                                        <a href="#"><img
+                                                src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg"
+                                                alt=""></a>
+                                    </div>
+                                    <div class="client-details">
+                                        <h6><b>GG21</b></h6>
+                                        {{-- <span>Designer, LLCG Team</span> --}}
+                                    </div>
+                                    <i class="fa-solid fa-quote-left"></i>
+                                </div>
+                            </div>
+                            <!-- Add more testimonials as needed -->
+                            <div class="single-testimonial carousel-slide single-testimonial p-4">
+                                <div class="round-1 round"></div>
+                                <div class="round-2 round"></div>
+                                <p class="dark-black-p">These guys are extremely responsive. Always available at a
+                                    toll-free number and have batted 1.000 in fixing whatever issues I've encountered.
+                                    I also like that their support extends to all of our devices, phones for my wife and I,
+                                    my home office PC laptop and various peripherals as
+                                    well as her Mac and Apple tablet. All for 2 years at a fixed one-time price.
+                                </p>
+                                <div class="client-info">
+                                    <div class="client-video">
+                                        <a href="#"><img
+                                                src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg"
+                                                alt=""></a>
+                                    </div>
+                                    <div class="client-details">
+                                        <h6><b>George kalnin</b></h6>
+                                        {{-- <span>Designer, LLCG Team</span> --}}
+                                    </div>
+                                    <i class="fa-solid fa-quote-left"></i>
+                                </div>
+                            </div>
+                            <!-- Repeat the above block for more testimonials -->
+                            <div class="single-testimonial carousel-slide single-testimonial p-4">
+                                <div class="round-1 round"></div>
+                                <div class="round-2 round"></div>
+                                <p class="dark-black-p">The technician helped me with all of my devices: laptop, desktop,
+                                    smart phone and tablet. Each had a different issue but they were knowledgeable
+                                    about them and improved the speed while taking care of my security. I would recommend
+                                    them any day, so much better than some random file.
+                                    They follow up periodically to make sure you are having no issues. Great customer
+                                    service.
+                                </p>
+                                <div class="client-info">
+                                    <div class="client-video">
+                                        <a href="#"><img
+                                                src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg"
+                                                alt=""></a>
+                                    </div>
+                                    <div class="client-details">
+                                        <h6><b>Lori Woods</b></h6>
+                                        {{-- <span>Designer, LLCG Team</span> --}}
+                                    </div>
+                                    <i class="fa-solid fa-quote-left"></i>
+                                </div>
+                            </div>
+                            <!-- Repeat the above block for more testimonials -->
+                            <div class="single-testimonial carousel-slide single-testimonial p-4">
+                                <div class="round-1 round"></div>
+                                <div class="round-2 round"></div>
+                                <p class="dark-black-p">I really appreciate when ever I call TTB they are very
+                                    knowledgeable, patient, and kind. Today i want to thank Eric Jack for his extremely
+                                    helpful
+                                    disposition. Also he;ping me to figure out how to trndfer a document tp my email. There
+                                    is no question to small that they will not help you with.
+                                    He also clean out my system, added a more secure secrurity system as advising me what to
+                                    expect as changes were made to was understandable for
+                                    someone my age. Just great service.
+                                </p>
+                                <div class="client-info">
+                                    <div class="client-video">
+                                        <a href="#"><img
+                                                src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg"
+                                                alt=""></a>
+                                    </div>
+                                    <div class="client-details">
+                                        <h6><b>Betty M</b></h6>
+                                        {{-- <span>Designer, LLCG Team</span> --}}
+                                    </div>
+                                    <i class="fa-solid fa-quote-left"></i>
+                                </div>
+                            </div>
+                            <!-- Repeat the above block for more testimonials -->
+                            <div class="single-testimonial carousel-slide single-testimonial p-4">
+                                <div class="round-1 round"></div>
+                                <div class="round-2 round"></div>
+                                <p class="dark-black-p">The TTB service is very thorough: we like knowing that all of our
+                                    IT in the house is covered--routers, IPhones, computers, music systems, etc.
+                                    And when we move to a new home, the service stays with us. Josh has been unfailingly
+                                    patient and proactive during our service calls. Highly recommend!
+                                </p>
+                                <div class="client-info">
+                                    <div class="client-video">
+                                        <a href="#"><img
+                                                src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg"
+                                                alt=""></a>
+                                    </div>
+                                    <div class="client-details">
+                                        <h6><b>Adrienne Otis</b></h6>
+                                        {{-- <span>Designer, LLCG Team</span> --}}
+                                    </div>
+                                    <i class="fa-solid fa-quote-left"></i>
+                                </div>
+                            </div>
+                            <!-- Repeat the above block for more testimonials -->
+                            <div class="single-testimonial carousel-slide single-testimonial p-4">
+                                <div class="round-1 round"></div>
+                                <div class="round-2 round"></div>
+                                <p class="dark-black-p">Josh at TTB called me to update my PC. He provided excellent
+                                    service and walked me through the steps to complete a download. I feel confident that my
+                                    PC
+                                    is running optimally with the privacy and data protection that they offer. Great job and
+                                    I highly recommend this company. Very secure & easy to work with.
+                                </p>
+                                <div class="client-info">
+                                    <div class="client-video">
+                                        <a href="#"><img
+                                                src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg"
+                                                alt=""></a>
+                                    </div>
+                                    <div class="client-details">
+                                        <h6><b>Rick Serafine</b></h6>
+                                        {{-- <span>Designer, LLCG Team</span> --}}
+                                    </div>
+                                    <i class="fa-solid fa-quote-left"></i>
+                                </div>
+                            </div>
+                            <!-- Repeat the above block for more testimonials -->
+                            <div class="single-testimonial carousel-slide single-testimonial p-4">
+                                <div class="round-1 round"></div>
+                                <div class="round-2 round"></div>
+                                <p class="dark-black-p">Working with TTB is a pleasure .Very knowledgeable staff guide me
+                                    through the necessary steps to protect my units. They remember to call and scan and
+                                    update
+                                    my units without being called or reminded. When I have experienced problems and issues
+                                    my calls are quickly answered and resolved. Your staff is friendly,
+                                    patient, and easy to work with. Great Company!
+                                </p>
+                                <div class="client-info">
+                                    <div class="client-video">
+                                        <a href="#"><img
+                                                src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg"
+                                                alt=""></a>
+                                    </div>
+                                    <div class="client-details">
+                                        <h6><b>John Holt</b></h6>
+                                        {{-- <span>Designer, LLCG Team</span> --}}
+                                    </div>
+                                    <i class="fa-solid fa-quote-left"></i>
+                                </div>
+                            </div>
+                            <!-- Repeat the above block for more testimonials -->
+                            <div class="single-testimonial carousel-slide single-testimonial p-4">
+                                <div class="round-1 round"></div>
+                                <div class="round-2 round"></div>
+                                <p class="dark-black-p">The technicians were very knowledgeable and professional. They
+                                    would make contact when services needed to be updated.
+                                </p>
+                                <div class="client-info">
+                                    <div class="client-video">
+                                        <a href="#"><img
+                                                src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg"
+                                                alt=""></a>
+                                    </div>
+                                    <div class="client-details">
+                                        <h6><b>David Richter</b></h6>
+                                        {{-- <span>Designer, LLCG Team</span> --}}
+                                    </div>
+                                    <i class="fa-solid fa-quote-left"></i>
+                                </div>
+                            </div>
+                            <!-- Repeat the above block for more testimonials -->
+                            <div class="single-testimonial carousel-slide single-testimonial p-4">
+                                <div class="round-1 round"></div>
+                                <div class="round-2 round"></div>
+                                <p class="dark-black-p">Always helpful. a bit hard to understand but always works thru it.
+                                    Pricing is a bit confusing at times compared to year's past. Thanks.
+                                </p>
+                                <div class="client-info">
+                                    <div class="client-video">
+                                        <a href="#"><img
+                                                src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg"
+                                                alt=""></a>
+                                    </div>
+                                    <div class="client-details">
+                                        <h6><b>Frank</b></h6>
+                                        {{-- <span>Designer, LLCG Team</span> --}}
+                                    </div>
+                                    <i class="fa-solid fa-quote-left"></i>
+                                </div>
+                            </div>
+                            <!-- Repeat the above block for more testimonials -->
+                            <div class="single-testimonial carousel-slide single-testimonial p-4">
+                                <div class="round-1 round"></div>
+                                <div class="round-2 round"></div>
+                                <p class="dark-black-p">I asked them to provide a new license for my TTB Antivirus and they
+                                    did it very quickly.
+                                    Agent was very polite and responsive to my needs.
+                                </p>
+                                <div class="client-info">
+                                    <div class="client-video">
+                                        <a href="#"><img
+                                                src="https://t4.ftcdn.net/jpg/02/44/43/69/360_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg"
+                                                alt=""></a>
+                                    </div>
+                                    <div class="client-details">
+                                        <h6><b>Randall Thomas </b></h6>
+                                        {{-- <span>Designer, LLCG Team</span> --}}
+                                    </div>
+                                    <i class="fa-solid fa-quote-left"></i>
+                                </div>
+                            </div>
+                            <!-- Repeat the above block for more testimonials -->
+
+                        </div>
+                        <hr>
+
+                        <p>Help other people find us by leaving a review on Google</p>
+                        <a class="google-button"
+                            href="https://www.trustpilot.com/review/ttbinternetsecurity.com?utm_medium=trustbox&utm_source=MicroReviewCount"
+                            target="_blank">Click here to leave a <strong>google review</strong></a>
+                        <style>
+                            hr {
+                                margin: 20px 0px;
+                            }
+
+                            p {
+                                text-align: center;
+                            }
+
+                            .google-button {
+                                display: block;
+                                margin: 15px auto;
+                                width: 75%;
+                                max-width: 208px;
+                                padding: 4px 10px 4px 65px;
+                                border: 2px solid #ffffff;
+                                border-radius: 50px;
+                                text-transform: uppercase;
+                                text-decoration: none;
+                                text-align: center;
+                                font-size: 10px;
+                                line-height: 20px;
+                                color: #ffffff;
+                                background: url(https://cdn2.hubspot.net/hubfs/1961464/Support%20images/new-google-favicon-512.png) no-repeat left 20px center / 40px 40px;
+                                -webkit-transition: all 0.3s ease;
+                                -moz-transition: all 0.3s ease;
+                                -o-transition: all 0.3s ease;
+                                transition: all 0.3s ease;
+                                -webkit-animation: wiggle 2s ease-in infinite;
+                                -moz-animation: wiggle 2s ease-in infinite;
+                                -o-animation: wiggle 2s ease-in infinite;
+                                animation: wiggle 2s ease-in infinite;
+                            }
+
+                            .google-button:hover {
+                                color: #ffffff;
+                                background-color: #00a0dc;
+                                background-image: url(https://cdn2.hubspot.net/hubfs/1961464/Support%20images/new-google-favicon-512-white.png);
+                            }
+
+                            .google-button strong {
+                                font-size: 18px;
+                                display: block;
+                            }
 
 
-            <script>
-                $(document).ready(function() {
-                    testimonials();
-                });
-            </script>
+                            @-webkit-keyframes wiggle {
 
-            {{-- New testimonial html css End --}}
+                                0%,
+                                20%,
+                                100% {
+                                    background-position: left 20px center;
+                                }
+
+                                5% {
+                                    background-position: left 15px center;
+                                }
+
+                                10% {
+                                    background-position: left 20px center;
+                                }
+
+                                15% {
+                                    background-position: left 25px center;
+                                }
+                            }
+
+                            @-moz-keyframes wiggle {
+
+                                0%,
+                                20%,
+                                100% {
+                                    background-position: left 20px center;
+                                }
+
+                                5% {
+                                    background-position: left 15px center;
+                                }
+
+                                10% {
+                                    background-position: left 20px center;
+                                }
+
+                                15% {
+                                    background-position: left 25px center;
+                                }
+                            }
+
+                            @-o-keyframes wiggle {
+
+                                0%,
+                                20%,
+                                100% {
+                                    background-position: left 20px center;
+                                }
+
+                                5% {
+                                    background-position: left 15px center;
+                                }
+
+                                10% {
+                                    background-position: left 20px center;
+                                }
+
+                                15% {
+                                    background-position: left 25px center;
+                                }
+                            }
+
+                            @keyframes wiggle {
+
+                                0%,
+                                20%,
+                                100% {
+                                    background-position: left 20px center;
+                                }
+
+                                5% {
+                                    background-position: left 15px center;
+                                }
+
+                                10% {
+                                    background-position: left 20px center;
+                                }
+
+                                15% {
+                                    background-position: left 25px center;
+                                }
+                            }
+                        </style>
+
+                        <div class="owl-nav">
+                            <button class="owl-prev"><i class="fa-solid fa-arrow-left"></i></button>
+                            <button class="owl-next"><i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+            </div>
+        </section>
+
+
+        <script>
+            $(document).ready(function() {
+                testimonials();
+            });
+        </script>
+
+        {{-- New testimonial html css End --}}
 
 
 
