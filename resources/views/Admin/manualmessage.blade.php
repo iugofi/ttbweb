@@ -66,7 +66,18 @@
 
                                     <div class="xl:col-span-12 col-span-12">
                                         <label class="form-label">Email Content</label>
-                                        <textarea name="EmailBody" id="summernote" class="typing-text" cols="30" rows="10"></textarea>
+                                        <select class="form-control block w-full text-[0.875rem] !rounded-md"
+                                                name="email_ids[]" id="email_ids"
+                                                multiple multiselect-search="true"
+                                                multiselect-select-all="true"
+                                                multiselect-max-items="3">
+                                            @php
+                                                $mail_data = DB::table('mail')->orderBy('created_at', 'asc')->get();
+                                            @endphp
+                                            @foreach ($mail_data as $mail_datas)
+                                                <option value="{{ $mail_datas->mail_body }}">{{ $mail_datas->mail_category }}</option>
+                                            @endforeach
+                                        </select>
                                         <div class="invalid-feedback"></div>
                                     </div>
 
