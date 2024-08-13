@@ -69,7 +69,7 @@
                                 </div>
 
                                 <div class="xl:col-span-12 col-span-12">
-                                    <label class="form-label">Email Id</label>
+                                    {{-- <label class="form-label">Email Id</label> --}}
                                     <input class="ti-form-input" id="essai" type="text">
                                     <div class="invalid-feedback"></div>
                                 </div>
@@ -116,8 +116,8 @@
 <script>
     $(document).ready(function($){
         let data = [
-            "admin@jqueryscript.net",
-  "admin@cssscript.com"
+//             "admin@jqueryscript.net",
+//   "admin@cssscript.com"
         ]
         $("#essai").email_multiple({
             data: data
