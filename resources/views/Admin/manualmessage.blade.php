@@ -82,7 +82,7 @@
                                 </div>
                                 <div class="xl:col-span-12 col-span-12">
                                     <label class="form-label">Email Id</label>
-                                    <select name="field2" id="field2" multiple multiselect-search="true" multiselect-select-all="true"
+                                    <select class="form-control block w-full text-[0.875rem] !rounded-md" name="field2" id="field2" multiple multiselect-search="true" multiselect-select-all="true"
                                     multiselect-max-items="3" onchange="console.log(this.selectedOptions)">
                                     <option>Abarth</option>
                                     <option>Alfa Romeo</option>
