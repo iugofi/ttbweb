@@ -1688,10 +1688,10 @@ class AdminController extends Controller
 
             foreach ($emailIds as $email) {
 
-                Mail::send('Mail.Manual',['emailContent' => $emailContent], function($message) use ($email,$emailContent) {
-                    $message->to($email, 'Tutorials Point')->subject
-                       ('Laravel HTML Testing Mail');
-                    $message->from($email,'Virat Gandhi');
+                Mail::send('Mail.Manual',['emailContent' => $emailContent], function($message) use ($email,$emailContent,$emailSubject) {
+                    $message->to($email)->subject
+                       ($emailSubject);
+                    $message->from($email,'TTB');
                  });
             }
 

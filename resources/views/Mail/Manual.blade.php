@@ -4,6 +4,6 @@
     <title>Payment Failed</title>
 </head>
 <body>
-   <p>{{$emailContent}}</p>
+   {{$emailContent}}
 </body>
 </html>
