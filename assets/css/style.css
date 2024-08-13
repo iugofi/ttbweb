@@ -48984,7 +48984,7 @@ img.img-fluid.service-icon {
 
 .section-home-new-5 p {
     font-size: 16px;
-    width: 450px;
+    /* width: 450px; */
     padding-top: 1em;
     text-align: justify;
 }
