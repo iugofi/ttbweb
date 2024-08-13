@@ -19,7 +19,8 @@ use App\Models\Eventmodel;
 use App\Models\Payments;
 use App\Models\Plandetails;
 use App\Models\Visitors;
-use Mail;
+use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Crypt;
 
 
@@ -1673,36 +1674,45 @@ class AdminController extends Controller
         }
     }
     public function sendmanual(Request $request)
-    {
-        if ($this->loggedInAdmin) {
-            $emailSubject = $request->input('main_key');
-            $emailContent = $request->input('blog_description');
-            $emailIds = $request->input('email_ids');
+{
+    if ($this->loggedInAdmin) {
+
+        $emailSubject = $request->input('main_key');
+        $emailContent = $request->input('blog_description');
+        $emailIds = $request->input('email_ids');
 
 
-            $validatedData = $request->validate([
-                'main_key' => 'required|max:29',
-                'blog_description' => 'required',
-                'email_ids' => 'required|array|min:1',
-                'email_ids.*' => 'email',
-            ]);
+        Log::info('Sending emails to: ', $emailIds);
+        Log::info('Email subject: ' . $emailSubject);
+        Log::info('Email content: ' . $emailContent);
+
+        try {
+
             foreach ($emailIds as $email) {
                 Mail::send([], [], function ($message) use ($email, $emailSubject, $emailContent) {
                     $message->to($email)
                             ->subject($emailSubject)
-                            ->setBody($emailContent, 'text/html');
+                            ->setBody($emailContent, 'text/html'); 
                 });
             }
-
+        } catch (\Exception $e) {
+            Log::error('Error sending email: ' . $e->getMessage());
             return response()->json([
-                'status' => 200,
-                'messages' => 'Emails sent successfully!',
+                'status' => 500,
+                'messages' => 'Error sending emails!',
             ]);
-
-        } else {
-            return redirect('/setup');
         }
+
+        // Return a successful response
+        return response()->json([
+            'status' => 200,
+            'messages' => 'Emails sent successfully!',
+        ]);
+
+    } else {
+        return redirect('/setup');
     }
+}
 
 
 }
