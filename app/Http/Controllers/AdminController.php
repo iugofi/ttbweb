@@ -19,7 +19,7 @@ use App\Models\Eventmodel;
 use App\Models\Payments;
 use App\Models\Plandetails;
 use App\Models\Visitors;
-use App\Models\Mail;
+use App\Models\SendMail;
 use Mail;
 use Illuminate\Support\Facades\Crypt;
 
@@ -1734,7 +1734,7 @@ class AdminController extends Controller
             } else {
 
                 // Create a new comment instance
-                $maildata = new Mail();
+                $maildata = new SendMail();
                 $maildata->mail_category = $request->mail_cat;
                 $maildata->mail_body = $request->EmailBody;
                 $maildata->save();
