@@ -67,15 +67,17 @@
                                     <div class="xl:col-span-12 col-span-12">
                                         <label class="form-label">Email Content</label>
                                         <select class="form-control block w-full text-[0.875rem] !rounded-md"
-                                                name="email_ids[]" id="email_ids"
-                                                multiple multiselect-search="true"
-                                                multiselect-select-all="true"
-                                                multiselect-max-items="3">
+                                            name="email_content" id="email_content">
                                             @php
-                                                $mail_data = DB::table('Mail')->orderBy('created_at', 'asc')->get();
+                                                $mail_data = DB::table('Mail')
+                                                    ->join('storepick', 'storepick.PICK_ID', '=', 'Mail.mail_category')
+                                                    ->where('storepick.STORE_ID', '=', DB::raw('Mail.mail_category'))
+                                                    ->select('Mail.*', 'storepick.*')
+                                                    ->get();
                                             @endphp
                                             @foreach ($mail_data as $mail_datas)
-                                                <option value="{{ $mail_datas->mail_body }}">{{ $mail_datas->mail_category }}</option>
+                                                <option value="{{ $mail_datas->mail_body }}">
+                                                    {{ $mail_datas->PICK_TEXT }}</option>
                                             @endforeach
                                         </select>
                                         <div class="invalid-feedback"></div>
@@ -84,10 +86,8 @@
                                     <div class="xl:col-span-12 col-span-12">
                                         <label class="form-label">Email Id</label>
                                         <select class="form-control block w-full text-[0.875rem] !rounded-md"
-                                                name="email_ids[]" id="email_ids"
-                                                multiple multiselect-search="true"
-                                                multiselect-select-all="true"
-                                                multiselect-max-items="3">
+                                            name="email_ids[]" id="email_ids" multiple multiselect-search="true"
+                                            multiselect-select-all="true" multiselect-max-items="3">
                                             @php
                                                 $user = DB::table('usersall')->orderBy('created_at', 'asc')->get();
                                             @endphp
@@ -128,7 +128,7 @@
 
 
     <script>
-           $(document).ready(function() {
+        $(document).ready(function() {
             $('#message_manual_form').submit(function(e) {
                 e.preventDefault();
                 $('#message_manual_form_btn').val('please wait..');
@@ -165,7 +165,7 @@
             });
 
 
-           });
+        });
     </script>
 
 
