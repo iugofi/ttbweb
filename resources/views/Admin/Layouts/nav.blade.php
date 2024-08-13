@@ -224,7 +224,7 @@
 
                     <li class="slide">
                         <a href="{{route('manual.page')}}" class="side-menu__item">
-                            <i class="bi bi-link side-menu__icon"></i>
+                            <i class="bi bi-send side-menu__icon"></i>
                             <span class="side-menu__label">Manual Send Message</span>
                         </a>
                     </li>
