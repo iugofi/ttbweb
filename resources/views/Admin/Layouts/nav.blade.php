@@ -215,7 +215,7 @@
 
                     <li class="slide">
                         <a href="{{route('key.manual')}}" class="side-menu__item">
-                            <i class="bi bi-universal-access side-menu__icon"></i>
+                            <i class="bi bi-link side-menu__icon"></i>
                             <span class="side-menu__label">User Key Asign</span>
                         </a>
                     </li>
