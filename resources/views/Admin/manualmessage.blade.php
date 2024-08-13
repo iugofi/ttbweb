@@ -7,7 +7,11 @@
 @section('content')
 
 
-
+<style>
+    .ck.ck-content.ck-editor__editable.ck-rounded-corners.ck-editor__editable_inline.ck-blurred {
+    height: 303px;
+}
+</style>
 
 
 
