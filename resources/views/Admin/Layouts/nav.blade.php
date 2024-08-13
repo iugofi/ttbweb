@@ -220,8 +220,13 @@
                         </a>
                     </li>
 
-                    <li class="slide__category"><span class="category-name">Manual Message</span></li>
-
+                    <li class="slide__category"><span class="category-name">Mail</span></li>
+                    <li class="slide">
+                        <a href="{{route('Mail_create.page')}}" class="side-menu__item">
+                            <i class="bi bi-send side-menu__icon"></i>
+                            <span class="side-menu__label">Mail Create</span>
+                        </a>
+                    </li>
                     <li class="slide">
                         <a href="{{route('manual.page')}}" class="side-menu__item">
                             <i class="bi bi-send side-menu__icon"></i>

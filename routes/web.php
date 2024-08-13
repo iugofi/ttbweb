@@ -341,6 +341,9 @@ Route::get('/mailtest', [UserController::class, 'mailtest'])->name('admin.mailte
          Route::get('/Manualms', [AdminController::class, 'manualsendmspage'])->name('manual.page');
          Route::post('/sendmanual', [AdminController::class, 'sendmanual'])->name('send.manual');
 
+         Route::get('/Mail_create_page', [AdminController::class, 'Mail_create_page'])->name('Mail_create.page');
+
+
 
 
 

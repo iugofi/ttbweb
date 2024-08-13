@@ -1708,4 +1708,11 @@ class AdminController extends Controller
             return redirect('/setup');
         }
     }
+    public function Mail_create_page(){
+        if ($this->loggedInAdmin) {
+            return view('Admin.MailCreate');
+        } else {
+            return redirect('/setup');
+        }
+    }
 }
