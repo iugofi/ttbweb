@@ -19,6 +19,7 @@ use App\Models\Eventmodel;
 use App\Models\Payments;
 use App\Models\Plandetails;
 use App\Models\Visitors;
+use App\Models\Mail;
 use Mail;
 use Illuminate\Support\Facades\Crypt;
 
@@ -1718,7 +1719,31 @@ class AdminController extends Controller
 
     public function mailcreatesave(Request $request){
         if ($this->loggedInAdmin) {
-            dd($request);
+
+            $validator = Validator::make($request->all(), [
+                'mail_cat' => 'required',
+                'EmailBody' => 'required|string|max:255',
+
+            ]);
+
+            if ($validator->fails()) {
+                return response()->json([
+                    'status' => 400,
+                    'messages' => $validator->getMessageBag()->toArray() // Convert messages to array
+                ]);
+            } else {
+
+                // Create a new comment instance
+                $maildata = new Mail();
+                $maildata->mail_category = $request->mail_cat;
+                $maildata->mail_body = $request->EmailBody;
+                $maildata->save();
+
+                return response()->json([
+                    'status' => 200,
+                    'messages' => 'contact Form Data Send successfully'
+                ]);
+            }
         } else {
             return redirect('/setup');
         }
