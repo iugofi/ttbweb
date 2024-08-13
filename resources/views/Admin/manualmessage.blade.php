@@ -74,6 +74,7 @@
                                                     ->where('storepick.STORE_ID', '=', DB::raw('Mail.mail_category'))
                                                     ->select('Mail.*', 'storepick.*')
                                                     ->get();
+                                                    dd($mail_data);
                                             @endphp
                                             @foreach ($mail_data as $mail_datas)
                                                 <option value="{{ $mail_datas->mail_body }}">
