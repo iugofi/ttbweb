@@ -52,7 +52,7 @@
                             <div class="grid grid-cols-12 gap-4">
 
                                 <div class="xl:col-span-12 col-span-12">
-                                    <label for="blog-Language" class="form-label">Status</label>
+                                    <label for="blog-Language" class="form-label">Mail Category</label>
                                     <select class="form-control block w-full text-[0.875rem] !rounded-md" data-trigger
                                         name="blog_status" id="blog_status">
                                         <option value="">Select</option>
