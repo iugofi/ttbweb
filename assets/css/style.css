@@ -52324,6 +52324,9 @@ h6.uppercase {
     .section-home-new-6 {
         padding: 2em 0em !important;
     }
+    .section-home-new-6 h2 {
+        padding-top: 0em !important;
+    }
 }
 
 /* start vpn-shild banner css */
