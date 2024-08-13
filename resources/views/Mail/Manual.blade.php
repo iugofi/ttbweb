@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-   
+
 </head>
 <body>
-    <div>{{$emailContent}}</div>
+    <div>{{$EmailBody}}</div>
 
 </body>
 </html>

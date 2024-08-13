@@ -1676,20 +1676,20 @@ class AdminController extends Controller
     {
         if ($this->loggedInAdmin) {
             $emailSubject = $request->input('main_key');
-            $emailContent = $request->input('blog_description');
-            dd($emailContent);
+            $EmailBody = $request->input('EmailBody');
+
 
             $emailIds = $request->input('email_ids');
             $validatedData = $request->validate([
                 'main_key' => 'required|max:29',
-                'blog_description' => 'required',
+                'EmailBody' => 'required',
                 'email_ids' => 'required|array|min:1',
                 'email_ids.*' => 'email',
             ]);
 
             foreach ($emailIds as $email) {
 
-                Mail::send('Mail.Manual',['emailContent' => $emailContent], function($message) use ($email,$emailSubject) {
+                Mail::send('Mail.Manual',['EmailBody' => $EmailBody], function($message) use ($email,$emailSubject) {
                     $message->to($email)->subject
                        ($emailSubject);
                     $message->from($email,'TTB');

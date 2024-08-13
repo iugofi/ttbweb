@@ -66,7 +66,7 @@
 
                                     <div class="xl:col-span-12 col-span-12">
                                         <label class="form-label">Email Content</label>
-                                        <textarea name="blog_description" id="editoronebest" class="typing-text"></textarea>
+                                        <textarea name="EmailBody" id="editoronebest" class="typing-text"></textarea>
                                         <div class="invalid-feedback"></div>
                                     </div>
 
@@ -132,7 +132,7 @@
                     success: function(response) {
                         if (response.status == 400) {
                             showError('main_key', response.messages.main_key);
-                            showError('blog_description', response.messages.blog_description);
+                            showError('EmailBody', response.messages.EmailBody);
                             showError('email_ids', response.messages.email_ids);
                             $('#message_manual_form_btn').val('Send Manual Message');
                         } else if (response.status == 200) {
