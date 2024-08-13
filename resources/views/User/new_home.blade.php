@@ -1053,7 +1053,7 @@
                             <img src="{{ asset('assets/home-two-img/section5.png') }}" alt="" class="img-fluid"
                                 width="100%">
                         </div>
-                        <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
+                        <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 ps-8 col-span-12">
                             <h2><span class="text-color-ttb">TTB VPN Shield</span>–Encrypted Privacy that hides from
                                 CyberPunks</h2>
                             <p>Now browse and play securely on the web by using our VPN Shield software. It conceals you
@@ -1070,7 +1070,7 @@
             <section class="section-home-new-6">
                 <div class="container">
                     <div class="grid grid-cols-12 gap-6">
-                        <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
+                        <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12 pe-8">
                             <h2 class="dark-black"><span class="text-color-ttb">TTB Antivirus</span>– Advanced Threat Intelligence Tool
                             </h2>
                             <p class="dark-black">Our easy-to-install antivirus will alert you about the emerging and new threat that addresses
