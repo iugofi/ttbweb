@@ -113,7 +113,7 @@
 
 
 
- 
+
 
 
     <script>
@@ -136,7 +136,7 @@
                     success: function(response) {
                         if (response.status == 400) {
                             showError('EmailSubject', response.messages.EmailSubject);
-                            showError('EmailBody', response.messages.EmailBody);
+                            showError('summernote', response.messages.EmailBody);
                             showError('email_ids', response.messages.email_ids);
                             $('#message_manual_form_btn').val('Send Manual Message');
                         } else if (response.status == 200) {
