@@ -9,7 +9,7 @@
 <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/flatly/bootstrap.min.css">
-<link rel="stylesheet" href="{{asset('assets/css/email.multiple.css')}}">
+{{-- <link rel="stylesheet" href="{{asset('assets/css/email.multiple.css')}}"> --}}
 
 <div class="content">
     <div class="main-content">
