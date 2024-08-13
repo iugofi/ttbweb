@@ -62,8 +62,7 @@
                                             </div>
 
                                             <div data-swiper-parallax="300" class="slide-text">
-                                                <p class="dark-black">Don’t be a sitting duck in the internet forest! Buy TTB antivirus/VPN<br>
-                                                    that fights to secure you on the web. Order Now!
+                                                <p class="dark-black">Don’t be a sitting duck in the internet forest! Buy TTB antivirus/VPN<br> that fights to secure you on the web. Order Now!
                                                 </p>
                                             </div>
 
@@ -104,8 +103,7 @@
                                                 <h2 class="dark-black">We Shield the Privacy that matters to you–TTB</h2>
                                             </div>
                                             <div data-swiper-parallax="300" class="slide-text">
-                                                <p class="dark-black">We are the digital saviors to evacuate you from the dark world of<br>
-                                                    cyberwarfare with real-time threat detection.</p>
+                                                <p class="dark-black">We are the digital saviors to evacuate you from the dark world of<br>cyberwarfare with real-time threat detection.</p>
                                             </div>
 
                                             <div data-swiper-parallax="400" class="slide-btn">
