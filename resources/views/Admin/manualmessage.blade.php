@@ -1,6 +1,6 @@
 @extends('Admin.Layouts.layout')
 
-@section('title', 'Key List')
+@section('title', 'Manual Message')
 @section('Description', '')
 @section('keywords', '')
 @section('canonical', 'vbhdvbh')
