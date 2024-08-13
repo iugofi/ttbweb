@@ -9,8 +9,7 @@
 
 
 
-<link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
+
 
 
 
@@ -57,7 +56,7 @@
                                 </div>
                                 <div class="grid grid-cols-12 gap-4">
 
-                                    <div class="xl:col-span-6 col-span-12">
+                                    <div class="xl:col-span-12 col-span-12">
                                         <label for="canonical-url" class="form-label">Email Subject</label>
                                         <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
                                             id="EmailSubject" name="EmailSubject" placeholder="Enter Key" maxlength="29">
@@ -114,22 +113,7 @@
 
 
 
-    <script>
-        $('#summernote').summernote({
-          placeholder: 'Hello stand alone ui',
-          tabsize: 2,
-          height: 120,
-          toolbar: [
-            ['style', ['style']],
-            ['font', ['bold', 'underline', 'clear']],
-            ['color', ['color']],
-            ['para', ['ul', 'ol', 'paragraph']],
-            ['table', ['table']],
-            ['insert', ['link', 'picture', 'video']],
-            ['view', ['fullscreen', 'codeview', 'help']]
-          ]
-        });
-      </script>
+ 
 
 
     <script>
