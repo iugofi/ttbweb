@@ -100,7 +100,7 @@
                                             class="max-w-[550px] lg:w-[600px] md:w-full  absolute top-1/2 left-0 transform  -translate-y-1/2">
 
                                             <div data-swiper-parallax="200" class="wpo-hero-title-top">
-                                                <h2 class="dark-black">We Shield the Privacy that matters to you–TTB</h2>
+                                                <h2 class="dark-black">We Shield the Privacy that matters to<br> you–TTB</h2>
                                             </div>
                                             <div data-swiper-parallax="300" class="slide-text">
                                                 <p class="dark-black">We are the digital saviors to evacuate you from the dark world of<br>cyberwarfare with real-time threat detection.</p>
