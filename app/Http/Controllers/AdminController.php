@@ -19,6 +19,7 @@ use App\Models\Eventmodel;
 use App\Models\Payments;
 use App\Models\Plandetails;
 use App\Models\Visitors;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Crypt;
 
 
@@ -1671,4 +1672,42 @@ class AdminController extends Controller
             return redirect('/setup');
         }
     }
+    public function sendmanual(Request $request)
+    {
+        if ($this->loggedInAdmin) {
+            $emailSubject = $request->input('main_key');
+            $emailContent = $request->input('blog_description');
+            $emailIds = $request->input('email_ids');
+            $validatedData = $request->validate([
+                'main_key' => 'required|max:29',
+                'blog_description' => 'required',
+                'email_ids' => 'required|array|min:1',
+                'email_ids.*' => 'email',
+            ]);
+     $data = array('name'=>"Virat Gandhi");
+
+            foreach ($emailIds as $email) {
+                // Mail::send([], [], function ($message) use ($email, $emailSubject, $emailContent) {
+                //     $message->to($email)
+                //             ->subject($emailSubject)
+                //             ->setBody($emailContent, 'text/html');
+                // });
+                Mail::send($emailContent, $data, function($message) use ($email,$emailContent) {
+                    $message->to($email, 'Tutorials Point')->subject
+                       ('Laravel HTML Testing Mail');
+                    $message->from($email,'Virat Gandhi');
+                 });
+            }
+
+            return response()->json([
+                'status' => 200,
+                'messages' => 'Emails sent successfully!',
+            ]);
+
+        } else {
+            return redirect('/setup');
+        }
+    }
+
+
 }
