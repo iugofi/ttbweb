@@ -72,7 +72,7 @@
                                                 multiselect-select-all="true"
                                                 multiselect-max-items="3">
                                             @php
-                                                $mail_data = DB::table('mail')->orderBy('created_at', 'asc')->get();
+                                                $mail_data = DB::table('Mail')->orderBy('created_at', 'asc')->get();
                                             @endphp
                                             @foreach ($mail_data as $mail_datas)
                                                 <option value="{{ $mail_datas->mail_body }}">{{ $mail_datas->mail_category }}</option>
