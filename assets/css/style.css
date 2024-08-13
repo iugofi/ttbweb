@@ -52322,7 +52322,7 @@ h6.uppercase {
     }
     /* End footer mobile responsive */
     .section-home-new-6 {
-        padding: 2em 0em;
+        padding: 2em 0em !important;
     }
 }
 
