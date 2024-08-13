@@ -1684,16 +1684,19 @@ class AdminController extends Controller
                 'email_ids' => 'required|array|min:1',
                 'email_ids.*' => 'email',
             ]);
-     $data = array('name'=>"Virat Gandhi");
 
-            foreach ($emailIds as $email) {
 
-                Mail::send('Mail.Manual',['emailContent' => $emailContent], function($message) use ($email,$emailContent,$emailSubject) {
-                    $message->to($email)->subject
-                       ($emailSubject);
-                    $message->from($email,'TTB');
-                 });
-            }
+
+                foreach ($emailIds as $email) {
+                    Mail::send([], [], function($message) use ($email, $emailContent, $emailSubject) {
+                        $message->to($email)
+                                ->subject($emailSubject)
+                                ->from('noreply@ttb.com', 'TTB')
+                                ->setBody($emailContent, 'text/html');
+                    });
+                }
+
+
 
             return response()->json([
                 'status' => 200,
