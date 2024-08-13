@@ -67,14 +67,13 @@
                                     <div class="xl:col-span-12 col-span-12">
                                         <label class="form-label">Email Content</label>
                                         <textarea name="EmailBody" id="summernote" class="typing-text" cols="30" rows="10"></textarea>
-
                                         <div class="invalid-feedback"></div>
                                     </div>
 
                                     <div class="xl:col-span-12 col-span-12">
                                         <label class="form-label">Email Id</label>
                                         <select class="form-control block w-full text-[0.875rem] !rounded-md"
-                                                name="email_ids[]" id="field2"
+                                                name="email_ids[]" id="email_ids"
                                                 multiple multiselect-search="true"
                                                 multiselect-select-all="true"
                                                 multiselect-max-items="3">
@@ -85,6 +84,7 @@
                                                 <option value="{{ $users->email }}">{{ $users->email }}</option>
                                             @endforeach
                                         </select>
+                                        <div class="invalid-feedback"></div>
                                     </div>
 
 
