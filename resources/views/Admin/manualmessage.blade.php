@@ -60,13 +60,13 @@
 
                                 <div class="xl:col-span-12 col-span-12">
                                     <label class="form-label">Email Content</label>
-                                    <textarea name="blog_description" id="editoronebest"></textarea>
+                                    <textarea name="blog_description" id="editoronebest" height="210"></textarea>
                                     <div class="invalid-feedback"></div>
                                 </div>
 
                                 <div class="xl:col-span-12 col-span-12">
                                     <label class="form-label">Email Id</label>
-                                    <textarea class="form-control block w-full"></textarea>
+                                    <textarea class="form-control block w-full" height="210"></textarea>
                                     <div class="invalid-feedback"></div>
                                 </div>
 
