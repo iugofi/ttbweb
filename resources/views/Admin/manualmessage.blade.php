@@ -66,7 +66,7 @@
 
                                 <div class="xl:col-span-12 col-span-12">
                                     <label class="form-label">Email Id</label>
-                                    <textarea class="form-control block w-full" height="210px"></textarea>
+                                    <input class="ti-form-input" id="choices-text-email-filter" type="text">
                                     <div class="invalid-feedback"></div>
                                 </div>
 
