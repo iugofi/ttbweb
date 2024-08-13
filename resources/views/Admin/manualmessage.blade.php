@@ -70,7 +70,8 @@
 
                                 <div class="xl:col-span-12 col-span-12">
                                     {{-- <label class="form-label">Email Id</label> --}}
-                                    <input class="ti-form-input" id="essai" type="text">
+                                    {{-- <input > --}}
+                                    <textarea class="ti-form-input" id="essai" type="text"></textarea>
                                     <div class="invalid-feedback"></div>
                                 </div>
 
