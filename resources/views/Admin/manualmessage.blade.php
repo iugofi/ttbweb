@@ -11,6 +11,8 @@
 {{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/flatly/bootstrap.min.css"> --}}
 <link rel="stylesheet" href="{{asset('assets/css/email.multiple.css')}}">
 
+
+
 <div class="content">
     <div class="main-content">
 
@@ -64,14 +66,14 @@
 
                                 <div class="xl:col-span-12 col-span-12">
                                     <label class="form-label">Email Content</label>
-                                    <textarea name="blog_description" id="editoronebest" height="210px"></textarea>
+                                    <textarea name="blog_description" id="editoronebest" class="typing-text"></textarea>
                                     <div class="invalid-feedback"></div>
                                 </div>
 
                                 <div class="xl:col-span-12 col-span-12">
                                     {{-- <label class="form-label">Email Id</label> --}}
                                     {{-- <input > --}}
-                                    <textarea class="ti-form-input" id="essai" type="text"></textarea>
+                                    <textarea class="ti-form-input test-email-ms" id="essai" type="text"></textarea>
                                     <div class="invalid-feedback"></div>
                                 </div>
 
