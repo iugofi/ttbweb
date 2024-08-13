@@ -142,7 +142,7 @@
                                     },
                                     success: function(response) {
                                         if (response.success) {
-                                            // Update UI                           
+                                            // Update UI
                                             if (action === 'like') {
                                                 $('.like-btn[data-post-id="' + postId + '"]').addClass('liked');
                                                 localStorage.setItem('actionnews_' + postId, 'like');
@@ -177,7 +177,7 @@
                                                     class="font-semibold text-[0.875rem] text-dark mb-1">{{ $newsscrolllist2->title }}</a>
                                                 <p class="card-text text-[#8c9097] dark:text-white/50 mb-3">
                                                     {!! nl2br(e(Str::limit(strip_tags($newsscrolllist2->description), 150))) !!}</p>
-                                                <a href="javascript:void(0);"
+                                                <a href="{{ route('news.details', ['id' => $newsscrolllist2->slug]) }}"
                                                     class="ti-btn ti-btn-primary !font-medium !mb-0">Read
                                                     More</a>
                                             </div>

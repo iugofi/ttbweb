@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Payment Failed</title>
+   
 </head>
 <body>
-   {{$emailContent}}
+    <div>{{$emailContent}}</div>
+
 </body>
 </html>
