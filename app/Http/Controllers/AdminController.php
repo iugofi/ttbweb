@@ -1741,7 +1741,7 @@ class AdminController extends Controller
 
                 return response()->json([
                     'status' => 200,
-                    'messages' => 'contact Form Data Send successfully'
+                    'messages' => 'Mail Create successfully'
                 ]);
             }
         } else {
