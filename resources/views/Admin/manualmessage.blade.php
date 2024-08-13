@@ -69,20 +69,23 @@
                                         <textarea name="blog_description" id="editoronebest" class="typing-text"></textarea>
                                         <div class="invalid-feedback"></div>
                                     </div>
+
                                     <div class="xl:col-span-12 col-span-12">
                                         <label class="form-label">Email Id</label>
-                                        <select class="form-control block w-full text-[0.875rem] !rounded-md" name="field2"
-                                            id="field2" multiple multiselect-search="true" multiselect-select-all="true"
-                                            multiselect-max-items="3" onchange="console.log(this.selectedOptions)">
+                                        <select class="form-control block w-full text-[0.875rem] !rounded-md"
+                                                name="email_ids[]" id="field2"
+                                                multiple multiselect-search="true"
+                                                multiselect-select-all="true"
+                                                multiselect-max-items="3">
                                             @php
                                                 $user = DB::table('usersall')->orderBy('created_at', 'asc')->get();
                                             @endphp
                                             @foreach ($user as $users)
                                                 <option value="{{ $users->email }}">{{ $users->email }}</option>
                                             @endforeach
-
                                         </select>
                                     </div>
+
 
                                 </div>
                             </div>
@@ -116,7 +119,6 @@
                 $('#message_manual_form_btn').val('please wait..');
                 var token = $('meta[name="csrf-token"]').attr('content');
                 var formData = new FormData($(this)[0]);
-                console.log(formData);
 
                 $.ajax({
                     url: '{{ route('send.manual') }}',

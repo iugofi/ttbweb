@@ -1672,11 +1672,15 @@ class AdminController extends Controller
         }
     }
     public function sendmanual(Request $request)
-    {
-        if ($this->loggedInAdmin) {
-            dd($request);
-        } else {
-            return redirect('/setup');
-        }
+{
+    if ($this->loggedInAdmin) {
+        $emailIds = $request->input('email_ids');
+
+        dd($emailIds);
+       
+    } else {
+        return redirect('/setup');
     }
+}
+
 }
