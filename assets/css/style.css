@@ -52321,6 +52321,9 @@ h6.uppercase {
         gap: 0 !important;
     }
     /* End footer mobile responsive */
+    .section-home-new-6 {
+        padding: 2em 0em;
+    }
 }
 
 /* start vpn-shild banner css */
