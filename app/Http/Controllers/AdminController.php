@@ -1687,12 +1687,8 @@ class AdminController extends Controller
      $data = array('name'=>"Virat Gandhi");
 
             foreach ($emailIds as $email) {
-                // Mail::send([], [], function ($message) use ($email, $emailSubject, $emailContent) {
-                //     $message->to($email)
-                //             ->subject($emailSubject)
-                //             ->setBody($emailContent, 'text/html');
-                // });
-                Mail::send($emailContent, $data, function($message) use ($email,$emailContent) {
+
+                Mail::send('Mail.Manual',['emailContent' => $emailContent], function($message) use ($email,$emailContent) {
                     $message->to($email, 'Tutorials Point')->subject
                        ('Laravel HTML Testing Mail');
                     $message->from($email,'Virat Gandhi');
