@@ -167,7 +167,7 @@
                     <li class="slide__category"><span class="category-name">All Payment Details</span></li>
                     <li class="slide">
                         <a href="{{route('pay.allpaymentshow')}}" class="side-menu__item">
-                            <i class="fa-solid fa-location-dot side-menu__icon"></i>
+                            <i class="bi bi-wallet side-menu__icon"></i>
                             <span class="side-menu__label">All Payment</span>
                         </a>
                     </li>
@@ -176,7 +176,7 @@
 
                     <li class="slide">
                         <a href="{{route('pay.vpnpayshow')}}" class="side-menu__item">
-                            <i class="fa-solid fa-location-dot side-menu__icon"></i>
+                            <i class="bi bi-shield side-menu__icon"></i>
                             <span class="side-menu__label">Vpn shield Payment</span>
                         </a>
                     </li>
@@ -191,7 +191,7 @@
 
                     <li class="slide">
                         <a href="{{route('user.visitor_traffic')}}" class="side-menu__item">
-                            <i class="fa-solid fa-location-dot side-menu__icon"></i>
+                            <i class="bi bi-stoplights-fill side-menu__icon"></i>
                             <span class="side-menu__label">Visitor Traffic</span>
                         </a>
                     </li>
@@ -200,13 +200,13 @@
 
                     <li class="slide">
                         <a href="{{route('user.eventlist')}}" class="side-menu__item">
-                            <i class="fa-solid fa-location-dot side-menu__icon"></i>
+                            <i class="bi bi-calendar-event side-menu__icon"></i>
                             <span class="side-menu__label">Event List</span>
                         </a>
                     </li>
                     <li class="slide">
                         <a href="{{route('user.addevent')}}" class="side-menu__item">
-                            <i class="fa-solid fa-location-dot side-menu__icon"></i>
+                            <i class="bi bi-calendar2-event-fill side-menu__icon"></i>
                             <span class="side-menu__label">Add Event</span>
                         </a>
                     </li>
@@ -215,7 +215,7 @@
 
                     <li class="slide">
                         <a href="{{route('key.manual')}}" class="side-menu__item">
-                            <i class="fa-solid fa-location-dot side-menu__icon"></i>
+                            <i class="bi bi-universal-access side-menu__icon"></i>
                             <span class="side-menu__label">User Key Asign</span>
                         </a>
                     </li>
