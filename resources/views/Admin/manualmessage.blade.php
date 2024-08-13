@@ -7,11 +7,9 @@
 @section('content')
 
 
-<style>
-    .ck.ck-content.ck-editor__editable.ck-rounded-corners.ck-editor__editable_inline.ck-blurred {
-    height: 303px;
-}
-</style>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
 
 
 
@@ -70,7 +68,7 @@
 
                                     <div class="xl:col-span-12 col-span-12">
                                         <label class="form-label">Email Content</label>
-                                        <textarea name="EmailBody" id="editoronebest" class="typing-text" cols="300" rows="100"></textarea>
+                                        <textarea name="EmailBody" id="summernote" class="typing-text" cols="300" rows="100"></textarea>
 
                                         <div class="invalid-feedback"></div>
                                     </div>
@@ -111,10 +109,23 @@
 
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">
-    </script>
-    <script src="{{ asset('assets/js/multiselect-dropdown.js') }}"></script>
+
+    <script>
+        $('#summernote').summernote({
+          placeholder: 'Hello stand alone ui',
+          tabsize: 2,
+          height: 120,
+          toolbar: [
+            ['style', ['style']],
+            ['font', ['bold', 'underline', 'clear']],
+            ['color', ['color']],
+            ['para', ['ul', 'ol', 'paragraph']],
+            ['table', ['table']],
+            ['insert', ['link', 'picture', 'video']],
+            ['view', ['fullscreen', 'codeview', 'help']]
+          ]
+        });
+      </script>
 
 
     <script>
