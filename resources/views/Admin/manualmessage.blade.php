@@ -6,6 +6,10 @@
 @section('canonical', 'vbhdvbh')
 @section('content')
 
+<link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/flatly/bootstrap.min.css">
+<link rel="stylesheet" href="{{asset('assets/css/email.multiple.css')}}">
 
 <div class="content">
     <div class="main-content">
@@ -66,7 +70,7 @@
 
                                 <div class="xl:col-span-12 col-span-12">
                                     <label class="form-label">Email Id</label>
-                                    <input class="ti-form-input" id="choices-text-email-filter" type="text">
+                                    <input class="ti-form-input" id="essai" type="text">
                                     <div class="invalid-feedback"></div>
                                 </div>
 
@@ -102,6 +106,40 @@
 
     </div>
 </div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+<!-- Latest compiled JavaScript -->
+
+<script src="{{asset('assets/js/jquery.email.multiple.js')}}"></script>
+<script>
+    $(document).ready(function($){
+        let data = [
+            "admin@jqueryscript.net",
+  "admin@cssscript.com"
+        ]
+        $("#essai").email_multiple({
+            data: data
+            // reset: true
+        });
+    });
+</script>
+</div>
+<script type="text/javascript">
+
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-36251023-1']);
+_gaq.push(['_setDomainName', 'jqueryscript.net']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+</script>
 
 
 
