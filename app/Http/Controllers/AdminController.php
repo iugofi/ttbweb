@@ -19,7 +19,7 @@ use App\Models\Eventmodel;
 use App\Models\Payments;
 use App\Models\Plandetails;
 use App\Models\Visitors;
-use Illuminate\Support\Facades\Mail;
+use Mail;
 use Illuminate\Support\Facades\Crypt;
 
 
@@ -1685,17 +1685,14 @@ class AdminController extends Controller
                 'email_ids.*' => 'email',
             ]);
 
+            foreach ($emailIds as $email) {
 
-
-                foreach ($emailIds as $email) {
-                    Mail::send([], [], function($message) use ($email, $emailContent, $emailSubject) {
-                        $message->to($email)
-                                ->subject($emailSubject)
-                                ->setBody($emailContent, 'text/html');
-                    });
-                }
-
-
+                Mail::send('Mail.Manual',['emailContent' => $emailContent], function($message) use ($email,$emailSubject) {
+                    $message->to($email)->subject
+                       ($emailSubject);
+                    $message->from($email,'TTB');
+                 });
+            }
 
             return response()->json([
                 'status' => 200,
