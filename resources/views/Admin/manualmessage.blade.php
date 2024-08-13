@@ -6,6 +6,11 @@
 @section('canonical', 'vbhdvbh')
 @section('content')
 
+ <!-- Choices Css -->
+ <link rel="stylesheet" href="{{asset('assets/libs/choices.js/public/assets/styles/choices.min.css')}}">
+ <!-- Tom Select Css -->
+ <link rel="stylesheet" href="{{asset('assets/libs/tom-select/css/tom-select.default.min.css')}}">
+
 
 <div class="content">
     <div class="main-content">
@@ -102,6 +107,16 @@
 
     </div>
 </div>
+
+
+
+  <!-- Choices JS -->
+  <script src="{{asset('assets/libs/choices.js/public/assets/scripts/choices.min.js')}}"></script>
+  <script src="{{asset('assets/js/choices.js')}}"></script>
+
+  <!-- Tom Select JS -->
+  <script src="{{asset('assets/libs/tom-select/js/tom-select.complete.min.js')}}"></script>
+  <script src="{{asset('assets/js/tom-select.js')}}"></script>
 
 
 
