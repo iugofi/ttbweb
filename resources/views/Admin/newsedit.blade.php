@@ -99,7 +99,7 @@
 
                                     <div class="xl:col-span-12 col-span-12">
                                         <label class="form-label">News Discription</label>
-                                        <textarea  id="editoronebest" name="news_description"
+                                        <textarea  id="summernote" name="news_description"
                                             class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500"
                                             rows="6">{{ isset($editnews->description) ? $editnews->description : '' }}</textarea>
                                         <div class="invalid-feedback"></div>
@@ -170,7 +170,7 @@
         </div>
     </div>
 
- 
+
 
 
 
@@ -235,7 +235,7 @@
                 $('#news_edit_btn').val('please wait..');
                 var token = $('meta[name="csrf-token"]').attr('content');
                 var formData = new FormData($(this)[0]);
-                
+
                 $.ajax({
                     url:  "{{ route('edit.news') }}",
                     method: 'post',
@@ -253,7 +253,7 @@
                             showError('canonical_url', response.messages.canonical_url);
                             showError('meta_keyword', response.messages.meta_keyword);
                             showError('meta_desc', response.messages.meta_desc);
-                            showError('editoronebest', response.messages.news_description);
+                            showError('summernote', response.messages.news_description);
                             showError('news_status', response.messages.news_status);
 
                             $('#news_edit_btn').val('Edit News');

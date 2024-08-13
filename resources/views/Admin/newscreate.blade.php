@@ -98,7 +98,7 @@
 
                                     <div class="xl:col-span-12 col-span-12">
                                         <label class="form-label">News Discription</label>
-                                        <textarea name="news_description" id="editoronebest"></textarea>
+                                        <textarea name="news_description" id="summernote"></textarea>
                                         <div class="invalid-feedback"></div>
                                     </div>
 
@@ -163,8 +163,8 @@
         </div>
     </div>
 
-  
-    
+
+
 
 
 
@@ -188,7 +188,7 @@
                                 var imageUrl =
                                     "{{asset('assets/images/dailynews')}}/" +
                                     post.image;
-                                   
+
 
                                 recentPostHtml += '<li class="list-group-item">';
                                 recentPostHtml +=
@@ -249,7 +249,7 @@
                             showError('canonical_url', response.messages.canonical_url);
                             showError('meta_keyword', response.messages.meta_keyword);
                             showError('meta_desc', response.messages.meta_desc);
-                            showError('editoronebest', response.messages.news_description);
+                            showError('summernote', response.messages.news_description);
                             showError('news_images', response.messages.news_images);
                             showError('news_status', response.messages.news_status);
 

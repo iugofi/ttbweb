@@ -98,7 +98,7 @@
 
                                     <div class="xl:col-span-12 col-span-12">
                                         <label class="form-label">blog Discription</label>
-                                        <textarea name="blog_description" id="editoronebest"></textarea>
+                                        <textarea name="blog_description" id="summernote"></textarea>
                                         <div class="invalid-feedback"></div>
                                     </div>
 
@@ -163,8 +163,8 @@
         </div>
     </div>
 
-  
-    
+
+
 
 
 
@@ -248,7 +248,7 @@
                             showError('canonical_url', response.messages.canonical_url);
                             showError('meta_keyword', response.messages.meta_keyword);
                             showError('meta_desc', response.messages.meta_desc);
-                            showError('editoronebest', response.messages.blog_description);
+                            showError('summernote', response.messages.blog_description);
                             showError('blog_images', response.messages.blog_images);
                             showError('blog_status', response.messages.blog_status);
 

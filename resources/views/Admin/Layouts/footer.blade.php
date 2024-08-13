@@ -24,14 +24,7 @@
 
 <!-- SCRIPTS -->
 
-<script src="https://cdn.ckeditor.com/ckeditor5/41.3.1/classic/ckeditor.js"></script>
-    <script>
-        ClassicEditor
-            .create( document.querySelector( '#editoronebest' ) )
-            .catch( error => {
-                console.error( error );
-            } );
-    </script>
+
 
 <script>
     $('#summernote').summernote({
