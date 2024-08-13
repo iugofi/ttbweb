@@ -86,11 +86,12 @@
 
                                 </div>
                             </div>
+                            <button type="submit">jkdfhgjk</button>
                             <div class="box-footer">
                                 <div class="text-end">
                                     {{-- <button type="button" class="ti-btn !py-1 !px-2 ti-btn-light !text-[0.75rem] !font-medium me-2">Save As Draft</button> --}}
-                                    <input type="submit" value="Send Manual Message" id="message_manual_form_btn"
-                                        class="ti-btn bg-primary text-white !py-1 !px-2 !text-[0.75rem] !font-medium">
+                                    {{-- <input type="submit" value="Send Manual Message" id="message_manual_form_btn"
+                                        class="ti-btn bg-primary text-white !py-1 !px-2 !text-[0.75rem] !font-medium"> --}}
                                 </div>
                             </div>
                         </form>
