@@ -19,6 +19,7 @@ use App\Models\Eventmodel;
 use App\Models\Payments;
 use App\Models\Plandetails;
 use App\Models\Visitors;
+use Mail;
 use Illuminate\Support\Facades\Crypt;
 
 
