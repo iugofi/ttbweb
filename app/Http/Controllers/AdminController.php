@@ -1696,7 +1696,7 @@ class AdminController extends Controller
 
                     Mail::send('Mail.Manual', ['EmailBody' => $EmailBody], function ($message) use ($email, $emailSubject) {
                         $message->to($email)->subject($emailSubject);
-                        $message->from($email, 'TTB');
+                        $message->from('smtktm098@gmail.com', 'TTB');
                     });
                 }
                 return response()->json([

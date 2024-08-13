@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+    <title>{{ $EmailSubject ?? 'Manual Email' }}</title>
 </head>
 <body>
-    <div>{{$EmailBody}}</div>
-
+    {!! $EmailBody !!}
 </body>
 </html>
