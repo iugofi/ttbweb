@@ -38,7 +38,6 @@
                             <img src="{{ asset('assets/img/ios.png') }}" alt="" class="img-fluid" width="25%">
                             <div class="btn-down">
                                 <a href="#">Download For iOS</a>
-
                             </div>
                             <span> X10.15 or above</span>
                         </div>
