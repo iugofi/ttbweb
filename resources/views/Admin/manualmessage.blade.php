@@ -66,7 +66,8 @@
 
                                     <div class="xl:col-span-12 col-span-12">
                                         <label class="form-label">Email Content</label>
-                                        <textarea name="EmailBody" id="editoronebest" class="typing-text"></textarea>
+                                        <textarea name="EmailBody" id="editoronebest" class="typing-text" cols="300" rows="100"></textarea>
+
                                         <div class="invalid-feedback"></div>
                                     </div>
 
