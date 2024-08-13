@@ -49043,7 +49043,7 @@ img.img-fluid.service-icon {
 .home-new-banner p {
     font-weight: 400;
     font-size: 18px;
-    width: 500px;
+    /* width: 500px; */
     padding: 20px 0px 40px 0px;
 }
 
