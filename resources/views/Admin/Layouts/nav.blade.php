@@ -220,6 +220,15 @@
                         </a>
                     </li>
 
+                    <li class="slide__category"><span class="category-name">Manual Message</span></li>
+
+                    <li class="slide">
+                        <a href="{{route('manual.page')}}" class="side-menu__item">
+                            <i class="bi bi-link side-menu__icon"></i>
+                            <span class="side-menu__label">Manual Send Message</span>
+                        </a>
+                    </li>
+
 
                     @endif
 

@@ -338,6 +338,7 @@ Route::get('/mailtest', [UserController::class, 'mailtest'])->name('admin.mailte
          Route::get('/get-plan-id', [AdminController::class, 'getPlanId'])->name('get.plan.id');
          Route::get('/get-key-id', [AdminController::class, 'getKeyId'])->name('get.key.id');
 
+         Route::get('/Manualms', [AdminController::class, 'manualsendmspage'])->name('manual.page');
 
 
 

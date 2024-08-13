@@ -1661,4 +1661,14 @@ class AdminController extends Controller
             ->get();
         return response()->json($plan_ids);
     }
+
+    public function manualsendmspage()
+    {
+        if ($this->loggedInAdmin) {
+
+            return view('Admin.manualmessage');
+        } else {
+            return redirect('/setup');
+        }
+    }
 }
