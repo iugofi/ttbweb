@@ -62,9 +62,9 @@
                                             </div>
 
                                             <div data-swiper-parallax="300" class="slide-text">
-                                                <p class="dark-black">Don’t be a sitting duck in the internet forest! Buy TTB antivirus/VPN<br> that fights to secure you on the web. Order Now!
+                                                <p class="dark-black">Don’t be a sitting duck in the internet forest! Buy TTB antivirus/VPN <br> that fights to secure you on the web. Order Now!
                                                 </p>
-                                            </div>
+                                            </div><br>
 
                                             <div data-swiper-parallax="400" class="slide-btn">
                                                 <a href="#" class="theme-btn"> Download</a>
@@ -100,11 +100,11 @@
                                             class="max-w-[550px] lg:w-[600px] md:w-full  absolute top-1/2 left-0 transform  -translate-y-1/2">
 
                                             <div data-swiper-parallax="200" class="wpo-hero-title-top">
-                                                <h2 class="dark-black">We Shield the Privacy that matters to you–TTB</h2>
+                                                <h2 class="dark-black">We Shield the Privacy that matters to<br> you–TTB</h2>
                                             </div>
                                             <div data-swiper-parallax="300" class="slide-text">
                                                 <p class="dark-black">We are the digital saviors to evacuate you from the dark world of<br>cyberwarfare with real-time threat detection.</p>
-                                            </div>
+                                            </div><br>
 
                                             <div data-swiper-parallax="400" class="slide-btn">
                                                 <a href="#" class="theme-btn"> Download</a>

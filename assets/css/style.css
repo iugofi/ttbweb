@@ -49036,14 +49036,14 @@ img.img-fluid.service-icon {
     font-size: 35px;
     font-weight: 700;
     text-transform: capitalize;
-    width: 500;
+    /* width: 500; */
     padding-top: 3em;
 }
 
 .home-new-banner p {
     font-weight: 400;
     font-size: 18px;
-    width: 500px;
+    /* width: 500px; */
     padding: 20px 0px 40px 0px;
 }
 
