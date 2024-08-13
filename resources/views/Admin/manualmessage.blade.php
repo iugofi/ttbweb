@@ -131,16 +131,16 @@
                     processData: false,
                     success: function(response) {
                         if (response.status == 400) {
-                            showError('blog_title', response.messages.blog_title);
-                            showError('blog_slug', response.messages.blog_slug);
-                            showError('meta_title', response.messages.meta_title);
+                            showError('main_key', response.messages.main_key);
+                            showError('blog_description', response.messages.blog_description);
+                            showError('email_ids', response.messages.email_ids);
                             $('#message_manual_form_btn').val('Send Manual Message');
                         } else if (response.status == 200) {
                             $('.invalid-feedback').empty();
                             $("#show_success_alert").html(showMessage('success', response
                                 .messages));
-                            $('#blog_form')[0].reset();
-                            removeValidationClass("#blog_form");
+                            $('#message_manual_form')[0].reset();
+                            removeValidationClass("#message_manual_form");
                             $('#message_manual_form_btn').val('Send Manual Message');
 
                         }
