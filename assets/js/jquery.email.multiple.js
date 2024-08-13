@@ -20,7 +20,7 @@
         {
             $(this).after("<span class=\"to-input\">Email :</span>\n" +
                 "<div class=\"all-mail\"></div>\n" +
-                "<input type=\"text\" name=\"email\" class=\"enter-mail-id\" placeholder=\"Enter Email ...\" />");
+                "<textarea type=\"text\" name=\"email\" class=\"enter-mail-id\" placeholder=\"Enter Email ...\" ></textarea>");
             let $orig = $(this);
             let $element = $('.enter-mail-id');
             $element.keydown(function (e) {
