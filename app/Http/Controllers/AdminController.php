@@ -1692,7 +1692,7 @@ class AdminController extends Controller
                 //             ->subject($emailSubject)
                 //             ->setBody($emailContent, 'text/html');
                 // });
-                Mail::send('mail', $data, function($message) use ($email) {
+                Mail::send($emailContent, $data, function($message) use ($email,$emailContent) {
                     $message->to($email, 'Tutorials Point')->subject
                        ('Laravel HTML Testing Mail');
                     $message->from($email,'Virat Gandhi');
