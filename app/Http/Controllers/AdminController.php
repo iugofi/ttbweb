@@ -1691,7 +1691,6 @@ class AdminController extends Controller
                     Mail::send([], [], function($message) use ($email, $emailContent, $emailSubject) {
                         $message->to($email)
                                 ->subject($emailSubject)
-                                ->from('noreply@ttb.com', 'TTB')
                                 ->setBody($emailContent, 'text/html');
                     });
                 }
