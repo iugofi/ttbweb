@@ -1672,15 +1672,36 @@ class AdminController extends Controller
         }
     }
     public function sendmanual(Request $request)
-{
-    if ($this->loggedInAdmin) {
-        $emailIds = $request->input('email_ids');
+    {
+        if ($this->loggedInAdmin) {
+            $emailSubject = $request->input('main_key');
+            $emailContent = $request->input('blog_description');
+            $emailIds = $request->input('email_ids');
 
-        dd($emailIds);
-       
-    } else {
-        return redirect('/setup');
+
+            $validatedData = $request->validate([
+                'main_key' => 'required|max:29',
+                'blog_description' => 'required',
+                'email_ids' => 'required|array|min:1',
+                'email_ids.*' => 'email',
+            ]);
+            foreach ($emailIds as $email) {
+                Mail::send([], [], function ($message) use ($email, $emailSubject, $emailContent) {
+                    $message->to($email)
+                            ->subject($emailSubject)
+                            ->setBody($emailContent, 'text/html');
+                });
+            }
+
+            return response()->json([
+                'status' => 200,
+                'messages' => 'Emails sent successfully!',
+            ]);
+
+        } else {
+            return redirect('/setup');
+        }
     }
-}
+
 
 }
