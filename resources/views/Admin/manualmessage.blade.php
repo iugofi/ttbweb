@@ -66,7 +66,7 @@
 
                                 <div class="xl:col-span-12 col-span-12">
                                     <label class="form-label">Email Id</label>
-                                    <textarea name="blog_description"></textarea>
+                                    <textarea class="form-control block w-full"></textarea>
                                     <div class="invalid-feedback"></div>
                                 </div>
 
