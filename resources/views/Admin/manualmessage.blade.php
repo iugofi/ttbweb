@@ -60,8 +60,7 @@
                                     <div class="xl:col-span-6 col-span-12">
                                         <label for="canonical-url" class="form-label">Email Subject</label>
                                         <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
-                                            id="main_key" name="main_key" placeholder="Enter Key" maxlength="29"
-                                            onkeydown="addHyphen(this)">
+                                            id="EmailSubject" name="EmailSubject" placeholder="Enter Key" maxlength="29">
                                         <div class="invalid-feedback"></div>
                                     </div>
 
@@ -154,7 +153,7 @@
                     processData: false,
                     success: function(response) {
                         if (response.status == 400) {
-                            showError('main_key', response.messages.main_key);
+                            showError('EmailSubject', response.messages.EmailSubject);
                             showError('EmailBody', response.messages.EmailBody);
                             showError('email_ids', response.messages.email_ids);
                             $('#message_manual_form_btn').val('Send Manual Message');

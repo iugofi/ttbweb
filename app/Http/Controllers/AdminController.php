@@ -1675,13 +1675,13 @@ class AdminController extends Controller
     public function sendmanual(Request $request)
     {
         if ($this->loggedInAdmin) {
-            $emailSubject = $request->input('main_key');
+            $emailSubject = $request->input('EmailSubject');
             $EmailBody = $request->input('EmailBody');
 
 
             $emailIds = $request->input('email_ids');
             $validatedData = $request->validate([
-                'main_key' => 'required|max:29',
+                'EmailSubject' => 'required|max:29',
                 'EmailBody' => 'required',
                 'email_ids' => 'required|array|min:1',
                 'email_ids.*' => 'email',
