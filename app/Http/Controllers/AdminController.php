@@ -1646,7 +1646,7 @@ class AdminController extends Controller
     {
 
         $plan_ids = DB::table('product_details')
-        ->select('product_details.id as  plande_id','planname.*')
+            ->select('product_details.id as  plande_id', 'planname.*')
             ->join('planname', 'planname.plan_id', '=', 'product_details.plan_id')
             ->where('key_type', $request->planname)
             ->distinct()
@@ -1677,34 +1677,35 @@ class AdminController extends Controller
         if ($this->loggedInAdmin) {
             $emailSubject = $request->input('EmailSubject');
             $EmailBody = $request->input('EmailBody');
-
-
             $emailIds = $request->input('email_ids');
-            $validatedData = $request->validate([
+
+            $validator = Validator::make($request->all(), [
                 'EmailSubject' => 'required|max:29',
                 'EmailBody' => 'required',
                 'email_ids' => 'required|array|min:1',
                 'email_ids.*' => 'email',
             ]);
 
-            foreach ($emailIds as $email) {
+            if ($validator->fails()) {
+                return response()->json([
+                    'status' => 400,
+                    'messages' => $validator->getMessageBag()->toArray() // Convert messages to array
+                ]);
+            } else {
+                foreach ($emailIds as $email) {
 
-                Mail::send('Mail.Manual',['EmailBody' => $EmailBody], function($message) use ($email,$emailSubject) {
-                    $message->to($email)->subject
-                       ($emailSubject);
-                    $message->from($email,'TTB');
-                 });
+                    Mail::send('Mail.Manual', ['EmailBody' => $EmailBody], function ($message) use ($email, $emailSubject) {
+                        $message->to($email)->subject($emailSubject);
+                        $message->from($email, 'TTB');
+                    });
+                }
+                return response()->json([
+                    'status' => 200,
+                    'messages' => 'Emails sent successfully!',
+                ]);
             }
-
-            return response()->json([
-                'status' => 200,
-                'messages' => 'Emails sent successfully!',
-            ]);
-
         } else {
             return redirect('/setup');
         }
     }
-
-
 }
