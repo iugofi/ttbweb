@@ -6,23 +6,11 @@
 @section('canonical', 'vbhdvbh')
 @section('content')
 
-<link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
-<!-- Latest compiled and minified CSS -->
-{{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/flatly/bootstrap.min.css"> --}}
-<link rel="stylesheet" href="{{asset('assets/css/email.multiple.css')}}">
-
-<style>
-    .typing-text .ck-blurred.ck.ck-content.ck-editor__editable.ck-rounded-corners.ck-editor__editable_inline {
-    height: 200px;
-}
-
-.test-email-ms input.enter-mail-id {
-    width: 100%;
-    height: 200px;
-}
 
 
-</style>
+
+
+
 
 <div class="content">
     <div class="main-content">
@@ -151,12 +139,7 @@
                                   </select>
                                 </div>
 
-                                <div class="xl:col-span-12 col-span-12">
-                                    {{-- <label class="form-label">Email Id</label> --}}
-                                    {{-- <input > --}}
-                                    <input class="ti-form-input test-email-ms" id="essai" type="text">
-                                    <div class="invalid-feedback"></div>
-                                </div>
+
 
                             </div>
                         </div>
@@ -192,43 +175,11 @@
 </div>
 
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
 integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
 crossorigin="anonymous"></script>
 <script src="{{asset('assets/js/multiselect-dropdown.js')}}"></script>
-
-<!-- Latest compiled JavaScript -->
-
-<script src="{{asset('assets/js/jquery.email.multiple.js')}}"></script>
-<script>
-    $(document).ready(function($){
-        let data = [
-//             "admin@jqueryscript.net",
-//   "admin@cssscript.com"
-        ]
-        $("#essai").email_multiple({
-            data: data
-            // reset: true
-        });
-    });
-</script>
-</div>
-<script type="text/javascript">
-
-var _gaq = _gaq || [];
-_gaq.push(['_setAccount', 'UA-36251023-1']);
-_gaq.push(['_setDomainName', 'jqueryscript.net']);
-_gaq.push(['_trackPageview']);
-
-(function() {
-var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-})();
-
-</script>
-
 
 
 
