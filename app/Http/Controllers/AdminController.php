@@ -1677,6 +1677,8 @@ class AdminController extends Controller
         if ($this->loggedInAdmin) {
             $emailSubject = $request->input('main_key');
             $emailContent = $request->input('blog_description');
+            dd($emailContent);
+
             $emailIds = $request->input('email_ids');
             $validatedData = $request->validate([
                 'main_key' => 'required|max:29',
