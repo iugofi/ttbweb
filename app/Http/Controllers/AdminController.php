@@ -19,7 +19,7 @@ use App\Models\Eventmodel;
 use App\Models\Payments;
 use App\Models\Plandetails;
 use App\Models\Visitors;
-use Illuminate\Support\Facades\Mail;
+use Mail;
 use Illuminate\Support\Facades\Crypt;
 
 
@@ -1684,14 +1684,13 @@ class AdminController extends Controller
                 'email_ids' => 'required|array|min:1',
                 'email_ids.*' => 'email',
             ]);
-     $data = array('name'=>"Virat Gandhi");
 
             foreach ($emailIds as $email) {
 
-                Mail::send('Mail.Manual',['emailContent' => $emailContent], function($message) use ($email,$emailContent) {
-                    $message->to($email, 'Tutorials Point')->subject
-                       ('Laravel HTML Testing Mail');
-                    $message->from($email,'Virat Gandhi');
+                Mail::send('Mail.Manual',['emailContent' => $emailContent], function($message) use ($email,$emailSubject) {
+                    $message->to($email)->subject
+                       ($emailSubject);
+                    $message->from($email,'TTB');
                  });
             }
 
