@@ -1715,4 +1715,12 @@ class AdminController extends Controller
             return redirect('/setup');
         }
     }
+
+    public function mailcreatesave(Request $request){
+        if ($this->loggedInAdmin) {
+            dd($request);
+        } else {
+            return redirect('/setup');
+        }
+    }
 }

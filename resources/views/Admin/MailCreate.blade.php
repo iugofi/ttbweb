@@ -43,7 +43,7 @@
                     <div class="box-header">
                         <div class="box-title">Mail Create</div>
                     </div>
-                    <form method="post" id="message_manual_form" enctype="multipart/form-data">
+                    <form method="post" id="mail_create_form" enctype="multipart/form-data">
                         @csrf
                         <div class="box-body">
                             <div class="box text-center">
@@ -54,7 +54,7 @@
                                 <div class="xl:col-span-12 col-span-12">
                                     <label for="blog-Language" class="form-label">Mail Category</label>
                                     <select class="form-control block w-full text-[0.875rem] !rounded-md" data-trigger
-                                        name="blog_status" id="blog_status">
+                                        name="mail_cat" id="mail_cat">
                                         <option value="">Select</option>
                                         @php
                                             $status = DB::table('storepick')
@@ -86,7 +86,7 @@
                         <div class="box-footer">
                             <div class="text-end">
                                 {{-- <button type="button" class="ti-btn !py-1 !px-2 ti-btn-light !text-[0.75rem] !font-medium me-2">Save As Draft</button> --}}
-                                <input type="submit" value="Send Manual Message" id="message_manual_form_btn"
+                                <input type="submit" value="Send Manual Message" id="mail_create_form_btn"
                                     class="ti-btn bg-primary text-white !py-1 !px-2 !text-[0.75rem] !font-medium">
                             </div>
                         </div>
@@ -111,14 +111,14 @@
 
 <script>
        $(document).ready(function() {
-        $('#message_manual_form').submit(function(e) {
+        $('#mail_create_form').submit(function(e) {
             e.preventDefault();
-            $('#message_manual_form_btn').val('please wait..');
+            $('#mail_create_form_btn').val('please wait..');
             var token = $('meta[name="csrf-token"]').attr('content');
             var formData = new FormData($(this)[0]);
 
             $.ajax({
-                url: '{{ route('send.manual') }}',
+                url: '{{ route('mail.createsave') }}',
                 method: 'post',
                 data: formData,
                 headers: {
@@ -128,17 +128,17 @@
                 processData: false,
                 success: function(response) {
                     if (response.status == 400) {
-                        showError('EmailSubject', response.messages.EmailSubject);
+                        showError('mail_cat', response.messages.mail_cat);
                         showError('summernote', response.messages.EmailBody);
-                        showError('email_ids', response.messages.email_ids);
-                        $('#message_manual_form_btn').val('Send Manual Message');
+
+                        $('#mail_create_form_btn').val('Send Manual Message');
                     } else if (response.status == 200) {
                         $('.invalid-feedback').empty();
                         $("#show_success_alert").html(showMessage('success', response
                             .messages));
-                        $('#message_manual_form')[0].reset();
-                        removeValidationClass("#message_manual_form");
-                        $('#message_manual_form_btn').val('Send Manual Message');
+                        $('#mail_create_form')[0].reset();
+                        removeValidationClass("#mail_create_form");
+                        $('#mail_create_form_btn').val('Send Manual Message');
 
                     }
                 },
