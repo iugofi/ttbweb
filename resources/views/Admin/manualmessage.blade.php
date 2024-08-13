@@ -47,7 +47,7 @@
                         <div class="box-header">
                             <div class="box-title">Add Manual User</div>
                         </div>
-                        <form method="post" id="key_add_form" enctype="multipart/form-data">
+                        <form method="post" id="message_manual_form" enctype="multipart/form-data">
                             @csrf
                             <div class="box-body">
                                 <div class="box text-center">
@@ -84,47 +84,74 @@
                                         </select>
                                     </div>
 
-
-
                                 </div>
                             </div>
                             <div class="box-footer">
                                 <div class="text-end">
                                     {{-- <button type="button" class="ti-btn !py-1 !px-2 ti-btn-light !text-[0.75rem] !font-medium me-2">Save As Draft</button> --}}
-                                    <input type="submit" value="Save Key" id="key_save_btn"
+                                    <input type="submit" value="Send Manual Message" id="message_manual_form_btn"
                                         class="ti-btn bg-primary text-white !py-1 !px-2 !text-[0.75rem] !font-medium">
                                 </div>
                             </div>
                         </form>
                     </div>
                 </div>
-                {{-- <div class="xxl:col-span-3 xl:col-span-12 lg:col-span-12 md:col-span-12 sm:col-span-12 col-span-12">
-                <div class="box">
-                    <div class="box-header">
-                        <div class="box-title">
-                            Recent Plan
-                        </div>
-                    </div>
-                    <div class="box-body" id="recentpost">
-                        <ul class="list-group">
-                            <!-- Recent posts will be dynamically added here -->
-                        </ul>
-                    </div>
-                </div>
-            </div> --}}
+
             </div>
-            <!--End::row-1 -->
+
 
 
         </div>
     </div>
-
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">
     </script>
     <script src="{{ asset('assets/js/multiselect-dropdown.js') }}"></script>
+
+
+    <script>
+           $(document).ready(function() {
+            $('#message_manual_form').submit(function(e) {
+                e.preventDefault();
+                $('#message_manual_form_btn').val('please wait..');
+                var token = $('meta[name="csrf-token"]').attr('content');
+                var formData = new FormData($(this)[0]);
+
+                $.ajax({
+                    url: '{{ route('send.manual') }}',
+                    method: 'post',
+                    data: formData,
+                    headers: {
+                        'X-CSRF-TOKEN': token
+                    },
+                    contentType: false,
+                    processData: false,
+                    success: function(response) {
+                        if (response.status == 400) {
+                            showError('blog_title', response.messages.blog_title);
+                            showError('blog_slug', response.messages.blog_slug);
+                            showError('meta_title', response.messages.meta_title);
+                            $('#message_manual_form_btn').val('Send Manual Message');
+                        } else if (response.status == 200) {
+                            $('.invalid-feedback').empty();
+                            $("#show_success_alert").html(showMessage('success', response
+                                .messages));
+                            $('#blog_form')[0].reset();
+                            removeValidationClass("#blog_form");
+                            $('#message_manual_form_btn').val('Send Manual Message');
+
+                        }
+                    },
+                    error: function(xhr, status, error) {}
+                });
+            });
+
+
+           });
+    </script>
+
+
+
 
 
 

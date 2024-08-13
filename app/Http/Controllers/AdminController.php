@@ -1671,4 +1671,12 @@ class AdminController extends Controller
             return redirect('/setup');
         }
     }
+    public function sendmanual(Request $request)
+    {
+        if ($this->loggedInAdmin) {
+            dd($request);
+        } else {
+            return redirect('/setup');
+        }
+    }
 }
