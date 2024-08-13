@@ -47,7 +47,7 @@
                         <div class="box-header">
                             <div class="box-title">Add Manual User</div>
                         </div>
-                        <form method="post" id="message_manual_form" enctype="multipart/form-data">
+                        <form method="post" id="message_manual_form" action="{{route('send.manual')}}">
                             @csrf
                             <div class="box-body">
                                 <div class="box text-center">
@@ -116,7 +116,6 @@
                 $('#message_manual_form_btn').val('please wait..');
                 var token = $('meta[name="csrf-token"]').attr('content');
                 var formData = new FormData($(this)[0]);
-
                 $.ajax({
                     url: '{{ route('send.manual') }}',
                     method: 'post',
