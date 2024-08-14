@@ -8,5 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class SendMail extends Model
 {
     protected $table = 'Mail';
+    protected $fillable = [
+        'mail_category',
+        'mail_body',
+        'status',
+    ];
     use HasFactory;
 }
