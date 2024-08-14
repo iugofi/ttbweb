@@ -53,7 +53,7 @@
                             <div class="orders-delivery-address">
                                 <p class="mb-1 font-semibold">Mail Content</p>
                                 <p class="text-[#8c9097] dark:text-white/50 mb-0">
-                                    {{$maildatas->mail_body}}
+                                    {!! $maildatas->mail_body !!}
                                 </p>
                             </div>
                             <div class="delivery-date text-center ms-auto">
