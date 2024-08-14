@@ -55,10 +55,10 @@
                                     {!! $maildatas->mail_body !!}
                                 </p>
                             </div>
-                            <div class="delivery-date text-center ms-auto">
+                            {{-- <div class="delivery-date text-center ms-auto">
                                 <span class="text-[1.125rem] text-primary font-bold">13</span>
                                 <span class="font-semibold">Dec</span>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                     <div class="box-footer sm:flex block items-center w-full justify-between">
