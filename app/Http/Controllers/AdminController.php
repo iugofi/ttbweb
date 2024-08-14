@@ -1753,7 +1753,7 @@ class AdminController extends Controller
             $maildata=DB::table('Mail')
             ->join('storepick', 'storepick.PICK_ID', '=', 'Mail.mail_category')
             ->where('storepick.STORE_ID', '=', 'mail_category')
-            ->select('Mail.*', 'storepick.*')
+            ->select('Mail.*', 'storepick.*','Mail.id as m_id')
             ->get();
             return view('Admin.MailEditView',['maildata'=>$maildata]);
         } else {
@@ -1766,6 +1766,7 @@ class AdminController extends Controller
             $mail_id=$id;
 
             $maildata=SendMail::where('id','=',$mail_id)->first();
+
             dd($maildata);
             return view('Admin.MailEdit',['maildata'=>$maildata]);
         } else {
