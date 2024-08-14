@@ -1681,7 +1681,7 @@ class AdminController extends Controller
             $emailIds = $request->input('email_ids');
 
             $validator = Validator::make($request->all(), [
-                'EmailSubject' => 'required|max:29',
+                'EmailSubject' => 'required',
                 'email_content' => 'required',
                 'email_ids' => 'required|array|min:1',
                 'email_ids.*' => 'email',
