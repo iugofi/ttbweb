@@ -66,7 +66,7 @@
                         <div><span class="text-[#8c9097] dark:text-white/50 me-2">Status:</span><span class="badge bg-success/10 text-success">Active</span></div>
                         <div class="sm:mt-0 mt-2">
                             <a href="{{route('Mail_edit_con.page',$maildatas->id)}}" class="ti-btn !py-1 !px-2 !text-[0.75rem] !font-medium ti-btn-danger">Edit Mail</a>
-                            <button type="button" class="ti-btn !py-1 !px-2 !text-[0.75rem] !font-medium ti-btn-danger">Edit Mail</button>
+                            {{-- <button type="button" class="ti-btn !py-1 !px-2 !text-[0.75rem] !font-medium ti-btn-danger">Edit Mail</button> --}}
                         </div>
                     </div>
                 </div>
