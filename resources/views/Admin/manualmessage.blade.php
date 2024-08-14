@@ -63,7 +63,7 @@
                                         <div class="invalid-feedback"></div>
                                     </div>
                                     <div class="xl:col-span-12 col-span-12">
-                                        <label for="canonical-url" class="form-label">Email Subject</label>
+                                        <label for="canonical-url" class="form-label">Email Type</label>
                                     <div class="form-check">
                                         <input class="form-check-input" type="radio" name="flexRadioDefault"
                                             id="flexRadioDefault1">
