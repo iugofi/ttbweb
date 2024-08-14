@@ -1763,14 +1763,14 @@ class AdminController extends Controller
 
     public function Mail_edit_con($id){
         if ($this->loggedInAdmin) {
-            // dd($id);
+
             $maildata=DB::table('Mail')
             ->join('storepick', 'storepick.PICK_ID', '=', 'Mail.mail_category')
             ->where('storepick.STORE_ID', '=', 'mail_category')
             ->where('Mail.id', '=',$id)
             ->select('Mail.*', 'storepick.*')
             ->first();
-
+     dd($maildata);
             return view('Admin.MailEdit',['maildata'=>$maildata]);
         } else {
             return redirect('/setup');
