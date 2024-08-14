@@ -63,7 +63,7 @@
                                                 ->get();
                                         @endphp
                                         @foreach ($status as $statuss)
-                                            <option value="{{ $statuss->PICK_ID }}" >{{ $statuss->PICK_TEXT }}</option>
+                                            <option value="{{ $statuss->PICK_ID }}" {{ $statuss->PICK_ID == $maildata->mail_category ? 'selected' : '' }}>{{ $statuss->PICK_TEXT }}</option>
                                         @endforeach
 
                                     </select>
@@ -74,7 +74,7 @@
 
                                 <div class="xl:col-span-12 col-span-12">
                                     <label class="form-label">Email Content</label>
-                                    <textarea name="EmailBody" id="summernote" class="typing-text" cols="30" rows="10"></textarea>
+                                    <textarea name="EmailBody" id="summernote" class="typing-text" cols="30" rows="10">{{$maildata->mail_body}}</textarea>
                                     <div class="invalid-feedback"></div>
                                 </div>
 

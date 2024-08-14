@@ -1767,7 +1767,7 @@ class AdminController extends Controller
 
             $maildata=SendMail::where('id','=',$mail_id)->first();
 
-            dd($maildata);
+            // dd($maildata);
             return view('Admin.MailEdit',['maildata'=>$maildata]);
         } else {
             return redirect('/setup');
