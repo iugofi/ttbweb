@@ -71,7 +71,7 @@
                                             @php
                                                 $mail_data = DB::table('Mail')
                                                     ->join('storepick', 'storepick.PICK_ID', '=', 'Mail.mail_category')
-                                                    ->where('storepick.STORE_ID', '=', DB::raw('Mail.mail_category'))
+                                                    ->where('storepick.STORE_ID', '=', 'mail_category')
                                                     ->select('Mail.*', 'storepick.*')
                                                     ->get();
                                                     dd($mail_data);
