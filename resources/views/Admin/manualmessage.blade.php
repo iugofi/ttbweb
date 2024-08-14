@@ -57,6 +57,13 @@
                                 <div class="grid grid-cols-12 gap-4">
 
                                     <div class="xl:col-span-12 col-span-12">
+                                        <label for="canonical-url" class="form-label">Email Subject</label>
+                                        <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
+                                            id="EmailSubject" name="EmailSubject" placeholder="Email Subject" maxlength="29">
+                                        <div class="invalid-feedback"></div>
+                                    </div>
+
+                                    <div class="xl:col-span-12 col-span-12">
                                         <label for="canonical-url" class="form-label">Email Type</label>
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio" name="flexRadioDefault"
@@ -92,6 +99,9 @@
                                         </select>
                                         <div class="invalid-feedback"></div>
                                     </div>
+
+
+
 
                                     <div class="xl:col-span-12 col-span-12">
                                         <label class="form-label">Email Id</label>
