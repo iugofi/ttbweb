@@ -1791,7 +1791,7 @@ class AdminController extends Controller
                 if (!$news) {
                     return response()->json([
                         'status' => 404,
-                        'messages' => 'Blog not found'
+                        'messages' => 'Mail not found'
                     ]);
                 }
                 $mail_con->update([
@@ -1801,7 +1801,7 @@ class AdminController extends Controller
 
                 return response()->json([
                     'status' => 200,
-                    'messages' => 'blog Edit successfully'
+                    'messages' => 'Mail Edit successfully'
                 ]);
 
 
