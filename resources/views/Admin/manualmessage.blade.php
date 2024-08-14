@@ -59,7 +59,7 @@
                                     <div class="xl:col-span-12 col-span-12">
                                         <label for="canonical-url" class="form-label">Email Subject</label>
                                         <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
-                                            id="EmailSubject" name="EmailSubject" placeholder="Enter Key" maxlength="29">
+                                            id="EmailSubject" name="EmailSubject" placeholder="Email Subject" maxlength="29">
                                         <div class="invalid-feedback"></div>
                                     </div>
 
@@ -74,7 +74,7 @@
                                                     ->where('storepick.STORE_ID', '=', 'mail_category')
                                                     ->select('Mail.*', 'storepick.*')
                                                     ->get();
-                                                    dd($mail_data);
+                                                   
                                             @endphp
                                             @foreach ($mail_data as $mail_datas)
                                                 <option value="{{ $mail_datas->mail_body }}">
