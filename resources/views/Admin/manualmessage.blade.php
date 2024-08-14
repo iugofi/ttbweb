@@ -63,6 +63,21 @@
                                         <div class="invalid-feedback"></div>
                                     </div>
 
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                            id="flexRadioDefault1">
+                                        <label class="form-check-label" for="flexRadioDefault1">
+                                            Without HTML
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                            id="flexRadioDefault2" checked>
+                                        <label class="form-check-label" for="flexRadioDefault2">
+                                            With HTML
+                                        </label>
+                                    </div>
+
 
                                     <div class="xl:col-span-12 col-span-12">
                                         <label class="form-label">Email Content</label>
