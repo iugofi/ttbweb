@@ -1772,10 +1772,9 @@ class AdminController extends Controller
         }
     }
 
-    public function maileditsave(Request $request, $id)
+    public function maileditsave(Request $request)
 {
     if ($this->loggedInAdmin) {
-        dd($request);
         $validator = Validator::make($request->all(), [
             'mail_cat' => 'required',
             'EmailBody' => 'required|string|max:255',
@@ -1787,6 +1786,7 @@ class AdminController extends Controller
                 'messages' => $validator->getMessageBag()->toArray()
             ]);
         } else {
+            $id=$request->mal_id;
             $mail_con = SendMail::where('id', $id)->first();
 
             if (!$mail_con) {

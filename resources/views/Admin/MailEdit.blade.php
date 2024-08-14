@@ -53,6 +53,7 @@
 
                                 <div class="xl:col-span-12 col-span-12">
                                     <label for="blog-Language" class="form-label">Mail Category</label>
+                                    <input type="text" name="mal_id" value="{{$maildata->id}}" hidden>
                                     <select class="form-control block w-full text-[0.875rem] !rounded-md" data-trigger
                                         name="mail_cat" id="mail_cat">
                                         <option value="">Select</option>
