@@ -11,6 +11,7 @@ class SendMail extends Model
     protected $fillable = [
         'mail_category',
         'mail_body',
+        'mail_html',
         'status',
     ];
     use HasFactory;
