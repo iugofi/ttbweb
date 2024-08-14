@@ -1750,7 +1750,12 @@ class AdminController extends Controller
     }
     public function Mail_edit_page(){
         if ($this->loggedInAdmin) {
-            return view('Admin.MailEdit');
+            $maildata=DB::table('Mail')
+            ->join('storepick', 'storepick.PICK_ID', '=', 'Mail.mail_category')
+            ->where('storepick.STORE_ID', '=', 'mail_category')
+            ->select('Mail.*', 'storepick.*')
+            ->get();
+            return view('Admin.MailEdit',['maildata'=>$maildata]);
         } else {
             return redirect('/setup');
         }

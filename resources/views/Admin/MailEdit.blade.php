@@ -31,6 +31,9 @@
                     </li>
                 </ol>
             </div>
+            @foreach ($maildata as $maildatas)
+
+
             <div class="xl:col-span-6 xxl:col-span-3 lg:col-span-6 md:col-span-6 sm:col-span-12 col-span-12">
                 <div class="box">
                     <div class="box-header block !justify-start">
@@ -38,7 +41,7 @@
 
                             <div class="flex-grow">
                                 <a href="javascript:void(0)">
-                                    <span class="text-[0.875rem] font-semibold">NewsLetter</span>
+                                    <span class="text-[0.875rem] font-semibold">{{$maildatas->PICK_TEXT}}</span>
                                 </a>
 
                             </div>
@@ -50,7 +53,7 @@
                             <div class="orders-delivery-address">
                                 <p class="mb-1 font-semibold">Mail Content</p>
                                 <p class="text-[#8c9097] dark:text-white/50 mb-0">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, nobis mollitia consequatur rem deleniti animi illo eveniet temporibus natus dolore perspiciatis nam reiciendis ea, placeat quas dicta quam illum!
+                                    {{$maildatas->mail_body}}
                                 </p>
                             </div>
                             <div class="delivery-date text-center ms-auto">
@@ -67,7 +70,7 @@
                     </div>
                 </div>
             </div>
-
+            @endforeach
         </div>
     </div>
 @endsection
