@@ -63,7 +63,7 @@
                                                 ->get();
                                         @endphp
                                         @foreach ($status as $statuss)
-                                            <option value="{{ $statuss->PICK_ID }}" {{ $statuss->PICK_ID == $maildata->mail_category ? 'selected' : '' }}>{{ $statuss->PICK_TEXT }}</option>
+                                            <option value="{{ $statuss->PICK_ID }}" >{{ $statuss->PICK_TEXT }}</option>
                                         @endforeach
 
                                     </select>
