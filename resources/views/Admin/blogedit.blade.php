@@ -122,7 +122,6 @@
 
                                         </select>
                                         <div class="invalid-feedback"></div>
-
                                     </div>
 
                                     <div class="xl:col-span-12 col-span-12 blog-images-container">

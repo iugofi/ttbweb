@@ -1722,7 +1722,7 @@ class AdminController extends Controller
 
             $validator = Validator::make($request->all(), [
                 'mail_cat' => 'required',
-                'EmailBody' => 'required|string|max:255',
+                'EmailBody' => 'required',
 
             ]);
 
@@ -1777,7 +1777,7 @@ class AdminController extends Controller
     if ($this->loggedInAdmin) {
         $validator = Validator::make($request->all(), [
             'mail_cat' => 'required',
-            'EmailBody' => 'required|string|max:255',
+            'EmailBody' => 'required',
         ]);
 
         if ($validator->fails()) {
