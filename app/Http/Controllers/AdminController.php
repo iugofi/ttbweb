@@ -1730,7 +1730,7 @@ class AdminController extends Controller
             $validator = Validator::make($request->all(), [
                 'mail_cat' => 'required',
                 'EmailBody' => 'required',
-                'EmailHTML' =>'required',
+
             ]);
 
             if ($validator->fails()) {
@@ -1806,7 +1806,8 @@ class AdminController extends Controller
 
             $mail_con->update([
                 'mail_category' => $request->mail_cat,
-                'mail_body' => $request->EmailBody
+                'mail_body' => $request->EmailBody,
+                'mail_html' => $request->EmailHTML
             ]);
 
             return response()->json([

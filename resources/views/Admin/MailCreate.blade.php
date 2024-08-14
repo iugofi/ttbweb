@@ -136,7 +136,7 @@
                     if (response.status == 400) {
                         showError('mail_cat', response.messages.mail_cat);
                         showError('summernote', response.messages.EmailBody);
-                        showError('EmailHTML', response.messages.EmailHTML);
+                       
                         $('#mail_create_form_btn').val('Send Manual Message');
                     } else if (response.status == 200) {
                         $('.invalid-feedback').empty();

@@ -79,6 +79,12 @@
                                     <div class="invalid-feedback"></div>
                                 </div>
 
+                                <div class="xl:col-span-12 col-span-12">
+                                    <label class="form-label">Email Content HTML (optional)</label>
+                                    <textarea name="EmailHTML"  class="form-control block w-full text-[0.875rem]">{{$maildata->mail_html}}</textarea>
+                                    <div class="invalid-feedback"></div>
+                                </div>
+
                             </div>
                         </div>
                         <div class="box-footer">
@@ -128,7 +134,6 @@
                     if (response.status == 400) {
                         showError('mail_cat', response.messages.mail_cat);
                         showError('summernote', response.messages.EmailBody);
-
                         $('#mail_edit_sub_form_btn').val('Send Manual Message');
                     } else if (response.status == 200) {
                         $('.invalid-feedback').empty();
