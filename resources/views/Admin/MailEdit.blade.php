@@ -38,7 +38,7 @@
 
                             <div class="flex-grow">
                                 <a href="javascript:void(0)">
-                                    <span class="text-[0.875rem] font-semibold">Denim Zep.Co Sweat Shirt</span>
+                                    <span class="text-[0.875rem] font-semibold">NewsLetter</span>
                                 </a>
 
                             </div>
