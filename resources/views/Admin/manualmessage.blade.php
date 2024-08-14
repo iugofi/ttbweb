@@ -57,29 +57,22 @@
                                 <div class="grid grid-cols-12 gap-4">
 
                                     <div class="xl:col-span-12 col-span-12">
-                                        <label for="canonical-url" class="form-label">Email Subject</label>
-                                        <input type="text" class="form-control block w-full text-[0.875rem] !rounded-md"
-                                            id="EmailSubject" name="EmailSubject" placeholder="Email Subject" maxlength="29">
-                                        <div class="invalid-feedback"></div>
-                                    </div>
-                                    <div class="xl:col-span-12 col-span-12">
                                         <label for="canonical-url" class="form-label">Email Type</label>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                            id="flexRadioDefault1">
-                                        <label class="form-check-label" for="flexRadioDefault1">
-                                            Without HTML
-                                        </label>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                id="flexRadioDefault1" value="without_html">
+                                            <label class="form-check-label" for="flexRadioDefault1">
+                                                Without HTML
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                id="flexRadioDefault2" value="with_html" checked>
+                                            <label class="form-check-label" for="flexRadioDefault2">
+                                                With HTML
+                                            </label>
+                                        </div>
                                     </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                            id="flexRadioDefault2" checked>
-                                        <label class="form-check-label" for="flexRadioDefault2">
-                                            With HTML
-                                        </label>
-                                    </div>
-                                    </div>
-
 
                                     <div class="xl:col-span-12 col-span-12">
                                         <label class="form-label">Email Content</label>
@@ -91,10 +84,9 @@
                                                     ->where('storepick.STORE_ID', '=', 'mail_category')
                                                     ->select('Mail.*', 'storepick.*')
                                                     ->get();
-
                                             @endphp
                                             @foreach ($mail_data as $mail_datas)
-                                                <option value="{{ $mail_datas->mail_body }}">
+                                                <option value="{{ $mail_datas->mail_body }}" data-html="{{ $mail_datas->mail_html }}">
                                                     {{ $mail_datas->PICK_TEXT }}</option>
                                             @endforeach
                                         </select>
@@ -136,6 +128,21 @@
 
         </div>
     </div>
+
+    <script>
+        document.querySelectorAll('input[name="flexRadioDefault"]').forEach((radio) => {
+            radio.addEventListener('change', function () {
+                const selectedType = this.value;
+                const emailContentSelect = document.getElementById('email_content');
+
+                Array.from(emailContentSelect.options).forEach(option => {
+                    option.value = selectedType === 'without_html'
+                                   ? option.getAttribute('value')
+                                   : option.getAttribute('data-html');
+                });
+            });
+        });
+    </script>
 
     <script src="{{ asset('assets/js/multiselect-dropdown.js') }}"></script>
 
