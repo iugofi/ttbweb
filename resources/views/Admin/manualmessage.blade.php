@@ -62,7 +62,8 @@
                                             id="EmailSubject" name="EmailSubject" placeholder="Email Subject" maxlength="29">
                                         <div class="invalid-feedback"></div>
                                     </div>
-
+                                    <div class="xl:col-span-12 col-span-12">
+                                        <label for="canonical-url" class="form-label">Email Subject</label>
                                     <div class="form-check">
                                         <input class="form-check-input" type="radio" name="flexRadioDefault"
                                             id="flexRadioDefault1">
@@ -76,6 +77,7 @@
                                         <label class="form-check-label" for="flexRadioDefault2">
                                             With HTML
                                         </label>
+                                    </div>
                                     </div>
 
 
