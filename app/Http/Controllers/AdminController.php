@@ -1764,14 +1764,51 @@ class AdminController extends Controller
     public function Mail_edit_con($id){
         if ($this->loggedInAdmin) {
             $mail_id=$id;
-
             $maildata=SendMail::where('id','=',$mail_id)->first();
-
             // dd($maildata);
             return view('Admin.MailEdit',['maildata'=>$maildata]);
         } else {
             return redirect('/setup');
         }
     }
+
+    public function maileditsave($id){
+        if ($this->loggedInAdmin) {
+            $validator = Validator::make($request->all(), [
+                'mail_cat' => 'required',
+                'EmailBody' => 'required|string|max:255',
+            ]);
+
+            if ($validator->fails()) {
+                return response()->json([
+                    'status' => 400,
+                    'messages' => $validator->getMessageBag()->toArray() // Convert messages to array
+                ]);
+            } else {
+
+                $mail_con = SendMail::where('id', $id)->first();
+
+                if (!$news) {
+                    return response()->json([
+                        'status' => 404,
+                        'messages' => 'Blog not found'
+                    ]);
+                }
+                $mail_con->update([
+                    'mail_category' => $request->mail_cat,
+                    'mail_body' => $request->EmailBody
+                ]);
+
+                return response()->json([
+                    'status' => 200,
+                    'messages' => 'blog Edit successfully'
+                ]);
+
+
+        } else {
+            return redirect('/setup');
+        }
+    }
+
 
 }

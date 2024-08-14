@@ -43,7 +43,7 @@
                     <div class="box-header">
                         <div class="box-title">Mail Edit</div>
                     </div>
-                    <form method="post" id="mail_create_form" enctype="multipart/form-data">
+                    <form method="post" id="mail_edit_sub_form" enctype="multipart/form-data">
                         @csrf
                         <div class="box-body">
                             <div class="box text-center">
@@ -83,7 +83,7 @@
                         <div class="box-footer">
                             <div class="text-end">
                                 {{-- <button type="button" class="ti-btn !py-1 !px-2 ti-btn-light !text-[0.75rem] !font-medium me-2">Save As Draft</button> --}}
-                                <input type="submit" value="Send Manual Message" id="mail_create_form_btn"
+                                <input type="submit" value="Send Manual Message" id="mail_edit_sub_form_btn"
                                     class="ti-btn bg-primary text-white !py-1 !px-2 !text-[0.75rem] !font-medium">
                             </div>
                         </div>
@@ -108,14 +108,14 @@
 
 <script>
        $(document).ready(function() {
-        $('#mail_create_form').submit(function(e) {
+        $('#mail_edit_sub_form').submit(function(e) {
             e.preventDefault();
-            $('#mail_create_form_btn').val('please wait..');
+            $('#mail_edit_sub_form_btn').val('please wait..');
             var token = $('meta[name="csrf-token"]').attr('content');
             var formData = new FormData($(this)[0]);
 
             $.ajax({
-                url: '{{ route('mail.createsave') }}',
+                url: '{{ route('mail.editsave') }}',
                 method: 'post',
                 data: formData,
                 headers: {
@@ -128,14 +128,14 @@
                         showError('mail_cat', response.messages.mail_cat);
                         showError('summernote', response.messages.EmailBody);
 
-                        $('#mail_create_form_btn').val('Send Manual Message');
+                        $('#mail_edit_sub_form_btn').val('Send Manual Message');
                     } else if (response.status == 200) {
                         $('.invalid-feedback').empty();
                         $("#show_success_alert").html(showMessage('success', response
                             .messages));
-                        $('#mail_create_form')[0].reset();
-                        removeValidationClass("#mail_create_form");
-                        $('#mail_create_form_btn').val('Send Manual Message');
+                        $('#mail_edit_sub_form')[0].reset();
+                        removeValidationClass("#mail_edit_sub_form");
+                        $('#mail_edit_sub_form_btn').val('Send Manual Message');
 
                     }
                 },

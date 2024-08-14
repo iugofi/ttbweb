@@ -43,7 +43,6 @@
                                 <a href="javascript:void(0)">
                                     <span class="text-[0.875rem] font-semibold">{{$maildatas->PICK_TEXT}}</span>
                                 </a>
-
                             </div>
 
                         </div>
