@@ -1700,7 +1700,7 @@ class AdminController extends Controller
                         $message->from('smtktm098@gmail.com', 'TTB');
                     });
                     DB::table('sent_mail')->insert([
-                        'email' => $email,
+                        'email_id' => $email,
                         'subject' => $emailSubject,
                         'body' => $EmailBody,
                         'created_at' => now(),
