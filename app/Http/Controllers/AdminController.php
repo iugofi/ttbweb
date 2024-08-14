@@ -1761,4 +1761,13 @@ class AdminController extends Controller
         }
     }
 
+    public function Mail_edit_con($id){
+        if ($this->loggedInAdmin) {
+            dd($id);
+            return view('Admin.MailEdit');
+        } else {
+            return redirect('/setup');
+        }
+    }
+
 }
