@@ -80,7 +80,7 @@
 
                                 <div class="xl:col-span-12 col-span-12">
                                     <label class="form-label">Email Content HTML (optional)</label>
-                                    <textarea name="EmailHTML"  class="typing-text" cols="40" rows="20"></textarea>
+                                    <textarea name="EmailHTML"  class="typing-text"></textarea>
                                     <div class="invalid-feedback"></div>
                                 </div>
 
