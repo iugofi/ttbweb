@@ -1782,7 +1782,7 @@ class AdminController extends Controller
 
     public function maileditsave(Request $request)
 {
-    dd($request);
+ 
     if ($this->loggedInAdmin) {
         $validator = Validator::make($request->all(), [
             'mail_cat' => 'required',
