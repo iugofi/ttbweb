@@ -41,7 +41,7 @@
 
                             <div class="flex-grow">
                                 <a href="javascript:void(0)">
-                                    <span class="text-[0.875rem] font-semibold">{{$maildatas->PICK_TEXT}}</span>
+                                    <span class="text-[0.875rem] font-semibold"> <pre>{{$maildatas->PICK_TEXT}} </pre></span>
                                 </a>
 
                             </div>
