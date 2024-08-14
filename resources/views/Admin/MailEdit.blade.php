@@ -137,6 +137,7 @@
                         $('#mail_edit_sub_form')[0].reset();
                         removeValidationClass("#mail_edit_sub_form");
                         $('#mail_edit_sub_form_btn').val('Send Manual Message');
+                        window.location.href = "{{ route('Mail_edit.page') }}";
 
                     }
                 },
