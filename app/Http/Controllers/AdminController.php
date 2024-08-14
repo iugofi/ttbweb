@@ -1755,7 +1755,7 @@ class AdminController extends Controller
             ->where('storepick.STORE_ID', '=', 'mail_category')
             ->select('Mail.*', 'storepick.*')
             ->get();
-            return view('Admin.MailEdit',['maildata'=>$maildata]);
+            return view('Admin.MailEditView',['maildata'=>$maildata]);
         } else {
             return redirect('/setup');
         }
@@ -1763,8 +1763,15 @@ class AdminController extends Controller
 
     public function Mail_edit_con($id){
         if ($this->loggedInAdmin) {
-            dd($id);
-            return view('Admin.MailEdit');
+            // dd($id);
+            $maildata=DB::table('Mail')
+            ->join('storepick', 'storepick.PICK_ID', '=', 'Mail.mail_category')
+            ->where('storepick.STORE_ID', '=', 'mail_category')
+            ->where('Mail.id', '=',$id)
+            ->select('Mail.*', 'storepick.*')
+            ->get();
+
+            return view('Admin.MailEdit',['maildata'=>$maildata]);
         } else {
             return redirect('/setup');
         }
