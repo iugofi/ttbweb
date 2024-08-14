@@ -1764,7 +1764,7 @@ class AdminController extends Controller
     public function Mail_edit_con($id){
         if ($this->loggedInAdmin) {
 
-            $maildata=SendMail::all();
+            $maildata=SendMail::first();
             dd($maildata);
             return view('Admin.MailEdit',['maildata'=>$maildata]);
         } else {
