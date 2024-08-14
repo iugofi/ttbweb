@@ -1677,12 +1677,12 @@ class AdminController extends Controller
     {
         if ($this->loggedInAdmin) {
             $emailSubject = $request->input('EmailSubject');
-            $EmailBody = $request->input('EmailBody');
+            $EmailBody = $request->input('email_content');
             $emailIds = $request->input('email_ids');
 
             $validator = Validator::make($request->all(), [
                 'EmailSubject' => 'required|max:29',
-                'EmailBody' => 'required',
+                'email_content' => 'required',
                 'email_ids' => 'required|array|min:1',
                 'email_ids.*' => 'email',
             ]);
@@ -1699,6 +1699,13 @@ class AdminController extends Controller
                         $message->to($email)->subject($emailSubject);
                         $message->from('smtktm098@gmail.com', 'TTB');
                     });
+                    DB::table('sent_mail')->insert([
+                        'email' => $email,
+                        'subject' => $emailSubject,
+                        'body' => $EmailBody,
+                        'created_at' => now(),
+                        'updated_at' => now(),
+                    ]);
                 }
                 return response()->json([
                     'status' => 200,

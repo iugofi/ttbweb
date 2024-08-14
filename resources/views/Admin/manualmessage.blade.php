@@ -74,7 +74,7 @@
                                                     ->where('storepick.STORE_ID', '=', 'mail_category')
                                                     ->select('Mail.*', 'storepick.*')
                                                     ->get();
-                                                   
+
                                             @endphp
                                             @foreach ($mail_data as $mail_datas)
                                                 <option value="{{ $mail_datas->mail_body }}">
@@ -148,7 +148,7 @@
                     success: function(response) {
                         if (response.status == 400) {
                             showError('EmailSubject', response.messages.EmailSubject);
-                            showError('summernote', response.messages.EmailBody);
+                            showError('email_content', response.messages.email_content);
                             showError('email_ids', response.messages.email_ids);
                             $('#message_manual_form_btn').val('Send Manual Message');
                         } else if (response.status == 200) {
