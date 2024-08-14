@@ -1769,7 +1769,7 @@ class AdminController extends Controller
             ->where('storepick.STORE_ID', '=', 'mail_category')
             ->where('Mail.id', '=',$id)
             ->select('Mail.*', 'storepick.*')
-            ->get();
+            ->first();
 
             return view('Admin.MailEdit',['maildata'=>$maildata]);
         } else {
