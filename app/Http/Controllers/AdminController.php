@@ -1772,43 +1772,43 @@ class AdminController extends Controller
         }
     }
 
-    public function maileditsave($id){
-        if ($this->loggedInAdmin) {
-            $validator = Validator::make($request->all(), [
-                'mail_cat' => 'required',
-                'EmailBody' => 'required|string|max:255',
+    public function maileditsave(Request $request, $id)
+{
+    if ($this->loggedInAdmin) {
+        $validator = Validator::make($request->all(), [
+            'mail_cat' => 'required',
+            'EmailBody' => 'required|string|max:255',
+        ]);
+
+        if ($validator->fails()) {
+            return response()->json([
+                'status' => 400,
+                'messages' => $validator->getMessageBag()->toArray()
+            ]);
+        } else {
+            $mail_con = SendMail::where('id', $id)->first();
+
+            if (!$mail_con) { 
+                return response()->json([
+                    'status' => 404,
+                    'messages' => 'Mail not found'
+                ]);
+            }
+
+            $mail_con->update([
+                'mail_category' => $request->mail_cat,
+                'mail_body' => $request->EmailBody
             ]);
 
-            if ($validator->fails()) {
-                return response()->json([
-                    'status' => 400,
-                    'messages' => $validator->getMessageBag()->toArray() // Convert messages to array
-                ]);
-            } else {
-
-                $mail_con = SendMail::where('id', $id)->first();
-
-                if (!$news) {
-                    return response()->json([
-                        'status' => 404,
-                        'messages' => 'Mail not found'
-                    ]);
-                }
-                $mail_con->update([
-                    'mail_category' => $request->mail_cat,
-                    'mail_body' => $request->EmailBody
-                ]);
-
-                return response()->json([
-                    'status' => 200,
-                    'messages' => 'Mail Edit successfully'
-                ]);
-
-
-        } else {
-            return redirect('/setup');
+            return response()->json([
+                'status' => 200,
+                'messages' => 'Mail Edit successfully'
+            ]);
         }
+    } else {
+        return redirect('/setup');
     }
+}
 
 
 }
