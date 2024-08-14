@@ -228,6 +228,12 @@
                         </a>
                     </li>
                     <li class="slide">
+                        <a href="{{route('Mail_edit.page')}}" class="side-menu__item">
+                            <i class="bi bi-send side-menu__icon"></i>
+                            <span class="side-menu__label">Mail Edit</span>
+                        </a>
+                    </li>
+                    <li class="slide">
                         <a href="{{route('manual.page')}}" class="side-menu__item">
                             <i class="bi bi-send side-menu__icon"></i>
                             <span class="side-menu__label">Manual Send Message</span>

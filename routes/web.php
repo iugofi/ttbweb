@@ -343,6 +343,8 @@ Route::get('/mailtest', [UserController::class, 'mailtest'])->name('admin.mailte
 
          Route::get('/Mail_create_page', [AdminController::class, 'Mail_create_page'])->name('Mail_create.page');
          Route::post('/mailcreatesave', [AdminController::class, 'mailcreatesave'])->name('mail.createsave');
+         Route::get('/Mail_edit_page', [AdminController::class, 'Mail_edit_page'])->name('Mail_edit.page');
+
 
 
 

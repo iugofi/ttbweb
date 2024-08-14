@@ -1748,4 +1748,12 @@ class AdminController extends Controller
             return redirect('/setup');
         }
     }
+    public function Mail_edit_page(){
+        if ($this->loggedInAdmin) {
+            return view('Admin.MailEdit');
+        } else {
+            return redirect('/setup');
+        }
+    }
+
 }
