@@ -41,7 +41,7 @@
 
                             <div class="flex-grow">
                                 <a href="javascript:void(0)">
-                                    <span class="text-[0.875rem] font-semibold"> <pre>{{$maildatas->PICK_TEXT}} </pre></span>
+                                    <span class="text-[0.875rem] font-semibold">{{$maildatas->PICK_TEXT}}</span>
                                 </a>
 
                             </div>
@@ -53,7 +53,7 @@
                             <div class="orders-delivery-address">
                                 <p class="mb-1 font-semibold">Mail Content</p>
                                 <p class="text-[#8c9097] dark:text-white/50 mb-0">
-                                    {{$maildatas->mail_body}}
+                                    <pre> {{$maildatas->mail_body}} </pre>
                                 </p>
                             </div>
                             <div class="delivery-date text-center ms-auto">
