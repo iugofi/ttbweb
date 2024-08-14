@@ -1775,6 +1775,7 @@ class AdminController extends Controller
     public function maileditsave(Request $request, $id)
 {
     if ($this->loggedInAdmin) {
+        dd($request);
         $validator = Validator::make($request->all(), [
             'mail_cat' => 'required',
             'EmailBody' => 'required|string|max:255',
@@ -1788,7 +1789,7 @@ class AdminController extends Controller
         } else {
             $mail_con = SendMail::where('id', $id)->first();
 
-            if (!$mail_con) { 
+            if (!$mail_con) {
                 return response()->json([
                     'status' => 404,
                     'messages' => 'Mail not found'
