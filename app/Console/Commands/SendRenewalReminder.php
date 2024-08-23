@@ -29,7 +29,7 @@ class SendRenewalReminder extends Command
      * @return int
      */
 
-     public function __construct()
+    public function __construct()
     {
         parent::__construct();
     }
@@ -39,11 +39,19 @@ class SendRenewalReminder extends Command
         $reminders = DB::table('payments')
             ->join('ttbkey', 'payments.product_id', '=', 'ttbkey.product_id')
             ->join('usersall', 'usersall.id', '=', 'payments.user_id')
-            ->select('payments.user_id', 'payments.product_id', 'usersall.email', 'ttbkey.key_activation_date', 'ttbkey.key_expirey_date')
-            ->selectRaw('DATEDIFF(ttbkey.key_expirey_date, CURDATE()) AS day_difference')
+            ->select(
+                'payments.user_id',
+                'payments.product_id',
+                'usersall.email',
+                'ttbkey.key_activation_date',
+                'ttbkey.key_expirey_date',
+                DB::raw('DATEDIFF(ttbkey.key_expirey_date, CURDATE()) AS day_difference')
+            )
             ->where('ttbkey.is_key_used', 1)
-            ->whereRaw('DATEDIFF(ttbkey.key_expirey_date, CURDATE()) = 1')
+            ->whereIn(DB::raw('DATEDIFF(ttbkey.key_expirey_date, CURDATE())'), [1, 2, 3])
+            ->where(DB::raw('DATEDIFF(ttbkey.key_expirey_date, CURDATE())'), '>', 0)
             ->get();
+
 
         foreach ($reminders as $reminder) {
             // Send email (you need to implement the mailable)
