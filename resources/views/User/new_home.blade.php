@@ -1529,7 +1529,7 @@
                                     <img class="h-16 w-16 rounded-full shadow-2xl"
                                         src="https://pbs.twimg.com/profile_images/830533062807191552/TbkWKnnv_400x400.jpg"
                                         alt="Img" style="width: 65px !important;">
-                                    <p class="text-teal-400 font-bold text-xl mb-3">Sup3r-Us3r</p>
+                                    <p class="text-teal-400 font-bold text-xl mb-3 text-center">Sup3r-Us3r</p>
                                     <p class="mt-3 text-gray-600 text-center">"Lorem ipsum dolor sit amet
                                         consectetur adipisicing elit. Quod, quibusdam!"</p>
                                 </div>
@@ -1537,7 +1537,7 @@
                                     <img class="h-16 w-16 rounded-full shadow-2xl"
                                         src="https://pbs.twimg.com/profile_images/830533062807191552/TbkWKnnv_400x400.jpg"
                                         alt="Img" style="width: 65px !important;">
-                                    <p class="text-teal-400 font-bold text-xl mb-3">Sup3r-Us3r</p>
+                                    <p class="text-teal-400 font-bold text-xl mb-3 text-center">Sup3r-Us3r</p>
                                     <p class="mt-3 text-gray-600 text-center">"Lorem ipsum dolor sit amet
                                         consectetur adipisicing elit. Quod, quibusdam!"</p>
                                 </div>
@@ -1545,7 +1545,7 @@
                                     <img class="h-16 w-16 rounded-full shadow-2xl"
                                         src="https://pbs.twimg.com/profile_images/830533062807191552/TbkWKnnv_400x400.jpg"
                                         alt="Img" style="width: 65px !important;">
-                                    <p class="text-teal-400 font-bold text-xl mb-3">Sup3r-Us3r</p>
+                                    <p class="text-teal-400 font-bold text-xl mb-3 text-center">Sup3r-Us3r</p>
                                     <p class="mt-3 text-gray-600 text-center">"Lorem ipsum dolor sit amet
                                         consectetur adipisicing elit. Quod, quibusdam!"</p>
                                 </div>
@@ -1553,7 +1553,7 @@
                                     <img class="h-16 w-16 rounded-full shadow-2xl"
                                         src="https://pbs.twimg.com/profile_images/830533062807191552/TbkWKnnv_400x400.jpg"
                                         alt="Img" style="width: 65px !important;">
-                                    <p class="text-teal-400 font-bold text-xl mb-3">Sup3r-Us3r</p>
+                                    <p class="text-teal-400 font-bold text-xl mb-3 text-center">Sup3r-Us3r</p>
                                     <p class="mt-3 text-gray-600 text-center">"Lorem ipsum dolor sit amet
                                         consectetur adipisicing elit. Quod, quibusdam!"</p>
                                 </div>
@@ -1561,7 +1561,7 @@
                                     <img class="h-16 w-16 rounded-full shadow-2xl"
                                         src="https://pbs.twimg.com/profile_images/830533062807191552/TbkWKnnv_400x400.jpg"
                                         alt="Img" style="width: 65px !important;">
-                                    <p class="text-teal-400 font-bold text-xl mb-3">Sup3r-Us3r</p>
+                                    <p class="text-teal-400 font-bold text-xl mb-3 text-center">Sup3r-Us3r</p>
                                     <p class="mt-3 text-gray-600 text-center">"Lorem ipsum dolor sit amet
                                         consectetur adipisicing elit. Quod, quibusdam!"</p>
                                 </div>
@@ -1569,7 +1569,7 @@
                                     <img class="h-16 w-16 rounded-full shadow-2xl"
                                         src="https://pbs.twimg.com/profile_images/830533062807191552/TbkWKnnv_400x400.jpg"
                                         alt="Img" style="width: 65px !important;">
-                                    <p class="text-teal-400 font-bold text-xl mb-3">Sup3r-Us3r</p>
+                                    <p class="text-teal-400 font-bold text-xl mb-3 text-center">Sup3r-Us3r</p>
                                     <p class="mt-3 text-gray-600 text-center">"Lorem ipsum dolor sit amet
                                         consectetur adipisicing elit. Quod, quibusdam!"</p>
                                 </div>
@@ -1577,7 +1577,7 @@
                                     <img class="h-16 w-16 rounded-full shadow-2xl"
                                         src="https://pbs.twimg.com/profile_images/830533062807191552/TbkWKnnv_400x400.jpg"
                                         alt="Img" style="width: 65px !important;">
-                                    <p class="text-teal-400 font-bold text-xl mb-3">Sup3r-Us3r</p>
+                                    <p class="text-teal-400 font-bold text-xl mb-3 text-center">Sup3r-Us3r</p>
                                     <p class="mt-3 text-gray-600 text-center">"Lorem ipsum dolor sit amet
                                         consectetur adipisicing elit. Quod, quibusdam!"</p>
                                 </div>
