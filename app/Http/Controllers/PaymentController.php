@@ -274,11 +274,11 @@ class PaymentController extends Controller
 
             if ($id_key !== 'N/A' && $pay_id) {
                 Mail::send('Mail.sendkey', ['id_key' => $id_key, 'payment_intent' => $pay_id], function ($message) use ($response) {
-                    $message->to($response->customer_email)->subject('TTB Internet Security Vpn Key');
+                    $message->to($response->customer_email)->subject('TTB Internet Security');
                 });
             } else {
                 Mail::send('Mail.fail', ['customer_email' => $response->customer_email], function ($message) use ($response) {
-                    $message->to("kunal.iugofi@gmail.com")->subject('TTB Internet Security Vpn Key - Failed');
+                    $message->to("kunal.iugofi@gmail.com")->subject('TTB Internet Security - Failed');
                 });
             }
 
@@ -327,7 +327,7 @@ class PaymentController extends Controller
             $response['last_name'] = $user->lastname;
         }
 
-       
+
 
         return response()->json($response);
     } else {
