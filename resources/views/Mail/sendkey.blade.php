@@ -1,31 +1,33 @@
 @php
-    $allowedProductIds = [1, 2, 3, 5, 9, 10, 11, 12, 13];
-    $oneYearAgo = \Carbon\Carbon::now()->subYear();
+    // $allowedProductIds = [1, 2, 3, 5, 9, 10, 11, 12, 13];
+    // $oneYearAgo = \Carbon\Carbon::now()->subYear();
 
     $paymentDetails = DB::table('payments')
         ->join('product_details', 'product_details.id', '=', 'payments.product_id')
         ->join('usersall', 'usersall.id', '=', 'payments.user_id')
         ->join('ttbkey', 'ttbkey.id', '=', 'payments.product_key')
         ->select(
-            'payments.id', 
-            'usersall.firstname', 
-            'usersall.lastname', 
+            'payments.id',
+            'usersall.firstname',
+            'usersall.lastname',
             'usersall.email',
-            'ttbkey.main_key', 
-            'payments.pay_id', 
-            'payments.product_key', 
-            'payments.created_at', 
-            DB::raw('DATE_ADD(payments.created_at, INTERVAL 1 YEAR) AS expire_date'),
-            'payments.amount_total', 
-            'payments.currency', 
-            'payments.payment_method_types', 
-            'product_details.key_type', 
+            'ttbkey.main_key',
+            'payments.pay_id',
+            'payments.product_key',
+            // 'payments.created_at',
+            'ttbkey.key_activation_date as created_at',
+            'ttbkey.key_expirey_date as expire_date',
+            // DB::raw('DATE_ADD(payments.created_at, INTERVAL 1 YEAR) AS expire_date'),
+            'payments.amount_total',
+            'payments.currency',
+            'payments.payment_method_types',
+            'product_details.key_type',
             'product_details.plan_id'
         )
         ->where('payments.pay_id', $payment_intent)
         ->where('payments.product_key', $id_key)
-        ->whereIn('payments.product_id', $allowedProductIds)
-        ->where('payments.created_at', '>', $oneYearAgo)
+        // ->whereIn('payments.product_id', $allowedProductIds)
+        // ->where('payments.created_at', '>', $oneYearAgo)
         ->first();
 
     if ($paymentDetails) {
@@ -982,7 +984,7 @@
 </body>
 @else
 <p>please Contact Support Team</p>
-<a href="{{route('user.contact_as')}}">Contact Page</a>  
+<a href="{{route('user.contact_as')}}">Contact Page</a>
 @endif
 
 </html>
