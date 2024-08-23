@@ -54023,7 +54023,7 @@ li.footer-icon:hover i.fa-brands.fa-square-pinterest {
 /* New End point section css start */
 
 .endpoint-slider .item {
-    height: 228px;
+    height: 228px !important;
 }
 .endpoint-slider .item img {
     margin: auto !important;
