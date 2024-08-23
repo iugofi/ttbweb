@@ -54022,8 +54022,8 @@ li.footer-icon:hover i.fa-brands.fa-square-pinterest {
 
 /* New End point section css start */
 
-.endpoint-slider img {
-    margin: auto !important;
+.endpoint-slider .item img {
+    margin: auto;
 }
 
 .endpoint-slider .owl-stage {
