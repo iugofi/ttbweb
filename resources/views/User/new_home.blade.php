@@ -58,11 +58,13 @@
                                             class="max-w-[550px] lg:w-[600px] md:w-full  absolute top-1/2 left-0 transform  -translate-y-1/2">
 
                                             <div data-swiper-parallax="200" class="wpo-hero-title-top">
-                                                <h2 class="dark-black">TTB–The Intelligent Threat Protection<br> at your fingertips </h2>
+                                                <h2 class="dark-black">TTB–The Intelligent Threat Protection<br> at your
+                                                    fingertips </h2>
                                             </div>
 
                                             <div data-swiper-parallax="300" class="slide-text">
-                                                <p class="dark-black">Don’t be a sitting duck in the internet forest! Buy TTB antivirus/VPN <br> that fights to secure you on the web. Order Now!
+                                                <p class="dark-black">Don’t be a sitting duck in the internet forest! Buy
+                                                    TTB antivirus/VPN <br> that fights to secure you on the web. Order Now!
                                                 </p>
                                             </div><br>
 
@@ -100,10 +102,12 @@
                                             class="max-w-[550px] lg:w-[600px] md:w-full  absolute top-1/2 left-0 transform  -translate-y-1/2">
 
                                             <div data-swiper-parallax="200" class="wpo-hero-title-top">
-                                                <h2 class="dark-black">We Shield the Privacy that matters to<br> you–TTB</h2>
+                                                <h2 class="dark-black">We Shield the Privacy that matters to<br> you–TTB
+                                                </h2>
                                             </div>
                                             <div data-swiper-parallax="300" class="slide-text">
-                                                <p class="dark-black">We are the digital saviors to evacuate you from the dark world of<br>cyberwarfare with real-time threat detection.</p>
+                                                <p class="dark-black">We are the digital saviors to evacuate you from the
+                                                    dark world of<br>cyberwarfare with real-time threat detection.</p>
                                             </div><br>
 
                                             <div data-swiper-parallax="400" class="slide-btn">
@@ -974,7 +978,8 @@
 
 
             {{-- forth section start --}}
-            <section class="!bg-[##F3F2EA] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 section-home-new-4">
+            <section
+                class="!bg-[##F3F2EA] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70 section-home-new-4">
                 <div class="container">
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 col-span-12 text-center">
@@ -1069,9 +1074,11 @@
                 <div class="container">
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12 pe-8">
-                            <h2 class="dark-black"><span class="text-color-ttb">TTB Antivirus</span>– Advanced Threat Intelligence Tool
+                            <h2 class="dark-black"><span class="text-color-ttb">TTB Antivirus</span>– Advanced Threat
+                                Intelligence Tool
                             </h2>
-                            <p class="dark-black">Our easy-to-install antivirus will alert you about the emerging and new threat that addresses
+                            <p class="dark-black">Our easy-to-install antivirus will alert you about the emerging and new
+                                threat that addresses
                                 the dark web. It smartly guards your device and confidentiality with real-time threat
                                 detection and auto-update features. This advanced tool locks up your privacy and security
                                 from malware, ransomware, viruses, & more. Order Now for Advanced Protection!
@@ -1227,7 +1234,8 @@
                                     <div class="round-1 round"></div>
                                     <div class="round-2 round"></div>
                                     <p class="dark-black-p">Alex was very thorough, knowledgeable & courteous.
-                                         everything I needed and more was taken care of. I've always had great service with TTB.
+                                        everything I needed and more was taken care of. I've always had great service with
+                                        TTB.
                                     </p>
                                     <div class="client-info">
                                         <div class="client-video">
@@ -1246,9 +1254,11 @@
                                 <div class="single-testimonial carousel-slide single-testimonial p-4">
                                     <div class="round-1 round"></div>
                                     <div class="round-2 round"></div>
-                                    <p class="dark-black-p">These guys are extremely responsive. Always available at a toll-free number and have batted 1.000 in fixing whatever issues I've encountered.
-                                        I also like that their support extends to all of our devices, phones for my wife and I, my home office PC laptop and various peripherals as
-                                       well as her Mac and Apple tablet. All for 2 years at a fixed one-time price.
+                                    <p class="dark-black-p">These guys are extremely responsive. Always available at a
+                                        toll-free number and have batted 1.000 in fixing whatever issues I've encountered.
+                                        I also like that their support extends to all of our devices, phones for my wife and
+                                        I, my home office PC laptop and various peripherals as
+                                        well as her Mac and Apple tablet. All for 2 years at a fixed one-time price.
                                     </p>
                                     <div class="client-info">
                                         <div class="client-video">
@@ -1267,9 +1277,13 @@
                                 <div class="single-testimonial carousel-slide single-testimonial p-4">
                                     <div class="round-1 round"></div>
                                     <div class="round-2 round"></div>
-                                    <p class="dark-black-p">The technician helped me with all of my devices: laptop, desktop, smart phone and tablet. Each had a different issue but they were knowledgeable
-                                        about them and improved the speed while taking care of my security. I would recommend them any day, so much better than some random file.
-                                       They follow up periodically to make sure you are having no issues. Great customer service.
+                                    <p class="dark-black-p">The technician helped me with all of my devices: laptop,
+                                        desktop, smart phone and tablet. Each had a different issue but they were
+                                        knowledgeable
+                                        about them and improved the speed while taking care of my security. I would
+                                        recommend them any day, so much better than some random file.
+                                        They follow up periodically to make sure you are having no issues. Great customer
+                                        service.
                                     </p>
                                     <div class="client-info">
                                         <div class="client-video">
@@ -1288,10 +1302,14 @@
                                 <div class="single-testimonial carousel-slide single-testimonial p-4">
                                     <div class="round-1 round"></div>
                                     <div class="round-2 round"></div>
-                                    <p class="dark-black-p">I really appreciate when ever I call TTB they are very knowledgeable, patient, and kind. Today i want to thank Eric Jack for his extremely helpful
-                                        disposition. Also he;ping me to figure out how to trndfer a document tp my email. There is no question to small that they will not help you with.
-                                        He also clean out my system, added a more secure secrurity system as advising me what to expect as changes were made to was understandable for
-                                       someone my age. Just great service.
+                                    <p class="dark-black-p">I really appreciate when ever I call TTB they are very
+                                        knowledgeable, patient, and kind. Today i want to thank Eric Jack for his extremely
+                                        helpful
+                                        disposition. Also he;ping me to figure out how to trndfer a document tp my email.
+                                        There is no question to small that they will not help you with.
+                                        He also clean out my system, added a more secure secrurity system as advising me
+                                        what to expect as changes were made to was understandable for
+                                        someone my age. Just great service.
                                     </p>
                                     <div class="client-info">
                                         <div class="client-video">
@@ -1310,8 +1328,10 @@
                                 <div class="single-testimonial carousel-slide single-testimonial p-4">
                                     <div class="round-1 round"></div>
                                     <div class="round-2 round"></div>
-                                    <p class="dark-black-p">The TTB service is very thorough: we like knowing that all of our IT in the house is covered--routers, IPhones, computers, music systems, etc.
-                                        And when we move to a new home, the service stays with us. Josh has been unfailingly patient and proactive during our service calls. Highly recommend!
+                                    <p class="dark-black-p">The TTB service is very thorough: we like knowing that all of
+                                        our IT in the house is covered--routers, IPhones, computers, music systems, etc.
+                                        And when we move to a new home, the service stays with us. Josh has been unfailingly
+                                        patient and proactive during our service calls. Highly recommend!
                                     </p>
                                     <div class="client-info">
                                         <div class="client-video">
@@ -1330,8 +1350,11 @@
                                 <div class="single-testimonial carousel-slide single-testimonial p-4">
                                     <div class="round-1 round"></div>
                                     <div class="round-2 round"></div>
-                                    <p class="dark-black-p">Josh at TTB called me to update my PC. He provided excellent service and walked me through the steps to complete a download. I feel confident that my PC
-                                        is running optimally with the privacy and data protection that they offer. Great job and I highly recommend this company. Very secure & easy to work with.
+                                    <p class="dark-black-p">Josh at TTB called me to update my PC. He provided excellent
+                                        service and walked me through the steps to complete a download. I feel confident
+                                        that my PC
+                                        is running optimally with the privacy and data protection that they offer. Great job
+                                        and I highly recommend this company. Very secure & easy to work with.
                                     </p>
                                     <div class="client-info">
                                         <div class="client-video">
@@ -1350,8 +1373,11 @@
                                 <div class="single-testimonial carousel-slide single-testimonial p-4">
                                     <div class="round-1 round"></div>
                                     <div class="round-2 round"></div>
-                                    <p class="dark-black-p">Working with TTB is a pleasure .Very knowledgeable staff guide me through the necessary steps to protect my units. They remember to call and scan and update
-                                        my units without being called or reminded. When I have experienced problems and issues my calls are quickly answered and resolved. Your staff is friendly,
+                                    <p class="dark-black-p">Working with TTB is a pleasure .Very knowledgeable staff guide
+                                        me through the necessary steps to protect my units. They remember to call and scan
+                                        and update
+                                        my units without being called or reminded. When I have experienced problems and
+                                        issues my calls are quickly answered and resolved. Your staff is friendly,
                                         patient, and easy to work with. Great Company!
                                     </p>
                                     <div class="client-info">
@@ -1371,7 +1397,8 @@
                                 <div class="single-testimonial carousel-slide single-testimonial p-4">
                                     <div class="round-1 round"></div>
                                     <div class="round-2 round"></div>
-                                    <p class="dark-black-p">The technicians were very knowledgeable and professional. They would make contact when services needed to be updated.
+                                    <p class="dark-black-p">The technicians were very knowledgeable and professional. They
+                                        would make contact when services needed to be updated.
                                     </p>
                                     <div class="client-info">
                                         <div class="client-video">
@@ -1390,7 +1417,8 @@
                                 <div class="single-testimonial carousel-slide single-testimonial p-4">
                                     <div class="round-1 round"></div>
                                     <div class="round-2 round"></div>
-                                    <p class="dark-black-p">Always helpful. a bit hard to understand but always works thru it. Pricing is a bit confusing at times compared to year's past. Thanks.
+                                    <p class="dark-black-p">Always helpful. a bit hard to understand but always works thru
+                                        it. Pricing is a bit confusing at times compared to year's past. Thanks.
                                     </p>
                                     <div class="client-info">
                                         <div class="client-video">
@@ -1409,7 +1437,8 @@
                                 <div class="single-testimonial carousel-slide single-testimonial p-4">
                                     <div class="round-1 round"></div>
                                     <div class="round-2 round"></div>
-                                    <p class="dark-black-p">I asked them to provide a new license for my TTB Antivirus and they did it very quickly.
+                                    <p class="dark-black-p">I asked them to provide a new license for my TTB Antivirus and
+                                        they did it very quickly.
                                         Agent was very polite and responsive to my needs.
                                     </p>
                                     <div class="client-info">
@@ -1488,104 +1517,111 @@
 
 
 
-======================================================
+            ======================================================
+            <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70">
+                <div class="content endpoint-slider">
+                    <div class="main-content">
 
-<div class="content">
-    <div class="main-content">
+
+                        <div class="container mx-auto mt-10">
+                            <div class="owl-carousel owl-theme">
+                                <div class="item bg-white p-5 rounded-lg shadow-md">
+                                    <img class="h-16 w-16 rounded-full shadow-2xl"
+                                        src="https://pbs.twimg.com/profile_images/830533062807191552/TbkWKnnv_400x400.jpg"
+                                        alt="Img" style="width: 65px !important;">
+                                    <p class="text-teal-400 font-bold text-xl mb-3">Sup3r-Us3r</p>
+                                    <p class="mt-3 text-gray-600 text-center">"Lorem ipsum dolor sit amet
+                                        consectetur adipisicing elit. Quod, quibusdam!"</p>
+                                </div>
+                                <div class="item bg-white p-5 rounded-lg shadow-md">
+                                    <img class="h-16 w-16 rounded-full shadow-2xl"
+                                        src="https://pbs.twimg.com/profile_images/830533062807191552/TbkWKnnv_400x400.jpg"
+                                        alt="Img" style="width: 65px !important;">
+                                    <p class="text-teal-400 font-bold text-xl mb-3">Sup3r-Us3r</p>
+                                    <p class="mt-3 text-gray-600 text-center">"Lorem ipsum dolor sit amet
+                                        consectetur adipisicing elit. Quod, quibusdam!"</p>
+                                </div>
+                                <div class="item bg-white p-5 rounded-lg shadow-md">
+                                    <img class="h-16 w-16 rounded-full shadow-2xl"
+                                        src="https://pbs.twimg.com/profile_images/830533062807191552/TbkWKnnv_400x400.jpg"
+                                        alt="Img" style="width: 65px !important;">
+                                    <p class="text-teal-400 font-bold text-xl mb-3">Sup3r-Us3r</p>
+                                    <p class="mt-3 text-gray-600 text-center">"Lorem ipsum dolor sit amet
+                                        consectetur adipisicing elit. Quod, quibusdam!"</p>
+                                </div>
+                                <div class="item bg-white p-5 rounded-lg shadow-md">
+                                    <img class="h-16 w-16 rounded-full shadow-2xl"
+                                        src="https://pbs.twimg.com/profile_images/830533062807191552/TbkWKnnv_400x400.jpg"
+                                        alt="Img" style="width: 65px !important;">
+                                    <p class="text-teal-400 font-bold text-xl mb-3">Sup3r-Us3r</p>
+                                    <p class="mt-3 text-gray-600 text-center">"Lorem ipsum dolor sit amet
+                                        consectetur adipisicing elit. Quod, quibusdam!"</p>
+                                </div>
+                                <div class="item bg-white p-5 rounded-lg shadow-md">
+                                    <img class="h-16 w-16 rounded-full shadow-2xl"
+                                        src="https://pbs.twimg.com/profile_images/830533062807191552/TbkWKnnv_400x400.jpg"
+                                        alt="Img" style="width: 65px !important;">
+                                    <p class="text-teal-400 font-bold text-xl mb-3">Sup3r-Us3r</p>
+                                    <p class="mt-3 text-gray-600 text-center">"Lorem ipsum dolor sit amet
+                                        consectetur adipisicing elit. Quod, quibusdam!"</p>
+                                </div>
+                                <div class="item bg-white p-5 rounded-lg shadow-md">
+                                    <img class="h-16 w-16 rounded-full shadow-2xl"
+                                        src="https://pbs.twimg.com/profile_images/830533062807191552/TbkWKnnv_400x400.jpg"
+                                        alt="Img" style="width: 65px !important;">
+                                    <p class="text-teal-400 font-bold text-xl mb-3">Sup3r-Us3r</p>
+                                    <p class="mt-3 text-gray-600 text-center">"Lorem ipsum dolor sit amet
+                                        consectetur adipisicing elit. Quod, quibusdam!"</p>
+                                </div>
+                                <div class="item bg-white p-5 rounded-lg shadow-md">
+                                    <img class="h-16 w-16 rounded-full shadow-2xl"
+                                        src="https://pbs.twimg.com/profile_images/830533062807191552/TbkWKnnv_400x400.jpg"
+                                        alt="Img" style="width: 65px !important;">
+                                    <p class="text-teal-400 font-bold text-xl mb-3">Sup3r-Us3r</p>
+                                    <p class="mt-3 text-gray-600 text-center">"Lorem ipsum dolor sit amet
+                                        consectetur adipisicing elit. Quod, quibusdam!"</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- jQuery -->
+                        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                        <!-- Owl Carousel JS -->
+                        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+                        <!-- Initialize Owl Carousel -->
+                        <script>
+                            $(document).ready(function() {
+                                $('.owl-carousel').owlCarousel({
+                                    loop: true,
+                                    margin: 10,
+                                    autoplay: true,
+                                    autoplayTimeout: 3000,
+                                    responsive: {
+                                        0: {
+                                            items: 1
+                                        },
+                                        768: {
+                                            items: 3
+                                        },
+                                        1024: {
+                                            items: 4
+                                        }
+                                    }
+                                });
+                            });
+                        </script>
 
 
-        <div class="container mx-auto mt-10">
-            <div class="owl-carousel owl-theme">
-                <div class="item bg-white p-5 rounded-lg shadow-md">
-                    <img class="h-16 w-16 rounded-full shadow-2xl"
-                        src="https://pbs.twimg.com/profile_images/830533062807191552/TbkWKnnv_400x400.jpg" alt="Img" style="width: 65px !important;">
-                    <p class="text-teal-400 font-bold text-xl mb-3">Sup3r-Us3r</p>
-                    <p class="mt-3 text-gray-600 text-center">"Lorem ipsum dolor sit amet
-                        consectetur adipisicing elit. Quod, quibusdam!"</p>
-                </div>
-                <div class="item bg-white p-5 rounded-lg shadow-md">
-                    <img class="h-16 w-16 rounded-full shadow-2xl"
-                        src="https://pbs.twimg.com/profile_images/830533062807191552/TbkWKnnv_400x400.jpg" alt="Img" style="width: 65px !important;">
-                    <p class="text-teal-400 font-bold text-xl mb-3">Sup3r-Us3r</p>
-                    <p class="mt-3 text-gray-600 text-center">"Lorem ipsum dolor sit amet
-                        consectetur adipisicing elit. Quod, quibusdam!"</p>
-                </div>
-                <div class="item bg-white p-5 rounded-lg shadow-md">
-                    <img class="h-16 w-16 rounded-full shadow-2xl"
-                        src="https://pbs.twimg.com/profile_images/830533062807191552/TbkWKnnv_400x400.jpg" alt="Img" style="width: 65px !important;">
-                    <p class="text-teal-400 font-bold text-xl mb-3">Sup3r-Us3r</p>
-                    <p class="mt-3 text-gray-600 text-center">"Lorem ipsum dolor sit amet
-                        consectetur adipisicing elit. Quod, quibusdam!"</p>
-                </div>
-                <div class="item bg-white p-5 rounded-lg shadow-md">
-                    <img class="h-16 w-16 rounded-full shadow-2xl"
-                        src="https://pbs.twimg.com/profile_images/830533062807191552/TbkWKnnv_400x400.jpg" alt="Img" style="width: 65px !important;">
-                    <p class="text-teal-400 font-bold text-xl mb-3">Sup3r-Us3r</p>
-                    <p class="mt-3 text-gray-600 text-center">"Lorem ipsum dolor sit amet
-                        consectetur adipisicing elit. Quod, quibusdam!"</p>
-                </div>
-                <div class="item bg-white p-5 rounded-lg shadow-md">
-                    <img class="h-16 w-16 rounded-full shadow-2xl"
-                        src="https://pbs.twimg.com/profile_images/830533062807191552/TbkWKnnv_400x400.jpg" alt="Img" style="width: 65px !important;">
-                    <p class="text-teal-400 font-bold text-xl mb-3">Sup3r-Us3r</p>
-                    <p class="mt-3 text-gray-600 text-center">"Lorem ipsum dolor sit amet
-                        consectetur adipisicing elit. Quod, quibusdam!"</p>
-                </div>
-                <div class="item bg-white p-5 rounded-lg shadow-md">
-                    <img class="h-16 w-16 rounded-full shadow-2xl"
-                        src="https://pbs.twimg.com/profile_images/830533062807191552/TbkWKnnv_400x400.jpg"  alt="Img" style="width: 65px !important;">
-                    <p class="text-teal-400 font-bold text-xl mb-3">Sup3r-Us3r</p>
-                    <p class="mt-3 text-gray-600 text-center">"Lorem ipsum dolor sit amet
-                        consectetur adipisicing elit. Quod, quibusdam!"</p>
-                </div>
-                <div class="item bg-white p-5 rounded-lg shadow-md">
-                    <img class="h-16 w-16 rounded-full shadow-2xl"
-                    src="https://pbs.twimg.com/profile_images/830533062807191552/TbkWKnnv_400x400.jpg" alt="Img" style="width: 65px !important;">
-                <p class="text-teal-400 font-bold text-xl mb-3">Sup3r-Us3r</p>
-                <p class="mt-3 text-gray-600 text-center">"Lorem ipsum dolor sit amet
-                    consectetur adipisicing elit. Quod, quibusdam!"</p>
-                </div>
-            </div>
+            </section>
+
         </div>
+    </div>
 
-        <!-- jQuery -->
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <!-- Owl Carousel JS -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-        <!-- Initialize Owl Carousel -->
-        <script>
-            $(document).ready(function(){
-                $('.owl-carousel').owlCarousel({
-                    loop: true,
-                    margin: 10,
-                    autoplay: true,
-                    autoplayTimeout: 3000,
-                    responsive: {
-                        0: {
-                            items: 1
-                        },
-                        768: {
-                            items: 3
-                        },
-                        1024: {
-                            items: 4
-                        }
-                    }
-                });
-            });
-        </script>
 
 
 
 
     </div>
-</div>
-
-
-
-
-
-        </div>
     </div>
 
     {{-- End pricing plan section --}}
