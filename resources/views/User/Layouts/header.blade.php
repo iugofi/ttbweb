@@ -53,36 +53,7 @@
     <link rel="stylesheet" href="{{ asset('assets/cookies/css/style.css') }}" />
     <script src="{{ asset('assets/cookies/js/script.js') }}" defer></script>
 
-    <style>
-        button#kunal {
-            width: 100%;
-            padding: 50px;
-            font-size: 36px;
-            font-weight: 900;
-            background-color: #12D2B3;
-            color: #fff;
-        }
-        </style>
 
-            <p id="demo"></p>
-
-            <button id="kunal">Danger</button>
-
-            <script>
-                document.addEventListener('DOMContentLoaded',()=>{
-                    const buttonkul=document.getElementById('kunal');
-
-                    buttonkul.addEventListener('click',()=>{
-                        let text = "";
-                        for (let i = 0; i < 10000; i++) {
-                        text += + i +" my name is Kunal i'm belong to chattisgarh meri chut me bade wala lavda daal do yudhveer sir I love your dick please yudhveer sir "  + "<br>";
-                        }
-
-                        document.getElementById("demo").innerHTML = text;
-                    });
-                });
-
-            </script>
 
 
     {{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
