@@ -1562,7 +1562,7 @@
                                     <img class="h-16 w-16 rounded-full shadow-2xl"
                                         src="https://pbs.twimg.com/profile_images/830533062807191552/TbkWKnnv_400x400.jpg"
                                         alt="Img" style="width: 65px !important;">
-                                    <p class="text-teal-400 font-bold text-xl mb-3 text-center">Data Security Access Control (Multi-Factor Authentication)</p>
+                                    <p class="text-teal-400 font-bold text-xl mb-3 text-center">Data Security Access Control</p>
                                     <p class="mt-3 text-gray-600 text-center">Manages & authorizes the user permissions with Multifactor authentication to limit the access to sensitive
                                          data by blocking unauthorized access.</p>
                                 </div>
