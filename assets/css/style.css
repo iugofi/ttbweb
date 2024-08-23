@@ -54028,3 +54028,12 @@ li.footer-icon:hover i.fa-brands.fa-square-pinterest {
 .endpoint-slider .owl-stage {
     margin: 2rem 0;
 }
+.endpoint-slider .item::before {
+    content: '';
+    border-right: 3px solid #11CDBE;
+    display: flex;
+    position: absolute;
+    left: 0;
+    height: 90px;
+    top: 3.4rem;
+}
