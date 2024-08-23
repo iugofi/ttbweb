@@ -1518,6 +1518,7 @@
 
 
             ======================================================
+
             <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70">
                 <div class="content endpoint-slider">
                     <div class="main-content">
@@ -1529,57 +1530,56 @@
                                     <img class="h-16 w-16 rounded-full shadow-2xl"
                                         src="https://pbs.twimg.com/profile_images/830533062807191552/TbkWKnnv_400x400.jpg"
                                         alt="Img" style="width: 65px !important;">
-                                    <p class="text-teal-400 font-bold text-xl mb-3 text-center">1 Sup3r-Us3r</p>
-                                    <p class="mt-3 text-gray-600 text-center">"Lorem ipsum dolor sit amet
-                                        consectetur adipisicing elit. Quod, quibusdam!"</p>
+                                    <p class="text-teal-400 font-bold text-xl mb-3 text-center">Enhanced Firewall</p>
+                                    <p class="mt-3 text-gray-600 text-center">The first line of defense that secures you from unauthorized access and unknown
+                                         cyber threats.</p>
                                 </div>
                                 <div class="item bg-white p-5 rounded-lg shadow-md">
                                     <img class="h-16 w-16 rounded-full shadow-2xl"
                                         src="https://pbs.twimg.com/profile_images/830533062807191552/TbkWKnnv_400x400.jpg"
                                         alt="Img" style="width: 65px !important;">
-                                    <p class="text-teal-400 font-bold text-xl mb-3 text-center">2 Sup3r-Us3r</p>
-                                    <p class="mt-3 text-gray-600 text-center">"Lorem ipsum dolor sit amet
-                                        consectetur adipisicing elit. Quod, quibusdam!"</p>
+                                    <p class="text-teal-400 font-bold text-xl mb-3 text-center">Advanced Antivirus Solutions</p>
+                                    <p class="mt-3 text-gray-600 text-center">A digital barrier with real-time scanning filters and blocks malicious links, texts,
+                                         nasty viruses, and URLs.</p>
                                 </div>
                                 <div class="item bg-white p-5 rounded-lg shadow-md">
                                     <img class="h-16 w-16 rounded-full shadow-2xl"
                                         src="https://pbs.twimg.com/profile_images/830533062807191552/TbkWKnnv_400x400.jpg"
                                         alt="Img" style="width: 65px !important;">
-                                    <p class="text-teal-400 font-bold text-xl mb-3 text-center">3 Sup3r-Us3r</p>
-                                    <p class="mt-3 text-gray-600 text-center">"Lorem ipsum dolor sit amet
-                                        consectetur adipisicing elit. Quod, quibusdam!"</p>
+                                    <p class="text-teal-400 font-bold text-xl mb-3 text-center">Real-Time Scanning & Threat Detection</p>
+                                    <p class="mt-3 text-gray-600 text-center">Provides you with real-time threat alerts and scanning to aware you of suspicious activities
+                                         & emerging menaces.</p>
                                 </div>
                                 <div class="item bg-white p-5 rounded-lg shadow-md">
                                     <img class="h-16 w-16 rounded-full shadow-2xl"
                                         src="https://pbs.twimg.com/profile_images/830533062807191552/TbkWKnnv_400x400.jpg"
                                         alt="Img" style="width: 65px !important;">
-                                    <p class="text-teal-400 font-bold text-xl mb-3 text-center">4 Sup3r-Us3r</p>
-                                    <p class="mt-3 text-gray-600 text-center">"Lorem ipsum dolor sit amet
-                                        consectetur adipisicing elit. Quod, quibusdam!"</p>
+                                    <p class="text-teal-400 font-bold text-xl mb-3 text-center">Patch Management</p>
+                                    <p class="mt-3 text-gray-600 text-center">This borderline security keeps your device updated and fixes the vulnerabilities if occur before
+                                         hackers exploit it. </p>
                                 </div>
                                 <div class="item bg-white p-5 rounded-lg shadow-md">
                                     <img class="h-16 w-16 rounded-full shadow-2xl"
                                         src="https://pbs.twimg.com/profile_images/830533062807191552/TbkWKnnv_400x400.jpg"
                                         alt="Img" style="width: 65px !important;">
-                                    <p class="text-teal-400 font-bold text-xl mb-3 text-center">5 Sup3r-Us3r</p>
-                                    <p class="mt-3 text-gray-600 text-center">"Lorem ipsum dolor sit amet
-                                        consectetur adipisicing elit. Quod, quibusdam!"</p>
+                                    <p class="text-teal-400 font-bold text-xl mb-3 text-center">Data Security Access Control (Multi-Factor Authentication)</p>
+                                    <p class="mt-3 text-gray-600 text-center">Manages & authorizes the user permissions with Multifactor authentication to limit the access to sensitive
+                                         data by blocking unauthorized access.</p>
                                 </div>
                                 <div class="item bg-white p-5 rounded-lg shadow-md">
                                     <img class="h-16 w-16 rounded-full shadow-2xl"
                                         src="https://pbs.twimg.com/profile_images/830533062807191552/TbkWKnnv_400x400.jpg"
                                         alt="Img" style="width: 65px !important;">
-                                    <p class="text-teal-400 font-bold text-xl mb-3 text-center">6 Sup3r-Us3r</p>
-                                    <p class="mt-3 text-gray-600 text-center">"Lorem ipsum dolor sit amet
-                                        consectetur adipisicing elit. Quod, quibusdam!"</p>
+                                    <p class="text-teal-400 font-bold text-xl mb-3 text-center">Centralized Management</p>
+                                    <p class="mt-3 text-gray-600 text-center">We provide you with central management & endpoint security considering setting, security policies, and monitoring
+                                         compliance.</p>
                                 </div>
                                 <div class="item bg-white p-5 rounded-lg shadow-md">
                                     <img class="h-16 w-16 rounded-full shadow-2xl"
                                         src="https://pbs.twimg.com/profile_images/830533062807191552/TbkWKnnv_400x400.jpg"
                                         alt="Img" style="width: 65px !important;">
-                                    <p class="text-teal-400 font-bold text-xl mb-3 text-center">7 Sup3r-Us3r</p>
-                                    <p class="mt-3 text-gray-600 text-center">"Lorem ipsum dolor sit amet
-                                        consectetur adipisicing elit. Quod, quibusdam!"</p>
+                                    <p class="text-teal-400 font-bold text-xl mb-3 text-center">E-Support Concierge</p>
+                                    <p class="mt-3 text-gray-600 text-center">We serve you 24x7 hours of security services and assistance regarding the products and services you buy from us.</p>
                                 </div>
                             </div>
                         </div>
