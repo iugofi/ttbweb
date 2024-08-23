@@ -54022,6 +54022,9 @@ li.footer-icon:hover i.fa-brands.fa-square-pinterest {
 
 /* New End point section css start */
 
+.endpoint-slider .item {
+    height: 255px !important;
+}
 .endpoint-slider .item img {
     margin: auto !important;
 }
@@ -54036,5 +54039,5 @@ li.footer-icon:hover i.fa-brands.fa-square-pinterest {
     position: absolute;
     left: 0;
     height: 90px;
-    top: 3.4rem;
+    top: 4.5rem;
 }
