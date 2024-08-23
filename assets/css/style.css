@@ -54025,3 +54025,6 @@ li.footer-icon:hover i.fa-brands.fa-square-pinterest {
     margin: auto;
 }
 
+.endpoint-slider .owl-stage {
+    margin: 2rem 0;
+}
