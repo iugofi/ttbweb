@@ -35,6 +35,10 @@ class SendRenewalReminder extends Command
     }
     public function handle()
     {
+        \Log::info('SubscriptionRenewalReminder command started');
+
+
+
         $today = now()->toDateString();
 
         // Query to find users with subscription renewals in 1 day
@@ -50,6 +54,8 @@ class SendRenewalReminder extends Command
             // Send email to the user
             Mail::to($subscription->email)->send(new SubscriptionRenewalReminder($subscription));
         }
+
+        \Log::info('SubscriptionRenewalReminder command completed');
 
         $this->info('Subscription renewal reminders sent successfully.');
     }
