@@ -35,7 +35,7 @@ class SendRenewalReminder extends Command
     }
     public function handle()
     {
-        Fetch users with day_difference = 1
+        //Fetch users with day_difference = 1
         $reminders = DB::table('payments')
             ->join('ttbkey', 'payments.product_id', '=', 'ttbkey.product_id')
             ->join('usersall', 'usersall.id', '=', 'payments.user_id')
