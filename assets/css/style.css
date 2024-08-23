@@ -54018,12 +54018,12 @@ li.footer-icon:hover i.fa-brands.fa-square-pinterest {
 
 
 
-======================kulvinder pathania===============================
+ /* =====================kulvinder pathania=============================== */
 
 /* New End point section css start */
 
 .endpoint-slider .item img {
-    margin: auto;
+    margin: auto !important;
 }
 
 .endpoint-slider .owl-stage {
