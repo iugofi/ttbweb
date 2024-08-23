@@ -1530,7 +1530,7 @@
                                     <img class="h-16 w-16 rounded-full shadow-2xl"
                                         src="https://pbs.twimg.com/profile_images/830533062807191552/TbkWKnnv_400x400.jpg"
                                         alt="Img" style="width: 65px !important;">
-                                    <p class="text-teal-400 font-bold text-xl mb-3 text-center">Enhanced Firewall</p>
+                                    <p class="dark-black text-teal-400 font-bold text-xl mb-3 text-center">Enhanced Firewall</p>
                                     <p class="mt-3 text-gray-600 text-center">The first line of defense that secures you from unauthorized access and unknown
                                          cyber threats.</p>
                                 </div>
@@ -1538,7 +1538,7 @@
                                     <img class="h-16 w-16 rounded-full shadow-2xl"
                                         src="https://pbs.twimg.com/profile_images/830533062807191552/TbkWKnnv_400x400.jpg"
                                         alt="Img" style="width: 65px !important;">
-                                    <p class="text-teal-400 font-bold text-xl mb-3 text-center">Advanced Antivirus Solutions</p>
+                                    <p class="dark-black text-teal-400 font-bold text-xl mb-3 text-center">Advanced Antivirus Solutions</p>
                                     <p class="mt-3 text-gray-600 text-center">A digital barrier with real-time scanning filters and blocks malicious links, texts,
                                          nasty viruses, and URLs.</p>
                                 </div>
@@ -1546,7 +1546,7 @@
                                     <img class="h-16 w-16 rounded-full shadow-2xl"
                                         src="https://pbs.twimg.com/profile_images/830533062807191552/TbkWKnnv_400x400.jpg"
                                         alt="Img" style="width: 65px !important;">
-                                    <p class="text-teal-400 font-bold text-xl mb-3 text-center">Real-Time Scanning & Threat Detection</p>
+                                    <p class="dark-black text-teal-400 font-bold text-xl mb-3 text-center">Real-Time Scanning & Threat Detection</p>
                                     <p class="mt-3 text-gray-600 text-center">Provides you with real-time threat alerts and scanning to aware you of suspicious activities
                                          & emerging menaces.</p>
                                 </div>
@@ -1554,7 +1554,7 @@
                                     <img class="h-16 w-16 rounded-full shadow-2xl"
                                         src="https://pbs.twimg.com/profile_images/830533062807191552/TbkWKnnv_400x400.jpg"
                                         alt="Img" style="width: 65px !important;">
-                                    <p class="text-teal-400 font-bold text-xl mb-3 text-center">Patch Management</p>
+                                    <p class="dark-black text-teal-400 font-bold text-xl mb-3 text-center">Patch Management</p>
                                     <p class="mt-3 text-gray-600 text-center">This borderline security keeps your device updated and fixes the vulnerabilities if occur before
                                          hackers exploit it. </p>
                                 </div>
@@ -1562,7 +1562,7 @@
                                     <img class="h-16 w-16 rounded-full shadow-2xl"
                                         src="https://pbs.twimg.com/profile_images/830533062807191552/TbkWKnnv_400x400.jpg"
                                         alt="Img" style="width: 65px !important;">
-                                    <p class="text-teal-400 font-bold text-xl mb-3 text-center">Data Security Access Control</p>
+                                    <p class="dark-black text-teal-400 font-bold text-xl mb-3 text-center">Data Security Access Control</p>
                                     <p class="mt-3 text-gray-600 text-center">Manages & authorizes the user permissions with Multifactor authentication to limit the access to sensitive
                                          data by blocking unauthorized access.</p>
                                 </div>
@@ -1570,7 +1570,7 @@
                                     <img class="h-16 w-16 rounded-full shadow-2xl"
                                         src="https://pbs.twimg.com/profile_images/830533062807191552/TbkWKnnv_400x400.jpg"
                                         alt="Img" style="width: 65px !important;">
-                                    <p class="text-teal-400 font-bold text-xl mb-3 text-center">Centralized Management</p>
+                                    <p class="dark-black text-teal-400 font-bold text-xl mb-3 text-center">Centralized Management</p>
                                     <p class="mt-3 text-gray-600 text-center">We provide you with central management & endpoint security considering setting, security policies, and monitoring
                                          compliance.</p>
                                 </div>
@@ -1578,7 +1578,7 @@
                                     <img class="h-16 w-16 rounded-full shadow-2xl"
                                         src="https://pbs.twimg.com/profile_images/830533062807191552/TbkWKnnv_400x400.jpg"
                                         alt="Img" style="width: 65px !important;">
-                                    <p class="text-teal-400 font-bold text-xl mb-3 text-center">E-Support Concierge</p>
+                                    <p class="dark-black text-teal-400 font-bold text-xl mb-3 text-center">E-Support Concierge</p>
                                     <p class="mt-3 text-gray-600 text-center">We serve you 24x7 hours of security services and assistance regarding the products and services you buy from us.</p>
                                 </div>
                             </div>
