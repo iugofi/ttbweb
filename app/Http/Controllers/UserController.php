@@ -255,7 +255,7 @@ class UserController extends Controller
     {
         return view('User.Behavioral_Protection');
     }
-    public function homenew(Request $request)
+    public function homenew()
     {
         $antivirus = DB::table('product_details')
             ->join('planname', 'planname.plan_id', '=', 'product_details.plan_id')
@@ -277,24 +277,6 @@ class UserController extends Controller
         $events = Eventmodel::where('event_status', 101)
             ->whereDate('event_date', $currentDate)
             ->get();
-
-        $ip = $request->ip();
-        $agent = new Agent();
-        $agent->setUserAgent($request->header('User-Agent'));
-        $device = $agent->device();
-        $browser = $agent->browser();
-
-        $visitor = Visitors::firstOrCreate(
-            ['ip_address' => $ip],
-            ['device' => $device, 'browser' => $browser]
-        );
-
-        $visitor->increment('visits');
-        $visitor->live = true;
-        $visitor->last_active = Carbon::now();
-        $visitor->save();
-
-        Visitors::where('last_active', '<', Carbon::now()->subMinutes(1))->update(['live' => false]);
         // dd($events);
         return view('User.homenew', ['antivirus' => $antivirus, 'vpnshield' => $vpnshield], compact('events'));
     }
@@ -326,7 +308,7 @@ class UserController extends Controller
     {
         return view('User.Return_Refund_Policy');
     }
-    public function new_home()
+    public function new_home(Request $request)
     {
         $antivirus = DB::table('product_details')
             ->join('planname', 'planname.plan_id', '=', 'product_details.plan_id')
@@ -348,6 +330,23 @@ class UserController extends Controller
         $events = Eventmodel::where('event_status', 101)
             ->whereDate('event_date', $currentDate)
             ->get();
+        $ip = $request->ip();
+        $agent = new Agent();
+        $agent->setUserAgent($request->header('User-Agent'));
+        $device = $agent->device();
+        $browser = $agent->browser();
+
+        $visitor = Visitors::firstOrCreate(
+            ['ip_address' => $ip],
+            ['device' => $device, 'browser' => $browser]
+        );
+
+        $visitor->increment('visits');
+        $visitor->live = true;
+        $visitor->last_active = Carbon::now();
+        $visitor->save();
+
+        Visitors::where('last_active', '<', Carbon::now()->subMinutes(1))->update(['live' => false]);
         return view('User.new_home', ['antivirus' => $antivirus, 'vpnshield' => $vpnshield], compact('events'));
     }
 
