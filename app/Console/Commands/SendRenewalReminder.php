@@ -43,7 +43,7 @@ class SendRenewalReminder extends Command
                 'payments.user_id',
                 'payments.product_id',
                 'usersall.lastname',
-                'usersall.firstname ',
+                'usersall.firstname',
                 'usersall.email',
                 'ttbkey.key_activation_date',
                 'ttbkey.key_expirey_date',
