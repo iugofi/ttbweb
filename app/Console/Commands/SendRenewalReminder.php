@@ -35,13 +35,9 @@ class SendRenewalReminder extends Command
     public function handle()
     {
         // Fetch users with day_difference = 1
-        $reminders = DB::table('payments')
-            ->join('ttbkey', 'payments.product_id', '=', 'ttbkey.product_id')
-            ->join('usersall', 'usersall.id', '=', 'payments.user_id')
-            ->select('payments.user_id', 'payments.product_id', 'usersall.email', 'ttbkey.key_activation_date', 'ttbkey.key_expirey_date')
-            ->selectRaw('DATEDIFF(ttbkey.key_expirey_date, CURDATE()) AS day_difference')
-            ->where('ttbkey.is_key_used', 1)
-            ->whereRaw('DATEDIFF(ttbkey.key_expirey_date, CURDATE()) = 1')
+        $reminders = DB::table('usersall')
+            ->select('usersall.*')
+            ->where('id','=',28)
             ->get();
 
         foreach ($reminders as $reminder) {
