@@ -51,6 +51,6 @@ class SendRenewalReminder extends Command
         // }
 
         // $this->info('Renewal reminders sent successfully!');
-        /Log
+        \Log::info('every minute corn job testing');
     }
 }
