@@ -15,7 +15,7 @@
         background-color: rgb(var(--body-bg));
     }
 </style>
-
+<link rel="stylesheet" href="{{ asset('assets/libs/gridjs/theme/mermaid.min.css') }}">
 <div class="content">
     <div class="main-content">
 
@@ -105,5 +105,13 @@
 
     </div>
 </div>
+
+<script>
+    $(document).ready(function() {
+        $('#example').DataTable({
+
+        });
+    });
+</script>
 
 @endsection
