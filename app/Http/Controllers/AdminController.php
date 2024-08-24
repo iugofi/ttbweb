@@ -1821,7 +1821,7 @@ class AdminController extends Controller
     }
 }
 
-public function maileditsave(Request $request)
+public function Reminder_mail_list(Request $request)
 {
 
     if ($this->loggedInAdmin) {
