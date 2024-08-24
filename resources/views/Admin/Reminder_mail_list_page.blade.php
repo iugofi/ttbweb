@@ -38,7 +38,7 @@
                 </li>
                 <li class="text-[0.813rem] text-defaulttextcolor font-semibold hover:text-primary dark:text-[#8c9097] dark:text-white/50 "
                     aria-current="page">
-                    News
+                    Reminder List
                 </li>
             </ol>
         </div>
@@ -52,7 +52,7 @@
                 <div class="box custom-box">
                     <div class="box-header">
                         <div class="box-title">
-                            News List
+                            Reminder List Mail
                         </div>
                     </div>
                     <div class="box-body">
