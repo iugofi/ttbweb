@@ -1838,7 +1838,7 @@ public function Reminder_mail_list()
         'storepick.PICK_TEXT as Key_type',
         'planname.name as Planname',
         'reminder_logs.email',
-        'reminder_logs.email',
+        'reminder_logs.sent_at',
         'reminder_logs.status',
         'reminder_logs.error_message'
     )
