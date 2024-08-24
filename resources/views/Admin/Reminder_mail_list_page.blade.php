@@ -80,8 +80,8 @@
                                             @endphp
                                             <td class="border px-4 py-2">{{ $key + 1 }}</td>
 
-                                            <td class="border px-4 py-2">{{$item->user_id}}</td>
-                                            <td class="border px-4 py-2">{{$item->product_id}}</td>
+                                            <td class="border px-4 py-2">{{$item->firstname}} {{$item->lastname}}</td>
+                                            <td class="border px-4 py-2">{{$item->Key_type}}/{{$item->Planname}}</td>
                                             <td class="border px-4 py-2">{{$item->email}}</td>
                                             <td class="border px-4 py-2">{{$item->sent_at}}</td>
                                             <td class="border px-4 py-2">{{$item->status}}</td>

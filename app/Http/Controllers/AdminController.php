@@ -1822,12 +1822,29 @@ class AdminController extends Controller
     }
 }
 
-public function Reminder_mail_list(Request $request)
+public function Reminder_mail_list()
 {
 
     if ($this->loggedInAdmin) {
 
-        $Reminder_logs=Reminder_logs::all();
+    $Reminder_logs = DB::table('reminder_logs')
+    ->join('usersall', 'usersall.id', '=', 'reminder_logs.user_id')
+    ->join('product_details', 'product_details.id', '=', 'reminder_logs.product_id')
+    ->join('planname', 'planname.plan_id', '=', 'product_details.plan_id')
+    ->join('storepick', 'storepick.PICK_ID', '=', 'product_details.key_type')
+    ->select(
+        'usersall.firstname',
+        'usersall.lastname',
+        'storepick.PICK_TEXT as Key_type',
+        'planname.name as Planname',
+        'reminder_logs.email',
+        'reminder_logs.email',
+        'reminder_logs.status',
+        'reminder_logs.error_message'
+    )
+    ->where('storepick.STORE_ID', 'key_type')
+    ->get();
+
 
 
         return view('Admin.Reminder_mail_list_page',['Reminder_logs'=>$Reminder_logs]);
