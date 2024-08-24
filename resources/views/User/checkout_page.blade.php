@@ -203,15 +203,18 @@
                                               <div class="flex justify-between items-center mb-4">
                                       <div class="kunal">
                                                  <img src="{{asset('assets/img/icon1.png')}}" alt="Girl in a jacket" width="50" height="50">
-                                          <p>bjikdfhd</p>
+                                          <p>Our Virus
+                                            Protection Pledge</p>
                                       </div>
                                       <div class="kunal">
                                                  <img src="{{asset('assets/img/icon2.png')}}" alt="Girl in a jacket" width="50" height="50">
-                                          <p>bjikdfhd</p>
+                                          <p>30-day money
+                                            back guarantee</p>
                                       </div>
                                       <div class="kunal">
                                                  <img src="{{asset('assets/img/icon3.png')}}" alt="Girl in a jacket" width="50" height="50">
-                                          <p>bjikdfhd</p>
+                                          <p>24/7 online
+                                            security experts</p>
                                       </div>
                                           </div>
                                          </div>
