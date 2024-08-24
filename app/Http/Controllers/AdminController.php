@@ -1826,7 +1826,7 @@ public function Reminder_mail_list(Request $request)
 
     if ($this->loggedInAdmin) {
 
-        view('Admin.Reminder_mail_list_page');
+        return view('Admin.Reminder_mail_list_page');
     } else {
         return redirect('/setup');
     }
