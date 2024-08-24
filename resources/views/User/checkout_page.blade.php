@@ -197,6 +197,25 @@
                                             </div>
 
                                         </div>
+                                        <div class="box-body">
+
+                                            <div class="!p-6">
+                                              <div class="flex justify-between items-center mb-4">
+                                      <div class="kunal">
+                                                 <img src="{{asset('assets/img/icon1.png')}}" alt="Girl in a jacket" width="50" height="50">
+                                          <p>bjikdfhd</p>
+                                      </div>
+                                      <div class="kunal">
+                                                 <img src="{{asset('assets/img/icon2.png')}}" alt="Girl in a jacket" width="50" height="50">
+                                          <p>bjikdfhd</p>
+                                      </div>
+                                      <div class="kunal">
+                                                 <img src="{{asset('assets/img/icon3.png')}}" alt="Girl in a jacket" width="50" height="50">
+                                          <p>bjikdfhd</p>
+                                      </div>
+                                          </div>
+                                         </div>
+                                      </div>
                                     </div>
                                 </div>
                             </div>
