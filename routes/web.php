@@ -348,6 +348,8 @@ Route::get('/mailtest', [UserController::class, 'mailtest'])->name('admin.mailte
          Route::post('/maileditsave', [AdminController::class, 'maileditsave'])->name('mail.editsave');
 
 
+         Route::get('/Reminder_mail_list', [AdminController::class, 'Reminder_mail_list'])->name('Reminder_mail_list.page');
+
 
 
 

@@ -240,6 +240,14 @@
                         </a>
                     </li>
 
+                    <li class="slide__category"><span class="category-name">Reminder Mail</span></li>
+                    <li class="slide">
+                        <a href="{{route('Reminder_mail_list.page')}}" class="side-menu__item">
+                            <i class="bi bi-send side-menu__icon"></i>
+                            <span class="side-menu__label">Reminder Mail List</span>
+                        </a>
+                    </li>
+
 
                     @endif
 

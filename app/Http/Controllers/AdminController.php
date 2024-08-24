@@ -1782,7 +1782,7 @@ class AdminController extends Controller
 
     public function maileditsave(Request $request)
 {
- 
+
     if ($this->loggedInAdmin) {
         $validator = Validator::make($request->all(), [
             'mail_cat' => 'required',
@@ -1821,5 +1821,15 @@ class AdminController extends Controller
     }
 }
 
+public function maileditsave(Request $request)
+{
+
+    if ($this->loggedInAdmin) {
+
+        view('Admin.Reminder_mail_list_page');
+    } else {
+        return redirect('/setup');
+    }
+}
 
 }
