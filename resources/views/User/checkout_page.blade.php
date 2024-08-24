@@ -48,24 +48,30 @@
                                                 <div class="grid grid-cols-12 sm:gap-x-6 sm:gap-y-4">
                                                     <div class="md:col-span-12 col-span-12 mb-4">
                                                         <label class="form-label">Email</label>
-                                                        <input type="text" name="email" id="email" class="form-control" placeholder="Enter Your Email">
+                                                        <input type="text" name="email" id="email"
+                                                            class="form-control" placeholder="Enter Your Email">
                                                         <div class="invalid-feedback" id="email-error"></div>
                                                     </div>
                                                     <div class="md:col-span-6 col-span-12 mb-4">
                                                         <label class="form-label">First Name</label>
-                                                        <input type="text" name="first_name" id="first_name" class="form-control" placeholder="First name" aria-label="First name" required>
-                                                        <input type="hidden" name="hidden_first_name" id="hidden_first_name">
+                                                        <input type="text" name="first_name" id="first_name"
+                                                            class="form-control" placeholder="First name"
+                                                            aria-label="First name" required>
+                                                        <input type="hidden" name="hidden_first_name"
+                                                            id="hidden_first_name">
                                                         <div class="invalid-feedback" id="first-name-error"></div>
                                                     </div>
                                                     <div class="md:col-span-6 col-span-12 mb-4">
                                                         <label class="form-label">Last Name</label>
-                                                        <input type="text" name="last_name" id="last_name" class="form-control" placeholder="Last name" aria-label="Last name" required>
+                                                        <input type="text" name="last_name" id="last_name"
+                                                            class="form-control" placeholder="Last name"
+                                                            aria-label="Last name" required>
                                                         <input type="hidden" name="hidden_last_name" id="hidden_last_name">
                                                         <div class="invalid-feedback" id="last-name-error"></div>
                                                     </div>
 
                                                     <div
-                                                                                                            class="md:col-span-12 col-span-12 md:flex md:justify-end check-btn">
+                                                        class="md:col-span-12 col-span-12 md:flex md:justify-end check-btn">
                                                         <input type="submit" value="Submit" id="checkotp"
                                                             class="ti-btn ti-btn-primary-full !mb-0">
 
@@ -89,15 +95,18 @@
                                             <div class="grid grid-cols-12 sm:gap-x-6 sm:gap-y-4">
 
                                                 <div class="md:col-span-12 col-span-12 text-center">
-                                                    <form id='checkout-form' method='post' action="{{ route('user.stripeCheckoutfpay') }}">
+                                                    <form id='checkout-form' method='post'
+                                                        action="{{ route('user.stripeCheckoutfpay') }}">
                                                         @csrf
                                                         <input type="text" id="emailDisplaypay" name="emailpay" hidden>
-                                                        <input type='hidden' name='vpnid' value="{{ $plan->id }}" id='vpnid'>
-                                                        <button  class="ti-btn ti-btn-primary-full !mb-0">Pay With Stripe</button>
-                                                    <form>
+                                                        <input type='hidden' name='vpnid' value="{{ $plan->id }}"
+                                                            id='vpnid'>
+                                                        <button class="ti-btn ti-btn-primary-full !mb-0">Pay With
+                                                            Stripe</button>
+                                                        <form>
 
                                                 </div>
-                                                                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -197,28 +206,30 @@
                                             </div>
 
                                         </div>
-                                        <div class="box-body">
-
+                                        {{-- <div class="box-body">
                                             <div class="!p-6">
-                                              <div class="flex justify-between items-center mb-4">
-                                      <div class="kunal">
-                                                 <img src="{{asset('assets/img/icon1.png')}}" alt="Girl in a jacket" width="50" height="50">
-                                          <p>Our Virus
-                                            Protection Pledge</p>
-                                      </div>
-                                      <div class="kunal">
-                                                 <img src="{{asset('assets/img/icon2.png')}}" alt="Girl in a jacket" width="50" height="50">
-                                          <p>30-day money
-                                            back guarantee</p>
-                                      </div>
-                                      <div class="kunal">
-                                                 <img src="{{asset('assets/img/icon3.png')}}" alt="Girl in a jacket" width="50" height="50">
-                                          <p>24/7 online
-                                            security experts</p>
-                                      </div>
-                                          </div>
-                                         </div>
-                                      </div>
+                                                <div class="flex justify-between items-center mb-4">
+                                                    <div class="kunal">
+                                                        <img src="{{ asset('assets/img/icon1.png') }}"
+                                                            alt="Girl in a jacket" width="50" height="50">
+                                                        <p>Our Virus
+                                                            Protection Pledge</p>
+                                                    </div>
+                                                    <div class="kunal">
+                                                        <img src="{{ asset('assets/img/icon2.png') }}"
+                                                            alt="Girl in a jacket" width="50" height="50">
+                                                        <p>30-day money
+                                                            back guarantee</p>
+                                                    </div>
+                                                    <div class="kunal">
+                                                        <img src="{{ asset('assets/img/icon3.png') }}"
+                                                            alt="Girl in a jacket" width="50" height="50">
+                                                        <p>24/7 online
+                                                            security experts</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div> --}}
                                     </div>
                                 </div>
                             </div>
@@ -265,49 +276,46 @@
 
 
 
-                <div id="hs-vertically-centered-modal" class="hs-overlay hidden ti-modal">
-                    <div
-                        class="hs-overlay-open:mt-7 ti-modal-box mt-0 ease-out min-h-[calc(100%-3.5rem)] flex items-center">
-                                       <div class="ti-modal-content">
-                            <div class="ti-modal-header">
-                                <h6 class="modal-title" id="staticBackdropLabel2">Verification
-                                </h6>
-                                <button type="button" class="hs-dropdown-toggle ti-modal-close-btn"
-                                    data-hs-overlay="#hs-vertically-centered-modal">
-                                    <span class="sr-only">Close</span>
-                                    <svg class="w-3.5 h-3.5" width="8" height="8" viewBox="0 0 8 8"
-                                        fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M0.258206 1.00652C0.351976 0.912791 0.479126 0.860131 0.611706 0.860131C0.744296 0.860131 0.871447 0.912791 0.965207 1.00652L3.61171 3.65302L6.25822 1.00652C6.30432 0.958771 6.35952 0.920671 6.42052 0.894471C6.48152 0.868271 6.54712 0.854471 6.61352 0.853901C6.67992 0.853321 6.74572 0.865971 6.80722 0.891111C6.86862 0.916251 6.92442 0.953381 6.97142 1.00032C7.01832 1.04727 7.05552 1.1031 7.08062 1.16454C7.10572 1.22599 7.11842 1.29183 7.11782 1.35822C7.11722 1.42461 7.10342 1.49022 7.07722 1.55122C7.05102 1.61222 7.01292 1.6674 6.96522 1.71352L4.31871 4.36002L6.96522 7.00648C7.05632 7.10078 7.10672 7.22708 7.10552 7.35818C7.10442 7.48928 7.05182 7.61468 6.95912 7.70738C6.86642 7.80018 6.74102 7.85268 6.60992 7.85388C6.47882 7.85498 6.35252 7.80458 6.25822 7.71348L3.61171 5.06702L0.965207 7.71348C0.870907 7.80458 0.744606 7.85498 0.613506 7.85388C0.482406 7.85268 0.357007 7.80018 0.264297 7.70738C0.171597 7.61468 0.119017 7.48928 0.117877 7.35818C0.116737 7.22708 0.167126 7.10078 0.258206 7.00648L2.90471 4.36002L0.258206 1.71352C0.164476 1.61976 0.111816 1.4926 0.111816 1.36002C0.111816 1.22744 0.164476 1.10028 0.258206 1.00652Z"
-                                            fill="currentColor" />
-                                    </svg>
-                                </button>
+    <div id="hs-vertically-centered-modal" class="hs-overlay hidden ti-modal">
+        <div class="hs-overlay-open:mt-7 ti-modal-box mt-0 ease-out min-h-[calc(100%-3.5rem)] flex items-center">
+            <div class="ti-modal-content">
+                <div class="ti-modal-header">
+                    <h6 class="modal-title" id="staticBackdropLabel2">Verification
+                    </h6>
+                    <button type="button" class="hs-dropdown-toggle ti-modal-close-btn"
+                        data-hs-overlay="#hs-vertically-centered-modal">
+                        <span class="sr-only">Close</span>
+                        <svg class="w-3.5 h-3.5" width="8" height="8" viewBox="0 0 8 8" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M0.258206 1.00652C0.351976 0.912791 0.479126 0.860131 0.611706 0.860131C0.744296 0.860131 0.871447 0.912791 0.965207 1.00652L3.61171 3.65302L6.25822 1.00652C6.30432 0.958771 6.35952 0.920671 6.42052 0.894471C6.48152 0.868271 6.54712 0.854471 6.61352 0.853901C6.67992 0.853321 6.74572 0.865971 6.80722 0.891111C6.86862 0.916251 6.92442 0.953381 6.97142 1.00032C7.01832 1.04727 7.05552 1.1031 7.08062 1.16454C7.10572 1.22599 7.11842 1.29183 7.11782 1.35822C7.11722 1.42461 7.10342 1.49022 7.07722 1.55122C7.05102 1.61222 7.01292 1.6674 6.96522 1.71352L4.31871 4.36002L6.96522 7.00648C7.05632 7.10078 7.10672 7.22708 7.10552 7.35818C7.10442 7.48928 7.05182 7.61468 6.95912 7.70738C6.86642 7.80018 6.74102 7.85268 6.60992 7.85388C6.47882 7.85498 6.35252 7.80458 6.25822 7.71348L3.61171 5.06702L0.965207 7.71348C0.870907 7.80458 0.744606 7.85498 0.613506 7.85388C0.482406 7.85268 0.357007 7.80018 0.264297 7.70738C0.171597 7.61468 0.119017 7.48928 0.117877 7.35818C0.116737 7.22708 0.167126 7.10078 0.258206 7.00648L2.90471 4.36002L0.258206 1.71352C0.164476 1.61976 0.111816 1.4926 0.111816 1.36002C0.111816 1.22744 0.164476 1.10028 0.258206 1.00652Z"
+                                fill="currentColor" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="ti-modal-body">
+                    <p>Your form has been submitted successfully. An OTP has been sent to:</p>
+                    <p id="emailDisplay"></p>
+                    <div class="" id="otp_check_alert"></div>
+                    <form method="post" id="otpVerificationForm">
+                        @csrf
+                        <div class="grid grid-cols-12 sm:gap-x-6 sm:gap-y-4">
+                            <div class="md:col-span-12 col-span-12 mb-4">
+                                <label class="form-label">Enter OTP:</label>
+                                <input type="text" id="emailDisplayVal" name="emailinput" hidden>
+                                <input type="text" name="otpinput" id="otpinput" class="form-control">
+                                <div class="invalid-feedback"></div>
                             </div>
-                            <div class="ti-modal-body">
-                                <p>Your form has been submitted successfully. An OTP has been sent to:</p>
-                                <p id="emailDisplay"></p>
-                                <div class="" id="otp_check_alert"></div>
-                                <form method="post" id="otpVerificationForm">
-                                    @csrf
-                                    <div class="grid grid-cols-12 sm:gap-x-6 sm:gap-y-4">
-                                        <div class="md:col-span-12 col-span-12 mb-4">
-                                            <label class="form-label">Enter OTP:</label>
-                                            <input type="text" id="emailDisplayVal" name="emailinput" hidden>
-                                            <input type="text" name="otpinput" id="otpinput"
-                                                class="form-control">
-                                                <div class="invalid-feedback"></div>
-                                        </div>
 
-                                        <div
-                                            class="md:col-span-12 col-span-12 md:flex md:justify-end check-btn">
-                                            <input type="submit" value="Verify OTP" id="checkotpinput"
-                                                                                     class="ti-btn ti-btn-primary-full !mb-0">
+                            <div class="md:col-span-12 col-span-12 md:flex md:justify-end check-btn">
+                                <input type="submit" value="Verify OTP" id="checkotpinput"
+                                    class="ti-btn ti-btn-primary-full !mb-0">
 
-                                        </div>
-                                    </div>
-                                </form>
                             </div>
-                            {{-- <div class="ti-modal-footer">
+                        </div>
+                    </form>
+                </div>
+                {{-- <div class="ti-modal-footer">
                                 <button type="button" class="hs-dropdown-toggle ti-btn ti-btn-secondary-full"
                                     data-hs-overlay="#hs-vertically-centered-modal">
                                     Close
@@ -316,9 +324,9 @@
                                     Save changes
                                 </a>
                             </div> --}}
-                        </div>
-                    </div>
-                </div>
+            </div>
+        </div>
+    </div>
 
 
     <script>
@@ -328,7 +336,7 @@
                 $('#checkotp').val('please wait..');
                 var formData = $(this).serialize(); // Serialize form data
                 $.ajax({
-                          url: '{{ route('user.otpcheckfpay') }}',
+                    url: '{{ route('user.otpcheckfpay') }}',
                     method: 'post',
                     data: formData,
                     success: function(response) {
@@ -350,7 +358,7 @@
                             $('#checkotp').hide();
                             $('#hs-vertically-centered-modal').removeClass('hidden');
                             $('#hs-vertically-centered-modal').addClass('open');
-                            $('#hs-vertically-centered-modal').css('background','#1f1f1f47');
+                            $('#hs-vertically-centered-modal').css('background', '#1f1f1f47');
 
                             // $('#successModal').modal('show');
                             var email = getEmailFromFormData(formData);
@@ -400,45 +408,48 @@
             function getEmailFromFormData(formData) {
                 var email = decodeURIComponent(formData).split('&').find(function(element) {
                     return element.includes('email=');
-                }).split('=')[                  1];
+                }).split('=')[1];
                 return email;
             }
 
             $('#email').on('blur', function() {
-            var email = $(this).val();
+                var email = $(this).val();
 
-            if (email) {
-                $.ajax({
-                    url: '/check-email',
-                    type: 'GET',
-                    data: { email: email },
-                    success: function(response) {
-                        if (response.first_name && response.last_name) {
-                            $('#first_name').val(response.first_name).prop('disabled', true);
-                            $('#last_name').val(response.last_name).prop('disabled', true);
-                            $('#hidden_first_name').val(response.first_name);
-                            $('#hidden_last_name').val(response.last_name);
-                        } else {
+                if (email) {
+                    $.ajax({
+                        url: '/check-email',
+                        type: 'GET',
+                        data: {
+                            email: email
+                        },
+                        success: function(response) {
+                            if (response.first_name && response.last_name) {
+                                $('#first_name').val(response.first_name).prop('disabled',
+                                true);
+                                $('#last_name').val(response.last_name).prop('disabled', true);
+                                $('#hidden_first_name').val(response.first_name);
+                                $('#hidden_last_name').val(response.last_name);
+                            } else {
+                                $('#first_name').val('').prop('disabled', false);
+                                $('#last_name').val('').prop('disabled', false);
+                                $('#hidden_first_name').val('');
+                                $('#hidden_last_name').val('');
+                            }
+                        },
+                        error: function() {
                             $('#first_name').val('').prop('disabled', false);
                             $('#last_name').val('').prop('disabled', false);
                             $('#hidden_first_name').val('');
                             $('#hidden_last_name').val('');
                         }
-                    },
-                    error: function() {
-                        $('#first_name').val('').prop('disabled', false);
-                        $('#last_name').val('').prop('disabled', false);
-                        $('#hidden_first_name').val('');
-                        $('#hidden_last_name').val('');
-                    }
-                });
-            } else {
-                $('#first_name').val('').prop('disabled', false);
-                $('#last_name').val('').prop('disabled', false);
-                $('#hidden_first_name').val('');
-                $('#hidden_last_name').val('');
-            }
-        });
+                    });
+                } else {
+                    $('#first_name').val('').prop('disabled', false);
+                    $('#last_name').val('').prop('disabled', false);
+                    $('#hidden_first_name').val('');
+                    $('#hidden_last_name').val('');
+                }
+            });
 
         });
     </script>
