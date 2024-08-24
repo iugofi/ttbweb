@@ -137,7 +137,7 @@
                                                 <td class="border px-4 py-2">
                                                     <div class="flex flex-row items-center !gap-2 text-[0.9375rem]">
                                                         <a aria-label="anchor"
-                                                            href="{{ route('edit.newsedit',  \Crypt::encrypt($item->id)) }}"
+                                                            href="{{ route('edit.newsedit', \Crypt::encrypt($item->id)) }}"
                                                             class="ti-btn ti-btn-icon ti-btn-wave !gap-0 !m-0 !h-[1.75rem] !w-[1.75rem] text-[0.8rem] bg-primary/10 text-primary hover:bg-primary hover:text-white hover:border-primary">
                                                             <i class="ri-edit-line"></i>
                                                         </a>
@@ -156,68 +156,68 @@
                                 </table>
                             </div>
 
-                            </div>
                         </div>
                     </div>
                 </div>
-
-
-
-
-
-
             </div>
+
+
+
+
+
+
         </div>
+    </div>
 
 
 
 
 
-        <!-- Grid JS -->
-        <script src="{{ asset('assets/libs/gridjs/gridjs.umd.js') }}"></script>
+    <!-- Grid JS -->
+    <script src="{{ asset('assets/libs/gridjs/gridjs.umd.js') }}"></script>
 
-        <!-- Internal Grid JS -->
-        <script src="{{ asset('assets/js/grid.js') }}"></script>
-        <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css">
-        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-        <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+    <!-- Internal Grid JS -->
+    <script src="{{ asset('assets/js/grid.js') }}"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
 
-        <script>
-            $(document).ready(function() {
-                $('#example').DataTable({
+    <script>
+        $(document).ready(function() {
+            $('#example').DataTable({
 
-                });
             });
-        </script>
+        });
+    </script>
 
-        <script>
-            $(document).ready(function() {
-                var csrfToken = $('meta[name="csrf-token"]').attr('content');
-                $(document).on('click', '.delete-news', function() {
-                    var itemId = $(this).data('item-id');
-                    var url = "{{ route('delete.newsdelete', ':id') }}";
-                    url = url.replace(':id', itemId);
+    <script>
+        $(document).ready(function() {
+            var csrfToken = $('meta[name="csrf-token"]').attr('content');
+            $(document).on('click', '.delete-news', function() {
+                var itemId = $(this).data('item-id');
+                var url = "{{ route('delete.newsdelete', ':id') }}";
+                url = url.replace(':id', itemId);
 
-                    // Show confirmation dialog before deleting
-                    if (confirm("Are you sure you want to delete this item?")) {
-                        $.ajax({
-                            url: url,
-                            type: 'DELETE',
-                            headers: {
-                                'X-CSRF-TOKEN': csrfToken // Include CSRF token in headers
-                            },
-                            success: function(response) {
-                                console.log(response.message);
-                                location.reload();
-                            },
-                            error: function(xhr, status, error) {
-                                console.error(error);
-                            }
-                        });
-                    }
-                });
+                // Show confirmation dialog before deleting
+                if (confirm("Are you sure you want to delete this item?")) {
+                    $.ajax({
+                        url: url,
+                        type: 'DELETE',
+                        headers: {
+                            'X-CSRF-TOKEN': csrfToken // Include CSRF token in headers
+                        },
+                        success: function(response) {
+                            console.log(response.message);
+                            location.reload();
+                        },
+                        error: function(xhr, status, error) {
+                            console.error(error);
+                        }
+                    });
+                }
             });
-        </script>
+        });
+    </script>
 
 
-    @endsection
+@endsection

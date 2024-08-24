@@ -19,6 +19,7 @@ use App\Models\Eventmodel;
 use App\Models\Payments;
 use App\Models\Plandetails;
 use App\Models\Visitors;
+use App\Models\Reminder_logs;
 use App\Models\SendMail;
 use Mail;
 use Illuminate\Support\Facades\Crypt;
@@ -1826,7 +1827,10 @@ public function Reminder_mail_list(Request $request)
 
     if ($this->loggedInAdmin) {
 
-        return view('Admin.Reminder_mail_list_page');
+        $Reminder_logs=Reminder_logs::all();
+
+
+        return view('Admin.Reminder_mail_list_page',['Reminder_logs'=>$Reminder_logs]);
     } else {
         return redirect('/setup');
     }
