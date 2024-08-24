@@ -6,6 +6,6 @@
 @section('canonical', 'vbhdvbh')
 @section('content')
 
-
+<h1>hfd</h1>
 
 @endsection
