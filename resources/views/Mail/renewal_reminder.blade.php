@@ -11,6 +11,17 @@
 </body>
 </html> --}}
 
+
+@php
+$query = DB::table('product_details')
+    ->join('planname', 'planname.plan_id', '=', 'product_details.plan_id')
+    ->join('storepick', 'storepick.PICK_ID', '=', 'product_details.key_type')
+    ->select('storepick.PICK_TEXT as Key_type', 'planname.name as Planname')
+    ->where('product_details.id', $reminder->product_id)
+    ->where('storepick.STORE_ID', 'key_type')
+    ->first();
+@endphp
+
 <!DOCTYPE html
     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en">
@@ -514,7 +525,7 @@
                                                                     style="Margin:0;padding-top:10px;padding-bottom:10px;padding-left:40px;padding-right:40px">
                                                                     <p
                                                                         style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:24px;color:#222222;font-size:16px">
-                                                                        Hello, {{ $reminder->firstname }} {{ $reminder->lastname}} Your subscription&nbsp;expires
+                                                                        Hello, {{ $reminder->firstname }} {{ $reminder->lastname}} Your {{$query->Key_type}}/{{$query->Planname}} subscription&nbsp;expires
                                                                         in {{ $reminder->day_difference }} days.
                                                                         {{-- Renew subscription&nbsp;for
                                                                         <strong>$79/month.</strong> --}}
