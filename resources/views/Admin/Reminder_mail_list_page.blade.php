@@ -67,9 +67,10 @@
                                         <th class="px-4 py-2">Name</th>
                                         <th class="px-4 py-2">Product</th>
                                         <th class="px-4 py-2">Email</th>
-                                        <th class="px-4 py-2">Sent At</th>
                                         <th class="px-4 py-2">Status</th>
                                         <th class="px-4 py-2">Error Message</th>
+                                        <th class="px-4 py-2">Sent At</th>
+
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -83,9 +84,10 @@
                                             <td class="border px-4 py-2">{{$item->firstname}} {{$item->lastname}}</td>
                                             <td class="border px-4 py-2">{{$item->Key_type}}/{{$item->Planname}}</td>
                                             <td class="border px-4 py-2">{{$item->email}}</td>
-                                            <td class="border px-4 py-2">{{$item->sent_at}}</td>
                                             <td class="border px-4 py-2">{{$item->status}}</td>
                                             <td class="border px-4 py-2">{{$item->error_message}}</td>
+                                            <td class="border px-4 py-2">{{$item->sent_at}}</td>
+
 
                                         </tr>
                                     @endforeach
