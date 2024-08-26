@@ -145,123 +145,12 @@
         <!-- End::End Point section three -->
 
         <!-- Start::End Point section four -->
-        {{-- <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
-            id="features">
-            <div class="container endpoint-container">
-                <div class="grid grid-cols-12 gap-6">
-                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
-                        <div class="txt">
-                            <h2 class="landing-banner-heading font-semibold mb-2 text-[2rem]">How Can TTB
-                                <span style="color:#12D2B3;">Help?
-                            </h2>
-                            <div class="text-[1rem] mb-[0rem] !text-dark opacity-[0.9] ">Collaboratively actualize
-                                excellent schemas without effective models. Synergistically engineer functionalized
-                                applications rather than backend e-commerce<br><br>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas laborum labore fugiat
-                                voluptate obcaecati tempore? nisi adipisci.
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
-                        <div class="grid grid-cols-12 gap-6">
-                            <div class="xl:col-span-6 md:col-span-6 col-span-12">
-                                <div class="box">
-
-                                    <div class="box-body text-[0.9rem] text-center endpoint-box-bm">
-                                        <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
-
-                                            <i class="fa-solid fa-mobile-screen-button text-4xl icon-hover"></i>
-                                        </span>
-                                        <h6 class="box-title font-semibold">Apps Development</h6>
-                                        <p class="card-text mb-4">With supporting text below as a natural lead-in to
-                                            additional content.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="xl:col-span-6 md:col-span-6 col-span-12">
-                                <div class="box">
-
-                                    <div class="box-body text-[0.9rem] text-center endpoint-box-bm">
-                                        <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
-
-                                            <i class="fa-brands fa-codepen text-4xl icon-hover"></i>
-                                        </span>
-                                        <h6 class="box-title font-semibold">It Engineering</h6>
-                                        <p class="card-text mb-4">With supporting text below as a natural lead-in to
-                                            additional content.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 col-span-12 endpoint-rowtwo">
-                        <div class="grid grid-cols-12 gap-6">
-                            <div class="xl:col-span-3 md:col-span-6 col-span-12">
-                                <div class="box">
-
-                                    <div class="box-body text-[0.9rem] text-center endpoint-box-bm">
-                                        <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
-
-                                            <i class="fa-brands fa-digital-ocean text-4xl icon-hover"></i>
-                                        </span>
-                                        <h6 class="box-title font-semibold">Digital Soluations</h6>
-                                        <p class="card-text mb-4">With supporting text below as a natural lead-in to
-                                            additional content.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="xl:col-span-3 md:col-span-6 col-span-12">
-                                <div class="box">
-
-                                    <div class="box-body text-[0.9rem] text-center endpoint-box-bm">
-                                        <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
-
-                                            <i class="fa-regular fa-bookmark text-4xl icon-hover"></i>
-                                        </span>
-                                        <h6 class="box-title font-semibold">Market Research</h6>
-                                        <p class="card-text mb-4">With supporting text below as a natural lead-in to
-                                            additional content.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="xl:col-span-3 md:col-span-6 col-span-12">
-                                <div class="box">
-                                    <div class="box-body text-[0.9rem] text-center endpoint-box-bm">
-                                        <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
-
-                                            <i class="fa-solid fa-shield-halved text-4xl icon-hover"></i>
-                                        </span>
-                                        <h6 class="box-title font-semibold">Market Cyber Security</h6>
-                                        <p class="card-text mb-4">With supporting text below as a natural lead-in to
-                                            additional content.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="xl:col-span-3 md:col-span-6 col-span-12">
-                                <div class="box ">
-                                    <div class="box-body text-[0.9rem] text-center endpoint-box-bm">
-                                        <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
-
-                                            <i class="fa-solid fa-mobile-screen-button text-4xl icon-hover"></i>
-                                        </span>
-                                        <h6 class="box-title font-semibold">Market Cyber Security</h6>
-                                        <p class="card-text mb-4">With supporting text below as a natural lead-in to
-                                            additional content.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> --}}
         <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70">
             <div class="content endpoint-slider">
                 <div class="main-content">
 
 
-                    <div class="container mx-auto mt-10">
+                    <div class="container">
                         <div class="owl-carousel owl-theme">
                             <div class="item bg-white p-5 rounded-lg shadow-md">
                                 <img class="h-16 w-16 rounded-full shadow-2xl"
