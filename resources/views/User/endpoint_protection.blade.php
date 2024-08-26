@@ -126,7 +126,7 @@
                     class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 text-center">
                         <div class="lg:text-start !flex items-center lg:justify-start justify-center">
-                            <img src="{{ asset('assets/img/scnd-section-img.jpg') }}" alt="" class="img-fluid">
+                            <img src="{{ asset('assets/img/What-do-TTB-Endpoint-Security-Services-offer-you.png') }}" alt="" class="img-fluid">
                         </div>
                     </div>
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 pt-5 pb-0 lg:px-2 !text-start"
