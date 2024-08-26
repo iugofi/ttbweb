@@ -106,7 +106,7 @@
 
                         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-4 endpoint-content" style="display: flex; justify-content: center;">
                             <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-12 inline-flex">
-                                <img src="assets/img/24-7-icon.png" class="img-fluid endpoint-icon p-5 w-100">
+                                <img src="assets/img/24-7-icon.png" class="img-fluid endpoint-icon p-5 mt-2 w-100" style="width:90px; height:90px">
 
                                 <div class="icon-txt ms-4 mr-[1.0rem]">
                                     <p class="text-white py-5" style="color: #fff;">TTB Endpoint Security offers you complete online security solutions where you don’t need to compromise your<br>
