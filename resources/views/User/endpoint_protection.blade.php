@@ -149,7 +149,7 @@
             <div class="content endpoint-slider">
                 <div class="main-content">
                     <div class="container">
-                        <div class="owl-carousel owl-theme">
+                        <div class="owl-carousels owl-theme">
                             <div class="item bg-white p-5 rounded-lg shadow-md">
                                 <img class="h-16 w-16 rounded-full shadow-2xl"
                                     src="https://pbs.twimg.com/profile_images/830533062807191552/TbkWKnnv_400x400.jpg"
@@ -227,9 +227,9 @@
                     <!-- Owl Carousel JS -->
                     {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script> --}}
                     <!-- Initialize Owl Carousel -->
-                    {{-- <script>
+                    <script>
                         $(document).ready(function() {
-                            $('.owl-carousel').owlCarousel({
+                            $('.owl-carousels').owlCarousel({
                                 loop: true,
                                 margin: 10,
                                 autoplay: true,
@@ -247,7 +247,7 @@
                                 }
                             });
                         });
-                    </script> --}}
+                    </script>
 
 
         </section>
