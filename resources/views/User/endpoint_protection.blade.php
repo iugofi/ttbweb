@@ -726,10 +726,8 @@
 
 
             <script>
-                // $(document).ready(function() {
-                //     testimonials();
-                    $(document).ready(function() {
-                            $('.testimonials').testimonials({
+                $(document).ready(function() {
+                    .testimonials({
                                 loop: true,
                                 margin: 10,
                                 autoplay: true,
@@ -747,7 +745,6 @@
                                 }
                             });
                         });
-                });
             </script>
 
             {{-- New testimonial html css End --}}
