@@ -106,11 +106,13 @@
 
                         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-4 endpoint-content" style="display: flex; justify-content: center;">
                             <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-12 inline-flex">
-                                <img src="assets/img/Award-Winning.png" class="img-fluid endpoint-icon p-5 w-100">
+                                <img src="assets/img/icon-three.png" class="img-fluid endpoint-icon p-5 w-100">
 
                                 <div class="icon-txt ms-4 mr-[1.0rem]">
-                                    <h5 class="dark-text" style="color: #fff;">Best Services</h5>
-                                    <p class="text-white" style="color: #fff;">TTB Endpoint Security offers you complete online security solutions where you don’t need to compromise your<br> confidentiality. We protect you from unauthorized access, malware, viruses &amp; emerging threats in the modern<br> tech landscape. From your smartphone to the PC, you get end-to-end protection with a single product.<br> We serve a common user to professional enterprises with 24x7 hour expert services.
+                                    <p class="text-white py-5" style="color: #fff;">TTB Endpoint Security offers you complete online security solutions where you don’t need to compromise your<br>
+                                        confidentiality. We protect you from unauthorized access, malware, viruses emerging threats in the modern<br>
+                                         tech landscape. From your smartphone to the PC, you get end-to-end protection with a single product.<br>
+                                         We serve a common user to professional enterprises with 24x7 hour expert services.
                                     </p>
                                 </div>
                             </div>
