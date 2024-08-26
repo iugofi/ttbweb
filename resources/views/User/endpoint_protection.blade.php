@@ -96,14 +96,8 @@
         </div> --}}
         <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] " style="padding-top: 0px; padding-bottom: 0px; background-color:#12D2B3;">
             <div class="container main-banner-container">
-
                 <div class="grid lg:grid-cols-12 md:grid-cols-12 sm:grid-cols-12 justify-center align-center tab-css">
-
-
                     <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 pt-5 pb-3 lg:px-2 !text-start px-12 my-auto">
-
-
-
                         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-4 endpoint-content" style="display: flex; justify-content: center;">
                             <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-12 inline-flex">
                                 <img src="assets/img/24-7-icon.png" class="img-fluid endpoint-icon p-1 mt-2 w-100" style="width:90px; height:90px">
@@ -138,8 +132,9 @@
                     </div>
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 pt-5 pb-0 lg:px-2 !text-start"
                         style="margin: 0 50px auto;">
-                        <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">WHP WE ARE</span>
+                        <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">TTB SERVICES</span>
                         <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">What do TTB Endpoint Security<br> Services offer you?</h4>
+                        <hr style="width: 20%; height: 2px; background: #13d8aa; margin-bottom: 14px;">
                         <p class=" text-[1rem] text-[#8c9097] dark:text-white/50 mb-4 ">The endpoint security protection from TTB is a unified approach<br>
                              to provide you with a secure & seamless online experience.<br>
                              Here, you get real-time scanning, threat detection & alerts, and<br>
