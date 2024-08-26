@@ -145,7 +145,7 @@
         <!-- End::End Point section three -->
 
         <!-- Start::End Point section four -->
-        <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
+        {{-- <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70"
             id="features">
             <div class="container endpoint-container">
                 <div class="grid grid-cols-12 gap-6">
@@ -170,7 +170,7 @@
 
                                     <div class="box-body text-[0.9rem] text-center endpoint-box-bm">
                                         <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
-                                            {{-- <img src="assets/img/Icon-1.png" alt="img" class="!rounded-md"> --}}
+
                                             <i class="fa-solid fa-mobile-screen-button text-4xl icon-hover"></i>
                                         </span>
                                         <h6 class="box-title font-semibold">Apps Development</h6>
@@ -184,7 +184,7 @@
 
                                     <div class="box-body text-[0.9rem] text-center endpoint-box-bm">
                                         <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
-                                            {{-- <img src="assets/img/Icon-2.png" alt="img" class="!rounded-md"> --}}
+
                                             <i class="fa-brands fa-codepen text-4xl icon-hover"></i>
                                         </span>
                                         <h6 class="box-title font-semibold">It Engineering</h6>
@@ -202,7 +202,7 @@
 
                                     <div class="box-body text-[0.9rem] text-center endpoint-box-bm">
                                         <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
-                                            {{-- <img src="assets/img/Icon-1.png" alt="img" class="!rounded-md"> --}}
+
                                             <i class="fa-brands fa-digital-ocean text-4xl icon-hover"></i>
                                         </span>
                                         <h6 class="box-title font-semibold">Digital Soluations</h6>
@@ -216,7 +216,7 @@
 
                                     <div class="box-body text-[0.9rem] text-center endpoint-box-bm">
                                         <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
-                                            {{-- <img src="assets/img/Icon-2.png" alt="img" class="!rounded-md"> --}}
+
                                             <i class="fa-regular fa-bookmark text-4xl icon-hover"></i>
                                         </span>
                                         <h6 class="box-title font-semibold">Market Research</h6>
@@ -229,7 +229,7 @@
                                 <div class="box">
                                     <div class="box-body text-[0.9rem] text-center endpoint-box-bm">
                                         <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
-                                            {{-- <img src="assets/img/Icon-3.png" alt="img" class="!rounded-md"> --}}
+
                                             <i class="fa-solid fa-shield-halved text-4xl icon-hover"></i>
                                         </span>
                                         <h6 class="box-title font-semibold">Market Cyber Security</h6>
@@ -242,7 +242,7 @@
                                 <div class="box ">
                                     <div class="box-body text-[0.9rem] text-center endpoint-box-bm">
                                         <span class="mb-4 avatar avatar-lg avatar-rounded bg-primary/10 !text-primary">
-                                            {{-- <img src="assets/img/Icon-4.png" alt="img" class="!rounded-md"> --}}
+
                                             <i class="fa-solid fa-mobile-screen-button text-4xl icon-hover"></i>
                                         </span>
                                         <h6 class="box-title font-semibold">Market Cyber Security</h6>
@@ -255,6 +255,114 @@
                     </div>
                 </div>
             </div>
+        </section> --}}
+        <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70">
+            <div class="content endpoint-slider">
+                <div class="main-content">
+
+
+                    <div class="container mx-auto mt-10">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item bg-white p-5 rounded-lg shadow-md">
+                                <img class="h-16 w-16 rounded-full shadow-2xl"
+                                    src="https://pbs.twimg.com/profile_images/830533062807191552/TbkWKnnv_400x400.jpg"
+                                    alt="Img" style="width: 65px !important;">
+                                <p class="dark-black text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
+                                    style="font-size: 16px;">Enhanced Firewall</p>
+                                <p class="mt-3 text-gray-600 text-center">The first line of defense that secures you
+                                    from unauthorized access and unknown
+                                    cyber threats.</p>
+                            </div>
+                            <div class="item bg-white p-5 rounded-lg shadow-md">
+                                <img class="h-16 w-16 rounded-full shadow-2xl"
+                                    src="https://pbs.twimg.com/profile_images/830533062807191552/TbkWKnnv_400x400.jpg"
+                                    alt="Img" style="width: 65px !important;">
+                                <p class="dark-black text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
+                                    style="font-size: 16px;">Advanced Antivirus Solutions</p>
+                                <p class="mt-3 text-gray-600 text-center">A digital barrier with real-time scanning
+                                    filters and blocks malicious links, texts,
+                                    nasty viruses, and URLs.</p>
+                            </div>
+                            <div class="item bg-white p-5 rounded-lg shadow-md">
+                                <img class="h-16 w-16 rounded-full shadow-2xl"
+                                    src="https://pbs.twimg.com/profile_images/830533062807191552/TbkWKnnv_400x400.jpg"
+                                    alt="Img" style="width: 65px !important;">
+                                <p class="dark-black text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
+                                    style="font-size: 16px;">Real-Time Scanning & Threat Detection</p>
+                                <p class="mt-3 text-gray-600 text-center">Provides you with real-time threat alerts and
+                                    scanning to aware you of suspicious activities
+                                    & emerging menaces.</p>
+                            </div>
+                            <div class="item bg-white p-5 rounded-lg shadow-md">
+                                <img class="h-16 w-16 rounded-full shadow-2xl"
+                                    src="https://pbs.twimg.com/profile_images/830533062807191552/TbkWKnnv_400x400.jpg"
+                                    alt="Img" style="width: 65px !important;">
+                                <p class="dark-black text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
+                                    style="font-size: 16px;">Patch Management</p>
+                                <p class="mt-3 text-gray-600 text-center">This borderline security keeps your device
+                                    updated and fixes the vulnerabilities if occur before
+                                    hackers exploit it. </p>
+                            </div>
+                            <div class="item bg-white p-5 rounded-lg shadow-md">
+                                <img class="h-16 w-16 rounded-full shadow-2xl"
+                                    src="https://pbs.twimg.com/profile_images/830533062807191552/TbkWKnnv_400x400.jpg"
+                                    alt="Img" style="width: 65px !important;">
+                                <p class="dark-black text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
+                                    style="font-size: 16px;">Data Security Access Control</p>
+                                <p class="mt-3 text-gray-600 text-center">Manages & authorizes the user permissions
+                                    with Multifactor authentication to limit the access to sensitive
+                                    data by blocking unauthorized access.</p>
+                            </div>
+                            <div class="item bg-white p-5 rounded-lg shadow-md">
+                                <img class="h-16 w-16 rounded-full shadow-2xl"
+                                    src="https://pbs.twimg.com/profile_images/830533062807191552/TbkWKnnv_400x400.jpg"
+                                    alt="Img" style="width: 65px !important;">
+                                <p class="dark-black text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
+                                    style="font-size: 16px;">Centralized Management</p>
+                                <p class="mt-3 text-gray-600 text-center">We provide you with central management &
+                                    endpoint security considering setting, security policies, and monitoring
+                                    compliance.</p>
+                            </div>
+                            <div class="item bg-white p-5 rounded-lg shadow-md">
+                                <img class="h-16 w-16 rounded-full shadow-2xl"
+                                    src="https://pbs.twimg.com/profile_images/830533062807191552/TbkWKnnv_400x400.jpg"
+                                    alt="Img" style="width: 65px !important;">
+                                <p class="dark-black text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
+                                    style="font-size: 16px;">E-Support Concierge</p>
+                                <p class="mt-3 text-gray-600 text-center">We serve you 24x7 hours of security services
+                                    and assistance regarding the products and services you buy from us.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- jQuery -->
+                    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                    <!-- Owl Carousel JS -->
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+                    <!-- Initialize Owl Carousel -->
+                    <script>
+                        $(document).ready(function() {
+                            $('.owl-carousel').owlCarousel({
+                                loop: true,
+                                margin: 10,
+                                autoplay: true,
+                                autoplayTimeout: 3000,
+                                responsive: {
+                                    0: {
+                                        items: 1
+                                    },
+                                    768: {
+                                        items: 3
+                                    },
+                                    1024: {
+                                        items: 4
+                                    }
+                                }
+                            });
+                        });
+                    </script>
+
+
         </section>
         <!-- End::End Point section four -->
 
