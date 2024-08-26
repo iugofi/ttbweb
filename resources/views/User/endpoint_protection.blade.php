@@ -44,7 +44,7 @@
         <!-- End::End Point section one -->
 
         <!-- Start::End Point section two -->
-        <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] "
+        {{-- <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] "
             style="padding-top: 0px; padding-bottom: 0px; background-color:#12D2B3;">
             <div class="container main-banner-container">
 
@@ -88,6 +88,34 @@
                                     </p>
                                 </div>
                             </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> --}}
+        <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] " style="padding-top: 0px; padding-bottom: 0px; background-color:#12D2B3;">
+            <div class="container main-banner-container">
+
+                <div class="grid lg:grid-cols-12 md:grid-cols-12 sm:grid-cols-12 justify-center align-center tab-css">
+
+
+                    <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 pt-5 pb-3 lg:px-2 !text-start px-12 my-auto">
+
+
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-4 endpoint-content" style="display: flex; justify-content: center;">
+                            <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-12 inline-flex">
+                                <img src="assets/img/Award-Winning.png" class="img-fluid endpoint-icon p-5 w-100">
+
+                                <div class="icon-txt ms-4 mr-[1.0rem]">
+                                    <h5 class="dark-text" style="color: #fff;">Best Services</h5>
+                                    <p class="text-white" style="color: #fff;">TTB Endpoint Security offers you complete online security solutions where you don’t need to compromise your<br> confidentiality. We protect you from unauthorized access, malware, viruses &amp; emerging threats in the modern<br> tech landscape. From your smartphone to the PC, you get end-to-end protection with a single product.<br> We serve a common user to professional enterprises with 24x7 hour expert services.
+                                    </p>
+                                </div>
+                            </div>
+
+
 
                         </div>
                     </div>
