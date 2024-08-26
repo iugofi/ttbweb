@@ -145,7 +145,7 @@
         <!-- End::End Point section three -->
 
         <!-- Start::End Point section four -->
-        {{-- <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70">
+        <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70">
             <div class="content endpoint-slider">
                 <div class="main-content">
                     <div class="container">
@@ -250,7 +250,7 @@
                     </script>
 
 
-        </section> --}}
+        </section>
         <!-- End::End Point section four -->
 
         <!-- Start::End Point section fifth -->
