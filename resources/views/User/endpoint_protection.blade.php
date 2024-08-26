@@ -146,7 +146,7 @@
 
         <!-- Start::End Point section four -->
         <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70">
-            <div class="content endpoint-slider">
+            <div class="endpoint-slider">
                 <div class="main-content">
                     <div class="container">
                         <div class="owl-carousel mycustom-test owl-theme">
