@@ -726,8 +726,27 @@
 
 
             <script>
-                $(document).ready(function() {
-                    testimonials();
+                // $(document).ready(function() {
+                //     testimonials();
+                    $(document).ready(function() {
+                            $('.testimonials').testimonials({
+                                loop: true,
+                                margin: 10,
+                                autoplay: true,
+                                autoplayTimeout: 3000,
+                                responsive: {
+                                    0: {
+                                        items: 1
+                                    },
+                                    768: {
+                                        items: 2
+                                    },
+                                    1024: {
+                                        items: 2
+                                    }
+                                }
+                            });
+                        });
                 });
             </script>
 
