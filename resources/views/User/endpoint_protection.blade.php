@@ -106,7 +106,7 @@
 
                         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-4 endpoint-content" style="display: flex; justify-content: center;">
                             <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-12 inline-flex">
-                                <img src="assets/img/Omniroutes-Liftings.png" class="img-fluid endpoint-icon p-5 w-100">
+                                <img src="assets/img/24-7-icon.png" class="img-fluid endpoint-icon p-5 w-100">
 
                                 <div class="icon-txt ms-4 mr-[1.0rem]">
                                     <p class="text-white py-5" style="color: #fff;">TTB Endpoint Security offers you complete online security solutions where you don’t need to compromise your<br>
@@ -139,12 +139,11 @@
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 pt-5 pb-0 lg:px-2 !text-start"
                         style="margin: 0 50px auto;">
                         <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">WHP WE ARE</span>
-                        <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">WhO Does Endpoint <br>
-                            Security <span style="color:#12D2B3;">Matter?</span></h4>
-                        <p class=" text-[1rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
-                            value with diverse web-readiness. Collaboratively transition wireless customer service without
-                            goal-oriented catalysts for change. bjectively deliver professional value with diverse
-                            web-readiness.
+                        <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">What do TTB Endpoint Security<br> Services offer you?</h4>
+                        <p class=" text-[1rem] text-[#8c9097] dark:text-white/50 mb-4 ">The endpoint security protection from TTB is a unified approach<br>
+                             to provide you with a secure & seamless online experience.<br>
+                             Here, you get real-time scanning, threat detection & alerts, and<br>
+                             multi-layer encryption. Now, shed light on other primary services that you avail from us:
                         </p>
                         <p class=" text-[1rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
                             value with diverse web-readiness.Collaboratively transition wireless customer service.
