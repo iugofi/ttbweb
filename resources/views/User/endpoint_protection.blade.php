@@ -109,7 +109,7 @@
                                 <img src="assets/img/24-7-icon.png" class="img-fluid endpoint-icon p-1 mt-2 w-100" style="width:90px; height:90px">
 
                                 <div class="icon-txt ms-4 mr-[1.0rem]">
-                                    <p class="text-white py-5" style="color: #fff;">TTB Endpoint Security offers you complete online security solutions where you don’t need to compromise your<br>
+                                    <p class="text-white  text-sm py-5" style="color: #fff;">TTB Endpoint Security offers you complete online security solutions where you don’t need to compromise your<br>
                                         confidentiality. We protect you from unauthorized access, malware, viruses emerging threats in the modern<br>
                                          tech landscape. From your smartphone to the PC, you get end-to-end protection with a single product.<br>
                                          We serve a common user to professional enterprises with 24x7 hour expert services.
