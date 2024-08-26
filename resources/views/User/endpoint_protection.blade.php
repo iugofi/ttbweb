@@ -135,14 +135,11 @@
                         <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">TTB SERVICES</span>
                         <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">What do TTB Endpoint Security<br> Services offer you?</h4>
                         <hr style="width: 20%; height: 2px; background: #13d8aa; margin-bottom: 14px;">
-                        <p class=" text-[1rem] text-[#8c9097] dark:text-white/50 mb-4 ">The endpoint security protection from TTB is a unified approach<br>
-                             to provide you with a secure & seamless online experience.<br>
-                             Here, you get real-time scanning, threat detection & alerts, and<br>
-                             multi-layer encryption. Now, shed light on other primary services that you avail from us:
+                        <p class=" text-[1rem] text-[#8c9097] dark:text-white/50 mb-4 ">The endpoint security protection from TTB is a unified approach to provide you with a secure<br>
+                             & seamless online experience. Here, you get real-time scanning, threat detection & alerts,<br>
+                             and multi-layer encryption. Now, shed light on other primary services that you avail from us:
                         </p>
-                        <p class=" text-[1rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
-                            value with diverse web-readiness.Collaboratively transition wireless customer service.
-                        </p>
+
 
                         <div class="action-btns mt-4">
                             <a href="#" class="ti-btn bg-primary text-white">Discover More</a>
