@@ -139,11 +139,6 @@
                              & seamless online experience. Here, you get real-time scanning, threat detection & alerts,
                              and multi-layer encryption. Now, shed light on other primary services that you avail from us:
                         </p>
-
-
-                        <div class="action-btns mt-4">
-                            <a href="#" class="ti-btn bg-primary text-white">Discover More</a>
-                        </div>
                     </div>
                 </div>
             </div>
