@@ -100,7 +100,7 @@
                     <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 pt-5 pb-3 lg:px-2 !text-start px-12 my-auto">
                         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-4 endpoint-content" style="display: flex; justify-content: center;">
                             <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-12 inline-flex">
-                                <img src="assets/img/24-7-icon.png" class="img-fluid endpoint-icon p-1 mt-2 w-100" style="width:90px; height:90px">
+                                <img src="{{ asset('assets/img/24-7-icon.png"') }}' class="img-fluid endpoint-icon p-1 mt-2 w-100" style="width:90px; height:90px">
 
                                 <div class="icon-txt ms-4 mr-[1.0rem]">
                                     <p class="text-white  text-sm py-5" style="color: #fff;">TTB Endpoint Security offers you complete online security solutions where you don’t need to compromise your<br>
@@ -135,8 +135,8 @@
                         <span class="lg:text-center font-semibold mb-2 text-[1rem]" style="color:#12D2B3;">TTB SERVICES</span>
                         <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">What do TTB Endpoint Security<br> Services offer you?</h4>
                         <hr style="width: 20%; height: 2px; background: #13d8aa; margin-bottom: 14px;">
-                        <p class=" text-[1rem] text-[#8c9097] dark:text-white/50 mb-4 ">The endpoint security protection from TTB is a unified approach to provide you with a secure<br>
-                             & seamless online experience. Here, you get real-time scanning, threat detection & alerts,<br>
+                        <p class=" text-[1rem] text-[#8c9097] dark:text-white/50 mb-4 ">The endpoint security protection from TTB is a unified approach to provide you with a secure
+                             & seamless online experience. Here, you get real-time scanning, threat detection & alerts,
                              and multi-layer encryption. Now, shed light on other primary services that you avail from us:
                         </p>
 
