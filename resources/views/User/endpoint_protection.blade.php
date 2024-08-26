@@ -911,11 +911,11 @@
             </section>
 
 
-            <script>
+            {{-- <script>
                 $(document).ready(function() {
                     testimonials();
                 });
-            </script>
+            </script> --}}
 
             {{-- New testimonial html css End --}}
 
