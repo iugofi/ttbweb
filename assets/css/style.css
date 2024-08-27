@@ -53365,6 +53365,7 @@ section#about-features {
     color: #fff;
     padding: 30px;
     height: 100%;
+    border-radius: 4px;
 }
 
 .enhanced-container img.img-fluid {
