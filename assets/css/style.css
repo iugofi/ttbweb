@@ -53940,11 +53940,10 @@ li.footer-icon:hover i.fa-brands.fa-square-pinterest {
 
 .single-testimonial p {
     background: #fff;
-    padding: 16px;
     box-shadow: 0px 0px 8px 2px #0000001a;
     border-radius: 6px;
-    height: auto;
-    overflow: auto;
+    height: 165px;
+    padding: 20px 32px;
 }
 
 .back-img {
