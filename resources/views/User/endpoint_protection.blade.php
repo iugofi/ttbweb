@@ -236,19 +236,19 @@
                         </div>
                     </div>
                     <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-6 col-span-12">
-                        <div class="text-content">
+                        <div class="text-contents">
                             <p class=" text-[1rem] text-white dark:text-white/50 mb-4 ">Generally, endpoint security for business or a single
                                 user is defined as the set of practices and techniques to secure the devices from malicious attacks and viruses.
                                 This protection's primary goal is to secure user devices such as PCs, laptops, servers, smartphones, tablets, and
-                                virtual environments from malware, spyware, computer viruses, and online/offline threats.
+                                virtual environments from malware, spyware, computer viruses, and online/offline threats.<br>
 
                                 Likewise, all this is possible if your corporate network endpoint security has core features to compete with the modern surging threats. So, to understand these key points, take a look at the following:
                             </p>
-                            <div class="action-btns mt-4">
+                            {{-- <div class="action-btns mt-4">
                                 <a href="#" class="ti-btn bg-primary text-white"
                                     style="border: 2px solid #fff; padding: 8px 27px; font-weight: 600; border-radius: 0;">Read
                                     More</a>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
 

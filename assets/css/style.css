@@ -53360,10 +53360,11 @@ section#about-features {
     border-color: #11cdbd;
 }
 
-.text-content {
+.text-contents {
     background-color: #12d2b3;
     color: #fff;
-    padding: 98px 40px;
+    padding: 30px;
+    height: 100%;
 }
 
 .enhanced-container img.img-fluid {
