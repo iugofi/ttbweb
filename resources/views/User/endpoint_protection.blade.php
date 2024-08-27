@@ -44,56 +44,7 @@
         <!-- End::End Point section one -->
 
         <!-- Start::End Point section two -->
-        {{-- <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] "
-            style="padding-top: 0px; padding-bottom: 0px; background-color:#12D2B3;">
-            <div class="container main-banner-container">
 
-                <div class="grid lg:grid-cols-12 md:grid-cols-12 sm:grid-cols-12 justify-center align-center tab-css">
-
-
-                    <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 pt-5 pb-3 lg:px-2 !text-start px-12 my-auto">
-
-
-
-                        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-4 endpoint-content"
-                            style="display: flex; justify-content: center;">
-                            <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-12 inline-flex">
-                                <img src="assets/img/Award-Winning.png" class="img-fluid endpoint-icon p-1">
-
-                                <div class="icon-txt ms-4 mr-[1.0rem]">
-                                    <h5 class="dark-text" style="color: #fff;">Best Services</h5>
-                                    <p class="text-white" style="color: #fff;">Lorem ipsum dolor sit amet, eiusmod
-                                        <br>tempor.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-12 inline-flex ps-3 sectntwo-endpoint"
-                                style="border-right: 1px solid #fff; border-left: 1px solid #fff;">
-                                <img src="assets/img/Best-Support.png" class="img-fluid endpoint-icon p-1">
-
-                                <div class="icon-txt ms-4 mr-[1.0rem]">
-                                    <h5 class="dark-text" style="color: #fff;">Best Services</h5>
-                                    <p class="text-gray-light" style="color: #fff;">Lorem ipsum dolor sit amet, eiusmod
-                                        <br> tempor.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-12 inline-flex">
-                                <img src="assets/img/Unlimited-Downloads.png" class="img-fluid endpoint-icon p-1">
-
-                                <div class="icon-txt ms-4 mr-[1.0rem]">
-                                    <h5 class="dark-text" style="color: #fff;">Best Services</h5>
-                                    <p class="text-gray-light" style="color: #fff;">Lorem ipsum dolor sit amet, eiusmod
-                                        <br> tempor.
-                                    </p>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> --}}
         <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] "
             style="padding-top: 0px; padding-bottom: 0px; background-color:#12D2B3;">
             <div class="container main-banner-container">
@@ -265,40 +216,7 @@
         <!-- End::End Point section four -->
 
         <!-- Start::End Point section fifth -->
-        {{-- <div class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] ">
-            <div class="container main-banner-container">
-                <div
-                    class="grid grid xl:grid-cols-12 sm:grid-cols-12 md:grid-cols-12 justify-center align-center justify-center align-center">
-                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12  customize-image text-center">
-                        <div class="lg:text-start !flex items-center lg:justify-start justify-center">
-                            <img src="{{ asset('assets/img/Take-the-next-step.png') }}" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 pt-5 pb-0 lg:px-2 !text-start  my-auto">
-                        <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">Take the Next Step</h4>
-                        <p class=" text-[1rem] text-[#8c9097] dark:text-white/50 mb-4 ">Objectively deliver professional
-                            value with diverse web-readiness. customer service without goal-oriented catalysts for change<br><br>
-                             wireless customer service without goal-oriented catalysts for change.orem ipsum dolor sit amet, eiusmod
-                             tempor. Lorem ipsum dolor
-                        </p>
 
-                        <div class="grid grid-rows-2 grid-flow-col gap-1">
-                            <div class="row-span-3">
-                                <img src="assets/img/Best-Services-Iocn-1.png" class="img-fluid !inline-flex backimg">
-                            </div>
-                            <div class="text-[1rem] col-span-2 ">
-                                <p class="text-[#8c9097] dark:text-white/50 px-6">Lorem ipsum dolor sit amet, eiusmod
-                                    tempor. Lorem ipsum <br>dolor sit amet, eiusmod tempor.</p>
-                            </div>
-                            <div class="action-btns mt-2 ms-6">
-                                <a href="#" class="ti-btn bg-primary text-white" style="padding: 8px 28px;">Call Us</a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div> --}}
         <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 text-[0.813rem] " id="features">
             <div class="container pt-5 pb-5 endpoint-container">
                 <div class="grid grid-cols-12 gap-6">
@@ -319,12 +237,12 @@
                     </div>
                     <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-6 col-span-12">
                         <div class="text-content">
-                            <h4 class="lg:text-start font-semibold mb-2 text-[2rem]">Who Does Endpoint <br>
-                                Security Matter...</h4>
-                            <p class=" text-[1rem] text-white dark:text-white/50 mb-4 ">Objectively deliver professional
-                                value with diverse web-readiness. Collaboratively transition wireless customer service
-                                without
-                                goal-oriented catalysts for change.
+                            <p class=" text-[1rem] text-white dark:text-white/50 mb-4 ">Generally, endpoint security for business or a single
+                                user is defined as the set of practices and techniques to secure the devices from malicious attacks and viruses.
+                                This protection's primary goal is to secure user devices such as PCs, laptops, servers, smartphones, tablets, and
+                                virtual environments from malware, spyware, computer viruses, and online/offline threats.
+
+                                Likewise, all this is possible if your corporate network endpoint security has core features to compete with the modern surging threats. So, to understand these key points, take a look at the following:
                             </p>
                             <div class="action-btns mt-4">
                                 <a href="#" class="ti-btn bg-primary text-white"
