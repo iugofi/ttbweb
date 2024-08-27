@@ -113,9 +113,10 @@
                     <div class="container">
                         <div class="owl-carousel mycustom-test owl-theme">
                             <div class="item bg-white p-5 rounded-lg shadow-md">
-                                <img class="h-16 w-16 rounded-full shadow-2xl"
-                                    src="<img src="{{ asset('assets/img/Enhanced-Firewall (1).png') }}"
-                                alt="" class="img-fluid">
+                                {{-- <img class="h-16 w-16 rounded-full shadow-2xl"
+                                    src="https://pbs.twimg.com/profile_images/830533062807191552/TbkWKnnv_400x400.jpg"
+                                    alt="Img" style="width: 65px !important;"> --}}
+                                    <img src="{{ asset('assets/img/Enhanced-Firewall-1.png') }}" alt="" srcset="">
                                 <p class="dark-black text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
                                     style="font-size: 16px;">Enhanced Firewall</p>
                                 <p class="mt-3 text-gray-600 text-center">The first line of defense that secures you
