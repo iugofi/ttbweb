@@ -240,7 +240,7 @@
                             <p class=" text-[1rem] text-white dark:text-white/50 mb-4 ">Generally, endpoint security for business or a single
                                 user is defined as the set of practices and techniques to secure the devices from malicious attacks and viruses.
                                 This protection's primary goal is to secure user devices such as PCs, laptops, servers, smartphones, tablets, and
-                                virtual environments from malware, spyware, computer viruses, and online/offline threats.<br>
+                                virtual environments from malware, spyware, computer viruses, and online/offline threats.<br><br>
 
                                 Likewise, all this is possible if your corporate network endpoint security has core features to compete with the modern surging threats. So, to understand these key points, take a look at the following:
                             </p>
