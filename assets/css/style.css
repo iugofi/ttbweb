@@ -53361,7 +53361,7 @@ section#about-features {
 }
 
 .text-contents {
-    background-color: #12d2b3;
+    background-color: #12d2b3 !important;
     color: #fff;
     padding: 30px;
     height: 100%;
