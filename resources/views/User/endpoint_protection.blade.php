@@ -113,7 +113,6 @@
                     <div class="container">
                         <div class="owl-carousel mycustom-test owl-theme">
                             <div class="item bg-white p-5 rounded-lg shadow-md">
-
                                     <img src="{{ asset('assets/img/Enhanced-Firewall-1.png') }}" alt="Img" style="width: 65px !important;">
                                 <p class="dark-black text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
                                     style="font-size: 16px;">Enhanced Firewall</p>
@@ -122,9 +121,7 @@
                                     cyber threats.</p>
                             </div>
                             <div class="item bg-white p-5 rounded-lg shadow-md">
-                                <img class="h-16 w-16 rounded-full shadow-2xl"
-                                    src="https://pbs.twimg.com/profile_images/830533062807191552/TbkWKnnv_400x400.jpg"
-                                    alt="Img" style="width: 65px !important;">
+                                <img src="{{ asset('assets/img/Enhanced-Firewall-1.png') }}" alt="Img" style="width: 65px !important;">
                                 <p class="dark-black text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
                                     style="font-size: 16px;">Advanced Antivirus Solutions</p>
                                 <p class="mt-3 text-gray-600 text-center">A digital barrier with real-time scanning
@@ -132,9 +129,7 @@
                                     nasty viruses, and URLs.</p>
                             </div>
                             <div class="item bg-white p-5 rounded-lg shadow-md">
-                                <img class="h-16 w-16 rounded-full shadow-2xl"
-                                    src="https://pbs.twimg.com/profile_images/830533062807191552/TbkWKnnv_400x400.jpg"
-                                    alt="Img" style="width: 65px !important;">
+                                <img src="{{ asset('assets/img/Centralized-Management-1.png') }}" alt="Img" style="width: 65px !important;">
                                 <p class="dark-black text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
                                     style="font-size: 16px;">Real-Time Scanning & Threat Detection</p>
                                 <p class="mt-3 text-gray-600 text-center">Provides you with real-time threat alerts and
@@ -142,9 +137,7 @@
                                     & emerging menaces.</p>
                             </div>
                             <div class="item bg-white p-5 rounded-lg shadow-md">
-                                <img class="h-16 w-16 rounded-full shadow-2xl"
-                                    src="https://pbs.twimg.com/profile_images/830533062807191552/TbkWKnnv_400x400.jpg"
-                                    alt="Img" style="width: 65px !important;">
+                                <img src="{{ asset('assets/img/E-Support-Concierge-1.png') }}" alt="Img" style="width: 65px !important;">
                                 <p class="dark-black text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
                                     style="font-size: 16px;">Patch Management</p>
                                 <p class="mt-3 text-gray-600 text-center">This borderline security keeps your device
@@ -152,9 +145,7 @@
                                     hackers exploit it. </p>
                             </div>
                             <div class="item bg-white p-5 rounded-lg shadow-md">
-                                <img class="h-16 w-16 rounded-full shadow-2xl"
-                                    src="https://pbs.twimg.com/profile_images/830533062807191552/TbkWKnnv_400x400.jpg"
-                                    alt="Img" style="width: 65px !important;">
+                                <img src="{{ asset('assets/img/Enhanced-Firewall-1.png') }}" alt="Img" style="width: 65px !important;">
                                 <p class="dark-black text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
                                     style="font-size: 16px;">Data Security Access Control</p>
                                 <p class="mt-3 text-gray-600 text-center">Manages & authorizes the user permissions
@@ -162,9 +153,7 @@
                                     data by blocking unauthorized access.</p>
                             </div>
                             <div class="item bg-white p-5 rounded-lg shadow-md">
-                                <img class="h-16 w-16 rounded-full shadow-2xl"
-                                    src="https://pbs.twimg.com/profile_images/830533062807191552/TbkWKnnv_400x400.jpg"
-                                    alt="Img" style="width: 65px !important;">
+                                <img src="{{ asset('assets/img/Enhanced-Firewall-1.png') }}" alt="Img" style="width: 65px !important;">
                                 <p class="dark-black text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
                                     style="font-size: 16px;">Centralized Management</p>
                                 <p class="mt-3 text-gray-600 text-center">We provide you with central management &
@@ -172,9 +161,7 @@
                                     compliance.</p>
                             </div>
                             <div class="item bg-white p-5 rounded-lg shadow-md">
-                                <img class="h-16 w-16 rounded-full shadow-2xl"
-                                    src="https://pbs.twimg.com/profile_images/830533062807191552/TbkWKnnv_400x400.jpg"
-                                    alt="Img" style="width: 65px !important;">
+                                <img src="{{ asset('assets/img/Enhanced-Firewall-1.png') }}" alt="Img" style="width: 65px !important;">
                                 <p class="dark-black text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
                                     style="font-size: 16px;">E-Support Concierge</p>
                                 <p class="mt-3 text-gray-600 text-center">We serve you 24x7 hours of security services
