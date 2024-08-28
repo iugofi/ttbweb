@@ -257,52 +257,55 @@
                 <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 col-span-12 mt-10">
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xl:col-span-3 md:col-span-6 col-span-12">
-                            <div class="box">
+                            <div class="box endpoint-boxs">
 
                                 <div class="box-body box-bg">
                                     <span class="mb-4 avatar avatar-lg avatar-rounded !text-primary">
                                         <i class="fa-solid fa-gears" style="font-size:40px;"></i>
                                     </span>
-                                    <h6 class="box-title font-semibold">Special title treatment</h6>
-                                    <p class="card-text mb-4">With supporting text below as a natural lead-in to
-                                        additional content.</p>
+                                    <h6 class="box-title font-semibold">Device & Data Security</h6>
+                                    <p class="card-text mb-4">Effective endpoint security services like TTB will ensure the complete security
+                                        of your endpoint networks like PC, smartphones, etc., & confidential data by tracking, detecting, and
+                                        using smart techniques and isolating the infected gadgets.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="xl:col-span-3 md:col-span-6 col-span-12">
-                            <div class="box">
+                            <div class="box endpoint-boxs">
 
                                 <div class="box-body box-bg">
                                     <span class="mb-4 avatar avatar-lg avatar-rounded !text-primary">
                                         <i class="fa-solid fa-file-code" style="font-size:40px;"></i>
                                     </span>
-                                    <h6 class="box-title font-semibold">Special title treatment</h6>
-                                    <p class="card-text mb-4">With supporting text below as a natural lead-in to
-                                        additional content.</p>
+                                    <h6 class="box-title font-semibold">Behavioral Analysis</h6>
+                                    <p class="card-text mb-4">The smart endpoint solutions detect the behavior of applications and methods to
+                                        detect oddities. It helps to analyze the latest spring-up cyber threats and hacking activities.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="xl:col-span-3 md:col-span-6 col-span-12">
-                            <div class="box">
+                            <div class="box endpoint-boxs">
                                 <div class="box-body box-bg">
                                     <span class="mb-4 avatar avatar-lg avatar-rounded !text-primary">
                                         <i class="fa-solid fa-file-shield" style="font-size:40px;"></i>
                                     </span>
-                                    <h6 class="box-title font-semibold">Special title treatment</h6>
-                                    <p class="card-text mb-4">With supporting text below as a natural lead-in to
-                                        additional content.</p>
+                                    <h6 class="box-title font-semibold">Real-Time Scanning & Threat Detection </h6>
+                                    <p class="card-text mb-4">The current-day cybersecurity systems such as TTB Endpoint security tools & support
+                                        will serve you with innovative real-time scanning and threat detection services by finding and alerting
+                                        you if there is any suspicious activity on your digital & social accounts.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="xl:col-span-3 md:col-span-6 col-span-12">
-                            <div class="box ">
+                            <div class="box endpoint-boxs">
                                 <div class="box-body box-bg">
                                     <span class="mb-4 avatar avatar-lg avatar-rounded !text-primary">
                                         <i class="fa-solid fa-photo-film" style="font-size:40px;"></i>
                                     </span>
-                                    <h6 class="box-title font-semibold">Special title treatment</h6>
-                                    <p class="card-text mb-4">With supporting text below as a natural lead-in to
-                                        additional content.</p>
+                                    <h6 class="box-title font-semibold">Multi-Layer Protection</h6>
+                                    <p class="card-text mb-4">The modern era security solutions include multi-layer protection that includes a
+                                        Firewall, VPN Shield, TTB Antivirus, intrusion prevention, and more. Here, users are guided to use
+                                        these services or our certified & expert team is here.</p>
                                 </div>
                             </div>
                         </div>
@@ -311,52 +314,55 @@
                 <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 col-span-12">
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xl:col-span-3 md:col-span-6 col-span-12">
-                            <div class="box">
+                            <div class="box endpoint-boxs">
 
                                 <div class="box-body box-bg">
                                     <span class="mb-4 avatar avatar-lg avatar-rounded !text-primary">
                                         <i class="fa-solid fa-gears" style="font-size:40px;"></i>
                                     </span>
-                                    <h6 class="box-title font-semibold">Special title treatment</h6>
-                                    <p class="card-text mb-4">With supporting text below as a natural lead-in to
-                                        additional content.</p>
+                                    <h6 class="box-title font-semibold">Cost Savings/Effective</h6>
+                                    <p class="card-text mb-4">This centralized management is a cost-effective fix to meet all your security needs.
+                                        You get end-to-end security solutions under one umbrella that is TTB which has different plans that suit
+                                        your pockets.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="xl:col-span-3 md:col-span-6 col-span-12">
-                            <div class="box">
+                            <div class="box endpoint-boxs">
 
                                 <div class="box-body box-bg">
                                     <span class="mb-4 avatar avatar-lg avatar-rounded !text-primary">
                                         <i class="fa-solid fa-file-code" style="font-size:40px;"></i>
                                     </span>
-                                    <h6 class="box-title font-semibold">Special title treatment</h6>
-                                    <p class="card-text mb-4">With supporting text below as a natural lead-in to
-                                        additional content.</p>
+                                    <h6 class="box-title font-semibold">Remote Management</h6>
+                                    <p class="card-text mb-4">The present-time paid or free endpoint security services have smart remote management
+                                        features. It assists you to set and manage your security tools on various connected devices using your
+                                        smartphone or computer.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="xl:col-span-3 md:col-span-6 col-span-12">
-                            <div class="box">
+                            <div class="box endpoint-boxs">
                                 <div class="box-body box-bg">
                                     <span class="mb-4 avatar avatar-lg avatar-rounded !text-primary">
                                         <i class="fa-solid fa-file-shield" style="font-size:40px;"></i>
                                     </span>
-                                    <h6 class="box-title font-semibold">Special title treatment</h6>
-                                    <p class="card-text mb-4">With supporting text below as a natural lead-in to
-                                        additional content.</p>
+                                    <h6 class="box-title font-semibold">Advanced Security Controls & Threat Control</h6>
+                                    <p class="card-text mb-4">The modernistic online protection addresses advanced threats, including zero-day exposures,
+                                         targeted invasions, & insider menaces. Safety controls, like firewalls, App/Device control, and data loss
+                                         prevention implement security policies and mitigate diverse security risks.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="xl:col-span-3 md:col-span-6 col-span-12">
-                            <div class="box ">
+                            <div class="box endpoint-boxs">
                                 <div class="box-body box-bg">
                                     <span class="mb-4 avatar avatar-lg avatar-rounded !text-primary">
                                         <i class="fa-solid fa-photo-film" style="font-size:40px;"></i>
                                     </span>
-                                    <h6 class="box-title font-semibold">Special title treatment</h6>
-                                    <p class="card-text mb-4">With supporting text below as a natural lead-in to
-                                        additional content.</p>
+                                    <h6 class="box-title font-semibold">Centralized Management Console</h6>
+                                    <p class="card-text mb-4">Many endpoint security solutions offer centralized management consoles that simplify management
+                                        by letting security policies, updates, and configurations be managed from one place, such as TTB Endpoint Security.</p>
                                 </div>
                             </div>
                         </div>
