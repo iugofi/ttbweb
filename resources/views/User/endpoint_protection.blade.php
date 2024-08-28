@@ -422,7 +422,7 @@
                             class="img-fluid" width="90%">
                     </div>
                 </div>
-                <p class="mt-3 text-black"><b>With everything taken into account, go for TTB Endpoint security to stay ahead in this cyber era.</b></p>
+                <p class="mt-3 text-black text-center"><b>With everything taken into account, go for TTB Endpoint security to stay ahead in this cyber era.</b></p>
             </div>
         </section>
 
