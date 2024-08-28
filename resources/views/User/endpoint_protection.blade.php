@@ -254,6 +254,117 @@
 
                 </div>
             </div>
+            <div class="container">
+                <h2 class="lg:text-center text-center font-semibold mb-4 mt-4 pt-4 pb-4 text-[2rem]">Services</h2>
+                <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 col-span-12">
+                    <div class="grid grid-cols-12 gap-6">
+                        <div class="xl:col-span-3 md:col-span-6 col-span-12">
+                            <div class="box">
+
+                                <div class="box-body box-bm">
+                                    <span class="mb-4 avatar avatar-lg avatar-rounded !text-primary">
+                                        <i class="fa-solid fa-gears" style="font-size:40px;"></i>
+                                    </span>
+                                    <h6 class="box-title font-semibold">Special title treatment</h6>
+                                    <p class="card-text mb-4">With supporting text below as a natural lead-in to
+                                        additional content.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="xl:col-span-3 md:col-span-6 col-span-12">
+                            <div class="box">
+
+                                <div class="box-body box-bm">
+                                    <span class="mb-4 avatar avatar-lg avatar-rounded !text-primary">
+                                        <i class="fa-solid fa-file-code" style="font-size:40px;"></i>
+                                    </span>
+                                    <h6 class="box-title font-semibold">Special title treatment</h6>
+                                    <p class="card-text mb-4">With supporting text below as a natural lead-in to
+                                        additional content.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="xl:col-span-3 md:col-span-6 col-span-12">
+                            <div class="box">
+                                <div class="box-body box-bm">
+                                    <span class="mb-4 avatar avatar-lg avatar-rounded !text-primary">
+                                        <i class="fa-solid fa-file-shield" style="font-size:40px;"></i>
+                                    </span>
+                                    <h6 class="box-title font-semibold">Special title treatment</h6>
+                                    <p class="card-text mb-4">With supporting text below as a natural lead-in to
+                                        additional content.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="xl:col-span-3 md:col-span-6 col-span-12">
+                            <div class="box ">
+                                <div class="box-body box-bm">
+                                    <span class="mb-4 avatar avatar-lg avatar-rounded !text-primary">
+                                        <i class="fa-solid fa-photo-film" style="font-size:40px;"></i>
+                                    </span>
+                                    <h6 class="box-title font-semibold">Special title treatment</h6>
+                                    <p class="card-text mb-4">With supporting text below as a natural lead-in to
+                                        additional content.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 col-span-12">
+                    <div class="grid grid-cols-12 gap-6">
+                        <div class="xl:col-span-3 md:col-span-6 col-span-12">
+                            <div class="box">
+
+                                <div class="box-body box-bg">
+                                    <span class="mb-4 avatar avatar-lg avatar-rounded !text-primary">
+                                        <i class="fa-solid fa-gears" style="font-size:40px;"></i>
+                                    </span>
+                                    <h6 class="box-title font-semibold">Special title treatment</h6>
+                                    <p class="card-text mb-4">With supporting text below as a natural lead-in to
+                                        additional content.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="xl:col-span-3 md:col-span-6 col-span-12">
+                            <div class="box">
+
+                                <div class="box-body box-bm">
+                                    <span class="mb-4 avatar avatar-lg avatar-rounded !text-primary">
+                                        <i class="fa-solid fa-file-code" style="font-size:40px;"></i>
+                                    </span>
+                                    <h6 class="box-title font-semibold">Special title treatment</h6>
+                                    <p class="card-text mb-4">With supporting text below as a natural lead-in to
+                                        additional content.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="xl:col-span-3 md:col-span-6 col-span-12">
+                            <div class="box">
+                                <div class="box-body box-bm">
+                                    <span class="mb-4 avatar avatar-lg avatar-rounded !text-primary">
+                                        <i class="fa-solid fa-file-shield" style="font-size:40px;"></i>
+                                    </span>
+                                    <h6 class="box-title font-semibold">Special title treatment</h6>
+                                    <p class="card-text mb-4">With supporting text below as a natural lead-in to
+                                        additional content.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="xl:col-span-3 md:col-span-6 col-span-12">
+                            <div class="box ">
+                                <div class="box-body box-bm">
+                                    <span class="mb-4 avatar avatar-lg avatar-rounded !text-primary">
+                                        <i class="fa-solid fa-photo-film" style="font-size:40px;"></i>
+                                    </span>
+                                    <h6 class="box-title font-semibold">Special title treatment</h6>
+                                    <p class="card-text mb-4">With supporting text below as a natural lead-in to
+                                        additional content.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         <!-- End::End Point section fifth -->
 
@@ -470,6 +581,7 @@
             </div>
         </section>
         {{-- End::End Point faq section six --}}
+
 
         {{-- New testimonial html css start --}}
 
