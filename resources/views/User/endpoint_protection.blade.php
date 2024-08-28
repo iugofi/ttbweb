@@ -263,7 +263,7 @@
                                     <span class="mb-4 avatar avatar-lg avatar-rounded !text-primary">
                                         <i class="fa-solid fa-gears" style="font-size:40px;"></i>
                                     </span>
-                                    <h6 class="box-title font-semibold pt-5 pb-5">Device & Data Security</h6>
+                                    <h6 class="box-title font-semibold pt-5 pb-3 text-xl">Device & Data Security</h6>
                                     <p class="card-text mb-4">Effective endpoint security services like TTB will ensure the complete security
                                         of your endpoint networks like PC, smartphones, etc., & confidential data by tracking, detecting, and
                                         using smart techniques and isolating the infected gadgets.</p>
@@ -277,7 +277,7 @@
                                     <span class="mb-4 avatar avatar-lg avatar-rounded !text-primary">
                                         <i class="fa-solid fa-file-code" style="font-size:40px;"></i>
                                     </span>
-                                    <h6 class="box-title font-semibold pt-5 pb-5">Behavioral Analysis</h6>
+                                    <h6 class="box-title font-semibold pt-5 pb-3 text-xl">Behavioral Analysis</h6>
                                     <p class="card-text mb-4">The smart endpoint solutions detect the behavior of applications and methods to
                                         detect oddities. It helps to analyze the latest spring-up cyber threats and hacking activities.</p>
                                 </div>
@@ -289,7 +289,7 @@
                                     <span class="mb-4 avatar avatar-lg avatar-rounded !text-primary">
                                         <i class="fa-solid fa-file-shield" style="font-size:40px;"></i>
                                     </span>
-                                    <h6 class="box-title font-semibold pt-5 pb-5">Real-Time Scanning & Threat Detection </h6>
+                                    <h6 class="box-title font-semibold pt-5 pb-3 text-xl">Real-Time Scanning & Threat Detection </h6>
                                     <p class="card-text mb-4">The current-day cybersecurity systems such as TTB Endpoint security tools & support
                                         will serve you with innovative real-time scanning and threat detection services by finding and alerting
                                         you if there is any suspicious activity on your digital & social accounts.</p>
@@ -302,7 +302,7 @@
                                     <span class="mb-4 avatar avatar-lg avatar-rounded !text-primary">
                                         <i class="fa-solid fa-photo-film" style="font-size:40px;"></i>
                                     </span>
-                                    <h6 class="box-title font-semibold pt-5 pb-5">Multi-Layer Protection</h6>
+                                    <h6 class="box-title font-semibold pt-5 pb-3 text-xl">Multi-Layer Protection</h6>
                                     <p class="card-text mb-4">The modern era security solutions include multi-layer protection that includes a
                                         Firewall, VPN Shield, TTB Antivirus, intrusion prevention, and more. Here, users are guided to use
                                         these services or our certified & expert team is here.</p>
@@ -320,7 +320,7 @@
                                     <span class="mb-4 avatar avatar-lg avatar-rounded !text-primary">
                                         <i class="fa-solid fa-gears" style="font-size:40px;"></i>
                                     </span>
-                                    <h6 class="box-title font-semibold pt-5 pb-5">Cost Savings/Effective</h6>
+                                    <h6 class="box-title font-semibold pt-5 pb-3 text-xl">Cost Savings/Effective</h6>
                                     <p class="card-text mb-4">This centralized management is a cost-effective fix to meet all your security needs.
                                         You get end-to-end security solutions under one umbrella that is TTB which has different plans that suit
                                         your pockets.</p>
@@ -334,7 +334,7 @@
                                     <span class="mb-4 avatar avatar-lg avatar-rounded !text-primary">
                                         <i class="fa-solid fa-file-code" style="font-size:40px;"></i>
                                     </span>
-                                    <h6 class="box-title font-semibold pt-5 pb-5">Remote Management</h6>
+                                    <h6 class="box-title font-semibold pt-5 pb-3 text-xl">Remote Management</h6>
                                     <p class="card-text mb-4">The present-time paid or free endpoint security services have smart remote management
                                         features. It assists you to set and manage your security tools on various connected devices using your
                                         smartphone or computer.</p>
@@ -347,7 +347,7 @@
                                     <span class="mb-4 avatar avatar-lg avatar-rounded !text-primary">
                                         <i class="fa-solid fa-file-shield" style="font-size:40px;"></i>
                                     </span>
-                                    <h6 class="box-title font-semibold pt-5 pb-5">Advanced Security Controls & Threat Control</h6>
+                                    <h6 class="box-title font-semibold pt-5 pb-3 text-xl">Advanced Security Controls & Threat Control</h6>
                                     <p class="card-text mb-4">The modernistic online protection addresses advanced threats, including zero-day exposures,
                                          targeted invasions, & insider menaces. Safety controls, like firewalls, App/Device control, and data loss
                                          prevention implement security policies and mitigate diverse security risks.</p>
@@ -360,7 +360,7 @@
                                     <span class="mb-4 avatar avatar-lg avatar-rounded !text-primary">
                                         <i class="fa-solid fa-photo-film" style="font-size:40px;"></i>
                                     </span>
-                                    <h6 class="box-title font-semibold pt-5 pb-5">Centralized Management Console</h6>
+                                    <h6 class="box-title font-semibold pt-5 pb-3 text-xl">Centralized Management Console</h6>
                                     <p class="card-text mb-4">Many endpoint security solutions offer centralized management consoles that simplify management
                                         by letting security policies, updates, and configurations be managed from one place, such as TTB Endpoint Security.</p>
                                 </div>
