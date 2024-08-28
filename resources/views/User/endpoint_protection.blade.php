@@ -372,7 +372,39 @@
             </div>
         </section>
         <!-- End::End Point section fifth -->
+------------------------------
 
+<section class="endpoint-section-three !bg-[#f9fafb] dark:!bg-black/10">
+    <div class="container">
+        <div class="grid grid-cols-12 gap-6">
+            <div class="col-span-12 text-center">
+                <h2>Stay protected from threats- known and unknown!</h2>
+                <p class="mt-3 mb-5">Most malware attacks can be recognized based on their past-behaviour, however,<br>
+                    those with modified
+                    codes
+                    and language are difficult to track.</p>
+            </div>
+        </div>
+        <div class="grid grid-cols-12 gap-6">
+            <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12 ">
+                <h2 class="mt-3">25 Years OF EXPERIENCE</h2>
+
+                <p class="mt-3 text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa asperiores quaerat,
+                    quia saepe
+                    consequuntur, laudantium, cum at expedita eligendi perferendis amet fugiat? Assumenda numquam nisi
+                    at, laborum eligendi necessitatibus est?</p>
+                <p class="mt-3 mb-6 text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa asperiores quaerat,
+                    quia saepe
+                    consequuntur laudantium, cum at expedita eligendi perferendis amet fugiat.</p>
+            </div>
+            <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12 pt-5">
+                <img src="https://www.nighthawk-routerlogin.com/assets/img/thread-section-four.png" alt="" class="img-fluid" width="90%">
+            </div>
+        </div>
+    </div>
+</section>
+
+------------------------------
         {{-- Start::End Point faq section six --}}
         <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg dark:text-defaulttextcolor/70 text-[0.813rem]"
             id="faq">
