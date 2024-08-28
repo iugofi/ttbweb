@@ -405,18 +405,17 @@
                     </div>
                 </div>
                 <div class="grid grid-cols-12 gap-6">
-                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12 ">
-                        <p class="mt-3 text-black">Provides you with remote management and virtual infrastructure monitoring.</p>
-                        <p class="mt-3 text-black">Reduces the risk of data breach and modern threats and hacking.</p>
-                        <p class="mt-3 text-black">Gives real-time scanning & threat detection alerts on your connected device.</p>
-                        <p class="mt-3 text-black">Finds and isolates the impacted devices.</p>
-                        <p class="mt-3 text-black">Prevents unauthorized access to digital and social accounts.</p>
-                        <p class="mt-3 text-black">Offers multi-layer protection with advanced tools, such as VPN/Firewall/TTB Antivirus, etc.</p>
-                        <p class="mt-3 text-black">Enhances the overall security of the digital gadgets.</p>
-                        <p class="mt-3 text-black">Cost-effective solution under one roof with advanced technology.</p>
-                        <p class="mt-3 text-black">Offers fair deals for commercial and in-home security.</p>
-                        <p class="mt-3 text-black">Keeps you protected from remote work risks using URL filtration, and detecting spam links/texts,
-                            malicious sites, etc.</p>
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
+                        <p class="mt-3 text-black"><i class="bx bx-check-double"></i> Provides you with remote management and virtual<br> infrastructure monitoring.</p>
+                        <p class="mt-3 text-black"><i class="bx bx-check-double"></i> Reduces the risk of data breach and modern threats and hacking.</p>
+                        <p class="mt-3 text-black"><i class="bx bx-check-double"></i> Gives real-time scanning threat detection alerts on your connected device.</p>
+                        <p class="mt-3 text-black"><i class="bx bx-check-double"></i> Finds and isolates the impacted devices.</p>
+                        <p class="mt-3 text-black"><i class="bx bx-check-double"></i> Prevents unauthorized access to digital and social accounts.</p>
+                        <p class="mt-3 text-black"><i class="bx bx-check-double"></i> Offers multi-layer protection with advanced tools, such as VPN/Firewall/TTB Antivirus, etc.</p>
+                        <p class="mt-3 text-black"><i class="bx bx-check-double"></i> Enhances the overall security of the digital gadgets.</p>
+                        <p class="mt-3 text-black"><i class="bx bx-check-double"></i> Cost-effective solution under one roof with advanced technology.</p>
+                        <p class="mt-3 text-black"><i class="bx bx-check-double"></i> Offers fair deals for commercial and in-home security.</p>
+                        <p class="mt-3 text-black"><i class="bx bx-check-double"></i> Keeps you protected from remote work risks using URL filtration, and detecting spam links/texts, malicious sites, etc.</p>
                     </div>
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12 pt-5">
                         <img src="https://www.nighthawk-routerlogin.com/assets/img/thread-section-four.png" alt=""
