@@ -395,33 +395,35 @@
             <div class="container pt-5 pb-5">
                 <div class="grid grid-cols-12 gap-6">
                     <div class="col-span-12 text-center">
-                        <h2>Stay protected from threats- known and unknown!</h2>
-                        <p class="mt-3 mb-5">Most malware attacks can be recognized based on their past-behaviour,
-                            however,<br>
-                            those with modified
-                            codes and language are difficult to track.</p>
+                        <h3>Why do we need the Endpoint security services/solutions?</h3>
+                        <p class="mt-3 mb-5">Moreover, endpoint security solutions are the future-proven technologies
+                             that are necessary to fight against the ever-evolving cyber threats and malicious viruses.
+                             Likewise, this centralized approach is necessary for your digital gadgets' protection.<br><br>
+
+                            So, we shed light on the essentiality of endpoint security services to make you aware of its importance.
+                             Let’s have a close look:</p>
                     </div>
                 </div>
                 <div class="grid grid-cols-12 gap-6">
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12 ">
-                        <h2 class="mt-3">25 Years OF EXPERIENCE</h2>
-
-                        <p class="mt-3 text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-                            asperiores quaerat,
-                            quia saepe
-                            consequuntur, laudantium, cum at expedita eligendi perferendis amet fugiat? Assumenda numquam
-                            nisi
-                            at, laborum eligendi necessitatibus est?</p>
-                        <p class="mt-3 mb-6 text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-                            asperiores quaerat,
-                            quia saepe
-                            consequuntur laudantium, cum at expedita eligendi perferendis amet fugiat.</p>
+                        <p class="mt-3 text-black">Provides you with remote management and virtual infrastructure monitoring.</p>
+                        <p class="mt-3 text-black">Reduces the risk of data breach and modern threats and hacking.</p>
+                        <p class="mt-3 text-black">Gives real-time scanning & threat detection alerts on your connected device.</p>
+                        <p class="mt-3 text-black">Finds and isolates the impacted devices.</p>
+                        <p class="mt-3 text-black">Prevents unauthorized access to digital and social accounts.</p>
+                        <p class="mt-3 text-black">Offers multi-layer protection with advanced tools, such as VPN/Firewall/TTB Antivirus, etc.</p>
+                        <p class="mt-3 text-black">Enhances the overall security of the digital gadgets.</p>
+                        <p class="mt-3 text-black">Cost-effective solution under one roof with advanced technology.</p>
+                        <p class="mt-3 text-black">Offers fair deals for commercial and in-home security.</p>
+                        <p class="mt-3 text-black">Keeps you protected from remote work risks using URL filtration, and detecting spam links/texts,
+                            malicious sites, etc.</p>
                     </div>
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12 pt-5">
                         <img src="https://www.nighthawk-routerlogin.com/assets/img/thread-section-four.png" alt=""
                             class="img-fluid" width="90%">
                     </div>
                 </div>
+                <p class="mt-3 text-black"><b>With everything taken into account, go for TTB Endpoint security to stay ahead in this cyber era.</b></p>
             </div>
         </section>
 
