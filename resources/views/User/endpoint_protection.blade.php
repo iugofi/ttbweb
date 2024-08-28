@@ -381,8 +381,7 @@
                 <h2>Stay protected from threats- known and unknown!</h2>
                 <p class="mt-3 mb-5">Most malware attacks can be recognized based on their past-behaviour, however,<br>
                     those with modified
-                    codes
-                    and language are difficult to track.</p>
+                    codes and language are difficult to track.</p>
             </div>
         </div>
         <div class="grid grid-cols-12 gap-6">
