@@ -113,7 +113,8 @@
                     <div class="container">
                         <div class="owl-carousel mycustom-test owl-theme">
                             <div class="item bg-white p-5 rounded-lg shadow-md">
-                                    <img src="{{ asset('assets/img/Enhanced-Firewall-1.png') }}" alt="Img" style="width: 65px !important;">
+                                <img src="{{ asset('assets/img/Enhanced-Firewall-1.png') }}" alt="Img"
+                                    style="width: 65px !important;">
                                 <p class="dark-black text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
                                     style="font-size: 16px;">Enhanced Firewall</p>
                                 <p class="mt-3 text-gray-600 text-center">The first line of defense that secures you
@@ -121,7 +122,8 @@
                                     cyber threats.</p>
                             </div>
                             <div class="item bg-white p-5 rounded-lg shadow-md">
-                                <img src="{{ asset('assets/img/Enhanced-Firewall-1.png') }}" alt="Img" style="width: 65px !important;">
+                                <img src="{{ asset('assets/img/Enhanced-Firewall-1.png') }}" alt="Img"
+                                    style="width: 65px !important;">
                                 <p class="dark-black text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
                                     style="font-size: 16px;">Advanced Antivirus Solutions</p>
                                 <p class="mt-3 text-gray-600 text-center">A digital barrier with real-time scanning
@@ -129,7 +131,8 @@
                                     nasty viruses, and URLs.</p>
                             </div>
                             <div class="item bg-white p-5 rounded-lg shadow-md">
-                                <img src="{{ asset('assets/img/Centralized-Management-1.png') }}" alt="Img" style="width: 65px !important;">
+                                <img src="{{ asset('assets/img/Centralized-Management-1.png') }}" alt="Img"
+                                    style="width: 65px !important;">
                                 <p class="dark-black text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
                                     style="font-size: 16px;">Real-Time Scanning & Threat Detection</p>
                                 <p class="mt-3 text-gray-600 text-center">Provides you with real-time threat alerts and
@@ -137,7 +140,8 @@
                                     & emerging menaces.</p>
                             </div>
                             <div class="item bg-white p-5 rounded-lg shadow-md">
-                                <img src="{{ asset('assets/img/E-Support-Concierge-1.png') }}" alt="Img" style="width: 65px !important;">
+                                <img src="{{ asset('assets/img/E-Support-Concierge-1.png') }}" alt="Img"
+                                    style="width: 65px !important;">
                                 <p class="dark-black text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
                                     style="font-size: 16px;">Patch Management</p>
                                 <p class="mt-3 text-gray-600 text-center">This borderline security keeps your device
@@ -145,7 +149,8 @@
                                     hackers exploit it. </p>
                             </div>
                             <div class="item bg-white p-5 rounded-lg shadow-md">
-                                <img src="{{ asset('assets/img/Enhanced-Firewall-1.png') }}" alt="Img" style="width: 65px !important;">
+                                <img src="{{ asset('assets/img/Enhanced-Firewall-1.png') }}" alt="Img"
+                                    style="width: 65px !important;">
                                 <p class="dark-black text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
                                     style="font-size: 16px;">Data Security Access Control</p>
                                 <p class="mt-3 text-gray-600 text-center">Manages & authorizes the user permissions
@@ -153,7 +158,8 @@
                                     data by blocking unauthorized access.</p>
                             </div>
                             <div class="item bg-white p-5 rounded-lg shadow-md">
-                                <img src="{{ asset('assets/img/Enhanced-Firewall-1.png') }}" alt="Img" style="width: 65px !important;">
+                                <img src="{{ asset('assets/img/Enhanced-Firewall-1.png') }}" alt="Img"
+                                    style="width: 65px !important;">
                                 <p class="dark-black text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
                                     style="font-size: 16px;">Centralized Management</p>
                                 <p class="mt-3 text-gray-600 text-center">We provide you with central management &
@@ -161,7 +167,8 @@
                                     compliance.</p>
                             </div>
                             <div class="item bg-white p-5 rounded-lg shadow-md">
-                                <img src="{{ asset('assets/img/Enhanced-Firewall-1.png') }}" alt="Img" style="width: 65px !important;">
+                                <img src="{{ asset('assets/img/Enhanced-Firewall-1.png') }}" alt="Img"
+                                    style="width: 65px !important;">
                                 <p class="dark-black text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
                                     style="font-size: 16px;">E-Support Concierge</p>
                                 <p class="mt-3 text-gray-600 text-center">We serve you 24x7 hours of security services
@@ -223,12 +230,18 @@
                     </div>
                     <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-6 col-span-12">
                         <div class="text-content">
-                            <p class=" text-[1rem] text-white dark:text-white/50 mb-4 ">Generally, endpoint security for business or a single
-                                user is defined as the set of practices and techniques to secure the devices from malicious attacks and viruses.
-                                This protection's primary goal is to secure user devices such as PCs, laptops, servers, smartphones, tablets, and
-                                virtual environments from malware, spyware, computer viruses, and online/offline threats.<br><br>
+                            <p class=" text-[1rem] text-white dark:text-white/50 mb-4 ">Generally, endpoint security for
+                                business or a single
+                                user is defined as the set of practices and techniques to secure the devices from malicious
+                                attacks and viruses.
+                                This protection's primary goal is to secure user devices such as PCs, laptops, servers,
+                                smartphones, tablets, and
+                                virtual environments from malware, spyware, computer viruses, and online/offline
+                                threats.<br><br>
 
-                                Likewise, all this is possible if your corporate network endpoint security has core features to compete with the modern surging threats. So, to understand these key points, take a look at the following:
+                                Likewise, all this is possible if your corporate network endpoint security has core features
+                                to compete with the modern surging threats. So, to understand these key points, take a look
+                                at the following:
                             </p>
                             {{-- <div class="action-btns mt-4">
                                 <a href="#" class="ti-btn bg-primary text-white"
