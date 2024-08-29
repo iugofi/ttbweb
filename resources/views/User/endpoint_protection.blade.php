@@ -395,34 +395,49 @@
             <div class="container pt-5 pb-5">
                 <div class="grid grid-cols-12 gap-6">
                     <div class="col-span-12 text-center">
-                        <h3 class="lg:text-center font-semibold mb-2 text-[2rem]">Why do we need the Endpoint security services/solutions?</h3>
-                        <p class="mt-3 mb-5 text-base">Moreover, endpoint security solutions are the future-proven technologies
-                             that are necessary to fight against the ever-evolving cyber threats and malicious viruses.
-                             Likewise, this centralized approach is necessary for your digital gadgets' protection.<br><br>
+                        <h3 class="lg:text-center font-semibold mb-2 text-[2rem]">Why do we need the Endpoint security
+                            services/solutions?</h3>
+                        <p class="mt-3 mb-5 text-base">Moreover, endpoint security solutions are the future-proven
+                            technologies
+                            that are necessary to fight against the ever-evolving cyber threats and malicious viruses.
+                            Likewise, this centralized approach is necessary for your digital gadgets' protection.<br><br>
 
-                            So, we shed light on the essentiality of endpoint security services to make you aware of its importance.
-                             Let’s have a close look:</p>
+                            So, we shed light on the essentiality of endpoint security services to make you aware of its
+                            importance.
+                            Let’s have a close look:</p>
                     </div>
                 </div>
                 <div class="grid grid-cols-12 gap-6">
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
-                        <p class="mt-3 text-black text-base"><i class="bx bx-check-double"></i> Provides you with remote management and virtual<br> infrastructure monitoring.</p>
-                        <p class="mt-3 text-black text-base"><i class="bx bx-check-double"></i> Reduces the risk of data breach and modern threats and hacking.</p>
-                        <p class="mt-3 text-black text-base"><i class="bx bx-check-double"></i> Gives real-time scanning threat detection alerts on your connected device.</p>
-                        <p class="mt-3 text-black text-base"><i class="bx bx-check-double"></i> Finds and isolates the impacted devices.</p>
-                        <p class="mt-3 text-black text-base"><i class="bx bx-check-double"></i> Prevents unauthorized access to digital and social accounts.</p>
-                        <p class="mt-3 text-black text-base"><i class="bx bx-check-double"></i> Offers multi-layer protection with advanced tools, such as VPN/Firewall/TTB Antivirus, etc.</p>
-                        <p class="mt-3 text-black text-base"><i class="bx bx-check-double"></i> Enhances the overall security of the digital gadgets.</p>
-                        <p class="mt-3 text-black text-base"><i class="bx bx-check-double"></i> Cost-effective solution under one roof with advanced technology.</p>
-                        <p class="mt-3 text-black text-base"><i class="bx bx-check-double"></i> Offers fair deals for commercial and in-home security.</p>
-                        <p class="mt-3 text-black text-base"><i class="bx bx-check-double"></i> Keeps you protected from remote work risks using URL filtration, and detecting spam links/texts, malicious sites, etc.</p>
+                        <p class="mt-3 text-black text-base"><i class="bx bx-check-double"></i> Provides you with remote
+                            management and virtual<br> infrastructure monitoring.</p>
+                        <p class="mt-3 text-black text-base"><i class="bx bx-check-double"></i> Reduces the risk of data
+                            breach and modern threats and hacking.</p>
+                        <p class="mt-3 text-black text-base"><i class="bx bx-check-double"></i> Gives real-time scanning
+                            threat detection alerts on your connected device.</p>
+                        <p class="mt-3 text-black text-base"><i class="bx bx-check-double"></i> Finds and isolates the
+                            impacted devices.</p>
+                        <p class="mt-3 text-black text-base"><i class="bx bx-check-double"></i> Prevents unauthorized
+                            access to digital and social accounts.</p>
+                        <p class="mt-3 text-black text-base"><i class="bx bx-check-double"></i> Offers multi-layer
+                            protection with advanced tools, such as VPN/Firewall/TTB Antivirus, etc.</p>
+                        <p class="mt-3 text-black text-base"><i class="bx bx-check-double"></i> Enhances the overall
+                            security of the digital gadgets.</p>
+                        <p class="mt-3 text-black text-base"><i class="bx bx-check-double"></i> Cost-effective solution
+                            under one roof with advanced technology.</p>
+                        <p class="mt-3 text-black text-base"><i class="bx bx-check-double"></i> Offers fair deals for
+                            commercial and in-home security.</p>
+                        <p class="mt-3 text-black text-base"><i class="bx bx-check-double"></i> Keeps you protected from
+                            remote work risks using URL filtration, and detecting spam links/texts, malicious sites, etc.
+                        </p>
                     </div>
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12 pt-5">
                         <img src="https://www.nighthawk-routerlogin.com/assets/img/thread-section-four.png" alt=""
                             class="img-fluid" width="90%">
                     </div>
                 </div>
-                <p class="mt-3 text-black text-center text-base"><b>With everything taken into account, go for <span style="color:#12D2B3;">TTB Endpoint security</span> to stay ahead in this cyber era.</b></p>
+                <p class="mt-3 text-black text-center text-base"><b>With everything taken into account, go for <span
+                            style="color:#12D2B3;">TTB Endpoint security</span> to stay ahead in this cyber era.</b></p>
             </div>
         </section>
 
