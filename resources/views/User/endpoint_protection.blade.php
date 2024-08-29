@@ -389,7 +389,7 @@
             </div>
         </section>
         <!-- End::End Point section fifth -->
-        ------------------------------
+
         {{-- Start::End Point faq section six --}}
 
         <section class="endpoint-section-three !bg-[#f9fafb] dark:!bg-black/10 pt-5 pb-5">
