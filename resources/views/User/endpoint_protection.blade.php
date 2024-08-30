@@ -64,9 +64,6 @@
                                     </p>
                                 </div>
                             </div>
-
-
-
                         </div>
                     </div>
                 </div>
@@ -104,8 +101,7 @@
         <!-- End::End Point section three -->
 
         <!-- Start::End Point section four -->
-        <section
-            class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70">
+        <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70">
             <div class="endpoint-slider">
                 <div class="main-content">
                     <div class="container">
@@ -241,11 +237,6 @@
                                 to compete with the modern surging threats. So, to understand these key points, take a look
                                 at the following:
                             </p>
-                            {{-- <div class="action-btns mt-4">
-                                <a href="#" class="ti-btn bg-primary text-white"
-                                    style="border: 2px solid #fff; padding: 8px 27px; font-weight: 600; border-radius: 0;">Read
-                                    More</a>
-                            </div> --}}
                         </div>
                     </div>
 
@@ -463,16 +454,6 @@
         </section>
 
         {{-- End::End Point faq section six --}}
-
-
-
-        {{-- <script>
-            $(document).ready(function() {
-                testimonials();
-            });
-        </script> --}}
-
-        {{-- New testimonial html css End --}}
 
 
 
