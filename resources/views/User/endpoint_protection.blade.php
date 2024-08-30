@@ -52,17 +52,15 @@
                     <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 pt-5 pb-3 lg:px-2 !text-start px-12 my-auto">
                         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-4 endpoint-content"
                             style="display: flex; justify-content: center;">
-                            <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-12 inline-flex">
+                            <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-12 inline-flex" style="width: 75%; margin: auto;">
                                 <img src=" {{ asset('assets/img/24-7-icon.png') }}"
                                     class="img-fluid endpoint-icon p-1 mt-3 w-100" style="width:90px; height:90px">
                                 <div class="icon-txt ms-4 mr-[1.0rem]">
                                     <p class="text-white  text-sm py-5" style="color: #fff;">TTB Endpoint Security offers
-                                        you complete online security solutions where you don’t need to compromise your<br>
+                                        you complete online security solutions where you don’t need to compromise your
                                         confidentiality. We protect you from unauthorized access, malware, viruses emerging
-                                        threats in the modern<br>
-                                        tech landscape. From your smartphone to the PC, you get end-to-end protection with a
-                                        single product.<br>
-                                        We serve a common user to professional enterprises with 24x7 hour expert services.
+                                        threats in the modern tech landscape. From your smartphone to the PC, you get end-to-end protection with a
+                                        single product. We serve a common user to professional enterprises with 24x7 hour expert services.
                                     </p>
                                 </div>
                             </div>
@@ -432,7 +430,8 @@
                         </div>
                         <div class="mt-3 flex items-start text-base text-black">
                             <i class="bx bx-check-double mt-1 mr-2 me-3"></i>
-                            <p>Offers multi-layer protection with advanced tools, such as VPN/Firewall/TTB Antivirus, etc.</p>
+                            <p>Offers multi-layer protection with advanced tools, such as VPN/Firewall/TTB Antivirus, etc.
+                            </p>
                         </div>
                         <div class="mt-3 flex items-start text-base text-black">
                             <i class="bx bx-check-double mt-1 mr-2 me-3"></i>
@@ -448,7 +447,8 @@
                         </div>
                         <div class="mt-3 flex items-start text-base text-black">
                             <i class="bx bx-check-double mt-1 mr-2 me-3"></i>
-                            <p>Keeps you protected from remote work risks using URL filtration, and detecting spam links/texts, malicious sites, etc.</p>
+                            <p>Keeps you protected from remote work risks using URL filtration, and detecting spam
+                                links/texts, malicious sites, etc.</p>
                         </div>
                     </div>
 
