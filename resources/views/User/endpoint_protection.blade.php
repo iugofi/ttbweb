@@ -408,7 +408,7 @@
                 </div>
                 <div class="grid grid-cols-12 gap-6 check-icon">
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
-                        <div class="mt-3 flex items-start text-black text-base text-[#333335]">
+                        <div class="mt-3 flex items-start text-base text-[#333335]">
                             <i class="bx bx-check-double mt-1 mr-2 me-3" style="font-size: 20px;"></i>
                             <p>Provides you with remote management and virtual infrastructure monitoring.</p>
                         </div>
