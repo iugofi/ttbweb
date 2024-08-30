@@ -457,7 +457,7 @@
                             class="img-fluid" width="90%">
                     </div>
                 </div>
-                <p class="mt-3 text-black text-center text-base"><b>With everything taken into account, go for <span
+                <p class="mt-10 text-black text-center text-base"><b>With everything taken into account, go for <span
                             style="color:#12D2B3;">TTB Endpoint security</span> to stay ahead in this cyber era.</b></p>
             </div>
         </section>
