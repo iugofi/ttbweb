@@ -48676,11 +48676,11 @@ img.img-fluid.service-icon {
 }
 .my-btn-pro-btn {
     padding: 4px 14px;
-    color: #13D8AA;
+    color: #13d8aa;
 }
 .my-btn-pro-btn:hover {
     color: #fff;
-    background: #13D8AA;
+    background: #13d8aa;
 }
 .my-btn-pro-btn .fab.fa-google-play:hover {
     color: #fff !important;
@@ -51462,7 +51462,6 @@ img.img-fluid.service-icon {
     padding-top: 0rem;
 }
 
-
 /* neeraj end */
 
 /* 23-04-2024 kulvinder verma for totel-internet-security page */
@@ -54017,10 +54016,7 @@ li.footer-icon:hover i.fa-brands.fa-square-pinterest {
 
 /* end kunal */
 
-
-
-
- /* =====================kulvinder pathania=============================== */
+/* =====================kulvinder pathania=============================== */
 
 /* New End point section css start */
 
@@ -54038,8 +54034,8 @@ li.footer-icon:hover i.fa-brands.fa-square-pinterest {
     margin: 2rem 0;
 }
 .endpoint-slider .item::before {
-    content: '';
-    border-right: 3px solid #11CDBE;
+    content: "";
+    border-right: 3px solid #11cdbe;
     display: flex;
     position: absolute;
     left: 0;
@@ -54048,7 +54044,7 @@ li.footer-icon:hover i.fa-brands.fa-square-pinterest {
 }
 .box.endpoint-boxs {
     box-shadow: none;
-    background: #F5F6FA;
+    background: #f5f6fa;
     height: 350px;
     border-radius: 8px !important;
 }
@@ -54056,9 +54052,8 @@ li.footer-icon:hover i.fa-brands.fa-square-pinterest {
     font-size: 14px !important;
 }
 .dark .endpoint-slider .owl-item .item {
-    background: #12D2B3;
+    background: #12d2b3 !important;
 }
 .dark .endpoint-slider .owl-item p {
-    color: #ffffff;
+    color: #ffffff !important;
 }
-
