@@ -115,7 +115,7 @@
                                     style="width: 65px !important;">
                                 <p class="dark-black text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
                                     style="font-size: 16px;">Enhanced Firewall</p>
-                                <p class="mt-3 text-gray-600 text-center">The first line of defense that secures you
+                                <p class="mt-3 text-[#333335] text-center">The first line of defense that secures you
                                     from unauthorized access and unknown
                                     cyber threats.</p>
                             </div>
@@ -124,7 +124,7 @@
                                     style="width: 65px !important;">
                                 <p class="dark-black text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
                                     style="font-size: 16px;">Advanced Antivirus Solutions</p>
-                                <p class="mt-3 text-gray-600 text-center">A digital barrier with real-time scanning
+                                <p class="mt-3 text-[#333335] text-center">A digital barrier with real-time scanning
                                     filters and blocks malicious links, texts,
                                     nasty viruses, and URLs.</p>
                             </div>
@@ -133,7 +133,7 @@
                                     style="width: 65px !important;">
                                 <p class="dark-black text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
                                     style="font-size: 16px;">Real-Time Scanning & Threat Detection</p>
-                                <p class="mt-3 text-gray-600 text-center">Provides you with real-time threat alerts and
+                                <p class="mt-3 text-[#333335] text-center">Provides you with real-time threat alerts and
                                     scanning to aware you of suspicious activities
                                     & emerging menaces.</p>
                             </div>
@@ -142,7 +142,7 @@
                                     style="width: 65px !important;">
                                 <p class="dark-black text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
                                     style="font-size: 16px;">Patch Management</p>
-                                <p class="mt-3 text-gray-600 text-center">This borderline security keeps your device
+                                <p class="mt-3 text-[#333335] text-center">This borderline security keeps your device
                                     updated and fixes the vulnerabilities if occur before
                                     hackers exploit it. </p>
                             </div>
@@ -151,7 +151,7 @@
                                     style="width: 65px !important;">
                                 <p class="dark-black text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
                                     style="font-size: 16px;">Data Security Access Control</p>
-                                <p class="mt-3 text-gray-600 text-center">Manages & authorizes the user permissions
+                                <p class="mt-3 text-[#333335] text-center">Manages & authorizes the user permissions
                                     with Multifactor authentication to limit the access to sensitive
                                     data by blocking unauthorized access.</p>
                             </div>
@@ -160,7 +160,7 @@
                                     style="width: 65px !important;">
                                 <p class="dark-black text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
                                     style="font-size: 16px;">Centralized Management</p>
-                                <p class="mt-3 text-gray-600 text-center">We provide you with central management &
+                                <p class="mt-3 text-[#333335] text-center">We provide you with central management &
                                     endpoint security considering setting, security policies, and monitoring
                                     compliance.</p>
                             </div>
@@ -169,7 +169,7 @@
                                     style="width: 65px !important;">
                                 <p class="dark-black text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
                                     style="font-size: 16px;">E-Support Concierge</p>
-                                <p class="mt-3 text-gray-600 text-center">We serve you 24x7 hours of security services
+                                <p class="mt-3 text-[#333335] text-center">We serve you 24x7 hours of security services
                                     and assistance regarding the products and services you buy from us.</p>
                             </div>
                         </div>
