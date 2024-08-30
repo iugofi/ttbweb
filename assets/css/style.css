@@ -54052,9 +54052,9 @@ li.footer-icon:hover i.fa-brands.fa-square-pinterest {
     font-size: 14px !important;
 }
 .dark .endpoint-slider .item {
-    background: #12D2B3;
+    background: #12D2B3 !important;
 }
-.dark .endpoint-slider .item p {
+.dark .endpoint-slider p {
     color: #ffffff !important;
 }
 
