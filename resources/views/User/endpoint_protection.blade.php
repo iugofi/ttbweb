@@ -409,44 +409,44 @@
                 <div class="grid grid-cols-12 gap-6 check-icon">
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
                         <div class="mt-3 flex items-start text-base text-[#333335]">
-                            <i class="bx bx-check-double mt-1 mr-2 me-3" style="font-size: 20px;"></i>
+                            <i class="bx bx-check-double mt-1 mr-2 me-3" style="font-size: 20px; color: #13D8AA; font-weight: 600;"></i>
                             <p>Provides you with remote management and virtual infrastructure monitoring.</p>
                         </div>
                         <div class="mt-3 flex items-start text-base text-[#333335]">
-                            <i class="bx bx-check-double mt-1 mr-2 me-3" style="font-size: 20px;"></i>
+                            <i class="bx bx-check-double mt-1 mr-2 me-3" style="font-size: 20px; color: #13D8AA; font-weight: 600;"></i>
                             <p>Reduces the risk of data breach and modern threats and hacking.</p>
                         </div>
                         <div class="mt-3 flex items-start text-base text-[#333335]">
-                            <i class="bx bx-check-double mt-1 mr-2 me-3" style="font-size: 20px;"></i>
+                            <i class="bx bx-check-double mt-1 mr-2 me-3" style="font-size: 20px; color: #13D8AA; font-weight: 600;"></i>
                             <p>Gives real-time scanning threat detection alerts on your connected device.</p>
                         </div>
                         <div class="mt-3 flex items-start text-base text-[#333335]">
-                            <i class="bx bx-check-double mt-1 mr-2 me-3" style="font-size: 20px;"></i>
+                            <i class="bx bx-check-double mt-1 mr-2 me-3" style="font-size: 20px; color: #13D8AA; font-weight: 600;"></i>
                             <p>Finds and isolates the impacted devices.</p>
                         </div>
                         <div class="mt-3 flex items-start text-base text-[#333335]">
-                            <i class="bx bx-check-double mt-1 mr-2 me-3" style="font-size: 20px;"></i>
+                            <i class="bx bx-check-double mt-1 mr-2 me-3" style="font-size: 20px; color: #13D8AA; font-weight: 600;"></i>
                             <p>Prevents unauthorized access to digital and social accounts.</p>
                         </div>
                         <div class="mt-3 flex items-start text-base text-[#333335]">
-                            <i class="bx bx-check-double mt-1 mr-2 me-3" style="font-size: 20px;"></i>
+                            <i class="bx bx-check-double mt-1 mr-2 me-3" style="font-size: 20px; color: #13D8AA; font-weight: 600;"></i>
                             <p>Offers multi-layer protection with advanced tools, such as VPN/Firewall/TTB Antivirus, etc.
                             </p>
                         </div>
                         <div class="mt-3 flex items-start text-base text-[#333335]">
-                            <i class="bx bx-check-double mt-1 mr-2 me-3" style="font-size: 20px;"></i>
+                            <i class="bx bx-check-double mt-1 mr-2 me-3" style="font-size: 20px; color: #13D8AA; font-weight: 600;"></i>
                             <p>Enhances the overall security of the digital gadgets.</p>
                         </div>
                         <div class="mt-3 flex items-start text-base text-[#333335]">
-                            <i class="bx bx-check-double mt-1 mr-2 me-3" style="font-size: 20px;"></i>
+                            <i class="bx bx-check-double mt-1 mr-2 me-3" style="font-size: 20px; color: #13D8AA; font-weight: 600;"></i>
                             <p>Cost-effective solution under one roof with advanced technology.</p>
                         </div>
                         <div class="mt-3 flex items-start text-base text-[#333335]">
-                            <i class="bx bx-check-double mt-1 mr-2 me-3" style="font-size: 20px;"></i>
+                            <i class="bx bx-check-double mt-1 mr-2 me-3" style="font-size: 20px; color: #13D8AA; font-weight: 600;"></i>
                             <p>Offers fair deals for commercial and in-home security.</p>
                         </div>
                         <div class="mt-3 flex items-start text-base text-[#333335]">
-                            <i class="bx bx-check-double mt-1 mr-2 me-3" style="font-size: 20px;"></i>
+                            <i class="bx bx-check-double mt-1 mr-2 me-3" style="font-size: 20px; color: #13D8AA; font-weight: 600;"></i>
                             <p>Keeps you protected from remote work risks using URL filtration, and detecting spam
                                 links/texts, malicious sites, etc.</p>
                         </div>
