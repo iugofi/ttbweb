@@ -21,7 +21,7 @@
                         <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 col-span-12">
                             <div class="lg:py-[3rem] text-vartical" style="position: relative; top: 10rem;">
                                 <h1 class="text-left font-semibold mb-2 text-[2rem] text-center" style="color: #fff;">Secure Your Network Perimeters Using <br> Our Enhanced Security Solution <br> <span class="text-color-ttb ">TTB Network Protection</span></h1>
-                                <div class="spacing-top-cl"><a
+                                <div class="spacing-top-cl text-center"><a
                                     href="https://www.trustpilot.com/review/ttbinternetsecurity.com?utm_medium=trustbox&utm_source=MicroReviewCount"
                                     target="_blank">
                                     <span class="dark-black">Excellent</span><img
