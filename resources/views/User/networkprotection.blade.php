@@ -60,7 +60,7 @@
         <section class="net-prot-sec-three">
             <div class="container">
                 <div class="grid grid-cols-12 gap-6">
-                    <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-6 col-span-12">
+                    <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-6 col-span-12 border-box-sct">
                         <div>
                             <div class="xxl:col-span-8 xl:col-span-8 lg:col-span-8 md:col-span-8 col-span-8">
                                 <h5>01</h5>
@@ -74,7 +74,7 @@
                             threats. Similarly, TTB also focuses on keeping your network & information protected. So, here
                             are some of the core components of the TTB network threat protection.</p>
                     </div>
-                    <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-6 col-span-12">
+                    <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-6 col-span-12 border-box-sct">
                         <div>
                             <div class="xxl:col-span-8 xl:col-span-8 lg:col-span-8 md:col-span-8 col-span-8">
                                 <h5>02</h5>
@@ -88,7 +88,7 @@
                             network traffic. With TTB network protection firewall, You can also block, allow, or restrict
                             traffic on your network following some predefined security rules.</p>
                     </div>
-                    <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-6 col-span-12">
+                    <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-6 col-span-12 border-box-sct">
                         <div>
                             <div class="xxl:col-span-8 xl:col-span-8 lg:col-span-8 md:col-span-8 col-span-8">
                                 <h5>03</h5>
