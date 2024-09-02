@@ -19,7 +19,7 @@
                     <div class="grid grid-cols-12 gap-6">
                         <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 col-span-12">
                             <div class="lg:py-[3rem] text-vartical" style="position: relative; top: 10rem;">
-                                <h1 class="text-left font-semibold mb-2 text-[2rem]" style="color: #fff;">Smarter Network
+                                <h1 class="text-left font-semibold mb-2 text-[2rem] text-center" style="color: #fff;">Smarter Network
                                     Protection<br>
                                     for business</h1>
 
