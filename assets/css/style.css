@@ -48832,6 +48832,10 @@ img.img-fluid.service-icon {
    color:#fff;
 }
 
+.sect-ban .logo-av1 {
+    filter: brightness(0) invert(1);
+}
+
 
 /* network protection css end */
 
