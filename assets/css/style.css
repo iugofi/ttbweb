@@ -48841,7 +48841,12 @@ img.img-fluid.service-icon {
     margin: 0px 6px;
 }
 
-
+.sect-ban .heading-style {
+    color: #ffffff;
+    font-family: "Merienda", cursive;
+    font-style: italic;
+    font-size: 24px;
+}
 
 
 /* network protection css end */
