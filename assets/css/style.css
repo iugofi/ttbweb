@@ -48836,6 +48836,13 @@ img.img-fluid.service-icon {
     filter: brightness(0) invert(1);
 }
 
+.sect-ban i {
+    color: #12d2b3;
+    margin: 0px 6px;
+}
+
+
+
 
 /* network protection css end */
 
