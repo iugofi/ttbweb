@@ -31,7 +31,7 @@
                                         <span class="dark-black">18,249
                                             Reviews on</span><i class="fa-solid fa-star"></i></a><a
                                         href="https://www.av-test.org/en/antivirus/mobile-devices/manufacturer/ttb/"
-                                        target="_blank"><img src="{{ asset('assets/home-two-img/AV-Test.png') }}"></a>
+                                        target="_blank"><img class="logo-av1" src="{{ asset('assets/home-two-img/AV-Test.png') }}"></a>
                                 </div>
 
                             </div>
