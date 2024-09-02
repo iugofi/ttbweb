@@ -48862,6 +48862,26 @@ img.img-fluid.service-icon {
     font-size: 16px;
 }
 
+.border-box-sct {
+    border: 1px solid #F4F4F4;
+    padding: 19px;
+}
+
+
+.border-box-sct h5 {
+    color: #12d2b3;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.border-box-sct h4 {
+    font-size: 20px;
+}
+
+.border-box-sct p {
+    font-size: 14px;
+}
+
 
 
 /* network protection css end */
