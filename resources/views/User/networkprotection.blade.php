@@ -48,7 +48,7 @@
                 <div class="grid grid-cols-12 gap-6">
                     <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 col-span-12 text-center">
                         <h2>Introduction</h2>
-                        <p>Generally, network protection involves multi-layered defense to keep the users, infrastructure,
+                        <p class="mt-5">Generally, network protection involves multi-layered defense to keep the users, infrastructure,
                             and networking components protected from misuse & unauthorized access. Likewise, in this current
                             threat landscape, TTB helps protect your network from such threats.
                         </p>
