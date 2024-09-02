@@ -26,7 +26,7 @@
                                 <div class="spacing-top-cl text-center mt-5 mb-5">
                                     <a href="https://www.trustpilot.com/review/ttbinternetsecurity.com?utm_medium=trustbox&utm_source=MicroReviewCount"
                                         target="_blank">
-                                        <span class="dark-black">Excellent</span><img
+                                        <span class="dark-black mx-2">Excellent</span><img
                                             src="{{ asset('assets/home-two-img/Review.png') }}">
                                         <span class="dark-black">18,249
                                             Reviews on</span><i class="fa-solid fa-star"></i></a><a
