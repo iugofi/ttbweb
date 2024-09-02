@@ -136,7 +136,7 @@ class PaymentController extends Controller
 
 
 
-        $stripe = new \Stripe\StripeClient('sk_test_51Oetf6SHWK0fmSdmYx9rUwrdAgJdSQi5NpurLOaBuCHTcF7gm4o3VKPwbMWIrKE5twgHUqckdKZFJ3GzqNoXxsZD00zZGoUyuF');
+        $stripe = new \Stripe\StripeClient(config('stripe.stripe_sk'));
 
 
         $allowPromotionCodes = $vpnshield->is_coupons ? true : false;
