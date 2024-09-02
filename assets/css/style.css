@@ -48824,6 +48824,11 @@ img.img-fluid.service-icon {
     font-weight: 500;
 }
 
+.sect-ban img a{
+    display:inline-block;
+}
+
+
 /* network protection css end */
 
 .home2-new-seven-pricing .text-box-price p {
