@@ -66,7 +66,7 @@
                                 <h5>01</h5>
                             </div>
                             <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-4">
-                                <i></i>
+                                <img src="{{ asset('assets/home-two-img/one-img.png') }}">
                             </div>
                         </div>
                         <h4>Core Components</h4>
@@ -80,7 +80,7 @@
                                 <h5>02</h5>
                             </div>
                             <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-4">
-                                <i></i>
+                                <img src="{{ asset('assets/home-two-img/one-img.png') }}">
                             </div>
                         </div>
                         <h4>Firewalls</h4>
@@ -94,7 +94,7 @@
                                 <h5>03</h5>
                             </div>
                             <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-4">
-                                <i></i>
+                                <img src="{{ asset('assets/home-two-img/one-img.png') }}">
                             </div>
                         </div>
                         <h4>Intrusion Detection Systems</h4>
