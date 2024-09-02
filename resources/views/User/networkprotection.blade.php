@@ -61,7 +61,7 @@
             <div class="container">
                 <div class="grid grid-cols-12 gap-6">
                     <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-6 col-span-12 border-box-sct">
-                        <div>
+                        <div class="grid grid-cols-12 gap-6">
                             <div class="xxl:col-span-8 xl:col-span-8 lg:col-span-8 md:col-span-8 col-span-8">
                                 <h5>01</h5>
                             </div>
@@ -70,12 +70,12 @@
                             </div>
                         </div>
                         <h4>Core Components</h4>
-                        <p>To cope with this digitally transformed world, users tend to protect themselves from cyber
+                        <p class="mt-3">To cope with this digitally transformed world, users tend to protect themselves from cyber
                             threats. Similarly, TTB also focuses on keeping your network & information protected. So, here
                             are some of the core components of the TTB network threat protection.</p>
                     </div>
                     <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-6 col-span-12 border-box-sct">
-                        <div>
+                        <div class="grid grid-cols-12 gap-6">
                             <div class="xxl:col-span-8 xl:col-span-8 lg:col-span-8 md:col-span-8 col-span-8">
                                 <h5>02</h5>
                             </div>
@@ -84,12 +84,12 @@
                             </div>
                         </div>
                         <h4>Firewalls</h4>
-                        <p>TTB offers you enhanced security with next-generation firewalls to monitor incoming and outgoing
+                        <p class="mt-3">TTB offers you enhanced security with next-generation firewalls to monitor incoming and outgoing
                             network traffic. With TTB network protection firewall, You can also block, allow, or restrict
                             traffic on your network following some predefined security rules.</p>
                     </div>
                     <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-6 col-span-12 border-box-sct">
-                        <div>
+                        <div class="grid grid-cols-12 gap-6">
                             <div class="xxl:col-span-8 xl:col-span-8 lg:col-span-8 md:col-span-8 col-span-8">
                                 <h5>03</h5>
                             </div>
@@ -98,7 +98,7 @@
                             </div>
                         </div>
                         <h4>Intrusion Detection Systems</h4>
-                        <p>With the advanced security features of the TTB network security solutions, you can easily monitor
+                        <p class="mt-3">With the advanced security features of the TTB network security solutions, you can easily monitor
                             and detect abnormal activities on your network. Our network threat protection will notify users
                             instantly when a malicious activity is captured on the network.</p>
                     </div>
