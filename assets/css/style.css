@@ -48824,7 +48824,7 @@ img.img-fluid.service-icon {
     font-weight: 500;
 }
 
-.sect-ban img a{
+.sect-ban img , a{
     display:inline-block;
 }
 
