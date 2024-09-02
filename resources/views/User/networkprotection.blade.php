@@ -22,18 +22,8 @@
                                 <h1 class="text-left font-semibold mb-2 text-[2rem]" style="color: #fff;">Smarter Network
                                     Protection<br>
                                     for business</h1>
-                                <div class="text-[1rem] mb-[1.3rem] text-black-light opacity-[0.9] text-left dark-text"
-                                    style="color: #fff;">Holisticly
-                                    procrastinate mission-critical convergence with reliable <br>
-                                    customer service. Assertively underwhelm idea-sharing for<br>
-                                    convergence with reliable solutions.
-                                </div>
-                                <div class="bnr-btn text-left">
-                                    <a href="index.html" class="ti-btn bg-primary text-white bnr-btn-1"
-                                        style="padding: 8px 34px;">
-                                        Buy Now
-                                    </a>
-                                </div>
+
+
                             </div>
                         </div>
                     </div>
