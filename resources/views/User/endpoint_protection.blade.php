@@ -52,15 +52,18 @@
                     <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 pt-5 pb-3 lg:px-2 !text-start px-12 my-auto">
                         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-4 endpoint-content"
                             style="display: flex; justify-content: center;">
-                            <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-12 inline-flex" style="width: 75%; margin: auto;">
+                            <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 col-span-12 inline-flex"
+                                style="width: 75%; margin: auto;">
                                 <img src=" {{ asset('assets/img/24-7-icon.png') }}"
                                     class="img-fluid endpoint-icon p-1 mt-3 w-100" style="width:90px; height:90px">
                                 <div class="icon-txt ms-4 mr-[1.0rem]">
                                     <p class="text-white  text-sm py-5" style="color: #fff;">TTB Endpoint Security offers
                                         you complete online security solutions where you don’t need to compromise your
                                         confidentiality. We protect you from unauthorized access, malware, viruses emerging
-                                        threats in the modern tech landscape. From your smartphone to the PC, you get end-to-end protection with a
-                                        single product. We serve a common user to professional enterprises with 24x7 hour expert services.
+                                        threats in the modern tech landscape. From your smartphone to the PC, you get
+                                        end-to-end protection with a
+                                        single product. We serve a common user to professional enterprises with 24x7 hour
+                                        expert services.
                                     </p>
                                 </div>
                             </div>
@@ -101,7 +104,8 @@
         <!-- End::End Point section three -->
 
         <!-- Start::End Point section four -->
-        <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70">
+        <section
+            class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70">
             <div class="endpoint-slider">
                 <div class="main-content">
                     <div class="container">
@@ -171,11 +175,7 @@
                         </div>
                     </div>
 
-                    <!-- jQuery -->
-                    {{-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> --}}
-                    <!-- Owl Carousel JS -->
-                    {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script> --}}
-                    <!-- Initialize Owl Carousel -->
+
                     <script>
                         $(document).ready(function() {
                             $('.mycustom-test').owlCarousel({
@@ -400,44 +400,54 @@
                 <div class="grid grid-cols-12 gap-6 check-icon">
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12">
                         <div class="mt-3 flex items-start text-base text-[#333335]">
-                            <i class="bx bx-check-double mt-1 mr-2 me-3" style="font-size: 20px; color: #13D8AA; font-weight: 600;"></i>
+                            <i class="bx bx-check-double mt-1 mr-2 me-3"
+                                style="font-size: 20px; color: #13D8AA; font-weight: 600;"></i>
                             <p>Provides you with remote management and virtual infrastructure monitoring.</p>
                         </div>
                         <div class="mt-3 flex items-start text-base text-[#333335]">
-                            <i class="bx bx-check-double mt-1 mr-2 me-3" style="font-size: 20px; color: #13D8AA; font-weight: 600;"></i>
+                            <i class="bx bx-check-double mt-1 mr-2 me-3"
+                                style="font-size: 20px; color: #13D8AA; font-weight: 600;"></i>
                             <p>Reduces the risk of data breach and modern threats and hacking.</p>
                         </div>
                         <div class="mt-3 flex items-start text-base text-[#333335]">
-                            <i class="bx bx-check-double mt-1 mr-2 me-3" style="font-size: 20px; color: #13D8AA; font-weight: 600;"></i>
+                            <i class="bx bx-check-double mt-1 mr-2 me-3"
+                                style="font-size: 20px; color: #13D8AA; font-weight: 600;"></i>
                             <p>Gives real-time scanning threat detection alerts on your connected device.</p>
                         </div>
                         <div class="mt-3 flex items-start text-base text-[#333335]">
-                            <i class="bx bx-check-double mt-1 mr-2 me-3" style="font-size: 20px; color: #13D8AA; font-weight: 600;"></i>
+                            <i class="bx bx-check-double mt-1 mr-2 me-3"
+                                style="font-size: 20px; color: #13D8AA; font-weight: 600;"></i>
                             <p>Finds and isolates the impacted devices.</p>
                         </div>
                         <div class="mt-3 flex items-start text-base text-[#333335]">
-                            <i class="bx bx-check-double mt-1 mr-2 me-3" style="font-size: 20px; color: #13D8AA; font-weight: 600;"></i>
+                            <i class="bx bx-check-double mt-1 mr-2 me-3"
+                                style="font-size: 20px; color: #13D8AA; font-weight: 600;"></i>
                             <p>Prevents unauthorized access to digital and social accounts.</p>
                         </div>
                         <div class="mt-3 flex items-start text-base text-[#333335]">
-                            <i class="bx bx-check-double mt-1 mr-2 me-3" style="font-size: 20px; color: #13D8AA; font-weight: 600;"></i>
+                            <i class="bx bx-check-double mt-1 mr-2 me-3"
+                                style="font-size: 20px; color: #13D8AA; font-weight: 600;"></i>
                             <p>Offers multi-layer protection with advanced tools, such as VPN/Firewall/TTB Antivirus, etc.
                             </p>
                         </div>
                         <div class="mt-3 flex items-start text-base text-[#333335]">
-                            <i class="bx bx-check-double mt-1 mr-2 me-3" style="font-size: 20px; color: #13D8AA; font-weight: 600;"></i>
+                            <i class="bx bx-check-double mt-1 mr-2 me-3"
+                                style="font-size: 20px; color: #13D8AA; font-weight: 600;"></i>
                             <p>Enhances the overall security of the digital gadgets.</p>
                         </div>
                         <div class="mt-3 flex items-start text-base text-[#333335]">
-                            <i class="bx bx-check-double mt-1 mr-2 me-3" style="font-size: 20px; color: #13D8AA; font-weight: 600;"></i>
+                            <i class="bx bx-check-double mt-1 mr-2 me-3"
+                                style="font-size: 20px; color: #13D8AA; font-weight: 600;"></i>
                             <p>Cost-effective solution under one roof with advanced technology.</p>
                         </div>
                         <div class="mt-3 flex items-start text-base text-[#333335]">
-                            <i class="bx bx-check-double mt-1 mr-2 me-3" style="font-size: 20px; color: #13D8AA; font-weight: 600;"></i>
+                            <i class="bx bx-check-double mt-1 mr-2 me-3"
+                                style="font-size: 20px; color: #13D8AA; font-weight: 600;"></i>
                             <p>Offers fair deals for commercial and in-home security.</p>
                         </div>
                         <div class="mt-3 flex items-start text-base text-[#333335]">
-                            <i class="bx bx-check-double mt-1 mr-2 me-3" style="font-size: 20px; color: #13D8AA; font-weight: 600;"></i>
+                            <i class="bx bx-check-double mt-1 mr-2 me-3"
+                                style="font-size: 20px; color: #13D8AA; font-weight: 600;"></i>
                             <p>Keeps you protected from remote work risks using URL filtration, and detecting spam
                                 links/texts, malicious sites, etc.</p>
                         </div>
@@ -453,7 +463,7 @@
             </div>
         </section>
 
-        {{-- End::End Point faq section six --}},h ]jtj'ml; 
+        {{-- End::End Point faq section six --}},h ]jtj'ml;
 
 
 
