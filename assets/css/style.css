@@ -48865,8 +48865,15 @@ img.img-fluid.service-icon {
 .border-box-sct {
     border: 1px solid #F4F4F4;
     padding: 19px;
+    position: relative;
 }
 
+.border-box-sct img {
+    position: absolute;
+    background-color: #12d2b3;
+    top: 0px;
+    right: 0px;
+}
 
 .border-box-sct h5 {
     color: #12d2b3;
