@@ -48873,6 +48873,9 @@ img.img-fluid.service-icon {
     background-color: #12d2b3;
     top: 0px;
     right: 0px;
+    padding: 19px;
+    width: 24%;
+    border-radius: 0px 0px 0px 71px;
 }
 
 .border-box-sct h5 {
