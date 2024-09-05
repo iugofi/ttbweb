@@ -454,7 +454,7 @@
                     </div>
 
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12 pt-5">
-                        <img src="https://www.nighthawk-routerlogin.com/assets/img/thread-section-four.png" alt=""
+                        <img src="https://www.nighthawk-routerlogin.com/assets/img/Why-do-we-need-the-Endpoint-security-services-solutions.png" alt=""
                             class="img-fluid" width="90%">
                     </div>
                 </div>
