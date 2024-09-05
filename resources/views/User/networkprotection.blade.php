@@ -158,7 +158,8 @@
                 <div class="grid grid-cols-12 gap-6">
                     <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 col-span-12 text-center">
                         <h3>How TTB Can Help to Ensure Network Protection?</h3>
-                        <p class="mt-3">TTB internet security solutions will help you in multiple ways. Using our advanced security tools
+                        <p class="mt-3">TTB internet security solutions will help you in multiple ways. Using our advanced
+                            security tools
                             and software, you can <br> strengthen your network security. Below are the key features of TTB
                             internet security solutions:</p>
                     </div>
@@ -170,9 +171,11 @@
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 md:col-span-2 col-span-2">
 
                             </div>
-                            <div class="xxl:col-span-10 xl:col-span-10 lg:col-span-10 md:col-span-10 col-span-10 mt-5 icon-cnt">
+                            <div
+                                class="xxl:col-span-10 xl:col-span-10 lg:col-span-10 md:col-span-10 col-span-10 mt-5 icon-cnt">
                                 <h5>Real-Time Network Traffic Analysis</h5>
-                                <p class="mt-3">You will experience highly secure network access with the real-time network traffic
+                                <p class="mt-3">You will experience highly secure network access with the real-time
+                                    network traffic
                                     analysis features of TTB network protection solutions. We ensure that users get updated
                                     network traffic information and conditions to avoid infrastructure malfunctioning and
                                     identify suspicious traffic in real-time.</p>
@@ -182,24 +185,25 @@
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 md:col-span-2 col-span-2">
 
                             </div>
-                            <div class="xxl:col-span-10 xl:col-span-10 lg:col-span-10 md:col-span-10 col-span-10 mt-5 icon-cnt">
-                                <h5>Real-Time Network Traffic Analysis</h5>
-                                <p class="mt-3">You will experience highly secure network access with the real-time network traffic
-                                    analysis features of TTB network protection solutions. We ensure that users get updated
-                                    network traffic information and conditions to avoid infrastructure malfunctioning and
-                                    identify suspicious traffic in real-time.</p>
+                            <div
+                                class="xxl:col-span-10 xl:col-span-10 lg:col-span-10 md:col-span-10 col-span-10 mt-5 icon-cnt">
+                                <h5>Data loss prevention (DLP)</h5>
+                                <p class="mt-3">The DLP feature of TTB mainly aims to protect sensitive information and
+                                    important networking assets from unauthorized access. We ensure that you have full
+                                    control over data transfer and prevent you from performing some risky actions leading to
+                                    data breaches.</p>
                             </div>
                         </div>
                         <div class="grid grid-cols-12 gap-4">
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 md:col-span-2 col-span-2">
 
                             </div>
-                            <div class="xxl:col-span-10 xl:col-span-10 lg:col-span-10 md:col-span-10 col-span-10 mt-5 icon-cnt">
-                                <h5>Real-Time Network Traffic Analysis</h5>
-                                <p class="mt-3">You will experience highly secure network access with the real-time network traffic
-                                    analysis features of TTB network protection solutions. We ensure that users get updated
-                                    network traffic information and conditions to avoid infrastructure malfunctioning and
-                                    identify suspicious traffic in real-time.</p>
+                            <div
+                                class="xxl:col-span-10 xl:col-span-10 lg:col-span-10 md:col-span-10 col-span-10 mt-5 icon-cnt">
+                                <h5>Application control</h5>
+                                <p class="mt-3">You will get an exceptional feature of controlling applications on your
+                                    managed devices on TTB. Additionally, our internet security solutions add a layer to
+                                    eradicate loopholes and vulnerabilities in your network.</p>
                             </div>
                         </div>
 
@@ -221,39 +225,51 @@
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 md:col-span-2 col-span-2">
 
                             </div>
-                            <div class="xxl:col-span-10 xl:col-span-10 lg:col-span-10 md:col-span-10 col-span-10 mt-5 icon-cnt">
-                                <h5>Real-Time Network Traffic Analysis</h5>
-                                <p class="mt-3">You will experience highly secure network access with the real-time network traffic
-                                    analysis features of TTB network protection solutions. We ensure that users get updated
-                                    network traffic information and conditions to avoid infrastructure malfunctioning and
-                                    identify suspicious traffic in real-time.</p>
+                            <div
+                                class="xxl:col-span-10 xl:col-span-10 lg:col-span-10 md:col-span-10 col-span-10 mt-5 icon-cnt">
+                                <h5>Wireless Security</h5>
+                                <p class="mt-3">With the TTB VPN Shield, you will be one step ahead to protect your
+                                    network and gateway on the internet and cloud. It alerts users regarding suspicious
+                                    websites, threats, and access to risky websites.</p>
                             </div>
                         </div>
                         <div class="grid grid-cols-12 gap-4">
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 md:col-span-2 col-span-2">
 
                             </div>
-                            <div class="xxl:col-span-10 xl:col-span-10 lg:col-span-10 md:col-span-10 col-span-10 mt-5 icon-cnt">
-                                <h5>Real-Time Network Traffic Analysis</h5>
-                                <p class="mt-3">You will experience highly secure network access with the real-time network traffic
-                                    analysis features of TTB network protection solutions. We ensure that users get updated
-                                    network traffic information and conditions to avoid infrastructure malfunctioning and
-                                    identify suspicious traffic in real-time.</p>
+                            <div
+                                class="xxl:col-span-10 xl:col-span-10 lg:col-span-10 md:col-span-10 col-span-10 mt-5 icon-cnt">
+                                <h5>Mobile Device Security</h5>
+                                <p class="mt-3">In addition to application, web, and wireless security, TTB also cares
+                                    for your mobile security. With our network access protection, you can control any
+                                    external device to penetrate your network.</p>
                             </div>
                         </div>
                         <div class="grid grid-cols-12 gap-4">
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 md:col-span-2 col-span-2">
 
                             </div>
-                            <div class="xxl:col-span-10 xl:col-span-10 lg:col-span-10 md:col-span-10 col-span-10 mt-5 icon-cnt">
-                                <h5>Real-Time Network Traffic Analysis</h5>
-                                <p class="mt-3">You will experience highly secure network access with the real-time network traffic
-                                    analysis features of TTB network protection solutions. We ensure that users get updated
-                                    network traffic information and conditions to avoid infrastructure malfunctioning and
-                                    identify suspicious traffic in real-time.</p>
+                            <div
+                                class="xxl:col-span-10 xl:col-span-10 lg:col-span-10 md:col-span-10 col-span-10 mt-5 icon-cnt">
+                                <h5>Security and Compliance</h5>
+                                <p class="mt-3">We also provide you with robust security solutions to protect your
+                                    digital assets. Additionally, TTB ensures that all the information transmitted over your
+                                    network complies with certain security standards like HIPAA, PCI-DSS, GDPR, ISO/IEC
+                                    27001, etc.</p>
                             </div>
                         </div>
+                        <div class="grid grid-cols-12 gap-4">
+                            <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 md:col-span-2 col-span-2">
 
+                            </div>
+                            <div
+                                class="xxl:col-span-10 xl:col-span-10 lg:col-span-10 md:col-span-10 col-span-10 mt-5 icon-cnt">
+                                <h5>Maintenance and Support</h5>
+                                <p class="mt-3">We at TTB, care for our users the most and are always ready to provide
+                                    them assistance 24/7. We have an expert team to resolve user queries, update services as
+                                    per user’s feedback, and maintain a feedback loop.</p>
+                            </div>
+                        </div>
 
 
                     </div>
@@ -261,7 +277,8 @@
 
                 <div class="grid grid-cols-12 gap-6 mt-5 mb-5">
                     <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 col-span-12 text-center">
-                        <h6>Explore our <span class="text-color-ttb">best security solutions</span> to protect your network with a single click!</h6>
+                        <h6>Explore our <span class="text-color-ttb">best security solutions</span> to protect your network
+                            with a single click!</h6>
                     </div>
                 </div>
 
