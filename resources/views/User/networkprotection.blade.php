@@ -164,7 +164,7 @@
                     </div>
                 </div>
 
-                <div class="grid grid-cols-12 gap-4">
+                <div class="grid grid-cols-12 gap-4 mt-5">
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 col-span-12">
                         <div class="grid grid-cols-12 gap-6">
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 md:col-span-2 col-span-2">
