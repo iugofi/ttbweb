@@ -170,9 +170,9 @@
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 md:col-span-2 col-span-2">
 
                             </div>
-                            <div class="xxl:col-span-10 xl:col-span-10 lg:col-span-10 md:col-span-10 col-span-10">
+                            <div class="xxl:col-span-10 xl:col-span-10 lg:col-span-10 md:col-span-10 col-span-10 mt-5">
                                 <h5>Real-Time Network Traffic Analysis</h5>
-                                <p>You will experience highly secure network access with the real-time network traffic
+                                <p class="mt-3">You will experience highly secure network access with the real-time network traffic
                                     analysis features of TTB network protection solutions. We ensure that users get updated
                                     network traffic information and conditions to avoid infrastructure malfunctioning and
                                     identify suspicious traffic in real-time.</p>
@@ -182,9 +182,9 @@
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 md:col-span-2 col-span-2">
 
                             </div>
-                            <div class="xxl:col-span-10 xl:col-span-10 lg:col-span-10 md:col-span-10 col-span-10">
+                            <div class="xxl:col-span-10 xl:col-span-10 lg:col-span-10 md:col-span-10 col-span-10 mt-5">
                                 <h5>Real-Time Network Traffic Analysis</h5>
-                                <p>You will experience highly secure network access with the real-time network traffic
+                                <p class="mt-3">You will experience highly secure network access with the real-time network traffic
                                     analysis features of TTB network protection solutions. We ensure that users get updated
                                     network traffic information and conditions to avoid infrastructure malfunctioning and
                                     identify suspicious traffic in real-time.</p>
@@ -194,9 +194,9 @@
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 md:col-span-2 col-span-2">
 
                             </div>
-                            <div class="xxl:col-span-10 xl:col-span-10 lg:col-span-10 md:col-span-10 col-span-10">
+                            <div class="xxl:col-span-10 xl:col-span-10 lg:col-span-10 md:col-span-10 col-span-10 mt-5">
                                 <h5>Real-Time Network Traffic Analysis</h5>
-                                <p>You will experience highly secure network access with the real-time network traffic
+                                <p class="mt-3">You will experience highly secure network access with the real-time network traffic
                                     analysis features of TTB network protection solutions. We ensure that users get updated
                                     network traffic information and conditions to avoid infrastructure malfunctioning and
                                     identify suspicious traffic in real-time.</p>
