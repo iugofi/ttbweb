@@ -167,7 +167,7 @@
 
                 <div class="grid grid-cols-12 gap-4 mt-5">
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 col-span-12">
-                        <div class="grid grid-cols-12 gap-6">
+                        <div class="grid grid-cols-12 gap-4 mt-5">
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 md:col-span-2 col-span-2">
                                 <img src="{{ asset('assets/home-two-img/Real-Time Network Traffic Analysis.png') }}">
                             </div>
@@ -181,7 +181,7 @@
                                     identify suspicious traffic in real-time.</p>
                             </div>
                         </div>
-                        <div class="grid grid-cols-12 gap-4">
+                        <div class="grid grid-cols-12 gap-4 mt-5">
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 md:col-span-2 col-span-2">
                                 <img src="{{ asset('assets/home-two-img/Data loss prevention.png') }}">
                             </div>
@@ -194,7 +194,7 @@
                                     data breaches.</p>
                             </div>
                         </div>
-                        <div class="grid grid-cols-12 gap-4">
+                        <div class="grid grid-cols-12 gap-4 mt-5">
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 md:col-span-2 col-span-2">
                                 <img src="{{ asset('assets/home-two-img/Application control.png') }}">
                             </div>
@@ -221,7 +221,7 @@
                         <img src="{{ asset('assets/home-two-img/sec3-2.png') }}">
                     </div>
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 col-span-12">
-                        <div class="grid grid-cols-12 gap-6">
+                        <div class="grid grid-cols-12 gap-6 mt-5">
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 md:col-span-2 col-span-2">
                         <img src="{{ asset('assets/home-two-img/Wireless Security.png') }}">
                             </div>
@@ -233,7 +233,7 @@
                                     websites, threats, and access to risky websites.</p>
                             </div>
                         </div>
-                        <div class="grid grid-cols-12 gap-4">
+                        <div class="grid grid-cols-12 gap-4 mt-5">
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 md:col-span-2 col-span-2">
                                 <img src="{{ asset('assets/home-two-img/Mobile Device Security.png') }}">
 
@@ -246,7 +246,7 @@
                                     external device to penetrate your network.</p>
                             </div>
                         </div>
-                        <div class="grid grid-cols-12 gap-4">
+                        <div class="grid grid-cols-12 gap-4 mt-5">
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 md:col-span-2 col-span-2">
                                 <img src="{{ asset('assets/home-two-img/Security and Compliance.png') }}">
                             </div>
@@ -259,7 +259,7 @@
                                     27001, etc.</p>
                             </div>
                         </div>
-                        <div class="grid grid-cols-12 gap-4">
+                        <div class="grid grid-cols-12 gap-4 mt-5">
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 md:col-span-2 col-span-2">
                                 <img src="{{ asset('assets/home-two-img/Maintenance and Support.png') }}">
                             </div>
