@@ -48873,6 +48873,9 @@ img.img-fluid.service-icon {
     background-color: #12d2b3;
     top: 0px;
     right: 0px;
+    padding: 19px;
+    width: 24%;
+    border-radius: 0px 0px 0px 71px;
 }
 
 .border-box-sct h5 {
@@ -48882,14 +48885,52 @@ img.img-fluid.service-icon {
 }
 
 .border-box-sct h4 {
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .border-box-sct p {
     font-size: 14px;
 }
 
+.net-prot-sec-four h3 {
+    font-size: 26px;
+    font-weight: 500;
+}
 
+.net-prot-sec-four p {
+    font-size: 16px;
+   
+}
+
+.icon-cnt p{
+    text-align: justify;
+}
+
+.net-prot-sec-four {
+    background-color: #F5F6FA;
+    padding: 30px 0px;
+    margin-top: 4em;
+}
+.net-prot-sec-four h6 {
+    font-size: 26px;
+    font-weight: 500;
+    margin: 20px 0px;
+}
+
+.border-box-sct:hover {
+    background-color: #12d2b3;
+}
+
+.border-box-sct:hover p{
+    color:#fff;
+}
+.border-box-sct:hover h4{
+    color:#fff;
+}
+.border-box-sct:hover h5{
+    color:#fff;
+}
 
 /* network protection css end */
 
