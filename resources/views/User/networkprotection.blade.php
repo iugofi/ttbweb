@@ -153,6 +153,66 @@
             </div>
         </section>
 
+        <section class="net-prot-sec-three">
+            <div class="container">
+                <div class="grid grid-cols-12 gap-6">
+                    <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 col-span-12">
+                        <h3>How TTB Can Help to Ensure Network Protection?</h3>
+                        <p>TTB internet security solutions will help you in multiple ways. Using our advanced security tools
+                            and software, you can strengthen your network security. Below are the key features of TTB
+                            internet security solutions:</p>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-12 gap-6">
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 col-span-12">
+                        <div class="grid grid-cols-12 gap-6">
+                            <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 col-span-3">
+
+                            </div>
+                            <div class="xxl:col-span-9 xl:col-span-9 lg:col-span-9 md:col-span-9 col-span-9">
+                                <h5>Real-Time Network Traffic Analysis</h5>
+                                <p>You will experience highly secure network access with the real-time network traffic
+                                    analysis features of TTB network protection solutions. We ensure that users get updated
+                                    network traffic information and conditions to avoid infrastructure malfunctioning and
+                                    identify suspicious traffic in real-time.</p>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-12 gap-6">
+                            <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 col-span-3">
+
+                            </div>
+                            <div class="xxl:col-span-9 xl:col-span-9 lg:col-span-9 md:col-span-9 col-span-9">
+                                <h5>Real-Time Network Traffic Analysis</h5>
+                                <p>You will experience highly secure network access with the real-time network traffic
+                                    analysis features of TTB network protection solutions. We ensure that users get updated
+                                    network traffic information and conditions to avoid infrastructure malfunctioning and
+                                    identify suspicious traffic in real-time.</p>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-12 gap-6">
+                            <div class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 col-span-3">
+
+                            </div>
+                            <div class="xxl:col-span-9 xl:col-span-9 lg:col-span-9 md:col-span-9 col-span-9">
+                                <h5>Real-Time Network Traffic Analysis</h5>
+                                <p>You will experience highly secure network access with the real-time network traffic
+                                    analysis features of TTB network protection solutions. We ensure that users get updated
+                                    network traffic information and conditions to avoid infrastructure malfunctioning and
+                                    identify suspicious traffic in real-time.</p>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 col-span-12">
+                        <img src="{{ asset('assets/home-two-img/sec3.png') }}">
+                    </div>
+                </div>
+            </div>
+
+        </section>
 
     </div>
 
