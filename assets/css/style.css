@@ -48918,6 +48918,20 @@ img.img-fluid.service-icon {
     margin: 20px 0px;
 }
 
+.border-box-sct:hover {
+    background-color: #12d2b3;
+}
+
+.border-box-sct:hover p{
+    color:#fff;
+}
+.border-box-sct:hover h4{
+    color:#fff;
+}
+.border-box-sct:hover h5{
+    color:#fff;
+}
+
 /* network protection css end */
 
 .home2-new-seven-pricing .text-box-price p {
