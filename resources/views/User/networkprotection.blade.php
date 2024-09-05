@@ -158,7 +158,7 @@
                 <div class="grid grid-cols-12 gap-6">
                     <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 col-span-12 text-center">
                         <h3>How TTB Can Help to Ensure Network Protection?</h3>
-                        <p>TTB internet security solutions will help you in multiple ways. Using our advanced security tools
+                        <p class="mt-3">TTB internet security solutions will help you in multiple ways. Using our advanced security tools
                             and software, you can <br> strengthen your network security. Below are the key features of TTB
                             internet security solutions:</p>
                     </div>
