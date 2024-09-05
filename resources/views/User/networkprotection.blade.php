@@ -106,7 +106,7 @@
                             instantly when a malicious activity is captured on the network.</p>
                     </div>
                 </div>
-                <div class="grid grid-cols-12 gap-6">
+                <div class="grid grid-cols-12 gap-6 mt-5">
                     <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-6 col-span-12 border-box-sct">
                         <div class="grid grid-cols-12 gap-6">
                             <div class="xxl:col-span-8 xl:col-span-8 lg:col-span-8 md:col-span-8 col-span-8">
