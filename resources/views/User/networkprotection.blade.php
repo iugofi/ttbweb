@@ -153,7 +153,7 @@
             </div>
         </section>
 
-        <section class="net-prot-sec-three">
+        <section class="net-prot-sec-four">
             <div class="container">
                 <div class="grid grid-cols-12 gap-6">
                     <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 col-span-12 text-center">
