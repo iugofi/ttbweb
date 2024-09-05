@@ -172,7 +172,7 @@
                                 <img src="{{ asset('assets/home-two-img/Real-Time Network Traffic Analysis.png') }}">
                             </div>
                             <div
-                                class="xxl:col-span-10 xl:col-span-10 lg:col-span-10 md:col-span-10 col-span-10 mt-5 icon-cnt">
+                                class="xxl:col-span-10 xl:col-span-10 lg:col-span-10 md:col-span-10 col-span-10  icon-cnt">
                                 <h5>Real-Time Network Traffic Analysis</h5>
                                 <p class="mt-3">You will experience highly secure network access with the real-time
                                     network traffic
@@ -186,7 +186,7 @@
                                 <img src="{{ asset('assets/home-two-img/Data loss prevention.png') }}">
                             </div>
                             <div
-                                class="xxl:col-span-10 xl:col-span-10 lg:col-span-10 md:col-span-10 col-span-10 mt-5 icon-cnt">
+                                class="xxl:col-span-10 xl:col-span-10 lg:col-span-10 md:col-span-10 col-span-10  icon-cnt">
                                 <h5>Data loss prevention (DLP)</h5>
                                 <p class="mt-3">The DLP feature of TTB mainly aims to protect sensitive information and
                                     important networking assets from unauthorized access. We ensure that you have full
@@ -199,7 +199,7 @@
                                 <img src="{{ asset('assets/home-two-img/Application control.png') }}">
                             </div>
                             <div
-                                class="xxl:col-span-10 xl:col-span-10 lg:col-span-10 md:col-span-10 col-span-10 mt-5 icon-cnt">
+                                class="xxl:col-span-10 xl:col-span-10 lg:col-span-10 md:col-span-10 col-span-10 icon-cnt">
                                 <h5>Application control</h5>
                                 <p class="mt-3">You will get an exceptional feature of controlling applications on your
                                     managed devices on TTB. Additionally, our internet security solutions add a layer to
@@ -226,7 +226,7 @@
                         <img src="{{ asset('assets/home-two-img/Wireless Security.png') }}">
                             </div>
                             <div
-                                class="xxl:col-span-10 xl:col-span-10 lg:col-span-10 md:col-span-10 col-span-10 mt-5 icon-cnt">
+                                class="xxl:col-span-10 xl:col-span-10 lg:col-span-10 md:col-span-10 col-span-10  icon-cnt">
                                 <h5>Wireless Security</h5>
                                 <p class="mt-3">With the TTB VPN Shield, you will be one step ahead to protect your
                                     network and gateway on the internet and cloud. It alerts users regarding suspicious
@@ -239,7 +239,7 @@
 
                             </div>
                             <div
-                                class="xxl:col-span-10 xl:col-span-10 lg:col-span-10 md:col-span-10 col-span-10 mt-5 icon-cnt">
+                                class="xxl:col-span-10 xl:col-span-10 lg:col-span-10 md:col-span-10 col-span-10  icon-cnt">
                                 <h5>Mobile Device Security</h5>
                                 <p class="mt-3">In addition to application, web, and wireless security, TTB also cares
                                     for your mobile security. With our network access protection, you can control any
@@ -251,7 +251,7 @@
                                 <img src="{{ asset('assets/home-two-img/Security and Compliance.png') }}">
                             </div>
                             <div
-                                class="xxl:col-span-10 xl:col-span-10 lg:col-span-10 md:col-span-10 col-span-10 mt-5 icon-cnt">
+                                class="xxl:col-span-10 xl:col-span-10 lg:col-span-10 md:col-span-10 col-span-10  icon-cnt">
                                 <h5>Security and Compliance</h5>
                                 <p class="mt-3">We also provide you with robust security solutions to protect your
                                     digital assets. Additionally, TTB ensures that all the information transmitted over your
@@ -264,7 +264,7 @@
                                 <img src="{{ asset('assets/home-two-img/Maintenance and Support.png') }}">
                             </div>
                             <div
-                                class="xxl:col-span-10 xl:col-span-10 lg:col-span-10 md:col-span-10 col-span-10 mt-5 icon-cnt">
+                                class="xxl:col-span-10 xl:col-span-10 lg:col-span-10 md:col-span-10 col-span-10  icon-cnt">
                                 <h5>Maintenance and Support</h5>
                                 <p class="mt-3">We at TTB, care for our users the most and are always ready to provide
                                     them assistance 24/7. We have an expert team to resolve user queries, update services as
