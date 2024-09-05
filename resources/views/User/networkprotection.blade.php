@@ -170,7 +170,7 @@
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 md:col-span-2 col-span-2">
 
                             </div>
-                            <div class="xxl:col-span-10 xl:col-span-10 lg:col-span-10 md:col-span-10 col-span-10 mt-5">
+                            <div class="xxl:col-span-10 xl:col-span-10 lg:col-span-10 md:col-span-10 col-span-10 mt-5 icon-cnt">
                                 <h5>Real-Time Network Traffic Analysis</h5>
                                 <p class="mt-3">You will experience highly secure network access with the real-time network traffic
                                     analysis features of TTB network protection solutions. We ensure that users get updated
@@ -182,7 +182,7 @@
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 md:col-span-2 col-span-2">
 
                             </div>
-                            <div class="xxl:col-span-10 xl:col-span-10 lg:col-span-10 md:col-span-10 col-span-10 mt-5">
+                            <div class="xxl:col-span-10 xl:col-span-10 lg:col-span-10 md:col-span-10 col-span-10 mt-5 icon-cnt">
                                 <h5>Real-Time Network Traffic Analysis</h5>
                                 <p class="mt-3">You will experience highly secure network access with the real-time network traffic
                                     analysis features of TTB network protection solutions. We ensure that users get updated
@@ -194,7 +194,7 @@
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 md:col-span-2 col-span-2">
 
                             </div>
-                            <div class="xxl:col-span-10 xl:col-span-10 lg:col-span-10 md:col-span-10 col-span-10 mt-5">
+                            <div class="xxl:col-span-10 xl:col-span-10 lg:col-span-10 md:col-span-10 col-span-10 mt-5 icon-cnt">
                                 <h5>Real-Time Network Traffic Analysis</h5>
                                 <p class="mt-3">You will experience highly secure network access with the real-time network traffic
                                     analysis features of TTB network protection solutions. We ensure that users get updated
