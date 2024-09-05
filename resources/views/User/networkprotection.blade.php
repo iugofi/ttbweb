@@ -70,7 +70,8 @@
                             </div>
                         </div>
                         <h4>Core Components</h4>
-                        <p class="mt-3">To cope with this digitally transformed world, users tend to protect themselves from cyber
+                        <p class="mt-3">To cope with this digitally transformed world, users tend to protect themselves
+                            from cyber
                             threats. Similarly, TTB also focuses on keeping your network & information protected. So, here
                             are some of the core components of the TTB network threat protection.</p>
                     </div>
@@ -84,7 +85,8 @@
                             </div>
                         </div>
                         <h4>Firewalls</h4>
-                        <p class="mt-3">TTB offers you enhanced security with next-generation firewalls to monitor incoming and outgoing
+                        <p class="mt-3">TTB offers you enhanced security with next-generation firewalls to monitor
+                            incoming and outgoing
                             network traffic. With TTB network protection firewall, You can also block, allow, or restrict
                             traffic on your network following some predefined security rules.</p>
                     </div>
@@ -98,7 +100,8 @@
                             </div>
                         </div>
                         <h4>Intrusion Detection Systems</h4>
-                        <p class="mt-3">With the advanced security features of the TTB network security solutions, you can easily monitor
+                        <p class="mt-3">With the advanced security features of the TTB network security solutions, you can
+                            easily monitor
                             and detect abnormal activities on your network. Our network threat protection will notify users
                             instantly when a malicious activity is captured on the network.</p>
                     </div>
@@ -113,10 +116,10 @@
                                 <img src="{{ asset('assets/home-two-img/one-img.png') }}">
                             </div>
                         </div>
-                        <h4>Core Components</h4>
-                        <p class="mt-3">To cope with this digitally transformed world, users tend to protect themselves from cyber
-                            threats. Similarly, TTB also focuses on keeping your network & information protected. So, here
-                            are some of the core components of the TTB network threat protection.</p>
+                        <h4>Virtual Private Network (VPN)</h4>
+                        <p class="mt-3">You will be astounded by our extraordinary TTB VPN service that offers a complete
+                            endpoint to network security over the internet. With our site-to-site and remote access VPN,
+                            users can securely transmit data, only after authenticating the device and network.</p>
                     </div>
                     <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-6 col-span-12 border-box-sct">
                         <div class="grid grid-cols-12 gap-6">
@@ -127,10 +130,10 @@
                                 <img src="{{ asset('assets/home-two-img/one-img.png') }}">
                             </div>
                         </div>
-                        <h4>Firewalls</h4>
-                        <p class="mt-3">TTB offers you enhanced security with next-generation firewalls to monitor incoming and outgoing
-                            network traffic. With TTB network protection firewall, You can also block, allow, or restrict
-                            traffic on your network following some predefined security rules.</p>
+                        <h4>Secure Web Gateway</h4>
+                        <p class="mt-3">With TTB’s advanced anti-virus solutions, users (individuals & organizations) can
+                            filter out malicious URLs and web content for security purposes. This will help protect the
+                            users from accessing high-risk web content and control users within your network perimeters.</p>
                     </div>
                     <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-6 col-span-12 border-box-sct">
                         <div class="grid grid-cols-12 gap-6">
@@ -141,10 +144,10 @@
                                 <img src="{{ asset('assets/home-two-img/one-img.png') }}">
                             </div>
                         </div>
-                        <h4>Intrusion Detection Systems</h4>
-                        <p class="mt-3">With the advanced security features of the TTB network security solutions, you can easily monitor
-                            and detect abnormal activities on your network. Our network threat protection will notify users
-                            instantly when a malicious activity is captured on the network.</p>
+                        <h4>Network Access Control (NAC)</h4>
+                        <p class="mt-3">You will also get complete network access protection on TTB, which helps in
+                            limiting unauthored access to your network. Users can enable device authentication and limited
+                            guest networks in compliance with the security policies to ensure secured network access.</p>
                     </div>
                 </div>
             </div>
