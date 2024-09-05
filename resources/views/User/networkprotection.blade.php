@@ -211,14 +211,14 @@
 
                     </div>
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 col-span-12">
-                        <img src="{{ asset('assets/home-two-img/sec3-1.png') }}">
+                        <img src="{{ asset('assets/home-two-img/sec3-1.png') }}" class="mt-5">
                     </div>
                 </div>
 
                 <div class="grid grid-cols-12 gap-4 mt-5">
 
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 col-span-12">
-                        <img src="{{ asset('assets/home-two-img/sec3-2.png') }}">
+                        <img src="{{ asset('assets/home-two-img/sec3-2.png') }}" class="mt-5">
                     </div>
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 col-span-12">
                         <div class="grid grid-cols-12 gap-6 mt-5">
