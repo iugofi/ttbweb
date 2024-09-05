@@ -48907,7 +48907,9 @@ img.img-fluid.service-icon {
     text-align: justify;
 }
 
-
+section.net-prot-sec-three.pt-5 {
+    background-color: #F5F6FA;
+}
 
 /* network protection css end */
 
