@@ -223,7 +223,7 @@
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 col-span-12">
                         <div class="grid grid-cols-12 gap-6">
                             <div class="xxl:col-span-2 xl:col-span-2 lg:col-span-2 md:col-span-2 col-span-2">
-
+                        <img src="{{ asset('assets/home-two-img/Wireless Security.png') }}">
                             </div>
                             <div
                                 class="xxl:col-span-10 xl:col-span-10 lg:col-span-10 md:col-span-10 col-span-10 mt-5 icon-cnt">
