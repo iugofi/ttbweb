@@ -111,10 +111,10 @@
     </section>
     {{-- END SECTION THREE --}}
 
-    {{-- START SECTION FOUR --}}
-    <section class="threat-section-four">
+    {{-- START SECTION FOUR NEW --}}
+    <section class="threat-section-three !bg-[#f9fafb] dark:!bg-black/10">
         <div class="container">
-            <div class="grid grid-cols-12 gap-6 mb-8">
+            <div class="grid grid-cols-12 gap-6">
                 <div class="col-span-12 text-center">
                     <h2>Stay protected from threats- known and unknown!</h2>
                     <p class="mt-3 mb-5">Most malware attacks can be recognized based on their past-behaviour, however,<br>
@@ -122,149 +122,126 @@
                         codes
                         and language are difficult to track.</p>
                 </div>
-                <div
-                    class="xxl:col-span-3 xl:col-span-3  md:col-span-3 sm:col-span-12 col-span-12 d!bg-[#f9fafb] dark:!bg-black/10 border dark:border-defaultborder/10 img-boxthree">
 
+                <div
+                    class="xxl:col-span-4 xl:col-span-4  md:col-span-4 sm:col-span-12 col-span-12 d!bg-[#f9fafb] dark:!bg-black/10 border dark:border-defaultborder/10 img-boxthree">
+                    <img src="{{ asset('assets/img/sec3-img1.png') }}" alt="" class="img-fluid" width="100%">
                     <div class="inner-box ">
                         <div class="flex">
                             <div class="icon-img-box">
                                 <i class="fa-solid fa-signal"></i>
                             </div>
+                            <h3 class="ms-3">Improved <br>Defenses<span>.</span></h3>
                         </div>
-                        <h3 class="text-2xl font-semibold pt-4 pb-4">Improved Defenses</h3>
-                        <p class="text-left text-base">Lorem Ipsum is simply dummy text of the printing and typesetting
-                            industry.Been the industry's
+                        <div class="progress progress-xs mb-5 mt-5 progress-animate">
+                            <div class="progress-bar !rounded-e-full bg-primary w-10">
+                            </div>
+                        </div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Been the industry's
                             standard dummy</p>
                     </div>
                 </div>
-
                 <div
-                    class="xxl:col-span-3 xl:col-span-3  md:col-span-3 sm:col-span-12 col-span-12 d!bg-[#f9fafb] dark:!bg-black/10 border dark:border-defaultborder/10 img-boxthree">
-
+                    class="xxl:col-span-4 xl:col-span-4  md:col-span-4 sm:col-span-12 col-span-12 d!bg-[#f9fafb] dark:!bg-black/10 border dark:border-defaultborder/10 img-boxthree">
+                    <img src="{{ asset('assets/img/sec3-img2.png') }}" alt="" class="img-fluid" width="100%">
                     <div class="inner-box ">
                         <div class="flex">
                             <div class="icon-img-box">
                                 <i class="fa-solid fa-signal"></i>
                             </div>
+                            <h3 class="ms-3">Improved <br>Defenses<span>.</span></h3>
                         </div>
-                        <h3 class="text-2xl font-semibold pt-4 pb-4">Improved Defenses</h3>
-                        <p class="text-left text-base">Lorem Ipsum is simply dummy text of the printing and typesetting
-                            industry.Been the industry's
+                        <div class="progress progress-xs mb-5 mt-5 progress-animate ">
+                            <div class="progress-bar !rounded-e-full bg-primary w-10">
+                            </div>
+                        </div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Been the industry's
                             standard dummy</p>
+
                     </div>
                 </div>
                 <div
-                    class="xxl:col-span-3 xl:col-span-3  md:col-span-3 sm:col-span-12 col-span-12 d!bg-[#f9fafb] dark:!bg-black/10 border dark:border-defaultborder/10 img-boxthree">
-
+                    class="xxl:col-span-4 xl:col-span-4  md:col-span-4 sm:col-span-12 col-span-12 d!bg-[#f9fafb] dark:!bg-black/10 border dark:border-defaultborder/10 img-boxthree">
+                    <img src="{{ asset('assets/img/sec3-img3.png') }}" alt="" class="img-fluid" width="100%">
                     <div class="inner-box ">
                         <div class="flex">
                             <div class="icon-img-box">
                                 <i class="fa-solid fa-signal"></i>
                             </div>
-
+                            <h3 class="ms-3">Improved <br>Defenses<span>.</span></h3>
                         </div>
-
-                        <h3 class="text-2xl font-semibold pt-4 pb-4">Improved Defenses</h3>
-                        <p class="text-left text-base">Lorem Ipsum is simply dummy text of the printing and typesetting
-                            industry.Been the industry's
-                            standard dummy</p>
-                    </div>
-                </div>
-                <div
-                    class="xxl:col-span-3 xl:col-span-3  md:col-span-3 sm:col-span-12 col-span-12 d!bg-[#f9fafb] dark:!bg-black/10 border dark:border-defaultborder/10 img-boxthree">
-
-                    <div class="inner-box ">
-                        <div class="flex">
-                            <div class="icon-img-box">
-                                <i class="fa-solid fa-signal"></i>
+                        <div class="progress progress-xs mb-5 mt-5 progress-animate ">
+                            <div class="progress-bar !rounded-e-full bg-primary w-10">
                             </div>
-
                         </div>
-
-                        <h3 class="text-2xl font-semibold pt-4 pb-4">Improved Defenses</h3>
-                        <p class="text-left text-base">Lorem Ipsum is simply dummy text of the printing and typesetting
-                            industry.Been the industry's
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Been the industry's
                             standard dummy</p>
                     </div>
                 </div>
+
             </div>
+            <div class="grid grid-cols-12 gap-6 mt-5">
 
-            <div class="grid grid-cols-12 gap-6">
                 <div
-                    class="xxl:col-span-3 xl:col-span-3  md:col-span-3 sm:col-span-12 col-span-12 d!bg-[#f9fafb] dark:!bg-black/10 border dark:border-defaultborder/10 img-boxthree">
-
+                    class="xxl:col-span-4 xl:col-span-4  md:col-span-4 sm:col-span-12 col-span-12 d!bg-[#f9fafb] dark:!bg-black/10 border dark:border-defaultborder/10 img-boxthree">
+                    <img src="{{ asset('assets/img/sec3-img1.png') }}" alt="" class="img-fluid" width="100%">
                     <div class="inner-box ">
                         <div class="flex">
                             <div class="icon-img-box">
                                 <i class="fa-solid fa-signal"></i>
                             </div>
-
+                            <h3 class="ms-3">Improved <br>Defenses<span>.</span></h3>
                         </div>
-
-                        <h3 class="text-2xl font-semibold pt-4 pb-4">Improved Defenses</h3>
-                        <p class="text-left text-base">Lorem Ipsum is simply dummy text of the printing and typesetting
-                            industry.Been the industry's
+                        <div class="progress progress-xs mb-5 mt-5 progress-animate ">
+                            <div class="progress-bar !rounded-e-full bg-primary w-10">
+                            </div>
+                        </div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Been the industry's
                             standard dummy</p>
                     </div>
                 </div>
-
-
-
                 <div
-                    class="xxl:col-span-3 xl:col-span-3  md:col-span-3 sm:col-span-12 col-span-12 d!bg-[#f9fafb] dark:!bg-black/10 border dark:border-defaultborder/10 img-boxthree">
-
+                    class="xxl:col-span-4 xl:col-span-4  md:col-span-4 sm:col-span-12 col-span-12 d!bg-[#f9fafb] dark:!bg-black/10 border dark:border-defaultborder/10 img-boxthree">
+                    <img src="{{ asset('assets/img/sec3-img2.png') }}" alt="" class="img-fluid" width="100%">
                     <div class="inner-box ">
                         <div class="flex">
                             <div class="icon-img-box">
                                 <i class="fa-solid fa-signal"></i>
                             </div>
-
+                            <h3 class="ms-3">Improved <br>Defenses<span>.</span></h3>
                         </div>
-
-                        <h3 class="text-2xl font-semibold pt-4 pb-4">Improved Defenses</h3>
-                        <p class="text-left text-base">Lorem Ipsum is simply dummy text of the printing and typesetting
-                            industry.Been the industry's
+                        <div class="progress progress-xs mb-5 mt-5 progress-animate ">
+                            <div class="progress-bar !rounded-e-full bg-primary w-10">
+                            </div>
+                        </div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Been the industry's
                             standard dummy</p>
+
                     </div>
                 </div>
                 <div
-                    class="xxl:col-span-3 xl:col-span-3  md:col-span-3 sm:col-span-12 col-span-12 d!bg-[#f9fafb] dark:!bg-black/10 border dark:border-defaultborder/10 img-boxthree">
-
+                    class="xxl:col-span-4 xl:col-span-4  md:col-span-4 sm:col-span-12 col-span-12 d!bg-[#f9fafb] dark:!bg-black/10 border dark:border-defaultborder/10 img-boxthree">
+                    <img src="{{ asset('assets/img/sec3-img3.png') }}" alt="" class="img-fluid" width="100%">
                     <div class="inner-box ">
                         <div class="flex">
                             <div class="icon-img-box">
                                 <i class="fa-solid fa-signal"></i>
                             </div>
-
+                            <h3 class="ms-3">Improved <br>Defenses<span>.</span></h3>
                         </div>
-
-                        <h3 class="text-2xl font-semibold pt-4 pb-4">Improved Defenses</h3>
-                        <p class="text-left text-base">Lorem Ipsum is simply dummy text of the printing and typesetting
-                            industry.Been the industry's
-                            standard dummy</p>
-                    </div>
-                </div>
-                <div
-                    class="xxl:col-span-3 xl:col-span-3  md:col-span-3 sm:col-span-12 col-span-12 d!bg-[#f9fafb] dark:!bg-black/10 border dark:border-defaultborder/10 img-boxthree">
-
-                    <div class="inner-box ">
-                        <div class="flex">
-                            <div class="icon-img-box">
-                                <i class="fa-solid fa-signal"></i>
+                        <div class="progress progress-xs mb-5 mt-5 progress-animate ">
+                            <div class="progress-bar !rounded-e-full bg-primary w-10">
                             </div>
-
                         </div>
-
-                        <h3 class="text-2xl font-semibold pt-4 pb-4">Improved Defenses</h3>
-                        <p class="text-left text-base">Lorem Ipsum is simply dummy text of the printing and typesetting
-                            industry.Been the industry's
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Been the industry's
                             standard dummy</p>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
-    {{-- END SECTION FOUR --}}
+    {{-- END SECTION FOUR NEW --}}
 
     {{-- START SECTION FOUR --}}
     <section class="threat-section-four">
