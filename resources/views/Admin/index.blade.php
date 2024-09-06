@@ -317,7 +317,7 @@
                             </div>
                             <div class="xxl:col-span-12 xl:col-span-12 col-span-12">
                                 <div class="box-body">
-                                    <div id="treemap-multi"></div>
+                                    <div id="treemap-multis"></div>
                                 </div>
                                 {{-- <div class="box">
                                     <div class="box-header !gap-0 !m-0 justify-between">
@@ -978,6 +978,67 @@
     </div>
 </div>
 
+<script>
+    $(document).ready(function () {
+        // Fetch data from the handler via AJAX
+        $.ajax({
+            url: "{{ route('treemap.data') }}", // URL to fetch data from
+            method: 'GET',
+            success: function (response) {
+                // Once the data is successfully fetched, render the chart
+                var options = {
+                    series: [
+                        {
+                            data: response // Use the AJAX response data
+                        }
+                    ],
+                    legend: {
+                        show: false
+                    },
+                    chart: {
+                        height: 350,
+                        type: 'treemap'
+                    },
+                    title: {
+                        text: 'Distributed Treemap (different color for each cell)',
+                        align: 'center',
+                        style: {
+                            fontSize: '13px',
+                            fontWeight: 'bold',
+                            color: '#8c9097'
+                        }
+                    },
+                    colors: [
+                        '#845adf',
+                        '#a65e76',
+                        '#f5b849',
+                        '#a66a5e',
+                        '#a65e9a',
+                        '#26bf94',
+                        '#e6533c',
+                        '#49b6f5',
+                        '#5b67c7',
+                        '#2dce89',
+                        '#EF6537',
+                        '#8c9097'
+                    ],
+                    plotOptions: {
+                        treemap: {
+                            distributed: true,
+                            enableShades: false
+                        }
+                    }
+                };
+
+                var chart = new ApexCharts(document.querySelector("#treemap-multis"), options);
+                chart.render();
+            },
+            error: function (xhr, status, error) {
+                console.error('Error fetching data:', error);
+            }
+        });
+    });
+</script>
 
 <script>
         var dom = document.getElementById('echart-pie');
