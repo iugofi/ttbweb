@@ -799,7 +799,7 @@
         });
         var options = {
         series: [{
-            name: "Desktops",
+            name: "Users",
             data: [10, 41, 35, 51, 49, 62, 69, 91, 148]
         }],
         chart: {
@@ -821,7 +821,7 @@
             borderColor: '#f2f5f7',
         },
         title: {
-            text: 'Product Trends by Month',
+            text: 'Users Trends by Month',
             align: 'left',
             style: {
                 fontSize: '13px',
