@@ -49596,9 +49596,9 @@ img.img-fluid.service-icon {
 
 .e-support-section-seven .box {
     padding: 3em 0em;
-    background-color: transparent;
-    margin-bottom: 0px;
     box-shadow: 0px 0px 0px 0px;
+    position: relative;
+    align-items: center;
 }
 
 .e-support-section-seven h2 {
