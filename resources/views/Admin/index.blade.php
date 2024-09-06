@@ -86,7 +86,7 @@
                                 </div>
                                 <div class="box-body">
                                     <ul class="list-none crm-top-deals mb-0">
-                                    
+
                                         <li class="mb-[0.9rem]">
                                             <div class="flex items-start flex-wrap">
                                                 <div class="me-2">
@@ -105,8 +105,8 @@
                                                 <div class="font-semibold text-[0.9375rem] ">$2,893</div>
                                             </div>
                                         </li>
-                                      
-                                       
+
+
                                     </ul>
                                 </div>
                             </div>
@@ -157,7 +157,7 @@
                                                             Total News</p>
                                                         <h4 class="font-semibold  text-[1.5rem] !mb-2 "><?php
                                                             $totalNews = DB::select("SELECT COUNT(*) AS total FROM news");
-                                                            echo $totalNews[0]->total; 
+                                                            echo $totalNews[0]->total;
                                                         ?>
                                                         </h4>
                                                     </div>
@@ -201,7 +201,7 @@
                                                             Total Blog</p>
                                                         <h4 class="font-semibold text-[1.5rem] !mb-2 "><?php
                                                             $totalblog = DB::select("SELECT COUNT(*) AS total FROM blog");
-                                                            echo $totalblog[0]->total; 
+                                                            echo $totalblog[0]->total;
                                                         ?>
                                                         </h4>
                                                     </div>
@@ -245,7 +245,7 @@
                                                             Total News Likes</p>
                                                         <h4 class="font-semibold text-[1.5rem] !mb-2 "><?php
                                                             $totalnewslike = DB::select("SELECT SUM(likes) AS totallike FROM news");
-                                                            echo $totalnewslike[0]->totallike; 
+                                                            echo $totalnewslike[0]->totallike;
                                                         ?>
                                                         </h4>
                                                     </div>
@@ -289,7 +289,7 @@
                                                             Total Blog Likes</p>
                                                         <h4 class="font-semibold text-[1.5rem] !mb-2 "><?php
                                                             $totalbloglike = DB::select("SELECT SUM(likes) AS totallike FROM blog");
-                                                            echo $totalbloglike[0]->totallike; 
+                                                            echo $totalbloglike[0]->totallike;
                                                         ?>
                                                         </h4>
                                                     </div>
@@ -316,7 +316,10 @@
                                 </div>
                             </div>
                             <div class="xxl:col-span-12 xl:col-span-12 col-span-12">
-                                <div class="box">
+                                <div class="box-body">
+                                    <div id="treemap-multi"></div>
+                                </div>
+                                {{-- <div class="box">
                                     <div class="box-header !gap-0 !m-0 justify-between">
                                         <div class="box-title">
                                             Revenue Analytics
@@ -341,7 +344,8 @@
                                     <div class="box-body !py-5">
                                         <div id="crm-revenue-analytics"></div>
                                     </div>
-                                </div>
+                                </div> --}}
+
                             </div>
                         </div>
                     </div>
@@ -604,8 +608,8 @@
             <div class="xxl:col-span-3 xl:col-span-12 col-span-12">
                 <div class="grid grid-cols-12 gap-x-6">
                     <div class="xxl:col-span-12 xl:col-span-12  col-span-12">
-                       
-                      
+
+
                             <div class="box custom-box">
                                 <div class="box-header">
                                     <div class="box-title">
@@ -617,7 +621,7 @@
                                         <table class="table table-bordered table-hover whitespace-nowrap min-w-full">
                                             <thead>
                                                 <tr>
-                                                    <th scope="col" class="text-start">Page</th>                               
+                                                    <th scope="col" class="text-start">Page</th>
                                                     <th scope="col" class="text-start">Total Like</th>
                                                     <th scope="col" class="text-start">Traffic</th>
                                                 </tr>
@@ -632,21 +636,21 @@
                                                             <div class="font-semibold">News</div>
                                                         </div>
                                                     </td>
-                                                   
+
                                                     <td>
                                                         <span><?php
                                                             $totalnewslike = DB::select("SELECT SUM(likes) AS totallike FROM news");
-                                                            echo $totalnewslike[0]->totallike; 
+                                                            echo $totalnewslike[0]->totallike;
                                                         ?></span>
                                                     </td>
                                                     <td>
                                                         <div class="progress progress-xs">
                                                             <?php
-                                                            $totalnewspars = DB::select("SELECT 
+                                                            $totalnewspars = DB::select("SELECT
                                                             ROUND(SUM(likes) * 100.0 / 100, 0) AS percentage
-                                                        FROM 
+                                                        FROM
                                                             news");
-                                                            
+
                                                         ?>
                                                             <div class="progress-bar bg-primary w-[<?php echo $totalnewspars[0]->percentage;  ?>%]" >
                                                             </div>
@@ -662,21 +666,21 @@
                                                             <div class="font-semibold">Blog</div>
                                                         </div>
                                                     </td>
-                                                   
+
                                                     <td>
                                                         <span><?php
                                                             $totalbloglike = DB::select("SELECT SUM(likes) AS totallike FROM blog");
-                                                            echo $totalbloglike[0]->totallike; 
+                                                            echo $totalbloglike[0]->totallike;
                                                         ?></span>
                                                     </td>
                                                     <td>
                                                         <div class="progress progress-xs">
                                                         <?php
-                                                            $totalblogpars = DB::select("SELECT 
+                                                            $totalblogpars = DB::select("SELECT
                                                             ROUND(SUM(likes) * 100.0 / 100, 0) AS percentage
-                                                        FROM 
+                                                        FROM
                                                             blog");
-                                                            
+
                                                         ?>
                                                             <div class="progress-bar bg-primary w-[<?php echo $totalblogpars[0]->percentage;  ?>%]" >
                                                             </div>
@@ -688,8 +692,8 @@
                                     </div>
                                 </div>
                             </div>
-                  
-                       
+
+
                     </div>
                     <div class="xxl:col-span-12 xl:col-span-6  col-span-12">
                         <div class="box">
