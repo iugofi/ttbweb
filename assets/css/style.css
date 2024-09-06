@@ -49609,6 +49609,10 @@ img.img-fluid.service-icon {
 .e-support-section-seven p {
     font-size: 16px;
 }
+.e-support-section-seven p.mt-2 {
+    width: 70%;
+    margin: auto;
+}
 
 .e-support-section-seven {
     padding: 5em 0em;

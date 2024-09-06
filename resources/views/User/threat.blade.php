@@ -138,66 +138,63 @@
                     class="hs-tab-active:bg-gray-200 hs-tab-active:text-gray-800 hs-tab-active:hover:text-gray-800 dark:hs-tab-active:bg-light dark:hs-tab-active:text-white py-3 px-4 inline-flex items-center gap-2 bg-transparent text-sm font-medium text-center text-defaulttextcolor rounded-sm hover:text-primary dark:text-[#8c9097] dark:text-white/50 dark:hover:text-white active"
                     id="pills-on-gray-color-item-4" data-hs-tab="#pills-on-gray-color-4"
                     aria-controls="pills-on-gray-color-4">
-                    Remove Virus/Malware
+                    Cyber Attack Prevention
                 </button>
                 <button type="button"
                     class="hs-tab-active:bg-gray-200 hs-tab-active:text-gray-800 hs-tab-active:hover:text-gray-800 dark:hs-tab-active:bg-light dark:hs-tab-active:text-white py-3 px-4 inline-flex items-center gap-2 bg-transparent text-sm font-medium text-center text-defaulttextcolor rounded-sm hover:text-primary dark:text-[#8c9097] dark:text-white/50 dark:hover:text-white"
                     id="pills-on-gray-color-item-5" data-hs-tab="#pills-on-gray-color-5"
                     aria-controls="pills-on-gray-color-5">
-                    Smart Devices
+                    Early Threat Detection
                 </button>
                 <button type="button"
                     class="hs-tab-active:bg-gray-200 hs-tab-active:text-gray-800 hs-tab-active:hover:text-gray-800 dark:hs-tab-active:bg-light dark:hs-tab-active:text-white py-3 px-4 inline-flex items-center gap-2 bg-transparent text-sm font-medium text-center text-defaulttextcolor rounded-sm hover:text-primary dark:text-[#8c9097] dark:text-white/50 dark:hover:text-white"
                     id="pills-on-gray-color-item-6" data-hs-tab="#pills-on-gray-color-6"
                     aria-controls="pills-on-gray-color-6">
-                    Operating System Issues
+                    Mitigating Impact
                 </button>
                 <button type="button"
                     class="hs-tab-active:bg-gray-200 hs-tab-active:text-gray-800 hs-tab-active:hover:text-gray-800 dark:hs-tab-active:bg-light dark:hs-tab-active:text-white py-3 px-4 inline-flex items-center gap-2 bg-transparent text-sm font-medium text-center text-defaulttextcolor rounded-sm hover:text-primary dark:text-[#8c9097] dark:text-white/50 dark:hover:text-white"
                     id="pills-on-gray-color-item-7" data-hs-tab="#pills-on-gray-color-7"
                     aria-controls="pills-on-gray-color-7">
-                    System Fixing
+                    Assuring Business Continuity
                 </button>
                 <button type="button"
                     class="hs-tab-active:bg-gray-200 hs-tab-active:text-gray-800 hs-tab-active:hover:text-gray-800 dark:hs-tab-active:bg-light dark:hs-tab-active:text-white py-3 px-4 inline-flex items-center gap-2 bg-transparent text-sm font-medium text-center text-defaulttextcolor rounded-sm hover:text-primary dark:text-[#8c9097] dark:text-white/50 dark:hover:text-white"
                     id="pills-on-gray-color-item-8" data-hs-tab="#pills-on-gray-color-8"
                     aria-controls="pills-on-gray-color-8">
-                    kunal Fixing
+                    Compliance with Regulation
                 </button>
             </nav>
 
             <div class="mt-3">
                 <div id="pills-on-gray-color-4" role="tabpanel" aria-labelledby="pills-on-gray-color-item-4" class="hidden">
-                    <h3>Business Network Setup:</h3>
-                    <p class="mt-2"> As a newbie, setting up your home automation devices on your own can
-                        be difficult.
-                        But with our TTB eSupport Concierge it will be easier than ever.</p>
+                    <p class="mt-2"> The first layer of threat protection blocks the malware/virus attacks before they commit
+                         cyber trespassing. Similarly, cyber threat intelligence aims to prevent most categories of
+                         harmful acts from making inroads into a corporate platform.</p>
                 </div>
 
                 <div id="pills-on-gray-color-5" class="hidden" role="tabpanel" aria-labelledby="pills-on-gray-color-item-5">
-                    <h3>Smart Device Setup:</h3>
-                    <p class="mt-2"> From your home networks to workplace security devices, we will help
-                        you optimize them for optimal functioning only.</p>
+                    <p class="mt-2"> Despite various preventive measures, sometimes a threat of one or another kind is bound to
+                        penetrate through the defense. The right approach is opting for TTB Antivirus in such conditions that
+                        fend off the threat from doing enough damage and reduce its potential impacts.</p>
                 </div>
 
                 <div id="pills-on-gray-color-6" class="hidden" role="tabpanel" aria-labelledby="pills-on-gray-color-item-6">
-                    <h3>Operating System Issues:</h3>
-                    <p class="mt-2"> From your home networks to workplace security devices, we will help
-                        you optimize them for optimal functioning only.</p>
+                    <p class="mt-2"> In case a recent breach occurs, threat protection is focused on decreasing the impact of
+                        the attack. It involves the segregation of the threat or the affected device too, preventive measures
+                         for reduction in data loss, and of the spread of the malware.</p>
                 </div>
 
                 <div id="pills-on-gray-color-7" class="" role="tabpanel" aria-labelledby="pills-on-gray-color-item-7">
-                    <h3>Software Installation:</h3>
-                    <p class="mt-2"> Software installation can be difficult to eliminate without
-                        professional advice. So, contact us to ensure your software is set up and
-                        functioning properly.</p>
+                    <p class="mt-2">One of the primary functions or objectives of Threat protection is to ensure that a business
+                        goes ahead safely even after or during an attack. It is through the creation and maintenance of incident
+                         response plans that one can recover promptly. Hence, TTB Threat Intelligence plays a vital role.</p>
                 </div>
 
                 <div id="pills-on-gray-color-8" class="hidden" role="tabpanel" aria-labelledby="pills-on-gray-color-item-8">
-                    <h3>kunal Installation:</h3>
-                    <p class="mt-2"> hhdfghsdhSoftware installation can be difficult to eliminate without
-                        professional advice. So, contact us to ensure your software is set up and
-                        functioning properly.</p>
+                    <p class="mt-2"> Data protection is a key step requested in most industries under regulatory environments.
+                        Advanced threat protection efficacy enables organizations to remain compliant with such official law
+                        prerequisites.</p>
                 </div>
 
             </div>
