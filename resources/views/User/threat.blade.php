@@ -118,9 +118,9 @@
                 <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
                     <h2>TTB Advanced Threat Protection<br> Objectives</h2>
                     <p class="pt-3">Moreover, Advanced threat protection (ATP) protects you from emerging
-                         cyber threats. At the same time, this shield operates on a bunch of rules and
-                         regulations made according to the requirements of modern landscapes. Now, let's
-                          view the main objectives of having Threat Protection:
+                        cyber threats. At the same time, this shield operates on a bunch of rules and
+                        regulations made according to the requirements of modern landscapes. Now, let's
+                        view the main objectives of having Threat Protection:
                     </p>
                 </div>
 
@@ -168,31 +168,41 @@
 
             <div class="mt-3">
                 <div id="pills-on-gray-color-4" role="tabpanel" aria-labelledby="pills-on-gray-color-item-4" class="hidden">
-                    <p class="mt-2"> The first layer of threat protection blocks the malware/virus attacks before they commit
-                         cyber trespassing. Similarly, cyber threat intelligence aims to prevent most categories of
-                         harmful acts from making inroads into a corporate platform.</p>
+                    <p class="mt-2"> The first layer of threat protection blocks the malware/virus attacks before they
+                        commit
+                        cyber trespassing. Similarly, cyber threat intelligence aims to prevent most categories of
+                        harmful acts from making inroads into a corporate platform.</p>
                 </div>
 
                 <div id="pills-on-gray-color-5" class="hidden" role="tabpanel" aria-labelledby="pills-on-gray-color-item-5">
-                    <p class="mt-2"> Despite various preventive measures, sometimes a threat of one or another kind is bound to
-                        penetrate through the defense. The right approach is opting for TTB Antivirus in such conditions that
+                    <p class="mt-2"> Despite various preventive measures, sometimes a threat of one or another kind is
+                        bound to
+                        penetrate through the defense. The right approach is opting for TTB Antivirus in such conditions
+                        that
                         fend off the threat from doing enough damage and reduce its potential impacts.</p>
                 </div>
 
                 <div id="pills-on-gray-color-6" class="hidden" role="tabpanel" aria-labelledby="pills-on-gray-color-item-6">
-                    <p class="mt-2"> In case a recent breach occurs, threat protection is focused on decreasing the impact of
-                        the attack. It involves the segregation of the threat or the affected device too, preventive measures
-                         for reduction in data loss, and of the spread of the malware.</p>
+                    <p class="mt-2"> In case a recent breach occurs, threat protection is focused on decreasing the impact
+                        of
+                        the attack. It involves the segregation of the threat or the affected device too, preventive
+                        measures
+                        for reduction in data loss, and of the spread of the malware.</p>
                 </div>
 
-                <div id="pills-on-gray-color-7" class="" role="tabpanel" aria-labelledby="pills-on-gray-color-item-7">
-                    <p class="mt-2">One of the primary functions or objectives of Threat protection is to ensure that a business
-                        goes ahead safely even after or during an attack. It is through the creation and maintenance of incident
-                         response plans that one can recover promptly. Hence, TTB Threat Intelligence plays a vital role.</p>
+                <div id="pills-on-gray-color-7" class="" role="tabpanel"
+                    aria-labelledby="pills-on-gray-color-item-7">
+                    <p class="mt-2">One of the primary functions or objectives of Threat protection is to ensure that a
+                        business
+                        goes ahead safely even after or during an attack. It is through the creation and maintenance of
+                        incident
+                        response plans that one can recover promptly. Hence, TTB Threat Intelligence plays a vital role.</p>
                 </div>
 
-                <div id="pills-on-gray-color-8" class="hidden" role="tabpanel" aria-labelledby="pills-on-gray-color-item-8">
-                    <p class="mt-2"> Data protection is a key step requested in most industries under regulatory environments.
+                <div id="pills-on-gray-color-8" class="hidden" role="tabpanel"
+                    aria-labelledby="pills-on-gray-color-item-8">
+                    <p class="mt-2"> Data protection is a key step requested in most industries under regulatory
+                        environments.
                         Advanced threat protection efficacy enables organizations to remain compliant with such official law
                         prerequisites.</p>
                 </div>

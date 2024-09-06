@@ -48824,12 +48824,13 @@ img.img-fluid.service-icon {
     font-weight: 500;
 }
 
-.sect-ban img , a{
-    display:inline-block;
+.sect-ban img,
+a {
+    display: inline-block;
 }
 
 .sect-ban span {
-   color:#fff;
+    color: #fff;
 }
 
 .sect-ban .logo-av1 {
@@ -48848,7 +48849,6 @@ img.img-fluid.service-icon {
     font-size: 24px;
 }
 
-
 .net-prot-sec-two {
     margin: 30px 0px;
 }
@@ -48863,7 +48863,7 @@ img.img-fluid.service-icon {
 }
 
 .border-box-sct {
-    border: 1px solid #F4F4F4;
+    border: 1px solid #f4f4f4;
     padding: 19px;
     position: relative;
 }
@@ -48900,15 +48900,14 @@ img.img-fluid.service-icon {
 
 .net-prot-sec-four p {
     font-size: 16px;
-
 }
 
-.icon-cnt p{
+.icon-cnt p {
     text-align: justify;
 }
 
 .net-prot-sec-four {
-    background-color: #F5F6FA;
+    background-color: #f5f6fa;
     padding: 30px 0px;
     margin-top: 4em;
 }
@@ -48922,14 +48921,14 @@ img.img-fluid.service-icon {
     background-color: #12d2b3;
 }
 
-.border-box-sct:hover p{
-    color:#fff;
+.border-box-sct:hover p {
+    color: #fff;
 }
-.border-box-sct:hover h4{
-    color:#fff;
+.border-box-sct:hover h4 {
+    color: #fff;
 }
-.border-box-sct:hover h5{
-    color:#fff;
+.border-box-sct:hover h5 {
+    color: #fff;
 }
 
 /* network protection css end */
@@ -49595,7 +49594,7 @@ img.img-fluid.service-icon {
     border-radius: 0;
     background-color: #fff;
     color: #000;
-    border-top: 3px solid #12D2B3;
+    border-top: 3px solid #12d2b3;
 }
 .e-support-section-seven
     [data-hs-tab].active.hs-tab-active\:hover\:text-gray-800:hover {
@@ -52758,7 +52757,6 @@ h6.uppercase {
 
 /* End antivirus page css */
 
-
 /* Start network protection page css */
 .dark .icon-hover {
     color: #fff !important;
@@ -54114,7 +54112,7 @@ li.footer-icon:hover i.fa-brands.fa-square-pinterest {
     margin: 6rem 0 auto;
 }
 .dark .bnr-btn-1 {
-    background: #13D8AA !important;
+    background: #13d8aa !important;
 }
 .content.endpoint-slider {
     margin: 0px !important;
@@ -54145,10 +54143,8 @@ li.footer-icon:hover i.fa-brands.fa-square-pinterest {
     border-radius: 8px !important;
 }
 .dark .box.endpoint-boxs {
-    background: #1A1C1E;
+    background: #1a1c1e;
 }
 .endpoint-boxs p {
     font-size: 14px !important;
 }
-
-
