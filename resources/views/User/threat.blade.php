@@ -116,14 +116,15 @@
         <div class="container">
             <div class="grid grid-cols-12 gap-6">
                 <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
+                    <h2>Troubleshoot Your Devices With TTB eSupport Concierge</h2>
+                    <p class="pt-3">Our experts can help you eliminate various issues within <br>your devices.</p>
+                </div>
+
+                <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
                     <img src="https://www.nighthawk-routerlogin.com/assets/img/sec3-img1.png" alt=""
                         class="img-fluid mt-2" width="100%">
                 </div>
-                <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
-                    <h2>Troubleshoot Your Devices With TTB eSupport Concierge</h2>
-                    <p class="pt-3">Our experts can help you eliminate various issues within <br>your devices.</p>
 
-                </div>
             </div>
         </div>
         <div class="box">
