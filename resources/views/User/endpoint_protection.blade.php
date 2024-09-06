@@ -113,7 +113,7 @@
                             <div class="item bg-white p-5 rounded-lg shadow-md box">
                                 <img src="{{ asset('assets/img/Enhanced-Firewall-1.png') }}" alt="Img"
                                     style="width: 65px !important;">
-                                <p class="dark-black text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
+                                <p class="dark-white text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
                                     style="font-size: 16px;">Enhanced Firewall</p>
                                 <p class="mt-3 text-[#333335] text-center">The first line of defense that secures you
                                     from unauthorized access and unknown
@@ -122,7 +122,7 @@
                             <div class="item bg-white p-5 rounded-lg shadow-md box">
                                 <img src="{{ asset('assets/img/Enhanced-Firewall-1.png') }}" alt="Img"
                                     style="width: 65px !important;">
-                                <p class="dark-black text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
+                                <p class="dark-white text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
                                     style="font-size: 16px;">Advanced Antivirus Solutions</p>
                                 <p class="mt-3 text-[#333335] text-center">A digital barrier with real-time scanning
                                     filters and blocks malicious links, texts,
@@ -131,7 +131,7 @@
                             <div class="item bg-white p-5 rounded-lg shadow-md box">
                                 <img src="{{ asset('assets/img/Centralized-Management-1.png') }}" alt="Img"
                                     style="width: 65px !important;">
-                                <p class="dark-black text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
+                                <p class="dark-white text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
                                     style="font-size: 16px;">Real-Time Scanning & Threat Detection</p>
                                 <p class="mt-3 text-[#333335] text-center">Provides you with real-time threat alerts and
                                     scanning to aware you of suspicious activities
@@ -140,7 +140,7 @@
                             <div class="item bg-white p-5 rounded-lg shadow-md box">
                                 <img src="{{ asset('assets/img/E-Support-Concierge-1.png') }}" alt="Img"
                                     style="width: 65px !important;">
-                                <p class="dark-black text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
+                                <p class="dark-white text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
                                     style="font-size: 16px;">Patch Management</p>
                                 <p class="mt-3 text-[#333335] text-center">This borderline security keeps your device
                                     updated and fixes the vulnerabilities if occur before
@@ -149,7 +149,7 @@
                             <div class="item bg-white p-5 rounded-lg shadow-md box">
                                 <img src="{{ asset('assets/img/Enhanced-Firewall-1.png') }}" alt="Img"
                                     style="width: 65px !important;">
-                                <p class="dark-black text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
+                                <p class="dark-white text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
                                     style="font-size: 16px;">Data Security Access Control</p>
                                 <p class="mt-3 text-[#333335] text-center">Manages & authorizes the user permissions
                                     with Multifactor authentication to limit the access to sensitive
@@ -158,7 +158,7 @@
                             <div class="item bg-white p-5 rounded-lg shadow-md box">
                                 <img src="{{ asset('assets/img/Enhanced-Firewall-1.png') }}" alt="Img"
                                     style="width: 65px !important;">
-                                <p class="dark-black text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
+                                <p class="dark-white text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
                                     style="font-size: 16px;">Centralized Management</p>
                                 <p class="mt-3 text-[#333335] text-center">We provide you with central management &
                                     endpoint security considering setting, security policies, and monitoring
@@ -167,7 +167,7 @@
                             <div class="item bg-white p-5 rounded-lg shadow-md box">
                                 <img src="{{ asset('assets/img/Enhanced-Firewall-1.png') }}" alt="Img"
                                     style="width: 65px !important;">
-                                <p class="dark-black text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
+                                <p class="dark-white text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
                                     style="font-size: 16px;">E-Support Concierge</p>
                                 <p class="mt-3 text-[#333335] text-center">We serve you 24x7 hours of security services
                                     and assistance regarding the products and services you buy from us.</p>
