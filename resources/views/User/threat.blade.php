@@ -162,7 +162,7 @@
                     class="hs-tab-active:bg-gray-200 hs-tab-active:text-gray-800 hs-tab-active:hover:text-gray-800 dark:hs-tab-active:bg-light dark:hs-tab-active:text-white py-3 px-4 inline-flex items-center gap-2 bg-transparent text-sm font-medium text-center text-defaulttextcolor rounded-sm hover:text-primary dark:text-[#8c9097] dark:text-white/50 dark:hover:text-white active"
                     id="pills-on-gray-color-item-8" data-hs-tab="#pills-on-gray-color-8"
                     aria-controls="pills-on-gray-color-8">
-                    System Fixing
+                    kunal Fixing
                 </button>
             </nav>
 
