@@ -112,132 +112,91 @@
     {{-- END SECTION THREE --}}
 
     {{-- START SECTION FOUR NEW --}}
-    <section class="threat-section-three !bg-[#f9fafb] dark:!bg-black/10">
+    <section class="e-support-section-seven">
         <div class="container">
             <div class="grid grid-cols-12 gap-6">
-                <div class="col-span-12 text-center">
-                    <h2>Stay protected from threats- known and unknown!</h2>
-                    <p class="mt-3 mb-5">Most malware attacks can be recognized based on their past-behaviour, however,<br>
-                        those with modified
-                        codes
-                        and language are difficult to track.</p>
+                <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
+                    <img src="https://www.nighthawk-routerlogin.com/assets/img/sec3-img1.png" alt=""
+                        class="img-fluid mt-2" width="100%">
                 </div>
+                <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
+                    <h2>Troubleshoot Your Devices With TTB eSupport Concierge</h2>
+                    <p class="pt-3">Our experts can help you eliminate various issues within <br>your devices.</p>
 
-                <div
-                    class="xxl:col-span-4 xl:col-span-4  md:col-span-4 sm:col-span-12 col-span-12 d!bg-[#f9fafb] dark:!bg-black/10 border dark:border-defaultborder/10 img-boxthree">
-                    <img src="{{ asset('assets/img/sec3-img1.png') }}" alt="" class="img-fluid" width="100%">
-                    <div class="inner-box ">
-                        <div class="flex">
-                            <div class="icon-img-box">
-                                <i class="fa-solid fa-signal"></i>
-                            </div>
-                            <h3 class="ms-3">Improved <br>Defenses<span>.</span></h3>
-                        </div>
-                        <div class="progress progress-xs mb-5 mt-5 progress-animate">
-                            <div class="progress-bar !rounded-e-full bg-primary w-10">
-                            </div>
-                        </div>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Been the industry's
-                            standard dummy</p>
-                    </div>
                 </div>
-                <div
-                    class="xxl:col-span-4 xl:col-span-4  md:col-span-4 sm:col-span-12 col-span-12 d!bg-[#f9fafb] dark:!bg-black/10 border dark:border-defaultborder/10 img-boxthree">
-                    <img src="{{ asset('assets/img/sec3-img2.png') }}" alt="" class="img-fluid" width="100%">
-                    <div class="inner-box ">
-                        <div class="flex">
-                            <div class="icon-img-box">
-                                <i class="fa-solid fa-signal"></i>
-                            </div>
-                            <h3 class="ms-3">Improved <br>Defenses<span>.</span></h3>
-                        </div>
-                        <div class="progress progress-xs mb-5 mt-5 progress-animate ">
-                            <div class="progress-bar !rounded-e-full bg-primary w-10">
-                            </div>
-                        </div>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Been the industry's
-                            standard dummy</p>
-
-                    </div>
-                </div>
-                <div
-                    class="xxl:col-span-4 xl:col-span-4  md:col-span-4 sm:col-span-12 col-span-12 d!bg-[#f9fafb] dark:!bg-black/10 border dark:border-defaultborder/10 img-boxthree">
-                    <img src="{{ asset('assets/img/sec3-img3.png') }}" alt="" class="img-fluid" width="100%">
-                    <div class="inner-box ">
-                        <div class="flex">
-                            <div class="icon-img-box">
-                                <i class="fa-solid fa-signal"></i>
-                            </div>
-                            <h3 class="ms-3">Improved <br>Defenses<span>.</span></h3>
-                        </div>
-                        <div class="progress progress-xs mb-5 mt-5 progress-animate ">
-                            <div class="progress-bar !rounded-e-full bg-primary w-10">
-                            </div>
-                        </div>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Been the industry's
-                            standard dummy</p>
-                    </div>
-                </div>
-
             </div>
-            <div class="grid grid-cols-12 gap-6 mt-5">
+        </div>
+        <div class="box">
 
-                <div
-                    class="xxl:col-span-4 xl:col-span-4  md:col-span-4 sm:col-span-12 col-span-12 d!bg-[#f9fafb] dark:!bg-black/10 border dark:border-defaultborder/10 img-boxthree">
-                    <img src="{{ asset('assets/img/sec3-img1.png') }}" alt="" class="img-fluid" width="100%">
-                    <div class="inner-box ">
-                        <div class="flex">
-                            <div class="icon-img-box">
-                                <i class="fa-solid fa-signal"></i>
-                            </div>
-                            <h3 class="ms-3">Improved <br>Defenses<span>.</span></h3>
-                        </div>
-                        <div class="progress progress-xs mb-5 mt-5 progress-animate ">
-                            <div class="progress-bar !rounded-e-full bg-primary w-10">
-                            </div>
-                        </div>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Been the industry's
-                            standard dummy</p>
-                    </div>
-                </div>
-                <div
-                    class="xxl:col-span-4 xl:col-span-4  md:col-span-4 sm:col-span-12 col-span-12 d!bg-[#f9fafb] dark:!bg-black/10 border dark:border-defaultborder/10 img-boxthree">
-                    <img src="{{ asset('assets/img/sec3-img2.png') }}" alt="" class="img-fluid" width="100%">
-                    <div class="inner-box ">
-                        <div class="flex">
-                            <div class="icon-img-box">
-                                <i class="fa-solid fa-signal"></i>
-                            </div>
-                            <h3 class="ms-3">Improved <br>Defenses<span>.</span></h3>
-                        </div>
-                        <div class="progress progress-xs mb-5 mt-5 progress-animate ">
-                            <div class="progress-bar !rounded-e-full bg-primary w-10">
-                            </div>
-                        </div>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Been the industry's
-                            standard dummy</p>
+            <nav class="flex space-x-2 rtl:space-x-reverse" aria-label="Tabs">
+                <button type="button"
+                    class="hs-tab-active:bg-gray-200 hs-tab-active:text-gray-800 hs-tab-active:hover:text-gray-800 dark:hs-tab-active:bg-light dark:hs-tab-active:text-white py-3 px-4 inline-flex items-center gap-2 bg-transparent text-sm font-medium text-center text-defaulttextcolor rounded-sm hover:text-primary dark:text-[#8c9097] dark:text-white/50 dark:hover:text-white"
+                    id="pills-on-gray-color-item-4" data-hs-tab="#pills-on-gray-color-4"
+                    aria-controls="pills-on-gray-color-4">
+                    Remove Virus/Malware
+                </button>
+                <button type="button"
+                    class="hs-tab-active:bg-gray-200 hs-tab-active:text-gray-800 hs-tab-active:hover:text-gray-800 dark:hs-tab-active:bg-light dark:hs-tab-active:text-white py-3 px-4 inline-flex items-center gap-2 bg-transparent text-sm font-medium text-center text-defaulttextcolor rounded-sm hover:text-primary dark:text-[#8c9097] dark:text-white/50 dark:hover:text-white"
+                    id="pills-on-gray-color-item-5" data-hs-tab="#pills-on-gray-color-5"
+                    aria-controls="pills-on-gray-color-5">
+                    Smart Devices
+                </button>
+                <button type="button"
+                    class="hs-tab-active:bg-gray-200 hs-tab-active:text-gray-800 hs-tab-active:hover:text-gray-800 dark:hs-tab-active:bg-light dark:hs-tab-active:text-white py-3 px-4 inline-flex items-center gap-2 bg-transparent text-sm font-medium text-center text-defaulttextcolor rounded-sm hover:text-primary dark:text-[#8c9097] dark:text-white/50 dark:hover:text-white"
+                    id="pills-on-gray-color-item-6" data-hs-tab="#pills-on-gray-color-6"
+                    aria-controls="pills-on-gray-color-6">
+                    Operating System Issues
+                </button>
+                <button type="button"
+                    class="hs-tab-active:bg-gray-200 hs-tab-active:text-gray-800 hs-tab-active:hover:text-gray-800 dark:hs-tab-active:bg-light dark:hs-tab-active:text-white py-3 px-4 inline-flex items-center gap-2 bg-transparent text-sm font-medium text-center text-defaulttextcolor rounded-sm hover:text-primary dark:text-[#8c9097] dark:text-white/50 dark:hover:text-white"
+                    id="pills-on-gray-color-item-7" data-hs-tab="#pills-on-gray-color-7"
+                    aria-controls="pills-on-gray-color-7">
+                    System Fixing
+                </button>
+                <button type="button"
+                    class="hs-tab-active:bg-gray-200 hs-tab-active:text-gray-800 hs-tab-active:hover:text-gray-800 dark:hs-tab-active:bg-light dark:hs-tab-active:text-white py-3 px-4 inline-flex items-center gap-2 bg-transparent text-sm font-medium text-center text-defaulttextcolor rounded-sm hover:text-primary dark:text-[#8c9097] dark:text-white/50 dark:hover:text-white active"
+                    id="pills-on-gray-color-item-7" data-hs-tab="#pills-on-gray-color-7"
+                    aria-controls="pills-on-gray-color-7">
+                    System Fixing
+                </button>
+            </nav>
 
-                    </div>
-                </div>
-                <div
-                    class="xxl:col-span-4 xl:col-span-4  md:col-span-4 sm:col-span-12 col-span-12 d!bg-[#f9fafb] dark:!bg-black/10 border dark:border-defaultborder/10 img-boxthree">
-                    <img src="{{ asset('assets/img/sec3-img3.png') }}" alt="" class="img-fluid" width="100%">
-                    <div class="inner-box ">
-                        <div class="flex">
-                            <div class="icon-img-box">
-                                <i class="fa-solid fa-signal"></i>
-                            </div>
-                            <h3 class="ms-3">Improved <br>Defenses<span>.</span></h3>
-                        </div>
-                        <div class="progress progress-xs mb-5 mt-5 progress-animate ">
-                            <div class="progress-bar !rounded-e-full bg-primary w-10">
-                            </div>
-                        </div>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Been the industry's
-                            standard dummy</p>
-                    </div>
-                </div>
+            <div class="mt-3">
+                <div id="pills-on-gray-color-4" role="tabpanel" aria-labelledby="pills-on-gray-color-item-4" class="hidden">
+                    <h3>Business Network Setup:</h3>
+                    <p class="mt-2"> As a newbie, setting up your home automation devices on your own can
+                        be difficult.
+                        But with our TTB eSupport Concierge it will be easier than ever.</p>
 
+
+
+                </div>
+                <div id="pills-on-gray-color-5" class="hidden" role="tabpanel" aria-labelledby="pills-on-gray-color-item-5">
+                    <h3>Smart Device Setup:</h3>
+                    <p class="mt-2"> From your home networks to workplace security devices, we will help
+                        you optimize them for optimal functioning only.</p>
+
+
+
+                </div>
+                <div id="pills-on-gray-color-6" class="hidden" role="tabpanel" aria-labelledby="pills-on-gray-color-item-6">
+                    <h3>Operating System Issues:</h3>
+                    <p class="mt-2"> From your home networks to workplace security devices, we will help
+                        you optimize them for optimal functioning only.</p>
+
+
+
+                </div>
+                <div id="pills-on-gray-color-7" class="" role="tabpanel"
+                    aria-labelledby="pills-on-gray-color-item-7">
+                    <h3>Software Installation:</h3>
+                    <p class="mt-2"> Software installation can be difficult to eliminate without
+                        professional advice. So, contact us to ensure your software is set up and
+                        functioning properly.</p>
+
+
+
+                </div>
             </div>
         </div>
     </section>
