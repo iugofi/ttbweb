@@ -35,26 +35,26 @@
         <div class="container main-banner-container">
             <div class="grid grid-cols-12 gap-6">
                 <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 col-span-12 ">
-                    <img src="{{ asset('assets/img/threat-image1.png') }}" alt="" class="img-fluid" width="90%">
+                    <h2 class="mt-3">Protects you from the unseen dangers: Threat Protection</h2>
+                    <img src="https://www.nighthawk-routerlogin.com/assets/img/threat-image1.png" alt=""
+                        class="img-fluid" width="90%">
                 </div>
                 <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 col-span-12 pt-5">
-                    <div class="flex">
-                        <h5>About Us!</h5>
-                        <hr>
-                    </div>
-                    <h2 class="mt-3">We Provide <span> The Solution.</span></h2>
-                    <h3>Grow Your Business From Good to Great</h3>
-                    <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa asperiores quaerat,
-                        quia saepe
-                        consequuntur, laudantium, cum at expedita eligendi perferendis amet fugiat? Assumenda numquam nisi
-                        at, laborum eligendi necessitatibus est?</p>
-                    <p class="mt-3 mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa asperiores quaerat,
-                        quia saepe
-                        consequuntur laudantium, cum at expedita eligendi perferendis amet fugiat.</p>
-                    <div class="btn-box">
-                        <a class="btn-cnt" href="#">Contact Us<i class="fas fa-angle-double-right"></i></a>
-                        <a class="btn-srv mx-3" href="#">Our Services <i class="fas fa-angle-double-right"></i></a>
-                    </div>
+
+
+
+                    <p class="mt-3">Nowadays, Threat protection confines a range of security controls protecting the
+                        systems, networks, and data of an organization from breaches and hacking. However, this is a
+                        multilayered defense that is preventive, detective, and responsive, hence tends to guard you from a
+                        broad range of cyber-attacks including, malware, phishing, ransomware, and more.
+
+                    </p>
+                    <p class="mt-3 mb-6">Generally, TTB Threat Protection services combine multiple means and technologies
+                        covering firewalls, intrusion detection/prevention systems (IDPS), antivirus software, and advanced
+                        threat protection systems, among others. All these work together to assist organizations in
+                        identifying and mitigating cyber menaces before they become expensive cyberattacks, such as the
+                        integrity, availability, and confidentiality of information assets within the corps.</p>
+
                 </div>
             </div>
         </div>
