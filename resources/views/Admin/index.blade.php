@@ -1000,7 +1000,7 @@
                         type: 'treemap'
                     },
                     title: {
-                        text: 'Distributed Treemap (different color for each cell)',
+                        text: 'User City List',
                         align: 'center',
                         style: {
                             fontSize: '13px',
