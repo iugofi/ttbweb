@@ -65,40 +65,43 @@
 
     <section class="threat-section-two">
         <div class="container main-banner-container">
+            <h2 class="mt-3 mb-5">A Closer Look at Advanced Threat Protection</h2>
             <div class="grid grid-cols-12 gap-6">
-                <h2 class="mt-3">A Closer Look at Advanced Threat Protection</h2>
                 <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 col-span-12 pt-5">
-
-
-
                     <p class="mt-3">Additionally, the Advanced Threat Protection (ATP) depicts the advanced level security
-                        solutions that defend your association from futuristic cyberattacks and malware that seek to exfiltrate,
-                         corrupt, or steal sensitive data. Similarly, it brings you ahead of the curve than the hackers.
-
+                        solutions that defend your association from futuristic cyberattacks and malware that seek to
+                        exfiltrate,
+                        corrupt, or steal sensitive data. Similarly, it brings you ahead of the curve than the hackers.
                     </p>
-                    <p class="mt-3 mb-6">Primarily, ATP works on cyber threat protection solutions that keep you aware of the
-                         modern era's digital threats. So, let's take a look at the working of this:</p>
-                         <div class="mt-3 flex items-start text-base text-[#333335]">
-                            <i class="bx bx-check-double mt-1 mr-2 me-3" style="font-size: 20px; color: #13D8AA; font-weight: 600;"></i>
-                            <p>Real-time scanning</p>
-                        </div>
-                        <div class="mt-3 flex items-start text-base text-[#333335]">
-                            <i class="bx bx-check-double mt-1 mr-2 me-3" style="font-size: 20px; color: #13D8AA; font-weight: 600;"></i>
-                            <p>Upgraded Antiviruses</p>
-                        </div>
-                        <div class="mt-3 flex items-start text-base text-[#333335]">
-                            <i class="bx bx-check-double mt-1 mr-2 me-3" style="font-size: 20px; color: #13D8AA; font-weight: 600;"></i>
-                            <p>Advanced Analytics & Threat Alerts</p>
-                        </div>
-                        <div class="mt-3 flex items-start text-base text-[#333335]">
-                            <i class="bx bx-check-double mt-1 mr-2 me-3" style="font-size: 20px; color: #13D8AA; font-weight: 600;"></i>
-                            <p>Multi-Factor Authorization</p>
-                        </div>
-                        <div class="mt-3 flex items-start text-base text-[#333335]">
-                            <i class="bx bx-check-double mt-1 mr-2 me-3" style="font-size: 20px; color: #13D8AA; font-weight: 600;"></i>
-                            <p>Cache/URL lookup
-                            </p>
-                        </div>
+                    <p class="mt-3 mb-6">Primarily, ATP works on cyber threat protection solutions that keep you aware of
+                        the
+                        modern era's digital threats. So, let's take a look at the working of this:</p>
+                    <div class="mt-3 flex items-start text-base text-[#333335]">
+                        <i class="bx bx-check-double mt-1 mr-2 me-3"
+                            style="font-size: 20px; color: #13D8AA; font-weight: 600;"></i>
+                        <p>Real-time scanning</p>
+                    </div>
+                    <div class="mt-3 flex items-start text-base text-[#333335]">
+                        <i class="bx bx-check-double mt-1 mr-2 me-3"
+                            style="font-size: 20px; color: #13D8AA; font-weight: 600;"></i>
+                        <p>Upgraded Antiviruses</p>
+                    </div>
+                    <div class="mt-3 flex items-start text-base text-[#333335]">
+                        <i class="bx bx-check-double mt-1 mr-2 me-3"
+                            style="font-size: 20px; color: #13D8AA; font-weight: 600;"></i>
+                        <p>Advanced Analytics & Threat Alerts</p>
+                    </div>
+                    <div class="mt-3 flex items-start text-base text-[#333335]">
+                        <i class="bx bx-check-double mt-1 mr-2 me-3"
+                            style="font-size: 20px; color: #13D8AA; font-weight: 600;"></i>
+                        <p>Multi-Factor Authorization</p>
+                    </div>
+                    <div class="mt-3 flex items-start text-base text-[#333335]">
+                        <i class="bx bx-check-double mt-1 mr-2 me-3"
+                            style="font-size: 20px; color: #13D8AA; font-weight: 600;"></i>
+                        <p>Cache/URL lookup
+                        </p>
+                    </div>
                 </div>
                 <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 col-span-12 ">
                     <img src="https://www.nighthawk-routerlogin.com/assets/img/threat-image1.png" alt=""
