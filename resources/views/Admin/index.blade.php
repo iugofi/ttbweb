@@ -787,6 +787,64 @@
                 console.error('Error fetching data:', error);
             }
         });
+        var options = {
+        series: [{
+            name: "Desktops",
+            data: [10, 41, 35, 51, 49, 62, 69, 91, 148]
+        }],
+        chart: {
+            height: 320,
+            type: 'line',
+            zoom: {
+                enabled: false
+            }
+        },
+        colors: ['#845adf'],
+        dataLabels: {
+            enabled: false
+        },
+        stroke: {
+            curve: 'straight',
+            width: 3,
+        },
+        grid: {
+            borderColor: '#f2f5f7',
+        },
+        title: {
+            text: 'Product Trends by Month',
+            align: 'left',
+            style: {
+                fontSize: '13px',
+                fontWeight: 'bold',
+                color: '#8c9097'
+            },
+        },
+        xaxis: {
+            categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep'],
+            labels: {
+                show: true,
+                style: {
+                    colors: "#8c9097",
+                    fontSize: '11px',
+                    fontWeight: 600,
+                    cssClass: 'apexcharts-xaxis-label',
+                },
+            }
+        },
+        yaxis: {
+            labels: {
+                show: true,
+                style: {
+                    colors: "#8c9097",
+                    fontSize: '11px',
+                    fontWeight: 600,
+                    cssClass: 'apexcharts-yaxis-label',
+                },
+            }
+        }
+    };
+    var chart = new ApexCharts(document.querySelector("#line-chart"), options);
+    chart.render();
     });
 </script>
 
