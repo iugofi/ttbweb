@@ -47,6 +47,15 @@ class AdminController extends Controller
         });
     }
 
+    public function getTreemapData()
+    {
+
+        $data = DB::table('payments')->select('city as x', 'id as y')->get();
+
+
+        return response()->json($data);
+    }
+
     public function indexpage()
     {
         //  dd($this->admintype);
