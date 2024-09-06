@@ -172,40 +172,34 @@
                     <p class="mt-2"> As a newbie, setting up your home automation devices on your own can
                         be difficult.
                         But with our TTB eSupport Concierge it will be easier than ever.</p>
-
-
-
                 </div>
+
                 <div id="pills-on-gray-color-5" class="hidden" role="tabpanel" aria-labelledby="pills-on-gray-color-item-5">
                     <h3>Smart Device Setup:</h3>
                     <p class="mt-2"> From your home networks to workplace security devices, we will help
                         you optimize them for optimal functioning only.</p>
-
-
-
                 </div>
+
                 <div id="pills-on-gray-color-6" class="hidden" role="tabpanel" aria-labelledby="pills-on-gray-color-item-6">
                     <h3>Operating System Issues:</h3>
                     <p class="mt-2"> From your home networks to workplace security devices, we will help
                         you optimize them for optimal functioning only.</p>
-
-
-
                 </div>
-                <div id="pills-on-gray-color-7" class="" role="tabpanel"
-                    aria-labelledby="pills-on-gray-color-item-7">
+
+                <div id="pills-on-gray-color-7" class="" role="tabpanel" aria-labelledby="pills-on-gray-color-item-7">
                     <h3>Software Installation:</h3>
                     <p class="mt-2"> Software installation can be difficult to eliminate without
                         professional advice. So, contact us to ensure your software is set up and
                         functioning properly.</p>
                 </div>
-                <div id="pills-on-gray-color-8" class="" role="tabpanel"
-                    aria-labelledby="pills-on-gray-color-item-8">
+
+                <div id="pills-on-gray-color-8" class="hidden" role="tabpanel" aria-labelledby="pills-on-gray-color-item-8">
                     <h3>kunal Installation:</h3>
                     <p class="mt-2"> hhdfghsdhSoftware installation can be difficult to eliminate without
                         professional advice. So, contact us to ensure your software is set up and
                         functioning properly.</p>
                 </div>
+
             </div>
         </div>
     </section>
