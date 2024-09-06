@@ -116,7 +116,7 @@
         <div class="container">
             <div class="grid grid-cols-12 gap-6">
                 <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-12 col-span-12">
-                    <h2>TTB Advanced Threat Protection Objectives</h2>
+                    <h2>TTB Advanced Threat Protection<br> Objectives</h2>
                     <p class="pt-3">Moreover, Advanced threat protection (ATP) protects you from emerging
                          cyber threats. At the same time, this shield operates on a bunch of rules and
                          regulations made according to the requirements of modern landscapes. Now, let's
