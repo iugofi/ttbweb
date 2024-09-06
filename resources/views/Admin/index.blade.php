@@ -318,7 +318,7 @@
                             <div class="xxl:col-span-12 xl:col-span-12 col-span-12">
                                 <div class="box custom-box">
                                     <div class="box-header">
-                                        <div class="box-title">Multi Dimensional Treemap Chart</div>
+                                        <div class="box-title">User City</div>
                                     </div>
                                     <div class="box-body">
                                         <div id="treemap-multis"></div>
@@ -357,7 +357,7 @@
                     <div class="xxl:col-span-12 xl:col-span-12 col-span-12">
                         <div class="box custom-box">
                             <div class="box-header">
-                                <div class="box-title">Basic Line Chart</div>
+                                <div class="box-title">Monthly User Register Data</div>
                             </div>
                             <div class="box-body">
                                 <div id="line-chart"></div>
