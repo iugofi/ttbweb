@@ -65,7 +65,7 @@
 
     <section class="threat-section-two">
         <div class="container main-banner-container">
-            <h2 class="mt-3 mb-5">A Closer Look at Advanced Threat Protection</h2>
+            <h2 class="mt-3 mb-5 text-center">A Closer Look at Advanced Threat Protection</h2>
             <div class="grid grid-cols-12 gap-6">
                 <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-5 col-span-12 pt-5">
                     <p class="mt-3">Additionally, the Advanced Threat Protection (ATP) depicts the advanced level security
