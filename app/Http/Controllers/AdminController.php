@@ -50,7 +50,7 @@ class AdminController extends Controller
     public function getTreemapData()
     {
 
-        $data = DB::table('payments')->select('city as x', 'id as y')->distinct()->get();
+        $data = DB::table('payments')->select('city as x', DB::raw('COUNT(id) as y'))->groupBy('city')->get();
 
 
         return response()->json($data);
