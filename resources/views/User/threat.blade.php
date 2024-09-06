@@ -77,27 +77,27 @@
                         the
                         modern era's digital threats. So, let's take a look at the working of this:</p>
                     <div class="mt-3 flex items-start text-base text-[#333335]">
-                        <i class="bx bx-check-double mt-1 mr-2 me-3"
+                        <i class="fa-regular fa-circle-check mt-1 mr-2 me-3"
                             style="font-size: 20px; color: #13D8AA; font-weight: 600;"></i>
                         <p>Real-time scanning</p>
                     </div>
                     <div class="mt-3 flex items-start text-base text-[#333335]">
-                        <i class="bx bx-check-double mt-1 mr-2 me-3"
+                        <i class="fa-regular fa-circle-check mt-1 mr-2 me-3"
                             style="font-size: 20px; color: #13D8AA; font-weight: 600;"></i>
                         <p>Upgraded Antiviruses</p>
                     </div>
                     <div class="mt-3 flex items-start text-base text-[#333335]">
-                        <i class="bx bx-check-double mt-1 mr-2 me-3"
+                        <i class="fa-regular fa-circle-check mt-1 mr-2 me-3"
                             style="font-size: 20px; color: #13D8AA; font-weight: 600;"></i>
                         <p>Advanced Analytics & Threat Alerts</p>
                     </div>
                     <div class="mt-3 flex items-start text-base text-[#333335]">
-                        <i class="bx bx-check-double mt-1 mr-2 me-3"
+                        <i class="fa-regular fa-circle-check mt-1 mr-2 me-3"
                             style="font-size: 20px; color: #13D8AA; font-weight: 600;"></i>
                         <p>Multi-Factor Authorization</p>
                     </div>
                     <div class="mt-3 flex items-start text-base text-[#333335]">
-                        <i class="bx bx-check-double mt-1 mr-2 me-3"
+                        <i class="fa-regular fa-circle-check mt-1 mr-2 me-3"
                             style="font-size: 20px; color: #13D8AA; font-weight: 600;"></i>
                         <p>Cache/URL lookup
                         </p>
