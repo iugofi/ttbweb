@@ -731,16 +731,15 @@
 
 <script>
     $(document).ready(function () {
-        // Fetch data from the handler via AJAX
         $.ajax({
-            url: "{{ route('treemap.data') }}", // URL to fetch data from
+            url: "{{ route('treemap.data') }}",
             method: 'GET',
             success: function (response) {
-                // Once the data is successfully fetched, render the chart
+
                 var options = {
                     series: [
                         {
-                            data: response // Use the AJAX response data
+                            data: response
                         }
                     ],
                     legend: {
