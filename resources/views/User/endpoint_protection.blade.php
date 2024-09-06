@@ -224,7 +224,7 @@
                     </div>
                     <div class="xxl:col-span-5 xl:col-span-5 lg:col-span-6 col-span-12">
                         <div class="text-content">
-                            <p class=" text-[1rem] text-white dark:text-white/50 mb-4 ">Generally, endpoint security for
+                            <p class=" text-[1rem] text-white dark:text-white mb-4 ">Generally, endpoint security for
                                 business or a single
                                 user is defined as the set of practices and techniques to secure the devices from malicious
                                 attacks and viruses.
