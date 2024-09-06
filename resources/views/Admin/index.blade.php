@@ -316,8 +316,13 @@
                                 </div>
                             </div>
                             <div class="xxl:col-span-12 xl:col-span-12 col-span-12">
-                                <div class="box-body">
-                                    <div id="treemap-multis"></div>
+                                <div class="box custom-box">
+                                    <div class="box-header">
+                                        <div class="box-title">Multi Dimensional Treemap Chart</div>
+                                    </div>
+                                    <div class="box-body">
+                                        <div id="treemap-multis"></div>
+                                    </div>
                                 </div>
                                 {{-- <div class="box">
                                     <div class="box-header !gap-0 !m-0 justify-between">
