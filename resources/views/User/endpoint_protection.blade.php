@@ -110,7 +110,7 @@
                 <div class="main-content">
                     <div class="container">
                         <div class="owl-carousel mycustom-test owl-theme">
-                            <div class="item bg-white p-5 rounded-lg shadow-md">
+                            <div class="item bg-white p-5 rounded-lg shadow-md box">
                                 <img src="{{ asset('assets/img/Enhanced-Firewall-1.png') }}" alt="Img"
                                     style="width: 65px !important;">
                                 <p class="dark-black text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
@@ -119,7 +119,7 @@
                                     from unauthorized access and unknown
                                     cyber threats.</p>
                             </div>
-                            <div class="item bg-white p-5 rounded-lg shadow-md">
+                            <div class="item bg-white p-5 rounded-lg shadow-md box">
                                 <img src="{{ asset('assets/img/Enhanced-Firewall-1.png') }}" alt="Img"
                                     style="width: 65px !important;">
                                 <p class="dark-black text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
@@ -128,7 +128,7 @@
                                     filters and blocks malicious links, texts,
                                     nasty viruses, and URLs.</p>
                             </div>
-                            <div class="item bg-white p-5 rounded-lg shadow-md">
+                            <div class="item bg-white p-5 rounded-lg shadow-md box">
                                 <img src="{{ asset('assets/img/Centralized-Management-1.png') }}" alt="Img"
                                     style="width: 65px !important;">
                                 <p class="dark-black text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
@@ -137,7 +137,7 @@
                                     scanning to aware you of suspicious activities
                                     & emerging menaces.</p>
                             </div>
-                            <div class="item bg-white p-5 rounded-lg shadow-md">
+                            <div class="item bg-white p-5 rounded-lg shadow-md box">
                                 <img src="{{ asset('assets/img/E-Support-Concierge-1.png') }}" alt="Img"
                                     style="width: 65px !important;">
                                 <p class="dark-black text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
@@ -146,7 +146,7 @@
                                     updated and fixes the vulnerabilities if occur before
                                     hackers exploit it. </p>
                             </div>
-                            <div class="item bg-white p-5 rounded-lg shadow-md">
+                            <div class="item bg-white p-5 rounded-lg shadow-md box">
                                 <img src="{{ asset('assets/img/Enhanced-Firewall-1.png') }}" alt="Img"
                                     style="width: 65px !important;">
                                 <p class="dark-black text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
@@ -155,7 +155,7 @@
                                     with Multifactor authentication to limit the access to sensitive
                                     data by blocking unauthorized access.</p>
                             </div>
-                            <div class="item bg-white p-5 rounded-lg shadow-md">
+                            <div class="item bg-white p-5 rounded-lg shadow-md box">
                                 <img src="{{ asset('assets/img/Enhanced-Firewall-1.png') }}" alt="Img"
                                     style="width: 65px !important;">
                                 <p class="dark-black text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
@@ -164,7 +164,7 @@
                                     endpoint security considering setting, security policies, and monitoring
                                     compliance.</p>
                             </div>
-                            <div class="item bg-white p-5 rounded-lg shadow-md">
+                            <div class="item bg-white p-5 rounded-lg shadow-md box">
                                 <img src="{{ asset('assets/img/Enhanced-Firewall-1.png') }}" alt="Img"
                                     style="width: 65px !important;">
                                 <p class="dark-black text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
