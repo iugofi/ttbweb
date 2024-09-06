@@ -49587,6 +49587,13 @@ img.img-fluid.service-icon {
 .e-support-section-seven [data-hs-tab].active.hs-tab-active\:bg-gray-200 {
     --tw-bg-opacity: 1;
     background-color: #12d2b3;
+    border-radius: 4px;
+}
+.e-support-section-seven .bg-transparent {
+    border-radius: 0;
+    background-color: #fff;
+    color: #000;
+    border-top: 3px solid #12D2B3;
 }
 .e-support-section-seven
     [data-hs-tab].active.hs-tab-active\:hover\:text-gray-800:hover {
