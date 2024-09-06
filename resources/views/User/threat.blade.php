@@ -135,7 +135,7 @@
 
             <nav class="flex space-x-2 rtl:space-x-reverse" aria-label="Tabs">
                 <button type="button"
-                    class="hs-tab-active:bg-gray-200 hs-tab-active:text-gray-800 hs-tab-active:hover:text-gray-800 dark:hs-tab-active:bg-light dark:hs-tab-active:text-white py-3 px-4 inline-flex items-center gap-2 bg-transparent text-sm font-medium text-center text-defaulttextcolor rounded-sm hover:text-primary dark:text-[#8c9097] dark:text-white/50 dark:hover:text-white"
+                    class="hs-tab-active:bg-gray-200 hs-tab-active:text-gray-800 hs-tab-active:hover:text-gray-800 dark:hs-tab-active:bg-light dark:hs-tab-active:text-white py-3 px-4 inline-flex items-center gap-2 bg-transparent text-sm font-medium text-center text-defaulttextcolor rounded-sm hover:text-primary dark:text-[#8c9097] dark:text-white/50 dark:hover:text-white active"
                     id="pills-on-gray-color-item-4" data-hs-tab="#pills-on-gray-color-4"
                     aria-controls="pills-on-gray-color-4">
                     Remove Virus/Malware
@@ -159,7 +159,7 @@
                     System Fixing
                 </button>
                 <button type="button"
-                    class="hs-tab-active:bg-gray-200 hs-tab-active:text-gray-800 hs-tab-active:hover:text-gray-800 dark:hs-tab-active:bg-light dark:hs-tab-active:text-white py-3 px-4 inline-flex items-center gap-2 bg-transparent text-sm font-medium text-center text-defaulttextcolor rounded-sm hover:text-primary dark:text-[#8c9097] dark:text-white/50 dark:hover:text-white active"
+                    class="hs-tab-active:bg-gray-200 hs-tab-active:text-gray-800 hs-tab-active:hover:text-gray-800 dark:hs-tab-active:bg-light dark:hs-tab-active:text-white py-3 px-4 inline-flex items-center gap-2 bg-transparent text-sm font-medium text-center text-defaulttextcolor rounded-sm hover:text-primary dark:text-[#8c9097] dark:text-white/50 dark:hover:text-white"
                     id="pills-on-gray-color-item-8" data-hs-tab="#pills-on-gray-color-8"
                     aria-controls="pills-on-gray-color-8">
                     kunal Fixing
@@ -192,14 +192,14 @@
 
 
                 </div>
-                <div id="pills-on-gray-color-7" class="" role="tabpanel"
+                <div id="pills-on-gray-color-7" class="tabpanel"
                     aria-labelledby="pills-on-gray-color-item-7">
                     <h3>Software Installation:</h3>
                     <p class="mt-2"> Software installation can be difficult to eliminate without
                         professional advice. So, contact us to ensure your software is set up and
                         functioning properly.</p>
                 </div>
-                <div id="pills-on-gray-color-8" class="" role="tabpanel"
+                <div id="pills-on-gray-color-8" class="tabpanel"
                     aria-labelledby="pills-on-gray-color-item-8">
                     <h3>kunal Installation:</h3>
                     <p class="mt-2"> hhdfghsdhSoftware installation can be difficult to eliminate without
