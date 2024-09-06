@@ -54132,6 +54132,9 @@ li.footer-icon:hover i.fa-brands.fa-square-pinterest {
     height: 350px;
     border-radius: 8px !important;
 }
+.dark .box.endpoint-boxs {
+    background: #1A1C1E;
+}
 .endpoint-boxs p {
     font-size: 14px !important;
 }
