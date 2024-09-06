@@ -186,14 +186,12 @@
                 </div>
 
                 <div id="pills-on-gray-color-7" class="" role="tabpanel" aria-labelledby="pills-on-gray-color-item-7">
-                    <h3>Software Installation:</h3>
                     <p class="mt-2">One of the primary functions or objectives of Threat protection is to ensure that a business
                         goes ahead safely even after or during an attack. It is through the creation and maintenance of incident
                          response plans that one can recover promptly. Hence, TTB Threat Intelligence plays a vital role.</p>
                 </div>
 
                 <div id="pills-on-gray-color-8" class="hidden" role="tabpanel" aria-labelledby="pills-on-gray-color-item-8">
-                    <h3>kunal Installation:</h3>
                     <p class="mt-2"> Data protection is a key step requested in most industries under regulatory environments.
                         Advanced threat protection efficacy enables organizations to remain compliant with such official law
                         prerequisites.</p>
