@@ -201,7 +201,7 @@
                 </div>
                 <div id="pills-on-gray-color-8" class="" role="tabpanel"
                     aria-labelledby="pills-on-gray-color-item-8">
-                    <h3>Software Installation:</h3>
+                    <h3>kunal Installation:</h3>
                     <p class="mt-2"> hhdfghsdhSoftware installation can be difficult to eliminate without
                         professional advice. So, contact us to ensure your software is set up and
                         functioning properly.</p>
