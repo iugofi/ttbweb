@@ -54101,7 +54101,9 @@ li.footer-icon:hover i.fa-brands.fa-square-pinterest {
     background-size: cover;
     margin: 6rem 0 auto;
 }
-
+.dark .bnr-btn-1 {
+    background: #13D8AA !important;
+}
 .content.endpoint-slider {
     margin: 0px !important;
 }
