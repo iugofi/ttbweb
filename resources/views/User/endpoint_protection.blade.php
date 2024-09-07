@@ -104,14 +104,13 @@
         <!-- End::End Point section three -->
 
         <!-- Start::End Point section four -->
-        <section
-            class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70">
+        <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70">
             <div class="endpoint-slider">
                 <div class="main-content">
                     <div class="container">
                         <div class="owl-carousel mycustom-test owl-theme">
                             <div class="item bg-white p-5 rounded-lg shadow-md box">
-                                <img src="{{ asset('assets/img/Enhanced-Firewall-1.png') }}" alt="Img"
+                                <img src="{{ asset('assets/img/Enhanced-Firewall-2.png') }}" alt="Img"
                                     style="width: 65px !important;">
                                 <p class="dark-white text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
                                     style="font-size: 16px;">Enhanced Firewall</p>
@@ -120,7 +119,7 @@
                                     cyber threats.</p>
                             </div>
                             <div class="item bg-white p-5 rounded-lg shadow-md box">
-                                <img src="{{ asset('assets/img/Enhanced-Firewall-1.png') }}" alt="Img"
+                                <img src="{{ asset('assets/img/Advanced-Antivirus-Solutions.png') }}" alt="Img"
                                     style="width: 65px !important;">
                                 <p class="dark-white text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
                                     style="font-size: 16px;">Advanced Antivirus Solutions</p>
@@ -129,7 +128,7 @@
                                     nasty viruses, and URLs.</p>
                             </div>
                             <div class="item bg-white p-5 rounded-lg shadow-md box">
-                                <img src="{{ asset('assets/img/Centralized-Management-1.png') }}" alt="Img"
+                                <img src="{{ asset('assets/img/Real-Time-Scanning-&-Threat-Detection.png') }}" alt="Img"
                                     style="width: 65px !important;">
                                 <p class="dark-white text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
                                     style="font-size: 16px;">Real-Time Scanning & Threat Detection</p>
@@ -138,7 +137,7 @@
                                     & emerging menaces.</p>
                             </div>
                             <div class="item bg-white p-5 rounded-lg shadow-md box">
-                                <img src="{{ asset('assets/img/E-Support-Concierge-1.png') }}" alt="Img"
+                                <img src="{{ asset('assets/img/Patch-Management-2.png') }}" alt="Img"
                                     style="width: 65px !important;">
                                 <p class="dark-white text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
                                     style="font-size: 16px;">Patch Management</p>
@@ -147,7 +146,7 @@
                                     hackers exploit it. </p>
                             </div>
                             <div class="item bg-white p-5 rounded-lg shadow-md box">
-                                <img src="{{ asset('assets/img/Enhanced-Firewall-1.png') }}" alt="Img"
+                                <img src="{{ asset('assets/img/Data-Security-Access-Control') }}" alt="Img"
                                     style="width: 65px !important;">
                                 <p class="dark-white text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
                                     style="font-size: 16px;">Data Security Access Control</p>
@@ -156,7 +155,7 @@
                                     data by blocking unauthorized access.</p>
                             </div>
                             <div class="item bg-white p-5 rounded-lg shadow-md box">
-                                <img src="{{ asset('assets/img/Enhanced-Firewall-1.png') }}" alt="Img"
+                                <img src="{{ asset('assets/img/Centralized-Management-2.png') }}" alt="Img"
                                     style="width: 65px !important;">
                                 <p class="dark-white text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
                                     style="font-size: 16px;">Centralized Management</p>
@@ -165,7 +164,7 @@
                                     compliance.</p>
                             </div>
                             <div class="item bg-white p-5 rounded-lg shadow-md box">
-                                <img src="{{ asset('assets/img/Enhanced-Firewall-1.png') }}" alt="Img"
+                                <img src="{{ asset('assets/img/E-Support-Concierge-2.png') }}" alt="Img"
                                     style="width: 65px !important;">
                                 <p class="dark-white text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
                                     style="font-size: 16px;">E-Support Concierge</p>
