@@ -299,11 +299,11 @@ class PaymentController extends Controller
                 }
             }
             return redirect()
-                ->route('user.fpay2',['id' => $checkses['product_id']])
+                ->route('user.fpay2',['id' => encrypt($checkses['product_id'])])
                 ->with('error', 'Something went wrong.');
         } else {
             return redirect()
-                ->route('user.fpay2',['id' => $checkses['product_id']])
+                ->route('user.fpay2',['id' => encrypt($checkses['product_id'])])
                 ->with('error', $response['message'] ?? 'Something went wrong.');
         }
     }
