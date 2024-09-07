@@ -72,7 +72,7 @@
                         exfiltrate,
                         corrupt, or steal sensitive data. Similarly, it brings you ahead of the curve than the hackers.
                     </p>
-                    <p class="mt-3 mb-6">Primarily, ATP works on cyber threat protection solutions that keep you aware of
+                    <p class="mt-3 mb-6" style="border-left: 2px solid #13D8AA; padding: 0 9px; height: 60px; position: relative; display: flex; align-items: center;">Primarily, ATP works on cyber threat protection solutions that keep you aware of
                         the
                         modern era's digital threats. So, let's take a look at the working of this:</p>
                     <div class="mt-3 flex items-start text-base text-[#333335]">
