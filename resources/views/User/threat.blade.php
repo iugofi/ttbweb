@@ -72,7 +72,7 @@
                         exfiltrate,
                         corrupt, or steal sensitive data. Similarly, it brings you ahead of the curve than the hackers.
                     </p>
-                    <p class="mt-3 mb-6">Primarily, ATP works on cyber threat protection solutions that keep you aware of
+                    <p class="mt-3 mb-6" style="border-left: 2px solid #13D8AA; padding: 0 9px; height: 60px; position: relative; display: flex; align-items: center;">Primarily, ATP works on cyber threat protection solutions that keep you aware of
                         the
                         modern era's digital threats. So, let's take a look at the working of this:</p>
                     <div class="mt-3 flex items-start text-base text-[#333335]">
@@ -314,17 +314,9 @@
         <div class="container">
             <div class="grid grid-cols-12 gap-6">
                 <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12 ">
-                    <h2 class="mt-3 text-black-light">25 Years OF EXPERIENCE</h2>
-                    <h3 class="mt-3 text-black-light">Experst Are Here To Sove Your Finance Problems.</h3>
-                    <p class="mt-3 text-black-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa asperiores
-                        quaerat,
-                        quia saepe
-                        consequuntur, laudantium, cum at expedita eligendi perferendis amet fugiat? Assumenda numquam nisi
-                        at, laborum eligendi necessitatibus est?</p>
-                    <p class="mt-3 mb-6 text-black-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-                        asperiores quaerat,
-                        quia saepe
-                        consequuntur laudantium, cum at expedita eligendi perferendis amet fugiat.</p>
+                    <h3 class="mt-3 text-black-light" style="font-weight:600;">Experst Are Here To Sove Your Finance Problems.</h3>
+                    <p class="mt-3 text-black-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa asperiores quaerat, quia saepe
+                        consequuntur, laudantium, cum at expedita eligendi perferendis amet fugiat? Assumenda numquam nisi at, laborum eligendi necessitatibus est?</p>
                 </div>
                 <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12 pt-5">
                    <div class="grid grid-cols-12 gap-x-6">
