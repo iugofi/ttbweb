@@ -21,6 +21,8 @@ use DB;
 use Mail;
 use App\Jobs\SavePaymentDetails;
 use App\Jobs\SaveUserDetails;
+//paypal
+use Srmklive\PayPal\Services\PayPal as PayPalClient;
 
 class PaymentController extends Controller
 {
@@ -173,6 +175,45 @@ class PaymentController extends Controller
             'message' => 'Personal details saved in session',
             'prod_id' => $request->input('prod_id')
         ]);
+    }
+
+    public function processTransaction(Request $request)
+    {
+        $checkses = Session::get('user_data');
+        $provider = new PayPalClient;
+        $provider->setApiCredentials(config('paypal'));
+        $paypalToken = $provider->getAccessToken();
+        $response = $provider->createOrder([
+            "intent" => "CAPTURE",
+            "application_context" => [
+                "return_url" => route('successTransaction'),
+                "cancel_url" => route('cancelTransaction'),
+            ],
+            "purchase_units" => [
+                0 => [
+                    "amount" => [
+                        "currency_code" => "USD",
+                        "value" => $checkses['price']
+                    ]
+                ]
+            ]
+        ]);
+        // dd($response);
+        if (isset($response['id']) && $response['id'] != null) {
+            // redirect to approve href
+            foreach ($response['links'] as $links) {
+                if ($links['rel'] == 'approve') {
+                    return redirect()->away($links['href']);
+                }
+            }
+            return redirect()
+                ->route('createTransaction')
+                ->with('error', 'Something went wrong.');
+        } else {
+            return redirect()
+                ->route('createTransaction')
+                ->with('error', $response['message'] ?? 'Something went wrong.');
+        }
     }
 
 
