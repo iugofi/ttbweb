@@ -379,6 +379,9 @@ Route::get('process-transaction', [PaymentController::class, 'processTransaction
 Route::get('success-transaction', [PaymentController::class, 'successTransaction'])->name('successTransaction');
 Route::get('cancel-transaction', [PaymentController::class, 'cancelTransaction'])->name('cancelTransaction');
 
+//final checkout stripe
+Route::post('fstripetestpage', [PaymentController::class, 'finalcheckoutstripe'])->name('save.stripe_checkout_data');
+
 
 Route::post('/otpcheckfpay',[PaymentController::class,'otpcheckfpay'])->name('user.otpcheckfpay');
 Route::post('otpverifyfpay',[PaymentController::class,'otpverifyfpay'])->name('user.otpverifyfpay');
