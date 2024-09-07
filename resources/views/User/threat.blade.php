@@ -236,7 +236,7 @@
                                 </span>
                             </div>
                             <h6 class="font-bold mb-2 text-xl">Reduces Data Breach Risks</h6>
-                            <p class="card-text mb-4"style="font-size: 14px;">This protection helps to intercept modern
+                            <p class="card-text mb-4"style="font-size: 15px;">This protection helps to intercept modern
                                 threats before they cause
                                 catastrophic defeats. However, it significantly reduces the risk of a data breach and
                                 ensures the safety of sensitive information—preserving and increasing your customers' trust.
@@ -258,7 +258,7 @@
                                 </span>
                             </div>
                             <h6 class="font-bold mb-2 text-xl">Improved Efficiency</h6>
-                            <p class="card-text mb-4"style="font-size: 14px;">With automated virus threat protection
+                            <p class="card-text mb-4"style="font-size: 15px;">With automated virus threat protection
                                 solutions, we assist you in
                                 securing from the present-day malware and virus attacks. It seamlessly connects with
                                 cloud-native solutions and cybersecurity platforms. Also, it easily integrates with the
@@ -279,7 +279,7 @@
                                 </span>
                             </div>
                             <h6 class="font-bold mb-2 text-xl">Intensify the Observance</h6>
-                            <p class="card-text mb-4"style="font-size: 14px;">Threat protection ensures compliance with
+                            <p class="card-text mb-4"style="font-size: 15px;">Threat protection ensures compliance with
                                 industry policy and
                                 standards, saving the business from resulting fines and legal actions that would come with
                                 non-compliance. Likewise, it discovers and patches up any susceptibilities or
@@ -300,7 +300,7 @@
                                 </span>
                             </div>
                             <h6 class="font-bold mb-2 text-xl">Peace of Mind</h6>
-                            <p class="card-text mb-4"style="font-size: 14px;">Generally, this protection gives peace of
+                            <p class="card-text mb-4"style="font-size: 15px;">Generally, this protection gives peace of
                                 mind to the owners and
                                 representatives by offering deeper risk visibility of enterprise perimeters including
                                 infrastructure, networks, platforms, endpoints, applications, etc. Additionally, with this
@@ -340,7 +340,7 @@
                                         </span>
                                     </div>
                                     <h6 class="font-bold mb-2 text-xl">Elevated Cyber Threats</h6>
-                                    <p class="card-text mb-4"style="font-size: 14px;">Additionally, cyber threats are
+                                    <p class="card-text mb-4"style="font-size: 15px;">Additionally, cyber threats are
                                         increasing day by day in extremity and
                                         intricacy. Hence, an organizational lack of adequate digital security can open it up
                                         for easy cyber attacks and breaches
@@ -362,7 +362,7 @@
                                         </span>
                                     </div>
                                     <h6 class="font-bold mb-2 text-xl">Thwarting Threats to Sensitive Data</h6>
-                                    <p class="card-text mb-4"style="font-size: 14px;">Commonly, corporations deal with
+                                    <p class="card-text mb-4"style="font-size: 15px;">Commonly, corporations deal with
                                         extensive magnitudes of sensitive data,
                                         starting from customer information to intellectual property and financial records.
                                         Therefore, cyber threat mitigation
@@ -390,7 +390,7 @@
                                 </span>
                             </div>
                             <h6 class="font-bold mb-2 text-xl">Safeguarding Business Reputation</h6>
-                            <p class="card-text mb-4"style="font-size: 14px;">An organization's business reputation can
+                            <p class="card-text mb-4"style="font-size: 15px;">An organization's business reputation can
                                 easily be ruined by a thriving
                                 cyber attack. Therefore, TTB threat protection will help an organization retain customer
                                 trust and hence its brand image too.</p>
@@ -411,7 +411,7 @@
                                 </span>
                             </div>
                             <h6 class="font-bold mb-2 text-xl">Official Compliance</h6>
-                            <p class="card-text mb-4"style="font-size: 14px;">Most regulated industries have laws that
+                            <p class="card-text mb-4"style="font-size: 15px;">Most regulated industries have laws that
                                 require certain protection to defend confidential data.
                                 Therefore, this element of threat protection can enable an organization to comply with those
                                 regulations and forego from being fined or from a lawsuit.</p>
@@ -431,7 +431,7 @@
                                 </span>
                             </div>
                             <h6 class="font-bold mb-2 text-xl">Advanced Threat Protection (ATP)</h6>
-                            <p class="card-text mb-4"style="font-size: 14px;">Cybercriminals are normally changing their
+                            <p class="card-text mb-4"style="font-size: 15px;">Cybercriminals are normally changing their
                                 methodologies to be more advanced and to outwit conventional
                                 security standards. However, ATP solutions are quite essential to keep up with emerging
                                 threats. Also, business continuity is thus assured in organizations
@@ -453,7 +453,7 @@
                                 </span>
                             </div>
                             <h6 class="font-bold mb-2 text-xl">Financial Mislayings</h6>
-                            <p class="card-text mb-4"style="font-size: 14px;">Cyber attacks impose substantial financial
+                            <p class="card-text mb-4"style="font-size: 15px;">Cyber attacks impose substantial financial
                                 scrapes. The costs range from direct expenses such as ransom payments
                                 to indirect costs such as loss of business opportunities and legal expenditures. Hence, an
                                 effective menace protection solution diminishes these risks, covering the organization's
