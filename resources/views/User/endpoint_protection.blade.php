@@ -214,7 +214,7 @@
                                     data-wow-duration="1.5s" data-wow-delay="0.5s"
                                     style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.5s;">
                                     <div class="l-work-item"><img
-                                            src="https://www.nighthawk-routerlogin.com/assets/img/Work-Img-1.png"
+                                            src="https://www.nighthawk-routerlogin.com/assets/img/What-do-you-need-to-know-about-Endpoint-Security-Solutions.png"
                                             alt="images">
                                     </div>
                                 </div>
