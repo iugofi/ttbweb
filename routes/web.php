@@ -374,6 +374,11 @@ Route::post('/verify-otp', [PaymentController::class, 'verifyOtp'])->name('verif
 
 Route::post('/save-personal-details', [PaymentController::class, 'savePersonalDetails'])->name('save.personal.details');
 
+//paypal
+Route::get('process-transaction', [PaymentController::class, 'processTransaction'])->name('processTransaction');
+Route::get('success-transaction', [PaymentController::class, 'successTransaction'])->name('successTransaction');
+Route::get('cancel-transaction', [PaymentController::class, 'cancelTransaction'])->name('cancelTransaction');
+
 
 Route::post('/otpcheckfpay',[PaymentController::class,'otpcheckfpay'])->name('user.otpcheckfpay');
 Route::post('otpverifyfpay',[PaymentController::class,'otpverifyfpay'])->name('user.otpverifyfpay');
