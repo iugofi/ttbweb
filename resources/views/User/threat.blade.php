@@ -228,7 +228,7 @@
                 <div class="xl:col-span-3 md:col-span-6 col-span-12">
                     <div class="box text-left text-hover">
                         <div class="box-body">
-                            <div class="mb-2 commericial-img">
+                            <div class="mb-2 esupport-img">
                                 <span class="avatar avatar-md">
 
                                     <img src="assets/img/Omniroutes-Lifting.png" alt="img" class="!rounded-md"
@@ -250,7 +250,7 @@
                 <div class="xl:col-span-3 md:col-span-6 col-span-12">
                     <div class="box text-left text-hover">
                         <div class="box-body">
-                            <div class="mb-2 commericial-img">
+                            <div class="mb-2 esupport-img">
                                 <span class="avatar avatar-md">
                                     <img src="assets/img/Content-Touchpoint.png" alt="img" class="!rounded-md"
                                         style="max-width: 60px;height: 60px;">
@@ -271,7 +271,7 @@
                 <div class="xl:col-span-3 md:col-span-6 col-span-12">
                     <div class="box text-left text-hover">
                         <div class="box-body">
-                            <div class="mb-2 commericial-img">
+                            <div class="mb-2 esupport-img">
                                 <span class="avatar avatar-md">
                                     <img src="assets/img/Faster-Resolution.png" alt="img" class="!rounded-md"
                                         style="max-width: 60px;height: 60px;">
@@ -292,7 +292,7 @@
                 <div class="xl:col-span-3 md:col-span-6 col-span-12">
                     <div class="box text-left text-hover">
                         <div class="box-body">
-                            <div class="mb-2 commericial-img">
+                            <div class="mb-2 esupport-img">
                                 <span class="avatar avatar-md">
                                     <img src="assets/img/Support-Channels.png" alt="img" class="!rounded-md"
                                         style="max-width: 60px;height: 60px;">
@@ -332,7 +332,7 @@
                         <div class="xl:col-span-6 md:col-span-6 col-span-12">
                             <div class="box text-left text-hover">
                                 <div class="box-body">
-                                    <div class="mb-2 commericial-img">
+                                    <div class="mb-2">
                                         <span class="avatar avatar-md">
 
                                             <img src="assets/img/Omniroutes-Lifting.png" alt="img"
@@ -354,7 +354,7 @@
                         <div class="xl:col-span-6 md:col-span-6 col-span-12">
                             <div class="box text-left text-hover">
                                 <div class="box-body">
-                                    <div class="mb-2 commericial-img">
+                                    <div class="mb-2">
                                         <span class="avatar avatar-md">
                                             <img src="assets/img/Content-Touchpoint.png" alt="img"
                                                 class="!rounded-md" style="max-width: 60px;height: 60px;">
@@ -382,7 +382,7 @@
                 <div class="xl:col-span-3 md:col-span-6 col-span-12">
                     <div class="box text-left text-hover">
                         <div class="box-body">
-                            <div class="mb-2 commericial-img">
+                            <div class="mb-2">
                                 <span class="avatar avatar-md">
 
                                     <img src="assets/img/Omniroutes-Lifting.png" alt="img" class="!rounded-md"
@@ -403,7 +403,7 @@
                 <div class="xl:col-span-3 md:col-span-6 col-span-12">
                     <div class="box text-left text-hover">
                         <div class="box-body">
-                            <div class="mb-2 commericial-img">
+                            <div class="mb-2">
                                 <span class="avatar avatar-md">
                                     <img src="assets/img/Content-Touchpoint.png" alt="img" class="!rounded-md"
                                         style="max-width: 60px;height: 60px;">
@@ -423,7 +423,7 @@
                 <div class="xl:col-span-3 md:col-span-6 col-span-12">
                     <div class="box text-left text-hover">
                         <div class="box-body">
-                            <div class="mb-2 commericial-img">
+                            <div class="mb-2">
                                 <span class="avatar avatar-md">
                                     <img src="assets/img/Faster-Resolution.png" alt="img" class="!rounded-md"
                                         style="max-width: 60px;height: 60px;">
@@ -445,7 +445,7 @@
                 <div class="xl:col-span-3 md:col-span-6 col-span-12">
                     <div class="box text-left text-hover">
                         <div class="box-body">
-                            <div class="mb-2 commericial-img">
+                            <div class="mb-2">
                                 <span class="avatar avatar-md">
                                     <img src="assets/img/Support-Channels.png" alt="img" class="!rounded-md"
                                         style="max-width: 60px;height: 60px;">
