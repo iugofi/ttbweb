@@ -369,6 +369,10 @@ Route::get('/fpaynew2/{id}',[PaymentController::class,'fpayitem2'])->name('user.
 Route::get('/fpaynew3/{id}',[PaymentController::class,'fpayitem3'])->name('user.fpay3');
 
 
+Route::post('/send-otp', [PaymentController::class, 'sendOtp2'])->name('send.otp');
+Route::post('/verify-otp', [PaymentController::class, 'verifyOtp'])->name('verify.otp');
+
+
 Route::post('/otpcheckfpay',[PaymentController::class,'otpcheckfpay'])->name('user.otpcheckfpay');
 Route::post('otpverifyfpay',[PaymentController::class,'otpverifyfpay'])->name('user.otpverifyfpay');
 Route::post('stripefpay/checkout',[PaymentController::class,'stripeCheckoutfpay'])->name('user.stripeCheckoutfpay');

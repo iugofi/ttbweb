@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Planname;
 use App\Models\VpnShield;
+use App\Events\SendOtp;
 use App\Models\TTBKEY;
 use App\Models\Payments;
 use App\Models\Get_not_send_key;
@@ -98,6 +99,42 @@ class PaymentController extends Controller
     } else {
         return redirect()->route('user.fpay2', ['id' => $id_on])->with('error', 'Access denied. Please complete the previous steps first.');;
     }
+    }
+
+    public function sendOtp2(Request $request)
+    {
+        $email = $request->input('email');
+        $otp = rand(100000, 999999);
+        Session::put('otp', $otp);
+        $sessionData = [
+            'email' => $email,
+            'otp' => $otp,
+        ];
+        // Session::put('user_data', $sessionData);
+        Event(new SendOtp($sessionData));
+        // Mail::to($email)->send(new OtpMail($otp));
+        return response()->json(['message' => 'OTP sent to your email']);
+    }
+
+    public function verifyOtp(Request $request)
+    {
+        $email_user = $request->input('email');
+        $newData = [
+            'email' => $email_user,
+            'tab1'=>'firstpay1',
+        ];
+        $existingData = Session::get('user_data', []);
+        $mergedData = array_merge($existingData, $newData);
+        Session::put('user_data', $mergedData);
+        $otp = $request->input('otp');
+        $storedOtp = Session::get('otp');
+        if ($storedOtp && $storedOtp == $otp) {
+            Session::forget('otp');
+            Session::put('firststap', 'fpay1');
+            return response()->json(['success' => true]);
+        } else {
+            return response()->json(['success' => false, 'message' => 'Invalid OTP']);
+        }
     }
 
 
