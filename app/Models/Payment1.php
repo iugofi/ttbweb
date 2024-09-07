@@ -25,6 +25,7 @@ class Payment1 extends Model
         'country',
         'address',
         'same_as_shipping',
+        'user_id',
         'payment_method',
         'payment_status',
         'transaction_id',
