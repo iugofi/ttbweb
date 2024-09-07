@@ -274,7 +274,7 @@ class PaymentController extends Controller
         $checkses = Session::get('user_data');
         $provider = new PayPalClient;
         $provider->setApiCredentials(config('paypal'));
-        dd($provider);
+        // dd($provider);
         $paypalToken = $provider->getAccessToken();
         $response = $provider->createOrder([
             "intent" => "CAPTURE",
@@ -291,7 +291,7 @@ class PaymentController extends Controller
                 ]
             ]
         ]);
-        // dd($response);
+        dd($response);
         if (isset($response['id']) && $response['id'] != null) {
             // redirect to approve href
             foreach ($response['links'] as $links) {
@@ -307,6 +307,50 @@ class PaymentController extends Controller
                 ->route('user.fpay2',['id' => encrypt($checkses['product_id'])])
                 ->with('error', $response['message'] ?? 'Something went wrong.');
         }
+    }
+
+    public function successTransaction(Request $request)
+    {
+        $checkses = Session::get('user_data');
+        $provider = new PayPalClient;
+        $provider->setApiCredentials(config('paypal'));
+        $provider->getAccessToken();
+        $response = $provider->capturePaymentOrder($request['token']);
+        // dd($response);
+        if (isset($response['status']) && $response['status'] == 'COMPLETED') {
+            // Prepare the payment data to be saved
+
+            $paymentData = array_merge($checkses, [
+                'payment_method' => 'PayPal',
+                'payment_status' => 'success',
+                'transaction_id' => $response['id'],
+                'payment_time' => now(),
+                'tab3'=>'firstpay3',
+            ]);
+
+            Session::put('user_data', $paymentData);
+            SavePaymentDetails::dispatch($paymentData);
+            $id_on=$checkses['product_id'];
+
+            return redirect()
+                ->route('user.fpay3', ['id' => encrypt($id_on)])
+                ->with('success', 'Transaction complete.');
+        } else {
+            return redirect()
+                ->route('createTransaction')
+                ->with('error', $response['message'] ?? 'Something went wrong.');
+        }
+    }
+    /**
+     * cancel transaction.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function cancelTransaction(Request $request)
+    {
+        return redirect()
+            ->route('createTransaction')
+            ->with('error', $response['message'] ?? 'You have canceled the transaction.');
     }
 
 
