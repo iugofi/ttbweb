@@ -251,7 +251,7 @@
                                 <div class="box-body box-bg">
                                     <span class="mb-4 avatar avatar-lg avatar-rounded !text-primary">
                                         <img src=" {{ asset('assets/img/24-7-icon.png') }}"
-                                    class="img-fluid endpoint-icon p-1 mt-3 w-100" style="width:45px; height:45px">
+                                    class="img-fluid endpoint-icon p-1 mt-3 w-100" style="height: auto; max-width: 65px;">
                                     </span>
                                     <h6 class="font-semibold pt-5 pb-3 text-xl">Device & Data Security</h6>
                                     <p class="card-text mb-4">Effective endpoint security services like TTB will ensure the
@@ -267,7 +267,9 @@
 
                                 <div class="box-body box-bg">
                                     <span class="mb-4 avatar avatar-lg avatar-rounded !text-primary">
-                                        <i class="fa-solid fa-file-code" style="font-size:40px;"></i>
+                                        <img src=" {{ asset('assets/img/24-7-icon.png') }}"
+                                    class="img-fluid endpoint-icon p-1 mt-3 w-100" style="height: auto; max-width: 65px;">
+                                    </span>
                                     </span>
                                     <h6 class="font-semibold pt-5 pb-3 text-xl">Behavioral Analysis</h6>
                                     <p class="card-text mb-4">The smart endpoint solutions detect the behavior of
@@ -281,7 +283,9 @@
                             <div class="box endpoint-boxs">
                                 <div class="box-body box-bg">
                                     <span class="mb-4 avatar avatar-lg avatar-rounded !text-primary">
-                                        <i class="fa-solid fa-file-shield" style="font-size:40px;"></i>
+                                        <img src=" {{ asset('assets/img/24-7-icon.png') }}"
+                                    class="img-fluid endpoint-icon p-1 mt-3 w-100" style="height: auto; max-width: 65px;">
+                                    </span>
                                     </span>
                                     <h6 class="font-semibold pt-5 pb-3 text-xl">Real-Time Scanning & Threat Detection </h6>
                                     <p class="card-text mb-4">The current-day cybersecurity systems such as TTB Endpoint
@@ -296,7 +300,9 @@
                             <div class="box endpoint-boxs">
                                 <div class="box-body box-bg">
                                     <span class="mb-4 avatar avatar-lg avatar-rounded !text-primary">
-                                        <i class="fa-solid fa-photo-film" style="font-size:40px;"></i>
+                                        <img src=" {{ asset('assets/img/24-7-icon.png') }}"
+                                    class="img-fluid endpoint-icon p-1 mt-3 w-100" style="height: auto; max-width: 65px;">
+                                    </span>
                                     </span>
                                     <h6 class="font-semibold pt-5 pb-3 text-xl">Multi-Layer Protection</h6>
                                     <p class="card-text mb-4">The modern era security solutions include multi-layer
@@ -316,7 +322,9 @@
 
                                 <div class="box-body box-bg">
                                     <span class="mb-4 avatar avatar-lg avatar-rounded !text-primary">
-                                        <i class="fa-solid fa-gears" style="font-size:40px;"></i>
+                                        <img src=" {{ asset('assets/img/24-7-icon.png') }}"
+                                    class="img-fluid endpoint-icon p-1 mt-3 w-100" style="height: auto; max-width: 65px;">
+                                    </span>
                                     </span>
                                     <h6 class="font-semibold pt-5 pb-3 text-xl">Cost Savings/Effective</h6>
                                     <p class="card-text mb-4">This centralized management is a cost-effective fix to meet
@@ -332,7 +340,9 @@
 
                                 <div class="box-body box-bg">
                                     <span class="mb-4 avatar avatar-lg avatar-rounded !text-primary">
-                                        <i class="fa-solid fa-file-code" style="font-size:40px;"></i>
+                                        <img src=" {{ asset('assets/img/24-7-icon.png') }}"
+                                    class="img-fluid endpoint-icon p-1 mt-3 w-100" style="height: auto; max-width: 65px;">
+                                    </span>
                                     </span>
                                     <h6 class="font-semibold pt-5 pb-3 text-xl">Remote Management</h6>
                                     <p class="card-text mb-4">The present-time paid or free endpoint security services have
@@ -347,7 +357,9 @@
                             <div class="box endpoint-boxs">
                                 <div class="box-body box-bg">
                                     <span class="mb-4 avatar avatar-lg avatar-rounded !text-primary">
-                                        <i class="fa-solid fa-file-shield" style="font-size:40px;"></i>
+                                        <img src=" {{ asset('assets/img/24-7-icon.png') }}"
+                                    class="img-fluid endpoint-icon p-1 mt-3 w-100" style="height: auto; max-width: 65px;">
+                                    </span>
                                     </span>
                                     <h6 class="font-semibold pt-5 pb-3 text-xl">Advanced Security Controls & Threat Control
                                     </h6>
@@ -363,7 +375,9 @@
                             <div class="box endpoint-boxs">
                                 <div class="box-body box-bg">
                                     <span class="mb-4 avatar avatar-lg avatar-rounded !text-primary">
-                                        <i class="fa-solid fa-photo-film" style="font-size:40px;"></i>
+                                        <img src=" {{ asset('assets/img/24-7-icon.png') }}"
+                                    class="img-fluid endpoint-icon p-1 mt-3 w-100" style="height: auto; max-width: 65px;">
+                                    </span>
                                     </span>
                                     <h6 class="font-semibold pt-5 pb-3 text-xl">Centralized Management Console</h6>
                                     <p class="card-text mb-4">Many endpoint security solutions offer centralized management
