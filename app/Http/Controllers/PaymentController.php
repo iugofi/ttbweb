@@ -274,6 +274,7 @@ class PaymentController extends Controller
         $checkses = Session::get('user_data');
         $provider = new PayPalClient;
         $provider->setApiCredentials(config('paypal'));
+        dd($provider);
         $paypalToken = $provider->getAccessToken();
         $response = $provider->createOrder([
             "intent" => "CAPTURE",
