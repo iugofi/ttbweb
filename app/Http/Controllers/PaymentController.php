@@ -16,14 +16,16 @@ use Carbon\Carbon;
 use Illuminate\Support\Facades\Session;
 use App\Helpers\Helpers;
 use Illuminate\Support\Facades\Validator;
-use Stripe;
 use DB;
 use Mail;
 use App\Jobs\SavePaymentDetails;
 use App\Jobs\SaveUserDetails;
 //paypal
 use Srmklive\PayPal\Services\PayPal as PayPalClient;
-
+//stripe
+use Stripe\Stripe;
+use Stripe\Charge;
+use Stripe\Customer;
 use Stripe\Exception\CardException;
 use Stripe\Exception\InvalidRequestException;
 use Stripe\Exception\AuthenticationException;
