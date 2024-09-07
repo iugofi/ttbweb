@@ -212,8 +212,9 @@ class PaymentController extends Controller
             'customer' => $customer->id,
             'description' => $checkses['description'],
         ]);
-
+        $getuser = Users::where('email', $checkses['email'])->first();
         $updatedSessionData = array_merge($checkses, [
+            'user_id' => $getuser->id,
             'payment_method'=>'Stripe',
             'payment_status' => 'success',
             'transaction_id' => $charge->id,
@@ -319,9 +320,9 @@ class PaymentController extends Controller
         $response = $provider->capturePaymentOrder($request['token']);
         // dd($response);
         if (isset($response['status']) && $response['status'] == 'COMPLETED') {
-            // Prepare the payment data to be saved
-
+            $getuser = Users::where('email', $checkses['email'])->first();
             $paymentData = array_merge($checkses, [
+                'user_id' => $getuser->id,
                 'payment_method' => 'PayPal',
                 'payment_status' => 'success',
                 'transaction_id' => $response['id'],
