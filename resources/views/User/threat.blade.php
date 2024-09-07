@@ -72,7 +72,9 @@
                         exfiltrate,
                         corrupt, or steal sensitive data. Similarly, it brings you ahead of the curve than the hackers.
                     </p>
-                    <p class="mt-3 mb-6" style="border-left: 2px solid #13D8AA; padding: 0 9px; height: 60px; position: relative; display: flex; align-items: center;">Primarily, ATP works on cyber threat protection solutions that keep you aware of
+                    <p class="mt-3 mb-6"
+                        style="border-left: 2px solid #13D8AA; padding: 0 9px; height: 60px; position: relative; display: flex; align-items: center;">
+                        Primarily, ATP works on cyber threat protection solutions that keep you aware of
                         the
                         modern era's digital threats. So, let's take a look at the working of this:</p>
                     <div class="mt-3 flex items-start text-base text-[#333335]">
@@ -215,7 +217,8 @@
     {{-- START SECTION FIFETH NEW --}}
     <section class="threat-section-eight !bg-[#f9fafb] dark:!bg-black/10">
         <div class="container">
-            <h2 class="mt-2 pt-5 mb-5 text-center" style="font-weight:600;">How to prevent cyber attacks using TTB Threat Protection?</h2>
+            <h2 class="mt-2 pt-5 mb-5 text-center" style="font-weight:600;">How to prevent cyber attacks using TTB Threat
+                Protection?</h2>
             <p class="mt-2 mb-8" style="font-size: 16px; text-align: center;">In addition, Threat Intelligence or
                 protection is a holistic approach, which includes all the routes of an organization's digital
                 infrastructure. Here, the professional IT team looks for the flaws in the system to be reduced and a more
@@ -233,7 +236,8 @@
                                 </span>
                             </div>
                             <h6 class="font-bold mb-2 text-xl">Reduces Data Breach Risks</h6>
-                            <p class="card-text mb-4"style="font-size: 14px;">This protection helps to intercept modern threats before they cause
+                            <p class="card-text mb-4"style="font-size: 14px;">This protection helps to intercept modern
+                                threats before they cause
                                 catastrophic defeats. However, it significantly reduces the risk of a data breach and
                                 ensures the safety of sensitive information—preserving and increasing your customers' trust.
                             </p>
@@ -254,7 +258,8 @@
                                 </span>
                             </div>
                             <h6 class="font-bold mb-2 text-xl">Improved Efficiency</h6>
-                            <p class="card-text mb-4"style="font-size: 14px;">With automated virus threat protection solutions, we assist you in
+                            <p class="card-text mb-4"style="font-size: 14px;">With automated virus threat protection
+                                solutions, we assist you in
                                 securing from the present-day malware and virus attacks. It seamlessly connects with
                                 cloud-native solutions and cybersecurity platforms. Also, it easily integrates with the
                                 latest security solutions, such as TTB Antivirus, TTB VPN Shield, etc.</p>
@@ -274,7 +279,8 @@
                                 </span>
                             </div>
                             <h6 class="font-bold mb-2 text-xl">Intensify the Observance</h6>
-                            <p class="card-text mb-4"style="font-size: 14px;">Threat protection ensures compliance with industry policy and
+                            <p class="card-text mb-4"style="font-size: 14px;">Threat protection ensures compliance with
+                                industry policy and
                                 standards, saving the business from resulting fines and legal actions that would come with
                                 non-compliance. Likewise, it discovers and patches up any susceptibilities or
                                 vulnerabilities with your device.</p>
@@ -294,7 +300,8 @@
                                 </span>
                             </div>
                             <h6 class="font-bold mb-2 text-xl">Peace of Mind</h6>
-                            <p class="card-text mb-4"style="font-size: 14px;">Generally, this protection gives peace of mind to the owners and
+                            <p class="card-text mb-4"style="font-size: 14px;">Generally, this protection gives peace of
+                                mind to the owners and
                                 representatives by offering deeper risk visibility of enterprise perimeters including
                                 infrastructure, networks, platforms, endpoints, applications, etc. Additionally, with this
                                 exceptional choice, you remain relaxed as TTB is here to handle these risks.</p>
@@ -314,135 +321,152 @@
         <div class="container">
             <div class="grid grid-cols-12 gap-6">
                 <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12 ">
-                    <h3 class="mt-3 text-black-light" style="font-weight:600; font-size: 32px;">Experst Are Here To Sove Your Finance Problems.</h3>
-                    <p class="mt-3 text-black-light"style="font-size: 16px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa asperiores quaerat, quia saepe
-                        consequuntur, laudantium, cum at expedita eligendi perferendis amet fugiat? Assumenda numquam nisi at, laborum eligendi necessitatibus est?</p>
+                    <h3 class="mt-3 text-black-light" style="font-weight:600; font-size: 32px;">Why Do We Need Threat
+                        Protection? / Importance of the Threat Protection</h3>
+                    <p class="mt-3 text-black-light"style="font-size: 16px;">Now, you are aware of the primary goals and
+                        advantages of using Advanced Threat Protections Solutions from TTB.
+                        Now, it's time to understand the need for this service. Have a look beneath:</p>
                 </div>
                 <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12 pt-5">
-                   <div class="grid grid-cols-12 gap-x-6">
-                <div class="xl:col-span-6 md:col-span-6 col-span-12">
+                    <div class="grid grid-cols-12 gap-x-6">
+                        <div class="xl:col-span-6 md:col-span-6 col-span-12">
+                            <div class="box text-left text-hover">
+                                <div class="box-body">
+                                    <div class="mb-2 commericial-img">
+                                        <span class="avatar avatar-md">
+
+                                            <img src="assets/img/Omniroutes-Lifting.png" alt="img"
+                                                class="!rounded-md" style="max-width: 60px;height: 60px;">
+                                        </span>
+                                    </div>
+                                    <h6 class="font-bold mb-2 text-xl">Elevated Cyber Threats</h6>
+                                    <p class="card-text mb-4"style="font-size: 14px;">Additionally, cyber threats are
+                                        increasing day by day in extremity and
+                                        intricacy. Hence, an organizational lack of adequate digital security can open it up
+                                        for easy cyber attacks and breaches
+                                        which end in devastating outcomes.</p>
+                                    <br>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="xl:col-span-6 md:col-span-6 col-span-12">
+                            <div class="box text-left text-hover">
+                                <div class="box-body">
+                                    <div class="mb-2 commericial-img">
+                                        <span class="avatar avatar-md">
+                                            <img src="assets/img/Content-Touchpoint.png" alt="img"
+                                                class="!rounded-md" style="max-width: 60px;height: 60px;">
+
+                                        </span>
+                                    </div>
+                                    <h6 class="font-bold mb-2 text-xl">Thwarting Threats to Sensitive Data</h6>
+                                    <p class="card-text mb-4"style="font-size: 14px;">Commonly, corporations deal with
+                                        extensive magnitudes of sensitive data,
+                                        starting from customer information to intellectual property and financial records.
+                                        Therefore, cyber threat mitigation
+                                        ensures the protection of those data volumes from unauthorized infiltration and
+                                        breaches.</p>
+                                    <br>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="grid grid-cols-12 gap-x-6">
+                <div class="xl:col-span-3 md:col-span-6 col-span-12">
                     <div class="box text-left text-hover">
                         <div class="box-body">
                             <div class="mb-2 commericial-img">
                                 <span class="avatar avatar-md">
 
-                                    <img src="assets/img/Omniroutes-Lifting.png" alt="img" class="!rounded-md" style="max-width: 60px;height: 60px;">
+                                    <img src="assets/img/Omniroutes-Lifting.png" alt="img" class="!rounded-md"
+                                        style="max-width: 60px;height: 60px;">
                                 </span>
                             </div>
-                            <h6 class="font-bold mb-2 text-xl">Reduces Data Breach Risks</h6>
-                            <p class="card-text mb-4"style="font-size: 14px;">This protection helps to intercept modern threats before they cause
-                                catastrophic defeats. However, it significantly reduces the risk of a data breach and
-                                ensures the safety of sensitive information—preserving and increasing your customers' trust.
+                            <h6 class="font-bold mb-2 text-xl">Safeguarding Business Reputation</h6>
+                            <p class="card-text mb-4"style="font-size: 14px;">An organization's business reputation can
+                                easily be ruined by a thriving
+                                cyber attack. Therefore, TTB threat protection will help an organization retain customer
+                                trust and hence its brand image too.</p>
+                            <br>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="xl:col-span-3 md:col-span-6 col-span-12">
+                    <div class="box text-left text-hover">
+                        <div class="box-body">
+                            <div class="mb-2 commericial-img">
+                                <span class="avatar avatar-md">
+                                    <img src="assets/img/Content-Touchpoint.png" alt="img" class="!rounded-md"
+                                        style="max-width: 60px;height: 60px;">
+
+                                </span>
+                            </div>
+                            <h6 class="font-bold mb-2 text-xl">Official Compliance</h6>
+                            <p class="card-text mb-4"style="font-size: 14px;">Most regulated industries have laws that
+                                require certain protection to defend confidential data.
+                                Therefore, this element of threat protection can enable an organization to comply with those
+                                regulations and forego from being fined or from a lawsuit.</p>
+                            <br>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="xl:col-span-3 md:col-span-6 col-span-12">
+                    <div class="box text-left text-hover">
+                        <div class="box-body">
+                            <div class="mb-2 commericial-img">
+                                <span class="avatar avatar-md">
+                                    <img src="assets/img/Faster-Resolution.png" alt="img" class="!rounded-md"
+                                        style="max-width: 60px;height: 60px;">
+
+                                </span>
+                            </div>
+                            <h6 class="font-bold mb-2 text-xl">Advanced Threat Protection (ATP)</h6>
+                            <p class="card-text mb-4"style="font-size: 14px;">Cybercriminals are normally changing their
+                                methodologies to be more advanced and to outwit conventional
+                                security standards. However, ATP solutions are quite essential to keep up with emerging
+                                threats. Also, business continuity is thus assured in organizations
+                                through threat protection, where the company can be able to quickly recover from incidents.
                             </p>
                             <br>
 
-
                         </div>
                     </div>
                 </div>
-                <div class="xl:col-span-6 md:col-span-6 col-span-12">
+                <div class="xl:col-span-3 md:col-span-6 col-span-12">
                     <div class="box text-left text-hover">
                         <div class="box-body">
                             <div class="mb-2 commericial-img">
                                 <span class="avatar avatar-md">
-                                    <img src="assets/img/Content-Touchpoint.png" alt="img" class="!rounded-md" style="max-width: 60px;height: 60px;">
+                                    <img src="assets/img/Support-Channels.png" alt="img" class="!rounded-md"
+                                        style="max-width: 60px;height: 60px;">
 
                                 </span>
                             </div>
-                            <h6 class="font-bold mb-2 text-xl">Improved Efficiency</h6>
-                            <p class="card-text mb-4"style="font-size: 14px;">With automated virus threat protection solutions, we assist you in
-                                securing from the present-day malware and virus attacks. It seamlessly connects with
-                                cloud-native solutions and cybersecurity platforms. Also, it easily integrates with the
-                                latest security solutions, such as TTB Antivirus, TTB VPN Shield, etc.</p>
+                            <h6 class="font-bold mb-2 text-xl">Financial Mislayings</h6>
+                            <p class="card-text mb-4"style="font-size: 14px;">Cyber attacks impose substantial financial
+                                scrapes. The costs range from direct expenses such as ransom payments
+                                to indirect costs such as loss of business opportunities and legal expenditures. Hence, an
+                                effective menace protection solution diminishes these risks, covering the organization's
+                                bottom line.</p>
                             <br>
 
                         </div>
                     </div>
-                </div>
-
-
-            </div>
                 </div>
             </div>
-        <div class="grid grid-cols-12 gap-x-6">
-                <div class="xl:col-span-3 md:col-span-6 col-span-12">
-                    <div class="box text-left text-hover">
-                        <div class="box-body">
-                            <div class="mb-2 commericial-img">
-                                <span class="avatar avatar-md">
-
-                                    <img src="assets/img/Omniroutes-Lifting.png" alt="img" class="!rounded-md" style="max-width: 60px;height: 60px;">
-                                </span>
-                            </div>
-                            <h6 class="font-bold mb-2 text-xl">Reduces Data Breach Risks</h6>
-                            <p class="card-text mb-4"style="font-size: 14px;">This protection helps to intercept modern threats before they cause
-                                catastrophic defeats. However, it significantly reduces the risk of a data breach and
-                                ensures the safety of sensitive information—preserving and increasing your customers' trust.
-                            </p>
-                            <br>
-
-
-                        </div>
-                    </div>
-                </div>
-                <div class="xl:col-span-3 md:col-span-6 col-span-12">
-                    <div class="box text-left text-hover">
-                        <div class="box-body">
-                            <div class="mb-2 commericial-img">
-                                <span class="avatar avatar-md">
-                                    <img src="assets/img/Content-Touchpoint.png" alt="img" class="!rounded-md" style="max-width: 60px;height: 60px;">
-
-                                </span>
-                            </div>
-                            <h6 class="font-bold mb-2 text-xl">Improved Efficiency</h6>
-                            <p class="card-text mb-4"style="font-size: 14px;">With automated virus threat protection solutions, we assist you in
-                                securing from the present-day malware and virus attacks. It seamlessly connects with
-                                cloud-native solutions and cybersecurity platforms. Also, it easily integrates with the
-                                latest security solutions, such as TTB Antivirus, TTB VPN Shield, etc.</p>
-                            <br>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="xl:col-span-3 md:col-span-6 col-span-12">
-                    <div class="box text-left text-hover">
-                        <div class="box-body">
-                            <div class="mb-2 commericial-img">
-                                <span class="avatar avatar-md">
-                                    <img src="assets/img/Faster-Resolution.png" alt="img" class="!rounded-md" style="max-width: 60px;height: 60px;">
-
-                                </span>
-                            </div>
-                            <h6 class="font-bold mb-2 text-xl">Intensify the Observance</h6>
-                            <p class="card-text mb-4"style="font-size: 14px;">Threat protection ensures compliance with industry policy and
-                                standards, saving the business from resulting fines and legal actions that would come with
-                                non-compliance. Likewise, it discovers and patches up any susceptibilities or
-                                vulnerabilities with your device.</p>
-                            <br>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="xl:col-span-3 md:col-span-6 col-span-12">
-                    <div class="box text-left text-hover">
-                        <div class="box-body">
-                            <div class="mb-2 commericial-img">
-                                <span class="avatar avatar-md">
-                                    <img src="assets/img/Support-Channels.png" alt="img" class="!rounded-md" style="max-width: 60px;height: 60px;">
-
-                                </span>
-                            </div>
-                            <h6 class="font-bold mb-2 text-xl">Peace of Mind</h6>
-                            <p class="card-text mb-4"style="font-size: 14px;">Generally, this protection gives peace of mind to the owners and
-                                representatives by offering deeper risk visibility of enterprise perimeters including
-                                infrastructure, networks, platforms, endpoints, applications, etc. Additionally, with this
-                                exceptional choice, you remain relaxed as TTB is here to handle these risks.</p>
-                            <br>
-
-                        </div>
-                    </div>
-                </div>
-            </div></div>
+            <p class="card-text mb-4"style="font-size: 16px;">Cyber attacks impose substantial financial scrapes. The costs range from direct expenses such as ransom payments
+                to indirect costs such as loss of business opportunities and legal expenditures. Hence, an effective menace protection solution diminishes these risks, covering the organization's bottom line.</p>
+        </div>
     </section>
     {{-- END SECTION SIX --}}
 
