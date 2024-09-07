@@ -104,7 +104,8 @@
         <!-- End::End Point section three -->
 
         <!-- Start::End Point section four -->
-        <section class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70">
+        <section
+            class="section !bg-[#f9fafb] dark:!bg-black/10 section-bg text-defaulttextcolor dark:text-defaulttextcolor/70">
             <div class="endpoint-slider">
                 <div class="main-content">
                     <div class="container">
@@ -128,8 +129,8 @@
                                     nasty viruses, and URLs.</p>
                             </div>
                             <div class="item bg-white p-5 rounded-lg shadow-md box">
-                                <img src="{{ asset('assets/img/Real-Time-Scanning-&-Threat-Detection.png') }}" alt="Img"
-                                    style="width: 65px !important;">
+                                <img src="{{ asset('assets/img/Real-Time-Scanning-&-Threat-Detection.png') }}"
+                                    alt="Img" style="width: 65px !important;">
                                 <p class="dark-white text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
                                     style="font-size: 16px;">Real-Time Scanning & Threat Detection</p>
                                 <p class="mt-3 text-[#333335] text-center">Provides you with real-time threat alerts and
@@ -248,14 +249,13 @@
                             <div class="box endpoint-boxs">
 
                                 <div class="box-body box-bg">
-                                    <span class="mb-4 avatar avatar-lg avatar-rounded !text-primary">
-                                        <img src=" {{ asset('assets/img/24-7-icon.png') }}"
-                                    class="img-fluid endpoint-icon p-1 mt-3 w-100" style="height: auto; max-width: 65px;">
-                                    </span>
+                                    <img src=" {{ asset('assets/img/24-7-icon.png') }}"
+                                        class="img-fluid endpoint-icon p-1 mt-3 w-100"
+                                        style="height: auto; max-width: 65px; margin: auto;">
                                     <h6 class="font-semibold pt-5 pb-3 text-xl">Device & Data Security</h6>
                                     <p class="card-text mb-4">Effective endpoint security services like TTB will ensure the
                                         complete security
-                                        of your endpoint networks like PC, smartphones, etc., & confidential data by
+                                        of your end point networks like PC, smartphones, etc., & confidential data by
                                         tracking, detecting, and
                                         using smart techniques and isolating the infected gadgets.</p>
                                 </div>
@@ -265,10 +265,9 @@
                             <div class="box endpoint-boxs">
 
                                 <div class="box-body box-bg">
-                                    <span class="mb-4 avatar avatar-lg avatar-rounded !text-primary">
-                                        <img src=" {{ asset('assets/img/24-7-icon.png') }}"
-                                    class="img-fluid endpoint-icon p-1 mt-3 w-100" style="height: auto; max-width: 65px;">
-                                    </span>
+                                    <img src=" {{ asset('assets/img/24-7-icon.png') }}"
+                                        class="img-fluid endpoint-icon p-1 mt-3 w-100"
+                                        style="height: auto; max-width: 65px; margin: auto;">
                                     </span>
                                     <h6 class="font-semibold pt-5 pb-3 text-xl">Behavioral Analysis</h6>
                                     <p class="card-text mb-4">The smart endpoint solutions detect the behavior of
@@ -281,10 +280,9 @@
                         <div class="xl:col-span-3 md:col-span-6 col-span-12">
                             <div class="box endpoint-boxs">
                                 <div class="box-body box-bg">
-                                    <span class="mb-4 avatar avatar-lg avatar-rounded !text-primary">
-                                        <img src=" {{ asset('assets/img/24-7-icon.png') }}"
-                                    class="img-fluid endpoint-icon p-1 mt-3 w-100" style="height: auto; max-width: 65px;">
-                                    </span>
+                                    <img src=" {{ asset('assets/img/24-7-icon.png') }}"
+                                        class="img-fluid endpoint-icon p-1 mt-3 w-100"
+                                        style="height: auto; max-width: 65px; margin: auto;">
                                     </span>
                                     <h6 class="font-semibold pt-5 pb-3 text-xl">Real-Time Scanning & Threat Detection </h6>
                                     <p class="card-text mb-4">The current-day cybersecurity systems such as TTB Endpoint
@@ -298,10 +296,9 @@
                         <div class="xl:col-span-3 md:col-span-6 col-span-12">
                             <div class="box endpoint-boxs">
                                 <div class="box-body box-bg">
-                                    <span class="mb-4 avatar avatar-lg avatar-rounded !text-primary">
-                                        <img src=" {{ asset('assets/img/24-7-icon.png') }}"
-                                    class="img-fluid endpoint-icon p-1 mt-3 w-100" style="height: auto; max-width: 65px;">
-                                    </span>
+                                    <img src=" {{ asset('assets/img/24-7-icon.png') }}"
+                                        class="img-fluid endpoint-icon p-1 mt-3 w-100"
+                                        style="height: auto; max-width: 65px; margin: auto;">
                                     </span>
                                     <h6 class="font-semibold pt-5 pb-3 text-xl">Multi-Layer Protection</h6>
                                     <p class="card-text mb-4">The modern era security solutions include multi-layer
@@ -320,10 +317,9 @@
                             <div class="box endpoint-boxs">
 
                                 <div class="box-body box-bg">
-                                    <span class="mb-4 avatar avatar-lg avatar-rounded !text-primary">
-                                        <img src=" {{ asset('assets/img/24-7-icon.png') }}"
-                                    class="img-fluid endpoint-icon p-1 mt-3 w-100" style="height: auto; max-width: 65px;">
-                                    </span>
+                                    <img src=" {{ asset('assets/img/24-7-icon.png') }}"
+                                        class="img-fluid endpoint-icon p-1 mt-3 w-100"
+                                        style="height: auto; max-width: 65px; margin: auto;">
                                     </span>
                                     <h6 class="font-semibold pt-5 pb-3 text-xl">Cost Savings/Effective</h6>
                                     <p class="card-text mb-4">This centralized management is a cost-effective fix to meet
@@ -338,10 +334,9 @@
                             <div class="box endpoint-boxs">
 
                                 <div class="box-body box-bg">
-                                    <span class="mb-4 avatar avatar-lg avatar-rounded !text-primary">
-                                        <img src=" {{ asset('assets/img/24-7-icon.png') }}"
-                                    class="img-fluid endpoint-icon p-1 mt-3 w-100" style="height: auto; max-width: 65px;">
-                                    </span>
+                                    <img src=" {{ asset('assets/img/24-7-icon.png') }}"
+                                        class="img-fluid endpoint-icon p-1 mt-3 w-100"
+                                        style="height: auto; max-width: 65px; margin: auto;">
                                     </span>
                                     <h6 class="font-semibold pt-5 pb-3 text-xl">Remote Management</h6>
                                     <p class="card-text mb-4">The present-time paid or free endpoint security services have
@@ -355,10 +350,9 @@
                         <div class="xl:col-span-3 md:col-span-6 col-span-12">
                             <div class="box endpoint-boxs">
                                 <div class="box-body box-bg">
-                                    <span class="mb-4 avatar avatar-lg avatar-rounded !text-primary">
-                                        <img src=" {{ asset('assets/img/24-7-icon.png') }}"
-                                    class="img-fluid endpoint-icon p-1 mt-3 w-100" style="height: auto; max-width: 65px;">
-                                    </span>
+                                    <img src=" {{ asset('assets/img/24-7-icon.png') }}"
+                                        class="img-fluid endpoint-icon p-1 mt-3 w-100"
+                                        style="height: auto; max-width: 65px; margin: auto;">
                                     </span>
                                     <h6 class="font-semibold pt-5 pb-3 text-xl">Advanced Security Controls & Threat Control
                                     </h6>
@@ -373,10 +367,9 @@
                         <div class="xl:col-span-3 md:col-span-6 col-span-12">
                             <div class="box endpoint-boxs">
                                 <div class="box-body box-bg">
-                                    <span class="mb-4 avatar avatar-lg avatar-rounded !text-primary">
-                                        <img src=" {{ asset('assets/img/24-7-icon.png') }}"
-                                    class="img-fluid endpoint-icon p-1 mt-3 w-100" style="height: auto; max-width: 65px;">
-                                    </span>
+                                    <img src=" {{ asset('assets/img/24-7-icon.png') }}"
+                                        class="img-fluid endpoint-icon p-1 mt-3 w-100"
+                                        style="height: auto; max-width: 65px; margin: auto;">
                                     </span>
                                     <h6 class="font-semibold pt-5 pb-3 text-xl">Centralized Management Console</h6>
                                     <p class="card-text mb-4">Many endpoint security solutions offer centralized management
@@ -468,8 +461,8 @@
                     </div>
 
                     <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12 pt-5">
-                        <img src="https://www.nighthawk-routerlogin.com/assets/img/Why-do-we-need-the-Endpoint-security-services-solutions.png" alt=""
-                            class="img-fluid" width="90%">
+                        <img src="https://www.nighthawk-routerlogin.com/assets/img/Why-do-we-need-the-Endpoint-security-services-solutions.png"
+                            alt="" class="img-fluid" width="90%">
                     </div>
                 </div>
                 <p class="mt-10 text-black text-center text-base"><b>With everything taken into account, go for <span
