@@ -212,6 +212,86 @@
     </section>
     {{-- END SECTION FOUR NEW --}}
 
+    {{-- START SECTION FIFETH NEW --}}
+    <section class="threat-section-eight !bg-[#f9fafb] dark:!bg-black/10">
+        <div class="container ">
+            <h2 class="mt-3 mb-5 text-center">A Closer Look at Advanced Threat Protection</h2>
+            <p class="mt-3">Additionally, the Advanced Threat Protection (ATP) depicts the advanced level security solutions that defend your association from futuristic cyberattacks and malware that seek to exfiltrate, corrupt, or steal sensitive data. Similarly, it brings you ahead of the curve than the hackers. Primarily, ATP works on cyber threat protection solutions that keep you aware of the modern era's digital threats. So, let's take a look at the working of this:</p>
+            <div class="grid grid-cols-12 gap-x-6">
+                    <div class="xl:col-span-3 md:col-span-6 col-span-12">
+                        <div class="box text-left text-hover">
+                            <div class="box-body">
+                                <div class="mb-2 commericial-img">
+                                    <span class="avatar avatar-md">
+
+                                        <img src="assets/img/Omniroutes-Lifting.png" alt="img" class="!rounded-md" style="max-width: 60px;height: 60px;">
+                                    </span>
+                                </div>
+                                <h6 class="font-bold mb-2 text-xl">Omniroutes Lifting</h6>
+                                <p class="card-text mb-4">Many desktop publishing packages and web page editors
+                                    now use Lorem Ipsum as their default model text.</p>
+                                <br>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="xl:col-span-3 md:col-span-6 col-span-12">
+                        <div class="box text-left text-hover">
+                            <div class="box-body">
+                                <div class="mb-2 commericial-img">
+                                    <span class="avatar avatar-md">
+                                        <img src="assets/img/Content-Touchpoint.png" alt="img" class="!rounded-md" style="max-width: 60px;height: 60px;">
+
+                                    </span>
+                                </div>
+                                <h6 class="font-bold mb-2 text-xl">Content Touchpoint</h6>
+                                <p class="card-text mb-4">Many desktop publishing packages and web page editors
+                                    now use Lorem Ipsum as their default model text.</p>
+                                <br>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="xl:col-span-3 md:col-span-6 col-span-12">
+                        <div class="box text-left text-hover">
+                            <div class="box-body">
+                                <div class="mb-2 commericial-img">
+                                    <span class="avatar avatar-md">
+                                        <img src="assets/img/Faster-Resolution.png" alt="img" class="!rounded-md" style="max-width: 60px;height: 60px;">
+
+                                    </span>
+                                </div>
+                                <h6 class="font-bold mb-2 text-xl">Faster Resolution</h6>
+                                <p class="card-text mb-4">Many desktop publishing packages and web page editors
+                                    now use Lorem Ipsum as their default model text.</p>
+                                <br>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="xl:col-span-3 md:col-span-6 col-span-12">
+                        <div class="box text-left text-hover">
+                            <div class="box-body">
+                                <div class="mb-2 commericial-img">
+                                    <span class="avatar avatar-md">
+                                        <img src="assets/img/Support-Channels.png" alt="img" class="!rounded-md" style="max-width: 60px;height: 60px;">
+
+                                    </span>
+                                </div>
+                                <h6 class="font-bold mb-2 text-xl">Support Channels</h6>
+                                <p class="card-text mb-4">Many desktop publishing packages and web page editors
+                                    now use Lorem Ipsum as their default model text.</p>
+                                <br>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </div></section>
+
+        {{-- END SECTION FIFETH NEW --}}
+
     {{-- START SECTION FOUR --}}
     <section class="threat-section-four">
         <div class="container main-banner-container">
