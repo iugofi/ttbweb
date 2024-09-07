@@ -51057,9 +51057,7 @@ a {
     padding: 55px 0px 80px 0px;
     background-color: #c9cfca2e;
 }
-.esupport-img {
-    text-align: center;
-}
+
 /* .phishing-hr{
   height: 1px;
   background-color: #444;
@@ -52171,7 +52169,13 @@ h6.uppercase {
     .network-container {
         height: 42rem !important;
     }
-
+    .esupport-img {
+        text-align: center;
+    }
+    .threet-box {
+        height: 380px;
+        border-top: 3px solid #12D2B3;
+    }
     /* .carousel-btn.left {
         left: 10px !important;
     } */
