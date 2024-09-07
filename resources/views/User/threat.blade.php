@@ -214,83 +214,100 @@
 
     {{-- START SECTION FIFETH NEW --}}
     <section class="threat-section-eight !bg-[#f9fafb] dark:!bg-black/10">
-        <div class="container ">
-            <h2 class="mt-3 mb-5 text-center">A Closer Look at Advanced Threat Protection</h2>
-            <p class="mt-3">Additionally, the Advanced Threat Protection (ATP) depicts the advanced level security solutions that defend your association from futuristic cyberattacks and malware that seek to exfiltrate, corrupt, or steal sensitive data. Similarly, it brings you ahead of the curve than the hackers. Primarily, ATP works on cyber threat protection solutions that keep you aware of the modern era's digital threats. So, let's take a look at the working of this:</p>
+        <div class="container">
+            <h2 class="mt-2 pt-5 mb-5 text-center">How to prevent cyber attacks using TTB Threat Protection?</h2>
+            <p class="mt-2 mb-8" style="font-size: 16px; text-align: center;">In addition, Threat Intelligence or
+                protection is a holistic approach, which includes all the routes of an organization's digital
+                infrastructure. Here, the professional IT team looks for the flaws in the system to be reduced and a more
+                secure environment is experienced in the future. Except for these preliminary advantages, most of the other
+                benefits are also there to consider Advanced Threat Protection. Let's have a look beneath:</p>
             <div class="grid grid-cols-12 gap-x-6">
-                    <div class="xl:col-span-3 md:col-span-6 col-span-12">
-                        <div class="box text-left text-hover">
-                            <div class="box-body">
-                                <div class="mb-2 commericial-img">
-                                    <span class="avatar avatar-md">
+                <div class="xl:col-span-3 md:col-span-6 col-span-12">
+                    <div class="box text-left text-hover">
+                        <div class="box-body">
+                            <div class="mb-2 commericial-img">
+                                <span class="avatar avatar-md">
 
-                                        <img src="assets/img/Omniroutes-Lifting.png" alt="img" class="!rounded-md" style="max-width: 60px;height: 60px;">
-                                    </span>
-                                </div>
-                                <h6 class="font-bold mb-2 text-xl">Omniroutes Lifting</h6>
-                                <p class="card-text mb-4">Many desktop publishing packages and web page editors
-                                    now use Lorem Ipsum as their default model text.</p>
-                                <br>
-
-
+                                    <img src="assets/img/Omniroutes-Lifting.png" alt="img" class="!rounded-md"
+                                        style="max-width: 60px;height: 60px;">
+                                </span>
                             </div>
+                            <h6 class="font-bold mb-2 text-xl">Reduces Data Breach Risks</h6>
+                            <p class="card-text mb-4">This protection helps to intercept modern threats before they cause
+                                catastrophic defeats. However, it significantly reduces the risk of a data breach and
+                                ensures the safety of sensitive information—preserving and increasing your customers' trust.
+                            </p>
+                            <br>
+
+
                         </div>
                     </div>
-                    <div class="xl:col-span-3 md:col-span-6 col-span-12">
-                        <div class="box text-left text-hover">
-                            <div class="box-body">
-                                <div class="mb-2 commericial-img">
-                                    <span class="avatar avatar-md">
-                                        <img src="assets/img/Content-Touchpoint.png" alt="img" class="!rounded-md" style="max-width: 60px;height: 60px;">
+                </div>
+                <div class="xl:col-span-3 md:col-span-6 col-span-12">
+                    <div class="box text-left text-hover">
+                        <div class="box-body">
+                            <div class="mb-2 commericial-img">
+                                <span class="avatar avatar-md">
+                                    <img src="assets/img/Content-Touchpoint.png" alt="img" class="!rounded-md"
+                                        style="max-width: 60px;height: 60px;">
 
-                                    </span>
-                                </div>
-                                <h6 class="font-bold mb-2 text-xl">Content Touchpoint</h6>
-                                <p class="card-text mb-4">Many desktop publishing packages and web page editors
-                                    now use Lorem Ipsum as their default model text.</p>
-                                <br>
-
+                                </span>
                             </div>
+                            <h6 class="font-bold mb-2 text-xl">Improved Efficiency</h6>
+                            <p class="card-text mb-4">With automated virus threat protection solutions, we assist you in
+                                securing from the present-day malware and virus attacks. It seamlessly connects with
+                                cloud-native solutions and cybersecurity platforms. Also, it easily integrates with the
+                                latest security solutions, such as TTB Antivirus, TTB VPN Shield, etc.</p>
+                            <br>
+
                         </div>
                     </div>
-                    <div class="xl:col-span-3 md:col-span-6 col-span-12">
-                        <div class="box text-left text-hover">
-                            <div class="box-body">
-                                <div class="mb-2 commericial-img">
-                                    <span class="avatar avatar-md">
-                                        <img src="assets/img/Faster-Resolution.png" alt="img" class="!rounded-md" style="max-width: 60px;height: 60px;">
+                </div>
+                <div class="xl:col-span-3 md:col-span-6 col-span-12">
+                    <div class="box text-left text-hover">
+                        <div class="box-body">
+                            <div class="mb-2 commericial-img">
+                                <span class="avatar avatar-md">
+                                    <img src="assets/img/Faster-Resolution.png" alt="img" class="!rounded-md"
+                                        style="max-width: 60px;height: 60px;">
 
-                                    </span>
-                                </div>
-                                <h6 class="font-bold mb-2 text-xl">Faster Resolution</h6>
-                                <p class="card-text mb-4">Many desktop publishing packages and web page editors
-                                    now use Lorem Ipsum as their default model text.</p>
-                                <br>
-
+                                </span>
                             </div>
+                            <h6 class="font-bold mb-2 text-xl">Intensify the Observance</h6>
+                            <p class="card-text mb-4">Threat protection ensures compliance with industry policy and
+                                standards, saving the business from resulting fines and legal actions that would come with
+                                non-compliance. Likewise, it discovers and patches up any susceptibilities or
+                                vulnerabilities with your device.</p>
+                            <br>
+
                         </div>
                     </div>
-                    <div class="xl:col-span-3 md:col-span-6 col-span-12">
-                        <div class="box text-left text-hover">
-                            <div class="box-body">
-                                <div class="mb-2 commericial-img">
-                                    <span class="avatar avatar-md">
-                                        <img src="assets/img/Support-Channels.png" alt="img" class="!rounded-md" style="max-width: 60px;height: 60px;">
+                </div>
+                <div class="xl:col-span-3 md:col-span-6 col-span-12">
+                    <div class="box text-left text-hover">
+                        <div class="box-body">
+                            <div class="mb-2 commericial-img">
+                                <span class="avatar avatar-md">
+                                    <img src="assets/img/Support-Channels.png" alt="img" class="!rounded-md"
+                                        style="max-width: 60px;height: 60px;">
 
-                                    </span>
-                                </div>
-                                <h6 class="font-bold mb-2 text-xl">Support Channels</h6>
-                                <p class="card-text mb-4">Many desktop publishing packages and web page editors
-                                    now use Lorem Ipsum as their default model text.</p>
-                                <br>
-
+                                </span>
                             </div>
+                            <h6 class="font-bold mb-2 text-xl">Peace of Mind</h6>
+                            <p class="card-text mb-4">Generally, this protection gives peace of mind to the owners and
+                                representatives by offering deeper risk visibility of enterprise perimeters including
+                                infrastructure, networks, platforms, endpoints, applications, etc. Additionally, with this
+                                exceptional choice, you remain relaxed as TTB is here to handle these risks.</p>
+                            <br>
+
                         </div>
                     </div>
-                </div>  
-    </div></section>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        {{-- END SECTION FIFETH NEW --}}
+    {{-- END SECTION FIFETH NEW --}}
 
     {{-- START SECTION FOUR --}}
     <section class="threat-section-four">
