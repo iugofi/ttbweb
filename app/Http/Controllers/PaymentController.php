@@ -287,7 +287,7 @@ class PaymentController extends Controller
                 0 => [
                     "amount" => [
                         "currency_code" => "USD",
-                        "value" => $checkses['price']
+                        "value" => number_format((float)$checkses['price'], 2, '.', '')
                     ]
                 ]
             ]
