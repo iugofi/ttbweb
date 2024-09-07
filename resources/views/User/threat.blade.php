@@ -227,7 +227,7 @@
             <div class="grid grid-cols-12 gap-x-6">
                 <div class="xl:col-span-3 md:col-span-6 col-span-12">
                     <div class="box text-left text-hover">
-                        <div class="box-body">
+                        <div class="box-body threet-box">
                             <div class="mb-2 esupport-img">
                                 <span class="avatar avatar-md">
 
@@ -249,7 +249,7 @@
                 </div>
                 <div class="xl:col-span-3 md:col-span-6 col-span-12">
                     <div class="box text-left text-hover">
-                        <div class="box-body">
+                        <div class="box-body threet-box">
                             <div class="mb-2 esupport-img">
                                 <span class="avatar avatar-md">
                                     <img src="assets/img/Content-Touchpoint.png" alt="img" class="!rounded-md"
@@ -270,7 +270,7 @@
                 </div>
                 <div class="xl:col-span-3 md:col-span-6 col-span-12">
                     <div class="box text-left text-hover">
-                        <div class="box-body">
+                        <div class="box-body threet-box">
                             <div class="mb-2 esupport-img">
                                 <span class="avatar avatar-md">
                                     <img src="assets/img/Faster-Resolution.png" alt="img" class="!rounded-md"
@@ -291,7 +291,7 @@
                 </div>
                 <div class="xl:col-span-3 md:col-span-6 col-span-12">
                     <div class="box text-left text-hover">
-                        <div class="box-body">
+                        <div class="box-body threet-box">
                             <div class="mb-2 esupport-img">
                                 <span class="avatar avatar-md">
                                     <img src="assets/img/Support-Channels.png" alt="img" class="!rounded-md"
