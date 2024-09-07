@@ -329,8 +329,8 @@
                                     <img src="assets/img/Omniroutes-Lifting.png" alt="img" class="!rounded-md" style="max-width: 60px;height: 60px;">
                                 </span>
                             </div>
-                            <h6 class="font-bold mb-2 text-xl" style="font-size: 14px;">Reduces Data Breach Risks</h6>
-                            <p class="card-text mb-4">This protection helps to intercept modern threats before they cause
+                            <h6 class="font-bold mb-2 text-xl">Reduces Data Breach Risks</h6>
+                            <p class="card-text mb-4"style="font-size: 14px;">This protection helps to intercept modern threats before they cause
                                 catastrophic defeats. However, it significantly reduces the risk of a data breach and
                                 ensures the safety of sensitive information—preserving and increasing your customers' trust.
                             </p>
@@ -349,8 +349,8 @@
 
                                 </span>
                             </div>
-                            <h6 class="font-bold mb-2 text-xl" style="font-size: 14px;">Improved Efficiency</h6>
-                            <p class="card-text mb-4">With automated virus threat protection solutions, we assist you in
+                            <h6 class="font-bold mb-2 text-xl">Improved Efficiency</h6>
+                            <p class="card-text mb-4"style="font-size: 14px;">With automated virus threat protection solutions, we assist you in
                                 securing from the present-day malware and virus attacks. It seamlessly connects with
                                 cloud-native solutions and cybersecurity platforms. Also, it easily integrates with the
                                 latest security solutions, such as TTB Antivirus, TTB VPN Shield, etc.</p>
@@ -374,8 +374,8 @@
                                     <img src="assets/img/Omniroutes-Lifting.png" alt="img" class="!rounded-md" style="max-width: 60px;height: 60px;">
                                 </span>
                             </div>
-                            <h6 class="font-bold mb-2 text-xl" style="font-size: 14px;">Reduces Data Breach Risks</h6>
-                            <p class="card-text mb-4">This protection helps to intercept modern threats before they cause
+                            <h6 class="font-bold mb-2 text-xl">Reduces Data Breach Risks</h6>
+                            <p class="card-text mb-4"style="font-size: 14px;">This protection helps to intercept modern threats before they cause
                                 catastrophic defeats. However, it significantly reduces the risk of a data breach and
                                 ensures the safety of sensitive information—preserving and increasing your customers' trust.
                             </p>
@@ -394,8 +394,8 @@
 
                                 </span>
                             </div>
-                            <h6 class="font-bold mb-2 text-xl" style="font-size: 14px;">Improved Efficiency</h6>
-                            <p class="card-text mb-4">With automated virus threat protection solutions, we assist you in
+                            <h6 class="font-bold mb-2 text-xl">Improved Efficiency</h6>
+                            <p class="card-text mb-4"style="font-size: 14px;">With automated virus threat protection solutions, we assist you in
                                 securing from the present-day malware and virus attacks. It seamlessly connects with
                                 cloud-native solutions and cybersecurity platforms. Also, it easily integrates with the
                                 latest security solutions, such as TTB Antivirus, TTB VPN Shield, etc.</p>
@@ -413,8 +413,8 @@
 
                                 </span>
                             </div>
-                            <h6 class="font-bold mb-2 text-xl" style="font-size: 14px;">Intensify the Observance</h6>
-                            <p class="card-text mb-4">Threat protection ensures compliance with industry policy and
+                            <h6 class="font-bold mb-2 text-xl">Intensify the Observance</h6>
+                            <p class="card-text mb-4"style="font-size: 14px;">Threat protection ensures compliance with industry policy and
                                 standards, saving the business from resulting fines and legal actions that would come with
                                 non-compliance. Likewise, it discovers and patches up any susceptibilities or
                                 vulnerabilities with your device.</p>
@@ -432,8 +432,8 @@
 
                                 </span>
                             </div>
-                            <h6 class="font-bold mb-2 text-xl" style="font-size: 14px;">Peace of Mind</h6>
-                            <p class="card-text mb-4">Generally, this protection gives peace of mind to the owners and
+                            <h6 class="font-bold mb-2 text-xl">Peace of Mind</h6>
+                            <p class="card-text mb-4"style="font-size: 14px;">Generally, this protection gives peace of mind to the owners and
                                 representatives by offering deeper risk visibility of enterprise perimeters including
                                 infrastructure, networks, platforms, endpoints, applications, etc. Additionally, with this
                                 exceptional choice, you remain relaxed as TTB is here to handle these risks.</p>
