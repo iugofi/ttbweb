@@ -52169,13 +52169,7 @@ h6.uppercase {
     .network-container {
         height: 42rem !important;
     }
-    .esupport-img {
-        text-align: center;
-    }
-    .threet-box {
-        height: 380px;
-        border-top: 3px solid #12D2B3;
-    }
+
     /* .carousel-btn.left {
         left: 10px !important;
     } */
@@ -54152,4 +54146,11 @@ li.footer-icon:hover i.fa-brands.fa-square-pinterest {
 }
 .endpoint-boxs p {
     font-size: 14px !important;
+}
+.esupport-img {
+    text-align: center;
+}
+.threet-box {
+    height: 380px;
+    border-top: 3px solid #12D2B3;
 }
