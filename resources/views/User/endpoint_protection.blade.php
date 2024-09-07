@@ -146,7 +146,7 @@
                                     hackers exploit it. </p>
                             </div>
                             <div class="item bg-white p-5 rounded-lg shadow-md box">
-                                <img src="{{ asset('assets/img/Data-Security-Access-Control') }}" alt="Img"
+                                <img src="{{ asset('assets/img/Data-Security-Access-Control.png') }}" alt="Img"
                                     style="width: 65px !important;">
                                 <p class="dark-white text-teal-400 font-bold text-xl mb-3 pt-5 text-center"
                                     style="font-size: 16px;">Data Security Access Control</p>
