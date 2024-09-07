@@ -315,7 +315,7 @@
             <div class="grid grid-cols-12 gap-6">
                 <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12 ">
                     <h3 class="mt-3 text-black-light" style="font-weight:600;">Experst Are Here To Sove Your Finance Problems.</h3>
-                    <p class="mt-3 text-black-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa asperiores quaerat, quia saepe
+                    <p class="mt-3 text-black-light"style="font-size: 16px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa asperiores quaerat, quia saepe
                         consequuntur, laudantium, cum at expedita eligendi perferendis amet fugiat? Assumenda numquam nisi at, laborum eligendi necessitatibus est?</p>
                 </div>
                 <div class="xxl:col-span-6 xl:col-span-6 lg:col-span-6 col-span-12 pt-5">
