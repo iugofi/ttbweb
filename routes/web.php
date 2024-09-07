@@ -364,6 +364,11 @@ Route::get('/mailtest', [UserController::class, 'mailtest'])->name('admin.mailte
 
 //payment page all
 Route::get('/fpay/{id}',[PaymentController::class,'fpayitem'])->name('user.fpay');
+Route::get('/fpaynew1/{id}',[PaymentController::class,'fpayitem1'])->name('user.fpay1');
+Route::get('/fpaynew2/{id}',[PaymentController::class,'fpayitem2'])->name('user.fpay2');
+Route::get('/fpaynew3/{id}',[PaymentController::class,'fpayitem3'])->name('user.fpay3');
+
+
 Route::post('/otpcheckfpay',[PaymentController::class,'otpcheckfpay'])->name('user.otpcheckfpay');
 Route::post('otpverifyfpay',[PaymentController::class,'otpverifyfpay'])->name('user.otpverifyfpay');
 Route::post('stripefpay/checkout',[PaymentController::class,'stripeCheckoutfpay'])->name('user.stripeCheckoutfpay');

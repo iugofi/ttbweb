@@ -12,7 +12,8 @@ use App\Models\Get_not_send_key;
 use App\Models\Users;
 use Carbon\Carbon;
 // use Illuminate\Support\Facades\Mail;
-use Session;
+use Illuminate\Support\Facades\Session;
+use App\Helpers\Helpers;
 use Illuminate\Support\Facades\Validator;
 use Stripe;
 use DB;
@@ -21,19 +22,85 @@ use Mail;
 
 class PaymentController extends Controller
 {
+    // public function fpayitem($encryptedId)
+    // {
+    //     $id = decrypt($encryptedId);
+    //     $plan = DB::table('product_details')
+    //         ->join('planname', 'planname.plan_id', '=', 'product_details.plan_id')
+    //         ->join('storepick', 'storepick.PICK_ID', '=', 'product_details.key_type')
+    //         ->select('product_details.id', 'planname.name as name', 'product_details.price', 'product_details.discount', 'product_details.coupons', DB::raw('(product_details.price)/12 AS monthlyprice'))
+    //         ->where('storepick.STORE_ID', '=', 'key_type')
+    //         ->where('product_details.id', $id)
+    //         ->first();
+
+    //     return view('User.checkout_page', ['plan' => $plan]);
+    // }
+
     public function fpayitem($encryptedId)
     {
+        // dd($encryptedId);
         $id = decrypt($encryptedId);
-        $plan = DB::table('product_details')
-            ->join('planname', 'planname.plan_id', '=', 'product_details.plan_id')
-            ->join('storepick', 'storepick.PICK_ID', '=', 'product_details.key_type')
-            ->select('product_details.id', 'planname.name as name', 'product_details.price', 'product_details.discount', 'product_details.coupons', DB::raw('(product_details.price)/12 AS monthlyprice'))
-            ->where('storepick.STORE_ID', '=', 'key_type')
-            ->where('product_details.id', $id)
-            ->first();
+        Session::forget('firststap');
+        Session::forget('user_data');
+        $plan = Helpers::getPlanDetails($id);
+        $sessionData = [
+            'product_id' => $plan->id,
+            'description' => $plan->name,
+            'price' => $plan->price,
+            'discount' => $plan->discount,
+            'coupons' => $plan->coupons,
+        ];
+        Session::put('user_data', $sessionData);
+        // dd(Session::get('user_data'));
 
-        return view('User.checkout_page', ['plan' => $plan]);
+        // dd($plan);
+        return view('User.checkout_page_new', ['plan' => $plan, 'id_on' => $id]);
     }
+    public function fpayitem1($id_on)
+{
+    // dd(Session::get('user_data'));
+    $user_data = Session::get('user_data');
+
+    if (isset($user_data['tab1']) && $user_data['tab1'] == 'firstpay1') {
+        $id = decrypt($id_on);
+        $plan = Helpers::getPlanDetails($id);
+
+        return view('User.tabs.personal-details', ['plan' => $plan, 'id_on' => $id]);
+    } else {
+        return redirect()->route('user.fpay', ['id' => $id_on])->with('error', 'Access denied. Please complete the previous steps first.');;
+    }
+}
+
+    public function fpayitem2($id_on)
+    {
+
+        // dd(Session::get('user_data'));
+
+        $user_data = Session::get('user_data');
+        // dd($user_data['product_id']);
+        if (isset($user_data['tab2']) && $user_data['tab2'] == 'firstpay2' && $user_data['tab1'] == 'firstpay1') {
+        $id = decrypt($id_on);
+        $plan = Helpers::getPlanDetails($id);
+        return view('User.tabs.payment', ['plan' => $plan, 'id_on' => $id]);
+    } else {
+        return redirect()->route('user.fpay1', ['id' => $id_on])->with('error', 'Access denied. Please complete the previous steps first.');;
+    }
+    }
+    public function fpayitem3($id_on)
+    {
+        // dd(Session::get('user_data'));
+        $user_data = Session::get('user_data');
+        if (isset($user_data['tab3']) && $user_data['tab3'] == 'firstpay3' && $user_data['tab2'] == 'firstpay2' && $user_data['tab1'] == 'firstpay1') {
+        Session::forget('user_data');
+        $id = decrypt($id_on);
+        $plan = Helpers::getPlanDetails($id);
+        return view('User.tabs.confirmation', ['plan' => $plan, 'id_on' => $id]);
+    } else {
+        return redirect()->route('user.fpay2', ['id' => $id_on])->with('error', 'Access denied. Please complete the previous steps first.');;
+    }
+    }
+
+
 
     public function otpcheckfpay(Request $request)
     {
