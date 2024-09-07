@@ -292,7 +292,7 @@ class PaymentController extends Controller
                 ]
             ]
         ]);
-        dd($response);
+        // dd($response);
         if (isset($response['id']) && $response['id'] != null) {
             // redirect to approve href
             foreach ($response['links'] as $links) {
