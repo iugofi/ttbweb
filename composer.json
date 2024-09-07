@@ -31,7 +31,10 @@
             "Database\\Seeders\\": "database/seeders/",
             "App\\Console\\Commands\\": "app/Console/Commands/"
 
-        }
+        },
+        "files": [
+            "app/Helpers.php"
+        ]
     },
     "autoload-dev": {
         "psr-4": {
