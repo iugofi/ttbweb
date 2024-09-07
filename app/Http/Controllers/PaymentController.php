@@ -286,7 +286,7 @@ class PaymentController extends Controller
                 0 => [
                     "amount" => [
                         "currency_code" => "USD",
-                        "value" => $checkses['price']
+                        "value" => 100
                     ]
                 ]
             ]
