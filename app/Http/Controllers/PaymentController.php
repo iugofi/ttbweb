@@ -19,7 +19,8 @@ use Illuminate\Support\Facades\Validator;
 use Stripe;
 use DB;
 use Mail;
-
+use App\Jobs\SavePaymentDetails;
+use App\Jobs\SaveUserDetails;
 
 class PaymentController extends Controller
 {
@@ -135,6 +136,43 @@ class PaymentController extends Controller
         } else {
             return response()->json(['success' => false, 'message' => 'Invalid OTP']);
         }
+    }
+
+
+    public function savePersonalDetails(Request $request)
+    {
+        $request->validate([
+            'firstname' => 'required|string|max:255',
+            'lastname' => 'required|string|max:255',
+            'email' => 'required|email',
+            'phoneno' => 'required|string|max:20',
+            'pincode' => 'required|string|max:10',
+            'city' => 'required|string|max:255',
+            'state' => 'required|string|max:255',
+            'country' => 'required|string|max:255',
+            'address' => 'required|string',
+        ]);
+        $existingData = Session::get('user_data', []);
+        $newData = [
+            'firstname' => $request->input('firstname'),
+            'lastname' => $request->input('lastname'),
+            'email' => $request->input('email'),
+            'phoneno' => $request->input('phoneno'),
+            'pincode' => $request->input('pincode'),
+            'city' => $request->input('city'),
+            'state' => $request->input('state'),
+            'country' => $request->input('country'),
+            'address' => $request->input('address'),
+            'same_as_shipping' => $request->input('same_as_shipping'),
+            'tab2'=>'firstpay2',
+        ];
+        $mergedData = array_merge($existingData, $newData);
+        Session::put('user_data', $mergedData);
+        SaveUserDetails::dispatch($mergedData);
+        return response()->json([
+            'message' => 'Personal details saved in session',
+            'prod_id' => $request->input('prod_id')
+        ]);
     }
 
 
