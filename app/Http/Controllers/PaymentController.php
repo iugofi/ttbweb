@@ -272,7 +272,7 @@ class PaymentController extends Controller
     public function processTransaction(Request $request)
     {
         $checkses = Session::get('user_data');
-        dd(($checkses['price']));
+        // dd(($checkses['price']));
         $provider = new PayPalClient;
         $provider->setApiCredentials(config('paypal'));
         // dd($provider);
@@ -287,7 +287,7 @@ class PaymentController extends Controller
                 0 => [
                     "amount" => [
                         "currency_code" => "USD",
-                        "value" => round($checkses['price'], 2)
+                        "value" => $checkses['price']
                     ]
                 ]
             ]
