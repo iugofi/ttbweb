@@ -35,7 +35,7 @@
         <div class="container main-banner-container">
             <div class="grid grid-cols-12 gap-6">
                 <div class="xxl:col-span-7 xl:col-span-7 lg:col-span-7 col-span-12 ">
-                    <h2 class="mt-3">Protects you from the unseen dangers: Threat Protection</h2>
+                    <h2 class="mt-3">Protects you from the unseen <br>dangers: Threat Protection</h2>
                     <img src="https://www.nighthawk-routerlogin.com/assets/img/threat-image1.png" alt=""
                         class="img-fluid" width="90%">
                 </div>
@@ -215,7 +215,7 @@
     {{-- START SECTION FIFETH NEW --}}
     <section class="threat-section-eight !bg-[#f9fafb] dark:!bg-black/10">
         <div class="container">
-            <h2 class="mt-2 pt-5 mb-5 text-center">How to prevent cyber attacks using TTB Threat Protection?</h2>
+            <h2 class="mt-2 pt-5 mb-5 text-center" style="font-weight:600;">How to prevent cyber attacks using TTB Threat Protection?</h2>
             <p class="mt-2 mb-8" style="font-size: 16px; text-align: center;">In addition, Threat Intelligence or
                 protection is a holistic approach, which includes all the routes of an organization's digital
                 infrastructure. Here, the professional IT team looks for the flaws in the system to be reduced and a more
@@ -329,7 +329,7 @@
                                     <img src="assets/img/Omniroutes-Lifting.png" alt="img" class="!rounded-md" style="max-width: 60px;height: 60px;">
                                 </span>
                             </div>
-                            <h6 class="font-bold mb-2 text-xl">Reduces Data Breach Risks</h6>
+                            <h6 class="font-bold mb-2 text-xl" style="font-size: 14px;">Reduces Data Breach Risks</h6>
                             <p class="card-text mb-4">This protection helps to intercept modern threats before they cause
                                 catastrophic defeats. However, it significantly reduces the risk of a data breach and
                                 ensures the safety of sensitive information—preserving and increasing your customers' trust.
@@ -349,7 +349,7 @@
 
                                 </span>
                             </div>
-                            <h6 class="font-bold mb-2 text-xl">Improved Efficiency</h6>
+                            <h6 class="font-bold mb-2 text-xl" style="font-size: 14px;">Improved Efficiency</h6>
                             <p class="card-text mb-4">With automated virus threat protection solutions, we assist you in
                                 securing from the present-day malware and virus attacks. It seamlessly connects with
                                 cloud-native solutions and cybersecurity platforms. Also, it easily integrates with the
@@ -374,7 +374,7 @@
                                     <img src="assets/img/Omniroutes-Lifting.png" alt="img" class="!rounded-md" style="max-width: 60px;height: 60px;">
                                 </span>
                             </div>
-                            <h6 class="font-bold mb-2 text-xl">Reduces Data Breach Risks</h6>
+                            <h6 class="font-bold mb-2 text-xl" style="font-size: 14px;">Reduces Data Breach Risks</h6>
                             <p class="card-text mb-4">This protection helps to intercept modern threats before they cause
                                 catastrophic defeats. However, it significantly reduces the risk of a data breach and
                                 ensures the safety of sensitive information—preserving and increasing your customers' trust.
@@ -394,7 +394,7 @@
 
                                 </span>
                             </div>
-                            <h6 class="font-bold mb-2 text-xl">Improved Efficiency</h6>
+                            <h6 class="font-bold mb-2 text-xl" style="font-size: 14px;">Improved Efficiency</h6>
                             <p class="card-text mb-4">With automated virus threat protection solutions, we assist you in
                                 securing from the present-day malware and virus attacks. It seamlessly connects with
                                 cloud-native solutions and cybersecurity platforms. Also, it easily integrates with the
@@ -413,7 +413,7 @@
 
                                 </span>
                             </div>
-                            <h6 class="font-bold mb-2 text-xl">Intensify the Observance</h6>
+                            <h6 class="font-bold mb-2 text-xl" style="font-size: 14px;">Intensify the Observance</h6>
                             <p class="card-text mb-4">Threat protection ensures compliance with industry policy and
                                 standards, saving the business from resulting fines and legal actions that would come with
                                 non-compliance. Likewise, it discovers and patches up any susceptibilities or
@@ -432,7 +432,7 @@
 
                                 </span>
                             </div>
-                            <h6 class="font-bold mb-2 text-xl">Peace of Mind</h6>
+                            <h6 class="font-bold mb-2 text-xl" style="font-size: 14px;">Peace of Mind</h6>
                             <p class="card-text mb-4">Generally, this protection gives peace of mind to the owners and
                                 representatives by offering deeper risk visibility of enterprise perimeters including
                                 infrastructure, networks, platforms, endpoints, applications, etc. Additionally, with this
