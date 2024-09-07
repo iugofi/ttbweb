@@ -250,7 +250,8 @@
 
                                 <div class="box-body box-bg">
                                     <span class="mb-4 avatar avatar-lg avatar-rounded !text-primary">
-                                        <i class="fa-solid fa-gears" style="font-size:40px;"></i>
+                                        <img src=" {{ asset('assets/img/24-7-icon.png') }}"
+                                    class="img-fluid endpoint-icon p-1 mt-3 w-100" style="width:45px; height:45px">
                                     </span>
                                     <h6 class="font-semibold pt-5 pb-3 text-xl">Device & Data Security</h6>
                                     <p class="card-text mb-4">Effective endpoint security services like TTB will ensure the
