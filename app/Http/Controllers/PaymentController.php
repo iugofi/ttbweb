@@ -24,6 +24,12 @@ use App\Jobs\SaveUserDetails;
 //paypal
 use Srmklive\PayPal\Services\PayPal as PayPalClient;
 
+use Stripe\Exception\CardException;
+use Stripe\Exception\InvalidRequestException;
+use Stripe\Exception\AuthenticationException;
+use Stripe\Exception\ApiConnectionException;
+use Stripe\Exception\ApiErrorException;
+
 class PaymentController extends Controller
 {
     // public function fpayitem($encryptedId)
@@ -176,6 +182,90 @@ class PaymentController extends Controller
             'prod_id' => $request->input('prod_id')
         ]);
     }
+
+    public function finalcheckoutstripe(Request $request)
+{
+    Stripe::setApiKey(env('STRIPE_SECRET'));
+    try {
+        $checkses = Session::get('user_data');
+
+        $customer = Customer::create([
+            'email' => $checkses['email'] ?? '',
+            'source' => $request->token,
+            'name' => ($checkses['firstname'] ?? '') . ' ' . ($checkses['lastname'] ?? ''),
+            'address' => [
+                'line1' => $checkses['address'] ?? '',
+                'line2' => $checkses['address'] ?? '',
+                'city' => $checkses['city'] ?? '',
+                'state' => $checkses['state'] ?? '',
+                'postal_code' => $checkses['pincode'] ?? '',
+                'country' => $checkses['country'] ?? '',
+            ],
+            'phone' => $checkses['phoneno'] ?? '',
+        ]);
+
+        $charge = Charge::create([
+            'amount' => $checkses['price'] * 100,
+            'currency' => 'usd',
+            'customer' => $customer->id,
+            'description' => $checkses['description'],
+        ]);
+
+        $updatedSessionData = array_merge($checkses, [
+            'payment_method'=>'Stripe',
+            'payment_status' => 'success',
+            'transaction_id' => $charge->id,
+            'payment_time' => now(),
+            'tab3'=>'firstpay3',
+        ]);
+
+        // Update the session with new data
+        Session::put('user_data', $updatedSessionData);
+
+        SavePaymentDetails::dispatch($updatedSessionData);
+
+        return response()->json([
+            'status' => 'Payment Successfully Done'
+        ]);
+    } catch (CardException $e) {
+        // Card was declined
+        return response()->json([
+            'status' => 'error',
+            'message' => 'Your card was declined. Please try again with a different card.'
+        ], 400);
+    } catch (InvalidRequestException $e) {
+        // Invalid parameters were supplied to Stripe's API
+        return response()->json([
+            'status' => 'error',
+            'message' => 'Invalid request. Please check the payment details and try again.'
+        ], 400);
+    } catch (AuthenticationException $e) {
+        // Authentication with Stripe’s API failed
+        return response()->json([
+            'status' => 'error',
+            'message' => 'Authentication with Stripe’s API failed. Please try again later.'
+        ], 500);
+    } catch (ApiConnectionException $e) {
+        // Network communication with Stripe failed
+        return response()->json([
+            'status' => 'error',
+            'message' => 'Network error. Please try again later.'
+        ], 500);
+    } catch (ApiErrorException $e) {
+        // Display a very generic error to the user
+        return response()->json([
+            'status' => 'error',
+            'message' => 'An unexpected error occurred. Please try again later.'
+        ], 500);
+    } catch (\Exception $e) {
+        // General exception handler
+        return response()->json([
+            'status' => 'error',
+            'message' => $e->getMessage()
+        ], 500);
+    }
+}
+
 
     public function processTransaction(Request $request)
     {
