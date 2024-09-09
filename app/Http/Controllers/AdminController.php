@@ -73,6 +73,7 @@ class AdminController extends Controller
             )
             ORDER BY p.id ASC
         ");
+        dd($paymentdetails);
             return view('Admin.manual_key_assign', ['paymentdetails' => $paymentdetails]);
         } else {
             return redirect('/setup');
