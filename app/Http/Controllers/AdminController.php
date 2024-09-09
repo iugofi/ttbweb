@@ -22,6 +22,7 @@ use App\Models\Plandetails;
 use App\Models\Visitors;
 use App\Models\Reminder_logs;
 use App\Models\SendMail;
+use App\Models\TTBKeyAssign;
 use Mail;
 use Illuminate\Support\Facades\Crypt;
 
@@ -66,7 +67,11 @@ class AdminController extends Controller
     public function savekeyttb(Request $request)
     {
         if ($this->loggedInAdmin) {
-            dd($request);
+            $ttbkeysave=new TTBKeyAssign();
+            $ttbkeysave->payment_id=$request->payment_id;
+            $ttbkeysave->main_key=$request->main_key;
+            $ttbkeysave->save();
+            
         } else {
             return redirect('/setup');
         }
