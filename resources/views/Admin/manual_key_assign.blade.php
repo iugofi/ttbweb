@@ -53,7 +53,7 @@
                                 <div class="xl:col-span-12 col-span-12">
                                     <label for="blog-Language" class="form-label">Payment Id</label>
                                     <select class="form-control block w-full text-[0.875rem] !rounded-md" data-trigger
-                                        name="mail_cat" id="mail_cat">
+                                        name="payment_id" id="payment_id">
                                         <option value="">Select</option>
                                         @foreach ($paymentdetails as $payment_ids)
                                             <option value="{{ $payment_ids->id }}">{{ $payment_ids->firstname }} {{ $payment_ids->lastname }},{{ $payment_ids->order_id }}</option>
@@ -61,15 +61,18 @@
                                     </select>
                                     <div class="invalid-feedback"></div>
                                 </div>
+                                <div class="xl:col-span-12 col-span-12">
+                                    <label for="blog-Language" class="form-label">TTB Key</label>
+                                    <select class="form-control block w-full text-[0.875rem] !rounded-md" data-trigger
+                                        name="ttb_key" id="mail_cat">
+                                        <option value="">Select</option>
+                                        @php
 
+                                        @endphp
 
-
-
-
-
-
-
-
+                                    </select>
+                                    <div class="invalid-feedback"></div>
+                                </div>
                             </div>
                         </div>
                         <div class="box-footer">
