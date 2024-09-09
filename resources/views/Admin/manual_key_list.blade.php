@@ -69,7 +69,6 @@
                             <thead>
                                 <tr>
                                     <th class="px-4 py-2">Id</th>
-                                    <th class="px-4 py-2">Payment Id</th>
                                     <th class="px-4 py-2">Uers Id</th>
                                     <th class="px-4 py-2">Order Id</th>
                                     <th class="px-4 py-2">Transaction Id</th>
@@ -106,7 +105,6 @@
                                             $id = 1;
                                         @endphp
                                         <td class="border px-4 py-2">{{ $key + 1 }}</td>
-                                        <td class="border px-4 py-2">{{ $item->id }}</td>
                                         <td class="border px-4 py-2">{{ $item->user_id }}</td>
                                         <td class="border px-4 py-2">{{ $item->order_id }}</td>
                                         <td class="border px-4 py-2">{{ $item->transaction_id }}</td>
