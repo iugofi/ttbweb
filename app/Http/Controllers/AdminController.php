@@ -71,7 +71,10 @@ class AdminController extends Controller
             $ttbkeysave->payment_id=$request->payment_id;
             $ttbkeysave->main_key=$request->ttb_key;
             $ttbkeysave->save();
-
+            return response()->json([
+                'status' => 200,
+                'messages' => 'Key Assign successfully'
+            ]);
         } else {
             return redirect('/setup');
         }
