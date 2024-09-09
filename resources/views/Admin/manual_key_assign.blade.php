@@ -56,7 +56,7 @@
                                         name="mail_cat" id="mail_cat">
                                         <option value="">Select</option>
                                         @php
-                                            $payment_id = Payments1::select('id')
+                                            $payment_id = Payment1::select('id')
                                                 ->orderBy('id', 'asc')
                                                 ->get();
                                         @endphp
