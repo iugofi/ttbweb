@@ -56,7 +56,7 @@
                                         name="mail_cat" id="mail_cat">
                                         <option value="">Select</option>
                                         @foreach ($paymentdetails as $payment_ids)
-                                            <option value="{{ $payment_ids->id }}">{{ $payment_ids->id }} {{ $payment_ids->order_id }}</option>
+                                            <option value="{{ $payment_ids->id }}">{{ $payment_ids->firstname }} {{ $payment_ids->lastname }},{{ $payment_ids->order_id }}</option>
                                         @endforeach
                                     </select>
                                     <div class="invalid-feedback"></div>
