@@ -104,7 +104,7 @@
                 ttbKeyDropdown.empty();
                 ttbKeyDropdown.append('<option value="">Select</option>'); // Default option
                 $.each(response.ttb_keys, function (index, key) {
-                    ttbKeyDropdown.append('<option value="' + key.id + '">' + key.key_value + '</option>');
+                    ttbKeyDropdown.append('<option value="' + key.id + '">' + key.main_key + '</option>');
                 });
             },
             error: function (xhr) {
