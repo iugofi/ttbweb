@@ -69,9 +69,9 @@ class AdminController extends Controller
         if ($this->loggedInAdmin) {
             $ttbkeysave=new TTBKeyAssign();
             $ttbkeysave->payment_id=$request->payment_id;
-            $ttbkeysave->main_key=$request->main_key;
+            $ttbkeysave->main_key=$request->ttb_key;
             $ttbkeysave->save();
-            
+
         } else {
             return redirect('/setup');
         }
