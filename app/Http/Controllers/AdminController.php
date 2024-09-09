@@ -73,12 +73,21 @@ class AdminController extends Controller
             )
             ORDER BY p.id ASC
         ");
-        
+
             return view('Admin.manual_key_assign', ['paymentdetails' => $paymentdetails]);
         } else {
             return redirect('/setup');
         }
     }
+
+    public function getTTBKeys(Request $request)
+{
+    $ttb_keys = TtbKey::where('product_id', $request->payment_id)
+        ->where('is_key_used', 0)
+        ->get();
+
+    return response()->json(['ttb_keys' => $ttb_keys]);
+}
 
     public function getTreemapData()
     {

@@ -52,8 +52,7 @@
 
                                 <div class="xl:col-span-12 col-span-12">
                                     <label for="blog-Language" class="form-label">Payment Id</label>
-                                    <select class="form-control block w-full text-[0.875rem] !rounded-md" data-trigger
-                                        name="payment_id" id="payment_id">
+                                    <select class="form-control block w-full text-[0.875rem] !rounded-md" name="payment_id" id="payment_id" onchange="fetchTTBKeys(this.value)">
                                         <option value="">Select</option>
                                         @foreach ($paymentdetails as $payment_ids)
                                             <option value="{{ $payment_ids->id }}">{{ $payment_ids->firstname }} {{ $payment_ids->lastname }},{{ $payment_ids->order_id }}</option>
@@ -61,18 +60,16 @@
                                     </select>
                                     <div class="invalid-feedback"></div>
                                 </div>
+
                                 <div class="xl:col-span-12 col-span-12">
                                     <label for="blog-Language" class="form-label">TTB Key</label>
-                                    <select class="form-control block w-full text-[0.875rem] !rounded-md" data-trigger
-                                        name="ttb_key" id="mail_cat">
+                                    <select class="form-control block w-full text-[0.875rem] !rounded-md" name="ttb_key" id="ttb_key">
                                         <option value="">Select</option>
-                                        @php
-
-                                        @endphp
-
                                     </select>
                                     <div class="invalid-feedback"></div>
                                 </div>
+
+
                             </div>
                         </div>
                         <div class="box-footer">
@@ -93,6 +90,33 @@
     </div>
 </div>
 
+<script>
+    function fetchTTBKeys(paymentId) {
+    if (paymentId !== "") {
+        $.ajax({
+            url: '/get-ttb-keys',
+            type: 'GET',
+            data: {
+                payment_id: paymentId
+            },
+            success: function (response) {
+                var ttbKeyDropdown = $('#ttb_key');
+                ttbKeyDropdown.empty();
+                ttbKeyDropdown.append('<option value="">Select</option>'); // Default option
+                $.each(response.ttb_keys, function (index, key) {
+                    ttbKeyDropdown.append('<option value="' + key.id + '">' + key.key_value + '</option>');
+                });
+            },
+            error: function (xhr) {
+                console.log('Error:', xhr);
+            }
+        });
+    } else {
+        $('#ttb_key').empty().append('<option value="">Select</option>');
+    }
+}
+
+</script>
 
 
 @endsection
