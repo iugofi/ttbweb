@@ -92,6 +92,8 @@
 
 <script>
     function fetchTTBKeys(paymentId) {
+        console.log(paymentId);
+
     if (paymentId !== "") {
         $.ajax({
             url: '/get-ttb-keys',
