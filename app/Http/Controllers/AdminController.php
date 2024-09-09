@@ -82,9 +82,17 @@ class AdminController extends Controller
 
     public function getTTBKeys(Request $request)
 {
-    $ttb_keys = TTBKEY::where('product_id', $request->payment_id)
-        ->where('is_key_used', 0)
-        ->get();
+    // $ttb_keys = TTBKEY::where('product_id', $request->payment_id)
+    //     ->where('is_key_used', 0)
+    //     ->get();
+
+        $ttb_keys = DB::select("
+        SELECT tk.*
+        FROM ttbkey AS tk
+        JOIN payments1 AS p ON p.product_id = tk.product_id
+        WHERE p.id = ? AND tk.is_key_used = 0
+        ORDER BY tk.created_at ASC
+    ", [$request->payment_id]);
 
     return response()->json(['ttb_keys' => $ttb_keys]);
 }
