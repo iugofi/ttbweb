@@ -73,6 +73,8 @@
                                     <th class="px-4 py-2">Uers Id</th>
                                     <th class="px-4 py-2">Order Id</th>
                                     <th class="px-4 py-2">Transaction Id</th>
+                                    <th class="px-4 py-2">Payment Status</th>
+                                    <th class="px-4 py-2">Payment Date</th>
 
 
                                     {{-- <th class="px-4 py-2">price</th>
@@ -108,6 +110,8 @@
                                         <td class="border px-4 py-2">{{ $item->user_id }}</td>
                                         <td class="border px-4 py-2">{{ $item->order_id }}</td>
                                         <td class="border px-4 py-2">{{ $item->transaction_id }}</td>
+                                        <td class="border px-4 py-2">{{ $item->payment_status }}</td>
+                                        <td class="border px-4 py-2">{{ $item->payment_time }}</td>
 
 
                                         {{-- <td class="border px-4 py-2">
