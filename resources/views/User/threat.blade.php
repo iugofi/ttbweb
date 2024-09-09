@@ -453,11 +453,11 @@
                                 </span>
                             </div>
                             <h6 class="font-bold mb-2 text-xl">Financial Mislayings</h6>
-                            <p class="card-text mb-4"style="font-size: 15px;">Cyber attacks impose substantial financial
-                                scrapes. The costs range from direct expenses such as ransom payments
-                                to indirect costs such as loss of business opportunities and legal expenditures. Hence, an
-                                effective menace protection solution diminishes these risks, covering the organization's
-                                bottom line.</p>
+                            <p class="card-text mb-4"style="font-size: 15px;">Overall, Threat protection is an integral
+                                component of security as it remains a cornerstone of the primary cybersecurity strategies
+                                 in any corps. Similarly, in this blossoming digital age, where the menace of cyber threats
+                                  continues to be on the increase. So, TTB threat protection will enable companies to better
+                                   protect their assets, meet compliance requirements, and increase trust with their customers.</p>
                             <br>
 
                         </div>
