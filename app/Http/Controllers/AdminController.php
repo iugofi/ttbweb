@@ -67,14 +67,38 @@ class AdminController extends Controller
     public function savekeyttb(Request $request)
     {
         if ($this->loggedInAdmin) {
-            $ttbkeysave=new TTBKeyAssign();
-            $ttbkeysave->payment_id=$request->payment_id;
-            $ttbkeysave->main_key=$request->ttb_key;
-            $ttbkeysave->save();
-            return response()->json([
-                'status' => 200,
-                'messages' => 'Key Assign successfully'
-            ]);
+
+            DB::beginTransaction();
+
+            try {
+
+                $ttbkeysave = new TTBKeyAssign();
+                $ttbkeysave->payment_id = $request->payment_id;
+                $ttbkeysave->main_key = $request->ttb_key;
+                $ttbkeysave->save();
+
+
+                DB::table('ttbkey')
+                    ->where('id', $request->ttb_key)
+                    ->update(['is_key_used' => 1]);
+
+
+                DB::commit();
+
+                return response()->json([
+                    'status' => 200,
+                    'messages' => 'Key assigned successfully'
+                ]);
+
+            } catch (\Exception $e) {
+          
+                DB::rollBack();
+
+                return response()->json([
+                    'status' => 500,
+                    'messages' => 'An error occurred: ' . $e->getMessage()
+                ]);
+            }
         } else {
             return redirect('/setup');
         }
