@@ -94,7 +94,7 @@
     function fetchTTBKeys(paymentId) {
     if (paymentId !== "") {
         $.ajax({
-            url: '/get-ttb-keys',
+            url: '{{route('keyget.assign')}}',
             type: 'GET',
             data: {
                 payment_id: paymentId
