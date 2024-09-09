@@ -41,7 +41,7 @@
                 </li>
                 <li class="text-[0.813rem] text-defaulttextcolor font-semibold hover:text-primary dark:text-[#8c9097] dark:text-white/50 "
                     aria-current="page">
-                    Event List
+                    Manual Key List
                 </li>
             </ol>
         </div>
@@ -55,7 +55,7 @@
                 <div class="box custom-box">
                     <div class="box-header">
                         <div class="box-title">
-                            Event List
+                            Manual Key List
                         </div>
                     </div>
 
@@ -69,10 +69,11 @@
                             <thead>
                                 <tr>
                                     <th class="px-4 py-2">Id</th>
-                                    <th class="px-4 py-2">user_id</th>
-                                    <th class="px-4 py-2">order_id</th>
-                                    <th class="px-4 py-2">description</th>
-                                    <th class="px-4 py-2">Action</th>
+                                    <th class="px-4 py-2">Payment Id</th>
+                                    <th class="px-4 py-2">Uers Id</th>
+                                    <th class="px-4 py-2">Order Id</th>
+                                    <th class="px-4 py-2">Transaction Id</th>
+
 
                                     {{-- <th class="px-4 py-2">price</th>
                                     <th class="px-4 py-2">discount</th>
@@ -103,12 +104,13 @@
                                             $id = 1;
                                         @endphp
                                         <td class="border px-4 py-2">{{ $key + 1 }}</td>
+                                        <td class="border px-4 py-2">{{ $item->id }}</td>
                                         <td class="border px-4 py-2">{{ $item->user_id }}</td>
                                         <td class="border px-4 py-2">{{ $item->order_id }}</td>
-                                        <td class="border px-4 py-2">{{ $item->description }}</td>
+                                        <td class="border px-4 py-2">{{ $item->transaction_id }}</td>
 
 
-                                        <td class="border px-4 py-2">
+                                        {{-- <td class="border px-4 py-2">
                                             <div class="flex flex-row items-center !gap-2 text-[0.9375rem]">
 
                                                 <a aria-label="anchor" href="{{ route('edit.planedit', \Crypt::encrypt($item->id)) }}"
@@ -123,7 +125,7 @@
                                                 </button>
 
                                             </div>
-                                        </td>
+                                        </td> --}}
                                     </tr>
                                 @endforeach
                             </tbody>
