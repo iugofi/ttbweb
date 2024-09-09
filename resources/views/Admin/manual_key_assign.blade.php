@@ -56,11 +56,9 @@
                                         name="mail_cat" id="mail_cat">
                                         <option value="">Select</option>
                                         @php
-                                            $payment_id = Payment1::select('id')
-                                                ->orderBy('id', 'asc')
-                                                ->get();
+
                                         @endphp
-                                        @foreach ($payment_id as $payment_ids)
+                                        @foreach ($paymentdetails as $payment_ids)
                                             <option value="{{ $payment_ids->id }}">{{ $payment_ids->id }} {{ $payment_ids->order_id }}</option>
                                         @endforeach
 
