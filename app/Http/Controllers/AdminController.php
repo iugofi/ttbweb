@@ -16,6 +16,7 @@ use App\Models\Newscomment;
 use App\Models\Users;
 use App\Models\Planname;
 use App\Models\Eventmodel;
+use App\Models\Payment1;
 use App\Models\Payments;
 use App\Models\Plandetails;
 use App\Models\Visitors;
@@ -45,6 +46,17 @@ class AdminController extends Controller
             }
             return $next($request);
         });
+    }
+
+    public function manual_key_list()
+    {
+
+        if ($this->loggedInAdmin) {
+            $paymentdetails = Payment1::orderBy('id', 'desc')->get();
+            return view('Admin.index', ['paymentdetails' => $paymentdetails]);
+        } else {
+            return redirect('/setup');
+        }
     }
 
     public function getTreemapData()

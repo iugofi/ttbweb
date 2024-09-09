@@ -350,6 +350,9 @@ Route::get('/mailtest', [UserController::class, 'mailtest'])->name('admin.mailte
 
          Route::get('/Reminder_mail_list', [AdminController::class, 'Reminder_mail_list'])->name('Reminder_mail_list.page');
 
+         //manual key send
+         Route::get('/manual_key_list', [AdminController::class, 'manual_key_list'])->name('manual_key_list.page');
+
 
          //graph
          Route::get('/treemap-data', [AdminController::class, 'getTreemapData'])->name('treemap.data');
