@@ -459,7 +459,6 @@
                                   continues to be on the increase. So, TTB threat protection will enable companies to better
                                    protect their assets, meet compliance requirements, and increase trust with their customers.</p>
                             <br>
-
                         </div>
                     </div>
                 </div>
