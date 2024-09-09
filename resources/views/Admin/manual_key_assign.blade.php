@@ -22,14 +22,14 @@
                 <li class="text-[0.813rem] ps-[0.5rem]">
                     <a class="flex items-center text-primary hover:text-primary dark:text-primary truncate"
                         href="javascript:void(0);">
-                        Mail Create
+                        Manual Key Assign Create
                         <i
                             class="ti ti-chevrons-right flex-shrink-0 text-[#8c9097] dark:text-white/50 px-[0.5rem] overflow-visible rtl:rotate-180"></i>
                     </a>
                 </li>
                 <li class="text-[0.813rem] text-defaulttextcolor font-semibold hover:text-primary dark:text-[#8c9097] dark:text-white/50 "
                     aria-current="page">
-                     Mail Create
+                    Manual Key Assign Create
                 </li>
             </ol>
         </div>
@@ -40,7 +40,7 @@
             <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 sm:col-span-12 col-span-12">
                 <div class="box">
                     <div class="box-header">
-                        <div class="box-title">Mail Create</div>
+                        <div class="box-title">Manual Key Assign Create</div>
                     </div>
                     <form method="post" id="mail_create_form" enctype="multipart/form-data">
                         @csrf
@@ -51,34 +51,21 @@
                             <div class="grid grid-cols-12 gap-4">
 
                                 <div class="xl:col-span-12 col-span-12">
-                                    <label for="blog-Language" class="form-label">Mail Category</label>
+                                    <label for="blog-Language" class="form-label">Payment Id</label>
                                     <select class="form-control block w-full text-[0.875rem] !rounded-md" data-trigger
                                         name="mail_cat" id="mail_cat">
                                         <option value="">Select</option>
-                                        @php
-
-                                        @endphp
                                         @foreach ($paymentdetails as $payment_ids)
                                             <option value="{{ $payment_ids->id }}">{{ $payment_ids->id }} {{ $payment_ids->order_id }}</option>
                                         @endforeach
-
                                     </select>
                                     <div class="invalid-feedback"></div>
-
                                 </div>
 
 
-                                <div class="xl:col-span-12 col-span-12">
-                                    <label class="form-label">Email Content</label>
-                                    <textarea name="EmailBody" id="summernote" class="typing-text" cols="40" rows="20"></textarea>
-                                    <div class="invalid-feedback"></div>
-                                </div>
 
-                                <div class="xl:col-span-12 col-span-12">
-                                    <label class="form-label">Email Content HTML (optional)</label>
-                                    <textarea name="EmailHTML"  class="form-control block w-full text-[0.875rem]"></textarea>
-                                    <div class="invalid-feedback"></div>
-                                </div>
+
+
 
 
 
