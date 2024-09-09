@@ -53,7 +53,7 @@ class AdminController extends Controller
 
         if ($this->loggedInAdmin) {
             $paymentdetails = Payment1::orderBy('id', 'desc')->get();
-            return view('Admin.manual_key_list', ['paymentdetails' => $paymentdetails]);
+            return view('Admin.manual_key_assign', ['paymentdetails' => $paymentdetails]);
         } else {
             return redirect('/setup');
         }
