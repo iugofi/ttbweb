@@ -66,7 +66,7 @@ class AdminController extends Controller
     public function savekeyttb(Request $request)
     {
         if ($this->loggedInAdmin) {
-            dd($request->payment_id);
+            dd($request);
         } else {
             return redirect('/setup');
         }
