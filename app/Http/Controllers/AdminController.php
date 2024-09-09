@@ -54,10 +54,19 @@ class AdminController extends Controller
         if ($this->loggedInAdmin) {
             $paymentdetails = DB::table('payments1 as p')
             ->leftJoin('ttb_key_assign as tka', 'tka.payment_id', '=', 'p.id')
-            ->select('p.*', 'tka.*') 
+            ->select('p.*', 'tka.*')
             ->orderBy('p.id', 'desc')
             ->get();
             return view('Admin.manual_key_list', ['paymentdetails' => $paymentdetails]);
+        } else {
+            return redirect('/setup');
+        }
+    }
+
+    public function savekeyttb(Request $request)
+    {
+        if ($this->loggedInAdmin) {
+            dd($request->payment_id);
         } else {
             return redirect('/setup');
         }

@@ -42,7 +42,7 @@
                     <div class="box-header">
                         <div class="box-title">Manual Key Assign Create</div>
                     </div>
-                    <form method="post" id="mail_create_form" enctype="multipart/form-data">
+                    <form method="post" id="key_create_form" enctype="multipart/form-data">
                         @csrf
                         <div class="box-body">
                             <div class="box text-center">
@@ -75,7 +75,7 @@
                         <div class="box-footer">
                             <div class="text-end">
                                 {{-- <button type="button" class="ti-btn !py-1 !px-2 ti-btn-light !text-[0.75rem] !font-medium me-2">Save As Draft</button> --}}
-                                <input type="submit" value="Send Manual Message" id="mail_create_form_btn"
+                                <input type="submit" value="Send Manual Message" id="key_create_form_btn"
                                     class="ti-btn bg-primary text-white !py-1 !px-2 !text-[0.75rem] !font-medium">
                             </div>
                         </div>
@@ -91,6 +91,45 @@
 </div>
 
 <script>
+
+$(document).ready(function() {
+        $('#key_create_form').submit(function(e) {
+            e.preventDefault();
+            $('#key_create_form_btn').val('please wait..');
+            var token = $('meta[name="csrf-token"]').attr('content');
+            var formData = new FormData($(this)[0]);
+
+            $.ajax({
+                url: '{{ route('save.ttbkey') }}',
+                method: 'post',
+                data: formData,
+                headers: {
+                    'X-CSRF-TOKEN': token
+                },
+                contentType: false,
+                processData: false,
+                success: function(response) {
+                    if (response.status == 400) {
+                        showError('payment_id', response.messages.payment_id);
+                        showError('ttb_key', response.messages.ttb_key);
+                        $('#key_create_form_btn').val('Send Manual Message');
+                    } else if (response.status == 200) {
+                        $('.invalid-feedback').empty();
+                        $("#show_success_alert").html(showMessage('success', response
+                            .messages));
+                        $('#key_create_form')[0].reset();
+                        removeValidationClass("#key_create_form");
+                        $('#key_create_form_btn').val('Send Manual Message');
+
+                    }
+                },
+                error: function(xhr, status, error) {}
+            });
+        });
+
+
+       });
+
     function fetchTTBKeys(paymentId) {
     if (paymentId !== "") {
         $.ajax({
