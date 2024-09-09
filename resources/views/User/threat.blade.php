@@ -334,8 +334,7 @@
                                 <div class="box-body">
                                     <div class="mb-2">
                                         <span class="avatar avatar-md">
-
-                                            <img src="assets/img/Omniroutes-Lifting.png" alt="img"
+                                                <img src="assets/img/Omniroutes-Lifting.png" alt="img"
                                                 class="!rounded-md" style="max-width: 60px;height: 60px;">
                                         </span>
                                     </div>
