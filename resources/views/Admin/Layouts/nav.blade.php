@@ -255,6 +255,12 @@
                             <span class="side-menu__label">Manual Key List</span>
                         </a>
                     </li>
+                    <li class="slide">
+                        <a href="{{route('manual_key_assign.page')}}" class="side-menu__item">
+                            <i class="bi bi-calendar4-event side-menu__icon"></i>
+                            <span class="side-menu__label">Key Assign</span>
+                        </a>
+                    </li>
 
 
                     @endif

@@ -59,6 +59,17 @@ class AdminController extends Controller
         }
     }
 
+    public function manual_key_assign()
+    {
+
+        if ($this->loggedInAdmin) {
+            $paymentdetails = Payment1::orderBy('id', 'desc')->get();
+            return view('Admin.manual_key_assign', ['paymentdetails' => $paymentdetails]);
+        } else {
+            return redirect('/setup');
+        }
+    }
+
     public function getTreemapData()
     {
 

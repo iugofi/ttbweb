@@ -352,6 +352,7 @@ Route::get('/mailtest', [UserController::class, 'mailtest'])->name('admin.mailte
 
          //manual key send
          Route::get('/manual_key_list', [AdminController::class, 'manual_key_list'])->name('manual_key_list.page');
+         Route::get('/manual_key_assign', [AdminController::class, 'manual_key_assign'])->name('manual_key_assign.page');
 
 
          //graph
