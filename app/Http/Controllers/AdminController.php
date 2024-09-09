@@ -82,7 +82,7 @@ class AdminController extends Controller
 
     public function getTTBKeys(Request $request)
 {
-    $ttb_keys = TtbKey::where('product_id', $request->payment_id)
+    $ttb_keys = TTBKEY::where('product_id', $request->payment_id)
         ->where('is_key_used', 0)
         ->get();
 
