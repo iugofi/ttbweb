@@ -334,7 +334,7 @@
                                 <div class="box-body">
                                     <div class="mb-2">
                                         <span class="avatar avatar-md">
-                                                <img src="assets/img/Omniroutes-Lifting.png" alt="img"
+                                                <img src="assets/img/Elevated-Cyber-Threats.png" alt="img"
                                                 class="!rounded-md" style="max-width: 60px;height: 60px;">
                                         </span>
                                     </div>
@@ -355,7 +355,7 @@
                                 <div class="box-body">
                                     <div class="mb-2">
                                         <span class="avatar avatar-md">
-                                            <img src="assets/img/Content-Touchpoint.png" alt="img"
+                                            <img src="assets/img/Thwarting-Threats-to-Sensitive-Data.png" alt="img"
                                                 class="!rounded-md" style="max-width: 60px;height: 60px;">
 
                                         </span>
@@ -384,7 +384,7 @@
                             <div class="mb-2">
                                 <span class="avatar avatar-md">
 
-                                    <img src="assets/img/Omniroutes-Lifting.png" alt="img" class="!rounded-md"
+                                    <img src="assets/img/Safeguarding-Business.png" alt="img" class="!rounded-md"
                                         style="max-width: 60px;height: 60px;">
                                 </span>
                             </div>
@@ -404,7 +404,7 @@
                         <div class="box-body">
                             <div class="mb-2">
                                 <span class="avatar avatar-md">
-                                    <img src="assets/img/Content-Touchpoint.png" alt="img" class="!rounded-md"
+                                    <img src="assets/img/Official-Compliance.png" alt="img" class="!rounded-md"
                                         style="max-width: 60px;height: 60px;">
 
                                 </span>
@@ -424,7 +424,7 @@
                         <div class="box-body">
                             <div class="mb-2">
                                 <span class="avatar avatar-md">
-                                    <img src="assets/img/Faster-Resolution.png" alt="img" class="!rounded-md"
+                                    <img src="assets/img/Advanced-Threat-Protection.png" alt="img" class="!rounded-md"
                                         style="max-width: 60px;height: 60px;">
 
                                 </span>
@@ -446,7 +446,7 @@
                         <div class="box-body">
                             <div class="mb-2">
                                 <span class="avatar avatar-md">
-                                    <img src="assets/img/Support-Channels.png" alt="img" class="!rounded-md"
+                                    <img src="assets/img/Financial-Mislayings.png" alt="img" class="!rounded-md"
                                         style="max-width: 60px;height: 60px;">
 
                                 </span>
