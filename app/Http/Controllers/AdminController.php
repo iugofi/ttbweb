@@ -63,9 +63,11 @@ class AdminController extends Controller
     {
 
         if ($this->loggedInAdmin) {
-            $paymentdetails =Payment1::select('id')
-            ->orderBy('id', 'asc')
-            ->get();
+            $paymentdetails = Payment1::whereDoesntHave('ttb_key_assign', function ($query) {
+                $query->select(DB::raw(1))
+                      ->whereColumn('payment_id', 'payments1.id');
+            })->orderBy('id', 'asc')->get();
+
             return view('Admin.manual_key_assign', ['paymentdetails' => $paymentdetails]);
         } else {
             return redirect('/setup');
