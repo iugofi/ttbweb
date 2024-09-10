@@ -56,7 +56,7 @@ class AdminController extends Controller
             $paymentdetails = DB::table('payments1 as p')
             ->leftJoin('ttb_key_assign as tka', 'tka.payment_id', '=', 'p.id')
             ->select('p.*', 'tka.*')
-            ->orderBy('p.id', 'asc')
+            ->orderBy('p.id', 'desc')
             ->get();
             return view('Admin.manual_key_list', ['paymentdetails' => $paymentdetails]);
         } else {
@@ -116,7 +116,7 @@ class AdminController extends Controller
                 FROM ttb_key_assign tka
                 WHERE tka.payment_id = p.id
             )
-            ORDER BY p.id ASC
+            ORDER BY p.id desc
         ");
 
             return view('Admin.manual_key_assign', ['paymentdetails' => $paymentdetails]);
