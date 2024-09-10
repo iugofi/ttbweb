@@ -10,6 +10,7 @@
     @if($paymentDetails)
         <ul>
             <li><strong>Payment ID:</strong> {{ $paymentDetails->id }}</li>
+            <li><strong>Order ID:</strong> {{ $paymentDetails->order_id }}</li>
             <li><strong>Description:</strong> {{ $paymentDetails->description }}</li>
             <li><strong>Price:</strong> {{ $paymentDetails->price }}</li>
             <li><strong>Discount:</strong> {{ $paymentDetails->discount }}</li>
