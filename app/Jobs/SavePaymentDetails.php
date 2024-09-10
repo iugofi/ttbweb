@@ -2,27 +2,30 @@
 
 namespace App\Jobs;
 
+use App\Mail\ActivationKeySend;
 use App\Mail\FailKeySendMail;
 use Illuminate\Bus\Queueable;
 use App\Models\Payment1;
 use App\Models\Users;
 use App\Models\TTBKEY;
-use Carbon\Carbon;
-use Illuminate\Contracts\Queue\ShouldBeUnique;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Queue\SerializesModels;
-use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Log;
 
 class SavePaymentDetails implements ShouldQueue
 {
     use Dispatchable, InteractsWithQueue, Queueable, SerializesModels;
+
     protected $paymentData;
+
     /**
      * Create a new job instance.
      *
+     * @param array $paymentData
      * @return void
      */
     public function __construct(array $paymentData)
@@ -37,19 +40,20 @@ class SavePaymentDetails implements ShouldQueue
      */
     public function handle()
     {
+        try {
+            $payment = Payment1::create($this->paymentData);
+            $paymentId = $payment->id;
+            $paymentEmail = $payment->email;
 
-        $payment = Payment1::create($this->paymentData);
-        $paymentId = $payment->id;
+            $getkey = TTBKEY::where('product_id', $this->paymentData['product_id'])
+                ->where('is_key_used', 0)
+                ->orderBy('created_at', 'ASC')
+                ->limit(1)
+                ->first();
 
-        $getkey = TTBKEY::where('product_id', $this->paymentData['product_id'])
-            ->where('is_key_used', 0)
-            ->orderBy('created_at', 'ASC')
-            ->limit(1)
-            ->first();
-
-        if ($getkey) {
-            $getkey->is_key_used = 1;
-                $getkey->key_activation_date = Carbon::now();
+            if ($getkey) {
+                $getkey->is_key_used = 1;
+                $getkey->key_activation_date = now();
 
                 $plan_id_get = DB::table('product_details')
                     ->select('plan_id')
@@ -59,35 +63,40 @@ class SavePaymentDetails implements ShouldQueue
                 if (isset($plan_id_get->plan_id)) {
                     switch ($plan_id_get->plan_id) {
                         case 601:
-                            $getkey->key_expirey_date = Carbon::now()->addMonths(1);
+                            $getkey->key_expirey_date = now()->addMonths(1);
                             break;
                         case 602:
-                            $getkey->key_expirey_date = Carbon::now()->addYear();
+                            $getkey->key_expirey_date = now()->addYear();
                             break;
                         case 603:
                         case 604:
                         case 605:
-                            $getkey->key_expirey_date = Carbon::now()->addYear();
+                            $getkey->key_expirey_date = now()->addYear();
                             break;
                         default:
-                            $getkey->key_expirey_date = Carbon::now();
+                            $getkey->key_expirey_date = now();
                             break;
                     }
                     $getkey->save();
                 }
 
-            DB::table('ttb_key_assign')->insert([
-                'payment_id' => $paymentId,
-                'main_key' => $getkey->id,
-                'mail_send_status' => 'pending',
-                'created_at' => now(),
-                'updated_at' => now()
-            ]);
+                $ttb_key_assignId = DB::table('ttb_key_assign')->insertGetId([
+                    'payment_id' => $paymentId,
+                    'main_key' => $getkey->id,
+                    'mail_send_status' => 'pending',
+                    'created_at' => now(),
+                    'updated_at' => now()
+                ]);
 
+                Mail::to($paymentEmail)->send(new ActivationKeySend($ttb_key_assignId));
 
-        }else
-        {
-            Mail::to('kunal.iugofi@gmail.com')->send(new FailKeySendMail($paymentId));
+            } else {
+                Mail::to('kunal.iugofi@gmail.com')->send(new FailKeySendMail($paymentId));
+            }
+
+        } catch (\Exception $e) {
+            // Handle the exception (log it, notify someone, etc.)
+            Log::error('Payment details job failed: ' . $e->getMessage());
         }
     }
 }
