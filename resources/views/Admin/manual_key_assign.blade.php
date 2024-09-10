@@ -54,9 +54,12 @@
                                     <label for="blog-Language" class="form-label">Payment Id</label>
                                     <select class="form-control block w-full text-[0.875rem] !rounded-md" name="payment_id" id="payment_id" onchange="fetchTTBKeys(this.value)">
                                         <option value="">Select</option>
-                                        @foreach ($paymentdetails as $payment_ids)
+                                        @foreach ($paymentdetails as $payment)
 
-                                            <option value="{{ $payment_ids->id }}"><input type="check" value="{{ $payment_ids->firstname }} {{ $payment_ids->lastname }},{{ $payment_ids->order_id }}"></option>
+                                        <div>
+                                            <input type="checkbox" name="payment_ids[]" value="{{ $payment->id }}">
+                                            {{ $payment->firstname }} {{ $payment->lastname }}, {{ $payment->order_id }}
+                                        </div>
                                         @endforeach
                                     </select>
                                     <div class="invalid-feedback"></div>
