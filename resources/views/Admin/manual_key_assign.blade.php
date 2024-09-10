@@ -67,7 +67,7 @@
                                                 <tr class="border-b border-defaultborder">
                                                     <th scope="row" class="text-start">
                                                         <div class="form-check">
-                                                            <input class="form-check-input" type="checkbox" value="{{ $payment->id }}" id="checkebox-sm" checked>
+                                                            <input class="form-check-input" type="checkbox" value="{{ $payment->id }}" id="checkebox-sm">
                                                             <label class="form-check-label" for="checkebox-sm">
                                                                 {{ $payment->firstname }} {{ $payment->lastname }}
                                                             </label>
