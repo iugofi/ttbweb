@@ -116,7 +116,7 @@ class AdminController extends Controller
                 FROM ttb_key_assign tka
                 WHERE tka.payment_id = p.id
             )
-            ORDER BY p.id desc
+            ORDER BY p.id ASC
         ");
 
             return view('Admin.manual_key_assign', ['paymentdetails' => $paymentdetails]);
