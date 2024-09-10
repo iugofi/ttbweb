@@ -56,7 +56,7 @@ class AdminController extends Controller
             $paymentdetails = DB::table('payments1 as p')
             ->leftJoin('ttb_key_assign as tka', 'tka.payment_id', '=', 'p.id')
             ->select('p.*', 'tka.*')
-            ->orderBy('p.id', 'desc')
+            ->orderBy('p.id', 'asc')
             ->get();
             return view('Admin.manual_key_list', ['paymentdetails' => $paymentdetails]);
         } else {
@@ -91,7 +91,7 @@ class AdminController extends Controller
                 ]);
 
             } catch (\Exception $e) {
-          
+
                 DB::rollBack();
 
                 return response()->json([
