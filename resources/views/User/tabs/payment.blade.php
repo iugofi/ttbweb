@@ -153,21 +153,26 @@
                                                                 <div class="box-body">
                                                                     <div class="mb-4 sm:flex block " role="group"
                                                                         aria-label="Basic radio toggle button group">
-                                                                        <input type="radio" class="btn-check "
-                                                                            name="btnradio" id="btnradio1" checked>
-                                                                        <label
-                                                                            class="w-full hs-tab-active:font-semibold ti-btn ti-btn-outline-light !text-defaulttextcolor sm:!border-e-0 dark:!text-defaulttextcolor/70 dark:!border-defaultborder/10 hover:!bg-light !rounded-e-none active"
-                                                                            id="icon-item-1" data-hs-tab="#icon-1"
-                                                                            aria-controls="icon-1">Credit/Debit
-                                                                            Card</label>
-                                                                        <input type="radio" class="btn-check"
-                                                                            name="btnradio" id="btnradio2">
-                                                                        <label
-                                                                            class="w-full hs-tab-active:font-semibold ti-btn ti-btn-outline-light !text-defaulttextcolor dark:!text-defaulttextcolor/70 sm:!border-e-0 dark:!border-defaultborder/10 hover:!bg-light sm:mt-0 mt-1 !rounded-none"
-                                                                            id="icon-item-2" data-hs-tab="#icon-2"
-                                                                            aria-controls="icon-2">PayPal</label>
+                                                                        @if ($paymentGateways->PICK_TEXT == 'Stripe' && $paymentGateways->PICK_TEXT_EXTEND == 1)
+                                                                            <input type="radio" class="btn-check "
+                                                                                name="btnradio" id="btnradio1" checked>
+                                                                            <label
+                                                                                class="w-full hs-tab-active:font-semibold ti-btn ti-btn-outline-light !text-defaulttextcolor sm:!border-e-0 dark:!text-defaulttextcolor/70 dark:!border-defaultborder/10 hover:!bg-light !rounded-e-none active"
+                                                                                id="icon-item-1" data-hs-tab="#icon-1"
+                                                                                aria-controls="icon-1">Credit/Debit
+                                                                                Card</label>
+                                                                        @endif
+                                                                        @if ($paymentGateways->PICK_TEXT == 'Paypal' && $paymentGateways->PICK_TEXT_EXTEND == 1)
+                                                                            <input type="radio" class="btn-check"
+                                                                                name="btnradio" id="btnradio2">
+                                                                            <label
+                                                                                class="w-full hs-tab-active:font-semibold ti-btn ti-btn-outline-light !text-defaulttextcolor dark:!text-defaulttextcolor/70 sm:!border-e-0 dark:!border-defaultborder/10 hover:!bg-light sm:mt-0 mt-1 !rounded-none"
+                                                                                id="icon-item-2" data-hs-tab="#icon-2"
+                                                                                aria-controls="icon-2">PayPal</label>
+                                                                        @endif
                                                                         <input type="radio" class="btn-check"
                                                                             name="btnradio" id="btnradio3">
+
                                                                         {{-- <label
                                                                             class="w-full hs-tab-active:font-semibold ti-btn ti-btn-outline-light !text-defaulttextcolor dark:!text-defaulttextcolor/70 dark:!border-defaultborder/70 hover:!bg-light !rounded-s-none sm:mt-0 mt-1"
                                                                             id="icon-item-3" data-hs-tab="#icon-3"

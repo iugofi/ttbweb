@@ -20,6 +20,7 @@ use DB;
 use Mail;
 use App\Jobs\SavePaymentDetails;
 use App\Jobs\SaveUserDetails;
+use App\Models\Storepick;
 //paypal
 use Srmklive\PayPal\Services\PayPal as PayPalClient;
 //stripe
@@ -93,7 +94,8 @@ class PaymentController extends Controller
         if (isset($user_data['tab2']) && $user_data['tab2'] == 'firstpay2' && $user_data['tab1'] == 'firstpay1') {
         $id = decrypt($id_on);
         $plan = Helpers::getPlanDetails($id);
-        return view('User.tabs.payment', ['plan' => $plan, 'id_on' => $id]);
+        $paymentGateways = Storepick::where('STORE_ID', 'payment_getways')->get();
+        return view('User.tabs.payment', ['plan' => $plan, 'id_on' => $id,'paymentGateways'=>$paymentGateways]);
     } else {
         return redirect()->route('user.fpay1', ['id' => $id_on])->with('error', 'Access denied. Please complete the previous steps first.');;
     }
