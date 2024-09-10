@@ -168,10 +168,10 @@
                                                                             aria-controls="icon-2">PayPal</label>
                                                                         <input type="radio" class="btn-check"
                                                                             name="btnradio" id="btnradio3">
-                                                                        <label
+                                                                        {{-- <label
                                                                             class="w-full hs-tab-active:font-semibold ti-btn ti-btn-outline-light !text-defaulttextcolor dark:!text-defaulttextcolor/70 dark:!border-defaultborder/70 hover:!bg-light !rounded-s-none sm:mt-0 mt-1"
                                                                             id="icon-item-3" data-hs-tab="#icon-3"
-                                                                            aria-controls="icon-3">Googlepay</label>
+                                                                            aria-controls="icon-3">Googlepay</label> --}}
                                                                     </div>
 
                                                                     <div class="mt-3">
@@ -257,11 +257,11 @@
                                                                             </center>
 
                                                                         </div>
-                                                                        <div id="icon-3" class="hidden"
+                                                                        {{-- <div id="icon-3" class="hidden"
                                                                             role="tabpanel" aria-labelledby="icon-item-3">
                                                                             <center> <button id="google-pay-button"
                                                                                     class="google-pay"></button></center>
-                                                                        </div>
+                                                                        </div> --}}
                                                                     </div>
                                                                 </div>
                                     </form>
