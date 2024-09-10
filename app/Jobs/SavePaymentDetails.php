@@ -5,7 +5,9 @@ namespace App\Jobs;
 use Illuminate\Bus\Queueable;
 use App\Models\Payment1;
 use App\Models\Users;
+use App\Models\TTBKEY;
 use Illuminate\Contracts\Queue\ShouldBeUnique;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Queue\InteractsWithQueue;
@@ -32,7 +34,16 @@ class SavePaymentDetails implements ShouldQueue
      */
     public function handle()
     {
-       
-        Payment1::create($this->paymentData);
+
+        $payment = Payment1::create($this->paymentData);
+        $paymentId = $payment->id;
+
+        DB::table('ttb_key_assign')->insert([
+            'payment_id' => $paymentId,
+            'main_key' => 'your_main_key_value',
+            'mail_send_status' => 'pending',      
+            'created_at' => now(),
+            'updated_at' => now()
+        ]);
     }
 }
