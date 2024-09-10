@@ -32,4 +32,14 @@ class Payment1 extends Model
         'payment_time',
     ];
     use HasFactory;
+    public function setFirstnameAttribute($value)
+    {
+        $this->attributes['firstname'] = ucfirst(strtolower($value));
+    }
+    public function setLastnameAttribute($value)
+    {
+        $this->attributes['lastname'] = ucfirst(strtolower($value));
+    }
 }
+
+

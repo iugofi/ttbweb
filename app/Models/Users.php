@@ -33,6 +33,15 @@ class Users extends Model
 
     use HasFactory,SoftDeletes;
 
+    public function setFirstnameAttribute($value)
+    {
+        $this->attributes['firstname'] = ucfirst(strtolower($value));
+    }
+    public function setLastnameAttribute($value)
+    {
+        $this->attributes['lastname'] = ucfirst(strtolower($value));
+    }
+
     public function getProfileCompletionPercentage()
 {
     $totalFields = 6;
