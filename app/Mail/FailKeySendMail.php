@@ -2,6 +2,7 @@
 
 namespace App\Mail;
 
+use App\Models\Payment1;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
@@ -14,6 +15,7 @@ class FailKeySendMail extends Mailable
     use Queueable, SerializesModels;
 
     public $paymentId;
+    public $paymentDetails;
 
     /**
      * Create a new message instance.
@@ -23,6 +25,7 @@ class FailKeySendMail extends Mailable
     public function __construct($paymentId)
     {
         $this->paymentId=$paymentId;
+        $this->paymentDetails = Payment1::find($this->paymentId);
     }
 
     /**
@@ -45,7 +48,9 @@ class FailKeySendMail extends Mailable
     public function content()
     {
         return new Content(
-            view: 'Mail.FailKeySendMail',
+            view: 'Mail.FailKeySendMail' ,with: [
+                'paymentDetails' =>$this->paymentDetails,
+            ],
         );
     }
 
