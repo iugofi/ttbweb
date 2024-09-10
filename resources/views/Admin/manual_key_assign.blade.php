@@ -55,7 +55,8 @@
                                     <select class="form-control block w-full text-[0.875rem] !rounded-md" name="payment_id" id="payment_id" onchange="fetchTTBKeys(this.value)">
                                         <option value="">Select</option>
                                         @foreach ($paymentdetails as $payment_ids)
-                                            <option value="{{ $payment_ids->id }}">{{ $payment_ids->firstname }} {{ $payment_ids->lastname }},{{ $payment_ids->order_id }}</option>
+
+                                            <option value="{{ $payment_ids->id }}"><input type="check" value="{{ $payment_ids->firstname }} {{ $payment_ids->lastname }},{{ $payment_ids->order_id }}"></option>
                                         @endforeach
                                     </select>
                                     <div class="invalid-feedback"></div>
