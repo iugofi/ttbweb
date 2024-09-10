@@ -56,6 +56,9 @@
                                         <table class="table whitespace-nowrap table-sm min-w-full">
                                             <thead>
                                                 <tr class="border-b border-defaultborder">
+                                                    <th scope="col" class="text-start">
+                                                        <input class="form-check-input" type="checkbox" value="" id="checkeboxall">
+                                                    </th>
                                                     <th scope="col" class="text-start">First Name</th>
                                                     <th scope="col" class="text-start">Order Id</th>
                                                     <th scope="col" class="text-start">Created Date</th>
@@ -67,20 +70,21 @@
                                                 <tr class="border-b border-defaultborder">
                                                     <th scope="row" class="text-start">
                                                         <div class="form-check">
-                                                            <input class="form-check-input" type="checkbox" value="{{ $payment->id }}" id="checkebox-sm">
-                                                            <label class="form-check-label" for="checkebox-sm">
+                                                            <input class="form-check-input checkbox-item" type="checkbox" name="checkbox-{{ $payment->id }}" value="{{ $payment->id }}" id="checkebox-sm-{{ $payment->id }}">
+                                                            <label class="form-check-label" for="checkebox-sm-{{ $payment->id }}">
                                                                 {{ $payment->firstname }} {{ $payment->lastname }}
                                                             </label>
                                                         </div>
                                                     </th>
                                                     <td>{{ $payment->order_id }}</td>
                                                     <td>{{ $payment->payment_time }}</td>
-
                                                 </tr>
                                                 @endforeach
-
                                             </tbody>
                                         </table>
+
+
+
                                     </div>
                                 </div>
 
@@ -177,6 +181,17 @@ $(document).ready(function() {
     }
 }
 
+</script>
+
+<script>
+
+    const checkAll = document.getElementById('checkeboxall');
+    checkAll.addEventListener('change', function() {
+        const checkboxes = document.querySelectorAll('.checkbox-item');
+        checkboxes.forEach(function(checkbox) {
+            checkbox.checked = checkAll.checked;
+        });
+    });
 </script>
 
 
