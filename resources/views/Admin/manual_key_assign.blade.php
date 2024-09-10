@@ -68,6 +68,7 @@
                                             <tbody>
                                                 @foreach ($paymentdetails as $payment)
                                                 <tr class="border-b border-defaultborder">
+                                                    <td></td>
                                                     <th scope="row" class="text-start">
                                                         <div class="form-check">
                                                             <input class="form-check-input checkbox-item" type="checkbox" name="checkbox-{{ $payment->id }}" value="{{ $payment->id }}" id="checkebox-sm-{{ $payment->id }}">
