@@ -52,17 +52,36 @@
 
                                 <div class="xl:col-span-12 col-span-12">
                                     <label for="blog-Language" class="form-label">Payment Id</label>
-                                    <select class="form-control block w-full text-[0.875rem] !rounded-md" name="payment_id" id="payment_id" onchange="fetchTTBKeys(this.value)">
-                                        <option value="">Select</option>
-                                        @foreach ($paymentdetails as $payment)
+                                    <div class="table-responsive">
+                                        <table class="table whitespace-nowrap table-sm min-w-full">
+                                            <thead>
+                                                <tr class="border-b border-defaultborder">
+                                                    <th scope="col" class="text-start">First Name</th>
+                                                    <th scope="col" class="text-start">Order Id</th>
+                                                    <th scope="col" class="text-start">Created Date</th>
+                                                    <th scope="col" class="text-start">Status</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                @foreach ($paymentdetails as $payment)
+                                                <tr class="border-b border-defaultborder">
+                                                    <th scope="row" class="text-start">
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="{{ $payment->id }}" id="checkebox-sm" checked>
+                                                            <label class="form-check-label" for="checkebox-sm">
+                                                                {{ $payment->firstname }} {{ $payment->lastname }}
+                                                            </label>
+                                                        </div>
+                                                    </th>
+                                                    <td>{{ $payment->order_id }}</td>
+                                                    <td>{{ $payment->payment_time }}</td>
 
-                                        <div>
-                                            <input type="checkbox" name="payment_ids[]" value="{{ $payment->id }}">
-                                            {{ $payment->firstname }} {{ $payment->lastname }}, {{ $payment->order_id }}
-                                        </div>
-                                        @endforeach
-                                    </select>
-                                    <div class="invalid-feedback"></div>
+                                                </tr>
+                                                @endforeach
+
+                                            </tbody>
+                                        </table>
+                                    </div>
                                 </div>
 
                                 <div class="xl:col-span-12 col-span-12">
