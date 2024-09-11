@@ -46,7 +46,7 @@
                             </div>
                             <div>
                                 <div class="custom-toggle-switch ltr:sm:float-right rtl:sm:float-left">
-                                    <input id="early-access" name="toggleswitchsize12" type="checkbox">
+                                    <input id="early-access" name="stripe" type="checkbox">
                                     <label for="early-access" class="label-success mb-1"></label>
                                 </div>
                             </div>
@@ -58,31 +58,13 @@
                             </div>
                             <div>
                                 <div class="custom-toggle-switch ltr:sm:float-right rtl:sm:float-left">
-                                    <input id="early-access" name="toggleswitchsize12" type="checkbox">
+                                    <input id="early-access" name="Paypal" type="checkbox">
                                     <label for="early-access" class="label-success mb-1"></label>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="xl:col-span-3 col-span-12">
-                    <div class="box !shadow-none border dark:border-defaultborder/10">
-                        <div class="box-body flex items-center justify-between flex-wrap gap-2">
-                            <div class="">
-                                <span class="font-semibold">Paypal</span>
-                            </div>
-                            <div>
-                                <div class="inline-flex" role="group" aria-label="Basic radio toggle button group">
-                                    <input type="radio" class="btn-check" name="label-inbox" id="inbox-enable" checked>
-                                    <label class="ti-btn !text-[0.75rem] !font-medium  bg-primary text-white !rounded-e-none !border-e-0" for="inbox-enable">Enable</label>
-                                    <input type="radio" class="btn-check" name="label-inbox" id="inbox-disable" >
-                                    <label class="ti-btn !text-[0.75rem] !font-medium ti-btn-outline-primary !rounded-s-none" for="inbox-disable">Disable</label>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
             </div>
 
 
