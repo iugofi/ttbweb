@@ -100,6 +100,7 @@ class AdminController extends Controller
 
         DB::beginTransaction();
         try {
+            dd($request);
             $ttv_check = $request->checkbox;
             foreach ($ttv_check as $checkbox_id) {
                 DB::table('ttbkey')
