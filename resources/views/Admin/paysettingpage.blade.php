@@ -7,8 +7,6 @@
 @section('content')
 
 <style>
-  
-
     body {
         background-color: rgb(var(--body-bg));
     }
@@ -44,7 +42,7 @@
 
             <p class="text-[0.875rem] font-semibold mb-3">Payment Getwatys :</p>
             <div class="grid grid-cols-12 gap-4">
-                <div class="xl:col-span-3 col-span-12">
+                <div class="xl:col-span-6 col-span-12">
                     <div class="flex items-center justify-between sm:mt-0 mt-4">
                         <div class="mail-notification-settings">
                         @foreach ($pay_getways as $item)
