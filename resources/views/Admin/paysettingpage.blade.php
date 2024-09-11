@@ -62,9 +62,9 @@
                             </div>
                             <div>
                                 <div class="inline-flex" role="group" aria-label="Basic radio toggle button group">
-                                    <input type="radio" class="btn-check" name="label-inbox" id="inbox-enable" checked>
+                                    <input type="radio" class="btn-check" name="label-inbox" id="inbox-enable" >
                                     <label class="ti-btn !text-[0.75rem] !font-medium  bg-primary text-white !rounded-e-none !border-e-0" for="inbox-enable">Enable</label>
-                                    <input type="radio" class="btn-check" name="label-inbox" id="inbox-disable">
+                                    <input type="radio" class="btn-check" name="label-inbox" id="inbox-disable" checked>
                                     <label class="ti-btn !text-[0.75rem] !font-medium ti-btn-outline-primary !rounded-s-none" for="inbox-disable">Disable</label>
                                 </div>
                             </div>
