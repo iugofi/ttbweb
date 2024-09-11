@@ -65,7 +65,7 @@
                             <div class="xxl:col-span-8 xl:col-span-8 lg:col-span-8 md:col-span-8 col-span-8">
                                 <h5>01</h5>
                             </div>
-                            <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-4">
+                            <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-4 img-bt">
                                 <img src="{{ asset('assets/home-two-img/one-img.png') }}">
                             </div>
                         </div>
@@ -80,7 +80,7 @@
                             <div class="xxl:col-span-8 xl:col-span-8 lg:col-span-8 md:col-span-8 col-span-8">
                                 <h5>02</h5>
                             </div>
-                            <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-4">
+                            <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-4 img-bt">
                                 <img src="{{ asset('assets/home-two-img/one-img.png') }}">
                             </div>
                         </div>
@@ -95,7 +95,7 @@
                             <div class="xxl:col-span-8 xl:col-span-8 lg:col-span-8 md:col-span-8 col-span-8">
                                 <h5>03</h5>
                             </div>
-                            <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-4">
+                            <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-4 img-bt">
                                 <img src="{{ asset('assets/home-two-img/one-img.png') }}">
                             </div>
                         </div>
@@ -112,7 +112,7 @@
                             <div class="xxl:col-span-8 xl:col-span-8 lg:col-span-8 md:col-span-8 col-span-8">
                                 <h5>01</h5>
                             </div>
-                            <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-4">
+                            <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-4 img-bt">
                                 <img src="{{ asset('assets/home-two-img/one-img.png') }}">
                             </div>
                         </div>
@@ -126,7 +126,7 @@
                             <div class="xxl:col-span-8 xl:col-span-8 lg:col-span-8 md:col-span-8 col-span-8">
                                 <h5>02</h5>
                             </div>
-                            <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-4">
+                            <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-4 img-bt">
                                 <img src="{{ asset('assets/home-two-img/one-img.png') }}">
                             </div>
                         </div>
@@ -140,7 +140,7 @@
                             <div class="xxl:col-span-8 xl:col-span-8 lg:col-span-8 md:col-span-8 col-span-8">
                                 <h5>03</h5>
                             </div>
-                            <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-4">
+                            <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-4 img-bt">
                                 <img src="{{ asset('assets/home-two-img/one-img.png') }}">
                             </div>
                         </div>
