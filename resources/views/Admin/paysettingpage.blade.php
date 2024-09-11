@@ -39,7 +39,10 @@
             <div class="grid grid-cols-12 gap-4">
                 <div class="xl:col-span-3 col-span-12">
                     <div class="box !shadow-none border dark:border-defaultborder/10">
-                        @if ($pay_getways->PICK_TEXT == 'Stripe')
+                        @foreach ($pay_getways as $item)
+
+
+                        @if ($item->PICK_TEXT == 'Stripe')
                         <div class="flex items-center justify-between mt-4">
                             <div class="mail-notification-settings">
                                 <p class="text-[0.875rem] mb-1 font-semibold">{{$pay_getways->PICK_TEXT == 'Paypal'}}</p>
@@ -54,7 +57,7 @@
                         </div>
                         @endif
 
-                        @if ($pay_getways->PICK_TEXT == 'Paypal')
+                        @if ($item->PICK_TEXT == 'Paypal')
                         <div class="flex items-center justify-between mt-4">
                             <div class="mail-notification-settings">
                                 <p class="text-[0.875rem] mb-1 font-semibold">{{$pay_getways->PICK_TEXT == 'Paypal'}}</p>
@@ -68,6 +71,7 @@
                             </div>
                         </div>
                         @endif
+                        @endforeach
 
                     </div>
                 </div>
