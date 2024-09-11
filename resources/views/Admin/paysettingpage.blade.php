@@ -38,7 +38,8 @@
             <p class="text-[0.875rem] font-semibold mb-3">Payment Getwatys :</p>
             <div class="grid grid-cols-12 gap-4">
                 <div class="xl:col-span-3 col-span-12">
-                    <div class="box !shadow-none border dark:border-defaultborder/10">
+                    <div class="flex items-center justify-between sm:mt-0 mt-4">
+                        <div class="mail-notification-settings">
                         @foreach ($pay_getways as $item)
                         @if ($item->PICK_TEXT == 'Stripe')
                         <div class="flex items-center justify-between mt-4">
@@ -71,6 +72,7 @@
                         @endif
                         @endforeach
                     </div>
+                </div>
                 </div>
             </div>
 
