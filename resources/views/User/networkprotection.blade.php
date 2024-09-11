@@ -113,7 +113,7 @@
                                 <h5>04</h5>
                             </div>
                             <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-4 img-bt">
-                                <img src="{{ asset('assets/home-two-img/Virtual Private Network.png') }}">
+                                <img src="{{ asset('assets/home-two-img/Virtual Private Network (VPN).png') }}">
                             </div>
                         </div>
                         <h4 class="mt-5">Virtual Private Network (VPN)</h4>
