@@ -95,50 +95,43 @@ class AdminController extends Controller
     }
 
     public function savekeyttb(Request $request)
-    {
-        if ($this->loggedInAdmin) {
+{
+    if ($this->loggedInAdmin) {
 
-            DB::beginTransaction();
-
-            try {
-
-                $ttv_check=$request->checkbox;
-
-                foreach ($ttv_check as $key => $value) {
-                    dd($value);
-                }
+        DB::beginTransaction();
+        try {
+            $ttv_check = $request->checkbox;
+            foreach ($ttv_check as $checkbox_id) {
+                DB::table('ttbkey')
+                    ->where('id', $checkbox_id)
+                    ->update(['is_key_used' => 1]);
 
                 $ttbkeysave = new TTBKeyAssign();
                 $ttbkeysave->payment_id = $request->payment_id;
-                $ttbkeysave->main_key = $request->ttb_key;
+                $ttbkeysave->main_key = $checkbox_id;
                 $ttbkeysave->save();
-
-
-                DB::table('ttbkey')
-                    ->where('id', $request->ttb_key)
-                    ->update(['is_key_used' => 1]);
-
-
-                DB::commit();
-
-                return response()->json([
-                    'status' => 200,
-                    'messages' => 'Key assigned successfully'
-                ]);
-
-            } catch (\Exception $e) {
-
-                DB::rollBack();
-
-                return response()->json([
-                    'status' => 500,
-                    'messages' => 'An error occurred: ' . $e->getMessage()
-                ]);
             }
-        } else {
-            return redirect('/setup');
+
+            DB::commit();
+
+            return response()->json([
+                'status' => 200,
+                'messages' => 'Keys assigned successfully'
+            ]);
+
+        } catch (\Exception $e) {
+            DB::rollBack();
+
+            return response()->json([
+                'status' => 500,
+                'messages' => 'An error occurred: ' . $e->getMessage()
+            ]);
         }
+    } else {
+        return redirect('/setup');
     }
+}
+
 
     public function manual_key_assign()
     {
