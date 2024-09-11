@@ -6,11 +6,11 @@
 @section('canonical', 'vbhdvbh')
 @section('content')
 
-<style>
-    body {
-        background-color: rgb(var(--body-bg));
-    }
-</style>
+    <style>
+        body {
+            background-color: rgb(var(--body-bg));
+        }
+    </style>
 
     <div class="content">
         <div class="main-content">
@@ -40,9 +40,8 @@
             </div>
             <!-- Page Header Close -->
 
-            <p class="text-[0.875rem] font-semibold mb-3">Payment Getwatys :</p>
-            <div class="grid grid-cols-12 gap-4">
-                <div class="xl:col-span-6 col-span-12">
+            <div class="grid grid-cols-12 gap-6">
+                <div class="xl:col-span-12 col-span-12">
                     <div class="box custom-box">
                         <div class="box-header">
                             <div class="box-title">
@@ -50,49 +49,51 @@
                             </div>
                         </div>
 
-                    <div class="flex items-center justify-between sm:mt-0 mt-4">
-                        <div class="mail-notification-settings">
-                        @foreach ($pay_getways as $item)
-                        @if ($item->PICK_TEXT == 'Stripe')
-                        <div class="flex items-center justify-between mt-4">
-                            <div class="mail-notification-settings">
-                                <p class="text-[0.875rem] mb-1 font-semibold">{{$item->PICK_TEXT}}</p>
 
+                        <div class="box-body">
+                            <div class="box text-center">
+                                <div class="" id="show_success_alert"></div>
                             </div>
-                            <div>
-                                <div class="custom-toggle-switch ltr:sm:float-right rtl:sm:float-left">
-                                    <input id="early-access" name="toggleswitchsize12" type="checkbox" value="{{$item->PICK_TEXT}}" @if($item->PICK_TEXT_EXTEND == 1) checked @endif>
-                                    <label for="early-access" class="label-success mb-1"></label>
+
+                            @foreach ($pay_getways as $item)
+                            @if ($item->PICK_TEXT == 'Stripe')
+                            <div class="flex items-center justify-between mt-4">
+                                <div class="mail-notification-settings">
+                                    <p class="text-[0.875rem] mb-1 font-semibold">{{$item->PICK_TEXT}}</p>
+
+                                </div>
+                                <div>
+                                    <div class="custom-toggle-switch ltr:sm:float-right rtl:sm:float-left">
+                                        <input id="early-access" name="toggleswitchsize12" type="checkbox" value="{{$item->PICK_TEXT}}" @if($item->PICK_TEXT_EXTEND == 1) checked @endif>
+                                        <label for="early-access" class="label-success mb-1"></label>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        @endif
+                            @endif
 
-                        @if ($item->PICK_TEXT == 'Paypal')
-                        <div class="flex items-center justify-between mt-4">
-                            <div class="mail-notification-settings">
-                                <p class="text-[0.875rem] mb-1 font-semibold">{{$item->PICK_TEXT}}</p>
-                            </div>
-                            <div>
-                                <div class="custom-toggle-switch ltr:sm:float-right rtl:sm:float-left">
-                                    <input id="email-shortcut" name="toggleswitchsize13" type="checkbox" value="{{$item->PICK_TEXT}}" @if($item->PICK_TEXT_EXTEND == 1) checked @endif>
-                                    <label for="email-shortcut" class="label-success mb-1"></label>
+                            @if ($item->PICK_TEXT == 'Paypal')
+                            <div class="flex items-center justify-between mt-4">
+                                <div class="mail-notification-settings">
+                                    <p class="text-[0.875rem] mb-1 font-semibold">{{$item->PICK_TEXT}}</p>
+                                </div>
+                                <div>
+                                    <div class="custom-toggle-switch ltr:sm:float-right rtl:sm:float-left">
+                                        <input id="email-shortcut" name="toggleswitchsize13" type="checkbox" value="{{$item->PICK_TEXT}}" @if($item->PICK_TEXT_EXTEND == 1) checked @endif>
+                                        <label for="email-shortcut" class="label-success mb-1"></label>
+                                    </div>
                                 </div>
                             </div>
+                            @endif
+                            @endforeach
+
+
+
                         </div>
-                        @endif
-                        @endforeach
                     </div>
                 </div>
-                </div>
-                </div>
             </div>
-
-
-
         </div>
     </div>
-
 
 
 @endsection
