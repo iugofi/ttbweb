@@ -111,11 +111,15 @@ class AdminController extends Controller
                     $key_main=DB::table('ttbkey')
                         ->where('product_id', $key->product_id)
                         ->update(['is_key_used' => 1]);
+                        if ($key_main) {
+                            $ttbkeysave = new TTBKeyAssign();
+                            $ttbkeysave->payment_id = $checkbox_id;
+                            $ttbkeysave->main_key = $key_main;
+                            $ttbkeysave->mail_send_status ='pending';
+                            $ttbkeysave->save();
+                        }
 
-                    $ttbkeysave = new TTBKeyAssign();
-                    $ttbkeysave->payment_id = $checkbox_id;
-                    $ttbkeysave->main_key = $key_main;
-                    $ttbkeysave->save();
+
                 }
             }
 
