@@ -81,7 +81,7 @@
                                 <h5>02</h5>
                             </div>
                             <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-4 img-bt">
-                                <img src="{{ asset('assets/home-two-img/one-img.png') }}">
+                                <img src="{{ asset('assets/home-two-img/Firewalls.png') }}">
                             </div>
                         </div>
                         <h4 class="mt-5">Firewalls</h4>
@@ -96,7 +96,7 @@
                                 <h5>03</h5>
                             </div>
                             <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-4 img-bt">
-                                <img src="{{ asset('assets/home-two-img/one-img.png') }}">
+                                <img src="{{ asset('assets/home-two-img/Intrusion Detection Systems.png') }}">
                             </div>
                         </div>
                         <h4 class="mt-5">Intrusion Detection Systems</h4>
@@ -113,7 +113,7 @@
                                 <h5>04</h5>
                             </div>
                             <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-4 img-bt">
-                                <img src="{{ asset('assets/home-two-img/one-img.png') }}">
+                                <img src="{{ asset('assets/home-two-img/Virtual Private Network.png') }}">
                             </div>
                         </div>
                         <h4 class="mt-5">Virtual Private Network (VPN)</h4>
@@ -127,7 +127,7 @@
                                 <h5>05</h5>
                             </div>
                             <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-4 img-bt">
-                                <img src="{{ asset('assets/home-two-img/one-img.png') }}">
+                                <img src="{{ asset('assets/home-two-img/Secure Web Gateway.png') }}">
                             </div>
                         </div>
                         <h4 class="mt-5">Secure Web Gateway</h4>
@@ -141,7 +141,7 @@
                                 <h5>06</h5>
                             </div>
                             <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 col-span-4 img-bt">
-                                <img src="{{ asset('assets/home-two-img/one-img.png') }}">
+                                <img src="{{ asset('assets/home-two-img/Network Access Control.png') }}">
                             </div>
                         </div>
                         <h4 class="mt-5">Network Access Control (NAC)</h4>
