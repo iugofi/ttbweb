@@ -35,13 +35,13 @@
             </div>
             <!-- Page Header Close -->
 
-            <p class="text-[0.875rem] font-semibold mb-3">Mail Labels :</p>
+            <p class="text-[0.875rem] font-semibold mb-3">Payment Getwatys :</p>
             <div class="grid grid-cols-12 gap-4">
                 <div class="xl:col-span-3 col-span-12">
                     <div class="box !shadow-none border dark:border-defaultborder/10">
                         <div class="box-body flex items-center justify-between flex-wrap gap-2">
                             <div class="">
-                                <span class="font-semibold">All Mails</span>
+                                <span class="font-semibold">Stripe</span>
                             </div>
                             <div>
                                 <div class="inline-flex" role="group" aria-label="Basic radio toggle button group">
@@ -58,7 +58,7 @@
                     <div class="box !shadow-none border dark:border-defaultborder/10">
                         <div class="box-body flex items-center justify-between flex-wrap gap-2">
                             <div class="">
-                                <span class="font-semibold">Inbox</span>
+                                <span class="font-semibold">Paypal</span>
                             </div>
                             <div>
                                 <div class="inline-flex" role="group" aria-label="Basic radio toggle button group">
