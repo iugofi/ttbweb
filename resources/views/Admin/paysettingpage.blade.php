@@ -40,8 +40,6 @@
                 <div class="xl:col-span-3 col-span-12">
                     <div class="box !shadow-none border dark:border-defaultborder/10">
                         @foreach ($pay_getways as $item)
-
-
                         @if ($item->PICK_TEXT == 'Stripe')
                         <div class="flex items-center justify-between mt-4">
                             <div class="mail-notification-settings">
@@ -50,7 +48,7 @@
                             </div>
                             <div>
                                 <div class="custom-toggle-switch ltr:sm:float-right rtl:sm:float-left">
-                                    <input id="early-access" name="toggleswitchsize12" type="checkbox">
+                                    <input id="early-access" name="toggleswitchsize12" type="checkbox" value="{{$item->PICK_TEXT_EXTEND}}" @if($item->PICK_TEXT_EXTEND == 1) checked @endif>
                                     <label for="early-access" class="label-success mb-1"></label>
                                 </div>
                             </div>
@@ -65,14 +63,13 @@
                             </div>
                             <div>
                                 <div class="custom-toggle-switch ltr:sm:float-right rtl:sm:float-left">
-                                    <input id="email-shortcut" name="toggleswitchsize13" type="checkbox" checked>
+                                    <input id="email-shortcut" name="toggleswitchsize13" type="checkbox" value="{{$item->PICK_TEXT_EXTEND}}" @if($item->PICK_TEXT_EXTEND == 1) checked @endif>
                                     <label for="email-shortcut" class="label-success mb-1"></label>
                                 </div>
                             </div>
                         </div>
                         @endif
                         @endforeach
-
                     </div>
                 </div>
             </div>
