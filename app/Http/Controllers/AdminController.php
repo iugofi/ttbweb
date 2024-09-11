@@ -69,7 +69,9 @@ class AdminController extends Controller
 
         if ($this->loggedInAdmin) {
 
-            return view('Admin.paysettingpage');
+            $pay_getways=Storepick::where('STORE_ID','payment_getways')->get();
+            
+            return view('Admin.paysettingpage',['pay_getways'=>$pay_getways]);
         } else {
             return redirect('/setup');
         }

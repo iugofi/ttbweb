@@ -43,14 +43,17 @@
                             <div class="">
                                 <span class="font-semibold">Stripe</span>
                             </div>
+                            @foreach ($pay_getways as $item)
+
                             <div>
                                 <div class="inline-flex" role="group" aria-label="Basic radio toggle button group">
-                                    <input type="radio" class="btn-check" name="label-allmails" id="all-mails-enable" checked>
+                                    <input type="radio" class="btn-check" name="label-allmails" id="all-mails-enable" value="{{$item->PICK_TEXT_EXTEND}}" checked>
                                     <label class="ti-btn !text-[0.75rem] !font-medium bg-primary text-white !rounded-e-none !border-e-0" for="all-mails-enable">Enable</label>
-                                    <input type="radio" class="btn-check" name="label-allmails" id="all-mails-disable">
+                                    <input type="radio" class="btn-check" name="label-allmails" id="all-mails-disable" value="0">
                                     <label class="ti-btn !text-[0.75rem] !font-medium btn-sm ti-btn-outline-primary !rounded-s-none" for="all-mails-disable">Disable</label>
                                 </div>
                             </div>
+                            @endforeach
                         </div>
                     </div>
                 </div>
@@ -62,9 +65,9 @@
                             </div>
                             <div>
                                 <div class="inline-flex" role="group" aria-label="Basic radio toggle button group">
-                                    <input type="radio" class="btn-check" name="label-inbox" id="inbox-enable" >
+                                    <input type="radio" class="btn-check" name="label-inbox" id="inbox-enable" checked>
                                     <label class="ti-btn !text-[0.75rem] !font-medium  bg-primary text-white !rounded-e-none !border-e-0" for="inbox-enable">Enable</label>
-                                    <input type="radio" class="btn-check" name="label-inbox" id="inbox-disable" checked>
+                                    <input type="radio" class="btn-check" name="label-inbox" id="inbox-disable" >
                                     <label class="ti-btn !text-[0.75rem] !font-medium ti-btn-outline-primary !rounded-s-none" for="inbox-disable">Disable</label>
                                 </div>
                             </div>
