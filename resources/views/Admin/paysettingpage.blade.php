@@ -6,6 +6,13 @@
 @section('canonical', 'vbhdvbh')
 @section('content')
 
+<style>
+  
+
+    body {
+        background-color: rgb(var(--body-bg));
+    }
+</style>
 
     <div class="content">
         <div class="main-content">
