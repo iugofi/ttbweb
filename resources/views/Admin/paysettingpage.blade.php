@@ -37,27 +37,35 @@
 
             <p class="text-[0.875rem] font-semibold mb-3">Payment Getwatys :</p>
             <div class="grid grid-cols-12 gap-4">
-                @foreach ($pay_getways as $item)
                 <div class="xl:col-span-3 col-span-12">
                     <div class="box !shadow-none border dark:border-defaultborder/10">
-                        <div class="box-body flex items-center justify-between flex-wrap gap-2">
-                            <div class="">
-                                <span class="font-semibold">{{$item->PICK_TEXT}}</span>
+                        <div class="flex items-center justify-between mt-4">
+                            <div class="mail-notification-settings">
+                                <p class="text-[0.875rem] mb-1 font-semibold">Stripe</p>
+
                             </div>
                             <div>
-                                <div class="inline-flex" role="group" aria-label="Basic radio toggle button group">
-                                    <input type="radio" class="btn-check" name="label-allmails" id="all-mails-enable" value="{{$item->PICK_TEXT_EXTEND}}" checked>
-                                    <label class="ti-btn !text-[0.75rem] !font-medium bg-primary text-white !rounded-e-none !border-e-0" for="all-mails-enable">Enable</label>
-                                    <input type="radio" class="btn-check" name="label-allmails" id="all-mails-disable" value="0">
-                                    <label class="ti-btn !text-[0.75rem] !font-medium btn-sm ti-btn-outline-primary !rounded-s-none" for="all-mails-disable">Disable</label>
+                                <div class="custom-toggle-switch ltr:sm:float-right rtl:sm:float-left">
+                                    <input id="early-access" name="toggleswitchsize12" type="checkbox">
+                                    <label for="early-access" class="label-success mb-1"></label>
                                 </div>
                             </div>
+                        </div>
+                        <div class="flex items-center justify-between mt-4">
+                            <div class="mail-notification-settings">
+                                <p class="text-[0.875rem] mb-1 font-semibold">Paypal</p>
 
+                            </div>
+                            <div>
+                                <div class="custom-toggle-switch ltr:sm:float-right rtl:sm:float-left">
+                                    <input id="early-access" name="toggleswitchsize12" type="checkbox">
+                                    <label for="early-access" class="label-success mb-1"></label>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                @endforeach
-                {{-- <div class="xl:col-span-3 col-span-12">
+                <div class="xl:col-span-3 col-span-12">
                     <div class="box !shadow-none border dark:border-defaultborder/10">
                         <div class="box-body flex items-center justify-between flex-wrap gap-2">
                             <div class="">
@@ -73,7 +81,7 @@
                             </div>
                         </div>
                     </div>
-                </div> --}}
+                </div>
 
             </div>
 
