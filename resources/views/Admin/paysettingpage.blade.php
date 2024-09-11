@@ -7,23 +7,6 @@
 @section('content')
 
 
-<style>.btn-toggle {
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.btn-toggle.active {
-    background-color: #0069d9; /* Active color for the selected button */
-    color: white;
-}
-
-.btn-toggle.inactive {
-    background-color: #f8f9fa; /* Inactive color for the unselected button */
-    color: #6c757d;
-}
-
-</style>
-
     <div class="content">
         <div class="main-content">
 
@@ -54,7 +37,7 @@
 
             <p class="text-[0.875rem] font-semibold mb-3">Payment Getwatys :</p>
             <div class="grid grid-cols-12 gap-4">
-                @foreach ($pay_getways as $index => $item)
+                @foreach ($pay_getways as $item)
                 <div class="xl:col-span-3 col-span-12">
                     <div class="box !shadow-none border dark:border-defaultborder/10">
                         <div class="box-body flex items-center justify-between flex-wrap gap-2">
@@ -62,20 +45,18 @@
                                 <span class="font-semibold">{{$item->PICK_TEXT}}</span>
                             </div>
                             <div>
-                                <div class="inline-flex" role="group" aria-label="Payment method toggle button group">
-                                    <input type="radio" class="btn-check" name="payment-method-{{$index}}" id="payment-enable-{{$index}}" value="{{$item->PICK_TEXT_EXTEND}}">
-                                    <label class="ti-btn !text-[0.75rem] !font-medium btn-toggle bg-primary text-white !rounded-e-none !border-e-0" for="payment-enable-{{$index}}">Enable</label>
-                                    <input type="radio" class="btn-check" name="payment-method-{{$index}}" id="payment-disable-{{$index}}" value="{{$item->PICK_TEXT_EXTEND}}">
-                                    <label class="ti-btn !text-[0.75rem] !font-medium btn-toggle btn-sm ti-btn-outline-primary !rounded-s-none" for="payment-disable-{{$index}}">Disable</label>
+                                <div class="inline-flex" role="group" aria-label="Basic radio toggle button group">
+                                    <input type="radio" class="btn-check" name="label-allmails" id="all-mails-enable" value="{{$item->PICK_TEXT_EXTEND}}" checked>
+                                    <label class="ti-btn !text-[0.75rem] !font-medium bg-primary text-white !rounded-e-none !border-e-0" for="all-mails-enable">Enable</label>
+                                    <input type="radio" class="btn-check" name="label-allmails" id="all-mails-disable" value="0">
+                                    <label class="ti-btn !text-[0.75rem] !font-medium btn-sm ti-btn-outline-primary !rounded-s-none" for="all-mails-disable">Disable</label>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
-            @endforeach
-
-
-
+                @endforeach
                 {{-- <div class="xl:col-span-3 col-span-12">
                     <div class="box !shadow-none border dark:border-defaultborder/10">
                         <div class="box-body flex items-center justify-between flex-wrap gap-2">
@@ -100,42 +81,6 @@
 
         </div>
     </div>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            // Select all the radio buttons and labels
-            const radios = document.querySelectorAll('.btn-check');
-            const labels = document.querySelectorAll('.btn-toggle');
-
-            // Add event listeners to each radio button
-            radios.forEach(radio => {
-                radio.addEventListener('change', () => {
-                    // Remove active class from all labels
-                    labels.forEach(label => {
-                        label.classList.remove('active');
-                        label.classList.add('inactive');
-                    });
-                    // Add active class to the corresponding label
-                    const selectedLabel = document.querySelector(`label[for="${radio.id}"]`);
-                    if (selectedLabel) {
-                        selectedLabel.classList.remove('inactive');
-                        selectedLabel.classList.add('active');
-                    }
-                });
-            });
-
-            // Initialize the state based on the currently checked radio button
-            radios.forEach(radio => {
-                if (radio.checked) {
-                    const selectedLabel = document.querySelector(`label[for="${radio.id}"]`);
-                    if (selectedLabel) {
-                        selectedLabel.classList.remove('inactive');
-                        selectedLabel.classList.add('active');
-                    }
-                }
-            });
-        });
-        </script>
 
 
 
