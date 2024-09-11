@@ -38,50 +38,45 @@
             <div class="grid grid-cols-12 gap-x-6">
                 <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 sm:col-span-12 col-span-12">
                     <div class="box">
-                        <div class="box-header">
-                            <div class="box-title">Payment Setting</div>
-                        </div>
-
-                        <div class="box">
-                            <p class="text-[0.875rem] font-semibold mb-3">Settings :</p>
-                            <div class="grid grid-cols-12 gap-2">
-                                <div class="xl:col-span-3 col-span-12">
-                                    <div class="box !shadow-none border dark:border-defaultborder/10">
-                                        <div class="box-body flex items-center justify-between flex-wrap gap-2">
-                                            <div class="">
-                                                <span class="font-semibold">Settings</span>
-                                            </div>
-                                            <div>
-                                                <div class="inline-flex" role="group"
-                                                    aria-label="Basic radio toggle button group">
-                                                    <input type="radio" class="btn-check" name="label-settings"
-                                                        id="settings-enable" checked>
-                                                    <label
-                                                        class="ti-btn !text-[0.75rem] !font-medium  bg-primary text-white !rounded-e-none !border-e-0"
-                                                        for="settings-enable">Enable</label>
-                                                    <input type="radio" class="btn-check" name="label-settings"
-                                                        id="settings-disable">
-                                                    <label
-                                                        class="ti-btn !text-[0.75rem] !font-medium ti-btn-outline-primary !rounded-s-none"
-                                                        for="settings-disable">Disable</label>
-                                                </div>
+                        <p class="text-[0.875rem] font-semibold mb-3">Settings :</p>
+                        <div class="grid grid-cols-12 gap-2">
+                            <div class="xl:col-span-3 col-span-12">
+                                <div class="box !shadow-none border dark:border-defaultborder/10">
+                                    <div class="box-body flex items-center justify-between flex-wrap gap-2">
+                                        <div class="">
+                                            <span class="font-semibold">Settings</span>
+                                        </div>
+                                        <div>
+                                            <div class="inline-flex" role="group"
+                                                aria-label="Basic radio toggle button group">
+                                                <input type="radio" class="btn-check" name="label-settings"
+                                                    id="settings-enable" checked>
+                                                <label
+                                                    class="ti-btn !text-[0.75rem] !font-medium  bg-primary text-white !rounded-e-none !border-e-0"
+                                                    for="settings-enable">Enable</label>
+                                                <input type="radio" class="btn-check" name="label-settings"
+                                                    id="settings-disable">
+                                                <label
+                                                    class="ti-btn !text-[0.75rem] !font-medium ti-btn-outline-primary !rounded-s-none"
+                                                    for="settings-disable">Disable</label>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
-                        </div>
                     </div>
+
 
                 </div>
 
-
-
             </div>
+
+
+
         </div>
+    </div>
 
 
 
-    @endsection
+@endsection
