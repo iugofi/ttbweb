@@ -38,6 +38,7 @@
             <div class="grid grid-cols-12 gap-x-6">
                 <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 sm:col-span-12 col-span-12">
                     <div class="box">
+                        <div class="tab-pane dark:border-defaultborder/10" id="labels" aria-labelledby="labels-item" role="tabpanel">
                         <p class="text-[0.875rem] font-semibold mb-3">Settings :</p>
                         <div class="grid grid-cols-12 gap-2">
                             <div class="xl:col-span-3 col-span-12">
@@ -66,6 +67,7 @@
                             </div>
                         </div>
                     </div>
+                </div>
 
 
                 </div>
