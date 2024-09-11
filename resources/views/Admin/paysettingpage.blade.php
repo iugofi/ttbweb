@@ -46,7 +46,7 @@
                             </div>
                             <div>
                                 <div class="custom-toggle-switch ltr:sm:float-right rtl:sm:float-left">
-                                    <input id="early-access1" name="stripe" type="checkbox">
+                                    <input id="early-access" name="toggleswitchsize12" type="checkbox">
                                     <label for="early-access" class="label-success mb-1"></label>
                                 </div>
                             </div>
@@ -58,8 +58,8 @@
                             </div>
                             <div>
                                 <div class="custom-toggle-switch ltr:sm:float-right rtl:sm:float-left">
-                                    <input id="early-access2" name="Paypal" type="checkbox">
-                                    <label for="early-access" class="label-success mb-1"></label>
+                                    <input id="email-shortcut" name="toggleswitchsize13" type="checkbox" checked>
+                                    <label for="email-shortcut" class="label-success mb-1"></label>
                                 </div>
                             </div>
                         </div>
