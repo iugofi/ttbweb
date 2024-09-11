@@ -56,35 +56,26 @@
                             </div>
 
                             @foreach ($pay_getways as $item)
-                            @if ($item->PICK_TEXT == 'Stripe')
                             <div class="flex items-center justify-between mt-4">
                                 <div class="mail-notification-settings">
-                                    <p class="text-[0.875rem] mb-1 font-semibold">{{$item->PICK_TEXT}}</p>
-
+                                    <p class="text-[0.875rem] mb-1 font-semibold">{{ $item->PICK_TEXT }}</p>
                                 </div>
                                 <div>
                                     <div class="custom-toggle-switch ltr:sm:float-right rtl:sm:float-left">
-                                        <input id="early-access" name="toggleswitchsize12" type="checkbox" value="{{$item->PICK_TEXT}}" @if($item->PICK_TEXT_EXTEND == 1) checked @endif>
-                                        <label for="early-access" class="label-success mb-1"></label>
+                                        <input
+                                            id="{{ strtolower($item->PICK_TEXT) }}-toggle"
+                                            name="toggleswitch"
+                                            type="checkbox"
+                                            value="{{ $item->PICK_TEXT }}"
+                                            @if($item->PICK_TEXT_EXTEND == 1) checked @endif
+                                            data-id="{{ $item->id }}"
+                                        >
+                                        <label for="{{ strtolower($item->PICK_TEXT) }}-toggle" class="label-success mb-1"></label>
                                     </div>
                                 </div>
                             </div>
-                            @endif
+                        @endforeach
 
-                            @if ($item->PICK_TEXT == 'Paypal')
-                            <div class="flex items-center justify-between mt-4">
-                                <div class="mail-notification-settings">
-                                    <p class="text-[0.875rem] mb-1 font-semibold">{{$item->PICK_TEXT}}</p>
-                                </div>
-                                <div>
-                                    <div class="custom-toggle-switch ltr:sm:float-right rtl:sm:float-left">
-                                        <input id="email-shortcut" name="toggleswitchsize13" type="checkbox" value="{{$item->PICK_TEXT}}" @if($item->PICK_TEXT_EXTEND == 1) checked @endif>
-                                        <label for="email-shortcut" class="label-success mb-1"></label>
-                                    </div>
-                                </div>
-                            </div>
-                            @endif
-                            @endforeach
 
 
 
@@ -94,6 +85,36 @@
             </div>
         </div>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('input[name="toggleswitch"]').change(function() {
+            const isChecked = $(this).is(':checked');
+            const paymentMethod = $(this).val();
+            const id = $(this).data('id');
+
+            $.ajax({
+                url: '{{ route("updatePaymentGateway") }}',
+                type: 'POST',
+                data: {
+                    id: id,
+                    checked: isChecked ? 1 : 0,
+                    _token: '{{ csrf_token() }}' 
+                },
+                success: function(response) {
+                    // Handle success (optional)
+                    console.log('Updated successfully');
+                },
+                error: function(xhr) {
+                    // Handle error (optional)
+                    console.error('Update failed', xhr);
+                }
+            });
+        });
+    });
+</script>
+
 
 
 @endsection

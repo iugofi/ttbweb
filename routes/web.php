@@ -358,6 +358,7 @@ Route::get('/mailtest', [UserController::class, 'mailtest'])->name('admin.mailte
 
          //payment setting page
          Route::get('/paysettingpage', [AdminController::class, 'paysettingpage'])->name('paysetting.page');
+         Route::post('/update-payment-gateway', [AdminController::class, 'updatepaymentgateway'])->name('updatePaymentGateway');
 
 
 
