@@ -45,7 +45,7 @@
                     <div class="box custom-box">
                         <div class="box-header">
                             <div class="box-title">
-                                Visitor List
+                                Payment Getways
                             </div>
                         </div>
 
@@ -86,7 +86,6 @@
         </div>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
     $(document).ready(function() {
         $('input[name="toggleswitch"]').change(function() {
@@ -100,7 +99,7 @@
                 data: {
                     id: id,
                     checked: isChecked ? 1 : 0,
-                    _token: '{{ csrf_token() }}' 
+                    _token: '{{ csrf_token() }}'
                 },
                 success: function(response) {
                     // Handle success (optional)
