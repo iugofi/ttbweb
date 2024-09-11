@@ -103,13 +103,13 @@ class AdminController extends Controller
             // dd($request);
             $ttv_check = $request->checkbox;
             foreach ($ttv_check as $checkbox_id) {
-                $key = DB::table('ttbkey')
+                $key = DB::table('payments1')
                     ->where('id', $checkbox_id)
                     ->first();
 
                 if ($key) {
                     DB::table('ttbkey')
-                        ->where('id', $checkbox_id)
+                        ->where('product_id', $key->product_id)
                         ->update(['is_key_used' => 1]);
 
                     $ttbkeysave = new TTBKeyAssign();
