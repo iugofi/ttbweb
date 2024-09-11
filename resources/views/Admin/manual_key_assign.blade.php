@@ -138,7 +138,7 @@ $(document).ready(function() {
                 processData: false,
                 success: function(response) {
                     if (response.status == 400) {
-                        showError('payment_id', response.messages.payment_id);
+                        showError('checkbox', response.messages.checkbox);
                         showError('ttb_key', response.messages.ttb_key);
                         $('#key_create_form_btn').val('Send Manual Message');
                     } else if (response.status == 200) {

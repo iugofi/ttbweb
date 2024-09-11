@@ -102,6 +102,7 @@ class AdminController extends Controller
 
             try {
 
+                dd($request->checkbox);
                 $ttbkeysave = new TTBKeyAssign();
                 $ttbkeysave->payment_id = $request->payment_id;
                 $ttbkeysave->main_key = $request->ttb_key;
