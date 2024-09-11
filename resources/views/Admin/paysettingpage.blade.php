@@ -43,7 +43,6 @@
             <p class="text-[0.875rem] font-semibold mb-3">Payment Getwatys :</p>
             <div class="grid grid-cols-12 gap-4">
                 <div class="xl:col-span-6 col-span-12">
-                    <div class="box-body">
                     <div class="flex items-center justify-between sm:mt-0 mt-4">
                         <div class="mail-notification-settings">
                         @foreach ($pay_getways as $item)
@@ -55,7 +54,7 @@
                             </div>
                             <div>
                                 <div class="custom-toggle-switch ltr:sm:float-right rtl:sm:float-left">
-                                    <input id="early-access" name="toggleswitchsize12" type="checkbox" value="{{$item->PICK_TEXT_EXTEND}}" @if($item->PICK_TEXT_EXTEND == 1) checked @endif>
+                                    <input id="early-access" name="toggleswitchsize12" type="checkbox" value="{{$item->PICK_TEXT}}" @if($item->PICK_TEXT_EXTEND == 1) checked @endif>
                                     <label for="early-access" class="label-success mb-1"></label>
                                 </div>
                             </div>
@@ -66,11 +65,10 @@
                         <div class="flex items-center justify-between mt-4">
                             <div class="mail-notification-settings">
                                 <p class="text-[0.875rem] mb-1 font-semibold">{{$item->PICK_TEXT}}</p>
-
                             </div>
                             <div>
                                 <div class="custom-toggle-switch ltr:sm:float-right rtl:sm:float-left">
-                                    <input id="email-shortcut" name="toggleswitchsize13" type="checkbox" value="{{$item->PICK_TEXT_EXTEND}}" @if($item->PICK_TEXT_EXTEND == 1) checked @endif>
+                                    <input id="email-shortcut" name="toggleswitchsize13" type="checkbox" value="{{$item->PICK_TEXT}}" @if($item->PICK_TEXT_EXTEND == 1) checked @endif>
                                     <label for="email-shortcut" class="label-success mb-1"></label>
                                 </div>
                             </div>
@@ -80,7 +78,6 @@
                     </div>
                 </div>
                 </div>
-            </div>
             </div>
 
 
