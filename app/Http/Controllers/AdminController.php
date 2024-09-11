@@ -81,7 +81,7 @@ class AdminController extends Controller
     {
 
         if ($this->loggedInAdmin) {
-            dd($request->id);
+            // dd($request->id);
             $paymentGateway = Storepick::find($request->id);
             $paymentGateway->PICK_TEXT_EXTEND = $request->checked;
             $paymentGateway->save();
