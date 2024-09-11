@@ -37,27 +37,27 @@
 
             <p class="text-[0.875rem] font-semibold mb-3">Payment Getwatys :</p>
             <div class="grid grid-cols-12 gap-4">
+                @foreach ($pay_getways as $item)
                 <div class="xl:col-span-3 col-span-12">
                     <div class="box !shadow-none border dark:border-defaultborder/10">
                         <div class="box-body flex items-center justify-between flex-wrap gap-2">
                             <div class="">
-                                <span class="font-semibold">Stripe</span>
+                                <span class="font-semibold">{{$item->PICK_TEXT}}</span>
                             </div>
-                            @foreach ($pay_getways as $item)
-
                             <div>
                                 <div class="inline-flex" role="group" aria-label="Basic radio toggle button group">
                                     <input type="radio" class="btn-check" name="label-allmails" id="all-mails-enable" value="{{$item->PICK_TEXT_EXTEND}}" checked>
                                     <label class="ti-btn !text-[0.75rem] !font-medium bg-primary text-white !rounded-e-none !border-e-0" for="all-mails-enable">Enable</label>
-                                    <input type="radio" class="btn-check" name="label-allmails" id="all-mails-disable" value="0">
+                                    <input type="radio" class="btn-check" name="label-allmails" id="all-mails-disable" value="{{$item->PICK_TEXT_EXTEND}}">
                                     <label class="ti-btn !text-[0.75rem] !font-medium btn-sm ti-btn-outline-primary !rounded-s-none" for="all-mails-disable">Disable</label>
                                 </div>
                             </div>
-                            @endforeach
+
                         </div>
                     </div>
                 </div>
-                <div class="xl:col-span-3 col-span-12">
+                @endforeach
+                {{-- <div class="xl:col-span-3 col-span-12">
                     <div class="box !shadow-none border dark:border-defaultborder/10">
                         <div class="box-body flex items-center justify-between flex-wrap gap-2">
                             <div class="">
@@ -73,7 +73,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
             </div>
 
