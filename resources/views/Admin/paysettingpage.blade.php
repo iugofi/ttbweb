@@ -46,7 +46,7 @@
                             </div>
                             <div>
                                 <div class="inline-flex" role="group" aria-label="Basic radio toggle button group">
-                                    <input type="radio" class="btn-check" name="label-allmails" id="all-mails-enable" value="{{$item->PICK_TEXT_EXTEND}}" checked>
+                                    <input type="radio" class="btn-check" name="label-allmails" id="all-mails-enable" value="{{$item->PICK_TEXT_EXTEND}}">
                                     <label class="ti-btn !text-[0.75rem] !font-medium bg-primary text-white !rounded-e-none !border-e-0" for="all-mails-enable">Enable</label>
                                     <input type="radio" class="btn-check" name="label-allmails" id="all-mails-disable" value="{{$item->PICK_TEXT_EXTEND}}">
                                     <label class="ti-btn !text-[0.75rem] !font-medium btn-sm ti-btn-outline-primary !rounded-s-none" for="all-mails-disable">Disable</label>
