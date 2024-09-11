@@ -100,17 +100,23 @@ class AdminController extends Controller
 
         DB::beginTransaction();
         try {
-            dd($request);
+            // dd($request);
             $ttv_check = $request->checkbox;
             foreach ($ttv_check as $checkbox_id) {
-                DB::table('ttbkey')
+                $key = DB::table('ttbkey')
                     ->where('id', $checkbox_id)
-                    ->update(['is_key_used' => 1]);
+                    ->first();
 
-                $ttbkeysave = new TTBKeyAssign();
-                $ttbkeysave->payment_id = $request->payment_id;
-                $ttbkeysave->main_key = $checkbox_id;
-                $ttbkeysave->save();
+                if ($key) {
+                    DB::table('ttbkey')
+                        ->where('id', $checkbox_id)
+                        ->update(['is_key_used' => 1]);
+
+                    $ttbkeysave = new TTBKeyAssign();
+                    $ttbkeysave->payment_id = $checkbox_id;
+                    $ttbkeysave->main_key = $key->main_key;
+                    $ttbkeysave->save();
+                }
             }
 
             DB::commit();
