@@ -64,6 +64,17 @@ class AdminController extends Controller
         }
     }
 
+    public function paysettingpage()
+    {
+
+        if ($this->loggedInAdmin) {
+
+            return view('Admin.paysettingpage');
+        } else {
+            return redirect('/setup');
+        }
+    }
+
     public function savekeyttb(Request $request)
     {
         if ($this->loggedInAdmin) {

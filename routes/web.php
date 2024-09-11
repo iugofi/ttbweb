@@ -356,6 +356,9 @@ Route::get('/mailtest', [UserController::class, 'mailtest'])->name('admin.mailte
          Route::get('/get-ttb-keys', [AdminController::class, 'getTTBKeys'])->name('keyget.assign');
          Route::post('/get-ttb-key-save', [AdminController::class, 'savekeyttb'])->name('save.ttbkey');
 
+         //payment setting page
+         Route::get('/paysettingpage', [AdminController::class, 'paysettingpage'])->name('paysetting.page');
+
 
 
          //graph

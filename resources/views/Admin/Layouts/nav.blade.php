@@ -166,6 +166,12 @@
                     </li>
                     <li class="slide__category"><span class="category-name">All Payment Details</span></li>
                     <li class="slide">
+                        <a href="{{route('paysetting.page')}}" class="side-menu__item">
+                            <i class="bi bi-wallet side-menu__icon"></i>
+                            <span class="side-menu__label">Payment Settings</span>
+                        </a>
+                    </li>
+                    <li class="slide">
                         <a href="{{route('pay.allpaymentshow')}}" class="side-menu__item">
                             <i class="bi bi-wallet side-menu__icon"></i>
                             <span class="side-menu__label">All Payment</span>
