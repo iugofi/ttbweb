@@ -13,14 +13,15 @@
 }
 
 .btn-toggle.active {
-    background-color: #0069d9; /* Active color for the enabled state */
+    background-color: #0069d9; /* Active color for the selected button */
     color: white;
 }
 
 .btn-toggle.inactive {
-    background-color: #f8f9fa; /* Inactive color for the disabled state */
+    background-color: #f8f9fa; /* Inactive color for the unselected button */
     color: #6c757d;
 }
+
 </style>
 
     <div class="content">
@@ -63,15 +64,16 @@
                             <div>
                                 <div class="inline-flex" role="group" aria-label="Payment method toggle button group">
                                     <input type="radio" class="btn-check" name="payment-method-{{$index}}" id="payment-enable-{{$index}}" value="{{$item->PICK_TEXT_EXTEND}}">
-                                    <label class="ti-btn !text-[0.75rem] !font-medium bg-primary text-white !rounded-e-none !border-e-0 btn-toggle" for="payment-enable-{{$index}}">Enable</label>
+                                    <label class="ti-btn !text-[0.75rem] !font-medium btn-toggle bg-primary text-white !rounded-e-none !border-e-0" for="payment-enable-{{$index}}">Enable</label>
                                     <input type="radio" class="btn-check" name="payment-method-{{$index}}" id="payment-disable-{{$index}}" value="{{$item->PICK_TEXT_EXTEND}}">
-                                    <label class="ti-btn !text-[0.75rem] !font-medium btn-sm ti-btn-outline-primary !rounded-s-none btn-toggle" for="payment-disable-{{$index}}">Disable</label>
+                                    <label class="ti-btn !text-[0.75rem] !font-medium btn-toggle btn-sm ti-btn-outline-primary !rounded-s-none" for="payment-disable-{{$index}}">Disable</label>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             @endforeach
+
 
 
                 {{-- <div class="xl:col-span-3 col-span-12">
@@ -100,21 +102,41 @@
     </div>
 
     <script>
-        document.addEventListener('DOMContentLoaded', (event) => {
-            document.querySelectorAll('.btn-toggle').forEach(label => {
-                label.addEventListener('click', () => {
+        document.addEventListener('DOMContentLoaded', () => {
+            // Select all the radio buttons and labels
+            const radios = document.querySelectorAll('.btn-check');
+            const labels = document.querySelectorAll('.btn-toggle');
+
+            // Add event listeners to each radio button
+            radios.forEach(radio => {
+                radio.addEventListener('change', () => {
                     // Remove active class from all labels
-                    document.querySelectorAll('.btn-toggle').forEach(btn => {
-                        btn.classList.remove('active');
-                        btn.classList.add('inactive');
+                    labels.forEach(label => {
+                        label.classList.remove('active');
+                        label.classList.add('inactive');
                     });
-                    // Add active class to the clicked label
-                    label.classList.remove('inactive');
-                    label.classList.add('active');
+                    // Add active class to the corresponding label
+                    const selectedLabel = document.querySelector(`label[for="${radio.id}"]`);
+                    if (selectedLabel) {
+                        selectedLabel.classList.remove('inactive');
+                        selectedLabel.classList.add('active');
+                    }
                 });
+            });
+
+            // Initialize the state based on the currently checked radio button
+            radios.forEach(radio => {
+                if (radio.checked) {
+                    const selectedLabel = document.querySelector(`label[for="${radio.id}"]`);
+                    if (selectedLabel) {
+                        selectedLabel.classList.remove('inactive');
+                        selectedLabel.classList.add('active');
+                    }
+                }
             });
         });
         </script>
+
 
 
 @endsection
