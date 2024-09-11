@@ -89,13 +89,13 @@
                                     </div>
                                 </div>
 
-                                <div class="xl:col-span-12 col-span-12">
+                                {{-- <div class="xl:col-span-12 col-span-12">
                                     <label for="blog-Language" class="form-label">TTB Key</label>
                                     <select class="form-control block w-full text-[0.875rem] !rounded-md" name="ttb_key" id="ttb_key">
                                         <option value="">Select</option>
                                     </select>
                                     <div class="invalid-feedback"></div>
-                                </div>
+                                </div> --}}
 
 
                             </div>
@@ -139,7 +139,6 @@ $(document).ready(function() {
                 success: function(response) {
                     if (response.status == 400) {
                         showError('checkbox', response.messages.checkbox);
-                        showError('ttb_key', response.messages.ttb_key);
                         $('#key_create_form_btn').val('Send Manual Message');
                     } else if (response.status == 200) {
                         $('.invalid-feedback').empty();
