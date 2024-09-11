@@ -7,6 +7,22 @@
 @section('content')
 
 
+<style>.btn-toggle {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-toggle.active {
+    background-color: #0069d9; /* Active color for the enabled state */
+    color: white;
+}
+
+.btn-toggle.inactive {
+    background-color: #f8f9fa; /* Inactive color for the disabled state */
+    color: #6c757d;
+}
+</style>
+
     <div class="content">
         <div class="main-content">
 
@@ -38,30 +54,25 @@
             <p class="text-[0.875rem] font-semibold mb-3">Payment Getwatys :</p>
             <div class="grid grid-cols-12 gap-4">
                 @foreach ($pay_getways as $index => $item)
-                    <div class="xl:col-span-3 col-span-12">
-                        <div class="box !shadow-none border dark:border-defaultborder/10">
-                            <div class="box-body flex items-center justify-between flex-wrap gap-2">
-                                <div class="">
-                                    <span class="font-semibold">{{ $item->PICK_TEXT }}</span>
-                                </div>
-                                <div>
-                                    <div class="inline-flex" role="group" aria-label="Payment method toggle button group">
-                                        <input type="radio" class="btn-check" name="payment-method-{{ $index }}"
-                                            id="payment-enable-{{ $index }}" value="{{ $item->PICK_TEXT_EXTEND }}">
-                                        <label
-                                            class="ti-btn !text-[0.75rem] !font-medium bg-primary text-white !rounded-e-none !border-e-0"
-                                            for="payment-enable-{{ $index }}">Enable</label>
-                                        <input type="radio" class="btn-check" name="payment-method-{{ $index }}"
-                                            id="payment-disable-{{ $index }}" value="{{ $item->PICK_TEXT_EXTEND }}">
-                                        <label
-                                            class="ti-btn !text-[0.75rem] !font-medium btn-sm ti-btn-outline-primary !rounded-s-none"
-                                            for="payment-disable-{{ $index }}">Disable</label>
-                                    </div>
+                <div class="xl:col-span-3 col-span-12">
+                    <div class="box !shadow-none border dark:border-defaultborder/10">
+                        <div class="box-body flex items-center justify-between flex-wrap gap-2">
+                            <div class="">
+                                <span class="font-semibold">{{$item->PICK_TEXT}}</span>
+                            </div>
+                            <div>
+                                <div class="inline-flex" role="group" aria-label="Payment method toggle button group">
+                                    <input type="radio" class="btn-check" name="payment-method-{{$index}}" id="payment-enable-{{$index}}" value="{{$item->PICK_TEXT_EXTEND}}">
+                                    <label class="ti-btn !text-[0.75rem] !font-medium bg-primary text-white !rounded-e-none !border-e-0 btn-toggle" for="payment-enable-{{$index}}">Enable</label>
+                                    <input type="radio" class="btn-check" name="payment-method-{{$index}}" id="payment-disable-{{$index}}" value="{{$item->PICK_TEXT_EXTEND}}">
+                                    <label class="ti-btn !text-[0.75rem] !font-medium btn-sm ti-btn-outline-primary !rounded-s-none btn-toggle" for="payment-disable-{{$index}}">Disable</label>
                                 </div>
                             </div>
                         </div>
                     </div>
-                @endforeach
+                </div>
+            @endforeach
+
 
                 {{-- <div class="xl:col-span-3 col-span-12">
                     <div class="box !shadow-none border dark:border-defaultborder/10">
@@ -88,6 +99,22 @@
         </div>
     </div>
 
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            document.querySelectorAll('.btn-toggle').forEach(label => {
+                label.addEventListener('click', () => {
+                    // Remove active class from all labels
+                    document.querySelectorAll('.btn-toggle').forEach(btn => {
+                        btn.classList.remove('active');
+                        btn.classList.add('inactive');
+                    });
+                    // Add active class to the clicked label
+                    label.classList.remove('inactive');
+                    label.classList.add('active');
+                });
+            });
+        });
+        </script>
 
 
 @endsection
