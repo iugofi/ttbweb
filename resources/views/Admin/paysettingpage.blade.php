@@ -35,6 +35,7 @@
             </div>
             <!-- Page Header Close -->
 
+            <p class="text-[0.875rem] font-semibold mb-3">Mail Labels :</p>
             <div class="grid grid-cols-12 gap-4">
                 <div class="xl:col-span-3 col-span-12">
                     <div class="box !shadow-none border dark:border-defaultborder/10">
@@ -70,7 +71,7 @@
                         </div>
                     </div>
                 </div>
-                
+
             </div>
 
 
