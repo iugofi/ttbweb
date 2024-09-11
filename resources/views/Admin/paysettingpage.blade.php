@@ -45,7 +45,7 @@
                         @if ($item->PICK_TEXT == 'Stripe')
                         <div class="flex items-center justify-between mt-4">
                             <div class="mail-notification-settings">
-                                <p class="text-[0.875rem] mb-1 font-semibold">{{$item->PICK_TEXT == 'Paypal'}}</p>
+                                <p class="text-[0.875rem] mb-1 font-semibold">{{$item->PICK_TEXT}}</p>
 
                             </div>
                             <div>
@@ -60,7 +60,7 @@
                         @if ($item->PICK_TEXT == 'Paypal')
                         <div class="flex items-center justify-between mt-4">
                             <div class="mail-notification-settings">
-                                <p class="text-[0.875rem] mb-1 font-semibold">{{$item->PICK_TEXT == 'Paypal'}}</p>
+                                <p class="text-[0.875rem] mb-1 font-semibold">{{$item->PICK_TEXT}}</p>
 
                             </div>
                             <div>
