@@ -102,7 +102,12 @@ class AdminController extends Controller
 
             try {
 
-                dd($request->checkbox);
+                $ttv_check=$request->checkbox;
+
+                foreach ($ttv_check as $key => $value) {
+                    dd($value);
+                }
+
                 $ttbkeysave = new TTBKeyAssign();
                 $ttbkeysave->payment_id = $request->payment_id;
                 $ttbkeysave->main_key = $request->ttb_key;
