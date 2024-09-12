@@ -170,7 +170,7 @@ WHERE NOT EXISTS (
     FROM ttb_key_assign TKA
     WHERE TKA.payment_id = P.id
 ) AND sp.STORE_ID='key_type'
-GROUP BY P.product_id;
+GROUP BY P.product_id
     ");
 
 
