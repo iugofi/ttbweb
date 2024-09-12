@@ -56,9 +56,9 @@
                                             <p class="text-[#8c9097] dark:text-white/50 text-[0.813rem] mb-0">
                                                  {{ $item->PICK_TEXT }} {{ $item->plan_name }}- {{ $item->pro_count }}</p>
 
-                                            {{-- <h4 class="font-semibold  text-[1.5rem] !mb-2 "> {{ $item->product_id }}
+                                            <h4 class="font-semibold  text-[1.5rem] !mb-2 "> {{ $item->PICK_TEXT }} {{ $item->plan_name }}- {{ $item->pro_count }}
 
-                                            </h4> --}}
+                                            </h4>
                                             @endforeach
                                         </div>
                                         <div id="crm-total-customers"></div>
