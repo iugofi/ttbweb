@@ -57,7 +57,7 @@
 
 
                                                 Total Product {{ $item->product_id }}</p>
-                                            <h4 class="font-semibold  text-[1.5rem] !mb-2 "> ${{ $total }}
+                                            <h4 class="font-semibold  text-[1.5rem] !mb-2 "> {{ $item->product_id }}
 
                                             </h4>
                                             @endforeach
