@@ -37,6 +37,55 @@
 
         <!-- Start::row-1 -->
         <div class="grid grid-cols-12 gap-x-6">
+
+            <div class="xl:col-span-12 col-span-12">
+                <div class="xxl:col-span-6 xl:col-span-6 col-span-12">
+                    <div class="box overflow-hidden">
+                        <div class="box-body">
+                            <div class="flex items-top justify-between">
+                                <div>
+                                    <span
+                                        class="!text-[0.8rem]  !w-[2.5rem] !h-[2.5rem] !leading-[2.5rem] !rounded-full inline-flex items-center justify-center bg-primary">
+                                        <i class="ti ti-users text-[1rem] text-white"></i>
+                                    </span>
+                                </div>
+                                <div class="flex-grow ms-4">
+                                    <div class="flex items-center justify-between flex-wrap">
+                                        <div>
+                                            <p class="text-[#8c9097] dark:text-white/50 text-[0.813rem] mb-0">
+                                                @foreach ($Product_Total as $item)
+
+
+                                                Total Product {{ $item->product_id }}</p>
+                                            <h4 class="font-semibold  text-[1.5rem] !mb-2 "> ${{ $total }}
+
+                                            </h4>
+                                            @endforeach
+                                        </div>
+                                        <div id="crm-total-customers"></div>
+                                    </div>
+                                    <div class="flex items-center justify-between !mt-1">
+                                        <div>
+                                            {{-- <a class="text-primary text-[0.813rem]"
+                                            href="javascript:void(0);">View All<i
+                                                class="ti ti-arrow-narrow-right ms-2 font-semibold inline-block"></i></a> --}}
+                                        </div>
+                                        {{-- <div class="text-end">
+                                            <p class="mb-0 text-success text-[0.813rem] font-semibold">
+
+                                            </p>
+                                            <p class="text-[#8c9097] dark:text-white/50 opacity-[0.7] text-[0.6875rem]">
+                                                this month</p>
+                                        </div> --}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
             <div class="xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-12 sm:col-span-12 col-span-12">
                 <div class="box">
                     <div class="box-header">
@@ -68,7 +117,7 @@
                                             <tbody>
                                                 @foreach ($paymentdetails as $payment)
                                                 <tr class="border-b border-defaultborder">
-                                
+
                                                     <td><div class="form-check"><input class="form-check-input checkbox-item" type="checkbox" name="checkbox[]" value="{{ $payment->id }}" id="checkebox-sm-{{ $payment->id }}"></div></td>
                                                     <th scope="row" class="text-start">
 

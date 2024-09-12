@@ -159,7 +159,20 @@ class AdminController extends Controller
             ORDER BY p.id ASC
         ");
 
-            return view('Admin.manual_key_assign', ['paymentdetails' => $paymentdetails]);
+        $Product_Total = DB::select("
+       SELECT P.product_id, COUNT(P.product_id)
+FROM payments1 P
+WHERE NOT EXISTS (
+    SELECT 1
+    FROM ttb_key_assign TKA
+    WHERE TKA.payment_id = P.id
+)
+GROUP BY P.product_id;
+    ");
+
+
+
+            return view('Admin.manual_key_assign', ['paymentdetails' => $paymentdetails,'Product_Total'=>$Product_Total]);
         } else {
             return redirect('/setup');
         }
