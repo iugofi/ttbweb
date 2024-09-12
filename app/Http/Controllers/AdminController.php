@@ -173,7 +173,11 @@ class AdminController extends Controller
         GROUP BY P.product_id, pn.name, sp.PICK_TEXT
     ");
 
-    dd($Product_Total);
+    foreach ($Product_Total as $key => $value) {
+        dd($value);
+
+    }
+
 
 
 
