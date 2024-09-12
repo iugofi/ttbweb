@@ -128,6 +128,7 @@
                                                     </th>
                                                     <td>{{ $payment->order_id }}</td>
                                                     <td>{{ $payment->payment_time }}</td>
+                                                    <td>{{ $payment->payment_status }}</td>
                                                 </tr>
                                                 @endforeach
                                             </tbody>
