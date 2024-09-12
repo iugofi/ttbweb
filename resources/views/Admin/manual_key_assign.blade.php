@@ -52,14 +52,13 @@
                                 <div class="flex-grow ms-4">
                                     <div class="flex items-center justify-between flex-wrap">
                                         <div>
+                                            @foreach ($Product_Total as $item)
                                             <p class="text-[#8c9097] dark:text-white/50 text-[0.813rem] mb-0">
-                                                @foreach ($Product_Total as $item)
+                                                Total Product {{ $item->product_id }} - {{ $item->pro_count }}</p>
 
+                                            {{-- <h4 class="font-semibold  text-[1.5rem] !mb-2 "> {{ $item->product_id }}
 
-                                                Total Product {{ $item->product_id }}</p>
-                                            <h4 class="font-semibold  text-[1.5rem] !mb-2 "> {{ $item->product_id }}
-
-                                            </h4>
+                                            </h4> --}}
                                             @endforeach
                                         </div>
                                         <div id="crm-total-customers"></div>

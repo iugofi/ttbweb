@@ -160,7 +160,7 @@ class AdminController extends Controller
         ");
 
         $Product_Total = DB::select("
-       SELECT P.product_id, COUNT(P.product_id)
+       SELECT P.product_id, COUNT(P.product_id) as pro_count
 FROM payments1 P
 WHERE NOT EXISTS (
     SELECT 1
