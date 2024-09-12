@@ -169,14 +169,11 @@ class AdminController extends Controller
             SELECT 1
             FROM ttb_key_assign TKA
             WHERE TKA.payment_id = P.id
-        ) AND sp.STORE_ID = pd.key_type
-        GROUP BY P.product_id, pn.name, sp.PICK_TEXT
+        ) AND sp.STORE_ID = 'key_type'
+        GROUP BY P.product_id
     ");
 
-    foreach ($Product_Total as $key => $value) {
-        dd($value);
 
-    }
 
 
 
