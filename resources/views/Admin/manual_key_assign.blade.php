@@ -54,7 +54,7 @@
                                         <div>
                                             @foreach ($Product_Total as $item)
                                             <p class="text-[#8c9097] dark:text-white/50 text-[0.813rem] mb-0">
-                                                Total Product {{ $item->product_id }} - {{ $item->pro_count }}</p>
+                                                Total Product {{ $item->PICK_TEXT }} - {{ $item->plan_name }}</p>
 
                                             {{-- <h4 class="font-semibold  text-[1.5rem] !mb-2 "> {{ $item->product_id }}
 
