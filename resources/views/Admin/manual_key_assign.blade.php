@@ -67,26 +67,6 @@
                                             </thead>
                                             <tbody>
                                                 @foreach ($paymentdetails as $payment)
-                                                @php
-                                                    $productIds = explode(' ', $payment->product_id);
-                                                    $productCounts = array_count_values($productIds);
-                                                @endphp
-                                                <table>
-                                                    <thead>
-                                                        <tr>
-                                                            <th>Product ID</th>
-                                                            <th>Count</th>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                        @foreach($productCounts as $productId => $count)
-                                                            <tr>
-                                                                <td>{{ $productId }}</td>
-                                                                <td>{{ $count }}</td>
-                                                            </tr>
-                                                        @endforeach
-                                                    </tbody>
-                                                </table>
                                                 <tr class="border-b border-defaultborder">
                                                     <td>{{$payment->product_id}}</td>
                                                     <td><div class="form-check"><input class="form-check-input checkbox-item" type="checkbox" name="checkbox[]" value="{{ $payment->id }}" id="checkebox-sm-{{ $payment->id }}"></div></td>
