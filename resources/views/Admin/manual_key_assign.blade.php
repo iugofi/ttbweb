@@ -53,8 +53,8 @@
                                     <div class="flex items-center justify-between flex-wrap">
                                         <div>
                                             @foreach ($Product_Total as $item)
-                                            <p class="text-[#8c9097] dark:text-white/50 text-[0.813rem] mb-0">
-                                                 {{ $item->PICK_TEXT }} {{ $item->plan_name }}- {{ $item->pro_count }}</p>
+                                            {{-- <p class="text-[#8c9097] dark:text-white/50 text-[0.813rem] mb-0">
+                                                 {{ $item->PICK_TEXT }} {{ $item->plan_name }}- {{ $item->pro_count }}</p> --}}
 
                                             <h4 class="font-semibold  text-[1.5rem] !mb-2 "> {{ $item->PICK_TEXT }} {{ $item->plan_name }}- {{ $item->pro_count }}
 
