@@ -160,18 +160,19 @@ class AdminController extends Controller
         ");
 
         $Product_Total = DB::select("
-       SELECT P.product_id, COUNT(P.product_id) AS pro_count,pn.name AS plan_name,sp.PICK_TEXT
-FROM payments1 P
-LEFT JOIN product_details AS pd ON pd.id=P.product_id
-LEFT JOIN planname AS pn ON pn.plan_id=pd.plan_id
-LEFT JOIN storepick AS sp ON sp.PICK_ID=pd.key_type
-WHERE NOT EXISTS (
-    SELECT 1
-    FROM ttb_key_assign TKA
-    WHERE TKA.payment_id = P.id
-) AND sp.STORE_ID='key_type'
-GROUP BY P.product_id
+        SELECT P.product_id, COUNT(P.product_id) AS pro_count, pn.name AS plan_name, sp.PICK_TEXT
+        FROM payments1 P
+        LEFT JOIN product_details AS pd ON pd.id = P.product_id
+        LEFT JOIN planname AS pn ON pn.plan_id = pd.plan_id
+        LEFT JOIN storepick AS sp ON sp.PICK_ID = pd.key_type
+        WHERE NOT EXISTS (
+            SELECT 1
+            FROM ttb_key_assign TKA
+            WHERE TKA.payment_id = P.id
+        ) AND sp.STORE_ID = pd.key_type
+        GROUP BY P.product_id, pn.name, sp.PICK_TEXT
     ");
+
 
 
 
