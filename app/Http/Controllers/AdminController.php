@@ -210,7 +210,7 @@ GROUP BY P.product_id, pn.name, sp.PICK_TEXT
     public function getTreemapData()
     {
 
-        $data = DB::table('payments')->select('city as x', DB::raw('COUNT(id) as y'))->groupBy('city')->get();
+        $data = DB::table('payments1')->select('city as x', DB::raw('COUNT(id) as y'))->groupBy('city')->get();
 
 
         return response()->json($data);
