@@ -211,6 +211,7 @@ GROUP BY P.product_id, pn.name, sp.PICK_TEXT
     {
 
         $data = DB::table('payments1')->select('city as x', DB::raw('COUNT(id) as y'))->groupBy('city')->get();
+        dd($data);
 
 
         return response()->json($data);
