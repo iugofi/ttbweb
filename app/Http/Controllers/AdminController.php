@@ -53,11 +53,16 @@ class AdminController extends Controller
     {
 
         if ($this->loggedInAdmin) {
-            $paymentdetails = DB::table('payments1 as p')
-            ->leftJoin('ttb_key_assign as tka', 'tka.payment_id', '=', 'p.id')
-            ->select('p.*', 'tka.*')
-            ->orderBy('p.id', 'desc')
-            ->get();
+            $paymentdetails = DB::select("
+            SELECT *
+            FROM payments1 p
+            WHERE NOT EXISTS (
+                SELECT 1
+                FROM ttb_key_assign tka
+                WHERE tka.payment_id = p.id
+            )
+            ORDER BY p.id ASC
+        ");
             return view('Admin.manual_key_list', ['paymentdetails' => $paymentdetails]);
         } else {
             return redirect('/setup');
@@ -213,7 +218,7 @@ GROUP BY P.product_id, pn.name, sp.PICK_TEXT
         $data = DB::table('payments1')
         ->select('city as x', DB::raw('COUNT(id) as y'))
         ->whereNotNull('city')
-        ->where('city', '!=', '')  
+        ->where('city', '!=', '')
         ->groupBy('city')
         ->get();
         // dd($data);
