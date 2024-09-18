@@ -268,6 +268,37 @@
                         </a>
                     </li>
 
+                    <li class="slide__category"><span class="category-name">Test Sidebar</span></li>
+                    <li class="slide has-sub">
+                        <a href="javascript:void(0);" class="side-menu__item">
+                            <i class="bx bx-medal side-menu__icon"></i>
+                            <span class="side-menu__label">Utilities</span>
+                            <i class="fe fe-chevron-right side-menu__angle"></i>
+                        </a>
+                        <ul class="slide-menu child1">
+                            <li class="slide side-menu__label1">
+                                <a href="javascript:void(0)">Utilities</a>
+                            </li>
+                            <li class="slide">
+                                <a href="avatars.html" class="side-menu__item">Avatars</a>
+                            </li>
+                            <li class="slide">
+                                <a href="borders.html" class="side-menu__item">Borders</a>
+                            </li>
+                            <li class="slide">
+                                <a href="colors.html" class="side-menu__item">Colors</a>
+                            </li>
+                            <li class="slide">
+                                <a href="columns.html" class="side-menu__item">Columns</a>
+                            </li>
+                            <li class="slide">
+                                <a href="flex.html" class="side-menu__item">Flex</a>
+                            </li>
+                            <li class="slide">
+                                <a href="grids.html" class="side-menu__item">Grids</a>
+                            </li>
+                        </ul>
+                    </li>
 
                     @endif
 
