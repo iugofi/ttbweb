@@ -1,6 +1,6 @@
 @extends('Admin.Layouts.layout')
 
-@section('title', 'Vpn Payment how')
+@section('title', 'Payment')
 @section('Description', '')
 @section('keywords', '')
 @section('canonical', '')
