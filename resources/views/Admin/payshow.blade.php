@@ -139,7 +139,7 @@
                                             <th class="px-4 py-2">payment_status</th>
                                             <th class="px-4 py-2">customer_name</th>
                                             <th class="px-4 py-2">country</th>
-                                            <th class="px-4 py-2">postal_code</th>
+                                            <th class="px-4 py-2">Address</th>
                                             <th class="px-4 py-2">Date</th>
                                             <th class="px-4 py-2">Action</th>
                                         </tr>
@@ -172,16 +172,16 @@
                                                         ->first();
                                                 @endphp
                                                 {{ $results_plan->name ?? 'NA' }}</td>
-                                                <td class="border px-4 py-2">{{ $item->pay_id }}</td>
+                                                <td class="border px-4 py-2">{{ $item->transaction_id }}</td>
                                                 <td class="border px-4 py-2" style="font-weight: bold;font-size: 13px;"> @php
                                                     $results = App\Models\TTBKEY::where('id', $item->product_key)->first();
                                                 @endphp
                                                     {{ $results ? $results->main_key : 'NA' }}</td>
-                                                <td class="border px-4 py-2">{{ $item->amount_total }}</td>
+                                                <td class="border px-4 py-2">{{ $item->price }}</td>
                                                 <td class="border px-4 py-2">{{ $item->payment_status }}</td>
-                                                <td class="border px-4 py-2">{{ $item->customer_name }}</td>
+                                                <td class="border px-4 py-2">{{ $item->firstname }} {{ $item->lastname }}</td>
                                                 <td class="border px-4 py-2">{{ $item->country }}</td>
-                                                <td class="border px-4 py-2">{{ $item->postal_code }}</td>
+                                                <td class="border px-4 py-2">{{ $item->country }} {{ $item->state }} {{ $item->city }} {{ $item->address }}</td>
                                                 <td class="border px-4 py-2">{{ $item->created_at->format('Y-m-d h:i A') }}
                                                 </td>
 
