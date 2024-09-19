@@ -1725,10 +1725,11 @@ GROUP BY P.product_id, pn.name, sp.PICK_TEXT
         if ($this->loggedInAdmin) {
             $title = "Antivirus";
             DB::enableQueryLog();
-            $vpnpaydata = Payments::join('product_details', 'product_details.id', '=', 'payments.product_id')
+                $vpnpaydata = Payment1::leftjoin('product_details', 'product_details.id', '=', 'payments1.product_id')
+                ->leftjoin('ttb_key_assign', 'ttb_key_assign.payment_id', '=', 'payments1.id')
                 ->where('product_details.key_type', 502)
-                ->select('payments.*', 'product_details.key_type', 'product_details.plan_id')
-                ->orderBy('payments.id', 'desc')
+                ->select('payments1.*', 'product_details.key_type', 'product_details.plan_id','ttb_key_assign.main_key','ttb_key_assign.mail_send_status','ttb_key_assign.is_manual')
+                ->orderBy('payments1.id', 'desc')
                 ->get();
                 dd(DB::getQueryLog());
 
