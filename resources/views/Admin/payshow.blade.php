@@ -153,7 +153,7 @@
                                                     $id = 1;
                                                 @endphp
                                                 <td class="border px-4 py-2">{{ $key + 1 }}</td>
-                                                <td class="border px-4 py-2">{{ $item->ordet_id }}</td>
+                                                <td class="border px-4 py-2">{{ $item->order_id }}</td>
                                                 <td class="border px-4 py-2"> @php
                                                     $results = App\Models\Users::where('id', $item->user_id)->first();
                                                 @endphp
