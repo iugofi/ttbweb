@@ -130,15 +130,17 @@
                                     <thead>
                                         <tr>
                                             <th class="px-4 py-2">Id</th>
-                                            <th class="px-4 py-2">user_id</th>
-                                            <th class="px-4 py-2">key_type</th>
-                                            <th class="px-4 py-2">plan_id</th>
-                                            <th class="px-4 py-2">pay_id</th>
-                                            <th class="px-4 py-2">product_key</th>
-                                            <th class="px-4 py-2">amount_total</th>
-                                            <th class="px-4 py-2">payment_status</th>
-                                            <th class="px-4 py-2">customer_name</th>
-                                            <th class="px-4 py-2">country</th>
+                                            <th class="px-4 py-2">Order Id</th>
+                                            <th class="px-4 py-2">User Name</th>
+                                            <th class="px-4 py-2">Key Type</th>
+                                            <th class="px-4 py-2">Plan Name</th>
+                                            <th class="px-4 py-2">Transtion Id </th>
+                                            <th class="px-4 py-2">Key</th>
+                                            <th class="px-4 py-2">Key Activation Date</th>
+                                            <th class="px-4 py-2">Key Expirey Date</th>
+                                            <th class="px-4 py-2">Price</th>
+                                            <th class="px-4 py-2">Payment Status</th>
+                                            <th class="px-4 py-2">Customer Name</th>
                                             <th class="px-4 py-2">Address</th>
                                             {{-- <th class="px-4 py-2">Date</th> --}}
                                             <th class="px-4 py-2">Action</th>
@@ -151,6 +153,7 @@
                                                     $id = 1;
                                                 @endphp
                                                 <td class="border px-4 py-2">{{ $key + 1 }}</td>
+                                                <td class="border px-4 py-2">{{ $item->ordet_id }}</td>
                                                 <td class="border px-4 py-2"> @php
                                                     $results = App\Models\Users::where('id', $item->user_id)->first();
                                                 @endphp
@@ -180,7 +183,6 @@
                                                 <td class="border px-4 py-2">{{ $item->price }}</td>
                                                 <td class="border px-4 py-2">{{ $item->payment_status }}</td>
                                                 <td class="border px-4 py-2">{{ $item->firstname }} {{ $item->lastname }}</td>
-                                                <td class="border px-4 py-2">{{ $item->country }}</td>
                                                 <td class="border px-4 py-2">{{ $item->country }} {{ $item->state }} {{ $item->city }} {{ $item->address }}</td>
                                                 {{-- <td class="border px-4 py-2">{{ $item->payment_time->format('Y-m-d h:i A') }} --}}
                                                 </td>
