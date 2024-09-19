@@ -181,8 +181,9 @@
                 <div class="inner-column text-center lg:text-right">
                     <h2 class="text-white text-2xl font-semibold mb-2">Sign up For Newsletter</h2>
                     <div class="subscribe-form">
-                        <form method="post" action="https://www.nighthawk-routerlogin.com/saveemailsub"
+                        <form method="post" action="{{route('user.saveemailsub')}}"
                             id="mail-subscribe">
+                            @csrf
                             <input type="hidden" name="_token" value="iBdPTkSAy1r2FkYmXRlfaYojRVg8F4oXZcKr5jYP">
                             <div class="form-group relative text-left">
                                 <input type="email" name="email_subscribe" id="email_subscribe"
