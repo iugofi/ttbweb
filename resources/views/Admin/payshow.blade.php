@@ -140,7 +140,7 @@
                                             <th class="px-4 py-2">customer_name</th>
                                             <th class="px-4 py-2">country</th>
                                             <th class="px-4 py-2">Address</th>
-                                            <th class="px-4 py-2">Date</th>
+                                            {{-- <th class="px-4 py-2">Date</th> --}}
                                             <th class="px-4 py-2">Action</th>
                                         </tr>
                                     </thead>
@@ -174,7 +174,7 @@
                                                 {{ $results_plan->name ?? 'NA' }}</td>
                                                 <td class="border px-4 py-2">{{ $item->transaction_id }}</td>
                                                 <td class="border px-4 py-2" style="font-weight: bold;font-size: 13px;"> @php
-                                                    $results = App\Models\TTBKEY::where('id', $item->product_key)->first();
+                                                    $results = App\Models\TTBKEY::where('id', $item->main_key)->first();
                                                 @endphp
                                                     {{ $results ? $results->main_key : 'NA' }}</td>
                                                 <td class="border px-4 py-2">{{ $item->price }}</td>
@@ -182,7 +182,7 @@
                                                 <td class="border px-4 py-2">{{ $item->firstname }} {{ $item->lastname }}</td>
                                                 <td class="border px-4 py-2">{{ $item->country }}</td>
                                                 <td class="border px-4 py-2">{{ $item->country }} {{ $item->state }} {{ $item->city }} {{ $item->address }}</td>
-                                                <td class="border px-4 py-2">{{ $item->created_at->format('Y-m-d h:i A') }}
+                                                {{-- <td class="border px-4 py-2">{{ $item->payment_time->format('Y-m-d h:i A') }} --}}
                                                 </td>
 
 
