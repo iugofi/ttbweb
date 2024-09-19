@@ -184,7 +184,6 @@
                         <form method="post" action="{{route('user.saveemailsub')}}"
                             id="mail-subscribe">
                             @csrf
-                            <input type="hidden" name="_token" value="iBdPTkSAy1r2FkYmXRlfaYojRVg8F4oXZcKr5jYP">
                             <div class="form-group relative text-left">
                                 <input type="email" name="email_subscribe" id="email_subscribe"
                                     placeholder="Enter mail address..." required=""
