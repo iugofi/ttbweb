@@ -49629,7 +49629,10 @@ a {
     width: 74%;
     margin: auto;
 }
-
+.dark .e-support-section-seven button {
+    background: #000000;
+    color: #fff !important;
+}
 .e-support-section-seven {
     padding: 5em 0em;
 }
