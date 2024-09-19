@@ -1724,11 +1724,14 @@ GROUP BY P.product_id, pn.name, sp.PICK_TEXT
     {
         if ($this->loggedInAdmin) {
             $title = "Antivirus";
+            DB::enableQueryLog();
             $vpnpaydata = Payments::join('product_details', 'product_details.id', '=', 'payments.product_id')
                 ->where('product_details.key_type', 502)
                 ->select('payments.*', 'product_details.key_type', 'product_details.plan_id')
                 ->orderBy('payments.id', 'desc')
                 ->get();
+                dd(DB::getQueryLog());
+
             $total = DB::table('payments')
                 ->join('product_details', 'product_details.id', '=', 'payments.product_id')
                 ->where('product_details.key_type', 502)
