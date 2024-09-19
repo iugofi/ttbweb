@@ -169,14 +169,16 @@
             </nav>
 
             <div class="mt-3">
-                <div id="pills-on-gray-color-4" role="tabpanel" aria-labelledby="pills-on-gray-color-item-4" class="hidden">
+                <div id="pills-on-gray-color-4" role="tabpanel"
+                aria-labelledby="pills-on-gray-color-item-4" class="">
                     <p class="mt-2"> The first layer of threat protection blocks the malware/virus attacks before they
                         commit
                         cyber trespassing. Similarly, cyber threat intelligence aims to prevent most categories of
                         harmful acts from making inroads into a corporate platform.</p>
                 </div>
 
-                <div id="pills-on-gray-color-5" class="hidden" role="tabpanel" aria-labelledby="pills-on-gray-color-item-5">
+                <div id="pills-on-gray-color-5" class="hidden" role="tabpanel"
+                 aria-labelledby="pills-on-gray-color-item-5">
                     <p class="mt-2"> Despite various preventive measures, sometimes a threat of one or another kind is
                         bound to
                         penetrate through the defense. The right approach is opting for TTB Antivirus in such conditions
