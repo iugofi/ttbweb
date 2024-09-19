@@ -217,8 +217,8 @@
     {{-- END SECTION FOUR NEW --}}
 
     {{-- START SECTION FIFETH NEW --}}
-    <section class="threat-section-eight !bg-[#f9fafb] dark:!bg-black/10">
-        <div class="container">
+    <section class="threat-section-eight !bg-[#f9fafb] dark:!bg-black/10 pb-5 pt-5">
+        <div class="container pb-5 pt-5">
             <h2 class="mt-2 pt-5 mb-5 text-center" style="font-weight:600;">How to prevent cyber attacks using TTB Threat
                 Protection?</h2>
             <p class="mt-2 mb-8" style="font-size: 16px; text-align: center;">In addition, Threat Intelligence or
