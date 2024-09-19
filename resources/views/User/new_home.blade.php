@@ -16,6 +16,11 @@
         <div class="main-content">
 
             {{-- first section start --}}
+            @if (session('success'))
+                <div class="alert alert-success">
+                    {{ session('success') }}
+                </div>
+            @endif
 
             <section class="toast-section">
                 <div id="dismiss-toast"

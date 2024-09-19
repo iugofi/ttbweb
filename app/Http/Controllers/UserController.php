@@ -32,12 +32,10 @@ class UserController extends Controller
 
     public function saveemailsub(Request $request)
     {
-        $email_sub = $request->email_subscribe;
-
         $saveemail = new EmailSubscribe();
-        $saveemail->email = $email_sub;
+        $saveemail->email = $request->email_subscribe;
         $saveemail->save();
-        return redirect()->back();
+        return redirect()->back()->with('success', 'Email subscription saved successfully!');
     }
 
     public function forgetpass(Request $request)
