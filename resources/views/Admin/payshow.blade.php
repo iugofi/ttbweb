@@ -180,6 +180,8 @@
                                                     $results = App\Models\TTBKEY::where('id', $item->main_key)->first();
                                                 @endphp
                                                     {{ $results ? $results->main_key : 'NA' }}</td>
+                                                <td class="border px-4 py-2">{{ $item->key_activation_date }}</td>
+                                                <td class="border px-4 py-2">{{ $item->key_expirey_date }}</td>
                                                 <td class="border px-4 py-2">{{ $item->price }}</td>
                                                 <td class="border px-4 py-2">{{ $item->payment_status }}</td>
                                                 <td class="border px-4 py-2">{{ $item->firstname }} {{ $item->lastname }}</td>
