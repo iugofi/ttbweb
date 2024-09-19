@@ -194,7 +194,7 @@
                         for reduction in data loss, and of the spread of the malware.</p>
                 </div>
 
-                <div id="pills-on-gray-color-7" class="" role="tabpanel"
+                <div id="pills-on-gray-color-7" class="hidden" role="tabpanel"
                     aria-labelledby="pills-on-gray-color-item-7">
                     <p class="mt-2">One of the primary functions or objectives of Threat protection is to ensure that a
                         business
