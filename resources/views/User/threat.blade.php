@@ -169,16 +169,14 @@
             </nav>
 
             <div class="mt-3">
-                <div id="pills-on-gray-color-4" role="tabpanel"
-                aria-labelledby="pills-on-gray-color-item-4" class="">
+                <div id="pills-on-gray-color-4" role="tabpanel" aria-labelledby="pills-on-gray-color-item-4" class="">
                     <p class="mt-2"> The first layer of threat protection blocks the malware/virus attacks before they
                         commit
                         cyber trespassing. Similarly, cyber threat intelligence aims to prevent most categories of
                         harmful acts from making inroads into a corporate platform.</p>
                 </div>
 
-                <div id="pills-on-gray-color-5" class="hidden" role="tabpanel"
-                 aria-labelledby="pills-on-gray-color-item-5">
+                <div id="pills-on-gray-color-5" class="hidden" role="tabpanel" aria-labelledby="pills-on-gray-color-item-5">
                     <p class="mt-2"> Despite various preventive measures, sometimes a threat of one or another kind is
                         bound to
                         penetrate through the defense. The right approach is opting for TTB Antivirus in such conditions
@@ -239,7 +237,8 @@
                                 </span>
                             </div>
                             <h6 class="font-bold mb-2 text-xl text-center">Reduces Data Breach Risks</h6>
-                            <p class="card-text mb-4 text-center"style="font-size: 15px;">This protection helps to intercept modern
+                            <p class="card-text mb-4 text-center"style="font-size: 15px;">This protection helps to
+                                intercept modern
                                 threats before they cause
                                 catastrophic defeats. However, it significantly reduces the risk of a data breach and
                                 ensures the safety of sensitive information—preserving and increasing your customers' trust.
@@ -261,7 +260,8 @@
                                 </span>
                             </div>
                             <h6 class="font-bold mb-2 text-xl text-center">Improved Efficiency</h6>
-                            <p class="card-text mb-4 text-center"style="font-size: 15px;">With automated virus threat protection
+                            <p class="card-text mb-4 text-center"style="font-size: 15px;">With automated virus threat
+                                protection
                                 solutions, we assist you in
                                 securing from the present-day malware and virus attacks. It seamlessly connects with
                                 cloud-native solutions and cybersecurity platforms. Also, it easily integrates with the
@@ -282,7 +282,8 @@
                                 </span>
                             </div>
                             <h6 class="font-bold mb-2 text-xl text-center">Intensify the Observance</h6>
-                            <p class="card-text mb-4 text-center"style="font-size: 15px;">Threat protection ensures compliance with
+                            <p class="card-text mb-4 text-center"style="font-size: 15px;">Threat protection ensures
+                                compliance with
                                 industry policy and
                                 standards, saving the business from resulting fines and legal actions that would come with
                                 non-compliance. Likewise, it discovers and patches up any susceptibilities or
@@ -303,7 +304,8 @@
                                 </span>
                             </div>
                             <h6 class="font-bold mb-2 text-xl text-center">Peace of Mind</h6>
-                            <p class="card-text mb-4 text-center"style="font-size: 15px;">Generally, this protection gives peace of
+                            <p class="card-text mb-4 text-center"style="font-size: 15px;">Generally, this protection gives
+                                peace of
                                 mind to the owners and
                                 representatives by offering deeper risk visibility of enterprise perimeters including
                                 infrastructure, networks, platforms, endpoints, applications, etc. Additionally, with this
@@ -337,7 +339,7 @@
                                 <div class="box-body">
                                     <div class="mb-2">
                                         <span class="avatar avatar-md">
-                                                <img src="assets/img/Elevated-Cyber-Threats.png" alt="img"
+                                            <img src="assets/img/Elevated-Cyber-Threats.png" alt="img"
                                                 class="!rounded-md" style="max-width: 60px;height: 60px;">
                                         </span>
                                     </div>
@@ -427,8 +429,8 @@
                         <div class="box-body">
                             <div class="mb-2">
                                 <span class="avatar avatar-md">
-                                    <img src="assets/img/Advanced-Threat-Protection.png" alt="img" class="!rounded-md"
-                                        style="max-width: 60px;height: 60px;">
+                                    <img src="assets/img/Advanced-Threat-Protection.png" alt="img"
+                                        class="!rounded-md" style="max-width: 60px;height: 60px;">
 
                                 </span>
                             </div>
@@ -466,10 +468,13 @@
                     </div>
                 </div>
             </div>
-            <p class="card-text mb-4"style="font-size: 16px;">Overall, Threat protection is an integral component of security as
-                it remains a cornerstone of the primary cybersecurity strategies in any corps. Similarly, in this blossoming digital age,
-                 where the menace of cyber threats continues to be on the increase. So, TTB threat protection will enable companies to
-                 better protect their assets, meet compliance requirements, and increase trust with their customers.</p>
+            <p class="card-text mb-4"style="font-size: 16px;">Overall, Threat protection is an integral component of
+                security as
+                it remains a cornerstone of the primary cybersecurity strategies in any corps. Similarly, in this blossoming
+                digital age,
+                where the menace of cyber threats continues to be on the increase. So, TTB threat protection will enable
+                companies to
+                better protect their assets, meet compliance requirements, and increase trust with their customers.</p>
         </div>
     </section>
     {{-- END SECTION SIX --}}

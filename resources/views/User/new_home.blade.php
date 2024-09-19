@@ -1523,31 +1523,21 @@
                 </div>
             </section>
 
-            {{-- End download section --}}
-
-
-
-
-
-
+            {{-- End download section --}
 
         </div>
     </div>
-
-
-
-
 
     </div>
     </div>
 
     {{-- End pricing plan section --}}
 
-    <script src="assets/home-new/js/jquery.min.js"></script>
-    <script src="assets/home-new/js/jquery-plugin-collection.js"></script>
-    <script src="assets/home-new/js/script.js"></script>
+            <script src="assets/home-new/js/jquery.min.js"></script>
+            <script src="assets/home-new/js/jquery-plugin-collection.js"></script>
+            <script src="assets/home-new/js/script.js"></script>
 
 
 
 
-@endsection
+        @endsection
