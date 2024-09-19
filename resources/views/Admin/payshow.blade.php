@@ -192,11 +192,11 @@
 
                                                 <td class="border px-4 py-2">
                                                     <div class="flex flex-row items-center !gap-2 text-[0.9375rem]">
-                                                        <a aria-label="anchor"
+                                                        {{-- <a aria-label="anchor"
                                                             href="{{ route('edit.payedit', \Crypt::encrypt($item->id)) }}"
                                                             class="ti-btn ti-btn-icon ti-btn-wave !gap-0 !m-0 !h-[1.75rem] !w-[1.75rem] text-[0.8rem] bg-primary/10 text-primary hover:bg-primary hover:text-white hover:border-primary">
                                                             <i class="ri-edit-line"></i>
-                                                        </a>
+                                                        </a> --}}
                                                         <button aria-label="button" type="button"
                                                             class="ti-btn !py-1 !px-2 !text-[0.75rem] ti-btn-danger-full btn-wave delete-vpnpay"
                                                             data-item-id="{{ $item->id }}">
