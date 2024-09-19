@@ -1,6 +1,6 @@
 @extends('Admin.Layouts.layout')
 
-@section('title', 'Payment')
+@section('title', $title)
 @section('Description', '')
 @section('keywords', '')
 @section('canonical', '')
