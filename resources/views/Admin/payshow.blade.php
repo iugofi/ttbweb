@@ -182,7 +182,7 @@
                                                 <td class="border px-4 py-2">{{ $item->firstname }} {{ $item->lastname }}</td>
                                                 <td class="border px-4 py-2">{{ $item->country }}</td>
                                                 <td class="border px-4 py-2">{{ $item->country }} {{ $item->state }} {{ $item->city }} {{ $item->address }}</td>
-                                                <td class="border px-4 py-2">{{ $item->created_at->format('Y-m-d h:i A') }}
+                                                <td class="border px-4 py-2">{{ $item->payment_time->format('Y-m-d h:i A') }}
                                                 </td>
 
 
