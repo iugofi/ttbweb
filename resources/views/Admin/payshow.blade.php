@@ -1,6 +1,6 @@
 @extends('Admin.Layouts.layout')
 
-@section('title', 'Vpn Payment how')
+@section('title', $title)
 @section('Description', '')
 @section('keywords', '')
 @section('canonical', '')
@@ -130,15 +130,17 @@
                                     <thead>
                                         <tr>
                                             <th class="px-4 py-2">Id</th>
-                                            <th class="px-4 py-2">user_id</th>
-                                            <th class="px-4 py-2">key_type</th>
-                                            <th class="px-4 py-2">plan_id</th>
-                                            <th class="px-4 py-2">pay_id</th>
-                                            <th class="px-4 py-2">product_key</th>
-                                            <th class="px-4 py-2">amount_total</th>
-                                            <th class="px-4 py-2">payment_status</th>
-                                            <th class="px-4 py-2">customer_name</th>
-                                            <th class="px-4 py-2">country</th>
+                                            <th class="px-4 py-2">Order Id</th>
+                                            <th class="px-4 py-2">User Name</th>
+                                            <th class="px-4 py-2">Key Type</th>
+                                            <th class="px-4 py-2">Plan Name</th>
+                                            <th class="px-4 py-2">Transtion Id </th>
+                                            <th class="px-4 py-2">Key</th>
+                                            <th class="px-4 py-2">Key Activation Date</th>
+                                            <th class="px-4 py-2">Key Expirey Date</th>
+                                            <th class="px-4 py-2">Price</th>
+                                            <th class="px-4 py-2">Payment Status</th>
+                                            <th class="px-4 py-2">Customer Name</th>
                                             <th class="px-4 py-2">Address</th>
                                             {{-- <th class="px-4 py-2">Date</th> --}}
                                             <th class="px-4 py-2">Action</th>
@@ -151,6 +153,7 @@
                                                     $id = 1;
                                                 @endphp
                                                 <td class="border px-4 py-2">{{ $key + 1 }}</td>
+                                                <td class="border px-4 py-2">{{ $item->order_id }}</td>
                                                 <td class="border px-4 py-2"> @php
                                                     $results = App\Models\Users::where('id', $item->user_id)->first();
                                                 @endphp
@@ -177,10 +180,11 @@
                                                     $results = App\Models\TTBKEY::where('id', $item->main_key)->first();
                                                 @endphp
                                                     {{ $results ? $results->main_key : 'NA' }}</td>
+                                                <td class="border px-4 py-2">{{ $item->key_activation_date }}</td>
+                                                <td class="border px-4 py-2">{{ $item->key_expirey_date }}</td>
                                                 <td class="border px-4 py-2">{{ $item->price }}</td>
                                                 <td class="border px-4 py-2">{{ $item->payment_status }}</td>
                                                 <td class="border px-4 py-2">{{ $item->firstname }} {{ $item->lastname }}</td>
-                                                <td class="border px-4 py-2">{{ $item->country }}</td>
                                                 <td class="border px-4 py-2">{{ $item->country }} {{ $item->state }} {{ $item->city }} {{ $item->address }}</td>
                                                 {{-- <td class="border px-4 py-2">{{ $item->payment_time->format('Y-m-d h:i A') }} --}}
                                                 </td>
@@ -188,11 +192,11 @@
 
                                                 <td class="border px-4 py-2">
                                                     <div class="flex flex-row items-center !gap-2 text-[0.9375rem]">
-                                                        <a aria-label="anchor"
+                                                        {{-- <a aria-label="anchor"
                                                             href="{{ route('edit.payedit', \Crypt::encrypt($item->id)) }}"
                                                             class="ti-btn ti-btn-icon ti-btn-wave !gap-0 !m-0 !h-[1.75rem] !w-[1.75rem] text-[0.8rem] bg-primary/10 text-primary hover:bg-primary hover:text-white hover:border-primary">
                                                             <i class="ri-edit-line"></i>
-                                                        </a>
+                                                        </a> --}}
                                                         <button aria-label="button" type="button"
                                                             class="ti-btn !py-1 !px-2 !text-[0.75rem] ti-btn-danger-full btn-wave delete-vpnpay"
                                                             data-item-id="{{ $item->id }}">

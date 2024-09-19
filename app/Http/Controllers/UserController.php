@@ -31,14 +31,19 @@ class UserController extends Controller
     }
 
     public function saveemailsub(Request $request)
-    {
-        $email_sub = $request->email_subscribe;
-
-        $saveemail = new EmailSubscribe();
-        $saveemail->email = $email_sub;
-        $saveemail->save();
-        return redirect()->back();
+{
+    $existingEmail = EmailSubscribe::where('email', $request->email_subscribe)->first();
+    if ($existingEmail) {
+        return redirect()->back()->with('error', 'This email is already subscribed!');
     }
+    $saveemail = new EmailSubscribe();
+    $saveemail->email = $request->email_subscribe;
+    $saveemail->save();
+
+
+    return redirect()->back()->with('success', 'Email subscription saved successfully!');
+}
+
 
     public function forgetpass(Request $request)
     {
