@@ -1749,10 +1749,14 @@ GROUP BY P.product_id, pn.name, sp.PICK_TEXT
     {
         if ($this->loggedInAdmin) {
             $title = "All";
-            $vpnpaydata = Payments::join('product_details', 'product_details.id', '=', 'payments.product_id')
-                ->select('payments.*', 'product_details.key_type', 'product_details.plan_id')
-                ->orderBy('payments.id', 'desc')
+            $vpnpaydata = Payment1::leftjoin('product_details', 'product_details.id', '=', 'payments1.product_id')
+                ->leftjoin('ttb_key_assign', 'ttb_key_assign.payment_id', '=', 'payments1.id')
+                ->leftjoin('ttbkey', 'ttbkey.id', '=', 'ttb_key_assign.main_key')
+                ->where('product_details.key_type', 501)
+                ->select('payments1.*', 'product_details.key_type', 'product_details.plan_id','ttb_key_assign.main_key','ttb_key_assign.mail_send_status','ttb_key_assign.is_manual','ttbkey.key_activation_date','ttbkey.key_expirey_date')
+                ->orderBy('payments1.id', 'desc')
                 ->get();
+
             $total = DB::table('payments')
                 ->join('product_details', 'product_details.id', '=', 'payments.product_id')
                 ->whereNull('payments.deleted_at')
