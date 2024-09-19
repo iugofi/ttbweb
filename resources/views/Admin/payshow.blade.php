@@ -174,7 +174,7 @@
                                                 {{ $results_plan->name ?? 'NA' }}</td>
                                                 <td class="border px-4 py-2">{{ $item->transaction_id }}</td>
                                                 <td class="border px-4 py-2" style="font-weight: bold;font-size: 13px;"> @php
-                                                    $results = App\Models\TTBKEY::where('id', $item->product_key)->first();
+                                                    $results = App\Models\TTBKEY::where('id', $item->main_key)->first();
                                                 @endphp
                                                     {{ $results ? $results->main_key : 'NA' }}</td>
                                                 <td class="border px-4 py-2">{{ $item->price }}</td>
