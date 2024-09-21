@@ -119,7 +119,7 @@
                         </tr>
                         <tr>
                           <td style="font-size: 12px; color: #5b5b5b; font-family: 'Open Sans', sans-serif; line-height: 18px; vertical-align: top; text-align: right;">
-                            <small>ORDER</small> {{$paymentDetails->order_id}}<br />
+                            <small>ORDER ID </small> {{$paymentDetails->order_id}}<br />
                             <small>{{ $paymentDetails->payment_time }}</small>
                           </td>
                         </tr>
