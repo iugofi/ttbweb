@@ -95,18 +95,18 @@ class AdminController extends Controller
 
                     if ($key) {
 
-                        $key_main = DB::table('ttbkey')
-                            ->where('product_id', $key->product_id)
+                        $getkey = TTBKEY::where('product_id', $key->product_id)
+                        ->where('is_key_used', 0)
+                            ->orderBy('created_at', 'ASC')
+                            ->limit(1)
                             ->first();
 
-                        if ($key_main) {
 
+
+                        if ($getkey) {
                             $plan_id_get = DB::table('product_details')
                             ->select('plan_id')
                             ->where('id', $key->product_id)
-                            ->first();
-
-                            $getkey = TTBKEY::where('id', $key_main->id)
                             ->first();
 
                             if (isset($plan_id_get->plan_id)) {
@@ -131,24 +131,9 @@ class AdminController extends Controller
                                 $getkey->save();
                             }
 
-                            // DB::table('ttbkey')
-                            //     ->where('id', $key_main->id)
-                            //     ->update([
-                            //         'is_key_used' => 1,
-                            //         'key_activation_date' => now()
-                            //     ]);
-
-
-                            // $ttbkeysave = new TTBKeyAssign();
-                            // $ttbkeysave->payment_id = $checkbox_id;
-                            // $ttbkeysave->main_key = $key_main->id;
-                            // $ttbkeysave->mail_send_status = 'pending';
-                            // $ttbkeysave->is_manual = 1;
-                            // $ttbkeysave->save();
-
                             $ttb_key_assignId = DB::table('ttb_key_assign')->insertGetId([
                                 'payment_id' => $checkbox_id,
-                                'main_key' => $key_main->id,
+                                'main_key' => $getkey->id,
                                 'mail_send_status' => 'success',
                                 'is_manual' => 1,
                                 'created_at' => now(),
