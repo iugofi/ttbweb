@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Jobs\SavePaymentDetails;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
@@ -95,26 +94,23 @@ class AdminController extends Controller
 
                 if ($key) {
 
+                    $key_main = DB::table('ttbkey')
+                        ->where('product_id', $key->product_id)
+                        ->first();
 
-                    SavePaymentDetails::dispatch($key);
+                    if ($key_main) {
 
-                    // $key_main = DB::table('ttbkey')
-                    //     ->where('product_id', $key->product_id)
-                    //     ->first();
-
-                    // if ($key_main) {
-
-                    //     DB::table('ttbkey')
-                    //         ->where('id', $key_main->id)
-                    //         ->update(['is_key_used' => 1]);
+                        DB::table('ttbkey')
+                            ->where('id', $key_main->id)
+                            ->update(['is_key_used' => 1]);
 
 
-                    //     $ttbkeysave = new TTBKeyAssign();
-                    //     $ttbkeysave->payment_id = $checkbox_id;
-                    //     $ttbkeysave->main_key = $key_main->id; // Store the key ID
-                    //     $ttbkeysave->mail_send_status = 'pending';
-                    //     $ttbkeysave->save();
-                    // }
+                        $ttbkeysave = new TTBKeyAssign();
+                        $ttbkeysave->payment_id = $checkbox_id;
+                        $ttbkeysave->main_key = $key_main->id; // Store the key ID
+                        $ttbkeysave->mail_send_status = 'pending';
+                        $ttbkeysave->save();
+                    }
                 }
             }
 
