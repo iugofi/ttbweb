@@ -618,6 +618,12 @@ class UserController extends Controller
         }
     }
 
+
+    public function ttbsaveUser(Request $request)
+    {
+        return $request;
+    }
+
     public function activate($activation_key)
     {
 

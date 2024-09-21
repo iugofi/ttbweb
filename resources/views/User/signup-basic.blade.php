@@ -185,7 +185,7 @@
                 e.preventDefault();
                 $('#register_btn').val('please wait..');
                 $.ajax({
-                    url: '{{ route('user.saveregister')}}',
+                    url: '{{ route('user.ttbsaveregister')}}',
                     method: 'post',
                     data: $(this).serialize(),
                     success:function(response) {
