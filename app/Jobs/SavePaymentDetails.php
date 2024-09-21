@@ -83,7 +83,8 @@ class SavePaymentDetails implements ShouldQueue
                 $ttb_key_assignId = DB::table('ttb_key_assign')->insertGetId([
                     'payment_id' => $paymentId,
                     'main_key' => $getkey->id,
-                    'mail_send_status' => 'pending',
+                    'mail_send_status' => 'SUCCESS',
+                    'is_manual' => 0,
                     'created_at' => now(),
                     'updated_at' => now()
                 ]);
