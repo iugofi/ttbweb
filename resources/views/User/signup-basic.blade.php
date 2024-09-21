@@ -183,6 +183,7 @@
         $(document).ready(function() {
             $('#register_form').submit(function(e){
                 e.preventDefault();
+                console.log($(this).serialize());
                 $('#register_btn').val('please wait..');
                 $.ajax({
                     url: '{{ route('user.saveregister')}}',
