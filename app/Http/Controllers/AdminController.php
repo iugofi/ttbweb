@@ -1688,11 +1688,11 @@ class AdminController extends Controller
                 ->get();
             // dd(DB::getQueryLog());
 
-            $total = DB::table('payments')
-                ->join('product_details', 'product_details.id', '=', 'payments.product_id')
+            $total = DB::table('payments1')
+                ->leftjoin('product_details', 'product_details.id', '=', 'payments1.product_id')
                 ->where('product_details.key_type', 501)
-                ->whereNull('payments.deleted_at')
-                ->sum('payments.amount_total');
+                ->whereNull('payments1.deleted_at')
+                ->sum('payments1.price');
             return view('Admin.payshow', ['vpnpaydata' => $vpnpaydata, 'title' => $title, 'total' => $total]);
         } else {
             return redirect('/setup');
