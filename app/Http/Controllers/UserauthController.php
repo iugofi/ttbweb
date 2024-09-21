@@ -46,7 +46,8 @@ class UserauthController extends Controller
                 'p.order_id AS order_id',
                 'p.payment_status AS payment_status',
                 'pd.key_type AS key_type',
-                'pd.plan_id AS plan_id'
+                'pd.plan_id AS plan_id',
+                'tka.id AS tkaid'
             )
             ->leftJoin('payments1 AS p', 'p.id', '=', 'tka.payment_id')
             ->leftJoin('ttbkey AS tk', 'tk.id', '=', 'tka.main_key')

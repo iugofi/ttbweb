@@ -822,65 +822,41 @@ class UserController extends Controller
     public function invoice($pay_id)
     {
         $printpay = \Crypt::decrypt($pay_id);
-        $allowedProductIds = [1, 2, 3, 5, 9, 10, 11, 12, 13];
-        $oneYearAgo = \Carbon\Carbon::now()->subYear();
+        $paymentDetails=DB::table('ttb_key_assign as tka')
+        ->leftJoin('payments1 as p', 'p.id', '=', 'tka.payment_id')
+        ->leftJoin('usersall as us', 'us.id', '=', 'p.user_id')
+        ->leftJoin('ttbkey as tk', 'tk.id', '=', 'tka.main_key')
+        ->leftJoin('product_details as pd', 'pd.id', '=', 'p.product_id')
+        ->leftJoin('planname as pn', 'pn.plan_id', '=', 'pd.plan_id')
+        ->leftJoin('storepick as s', 's.PICK_ID', '=', 'pd.key_type')
+        ->select(
+            'tka.main_key as product_key',
+            'tk.key_activation_date as key_activation_date',
+            'tk.key_expirey_date as key_expirey_date',
+            's.PICK_TEXT as product_name',
+            'p.transaction_id as invoice_id',
+            'p.price as amount_total',
+            'p.payment_time',
+            'p.order_id as order_id',
+            'p.payment_status',
+            'pd.key_type',
+            'pd.plan_id',
+            'p.firstname',
+            'p.lastname',
+            'pn.name as plan_name',
+            'p.city',
+            'p.state',
+            'p.country',
+            'p.pincode',
+            'p.payment_method'
+        )
+        ->where('tka.id', $printpay)
+        ->where('s.STORE_ID', 'key_type')
+        ->first();
 
-        $paymentDetails = DB::table('payments')
-            ->join('product_details', 'product_details.id', '=', 'payments.product_id')
-            ->join('usersall', 'usersall.id', '=', 'payments.user_id')
-            ->select(
-                'payments.id',
-                'usersall.firstname',
-                'usersall.lastname',
-                'usersall.email',
-                'payments.pay_id',
-                'payments.customer_name',
-                'payments.country',
-                'payments.city',
-                'payments.line1',
-                'payments.line2',
-                'payments.postal_code',
-                'payments.product_key',
-                'payments.created_at',
-                DB::raw('DATE_ADD(payments.created_at, INTERVAL 1 YEAR) AS expire_date'),
-                'payments.amount_total',
-                'payments.currency',
-                'payments.payment_method_types',
-                'product_details.key_type',
-                'product_details.plan_id'
-            )
-            ->where('payments.pay_id', $printpay)
-            ->whereIn('payments.product_id', $allowedProductIds)
-            ->where('payments.created_at', '>', $oneYearAgo)
-            ->first();
-
-        // Convert date fields to Carbon instances
-        $paymentDetails->created_at = \Carbon\Carbon::parse($paymentDetails->created_at);
-        $paymentDetails->expire_date = \Carbon\Carbon::parse($paymentDetails->expire_date);
-
-        if ($paymentDetails) {
-            $keytypeval = $paymentDetails->key_type;
-            $keytype = DB::table('storepick')
-                ->where('PICK_ID', $keytypeval)
-                ->where('STORE_ID', 'key_type')
-                ->select('PICK_TEXT')
-                ->first();
-        } else {
-            $keytype = null;
-        }
-
-        if ($paymentDetails) {
-            $planidhead = $paymentDetails->plan_id;
-            $planmain = DB::table('planname')
-                ->where('plan_id', $planidhead)
-                ->select('name')
-                ->first();
-        } else {
-            $planmain = null;
-        }
 
         // dd($decryptid);
         // $printpay=Payments::where($decryptid);
-        return view('invoice.ttbinvoice', ['paymentDetails' => $paymentDetails, 'keytype' => $keytype, 'planmain' => $planmain]);
+        return view('invoice.ttbinvoice', ['paymentDetails' => $paymentDetails]);
     }
 }
