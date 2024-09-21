@@ -54,7 +54,7 @@ class ActivationKeySend extends Mailable
         )
         ->where('tka.id', 2856)
         ->where('s.STORE_ID', 'key_type')
-        ->FIRST();
+        ->first();
 
     }
 
