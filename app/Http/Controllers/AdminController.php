@@ -1628,9 +1628,7 @@ class AdminController extends Controller
                 'main_key' => 'required',
                 'product_id' => 'required',
                 'is_key_used' => 'required',
-                'key_status' => 'required',
-                'key_expirey_date' => 'required',
-                'key_activation_date' => 'required'
+                'key_status' => 'required'
             ]);
             if ($validator->fails()) {
                 return response()->json([
