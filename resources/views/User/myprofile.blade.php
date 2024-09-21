@@ -701,26 +701,7 @@
                                                                                     <td class="border px-4 py-2">
                                                                                         {{ $key + 1 }}</td>
                                                                                     <td class="border px-4 py-2">
-                                                                                        @php
-                                                                                            $product_name = DB::table(
-                                                                                                'storepick',
-                                                                                            )
-                                                                                                ->select('*')
-                                                                                                ->where(
-                                                                                                    'PICK_ID',
-                                                                                                    $item->key_type,
-                                                                                                )
-                                                                                                ->where(
-                                                                                                    'STORE_ID',
-                                                                                                    'key_type',
-                                                                                                )
-                                                                                                ->first();
-                                                                                        @endphp
-                                                                                        @if ($product_name)
-                                                                                            {{ $product_name->PICK_TEXT }}
-                                                                                        @else
-                                                                                            No product found.
-                                                                                        @endif
+                                                                                        {{ $item->product_name }}
                                                                                     </td>
                                                                                     {{-- <td class="border px-4 py-2">
                                                                                         <div class="flex items-center font-semibold">
@@ -732,17 +713,17 @@
                                                                                         </div>
                                                                                     </td> --}}
                                                                                     <td class="border px-4 py-2">
-                                                                                        {{ $item->pay_id }}</td>
+                                                                                        {{ $item->invoice_id }}</td>
                                                                                     <td class="border px-4 py-2">
-                                                                                        {{ $item->created_at->format('F j, Y') }}
+                                                                                        {{ $item->payment_time->format('F j, Y') }}
                                                                                     </td>
                                                                                     <td class="border px-4 py-2">
                                                                                         ${{ $item->amount_total }}</td>
                                                                                     <td class="border px-4 py-2">
-                                                                                        #1000{{ $item->id_py }}</td>
+                                                                                        {{ $item->order_id }}</td>
                                                                                     <td class="border">
 
-                                                                                        @if ($item->payment_status == 'paid')
+                                                                                        @if ($item->payment_status == 'success')
                                                                                             <span
                                                                                                 class="inline-flex text-primary !py-[0.15rem] !px-[0.45rem] rounded-sm !font-semibold !text-[0.75em] bg-primary/10">{{ $item->payment_status }}</span>
                                                                                         @else
@@ -755,13 +736,13 @@
                                                                                     <td class="border px-4 py-2">
                                                                                         <div
                                                                                             class="flex flex-row items-center text-[0.9375rem]">
-                                                                                            <a aria-label="anchor"
+                                                                                            {{-- <a aria-label="anchor"
                                                                                                 href="{{ route('user.invoice', \Crypt::encrypt($item->pay_id)) }}"
                                                                                                 class="ti-btn ti-btn-icon ti-btn-wave !gap-0 !m-0 !h-[1.75rem] !w-[1.75rem] text-[0.8rem] bg-primary/10 text-primary hover:bg-primary hover:text-white hover:border-primary"
                                                                                                 target="_blank">
                                                                                                 <i
                                                                                                     class="ri-printer-line"></i>
-                                                                                            </a>
+                                                                                            </a> --}}
 
 
                                                                                         </div>
