@@ -576,7 +576,7 @@ class UserController extends Controller
     public function saveUser(Request $request)
     {
         // $ref=md5($request->email,time());
-        dd($request);
+        // dd($ref);
         $validator = Validator::make($request->all(), [
             'signup_firstname' => 'required|max:50',
             'signup_lastname' => 'required|max:50',
@@ -591,14 +591,14 @@ class UserController extends Controller
         if ($validator->fails()) {
             return response()->json([
                 'status' => 400,
-                'messages' => $validator->getMessageBag()->toArray()
+                'messages' => $validator->getMessageBag()->toArray() // Convert messages to array
             ]);
         } else {
-            $user = new Users();
+            $user = new Users(); // Assuming User is your Eloquent model for users
             $user->firstname = $request->signup_firstname;
             $user->lastname = $request->signup_lastname;
             $user->email = $request->email;
-            $activation_key = md5($request->email . time());
+            $activation_key = md5($request->email . time()); // Generate activation key
             $user->activation_key = $activation_key;
             $user->password = \Crypt::encrypt($request->signup_password);
             $user->save();
