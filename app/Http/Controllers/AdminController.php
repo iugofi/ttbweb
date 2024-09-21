@@ -80,87 +80,91 @@ class AdminController extends Controller
     }
 
     public function savekeyttb(Request $request)
-{
-    if ($this->loggedInAdmin) {
+    {
+        if ($this->loggedInAdmin) {
 
-        DB::beginTransaction();
-        try {
-            // dd($request);
-            $ttv_check = $request->checkbox;
-            foreach ($ttv_check as $checkbox_id) {
-                $key = DB::table('payments1')
-                    ->where('id', $checkbox_id)
-                    ->first();
-
-                if ($key) {
-                    // Fetch the key from ttbkey table
-                    $key_main = DB::table('ttbkey')
-                        ->where('product_id', $key->product_id)
+            DB::beginTransaction();
+            try {
+                // dd($request);
+                $ttv_check = $request->checkbox;
+                foreach ($ttv_check as $checkbox_id) {
+                    $key = DB::table('payments1')
+                        ->where('id', $checkbox_id)
                         ->first();
 
-                    if ($key_main) {
-                        // Set key_activation_date and is_key_used
-                        $getkey = DB::table('ttbkey')->where('id', $key_main->id)->first();
-                        $plan_id_get = DB::table('product_details')->where('id', $key->plan_id)->first();
+                    if ($key) {
 
-                    
-                        if (isset($plan_id_get->plan_id)) {
-                            switch ($plan_id_get->plan_id) {
-                                case 601:
-                                    $getkey->key_expirey_date = now()->addMonths(1);
-                                    break;
-                                case 602:
-                                    $getkey->key_expirey_date = now()->addYear();
-                                    break;
-                                case 603:
-                                case 604:
-                                case 605:
-                                    $getkey->key_expirey_date = now()->addYear();
-                                    break;
-                                default:
-                                    $getkey->key_expirey_date = now();
-                                    break;
+                        $key_main = DB::table('ttbkey')
+                            ->where('product_id', $key->product_id)
+                            ->first();
+
+                        if ($key_main) {
+
+                            $plan_id_get = DB::table('product_details')
+                            ->select('plan_id')
+                            ->where('id', $key->product_id)
+                            ->first();
+
+                            $getkey = TTBKEY::where('id', $key_main->id)
+                            ->first();
+
+                            if (isset($plan_id_get->plan_id)) {
+                                switch ($plan_id_get->plan_id) {
+                                    case 601:
+                                        $getkey->key_expirey_date = now()->addMonths(1);
+                                        break;
+                                    case 602:
+                                        $getkey->key_expirey_date = now()->addYear();
+                                        break;
+                                    case 603:
+                                    case 604:
+                                    case 605:
+                                        $getkey->key_expirey_date = now()->addYear();
+                                        break;
+                                    default:
+                                        $getkey->key_expirey_date = now();
+                                        break;
+                                }
+                                $getkey->key_activation_date=now();
+                                $getkey->is_key_used=1;
+                                $getkey->save();
                             }
 
-                            // Update is_key_used, key_activation_date, and key_expirey_date
-                            DB::table('ttbkey')
-                                ->where('id', $key_main->id)
-                                ->update([
-                                    'is_key_used' => 1,
-                                    'key_activation_date' => now(),
-                                    'key_expirey_date' => $getkey->key_expirey_date // Save the calculated expiry date
-                                ]);
-                        }
+                            // DB::table('ttbkey')
+                            //     ->where('id', $key_main->id)
+                            //     ->update([
+                            //         'is_key_used' => 1,
+                            //         'key_activation_date' => now()
+                            //     ]);
 
-                        // Save the key assignment
-                        $ttbkeysave = new TTBKeyAssign();
-                        $ttbkeysave->payment_id = $checkbox_id;
-                        $ttbkeysave->main_key = $key_main->id; // Store the key ID
-                        $ttbkeysave->mail_send_status = 'pending';
-                        $ttbkeysave->save();
+
+                            $ttbkeysave = new TTBKeyAssign();
+                            $ttbkeysave->payment_id = $checkbox_id;
+                            $ttbkeysave->main_key = $key_main->id; // Store the key ID
+                            $ttbkeysave->mail_send_status = 'pending';
+                            $ttbkeysave->save();
+                        }
                     }
                 }
+
+                DB::commit();
+
+                return response()->json([
+                    'status' => 200,
+                    'messages' => 'Keys assigned successfully'
+                ]);
+            } catch (\Exception $e) {
+                DB::rollBack();
+
+                return response()->json([
+                    'status' => 500,
+                    'messages' => 'An error occurred: ' . $e->getMessage()
+                ]);
             }
-
-            DB::commit();
-
-            return response()->json([
-                'status' => 200,
-                'messages' => 'Keys assigned successfully'
-            ]);
-        } catch (\Exception $e) {
-            DB::rollBack();
-
-            return response()->json([
-                'status' => 500,
-                'messages' => 'An error occurred: ' . $e->getMessage()
-            ]);
+        } else {
+            return redirect('/setup');
         }
-    } else {
-        return redirect('/setup');
     }
-}
-
 
 
 
