@@ -8,11 +8,13 @@ use Illuminate\Mail\Mailable;
 use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
+use Illuminate\Support\Facades\DB;
 
 class ActivationKeySend extends Mailable
 {
     use Queueable, SerializesModels;
     protected $keyAssignId;
+    protected $keyData;
     /**
      * Create a new message instance.
      *
@@ -21,6 +23,12 @@ class ActivationKeySend extends Mailable
     public function __construct($keyAssignId)
     {
         $this->keyAssignId = $keyAssignId;
+        $this->keyData = DB::table('ttb_key_assign as tka')
+            ->leftJoin('payments1 as p', 'p.id', '=', 'tka.payment_id')
+            ->leftJoin('ttbkey as tk', 'tk.id', '=', 'tka.main_key')
+            ->select('tka.*', 'p.*', 'tk.*')
+            ->where('tka.id', $this->keyAssignId)
+            ->first();
     }
 
     /**
@@ -43,8 +51,9 @@ class ActivationKeySend extends Mailable
     public function content()
     {
         return new Content(
-            view: 'Mail.ActivationKeySend',with: [
-                'keyAssignId' =>$this->keyAssignId,
+            view: 'Mail.ActivationKeySend', with: [
+                'keyAssignId' => $this->keyAssignId,
+                'keyData' => $this->keyData, 
             ],
         );
     }
