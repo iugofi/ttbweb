@@ -32,6 +32,8 @@ class UserauthController extends Controller
 
         if ($this->loggedInUser) {
             // DB::enableQueryLog();
+            $user_id_s = $this->loggedInUser;
+
             $productdetails = DB::table('ttb_key_assign AS tka')
             ->select(
                 'tka.main_key AS product_key',
@@ -51,15 +53,14 @@ class UserauthController extends Controller
             ->leftJoin('product_details AS pd', 'pd.id', '=', 'p.product_id')
             ->leftJoin('planname AS pn', 'pn.plan_id', '=', 'pd.plan_id')
             ->leftJoin('storepick AS s', 's.PICK_ID', '=', 'pd.key_type')
-            ->where('tka.id', 2854)
+            ->where('p.user_id', $user_id_s)
             ->where('s.STORE_ID', 'key_type')
             ->get();
 
-          
+
                 // $query = DB::getQueryLog($productdetails);
                 // dd($query);
 
-            $user_id_s = $this->loggedInUser;
         // DB::enableQueryLog();
             $keydetails = DB::table('payments')
             ->select('storepick.PICK_TEXT', DB::raw('COUNT(product_id) AS TotalCount'))
