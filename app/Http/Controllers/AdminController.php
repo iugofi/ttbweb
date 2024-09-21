@@ -49,7 +49,7 @@ class AdminController extends Controller
         });
     }
 
-    
+
 
     public function paysettingpage()
     {
@@ -1593,9 +1593,7 @@ GROUP BY P.product_id, pn.name, sp.PICK_TEXT
                 'main_key' => 'required',
                 'product_id' => 'required',
                 'is_key_used' => 'required',
-                'key_status' => 'required',
-                'key_expirey_date' => 'required',
-                'key_activation_date' => 'required'
+                'key_status' => 'required'
             ]);
             if ($validator->fails()) {
                 return response()->json([
