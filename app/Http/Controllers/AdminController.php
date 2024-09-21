@@ -139,12 +139,12 @@ class AdminController extends Controller
                             //     ]);
 
 
-                            $ttbkeysave = new TTBKeyAssign();
-                            $ttbkeysave->payment_id = $checkbox_id;
-                            $ttbkeysave->main_key = $key_main->id;
-                            $ttbkeysave->mail_send_status = 'pending';
-                            $ttbkeysave->is_manual = 1;
-                            $ttbkeysave->save();
+                            // $ttbkeysave = new TTBKeyAssign();
+                            // $ttbkeysave->payment_id = $checkbox_id;
+                            // $ttbkeysave->main_key = $key_main->id;
+                            // $ttbkeysave->mail_send_status = 'pending';
+                            // $ttbkeysave->is_manual = 1;
+                            // $ttbkeysave->save();
 
                             $ttb_key_assignId = DB::table('ttb_key_assign')->insertGetId([
                                 'payment_id' => $checkbox_id,
