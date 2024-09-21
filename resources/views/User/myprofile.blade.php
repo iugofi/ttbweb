@@ -715,7 +715,7 @@
                                                                                     <td class="border px-4 py-2">
                                                                                         {{ $item->invoice_id }}</td>
                                                                                     <td class="border px-4 py-2">
-                                                                                        {{ $item->payment_time->format('F j, Y') }}
+                                                                                        {{ $item->payment_time }}
                                                                                     </td>
                                                                                     <td class="border px-4 py-2">
                                                                                         ${{ $item->amount_total }}</td>
