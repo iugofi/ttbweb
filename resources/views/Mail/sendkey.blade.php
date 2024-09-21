@@ -1,3 +1,7 @@
+
+
+
+
 <!DOCTYPE html
     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en">
@@ -438,549 +442,503 @@
     </style>
 </head>
 @if ($paymentDetails)
+<body data-new-gr-c-s-loaded="14.1185.0"
+    style="width:100%;font-family:arial, 'helvetica neue', helvetica, sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;padding:0;Margin:0">
+    <div dir="ltr" class="es-wrapper-color" lang="en" style="background-color:#FDFCFC">
+        <!--[if gte mso 9]><v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t"> <v:fill type="tile" color="#fdfcfc"></v:fill> </v:background><![endif]-->
+        <table class="es-wrapper" width="100%" cellspacing="0" cellpadding="0" role="none"
+            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;padding:0;Margin:0;width:100%;height:100%;background-repeat:repeat;background-position:center top;background-color:#f1f1f1">
+            <tr>
+                <td valign="top" style="padding:0;Margin:0">
+                    <table cellpadding="0" cellspacing="0" class="es-content" align="center" role="none"
+                        style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;table-layout:fixed !important;width:100%">
+                        <tr>
+                            <td align="center" style="padding:0;Margin:0">
+                                <table bgcolor="#ffffff" class="es-content-body" align="center" cellpadding="0"
+                                    cellspacing="0"
+                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-color:#ffffff;width:600px"
+                                    role="none">
+                                    <tr>
+                                        <td align="left"
+                                            style="padding:0;Margin:0;padding-top:15px;padding-left:20px;padding-right:20px">
+                                            <table cellpadding="0" cellspacing="0" width="100%" role="none"
+                                                style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                <tr>
+                                                    <td align="center" valign="top"
+                                                        style="padding:0;Margin:0;width:560px">
+                                                        <table cellpadding="0" cellspacing="0" width="100%"
+                                                            role="presentation"
+                                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                            <tr>
+                                                                <td align="center" style="padding:0;Margin:0">
+                                                                    <p
+                                                                        style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;color:#201f1f;font-size:12px">
+                                                                        <a target="_blank"
+                                                                            style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#12d2b3;font-size:12px"
+                                                                            href=""></a><br></p>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center"
+                                                                    style="padding:0;Margin:0;padding-top:10px;padding-bottom:10px;font-size:0px">
+                                                                    <img src="https://fhsfxgx.stripocdn.email/content/guids/CABINET_ed9b093fd8bb67be2cd398f18c4df5f95133af775045eafed93e36585bc10c9a/images/1.png"
+                                                                        alt
+                                                                        style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
+                                                                        width="75" height="75"></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" class="es-m-txt-c"
+                                                                    style="padding:0;Margin:0;padding-bottom:10px">
+                                                                    <h1
+                                                                        style="Margin:0;line-height:36px;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-size:36px;font-style:normal;font-weight:bold;color:#333333">
+                                                                        Thank you for your trust in TTB!</h1>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="left" style="padding:0;Margin:0">
+                                                                    <p
+                                                                        style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;color:#333333;font-size:12px">
+                                                                        <strong>Hello {{ $paymentDetails->firstname }} {{ $paymentDetails->lastname}},</strong><br>Your order for the TTB
+                                                                        {{$paymentDetails->product_name}} valued at <strong>{{$paymentDetails->amount_total}} USD</strong> has
+                                                                        been successfully processed. You can now
+                                                                        activate your copy of the software using the
+                                                                        product key attached.</p>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                    <table cellpadding="0" cellspacing="0" class="es-content" align="center" role="none"
+                        style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;table-layout:fixed !important;width:100%">
+                        <tr>
+                            <td align="center" style="padding:0;Margin:0">
+                                <table bgcolor="#ffffff" class="es-content-body" align="center" cellpadding="0"
+                                    cellspacing="0"
+                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-color:#ffffff;width:600px"
+                                    role="none">
+                                    <tr>
+                                        <td align="left" style="padding:20px;Margin:0">
+                                            <table cellpadding="0" cellspacing="0" width="100%" role="none"
+                                                style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                <tr>
+                                                    <td align="center" valign="top"
+                                                        style="padding:0;Margin:0;width:560px">
+                                                        <table cellpadding="0" cellspacing="0" width="100%"
+                                                            role="presentation"
+                                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                            <tr>
+                                                                <td align="center" class="es-m-txt-l"
+                                                                    style="padding:0;Margin:0">
+                                                                    <h2
+                                                                        style="Margin:0;line-height:19px;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-size:16px;font-style:normal;font-weight:bold;color:#333333;text-align:center">
+                                                                        Product activation key:<br><span
+                                                                            style="color:#13D5A8"><strong>{{ $paymentDetails->ttb_main_key }}</strong></span>
+                                                                    </h2>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" class="es-m-txt-l"
+                                                                    style="padding:0;Margin:0;padding-bottom:15px;padding-top:25px">
+                                                                    <span class="es-button-border"
+                                                                        style="border-style:solid;border-color:#12d2b3;background:#12d2b3;border-width:2px;display:inline-block;border-radius:0px;width:auto">
+                                                                        @if ($paymentDetails->key_type==501)
+                                                                        <a href="{{route('user.vpn_download')}}"
+                                                                        class="es-button" target="_blank"
+                                                                        style="mso-style-priority:100 !important;text-decoration:none;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;color:#FFFFFF;font-size:18px;padding:10px 30px 10px 30px;display:inline-block;background:#12d2b3;border-radius:0px;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-weight:normal;font-style:normal;line-height:22px;width:auto;text-align:center;mso-padding-alt:0;mso-border-alt:10px solid #12d2b3">Activate
+                                                                        Now</a>
+                                                                        @elseif ($paymentDetails->key_type == 502)
+                                                                        <a href="{{route('user.antivirus_download')}}"
+                                                                            class="es-button" target="_blank"
+                                                                            style="mso-style-priority:100 !important;text-decoration:none;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;color:#FFFFFF;font-size:18px;padding:10px 30px 10px 30px;display:inline-block;background:#12d2b3;border-radius:0px;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-weight:normal;font-style:normal;line-height:22px;width:auto;text-align:center;mso-padding-alt:0;mso-border-alt:10px solid #12d2b3">Activate
+                                                                            Now</a>
+                                                                        @endif
 
-    <body data-new-gr-c-s-loaded="14.1185.0"
-        style="width:100%;font-family:arial, 'helvetica neue', helvetica, sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;padding:0;Margin:0">
-        <div dir="ltr" class="es-wrapper-color" lang="en" style="background-color:#FDFCFC">
-            <!--[if gte mso 9]><v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t"> <v:fill type="tile" color="#fdfcfc"></v:fill> </v:background><![endif]-->
-            <table class="es-wrapper" width="100%" cellspacing="0" cellpadding="0" role="none"
-                style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;padding:0;Margin:0;width:100%;height:100%;background-repeat:repeat;background-position:center top;background-color:#f1f1f1">
-                <tr>
-                    <td valign="top" style="padding:0;Margin:0">
-                        <table cellpadding="0" cellspacing="0" class="es-content" align="center" role="none"
-                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;table-layout:fixed !important;width:100%">
-                            <tr>
-                                <td align="center" style="padding:0;Margin:0">
-                                    <table bgcolor="#ffffff" class="es-content-body" align="center" cellpadding="0"
-                                        cellspacing="0"
-                                        style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-color:#ffffff;width:600px"
-                                        role="none">
-                                        <tr>
-                                            <td align="left"
-                                                style="padding:0;Margin:0;padding-top:15px;padding-left:20px;padding-right:20px">
-                                                <table cellpadding="0" cellspacing="0" width="100%" role="none"
-                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
-                                                    <tr>
-                                                        <td align="center" valign="top"
-                                                            style="padding:0;Margin:0;width:560px">
-                                                            <table cellpadding="0" cellspacing="0" width="100%"
-                                                                role="presentation"
-                                                                style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
-                                                                <tr>
-                                                                    <td align="center" style="padding:0;Margin:0">
-                                                                        <p
-                                                                            style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;color:#201f1f;font-size:12px">
-                                                                            <a target="_blank"
-                                                                                style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#12d2b3;font-size:12px"
-                                                                                href=""></a><br>
-                                                                        </p>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td align="center"
-                                                                        style="padding:0;Margin:0;padding-top:10px;padding-bottom:10px;font-size:0px">
-                                                                        <img src="https://fhsfxgx.stripocdn.email/content/guids/CABINET_ed9b093fd8bb67be2cd398f18c4df5f95133af775045eafed93e36585bc10c9a/images/1.png"
-                                                                            alt
-                                                                            style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
-                                                                            width="75" height="75">
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td align="center" class="es-m-txt-c"
-                                                                        style="padding:0;Margin:0;padding-bottom:10px">
-                                                                        <h1
-                                                                            style="Margin:0;line-height:36px;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-size:36px;font-style:normal;font-weight:bold;color:#333333">
-                                                                            Thank you for your trust in TTB!</h1>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td align="left" style="padding:0;Margin:0">
-                                                                        <p
-                                                                            style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;color:#333333;font-size:12px">
-                                                                            <strong>Hello
-                                                                                {{ $paymentDetails->firstname }}
-                                                                                {{ $paymentDetails->lastname }},</strong><br>Your
-                                                                            order for the TTB
-                                                                            {{ $paymentDetails->product_name }} valued
-                                                                            at <strong>{{ $paymentDetails->amount_total }}
-                                                                                USD</strong> has
-                                                                            been successfully processed. You can now
-                                                                            activate your copy of the software using the
-                                                                            product key attached.
-                                                                        </p>
-                                                                    </td>
-                                                                </tr>
-                                                            </table>
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </td>
-                            </tr>
-                        </table>
-                        <table cellpadding="0" cellspacing="0" class="es-content" align="center" role="none"
-                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;table-layout:fixed !important;width:100%">
-                            <tr>
-                                <td align="center" style="padding:0;Margin:0">
-                                    <table bgcolor="#ffffff" class="es-content-body" align="center" cellpadding="0"
-                                        cellspacing="0"
-                                        style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-color:#ffffff;width:600px"
-                                        role="none">
-                                        <tr>
-                                            <td align="left" style="padding:20px;Margin:0">
-                                                <table cellpadding="0" cellspacing="0" width="100%" role="none"
-                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
-                                                    <tr>
-                                                        <td align="center" valign="top"
-                                                            style="padding:0;Margin:0;width:560px">
-                                                            <table cellpadding="0" cellspacing="0" width="100%"
-                                                                role="presentation"
-                                                                style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
-                                                                <tr>
-                                                                    <td align="center" class="es-m-txt-l"
-                                                                        style="padding:0;Margin:0">
-                                                                        <h2
-                                                                            style="Margin:0;line-height:19px;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-size:16px;font-style:normal;font-weight:bold;color:#333333;text-align:center">
-                                                                            Product activation key:<br><span
-                                                                                style="color:#13D5A8"><strong>{{ $paymentDetails->ttb_main_key }}</strong></span>
-                                                                        </h2>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td align="center" class="es-m-txt-l"
-                                                                        style="padding:0;Margin:0;padding-bottom:15px;padding-top:25px">
-                                                                        <span class="es-button-border"
-                                                                            style="border-style:solid;border-color:#12d2b3;background:#12d2b3;border-width:2px;display:inline-block;border-radius:0px;width:auto">
-                                                                            @if ($paymentDetails->key_type == 501)
-                                                                                <a href="{{ route('user.vpn_download') }}"
-                                                                                    class="es-button" target="_blank"
-                                                                                    style="mso-style-priority:100 !important;text-decoration:none;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;color:#FFFFFF;font-size:18px;padding:10px 30px 10px 30px;display:inline-block;background:#12d2b3;border-radius:0px;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-weight:normal;font-style:normal;line-height:22px;width:auto;text-align:center;mso-padding-alt:0;mso-border-alt:10px solid #12d2b3">Activate
-                                                                                    Now</a>
-                                                                            @elseif ($paymentDetails->key_type == 502)
-                                                                                <a href="{{ route('user.antivirus_download') }}"
-                                                                                    class="es-button" target="_blank"
-                                                                                    style="mso-style-priority:100 !important;text-decoration:none;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;color:#FFFFFF;font-size:18px;padding:10px 30px 10px 30px;display:inline-block;background:#12d2b3;border-radius:0px;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-weight:normal;font-style:normal;line-height:22px;width:auto;text-align:center;mso-padding-alt:0;mso-border-alt:10px solid #12d2b3">Activate
-                                                                                    Now</a>
-                                                                            @endif
-
-
-                                                                        </span>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td align="center"
-                                                                        style="padding:0;Margin:0;padding-bottom:20px">
-                                                                        <h1
-                                                                            style="Margin:0;line-height:29px;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-size:24px;font-style:normal;font-weight:bold;color:#333333">
-                                                                            <strong>TTB
-                                                                                {{ $paymentDetails->product_name }}</strong>
-                                                                        </h1>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td align="left" style="padding:0;Margin:0">
-                                                                        <p
-                                                                            style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;color:#333333;font-size:12px">
-                                                                            <strong>Download and Install TTB on each of
-                                                                                your
-                                                                                devices/computers you want to
-                                                                                protect.</strong>
-                                                                        </p>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td align="left" style="padding:0;Margin:0">
-                                                                        <ul>
-                                                                            <li
-                                                                                style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;Margin-bottom:15px;margin-left:0;color:#333333;font-size:12px">
-                                                                                Click here to <strong>
-                                                                                    @if ($paymentDetails->key_type == 501)
-                                                                                        <a href="{{ route('user.vpn_download') }}"
-                                                                                            target="_blank"
-                                                                                            style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#12d2b3;font-size:12px">download</a>
-                                                                                        @elseif ($paymentDetails->key_type == 502)
-                                                                                        <a href="{{ route('user.antivirus_download') }}"
-                                                                                            target="_blank"
-                                                                                            style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#12d2b3;font-size:12px">download</a>
-                                                                                    @endif
-                                                                                    .
-                                                                                </strong>
-                                                                            </li>
-                                                                            <li
-                                                                                style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;Margin-bottom:15px;margin-left:0;color:#333333;font-size:12px">
-                                                                                Follow the simple instructions to
-                                                                                install
-                                                                                TTB.</li>
-                                                                        </ul>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td align="left" style="padding:0;Margin:0">
-                                                                        <p
-                                                                            style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;color:#333333;font-size:12px">
-                                                                            Your subscription to TTB is active on
-                                                                            <strong>{{ $paymentDetails->key_activation_date }}</strong>,
-                                                                            and will
-                                                                            automatically renew on<strong>
-                                                                                {{ $paymentDetails->key_expirey_date }}</strong>
-                                                                            for the original
-                                                                            product price i.e. . Find the order details
-                                                                            mentioned below:
-                                                                        </p>
-                                                                    </td>
-                                                                </tr>
-                                                            </table>
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"
-                                                style="padding:0;Margin:0;padding-top:10px;padding-left:20px;padding-right:20px">
-                                                <table cellpadding="0" cellspacing="0" width="100%" role="none"
-                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
-                                                    <tr>
-                                                        <td class="es-m-p0r" align="center"
-                                                            style="padding:0;Margin:0;width:560px">
-                                                            <table cellpadding="0" cellspacing="0" width="100%"
-                                                                style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;border-top:2px solid #efefef;border-bottom:2px solid #efefef"
-                                                                role="presentation">
-                                                                <tr>
-                                                                    <td align="left" class="es-m-txt-r"
-                                                                        style="padding:0;Margin:0;padding-top:10px;padding-bottom:20px">
-                                                                        <p
-                                                                            style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;color:#333333;font-size:12px">
-                                                                            Order
-                                                                            number:&nbsp;<strong>{{ $paymentDetails->invoice_id }}</strong><br>Date
-                                                                            of
-                                                                            Order:&nbsp;<strong>{{ $paymentDetails->payment_time }}</strong><br>Name:
-                                                                            <b>{{ $paymentDetails->firstname }}
-                                                                                {{ $paymentDetails->lastname }}</b><br><br>Supports
-                                                                            <span style="color:#12D2B3"><strong>TTB
-                                                                                    {{ $paymentDetails->product_name }}.</strong></span><br>Sign
-                                                                            in to
-                                                                            your TTB account for details. <strong><a
-                                                                                    href="https://www.ttbinternetsecurity.com/"
+                                                                        </span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center"
+                                                                    style="padding:0;Margin:0;padding-bottom:20px">
+                                                                    <h1
+                                                                        style="Margin:0;line-height:29px;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-size:24px;font-style:normal;font-weight:bold;color:#333333">
+                                                                        <strong>TTB {{$paymentDetails->product_name}}</strong></h1>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="left" style="padding:0;Margin:0">
+                                                                    <p
+                                                                        style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;color:#333333;font-size:12px">
+                                                                        <strong>Download and Install TTB on each of your
+                                                                            devices/computers you want to
+                                                                            protect.</strong></p>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="left" style="padding:0;Margin:0">
+                                                                    <ul>
+                                                                        <li
+                                                                            style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;Margin-bottom:15px;margin-left:0;color:#333333;font-size:12px">
+                                                                            Click here to <strong>
+                                                                                @if ($paymentDetails->key_type==501)
+                                                                                <a href="{{route('user.vpn_download')}}"
                                                                                     target="_blank"
-                                                                                    style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#12d2b3;font-size:12px">Log
-                                                                                    in</a></strong><br>--------------------------------------------------------------------------------------------------------------------------------------------<br>Please
-                                                                            note that all renewal prices are subject to
-                                                                            change from time to time and you’ll be
-                                                                            notified
-                                                                            in advance about such changes via email. You
-                                                                            may
-                                                                            choose to continue to cancel your
-                                                                            subscription
-                                                                            by logging in to your account.
-                                                                        </p>
-                                                                    </td>
-                                                                </tr>
-                                                            </table>
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"
-                                                style="Margin:0;padding-bottom:10px;padding-top:20px;padding-left:20px;padding-right:20px">
-                                                <table cellpadding="0" cellspacing="0" width="100%" role="none"
-                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
-                                                    <tr>
-                                                        <td class="es-m-p0r" align="center"
-                                                            style="padding:0;Margin:0;width:560px">
-                                                            <table cellpadding="0" cellspacing="0" width="100%"
-                                                                role="presentation"
-                                                                style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
-                                                                <tr>
-                                                                    <td align="left" style="padding:0;Margin:0">
-                                                                        <p
-                                                                            style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;color:#333333;font-size:12px">
-                                                                            Customer Email:
-                                                                            <strong>{{ $paymentDetails->email }}</strong>
-                                                                        </p>
-                                                                        <p
-                                                                            style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;color:#333333;font-size:12px">
-                                                                            Order
-                                                                            number:&nbsp;<strong>#1000{{ $paymentDetails->order_id }}</strong>
-                                                                        </p>
-                                                                        <p
-                                                                            style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;color:#333333;font-size:12px">
-                                                                            Invoice
-                                                                            date:&nbsp;<strong>{{ $paymentDetails->payment_time }}</strong>
-                                                                        </p>
-                                                                        <p
-                                                                            style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;color:#333333;font-size:12px">
-                                                                            Payment
-                                                                            method:&nbsp;<strong>{{ $paymentDetails->payment_method }}</strong>
-                                                                        </p>
-                                                                        <p
-                                                                            style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;color:#333333;font-size:12px">
-                                                                            Currency:&nbsp;<strong>USD</strong></p>
-                                                                    </td>
-                                                                </tr>
-                                                            </table>
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"
-                                                style="Margin:0;padding-bottom:10px;padding-top:15px;padding-left:20px;padding-right:20px">
-                                                <table cellpadding="0" cellspacing="0" width="100%" role="none"
-                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
-                                                    <tr>
-                                                        <td align="left" style="padding:0;Margin:0;width:560px">
-                                                            <table cellpadding="0" cellspacing="0" width="100%"
-                                                                role="presentation"
-                                                                style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
-                                                                <tr>
-                                                                    <td align="center"
-                                                                        style="padding:0;Margin:0;padding-top:10px;padding-bottom:10px">
-                                                                        <p
-                                                                            style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;color:#333333;font-size:12px">
-                                                                            Got a question?&nbsp;Email us at&nbsp;<a
-                                                                                target="_blank" href=""
-                                                                                style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#5C68E2;font-size:12px">support@</a><a
-                                                                                target="_blank" href=""
-                                                                                style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#5C68E2;font-size:12px">stylecasual</a><a
-                                                                                target="_blank" href=""
-                                                                                style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#5C68E2;font-size:12px">.com</a>&nbsp;or
-                                                                            give us a call at&nbsp;<a target="_blank"
-                                                                                href=""
-                                                                                style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#5C68E2;font-size:12px">+000
-                                                                                123 456</a>.</p>
-                                                                    </td>
-                                                                </tr>
-                                                            </table>
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </td>
-                            </tr>
-                        </table>
-                        <table cellpadding="0" cellspacing="0" class="es-footer" align="center" role="none"
-                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;table-layout:fixed !important;width:100%;background-color:transparent;background-repeat:repeat;background-position:center top">
-                            <tr>
-                                <td align="center" style="padding:0;Margin:0">
-                                    <table class="es-footer-body" align="center" cellpadding="0" cellspacing="0"
-                                        style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-color:transparent;width:600px"
-                                        role="none">
-                                        <tr>
-                                            <td align="left" bgcolor="#ffffff"
-                                                style="Margin:0;padding-top:20px;padding-bottom:20px;padding-left:20px;padding-right:20px;background-color:#ffffff">
-                                                <table cellpadding="0" cellspacing="0" width="100%" role="none"
-                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
-                                                    <tr>
-                                                        <td align="left" style="padding:0;Margin:0;width:560px">
-                                                            <table cellpadding="0" cellspacing="0" width="100%"
-                                                                role="presentation"
-                                                                style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
-                                                                <tr>
-                                                                    <td align="center"
-                                                                        style="padding:0;Margin:0;padding-top:15px;padding-bottom:15px;font-size:0">
-                                                                        <table cellpadding="0" cellspacing="0"
-                                                                            class="es-table-not-adapt es-social"
-                                                                            role="presentation"
-                                                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
-                                                                            <tr>
-                                                                                <td align="center" valign="top"
-                                                                                    style="padding:0;Margin:0;padding-right:40px">
-                                                                                    <a target="_blank"
-                                                                                        href="https://www.facebook.com/ttbinternetsecurities/"
-                                                                                        style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#333333;font-size:12px"><img
-                                                                                            title="Facebook"
-                                                                                            src="https://fhsfxgx.stripocdn.email/content/assets/img/social-icons/logo-black/facebook-logo-black.png"
-                                                                                            alt="Fb"
-                                                                                            width="32"
-                                                                                            height="32"
-                                                                                            style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"></a>
-                                                                                </td>
-                                                                                <td align="center" valign="top"
-                                                                                    style="padding:0;Margin:0;padding-right:40px">
-                                                                                    <a target="_blank"
-                                                                                        href="https://x.com/TTBisecure"
-                                                                                        style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#333333;font-size:12px"><img
-                                                                                            title="Twitter"
-                                                                                            src="https://fhsfxgx.stripocdn.email/content/assets/img/social-icons/logo-black/twitter-logo-black.png"
-                                                                                            alt="Tw"
-                                                                                            width="32"
-                                                                                            height="32"
-                                                                                            style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"></a>
-                                                                                </td>
-                                                                                <td align="center" valign="top"
-                                                                                    style="padding:0;Margin:0;padding-right:40px">
-                                                                                    <a target="_blank"
-                                                                                        href="https://www.instagram.com/ttbinternetsecurity/"
-                                                                                        style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#333333;font-size:12px"><img
-                                                                                            title="Instagram"
-                                                                                            src="https://fhsfxgx.stripocdn.email/content/assets/img/social-icons/logo-black/instagram-logo-black.png"
-                                                                                            alt="Inst"
-                                                                                            width="32"
-                                                                                            height="32"
-                                                                                            style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"></a>
-                                                                                </td>
-                                                                                <td align="center" valign="top"
-                                                                                    style="padding:0;Margin:0;padding-right:40px">
-                                                                                    <a target="_blank"
-                                                                                        href="https://www.youtube.com/channel/UCda5n02Q-bHeQlyWwm3ieWg"
-                                                                                        style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#333333;font-size:12px"><img
-                                                                                            title="Youtube"
-                                                                                            src="https://fhsfxgx.stripocdn.email/content/assets/img/social-icons/logo-black/youtube-logo-black.png"
-                                                                                            alt="Inst"
-                                                                                            width="32"
-                                                                                            height="32"
-                                                                                            style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"></a>
-                                                                                </td>
-                                                                                <td align="center" valign="top"
-                                                                                    style="padding:0;Margin:0;padding-right:40px">
-                                                                                    <a target="_blank"
-                                                                                        href="https://www.linkedin.com/company/ttbinternetsecurity"
-                                                                                        style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#333333;font-size:12px"><img
-                                                                                            title="LinkedIn"
-                                                                                            src="https://fhsfxgx.stripocdn.email/content/assets/img/social-icons/logo-black/linkedin-logo-black.png"
-                                                                                            alt="In"
-                                                                                            width="32"
-                                                                                            height="32"
-                                                                                            style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"></a>
-                                                                                </td>
-                                                                                <td align="center" valign="top"
-                                                                                    style="padding:0;Margin:0;padding-right:40px">
-                                                                                    <a target="_blank"
-                                                                                        href="https://in.pinterest.com/ttbsecurities01/_created/"
-                                                                                        style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#333333;font-size:12px"><img
-                                                                                            title="Pinterest"
-                                                                                            src="https://fhsfxgx.stripocdn.email/content/assets/img/social-icons/logo-black/pinterest-logo-black.png"
-                                                                                            alt="P"
-                                                                                            width="32"
-                                                                                            height="32"
-                                                                                            style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"></a>
-                                                                                </td>
-                                                                            </tr>
-                                                                        </table>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td align="center"
-                                                                        style="padding:0;Margin:0;padding-bottom:35px">
-                                                                        <p
-                                                                            style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;color:#333333;font-size:12px">
-                                                                            You have received this mail as a service
-                                                                            manager
-                                                                            from TTB {{ $keytype->PICK_TEXT }}
-                                                                            regarding the status of your
-                                                                            TTB {{ $keytype->PICK_TEXT }} product
-                                                                            subscription</p>
-                                                                        <p
-                                                                            style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;color:#333333;font-size:12px">
-                                                                            Copyright © <strong><a target="_blank"
-                                                                                    href="https://www.ttbinternetsecurity.com/"
-                                                                                    style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#13d5a8;font-size:12px">TTB
-                                                                                    {{ $keytype->PICK_TEXT }}</a></strong>
-                                                                            Inc. All rights
-                                                                            reserved.</p>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td style="padding:0;Margin:0">
-                                                                        <table cellpadding="0" cellspacing="0"
-                                                                            width="100%" class="es-menu"
-                                                                            role="presentation"
-                                                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
-                                                                            <tr class="links">
-                                                                                <td align="center" valign="top"
-                                                                                    width="20%"
-                                                                                    style="Margin:0;padding-left:5px;padding-right:5px;padding-top:5px;padding-bottom:5px;border:0">
-                                                                                    <a target="_blank"
-                                                                                        href="https://www.ttbinternetsecurity.com/privacy_policy"
-                                                                                        style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:none;display:block;font-family:arial, 'helvetica neue', helvetica, sans-serif;color:#282626;font-size:12px;font-weight:bold">
-                                                                                        Privacy</a>
-                                                                                </td>
-                                                                                <td align="center" valign="top"
-                                                                                    width="20%"
-                                                                                    style="Margin:0;padding-left:5px;padding-right:5px;padding-top:5px;padding-bottom:5px;border:0;border-left:1px solid #cccccc">
-                                                                                    @if ($paymentDetails->key_type == 501)
-                                                                                        <a target="_blank"
-                                                                                            href="{{ route('user.vpn_download') }}"
-                                                                                            style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:none;display:block;font-family:arial, 'helvetica neue', helvetica, sans-serif;color:#282626;font-size:12px;font-weight:bold">
-                                                                                            Download</a>
-                                                                                </td>
-                                                                            @elseif ($paymentDetails->key_type == 502)
+                                                                                    style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#12d2b3;font-size:12px">download</a>
+                                                                                @elseif ($paymentDetails->key_type == 502)
+                                                                                <a href="{{route('user.antivirus_download')}}"
+                                                                                    target="_blank"
+                                                                                    style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#12d2b3;font-size:12px">download</a>
+                                                                                @endif
+                                                                                    .</strong>
+                                                                        </li>
+                                                                        <li
+                                                                            style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;Margin-bottom:15px;margin-left:0;color:#333333;font-size:12px">
+                                                                            Follow the simple instructions to install
+                                                                            TTB.</li>
+                                                                    </ul>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="left" style="padding:0;Margin:0">
+                                                                    <p
+                                                                        style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;color:#333333;font-size:12px">
+                                                                        Your subscription to TTB is active on
+                                                                        <strong>{{ $paymentDetails->key_activation_date }}</strong>, and will
+                                                                        automatically renew on<strong>
+                                                                            {{$paymentDetails->key_expirey_date}}</strong> for the original
+                                                                        product price i.e. . Find the order details
+                                                                        mentioned below:</p>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left"
+                                            style="padding:0;Margin:0;padding-top:10px;padding-left:20px;padding-right:20px">
+                                            <table cellpadding="0" cellspacing="0" width="100%" role="none"
+                                                style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                <tr>
+                                                    <td class="es-m-p0r" align="center"
+                                                        style="padding:0;Margin:0;width:560px">
+                                                        <table cellpadding="0" cellspacing="0" width="100%"
+                                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;border-top:2px solid #efefef;border-bottom:2px solid #efefef"
+                                                            role="presentation">
+                                                            <tr>
+                                                                <td align="left" class="es-m-txt-r"
+                                                                    style="padding:0;Margin:0;padding-top:10px;padding-bottom:20px">
+                                                                    <p
+                                                                        style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;color:#333333;font-size:12px">
+                                                                        Order
+                                                                        number:&nbsp;<strong>{{ $paymentDetails->invoice_id }}</strong><br>Date
+                                                                        of
+                                                                        Order:&nbsp;<strong>{{ $paymentDetails->payment_time }}</strong><br>Name:
+                                                                        <b>{{ $paymentDetails->firstname }} {{ $paymentDetails->lastname }}</b><br><br>Supports <span
+                                                                            style="color:#12D2B3"><strong>TTB
+                                                                                {{$paymentDetails->product_name}}.</strong></span><br>Sign in to
+                                                                        your TTB account for details. <strong><a
+                                                                                href="https://www.ttbinternetsecurity.com/"
+                                                                                target="_blank"
+                                                                                style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#12d2b3;font-size:12px">Log
+                                                                                in</a></strong><br>--------------------------------------------------------------------------------------------------------------------------------------------<br>Please
+                                                                        note that all renewal prices are subject to
+                                                                        change from time to time and you’ll be notified
+                                                                        in advance about such changes via email. You may
+                                                                        choose to continue to cancel your subscription
+                                                                        by logging in to your account.</p>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left"
+                                            style="Margin:0;padding-bottom:10px;padding-top:20px;padding-left:20px;padding-right:20px">
+                                            <table cellpadding="0" cellspacing="0" width="100%" role="none"
+                                                style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                <tr>
+                                                    <td class="es-m-p0r" align="center"
+                                                        style="padding:0;Margin:0;width:560px">
+                                                        <table cellpadding="0" cellspacing="0" width="100%"
+                                                            role="presentation"
+                                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                            <tr>
+                                                                <td align="left" style="padding:0;Margin:0">
+                                                                    <p
+                                                                        style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;color:#333333;font-size:12px">
+                                                                        Customer Email:
+                                                                        <strong>{{ $paymentDetails->email }}</strong></p>
+                                                                    <p
+                                                                        style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;color:#333333;font-size:12px">
+                                                                        Order number:&nbsp;<strong>#1000{{ $paymentDetails->order_id }}</strong>
+                                                                    </p>
+                                                                    <p
+                                                                        style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;color:#333333;font-size:12px">
+                                                                        Invoice date:&nbsp;<strong>{{ $paymentDetails->payment_time }}</strong>
+                                                                    </p>
+                                                                    <p
+                                                                        style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;color:#333333;font-size:12px">
+                                                                        Payment method:&nbsp;<strong>{{ $paymentDetails->payment_method }}</strong></p>
+                                                                    <p
+                                                                        style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;color:#333333;font-size:12px">
+                                                                        Currency:&nbsp;<strong>USD</strong></p>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left"
+                                            style="Margin:0;padding-bottom:10px;padding-top:15px;padding-left:20px;padding-right:20px">
+                                            <table cellpadding="0" cellspacing="0" width="100%" role="none"
+                                                style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                <tr>
+                                                    <td align="left" style="padding:0;Margin:0;width:560px">
+                                                        <table cellpadding="0" cellspacing="0" width="100%"
+                                                            role="presentation"
+                                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                            <tr>
+                                                                <td align="center"
+                                                                    style="padding:0;Margin:0;padding-top:10px;padding-bottom:10px">
+                                                                    <p
+                                                                        style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;color:#333333;font-size:12px">
+                                                                        Got a question?&nbsp;Email us at&nbsp;<a
+                                                                            target="_blank" href=""
+                                                                            style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#5C68E2;font-size:12px">support@</a><a
+                                                                            target="_blank" href=""
+                                                                            style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#5C68E2;font-size:12px">stylecasual</a><a
+                                                                            target="_blank" href=""
+                                                                            style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#5C68E2;font-size:12px">.com</a>&nbsp;or
+                                                                        give us a call at&nbsp;<a target="_blank"
+                                                                            href=""
+                                                                            style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#5C68E2;font-size:12px">+000
+                                                                            123 456</a>.</p>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                    <table cellpadding="0" cellspacing="0" class="es-footer" align="center" role="none"
+                        style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;table-layout:fixed !important;width:100%;background-color:transparent;background-repeat:repeat;background-position:center top">
+                        <tr>
+                            <td align="center" style="padding:0;Margin:0">
+                                <table class="es-footer-body" align="center" cellpadding="0" cellspacing="0"
+                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-color:transparent;width:600px"
+                                    role="none">
+                                    <tr>
+                                        <td align="left" bgcolor="#ffffff"
+                                            style="Margin:0;padding-top:20px;padding-bottom:20px;padding-left:20px;padding-right:20px;background-color:#ffffff">
+                                            <table cellpadding="0" cellspacing="0" width="100%" role="none"
+                                                style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                <tr>
+                                                    <td align="left" style="padding:0;Margin:0;width:560px">
+                                                        <table cellpadding="0" cellspacing="0" width="100%"
+                                                            role="presentation"
+                                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                            <tr>
+                                                                <td align="center"
+                                                                    style="padding:0;Margin:0;padding-top:15px;padding-bottom:15px;font-size:0">
+                                                                    <table cellpadding="0" cellspacing="0"
+                                                                        class="es-table-not-adapt es-social"
+                                                                        role="presentation"
+                                                                        style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                                        <tr>
+                                                                            <td align="center" valign="top"
+                                                                                style="padding:0;Margin:0;padding-right:40px">
                                                                                 <a target="_blank"
-                                                                                    href="{{ route('user.antivirus_download') }}"
+                                                                                    href="https://www.facebook.com/ttbinternetsecurities/"
+                                                                                    style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#333333;font-size:12px"><img
+                                                                                        title="Facebook"
+                                                                                        src="https://fhsfxgx.stripocdn.email/content/assets/img/social-icons/logo-black/facebook-logo-black.png"
+                                                                                        alt="Fb" width="32" height="32"
+                                                                                        style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"></a>
+                                                                            </td>
+                                                                            <td align="center" valign="top"
+                                                                                style="padding:0;Margin:0;padding-right:40px">
+                                                                                <a target="_blank"
+                                                                                    href="https://x.com/TTBisecure"
+                                                                                    style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#333333;font-size:12px"><img
+                                                                                        title="Twitter"
+                                                                                        src="https://fhsfxgx.stripocdn.email/content/assets/img/social-icons/logo-black/twitter-logo-black.png"
+                                                                                        alt="Tw" width="32" height="32"
+                                                                                        style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"></a>
+                                                                            </td>
+                                                                            <td align="center" valign="top"
+                                                                                style="padding:0;Margin:0;padding-right:40px">
+                                                                                <a target="_blank"
+                                                                                    href="https://www.instagram.com/ttbinternetsecurity/"
+                                                                                    style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#333333;font-size:12px"><img
+                                                                                        title="Instagram"
+                                                                                        src="https://fhsfxgx.stripocdn.email/content/assets/img/social-icons/logo-black/instagram-logo-black.png"
+                                                                                        alt="Inst" width="32"
+                                                                                        height="32"
+                                                                                        style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"></a>
+                                                                            </td>
+                                                                            <td align="center" valign="top"
+                                                                                style="padding:0;Margin:0;padding-right:40px">
+                                                                                <a target="_blank"
+                                                                                    href="https://www.youtube.com/channel/UCda5n02Q-bHeQlyWwm3ieWg"
+                                                                                    style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#333333;font-size:12px"><img
+                                                                                        title="Youtube"
+                                                                                        src="https://fhsfxgx.stripocdn.email/content/assets/img/social-icons/logo-black/youtube-logo-black.png"
+                                                                                        alt="Inst" width="32"
+                                                                                        height="32"
+                                                                                        style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"></a>
+                                                                            </td>
+                                                                            <td align="center" valign="top"
+                                                                                style="padding:0;Margin:0;padding-right:40px">
+                                                                                <a target="_blank"
+                                                                                    href="https://www.linkedin.com/company/ttbinternetsecurity"
+                                                                                    style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#333333;font-size:12px"><img
+                                                                                        title="LinkedIn"
+                                                                                        src="https://fhsfxgx.stripocdn.email/content/assets/img/social-icons/logo-black/linkedin-logo-black.png"
+                                                                                        alt="In" width="32" height="32"
+                                                                                        style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"></a>
+                                                                            </td>
+                                                                            <td align="center" valign="top"
+                                                                                style="padding:0;Margin:0;padding-right:40px">
+                                                                                <a target="_blank"
+                                                                                    href="https://in.pinterest.com/ttbsecurities01/_created/"
+                                                                                    style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#333333;font-size:12px"><img
+                                                                                        title="Pinterest"
+                                                                                        src="https://fhsfxgx.stripocdn.email/content/assets/img/social-icons/logo-black/pinterest-logo-black.png"
+                                                                                        alt="P" width="32" height="32"
+                                                                                        style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"></a>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center"
+                                                                    style="padding:0;Margin:0;padding-bottom:35px">
+                                                                    <p
+                                                                        style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;color:#333333;font-size:12px">
+                                                                        You have received this mail as a service manager
+                                                                        from TTB {{$keytype->PICK_TEXT}} regarding the status of your
+                                                                        TTB {{$keytype->PICK_TEXT}} product subscription</p>
+                                                                    <p
+                                                                        style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;color:#333333;font-size:12px">
+                                                                        Copyright © <strong><a target="_blank"
+                                                                                href="https://www.ttbinternetsecurity.com/"
+                                                                                style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#13d5a8;font-size:12px">TTB
+                                                                                {{$keytype->PICK_TEXT}}</a></strong> Inc. All rights
+                                                                        reserved.</p>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td style="padding:0;Margin:0">
+                                                                    <table cellpadding="0" cellspacing="0" width="100%"
+                                                                        class="es-menu" role="presentation"
+                                                                        style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                                        <tr class="links">
+                                                                            <td align="center" valign="top" width="20%"
+                                                                                style="Margin:0;padding-left:5px;padding-right:5px;padding-top:5px;padding-bottom:5px;border:0">
+                                                                                <a target="_blank"
+                                                                                    href="https://www.ttbinternetsecurity.com/privacy_policy"
+                                                                                    style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:none;display:block;font-family:arial, 'helvetica neue', helvetica, sans-serif;color:#282626;font-size:12px;font-weight:bold">
+                                                                                    Privacy</a></td>
+                                                                            <td align="center" valign="top" width="20%"
+                                                                                style="Margin:0;padding-left:5px;padding-right:5px;padding-top:5px;padding-bottom:5px;border:0;border-left:1px solid #cccccc">
+                                                                                @if ($paymentDetails->key_type==501)
+                                                                                <a target="_blank"
+                                                                                href="{{route('user.vpn_download')}}"
+                                                                                style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:none;display:block;font-family:arial, 'helvetica neue', helvetica, sans-serif;color:#282626;font-size:12px;font-weight:bold">
+                                                                                Download</a></td>
+                                                                                @elseif ($paymentDetails->key_type == 502)
+                                                                                <a target="_blank"
+                                                                                    href="{{route('user.antivirus_download')}}"
                                                                                     style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:none;display:block;font-family:arial, 'helvetica neue', helvetica, sans-serif;color:#282626;font-size:12px;font-weight:bold">
                                                                                     Download</a>
-@endif
-</td>
-<td align="center" valign="top" width="20%"
-    style="Margin:0;padding-left:5px;padding-right:5px;padding-top:5px;padding-bottom:5px;border:0;border-left:1px solid #cccccc">
-    <a target="_blank" href="https://www.ttbinternetsecurity.com/terms_conditions"
-        style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:none;display:block;font-family:arial, 'helvetica neue', helvetica, sans-serif;color:#282626;font-size:12px;font-weight:bold">Terms
-        of Service</a>
-</td>
-<td align="center" valign="top" width="20%"
-    style="Margin:0;padding-left:5px;padding-right:5px;padding-top:5px;padding-bottom:5px;border:0;border-left:1px solid #cccccc">
-    <a target="_blank" href="https://www.ttbinternetsecurity.com/support"
-        style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:none;display:block;font-family:arial, 'helvetica neue', helvetica, sans-serif;color:#282626;font-size:12px;font-weight:bold">Support</a>
-</td>
-<td align="center" valign="top" width="20%"
-    style="Margin:0;padding-left:5px;padding-right:5px;padding-top:5px;padding-bottom:5px;border:0;border-left:1px solid #cccccc">
-    <a target="_blank" href="https://www.ttbinternetsecurity.com/return_policy"
-        style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:none;display:block;font-family:arial, 'helvetica neue', helvetica, sans-serif;color:#282626;font-size:12px;font-weight:bold">Legal</a>
-</td>
-</tr>
-</table>
-</td>
-</tr>
-</table>
-</td>
-</tr>
-</table>
-</td>
-</tr>
-</table>
-</td>
-</tr>
-</table>
-<table cellpadding="0" cellspacing="0" class="es-content" align="center" role="none"
-    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;table-layout:fixed !important;width:100%">
-    <tr>
-        <td class="es-info-area" align="center" style="padding:0;Margin:0">
-            <table class="es-content-body" align="center" cellpadding="0" cellspacing="0"
-                style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-color:transparent;width:600px"
-                bgcolor="#FFFFFF" role="none">
-                <tr>
-                    <td align="left" style="padding:20px;Margin:0">
-                        <table cellpadding="0" cellspacing="0" width="100%" role="none"
-                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
-                            <tr>
-                                <td align="center" valign="top" style="padding:0;Margin:0;width:560px">
-                                    <table cellpadding="0" cellspacing="0" width="100%" role="none"
-                                        style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
-                                        <tr>
-                                            <td align="center" style="padding:0;Margin:0;display:none"></td>
-                                        </tr>
-                                    </table>
-                                </td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-            </table>
-        </td>
-    </tr>
-</table>
-</td>
-</tr>
-</table>
-</div>
+                                                                                @endif
+                                                                                </td>
+                                                                            <td align="center" valign="top" width="20%"
+                                                                                style="Margin:0;padding-left:5px;padding-right:5px;padding-top:5px;padding-bottom:5px;border:0;border-left:1px solid #cccccc">
+                                                                                <a target="_blank"
+                                                                                    href="https://www.ttbinternetsecurity.com/terms_conditions"
+                                                                                    style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:none;display:block;font-family:arial, 'helvetica neue', helvetica, sans-serif;color:#282626;font-size:12px;font-weight:bold">Terms
+                                                                                    of Service</a></td>
+                                                                            <td align="center" valign="top" width="20%"
+                                                                                style="Margin:0;padding-left:5px;padding-right:5px;padding-top:5px;padding-bottom:5px;border:0;border-left:1px solid #cccccc">
+                                                                                <a target="_blank"
+                                                                                    href="https://www.ttbinternetsecurity.com/support"
+                                                                                    style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:none;display:block;font-family:arial, 'helvetica neue', helvetica, sans-serif;color:#282626;font-size:12px;font-weight:bold">Support</a>
+                                                                            </td>
+                                                                            <td align="center" valign="top" width="20%"
+                                                                                style="Margin:0;padding-left:5px;padding-right:5px;padding-top:5px;padding-bottom:5px;border:0;border-left:1px solid #cccccc">
+                                                                                <a target="_blank"
+                                                                                    href="https://www.ttbinternetsecurity.com/return_policy"
+                                                                                    style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:none;display:block;font-family:arial, 'helvetica neue', helvetica, sans-serif;color:#282626;font-size:12px;font-weight:bold">Legal</a>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                    <table cellpadding="0" cellspacing="0" class="es-content" align="center" role="none"
+                        style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;table-layout:fixed !important;width:100%">
+                        <tr>
+                            <td class="es-info-area" align="center" style="padding:0;Margin:0">
+                                <table class="es-content-body" align="center" cellpadding="0" cellspacing="0"
+                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-color:transparent;width:600px"
+                                    bgcolor="#FFFFFF" role="none">
+                                    <tr>
+                                        <td align="left" style="padding:20px;Margin:0">
+                                            <table cellpadding="0" cellspacing="0" width="100%" role="none"
+                                                style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                <tr>
+                                                    <td align="center" valign="top"
+                                                        style="padding:0;Margin:0;width:560px">
+                                                        <table cellpadding="0" cellspacing="0" width="100%" role="none"
+                                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                            <tr>
+                                                                <td align="center"
+                                                                    style="padding:0;Margin:0;display:none"></td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
 </body>
 
 </html>
