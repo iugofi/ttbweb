@@ -80,50 +80,59 @@ class AdminController extends Controller
     }
 
     public function savekeyttb(Request $request)
-    {
-        if ($this->loggedInAdmin) {
+{
+    if ($this->loggedInAdmin) {
 
-            DB::beginTransaction();
-            try {
-                // dd($request);
-                $ttv_check = $request->checkbox;
-                foreach ($ttv_check as $checkbox_id) {
-                    $key = DB::table('payments1')
-                        ->where('id', $checkbox_id)
+        DB::beginTransaction();
+        try {
+            // dd($request);
+            $ttv_check = $request->checkbox;
+            foreach ($ttv_check as $checkbox_id) {
+                $key = DB::table('payments1')
+                    ->where('id', $checkbox_id)
+                    ->first();
+
+                if ($key) {
+                    // Fetch the key from ttbkey table
+                    $key_main = DB::table('ttbkey')
+                        ->where('product_id', $key->product_id)
                         ->first();
 
-                    if ($key) {
-                        $key_main = DB::table('ttbkey')
-                            ->where('product_id', $key->product_id)
+                    if ($key_main) {
+                        // Update the is_key_used field
+                        DB::table('ttbkey')
+                            ->where('id', $key_main->id)
                             ->update(['is_key_used' => 1]);
-                        if ($key_main) {
-                            $ttbkeysave = new TTBKeyAssign();
-                            $ttbkeysave->payment_id = $checkbox_id;
-                            $ttbkeysave->main_key = $key_main;
-                            $ttbkeysave->mail_send_status = 'pending';
-                            $ttbkeysave->save();
-                        }
+
+                        // Save the key assignment
+                        $ttbkeysave = new TTBKeyAssign();
+                        $ttbkeysave->payment_id = $checkbox_id;
+                        $ttbkeysave->main_key = $key_main->id; // Store the key ID
+                        $ttbkeysave->mail_send_status = 'pending';
+                        $ttbkeysave->save();
                     }
                 }
-
-                DB::commit();
-
-                return response()->json([
-                    'status' => 200,
-                    'messages' => 'Keys assigned successfully'
-                ]);
-            } catch (\Exception $e) {
-                DB::rollBack();
-
-                return response()->json([
-                    'status' => 500,
-                    'messages' => 'An error occurred: ' . $e->getMessage()
-                ]);
             }
-        } else {
-            return redirect('/setup');
+
+            DB::commit();
+
+            return response()->json([
+                'status' => 200,
+                'messages' => 'Keys assigned successfully'
+            ]);
+        } catch (\Exception $e) {
+            DB::rollBack();
+
+            return response()->json([
+                'status' => 500,
+                'messages' => 'An error occurred: ' . $e->getMessage()
+            ]);
         }
+    } else {
+        return redirect('/setup');
     }
+}
+
 
 
     public function manual_key_assign()
