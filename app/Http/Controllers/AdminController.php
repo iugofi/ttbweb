@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\ActivationKeySend;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
@@ -23,8 +24,8 @@ use App\Models\Visitors;
 use App\Models\Reminder_logs;
 use App\Models\SendMail;
 use App\Models\TTBKeyAssign;
-use Mail;
 use Illuminate\Support\Facades\Crypt;
+use Illuminate\Support\Facades\Mail;
 
 
 use Illuminate\Support\Facades\File;
@@ -140,10 +141,22 @@ class AdminController extends Controller
 
                             $ttbkeysave = new TTBKeyAssign();
                             $ttbkeysave->payment_id = $checkbox_id;
-                            $ttbkeysave->main_key = $key_main->id; // Store the key ID
+                            $ttbkeysave->main_key = $key_main->id;
                             $ttbkeysave->mail_send_status = 'pending';
                             $ttbkeysave->is_manual = 1;
                             $ttbkeysave->save();
+
+                            $ttb_key_assignId = DB::table('ttb_key_assign')->insertGetId([
+                                'payment_id' => $checkbox_id,
+                                'main_key' => $key_main->id,
+                                'mail_send_status' => 'success',
+                                'is_manual' => 1,
+                                'created_at' => now(),
+                                'updated_at' => now()
+                            ]);
+
+                            Mail::to($key->email)->send(new ActivationKeySend($ttb_key_assignId));
+
                         }
                     }
                 }
