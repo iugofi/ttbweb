@@ -580,22 +580,20 @@ class UserController extends Controller
         $validator = Validator::make($request->all(), [
             'signup_firstname' => 'required|max:50',
             'signup_lastname' => 'required|max:50',
-            'email' => 'required|email|unique:users,email|max:100',
+            'email' => 'required|email|unique:usersall|max:100',
             'signup_password' => 'required|min:6|max:50',
-            'signup_confirmpassword' => 'required|same:signup_password',
-            'signup_check' => 'required'
+            'signup_confirmpassword' => 'required|min:6|same:signup_password',
+            'signup_check' => 'required|accepted'
         ], [
-            'signup_confirmpassword.same' => 'Passwords do not match!',
-            'signup_confirmpassword.required' => 'Confirm Password is required!',
+            'signup_confirmpassword.same' => 'Password did not match!',
+            'signup_confirmpassword.required' => 'Confirm Password is Required!'
         ]);
-
-        // If validation fails, return errors
         if ($validator->fails()) {
             return response()->json([
                 'status' => 400,
-                'messages' => $validator->getMessageBag()->toArray()
+                'messages' => $validator->getMessageBag()->toArray() // Convert messages to array
             ]);
-        }
+        } else {
             $user = new Users(); // Assuming User is your Eloquent model for users
             $user->firstname = $request->signup_firstname;
             $user->lastname = $request->signup_lastname;
@@ -615,9 +613,9 @@ class UserController extends Controller
 
             return response()->json([
                 'status' => 200,
-                'messages' => 'Registration successful! Please check your email for verification.'
+                'messages' => 'Register successfully Please Check Your Mail!'
             ]);
-        
+        }
     }
 
     public function activate($activation_key)
