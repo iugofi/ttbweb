@@ -351,7 +351,6 @@ Route::get('/mailtest', [UserController::class, 'mailtest'])->name('admin.mailte
          Route::get('/Reminder_mail_list', [AdminController::class, 'Reminder_mail_list'])->name('Reminder_mail_list.page');
 
          //manual key send
-         Route::get('/manual_key_list', [AdminController::class, 'manual_key_list'])->name('manual_key_list.page');
          Route::get('/manual_key_assign', [AdminController::class, 'manual_key_assign'])->name('manual_key_assign.page');
          Route::get('/get-ttb-keys', [AdminController::class, 'getTTBKeys'])->name('keyget.assign');
          Route::post('/get-ttb-key-save', [AdminController::class, 'savekeyttb'])->name('save.ttbkey');

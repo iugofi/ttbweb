@@ -49,25 +49,7 @@ class AdminController extends Controller
         });
     }
 
-    public function manual_key_list()
-    {
-
-        if ($this->loggedInAdmin) {
-            $paymentdetails = DB::select("
-            SELECT *
-            FROM payments1 p
-            WHERE NOT EXISTS (
-                SELECT 1
-                FROM ttb_key_assign tka
-                WHERE tka.payment_id = p.id
-            )
-            ORDER BY p.id ASC
-        ");
-            return view('Admin.manual_key_list', ['paymentdetails' => $paymentdetails]);
-        } else {
-            return redirect('/setup');
-        }
-    }
+    
 
     public function paysettingpage()
     {
