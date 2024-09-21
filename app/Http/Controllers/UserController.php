@@ -573,7 +573,7 @@ class UserController extends Controller
 
 
 
-    public function saveUser(Request $request)
+    public function ttbsaveUser(Request $request)
     {
         // $ref=md5($request->email,time());
         // dd($ref);
@@ -619,10 +619,10 @@ class UserController extends Controller
     }
 
 
-    public function ttbsaveUser(Request $request)
-    {
-        return $request;
-    }
+    // public function ttbsaveUser(Request $request)
+    // {
+    //     return $request;
+    // }
 
     public function activate($activation_key)
     {
