@@ -936,9 +936,5 @@
         </table>
     </div>
 </body>
-@else
-<p>please Contact Support Team</p>
-<a href="{{route('user.contact_as')}}">Contact Page</a>
-@endif
 
 </html>
