@@ -50,7 +50,8 @@ class ActivationKeySend extends Mailable
             'p.state AS state',
             'p.country AS country',
             'p.pincode AS pincode',
-            'p.payment_method'
+            'p.payment_method',
+            'p.email AS email'
         )
         ->where('tka.id', $this->keyAssignId)
         ->where('s.STORE_ID', 'key_type')
