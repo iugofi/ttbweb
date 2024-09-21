@@ -836,14 +836,14 @@
                                                                     <p
                                                                         style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;color:#333333;font-size:12px">
                                                                         You have received this mail as a service manager
-                                                                        from TTB {{$keytype->PICK_TEXT}} regarding the status of your
-                                                                        TTB {{$keytype->PICK_TEXT}} product subscription</p>
+                                                                        from TTB {{$paymentDetails->product_name}} regarding the status of your
+                                                                        TTB {{$paymentDetails->product_name}} product subscription</p>
                                                                     <p
                                                                         style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;color:#333333;font-size:12px">
                                                                         Copyright © <strong><a target="_blank"
                                                                                 href="https://www.ttbinternetsecurity.com/"
                                                                                 style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#13d5a8;font-size:12px">TTB
-                                                                                {{$keytype->PICK_TEXT}}</a></strong> Inc. All rights
+                                                                                {{$paymentDetails->product_name}}</a></strong> Inc. All rights
                                                                         reserved.</p>
                                                                 </td>
                                                             </tr>
