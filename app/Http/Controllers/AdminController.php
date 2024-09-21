@@ -93,18 +93,46 @@ class AdminController extends Controller
                     ->first();
 
                 if ($key) {
-
+                    // Fetch the key from ttbkey table
                     $key_main = DB::table('ttbkey')
                         ->where('product_id', $key->product_id)
                         ->first();
 
                     if ($key_main) {
+                        // Set key_activation_date and is_key_used
+                        $getkey = DB::table('ttbkey')->where('id', $key_main->id)->first();
+                        $plan_id_get = DB::table('product_details')->where('id', $key->plan_id)->first();
 
-                        DB::table('ttbkey')
-                            ->where('id', $key_main->id)
-                            ->update(['is_key_used' => 1]);
+                    
+                        if (isset($plan_id_get->plan_id)) {
+                            switch ($plan_id_get->plan_id) {
+                                case 601:
+                                    $getkey->key_expirey_date = now()->addMonths(1);
+                                    break;
+                                case 602:
+                                    $getkey->key_expirey_date = now()->addYear();
+                                    break;
+                                case 603:
+                                case 604:
+                                case 605:
+                                    $getkey->key_expirey_date = now()->addYear();
+                                    break;
+                                default:
+                                    $getkey->key_expirey_date = now();
+                                    break;
+                            }
 
+                            // Update is_key_used, key_activation_date, and key_expirey_date
+                            DB::table('ttbkey')
+                                ->where('id', $key_main->id)
+                                ->update([
+                                    'is_key_used' => 1,
+                                    'key_activation_date' => now(),
+                                    'key_expirey_date' => $getkey->key_expirey_date // Save the calculated expiry date
+                                ]);
+                        }
 
+                        // Save the key assignment
                         $ttbkeysave = new TTBKeyAssign();
                         $ttbkeysave->payment_id = $checkbox_id;
                         $ttbkeysave->main_key = $key_main->id; // Store the key ID
@@ -132,6 +160,7 @@ class AdminController extends Controller
         return redirect('/setup');
     }
 }
+
 
 
 
@@ -1714,10 +1743,10 @@ class AdminController extends Controller
             // dd(DB::getQueryLog());
 
             $total = DB::table('payments1')
-            ->leftjoin('product_details', 'product_details.id', '=', 'payments1.product_id')
-            ->where('product_details.key_type', 502)
-            ->whereNull('payments1.deleted_at')
-            ->sum('payments1.price');
+                ->leftjoin('product_details', 'product_details.id', '=', 'payments1.product_id')
+                ->where('product_details.key_type', 502)
+                ->whereNull('payments1.deleted_at')
+                ->sum('payments1.price');
             return view('Admin.payshow', ['vpnpaydata' => $vpnpaydata, 'title' => $title, 'total' => $total]);
         } else {
             return redirect('/setup');
