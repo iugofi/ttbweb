@@ -181,8 +181,9 @@
 
     <script>
         $(document).ready(function() {
-            alert("jhj");
+
             $('#register_form').submit(function(e){
+                alert("jhj");
                 e.preventDefault();
                 $('#register_btn').val('please wait..');
                 $.ajax({
