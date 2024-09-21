@@ -31,18 +31,18 @@ class UserController extends Controller
     }
 
     public function saveemailsub(Request $request)
-{
-    $existingEmail = EmailSubscribe::where('email', $request->email_subscribe)->first();
-    if ($existingEmail) {
-        return redirect()->back()->with('error', 'This email is already subscribed!');
+    {
+        $existingEmail = EmailSubscribe::where('email', $request->email_subscribe)->first();
+        if ($existingEmail) {
+            return redirect()->back()->with('error', 'This email is already subscribed!');
+        }
+        $saveemail = new EmailSubscribe();
+        $saveemail->email = $request->email_subscribe;
+        $saveemail->save();
+
+
+        return redirect()->back()->with('success', 'Email subscription saved successfully!');
     }
-    $saveemail = new EmailSubscribe();
-    $saveemail->email = $request->email_subscribe;
-    $saveemail->save();
-
-
-    return redirect()->back()->with('success', 'Email subscription saved successfully!');
-}
 
 
     public function forgetpass(Request $request)
@@ -593,29 +593,36 @@ class UserController extends Controller
                 'status' => 400,
                 'messages' => $validator->getMessageBag()->toArray() // Convert messages to array
             ]);
-        } else {
-            $user = new Users(); // Assuming User is your Eloquent model for users
-            $user->firstname = $request->signup_firstname;
-            $user->lastname = $request->signup_lastname;
-            $user->email = $request->email;
-            $activation_key = md5($request->email . time()); // Generate activation key
-            $user->activation_key = $activation_key;
-            $user->password = \Crypt::encrypt($request->signup_password);
-            $user->save();
-
-            // Mail::send('Html.view', $data, function ($message) {
-            //     $message->to('john@johndoe.com', 'John Doe');
-            // });
-
-            Mail::send('Mail.activationkey', ['activation_key' => $activation_key], function ($message) use ($request) {
-                $message->to($request->email)->subject('Activate Your Account');
-            });
-
+        }
+        
+        $existingUser = Users::where('email', $request->email)->first();
+        if ($existingUser) {
             return response()->json([
-                'status' => 200,
-                'messages' => 'Register successfully Please Check Your Mail!'
+                'status' => 409,
+                'messages' => 'Email is already registered.'
             ]);
         }
+        $user = new Users(); // Assuming User is your Eloquent model for users
+        $user->firstname = $request->signup_firstname;
+        $user->lastname = $request->signup_lastname;
+        $user->email = $request->email;
+        $activation_key = md5($request->email . time()); // Generate activation key
+        $user->activation_key = $activation_key;
+        $user->password = \Crypt::encrypt($request->signup_password);
+        $user->save();
+
+        // Mail::send('Html.view', $data, function ($message) {
+        //     $message->to('john@johndoe.com', 'John Doe');
+        // });
+
+        Mail::send('Mail.activationkey', ['activation_key' => $activation_key], function ($message) use ($request) {
+            $message->to($request->email)->subject('Activate Your Account');
+        });
+
+        return response()->json([
+            'status' => 200,
+            'messages' => 'Registered successfully! Please check your email to activate your account.'
+        ]);
     }
 
     public function activate($activation_key)
