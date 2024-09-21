@@ -99,7 +99,7 @@ class AdminController extends Controller
                         if ($key_main) {
                             $ttbkeysave = new TTBKeyAssign();
                             $ttbkeysave->payment_id = $checkbox_id;
-                            $ttbkeysave->main_key = $key->id;
+                            $ttbkeysave->main_key = $key_main;
                             $ttbkeysave->mail_send_status = 'pending';
                             $ttbkeysave->save();
                         }
