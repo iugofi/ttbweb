@@ -52,7 +52,7 @@ class ActivationKeySend extends Mailable
             'p.pincode AS pincode',
             'p.payment_method'
         )
-        ->where('tka.id', 2856)
+        ->where('tka.id', $this->keyAssignId)
         ->where('s.STORE_ID', 'key_type')
         ->first();
 
