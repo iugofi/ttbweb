@@ -681,7 +681,7 @@
                                                                         <strong>{{ $paymentDetails->email }}</strong></p>
                                                                     <p
                                                                         style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;color:#333333;font-size:12px">
-                                                                        Order number:&nbsp;<strong>#1000{{ $paymentDetails->order_id }}</strong>
+                                                                        Order number:&nbsp;<strong>{{ $paymentDetails->order_id }}</strong>
                                                                     </p>
                                                                     <p
                                                                         style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;color:#333333;font-size:12px">
