@@ -71,74 +71,46 @@
                                     <div class="grid grid-cols-12 gap-y-4">
                                         <div class="xl:col-span-12 col-span-12">
                                             <label for="signup-firstname" class="form-label text-default">First Name</label>
-                                            <input type="text" class="form-control form-control-lg w-full !rounded-md"
-                                                id="signup_firstname" name="signup_firstname" placeholder="first name">
+                                            <input type="text" class="form-control form-control-lg w-full !rounded-md" id="signup_firstname" name="signup_firstname" placeholder="first name">
                                             <div class="invalid-feedback"></div>
                                         </div>
                                         <div class="xl:col-span-12 col-span-12">
                                             <label for="signup-lastname" class="form-label text-default">Last Name</label>
-                                            <input type="text" class="form-control form-control-lg w-full !rounded-md"
-                                                id="signup_lastname" name="signup_lastname" placeholder="last name">
+                                            <input type="text" class="form-control form-control-lg w-full !rounded-md" id="signup_lastname" name="signup_lastname" placeholder="last name">
                                             <div class="invalid-feedback"></div>
                                         </div>
                                         <div class="xl:col-span-12 col-span-12">
                                             <label for="signup-email" class="form-label text-default">Email</label>
-                                            <input type="email" class="form-control form-control-lg w-full !rounded-md"
-                                                id="email" name="email" placeholder="E-mail">
+                                            <input type="email" class="form-control form-control-lg w-full !rounded-md" id="email" name="email" placeholder="E-mail">
                                             <div class="invalid-feedback"></div>
                                         </div>
                                         <div class="xl:col-span-12 col-span-12">
                                             <label for="signup-password" class="form-label text-default">Password</label>
                                             <div class="input-group">
-                                                <input type="password" class="form-control form-control-lg !rounded-e-none"
-                                                    id="signup_password" name="signup_password" placeholder="password">
-                                                <button aria-label="button" type="button"
-                                                    class="ti-btn ti-btn-light !rounded-s-none !mb-0"
-                                                    onclick="togglePasswordVisibility('signup_password')"><i
-                                                        class="ri-eye-off-line align-middle"></i></button>
-                                                        <br><br>
-                                                <p class="invalid-feedback" style="width:100%"></p>
+                                                <input type="password" class="form-control form-control-lg !rounded-e-none" id="signup_password" name="signup_password" placeholder="password">
+                                                <button aria-label="button" type="button" class="ti-btn ti-btn-light !rounded-s-none !mb-0" onclick="togglePasswordVisibility('signup_password')"><i class="ri-eye-off-line align-middle"></i></button>
+                                                <div class="invalid-feedback"></div>
                                             </div>
-
                                         </div>
-                                        <div class="xl:col-span-12 col-span-12 mb-2">
-                                            <label for="signup-confirmpassword" class="form-label text-default">Confirm
-                                                Password</label>
+                                        <div class="xl:col-span-12 col-span-12">
+                                            <label for="signup-confirmpassword" class="form-label text-default">Confirm Password</label>
                                             <div class="input-group">
-                                                <input type="password" class="form-control form-control-lg !rounded-e-none"
-                                                    id="signup_confirmpassword" name="signup_confirmpassword" placeholder="confirm password">
-                                                <button aria-label="button" type="button"
-                                                    class="ti-btn ti-btn-light !rounded-s-none !mb-0"
-                                                    onclick="togglePasswordVisibility('signup_confirmpassword')"><i
-                                                        class="ri-eye-off-line align-middle"></i></button>
-                                                        <br>
-                                                        <p class="invalid-feedback" style="width:100%"></p>
-
-
+                                                <input type="password" class="form-control form-control-lg !rounded-e-none" id="signup_confirmpassword" name="signup_confirmpassword" placeholder="confirm password">
+                                                <button aria-label="button" type="button" class="ti-btn ti-btn-light !rounded-s-none !mb-0" onclick="togglePasswordVisibility('signup_confirmpassword')"><i class="ri-eye-off-line align-middle"></i></button>
+                                                <div class="invalid-feedback"></div>
                                             </div>
-
                                         </div>
                                         <div class="xl:col-span-12 col-span-12 mt-4">
                                             <div class="form-check !flex !ps-0">
-                                                <input class="form-check-input me-1" name="signup_check" id="signup_check" type="checkbox" value="1"
-                                                    id="defaultCheck1">
-                                                <label
-                                                    class="ps-2 form-check-label text-[#8c9097] dark:text-white/50 font-normal block"
-                                                    for="defaultCheck1">
-                                                    By creating an account you agree to our <a href="terms.html"
-                                                        class="text-success"><u>Terms &amp; Conditions</u></a> and <a
-                                                        class="text-success"><u>Privacy Policy</u></a>
+                                                <input class="form-check-input me-1" name="signup_check" id="signup_check" type="checkbox" value="1">
+                                                <label class="ps-2 form-check-label text-[#8c9097] dark:text-white/50 font-normal block" for="defaultCheck1">
+                                                    By creating an account you agree to our <a href="terms.html" class="text-success"><u>Terms &amp; Conditions</u></a> and <a href="#" class="text-success"><u>Privacy Policy</u></a>
                                                 </label>
                                                 <div class="invalid-feedback"></div>
-
                                             </div>
-
-
-
                                         </div>
                                         <div class="xl:col-span-12 col-span-12 grid mt-2">
-                                            <input type="submit" id="register_btn"
-                                                class="ti-btn ti-btn-lg bg-primary text-white !font-medium dark:border-defaultborder/10" value="Create Account">
+                                            <input type="submit" id="register_btn" class="ti-btn ti-btn-lg bg-primary text-white !font-medium dark:border-defaultborder/10" value="Create Account">
                                         </div>
                                     </div>
                                 </form>
@@ -181,34 +153,51 @@
 
     <script>
         $(document).ready(function() {
-            $('#register_form').submit(function(e){
-                e.preventDefault();
-                console.log($(this).serialize());
-                $('#register_btn').val('please wait..');
-                $.ajax({
-                    url: '{{ route('user.saveregister')}}',
-                    method: 'post',
-                    data: $(this).serialize(),
-                    success:function(response) {
-                        if(response.status == 400) {
-                            showError('signup_firstname',response.messages.signup_firstname);
-                            showError('signup_lastname',response.messages.signup_lastname);
-                            showError('email',response.messages.email);
-                            showError('signup_confirmpassword',response.messages.signup_confirmpassword);
-                            showError('signup_password',response.messages.signup_password);
-                            showError('signup_check',response.messages.signup_check);
-                            $('#register_btn').val('Create Account');
-                        }
-                        else if(response.status == 200) {
-                            $("#show_success_alert").html(showMessage('success',response.messages));
-                            $('#register_form')[0].reset();
-                            $('.invalid-feedback').empty();
-                            removeValidationClass("#register_form");
-                            $('#register_btn').val('Create Account');
-                        }
-                    }
-                });
-            });
+            $('#register_form').submit(function(e) {
+        e.preventDefault();
+        $('#register_btn').val('Please wait...');
+
+        $.ajax({
+            url: '{{ route("user.saveregister") }}', // Adjust route as needed
+            method: 'POST',
+            data: $(this).serialize(),
+            success: function(response) {
+                if (response.status == 400) {
+                    // Show validation errors
+                    showError('signup_firstname', response.messages.signup_firstname);
+                    showError('signup_lastname', response.messages.signup_lastname);
+                    showError('email', response.messages.email);
+                    showError('signup_password', response.messages.signup_password);
+                    showError('signup_confirmpassword', response.messages.signup_confirmpassword);
+                    showError('signup_check', response.messages.signup_check);
+                    $('#register_btn').val('Create Account');
+                } else if (response.status == 200) {
+                    // Success message and reset form
+                    $("#show_success_alert").html(showMessage('success', response.messages));
+                    $('#register_form')[0].reset();
+                    $('.invalid-feedback').empty();
+                    $('#register_btn').val('Create Account');
+                }
+            },
+            error: function(xhr, status, error) {
+                console.error('AJAX Error:', error);
+                $('#register_btn').val('Create Account');
+            }
+        });
+    });
+
+    function showError(field, message) {
+        $("#" + field).siblings('.invalid-feedback').text(message);
+        $("#" + field).addClass('is-invalid');
+    }
+
+    function removeValidationClass(formId) {
+        $(formId).find('.is-invalid').removeClass('is-invalid');
+    }
+
+    function showMessage(type, message) {
+        return `<div class="alert alert-${type}">${message}</div>`;
+    }
         });
 
 
