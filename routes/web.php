@@ -172,7 +172,6 @@ Route::post('/signdata', [UserController::class, 'signdata'])->name('user.signda
 
 
 Route::get('/signup', [UserController::class, 'signup'])->name('user.signup');
-// Route::post('/register', [UserController::class, 'saveUser'])->name('user.saveregister');
 Route::post('/ttbregister', [UserController::class, 'ttbsaveUser'])->name('user.ttbsaveregister');
 
 //message Activation key
