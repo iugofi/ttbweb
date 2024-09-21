@@ -17,7 +17,8 @@
     <title> Sign Up </title>
 
     <!-- FAVICON -->
-    <link rel="icon" href="{{ asset('assets/images/brand-logos/favicon.png') }}" type="image/x-icon">
+    <link rel="icon" href="{{asset('assets/images/brand-logos/favicon.png')}}"
+        type="image/x-icon">
 
     <!-- ICONS CSS -->
     <link href="{{ asset('assets/css/icons.css') }}" rel="stylesheet">
@@ -33,9 +34,9 @@
 
 
     <style>
-        body {
-            background-color: rgb(var(--body-bg));
-        }
+         body {
+        background-color: rgb(var(--body-bg));
+    }
     </style>
 
 
@@ -54,10 +55,8 @@
                 <div class="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-6 sm:col-span-8 col-span-12">
                     <div class="my-[2.5rem] flex justify-center">
                         <a href="index.html">
-                            <img src="{{ asset('assets/images/brand-logos/favicon.png') }}" alt="logo"
-                                class="desktop-logo">
-                            <img src="{{ asset('assets/images/brand-logos/favicon.png') }}" alt="logo"
-                                class="desktop-dark">
+                            <img src="{{asset('assets/images/brand-logos/favicon.png')}}" alt="logo" class="desktop-logo">
+                            <img src="{{asset('assets/images/brand-logos/favicon.png')}}" alt="logo" class="desktop-dark">
                         </a>
                     </div>
                     <div class="box">
@@ -66,85 +65,83 @@
                             <p class="mb-4 text-[#8c9097] dark:text-white/50 opacity-[0.7] font-normal text-center">
                                 Welcome &amp; Join us by
                                 creating a free account !</p>
-                            <div class="" id="show_success_alert"></div>
-                            <form id="register_form" method="post">
-                                @csrf
-                                <div class="grid grid-cols-12 gap-y-4">
-                                    <div class="xl:col-span-12 col-span-12">
-                                        <label for="signup-firstname" class="form-label text-default">First Name</label>
-                                        <input type="text" class="form-control form-control-lg w-full !rounded-md"
-                                            id="signup_firstname" name="signup_firstname" placeholder="first name">
-                                        <div class="invalid-feedback"></div>
-                                    </div>
-                                    <div class="xl:col-span-12 col-span-12">
-                                        <label for="signup-lastname" class="form-label text-default">Last Name</label>
-                                        <input type="text" class="form-control form-control-lg w-full !rounded-md"
-                                            id="signup_lastname" name="signup_lastname" placeholder="last name">
-                                        <div class="invalid-feedback"></div>
-                                    </div>
-                                    <div class="xl:col-span-12 col-span-12">
-                                        <label for="signup-email" class="form-label text-default">Email</label>
-                                        <input type="email" class="form-control form-control-lg w-full !rounded-md"
-                                            id="email" name="email" placeholder="E-mail">
-                                        <div class="invalid-feedback"></div>
-                                    </div>
-                                    <div class="xl:col-span-12 col-span-12">
-                                        <label for="signup-password" class="form-label text-default">Password</label>
-                                        <div class="input-group">
-                                            <input type="password" class="form-control form-control-lg !rounded-e-none"
-                                                id="signup_password" name="signup_password" placeholder="password">
-                                            <button aria-label="button" type="button"
-                                                class="ti-btn ti-btn-light !rounded-s-none !mb-0"
-                                                onclick="togglePasswordVisibility('signup_password')"><i
-                                                    class="ri-eye-off-line align-middle"></i></button>
-                                            <br><br>
-                                            <p class="invalid-feedback" style="width:100%"></p>
-                                        </div>
-
-                                    </div>
-                                    <div class="xl:col-span-12 col-span-12 mb-2">
-                                        <label for="signup-confirmpassword" class="form-label text-default">Confirm
-                                            Password</label>
-                                        <div class="input-group">
-                                            <input type="password" class="form-control form-control-lg !rounded-e-none"
-                                                id="signup_confirmpassword" name="signup_confirmpassword"
-                                                placeholder="confirm password">
-                                            <button aria-label="button" type="button"
-                                                class="ti-btn ti-btn-light !rounded-s-none !mb-0"
-                                                onclick="togglePasswordVisibility('signup_confirmpassword')"><i
-                                                    class="ri-eye-off-line align-middle"></i></button>
-                                            <br>
-                                            <p class="invalid-feedback" style="width:100%"></p>
-
-
-                                        </div>
-
-                                    </div>
-                                    <div class="xl:col-span-12 col-span-12 mt-4">
-                                        <div class="form-check !flex !ps-0">
-                                            <input class="form-check-input me-1" name="signup_check"
-                                                id="signup_check" type="checkbox" value="1" id="defaultCheck1">
-                                            <label
-                                                class="ps-2 form-check-label text-[#8c9097] dark:text-white/50 font-normal block"
-                                                for="defaultCheck1">
-                                                By creating an account you agree to our <a href="terms.html"
-                                                    class="text-success"><u>Terms &amp; Conditions</u></a> and <a
-                                                    class="text-success"><u>Privacy Policy</u></a>
-                                            </label>
+                                <div class="" id="show_success_alert"></div>
+                                <form id="register_form" method="post">
+                                    @csrf
+                                    <div class="grid grid-cols-12 gap-y-4">
+                                        <div class="xl:col-span-12 col-span-12">
+                                            <label for="signup-firstname" class="form-label text-default">First Name</label>
+                                            <input type="text" class="form-control form-control-lg w-full !rounded-md"
+                                                id="signup_firstname" name="signup_firstname" placeholder="first name">
                                             <div class="invalid-feedback"></div>
+                                        </div>
+                                        <div class="xl:col-span-12 col-span-12">
+                                            <label for="signup-lastname" class="form-label text-default">Last Name</label>
+                                            <input type="text" class="form-control form-control-lg w-full !rounded-md"
+                                                id="signup_lastname" name="signup_lastname" placeholder="last name">
+                                            <div class="invalid-feedback"></div>
+                                        </div>
+                                        <div class="xl:col-span-12 col-span-12">
+                                            <label for="signup-email" class="form-label text-default">Email</label>
+                                            <input type="email" class="form-control form-control-lg w-full !rounded-md"
+                                                id="email" name="email" placeholder="E-mail">
+                                            <div class="invalid-feedback"></div>
+                                        </div>
+                                        <div class="xl:col-span-12 col-span-12">
+                                            <label for="signup-password" class="form-label text-default">Password</label>
+                                            <div class="input-group">
+                                                <input type="password" class="form-control form-control-lg !rounded-e-none"
+                                                    id="signup_password" name="signup_password" placeholder="password">
+                                                <button aria-label="button" type="button"
+                                                    class="ti-btn ti-btn-light !rounded-s-none !mb-0"
+                                                    onclick="togglePasswordVisibility('signup_password')"><i
+                                                        class="ri-eye-off-line align-middle"></i></button>
+                                                        <br><br>
+                                                <p class="invalid-feedback" style="width:100%"></p>
+                                            </div>
 
                                         </div>
+                                        <div class="xl:col-span-12 col-span-12 mb-2">
+                                            <label for="signup-confirmpassword" class="form-label text-default">Confirm
+                                                Password</label>
+                                            <div class="input-group">
+                                                <input type="password" class="form-control form-control-lg !rounded-e-none"
+                                                    id="signup_confirmpassword" name="signup_confirmpassword" placeholder="confirm password">
+                                                <button aria-label="button" type="button"
+                                                    class="ti-btn ti-btn-light !rounded-s-none !mb-0"
+                                                    onclick="togglePasswordVisibility('signup_confirmpassword')"><i
+                                                        class="ri-eye-off-line align-middle"></i></button>
+                                                        <br>
+                                                        <p class="invalid-feedback" style="width:100%"></p>
+
+
+                                            </div>
+
+                                        </div>
+                                        <div class="xl:col-span-12 col-span-12 mt-4">
+                                            <div class="form-check !flex !ps-0">
+                                                <input class="form-check-input me-1" name="signup_check" id="signup_check" type="checkbox" value="1"
+                                                    id="defaultCheck1">
+                                                <label
+                                                    class="ps-2 form-check-label text-[#8c9097] dark:text-white/50 font-normal block"
+                                                    for="defaultCheck1">
+                                                    By creating an account you agree to our <a href="terms.html"
+                                                        class="text-success"><u>Terms &amp; Conditions</u></a> and <a
+                                                        class="text-success"><u>Privacy Policy</u></a>
+                                                </label>
+                                                <div class="invalid-feedback"></div>
+
+                                            </div>
 
 
 
+                                        </div>
+                                        <div class="xl:col-span-12 col-span-12 grid mt-2">
+                                            <input type="submit" id="register_btn"
+                                                class="ti-btn ti-btn-lg bg-primary text-white !font-medium dark:border-defaultborder/10" value="Create Account">
+                                        </div>
                                     </div>
-                                    <div class="xl:col-span-12 col-span-12 grid mt-2">
-                                        <input type="submit" id="register_btn"
-                                            class="ti-btn ti-btn-lg bg-primary text-white !font-medium dark:border-defaultborder/10"
-                                            value="Create Account">
-                                    </div>
-                                </div>
-                            </form>
+                                </form>
                             <div class="text-center">
                                 <p class="text-[0.75rem] text-[#8c9097] dark:text-white/50 mt-4">Already have an
                                     account? <a href="{{ route('user.signin') }}" class="text-primary">Sign In</a></p>
@@ -184,50 +181,36 @@
 
     <script>
         $(document).ready(function() {
-            $('#register_form').submit(function(e) {
+            $('#register_form').submit(function(e){
                 e.preventDefault();
                 $('#register_btn').val('please wait..');
-
                 $.ajax({
-                    url: '{{ route('user.saveregister') }}',
+                    url: '{{ route('user.saveregister')}}',
                     method: 'post',
                     data: $(this).serialize(),
-                    success: function(response) {
-                        if (response.status == 400) {
-                            // Display validation errors
-                            showError('signup_firstname', response.messages.signup_firstname);
-                            showError('signup_lastname', response.messages.signup_lastname);
-                            showError('email', response.messages.email);
-                            showError('signup_confirmpassword', response.messages
-                                .signup_confirmpassword);
-                            showError('signup_password', response.messages.signup_password);
-                            showError('signup_check', response.messages.signup_check);
+                    success:function(response) {
+                        if(response.status == 400) {
+                            showError('signup_firstname',response.messages.signup_firstname);
+                            showError('signup_lastname',response.messages.signup_lastname);
+                            showError('email',response.messages.email);
+                            showError('signup_confirmpassword',response.messages.signup_confirmpassword);
+                            showError('signup_password',response.messages.signup_password);
+                            showError('signup_check',response.messages.signup_check);
                             $('#register_btn').val('Create Account');
-                        } else if (response.status == 200) {
-                            // Show success message and reset form
-                            $("#show_success_alert").html(showMessage('success', response
-                                .messages));
+                        }
+                        else if(response.status == 200) {
+                            $("#show_success_alert").html(showMessage('success',response.messages));
                             $('#register_form')[0].reset();
                             $('.invalid-feedback').empty();
                             removeValidationClass("#register_form");
                             $('#register_btn').val('Create Account');
                         }
-                    },
-                    error: function(xhr, status, error) {
-                        if (xhr.status == 409) {
-                            // Handle 409 Conflict error
-                            alert(
-                                'A user with this email already exists. Please use a different email.');
-                        } else {
-                            // Handle other errors
-                            alert('Something went wrong. Please try again.');
-                        }
-                        $('#register_btn').val('Create Account');
                     }
                 });
             });
-
         });
+
+
     </script>
 
 
