@@ -1,49 +1,3 @@
-@php
-    // $allowedProductIds = [1, 2, 3, 5, 9, 10, 11, 12, 13];
-    // $oneYearAgo = \Carbon\Carbon::now()->subYear();
-
-    $paymentDetails = DB::table('payments')
-        ->join('product_details', 'product_details.id', '=', 'payments.product_id')
-        ->join('usersall', 'usersall.id', '=', 'payments.user_id')
-        ->join('ttbkey', 'ttbkey.id', '=', 'payments.product_key')
-        ->select(
-            'payments.id',
-            'usersall.firstname',
-            'usersall.lastname',
-            'usersall.email',
-            'ttbkey.main_key',
-            'payments.pay_id',
-            'payments.product_key',
-            // 'payments.created_at',
-            'ttbkey.key_activation_date as created_at',
-            'ttbkey.key_expirey_date as expire_date',
-            // DB::raw('DATE_ADD(payments.created_at, INTERVAL 1 YEAR) AS expire_date'),
-            'payments.amount_total',
-            'payments.currency',
-            'payments.payment_method_types',
-            'product_details.key_type',
-            'product_details.plan_id'
-        )
-        ->where('payments.pay_id', $payment_intent)
-        ->where('payments.product_key', $id_key)
-        // ->whereIn('payments.product_id', $allowedProductIds)
-        // ->where('payments.created_at', '>', $oneYearAgo)
-        ->first();
-
-    if ($paymentDetails) {
-        $keytypeval = $paymentDetails->key_type;
-        $keytype = DB::table('storepick')
-            ->where('PICK_ID', $keytypeval)
-            ->where('STORE_ID', 'key_type')
-            ->select('PICK_TEXT')
-            ->first();
-    } else {
-        $keytype = null;
-    }
-@endphp
-
-
-
 <!DOCTYPE html
     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en">
@@ -541,7 +495,7 @@
                                                                     <p
                                                                         style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;color:#333333;font-size:12px">
                                                                         <strong>Hello {{ $paymentDetails->firstname }} {{ $paymentDetails->lastname}},</strong><br>Your order for the TTB
-                                                                        {{$keytype->PICK_TEXT}} valued at <strong>{{$paymentDetails->amount_total}} {{$paymentDetails->currency}}</strong> has
+                                                                        {{$paymentDetails->product_name}} valued at <strong>{{$paymentDetails->amount_total}} USD</strong> has
                                                                         been successfully processed. You can now
                                                                         activate your copy of the software using the
                                                                         product key attached.</p>
@@ -581,7 +535,7 @@
                                                                     <h2
                                                                         style="Margin:0;line-height:19px;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-size:16px;font-style:normal;font-weight:bold;color:#333333;text-align:center">
                                                                         Product activation key:<br><span
-                                                                            style="color:#13D5A8"><strong>{{ $paymentDetails->main_key }}</strong></span>
+                                                                            style="color:#13D5A8"><strong>{{ $paymentDetails->ttb_main_key }}</strong></span>
                                                                     </h2>
                                                                 </td>
                                                             </tr>
@@ -609,7 +563,7 @@
                                                                     style="padding:0;Margin:0;padding-bottom:20px">
                                                                     <h1
                                                                         style="Margin:0;line-height:29px;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-size:24px;font-style:normal;font-weight:bold;color:#333333">
-                                                                        <strong>TTB {{$keytype->PICK_TEXT}}</strong></h1>
+                                                                        <strong>TTB {{$paymentDetails->product_name}}</strong></h1>
                                                                 </td>
                                                             </tr>
                                                             <tr>
@@ -650,9 +604,9 @@
                                                                     <p
                                                                         style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;color:#333333;font-size:12px">
                                                                         Your subscription to TTB is active on
-                                                                        <strong>{{ $paymentDetails->created_at }}</strong>, and will
+                                                                        <strong>{{ $paymentDetails->key_activation_date }}</strong>, and will
                                                                         automatically renew on<strong>
-                                                                            {{$paymentDetails->expire_date}}</strong> for the original
+                                                                            {{$paymentDetails->key_expirey_date}}</strong> for the original
                                                                         product price i.e. . Find the order details
                                                                         mentioned below:</p>
                                                                 </td>
@@ -680,12 +634,12 @@
                                                                     <p
                                                                         style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;color:#333333;font-size:12px">
                                                                         Order
-                                                                        number:&nbsp;<strong>{{ $paymentDetails->pay_id }}</strong><br>Date
+                                                                        number:&nbsp;<strong>{{ $paymentDetails->invoice_id }}</strong><br>Date
                                                                         of
-                                                                        Order:&nbsp;<strong>{{ $paymentDetails->created_at }}</strong><br>Name:
+                                                                        Order:&nbsp;<strong>{{ $paymentDetails->payment_time }}</strong><br>Name:
                                                                         <b>{{ $paymentDetails->firstname }} {{ $paymentDetails->lastname }}</b><br><br>Supports <span
                                                                             style="color:#12D2B3"><strong>TTB
-                                                                                {{$keytype->PICK_TEXT}}.</strong></span><br>Sign in to
+                                                                                {{$paymentDetails->product_name}}.</strong></span><br>Sign in to
                                                                         your TTB account for details. <strong><a
                                                                                 href="https://www.ttbinternetsecurity.com/"
                                                                                 target="_blank"
@@ -723,18 +677,18 @@
                                                                         <strong>{{ $paymentDetails->email }}</strong></p>
                                                                     <p
                                                                         style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;color:#333333;font-size:12px">
-                                                                        Order number:&nbsp;<strong>#1000{{ $paymentDetails->id }}</strong>
+                                                                        Order number:&nbsp;<strong>#1000{{ $paymentDetails->order_id }}</strong>
                                                                     </p>
                                                                     <p
                                                                         style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;color:#333333;font-size:12px">
-                                                                        Invoice date:&nbsp;<strong>{{ $paymentDetails->created_at }}</strong>
+                                                                        Invoice date:&nbsp;<strong>{{ $paymentDetails->payment_time }}</strong>
                                                                     </p>
                                                                     <p
                                                                         style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;color:#333333;font-size:12px">
-                                                                        Payment method:&nbsp;<strong>{{ $paymentDetails->payment_method_types }}</strong></p>
+                                                                        Payment method:&nbsp;<strong>{{ $paymentDetails->payment_method }}</strong></p>
                                                                     <p
                                                                         style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;color:#333333;font-size:12px">
-                                                                        Currency:&nbsp;<strong>{{ $paymentDetails->currency }}</strong></p>
+                                                                        Currency:&nbsp;<strong>USD</strong></p>
                                                                 </td>
                                                             </tr>
                                                         </table>
