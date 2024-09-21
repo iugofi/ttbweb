@@ -74,28 +74,7 @@
                                     <th class="px-4 py-2">Transaction Id</th>
                                     <th class="px-4 py-2">Payment Status</th>
                                     <th class="px-4 py-2">Payment Date</th>
-                                    <th class="px-4 py-2">Key</th>
                                     <th class="px-4 py-2">Mail Status</th>
-
-
-                                    {{-- <th class="px-4 py-2">price</th>
-                                    <th class="px-4 py-2">discount</th>
-                                    <th class="px-4 py-2">coupons</th>
-                                    <th class="px-4 py-2">product_id</th>
-                                    <th class="px-4 py-2">email</th>
-                                    <th class="px-4 py-2">firstname</th>
-                                    <th class="px-4 py-2">lastname</th>
-                                    <th class="px-4 py-2">phoneno</th>
-                                    <th class="px-4 py-2">pincode</th>
-                                    <th class="px-4 py-2">city</th>
-                                    <th class="px-4 py-2">discount</th>
-                                    <th class="px-4 py-2">state</th>
-                                    <th class="px-4 py-2">address</th>
-                                    <th class="px-4 py-2">same_as_shipping</th>
-                                    <th class="px-4 py-2">payment_status</th>
-                                    <th class="px-4 py-2">payment_method</th>
-                                    <th class="px-4 py-2">transaction_id</th>
-                                    <th class="px-4 py-2">payment_time</th> --}}
 
 
                                 </tr>
@@ -112,7 +91,6 @@
                                         <td class="border px-4 py-2">{{ $item->transaction_id }}</td>
                                         <td class="border px-4 py-2">{{ $item->payment_status }}</td>
                                         <td class="border px-4 py-2">{{ $item->payment_time }}</td>
-                                        <td class="border px-4 py-2">{{ $item->main_key }}</td>
                                         <td class="border px-4 py-2">{{ $item->mail_send_status }}</td>
 
 
