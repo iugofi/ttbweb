@@ -547,8 +547,7 @@
                                                                     <span class="es-button-border"
                                                                         style="border-style:solid;border-color:#12d2b3;background:#12d2b3;border-width:2px;display:inline-block;border-radius:0px;width:auto">
 
-                                                                        <a href="{{ route('user.vpn_download') }}" class="es-button" target="_blank"
-                                                                        style="mso-style-priority:100 !important;text-decoration:none;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;color:#FFFFFF;font-size:18px;padding:10px 30px 10px 30px;display:inline-block;background:#12d2b3;border-radius:0px;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-weight:normal;font-style:normal;line-height:22px;width:auto;text-align:center;mso-padding-alt:0;mso-border-alt:10px solid #12d2b3">Activate Now</a>
+
 
 
 
@@ -580,11 +579,7 @@
                                                                             style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;Margin-bottom:15px;margin-left:0;color:#333333;font-size:12px">
                                                                             Click here to <strong>
 
-                                                                                    <a href="{{ route('user.vpn_download') }}"
-                                                                                       target="_blank"
-                                                                                       style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#12d2b3;font-size:12px">
-                                                                                       download
-                                                                                    </a>
+                                                                             
 
 
 
@@ -856,11 +851,8 @@
                                                                                     Privacy</a></td>
                                                                             <td align="center" valign="top" width="20%"
                                                                                 style="Margin:0;padding-left:5px;padding-right:5px;padding-top:5px;padding-bottom:5px;border:0;border-left:1px solid #cccccc">
-                                                                             
-                                                                                <a target="_blank" href="{{ route('user.vpn_download') }}"
-                                                                                    style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:none;display:block;font-family:arial, 'helvetica neue', helvetica, sans-serif;color:#282626;font-size:12px;font-weight:bold">
-                                                                                    Download
-                                                                                </a>
+
+
 
 
 
