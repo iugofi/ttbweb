@@ -1278,6 +1278,8 @@ class AdminController extends Controller
         if ($this->loggedInAdmin) {
             $key_id = $request->KEY_ID;
             $plan_id = $request->PLAN_ID;
+            DB::enableQueryLog();
+
             $query = Plandetails::query();
 
             if ($plan_id) {
@@ -1285,7 +1287,6 @@ class AdminController extends Controller
             }
 
             if ($key_id) {
-                // Query to get multiple PICK_TEXT values from storepick
                 $keyTypeData = DB::table('storepick')
                     ->select('PICK_TEXT')
                     ->where('STORE_ID', 'key_type')
@@ -1294,15 +1295,16 @@ class AdminController extends Controller
                     ->get();
 
                 if ($keyTypeData->isNotEmpty()) {
-                    // Extract all PICK_TEXT values into an array
                     $pickTexts = $keyTypeData->pluck('PICK_TEXT')->toArray();
-
-                    // Use whereIn to filter by the array of PICK_TEXT values
                     $query->whereIn('key_type', $pickTexts);
                 }
             }
 
             $plandetails = $query->get();
+
+            $query = DB::getQueryLog($plandetails);
+            dd($query);
+
 
             return response()->json($plandetails);
         } else {
