@@ -1278,8 +1278,6 @@ class AdminController extends Controller
         if ($this->loggedInAdmin) {
             $key_id = $request->KEY_ID;
             $plan_id = $request->PLAN_ID;
-            // DB::enableQueryLog();
-
             $query = Plandetails::query();
 
             if ($plan_id) {
@@ -1287,32 +1285,15 @@ class AdminController extends Controller
             }
 
             if ($key_id) {
-                $keyTypeData = DB::table('storepick')
-                    ->select('PICK_TEXT')
-                    ->where('STORE_ID', 'key_type')
-                    ->where('PICK_ID', $key_id)
-                    ->whereNull('deleted_at')
-                    ->get();
-
-                if ($keyTypeData->isNotEmpty()) {
-                    $pickTexts = $keyTypeData->pluck('PICK_TEXT')->toArray();
-                    $query->whereIn('key_type', $pickTexts);
-                }
+                $query->where('key_type', $key_id);
             }
-
             $plandetails = $query->get();
-
-            // $query = DB::getQueryLog($plandetails);
-            // dd($query);
-
 
             return response()->json($plandetails);
         } else {
             return redirect('/setup');
         }
     }
-
-
 
     public function editkeysearch(Request $request)
     {
