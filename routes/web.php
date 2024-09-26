@@ -49,6 +49,7 @@ Route::post('saveemailsub', [UserController::class, 'saveemailsub'])->name('user
 
 //testing
 Route::get('/test', [UserController::class, 'testpageview'])->name('testpageview');
+Route::get('/salarycal', [UserController::class, 'salarycal'])->name('testpageview');
 
 
 

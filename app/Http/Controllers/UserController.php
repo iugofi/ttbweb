@@ -859,4 +859,9 @@ class UserController extends Controller
         // $printpay=Payments::where($decryptid);
         return view('invoice.ttbinvoice', ['paymentDetails' => $paymentDetails]);
     }
+
+    public function salarycal()
+    {
+        return view('User.salarycal');
+    }
 }
