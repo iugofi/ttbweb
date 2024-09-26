@@ -226,6 +226,7 @@
                             success: function(response) {
                                 var tbody = $('#showdata tbody');
                                 tbody.empty();
+                                console.log(response);
 
                                 $.each(response, function(key, item) {
                                     var row = '<tr>' +
