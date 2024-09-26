@@ -1297,9 +1297,16 @@ class AdminController extends Controller
                 ->where('PICK_ID', operator: $plandetail->key_type)
                 ->whereNull('deleted_at')
                 ->first();
-
             if ($storepick) {
                 $plandetail->key_type = $storepick->PICK_TEXT;
+            }
+            $Plainid=DB::table('planname')
+            ->select('name')
+            ->where('plan_id', $plandetail->plan_id)
+            ->whereNull('deleted_at')
+            ->first();
+            if ($Plainid) {
+                $plandetail->plan_id = $Plainid->name;
             }
         }
 
