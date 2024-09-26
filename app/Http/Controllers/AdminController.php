@@ -1316,7 +1316,7 @@ class AdminController extends Controller
                 }
             }
 
-            dd($plandetails);
+            dd($plandetails->getQueryLog());
 
             return response()->json($plandetails);
         } else {
