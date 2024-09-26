@@ -1278,7 +1278,7 @@ class AdminController extends Controller
         if ($this->loggedInAdmin) {
             $key_id = $request->KEY_ID;
             $plan_id = $request->PLAN_ID;
-            DB::enableQueryLog();
+            // DB::enableQueryLog();
 
             $query = Plandetails::query();
 
@@ -1302,8 +1302,8 @@ class AdminController extends Controller
 
             $plandetails = $query->get();
 
-            $query = DB::getQueryLog($plandetails);
-            dd($query);
+            // $query = DB::getQueryLog($plandetails);
+            // dd($query);
 
 
             return response()->json($plandetails);
