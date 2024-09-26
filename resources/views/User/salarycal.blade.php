@@ -9,6 +9,7 @@
 
     <h2>Calculate Prorated Salary</h2>
     <form method="POST" action="">
+        @csrf
         <label for="monthlySalary">Monthly Salary:</label>
         <input type="number" name="monthlySalary" id="monthlySalary" required><br><br>
 
