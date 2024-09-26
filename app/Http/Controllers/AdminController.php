@@ -1289,33 +1289,6 @@ class AdminController extends Controller
             }
             $plandetails = $query->get();
 
-            foreach ($plandetails as $detail) {
-                $encr_id = $detail->encrypted_id;
-                $key_ty = $detail->key_type;
-                $plan_ids = $detail->key_type;
-
-                $encr_id = Crypt::encrypt($detail->id);
-                $storePick = Storepick::select('PICK_TEXT')
-                    ->where('STORE_ID', 'key_type')
-                    ->where('PICK_ID', $detail->key_type)
-                    ->first();
-                if ($storePick) {
-                    $key_ty = $storePick->PICK_TEXT;
-                } else {
-                    $key_ty = null;
-                }
-
-                // Fetch and assign the plan name
-                $planName = Planname::select('name')
-                    ->where('plan_id', $detail->plan_id)
-                    ->first();
-                if ($planName) {
-                    $plan_ids = $planName->name;
-                } else {
-                    $plan_ids = null;
-                }
-            }
-
             return response()->json($plandetails);
         } else {
             return redirect('/setup');
