@@ -49,7 +49,8 @@ Route::post('saveemailsub', [UserController::class, 'saveemailsub'])->name('user
 
 //testing
 Route::get('/test', [UserController::class, 'testpageview'])->name('testpageview');
-Route::get('/salarycal', [UserController::class, 'salarycal'])->name('testpageview');
+Route::get('/salarycal', [UserController::class, 'salarycal'])->name('salary.form');
+Route::post('/calculate-salary', [UserController::class, 'calculateSalary'])->name('salary.calculate');
 
 
 

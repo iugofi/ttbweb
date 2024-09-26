@@ -864,4 +864,25 @@ class UserController extends Controller
     {
         return view('User.salarycal');
     }
+    public function calculateSalary(Request $request)
+    {
+
+        $request->validate([
+            'monthlySalary' => 'required|numeric|min:0',
+            'daysWorked' => 'required|numeric|min:0',
+            'totalDaysInMonth' => 'required|numeric|min:1|max:31',
+        ]);
+
+        $monthlySalary = $request->input('monthlySalary');
+        $daysWorked = $request->input('daysWorked');
+        $totalDaysInMonth = $request->input('totalDaysInMonth');
+
+
+        $dailySalary = $monthlySalary / $totalDaysInMonth;
+        $proratedSalary = $dailySalary * $daysWorked;
+
+        return view('User.salarycal', [
+            'calculatedSalary' => round($proratedSalary, 2),
+        ]);
+    }
 }

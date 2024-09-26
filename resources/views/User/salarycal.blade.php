@@ -3,42 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Salary Calculator</title>
+    <title>Laravel Salary Calculator</title>
 </head>
 <body>
 
     <h2>Calculate Prorated Salary</h2>
-    <form method="POST" action="">
+
+    @if ($errors->any())
+        <div style="color: red;">
+            <ul>
+                @foreach ($errors->all() as $error)
+                    <li>{{ $error }}</li>
+                @endforeach
+            </ul>
+        </div>
+    @endif
+
+    <form method="POST" action="{{ route('salary.calculate') }}">
         @csrf
+
         <label for="monthlySalary">Monthly Salary:</label>
-        <input type="number" name="monthlySalary" id="monthlySalary" required><br><br>
+        <input type="number" name="monthlySalary" id="monthlySalary" value="{{ old('monthlySalary') }}" required><br><br>
 
         <label for="daysWorked">Days Worked:</label>
-        <input type="number" name="daysWorked" id="daysWorked" required><br><br>
+        <input type="number" name="daysWorked" id="daysWorked" value="{{ old('daysWorked') }}" required><br><br>
 
         <label for="totalDaysInMonth">Total Days in Month:</label>
-        <input type="number" name="totalDaysInMonth" id="totalDaysInMonth" required><br><br>
+        <input type="number" name="totalDaysInMonth" id="totalDaysInMonth" value="{{ old('totalDaysInMonth') }}" required><br><br>
 
-        <input type="submit" name="calculate" value="Calculate Salary">
+        <button type="submit">Calculate Salary</button>
     </form>
 
-    <?php
-    if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['calculate'])) {
-        $monthlySalary = $_POST['monthlySalary'];
-        $daysWorked = $_POST['daysWorked'];
-        $totalDaysInMonth = $_POST['totalDaysInMonth'];
-
-        function calculateProratedSalary($monthlySalary, $daysWorked, $totalDaysInMonth) {
-            $dailySalary = $monthlySalary / $totalDaysInMonth;
-            $proratedSalary = $dailySalary * $daysWorked;
-            return round($proratedSalary, 2);
-        }
-
-        $calculatedSalary = calculateProratedSalary($monthlySalary, $daysWorked, $totalDaysInMonth);
-
-        echo "<h3>Calculated Salary: $calculatedSalary</h3>";
-    }
-    ?>
+    @if (isset($calculatedSalary))
+        <h3>Calculated Salary: {{ $calculatedSalary }}</h3>
+    @endif
 
 </body>
 </html>
