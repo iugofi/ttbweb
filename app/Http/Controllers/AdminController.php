@@ -1294,7 +1294,7 @@ class AdminController extends Controller
 
 
 
-            $plandetail->id = Crypt::encrypt($plandetail->id);
+            $plandetail->id = \Crypt::encrypt($plandetail->id);
 
 
             $storepick = DB::table('storepick')
