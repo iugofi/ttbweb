@@ -1316,6 +1316,8 @@ class AdminController extends Controller
                 }
             }
 
+            dd($plandetails);
+
             return response()->json($plandetails);
         } else {
             return redirect('/setup');
