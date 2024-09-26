@@ -1292,10 +1292,10 @@ class AdminController extends Controller
 
         foreach ($plandetails as $plandetail) {
 
-            // $encr_id = \Crypt::encrypt($plandetail->id);
-            // if ($encr_id) {
-            //     $plandetail->id = $encr_id;
-            // }
+
+
+            $plandetail->id = Crypt::encrypt($plandetail->id);
+
 
             $storepick = DB::table('storepick')
                 ->select('PICK_TEXT')
