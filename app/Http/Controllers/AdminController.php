@@ -1274,19 +1274,17 @@ class AdminController extends Controller
 
 
     public function editplansearch(Request $request)
-    {
-        if ($this->loggedInAdmin) {
-            $key_id = $request->KEY_ID;
-            $plan_id = $request->PLAN_ID;
-            $query = Plandetails::query();
-
-            if ($plan_id) {
-                $query->where('plan_id', $plan_id);
-            }
-
-            if ($key_id) {
-
-                $keyTypeData = Storepick::select('PICK_TEXT')
+{
+    if ($this->loggedInAdmin) {
+        $key_id = $request->KEY_ID;
+        $plan_id = $request->PLAN_ID;
+        $query = Plandetails::query();
+        if ($plan_id) {
+            $query->where('plan_id', $plan_id);
+        }
+        if ($key_id) {
+            $keyTypeData = DB::table('storepick')
+                ->select('PICK_TEXT')
                 ->where('STORE_ID', 'key_type')
                 ->where('PICK_ID', $key_id)
                 ->whereNull('deleted_at')
@@ -1296,16 +1294,16 @@ class AdminController extends Controller
             if ($keyTypeData) {
                 $query->where('key_type', $keyTypeData->PICK_TEXT);
             }
-
-                // $query->where('key_type', $key_id);
-            }
-            $plandetails = $query->get();
-
-            return response()->json($plandetails);
-        } else {
-            return redirect('/setup');
         }
+
+        $plandetails = $query->get();
+
+        return response()->json($plandetails);
+    } else {
+        return redirect('/setup');
     }
+}
+
 
     public function editkeysearch(Request $request)
     {
