@@ -232,7 +232,7 @@
                                     var row = '<tr>' +
                                         '<td class="border px-4 py-2">' + (key + 1) +
                                         '</td>' +
-                                        '<td class="border px-4 py-2">' + item.key_ty +
+                                        '<td class="border px-4 py-2">' + item.key_type +
                                         '</td>' +
                                         '<td class="border px-4 py-2">' + item.plan_id +
                                         '</td>' +

@@ -1298,7 +1298,7 @@ class AdminController extends Controller
                 $encr_id = Crypt::encrypt($detail->id);
                 $storePick = Storepick::select('PICK_TEXT')
                     ->where('STORE_ID', 'key_type')
-                    ->where('PICK_ID', $key_ty)
+                    ->where('PICK_ID', $detail->key_type)
                     ->first();
                 if ($storePick) {
                     $key_ty = $storePick->PICK_TEXT;
