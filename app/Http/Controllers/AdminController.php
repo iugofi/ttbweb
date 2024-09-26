@@ -1286,8 +1286,7 @@ class AdminController extends Controller
 
             if ($key_id) {
 
-                $keyTypeData = DB::table('storepick')
-                ->select('PICK_TEXT')
+                $keyTypeData = Storepick::select('PICK_TEXT')
                 ->where('STORE_ID', 'key_type')
                 ->where('PICK_ID', $key_id)
                 ->whereNull('deleted_at')
@@ -1298,7 +1297,7 @@ class AdminController extends Controller
                 $query->where('key_type', $keyTypeData->PICK_TEXT);
             }
 
-                $query->where('key_type', $key_id);
+                // $query->where('key_type', $key_id);
             }
             $plandetails = $query->get();
 
