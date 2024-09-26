@@ -1274,35 +1274,42 @@ class AdminController extends Controller
 
 
     public function editplansearch(Request $request)
-{
-    if ($this->loggedInAdmin) {
-        $key_id = $request->KEY_ID;
-        $plan_id = $request->PLAN_ID;
-        $query = Plandetails::query();
-        if ($plan_id) {
-            $query->where('plan_id', $plan_id);
-        }
-        if ($key_id) {
-            $keyTypeData = DB::table('storepick')
-                ->select('PICK_TEXT')
-                ->where('STORE_ID', 'key_type')
-                ->where('PICK_ID', $key_id)
-                ->whereNull('deleted_at')
-                ->limit(1)
-                ->first();
+    {
+        if ($this->loggedInAdmin) {
+            $key_id = $request->KEY_ID;
+            $plan_id = $request->PLAN_ID;
+            $query = Plandetails::query();
 
-            if ($keyTypeData) {
-                $query->where('key_type', $keyTypeData->PICK_TEXT);
+            if ($plan_id) {
+                $query->where('plan_id', $plan_id);
             }
+
+            if ($key_id) {
+                // Query to get multiple PICK_TEXT values from storepick
+                $keyTypeData = DB::table('storepick')
+                    ->select('PICK_TEXT')
+                    ->where('STORE_ID', 'key_type')
+                    ->where('PICK_ID', $key_id)
+                    ->whereNull('deleted_at')
+                    ->get();
+
+                if ($keyTypeData->isNotEmpty()) {
+                    // Extract all PICK_TEXT values into an array
+                    $pickTexts = $keyTypeData->pluck('PICK_TEXT')->toArray();
+
+                    // Use whereIn to filter by the array of PICK_TEXT values
+                    $query->whereIn('key_type', $pickTexts);
+                }
+            }
+
+            $plandetails = $query->get();
+
+            return response()->json($plandetails);
+        } else {
+            return redirect('/setup');
         }
-
-        $plandetails = $query->get();
-
-        return response()->json($plandetails);
-    } else {
-        return redirect('/setup');
     }
-}
+
 
 
     public function editkeysearch(Request $request)
