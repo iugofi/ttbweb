@@ -1299,15 +1299,12 @@ class AdminController extends Controller
                 $storePick = Storepick::select('PICK_TEXT')
                     ->where('STORE_ID', 'key_type')
                     ->where('PICK_ID', $detail->key_type)
-                    ->get();
-                foreach ($storePick as $key => $value) {
-                    if ($value) {
-                        $key_ty = $value->PICK_TEXT;
-                    } else {
-                        $key_ty = null;
-                    }
+                    ->first();
+                if ($storePick) {
+                    $key_ty = $storePick->PICK_TEXT;
+                } else {
+                    $key_ty = null;
                 }
-
 
                 // Fetch and assign the plan name
                 $planName = Planname::select('name')
