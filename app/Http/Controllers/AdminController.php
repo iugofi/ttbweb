@@ -1291,13 +1291,13 @@ class AdminController extends Controller
             $plandetails = $query->get();
 
             foreach ($plandetails as $detail) {
-                $encr_id = $detail->encrypted_id;
+                $encr_id = $detail->id;
                 $key_ty = $detail->key_type;
                 $plan_ids = $detail->plan_id;
 
-                $encr_id = Crypt::encrypt($detail->id);
+                $encr_id = Crypt::encrypt($encr_id);
                 $storePick = Storepick::where('STORE_ID', 'key_type')
-                    ->where('PICK_ID', $detail->key_type)
+                    ->where('PICK_ID', $key_ty)
                     ->first();
                 if ($storePick) {
                     $key_ty = $storePick->PICK_TEXT;
@@ -1307,7 +1307,7 @@ class AdminController extends Controller
 
                 // Fetch and assign the plan name
                 $planName = Planname::select('name')
-                    ->where('plan_id', $detail->plan_id)
+                    ->where('plan_id', $plan_ids)
                     ->first();
                 if ($planName) {
                     $plan_ids = $planName->name;
