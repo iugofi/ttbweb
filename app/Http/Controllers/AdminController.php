@@ -1317,7 +1317,7 @@ class AdminController extends Controller
                 }
             }
 
-            $query = DB::getQueryLog($plandetails);
+            $query = DB::getQueryLog($plandetails->PICK_TEXT);
             dd($query);
 
 
