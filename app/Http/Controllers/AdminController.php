@@ -1274,26 +1274,41 @@ class AdminController extends Controller
 
 
     public function editplansearch(Request $request)
-    {
-        if ($this->loggedInAdmin) {
-            $key_id = $request->KEY_ID;
-            $plan_id = $request->PLAN_ID;
-            $query = Plandetails::query();
+{
+    if ($this->loggedInAdmin) {
+        $key_id = $request->KEY_ID;
+        $plan_id = $request->PLAN_ID;
+        $query = Plandetails::query();
 
-            if ($plan_id) {
-                $query->where('plan_id', $plan_id);
-            }
-
-            if ($key_id) {
-                $query->where('key_type', $key_id);
-            }
-            $plandetails = $query->get();
-
-            return response()->json($plandetails);
-        } else {
-            return redirect('/setup');
+        if ($plan_id) {
+            $query->where('plan_id', $plan_id);
         }
+
+        if ($key_id) {
+            $query->where('key_type', $key_id);
+        }
+
+        $plandetails = $query->get();
+
+        foreach ($plandetails as $plandetail) {
+            $storepick = DB::table('storepick')
+                ->select('PICK_TEXT')
+                ->where('STORE_ID', 'key_type')
+                ->where('PICK_ID', operator: $plandetail->key_type)
+                ->whereNull('deleted_at')
+                ->first();
+
+            if ($storepick) {
+                $plandetail->key_type = $storepick->PICK_TEXT;
+            }
+        }
+
+        return response()->json($plandetails);
+    } else {
+        return redirect('/setup');
     }
+}
+
 
     public function editkeysearch(Request $request)
     {
