@@ -1292,7 +1292,7 @@ class AdminController extends Controller
 
         foreach ($plandetails as $plandetail) {
 
-            $encr_id = Crypt::encrypt($plandetail->id);
+            $encr_id = \Crypt::encrypt($plandetail->id);
             if ($encr_id) {
                 $plandetail->id = $encr_id;
             }
