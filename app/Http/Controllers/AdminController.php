@@ -1291,10 +1291,12 @@ class AdminController extends Controller
         $plandetails = $query->get();
 
         foreach ($plandetails as $plandetail) {
+
             $encr_id = Crypt::encrypt($plandetail->id);
             if ($encr_id) {
                 $plandetail->id = $encr_id;
             }
+
             $storepick = DB::table('storepick')
                 ->select('PICK_TEXT')
                 ->where('STORE_ID', 'key_type')
