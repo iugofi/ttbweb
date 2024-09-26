@@ -1279,7 +1279,7 @@ class AdminController extends Controller
             $key_id = $request->KEY_ID;
             $plan_id = $request->PLAN_ID;
             $query = Plandetails::query();
-            DB::enableQueryLog();
+            // DB::enableQueryLog();
 
             if ($plan_id) {
                 $query->where('plan_id', $plan_id);
@@ -1320,8 +1320,8 @@ class AdminController extends Controller
                 }
             }
 
-            $query = DB::getQueryLog($plandetails);
-            dd($query);
+            // $query = DB::getQueryLog($plandetails);
+            // dd($query);
 
 
             return response()->json($plandetails);
