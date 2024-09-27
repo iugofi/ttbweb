@@ -61,48 +61,26 @@
                                 </div>
                             </div>
                             <div class="xxl:col-span-12 xl:col-span-12 col-span-12">
-                                <div class="box">
-                                    <div class="box custom-box">
-                                        <div class="box-header">
-                                            <div class="box-title">Updating Donut Chart</div>
-                                        </div>
-                                        <div class="box-body">
-                                            <div id="donut-update"></div>
-                                            <div class="text-center mt-4">
-                                                <button type="button" class="btn btn-primary btn-sm" id="randomize">Randomize</button>
-                                                <button type="button" class="btn btn-primary btn-sm" id="add">Add</button>
-                                                <button type="button" class="btn btn-primary btn-sm" id="remove">Remove</button>
-                                                <button type="button" class="btn btn-primary btn-sm" id="reset">Reset</button>
-                                            </div>
+                                <div class="box custom-box">
+                                    <div class="box-header">
+                                        <div class="box-title">Updating Donut Chart</div>
+                                    </div>
+                                    <div class="box-body">
+                                        <div id="donut-update"></div>
+                                        <div class="text-center mt-4">
+                                            <button type="button" class="btn btn-primary btn-sm"
+                                                id="randomize">Randomize</button>
+                                            <button type="button" class="btn btn-primary btn-sm"
+                                                id="add">Add</button>
+                                            <button type="button" class="btn btn-primary btn-sm"
+                                                id="remove">Remove</button>
+                                            <button type="button" class="btn btn-primary btn-sm"
+                                                id="reset">Reset</button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            {{-- <div class="xxl:col-span-12 xl:col-span-12 col-span-12">
-                                <div class="box">
-                                    <div class="box-header justify-between">
-                                        <div class="box-title">Profit Earned</div>
-                                        <div class="hs-dropdown ti-dropdown">
-                                            <a href="javascript:void(0);"
-                                                class="px-2 font-normal text-[0.75rem] text-[#8c9097] dark:text-white/50"
-                                                aria-expanded="false">
-                                                View All<i class="ri-arrow-down-s-line align-middle ms-1 inline-block"></i>
-                                            </a>
-                                            <ul class="hs-dropdown-menu ti-dropdown-menu hidden" role="menu">
-                                                <li><a class="ti-dropdown-item !py-2 !px-[0.9375rem] !text-[0.8125rem] !font-medium block"
-                                                        href="javascript:void(0);">Today</a></li>
-                                                <li><a class="ti-dropdown-item !py-2 !px-[0.9375rem] !text-[0.8125rem] !font-medium block"
-                                                        href="javascript:void(0);">This Week</a></li>
-                                                <li><a class="ti-dropdown-item !py-2 !px-[0.9375rem] !text-[0.8125rem] !font-medium block"
-                                                        href="javascript:void(0);">Last Week</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="box-body !py-0 !ps-0">
-                                        <div id="crm-profits-earned"></div>
-                                    </div>
-                                </div>
-                            </div> --}}
+                          
                         </div>
                         <div class="xxl:col-span-12 xl:col-span-12 col-span-12">
                             <div class="box custom-box">
@@ -171,9 +149,9 @@
                                                         <div class="progress progress-xs">
                                                             <?php
                                                             $totalnewspars = DB::select("SELECT
-                                                                                                                                                                                                                                                                                                                                                                        ROUND(SUM(likes) * 100.0 / 100, 0) AS percentage
-                                                                                                                                                                                                                                                                                                                                                                    FROM
-                                                                                                                                                                                                                                                                                                                                                                        news");
+                                                                                                                                                                                                                                                                                                                                                                                                                                    ROUND(SUM(likes) * 100.0 / 100, 0) AS percentage
+                                                                                                                                                                                                                                                                                                                                                                                                                                FROM
+                                                                                                                                                                                                                                                                                                                                                                                                                                    news");
 
                                                             ?>
                                                             <div class="progress-bar bg-primary w-[<?php echo $totalnewspars[0]->percentage; ?>%]">
@@ -202,9 +180,9 @@
                                                         <div class="progress progress-xs">
                                                             <?php
                                                             $totalblogpars = DB::select("SELECT
-                                                                                                                                                                                                                                                                                                                                                                        ROUND(SUM(likes) * 100.0 / 100, 0) AS percentage
-                                                                                                                                                                                                                                                                                                                                                                    FROM
-                                                                                                                                                                                                                                                                                                                                                                        blog");
+                                                                                                                                                                                                                                                                                                                                                                                                                                    ROUND(SUM(likes) * 100.0 / 100, 0) AS percentage
+                                                                                                                                                                                                                                                                                                                                                                                                                                FROM
+                                                                                                                                                                                                                                                                                                                                                                                                                                    blog");
 
                                                             ?>
                                                             <div class="progress-bar bg-primary w-[<?php echo $totalblogpars[0]->percentage; ?>%]">
@@ -543,91 +521,91 @@
                 }
             });
 
-        $.ajax({
-        url: '{{route('chart.nb')}}',
-        method: 'GET',
-        success: function(response) {
-            var options = {
-                series: [{
-                    name: 'Website Blog',
-                    type: 'column',
-                    data: response.blog
-                }, {
-                    name: 'Website News',
-                    type: 'line',
-                    data: response.news
-                }],
-                chart: {
-                    height: 320,
-                    type: 'line',
-                },
-                stroke: {
-                    width: [0, 4]
-                },
-                grid: {
-                    borderColor: '#f2f5f7',
-                },
-                title: {
-                    text: 'Traffic Sources',
-                    align: 'left',
-                    style: {
-                        fontSize: '13px',
-                        fontWeight: 'bold',
-                        color: '#8c9097'
-                    },
-                },
-                dataLabels: {
-                    enabled: true,
-                    enabledOnSeries: [1]
-                },
-                colors: ["#845adf", "#23b7e5"],
-                labels: response.labels,
-                xaxis: {
-                    type: 'datetime',
-                    labels: {
-                        show: true,
-                        style: {
-                            colors: "#8c9097",
-                            fontSize: '11px',
-                            fontWeight: 600,
-                            cssClass: 'apexcharts-xaxis-label',
+            $.ajax({
+                url: '{{ route('chart.nb') }}',
+                method: 'GET',
+                success: function(response) {
+                    var options = {
+                        series: [{
+                            name: 'Website Blog',
+                            type: 'column',
+                            data: response.blog
+                        }, {
+                            name: 'Website News',
+                            type: 'line',
+                            data: response.news
+                        }],
+                        chart: {
+                            height: 320,
+                            type: 'line',
                         },
-                    }
-                },
-                yaxis: [{
-                    title: {
-                        text: 'Website Blog',
-                        style: {
-                            color: "#8c9097",
-                        }
-                    },
-                    labels: {
-                        show: true,
-                        style: {
-                            colors: "#8c9097",
-                            fontSize: '11px',
-                            fontWeight: 600,
-                            cssClass: 'apexcharts-yaxis-label',
+                        stroke: {
+                            width: [0, 4]
                         },
-                    }
-                }, {
-                    opposite: true,
-                    title: {
-                        text: 'Website News',
-                        style: {
-                            color: "#8c9097",
-                        }
-                    }
-                }]
-            };
+                        grid: {
+                            borderColor: '#f2f5f7',
+                        },
+                        title: {
+                            text: 'Traffic Sources',
+                            align: 'left',
+                            style: {
+                                fontSize: '13px',
+                                fontWeight: 'bold',
+                                color: '#8c9097'
+                            },
+                        },
+                        dataLabels: {
+                            enabled: true,
+                            enabledOnSeries: [1]
+                        },
+                        colors: ["#845adf", "#23b7e5"],
+                        labels: response.labels,
+                        xaxis: {
+                            type: 'datetime',
+                            labels: {
+                                show: true,
+                                style: {
+                                    colors: "#8c9097",
+                                    fontSize: '11px',
+                                    fontWeight: 600,
+                                    cssClass: 'apexcharts-xaxis-label',
+                                },
+                            }
+                        },
+                        yaxis: [{
+                            title: {
+                                text: 'Website Blog',
+                                style: {
+                                    color: "#8c9097",
+                                }
+                            },
+                            labels: {
+                                show: true,
+                                style: {
+                                    colors: "#8c9097",
+                                    fontSize: '11px',
+                                    fontWeight: 600,
+                                    cssClass: 'apexcharts-yaxis-label',
+                                },
+                            }
+                        }, {
+                            opposite: true,
+                            title: {
+                                text: 'Website News',
+                                style: {
+                                    color: "#8c9097",
+                                }
+                            }
+                        }]
+                    };
 
-            var chart = new ApexCharts(document.querySelector("#mixed-linecolumn"), options);
-            chart.render();
-        },
-        error: function(xhr) {
-            console.log('Error:', xhr.responseText);
-        }
-    });
+                    var chart = new ApexCharts(document.querySelector("#mixed-linecolumn"), options);
+                    chart.render();
+                },
+                error: function(xhr) {
+                    console.log('Error:', xhr.responseText);
+                }
+            });
 
 
 
