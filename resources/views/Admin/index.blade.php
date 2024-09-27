@@ -62,26 +62,6 @@
                             </div>
                             <div class="xxl:col-span-12 xl:col-span-12 col-span-12">
                                 <div class="box">
-                                    <div class="box-header flex justify-between">
-                                        <div class="box-title">
-                                            Top Post
-                                        </div>
-                                        <div class="hs-dropdown ti-dropdown">
-                                            <a aria-label="anchor" href="javascript:void(0);"
-                                                class="flex items-center justify-center w-[1.75rem] h-[1.75rem]  !text-[0.8rem] !py-1 !px-2 rounded-sm bg-light border-light shadow-none !font-medium"
-                                                aria-expanded="false">
-                                                <i class="fe fe-more-vertical text-[0.8rem]"></i>
-                                            </a>
-                                            <ul class="hs-dropdown-menu ti-dropdown-menu hidden">
-                                                <li><a class="ti-dropdown-item !py-2 !px-[0.9375rem] !text-[0.8125rem] !font-medium block"
-                                                        href="javascript:void(0);">Week</a></li>
-                                                <li><a class="ti-dropdown-item !py-2 !px-[0.9375rem] !text-[0.8125rem] !font-medium block"
-                                                        href="javascript:void(0);">Month</a></li>
-                                                <li><a class="ti-dropdown-item !py-2 !px-[0.9375rem] !text-[0.8125rem] !font-medium block"
-                                                        href="javascript:void(0);">Year</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
                                     <div class="box custom-box">
                                         <div class="box-header">
                                             <div class="box-title">Updating Donut Chart</div>
