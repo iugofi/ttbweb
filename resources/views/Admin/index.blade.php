@@ -645,7 +645,7 @@
 
             /* line and area chart */
             $.ajax({
-                url: "{{ route('chart.data') }}",
+                url: "{{ route('chart.payment') }}",
                 type: "GET",
                 success: function(response) {
                     var options = {
