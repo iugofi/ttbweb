@@ -745,6 +745,8 @@
             url: "{{ route('treemap.data') }}",
             method: 'GET',
             success: function (response) {
+                console.log(response);
+
 
                 var options = {
                     series: [
