@@ -552,7 +552,7 @@
                             borderColor: '#f2f5f7',
                         },
                         title: {
-                            text: 'Users Trends by Month' + response.year,
+                            text: 'Users Trends by Month ' + response.year,
                             align: 'left',
                             style: {
                                 fontSize: '13px',
