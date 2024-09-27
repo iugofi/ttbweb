@@ -253,6 +253,7 @@ class AdminController extends Controller
     {
         $usersByMonth = DB::table('usersall')
     ->select(DB::raw('MONTHNAME(MIN(created_at)) as month'), DB::raw('COUNT(*) as count'))
+    ->whereYear('created_at', '=', date('Y'))
     ->groupBy(DB::raw('MONTH(created_at)'))
     ->orderBy(DB::raw('MONTH(created_at)'))
     ->get();
