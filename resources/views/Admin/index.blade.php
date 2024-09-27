@@ -677,11 +677,11 @@
                         },
                         legend: {
                             show: true,
-                            customLegendItems: ['Team B', 'Team A'],
+                            customLegendItems: ['Antivirus', 'Vpn Shild'],
                             inverseOrder: true
                         },
                         title: {
-                            text: 'Range Area with Forecast Line (Combo)'
+                            text: 'Range Area with Antivirus and Vpn Shild (Combo)'
                         },
                         markers: {
                             hover: {

@@ -305,7 +305,7 @@ class AdminController extends Controller
             'series' => [
                 [
                     'type' => 'rangeArea',
-                    'name' => 'Team B Range',
+                    'name' => 'Antivirus',
                     'data' => [
                         ['x' => 'Jan', 'y' => [1100, 1900]],
                         ['x' => 'Feb', 'y' => [1200, 1800]],
@@ -319,7 +319,7 @@ class AdminController extends Controller
                 ],
                 [
                     'type' => 'rangeArea',
-                    'name' => 'Team A Range',
+                    'name' => 'Vpn Shild',
                     'data' => [
                         ['x' => 'Jan', 'y' => [3100, 3400]],
                         ['x' => 'Feb', 'y' => [4200, 5200]],
@@ -333,7 +333,7 @@ class AdminController extends Controller
                 ],
                 [
                     'type' => 'line',
-                    'name' => 'Team B Median',
+                    'name' => 'Antivirus Median',
                     'data' => [
                         ['x' => 'Jan', 'y' => 1500],
                         ['x' => 'Feb', 'y' => 1700],
@@ -349,7 +349,7 @@ class AdminController extends Controller
                 ],
                 [
                     'type' => 'line',
-                    'name' => 'Team A Median',
+                    'name' => 'Vpn Shild Median',
                     'data' => [
                         ['x' => 'Jan', 'y' => 3300],
                         ['x' => 'Feb', 'y' => 4900],
