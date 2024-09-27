@@ -643,6 +643,101 @@
             chart.render();
 
 
+               /* line and area chart */
+    var options = {
+        series: [{
+            name: 'TEAM A',
+            type: 'area',
+            data: [44, 55, 31, 47, 31, 43, 26, 41, 31, 47, 33]
+        }, {
+            name: 'TEAM B',
+            type: 'line',
+            data: [55, 69, 45, 61, 43, 54, 37, 52, 44, 61, 43]
+        }],
+        chart: {
+            height: 320,
+            type: 'line',
+        },
+        stroke: {
+            curve: 'smooth'
+        },
+        colors: ["#845adf", "#23b7e5"],
+        grid: {
+            borderColor: '#f2f5f7',
+        },
+        fill: {
+            type: 'solid',
+            opacity: [0.35, 1],
+        },
+        labels: ['Dec 01', 'Dec 02', 'Dec 03', 'Dec 04', 'Dec 05', 'Dec 06', 'Dec 07', 'Dec 08', 'Dec 09 ', 'Dec 10', 'Dec 11'],
+        markers: {
+            size: 0
+        },
+        xaxis: {
+            labels: {
+                show: true,
+                style: {
+                    colors: "#8c9097",
+                    fontSize: '11px',
+                    fontWeight: 600,
+                    cssClass: 'apexcharts-xaxis-label',
+                },
+            }
+        },
+        yaxis: [
+            {
+                title: {
+                    text: 'Series A',
+                    style: {
+                        color: "#8c9097",
+                    }
+                },
+                labels: {
+                    show: true,
+                    style: {
+                        colors: "#8c9097",
+                        fontSize: '11px',
+                        fontWeight: 600,
+                        cssClass: 'apexcharts-yaxis-label',
+                    },
+                }
+            },
+            {
+                opposite: true,
+                title: {
+                    text: 'Series B',
+                    style: {
+                        color: "#8c9097",
+                    }
+                },
+                labels: {
+                    show: true,
+                    style: {
+                        colors: "#8c9097",
+                        fontSize: '11px',
+                        fontWeight: 600,
+                        cssClass: 'apexcharts-yaxis-label',
+                    },
+                }
+            },
+        ],
+        tooltip: {
+            shared: true,
+            intersect: false,
+            y: {
+                formatter: function (y) {
+                    if (typeof y !== "undefined") {
+                        return y.toFixed(0) + " points";
+                    }
+                    return y;
+                }
+            }
+        }
+    };
+    var chart = new ApexCharts(document.querySelector("#mixed-linearea"), options);
+    chart.render();
+
+
 
 
 
