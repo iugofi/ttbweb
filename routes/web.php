@@ -228,7 +228,9 @@ Route::get('/mailtest', [UserController::class, 'mailtest'])->name('admin.mailte
          Route::get('/pageadmin', [AdminController::class, 'indexpage'])->name('admin.indexp');
          Route::get('/users-trend', [AdminController::class, 'getUsersTrend'])->name('user.trends');
         Route::get('/chart-data', [AdminController::class, 'getChartDatanb'])->name('chart.nb');
-        
+        Route::get('/fetch-chart-data-payment', [AdminController::class, 'getChartDataPay'])->name('chart.payment');
+
+
 
 
 
