@@ -277,29 +277,24 @@ class AdminController extends Controller
 
     public function getChartDatapay()
     {
-        $antivirusPrices = Payment1::orderBy('created_at', 'asc')->pluck('price')->toArray();
-        $vpnShieldPrices = Payment1::orderBy('created_at', 'asc')->pluck('price')->toArray();
-        $dates = Payment1::orderBy('created_at', 'asc')->pluck('created_at')->toArray();
-
-        // Format the data for the chart
+        // Data for the chart
         $data = [
             'series' => [
                 [
                     'name' => 'Antivirus',
                     'type' => 'area',
-                    'data' => $antivirusPrices
+                    'data' => [44, 55, 31, 47, 31, 43, 26, 41, 31, 47, 33]
                 ],
                 [
                     'name' => 'Vpn Shield',
                     'type' => 'line',
-                    'data' => $vpnShieldPrices
+                    'data' => [55, 69, 45, 61, 43, 54, 37, 52, 44, 61, 43]
                 ]
             ],
-            'labels' => $dates
+            'labels' => ['Dec 01', 'Dec 02', 'Dec 03', 'Dec 04', 'Dec 05', 'Dec 06', 'Dec 07', 'Dec 08', 'Dec 09', 'Dec 10', 'Dec 11']
         ];
 
         return response()->json($data);
-
     }
 
     public function getChartDatanb()
