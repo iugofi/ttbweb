@@ -111,27 +111,14 @@
                                 </div>
                             </div>
                             <div class="xxl:col-span-12 xl:col-span-12 col-span-12">
-                                <div class="box">
-                                    <div class="box-header justify-between">
-                                        <div class="box-title">Profit Earned</div>
-                                        <div class="hs-dropdown ti-dropdown">
-                                            <a href="javascript:void(0);"
-                                                class="px-2 font-normal text-[0.75rem] text-[#8c9097] dark:text-white/50"
-                                                aria-expanded="false">
-                                                View All<i class="ri-arrow-down-s-line align-middle ms-1 inline-block"></i>
-                                            </a>
-                                            <ul class="hs-dropdown-menu ti-dropdown-menu hidden" role="menu">
-                                                <li><a class="ti-dropdown-item !py-2 !px-[0.9375rem] !text-[0.8125rem] !font-medium block"
-                                                        href="javascript:void(0);">Today</a></li>
-                                                <li><a class="ti-dropdown-item !py-2 !px-[0.9375rem] !text-[0.8125rem] !font-medium block"
-                                                        href="javascript:void(0);">This Week</a></li>
-                                                <li><a class="ti-dropdown-item !py-2 !px-[0.9375rem] !text-[0.8125rem] !font-medium block"
-                                                        href="javascript:void(0);">Last Week</a></li>
-                                            </ul>
+                                <div class="xl:col-span-6 col-span-12">
+                                    <div class="box custom-box">
+                                        <div class="box-header">
+                                            <div class="box-title">Line &amp; Column Chart</div>
                                         </div>
-                                    </div>
-                                    <div class="box-body !py-0 !ps-0">
-                                        <div id="crm-profits-earned"></div>
+                                        <div class="box-body">
+                                            <div id="mixed-linecolumn"></div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -801,7 +788,7 @@
                     var options = {
                         series: [{
                             name: "Users",
-                            data: response.users 
+                            data: response.users
                         }],
                         chart: {
                             height: 320,
