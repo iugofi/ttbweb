@@ -227,6 +227,8 @@ Route::get('/mailtest', [UserController::class, 'mailtest'])->name('admin.mailte
          //Admin Controller
          Route::get('/pageadmin', [AdminController::class, 'indexpage'])->name('admin.indexp');
          Route::get('/users-trend', [AdminController::class, 'getUsersTrend'])->name('user.trends');
+        Route::get('/chart-data', [AdminController::class, 'getChartDatanb'])->name('chart.nb');
+
 
          Route::get('/newslist', [AdminController::class, 'newslist'])->name('admin.newslist');
          //news comment all

@@ -575,15 +575,19 @@
                 }
             });
 
+        $.ajax({
+        url: '{{route('chart.nb')}}',
+        method: 'GET',
+        success: function(response) {
             var options = {
                 series: [{
                     name: 'Website Blog',
                     type: 'column',
-                    data: [440, 505, 414, 671, 227, 413, 201, 352, 752, 320, 257, 160]
+                    data: response.blog
                 }, {
                     name: 'Website News',
                     type: 'line',
-                    data: [23, 42, 35, 27, 43, 22, 17, 31, 22, 22, 12, 16]
+                    data: response.news
                 }],
                 chart: {
                     height: 320,
@@ -609,10 +613,7 @@
                     enabledOnSeries: [1]
                 },
                 colors: ["#845adf", "#23b7e5"],
-                labels: ['01 Jan 2001', '02 Jan 2001', '03 Jan 2001', '04 Jan 2001', '05 Jan 2001',
-                    '06 Jan 2001', '07 Jan 2001', '08 Jan 2001', '09 Jan 2001', '10 Jan 2001',
-                    '11 Jan 2001', '12 Jan 2001'
-                ],
+                labels: response.labels,
                 xaxis: {
                     type: 'datetime',
                     labels: {
@@ -651,8 +652,14 @@
                     }
                 }]
             };
+
             var chart = new ApexCharts(document.querySelector("#mixed-linecolumn"), options);
             chart.render();
+        },
+        error: function(xhr) {
+            console.log('Error:', xhr.responseText);
+        }
+    });
 
 
 
