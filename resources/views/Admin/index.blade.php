@@ -10,10 +10,10 @@
         <div class="main-content">
 
             @php
-            if (session('loggedInAdmin')) {
-                $sessionId = session('loggedInAdmin');
-                $user = \App\Models\Admin::find($sessionId);
-            }
+                if (session('loggedInAdmin')) {
+                    $sessionId = session('loggedInAdmin');
+                    $user = \App\Models\Admin::find($sessionId);
+                }
             @endphp
             <!-- Start::page-header -->
             <div class="md:flex block items-center justify-between my-[1.5rem] page-header-breadcrumb">
@@ -154,9 +154,9 @@
                                                         <div class="progress progress-xs">
                                                             <?php
                                                             $totalnewspars = DB::select("SELECT
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ROUND(SUM(likes) * 100.0 / 100, 0) AS percentage
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            FROM
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                news");
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ROUND(SUM(likes) * 100.0 / 100, 0) AS percentage
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        FROM
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            news");
 
                                                             ?>
                                                             <div class="progress-bar bg-primary w-[<?php echo $totalnewspars[0]->percentage; ?>%]">
@@ -185,9 +185,9 @@
                                                         <div class="progress progress-xs">
                                                             <?php
                                                             $totalblogpars = DB::select("SELECT
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ROUND(SUM(likes) * 100.0 / 100, 0) AS percentage
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            FROM
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                blog");
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ROUND(SUM(likes) * 100.0 / 100, 0) AS percentage
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        FROM
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            blog");
 
                                                             ?>
                                                             <div class="progress-bar bg-primary w-[<?php echo $totalblogpars[0]->percentage; ?>%]">
@@ -394,14 +394,14 @@
                         </div>
                         <div class="xxl:col-span-12 xl:col-span-12 col-span-12">
 
-                                <div class="box custom-box">
-                                    <div class="box-header">
-                                        <div class="box-title">Payment Details &amp; Chart</div>
-                                    </div>
-                                    <div class="box-body">
-                                        <div id="mixed-linearea"></div>
-                                    </div>
+                            <div class="box custom-box">
+                                <div class="box-header">
+                                    <div class="box-title">Payment Details &amp; Chart</div>
                                 </div>
+                                <div class="box-body">
+                                    <div id="mixed-linearea"></div>
+                                </div>
+                            </div>
 
                         </div>
 
@@ -643,99 +643,96 @@
             chart.render();
 
 
-               /* line and area chart */
-    var options = {
-        series: [{
-            name: 'Antivirus',
-            type: 'area',
-            data: [44, 55, 31, 47, 31, 43, 26, 41, 31, 47, 33]
-        }, {
-            name: 'Vpn Shield',
-            type: 'line',
-            data: [55, 69, 45, 61, 43, 54, 37, 52, 44, 61, 43]
-        }],
-        chart: {
-            height: 320,
-            type: 'line',
-        },
-        stroke: {
-            curve: 'smooth'
-        },
-        colors: ["#845adf", "#23b7e5"],
-        grid: {
-            borderColor: '#f2f5f7',
-        },
-        fill: {
-            type: 'solid',
-            opacity: [0.35, 1],
-        },
-        labels: ['Dec 01', 'Dec 02', 'Dec 03', 'Dec 04', 'Dec 05', 'Dec 06', 'Dec 07', 'Dec 08', 'Dec 09 ', 'Dec 10', 'Dec 11'],
-        markers: {
-            size: 0
-        },
-        xaxis: {
-            labels: {
-                show: true,
-                style: {
-                    colors: "#8c9097",
-                    fontSize: '11px',
-                    fontWeight: 600,
-                    cssClass: 'apexcharts-xaxis-label',
-                },
-            }
-        },
-        yaxis: [
-            {
-                title: {
-                    text: 'Series A',
-                    style: {
-                        color: "#8c9097",
-                    }
-                },
-                labels: {
-                    show: true,
-                    style: {
-                        colors: "#8c9097",
-                        fontSize: '11px',
-                        fontWeight: 600,
-                        cssClass: 'apexcharts-yaxis-label',
-                    },
+            /* line and area chart */
+            $.ajax({
+                url: "{{ route('chart.data') }}",
+                type: "GET",
+                success: function(response) {
+                    var options = {
+                        series: response.series,
+                        chart: {
+                            height: 320,
+                            type: 'line',
+                        },
+                        stroke: {
+                            curve: 'smooth'
+                        },
+                        colors: ["#845adf", "#23b7e5"],
+                        grid: {
+                            borderColor: '#f2f5f7',
+                        },
+                        fill: {
+                            type: 'solid',
+                            opacity: [0.35, 1],
+                        },
+                        labels: response.labels,
+                        markers: {
+                            size: 0
+                        },
+                        xaxis: {
+                            labels: {
+                                show: true,
+                                style: {
+                                    colors: "#8c9097",
+                                    fontSize: '11px',
+                                    fontWeight: 600,
+                                    cssClass: 'apexcharts-xaxis-label',
+                                },
+                            }
+                        },
+                        yaxis: [{
+                                title: {
+                                    text: 'Series A',
+                                    style: {
+                                        color: "#8c9097",
+                                    }
+                                },
+                                labels: {
+                                    show: true,
+                                    style: {
+                                        colors: "#8c9097",
+                                        fontSize: '11px',
+                                        fontWeight: 600,
+                                        cssClass: 'apexcharts-yaxis-label',
+                                    },
+                                }
+                            },
+                            {
+                                opposite: true,
+                                title: {
+                                    text: 'Series B',
+                                    style: {
+                                        color: "#8c9097",
+                                    }
+                                },
+                                labels: {
+                                    show: true,
+                                    style: {
+                                        colors: "#8c9097",
+                                        fontSize: '11px',
+                                        fontWeight: 600,
+                                        cssClass: 'apexcharts-yaxis-label',
+                                    },
+                                }
+                            }
+                        ],
+                        tooltip: {
+                            shared: true,
+                            intersect: false,
+                            y: {
+                                formatter: function(y) {
+                                    if (typeof y !== "undefined") {
+                                        return y.toFixed(0) + " points";
+                                    }
+                                    return y;
+                                }
+                            }
+                        }
+                    };
+                    var chart = new ApexCharts(document.querySelector("#mixed-linearea"), options);
+                    chart.render();
                 }
-            },
-            {
-                opposite: true,
-                title: {
-                    text: 'Series B',
-                    style: {
-                        color: "#8c9097",
-                    }
-                },
-                labels: {
-                    show: true,
-                    style: {
-                        colors: "#8c9097",
-                        fontSize: '11px',
-                        fontWeight: 600,
-                        cssClass: 'apexcharts-yaxis-label',
-                    },
-                }
-            },
-        ],
-        tooltip: {
-            shared: true,
-            intersect: false,
-            y: {
-                formatter: function (y) {
-                    if (typeof y !== "undefined") {
-                        return y.toFixed(0) + " points";
-                    }
-                    return y;
-                }
-            }
-        }
-    };
-    var chart = new ApexCharts(document.querySelector("#mixed-linearea"), options);
-    chart.render();
+            });
 
 
 
