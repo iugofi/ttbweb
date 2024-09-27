@@ -50,8 +50,8 @@
                                                 <span class="block text-[0.75rem] text-white"><span
                                                         class="opacity-[0.7]">You have
                                                         completed</span>
-                                                    <span class="font-semibold text-warning">48%</span> <span
-                                                        class="opacity-[0.7]">of the given
+                                                    <span class="font-semibold text-warning">100%</span> <span
+                                                        class="opacity-[0.9]">of the given
                                                         target, you can also check your status</span>.</span>
                                                 <span class="block font-semibold mt-[0.125rem]"><a
                                                         class="text-white text-[0.813rem]"
