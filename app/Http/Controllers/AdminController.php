@@ -251,13 +251,24 @@ class AdminController extends Controller
 
     public function getUsersTrend()
     {
-       
-        $data = [
-            'users' => [10, 41, 35, 51, 49, 62, 69, 91, 148],
-            'categories' => ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep']
-        ];
+        $usersByMonth = DB::table('usersall')
+            ->select(DB::raw('MONTHNAME(created_at) as month'), DB::raw('COUNT(*) as count'))
+            ->groupBy('month')
+            ->orderBy(DB::raw('MONTH(created_at)'))
+            ->get();
 
-        return response()->json($data);
+        $months = [];
+        $users = [];
+
+        foreach ($usersByMonth as $data) {
+            $months[] = $data->month;
+            $users[] = $data->count;
+        }
+
+        return response()->json([
+            'users' => $users,
+            'categories' => $months
+        ]);
     }
 
     public function newslist()
