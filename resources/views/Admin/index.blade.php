@@ -646,11 +646,11 @@
                /* line and area chart */
     var options = {
         series: [{
-            name: 'TEAM A',
+            name: 'Antivirus',
             type: 'area',
             data: [44, 55, 31, 47, 31, 43, 26, 41, 31, 47, 33]
         }, {
-            name: 'TEAM B',
+            name: 'Vpn Shield',
             type: 'line',
             data: [55, 69, 45, 61, 43, 54, 37, 52, 44, 61, 43]
         }],
