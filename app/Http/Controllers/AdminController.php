@@ -249,6 +249,17 @@ class AdminController extends Controller
         }
     }
 
+    public function getUsersTrend()
+    {
+       
+        $data = [
+            'users' => [10, 41, 35, 51, 49, 62, 69, 91, 148],
+            'categories' => ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep']
+        ];
+
+        return response()->json($data);
+    }
+
     public function newslist()
     {
         if ($this->loggedInAdmin) {
