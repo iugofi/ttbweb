@@ -408,9 +408,9 @@
                                                         <div class="progress progress-xs">
                                                             <?php
                                                             $totalnewspars = DB::select("SELECT
-                                                                                                                        ROUND(SUM(likes) * 100.0 / 100, 0) AS percentage
-                                                                                                                    FROM
-                                                                                                                        news");
+                                                                                                                                                                                    ROUND(SUM(likes) * 100.0 / 100, 0) AS percentage
+                                                                                                                                                                                FROM
+                                                                                                                                                                                    news");
 
                                                             ?>
                                                             <div class="progress-bar bg-primary w-[<?php echo $totalnewspars[0]->percentage; ?>%]">
@@ -439,9 +439,9 @@
                                                         <div class="progress progress-xs">
                                                             <?php
                                                             $totalblogpars = DB::select("SELECT
-                                                                                                                        ROUND(SUM(likes) * 100.0 / 100, 0) AS percentage
-                                                                                                                    FROM
-                                                                                                                        blog");
+                                                                                                                                                                                    ROUND(SUM(likes) * 100.0 / 100, 0) AS percentage
+                                                                                                                                                                                FROM
+                                                                                                                                                                                    blog");
 
                                                             ?>
                                                             <div class="progress-bar bg-primary w-[<?php echo $totalblogpars[0]->percentage; ?>%]">
@@ -795,69 +795,70 @@
 
 
             $.ajax({
-    url: "/users-trend", // Laravel route to fetch data
-    method: 'GET',
-    success: function(response) {
-        var options = {
-            series: [{
-                name: "Users",
-                data: response.users 
-            }],
-            chart: {
-                height: 320,
-                type: 'line',
-                zoom: {
-                    enabled: false
+                url: "{{ route('user.trends') }}",
+                method: 'GET',
+                success: function(response) {
+                    var options = {
+                        series: [{
+                            name: "Users",
+                            data: response.users
+                        }],
+                        chart: {
+                            height: 320,
+                            type: 'line',
+                            zoom: {
+                                enabled: false
+                            }
+                        },
+                        colors: ['#845adf'],
+                        dataLabels: {
+                            enabled: false
+                        },
+                        stroke: {
+                            curve: 'straight',
+                            width: 3,
+                        },
+                        grid: {
+                            borderColor: '#f2f5f7',
+                        },
+                        title: {
+                            text: 'Users Trends by Month',
+                            align: 'left',
+                            style: {
+                                fontSize: '13px',
+                                fontWeight: 'bold',
+                                color: '#8c9097'
+                            },
+                        },
+                        xaxis: {
+                            categories: response
+                            .categories, 
+                            labels: {
+                                show: true,
+                                style: {
+                                    colors: "#8c9097",
+                                    fontSize: '11px',
+                                    fontWeight: 600,
+                                    cssClass: 'apexcharts-xaxis-label',
+                                },
+                            }
+                        },
+                        yaxis: {
+                            labels: {
+                                show: true,
+                                style: {
+                                    colors: "#8c9097",
+                                    fontSize: '11px',
+                                    fontWeight: 600,
+                                    cssClass: 'apexcharts-yaxis-label',
+                                },
+                            }
+                        }
+                    };
+                    var chart = new ApexCharts(document.querySelector("#line-chart"), options);
+                    chart.render();
                 }
-            },
-            colors: ['#845adf'],
-            dataLabels: {
-                enabled: false
-            },
-            stroke: {
-                curve: 'straight',
-                width: 3,
-            },
-            grid: {
-                borderColor: '#f2f5f7',
-            },
-            title: {
-                text: 'Users Trends by Month',
-                align: 'left',
-                style: {
-                    fontSize: '13px',
-                    fontWeight: 'bold',
-                    color: '#8c9097'
-                },
-            },
-            xaxis: {
-                categories: response.categories, // Dynamic categories (months) from Laravel
-                labels: {
-                    show: true,
-                    style: {
-                        colors: "#8c9097",
-                        fontSize: '11px',
-                        fontWeight: 600,
-                        cssClass: 'apexcharts-xaxis-label',
-                    },
-                }
-            },
-            yaxis: {
-                labels: {
-                    show: true,
-                    style: {
-                        colors: "#8c9097",
-                        fontSize: '11px',
-                        fontWeight: 600,
-                        cssClass: 'apexcharts-yaxis-label',
-                    },
-                }
-            }
-        };
-        var chart = new ApexCharts(document.querySelector("#line-chart"), options);
-        chart.render();
-    }
-});
+            });
 
 
 
