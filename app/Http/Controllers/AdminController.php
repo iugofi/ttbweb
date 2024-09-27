@@ -275,27 +275,7 @@ class AdminController extends Controller
     ]);
     }
 
-    public function getChartDatapay()
-    {
-        // Data for the chart
-        $data = [
-            'series' => [
-                [
-                    'name' => 'Antivirus',
-                    'type' => 'area',
-                    'data' => [44, 55, 31, 47, 31, 43, 26, 41, 31, 47, 33]
-                ],
-                [
-                    'name' => 'Vpn Shield',
-                    'type' => 'line',
-                    'data' => [55, 69, 45, 61, 43, 54, 37, 52, 44, 61, 43]
-                ]
-            ],
-            'labels' => ['Dec 01', 'Dec 02', 'Dec 03', 'Dec 04', 'Dec 05', 'Dec 06', 'Dec 07', 'Dec 08', 'Dec 09', 'Dec 10', 'Dec 11']
-        ];
-
-        return response()->json($data);
-    }
+    
 
     public function getChartDatanb()
     {

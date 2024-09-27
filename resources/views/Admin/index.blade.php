@@ -394,14 +394,16 @@
                         </div>
                         <div class="xxl:col-span-12 xl:col-span-12 col-span-12">
 
-                            <div class="box custom-box">
-                                <div class="box-header">
-                                    <div class="box-title">Payment Details &amp; Chart</div>
+
+                                <div class="box custom-box">
+                                    <div class="box-header">
+                                        <div class="box-title">Payment Chart</div>
+                                    </div>
+                                    <div class="box-body">
+                                        <div id="echart-pictorial" class="echart-charts"></div>
+                                    </div>
                                 </div>
-                                <div class="box-body">
-                                    <div id="mixed-linearea"></div>
-                                </div>
-                            </div>
+
 
                         </div>
 
@@ -642,97 +644,6 @@
             var chart = new ApexCharts(document.querySelector("#donut-update"), options);
             chart.render();
 
-
-            /* line and area chart */
-            $.ajax({
-                url: "{{ route('chart.payment') }}",
-                type: "GET",
-                success: function(response) {
-                    var options = {
-                        series: response.series,
-                        chart: {
-                            height: 320,
-                            type: 'line',
-                        },
-                        stroke: {
-                            curve: 'smooth'
-                        },
-                        colors: ["#845adf", "#23b7e5"],
-                        grid: {
-                            borderColor: '#f2f5f7',
-                        },
-                        fill: {
-                            type: 'solid',
-                            opacity: [0.35, 1],
-                        },
-                        labels: response.labels,
-                        markers: {
-                            size: 0
-                        },
-                        xaxis: {
-                            labels: {
-                                show: true,
-                                style: {
-                                    colors: "#8c9097",
-                                    fontSize: '11px',
-                                    fontWeight: 600,
-                                    cssClass: 'apexcharts-xaxis-label',
-                                },
-                            }
-                        },
-                        yaxis: [{
-                                title: {
-                                    text: 'Series A',
-                                    style: {
-                                        color: "#8c9097",
-                                    }
-                                },
-                                labels: {
-                                    show: true,
-                                    style: {
-                                        colors: "#8c9097",
-                                        fontSize: '11px',
-                                        fontWeight: 600,
-                                        cssClass: 'apexcharts-yaxis-label',
-                                    },
-                                }
-                            },
-                            {
-                                opposite: true,
-                                title: {
-                                    text: 'Series B',
-                                    style: {
-                                        color: "#8c9097",
-                                    }
-                                },
-                                labels: {
-                                    show: true,
-                                    style: {
-                                        colors: "#8c9097",
-                                        fontSize: '11px',
-                                        fontWeight: 600,
-                                        cssClass: 'apexcharts-yaxis-label',
-                                    },
-                                }
-                            }
-                        ],
-                        tooltip: {
-                            shared: true,
-                            intersect: false,
-                            y: {
-                                formatter: function(y) {
-                                    if (typeof y !== "undefined") {
-                                        return y.toFixed(0) + " points";
-                                    }
-                                    return y;
-                                }
-                            }
-                        }
-                    };
-                    var chart = new ApexCharts(document.querySelector("#mixed-linearea"), options);
-                    chart.render();
-                }
-            });
 
 
 
