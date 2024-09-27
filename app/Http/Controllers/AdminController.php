@@ -251,11 +251,11 @@ class AdminController extends Controller
 
     public function getUsersTrend()
     {
-        $usersByMonth = DB::table('usersall')
-            ->select(DB::raw('MONTHNAME(created_at) as month'), DB::raw('COUNT(*) as count'))
-            ->groupBy('month')
-            ->orderBy(DB::raw('MONTH(created_at)'))
-            ->get();
+        $usersByMonth = DB::table('users')
+    ->select(DB::raw('MONTHNAME(MIN(created_at)) as month'), DB::raw('COUNT(*) as count'))
+    ->groupBy(DB::raw('MONTH(created_at)'))
+    ->orderBy(DB::raw('MONTH(created_at)'))  
+    ->get();
 
         $months = [];
         $users = [];
