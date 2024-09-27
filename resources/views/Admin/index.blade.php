@@ -82,31 +82,19 @@
                                             </ul>
                                         </div>
                                     </div>
-                                    <div class="box-body">
-                                        <ul class="list-none crm-top-deals mb-0">
-
-                                            <li class="mb-[0.9rem]">
-                                                <div class="flex items-start flex-wrap">
-                                                    <div class="me-2">
-                                                        <span class=" inline-flex items-center justify-center">
-                                                            <img src="{{ asset('assets/images/faces/10.jpg') }}"
-                                                                alt=""
-                                                                class="w-[1.75rem] h-[1.75rem] leading-[1.75rem] text-[0.65rem]  rounded-full">
-                                                        </span>
-                                                    </div>
-                                                    <div class="flex-grow">
-                                                        <p class="font-semibold mb-[1.4px]  text-[0.813rem]">Michael
-                                                            Jordan
-                                                        </p>
-                                                        <p class="text-[#8c9097] dark:text-white/50 text-[0.75rem]">
-                                                            michael.jordan@example.com</p>
-                                                    </div>
-                                                    <div class="font-semibold text-[0.9375rem] ">$2,893</div>
-                                                </div>
-                                            </li>
-
-
-                                        </ul>
+                                    <div class="box custom-box">
+                                        <div class="box-header">
+                                            <div class="box-title">Updating Donut Chart</div>
+                                        </div>
+                                        <div class="box-body">
+                                            <div id="donut-update"></div>
+                                            <div class="text-center mt-4">
+                                                <button type="button" class="btn btn-primary btn-sm" id="randomize">Randomize</button>
+                                                <button type="button" class="btn btn-primary btn-sm" id="add">Add</button>
+                                                <button type="button" class="btn btn-primary btn-sm" id="remove">Remove</button>
+                                                <button type="button" class="btn btn-primary btn-sm" id="reset">Reset</button>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
