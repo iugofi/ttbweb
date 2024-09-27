@@ -795,13 +795,13 @@
 
 
             $.ajax({
-                url: "/users-trend", // URL points to the route
+                url: "{{route('user.trends')}}",
                 method: 'GET',
                 success: function(response) {
                     var options = {
                         series: [{
                             name: "Users",
-                            data: response.users // User count data from the database
+                            data: response.users 
                         }],
                         chart: {
                             height: 320,
