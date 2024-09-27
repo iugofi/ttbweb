@@ -32,9 +32,9 @@
             <!-- End::page-header -->
 
             <div class="grid grid-cols-12 gap-x-6">
-                <div class="xxl:col-span-9 xl:col-span-12  col-span-12">
+                <div class="xxl:col-span-6 xl:col-span-12  col-span-12">
                     <div class="grid grid-cols-12 gap-x-6">
-                        <div class="xxl:col-span-4 xl:col-span-4  col-span-12">
+                        <div class="xxl:col-span-12 xl:col-span-8  col-span-12">
                             <div class="xxl:col-span-12 xl:col-span-12 col-span-12">
                                 <div class="box crm-highlight-card">
                                     <div class="box-body">
@@ -136,7 +136,7 @@
                                 </div>
                             </div> --}}
                         </div>
-                        <div class="xxl:col-span-8  xl:col-span-8  col-span-12">
+                        <div class="xxl:col-span-12  xl:col-span-8  col-span-12">
                             <div class="grid grid-cols-12 gap-x-6">
                                 <div class="xxl:col-span-6 xl:col-span-6 col-span-12">
                                     <div class="box overflow-hidden">
@@ -367,7 +367,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="xxl:col-span-3 xl:col-span-12 col-span-12">
+                <div class="xxl:col-span-6 xl:col-span-12 col-span-12">
                     <div class="grid grid-cols-12 gap-x-6">
                         <div class="xxl:col-span-12 xl:col-span-12  col-span-12">
 
@@ -410,9 +410,9 @@
                                                         <div class="progress progress-xs">
                                                             <?php
                                                             $totalnewspars = DB::select("SELECT
-                                                                                                                                                                                                                                                ROUND(SUM(likes) * 100.0 / 100, 0) AS percentage
-                                                                                                                                                                                                                                            FROM
-                                                                                                                                                                                                                                                news");
+                                                                                                                                                                                                                                                                                                            ROUND(SUM(likes) * 100.0 / 100, 0) AS percentage
+                                                                                                                                                                                                                                                                                                        FROM
+                                                                                                                                                                                                                                                                                                            news");
 
                                                             ?>
                                                             <div class="progress-bar bg-primary w-[<?php echo $totalnewspars[0]->percentage; ?>%]">
@@ -441,9 +441,9 @@
                                                         <div class="progress progress-xs">
                                                             <?php
                                                             $totalblogpars = DB::select("SELECT
-                                                                                                                                                                                                                                                ROUND(SUM(likes) * 100.0 / 100, 0) AS percentage
-                                                                                                                                                                                                                                            FROM
-                                                                                                                                                                                                                                                blog");
+                                                                                                                                                                                                                                                                                                            ROUND(SUM(likes) * 100.0 / 100, 0) AS percentage
+                                                                                                                                                                                                                                                                                                        FROM
+                                                                                                                                                                                                                                                                                                            blog");
 
                                                             ?>
                                                             <div class="progress-bar bg-primary w-[<?php echo $totalblogpars[0]->percentage; ?>%]">
@@ -526,7 +526,7 @@
 
 
             $.ajax({
-                url: "{{route('user.trends')}}",
+                url: "{{ route('user.trends') }}",
                 method: 'GET',
                 success: function(response) {
                     var options = {
@@ -563,7 +563,7 @@
                         },
                         xaxis: {
                             categories: response
-                            .categories, // Dynamic month names from the database
+                                .categories, // Dynamic month names from the database
                             labels: {
                                 show: true,
                                 style: {
