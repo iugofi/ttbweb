@@ -136,6 +136,100 @@
                                 </div>
                             </div> --}}
                         </div>
+
+
+                    </div>
+                </div>
+                <div class="xxl:col-span-6 xl:col-span-12 col-span-12">
+                    <div class="grid grid-cols-12 gap-x-6">
+                        <div class="xxl:col-span-12 xl:col-span-12  col-span-12">
+
+
+                            <div class="box custom-box">
+                                <div class="box-header">
+                                    <div class="box-title">
+                                        Traffic Sources
+                                    </div>
+                                </div>
+                                <div class="box-body">
+                                    <div class="table-responsive">
+                                        <table class="table table-bordered table-hover whitespace-nowrap min-w-full">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col" class="text-start">Page</th>
+                                                    <th scope="col" class="text-start">Total Like</th>
+                                                    <th scope="col" class="text-start">Traffic</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr class="border border-defaultborder ">
+                                                    <td>
+                                                        <div class="flex items-center">
+                                                            <span
+                                                                class="avatar !rounded-full avatar-sm p-2 bg-primary me-2">
+                                                                <i class="ri-google-fill text-[1.125rem] text-white"></i>
+                                                            </span>
+                                                            <div class="font-semibold">News</div>
+                                                        </div>
+                                                    </td>
+
+                                                    <td>
+                                                        <span><?php
+                                                        $totalnewslike = DB::select('SELECT SUM(likes) AS totallike FROM news');
+                                                        echo $totalnewslike[0]->totallike;
+                                                        ?></span>
+                                                    </td>
+                                                    <td>
+                                                        <div class="progress progress-xs">
+                                                            <?php
+                                                            $totalnewspars = DB::select("SELECT
+                                                                                                                                                                                                                                                                                                            ROUND(SUM(likes) * 100.0 / 100, 0) AS percentage
+                                                                                                                                                                                                                                                                                                        FROM
+                                                                                                                                                                                                                                                                                                            news");
+
+                                                            ?>
+                                                            <div class="progress-bar bg-primary w-[<?php echo $totalnewspars[0]->percentage; ?>%]">
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr class="border border-defaultborder ">
+                                                    <td>
+                                                        <div class="flex items-center">
+                                                            <span
+                                                                class="avatar !rounded-full avatar-sm p-2 bg-primary me-2">
+                                                                <i class="ri-google-fill text-[1.125rem] text-white"></i>
+                                                            </span>
+                                                            <div class="font-semibold">Blog</div>
+                                                        </div>
+                                                    </td>
+
+                                                    <td>
+                                                        <span><?php
+                                                        $totalbloglike = DB::select('SELECT SUM(likes) AS totallike FROM blog');
+                                                        echo $totalbloglike[0]->totallike;
+                                                        ?></span>
+                                                    </td>
+                                                    <td>
+                                                        <div class="progress progress-xs">
+                                                            <?php
+                                                            $totalblogpars = DB::select("SELECT
+                                                                                                                                                                                                                                                                                                            ROUND(SUM(likes) * 100.0 / 100, 0) AS percentage
+                                                                                                                                                                                                                                                                                                        FROM
+                                                                                                                                                                                                                                                                                                            blog");
+
+                                                            ?>
+                                                            <div class="progress-bar bg-primary w-[<?php echo $totalblogpars[0]->percentage; ?>%]">
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="xxl:col-span-12  xl:col-span-8  col-span-12">
                             <div class="grid grid-cols-12 gap-x-6">
                                 <div class="xxl:col-span-6 xl:col-span-6 col-span-12">
@@ -322,99 +416,6 @@
                                         <div class="box-body">
                                             <div id="treemap-multis"></div>
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="xxl:col-span-6 xl:col-span-12 col-span-12">
-                    <div class="grid grid-cols-12 gap-x-6">
-                        <div class="xxl:col-span-12 xl:col-span-12  col-span-12">
-
-
-                            <div class="box custom-box">
-                                <div class="box-header">
-                                    <div class="box-title">
-                                        Traffic Sources
-                                    </div>
-                                </div>
-                                <div class="box-body">
-                                    <div class="table-responsive">
-                                        <table class="table table-bordered table-hover whitespace-nowrap min-w-full">
-                                            <thead>
-                                                <tr>
-                                                    <th scope="col" class="text-start">Page</th>
-                                                    <th scope="col" class="text-start">Total Like</th>
-                                                    <th scope="col" class="text-start">Traffic</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr class="border border-defaultborder ">
-                                                    <td>
-                                                        <div class="flex items-center">
-                                                            <span
-                                                                class="avatar !rounded-full avatar-sm p-2 bg-primary me-2">
-                                                                <i class="ri-google-fill text-[1.125rem] text-white"></i>
-                                                            </span>
-                                                            <div class="font-semibold">News</div>
-                                                        </div>
-                                                    </td>
-
-                                                    <td>
-                                                        <span><?php
-                                                        $totalnewslike = DB::select('SELECT SUM(likes) AS totallike FROM news');
-                                                        echo $totalnewslike[0]->totallike;
-                                                        ?></span>
-                                                    </td>
-                                                    <td>
-                                                        <div class="progress progress-xs">
-                                                            <?php
-                                                            $totalnewspars = DB::select("SELECT
-                                                                                                                                                                                                                                                                                                            ROUND(SUM(likes) * 100.0 / 100, 0) AS percentage
-                                                                                                                                                                                                                                                                                                        FROM
-                                                                                                                                                                                                                                                                                                            news");
-
-                                                            ?>
-                                                            <div class="progress-bar bg-primary w-[<?php echo $totalnewspars[0]->percentage; ?>%]">
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                                <tr class="border border-defaultborder ">
-                                                    <td>
-                                                        <div class="flex items-center">
-                                                            <span
-                                                                class="avatar !rounded-full avatar-sm p-2 bg-primary me-2">
-                                                                <i class="ri-google-fill text-[1.125rem] text-white"></i>
-                                                            </span>
-                                                            <div class="font-semibold">Blog</div>
-                                                        </div>
-                                                    </td>
-
-                                                    <td>
-                                                        <span><?php
-                                                        $totalbloglike = DB::select('SELECT SUM(likes) AS totallike FROM blog');
-                                                        echo $totalbloglike[0]->totallike;
-                                                        ?></span>
-                                                    </td>
-                                                    <td>
-                                                        <div class="progress progress-xs">
-                                                            <?php
-                                                            $totalblogpars = DB::select("SELECT
-                                                                                                                                                                                                                                                                                                            ROUND(SUM(likes) * 100.0 / 100, 0) AS percentage
-                                                                                                                                                                                                                                                                                                        FROM
-                                                                                                                                                                                                                                                                                                            blog");
-
-                                                            ?>
-                                                            <div class="progress-bar bg-primary w-[<?php echo $totalblogpars[0]->percentage; ?>%]">
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
                                     </div>
                                 </div>
                             </div>
