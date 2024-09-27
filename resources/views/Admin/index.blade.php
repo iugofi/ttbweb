@@ -110,7 +110,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="xxl:col-span-12 xl:col-span-12 col-span-12">
+                            {{-- <div class="xxl:col-span-12 xl:col-span-12 col-span-12">
                                 <div class="box">
                                     <div class="box-header justify-between">
                                         <div class="box-title">Profit Earned</div>
@@ -134,7 +134,7 @@
                                         <div id="crm-profits-earned"></div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> --}}
                         </div>
                         <div class="xxl:col-span-8  xl:col-span-8  col-span-12">
                             <div class="grid grid-cols-12 gap-x-6">
