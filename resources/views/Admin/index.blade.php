@@ -80,7 +80,7 @@
                                     </div>
                                 </div>
                             </div>
-                          
+
                         </div>
                         <div class="xxl:col-span-12 xl:col-span-12 col-span-12">
                             <div class="box custom-box">
@@ -149,9 +149,9 @@
                                                         <div class="progress progress-xs">
                                                             <?php
                                                             $totalnewspars = DB::select("SELECT
-                                                                                                                                                                                                                                                                                                                                                                                                                                    ROUND(SUM(likes) * 100.0 / 100, 0) AS percentage
-                                                                                                                                                                                                                                                                                                                                                                                                                                FROM
-                                                                                                                                                                                                                                                                                                                                                                                                                                    news");
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ROUND(SUM(likes) * 100.0 / 100, 0) AS percentage
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            FROM
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                news");
 
                                                             ?>
                                                             <div class="progress-bar bg-primary w-[<?php echo $totalnewspars[0]->percentage; ?>%]">
@@ -180,9 +180,9 @@
                                                         <div class="progress progress-xs">
                                                             <?php
                                                             $totalblogpars = DB::select("SELECT
-                                                                                                                                                                                                                                                                                                                                                                                                                                    ROUND(SUM(likes) * 100.0 / 100, 0) AS percentage
-                                                                                                                                                                                                                                                                                                                                                                                                                                FROM
-                                                                                                                                                                                                                                                                                                                                                                                                                                    blog");
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ROUND(SUM(likes) * 100.0 / 100, 0) AS percentage
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            FROM
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                blog");
 
                                                             ?>
                                                             <div class="progress-bar bg-primary w-[<?php echo $totalblogpars[0]->percentage; ?>%]">
@@ -606,6 +606,24 @@
                     console.log('Error:', xhr.responseText);
                 }
             });
+
+
+            var options = {
+                series: [44, 55, 13, 33],
+                chart: {
+                    height: 280,
+                    type: 'donut',
+                },
+                dataLabels: {
+                    enabled: false
+                },
+                colors: ["#845adf", "#23b7e5", "#f5b849", "#e6533c", "#49b6f5"],
+                legend: {
+                    position: 'bottom',
+                }
+            };
+            var chart = new ApexCharts(document.querySelector("#donut-update"), options);
+            chart.render();
 
 
 
