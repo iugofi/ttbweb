@@ -9,12 +9,17 @@
     <div class="content">
         <div class="main-content">
 
-
+            @php
+            if (session('loggedInAdmin')) {
+                $sessionId = session('loggedInAdmin');
+                $user = \App\Models\Admin::find($sessionId);
+            }
+            @endphp
             <!-- Start::page-header -->
             <div class="md:flex block items-center justify-between my-[1.5rem] page-header-breadcrumb">
                 <div>
                     <p class="font-semibold text-[1.125rem] text-defaulttextcolor dark:text-defaulttextcolor/70 !mb-0 ">
-                        Welcome back, Json Taylor !</p>
+                        Welcome back, {{ isset($user->name) ? $user->name : '' }} !</p>
                     <p class="font-normal text-[#8c9097] dark:text-white/50 text-[0.813rem]">Track your sales
                         activity, leads and deals here.</p>
                 </div>
