@@ -149,7 +149,7 @@
                         <div class="xxl:col-span-12 xl:col-span-12 col-span-12">
                             <div class="box custom-box">
                                 <div class="box-header">
-                                    <div class="box-title">Line &amp; Column Chart</div>
+                                    <div class="box-title">Blog And News &amp; Chart</div>
                                 </div>
                                 <div class="box-body">
                                     <div id="mixed-linecolumn"></div>
