@@ -266,10 +266,13 @@ class AdminController extends Controller
             $users[] = $data->count;
         }
 
-        return response()->json([
-            'users' => $users,
-            'categories' => $months
-        ]);
+        $currentYear = date('Y');
+
+    return response()->json([
+        'users' => $users,
+        'categories' => $months,
+        'year' => $currentYear
+    ]);
     }
 
     public function newslist()
