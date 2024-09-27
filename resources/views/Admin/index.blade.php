@@ -323,48 +323,10 @@
                                             <div id="treemap-multis"></div>
                                         </div>
                                     </div>
-
-
-                                    {{-- <div class="box">
-                                    <div class="box-header !gap-0 !m-0 justify-between">
-                                        <div class="box-title">
-                                            Revenue Analytics
-                                        </div>
-                                        <div class="hs-dropdown ti-dropdown">
-                                            <a href="javascript:void(0);"
-                                                class="text-[0.75rem] px-2 font-normal text-[#8c9097] dark:text-white/50"
-                                                aria-expanded="false">
-                                                View All<i
-                                                    class="ri-arrow-down-s-line align-middle ms-1 inline-block"></i>
-                                            </a>
-                                            <ul class="hs-dropdown-menu ti-dropdown-menu hidden" role="menu">
-                                                <li><a class="ti-dropdown-item !py-2 !px-[0.9375rem] !text-[0.8125rem] !font-medium block"
-                                                        href="javascript:void(0);">Today</a></li>
-                                                <li><a class="ti-dropdown-item !py-2 !px-[0.9375rem] !text-[0.8125rem] !font-medium block"
-                                                        href="javascript:void(0);">This Week</a></li>
-                                                <li><a class="ti-dropdown-item !py-2 !px-[0.9375rem] !text-[0.8125rem] !font-medium block"
-                                                        href="javascript:void(0);">Last Week</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="box-body !py-5">
-                                        <div id="crm-revenue-analytics"></div>
-                                    </div>
-                                </div> --}}
-
                                 </div>
                             </div>
                         </div>
-                        <div class="xxl:col-span-12 xl:col-span-12 col-span-12">
-                            <div class="box custom-box">
-                                <div class="box-header">
-                                    <div class="box-title">Monthly User Register Data</div>
-                                </div>
-                                <div class="box-body">
-                                    <div id="line-chart"></div>
-                                </div>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
                 <div class="xxl:col-span-6 xl:col-span-12 col-span-12">
@@ -454,6 +416,16 @@
                                             </tbody>
                                         </table>
                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="xxl:col-span-12 xl:col-span-12 col-span-12">
+                            <div class="box custom-box">
+                                <div class="box-header">
+                                    <div class="box-title">Monthly User Register Data</div>
+                                </div>
+                                <div class="box-body">
+                                    <div id="line-chart"></div>
                                 </div>
                             </div>
                         </div>
