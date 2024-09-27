@@ -317,12 +317,13 @@
                                 <div class="xxl:col-span-12 xl:col-span-12 col-span-12">
                                     <div class="box custom-box">
                                         <div class="box-header">
-                                            <div class="box-title">Monthly User Register Data</div>
+                                            <div class="box-title">User City</div>
                                         </div>
                                         <div class="box-body">
-                                            <div id="line-chart"></div>
+                                            <div id="treemap-multis"></div>
                                         </div>
                                     </div>
+
 
                                     {{-- <div class="box">
                                     <div class="box-header !gap-0 !m-0 justify-between">
@@ -357,10 +358,10 @@
                         <div class="xxl:col-span-12 xl:col-span-12 col-span-12">
                             <div class="box custom-box">
                                 <div class="box-header">
-                                    <div class="box-title">User City</div>
+                                    <div class="box-title">Monthly User Register Data</div>
                                 </div>
                                 <div class="box-body">
-                                    <div id="treemap-multis"></div>
+                                    <div id="line-chart"></div>
                                 </div>
                             </div>
                         </div>
