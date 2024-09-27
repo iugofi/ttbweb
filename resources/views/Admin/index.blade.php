@@ -111,14 +111,27 @@
                                 </div>
                             </div>
                             <div class="xxl:col-span-12 xl:col-span-12 col-span-12">
-                                <div class="xl:col-span-6 col-span-12">
-                                    <div class="box custom-box">
-                                        <div class="box-header">
-                                            <div class="box-title">Line &amp; Column Chart</div>
+                                <div class="box">
+                                    <div class="box-header justify-between">
+                                        <div class="box-title">Profit Earned</div>
+                                        <div class="hs-dropdown ti-dropdown">
+                                            <a href="javascript:void(0);"
+                                                class="px-2 font-normal text-[0.75rem] text-[#8c9097] dark:text-white/50"
+                                                aria-expanded="false">
+                                                View All<i class="ri-arrow-down-s-line align-middle ms-1 inline-block"></i>
+                                            </a>
+                                            <ul class="hs-dropdown-menu ti-dropdown-menu hidden" role="menu">
+                                                <li><a class="ti-dropdown-item !py-2 !px-[0.9375rem] !text-[0.8125rem] !font-medium block"
+                                                        href="javascript:void(0);">Today</a></li>
+                                                <li><a class="ti-dropdown-item !py-2 !px-[0.9375rem] !text-[0.8125rem] !font-medium block"
+                                                        href="javascript:void(0);">This Week</a></li>
+                                                <li><a class="ti-dropdown-item !py-2 !px-[0.9375rem] !text-[0.8125rem] !font-medium block"
+                                                        href="javascript:void(0);">Last Week</a></li>
+                                            </ul>
                                         </div>
-                                        <div class="box-body">
-                                            <div id="mixed-linecolumn"></div>
-                                        </div>
+                                    </div>
+                                    <div class="box-body !py-0 !ps-0">
+                                        <div id="crm-profits-earned"></div>
                                     </div>
                                 </div>
                             </div>
@@ -444,277 +457,8 @@
 
 
                         </div>
-                        <div class="xxl:col-span-12 xl:col-span-6  col-span-12">
-                            <div class="box">
-                                <div class="box-header justify-between">
-                                    <div class="box-title">
-                                        Deals Status
-                                    </div>
-                                    <div class="hs-dropdown ti-dropdown">
-                                        <a href="javascript:void(0);"
-                                            class="text-[0.75rem] px-2 font-normal text-[#8c9097] dark:text-white/50"
-                                            aria-expanded="false">
-                                            View All<i class="ri-arrow-down-s-line align-middle ms-1 inline-block"></i>
-                                        </a>
-                                        <ul class="hs-dropdown-menu ti-dropdown-menu hidden" role="menu">
-                                            <li><a class="ti-dropdown-item !py-2 !px-[0.9375rem] !text-[0.8125rem] !font-medium block"
-                                                    href="javascript:void(0);">Today</a></li>
-                                            <li><a class="ti-dropdown-item !py-2 !px-[0.9375rem] !text-[0.8125rem] !font-medium block"
-                                                    href="javascript:void(0);">This Week</a></li>
-                                            <li><a class="ti-dropdown-item !py-2 !px-[0.9375rem] !text-[0.8125rem] !font-medium block"
-                                                    href="javascript:void(0);">Last Week</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="box-body">
-                                    <div class="flex items-center mb-[0.8rem]">
-                                        <h4 class="font-bold mb-0 text-[1.5rem] ">4,289</h4>
-                                        <div class="ms-2">
-                                            <span
-                                                class="py-[0.18rem] px-[0.45rem] rounded-sm text-success !font-medium !text-[0.75em] bg-success/10">1.02<i
-                                                    class="ri-arrow-up-s-fill align-mmiddle ms-1"></i></span>
-                                            <span class="text-[#8c9097] dark:text-white/50 text-[0.813rem] ms-1">compared
-                                                to last week</span>
-                                        </div>
-                                    </div>
 
-                                    <div class="flex w-full h-[0.3125rem] mb-6 rounded-full overflow-hidden">
-                                        <div
-                                            class="flex flex-col justify-center rounded-s-[0.625rem] overflow-hidden bg-primary w-[21%]">
-                                        </div>
-                                        <div
-                                            class="flex flex-col justify-center rounded-none overflow-hidden bg-info w-[26%]">
-                                        </div>
-                                        <div
-                                            class="flex flex-col justify-center rounded-none overflow-hidden bg-warning w-[35%]">
-                                        </div>
-                                        <div
-                                            class="flex flex-col justify-center rounded-e-[0.625rem] overflow-hidden bg-success w-[18%]">
-                                        </div>
-                                    </div>
-                                    <ul class="list-none mb-0 pt-2 crm-deals-status">
-                                        <li class="primary">
-                                            <div class="flex items-center text-[0.813rem]  justify-between">
-                                                <div>Successful Deals</div>
-                                                <div class="text-[0.75rem] text-[#8c9097] dark:text-white/50">987
-                                                    deals</div>
-                                            </div>
-                                        </li>
-                                        <li class="info">
-                                            <div class="flex items-center text-[0.813rem]  justify-between">
-                                                <div>Pending Deals</div>
-                                                <div class="text-[0.75rem] text-[#8c9097] dark:text-white/50">1,073
-                                                    deals</div>
-                                            </div>
-                                        </li>
-                                        <li class="warning">
-                                            <div class="flex items-center text-[0.813rem]  justify-between">
-                                                <div>Rejected Deals</div>
-                                                <div class="text-[0.75rem] text-[#8c9097] dark:text-white/50">1,674
-                                                    deals</div>
-                                            </div>
-                                        </li>
-                                        <li class="success">
-                                            <div class="flex items-center text-[0.813rem]  justify-between">
-                                                <div>Upcoming Deals</div>
-                                                <div class="text-[0.75rem] text-[#8c9097] dark:text-white/50">921
-                                                    deals</div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="xxl:col-span-12 xl:col-span-6  col-span-12">
-                            <div class="box">
-                                <div class="box-header justify-between">
-                                    <div class="box-title">
-                                        Recent Activity
-                                    </div>
-                                    <div class="hs-dropdown ti-dropdown">
-                                        <a href="javascript:void(0);"
-                                            class="text-[0.75rem] px-2 font-normal text-[#8c9097] dark:text-white/50"
-                                            aria-expanded="false">
-                                            View All<i class="ri-arrow-down-s-line align-middle ms-1 inline-block"></i>
-                                        </a>
-                                        <ul class="hs-dropdown-menu ti-dropdown-menu hidden" role="menu">
-                                            <li><a class="ti-dropdown-item !py-2 !px-[0.9375rem] !text-[0.8125rem] !font-medium block"
-                                                    href="javascript:void(0);">Today</a></li>
-                                            <li><a class="ti-dropdown-item !py-2 !px-[0.9375rem] !text-[0.8125rem] !font-medium block"
-                                                    href="javascript:void(0);">This Week</a></li>
-                                            <li><a class="ti-dropdown-item !py-2 !px-[0.9375rem] !text-[0.8125rem] !font-medium block"
-                                                    href="javascript:void(0);">Last Week</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="box-body">
-                                    <div>
-                                        <ul class="list-none mb-0 crm-recent-activity">
-                                            <li class="crm-recent-activity-content">
-                                                <div class="flex items-start">
-                                                    <div class="me-4">
-                                                        <span
-                                                            class="w-[1.25rem] h-[1.25rem] inline-flex items-center justify-center font-medium leading-[1.25rem] text-[0.65rem] text-primary bg-primary/10 rounded-full">
-                                                            <i class="bi bi-circle-fill text-[0.5rem]"></i>
-                                                        </span>
-                                                    </div>
-                                                    <div class="crm-timeline-content text-defaultsize">
-                                                        <span class="font-semibold ">Update of calendar events
-                                                            &amp;</span><span><a href="javascript:void(0);"
-                                                                class="text-primary font-semibold">
-                                                                Added new events in next week.</a></span>
-                                                    </div>
-                                                    <div class="flex-grow text-end">
-                                                        <span
-                                                            class="block text-[#8c9097] dark:text-white/50 text-[0.6875rem] opacity-[0.7]">4:45PM</span>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="crm-recent-activity-content">
-                                                <div class="flex items-start  text-defaultsize">
-                                                    <div class="me-4">
-                                                        <span
-                                                            class="w-[1.25rem] h-[1.25rem] leading-[1.25rem] inline-flex items-center justify-center font-medium text-[0.65rem] text-secondary bg-secondary/10 rounded-full">
-                                                            <i class="bi bi-circle-fill text-[0.5rem]"></i>
-                                                        </span>
-                                                    </div>
-                                                    <div class="crm-timeline-content">
-                                                        <span>New theme for <span class="font-semibold">Spruko
-                                                                Website</span> completed</span>
-                                                        <span
-                                                            class="block text-[0.75rem] text-[#8c9097] dark:text-white/50">Lorem
-                                                            ipsum, dolor sit amet.</span>
-                                                    </div>
-                                                    <div class="flex-grow text-end">
-                                                        <span
-                                                            class="block text-[#8c9097] dark:text-white/50 text-[0.6875rem] opacity-[0.7]">3
-                                                            hrs</span>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="crm-recent-activity-content  text-defaultsize">
-                                                <div class="flex items-start">
-                                                    <div class="me-4">
-                                                        <span
-                                                            class="w-[1.25rem] h-[1.25rem] leading-[1.25rem] inline-flex items-center justify-center font-medium text-[0.65rem] text-success bg-success/10 rounded-full">
-                                                            <i class="bi bi-circle-fill  text-[0.5rem]"></i>
-                                                        </span>
-                                                    </div>
-                                                    <div class="crm-timeline-content">
-                                                        <span>Created a <span class="text-success font-semibold">New
-                                                                Task</span> today <span
-                                                                class="w-[1.25rem] h-[1.25rem] leading-[1.25rem] text-[0.65rem] inline-flex items-center justify-center font-medium bg-purple/10 rounded-full ms-1"><i
-                                                                    class="ri-add-fill text-purple text-[0.75rem]"></i></span></span>
-                                                    </div>
-                                                    <div class="flex-grow text-end">
-                                                        <span
-                                                            class="block text-[#8c9097] dark:text-white/50 text-[0.6875rem] opacity-[0.7]">22
-                                                            hrs</span>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="crm-recent-activity-content  text-defaultsize">
-                                                <div class="flex items-start">
-                                                    <div class="me-4">
-                                                        <span
-                                                            class="w-[1.25rem] h-[1.25rem] leading-[1.25rem] inline-flex items-center justify-center font-medium text-[0.65rem] text-pink bg-pink/10 rounded-full">
-                                                            <i class="bi bi-circle-fill text-[0.5rem]"></i>
-                                                        </span>
-                                                    </div>
-                                                    <div class="crm-timeline-content">
-                                                        <span>New member <span
-                                                                class="py-[0.2rem] px-[0.45rem] font-semibold rounded-sm text-pink text-[0.75em] bg-pink/10">@andreas
-                                                                gurrero</span> added today to AI Summit.</span>
-                                                    </div>
-                                                    <div class="flex-grow text-end">
-                                                        <span
-                                                            class="block text-[#8c9097] dark:text-white/50 text-[0.6875rem] opacity-[0.7]">Today</span>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="crm-recent-activity-content  text-defaultsize">
-                                                <div class="flex items-start">
-                                                    <div class="me-4">
-                                                        <span
-                                                            class="w-[1.25rem] h-[1.25rem] leading-[1.25rem] inline-flex items-center justify-center font-medium text-[0.65rem] text-warning bg-warning/10 rounded-full">
-                                                            <i class="bi bi-circle-fill text-[0.5rem]"></i>
-                                                        </span>
-                                                    </div>
-                                                    <div class="crm-timeline-content">
-                                                        <span>32 New people joined summit.</span>
-                                                    </div>
-                                                    <div class="flex-grow text-end">
-                                                        <span
-                                                            class="block text-[#8c9097] dark:text-white/50 text-[0.6875rem] opacity-[0.7]">22
-                                                            hrs</span>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="crm-recent-activity-content  text-defaultsize">
-                                                <div class="flex items-start">
-                                                    <div class="me-4">
-                                                        <span
-                                                            class="w-[1.25rem] h-[1.25rem] leading-[1.25rem] inline-flex items-center justify-center font-medium text-[0.65rem] text-info bg-info/10 rounded-full">
-                                                            <i class="bi bi-circle-fill text-[0.5rem]"></i>
-                                                        </span>
-                                                    </div>
-                                                    <div class="crm-timeline-content">
-                                                        <span>Neon Tarly added <span class="text-info font-semibold">Robert
-                                                                Bright</span>
-                                                            to AI
-                                                            summit project.</span>
-                                                    </div>
-                                                    <div class="flex-grow text-end">
-                                                        <span
-                                                            class="block text-[#8c9097] dark:text-white/50 text-[0.6875rem] opacity-[0.7]">12
-                                                            hrs</span>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="crm-recent-activity-content  text-defaultsize">
-                                                <div class="flex items-start">
-                                                    <div class="me-4">
-                                                        <span
-                                                            class="w-[1.25rem] h-[1.25rem] leading-[1.25rem] inline-flex items-center justify-center font-medium text-[0.65rem] text-[#232323] dark:text-white bg-[#232323]/10 dark:bg-white/20 rounded-full">
-                                                            <i class="bi bi-circle-fill text-[0.5rem]"></i>
-                                                        </span>
-                                                    </div>
-                                                    <div class="crm-timeline-content">
-                                                        <span>Replied to new support request <i
-                                                                class="ri-checkbox-circle-line text-success text-[1rem] align-middle"></i></span>
-                                                    </div>
-                                                    <div class="flex-grow text-end">
-                                                        <span
-                                                            class="block text-[#8c9097] dark:text-white/50 text-[0.6875rem] opacity-[0.7]">4
-                                                            hrs</span>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="crm-recent-activity-content  text-defaultsize">
-                                                <div class="flex items-start">
-                                                    <div class="me-4">
-                                                        <span
-                                                            class="w-[1.25rem] h-[1.25rem] leading-[1.25rem] inline-flex items-center justify-center font-medium text-[0.65rem] text-purple bg-purple/10 rounded-full">
-                                                            <i class="bi bi-circle-fill text-[0.5rem]"></i>
-                                                        </span>
-                                                    </div>
-                                                    <div class="crm-timeline-content">
-                                                        <span>Completed documentation of <a href="javascript:void(0);"
-                                                                class="text-purple underline font-semibold">AI
-                                                                Summit.</a></span>
-                                                    </div>
-                                                    <div class="flex-grow text-end">
-                                                        <span
-                                                            class="block text-[#8c9097] dark:text-white/50 text-[0.6875rem] opacity-[0.7]">4
-                                                            hrs</span>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                       
                     </div>
                 </div>
             </div>
