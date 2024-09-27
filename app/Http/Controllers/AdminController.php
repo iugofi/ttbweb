@@ -301,67 +301,55 @@ class AdminController extends Controller
 
     public function getChartDataPay()
     {
+        $teamBRange = DB::table('team_b')->select('month', 'min_value', 'max_value')->get();
+        $teamBRangeData = [];
+        foreach ($teamBRange as $data) {
+            $teamBRangeData[] = ['x' => $data->month, 'y' => [$data->min_value, $data->max_value]];
+        }
+
+
+        $teamARange = DB::table('team_a')->select('month', 'min_value', 'max_value')->get();
+        $teamARangeData = [];
+        foreach ($teamARange as $data) {
+            $teamARangeData[] = ['x' => $data->month, 'y' => [$data->min_value, $data->max_value]];
+        }
+
+
+        $teamBMedian = DB::table('team_b')->select('month', 'median_value')->get();
+        $teamBMedianData = [];
+        foreach ($teamBMedian as $data) {
+            $teamBMedianData[] = ['x' => $data->month, 'y' => $data->median_value];
+        }
+
+
+        $teamAMedian = DB::table('team_a')->select('month', 'median_value')->get();
+        $teamAMedianData = [];
+        foreach ($teamAMedian as $data) {
+            $teamAMedianData[] = ['x' => $data->month, 'y' => $data->median_value];
+        }
+
+        
         $chartData = [
             'series' => [
                 [
                     'type' => 'rangeArea',
-                    'name' => 'Antivirus',
-                    'data' => [
-                        ['x' => 'Jan', 'y' => [1100, 1900]],
-                        ['x' => 'Feb', 'y' => [1200, 1800]],
-                        ['x' => 'Mar', 'y' => [900, 2900]],
-                        ['x' => 'Apr', 'y' => [1400, 2700]],
-                        ['x' => 'May', 'y' => [2600, 3900]],
-                        ['x' => 'Jun', 'y' => [500, 1700]],
-                        ['x' => 'Jul', 'y' => [1900, 2300]],
-                        ['x' => 'Aug', 'y' => [1000, 1500]]
-                    ]
+                    'name' => 'Team B Range',
+                    'data' => $teamBRangeData
                 ],
                 [
                     'type' => 'rangeArea',
-                    'name' => 'Vpn Shild',
-                    'data' => [
-                        ['x' => 'Jan', 'y' => [3100, 3400]],
-                        ['x' => 'Feb', 'y' => [4200, 5200]],
-                        ['x' => 'Mar', 'y' => [3900, 4900]],
-                        ['x' => 'Apr', 'y' => [3400, 3900]],
-                        ['x' => 'May', 'y' => [5100, 5900]],
-                        ['x' => 'Jun', 'y' => [5400, 6700]],
-                        ['x' => 'Jul', 'y' => [4300, 4600]],
-                        ['x' => 'Aug', 'y' => [2100, 2900]]
-                    ]
+                    'name' => 'Team A Range',
+                    'data' => $teamARangeData
                 ],
                 [
                     'type' => 'line',
-                    'name' => 'Antivirus Median',
-                    'data' => [
-                        ['x' => 'Jan', 'y' => 1500],
-                        ['x' => 'Feb', 'y' => 1700],
-                        ['x' => 'Mar', 'y' => 1900],
-                        ['x' => 'Apr', 'y' => 2200],
-                        ['x' => 'May', 'y' => 3000],
-                        ['x' => 'Jun', 'y' => 1000],
-                        ['x' => 'Jul', 'y' => 2100],
-                        ['x' => 'Aug', 'y' => 1200],
-                        ['x' => 'Sep', 'y' => 1800],
-                        ['x' => 'Oct', 'y' => 2000]
-                    ]
+                    'name' => 'Team B Median',
+                    'data' => $teamBMedianData
                 ],
                 [
                     'type' => 'line',
-                    'name' => 'Vpn Shild Median',
-                    'data' => [
-                        ['x' => 'Jan', 'y' => 3300],
-                        ['x' => 'Feb', 'y' => 4900],
-                        ['x' => 'Mar', 'y' => 4300],
-                        ['x' => 'Apr', 'y' => 3700],
-                        ['x' => 'May', 'y' => 5500],
-                        ['x' => 'Jun', 'y' => 5900],
-                        ['x' => 'Jul', 'y' => 4500],
-                        ['x' => 'Aug', 'y' => 2400],
-                        ['x' => 'Sep', 'y' => 2100],
-                        ['x' => 'Oct', 'y' => 1500]
-                    ]
+                    'name' => 'Team A Median',
+                    'data' => $teamAMedianData
                 ]
             ]
         ];
