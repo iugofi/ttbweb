@@ -51,9 +51,9 @@ class SavePaymentDetails implements ShouldQueue
                 ->limit(1)
                 ->first();
 
-            dd("with key");
 
             if ($getkey !== null) {
+            dd("with key");
                 $getkey->is_key_used = 1;
                 $getkey->key_activation_date = now();
 
