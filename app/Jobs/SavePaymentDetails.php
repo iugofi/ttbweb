@@ -53,7 +53,7 @@ class SavePaymentDetails implements ShouldQueue
 
 
             if ($getkey !== null) {
-            dd("with key");
+            // dd("with key");
                 $getkey->is_key_used = 1;
                 $getkey->key_activation_date = now();
 
@@ -94,7 +94,7 @@ class SavePaymentDetails implements ShouldQueue
                 Mail::to($paymentEmail)->send(new ActivationKeySend($ttb_key_assignId));
 
             } else {
-            dd("without key");
+            // dd("without key");
 
                 Mail::to('kunal.iugofi@gmail.com')->send(new FailKeySendMail($paymentId));
             }
