@@ -51,7 +51,7 @@ class SavePaymentDetails implements ShouldQueue
                 ->limit(1)
                 ->first();
 
-            dd($getkey);
+            dd("with key");
 
             if ($getkey) {
                 $getkey->is_key_used = 1;
@@ -94,6 +94,8 @@ class SavePaymentDetails implements ShouldQueue
                 Mail::to($paymentEmail)->send(new ActivationKeySend($ttb_key_assignId));
 
             } else {
+            dd("without key");
+
                 Mail::to('kunal.iugofi@gmail.com')->send(new FailKeySendMail($paymentId));
             }
 
