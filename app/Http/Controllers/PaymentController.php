@@ -331,7 +331,7 @@ class PaymentController extends Controller
                 'payment_time' => now(),
                 'tab3'=>'firstpay3',
             ]);
-
+            dd($paymentData);
             Session::put('user_data', $paymentData);
             SavePaymentDetails::dispatch($paymentData);
             $id_on=$checkses['product_id'];
