@@ -53,7 +53,7 @@ class SavePaymentDetails implements ShouldQueue
 
             dd("with key");
 
-            if ($getkey) {
+            if ($getkey !== null) {
                 $getkey->is_key_used = 1;
                 $getkey->key_activation_date = now();
 
