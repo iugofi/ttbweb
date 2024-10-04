@@ -109,6 +109,8 @@
                                                     </th>
                                                     <th scope="col" class="text-start">First Name</th>
                                                     <th scope="col" class="text-start">Order Id</th>
+                                                    <th scope="col" class="text-start">Key Type</th>
+                                                    <th scope="col" class="text-start">Product Name</th>
                                                     <th scope="col" class="text-start">Created Date</th>
                                                     <th scope="col" class="text-start">Status</th>
                                                 </tr>
@@ -126,6 +128,8 @@
                                                             </label>
 
                                                     </th>
+                                                    <td>{{ $payment->name }}</td>
+                                                    <td>{{ $payment->PICK_TEXT }}</td>
                                                     <td>{{ $payment->order_id }}</td>
                                                     <td>{{ $payment->payment_time }}</td>
                                                     <td>{{ $payment->payment_status }}</td>

@@ -174,12 +174,15 @@ class AdminController extends Controller
             $paymentdetails = DB::select("
             SELECT *
             FROM payments1 p
+            JOIN product_details AS pd ON pd.id=p.product_id
+             LEFT JOIN planname AS pn ON pn.plan_id = pd.plan_id
+	     LEFT JOIN storepick AS sp ON sp.PICK_ID = pd.key_type
             WHERE NOT EXISTS (
                 SELECT 1
                 FROM ttb_key_assign tka
                 WHERE tka.payment_id = p.id
             )
-            ORDER BY p.id ASC
+            ORDER BY p.id ASC;
         ");
 
             $Product_Total = DB::select("
