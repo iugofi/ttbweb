@@ -128,9 +128,9 @@
                                                             </label>
 
                                                     </th>
+                                                    <td>{{ $payment->order_id }}</td>
                                                     <td>{{ $payment->name }}</td>
                                                     <td>{{ $payment->PICK_TEXT }}</td>
-                                                    <td>{{ $payment->order_id }}</td>
                                                     <td>{{ $payment->payment_time }}</td>
                                                     <td>{{ $payment->payment_status }}</td>
                                                 </tr>
