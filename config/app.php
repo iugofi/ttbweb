@@ -183,6 +183,7 @@ return [
         Illuminate\View\ViewServiceProvider::class,
         Statikbe\CookieConsent\CookieConsentServiceProvider::class,
         Laravel\Socialite\SocialiteServiceProvider::class,
+        Spatie\Sitemap\SitemapServiceProvider::class,
 
         /*
          * Package Service Providers...
