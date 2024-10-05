@@ -4,6 +4,8 @@ namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
 use Spatie\Sitemap\Sitemap;
+use Spatie\Sitemap\SitemapGenerator;
+use Spatie\Sitemap\Tags\Url;
 
 class GenerateSitemap extends Command
 {
@@ -28,15 +30,19 @@ class GenerateSitemap extends Command
      */
     public function handle()
     {
-        // Manually create sitemap
-        $sitemap = Sitemap::create();
+        $sitemap = SitemapGenerator::create('https://nighthawk-routerlogin.com/')
+        ->hasCrawled(function (Url $url) {
+            return $url; 
+        })
+        ->getSitemap();
 
-        // Static pages
-        $sitemap->add('/');
-        $sitemap->add('/vpn-shield');
-        $sitemap->add('/ttbantivirus');
-        $sitemap->add('/totel-internet-security');
-        $sitemap->add('/commercial');
-        $sitemap->writeToFile(public_path('sitemap.xml'));
+    // Add static pages to the sitemap
+    $sitemap->add('/vpn-shield');
+    $sitemap->add('/ttbantivirus');
+    $sitemap->add('/totel-internet-security');
+    $sitemap->add('/commercial');
+
+    // Write the sitemap to the file once after adding all URLs
+    $sitemap->writeToFile(public_path('sitemap.xml'));
     }
 }
