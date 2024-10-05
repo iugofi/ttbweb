@@ -2,6 +2,7 @@
 
 namespace App\Console\Commands;
 
+use App\Models\News;
 use Illuminate\Console\Command;
 use Spatie\Sitemap\Sitemap;
 
@@ -40,6 +41,10 @@ class GenerateSitemap extends Command
         $sitemap->add($baseUrl . '/totel-internet-security');
         $sitemap->add($baseUrl . '/commercial');
 
+        $news = News::all();
+        foreach ($news as $newss) {
+            $sitemap->add($baseUrl . "/{$newss->slug}");
+        }
         // Write sitemap to file
         $sitemap->writeToFile(base_path('sitemap.xml'));
     }
