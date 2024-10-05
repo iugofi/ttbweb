@@ -45,7 +45,7 @@ class GenerateSitemap extends Command
 
         $news = News::all();
         foreach ($news as $newss) {
-            $sitemap->add($baseUrl . "/{$newss->slug}");
+            $sitemap->add($baseUrl . "news/{$newss->slug}");
         }
         // Write sitemap to file
         $sitemap->writeToFile(base_path('sitemap.xml'));
