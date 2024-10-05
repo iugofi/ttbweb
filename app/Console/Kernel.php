@@ -22,7 +22,7 @@ class Kernel extends ConsoleKernel
     {
         // $schedule->command('inspire')->hourly();
         $schedule->command('subscription:send-renewal-reminder')->daily();
-        $schedule->command('sitemap:generate')->daily();
+        $schedule->command('sitemap:sitemap:generate')->daily();
 
     }
 
