@@ -16,6 +16,7 @@ class Kernel extends ConsoleKernel
 
      protected $commands =[
         Commands\SendRenewalReminder::class,
+        Commands\GenerateSitemap::class,
      ];
     protected function schedule(Schedule $schedule)
     {
