@@ -40,6 +40,7 @@ class GenerateSitemap extends Command
         $sitemap->add($baseUrl . '/ttbantivirus');
         $sitemap->add($baseUrl . '/totel-internet-security');
         $sitemap->add($baseUrl . '/commercial');
+        $sitemap->add($baseUrl . '/news');
 
         // $news = News::all();
         // foreach ($news as $newss) {
