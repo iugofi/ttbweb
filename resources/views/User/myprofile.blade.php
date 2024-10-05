@@ -188,11 +188,11 @@
                                                 <i class="ri-shield-user-line  align-middle inline-block me-1"></i>Profile
                                                 Information
                                             </a>
-                                            <a class="w-full sm:w-auto flex hs-tab-active:font-semibold  hs-tab-active:text-white hs-tab-active:bg-primary rounded-md  py-2 px-4 text-primary text-sm"
+                                            {{-- <a class="w-full sm:w-auto flex hs-tab-active:font-semibold  hs-tab-active:text-white hs-tab-active:bg-primary rounded-md  py-2 px-4 text-primary text-sm"
                                                 href="javascript:void(0);" id="posts-tab" data-hs-tab="#posts-tab-pane"
                                                 aria-controls="posts-tab-pane">
                                                 <i class="ri-bill-line me-1 align-middle inline-block"></i>My Subscriptions
-                                            </a>
+                                            </a> --}}
                                             <a class="w-full sm:w-auto flex hs-tab-active:font-semibold  hs-tab-active:text-white hs-tab-active:bg-primary rounded-md  py-2 px-4 text-primary text-sm"
                                                 href="javascript:void(0);" id="followers-tab"
                                                 data-hs-tab="#followers-tab-pane" aria-controls="followers-tab-pane">
@@ -625,7 +625,7 @@
 
 
                                             </div>
-                                            <div class="tab-pane fade !p-0 !border-0 hidden !rounded-md"
+                                            {{-- <div class="tab-pane fade !p-0 !border-0 hidden !rounded-md"
                                                 id="posts-tab-pane" role="tabpanel" aria-labelledby="posts-tab"
                                                 tabindex="0">
                                                 <ul class="list-group !rounded-md">
@@ -663,7 +663,7 @@
                                                     </li>
 
                                                 </ul>
-                                            </div>
+                                            </div> --}}
 
 
 
