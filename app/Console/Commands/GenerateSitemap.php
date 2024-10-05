@@ -41,6 +41,6 @@ class GenerateSitemap extends Command
         $sitemap->add($baseUrl . '/commercial');
 
         // Write sitemap to file
-        $sitemap->writeToFile(base_path('assets/sitemap.xml'));
+        $sitemap->writeToFile(base_path('sitemap.xml'));
     }
 }
