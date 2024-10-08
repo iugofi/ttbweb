@@ -1228,6 +1228,20 @@ class AdminController extends Controller
         }
     }
 
+
+    public function useradminlist($id)
+    {
+        if ($this->loggedInAdmin) {
+            $item = Admin::findOrFail($id);
+
+            $item->delete();
+            return response()->json(['message' => 'deleted successfully']);
+        } else {
+            return redirect('/setup');
+        }
+    }
+
+
     public function fatchadmindataajax(Request $request)
     {
         if ($this->loggedInAdmin) {

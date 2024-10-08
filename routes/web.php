@@ -282,6 +282,8 @@ Route::get('/mailtest', [UserController::class, 'mailtest'])->name('admin.mailte
          Route::get('/useradminpage', [AdminController::class, 'useradminpage'])->name('admin.useradminpage');
          Route::get('/adminuseredit/{id}', [AdminController::class, 'adminuseredit'])->name('edit.adminuseredit');
          Route::post('/editadminusersave', [AdminController::class, 'editadminusersave'])->name('edit.editadminusersave');
+         Route::delete('/useradminlist/{id}', [AdminController::class, 'useradminlist'])->name('delete.useradminlist');
+
 
 
 
