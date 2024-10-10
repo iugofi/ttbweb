@@ -150,17 +150,17 @@
                                 <span>OR</span>
                             </div>
                             <div class="btn-list text-center">
-                                <button aria-label="button" type="button"
+                                {{-- <button aria-label="button" type="button"
                                     class="ti-btn ti-btn-icon ti-btn-light me-[0.365rem]">
                                     <i class="ri-facebook-line font-bold text-dark opacity-[0.7]"></i>
-                                </button>
+                                </button> --}}
                                 <button aria-label="button" type="button"
                                     class="ti-btn ti-btn-icon ti-btn-light me-[0.365rem]">
                                     <i class="ri-google-line font-bold text-dark opacity-[0.7]"></i>
                                 </button>
-                                <button aria-label="button" type="button" class="ti-btn ti-btn-icon ti-btn-light">
+                                {{-- <button aria-label="button" type="button" class="ti-btn ti-btn-icon ti-btn-light">
                                     <i class="ri-twitter-line font-bold text-dark opacity-[0.7]"></i>
-                                </button>
+                                </button> --}}
                             </div>
                             <div class="text-center">
                                 <p class="text-[0.75rem] text-[#8c9097] dark:text-blue/50 mt-4">
