@@ -208,7 +208,7 @@
                         <li><a href="https://www.nighthawk-routerlogin.com/Privacy_policy" class="text-white">Privacy Policy</a></li>
                         <li><a href="https://www.nighthawk-routerlogin.com/Terms_of_Service" class="text-white">Terms Of Service</a></li>
                         <li><a href="https://www.nighthawk-routerlogin.com/Return_Refund_Policy" class="text-white">Return &amp; Refund Policy</a></li>
-                        <li><a href="{{asset('assets/sitemap.xml')}}" class="text-white">Sitemap</a></li>
+                        <li><a href="/sitemap.xml" class="text-white">Sitemap</a></li>
                     </ul>
                 </div>
             </div>
