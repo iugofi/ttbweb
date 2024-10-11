@@ -441,10 +441,12 @@
                                         <div class="tab-pane show active !p-0 border-b-0 dark:border-defaultborder/10"
                                             id="pricing-monthly-pane" role="tabpanel">
                                             <div class="grid grid-cols-12">
+
+                                                @foreach ($antivirus as $antivirusitem)
                                                 <div
                                                     class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 sm:col-span-12 col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 px-0 box-price">
                                                     <div class="p-6 pricing-offer overflow-hidden">
-                                                        <h6 class="font-semibold text-center text-[1rem]">Plus</h6>
+                                                        <h6 class="font-semibold text-center text-[1rem]">{{ $antivirusitem->name }}</h6>
                                                         <div class="text-box-price">
                                                             <p>Annual</p>
                                                         </div>
@@ -456,8 +458,7 @@
                                                             <div class="text-end ms-5">
                                                                 <p class="text-center"> <del>$59.99</del> <span
                                                                         class="text-primary">50% OFF</span></p>
-                                                                <p class="text-[1.5625rem] font-semibold mb-0 ">$1,299 per
-                                                                    month</p>
+                                                                <p class="text-[1.5625rem] font-semibold mb-0 ">${{ $antivirusitem->price }}</p>
                                                                 <p class="sub-p !text-defaulttextcolor">
                                                                     See Subscription details below *</p>
                                                             </div>
@@ -492,6 +493,9 @@
 
                                                     </div>
                                                 </div>
+                                                @endforeach
+
+
                                                 <div
                                                     class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 sm:col-span-12 col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 px-0 box-price">
                                                     <div class="p-6 pricing-offer overflow-hidden">
