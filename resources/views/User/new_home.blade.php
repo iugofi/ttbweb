@@ -437,6 +437,7 @@
                             <div class="box overflow-hidden">
                                 <div class="box-body !p-0">
                                     <div class="tab-content" id="myTabContent">
+
                                         <div class="tab-pane show active !p-0 border-b-0 dark:border-defaultborder/10"
                                             id="pricing-monthly-pane" role="tabpanel">
                                             <div class="grid grid-cols-12">
@@ -707,6 +708,7 @@
                                                 </div>
                                             </div>
                                         </div>
+
                                         <div class="tab-pane !p-0 border-b-0 dark:border-defaultborder/10 hidden"
                                             id="pricing-yearly-pane" role="tabpanel">
                                             <div class="grid grid-cols-12">
