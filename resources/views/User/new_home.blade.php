@@ -483,7 +483,8 @@
                                                             </div>
                                                             <ul class="list-none text-[0.75rem] pt-4 mb-0">
                                                                 <li class="mb-4">
-                                                                    <i class="fa-solid fa-check"></i><span>1 PC, Mac,
+                                                                    <i class="fa-solid fa-check"></i>
+                                                                    <span>1 PC, Mac,
                                                                         tablet,
                                                                         or phone</span>
                                                                 </li>
