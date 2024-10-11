@@ -457,10 +457,11 @@
                                                             </div>
                                                             <div class="text-end ms-5">
                                                                 <p class="text-center"> <del>@php
-                                                             
+
                                                                     $originalPrice = $antivirusitem->price;
                                                                     $discountAmount = ($originalPrice * $antivirusitem->discount_percent) / 100;
                                                                     $finalPrice = $originalPrice - $discountAmount;
+                                                                    echo $finalPrice;
                                                                 @endphp
                                                                 </del> <span
                                                                         class="text-primary">{{ $antivirusitem->discount_percent }}% OFF</span></p>
