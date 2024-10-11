@@ -443,63 +443,71 @@
                                             <div class="grid grid-cols-12">
 
                                                 @foreach ($antivirus as $antivirusitem)
-                                                <div
-                                                    class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 sm:col-span-12 col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 px-0 box-price">
-                                                    <div class="p-6 pricing-offer overflow-hidden">
-                                                        <h6 class="font-semibold text-center text-[1rem]">{{ $antivirusitem->name }}</h6>
-                                                        <div class="text-box-price">
-                                                            <p>Annual</p>
-                                                        </div>
-
-                                                        <div class="py-4 flex items-center justify-center">
-                                                            <div class="pricing-svg1">
-
+                                                    <div
+                                                        class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 sm:col-span-12 col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 px-0 box-price">
+                                                        <div class="p-6 pricing-offer overflow-hidden">
+                                                            <h6 class="font-semibold text-center text-[1rem]">
+                                                                {{ $antivirusitem->name }}</h6>
+                                                            <div class="text-box-price">
+                                                                <p>Annual</p>
                                                             </div>
-                                                            <div class="text-end ms-5">
-                                                                <p class="text-center"> <del>@php
 
-                                                                    $originalPrice = $antivirusitem->price;
-                                                                    $discountAmount = ($originalPrice * $antivirusitem->discount_percent) / 100;
-                                                                    $finalPrice = $originalPrice + $discountAmount;
-                                                                    echo $finalPrice;
-                                                                @endphp
-                                                                </del> <span
-                                                                        class="text-primary">&nbsp;{{ $antivirusitem->discount_percent }}% OFF</span></p>
-                                                                <p class="text-[1.5625rem] font-semibold mb-0 ">${{ $antivirusitem->price }}</p>
-                                                                <p class="sub-p !text-defaulttextcolor">
-                                                                    See Subscription details below *</p>
+                                                            <div class="py-4 flex items-center justify-center">
+                                                                <div class="pricing-svg1">
+
+                                                                </div>
+                                                                <div class="text-end ms-5">
+                                                                    <p class="text-center"> <del>@php
+
+                                                                        $originalPrice = $antivirusitem->price;
+                                                                        $discountAmount =
+                                                                            ($originalPrice *
+                                                                                $antivirusitem->discount_percent) /
+                                                                            100;
+                                                                        $finalPrice = $originalPrice + $discountAmount;
+                                                                        echo $finalPrice;
+                                                                    @endphp
+                                                                        </del> <span
+                                                                            class="text-primary">&nbsp;{{ $antivirusitem->discount_percent }}%
+                                                                            OFF</span></p>
+                                                                    <p class="text-[1.5625rem] font-semibold mb-0 ">
+                                                                        ${{ $antivirusitem->price }}</p>
+                                                                    <p class="sub-p !text-defaulttextcolor">
+                                                                        See Subscription details below *</p>
+                                                                </div>
                                                             </div>
-                                                        </div>
-                                                        <div class="grid">
-                                                            <a href="{{ route('user.fpay', ['id' => encrypt($antivirusitem->id)]) }}"
-                                                                class="ti-btn bg-primary text-white mt-5">Get
-                                                                Started</a>
-                                                        </div>
-                                                        <ul class="list-none text-[0.75rem] pt-4 mb-0">
-                                                            <li class="mb-4">
-                                                                <i class="fa-solid fa-check"></i><span>1 PC, Mac, tablet,
-                                                                    or phone</span>
-                                                            </li>
-                                                            <li class="mb-4">
-                                                                <i class="fa-solid fa-check"></i><span>Antivirus, malware,
-                                                                    ransomware, and hacking protection</span>
-                                                            </li>
-                                                            <li class="mb-4">
-                                                                <i class="fa-solid fa-check"></i><span>100% Virus
-                                                                    Protection Promise2</span>
-                                                            </li>
-                                                            <li class="mb-4">
-                                                                <i class="fa-solid fa-check"></i><span>2GB Cloud
-                                                                    Backup‡‡,4</span>
-                                                            </li>
-                                                            <li class="mb-4">
-                                                                <i class="fa-solid fa-check"></i><span>Password
-                                                                    Manager</span>
-                                                            </li>
-                                                        </ul>
+                                                            <div class="grid">
+                                                                <a href="{{ route('user.fpay', ['id' => encrypt($antivirusitem->id)]) }}"
+                                                                    class="ti-btn bg-primary text-white mt-5">Get
+                                                                    Started</a>
+                                                            </div>
+                                                            <ul class="list-none text-[0.75rem] pt-4 mb-0">
+                                                                <li class="mb-4">
+                                                                    <i class="fa-solid fa-check"></i><span>1 PC, Mac,
+                                                                        tablet,
+                                                                        or phone</span>
+                                                                </li>
+                                                                <li class="mb-4">
+                                                                    <i class="fa-solid fa-check"></i><span>Antivirus,
+                                                                        malware,
+                                                                        ransomware, and hacking protection</span>
+                                                                </li>
+                                                                <li class="mb-4">
+                                                                    <i class="fa-solid fa-check"></i><span>100% Virus
+                                                                        Protection Promise2</span>
+                                                                </li>
+                                                                <li class="mb-4">
+                                                                    <i class="fa-solid fa-check"></i><span>2GB Cloud
+                                                                        Backup‡‡,4</span>
+                                                                </li>
+                                                                <li class="mb-4">
+                                                                    <i class="fa-solid fa-check"></i><span>Password
+                                                                        Manager</span>
+                                                                </li>
+                                                            </ul>
 
+                                                        </div>
                                                     </div>
-                                                </div>
                                                 @endforeach
 
 
