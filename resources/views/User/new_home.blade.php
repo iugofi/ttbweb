@@ -557,6 +557,11 @@
                                                                 Started</a>
                                                         </div>
                                                         <ul class="list-none text-[0.75rem] pt-4 mb-0">
+                                                            @if ( $vpnshielditem->plan_id==601)
+                                                            <li class="mb-4">
+                                                                <i class="fa-solid fa-check"></i><span>only 601</span>
+                                                            </li>
+                                                            @endif
                                                             <li class="mb-4">
                                                                 <i class="fa-solid fa-check"></i><span>1 PC, Mac, tablet,
                                                                     or phone</span>
