@@ -456,8 +456,8 @@
                                                                 <div class="pricing-svg1">
 
                                                                 </div>
-                                                                <div class="text-end ms-5">
-                                                                    <p class="text-center"> <del>@php
+                                                                <div class="text-end ms-5 text-center">
+                                                                    <p> <del>@php
 
                                                                         $originalPrice = $antivirusitem->price;
                                                                         $discountAmount =
