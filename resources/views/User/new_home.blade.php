@@ -552,9 +552,9 @@
                                                             </div>
                                                         </div>
                                                         <div class="grid">
-                                                            <button type="button"
-                                                                class="ti-btn bg-primary text-white">Get
-                                                                Started</button>
+                                                            <a href="{{ route('user.fpay', ['id' => encrypt($vpnshielditem->id)]) }}"
+                                                                class="ti-btn bg-primary text-white mt-5">Get
+                                                                Started</a>
                                                         </div>
                                                         <ul class="list-none text-[0.75rem] pt-4 mb-0">
                                                             <li class="mb-4">
