@@ -545,7 +545,7 @@
                                                                     echo $finalPrice;
                                                                 @endphp</del> <span
                                                                         class="text-primary">&nbsp;{{ $vpnshielditem->discount_percent }}% OFF</span></p>
-                                                                <p class="text-[1.5625rem] font-semibold mb-0 ">${{ $antivirusitem->price }}
+                                                                <p class="text-[1.5625rem] font-semibold mb-0 ">${{ $vpnshielditem->price }}
                                                                     </p>
                                                                 <p class="sub-p !text-defaulttextcolor">
                                                                     See Subscription details below *</p>
