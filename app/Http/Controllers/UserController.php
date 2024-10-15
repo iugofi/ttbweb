@@ -321,7 +321,7 @@ class UserController extends Controller
             ->select('product_details.id', 'planname.name as name', 'product_details.plan_id','product_details.discount_percent','product_details.price', 'product_details.discount', 'product_details.coupons', DB::raw('(product_details.price)/12 AS monthlyprice'))
             ->where('storepick.STORE_ID', '=', 'key_type')
             ->where('storepick.PICK_ID', '=', 502)
-            ->orderby('product_details.price', 'desc')
+            ->orderby('product_details.price', 'asc')
             ->limit(4)
             ->get();
         $vpnshield = DB::table('product_details')
