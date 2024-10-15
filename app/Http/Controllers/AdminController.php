@@ -1585,7 +1585,7 @@ class AdminController extends Controller
                     'key_type' => $request->planname,
                     'plan_id' => $request->plan_id,
                     'price' => $request->price,
-                    'discount' => $request->discount,
+                    'discount' => $request->discount_percent,
                     'coupons' => $request->coupons,
                     'is_coupons' => $request->coupon_status
 
