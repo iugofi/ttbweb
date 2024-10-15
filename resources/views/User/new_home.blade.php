@@ -446,6 +446,13 @@
                                                     <div
                                                         class="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 sm:col-span-12 col-span-12 md:border-e md:border-b-0 border-b border-dashed dark:border-defaultborder/10 px-0 box-price">
                                                         <div class="p-6 pricing-offer overflow-hidden">
+                                                            @if ( $vpnshielditem->plan_id==604)
+                                                            <span class="pricing-offer-details shadow">
+-                                                            <span class="font-semibold">10%</span> <span
+-                                                                class="text-[0.625rem] op-8 ms-1">Off</span>
+-                                                           </span>
+                                                            @endif
+
                                                             <h6 class="font-semibold text-center text-[1rem]">
                                                                 {{ $antivirusitem->name }}</h6>
                                                             <div class="text-box-price">
