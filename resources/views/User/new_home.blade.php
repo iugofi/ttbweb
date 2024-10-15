@@ -544,11 +544,12 @@
                                                                 <p> <del>@php
 
                                                                     $originalPrice = $vpnshielditem->price;
-                                                                    $discountAmount =
-                                                                        ($originalPrice *
-                                                                            $vpnshielditem->discount_percent) /
-                                                                        100;
-                                                                    $finalPrice = $originalPrice + $discountAmount;
+                                                                    $originalPrice = $vpnshielditem->price;
+                                                                        $discountAmount =
+                                                                            ($originalPrice *
+                                                                                100) /
+                                                                                $vpnshielditem->discount_percent;
+                                                                        $finalPrice = $discountAmount;
                                                                     echo $finalPrice;
                                                                 @endphp</del> <span
                                                                         class="text-primary">&nbsp;{{ $vpnshielditem->discount_percent }}% OFF</span></p>
