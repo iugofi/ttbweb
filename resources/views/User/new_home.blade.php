@@ -467,15 +467,10 @@
                                                                     <p> <del>@php
 
                                                                         $originalPrice = $antivirusitem->price;
-                                                                        
-
-                                                                            $discountAmount =
+                                                                        $discountAmount =
                                                                             ($originalPrice *
                                                                                 $antivirusitem->discount_percent) /
                                                                             100;
-
-
-
                                                                         $finalPrice = $originalPrice + $discountAmount;
                                                                         echo $finalPrice;
                                                                     @endphp
