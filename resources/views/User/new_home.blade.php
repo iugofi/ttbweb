@@ -473,11 +473,14 @@
                                                                                 $antivirusitem->discount_percent + 10) /
                                                                             100;
                                                                         }
-
-                                                                        $discountAmount =
+                                                                        else {
+                                                                            $discountAmount =
                                                                             ($originalPrice *
                                                                                 $antivirusitem->discount_percent) /
                                                                             100;
+                                                                        }
+
+
                                                                         $finalPrice = $originalPrice + $discountAmount;
                                                                         echo $finalPrice;
                                                                     @endphp
