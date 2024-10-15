@@ -467,13 +467,8 @@
                                                                     <p> <del>@php
 
                                                                         $originalPrice = $antivirusitem->price;
-                                                                        if ($antivirusitem->plan_id==604) {
-                                                                            $discountAmount =
-                                                                            ($originalPrice *
-                                                                                $antivirusitem->discount_percent + 10) /
-                                                                            100;
-                                                                        }
-                                                                   
+                                                                        
+
                                                                             $discountAmount =
                                                                             ($originalPrice *
                                                                                 $antivirusitem->discount_percent) /
