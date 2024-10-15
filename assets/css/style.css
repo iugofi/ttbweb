@@ -17497,7 +17497,7 @@ label {
 }
 
 .pricing-offer-details span {
-    font-size: 11px;
+    font-size: 11px !important;
 }
 
 @keyframes blinkBackground {
