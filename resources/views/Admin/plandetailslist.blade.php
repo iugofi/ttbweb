@@ -102,9 +102,9 @@
                                                 <th class="px-4 py-2">Id</th>
                                                 <th class="px-4 py-2">Key Type</th>
                                                 <th class="px-4 py-2">Plan Name</th>
+                                                <th class="px-4 py-2">Discount</th>
                                                 <th class="px-4 py-2">Price</th>
                                                 <th class="px-4 py-2">Image</th>
-                                                <th class="px-4 py-2">Discount</th>
                                                 <th class="px-4 py-2">Coupons</th>
                                                 <th class="px-4 py-2">Is Coupons</th>
                                                 <th class="px-4 py-2">Action</th>
@@ -147,9 +147,9 @@
                                                             echo 'No Plan';
                                                         }
                                                     @endphp</td>
+                                                      <td class="border px-4 py-2">{{ $item->discount_percent }}</td>
                                                     <td class="border px-4 py-2">{{ $item->price }}</td>
                                                     <td class="border px-4 py-2">{{ $item->image }}</td>
-                                                    <td class="border px-4 py-2">{{ $item->discount }}</td>
                                                     <td class="border px-4 py-2">{{ $item->coupons }}</td>
                                                     <td class="border px-4 py-2">{{ $item->is_coupons }}</td>
 
@@ -235,11 +235,11 @@
                                         '</td>' +
                                         '<td class="border px-4 py-2">' + item.plan_id +
                                         '</td>' +
+                                        '<td class="border px-4 py-2">' + item.discount_percent +
+                                        '</td>' +
                                         '<td class="border px-4 py-2">' + item.price +
                                         '</td>' +
                                         '<td class="border px-4 py-2">' + item.image +
-                                        '</td>' +
-                                        '<td class="border px-4 py-2">' + item.discount +
                                         '</td>' +
                                         '<td class="border">' + item.coupons + '</td>' +
                                         '<td class="border">' + item.is_coupons + '</td>' +
