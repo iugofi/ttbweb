@@ -147,7 +147,7 @@
                                                             echo 'No Plan';
                                                         }
                                                     @endphp</td>
-                                                      <td class="border px-4 py-2">{{ $item->discount_percent }}</td>
+                                                      <td class="border px-4 py-2">{{ $item->discount_percent }}%</td>
                                                     <td class="border px-4 py-2">{{ $item->price }}</td>
                                                     <td class="border px-4 py-2">{{ $item->image }}</td>
                                                     <td class="border px-4 py-2">{{ $item->coupons }}</td>
@@ -235,7 +235,7 @@
                                         '</td>' +
                                         '<td class="border px-4 py-2">' + item.plan_id +
                                         '</td>' +
-                                        '<td class="border px-4 py-2">' + item.discount_percent +
+                                        '<td class="border px-4 py-2">' + item.discount_percent +%
                                         '</td>' +
                                         '<td class="border px-4 py-2">' + item.price +
                                         '</td>' +
