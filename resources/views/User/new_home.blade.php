@@ -70,7 +70,7 @@
                                             class="max-w-[550px] lg:w-[600px] md:w-full  absolute top-1/2 left-0 transform  -translate-y-1/2">
 
                                             <div data-swiper-parallax="200" class="wpo-hero-title-top">
-                                                <h2 class="dark-black">TTB–The Intelligent Threat Protection<br> at your
+                                                <h2 class="dark-black">TTB–The Intelligent Threat <br>Protection at your
                                                     fingertips </h2>
                                             </div>
 
@@ -114,7 +114,7 @@
                                             class="max-w-[550px] lg:w-[600px] md:w-full  absolute top-1/2 left-0 transform  -translate-y-1/2">
 
                                             <div data-swiper-parallax="200" class="wpo-hero-title-top">
-                                                <h2 class="dark-black">We Shield the Privacy that matters to<br> you–TTB
+                                                <h2 class="dark-black">We Shield the Privacy that matters <br> to you–TTB
                                                 </h2>
                                             </div>
                                             <div data-swiper-parallax="300" class="slide-text">
