@@ -92,7 +92,7 @@
                                                         <span class="dark-black">Excellent</span><img
                                                             src="{{ asset('assets/home-two-img/Review.png') }}" class="img-fluid">
                                                         <span class="dark-black">18,249
-                                                            Reviews on</span><i class="fa-solid fa-star"></i></a><a
+                                                            Reviews on</span><i class="fa-solid fa-star"></i>Trustpilot</a><a
                                                         href="https://www.av-test.org/en/antivirus/mobile-devices/manufacturer/ttb/"
                                                         target="_blank"><img
                                                             src="{{ asset('assets/home-two-img/AV-Test.png') }}" class="img-fluid"></a>
