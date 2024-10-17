@@ -49177,7 +49177,7 @@ a {
 
 .home-new-banner .swiper-slide img {
     display: inline-block !important;
-    width: 23% !important;
+    /* width: 23% !important; */
     margin: 5px 8px;
 }
 
@@ -49198,7 +49198,7 @@ a {
 
 
 .home-new-banner .av-img-hm{
-    width: 7% !important;
+    width: 47% !important;
 }
 
 .h1-\[511px\] {
