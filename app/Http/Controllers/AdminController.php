@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\ActivationKeySend;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
@@ -23,8 +24,8 @@ use App\Models\Visitors;
 use App\Models\Reminder_logs;
 use App\Models\SendMail;
 use App\Models\TTBKeyAssign;
-use Mail;
 use Illuminate\Support\Facades\Crypt;
+use Illuminate\Support\Facades\Mail;
 
 
 use Illuminate\Support\Facades\File;
@@ -49,34 +50,16 @@ class AdminController extends Controller
         });
     }
 
-    public function manual_key_list()
-    {
 
-        if ($this->loggedInAdmin) {
-            $paymentdetails = DB::select("
-            SELECT *
-            FROM payments1 p
-            WHERE NOT EXISTS (
-                SELECT 1
-                FROM ttb_key_assign tka
-                WHERE tka.payment_id = p.id
-            )
-            ORDER BY p.id ASC
-        ");
-            return view('Admin.manual_key_list', ['paymentdetails' => $paymentdetails]);
-        } else {
-            return redirect('/setup');
-        }
-    }
 
     public function paysettingpage()
     {
 
         if ($this->loggedInAdmin) {
 
-            $pay_getways=Storepick::where('STORE_ID','payment_getways')->get();
+            $pay_getways = Storepick::where('STORE_ID', 'payment_getways')->get();
 
-            return view('Admin.paysettingpage',['pay_getways'=>$pay_getways]);
+            return view('Admin.paysettingpage', ['pay_getways' => $pay_getways]);
         } else {
             return redirect('/setup');
         }
@@ -92,61 +75,96 @@ class AdminController extends Controller
             $paymentGateway->save();
 
             return response()->json(['success' => true]);
-
-
         } else {
             return redirect('/setup');
         }
     }
 
     public function savekeyttb(Request $request)
-{
-    if ($this->loggedInAdmin) {
+    {
+        if ($this->loggedInAdmin) {
 
-        DB::beginTransaction();
-        try {
-            // dd($request);
-            $ttv_check = $request->checkbox;
-            foreach ($ttv_check as $checkbox_id) {
-                $key = DB::table('payments1')
-                    ->where('id', $checkbox_id)
-                    ->first();
+            DB::beginTransaction();
+            try {
+                // dd($request);
+                $ttv_check = $request->checkbox;
+                foreach ($ttv_check as $checkbox_id) {
+                    $key = DB::table('payments1')
+                        ->where('id', $checkbox_id)
+                        ->first();
 
-                if ($key) {
-                    $key_main=DB::table('ttbkey')
-                        ->where('product_id', $key->product_id)
-                        ->update(['is_key_used' => 1]);
-                        if ($key_main) {
-                            $ttbkeysave = new TTBKeyAssign();
-                            $ttbkeysave->payment_id = $checkbox_id;
-                            $ttbkeysave->main_key = $key_main;
-                            $ttbkeysave->mail_send_status ='pending';
-                            $ttbkeysave->save();
+                    if ($key) {
+
+                        $getkey = TTBKEY::where('product_id', $key->product_id)
+                        ->where('is_key_used', 0)
+                            ->orderBy('created_at', 'ASC')
+                            ->limit(1)
+                            ->first();
+
+
+
+                        if ($getkey) {
+                            $plan_id_get = DB::table('product_details')
+                            ->select('plan_id')
+                            ->where('id', $key->product_id)
+                            ->first();
+
+                            if (isset($plan_id_get->plan_id)) {
+                                switch ($plan_id_get->plan_id) {
+                                    case 601:
+                                        $getkey->key_expirey_date = now()->addMonths(1);
+                                        break;
+                                    case 602:
+                                        $getkey->key_expirey_date = now()->addYear();
+                                        break;
+                                    case 603:
+                                    case 604:
+                                    case 605:
+                                        $getkey->key_expirey_date = now()->addYear();
+                                        break;
+                                    default:
+                                        $getkey->key_expirey_date = now();
+                                        break;
+                                }
+                                $getkey->key_activation_date=now();
+                                $getkey->is_key_used=1;
+                                $getkey->save();
+                            }
+
+                            $ttb_key_assignId = DB::table('ttb_key_assign')->insertGetId([
+                                'payment_id' => $checkbox_id,
+                                'main_key' => $getkey->id,
+                                'mail_send_status' => 'success',
+                                'is_manual' => 1,
+                                'created_at' => now(),
+                                'updated_at' => now()
+                            ]);
+
+                            Mail::to($key->email)->send(new ActivationKeySend($ttb_key_assignId));
+
                         }
-
-
+                    }
                 }
+
+                DB::commit();
+
+                return response()->json([
+                    'status' => 200,
+                    'messages' => 'Keys assigned successfully'
+                ]);
+            } catch (\Exception $e) {
+                DB::rollBack();
+
+                return response()->json([
+                    'status' => 500,
+                    'messages' => 'An error occurred: ' . $e->getMessage()
+                ]);
             }
-
-            DB::commit();
-
-            return response()->json([
-                'status' => 200,
-                'messages' => 'Keys assigned successfully'
-            ]);
-
-        } catch (\Exception $e) {
-            DB::rollBack();
-
-            return response()->json([
-                'status' => 500,
-                'messages' => 'An error occurred: ' . $e->getMessage()
-            ]);
+        } else {
+            return redirect('/setup');
         }
-    } else {
-        return redirect('/setup');
     }
-}
+
 
 
     public function manual_key_assign()
@@ -156,50 +174,46 @@ class AdminController extends Controller
             $paymentdetails = DB::select("
             SELECT *
             FROM payments1 p
+            JOIN product_details AS pd ON pd.id=p.product_id
+             LEFT JOIN planname AS pn ON pn.plan_id = pd.plan_id
+	     LEFT JOIN storepick AS sp ON sp.PICK_ID = pd.key_type
             WHERE NOT EXISTS (
                 SELECT 1
                 FROM ttb_key_assign tka
                 WHERE tka.payment_id = p.id
             )
-            ORDER BY p.id ASC
+            ORDER BY p.id ASC;
         ");
 
-        $Product_Total = DB::select("
+            $Product_Total = DB::select("
         SELECT P.product_id,
        COUNT(P.product_id) AS pro_count,
        pn.name AS plan_name,
        sp.PICK_TEXT
-FROM payments1 P
-LEFT JOIN product_details AS pd ON pd.id = P.product_id
-LEFT JOIN planname AS pn ON pn.plan_id = pd.plan_id
-LEFT JOIN storepick AS sp ON sp.PICK_ID = pd.key_type
-WHERE NOT EXISTS (
-    SELECT 1
-    FROM ttb_key_assign TKA
-    WHERE TKA.payment_id = P.id
-)
-AND sp.STORE_ID = 'key_type'
-GROUP BY P.product_id, pn.name, sp.PICK_TEXT
+        FROM payments1 P
+        LEFT JOIN product_details AS pd ON pd.id = P.product_id
+        LEFT JOIN planname AS pn ON pn.plan_id = pd.plan_id
+        LEFT JOIN storepick AS sp ON sp.PICK_ID = pd.key_type
+        WHERE NOT EXISTS (
+            SELECT 1
+            FROM ttb_key_assign TKA
+            WHERE TKA.payment_id = P.id
+        )
+        AND sp.STORE_ID = 'key_type'
+        GROUP BY P.product_id, pn.name, sp.PICK_TEXT
 
-    ");
-
-
-
-
-
-
-
-            return view('Admin.manual_key_assign', ['paymentdetails' => $paymentdetails,'Product_Total'=>$Product_Total]);
+        ");
+            return view('Admin.manual_key_assign', ['paymentdetails' => $paymentdetails, 'Product_Total' => $Product_Total]);
         } else {
             return redirect('/setup');
         }
     }
 
     public function getTTBKeys(Request $request)
-{
-    // $ttb_keys = TTBKEY::where('product_id', $request->payment_id)
-    //     ->where('is_key_used', 0)
-    //     ->get();
+    {
+        // $ttb_keys = TTBKEY::where('product_id', $request->payment_id)
+        //     ->where('is_key_used', 0)
+        //     ->get();
 
         $ttb_keys = DB::select("
         SELECT tk.*
@@ -209,18 +223,18 @@ GROUP BY P.product_id, pn.name, sp.PICK_TEXT
         ORDER BY tk.created_at ASC
     ", [$request->payment_id]);
 
-    return response()->json(['ttb_keys' => $ttb_keys]);
-}
+        return response()->json(['ttb_keys' => $ttb_keys]);
+    }
 
     public function getTreemapData()
     {
 
         $data = DB::table('payments1')
-        ->select('city as x', DB::raw('COUNT(id) as y'))
-        ->whereNotNull('city')
-        ->where('city', '!=', '')
-        ->groupBy('city')
-        ->get();
+            ->select('city as x', DB::raw('COUNT(id) as y'))
+            ->whereNotNull('city')
+            ->where('city', '!=', '')
+            ->groupBy('city')
+            ->get();
         // dd($data);
 
 
@@ -236,6 +250,126 @@ GROUP BY P.product_id, pn.name, sp.PICK_TEXT
         } else {
             return redirect('/setup');
         }
+    }
+
+    public function getUsersTrend()
+    {
+        $usersByMonth = DB::table('usersall')
+        ->select(DB::raw('MONTHNAME(MIN(created_at)) as month'), DB::raw('COUNT(*) as count'))
+        ->whereYear('created_at', '=', date('Y'))
+        ->groupBy(DB::raw('MONTH(created_at)'))
+        ->orderBy(DB::raw('MONTH(created_at)'))
+        ->get();
+
+        $months = [];
+        $users = [];
+
+        foreach ($usersByMonth as $data) {
+            $months[] = $data->month;
+            $users[] = $data->count;
+        }
+
+        $currentYear = date('Y');
+
+    return response()->json([
+        'users' => $users,
+        'categories' => $months,
+        'year' => $currentYear
+    ]);
+    }
+
+
+
+    public function getChartDatanb()
+    {
+
+        $blogData = Blog::select('created_at', 'likes')
+        ->orderBy('created_at')
+        ->get();
+
+    $newsData = News::select('created_at', 'likes')
+        ->orderBy('created_at')
+        ->get();
+
+    $data = [
+        'blog' => $blogData->pluck('likes')->toArray(),
+        'news' => $newsData->pluck('likes')->toArray(),
+        'labels' => $blogData->pluck('created_at')->map(function($date) {
+            return date('d M Y', strtotime($date));
+        })->toArray()
+    ];
+
+        return response()->json($data);
+    }
+
+    public function getChartDataPay()
+    {
+        $chartData = [
+            'series' => [
+                [
+                    'type' => 'rangeArea',
+                    'name' => 'Antivirus',
+                    'data' => [
+                        ['x' => 'Jan', 'y' => [1100, 1900]],
+                        ['x' => 'Feb', 'y' => [1200, 1800]],
+                        ['x' => 'Mar', 'y' => [900, 2900]],
+                        ['x' => 'Apr', 'y' => [1400, 2700]],
+                        ['x' => 'May', 'y' => [2600, 3900]],
+                        ['x' => 'Jun', 'y' => [500, 1700]],
+                        ['x' => 'Jul', 'y' => [1900, 2300]],
+                        ['x' => 'Aug', 'y' => [1000, 1500]]
+                    ]
+                ],
+                [
+                    'type' => 'rangeArea',
+                    'name' => 'Vpn Shild',
+                    'data' => [
+                        ['x' => 'Jan', 'y' => [3100, 3400]],
+                        ['x' => 'Feb', 'y' => [4200, 5200]],
+                        ['x' => 'Mar', 'y' => [3900, 4900]],
+                        ['x' => 'Apr', 'y' => [3400, 3900]],
+                        ['x' => 'May', 'y' => [5100, 5900]],
+                        ['x' => 'Jun', 'y' => [5400, 6700]],
+                        ['x' => 'Jul', 'y' => [4300, 4600]],
+                        ['x' => 'Aug', 'y' => [2100, 2900]]
+                    ]
+                ],
+                [
+                    'type' => 'line',
+                    'name' => 'Antivirus Median',
+                    'data' => [
+                        ['x' => 'Jan', 'y' => 1500],
+                        ['x' => 'Feb', 'y' => 1700],
+                        ['x' => 'Mar', 'y' => 1900],
+                        ['x' => 'Apr', 'y' => 2200],
+                        ['x' => 'May', 'y' => 3000],
+                        ['x' => 'Jun', 'y' => 1000],
+                        ['x' => 'Jul', 'y' => 2100],
+                        ['x' => 'Aug', 'y' => 1200],
+                        ['x' => 'Sep', 'y' => 1800],
+                        ['x' => 'Oct', 'y' => 2000]
+                    ]
+                ],
+                [
+                    'type' => 'line',
+                    'name' => 'Vpn Shild Median',
+                    'data' => [
+                        ['x' => 'Jan', 'y' => 3300],
+                        ['x' => 'Feb', 'y' => 4900],
+                        ['x' => 'Mar', 'y' => 4300],
+                        ['x' => 'Apr', 'y' => 3700],
+                        ['x' => 'May', 'y' => 5500],
+                        ['x' => 'Jun', 'y' => 5900],
+                        ['x' => 'Jul', 'y' => 4500],
+                        ['x' => 'Aug', 'y' => 2400],
+                        ['x' => 'Sep', 'y' => 2100],
+                        ['x' => 'Oct', 'y' => 1500]
+                    ]
+                ]
+            ]
+        ];
+
+        return response()->json($chartData);
     }
 
     public function newslist()
@@ -1094,6 +1228,20 @@ GROUP BY P.product_id, pn.name, sp.PICK_TEXT
         }
     }
 
+
+    public function useradminlist($id)
+    {
+        if ($this->loggedInAdmin) {
+            $item = Admin::findOrFail($id);
+
+            $item->delete();
+            return response()->json(['message' => 'deleted successfully']);
+        } else {
+            return redirect('/setup');
+        }
+    }
+
+
     public function fatchadmindataajax(Request $request)
     {
         if ($this->loggedInAdmin) {
@@ -1263,53 +1411,54 @@ GROUP BY P.product_id, pn.name, sp.PICK_TEXT
 
 
     public function editplansearch(Request $request)
-    {
-        if ($this->loggedInAdmin) {
-            $key_id = $request->KEY_ID;
-            $plan_id = $request->PLAN_ID;
-            $query = Plandetails::query();
+{
+    if ($this->loggedInAdmin) {
+        $key_id = $request->KEY_ID;
+        $plan_id = $request->PLAN_ID;
+        $query = Plandetails::query();
 
-            if ($plan_id) {
-                $query->where('plan_id', $plan_id);
-            }
-
-            if ($key_id) {
-                $query->where('key_type', $key_id);
-            }
-            $plandetails = $query->get();
-
-            foreach ($plandetails as $detail) {
-                $encr_id = $detail->encrypted_id;
-                $key_ty = $detail->key_type;
-                $plan_ids = $detail->key_type;
-
-                $encr_id = Crypt::encrypt($detail->id);
-                $storePick = Storepick::select('PICK_TEXT')
-                    ->where('STORE_ID', 'key_type')
-                    ->where('PICK_ID', $detail->key_type)
-                    ->first();
-                if ($storePick) {
-                    $key_ty = $storePick->PICK_TEXT;
-                } else {
-                    $key_ty = null;
-                }
-
-                // Fetch and assign the plan name
-                $planName = Planname::select('name')
-                    ->where('plan_id', $detail->plan_id)
-                    ->first();
-                if ($planName) {
-                    $plan_ids = $planName->name;
-                } else {
-                    $plan_ids = null;
-                }
-            }
-
-            return response()->json($plandetails);
-        } else {
-            return redirect('/setup');
+        if ($plan_id) {
+            $query->where('plan_id', $plan_id);
         }
+
+        if ($key_id) {
+            $query->where('key_type', $key_id);
+        }
+
+        $plandetails = $query->get();
+
+        foreach ($plandetails as $plandetail) {
+
+
+
+            $plandetail->id_new = \Crypt::encrypt($plandetail->id);
+
+
+            $storepick = DB::table('storepick')
+                ->select('PICK_TEXT')
+                ->where('STORE_ID', 'key_type')
+                ->where('PICK_ID', operator: $plandetail->key_type)
+                ->whereNull('deleted_at')
+                ->first();
+            if ($storepick) {
+                $plandetail->key_type = $storepick->PICK_TEXT;
+            }
+            $Plainid=DB::table('planname')
+            ->select('name')
+            ->where('plan_id', $plandetail->plan_id)
+            ->whereNull('deleted_at')
+            ->first();
+            if ($Plainid) {
+                $plandetail->plan_id = $Plainid->name;
+            }
+        }
+
+        return response()->json($plandetails);
+    } else {
+        return redirect('/setup');
     }
+}
+
 
     public function editkeysearch(Request $request)
     {
@@ -1382,7 +1531,7 @@ GROUP BY P.product_id, pn.name, sp.PICK_TEXT
                 $plan->key_type = $request->planname;
                 $plan->plan_id = $request->plan_id;
                 $plan->price = $request->price;
-                $plan->discount = $request->discount;
+                $plan->discount = $request->discount_percent;
                 $plan->coupons = $request->coupons;
                 $plan->is_coupons = $request->coupon_status;
                 $plan->save();
@@ -1436,7 +1585,7 @@ GROUP BY P.product_id, pn.name, sp.PICK_TEXT
                     'key_type' => $request->planname,
                     'plan_id' => $request->plan_id,
                     'price' => $request->price,
-                    'discount' => $request->discount,
+                    'discount' => $request->discount_percent,
                     'coupons' => $request->coupons,
                     'is_coupons' => $request->coupon_status
 
@@ -1611,9 +1760,7 @@ GROUP BY P.product_id, pn.name, sp.PICK_TEXT
                 'main_key' => 'required',
                 'product_id' => 'required',
                 'is_key_used' => 'required',
-                'key_status' => 'required',
-                'key_expirey_date' => 'required',
-                'key_activation_date' => 'required'
+                'key_status' => 'required'
             ]);
             if ($validator->fails()) {
                 return response()->json([
@@ -1651,9 +1798,7 @@ GROUP BY P.product_id, pn.name, sp.PICK_TEXT
                 'main_key' => 'required',
                 'product_id' => 'required',
                 'is_key_used' => 'required',
-                'key_status' => 'required',
-                'key_expirey_date' => 'required',
-                'key_activation_date' => 'required'
+                'key_status' => 'required'
             ]);
             if ($validator->fails()) {
                 return response()->json([
@@ -1704,16 +1849,20 @@ GROUP BY P.product_id, pn.name, sp.PICK_TEXT
     {
         if ($this->loggedInAdmin) {
             $title = "Vpn";
-            $vpnpaydata = Payments::join('product_details', 'product_details.id', '=', 'payments.product_id')
+            $vpnpaydata = Payment1::leftjoin('product_details', 'product_details.id', '=', 'payments1.product_id')
+                ->leftjoin('ttb_key_assign', 'ttb_key_assign.payment_id', '=', 'payments1.id')
+                ->leftjoin('ttbkey', 'ttbkey.id', '=', 'ttb_key_assign.main_key')
                 ->where('product_details.key_type', 501)
-                ->select('payments.*', 'product_details.key_type', 'product_details.plan_id')
-                ->orderBy('payments.id', 'desc')
+                ->select('payments1.*', 'product_details.key_type', 'product_details.plan_id', 'ttb_key_assign.main_key', 'ttb_key_assign.mail_send_status', 'ttb_key_assign.is_manual', 'ttbkey.key_activation_date', 'ttbkey.key_expirey_date')
+                ->orderBy('payments1.id', 'desc')
                 ->get();
-            $total = DB::table('payments')
-                ->join('product_details', 'product_details.id', '=', 'payments.product_id')
+            // dd(DB::getQueryLog());
+
+            $total = DB::table('payments1')
+                ->leftjoin('product_details', 'product_details.id', '=', 'payments1.product_id')
                 ->where('product_details.key_type', 501)
-                ->whereNull('payments.deleted_at')
-                ->sum('payments.amount_total');
+                ->whereNull('payments1.deleted_at')
+                ->sum('payments1.price');
             return view('Admin.payshow', ['vpnpaydata' => $vpnpaydata, 'title' => $title, 'total' => $total]);
         } else {
             return redirect('/setup');
@@ -1725,20 +1874,20 @@ GROUP BY P.product_id, pn.name, sp.PICK_TEXT
         if ($this->loggedInAdmin) {
             $title = "Antivirus";
             // DB::enableQueryLog();
-                $vpnpaydata = Payment1::leftjoin('product_details', 'product_details.id', '=', 'payments1.product_id')
+            $vpnpaydata = Payment1::leftjoin('product_details', 'product_details.id', '=', 'payments1.product_id')
                 ->leftjoin('ttb_key_assign', 'ttb_key_assign.payment_id', '=', 'payments1.id')
                 ->leftjoin('ttbkey', 'ttbkey.id', '=', 'ttb_key_assign.main_key')
                 ->where('product_details.key_type', 502)
-                ->select('payments1.*', 'product_details.key_type', 'product_details.plan_id','ttb_key_assign.main_key','ttb_key_assign.mail_send_status','ttb_key_assign.is_manual','ttbkey.key_activation_date','ttbkey.key_expirey_date')
+                ->select('payments1.*', 'product_details.key_type', 'product_details.plan_id', 'ttb_key_assign.main_key', 'ttb_key_assign.mail_send_status', 'ttb_key_assign.is_manual', 'ttbkey.key_activation_date', 'ttbkey.key_expirey_date')
                 ->orderBy('payments1.id', 'desc')
                 ->get();
-                // dd(DB::getQueryLog());
+            // dd(DB::getQueryLog());
 
-            $total = DB::table('payments')
-                ->join('product_details', 'product_details.id', '=', 'payments.product_id')
+            $total = DB::table('payments1')
+                ->leftjoin('product_details', 'product_details.id', '=', 'payments1.product_id')
                 ->where('product_details.key_type', 502)
-                ->whereNull('payments.deleted_at')
-                ->sum('payments.amount_total');
+                ->whereNull('payments1.deleted_at')
+                ->sum('payments1.price');
             return view('Admin.payshow', ['vpnpaydata' => $vpnpaydata, 'title' => $title, 'total' => $total]);
         } else {
             return redirect('/setup');
@@ -1753,7 +1902,7 @@ GROUP BY P.product_id, pn.name, sp.PICK_TEXT
                 ->leftjoin('ttb_key_assign', 'ttb_key_assign.payment_id', '=', 'payments1.id')
                 ->leftjoin('ttbkey', 'ttbkey.id', '=', 'ttb_key_assign.main_key')
                 ->where('product_details.key_type', 501)
-                ->select('payments1.*', 'product_details.key_type', 'product_details.plan_id','ttb_key_assign.main_key','ttb_key_assign.mail_send_status','ttb_key_assign.is_manual','ttbkey.key_activation_date','ttbkey.key_expirey_date')
+                ->select('payments1.*', 'product_details.key_type', 'product_details.plan_id', 'ttb_key_assign.main_key', 'ttb_key_assign.mail_send_status', 'ttb_key_assign.is_manual', 'ttbkey.key_activation_date', 'ttbkey.key_expirey_date')
                 ->orderBy('payments1.id', 'desc')
                 ->get();
 
@@ -1906,7 +2055,8 @@ GROUP BY P.product_id, pn.name, sp.PICK_TEXT
             return redirect('/setup');
         }
     }
-    public function Mail_create_page(){
+    public function Mail_create_page()
+    {
         if ($this->loggedInAdmin) {
             return view('Admin.MailCreate');
         } else {
@@ -1914,7 +2064,8 @@ GROUP BY P.product_id, pn.name, sp.PICK_TEXT
         }
     }
 
-    public function mailcreatesave(Request $request){
+    public function mailcreatesave(Request $request)
+    {
         if ($this->loggedInAdmin) {
 
             $validator = Validator::make($request->all(), [
@@ -1946,100 +2097,101 @@ GROUP BY P.product_id, pn.name, sp.PICK_TEXT
             return redirect('/setup');
         }
     }
-    public function Mail_edit_page(){
+    public function Mail_edit_page()
+    {
         if ($this->loggedInAdmin) {
-            $maildata=DB::table('Mail')
-            ->join('storepick', 'storepick.PICK_ID', '=', 'Mail.mail_category')
-            ->where('storepick.STORE_ID', '=', 'mail_category')
-            ->select('Mail.*', 'storepick.*','Mail.id as m_id')
-            ->get();
-            return view('Admin.MailEditView',['maildata'=>$maildata]);
+            $maildata = DB::table('Mail')
+                ->join('storepick', 'storepick.PICK_ID', '=', 'Mail.mail_category')
+                ->where('storepick.STORE_ID', '=', 'mail_category')
+                ->select('Mail.*', 'storepick.*', 'Mail.id as m_id')
+                ->get();
+            return view('Admin.MailEditView', ['maildata' => $maildata]);
         } else {
             return redirect('/setup');
         }
     }
 
-    public function Mail_edit_con($id){
+    public function Mail_edit_con($id)
+    {
         if ($this->loggedInAdmin) {
-            $mail_id=$id;
-            $maildata=SendMail::where('id','=',$mail_id)->first();
+            $mail_id = $id;
+            $maildata = SendMail::where('id', '=', $mail_id)->first();
             // dd($maildata);
-            return view('Admin.MailEdit',['maildata'=>$maildata]);
+            return view('Admin.MailEdit', ['maildata' => $maildata]);
         } else {
             return redirect('/setup');
         }
     }
 
     public function maileditsave(Request $request)
-{
+    {
 
-    if ($this->loggedInAdmin) {
-        $validator = Validator::make($request->all(), [
-            'mail_cat' => 'required',
-            'EmailBody' => 'required',
-        ]);
-
-        if ($validator->fails()) {
-            return response()->json([
-                'status' => 400,
-                'messages' => $validator->getMessageBag()->toArray()
+        if ($this->loggedInAdmin) {
+            $validator = Validator::make($request->all(), [
+                'mail_cat' => 'required',
+                'EmailBody' => 'required',
             ]);
-        } else {
-            $id=$request->mal_id;
-            $mail_con = SendMail::where('id', $id)->first();
 
-            if (!$mail_con) {
+            if ($validator->fails()) {
                 return response()->json([
-                    'status' => 404,
-                    'messages' => 'Mail not found'
+                    'status' => 400,
+                    'messages' => $validator->getMessageBag()->toArray()
+                ]);
+            } else {
+                $id = $request->mal_id;
+                $mail_con = SendMail::where('id', $id)->first();
+
+                if (!$mail_con) {
+                    return response()->json([
+                        'status' => 404,
+                        'messages' => 'Mail not found'
+                    ]);
+                }
+
+                $mail_con->update([
+                    'mail_category' => $request->mail_cat,
+                    'mail_body' => $request->EmailBody,
+                    'mail_html' => $request->EmailHTML
+                ]);
+
+                return response()->json([
+                    'status' => 200,
+                    'messages' => 'Mail Edit successfully'
                 ]);
             }
-
-            $mail_con->update([
-                'mail_category' => $request->mail_cat,
-                'mail_body' => $request->EmailBody,
-                'mail_html' => $request->EmailHTML
-            ]);
-
-            return response()->json([
-                'status' => 200,
-                'messages' => 'Mail Edit successfully'
-            ]);
+        } else {
+            return redirect('/setup');
         }
-    } else {
-        return redirect('/setup');
     }
-}
 
-public function Reminder_mail_list()
-{
+    public function Reminder_mail_list()
+    {
 
-    if ($this->loggedInAdmin) {
+        if ($this->loggedInAdmin) {
 
-    $Reminder_logs = DB::table('reminder_logs')
-    ->join('usersall', 'usersall.id', '=', 'reminder_logs.user_id')
-    ->join('product_details', 'product_details.id', '=', 'reminder_logs.product_id')
-    ->join('planname', 'planname.plan_id', '=', 'product_details.plan_id')
-    ->join('storepick', 'storepick.PICK_ID', '=', 'product_details.key_type')
-    ->select(
-        'usersall.firstname',
-        'usersall.lastname',
-        'storepick.PICK_TEXT as Key_type',
-        'planname.name as Planname',
-        'reminder_logs.email',
-        'reminder_logs.sent_at',
-        'reminder_logs.status',
-        'reminder_logs.error_message'
-    )
-    ->where('storepick.STORE_ID', 'key_type')
-    ->get();
-
+            $Reminder_logs = DB::table('reminder_logs')
+                ->join('usersall', 'usersall.id', '=', 'reminder_logs.user_id')
+                ->join('product_details', 'product_details.id', '=', 'reminder_logs.product_id')
+                ->join('planname', 'planname.plan_id', '=', 'product_details.plan_id')
+                ->join('storepick', 'storepick.PICK_ID', '=', 'product_details.key_type')
+                ->select(
+                    'usersall.firstname',
+                    'usersall.lastname',
+                    'storepick.PICK_TEXT as Key_type',
+                    'planname.name as Planname',
+                    'reminder_logs.email',
+                    'reminder_logs.sent_at',
+                    'reminder_logs.status',
+                    'reminder_logs.error_message'
+                )
+                ->where('storepick.STORE_ID', 'key_type')
+                ->get();
 
 
-        return view('Admin.Reminder_mail_list_page',['Reminder_logs'=>$Reminder_logs]);
-    } else {
-        return redirect('/setup');
+
+            return view('Admin.Reminder_mail_list_page', ['Reminder_logs' => $Reminder_logs]);
+        } else {
+            return redirect('/setup');
+        }
     }
-}
-
 }

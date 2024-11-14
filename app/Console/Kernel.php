@@ -16,12 +16,13 @@ class Kernel extends ConsoleKernel
 
      protected $commands =[
         Commands\SendRenewalReminder::class,
+        Commands\GenerateSitemap::class,
      ];
     protected function schedule(Schedule $schedule)
     {
         // $schedule->command('inspire')->hourly();
         $schedule->command('subscription:send-renewal-reminder')->daily();
-
+        $schedule->command('sitemap:sitemap:generate')->daily();
 
     }
 

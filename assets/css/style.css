@@ -17454,7 +17454,7 @@ label {
     color: rgb(255 255 255 / var(--tw-text-opacity));
 } */
 
-.pricing-offer .pricing-offer-details {
+/* .pricing-offer .pricing-offer-details {
     position: absolute;
     inset-inline-end: -2.063rem;
     top: 1.75rem;
@@ -17473,6 +17473,31 @@ label {
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));
     animation: blinkBackground 1s infinite;
+} */
+
+.pricing-offer .pricing-offer-details {
+    position: absolute;
+    inset-inline-end: -2.063rem;
+    top: 0.75rem;
+    display: flex;
+    height: 1.5em;
+    width: 8.438rem;
+    --tw-rotate: 38deg;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y))
+        rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+        scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    align-items: flex-end;
+    justify-content: center;
+    background-color: rgb(var(--primary));
+    padding: 0.313rem;
+    font-size: 16px;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    animation: blinkBackground 1s infinite;
+}
+
+.pricing-offer-details span {
+    font-size: 11px !important;
 }
 
 @keyframes blinkBackground {
@@ -49152,8 +49177,8 @@ a {
 
 .home-new-banner .swiper-slide img {
     display: inline-block !important;
-    width: 7% !important;
-    margin: 0px 11px;
+    /* width: 23% !important; */
+    margin: 5px 8px;
 }
 
 .home-new-banner h2 {
@@ -49169,6 +49194,15 @@ a {
     font-size: 18px;
     /* width: 500px; */
     padding: 20px 0px 40px 0px;
+}
+
+.home-new-banner .star-img-hm{
+     width: 23% !important; 
+
+}
+
+.home-new-banner .av-img-hm{
+    width: 47% !important;
 }
 
 .h1-\[511px\] {

@@ -25,7 +25,7 @@
       p { padding: 0 !important; margin-top: 0 !important; margin-right: 0 !important; margin-bottom: 0 !important; margin-left: 0 !important; }
       .visibleMobile { display: none; }
       .hiddenMobile { display: block; }
-    
+
       @media only screen and (max-width: 600px) {
       body { width: auto !important; }
       table[class=fullTable] { width: 96% !important; clear: both; }
@@ -33,7 +33,7 @@
       table[class=col] { width: 45% !important; }
       .erase { display: none; }
       }
-    
+
       @media only screen and (max-width: 420px) {
       table[class=fullTable] { width: 100% !important; clear: both; }
       table[class=fullPadding] { width: 85% !important; clear: both; }
@@ -53,7 +53,7 @@
 <body>
 
 
-    
+
 
 
 
@@ -119,8 +119,8 @@
                         </tr>
                         <tr>
                           <td style="font-size: 12px; color: #5b5b5b; font-family: 'Open Sans', sans-serif; line-height: 18px; vertical-align: top; text-align: right;">
-                            <small>ORDER</small> #1000{{$paymentDetails->id}}<br />
-                            <small>{{ $paymentDetails->created_at->format('F j, Y') }}</small>
+                            <small>ORDER ID </small> {{$paymentDetails->order_id}}<br />
+                            <small>{{ $paymentDetails->payment_time }}</small>
                           </td>
                         </tr>
                       </tbody>
@@ -176,7 +176,7 @@
                     </tr>
                     <tr>
                       <td style="font-size: 12px; font-family: 'Open Sans', sans-serif; color: #ff0000;  line-height: 18px;  vertical-align: top; padding:10px 0;" class="article">
-                        {{$keytype->PICK_TEXT}} {{$planmain->name}}
+                        {{$paymentDetails->product_name}} {{$paymentDetails->plan_name}}
                       </td>
                       {{-- <td style="font-size: 12px; font-family: 'Open Sans', sans-serif; color: #646a6e;  line-height: 18px;  vertical-align: top; padding:10px 0;"><small>MH792AM/A</small></td> --}}
                       <td style="font-size: 12px; font-family: 'Open Sans', sans-serif; color: #646a6e;  line-height: 18px;  vertical-align: top; padding:10px 0;" align="center">1</td>
@@ -297,7 +297,7 @@
                             </tr>
                             <tr>
                               <td style="font-size: 12px; font-family: 'Open Sans', sans-serif; color: #5b5b5b; line-height: 20px; vertical-align: top; ">
-                                {{ $paymentDetails->customer_name }}<br> {{ $paymentDetails->line1}} {{ $paymentDetails->line2}}<br> {{ $paymentDetails->city}}<br> {{ $paymentDetails->postal_code}}, {{ $paymentDetails->country}}<br> <!--T: 202-555-0133-->
+                                {{ $paymentDetails->firstname }} {{ $paymentDetails->lastname }}<br> {{ $paymentDetails->city}} {{ $paymentDetails->state}}<br> {{ $paymentDetails->country}}<br> {{ $paymentDetails->pincode}},<br> <!--T: 202-555-0133-->
                               </td>
                             </tr>
                           </tbody>
@@ -319,7 +319,7 @@
                             </tr>
                             <tr>
                               <td style="font-size: 12px; font-family: 'Open Sans', sans-serif; color: #5b5b5b; line-height: 20px; vertical-align: top; ">
-                                {{ $paymentDetails->payment_method_types}} 
+                                {{ $paymentDetails->payment_method}}
                                 {{-- <a href="#" style="color:#b0b0b0;">Right of Withdrawal</a> --}}
                               </td>
                             </tr>

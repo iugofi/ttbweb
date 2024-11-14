@@ -1,315 +1,65 @@
 @extends('Admin.Layouts.layout')
 
 @section('title', 'TTB Admin')
-@section('Description',
-    '')
+@section('Description', '')
 @section('keywords', '')
 @section('canonical', 'vbhdvbh')
 @section('content')
 
-<div class="content">
-    <div class="main-content">
+    <div class="content">
+        <div class="main-content">
 
-
-        <!-- Start::page-header -->
-        <div class="md:flex block items-center justify-between my-[1.5rem] page-header-breadcrumb">
-            <div>
-                <p
-                    class="font-semibold text-[1.125rem] text-defaulttextcolor dark:text-defaulttextcolor/70 !mb-0 ">
-                    Welcome back, Json Taylor !</p>
-                <p class="font-normal text-[#8c9097] dark:text-white/50 text-[0.813rem]">Track your sales
-                    activity, leads and deals here.</p>
+            @php
+                if (session('loggedInAdmin')) {
+                    $sessionId = session('loggedInAdmin');
+                    $user = \App\Models\Admin::find($sessionId);
+                }
+            @endphp
+            <!-- Start::page-header -->
+            <div class="md:flex block items-center justify-between my-[1.5rem] page-header-breadcrumb">
+                <div>
+                    <p class="font-semibold text-[1.125rem] text-defaulttextcolor dark:text-defaulttextcolor/70 !mb-0 ">
+                        Welcome back, {{ isset($user->name) ? $user->name : '' }} !</p>
+                    <p class="font-normal text-[#8c9097] dark:text-white/50 text-[0.813rem]">Track your sales
+                        activity, leads and deals here.</p>
+                </div>
+                <div class="btn-list md:mt-0 mt-2">
+                    <button type="button"
+                        class="ti-btn bg-primary text-white btn-wave !font-medium !me-[0.375rem] !ms-0 !text-[0.85rem] !rounded-[0.35rem] !py-[0.51rem] !px-[0.86rem] shadow-none">
+                        <i class="ri-filter-3-fill  inline-block"></i>Filters
+                    </button>
+                    <button type="button"
+                        class="ti-btn ti-btn-outline-secondary btn-wave !font-medium  !me-[0.375rem]  !ms-0 !text-[0.85rem] !rounded-[0.35rem] !py-[0.51rem] !px-[0.86rem] shadow-none">
+                        <i class="ri-upload-cloud-line  inline-block"></i>Export
+                    </button>
+                </div>
             </div>
-            <div class="btn-list md:mt-0 mt-2">
-                <button type="button"
-                    class="ti-btn bg-primary text-white btn-wave !font-medium !me-[0.375rem] !ms-0 !text-[0.85rem] !rounded-[0.35rem] !py-[0.51rem] !px-[0.86rem] shadow-none">
-                    <i class="ri-filter-3-fill  inline-block"></i>Filters
-                </button>
-                <button type="button"
-                    class="ti-btn ti-btn-outline-secondary btn-wave !font-medium  !me-[0.375rem]  !ms-0 !text-[0.85rem] !rounded-[0.35rem] !py-[0.51rem] !px-[0.86rem] shadow-none">
-                    <i class="ri-upload-cloud-line  inline-block"></i>Export
-                </button>
-            </div>
-        </div>
-        <!-- End::page-header -->
+            <!-- End::page-header -->
 
-        <div class="grid grid-cols-12 gap-x-6">
-            <div class="xxl:col-span-9 xl:col-span-12  col-span-12">
-                <div class="grid grid-cols-12 gap-x-6">
-                    <div class="xxl:col-span-4 xl:col-span-4  col-span-12">
-                        <div class="xxl:col-span-12 xl:col-span-12 col-span-12">
-                            <div class="box crm-highlight-card">
-                                <div class="box-body">
-                                    <div class="flex items-center justify-between">
-                                        <div>
-                                            <div class="font-semibold text-[1.125rem] text-white mb-2">Your
-                                                target is incomplete</div>
-                                            <span class="block text-[0.75rem] text-white"><span
-                                                    class="opacity-[0.7]">You have
-                                                    completed</span>
-                                                <span class="font-semibold text-warning">48%</span> <span
-                                                    class="opacity-[0.7]">of the given
-                                                    target, you can also check your status</span>.</span>
-                                            <span class="block font-semibold mt-[0.125rem]"><a
-                                                    class="text-white text-[0.813rem]"
-                                                    href="javascript:void(0);"><u>Click
-                                                        here</u></a></span>
-                                        </div>
-                                        <div>
-                                            <div id="crm-main"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="xxl:col-span-12 xl:col-span-12 col-span-12">
-                            <div class="box">
-                                <div class="box-header flex justify-between">
-                                    <div class="box-title">
-                                        Top Post
-                                    </div>
-                                    <div class="hs-dropdown ti-dropdown">
-                                        <a aria-label="anchor" href="javascript:void(0);"
-                                            class="flex items-center justify-center w-[1.75rem] h-[1.75rem]  !text-[0.8rem] !py-1 !px-2 rounded-sm bg-light border-light shadow-none !font-medium"
-                                            aria-expanded="false">
-                                            <i class="fe fe-more-vertical text-[0.8rem]"></i>
-                                        </a>
-                                        <ul class="hs-dropdown-menu ti-dropdown-menu hidden">
-                                            <li><a class="ti-dropdown-item !py-2 !px-[0.9375rem] !text-[0.8125rem] !font-medium block"
-                                                    href="javascript:void(0);">Week</a></li>
-                                            <li><a class="ti-dropdown-item !py-2 !px-[0.9375rem] !text-[0.8125rem] !font-medium block"
-                                                    href="javascript:void(0);">Month</a></li>
-                                            <li><a class="ti-dropdown-item !py-2 !px-[0.9375rem] !text-[0.8125rem] !font-medium block"
-                                                    href="javascript:void(0);">Year</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="box-body">
-                                    <ul class="list-none crm-top-deals mb-0">
-
-                                        <li class="mb-[0.9rem]">
-                                            <div class="flex items-start flex-wrap">
-                                                <div class="me-2">
-                                                    <span class=" inline-flex items-center justify-center">
-                                                        <img src="{{asset('assets/images/faces/10.jpg')}}" alt=""
-                                                            class="w-[1.75rem] h-[1.75rem] leading-[1.75rem] text-[0.65rem]  rounded-full">
-                                                    </span>
-                                                </div>
-                                                <div class="flex-grow">
-                                                    <p class="font-semibold mb-[1.4px]  text-[0.813rem]">Michael
-                                                        Jordan
-                                                    </p>
-                                                    <p class="text-[#8c9097] dark:text-white/50 text-[0.75rem]">
-                                                        michael.jordan@example.com</p>
-                                                </div>
-                                                <div class="font-semibold text-[0.9375rem] ">$2,893</div>
-                                            </div>
-                                        </li>
-
-
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="xxl:col-span-12 xl:col-span-12 col-span-12">
-                            <div class="box">
-                                <div class="box-header justify-between">
-                                    <div class="box-title">Profit Earned</div>
-                                    <div class="hs-dropdown ti-dropdown">
-                                        <a href="javascript:void(0);"
-                                            class="px-2 font-normal text-[0.75rem] text-[#8c9097] dark:text-white/50"
-                                            aria-expanded="false">
-                                            View All<i
-                                                class="ri-arrow-down-s-line align-middle ms-1 inline-block"></i>
-                                        </a>
-                                        <ul class="hs-dropdown-menu ti-dropdown-menu hidden" role="menu">
-                                            <li><a class="ti-dropdown-item !py-2 !px-[0.9375rem] !text-[0.8125rem] !font-medium block"
-                                                    href="javascript:void(0);">Today</a></li>
-                                            <li><a class="ti-dropdown-item !py-2 !px-[0.9375rem] !text-[0.8125rem] !font-medium block"
-                                                    href="javascript:void(0);">This Week</a></li>
-                                            <li><a class="ti-dropdown-item !py-2 !px-[0.9375rem] !text-[0.8125rem] !font-medium block"
-                                                    href="javascript:void(0);">Last Week</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="box-body !py-0 !ps-0">
-                                    <div id="crm-profits-earned"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="xxl:col-span-8  xl:col-span-8  col-span-12">
-                        <div class="grid grid-cols-12 gap-x-6">
-                            <div class="xxl:col-span-6 xl:col-span-6 col-span-12">
-                                <div class="box overflow-hidden">
+            <div class="grid grid-cols-12 gap-x-6">
+                <div class="xxl:col-span-6 xl:col-span-12  col-span-12">
+                    <div class="grid grid-cols-12 gap-x-6">
+                        <div class="xxl:col-span-12 xl:col-span-8  col-span-12">
+                            <div class="xxl:col-span-12 xl:col-span-12 col-span-12">
+                                <div class="box crm-highlight-card">
                                     <div class="box-body">
-                                        <div class="flex items-top justify-between">
+                                        <div class="flex items-center justify-between">
                                             <div>
-                                                <span
-                                                    class="!text-[0.8rem]  !w-[2.5rem] !h-[2.5rem] !leading-[2.5rem] !rounded-full inline-flex items-center justify-center bg-primary">
-                                                    <i class="ti ti-users text-[1rem] text-white"></i>
-                                                </span>
+                                                <div class="font-semibold text-[1.125rem] text-white mb-2">Your
+                                                    target is incomplete</div>
+                                                <span class="block text-[0.75rem] text-white"><span
+                                                        class="opacity-[0.7]">You have
+                                                        completed</span>
+                                                    <span class="font-semibold text-warning">100%</span> <span
+                                                        class="opacity-[0.9]">of the given
+                                                        target, you can also check your status</span>.</span>
+                                                <span class="block font-semibold mt-[0.125rem]"><a
+                                                        class="text-white text-[0.813rem]"
+                                                        href="javascript:void(0);"><u>Click
+                                                            here</u></a></span>
                                             </div>
-                                            <div class="flex-grow ms-4">
-                                                <div class="flex items-center justify-between flex-wrap">
-                                                    <div>
-                                                        <p class="text-[#8c9097] dark:text-white/50 text-[0.813rem] mb-0">
-                                                            Total News</p>
-                                                        <h4 class="font-semibold  text-[1.5rem] !mb-2 "><?php
-                                                            $totalNews = DB::select("SELECT COUNT(*) AS total FROM news");
-                                                            echo $totalNews[0]->total;
-                                                        ?>
-                                                        </h4>
-                                                    </div>
-                                                    <div id="crm-total-customers"></div>
-                                                </div>
-                                                <div class="flex items-center justify-between !mt-1">
-                                                    <div>
-                                                        <a class="text-primary text-[0.813rem]"
-                                                            href="javascript:void(0);">View All<i
-                                                                class="ti ti-arrow-narrow-right ms-2 font-semibold inline-block"></i></a>
-                                                    </div>
-                                                    <div class="text-end">
-                                                        <p
-                                                            class="mb-0 text-success text-[0.813rem] font-semibold">
-                                                            +40%</p>
-                                                        <p
-                                                            class="text-[#8c9097] dark:text-white/50 opacity-[0.7] text-[0.6875rem]">
-                                                            this month</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="xxl:col-span-6 xl:col-span-6 col-span-12">
-                                <div class="box overflow-hidden">
-                                    <div class="box-body">
-                                        <div class="flex items-top justify-between">
                                             <div>
-                                                <span
-                                                    class="!text-[0.8rem]  !w-[2.5rem] !h-[2.5rem] !leading-[2.5rem] !rounded-full inline-flex items-center justify-center bg-secondary">
-                                                    <i class="ti ti-wallet text-[1rem] text-white"></i>
-                                                </span>
-                                            </div>
-                                            <div class="flex-grow ms-4">
-                                                <div class="flex items-center justify-between flex-wrap">
-                                                    <div>
-                                                        <p
-                                                            class="text-[#8c9097] dark:text-white/50 text-[0.813rem] mb-0">
-                                                            Total Blog</p>
-                                                        <h4 class="font-semibold text-[1.5rem] !mb-2 "><?php
-                                                            $totalblog = DB::select("SELECT COUNT(*) AS total FROM blog");
-                                                            echo $totalblog[0]->total;
-                                                        ?>
-                                                        </h4>
-                                                    </div>
-                                                    <div id="crm-total-revenue"></div>
-                                                </div>
-                                                <div class="flex items-center justify-between mt-1">
-                                                    <div>
-                                                        <a class="text-secondary text-[0.813rem]"
-                                                            href="javascript:void(0);">View All<i
-                                                                class="ti ti-arrow-narrow-right ms-2 font-semibold inline-block"></i></a>
-                                                    </div>
-                                                    <div class="text-end">
-                                                        <p
-                                                            class="mb-0 text-success text-[0.813rem] font-semibold">
-                                                            +25%</p>
-                                                        <p
-                                                            class="text-[#8c9097] dark:text-white/50 opacity-[0.7] text-[0.6875rem]">
-                                                            this month</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="xxl:col-span-6 xl:col-span-6 col-span-12">
-                                <div class="box overflow-hidden">
-                                    <div class="box-body">
-                                        <div class="flex items-top justify-between">
-                                            <div>
-                                                <span
-                                                    class="!text-[0.8rem]  !w-[2.5rem] !h-[2.5rem] !leading-[2.5rem] !rounded-full inline-flex items-center justify-center bg-success">
-                                                    <i class="ti ti-wave-square text-[1rem] text-white"></i>
-                                                </span>
-                                            </div>
-                                            <div class="flex-grow ms-4">
-                                                <div class="flex items-center justify-between flex-wrap">
-                                                    <div>
-                                                        <p
-                                                            class="text-[#8c9097] dark:text-white/50 text-[0.813rem] mb-0">
-                                                            Total News Likes</p>
-                                                        <h4 class="font-semibold text-[1.5rem] !mb-2 "><?php
-                                                            $totalnewslike = DB::select("SELECT SUM(likes) AS totallike FROM news");
-                                                            echo $totalnewslike[0]->totallike;
-                                                        ?>
-                                                        </h4>
-                                                    </div>
-                                                    <div id="crm-conversion-ratio"></div>
-                                                </div>
-                                                <div class="flex items-center justify-between mt-1">
-                                                    <div>
-                                                        <a class="text-success text-[0.813rem]"
-                                                            href="javascript:void(0);">View All<i
-                                                                class="ti ti-arrow-narrow-right ms-2 font-semibold inline-block"></i></a>
-                                                    </div>
-                                                    <div class="text-end">
-                                                        <p
-                                                            class="mb-0 text-danger text-[0.813rem] font-semibold">
-                                                            -12%</p>
-                                                        <p
-                                                            class="text-[#8c9097] dark:text-white/50 opacity-[0.7] text-[0.6875rem]">
-                                                            this month</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="xxl:col-span-6 xl:col-span-6 col-span-12">
-                                <div class="box overflow-hidden">
-                                    <div class="box-body">
-                                        <div class="flex items-top justify-between">
-                                            <div>
-                                                <span
-                                                    class="!text-[0.8rem]  !w-[2.5rem] !h-[2.5rem] !leading-[2.5rem] !rounded-full inline-flex items-center justify-center bg-warning">
-                                                    <i class="ti ti-briefcase text-[1rem] text-white"></i>
-                                                </span>
-                                            </div>
-                                            <div class="flex-grow ms-4">
-                                                <div class="flex items-center justify-between flex-wrap">
-                                                    <div>
-                                                        <p
-                                                            class="text-[#8c9097] dark:text-white/50 text-[0.813rem] mb-0">
-                                                            Total Blog Likes</p>
-                                                        <h4 class="font-semibold text-[1.5rem] !mb-2 "><?php
-                                                            $totalbloglike = DB::select("SELECT SUM(likes) AS totallike FROM blog");
-                                                            echo $totalbloglike[0]->totallike;
-                                                        ?>
-                                                        </h4>
-                                                    </div>
-                                                    <div id="crm-total-deals"></div>
-                                                </div>
-                                                <div class="flex items-center justify-between mt-1">
-                                                    <div>
-                                                        <a class="text-warning text-[0.813rem]"
-                                                            href="javascript:void(0);">View All<i
-                                                                class="ti ti-arrow-narrow-right ms-2 font-semibold inline-block"></i></a>
-                                                    </div>
-                                                    <div class="text-end">
-                                                        <p
-                                                            class="mb-0 text-success text-[0.813rem] font-semibold">
-                                                            +19%</p>
-                                                        <p
-                                                            class="text-[#8c9097] dark:text-white/50  opacity-[0.7] text-[0.6875rem]">
-                                                            this month</p>
-                                                    </div>
-                                                </div>
+                                                <div id="crm-main"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -318,57 +68,52 @@
                             <div class="xxl:col-span-12 xl:col-span-12 col-span-12">
                                 <div class="box custom-box">
                                     <div class="box-header">
-                                        <div class="box-title">User City</div>
+                                        <div class="box-title">Updating Donut Chart</div>
                                     </div>
                                     <div class="box-body">
-                                        <div id="treemap-multis"></div>
+                                        <div id="donut-update"></div>
+                                        <div class="text-center mt-4">
+                                            <button type="button" class="btn btn-primary btn-sm"
+                                                id="randomize">Randomize</button>
+                                            <button type="button" class="btn btn-primary btn-sm"
+                                                id="add">Add</button>
+                                            <button type="button" class="btn btn-primary btn-sm"
+                                                id="remove">Remove</button>
+                                            <button type="button" class="btn btn-primary btn-sm"
+                                                id="reset">Reset</button>
+                                        </div>
                                     </div>
                                 </div>
-                                {{-- <div class="box">
-                                    <div class="box-header !gap-0 !m-0 justify-between">
-                                        <div class="box-title">
-                                            Revenue Analytics
-                                        </div>
-                                        <div class="hs-dropdown ti-dropdown">
-                                            <a href="javascript:void(0);"
-                                                class="text-[0.75rem] px-2 font-normal text-[#8c9097] dark:text-white/50"
-                                                aria-expanded="false">
-                                                View All<i
-                                                    class="ri-arrow-down-s-line align-middle ms-1 inline-block"></i>
-                                            </a>
-                                            <ul class="hs-dropdown-menu ti-dropdown-menu hidden" role="menu">
-                                                <li><a class="ti-dropdown-item !py-2 !px-[0.9375rem] !text-[0.8125rem] !font-medium block"
-                                                        href="javascript:void(0);">Today</a></li>
-                                                <li><a class="ti-dropdown-item !py-2 !px-[0.9375rem] !text-[0.8125rem] !font-medium block"
-                                                        href="javascript:void(0);">This Week</a></li>
-                                                <li><a class="ti-dropdown-item !py-2 !px-[0.9375rem] !text-[0.8125rem] !font-medium block"
-                                                        href="javascript:void(0);">Last Week</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="box-body !py-5">
-                                        <div id="crm-revenue-analytics"></div>
-                                    </div>
-                                </div> --}}
+                            </div>
 
+                        </div>
+                        <div class="xxl:col-span-12 xl:col-span-12 col-span-12">
+                            <div class="box custom-box">
+                                <div class="box-header">
+                                    <div class="box-title">User City</div>
+                                </div>
+                                <div class="box-body">
+                                    <div id="treemap-multis"></div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="xxl:col-span-12 xl:col-span-12 col-span-12">
-                        <div class="box custom-box">
-                            <div class="box-header">
-                                <div class="box-title">Monthly User Register Data</div>
-                            </div>
-                            <div class="box-body">
-                                <div id="line-chart"></div>
+                        <div class="xxl:col-span-12 xl:col-span-12 col-span-12">
+                            <div class="box custom-box">
+                                <div class="box-header">
+                                    <div class="box-title">Blog And News &amp; Chart</div>
+                                </div>
+                                <div class="box-body">
+                                    <div id="mixed-linecolumn"></div>
+                                </div>
                             </div>
                         </div>
+
+
                     </div>
                 </div>
-            </div>
-            <div class="xxl:col-span-3 xl:col-span-12 col-span-12">
-                <div class="grid grid-cols-12 gap-x-6">
-                    <div class="xxl:col-span-12 xl:col-span-12  col-span-12">
+                <div class="xxl:col-span-6 xl:col-span-12 col-span-12">
+                    <div class="grid grid-cols-12 gap-x-6">
+                        <div class="xxl:col-span-12 xl:col-span-12  col-span-12">
 
 
                             <div class="box custom-box">
@@ -391,7 +136,8 @@
                                                 <tr class="border border-defaultborder ">
                                                     <td>
                                                         <div class="flex items-center">
-                                                            <span class="avatar !rounded-full avatar-sm p-2 bg-primary me-2">
+                                                            <span
+                                                                class="avatar !rounded-full avatar-sm p-2 bg-primary me-2">
                                                                 <i class="ri-google-fill text-[1.125rem] text-white"></i>
                                                             </span>
                                                             <div class="font-semibold">News</div>
@@ -400,20 +146,20 @@
 
                                                     <td>
                                                         <span><?php
-                                                            $totalnewslike = DB::select("SELECT SUM(likes) AS totallike FROM news");
-                                                            echo $totalnewslike[0]->totallike;
+                                                        $totalnewslike = DB::select('SELECT SUM(likes) AS totallike FROM news');
+                                                        echo $totalnewslike[0]->totallike;
                                                         ?></span>
                                                     </td>
                                                     <td>
                                                         <div class="progress progress-xs">
                                                             <?php
                                                             $totalnewspars = DB::select("SELECT
-                                                            ROUND(SUM(likes) * 100.0 / 100, 0) AS percentage
-                                                        FROM
-                                                            news");
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ROUND(SUM(likes) * 100.0 / 100, 0) AS percentage
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                FROM
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    news");
 
-                                                        ?>
-                                                            <div class="progress-bar bg-primary w-[<?php echo $totalnewspars[0]->percentage;  ?>%]" >
+                                                            ?>
+                                                            <div class="progress-bar bg-primary w-[<?php echo $totalnewspars[0]->percentage; ?>%]">
                                                             </div>
                                                         </div>
                                                     </td>
@@ -421,7 +167,8 @@
                                                 <tr class="border border-defaultborder ">
                                                     <td>
                                                         <div class="flex items-center">
-                                                            <span class="avatar !rounded-full avatar-sm p-2 bg-primary me-2">
+                                                            <span
+                                                                class="avatar !rounded-full avatar-sm p-2 bg-primary me-2">
                                                                 <i class="ri-google-fill text-[1.125rem] text-white"></i>
                                                             </span>
                                                             <div class="font-semibold">Blog</div>
@@ -430,20 +177,20 @@
 
                                                     <td>
                                                         <span><?php
-                                                            $totalbloglike = DB::select("SELECT SUM(likes) AS totallike FROM blog");
-                                                            echo $totalbloglike[0]->totallike;
+                                                        $totalbloglike = DB::select('SELECT SUM(likes) AS totallike FROM blog');
+                                                        echo $totalbloglike[0]->totallike;
                                                         ?></span>
                                                     </td>
                                                     <td>
                                                         <div class="progress progress-xs">
-                                                        <?php
+                                                            <?php
                                                             $totalblogpars = DB::select("SELECT
-                                                            ROUND(SUM(likes) * 100.0 / 100, 0) AS percentage
-                                                        FROM
-                                                            blog");
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ROUND(SUM(likes) * 100.0 / 100, 0) AS percentage
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                FROM
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    blog");
 
-                                                        ?>
-                                                            <div class="progress-bar bg-primary w-[<?php echo $totalblogpars[0]->percentage;  ?>%]" >
+                                                            ?>
+                                                            <div class="progress-bar bg-primary w-[<?php echo $totalblogpars[0]->percentage; ?>%]">
                                                             </div>
                                                         </div>
                                                     </td>
@@ -453,441 +200,556 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        <div class="xxl:col-span-12  xl:col-span-8  col-span-12">
+                            <div class="grid grid-cols-12 gap-x-6">
+                                <div class="xxl:col-span-6 xl:col-span-6 col-span-12">
+                                    <div class="box overflow-hidden">
+                                        <div class="box-body">
+                                            <div class="flex items-top justify-between">
+                                                <div>
+                                                    <span
+                                                        class="!text-[0.8rem]  !w-[2.5rem] !h-[2.5rem] !leading-[2.5rem] !rounded-full inline-flex items-center justify-center bg-primary">
+                                                        <i class="ti ti-users text-[1rem] text-white"></i>
+                                                    </span>
+                                                </div>
+                                                <div class="flex-grow ms-4">
+                                                    <div class="flex items-center justify-between flex-wrap">
+                                                        <div>
+                                                            <p
+                                                                class="text-[#8c9097] dark:text-white/50 text-[0.813rem] mb-0">
+                                                                Total News</p>
+                                                            <h4 class="font-semibold  text-[1.5rem] !mb-2 ">
+                                                                <?php
+                                                                $totalNews = DB::select('SELECT COUNT(*) AS total FROM news');
+                                                                echo $totalNews[0]->total;
+                                                                ?>
+                                                            </h4>
+                                                        </div>
+                                                        <div id="crm-total-customers"></div>
+                                                    </div>
+                                                    <div class="flex items-center justify-between !mt-1">
+                                                        <div>
+                                                            <a class="text-primary text-[0.813rem]"
+                                                                href="javascript:void(0);">View All<i
+                                                                    class="ti ti-arrow-narrow-right ms-2 font-semibold inline-block"></i></a>
+                                                        </div>
+                                                        <div class="text-end">
+                                                            <p class="mb-0 text-success text-[0.813rem] font-semibold">
+                                                                +40%</p>
+                                                            <p
+                                                                class="text-[#8c9097] dark:text-white/50 opacity-[0.7] text-[0.6875rem]">
+                                                                this month</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="xxl:col-span-6 xl:col-span-6 col-span-12">
+                                    <div class="box overflow-hidden">
+                                        <div class="box-body">
+                                            <div class="flex items-top justify-between">
+                                                <div>
+                                                    <span
+                                                        class="!text-[0.8rem]  !w-[2.5rem] !h-[2.5rem] !leading-[2.5rem] !rounded-full inline-flex items-center justify-center bg-secondary">
+                                                        <i class="ti ti-wallet text-[1rem] text-white"></i>
+                                                    </span>
+                                                </div>
+                                                <div class="flex-grow ms-4">
+                                                    <div class="flex items-center justify-between flex-wrap">
+                                                        <div>
+                                                            <p
+                                                                class="text-[#8c9097] dark:text-white/50 text-[0.813rem] mb-0">
+                                                                Total Blog</p>
+                                                            <h4 class="font-semibold text-[1.5rem] !mb-2 ">
+                                                                <?php
+                                                                $totalblog = DB::select('SELECT COUNT(*) AS total FROM blog');
+                                                                echo $totalblog[0]->total;
+                                                                ?>
+                                                            </h4>
+                                                        </div>
+                                                        <div id="crm-total-revenue"></div>
+                                                    </div>
+                                                    <div class="flex items-center justify-between mt-1">
+                                                        <div>
+                                                            <a class="text-secondary text-[0.813rem]"
+                                                                href="javascript:void(0);">View All<i
+                                                                    class="ti ti-arrow-narrow-right ms-2 font-semibold inline-block"></i></a>
+                                                        </div>
+                                                        <div class="text-end">
+                                                            <p class="mb-0 text-success text-[0.813rem] font-semibold">
+                                                                +25%</p>
+                                                            <p
+                                                                class="text-[#8c9097] dark:text-white/50 opacity-[0.7] text-[0.6875rem]">
+                                                                this month</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="xxl:col-span-6 xl:col-span-6 col-span-12">
+                                    <div class="box overflow-hidden">
+                                        <div class="box-body">
+                                            <div class="flex items-top justify-between">
+                                                <div>
+                                                    <span
+                                                        class="!text-[0.8rem]  !w-[2.5rem] !h-[2.5rem] !leading-[2.5rem] !rounded-full inline-flex items-center justify-center bg-success">
+                                                        <i class="ti ti-wave-square text-[1rem] text-white"></i>
+                                                    </span>
+                                                </div>
+                                                <div class="flex-grow ms-4">
+                                                    <div class="flex items-center justify-between flex-wrap">
+                                                        <div>
+                                                            <p
+                                                                class="text-[#8c9097] dark:text-white/50 text-[0.813rem] mb-0">
+                                                                Total News Likes</p>
+                                                            <h4 class="font-semibold text-[1.5rem] !mb-2 ">
+                                                                <?php
+                                                                $totalnewslike = DB::select('SELECT SUM(likes) AS totallike FROM news');
+                                                                echo $totalnewslike[0]->totallike;
+                                                                ?>
+                                                            </h4>
+                                                        </div>
+                                                        <div id="crm-conversion-ratio"></div>
+                                                    </div>
+                                                    <div class="flex items-center justify-between mt-1">
+                                                        <div>
+                                                            <a class="text-success text-[0.813rem]"
+                                                                href="javascript:void(0);">View All<i
+                                                                    class="ti ti-arrow-narrow-right ms-2 font-semibold inline-block"></i></a>
+                                                        </div>
+                                                        <div class="text-end">
+                                                            <p class="mb-0 text-danger text-[0.813rem] font-semibold">
+                                                                -12%</p>
+                                                            <p
+                                                                class="text-[#8c9097] dark:text-white/50 opacity-[0.7] text-[0.6875rem]">
+                                                                this month</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="xxl:col-span-6 xl:col-span-6 col-span-12">
+                                    <div class="box overflow-hidden">
+                                        <div class="box-body">
+                                            <div class="flex items-top justify-between">
+                                                <div>
+                                                    <span
+                                                        class="!text-[0.8rem]  !w-[2.5rem] !h-[2.5rem] !leading-[2.5rem] !rounded-full inline-flex items-center justify-center bg-warning">
+                                                        <i class="ti ti-briefcase text-[1rem] text-white"></i>
+                                                    </span>
+                                                </div>
+                                                <div class="flex-grow ms-4">
+                                                    <div class="flex items-center justify-between flex-wrap">
+                                                        <div>
+                                                            <p
+                                                                class="text-[#8c9097] dark:text-white/50 text-[0.813rem] mb-0">
+                                                                Total Blog Likes</p>
+                                                            <h4 class="font-semibold text-[1.5rem] !mb-2 ">
+                                                                <?php
+                                                                $totalbloglike = DB::select('SELECT SUM(likes) AS totallike FROM blog');
+                                                                echo $totalbloglike[0]->totallike;
+                                                                ?>
+                                                            </h4>
+                                                        </div>
+                                                        <div id="crm-total-deals"></div>
+                                                    </div>
+                                                    <div class="flex items-center justify-between mt-1">
+                                                        <div>
+                                                            <a class="text-warning text-[0.813rem]"
+                                                                href="javascript:void(0);">View All<i
+                                                                    class="ti ti-arrow-narrow-right ms-2 font-semibold inline-block"></i></a>
+                                                        </div>
+                                                        <div class="text-end">
+                                                            <p class="mb-0 text-success text-[0.813rem] font-semibold">
+                                                                +19%</p>
+                                                            <p
+                                                                class="text-[#8c9097] dark:text-white/50  opacity-[0.7] text-[0.6875rem]">
+                                                                this month</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 
-
-                    </div>
-                    <div class="xxl:col-span-12 xl:col-span-6  col-span-12">
-                        <div class="box">
-                            <div class="box-header justify-between">
-                                <div class="box-title">
-                                    Deals Status
-                                </div>
-                                <div class="hs-dropdown ti-dropdown">
-                                    <a href="javascript:void(0);"
-                                        class="text-[0.75rem] px-2 font-normal text-[#8c9097] dark:text-white/50"
-                                        aria-expanded="false">
-                                        View All<i
-                                            class="ri-arrow-down-s-line align-middle ms-1 inline-block"></i>
-                                    </a>
-                                    <ul class="hs-dropdown-menu ti-dropdown-menu hidden" role="menu">
-                                        <li><a class="ti-dropdown-item !py-2 !px-[0.9375rem] !text-[0.8125rem] !font-medium block"
-                                                href="javascript:void(0);">Today</a></li>
-                                        <li><a class="ti-dropdown-item !py-2 !px-[0.9375rem] !text-[0.8125rem] !font-medium block"
-                                                href="javascript:void(0);">This Week</a></li>
-                                        <li><a class="ti-dropdown-item !py-2 !px-[0.9375rem] !text-[0.8125rem] !font-medium block"
-                                                href="javascript:void(0);">Last Week</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="box-body">
-                                <div class="flex items-center mb-[0.8rem]">
-                                    <h4 class="font-bold mb-0 text-[1.5rem] ">4,289</h4>
-                                    <div class="ms-2">
-                                        <span
-                                            class="py-[0.18rem] px-[0.45rem] rounded-sm text-success !font-medium !text-[0.75em] bg-success/10">1.02<i
-                                                class="ri-arrow-up-s-fill align-mmiddle ms-1"></i></span>
-                                        <span
-                                            class="text-[#8c9097] dark:text-white/50 text-[0.813rem] ms-1">compared
-                                            to last week</span>
-                                    </div>
-                                </div>
-
-                                <div class="flex w-full h-[0.3125rem] mb-6 rounded-full overflow-hidden">
-                                    <div
-                                        class="flex flex-col justify-center rounded-s-[0.625rem] overflow-hidden bg-primary w-[21%]">
-                                    </div>
-                                    <div
-                                        class="flex flex-col justify-center rounded-none overflow-hidden bg-info w-[26%]">
-                                    </div>
-                                    <div
-                                        class="flex flex-col justify-center rounded-none overflow-hidden bg-warning w-[35%]">
-                                    </div>
-                                    <div
-                                        class="flex flex-col justify-center rounded-e-[0.625rem] overflow-hidden bg-success w-[18%]">
-                                    </div>
-                                </div>
-                                <ul class="list-none mb-0 pt-2 crm-deals-status">
-                                    <li class="primary">
-                                        <div class="flex items-center text-[0.813rem]  justify-between">
-                                            <div>Successful Deals</div>
-                                            <div class="text-[0.75rem] text-[#8c9097] dark:text-white/50">987
-                                                deals</div>
-                                        </div>
-                                    </li>
-                                    <li class="info">
-                                        <div class="flex items-center text-[0.813rem]  justify-between">
-                                            <div>Pending Deals</div>
-                                            <div class="text-[0.75rem] text-[#8c9097] dark:text-white/50">1,073
-                                                deals</div>
-                                        </div>
-                                    </li>
-                                    <li class="warning">
-                                        <div class="flex items-center text-[0.813rem]  justify-between">
-                                            <div>Rejected Deals</div>
-                                            <div class="text-[0.75rem] text-[#8c9097] dark:text-white/50">1,674
-                                                deals</div>
-                                        </div>
-                                    </li>
-                                    <li class="success">
-                                        <div class="flex items-center text-[0.813rem]  justify-between">
-                                            <div>Upcoming Deals</div>
-                                            <div class="text-[0.75rem] text-[#8c9097] dark:text-white/50">921
-                                                deals</div>
-                                        </div>
-                                    </li>
-                                </ul>
                             </div>
                         </div>
-                    </div>
-                    <div class="xxl:col-span-12 xl:col-span-6  col-span-12">
-                        <div class="box">
-                            <div class="box-header justify-between">
-                                <div class="box-title">
-                                    Recent Activity
+                        <div class="xxl:col-span-12 xl:col-span-12 col-span-12">
+                            <div class="box custom-box">
+                                <div class="box-header">
+                                    <div class="box-title">Monthly User Register Data</div>
                                 </div>
-                                <div class="hs-dropdown ti-dropdown">
-                                    <a href="javascript:void(0);"
-                                        class="text-[0.75rem] px-2 font-normal text-[#8c9097] dark:text-white/50"
-                                        aria-expanded="false">
-                                        View All<i
-                                            class="ri-arrow-down-s-line align-middle ms-1 inline-block"></i>
-                                    </a>
-                                    <ul class="hs-dropdown-menu ti-dropdown-menu hidden" role="menu">
-                                        <li><a class="ti-dropdown-item !py-2 !px-[0.9375rem] !text-[0.8125rem] !font-medium block"
-                                                href="javascript:void(0);">Today</a></li>
-                                        <li><a class="ti-dropdown-item !py-2 !px-[0.9375rem] !text-[0.8125rem] !font-medium block"
-                                                href="javascript:void(0);">This Week</a></li>
-                                        <li><a class="ti-dropdown-item !py-2 !px-[0.9375rem] !text-[0.8125rem] !font-medium block"
-                                                href="javascript:void(0);">Last Week</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="box-body">
-                                <div>
-                                    <ul class="list-none mb-0 crm-recent-activity">
-                                        <li class="crm-recent-activity-content">
-                                            <div class="flex items-start">
-                                                <div class="me-4">
-                                                    <span
-                                                        class="w-[1.25rem] h-[1.25rem] inline-flex items-center justify-center font-medium leading-[1.25rem] text-[0.65rem] text-primary bg-primary/10 rounded-full">
-                                                        <i class="bi bi-circle-fill text-[0.5rem]"></i>
-                                                    </span>
-                                                </div>
-                                                <div class="crm-timeline-content text-defaultsize">
-                                                    <span class="font-semibold ">Update of calendar events
-                                                        &amp;</span><span><a href="javascript:void(0);"
-                                                            class="text-primary font-semibold">
-                                                            Added new events in next week.</a></span>
-                                                </div>
-                                                <div class="flex-grow text-end">
-                                                    <span
-                                                        class="block text-[#8c9097] dark:text-white/50 text-[0.6875rem] opacity-[0.7]">4:45PM</span>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="crm-recent-activity-content">
-                                            <div class="flex items-start  text-defaultsize">
-                                                <div class="me-4">
-                                                    <span
-                                                        class="w-[1.25rem] h-[1.25rem] leading-[1.25rem] inline-flex items-center justify-center font-medium text-[0.65rem] text-secondary bg-secondary/10 rounded-full">
-                                                        <i class="bi bi-circle-fill text-[0.5rem]"></i>
-                                                    </span>
-                                                </div>
-                                                <div class="crm-timeline-content">
-                                                    <span>New theme for <span class="font-semibold">Spruko
-                                                            Website</span> completed</span>
-                                                    <span
-                                                        class="block text-[0.75rem] text-[#8c9097] dark:text-white/50">Lorem
-                                                        ipsum, dolor sit amet.</span>
-                                                </div>
-                                                <div class="flex-grow text-end">
-                                                    <span
-                                                        class="block text-[#8c9097] dark:text-white/50 text-[0.6875rem] opacity-[0.7]">3
-                                                        hrs</span>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="crm-recent-activity-content  text-defaultsize">
-                                            <div class="flex items-start">
-                                                <div class="me-4">
-                                                    <span
-                                                        class="w-[1.25rem] h-[1.25rem] leading-[1.25rem] inline-flex items-center justify-center font-medium text-[0.65rem] text-success bg-success/10 rounded-full">
-                                                        <i class="bi bi-circle-fill  text-[0.5rem]"></i>
-                                                    </span>
-                                                </div>
-                                                <div class="crm-timeline-content">
-                                                    <span>Created a <span class="text-success font-semibold">New
-                                                            Task</span> today <span
-                                                            class="w-[1.25rem] h-[1.25rem] leading-[1.25rem] text-[0.65rem] inline-flex items-center justify-center font-medium bg-purple/10 rounded-full ms-1"><i
-                                                                class="ri-add-fill text-purple text-[0.75rem]"></i></span></span>
-                                                </div>
-                                                <div class="flex-grow text-end">
-                                                    <span
-                                                        class="block text-[#8c9097] dark:text-white/50 text-[0.6875rem] opacity-[0.7]">22
-                                                        hrs</span>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="crm-recent-activity-content  text-defaultsize">
-                                            <div class="flex items-start">
-                                                <div class="me-4">
-                                                    <span
-                                                        class="w-[1.25rem] h-[1.25rem] leading-[1.25rem] inline-flex items-center justify-center font-medium text-[0.65rem] text-pink bg-pink/10 rounded-full">
-                                                        <i class="bi bi-circle-fill text-[0.5rem]"></i>
-                                                    </span>
-                                                </div>
-                                                <div class="crm-timeline-content">
-                                                    <span>New member <span
-                                                            class="py-[0.2rem] px-[0.45rem] font-semibold rounded-sm text-pink text-[0.75em] bg-pink/10">@andreas
-                                                            gurrero</span> added today to AI Summit.</span>
-                                                </div>
-                                                <div class="flex-grow text-end">
-                                                    <span
-                                                        class="block text-[#8c9097] dark:text-white/50 text-[0.6875rem] opacity-[0.7]">Today</span>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="crm-recent-activity-content  text-defaultsize">
-                                            <div class="flex items-start">
-                                                <div class="me-4">
-                                                    <span
-                                                        class="w-[1.25rem] h-[1.25rem] leading-[1.25rem] inline-flex items-center justify-center font-medium text-[0.65rem] text-warning bg-warning/10 rounded-full">
-                                                        <i class="bi bi-circle-fill text-[0.5rem]"></i>
-                                                    </span>
-                                                </div>
-                                                <div class="crm-timeline-content">
-                                                    <span>32 New people joined summit.</span>
-                                                </div>
-                                                <div class="flex-grow text-end">
-                                                    <span
-                                                        class="block text-[#8c9097] dark:text-white/50 text-[0.6875rem] opacity-[0.7]">22
-                                                        hrs</span>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="crm-recent-activity-content  text-defaultsize">
-                                            <div class="flex items-start">
-                                                <div class="me-4">
-                                                    <span
-                                                        class="w-[1.25rem] h-[1.25rem] leading-[1.25rem] inline-flex items-center justify-center font-medium text-[0.65rem] text-info bg-info/10 rounded-full">
-                                                        <i class="bi bi-circle-fill text-[0.5rem]"></i>
-                                                    </span>
-                                                </div>
-                                                <div class="crm-timeline-content">
-                                                    <span>Neon Tarly added <span
-                                                            class="text-info font-semibold">Robert Bright</span>
-                                                        to AI
-                                                        summit project.</span>
-                                                </div>
-                                                <div class="flex-grow text-end">
-                                                    <span
-                                                        class="block text-[#8c9097] dark:text-white/50 text-[0.6875rem] opacity-[0.7]">12
-                                                        hrs</span>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="crm-recent-activity-content  text-defaultsize">
-                                            <div class="flex items-start">
-                                                <div class="me-4">
-                                                    <span
-                                                        class="w-[1.25rem] h-[1.25rem] leading-[1.25rem] inline-flex items-center justify-center font-medium text-[0.65rem] text-[#232323] dark:text-white bg-[#232323]/10 dark:bg-white/20 rounded-full">
-                                                        <i class="bi bi-circle-fill text-[0.5rem]"></i>
-                                                    </span>
-                                                </div>
-                                                <div class="crm-timeline-content">
-                                                    <span>Replied to new support request <i
-                                                            class="ri-checkbox-circle-line text-success text-[1rem] align-middle"></i></span>
-                                                </div>
-                                                <div class="flex-grow text-end">
-                                                    <span
-                                                        class="block text-[#8c9097] dark:text-white/50 text-[0.6875rem] opacity-[0.7]">4
-                                                        hrs</span>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="crm-recent-activity-content  text-defaultsize">
-                                            <div class="flex items-start">
-                                                <div class="me-4">
-                                                    <span
-                                                        class="w-[1.25rem] h-[1.25rem] leading-[1.25rem] inline-flex items-center justify-center font-medium text-[0.65rem] text-purple bg-purple/10 rounded-full">
-                                                        <i class="bi bi-circle-fill text-[0.5rem]"></i>
-                                                    </span>
-                                                </div>
-                                                <div class="crm-timeline-content">
-                                                    <span>Completed documentation of <a
-                                                            href="javascript:void(0);"
-                                                            class="text-purple underline font-semibold">AI
-                                                            Summit.</a></span>
-                                                </div>
-                                                <div class="flex-grow text-end">
-                                                    <span
-                                                        class="block text-[#8c9097] dark:text-white/50 text-[0.6875rem] opacity-[0.7]">4
-                                                        hrs</span>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
+                                <div class="box-body">
+                                    <div id="line-chart"></div>
                                 </div>
                             </div>
                         </div>
+                        <div class="xxl:col-span-12 xl:col-span-12 col-span-12">
+
+
+                            <div class="box custom-box">
+                                <div class="box-header">
+                                    <div class="box-title">
+                                        Combo Range Area Chart
+                                    </div>
+                                </div>
+                                <div class="box-body">
+                                    <div id="rangearea-combo"></div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+
                     </div>
                 </div>
             </div>
+
+
         </div>
-
-
     </div>
-</div>
 
-<script>
-    $(document).ready(function () {
-        $.ajax({
-            url: "{{ route('treemap.data') }}",
-            method: 'GET',
-            success: function (response) {
+    <script>
+        $(document).ready(function() {
+            $.ajax({
+                url: "{{ route('treemap.data') }}",
+                method: 'GET',
+                success: function(response) {
 
-                var options = {
-                    series: [
-                        {
+                    var options = {
+                        series: [{
                             data: response
+                        }],
+                        legend: {
+                            show: false
+                        },
+                        chart: {
+                            height: 350,
+                            type: 'treemap'
+                        },
+                        title: {
+                            text: 'User City List',
+                            align: 'center',
+                            style: {
+                                fontSize: '13px',
+                                fontWeight: 'bold',
+                                color: '#8c9097'
+                            }
+                        },
+                        colors: [
+                            '#845adf',
+                            '#a65e76',
+                            '#f5b849',
+                            '#a66a5e',
+                            '#a65e9a',
+                            '#26bf94',
+                            '#e6533c',
+                            '#49b6f5',
+                            '#5b67c7',
+                            '#2dce89',
+                            '#EF6537',
+                            '#8c9097'
+                        ],
+                        plotOptions: {
+                            treemap: {
+                                distributed: true,
+                                enableShades: false
+                            }
                         }
-                    ],
-                    legend: {
-                        show: false
-                    },
-                    chart: {
-                        height: 350,
-                        type: 'treemap'
-                    },
-                    title: {
-                        text: 'User City List',
-                        align: 'center',
-                        style: {
-                            fontSize: '13px',
-                            fontWeight: 'bold',
-                            color: '#8c9097'
-                        }
-                    },
-                    colors: [
-                        '#845adf',
-                        '#a65e76',
-                        '#f5b849',
-                        '#a66a5e',
-                        '#a65e9a',
-                        '#26bf94',
-                        '#e6533c',
-                        '#49b6f5',
-                        '#5b67c7',
-                        '#2dce89',
-                        '#EF6537',
-                        '#8c9097'
-                    ],
-                    plotOptions: {
-                        treemap: {
-                            distributed: true,
-                            enableShades: false
-                        }
-                    }
-                };
+                    };
 
-                var chart = new ApexCharts(document.querySelector("#treemap-multis"), options);
-                chart.render();
-            },
-            error: function (xhr, status, error) {
-                console.error('Error fetching data:', error);
-            }
+                    var chart = new ApexCharts(document.querySelector("#treemap-multis"), options);
+                    chart.render();
+                },
+                error: function(xhr, status, error) {
+                    console.error('Error fetching data:', error);
+                }
+            });
+
+
+            $.ajax({
+                url: "{{ route('user.trends') }}",
+                method: 'GET',
+                success: function(response) {
+                    var options = {
+                        series: [{
+                            name: "Users",
+                            data: response.users
+                        }],
+                        chart: {
+                            height: 320,
+                            type: 'line',
+                            zoom: {
+                                enabled: false
+                            }
+                        },
+                        colors: ['#845adf'],
+                        dataLabels: {
+                            enabled: false
+                        },
+                        stroke: {
+                            curve: 'straight',
+                            width: 3,
+                        },
+                        grid: {
+                            borderColor: '#f2f5f7',
+                        },
+                        title: {
+                            text: 'Users Trends by Month ' + response.year,
+                            align: 'left',
+                            style: {
+                                fontSize: '13px',
+                                fontWeight: 'bold',
+                                color: '#8c9097'
+                            },
+                        },
+                        xaxis: {
+                            categories: response
+                                .categories, // Dynamic month names from the database
+                            labels: {
+                                show: true,
+                                style: {
+                                    colors: "#8c9097",
+                                    fontSize: '11px',
+                                    fontWeight: 600,
+                                    cssClass: 'apexcharts-xaxis-label',
+                                },
+                            }
+                        },
+                        yaxis: {
+                            labels: {
+                                show: true,
+                                style: {
+                                    colors: "#8c9097",
+                                    fontSize: '11px',
+                                    fontWeight: 600,
+                                    cssClass: 'apexcharts-yaxis-label',
+                                },
+                            }
+                        }
+                    };
+                    var chart = new ApexCharts(document.querySelector("#line-chart"), options);
+                    chart.render();
+                }
+            });
+
+            $.ajax({
+                url: '{{ route('chart.nb') }}',
+                method: 'GET',
+                success: function(response) {
+                    var options = {
+                        series: [{
+                            name: 'Website Blog',
+                            type: 'column',
+                            data: response.blog
+                        }, {
+                            name: 'Website News',
+                            type: 'line',
+                            data: response.news
+                        }],
+                        chart: {
+                            height: 320,
+                            type: 'line',
+                        },
+                        stroke: {
+                            width: [0, 4]
+                        },
+                        grid: {
+                            borderColor: '#f2f5f7',
+                        },
+                        title: {
+                            text: 'Traffic Sources',
+                            align: 'left',
+                            style: {
+                                fontSize: '13px',
+                                fontWeight: 'bold',
+                                color: '#8c9097'
+                            },
+                        },
+                        dataLabels: {
+                            enabled: true,
+                            enabledOnSeries: [1]
+                        },
+                        colors: ["#845adf", "#23b7e5"],
+                        labels: response.labels,
+                        xaxis: {
+                            type: 'datetime',
+                            labels: {
+                                show: true,
+                                style: {
+                                    colors: "#8c9097",
+                                    fontSize: '11px',
+                                    fontWeight: 600,
+                                    cssClass: 'apexcharts-xaxis-label',
+                                },
+                            }
+                        },
+                        yaxis: [{
+                            title: {
+                                text: 'Website Blog',
+                                style: {
+                                    color: "#8c9097",
+                                }
+                            },
+                            labels: {
+                                show: true,
+                                style: {
+                                    colors: "#8c9097",
+                                    fontSize: '11px',
+                                    fontWeight: 600,
+                                    cssClass: 'apexcharts-yaxis-label',
+                                },
+                            }
+                        }, {
+                            opposite: true,
+                            title: {
+                                text: 'Website News',
+                                style: {
+                                    color: "#8c9097",
+                                }
+                            }
+                        }]
+                    };
+
+                    var chart = new ApexCharts(document.querySelector("#mixed-linecolumn"), options);
+                    chart.render();
+                },
+                error: function(xhr) {
+                    console.log('Error:', xhr.responseText);
+                }
+            });
+
+
+            var options = {
+                series: [44, 55, 13, 33],
+                chart: {
+                    height: 280,
+                    type: 'donut',
+                },
+                dataLabels: {
+                    enabled: false
+                },
+                colors: ["#845adf", "#23b7e5", "#f5b849", "#e6533c", "#49b6f5"],
+                legend: {
+                    position: 'bottom',
+                }
+            };
+            var chart = new ApexCharts(document.querySelector("#donut-update"), options);
+            chart.render();
+
+
+            /* combo range area chart */
+            $.ajax({
+                url: '{{ route('chart.payment') }}',
+                method: 'GET',
+                success: function(response) {
+                    var options = {
+                        series: response.series,
+                        chart: {
+                            height: 350,
+                            type: 'rangeArea',
+                            animations: {
+                                speed: 500
+                            }
+                        },
+                        colors: ['#845adf', '#23b7e5', '#845adf', '#23b7e5'],
+                        dataLabels: {
+                            enabled: false
+                        },
+                        fill: {
+                            opacity: [0.24, 0.24, 1, 1]
+                        },
+                        forecastDataPoints: {
+                            count: 2
+                        },
+                        stroke: {
+                            curve: 'straight',
+                            width: [0, 0, 2, 2]
+                        },
+                        legend: {
+                            show: true,
+                            customLegendItems: ['Antivirus', 'Vpn Shild'],
+                            inverseOrder: true
+                        },
+                        title: {
+                            text: 'Range Area with Antivirus and Vpn Shild (Combo)'
+                        },
+                        markers: {
+                            hover: {
+                                sizeOffset: 5
+                            }
+                        }
+                    };
+
+                    var chart = new ApexCharts(document.querySelector("#rangearea-combo"), options);
+                    chart.render();
+                }
+            });
+
+
+
+
+
+
+
+
+
+
         });
-        var options = {
-        series: [{
-            name: "Users",
-            data: [10, 41, 35, 51, 49, 62, 69, 91, 148]
-        }],
-        chart: {
-            height: 320,
-            type: 'line',
-            zoom: {
-                enabled: false
-            }
-        },
-        colors: ['#845adf'],
-        dataLabels: {
-            enabled: false
-        },
-        stroke: {
-            curve: 'straight',
-            width: 3,
-        },
-        grid: {
-            borderColor: '#f2f5f7',
-        },
-        title: {
-            text: 'Users Trends by Month',
-            align: 'left',
-            style: {
-                fontSize: '13px',
-                fontWeight: 'bold',
-                color: '#8c9097'
-            },
-        },
-        xaxis: {
-            categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep'],
-            labels: {
-                show: true,
-                style: {
-                    colors: "#8c9097",
-                    fontSize: '11px',
-                    fontWeight: 600,
-                    cssClass: 'apexcharts-xaxis-label',
-                },
-            }
-        },
-        yaxis: {
-            labels: {
-                show: true,
-                style: {
-                    colors: "#8c9097",
-                    fontSize: '11px',
-                    fontWeight: 600,
-                    cssClass: 'apexcharts-yaxis-label',
-                },
-            }
-        }
-    };
-    var chart = new ApexCharts(document.querySelector("#line-chart"), options);
-    chart.render();
-    });
-</script>
+    </script>
 
-<script>
+    <script>
         var dom = document.getElementById('echart-pie');
-    var myChart = echarts.init(dom, null, {
-        renderer: 'canvas',
-        useDirtyRect: false
-    });
-    var app = {};
-    var option;
-    option = {
-        tooltip: {
-            trigger: 'item'
-        },
-        legend: {
-            orient: 'vertical',
-            left: 'left',
-            textStyle: {
-              color: '#777'
-            }
-        },
-        series: [
-            {
+        var myChart = echarts.init(dom, null, {
+            renderer: 'canvas',
+            useDirtyRect: false
+        });
+        var app = {};
+        var option;
+        option = {
+            tooltip: {
+                trigger: 'item'
+            },
+            legend: {
+                orient: 'vertical',
+                left: 'left',
+                textStyle: {
+                    color: '#777'
+                }
+            },
+            series: [{
                 name: 'Access From',
                 type: 'pie',
                 radius: '50%',
-                data: [
-                    { value: 1048, name: 'Search Engine' },
-                    { value: 735, name: 'Direct' },
-                    { value: 580, name: 'Email' },
-                    { value: 484, name: 'Union Ads' },
-                    { value: 300, name: 'Video Ads' }
+                data: [{
+                        value: 1048,
+                        name: 'Search Engine'
+                    },
+                    {
+                        value: 735,
+                        name: 'Direct'
+                    },
+                    {
+                        value: 580,
+                        name: 'Email'
+                    },
+                    {
+                        value: 484,
+                        name: 'Union Ads'
+                    },
+                    {
+                        value: 300,
+                        name: 'Video Ads'
+                    }
                 ],
                 emphasis: {
                     itemStyle: {
@@ -896,15 +758,13 @@
                         shadowColor: 'rgba(0, 0, 0, 0.5)'
                     }
                 }
-            }
-        ],
-        color: ["#845adf", "#23b7e5", "#f7b731", "#e82646", "#49b6f5"]
-    };
-    if (option && typeof option === 'object') {
-        myChart.setOption(option);
-    }
-    window.addEventListener('resize', myChart.resize);
-</script>
+            }],
+            color: ["#845adf", "#23b7e5", "#f7b731", "#e82646", "#49b6f5"]
+        };
+        if (option && typeof option === 'object') {
+            myChart.setOption(option);
+        }
+        window.addEventListener('resize', myChart.resize);
+    </script>
 
 @endsection
-

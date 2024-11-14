@@ -49,6 +49,8 @@ Route::post('saveemailsub', [UserController::class, 'saveemailsub'])->name('user
 
 //testing
 Route::get('/test', [UserController::class, 'testpageview'])->name('testpageview');
+Route::get('/salarycal', [UserController::class, 'salarycal'])->name('salary.form');
+Route::post('/calculate-salary', [UserController::class, 'calculateSalary'])->name('salary.calculate');
 
 
 
@@ -172,7 +174,7 @@ Route::post('/signdata', [UserController::class, 'signdata'])->name('user.signda
 
 
 Route::get('/signup', [UserController::class, 'signup'])->name('user.signup');
-Route::post('/register', [UserController::class, 'saveUser'])->name('user.saveregister');
+Route::post('/ttbregister', [UserController::class, 'ttbsaveUser'])->name('user.ttbsaveregister');
 
 //message Activation key
 Route::get('/activate/{activation_key}', [UserController::class, 'activate'])->name('activate');
@@ -224,6 +226,14 @@ Route::get('/mailtest', [UserController::class, 'mailtest'])->name('admin.mailte
          Route::get('/adminprofile', [AdminController::class, 'adminprofile'])->name('admin.profile');
          //Admin Controller
          Route::get('/pageadmin', [AdminController::class, 'indexpage'])->name('admin.indexp');
+         Route::get('/users-trend', [AdminController::class, 'getUsersTrend'])->name('user.trends');
+        Route::get('/chart-data', [AdminController::class, 'getChartDatanb'])->name('chart.nb');
+        Route::get('/fetch-chart-data-payment', [AdminController::class, 'getChartDataPay'])->name('chart.payment');
+
+
+
+
+
          Route::get('/newslist', [AdminController::class, 'newslist'])->name('admin.newslist');
          //news comment all
          Route::get('/newscommentlist', [AdminController::class, 'newscommentlist'])->name('admin.newscommentlist');
@@ -272,6 +282,8 @@ Route::get('/mailtest', [UserController::class, 'mailtest'])->name('admin.mailte
          Route::get('/useradminpage', [AdminController::class, 'useradminpage'])->name('admin.useradminpage');
          Route::get('/adminuseredit/{id}', [AdminController::class, 'adminuseredit'])->name('edit.adminuseredit');
          Route::post('/editadminusersave', [AdminController::class, 'editadminusersave'])->name('edit.editadminusersave');
+         Route::delete('/useradminlist/{id}', [AdminController::class, 'useradminlist'])->name('delete.useradminlist');
+
 
 
 
@@ -351,7 +363,6 @@ Route::get('/mailtest', [UserController::class, 'mailtest'])->name('admin.mailte
          Route::get('/Reminder_mail_list', [AdminController::class, 'Reminder_mail_list'])->name('Reminder_mail_list.page');
 
          //manual key send
-         Route::get('/manual_key_list', [AdminController::class, 'manual_key_list'])->name('manual_key_list.page');
          Route::get('/manual_key_assign', [AdminController::class, 'manual_key_assign'])->name('manual_key_assign.page');
          Route::get('/get-ttb-keys', [AdminController::class, 'getTTBKeys'])->name('keyget.assign');
          Route::post('/get-ttb-key-save', [AdminController::class, 'savekeyttb'])->name('save.ttbkey');

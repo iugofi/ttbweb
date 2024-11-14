@@ -32,16 +32,36 @@ class UserauthController extends Controller
 
         if ($this->loggedInUser) {
             // DB::enableQueryLog();
-            $productdetails = Payments::join('product_details', 'payments.product_id', '=', 'product_details.id')
-                ->join('ttbkey','ttbkey.id','=','payments.product_key')
-                ->where('payments.user_id', $this->loggedInUser)
-                ->select('payments.*', 'payments.id as id_py', 'product_details.*','ttbkey.*')
-                ->orderby('payments.created_at', 'desc')
-                ->get();
+            $user_id_s = $this->loggedInUser;
+
+            $productdetails = DB::table('ttb_key_assign AS tka')
+            ->select(
+                'tka.main_key AS product_key',
+                'tk.key_activation_date AS key_activation_date',
+                'tk.key_expirey_date AS key_expirey_date',
+                's.PICK_TEXT AS product_name',
+                'p.transaction_id AS invoice_id',
+                'p.price AS amount_total',
+                'p.payment_time',
+                'p.order_id AS order_id',
+                'p.payment_status AS payment_status',
+                'pd.key_type AS key_type',
+                'pd.plan_id AS plan_id',
+                'tka.id AS tkaid'
+            )
+            ->leftJoin('payments1 AS p', 'p.id', '=', 'tka.payment_id')
+            ->leftJoin('ttbkey AS tk', 'tk.id', '=', 'tka.main_key')
+            ->leftJoin('product_details AS pd', 'pd.id', '=', 'p.product_id')
+            ->leftJoin('planname AS pn', 'pn.plan_id', '=', 'pd.plan_id')
+            ->leftJoin('storepick AS s', 's.PICK_ID', '=', 'pd.key_type')
+            ->where('p.user_id', $user_id_s)
+            ->where('s.STORE_ID', 'key_type')
+            ->get();
+
+
                 // $query = DB::getQueryLog($productdetails);
                 // dd($query);
 
-            $user_id_s = $this->loggedInUser;
         // DB::enableQueryLog();
             $keydetails = DB::table('payments')
             ->select('storepick.PICK_TEXT', DB::raw('COUNT(product_id) AS TotalCount'))

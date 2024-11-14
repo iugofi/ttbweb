@@ -188,11 +188,7 @@
                                                 <i class="ri-shield-user-line  align-middle inline-block me-1"></i>Profile
                                                 Information
                                             </a>
-                                            <a class="w-full sm:w-auto flex hs-tab-active:font-semibold  hs-tab-active:text-white hs-tab-active:bg-primary rounded-md  py-2 px-4 text-primary text-sm"
-                                                href="javascript:void(0);" id="posts-tab" data-hs-tab="#posts-tab-pane"
-                                                aria-controls="posts-tab-pane">
-                                                <i class="ri-bill-line me-1 align-middle inline-block"></i>My Subscriptions
-                                            </a>
+                                           
                                             <a class="w-full sm:w-auto flex hs-tab-active:font-semibold  hs-tab-active:text-white hs-tab-active:bg-primary rounded-md  py-2 px-4 text-primary text-sm"
                                                 href="javascript:void(0);" id="followers-tab"
                                                 data-hs-tab="#followers-tab-pane" aria-controls="followers-tab-pane">
@@ -625,45 +621,7 @@
 
 
                                             </div>
-                                            <div class="tab-pane fade !p-0 !border-0 hidden !rounded-md"
-                                                id="posts-tab-pane" role="tabpanel" aria-labelledby="posts-tab"
-                                                tabindex="0">
-                                                <ul class="list-group !rounded-md">
-                                                    <li class="list-group-item">
-                                                        <div class="sm:flex items-center leading-none">
-                                                            <div class="me-4">
-                                                                <span class="avatar avatar-md avatar-rounded">
-                                                                    <img src="assets/images/faces/9.jpg" alt="">
-                                                                </span>
-                                                            </div>
-                                                            <div class="flex-grow">
-                                                                <div class="flex">
-                                                                    <input type="text"
-                                                                        class="form-control !rounded-e-none !w-full"
-                                                                        placeholder="Recipient's username"
-                                                                        aria-label="Recipient's username with two button addons">
-                                                                    <button aria-label="button"
-                                                                        class="ti-btn ti-btn-light !rounded-none !mb-0"
-                                                                        type="button"><i
-                                                                            class="bi bi-emoji-smile"></i></button>
-                                                                    <button aria-label="button"
-                                                                        class="ti-btn ti-btn-light !rounded-none !mb-0"
-                                                                        type="button"><i
-                                                                            class="bi bi-paperclip"></i></button>
-                                                                    <button aria-label="button"
-                                                                        class="ti-btn ti-btn-light !rounded-none !mb-0"
-                                                                        type="button"><i
-                                                                            class="bi bi-camera"></i></button>
-                                                                    <button
-                                                                        class="ti-btn bg-primary !mb-0 !rounded-s-none text-white"
-                                                                        type="button">Post</button>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </li>
 
-                                                </ul>
-                                            </div>
 
 
 
@@ -701,26 +659,7 @@
                                                                                     <td class="border px-4 py-2">
                                                                                         {{ $key + 1 }}</td>
                                                                                     <td class="border px-4 py-2">
-                                                                                        @php
-                                                                                            $product_name = DB::table(
-                                                                                                'storepick',
-                                                                                            )
-                                                                                                ->select('*')
-                                                                                                ->where(
-                                                                                                    'PICK_ID',
-                                                                                                    $item->key_type,
-                                                                                                )
-                                                                                                ->where(
-                                                                                                    'STORE_ID',
-                                                                                                    'key_type',
-                                                                                                )
-                                                                                                ->first();
-                                                                                        @endphp
-                                                                                        @if ($product_name)
-                                                                                            {{ $product_name->PICK_TEXT }}
-                                                                                        @else
-                                                                                            No product found.
-                                                                                        @endif
+                                                                                        {{ $item->product_name }}
                                                                                     </td>
                                                                                     {{-- <td class="border px-4 py-2">
                                                                                         <div class="flex items-center font-semibold">
@@ -732,17 +671,17 @@
                                                                                         </div>
                                                                                     </td> --}}
                                                                                     <td class="border px-4 py-2">
-                                                                                        {{ $item->pay_id }}</td>
+                                                                                        {{ $item->invoice_id }}</td>
                                                                                     <td class="border px-4 py-2">
-                                                                                        {{ $item->created_at->format('F j, Y') }}
+                                                                                        {{ $item->payment_time }}
                                                                                     </td>
                                                                                     <td class="border px-4 py-2">
                                                                                         ${{ $item->amount_total }}</td>
                                                                                     <td class="border px-4 py-2">
-                                                                                        #1000{{ $item->id_py }}</td>
+                                                                                        {{ $item->order_id }}</td>
                                                                                     <td class="border">
 
-                                                                                        @if ($item->payment_status == 'paid')
+                                                                                        @if ($item->payment_status == 'success')
                                                                                             <span
                                                                                                 class="inline-flex text-primary !py-[0.15rem] !px-[0.45rem] rounded-sm !font-semibold !text-[0.75em] bg-primary/10">{{ $item->payment_status }}</span>
                                                                                         @else
@@ -756,7 +695,7 @@
                                                                                         <div
                                                                                             class="flex flex-row items-center text-[0.9375rem]">
                                                                                             <a aria-label="anchor"
-                                                                                                href="{{ route('user.invoice', \Crypt::encrypt($item->pay_id)) }}"
+                                                                                                href="{{ route('user.invoice', \Crypt::encrypt($item->tkaid)) }}"
                                                                                                 class="ti-btn ti-btn-icon ti-btn-wave !gap-0 !m-0 !h-[1.75rem] !w-[1.75rem] text-[0.8rem] bg-primary/10 text-primary hover:bg-primary hover:text-white hover:border-primary"
                                                                                                 target="_blank">
                                                                                                 <i

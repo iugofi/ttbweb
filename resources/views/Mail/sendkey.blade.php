@@ -1,46 +1,4 @@
-@php
-    // $allowedProductIds = [1, 2, 3, 5, 9, 10, 11, 12, 13];
-    // $oneYearAgo = \Carbon\Carbon::now()->subYear();
 
-    $paymentDetails = DB::table('payments')
-        ->join('product_details', 'product_details.id', '=', 'payments.product_id')
-        ->join('usersall', 'usersall.id', '=', 'payments.user_id')
-        ->join('ttbkey', 'ttbkey.id', '=', 'payments.product_key')
-        ->select(
-            'payments.id',
-            'usersall.firstname',
-            'usersall.lastname',
-            'usersall.email',
-            'ttbkey.main_key',
-            'payments.pay_id',
-            'payments.product_key',
-            // 'payments.created_at',
-            'ttbkey.key_activation_date as created_at',
-            'ttbkey.key_expirey_date as expire_date',
-            // DB::raw('DATE_ADD(payments.created_at, INTERVAL 1 YEAR) AS expire_date'),
-            'payments.amount_total',
-            'payments.currency',
-            'payments.payment_method_types',
-            'product_details.key_type',
-            'product_details.plan_id'
-        )
-        ->where('payments.pay_id', $payment_intent)
-        ->where('payments.product_key', $id_key)
-        // ->whereIn('payments.product_id', $allowedProductIds)
-        // ->where('payments.created_at', '>', $oneYearAgo)
-        ->first();
-
-    if ($paymentDetails) {
-        $keytypeval = $paymentDetails->key_type;
-        $keytype = DB::table('storepick')
-            ->where('PICK_ID', $keytypeval)
-            ->where('STORE_ID', 'key_type')
-            ->select('PICK_TEXT')
-            ->first();
-    } else {
-        $keytype = null;
-    }
-@endphp
 
 
 
@@ -55,9 +13,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="telephone=no" name="format-detection">
     <title>New Template</title>
-    <!--[if (mso 16)]><style type="text/css">     a {text-decoration: none;}     </style><![endif]-->
-    <!--[if gte mso 9]><style>sup { font-size: 100% !important; }</style><![endif]--> <!--[if gte mso 9]><xml> <o:OfficeDocumentSettings> <o:AllowPNG></o:AllowPNG> <o:PixelsPerInch>96</o:PixelsPerInch> </o:OfficeDocumentSettings> </xml>
-<![endif]-->
+
     <style type="text/css">
         #outlook a {
             padding: 0;
@@ -483,11 +439,11 @@
         }
     </style>
 </head>
-@if ($paymentDetails)
+
 <body data-new-gr-c-s-loaded="14.1185.0"
     style="width:100%;font-family:arial, 'helvetica neue', helvetica, sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;padding:0;Margin:0">
     <div dir="ltr" class="es-wrapper-color" lang="en" style="background-color:#FDFCFC">
-        <!--[if gte mso 9]><v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t"> <v:fill type="tile" color="#fdfcfc"></v:fill> </v:background><![endif]-->
+
         <table class="es-wrapper" width="100%" cellspacing="0" cellpadding="0" role="none"
             style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;padding:0;Margin:0;width:100%;height:100%;background-repeat:repeat;background-position:center top;background-color:#f1f1f1">
             <tr>
@@ -541,7 +497,7 @@
                                                                     <p
                                                                         style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;color:#333333;font-size:12px">
                                                                         <strong>Hello {{ $paymentDetails->firstname }} {{ $paymentDetails->lastname}},</strong><br>Your order for the TTB
-                                                                        {{$keytype->PICK_TEXT}} valued at <strong>{{$paymentDetails->amount_total}} {{$paymentDetails->currency}}</strong> has
+                                                                        {{$paymentDetails->product_name}} valued at <strong>{{$paymentDetails->amount_total}} USD</strong> has
                                                                         been successfully processed. You can now
                                                                         activate your copy of the software using the
                                                                         product key attached.</p>
@@ -581,7 +537,7 @@
                                                                     <h2
                                                                         style="Margin:0;line-height:19px;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-size:16px;font-style:normal;font-weight:bold;color:#333333;text-align:center">
                                                                         Product activation key:<br><span
-                                                                            style="color:#13D5A8"><strong>{{ $paymentDetails->main_key }}</strong></span>
+                                                                            style="color:#13D5A8"><strong>{{ $paymentDetails->ttb_main_key }}</strong></span>
                                                                     </h2>
                                                                 </td>
                                                             </tr>
@@ -590,17 +546,14 @@
                                                                     style="padding:0;Margin:0;padding-bottom:15px;padding-top:25px">
                                                                     <span class="es-button-border"
                                                                         style="border-style:solid;border-color:#12d2b3;background:#12d2b3;border-width:2px;display:inline-block;border-radius:0px;width:auto">
-                                                                        @if ($paymentDetails->key_type==501)
-                                                                        <a href="{{route('user.vpn_download')}}"
-                                                                        class="es-button" target="_blank"
-                                                                        style="mso-style-priority:100 !important;text-decoration:none;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;color:#FFFFFF;font-size:18px;padding:10px 30px 10px 30px;display:inline-block;background:#12d2b3;border-radius:0px;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-weight:normal;font-style:normal;line-height:22px;width:auto;text-align:center;mso-padding-alt:0;mso-border-alt:10px solid #12d2b3">Activate
-                                                                        Now</a>
-                                                                        @elseif ($paymentDetails->key_type == 502)
-                                                                        <a href="{{route('user.antivirus_download')}}"
-                                                                            class="es-button" target="_blank"
-                                                                            style="mso-style-priority:100 !important;text-decoration:none;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;color:#FFFFFF;font-size:18px;padding:10px 30px 10px 30px;display:inline-block;background:#12d2b3;border-radius:0px;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-weight:normal;font-style:normal;line-height:22px;width:auto;text-align:center;mso-padding-alt:0;mso-border-alt:10px solid #12d2b3">Activate
-                                                                            Now</a>
-                                                                        @endif
+                                                                    @if ($paymentDetails->key_type == 501)
+                                                                        <a href="{{ route('user.vpn_download') }}" class="es-button" target="_blank"
+                                                                        style="mso-style-priority:100 !important;text-decoration:none;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;color:#FFFFFF;font-size:18px;padding:10px 30px 10px 30px;display:inline-block;background:#12d2b3;border-radius:0px;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-weight:normal;font-style:normal;line-height:22px;width:auto;text-align:center;mso-padding-alt:0;mso-border-alt:10px solid #12d2b3">Activate Now</a>
+                                                                    @elseif ($paymentDetails->key_type == 502)
+                                                                        <a href="{{ route('user.antivirus_download') }}" class="es-button" target="_blank"
+                                                                        style="mso-style-priority:100 !important;text-decoration:none;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;color:#FFFFFF;font-size:18px;padding:10px 30px 10px 30px;display:inline-block;background:#12d2b3;border-radius:0px;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-weight:normal;font-style:normal;line-height:22px;width:auto;text-align:center;mso-padding-alt:0;mso-border-alt:10px solid #12d2b3">Activate Now</a>
+                                                                    @endif
+
 
                                                                         </span></td>
                                                             </tr>
@@ -609,7 +562,7 @@
                                                                     style="padding:0;Margin:0;padding-bottom:20px">
                                                                     <h1
                                                                         style="Margin:0;line-height:29px;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-size:24px;font-style:normal;font-weight:bold;color:#333333">
-                                                                        <strong>TTB {{$keytype->PICK_TEXT}}</strong></h1>
+                                                                        <strong>TTB {{$paymentDetails->product_name}}</strong></h1>
                                                                 </td>
                                                             </tr>
                                                             <tr>
@@ -627,16 +580,21 @@
                                                                         <li
                                                                             style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;Margin-bottom:15px;margin-left:0;color:#333333;font-size:12px">
                                                                             Click here to <strong>
-                                                                                @if ($paymentDetails->key_type==501)
-                                                                                <a href="{{route('user.vpn_download')}}"
-                                                                                    target="_blank"
-                                                                                    style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#12d2b3;font-size:12px">download</a>
+                                                                                @if ($paymentDetails->key_type == 501)
+                                                                                    <a href="{{ route('user.vpn_download') }}"
+                                                                                       target="_blank"
+                                                                                       style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#12d2b3;font-size:12px">
+                                                                                       download
+                                                                                    </a>
                                                                                 @elseif ($paymentDetails->key_type == 502)
-                                                                                <a href="{{route('user.antivirus_download')}}"
-                                                                                    target="_blank"
-                                                                                    style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#12d2b3;font-size:12px">download</a>
+                                                                                    <a href="{{ route('user.antivirus_download') }}"
+                                                                                       target="_blank"
+                                                                                       style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#12d2b3;font-size:12px">
+                                                                                       download
+                                                                                    </a>
                                                                                 @endif
-                                                                                    .</strong>
+                                                                            </strong>
+
                                                                         </li>
                                                                         <li
                                                                             style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;Margin-bottom:15px;margin-left:0;color:#333333;font-size:12px">
@@ -650,9 +608,9 @@
                                                                     <p
                                                                         style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;color:#333333;font-size:12px">
                                                                         Your subscription to TTB is active on
-                                                                        <strong>{{ $paymentDetails->created_at }}</strong>, and will
+                                                                        <strong>{{ $paymentDetails->key_activation_date }}</strong>, and will
                                                                         automatically renew on<strong>
-                                                                            {{$paymentDetails->expire_date}}</strong> for the original
+                                                                            {{$paymentDetails->key_expirey_date}}</strong> for the original
                                                                         product price i.e. . Find the order details
                                                                         mentioned below:</p>
                                                                 </td>
@@ -680,12 +638,12 @@
                                                                     <p
                                                                         style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;color:#333333;font-size:12px">
                                                                         Order
-                                                                        number:&nbsp;<strong>{{ $paymentDetails->pay_id }}</strong><br>Date
+                                                                        number:&nbsp;<strong>{{ $paymentDetails->invoice_id }}</strong><br>Date
                                                                         of
-                                                                        Order:&nbsp;<strong>{{ $paymentDetails->created_at }}</strong><br>Name:
+                                                                        Order:&nbsp;<strong>{{ $paymentDetails->payment_time }}</strong><br>Name:
                                                                         <b>{{ $paymentDetails->firstname }} {{ $paymentDetails->lastname }}</b><br><br>Supports <span
                                                                             style="color:#12D2B3"><strong>TTB
-                                                                                {{$keytype->PICK_TEXT}}.</strong></span><br>Sign in to
+                                                                                {{$paymentDetails->product_name}}.</strong></span><br>Sign in to
                                                                         your TTB account for details. <strong><a
                                                                                 href="https://www.ttbinternetsecurity.com/"
                                                                                 target="_blank"
@@ -723,18 +681,18 @@
                                                                         <strong>{{ $paymentDetails->email }}</strong></p>
                                                                     <p
                                                                         style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;color:#333333;font-size:12px">
-                                                                        Order number:&nbsp;<strong>#1000{{ $paymentDetails->id }}</strong>
+                                                                        Order number:&nbsp;<strong>{{ $paymentDetails->order_id }}</strong>
                                                                     </p>
                                                                     <p
                                                                         style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;color:#333333;font-size:12px">
-                                                                        Invoice date:&nbsp;<strong>{{ $paymentDetails->created_at }}</strong>
+                                                                        Invoice date:&nbsp;<strong>{{ $paymentDetails->payment_time }}</strong>
                                                                     </p>
                                                                     <p
                                                                         style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;color:#333333;font-size:12px">
-                                                                        Payment method:&nbsp;<strong>{{ $paymentDetails->payment_method_types }}</strong></p>
+                                                                        Payment method:&nbsp;<strong>{{ $paymentDetails->payment_method }}</strong></p>
                                                                     <p
                                                                         style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;color:#333333;font-size:12px">
-                                                                        Currency:&nbsp;<strong>{{ $paymentDetails->currency }}</strong></p>
+                                                                        Currency:&nbsp;<strong>USD</strong></p>
                                                                 </td>
                                                             </tr>
                                                         </table>
@@ -878,14 +836,14 @@
                                                                     <p
                                                                         style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;color:#333333;font-size:12px">
                                                                         You have received this mail as a service manager
-                                                                        from TTB {{$keytype->PICK_TEXT}} regarding the status of your
-                                                                        TTB {{$keytype->PICK_TEXT}} product subscription</p>
+                                                                        from TTB {{$paymentDetails->product_name}} regarding the status of your
+                                                                        TTB {{$paymentDetails->product_name}} product subscription</p>
                                                                     <p
                                                                         style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;color:#333333;font-size:12px">
                                                                         Copyright © <strong><a target="_blank"
                                                                                 href="https://www.ttbinternetsecurity.com/"
                                                                                 style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#13d5a8;font-size:12px">TTB
-                                                                                {{$keytype->PICK_TEXT}}</a></strong> Inc. All rights
+                                                                                {{$paymentDetails->product_name}}</a></strong> Inc. All rights
                                                                         reserved.</p>
                                                                 </td>
                                                             </tr>
@@ -903,17 +861,18 @@
                                                                                     Privacy</a></td>
                                                                             <td align="center" valign="top" width="20%"
                                                                                 style="Margin:0;padding-left:5px;padding-right:5px;padding-top:5px;padding-bottom:5px;border:0;border-left:1px solid #cccccc">
-                                                                                @if ($paymentDetails->key_type==501)
-                                                                                <a target="_blank"
-                                                                                href="{{route('user.vpn_download')}}"
-                                                                                style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:none;display:block;font-family:arial, 'helvetica neue', helvetica, sans-serif;color:#282626;font-size:12px;font-weight:bold">
-                                                                                Download</a></td>
-                                                                                @elseif ($paymentDetails->key_type == 502)
-                                                                                <a target="_blank"
-                                                                                    href="{{route('user.antivirus_download')}}"
+                                                                                @if ($paymentDetails->key_type == 501)
+                                                                                <a target="_blank" href="{{ route('user.vpn_download') }}"
                                                                                     style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:none;display:block;font-family:arial, 'helvetica neue', helvetica, sans-serif;color:#282626;font-size:12px;font-weight:bold">
-                                                                                    Download</a>
-                                                                                @endif
+                                                                                    Download
+                                                                                </a>
+                                                                            @elseif ($paymentDetails->key_type == 502)
+                                                                                <a target="_blank" href="{{ route('user.antivirus_download') }}"
+                                                                                    style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:none;display:block;font-family:arial, 'helvetica neue', helvetica, sans-serif;color:#282626;font-size:12px;font-weight:bold">
+                                                                                    Download
+                                                                                </a>
+                                                                            @endif
+
                                                                                 </td>
                                                                             <td align="center" valign="top" width="20%"
                                                                                 style="Margin:0;padding-left:5px;padding-right:5px;padding-top:5px;padding-bottom:5px;border:0;border-left:1px solid #cccccc">
@@ -982,9 +941,5 @@
         </table>
     </div>
 </body>
-@else
-<p>please Contact Support Team</p>
-<a href="{{route('user.contact_as')}}">Contact Page</a>
-@endif
 
 </html>
