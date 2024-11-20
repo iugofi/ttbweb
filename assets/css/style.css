@@ -54209,9 +54209,8 @@ li.footer-icon:hover i.fa-brands.fa-square-pinterest {
 
 
 
-.new--php {
-    margin-top: 100px;
-}
-
+.new--php {margin-top: 100px;}
+.new--php--img{width: 100%;}
+.new--php--content{justify-content: center; text-align: center;}
 
 /* sahil */
