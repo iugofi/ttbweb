@@ -1938,7 +1938,7 @@ h6 {
 .mx-3 {
     margin-left: 0.75rem;
     margin-right: 0.75rem;
-}
+}   `
 
 .mx-\[0\.1875rem\] {
     margin-left: 0.1875rem;
@@ -54200,17 +54200,3 @@ li.footer-icon:hover i.fa-brands.fa-square-pinterest {
     height: 380px;
     border-top: 3px solid #12D2B3;
 }
-
-
-
-
-
-/* sahil */
-
-
-
-.new--php {margin-top: 100px;}
-.new--php--img{width: 100%;}
-
-
-/* sahil */
